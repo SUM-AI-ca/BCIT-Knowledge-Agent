@@ -1,6 +1,6 @@
-# BCIT Academic Advisor Chatbot
+# BCIT Advisor Chatbot
 
-RAG-based chatbot for BCIT CST students.
+RAG-based chatbot for BCIT students.
 
 ## Requirements
 
