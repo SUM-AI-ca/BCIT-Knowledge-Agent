@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/data-communications-for-cst-comp-3725/
+Title: Data Communications for CST
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3725
+
+================================================================================
+
+## Overview
+
+Following on from COMP 2825 Computer Architecture, students are introduced to the basic concepts and terminology related to data communications, networking and network topologies. COMP 3725 replaces COMP 3721 in the CST/PTS Diploma and is equivalent to the full-time CST Diploma course. Students will learn about the TCP/IP protocol suite and the principles of protocols at the physical, data link, network and transport layers, the characteristics of transmission media, analog/digital transmission, multiplexing/switching techniques, basic error detection and correction, elementary data link protocols, flow control and an introduction to routing and congestion control issues. Multiple access protocols, the UDP and TCP protocols, networking and internetworking devices, LANs and WANs will also be discussed. The course has a strong emphasis on data communications at the physical layer and the assignments will reinforce the fundamental concepts and analysis techniques. Upon successful completion, students will be familiar with network protocol implementation using a layered approach and apply basic data communication theory to the design and analysis of networks.
+
+## Credits
+
+5.0
+
+## Cost
+
+$791.69
+
+## Prerequisites
+
+- 60% in COMP 2825 or 50% in COMP 2721
+
+## Learning Outcomes
+
+- Explain the basic concepts and terminology related to data communications and networking.
+- Explain the characteristics of the TCP/IP protocol suite.
+- Discuss and analyze protocols at the physical, data link, network and transport layers.
+- Discuss network protocol implementation using a layered approach.
+- Apply basic data communication theory to the design and analysis of networks.
+
+## Related Programs
+
+- Computer Systems

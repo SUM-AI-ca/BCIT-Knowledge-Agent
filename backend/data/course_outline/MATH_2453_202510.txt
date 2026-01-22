@@ -1,0 +1,197 @@
+URL: https://www.bcit.ca/outlines/20251092194/
+Course: MATH 2453
+Field: Statistics for Natural Resources
+
+School: School of Construction and the Environment
+Program: Fish, Wildlife, and Recreation
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 02, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): MATH 1455
+CRN: 92194
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Laura Billing
+E-mail: Laura_Billing@bcit.ca
+Location: SW2-221
+Office Hours: Instructor to provide
+
+## Course Description
+This is an introductory‐level course in statistics. Topics include descriptive statistics (including measures of central tendency and variation, and appropriate graphical displays of data); probability laws and distributions; inferences from one or two samples (hypothesis testing and confidence intervals); estimation of sample size; linear correlation and regression. Additional topics may include chi‐squared tests for independence and homogeneity. These methods will be applied to examples from the natural resource field, including student research projects as applicable.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Differentiate between observational studies and experiments in the natural environment
+- Categorize variables based on the type of data they represent
+- Use statistical processes to summarize, analyze, and interpret statistical data from the natural environment
+- Compute and understand measures of central tendency, variation, and position; identify outliers in a sample
+- Prepare and interpret an appropriate graph to display sample data
+- Apply discrete and continuous probability distributions, including the binomial and normal distributions; analyze sampling distributions using the central limit theorem
+- Estimate population parameters using confidence intervals for the mean and proportion; determine an appropriate sample size based on a margin of error
+- Formulate and test hypotheses for the mean, proportion, difference in two means, and difference in proportions
+- Conduct linear regression and test for a significant relationship between two numerical variables
+
+## Learning Resources
+Required Text:
+
+Math 2453 Course Notes (Winter 2025) by Laura Billing (available from the BCIT Bookstore)
+
+Optional Texts:
+
+Elementary Statistics, 13th Edition by Mario F. Triola, Pearson Addison Wesley.
+
+The Analysis of Biological Data, Third Edition by Michael C. Whitlock and Dolph Schluter
+
+Required Equipment:
+
+A scientific calculator with ability to do x, y data entry, statistical functions for means and standard deviation, and linear regression and correlation is required. The recommended calculator is the Sharp EL-520 (or Sharp EL-546). Examples done using a calculator in class and the labs will be done with these calculators, and help will be available for these calculators. Graphing and programmable calculators are not permitted.
+
+## Course Goals
+The goals of this course are to provide the student with the statistical skills needed to solve problems that will be encountered in the Fish, Wildlife, and Recreation program and in future employment in related industrial settings.
+
+Note:
+
+The student will use words and diagrams to present organized solutions to problems and to draw relevant conclusions from their solutions. The student will be exposed to methods for effective use of calculators as well as the use of Excel spreadsheet software and RStudio statistical software in hands-on computer labs.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 15%: There will be short quizzes in the labs every week (unless otherwise noted). The lowest two quiz grades will be dropped to account for illness or other absences.
+Assignments: 20%: Assignments will include several types of submissions: WeBWorK assignments (most weeks), Excel and RStudio assignments, Hand-written assignments to support other assignment submissions.
+Case Study: 5%: Group case study
+Tests (2): 30%: 2 tests worth 15% each
+Final Exam: 30%
+Total: 100%
+
+## Attendance Requirements
+Attendance/Illness (BCIT policy): In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program Head, indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT approved medical certificate submitted to the program, substantiating the reason for absence. For other absences, the student should be prepared to provide appropriate supporting documentation. Unapproved absence in excess of the prescribed regulations within this document may result in failure or forced withdrawal from the course or program. Please see Policy 5101 - Student Regulations.
+
+Attendance/Illness (FWR/FNAM guidelines): If you need to miss class, please (1) notify instructors with as much advanced notice as possible (at least 24 hours), and (2) arrange for a classmate to provide you with all missed handouts/notes/instructions. Students cannot miss more than 10% of class meetings without prior arrangements with the instructor. This includes missed time resulting from a late arrival – partially missed class time also counts towards the 10% and will be calculated based on time missed. A doctor’s note (using a BCIT approved medical certificate) may be required within 10 days of the missed class for any illness causing you to miss any assignments/projects/quiz/exam/lab/field trips. Unless otherwise agreed upon, medical appointments, interviews, etc. scheduled during class times are not considered excused absences. At the discretion of the instructor, you may complete the work missed or have the work prorated for excused absences.
+
+Students who miss more than 10% of class meetings may be given a failing grade for the course/program or the student may be removed from the course/program (Policy 5101 - Student Regulations).
+
+## Other information
+Assignments (FWR/FNAM guidelines): Marks will be reduced by 10% for each 24-hour period (or fraction thereof) that an assignment is submitted beyond the due date. For instance, an assignment that would have earned 82% if submitted on time would earn 72% if submitted up to 24 hours late. If this assignment was submitted 25 hours later, it would earn 62%. The application of this penalty or alternate approaches to late submissions will be at the discretion of the course instructor.
+
+Policy on Late Assignments for Math 2453
+
+Late assignments using Excel or RStudio will lose 10% of the grade per calendar day or fraction thereof that they are submitted late. Late assignments in Excel or RStudio will not be accepted after graded assignments are returned.
+
+WeBWorK homework assignments will usually be posted after each lecture. You will have some time in the labs to work on your homework and ask questions, and the assignment will be due the following Monday by 11:59pm (before the following week’s lab).
+
+It is important to keep up with the material in the course, so students should aim to get every homework assignment done by the due date (especially if the material will be on a quiz or test soon after the assignment is due!). However, it may be difficult to achieve this when something suddenly comes up (such as illness, family commitments, or just time management challenges). With this in mind, each student can have two (2) extensions on WeBWorK assignments this term (with no reason required). A sample email is provided on the Learning Hub (under Content → Course Logistics) that you are welcome to use to request a free, no-reason-needed extension for an assignment. These extensions will give you 5 extra days to complete the assignment (due Saturday by 11:59pm instead of Monday at 11:59pm).
+
+Students may also request extensions under extenuating circumstances with documentation by emailing your instructor. These are separate from the 2 “free” extensions and will be handled on a case-by-case basis.
+
+Hybrid Courses (FWR guidelines): For hybrid courses, FWR students must adhere to the following program guidelines:
+
+Computer/internet requirements - For hybrid courses, students must have access to a computer with a functional webcam/microphone and reliable internet that meet these minimum requirements.
+
+Exam/quiz invigilation - Instructors use a variety of invigilation methods for online testing. Potential invigilation methods during online programming include (but are not limited to): invigilation software, the BCIT Learning Hub, or use of webcams to ensure academic integrity. Regardless of the invigilation method used, students must adhere to Policy 5104 – Student Code of Academic Integrity.
+
+Academic Integrity (BCIT policy): Violation of academic integrity, including plagiarism, dishonesty in assignments, exams, or other academic performances are prohibited and will be handled in accordance with Policy 5104 – Student Code of Academic Integrity.
+
+Student Conduct (non-academic) (BCIT policy): Disruptive behavior, use of illegal or regulated substances, and other violations of the non-academic code of student conduct will be handled in accordance with Policy 5102 – Student Code of Conduct (Non-academic).
+
+Accommodation (BCIT policy): Any student who may require accommodation from BCIT because of a physical or mental disability should refer to Policy 4501 – Accommodation for Students with Disabilities, and must contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services and should not be made to a course instructor or program area. Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Accessibility Services (Math 2453)
+
+I would encourage any student who may need accommodations due to a disability to contact BCIT’s Accessibility Services (https://www.bcit.ca/accessibility/) as early in the term as possible. Even if you are not sure whether you will need to use the accommodation, it is best to get an Individual Accommodation Plan in place soon (it can take several weeks to meet with a specialist and ensure all the correct paperwork has been submitted). In Math 2453, accommodations for extra time require an Individual Accommodation Plan through Accessibility Services.
+
+Your instructor will do their best to support your success. This may include directing concerns about your academic progress or your wellbeing to Early Assist. Early Assist will connect students with appropriate support services. Any concerns identified by instructors are treated confidentially, and information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or their academic progress.
+
+Human Rights, Harassment and Discrimination (BCIT policy): The BCIT community is made up of individuals from every ability, background, experience, and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding, and mutual respect between all members of the community, and to ensure an inclusive and accessible working and learning environment where everyone can succeed. The Respect, Diversity, and Inclusion office provides resources for both students and employees of BCIT that foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please also see Policy 7507 – Harassment and Discrimination.
+
+Communicable Disease Prevention (BCIT policy): Students should familiarize themselves with the BCIT Communicable Disease Prevention Plan, which includes key guidelines to follow when coming to campus such as:
+
+· Please stay home if you are feeling unwell (even if you have tested negative for COVID). The BC COVID-19 Self-Assessment Tool is available to assess symptoms and determine if further assessment or testing is needed.
+
+· If you have tested positive for COVID-19 follow BC CDC guidelines on isolation.
+
+· Please do not come to campus if you have been advised to self isolate.
+
+· If you start to feel unwell while on campus, please return home and contact 811 for health advice.
+
+Communicable Disease Prevention (FWR/FNAM guidelines): In addition to the BCIT policies above, FWR and FNAM students must adhere to the following program guidelines:
+
+Field programming - Ahead of field trips, students will be introduced to and must adhere to safety guidelines including as needed those specific to communicable diseases.
+
+Course schedule - During any online programming that BCIT mandates, individual instructors may opt to conduct portions of class asynchronously (i.e., students complete activities outside normal class meetings). However, students must continue to be available during all scheduled class times. Computer/internet requirements - During any online programming that BCIT mandates, students must have access to a computer with webcam/microphone and reliable internet that meet these minimum requirements.
+
+Exam/quiz invigilation – During any online programming that BCIT mandates, instructors may alter invigilation methods but will provide students with as much notice as possible about changes. Potential invigilation methods during online programming include (but are not limited to): invigilation software, the BCIT Learning Hub, use of webcams to ensure academic integrity. Regardless of the invigilation method used, students must adhere to Policy 5104 – Student Code of Academic Integrity.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies.
+
+## Statement for prior learning assessment
+Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Department, taking into account all of the following:
+
+- recency (generally no more than 3-5 years),
+- the grade (generally at least a C+ or 65%),
+- the context (taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program), and
+- the correspondence between topics, content and level.
+
+Students wishing to apply for course credit can complete a Course Credit / Exemption Application form. The form must be submitted to Student Information and Enrollment Services prior to the course credit deadline. Until students know that they have been granted course credit, they should continue to attend classes and work on their assignments.
+
+## Course Schedule and Assignments
+This schedule is approximate and subject to change at the discretion of the instructor.
+
+Week: Topics: Evaluation (approximate) timing
+1: Introduction, types of studies and data
+2: Descriptive statistics for a single numerical variable: Quiz 1 (Jan 14)
+3: Descriptive statistics for a single numerical variable Normal distribution: Quiz 2 (Jan 21)
+4: Normal distribution and Central Limit Theorem One-sample hypothesis tests for the mean: Quiz 3 (Jan 28)
+5: One-sample hypothesis tests for the mean Confidence intervals for the population mean and sample size estimatation: Quiz 4 (Feb 4)
+6: Confidence intervals for the population mean and sample size estimatation Descriptive statistics for a single categorical variable: Quiz 5 (Feb 11)
+7: Binomial probability distribution: Test 1 (Feb 18)
+8: One-sample hypothesis tests and confidence intervals for one population proportion
+9: Descriptive statistics for a categorical predictor and a numerical response Descriptive statistics for a categorical predictor and a categorical response: Quiz 6 (Mar 4)
+Spring Break
+10: Two-sample hypothesis tests and confidence intervals for the difference in two means: Quiz 7 (Mar 18)
+11: Two-sample hypothesis tests and confidence intervals for the difference in two means: Test 2 (Mar 25)
+12: Chi-squared tests of independence and homogeneity
+13: Linear correlation and regression: Quiz 8 (Apr 8) Case study due (Apr 11)
+14: Linear correlation and regression Introduction to graphing mutivariate data (time permitting) Review: Quiz 9 (Apr 15)
+15: Final exam: Final Exam (scheduled by program)
+
+Course Outline Changes (FWR/FNAM guidelines): The course curriculum or schedule specified in this course outline may be altered. If changes are required, they will be announced with as much advanced notice as possible.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Laura Billing, Instructor January 02, 2025
+
+I verify that this course outline has been reviewed. David Holloway, Program Head January 04, 2025
+
+I verify that this course outline has been reviewed. Laurie Stott, Program Head January 06, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean January 06, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,134 @@
+URL: https://www.bcit.ca/outlines/20243049815/
+Course: MDAA 2195
+Field: Digital Sculpting
+
+School: School of Business + Media
+Program: 3D Modeling Art and Animation
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lab
+Prerequisite(s): All courses from term 1 must be successfully completed.
+CRN: 49815
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Aldrich Chung
+E-mail: aldrich_chung@bcit.ca
+Location: CARI 2018B
+Office Hours: OUTSIDE CLASS HOURS:Office Hours: Thursdays 11:00am-12:00pmBy Appointment - Students may contact and schedule for an online one-on-one 2 days prior. Students may also send an email for quick help and feedback on their work.Weekend appointment and feedback will only be available for urgent matters.
+
+## Course Description
+​Upon completion of this course the students will have been exposed to multiple aspects of the digital sculpting interface, enabling them to navigate the program with ease. Students will be shown various tools and techniques that will allow them to create complex forms and shapes within a 3D sculpting environment. The students will have also been introduced to fundamental anatomy principles, allowing them to create believable organix forms and structures.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Identify major skeletal bones in the human body and face.
+- Distinguish major muscles in the human body and accurately explain their purpose.
+- Effectively navigate the digital sculpting environment.
+- Create a custom workspace and user hotkeys.
+- Build and use a variety of pre-set and custom brushes.
+- Sculpt realistic and stylized human faces and bodies.
+- Digitally recreate how clothes and fabrics wrinkle and bend around forms correctly.
+- Build hard surfaced models using shapes and primitives from within the 3D sculpting program.
+- Explain when automatic remeshing techniques are appropriate to use and when they are not.
+- Successfully export a high poly sculpt and maps with correct settings.
+
+## Learning Resources
+HELPFUL LINKS:
+
+Pixologic Zbrush Documentation User Guide:
+
+https://docs.pixologic.com/user-guide/3d-modeling/
+
+Pixologic Youtube Channel
+
+https://www.youtube.com/channel/UCEh_IoMVGA7NPsx6-2H8Bqw
+
+SUGGESTED READINGS:
+
+- Anatomy for Sculptors (by Uldis Zarins with Sandis Kondrats)
+
+- JC Leyendecker (By Laurence S. Cutler and Judy Goffman Cutler)
+
+## Evaluation Criteria
+Criteria: %
+Assignments: 80
+Fish Exercise: 5
+Insect Exercise: 10
+Assignment 1 -Polygroup and Splitting Exercise: 5
+Assignment 2 - Weapon Assignment: 10
+Assignment 3 - Full body Sculpting: 20
+Assignment 4 - Head Sculpt Assignment: 15
+Assignment 5 - Footgear Assignment: 15
+Final Assignment: 20
+Total: 100
+
+## Attendance Requirements
+CLASS RULES ON TARDINESS:
+
+- Students will be given a 15 minute buffer to make it into class.
+
+- Students who are late by 15 minutes will be marked as absent in the attendance.
+
+- It will be the students' responsibility to inform themselves and catch up on any missed lessons.
+
+## Course Specific Requirements
+- Students are REQUIRED to bring their drawing tablets to this class. If a student does not have a working drawing tablet, they will be asked to leave the class and will be counted as absent.
+
+- Assignment will be given a 10% deduction for late submission. Anything submitted past 1 week of the deadline will not be accepted for grading.
+
+## Course Schedule and Assignments
+Week of: Lesson: Assignment: Due This Week
+Day 1 Sept 5: Introduction to basic Zbrush Interface Introduction to Tools and Subtools Merging, Duplicating, Splitting Introduction to Sculpting Brushes and Brush Parameters Basic Brushes (Stroke, Alpha, etc) Masking Brushes Selection/Trim/Slice Brushes Introduction to Subdivision Levels Introduction to Dynamesh: Fish Exercise
+Day 2 Sept 12: Creating Custom Brushes (Basic) Importing and Exporting Meshes Creating Base Meshes with ZSpheres Creating Base Meshes with Zbrush tools Introduction to Spotlight and Image Planes: Insect Exercise: Fish Exercise
+Day 3 Sept 19: UI Customization Introduction to ZRemesher Introduction to Creases Introduction to Dynamic Subdiv Introduction to Extraction, Polygroups and Splitting Introduction to ZModeler Boolean tools and Live Boolean Alpha Creation for Custom Brushes Hard Surface Brushes: Assignment 1 - Polygroup and Splitting Exercise Assignment 2 - Weapon Assignment: Insect Exercise Polygroup and Splitting Exercise
+Day 4 Sept 26: Weapon Assignment Continued Review and Lab Time
+Day 5 Oct 3: Full Body Base Mesh Torso Anatomy Sculpt Review/Lab time: Assignment 3 - Full body Sculpting: Assignment 2 - Weapon Assignment
+Day 6 Oct 10: Arms and Hand Anatomy Sculpt Leg and Foot Anatomy Review/Lab time
+Day 7 Oct 17: Full Body Sculpting Review Modifying Base mesh to different Body types Review/Lab time
+Day 8 Oct 24: Head Anatomy Sculpt: Assignment 4 - Head Sculpt Assignment: Assignment 3 - Full body Sculpting
+Day 9 Oct 31: Introduction to Layers Introduction to basic head topology Stylized Hair Creation
+Day 10 Nov 7: Armor and Clothes sculpt (Footgear Exercise) Creating Boot with ZRemesher and ZModeler Creating Custom Brushes Revisited Insert Mesh Brushes Curve Brushes Creating base meshes in Maya and adding sculpting information in Zbrush Introduction to Retopology Lab Time: Assignment 5 - Footgear Assignment: Assignment 4 - Head Sculpt Assignment
+Day 11 Nov 14: Footgear Reviews Decimating and Exporting High Poly Sculpts Retopoing Mesh in Maya Workflow: Final Assignment: Assignment 5 - Footgear Assignment
+Day 12 Nov 21: Clothes sculpting in Zbrush Extraction and Zremesher workflow for clothes. Adding thickness to clothes using dynamic subdiv.
+Day 13 Nov 28: Polypainting and Exporting Maps from Zbrush Posing Characters in Zbrush Rendering in Zbrush Zbrush to Maya Export/UVing workflow
+Day 14 Dec 5: Lab Time for Final Assignment
+Day 15 Dec 12: Final Assignment Review and Feedback Final Assignment submission and presentation: Final Assignment
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: Regular attendance in lectures and labs is seen as integral to student success, therefore, attendance in class is monitored. Unexcused absences in excess of 10% of the time prescribed for this course may result in the assignment of a failing grade. Attendance may be taken at any time during class. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken.
+
+In case of illness or other unavoidable absence, students must communicate with the instructor, or the appropriate Program Head, as soon as possible (preferably in advance) indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate ). For other absences, students must be prepared to provide appropriate supporting documentation.
+
+A student who has unexcused absences in excess of 10% of the time prescribed for the course by the Withdrawal Deadline is considered to have ‘Vanished’ and will be assigned a grade of ‘V’. In these cases, no further work will be graded.
+
+These requirements are set out in accordance with BCIT Policy 5101 Student Regulations. More information regarding withdrawals from Flexible Learning courses is available at Refunds and Withdrawals
+
+## Approved
+I verify that the content of this course outline is current. Aldrich Chung, Program Head August 16, 2024
+
+I verify that this course outline has been reviewed. Bob Kreut, Program Head August 26, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Susannah Skerl, Associate Dean August 27, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

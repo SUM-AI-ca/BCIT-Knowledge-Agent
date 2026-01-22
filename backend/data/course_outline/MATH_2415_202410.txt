@@ -1,0 +1,115 @@
+URL: https://www.bcit.ca/outlines/20241079974/
+Course: MATH 2415
+Field: Statistics for CENV Technology
+
+School: School of Energy
+Program: Chemical & Environmental Technology
+Course Credits: 3.5
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: March 08, 2024
+Total Hours*: 50
+Total Weeks: 10
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 79974
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bruno L'Esperance
+E-mail: Bruno_LEsperance@bcit.ca
+Location: SW2-221
+Office Hours: Monday: 12h30 to 14h20Thursday: 12h30 to 14h20Friday: 11h30 to 14h20
+
+## Course Description
+Descriptive statistics including measures of central tendency and dispersion, and graphical presentation of data using software, concepts of probability, parametric inferential statistics and regression, all with relevant real-data chemical and environmental applications. The rudiments of quality control including an introduction to statistical process control charts will be incorporated. The emphasis will be on interpretation including suitability of method of analysis
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Discuss appropriate methods of sampling and experimental design (e.g., random vs. nonrandom sampling, paired differences testing).
+- Arrange raw data in the standard descriptive statistics tables and graphs (e.g., create frequency tables and histograms of chemical composition; calculate CV), identify outliers in a set of observations.
+- Analyze basic probability situations, including quality control tests, using the basic Adding and Multiplying Rules.
+- Estimate parameters of populations (e.g., estimate the mean sulphur content of a product using a discrete number of samples).
+- Compare population parameters (e.g., compare the mean metal concentration in a stream before and after wastewater treatment).
+- Construct and interpret basic statistical process control (SPC charts).
+- Conduct linear regression (e.g., investigate the effect of temperature on viscosity using experimental data); analyze absorption spectra (using all data in an over-determined system).
+- Organize and write statistical reports including collecting the raw data.
+
+## Learning Resources
+Recommended:
+
+- Any elementary statistics textbook (example: Elementary Statistics, Triola, M.F)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 20
+Quizzes (2): 20: 10% Each
+Midterm: 25
+Final Exam: 35
+Total: 100: Minimum passing grade is 50%
+
+## Course Specific Requirements
+Advancement: Students who fail three or more courses in a term cannot advance to the next term and may be asked to discontinue from the program.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices including personal music players, mobile devices (cell phones) and laptops are prohibited.
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+Week: Lecture Topic
+1: Introduction to statistics
+2: Summarizing and graphing data
+3: Data description
+4: Probability and Counting
+5: Discrete distributions, Midterm Exam
+6: Normal Distribution, Central Limit Theorem
+7: Confidence Intervals
+8: Hypothesis testing
+9: Confidence intervals and hypothesis testing for 2 populations
+10: Correlation and Regression, Process control, Final Exam
+
+## Course topics
+Descriptive Statistics · terminology, abuses of statistics, design of experiments · frequency tables, stemplots, graphical presentations · measures of central tendency, variation, position
+Probability and Probability Distributions · probability, adding and multiplying rule · discrete probability distributions (binomial, Poisson) · continuous probability distributions (normal distribution)
+Inferences from One Sample · sampling distributions, Central Limit Theorem, student t distribution · parameter estimation, hypothesis testing using traditional and p-value methods (population mean, variance)
+Inferences from Two Samples (population means, variance)
+Linear Regression · regression and correlation analysis
+Quality Control · theoretical, empirical quality control testing
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bruno L'Esperance, Instructor December 24, 2023
+
+I verify that this course outline has been reviewed. David Holloway, Program Head December 29, 2023
+
+I verify that this course outline has been reviewed. Lynn Erickson, Program Head December 29, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 29, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

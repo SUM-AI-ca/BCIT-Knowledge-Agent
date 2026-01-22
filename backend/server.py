@@ -1,0 +1,279 @@
+import os
+import warnings
+import uuid
+from typing import Dict, Optional
+from contextlib import asynccontextmanager
+from datetime import datetime, timedelta
+
+os.environ['USE_TF'] = '0'
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+os.environ['TOKENIZERS_PARALLELISM'] = 'false'
+warnings.filterwarnings('ignore')
+
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+from pydantic import BaseModel
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+
+from query_rag import BCITChatbot
+from langchain.memory import ConversationBufferWindowMemory
+
+class AuthRequest(BaseModel):
+    password: str
+
+
+class AuthResponse(BaseModel):
+    success: bool
+    session_id: Optional[str] = None
+
+
+class ChatRequest(BaseModel):
+    message: str
+    session_id: Optional[str] = None
+
+
+class ChatResponse(BaseModel):
+    reply: str
+    session_id: str
+
+
+chatbot: Optional[BCITChatbot] = None
+sessions: Dict[str, dict] = {}
+authenticated_sessions: Dict[str, datetime] = {}
+executor = ThreadPoolExecutor(max_workers=2)
+
+AUTH_PASSWORD = os.getenv("AUTH_PASSWORD", "bcit2025")
+SESSION_TIMEOUT_MINUTES = 30
+
+
+def get_or_create_session(session_id: Optional[str]) -> tuple[str, ConversationBufferWindowMemory]:
+    if not session_id:
+        session_id = str(uuid.uuid4())
+    
+    now = datetime.now()
+    
+    if session_id not in sessions:
+        sessions[session_id] = {
+            "memory": ConversationBufferWindowMemory(
+                k=5,
+                memory_key="chat_history",
+                return_messages=True
+            ),
+            "last_access": now
+        }
+        print(f"[Session] Created new session: {session_id[:8]}...")
+    else:
+        sessions[session_id]["last_access"] = now
+    
+    return session_id, sessions[session_id]["memory"]
+
+
+def cleanup_expired_sessions():
+    now = datetime.now()
+    timeout = timedelta(minutes=SESSION_TIMEOUT_MINUTES)
+    
+    expired_sessions = [
+        sid for sid, data in sessions.items()
+        if now - data["last_access"] > timeout
+    ]
+    
+    expired_auth = [
+        sid for sid, last_access in authenticated_sessions.items()
+        if now - last_access > timeout
+    ]
+    
+    for sid in expired_sessions:
+        del sessions[sid]
+    
+    for sid in expired_auth:
+        del authenticated_sessions[sid]
+    
+    total_expired = len(set(expired_sessions) | set(expired_auth))
+    
+    return total_expired
+
+
+def get_session_stats():
+    return {
+        "active_sessions": len(sessions),
+        "authenticated_sessions": len(authenticated_sessions),
+        "timeout_minutes": SESSION_TIMEOUT_MINUTES
+    }
+
+
+def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> str:
+    global chatbot
+    
+    # Swap memory
+    original_memory = chatbot.memory
+    chatbot.memory = memory
+    
+    try:
+        answer = chatbot.query(question)
+        return answer
+    finally:
+        # Restore original memory (though we don't really use it)
+        chatbot.memory = original_memory
+
+
+async def query_chatbot_async(question: str, memory: ConversationBufferWindowMemory) -> str:
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(executor, query_chatbot_sync, question, memory)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    global chatbot
+    
+    print("\n" + "=" * 60)
+    print("Starting BCIT Chatbot Server...")
+    print("=" * 60 + "\n")
+    
+    try:
+        chatbot = BCITChatbot()
+        print("\n" + "=" * 60)
+        print("Chatbot loaded successfully!")
+        print(f"Session timeout: {SESSION_TIMEOUT_MINUTES} minutes")
+        print("Server ready at http://localhost:8000")
+        print("=" * 60 + "\n")
+    except Exception as e:
+        print(f"Failed to load chatbot: {e}")
+        raise
+    
+    async def cleanup_task():
+        while True:
+            await asyncio.sleep(300)
+            cleanup_expired_sessions()
+    
+    task = asyncio.create_task(cleanup_task())
+    
+    yield
+    
+    # Cleanup
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        pass
+    
+    print("\nShutting down")
+    executor.shutdown(wait=True)
+    sessions.clear()
+    authenticated_sessions.clear()
+
+
+app = FastAPI(
+    title="BCIT Academic Advisor Chatbot",
+    description="RAG-based chatbot for BCIT students",
+    version="4.0.0",
+    lifespan=lifespan
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+@app.post("/auth", response_model=AuthResponse)
+async def authenticate(request: AuthRequest):
+    if request.password == AUTH_PASSWORD:
+        session_id = str(uuid.uuid4())
+        authenticated_sessions[session_id] = datetime.now()
+        print(f"[Auth] New authenticated session: {session_id[:8]}...")
+        return AuthResponse(success=True, session_id=session_id)
+    else:
+        print("[Auth] Failed login attempt")
+        return AuthResponse(success=False)
+
+
+@app.get("/health")
+async def health_check():
+    stats = get_session_stats()
+    return {
+        "status": "healthy",
+        "chatbot_loaded": chatbot is not None,
+        **stats
+    }
+
+
+@app.post("/chat", response_model=ChatResponse)
+async def chat(request: ChatRequest):
+    global chatbot
+    
+    if not request.session_id or request.session_id not in authenticated_sessions:
+        raise HTTPException(status_code=401, detail="Unauthorized. Please login first.")
+    
+    now = datetime.now()
+    last_access = authenticated_sessions.get(request.session_id)
+    if last_access and now - last_access > timedelta(minutes=SESSION_TIMEOUT_MINUTES):
+        authenticated_sessions.pop(request.session_id, None)
+        sessions.pop(request.session_id, None)
+        raise HTTPException(status_code=401, detail="Session expired. Please login again.")
+    
+    authenticated_sessions[request.session_id] = now
+    
+    if chatbot is None:
+        raise HTTPException(status_code=503, detail="Chatbot not initialized")
+    
+    if not request.message.strip():
+        raise HTTPException(status_code=400, detail="Message cannot be empty")
+    
+    # Get or create session
+    session_id, memory = get_or_create_session(request.session_id)
+    
+    try:
+        print(f"\n[Query] Session {session_id[:8]}...: {request.message[:50]}...")
+        
+        # Query chatbot (async to avoid blocking)
+        reply = await query_chatbot_async(request.message, memory)
+        
+        print(f"[Reply] {reply[:100]}...")
+        
+        return ChatResponse(reply=reply, session_id=session_id)
+    
+    except Exception as e:
+        print(f"[Error] {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/reset")
+async def reset_session(session_id: Optional[str] = None):
+    """Reset a session's conversation history"""
+    if session_id and session_id in sessions:
+        sessions[session_id]["memory"].clear()
+        return {"status": "reset", "session_id": session_id}
+    return {"status": "session_not_found"}
+
+FRONTEND_BUILD_DIR = "../frontend/dist"
+
+if os.path.exists(FRONTEND_BUILD_DIR):
+    # Serve static files
+    app.mount("/assets", StaticFiles(directory=f"{FRONTEND_BUILD_DIR}/assets"), name="assets")
+    
+    @app.get("/")
+    async def serve_frontend():
+        return FileResponse(f"{FRONTEND_BUILD_DIR}/index.html")
+    
+    @app.get("/{path:path}")
+    async def serve_frontend_routes(path: str):
+        file_path = f"{FRONTEND_BUILD_DIR}/{path}"
+        if os.path.exists(file_path) and os.path.isfile(file_path):
+            return FileResponse(file_path)
+        return FileResponse(f"{FRONTEND_BUILD_DIR}/index.html")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(
+        "server:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True,
+        workers=1  # Single worker for GPU model
+    )

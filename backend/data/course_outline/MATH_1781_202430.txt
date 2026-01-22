@@ -1,0 +1,172 @@
+URL: https://www.bcit.ca/outlines/20243030318/
+Course: MATH 1781
+Field: Technical Math for Biomedical Engineering
+
+School: School of Health Sciences
+Program: Biomedical Engineering
+Course Credits: 7
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 105
+Total Weeks: 15
+Hours/Weeks: 7
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 30318
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Goran Ruzic
+E-mail: Goran_Ruzic@bcit.ca
+Location
+Office Hours
+
+## Course Description
+Covers systems of linear equations and determinants with application to electrical, networks, logarithmic and exponential functions including the study of electrical transients, dB gain, logarithmic and semilog graphing, trigonometric functions and the graphs of the sinusoidal functions - right triangle geometry with application to impedance and admittance diagrams, complex numbers, rectangular/polar conversion and AC circuit applications, number base conversion and binary number operations with a brief introduction to Boolean logic and Karnaugh mapping.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Write systems of equations for multi-loop electrical networks.
+- Solve system of equations using the method of determinants.
+- Solve exponential equations relating to electrical transients.
+- Solve logarithmic equations with application to decibels.
+- Make effective use of log-log and exponential graphs with application to Bode plots.
+- Sketch sinusoidal waveforms and demonstrate an understanding of phase lag / lead.
+- Solve simple trigonometric equations.
+- Use complex numbers to perform calculations using rectangular, polar, exponential forms and vector like calculations.
+- Understand the complex frequency spectrum, an application of Euler's formula.
+- Use complex numbers to solve ac circuit problems.
+- Work with binary, octal, and hexadecimal number systems.
+- Set up logic problems using Boolean algebra and use methods for simplifying Boolean functions.
+
+## Learning Resources
+Required equimpment
+
+- A scientific calculator. The calculator must perform complex number operations. Casio: fx-991EX / fx-991ESPLUS2 or Sharp EL-W516 are strongly recommended.
+
+Required text:
+
+- Mathematics for Electronics, Pre-Calculus by Dr. Eric Hiob.
+
+Recommended (reference only):
+
+- Basic Technical Mathematics with Calculus by A. Washington.
+- Digital Systems (Principles and Applications) by Tocci.
+
+## Course Goals
+The goals of this course are:
+
+- to provide the necessary mathematical skills that are required to succeed in the technology program.
+- to provide support for the first/second term electronics and digital courses.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Examination: 30
+Term Tests (3 or 4): 55: Number of exams will be set at the discretion of the instructor
+Quizzes: 15
+TOTAL: 100: Minimum passing grade for this course is 50%
+
+## Attendance Requirements
+Students must complete all course work.
+
+Students are expected to attend all classes and lab sessions. Students with attendance below 90% in lab sessions or in labs related activities may be given a COURSE FAILURE.
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+* This schedule is subject to change at the discretion of the instructor.
+
+Week #: Outcome/Material Covered
+1: Unit 1: Introduction/Review · Introduction to Systems of Equations with Application to Waveform and Unit Analysis
+2: · Cramer’s Rule for 2x2 and 3x3 Systems of Equations · Solving Systems of Equations Using Determinants
+3: · Properties of Determinants · Analysis of Electrical Circuits Using the Loop Method · Matrix Multiplication, Matrix inverse, Solving Systems of Equation using Matrices
+4: Unit 2: Properties of Logarithms · Logarithmic Equations · Applications of Logarithms (Decibels)
+UNIT TEST NO. 1
+5: · Properties of Exponential Equations · Sketching Exponential Functions · Electrical Transients (RC and RL Circuit) · Exponential Growth / Decay to a Limit
+6: · Log-Log and Semilog Graphing with Applications (optional Bode plots)
+7: Unit 3: Trigonometric Review · Angular Measure, Basic Trigonometric Functions · Solving Simple Trigonometric Equations · Sketching Sinusoidal Waveforms with Emphasis on Phase Lag/Lead · Introduction to Complex Numbers, Rectangular, Polar, Exponential Forms
+UNIT TEST NO. 2
+8: · Vector-like Operations Using Complex Numbers and Applications Using Euler’s Formula · Representing Alternating Voltages and Current as Complex Phasors · Rms/Peak Values
+9 & 10: · AC Ohm’s Law with Application to Series Circuits · Impedance and Admittance Calculations with Application to Parallel AC Circuits
+UNIT TEST NO. 3
+11/12/13: Unit 4: Number Base Conversions, Arithmetic Using Different Bases · Boolean Algebra and Simplification of Boolean Functions. Option: The 15 hours are covered concurrently with the regular subject material starting in September.
+UNIT TEST NO. 4 (optional)
+14/15: REVIEW AND FINAL EXAM
+
+## Course topics
+Unit 1 - Algebra Review and Linear Circuit Analysis Topics
+
+- A brief review of algebra
+- The basic algebraic fundamentals for setting up electrical circuits
+- Solving systems of linear equation using determinants
+- Properties of determinants
+- Using loop equation for solving electrical circuits
+
+Unit 2 - Exponential and Logarithmic Equations Topics
+
+- Working with logarithms - any base
+- Solving logarithmic equations
+- Application of logarithms - calculating decibels
+- Solving and manipulating exponential equations
+- Exponential decay/growth - circuit time constant
+- Semilog and log-log graphs with application to Bode plots
+
+Unit 3 - Complex Numbers Theory and Trigonometry Topics
+
+- Radian measure and the properties of the sine, cosine and tangent functions
+- The inverse trigonometric functions - solving simple trigonometric equations
+- Graphing y = cos(x + φ), y = sin(x + φ), and y = tan(x)
+- Representing sinusoidals as functions of time - amplitude, period, frequency, phase angle, lag/lead
+- Graphing y = Asin(ωt + φ) and y = Acos(ωt + φ)
+- Introduction to imaginary numbers and the complex plane
+- Addition, multiplication, division of complex numbers using the rectangular form
+- Other representations of the complex number: - The polar form - The exponential form - Working with real/imaginary parts
+- The complex conjugate and absolute value of a complex number
+- Representing sinusoidals as rotation vectors in the complex plane - the phasor
+- Representing alternating voltages and currents as phasors in both the rectangular and polar form
+- The complex frequency spectrum, an application using Euler's formula
+- Application of complex numbers to AC circuits
+
+Unit 4 - Number Systems and Binary Logic Topics
+
+- Writing numbers using decimal, binary, octal and hexadecal forms
+- Addition, subtraction, multiplication and division using different base representation
+- two's complement representation of binary numbers
+- Fundamentals of digital logic and design of simple logical devices
+- Using Boolean algebra and Kaungh mapping to simply logic designs
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Goran Ruzic, Instructor July 17, 2024
+
+I verify that this course outline has been reviewed. David Holloway, Program Head July 17, 2024
+
+I verify that this course outline has been reviewed. Anthony Chan, Faculty August 01, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean August 23, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

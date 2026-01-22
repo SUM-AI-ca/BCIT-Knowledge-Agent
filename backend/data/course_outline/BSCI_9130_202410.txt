@@ -1,0 +1,111 @@
+URL: https://www.bcit.ca/outlines/20241079243/
+Course: BSCI 9130
+Field: Building Energy Performance
+
+School: School of Construction and the Environment
+Program: BUILDING SCIENCE GRADUATE PROGRAM
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 05, 2024
+End Date: April 12, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): (60% in BSCI 9000 and 60% in BSCI 9120) or 50% in BLDC 3050† († may be taken concurrently)
+CRN: 79243
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bo Li
+E-mail: Instructor to provide
+Location: NE 1 248B
+Office Hours: Instructor to provide
+
+## Course Description
+The course is presented as lectures and assignments, with a term project to be conducted in parallel with lectures. The course is broken into seven segments: 1. Building Thermal Demand Analysis – heating and cooling loads (includes envelope transmission losses and gains, solar gains, internal gains, lighting and appliance loads, and climatic and operating considerations). 2. Passive Solar Design Concepts in Building Application – solar heating and cooling, thermal mass, natural ventilation, daylighting, building orientation. 3. Building HVAC System – various types of heating, cooling and ventilation system and components. 4. Energy-efficiency Measures – high-efficient building mechanical, service hot water and lighting systems, improved envelope thermal properties, smart energy management and control. 5. Whole-Building Energy Models – simulation of building thermal behaviors and energy system performance characteristics. 6. Analysis of Simulation Results – building energy profiles and drivers, GHG emissions reduction opportunities analyses, simple and complex payback, life-cycle costing and present-value analyses. 7. Regulatory and Voluntary Programs – BC Energy Step Code, ASHRAE 90.1 and 90.2, Model National Energy Codes, LEED, CBIP. Each week's lesson includes a two-hour lecture session, and a one-hour lab session. In addition, a bi-weekly preparatory session of active learning (reflection of key readings) will be scheduled.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Use appropriate analytical and numerical methods/tools to carry out the analysis of building mechanical, service hot water and lighting systems energy performance.
+- Apply appropriate analytical and numerical methods/tools to conduct building thermal load/demand calculations.
+- Assess the interaction of the building envelope with HVAC systems including examining the impact of different envelope systems on building thermal behaviors and energy performance.
+- Making engineering judgement autonomously including identifying the most applicable energy saving solution(s) for a given building by investigating the effectiveness of potential energy-conservation measures on energy saving and GHG emission reductions.
+- Determine the economic implications of each proposed energy conservation measure:
+- Discuss various economic evaluation tools (e.g., life-cycle costs, simple and complex payback).
+- Perform engineering economic analysis of energy-efficiency measures proposed in the study.
+- Evaluate and recommend passive design solutions for a given building under a given climate.
+- Discuss the relative merits of various assessment criteria.
+- Interpret simulated results to, and communicate the key findings/conclusions with personnel of other disciplines in building design.
+- Present simulation results and findings in a clear and understandable manner, in both a written and public presentation.
+
+## Learning Resources
+https://openstudio.net/
+
+https://nrel.github.io/OpenStudio-user-documentation/
+
+https://energyplus.net/documentation
+
+ASHRAE Handbook Fundamentals 2013
+
+DOE-2 Engineers Manual Version 2.1A
+
+## Evaluation Criteria
+Criteria: %: Comments
+Term Project: 20: Evaluation of the Term Project will be done on an incremental basis
+Assignment: 10: Assignment evaluates students' understanding of the materials being taught in the class
+Mid-Term Exam: 30: Exams will evaluate the students' ability to set up a simple BEM in OpenStuido and conduct a simple investigation on impacts of BEM inputs, such as envelope, schedules, weather on building energy use.
+Final Exam: 40: Exams will evaluate the students' ability to set up air and water loops of HVAC and Plumbing systems in OpenStuido, run the simulation, justify the model outcomes and understand the limit of OpenStudio energy simulation tool
+
+## Course Specific Requirements
+Late submissions of course assignments or course projects there will be penalized with a ten percent (10%) deduction in the mark per day of late submission.
+
+## Other information
+Building Science Graduate Program Policy on Repeating Courses
+
+This policy supercedes the School policy below: No more than two courses may be repeated with no course being repeated more than once. Where a failing grade is obtained in a core course, the student will be required to repeat the course and obtain a passing grade. If a student fails to obtain a passing grade in the repeated course, the student may apply, on the recommendation of the Graduate Program Director, to the Dean of the school for permission to take the course a third time. If permission is not granted, the student may be requested to withdraw from the program. Where a failing grade is obtained in an elective course, the student may repeat the course once or take an alternate course.
+
+## Course Schedule and Assignments
+Weeks: Date: Time: Lecture Topics: Assignment: Remarks
+Week 1: Jan 5 2024: 2:30pm - 5:30pm: Introduction of BEM
+Week 2: Jan 12 2024: 2:30pm - 5:45pm: Weather & Envelope in BEM: Assignment #1
+Week 3: Jan 19 2024: 2:30pm - 5:45pm: Internal Energy and Spaces in BEM
+Week 4: Jan 26 2024: 2:30pm - 5:45pm: Solar Radiation: Assignment #2
+Week 5: Feb 2 2024: 2:30pm - 5:45pm: Heat Gain Through Fenestration
+Week 6: Feb 9 2024: 2:30pm - 5:45pm: Building Cooling Loads and its Impact Factors: Assignment #3
+Week 7: Feb 16 2024: 2:30pm - 5:45pm: Building Heating Loads and its Impact Factors: Midterm Exam: Short lecture after 1.5 hours exam
+Week 8: Feb 23 2024: 2:30pm - 5:45pm: Introduction of Basic HVAC systems: Assignment #4
+Week 9: Mar 1 2024: 2:30pm - 5:45pm: HVAC Systems in BEM
+Week 10: Mar 8 2024: 2:30pm - 5:45pm: Advanced HVAC Topics in BEM 1: Assignment #5
+Week 11: Mar 15 2024: 2:30pm - 5:45pm: Advanced HVAC Topics in BEM 2
+Week 12: Mar 22 2024: 2:30pm - 5:45pm: Lighting and Daylight in BEM: Assignment #6
+Week 13: Mar 29 2024: N/A: No Class: Good Friday
+Week 14: Apr 5 2024: 2:30pm - 5:30pm: Introduction of EnergyPlus
+Week 15: Apr 12 2024: 2:30pm - 5:30pm: N/A: Final Exam: 3 hours exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bo Li, Instructor January 03, 2024
+
+I verify that this course outline has been reviewed. Fitsum Tariku, Director January 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Guido Wimmers, Dean January 05, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

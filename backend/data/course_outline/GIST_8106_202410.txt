@@ -1,0 +1,110 @@
+URL: https://www.bcit.ca/outlines/20241073756/
+Course: GIST 8106
+Field: Spatial Analysis
+
+School: School of Construction and the Environment
+Program: Geographic Information Systems
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: March 08, 2024
+Total Hours*: 40
+Total Weeks: 10
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): 50% in GIST 7010 and 50% in GIST 8128 Course registration is restricted to current students registered in a BCIT GIS program.
+CRN: 73756
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Carmen Heaver
+E-mail: Carmen_Heaver@bcit.ca
+Location: SW03-2089 or VIRTUAL
+Office Hours: As posted on office and in LMS orOn request from student (virtual)
+
+## Course Description
+Introduces students to vector and raster modeling using ArcGIS (Spatial Analyst, Geostatistical Analysis). Problems drawn from business geographics and natural resource applications.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Become familiar with basic concepts and methods used in spatial analysis.
+- Describe GIS analysis based on raster data modeling.
+- Apply raster modeling functions to solve spatial problems.
+- Use GIS software to implement complex spatial analysis.
+- Describe issues of spatial analysis (scale and correlation).
+- Describe and apply distance modeling methods.
+- Describe deterministic and geostatistical methods of spatial analysis.
+
+## Learning Resources
+Geospatial Analysis - A comprehensive guide - 2018 - Online text (free)
+
+URL: https://www.spatialanalysisonline.com/
+
+Storage media for data backup
+
+Course-specific software accessed from: appsanywhere.bcit.ca
+
+Course material: log into the BCIT LMS at: https://www.bcit.ca/learn
+
+Click on the link for this course
+
+## Evaluation Criteria
+Criteria: Total Allocated (%): Individual Elements: Comments
+Assignments: 30%: 8 Assignments: Equal weight
+Exams: 70%: Midterm: 30%
+Final: 40%
+
+## Course Specific Requirements
+It is the responsibility of the student to inform the instructor of any extenuating circumstances.
+
+## Course Schedule and Assignments
+Schedule 2024 Jan to Mar
+
+Each module has an assignment due as the start of the next scheduled lab.
+
+Module: Date: Lecture Subject: Lab Topics
+1: Jan 3: Introduction to the course, software and analysis: intro to software, data conversion, raster data formats Site selection raster exercise
+2: Jan 10: Map Algebra Local, focal, zonal, global functions Density analysis: Working with Map Algebra Using Cell, Neighbourhood, and Zone functions Forest Management exercise
+3: Jan 17: Raster analysis; Modeling Binary, Index, Regression Multi-criteria analysis Weights: Change detection. Vegetation Change exercise
+4: Jan 24: Accumulation Surface Modeling Least cost path: Cost surface least cost accumulation surfaces cost path surfaces corridor surface from accumulation surfaces Deer corridor exercise
+Jan 30 or 31: Midterm Exam: At the start of your scheduled lab
+5: Jan 31: Hydrology Modeling – scheduled lecture: Hydrologic model (lab after midterm) Create a stream network exercise. Determine watershed characteristics
+6: Feb 7: Introduction to Spatial Statistics: Spatial autocorrelation in data Moran and Geary calculations
+7: Feb 14: Surface Interpolation Methods: Deterministic, Geostatistical Exploratory Data Analysis: Generate surfaces with different methods. Compare methods. Generate surfaces with weather data
+8: Feb 21: Distance modeling Scale and analysis Sampling effects: Apply skills Project. Convert data, Model surface, Search and Rescue (injured hiker)
+Feb 27: Course review: Problem-solving – test skills exercise
+Mar 5/6: Final Exam: At the start of your scheduled lab
+
+subject to change
+
+## Course topics
+For course list of current course topics, log into the BCIT LMS at:https://www.bcit.ca/learn
+
+Click on the link for this course -> content -> module 00 -> schedule
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Carmen Heaver, PTS Coordinator January 02, 2024
+
+I verify that this course outline has been reviewed. Mike Hill, Program Head January 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

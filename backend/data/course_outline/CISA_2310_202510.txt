@@ -1,0 +1,132 @@
+URL: https://www.bcit.ca/outlines/20251091918/
+Course: CISA 2310
+Field: IP Routing Fundamentals
+
+School: School of Energy
+Program: Computer Information Systems Administration
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 30, 2025
+Total Hours*: 90
+Total Weeks: 18
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): CISA 1310 CISA 2320‡ (‡ must be taken concurrently)
+CRN: 91918
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jingjing Lount
+E-mail: jlount@bcit.ca
+Location: SE1-123A
+Office Hours: TBD
+
+## Course Description
+​Building upon concepts learned in the previous term, this course expands on routing and router configuration, explores networking protocols, and applies routing concepts within a lab environment. Topics covered include Cisco IOS management, routing protocols, network security concepts, Network Address Translation (NAT) and Access Control Lists (ACLs). Routing protocols covered include Open Shortest Path First (OSPF). IPv6 operations, routing, and address assignment are also explored. Students will learn how to configure routers, interpret routing tables, and troubleshoot connectivity issues. Students are provided hands-on experience with routers and switches in a networked lab environment. The course also covers Wide Area Network (WAN) technologies and Quality of Service (QoS) mechanisms used for secure remote access along with the introduction of software-defined networking, virtualization, and automation concepts that support the digitalization of networks.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Connect routers, switches, cables and PCs to form a cohesive local area network
+- Connect routers and serial cables to simulate a wide area network
+- Work with the Cisco Command Line Interface (CLI) for system analysis, configuration and repair
+- Perform the password recovery procedure on a router
+- Manage system image and device configuration files
+- Configure, verify, and troubleshoot OSPF
+- Explain Network Address Translation (NAT) and Port Address Translation (PAT)
+- Configure and troubleshoot NAT and PAT services on a gateway router
+- Describe the use of and configure Access Control Lists (ACLs)
+- Configure, verify, and troubleshoot Generic Routing Encapsulation (GRE) tunnel connectivity
+- Configure and monitor basic Simple Network Management Protocol (SNMP) services on a router
+- Explain network security terms, attack tools and best practices
+- Describe the role of cryptography in network security
+- Explain WAN concepts
+- Troubleshoot LAN and WAN networks
+- Explain the concept of cloud computing and virtualization of network devices and services
+- Describe the methods and tools used to automatically monitor, manage and configure networks
+
+## Learning Resources
+Cisco NetAcad CCNA v7 Enterprise Networking, Security and Automation course
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Assignments: 20
+Module Tests: 5
+Midterm Exam: 20
+Skills Exam: 20
+NetAcad Final Exam: 10
+BCIT Final Exam: 25
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success and will be recorded. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences.
+
+## Other information
+Assignments: Late assignments, lab reports or projects will not be accepted for marking. Assignments must be done on an individual basis unless otherwise specified by the instructor.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. You will receive zero marks if you miss a test, exam, or quiz. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and/or expulsion from the course.
+
+Attempts: Students must successfully complete a course within a maximum of three attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon special written permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from the appropriate program.
+
+Privacy Compliance: In this course, students will be required to use Cisco Networking Academy, an online collaborative service. During the account creation process, Cisco Networking Academy will collect your name and other identifying information. By using Cisco Networking Academy, you are consenting to the storage of this information in the United States. If you choose not to provide your consent, see the instructor to make alternate arrangements.
+
+Course Outline Changes: The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+
+## Course Schedule and Assignments
+Module: Topic: Delivery Method: Mandatory Labs
+Module 1: Single-Area OSPFv2 Concepts: In-person: CCNA1 Review Lab
+Module 2: Single-Area OSPFv2 Configuration: In-person: OSPF PTP Lab OSPF Single-Area Lab
+Module 2: OSPFv2 Labs: In-person: Hardware OSPFv2 Lab
+Module 3: Network Security Concepts: In-person
+Module 4: ACL Concepts: In-person
+Module 5: Standard ACL for IPv4 Configuration: In-person: Standard ACL Worksheet Standard ACL Lab
+Module 5: Extended ACL for IPv4 Configuration: In-person: Extended ACL Worksheet Extended ACL Lab
+Module 6: NAT for IPv4: In-person: Hardware NAT Lab
+Module 7: WAN Concepts: In-person: WAN Lab Report
+Midterm Exam (Module 1-7): In-person
+Module 8: VPN and IPSec Concepts: In-person
+Module 9: QoS Concepts: In-person
+Module 10: Network Management: In-person: CDP Lab LLDP NTP Lab Hardware Password Recovery Backup Config Lab TFTP Upgrade IOS Lab
+Module 11: Network Design: In-person
+Module 12: Network Troubleshooting: In-person: Troubleshooting Lab
+Module 13: Network Virtualization: In-person: Practice Skills Exam
+Module 14: Network Automation: In-person: Practice NetAcad Exam
+Optional: EIGRP Lecture and Labs: HyFlex
+Skills Exam: In-person
+NetAcad Exam: In-person
+Final Exam (Module 7-14): In-person
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jingjing Lount, Instructor January 15, 2025
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head January 15, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 16, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

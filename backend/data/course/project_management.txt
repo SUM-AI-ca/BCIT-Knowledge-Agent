@@ -1,0 +1,47 @@
+URL: https://www.bcit.ca/courses/project-management-comp-8082/
+Title: Project Management
+Field: Computer Systems
+Type: Course
+Course Code: COMP 8082
+
+================================================================================
+
+## Overview
+
+This course offers a comprehensive overview of project management techniques to effectively plan, manage, and control software development projects. Students will learn project management methodologies with an emphasis on software projects and agile methodology. Students will design a project for which they will create a project work breakdown structure; identify risks, inter-operability, and privacy and security issues; establish the necessary roles in the software development team; and apply strategies to control the project schedule and quality. Students will also discuss ethical and sustainability considerations from a project management perspective.
+
+## Credits
+
+3.0
+
+## Cost
+
+$858.01
+
+## Prerequisites
+
+- 60% in COMP 7082
+
+## Learning Outcomes
+
+- Design a complex project portfolio, scope, work breakdown, responsibility matrix, communication plan, and schedule.
+- Explain the concept of a software lifecycle and provide examples that illustrate its phases (analysis, design, implementation, testing, quality assurance, refactoring, deployment and maintenance), including methodologies that apply to each phase and the deliverables that are produced.
+- Compare several common process models (waterfall, prototyping, spiral, incremental, iterative and agile) with respect to their value for development of particular classes of software systems, taking into account issues such as requirement stability, size, and non-functional characteristics.
+- Evaluate a set of software requirements to determine the quality of the requirements with respect to the characteristics of good requirements.
+- Identify how project management is different for agile teams.
+- Identify and justify necessary roles in a software development and IT teams.
+- Apply a conflict resolution strategy to resolve conflicts in a team setting.
+- Identify ethical and sustainability considerations in project management.
+- Identify and apply methods for documenting and managing user requirements.
+- Identify and apply methods for risk identification and assessment for an entire system that arise from aspects other than the software (e.g., inter-operability, privacy and security issues).
+- Identify and apply methods for risk identification and assessment related to software development and IT.
+- Apply management strategies for managing virtual teams.
+
+## Related Programs
+
+- Applied Computer Science (Database Option)
+- Applied Computer Science (Games Development Option)
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Network Security Applications Development Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)

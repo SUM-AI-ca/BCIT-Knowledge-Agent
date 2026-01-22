@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20253046033/
+Course: CISA 3330
+Field: Deploying Windows Services
+
+School: School of Energy
+Program: Computer Information Systems Administration
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Zero Textbook Cost: Yes
+Prerequisite(s): CISA 2330
+CRN: 46033
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Travis Penner
+E-mail: travis_penner@bcit.ca
+Location: SE1 135
+Office Hours: Please e-mail for an appointment. Travis_Penner@bcit.ca
+
+## Course Description
+​This course provides a comprehensive exploration of advanced Windows Server technologies, focusing on virtualization, deployment, and management. Areas of focus include Active Directory, Windows PowerShell, Windows Deployment Services (WDS), Azure Virtual Desktop (AVD), Hyper-Converged Infrastructure (HCI), and clustering. The course emphasizes hands-on experience with Windows Server Hyper-V, high availability solutions, and automated deployment techniques. This curriculum provides a strong foundation for leveraging modern Windows Server technologies in enterprise environments and prepares students for advanced roles in IT infrastructure management.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Demonstrate advanced knowledge of Active Directory services and management.
+- Utilize PowerShell effectively for Windows Server administration and automation.
+- Implement and manage Windows Deployment Services (WDS) for automated deployments of desktop and server operating systems.
+- Configure and maintain Azure Virtual Desktop (AVD) for virtual desktop infrastructure and on-demand applications.
+- Explain Microsoft's virtualization solutions and the Hyper-V architecture.
+- Install, configure, and manage Windows Server Hyper-V.
+- Create and manage virtual machines and virtual networks in Hyper-V.
+- Implement high availability solutions using Windows Server Clustering.
+- Design and deploy Hyper-Converged Infrastructure (HCI) solutions.
+
+## Learning Resources
+- Learning documents will be provided by the instructor
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 30
+Quizzes: 10
+Skills Assessment: 20
+Midterm Exam: 20
+Final Exam: 20
+
+## Course Specific Requirements
+- External Storage Device SATA III Solid-state drive (SSD) with minimum 500 GB capacity.
+- SATA III Solid-state drive (SSD) with minimum 500 GB capacity.
+- Microsoft Azure Student Account Details on how to redeem your student account and credits will be provided in class.
+- Details on how to redeem your student account and credits will be provided in class.
+
+## Other information
+The final will be comprehensive covering the material for the full term. Any quizzes may be written or practical. Lab marks depend on your ability to answer questions and demonstrate specific parts of the lab as requested. It is extremely important to keep up with the required labs – strive to understand what you are doing, why you are doing it and how to troubleshoot if things go wrong. Labs will be accepted up to three sessions after the due date. One session late is a 10% penalty, two sessions late is a 25% penalty, and three sessions late is a 50% penalty. Submissions more than three sessions late will not be accepted.
+
+## Course Schedule and Assignments
+Dates (8:30 – 11:30 AM): Topics: Lab Assigned: Lab Due: Quizzes
+Session: Set A: Set B: Set C
+1: Sep3: Sep4: Sep5: Introduction & Lab Setup: Yes: Session 2
+2: Sep8: Sep9: Sep10: Windows Server & Active Directory Review: Yes: Session 4
+3: Sep11: Sep12: Sep15: Hyper-V Architecture: Yes: Session 4: Quiz 1 on Session 2
+4: Sep16: Sep17: Sep18: PowerShell: Yes: Session 5: Quiz 2 on Session 3
+5: Sep19: Sep22: Sep23: Lab Day
+6: Sep24: Sept25: Sept26: Hybrid Active Directory: Yes: Session 7: Quiz 3 on Session 4
+7: Sept29: Oct1: Oct2: Lab Day
+8: Oct3: Oct6: Oct7: Virtual Desktop: Yes: Session 9: Quiz 4 on Session 6
+9: Oct8: Oct9: Oct10: Lab Day
+10: Oct14: Oct15: Oct16: Exam Review: Quiz 5 on Session 8
+Oct17: To: Oct21: ---- Midterm Exam ---- Monday, Oct 20th –10:30am
+11: Oct22: Oct23: Oct24: Windows Deployment Services (WDS): Yes: Session 12
+12: Oct27: Oct28: Oct29: Lab Day
+13: Oct30: Oct31: Nov3: Hyper Converged Infrastructure (HCI): Yes: Session 14: Quiz 6 on Session 11
+14: Nov4: Nov5: Nov6: Lab Day
+15: Nov7: Nov10: Nov12: Clustering: Yes: Session 16: Quiz 7 on Session 13
+16: Nov13: Nov14: Nov17: Lab Day
+17: Nov18: Nov19: Nov20: Exam Review: Quiz 8 on Session 15
+18: Nov21: Nov24: Nov25: Skills Assessment – Day 1
+19: Nov26: Nov27: Nov28: Skills Assessment – Day 2
+20: Dec1: Dec2: Dec3: Skills Assessment – Day 3
+Dec5: To: Dec12: ---- Final Exams ---- Tuesday, Dec 9th – 10:30am
+
+- Labs due by end of specified session.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Travis Penner, Instructor August 27, 2025
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head August 28, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology August 28, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

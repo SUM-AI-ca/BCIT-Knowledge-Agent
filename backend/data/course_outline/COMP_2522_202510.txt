@@ -1,0 +1,169 @@
+URL: https://www.bcit.ca/outlines/20251086144/
+Course: COMP 2522
+Field: Object Oriented Programming 1
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): COMP 1510
+CRN: 86144
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Christopher Thompson
+E-mail: chris_thompson@bcit.ca
+Location: Online
+Office Hours: Office Hours will be posted in the Learning Hub.Office hours are by appointment via video conferencing.
+
+## Course Description
+This hands-on course follows on from COMP 1510. This course covers the fundamental concepts of design, development, testing, and debugging intermediate-level programs with an object-oriented programming language. Topics include language syntax, data abstraction, encapsulation, inheritance, polymorphism, and exception handling. Design Patterns and Graphical User Interfaces will be applied to appropriate problems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply the properties and explain the importance of good object-oriented software design including encapsulation, information hiding, inheritance, and polymorphism to create easily extensible systems in the context of intermediate-level programs.
+- Apply object-oriented decomposition to break a program into multiple classes with well-defined interfaces.
+- Write programs processing data using sources and sinks.
+- Create and handle exceptions to write robust programs.
+- Apply design techniques such as sequence diagrams, collaboration diagrams and class diagrams to define classes and their relationships when solving a problem.
+- Design, implement, debug and write automated tests for intermediate-level object-oriented programs in a modern high-level object-oriented programming language.
+- Write programs addressing concurrency issues such as race conditions using synchronization techniques including synchronization, wait/notify, join, and sleep.
+- Program with lambda expressions and closures.
+
+## Learning Resources
+Textbooks (Helpful but not required):
+
+- Bloch, Joshua. (2017). Effective Java 3rd Edition. Addison-Wesley.
+- Fowler, Martin. (2018). Refactoring: Improving the Design of Existing Code 2nd Edition. Addison-Wesley.
+- Goetz, Brian et al. (2006). Java Concurrency in Practice. Pearson.
+- Horstmann, Cay S. (2021). Core Java Volume 1--Fundamentals 12th Edition. Oracle Press.
+- Horstmann, Cay S. (2022). Core Java Volume 2--Advanced Features 12th Edition. Oracle Press.
+- Langr. Jeff. (2015). Pragmatic Unit Testing in Java 8 with JUnit. Pragmatic Bookshelf.
+- Larman, Craig. (2004). Applying UML and Patterns 3rd Edition. Prentice Hall.
+
+Software (Required)
+
+- A free copy of the Java 23+ SDK from https://www.oracle.com/java/technologies/downloads/
+- A free copy of the JetBrains IntelliJ IDEA Ultimate IDE (instructions provided at first tutorial) You can request or renew your free JetBrains Education License in advance here: https://www.jetbrains.com/community/education/#students
+- You can request or renew your free JetBrains Education License in advance here: https://www.jetbrains.com/community/education/#students
+- A free account at Github.com (this will be used to submit your labs, term project, and some quizzes)
+- A free GitHub Student Developer Pack from https://education.github.com/pack
+- A free Slack account so you can join our COMP 2522 workspace
+- Videoconferencing software (see D2L for more details).
+
+## Evaluation Criteria
+Criteria: %: Comments
+Weekly quizzes: 20: Weekly lecture and lab quizzes and occasional lab activities
+Weekly labs: 10: Weekly time-restricted in-lab programming exercises
+Midterm assessment: 25: During midterm week
+Final assessment: 25: During final exam week
+Term project: 10: Assigned in January and submitted final week of class
+Attendance and participation: 10: Attendance, contributions to discussions, etc.
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+INSTRUCTIONAL WEEK: WEEK OF: TOPICS
+1: 06 Jan: Hour 1: Introduction; logistics; Java buzzwords; introducing Java to Python developers aka the semi-colon is your new bff; Hello world! an introduction to the main method and standard Java program structure; System; declaring and initializing (assignment) in Java; identifiers; Java is strongly typed and statically typed; Java's primitive data types
+Hour 2: Overflow and rollover; data conversion (widening vs narrowing, assignment conversion, casting, promotion in expressions); operators and precedence; increment and decrement; logical operators; expressions, statements, blocks, and control structures (while, do-while, for, if-else, switch); intro to the String class; primitives vs references to objects; null; instantiating objects with the new operator
+Hour 3: The JVM and the Java memory model; garbage collection; identity vs equality; String interning; Java is pass by value; aliases and references; intro to the HashMap, ArrayList, Set; autoboxing and wrapper classes; for-each loop; Scanner and user input; command line arguments; command line arguments in IntelliJ
+Lab 0: Set up your toolchain. Java SDK, IntelliJ, git, GitHub, Hello world!
+2: 13 Jan: Hour 1: The Java class vs the main method; anatomy and structure of a basic class; instance variables, scope, and state; the constructor; default and defined constructors; default values; this keyword; encapsulation and information hiding; visibility modifiers; public interface vs private implementation; accessors/mutators; minimize scope, mutability, and visibility; toString
+Hour 2: SOLID: Single responsibility; UML class diagram (single class); anatomy of a method; method as service provider; private vs public methods; overloading methods and constructors; calling overloaded constructors from constructors; variable length parameter lists; use a private constructor to enforce Singleton or noninstantiability (a gentle introduction to design patterns)
+Hour 3: The importance of code style to Java developers; documentation and Javadocs; structure of the Java API; Random class; use Big Numbers instead of float/double when exact answers are required; DecimalFormat, NumberFormat, Formatter; formatting output with printf (conversion characters, field width), String.format; performance warning: String concatenation; Stringbuilder class
+Lab 1: The perfect class: encapsulation, information hiding, cohesion, abstraction, minimizing mutability. Unit testing and static code analysis tools. Mockito.
+3: 20 Jan: Hour 1: Reusing classes aka don't reinvent the wheel (composition); minimize coupling and maximize cohesion; implementing associations (and representing them in UML): composition, dependency, delegation; the Law of Demeter
+Hour 2: Standard IO; final keyword; the equals method; hashCode, its relationship to equals, and a rehash of identity vs equality; hashing, the pigeonhole principle, and the HashMap; enumerations
+Hour 3: Static members (constant class variables, non-constant class variables, static initialization blocks, methods); static factory methods instead of constructors; underline statics in UML; comparing doubles; comparing doubles with static methods; Math class and other useful classes that are collections of static helper methods
+Lab 2: Associations. Implement and test a small system of classes based on a UML diagram. Build tools and dependency managers like maven. JavaFX Step 1
+Term Project: Milestone 1 due Friday before midnight
+4: 27 Jan: Hour 1: Fixed length array; arrays of objects; looping through multi-dimensional (ragged) arrays; prefer ArrayList to arrays; implementing associations: aggregation
+Hour 2: Inheritance; the Object class; super; calling super from the constructor; protected; overriding methods; @Override and annotations; final classes and methods; default visibility
+Hour 3: Robust exception handling (catch or specify); Java is LBYL not EAFP; try-catch-finally; custom exceptions; unit testing and expected exceptions; checked exceptions are for recoverable conditions and unchecked (runtime) exceptions are programmer errors
+Lab 3: Inheritance. Implement and test a small system of classes that model an interesting simulation. Some popular and useful libraries. JavaFX Step 2.
+5: 03 Feb: Hour 1: SOLID: Open-closed; intro to polymorphism; static and dynamic types; polymorphic method dispatch; comparing Java's typing system to Python's duck typing
+Hour 2: Order of initialization (intro); constructors should not call overridables, abstract base classes
+Hour 3: Interfaces (including Comparable, Comparator, Iterable, List); static and default methods; abstract classes vs interfaces; prefer interfaces to abstract classes
+Lab 4: Polymorphism. Implement and test a small system of classes that model an interesting application. More popular and useful libraries. JavaFX Step 3.
+Term Project: Milestone 2 due Friday before midnight
+6: 10 Feb: Hour 1: Harnessing polymorphism via inheritance and via interfaces: casting and instanceof; pure inheritance and revisiting equals (instanceof vs getclass); SOLID: Liskov
+Hour 2: Polymorphism and order of initialization (summary); reusing classes (composition vs inheritance); favour composition over inheritance; UML: intro to sequence and communication diagrams
+Hour 3: File IO (NIO.2: Path and Files): a byte is a byte is a byte, try with resources; creating files and directories; copying, moving, and deleting files; serialization
+Lab 5: More about polymorphism. Implement and test a small system of classes that solves an interesting programming conundrum. JavaFX Step 4.
+7: 17 Feb: Hour 1: Formal introduction to parameterized types and generics; raw types; bounded types; generics, the compiler, and type erasure
+Hour 2: Type inference; wildcards; examples and use cases; generics and inheritance
+Hour 3: Final review to prepare for midterm assessment
+Lab 6: Implement and test a generic data structure! Introduction to Gradle. JavaFX Step 5.
+Term Project: Milestone 3 due Friday before midnight
+Midterms week (no class) *** A laptop is required for the midterm assessment ***
+24 Feb
+8: 03 Mar: Hour 1: Abstract data type (ADT) as logical form of a data type; data structures as physical form of a data type; formal intro to the Java Collection Framework; SOLID: Interface segregation
+Hour 2: Review of important classes and interfaces including List, Map, Set, Stack, Queue
+Hour 3: Intro to nested and inner classes; responsibility-driven design and a case study: iterator
+Lab 7: Data structures! JavaFX Step 6.
+Term Project: Milestone 4 due Friday before midnight
+9: 10 Mar: Hour 1: Time and space complexity; intro to asymptotic notation and Big-O
+Hour 2: Searching and sorting algorithms; sorting in place; sorting using the JCF and Comparable and Comparators
+Hour 3: SOLID: Dependency inversion; dependency injection loosens coupling
+Lab 08: Data structures and Java factories. SOLID.
+10: 17 Mar: Hour 1: Introduction to local classes and anonymous classes; intro to lambda expressions; avoiding brittle code; lambda syntax
+Hour 2: Functional interfaces; writing generic code; prefer lambda to anonymous classes
+Hour 3: Aggregate and stream operations; laziness; filter, map, and flatMap; reduction operations
+Lab 09: Lambda and streaming.
+11: 24 Mar: Hour 1: Some good programming principles; introduction to concurrency; processes and threads; java thread and runnable; sleep and join; thread lifecycle; thread interference and memory consistency errors
+Hour 2: Race conditions; thread safety; best practices for sharing objects; atomic operations and variables; immutable objects; synchronization and critical sections; locks; deadlock
+Hour 3: Livelock and starvation; java's volatile keyword; wait/notify; producer-consuner; guarded blocks; condition variables; blocking queues
+Lab 10: Concurrency. Explore how concurrency may add complexity and how to manage it.
+12: 31 Mar: Hour 1: Executor framework; thread-safe collections; fork/join; summary and best practices
+Hour 2: TBA
+Hour 3: Final review to prepare for midterm assessment
+Lab 11: Let's put it all together
+Term Project: Milestone 5 (your finished game) is due Saturday before midnight
+07 - 10 Apr: Study/Makeup/Review/Presentation Week: You will schedule and attend a 30-minute one-on-one Term Project presentation with me for your milestone 6.
+11 - 17 Apr: Final assessment (no classes) *** A computer is required for the final assessment ***
+
+* Subject to change.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Christopher Thompson, Instructor December 28, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 03, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

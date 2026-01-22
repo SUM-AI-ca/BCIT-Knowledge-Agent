@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/network-and-security-applications-development-comp-8005/
+Title: Network and Security Applications Development
+Field: Computer Systems
+Type: Course
+Course Code: COMP 8005
+
+================================================================================
+
+## Overview
+
+This course is designed to provide students with a solid set of practical skills in the area of network and system-level programming on the Linux platform. The design and implementation of IPv4/IPv6 tools is covered in-depth. Issues such as modularity and efficiency in the implementation of protocols will be covered. The emphasis will be very much the design and implementation of robust, and useful network tools. Security and private data transmission techniques over public networks are covered. Networking tools are designed and implemented using the Secure Sockets Layer (SSL) API. An in-depth coverage of techniques used to design and develop secure code and robust applications will be provided. Students will also be familiarized with the Bluetooth software development techniques.
+
+## Credits
+
+3.0
+
+## Cost
+
+$858.01
+
+## Prerequisites
+
+- 60% in COMP 7003 and 60% in COMP 7005 and 60% in COMP 8800 † ( † may be taken concurrently)
+
+## Learning Outcomes
+
+- Implement advanced communications protocols on a multi-processing, multitasking environment.
+- Use the IPV4 and IPv6 socket API calls in the design and implementation of tools.
+- Use the Berkeley Sockets API proficiently, including multicasting and raw sockets.
+- Explain public-key encryption.
+- Design and implement secure applications using SSL.
+- Design and implement basic Client/Server applications for Bluetooth devices.
+
+## Related Programs
+
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Network Security Applications Development Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)

@@ -1,0 +1,107 @@
+URL: https://www.bcit.ca/outlines/20253051804/
+Course: SGST 9340
+Field: Energy Storage & Power Electronics
+
+School: School of Energy
+Program: Smart Grid Systems and Technologies
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in SGST 9110 and 60% in SGST 9210
+CRN: 51804
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Emanuel Serban
+E-mail: emanuel_serban@bcit.ca
+Location: online
+Office Hours: Office hours appointmentsThursdays, 9:00pm - 9:30pm.Or email me (emanuel_serban@bcit.ca and eserban@my.bcit.ca) so we can set online/remote office hours, during week days 7pm-9pm.
+
+## Course Description
+This course includes a detailed look at power electronics and energy storage, which are key elements of smart grid systems and technologies. This course will build the skills and knowledge required to make use of these technologies in grid-connected applications. The emphasis on the power-electronics portion of the course will be on systems-integration of power conversion “building blocks”, including DC-DC, DC-AC, and AC-DC converters. The focus of this course will be on gridconnected applications of power electronics, which includes the interfacing of distributed energy resources (DERs) such as renewables and energy storage systems (ESS) to the power grid; or, power quality and power flow improvements using power electronic devices. Despite the focus on systems-integration, the course will also introduce students to key details of each building block including: the selection of semiconductor devices; selection and modeling of low-level converter topologies; electromagnetic compatibility issues; commonly used communications protocols for devices as well as high- and low-level power electronics control systems. Basic control theory will also be introduced to allow students to implement high and low-level converter control schemes on digital platforms. The energy storage portion of the course will introduce students to available energy storage technologies including but not limited to pumped storage, various battery (electrochemical) technologies, fuel-cells and flywheels. Greater focus will be given to electrochemical energy storage and the corresponding battery management systems which are necessary for their operation. The theory will be supported by case studies, and the course will include a ‘selected topics’ module which will be updated frequently as advancements are made in the area of power electronics and energy storage. To contribute to their portfolio of work in SGST, this course will involve an individual project requiring students to design a power conversion or energy storage system to enhance the smart microgrid implementation under consideration throughout the program. This may include the implementation of a system or device which corrects power quality issues and load imbalances in a power system, or an energy storage system which improves the load-characteristics of a utility interconnection through load-leveling. If pre-requisite knowledge is sufficient, students may undertake a low-level design project such as a converter build-project or battery management system development. Students will develop a report which demonstrates and documents the results of their project.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Construct power conversion systems suitable for grid-connected applications as well as for the interfacing of various renewable energy technologies
+- Evaluate various low-level converter topologies for DC-DC, DC-AC, and AC-DC conversion in order to gauge suitability for grid-connected applications and incorporate them into their design
+- Evaluate various semiconductor devices and materials and their suitability for use different applications relating to smart grid systems and technologies
+- Develop and tune high- and low-level control systems for power conversion systems and individual converters
+- Design a suitable power conversion interface and control system for various types of energy storage systems
+- Select appropriate energy storage technologies for grid-connected applications
+- Demonstrate understanding of the purpose and operation of battery management systems for electrochemical energy storage
+- Incorporate relevant information from standards for grid interconnection of power electronics, electromagnetic compatibility, and safety in the implementation of power conversion and energy systems
+
+## Learning Resources
+Learning resources will be provided during the first lecture.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes (5): 15: Lectures based
+Final Examination (1): 40: Lectures based
+Laboratories (5 Lab reports): 20: Virtual Lab using electronic modeling
+Individual Project (1): 25: Energy storage and renewable based project
+Total: 100%
+
+## Attendance Requirements
+Attendence is required.
+
+## Course Specific Requirements
+Late assignments (without a valid excuse) will result in mark reduction (e.g. 20%).
+
+## Safety equipment or protective clothing
+Not required.
+
+## Course Schedule and Assignments
+Week 1: September 4th: Lecture 1 Introduction to Energy Storage and Power Electronics: Course Project launch.
+Week 2: September 11th: Lecture 2 Power Semiconductor Devices: -
+Week 3: September 18th: Lecture 3 DC-DC Converters: Quiz 1 (6pm-6:30pm), quiz based on Lecture 2.
+Week 4: September 25th: Lecture 4 DC-AC Inverters: Assignment - Lab report 1 (Due date / Submission).
+Week 5: October 2nd: Lecture 5 Resonant Converters 1: Quiz 2 (6pm-6:30pm, quiz based on Lecture 3, Analysis and design of DC-DC Converters).
+Week 6: October 9th: Lecture 6 Resonant Converters 2 Project Milestone 1 - presentation: Project Milestone 1 (due date): 5-10min individual power-point presentation & 5min Q&A. Project progress report due for submission.
+Week 7: October 16th: Lecture 7 Energy Storage Systems: Assignment - Lab report 2 (Due date / Submission).
+Week 8: October 23rd: Lecture 8 Power Supplies: Quiz 3 (6pm-6:30pm, quiz based on Lectures 3,4,5 & 6).
+Week 9: October 30th: Lecture 9 Modulation Control Strategies: Assignment - Lab report 3 (Due date / Submission).
+Week 10: November 6th: Lecture 10 Controls in Power Electronics: Quiz 4 (6pm-6:30pm, quiz based on Lectures 7 & 8).
+Week 11: November 13th: Lecture 11 Power Quality: Assignment - Lab report 4 (Due date / Submission).
+Week 12: November 20th: Lecture 12 Solar Power Converters: Quiz 5 (6pm-6:30pm, quiz based on Lectures 9, 10 & 11).
+Week 13: November 27th: Lecture 13 Grid-connected Inverters: UPS & Electro-mobility: Assignment - Lab report 5 (Due date / Submission).
+Week 14: December 4th: Course Project Presentation: Project Milestone 2 (due date, power-point presentation): 10...15min individual presentation & 5min Q&A. Power-point document due for submission.
+Week 15: December 11th: Final Exam & Course Project submission: 1. Final Exam (based on all lectures): 2:30h. 2. Project final report submissions - Due date.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Emanuel Serban, Instructor September 03, 2025
+
+I verify that this course outline has been reviewed. Ali Palizban, Program Head September 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

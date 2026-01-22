@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/introduction-to-visual-analytics-with-tableau-comp-2256/
+Title: Introduction to Visual Analytics with Tableau
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2256
+
+================================================================================
+
+## Overview
+
+This hands-on course is designed for database professionals, data analysts, business analysts and managers, who want to analyze and visualize data from a variety of sources. Students begin with a foundation in data visualization techniques and principles. Effective data analysis techniques, and industry standard best practices are discussed. Through hands-on labs, assignments, projects and group work, participants learn how to build insightful and interactive dashboards. Participants learn to present compelling visuals via lab exercises and assignments. Tableau dashboard performance considerations are discussed. Students registered in COMP 2256 will receive a student license for Tableau software for their home machines for the duration of the course and have access to a Tableau subject matter expert with industry experience. This course is an elective in five School of Computing and Academic Studies credential programs; Computer Systems Technology Diploma (CST/PTS), Applied Computer Information Systems (ACIS), Applied Computer Applications (ACA), Applied Database Administration and Design (ADAD) and Technical Writing. COMP 2256 is a requirement for the Applied Data Analytics Certificate (ADAC). A project presentation is required and designed to help the students become better communicators. By the end of this course successful participants will be able to produce highly interactive graphs, reports and dashboards that access and visualize data from a multiple sources. We recommend that students working toward a Computing credential complete COMP 1630 first.
+
+## Credits
+
+3.0
+
+## Cost
+
+$616.19
+
+## Prerequisites
+
+- COMP 1002
+
+## Learning Outcomes
+
+- Discuss the increasing importance of analytics and visualization in data prevalent markets.
+- Explain data visualization principles and guidelines for effective analysis and presentation.
+- Describe different Tableau Desktop Interface components.
+- Practice different ways of connecting and integrating data in Tableau Desktop.
+- Create and understand different visualizations using Tableau.
+- Develop compelling and interactive dashboards and stories from multiple worksheets.
+- Incorporate geospatial visualization (maps) in Tableau dashboards.
+- Use basic and advanced calculations in Tableau.
+- Explore Tableau’s statistical functions and forecasting capabilities.
+- Incorporate Tableau filters and highlight parameters for interactivity and usability.
+- Publish Tableau dashboards.
+
+## Related Programs
+
+- Applied Computer Information Systems (ACIS)
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Computer Systems
+- Technical Writing

@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/gis-database-systems-2-gist-8132/
+Title: GIS Database Systems 2
+Field: Geographic Information Systems
+Type: Course
+Course Code: GIST 8132
+
+================================================================================
+
+## Overview
+
+Develops skills for using database software with GIS. Topics include database server architecture, Enterprise Geodatabase architecture, Database Versioning and GIS database Web server programs.
+
+## Credits
+
+3.0
+
+## Cost
+
+$863.60
+
+## Prerequisites
+
+- 50% in GIST 7132
+- Course registration is restricted to current students registered in a BCIT GIS program.
+
+## Learning Outcomes
+
+- Describe database server architecture.
+- Create and query tables.
+- Use utilities and scripts to import and export data.
+- Write web server-side scripts to display database tables over the web.
+- View spatial data stored in Enterprise Geodatabase.
+- Load vector and raster data into Enterprise Geodatabase.
+- Create and reconcile database versions.
+
+## Related Programs
+
+- Geographic Information Systems
+- Geographic Information Systems
+- Geographic Information Systems

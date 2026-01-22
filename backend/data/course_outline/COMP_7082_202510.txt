@@ -1,0 +1,138 @@
+URL: https://www.bcit.ca/outlines/20251092298/
+Course: COMP 7082
+Field: Software Engineering
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Science in Applied Computer Science
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+CRN: 92298
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Fatemeh Riahi
+E-mail: fatemeh_riahi@bcit.ca
+Location: SE09-100
+Office Hours: Office hour by appointment via video conferencing. The details will be posted on the learning hub.
+
+## Course Description
+This course offers a comprehensive overview of software engineering issues: software development methodologies, software requirements analysis, functional and non-functional requirements, software architecture, design principles and paradigms, and quality assurance. Students will learn how to apply principles, use the most adequate strategies and tools, and assure quality during the entire software development cycle.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion and re-use of standard structures, to software project design.
+- Apply design paradigms such as structured design (top-down functional decomposition), object-oriented analysis and design, event-driven design, component-level design, and data-structure centered, aspect oriented, function oriented, and service oriented to software project design.
+- Identify design implications of non-functional requirements, including ethics, availability, fault tolerance, maintainability, scalability, security and usability.
+- Apply architecture design principles that incorporate availability, scalability, and quality and analyze how performance variation related to available resources will be monitored and measured in the presence of varying degrees of loading to software project design.
+- Incorporate fault tolerant designs into software architectures, including rollback capabilities.
+- Incorporate asynchronous designs into architectures to ensure high throughput and fault tolerance.
+- Develop software and system architectures tests for speed, throughput, and scalability.
+- Design success criteria and determine an appropriate test environment that will mimic the production system as closely as possible.
+- Analyze the data collected during tests, validate the results, and prepare a report for teams tasked with investigating and solving overall performance issues.
+- Describe the issues that are important in selecting a set of tools for the development of a particular software system, including tools for requirements tracking, design modeling, implementation, build automation, testing, deployment, and maintenance.
+- Apply multiple methods to develop reliability estimates for a software system.
+- Discuss software engineering code of ethics and professional best practices (e.g., ACM Software Code of Ethics and Professional Practices)
+
+## Learning Resources
+The following book is recommended but not required:
+
+- Engineering Software Products: An Introduction to Modern Software Engineering, 1st edition Published by Pearson (May 8, 2019) © 2020, by Ian Sommerville University of Lancaster, United Kingdom , University of St Andrews, Scotland
+
+Additional resources will be specified in course learning management system.
+
+## Course Goals
+· To develop skills in constructing high quality software
+
+· To explore new advances in software engineering practices
+
+## Evaluation Criteria
+Criteria: %: Comments
+In Class Exercises and Labworks: 30: Each in class exercise is between 3 to 5 marks and may involve written answers and/or lab work
+Quizzes: 10: two Quizzes
+Project: 30
+Final Exam: 30
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+Computer Use Policy: BCIT has an Institute-wide policy (#3501) pertaining to information technology and services and to the resources available in support of the Institute mission. Computer Systems Technology students are expected to exercise the highest degree of professionalism and ethical behaviour related to information technology. Violations of BCIT Policy #3501 will result in disciplinary action which may include suspension or expulsion of students. Also refer to the Computer Systems Technology Student Conduct Guidelines.
+
+Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and/or expulsion from the course.
+
+Assignments: Late assignments, lab reports or projects will not be accepted for marking. Assignments must be done on an individual basis unless otherwise specified by the instructor.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+Course Outline Changes: The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+
+Labs and Tutorials: Lab attendance is mandatory. Lab exercises are due at the end of the lab period unless otherwise specified by the instructor. Tutorials are due as indicated on the tutorial sheets.
+
+Lab Discussions: During some of the labs, case studies will be discussed. Attendance in the labs and participation in the discussions is a requirement of the course. You may be required, on occasion, to make a mini presentation and/or demo.
+
+I.D. Required in Examination Centres: Effective December 2000, in order to write exams, students will be required to produce photo-identification at examination centres. Photo I.D. must be placed on the desk before an exam will be issued to the student. The I.D. must remain in view on the desk while writing the exam, for inspection by invigilators. Students should bring a BCIT OneCard or alternatively two pieces of identification, one of which must be government photo I.D. such as a driver’s licence. Please see BCIT Policy #5300, Formal Invigilation Procedures.
+
+Final Exam and Project Papers: The exam papers and final project will not be returned to the student
+
+## Course Schedule and Assignments
+Week of / Number: Date: Topics Covered: Assignment / Project Milestone Due
+Week 1: Jan 10: Introduction to Software Product, Agile Software Engineering
+Week 2: Jan 17: Features, Scenarios and Stories
+Week 3: Jan 24: Project Proposal Presentations: Project Proposal
+Week 4: Jan 31: Software Design and Modeling
+Week 5: Feb 7: Software Architecture Part I
+Week 6: Feb 14: Software Architecture Part II
+Week 7: Feb 21: Cloud-based Software: Quiz
+Week 8: Feb 28: Microservices Architecture: Sprint I Demo
+Week 9: March 7: Security and Privacy
+Week 10: March 14: Fault Tolerance and Reliable Programming
+Week 11: March 21: Testing Software Product: Sprint II Demo
+Week 12: March 28: Devops and Code Management: Quiz
+Week 13: April 4: Ethics and Professional Practises in Software
+Week 14: April 11: Final Project Demo
+Week 15: April 11-17: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Fatemeh Riahi, Instructor December 26, 2024
+
+I verify that this course outline has been reviewed. Mirela Gutica, Program Head December 28, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean December 28, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/ms-power-bi-optimization-comp-3156/
+Title: MS Power BI Optimization
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3156
+
+================================================================================
+
+## Overview
+
+Following on from COMP 2156 , and parallel to COMP 3157 , this hands-on advanced course was designed for Business Intelligence and Data Analysts. Students who already know how to use Power BI to build and publish reports begin with an in-depth introduction to Star Schema and its relevance to optimal Power BI data modeling. COMP 3156 in-class labs and exercises focus on specific strategies to optimize large complex Power BI data models and how to leverage Power BI Service in the cloud for fast performing reports. Topics include relational data modeling in Power BI, Designing Import, DirectQuery, and Composite Data Models. There is also an in-depth explanation of Power BI Service Performance Monitoring. Tabular Editor and DAX Studio are also discussed. Labs and assignments include managing security permissions, data visibility based on role as and leveraging specialized third-party tools. Tabular Editor and DAX Studio are used to monitor and evaluate data model performance. Participants must provide their own current model PC capable of running Windows 11 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 3156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and the Applied Data Analytics Certificate (ADAC). By the end of this course, successful students will be able to build advanced, optimized data models and use the Power BI Service cloud environment. This course will be offered in the Winter (January) and Spring (April) terms.
+
+## Credits
+
+1.5
+
+## Cost
+
+$383.95
+
+## Prerequisites
+
+- 60% in COMP 2156
+
+## Learning Outcomes
+
+- Describe Star Schema and its relevance to developing optimized Power BI data models.
+- Implement various techniques to reduce data model size and improve model performance.
+- Describe the implications of import, direct-query and composite data models.
+- Diagnose and troubleshoot common data relationship issues with your Power BI data model.
+- Conduct performance testing to identify opportunities for optimization.
+- Manage Row-Level Security (Dynamic & Static).
+- Describe the data architecture of Power BI Service.
+- Monitor a Power BI environment as a Power BI administrator for a Power BI Service in the cloud.
+
+## Related Programs
+
+- Applied Computer Information Systems (ACIS)
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Computer Systems
+- Data Visualization with MS Power BI

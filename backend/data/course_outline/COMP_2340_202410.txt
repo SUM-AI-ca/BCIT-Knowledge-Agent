@@ -1,0 +1,107 @@
+URL: https://www.bcit.ca/outlines/20241087053/
+Course: COMP 2340
+Field: Collaboration Tools
+
+School: School of Computing and Academic Studies
+Program: Full-Stack Web Development
+Course Credits: 2
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 30
+Total Weeks: 15
+Hours/Weeks: 2
+Delivery Type: Lecture/Lab
+Prerequisite(s): COMP 1340
+CRN: 87053
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Armaan Dhanji
+E-mail: adhanji8@bcit.ca
+Location: DTC 537
+Office Hours: Announced in the first week of class on Learning Hub.
+
+## Course Description
+​This course introduces students to collaboration tools, project-management tools, and team-management tools such as version control for both computer source code as well as digital media assets. Students learn how to install, configure, and utilize a Version Control System (VCS) such as Git, how to create, manage, and remove forks and branches, and how to successfully perform pull requests. Other topics include digital signing of commits, and analyzing project history. Communication tools will also be learned and used, including such tools as Slack, Trello, GitHub, Basecamp, or MSProject.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe how to work effectively within a collaborative environment.
+- Install, configure, and use a Version Control System (VCS).
+- Use a VCS (such as Git) at the terminal/console level to manage versions and components of an application.
+- Use forking existing projects, creating master, development, and feature branches.
+- Demonstrate industry standard workflow (e.g., Gitflow) for a team VCS.
+- Manage repository in a shared collaborative setting.
+- Integrate between the team repository and other collaborative tools (project planning, message board, etc.)
+- Use peer review techniques with a team VCS.
+- Configure and utilize encrypted authentication for commits and pull requests.
+- Analyze and determine successful VCS usage for both individual and group projects that are controlled by a VCS.
+- Construct effective chunking of both media assets as well as computer code and provide intuitive naming conventions for all digital assets.
+- Resolve merge conflicts when using a VCS.
+- Use communication and teamwork tools effectively.
+
+## Learning Resources
+This course uses resources that will be provided by your instructor on Learning Hub under Course Materials, no text book is required.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 25: 10 quizzes
+Labs: 25: 10 labs
+Midterm: 25
+Final Exam: 25
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored.
+
+Unapproved absence of 2 or more classes may result withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf.
+
+## Course Specific Requirements
+Course Website: This course has a website on BCIT Learning Hub. The website is utilized for announcements, electronic handouts, and submission of assignments. All announcements related to the course will be posted on Learning Hub. It is the responsibility of the students to regularly check the Learning Hub site for announcements.
+
+## Course Schedule and Assignments
+Week: Topics: Labs/Quizzes
+1. Jan 08: Understanding the purpose of Version control Install and configure git: Lab 1 / Quiz 1
+2. Jan 15: What is a Git Repository What are the three states of git Common Git Local Commands: Lab 2 / Quiz 2
+3. Jan 22: Using Git Through a GUI instead of Terminal. Exploring your Git History. Limitations within Git GUI compared to Command-Line Based Approach. Undoing mistakes: Lab 3 / Quiz 3
+4. Jan 29: Git Branches How to rename/delete a branch: Lab 4/ Quiz 4
+5. Feb 05: Merging Branches; Performing Merges through CLI vs GUI. Handling Merge Conflicts; Using Dedicated Merge Tools; Fast-Forward Merges; Merge Strategies: Lab 5/ Quiz 5
+6. Feb 12: Introduction to remote branches with Github Pushing and fetching to and from remotes: Lab 6/ Quiz 6
+7. Feb 19: Family Day
+8. Feb 26: -------------Midterm-------------
+9.Mar 04: Git Collaboration Cycle; Git Pull; Merging a Pull; Understanding Pull Requests; Open Source Project Contributions;: Lab 7/ Quiz 7
+10. Mar 11: Spring Break​
+11. Mar 18: Looking at different workflows (Git flow, Github flow, etc): Lab 8/ Quiz 8
+12. Mar 25: Understanding how to Git Rebase. Rebasing vs Merge Commits. Dangers of Rebasing and how to safely use it.: Lab 9/ Quiz 9
+13. Apr 01: Easter Monday
+14. Apr 08: Integrating Git with Github Projects board. Managing PRs through VS-Code. Git Pre-Commit Hooks. Using husky to manage git hooks.: Lab 10/ Quiz 10
+15. Apr 15: -------Final Exam---------
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Armaan Dhanji, Instructor January 05, 2024
+
+I verify that this course outline has been reviewed. Sam Meech-Ward, FSA Curr Dev Pooled 123101 January 06, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 09, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

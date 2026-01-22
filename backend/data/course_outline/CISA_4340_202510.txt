@@ -1,0 +1,144 @@
+URL: https://www.bcit.ca/outlines/20251086935/
+Course: CISA 4340
+Field: Unified Communications
+
+School: School of Energy
+Program: Computer Information Systems Administration
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 30, 2025
+Total Hours*: 90
+Total Weeks: 18
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): CISA 3350
+CRN: 86935
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rouzbeh Keshavarz
+E-mail: rkeshavarz@bcit.ca
+Location: SE1-135
+Office Hours: Instructor to provide
+
+## Course Description
+Students will learn to design, implement and manage Microsoft 365 services, manage user identity and roles, manage access and authentication, and plan Office 365 workloads and applications. Students will also learn to configure, deploy, and manage Office 365 workloads for Microsoft Teams that focus on efficient and effective collaboration and communication in an enterprise environment. This course will introduce the students to plan, deploy, and manage Teams chat, apps, channels, meetings, audio conferencing, live events, and calling. This course includes topics such as Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, and supporting technologies.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Design and implement Microsoft 365 services
+- Manage user identity and roles
+- Manage access and authentication
+- Plan Office 365 workloads and applications
+- Configuring Microsoft Office 365 Tenant
+- Manage Exchange Online
+- Manage Microsoft Teams
+- Plan and Configure a Microsoft Teams Environment
+- Manage Chat, Calling, and Meetings
+- Manage Teams and App Policies
+- Implement modern device services
+- Implement Microsoft 365 security and threat management
+
+## Learning Resources
+-Learning Resources will be provided by the instructor.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Checkpoints: 25: The students' lab configurations will be checked and graded. Late submissions will not be accepted.
+Midterm: 25
+Skills Exam: 25
+Final: 25
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration.
+
+## Course Specific Requirements
+-Internal SATA SSD or External USB Type-C SSD(Recommended storage capacity: 500GB).
+
+-A Registered Internet Domain.
+
+-Microsoft 365 Business/Enterprise Subscription(Instructions on how to create and configure the subscription will be provided by the instructor).
+
+-A credit card is required to access the Microsoft 365 trial licenses.
+
+## Course Schedule and Assignments
+Session1,2,3
+
+- Discussion of the required learning resources for the course.
+- Verify the public domains and ensure that the DNS records created in the previous course have been deleted.
+- Set up the on-premises networking servers and services, including Active Directory, DNS, Routing and Remote Access, and other relevant systems.
+
+Session4,5,6
+
+- Create a new Microsoft 365 subscription and configure a custom domain for your Microsoft 365 deployment.
+- Please note that a credit card is required to access the Microsoft 365 trial licenses.
+- Introduction to Microsoft Entra ID (formerly known as Azure Active Directory).
+- Configure a hybrid Active Directory environment using Microsoft Entra Connect Sync (formerly known as Azure AD Connect).
+- Configure Microsoft Entra Connect Health for Active Directory Domain Services (AD DS).
+- Lab Checkpoint1(Late submissions will not count for marks).
+
+Session7,8
+
+- Managing Exchange Online.
+
+Session9,10,11,12
+
+- Working with MS365 Apps (SharePoint, OneDrive, Power Automate, Sway, and Planner).
+- Set up and configure Microsoft Intune.
+
+- Lab Checkpoint2(Late submissions will not count for marks).
+
+Session13,14,15
+
+- Microsoft Teams: Manage Teams, Channels, Chats, Meetings, and Shifts.
+- Manage and configure Microsoft Teams Phone, including phone numbers, call queue and auto attendant settings.
+- Lab Checkpoint3(Late submissions will not count for marks).
+
+Session16,17,18
+
+- Skills Exam Phase1(Students have three sessions to complete this portion of the task).
+
+Session19,20,21,22
+
+- Skills Exam Phase2(This portion must be completed on the designated Skills Exam Day).
+
+Session23,24
+
+- Disconnect the on-premises Active Directory from Entra ID.
+- Perform cleanup of the Microsoft 365 subscription and the Internet Domain.
+- Students are required to complete the MS365 cleanup procedure as outlined by the instructor and must present confirmation of the cleanup procedure completion to the instructor.
+- Lab Checkpoint4(Late submissions will not count for marks).
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rouzbeh Keshavarz, Instructor December 14, 2024
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head January 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

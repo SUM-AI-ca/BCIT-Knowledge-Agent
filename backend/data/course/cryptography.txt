@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/cryptography-fsct-8581/
+Title: Cryptography
+Field: Forensic Investigation
+Type: Course
+Course Code: FSCT 8581
+
+================================================================================
+
+## Overview
+
+This course teaches students the art and science of securing data in the presence of an adversary, namely cryptography. The course begins with the mathematical foundations of cryptography, including pseudo-random number generation, and hence proceeds with a coverage of secret key algorithms and public key algorithms. The students learn the principles of operation of such cryptographic techniques, along with representative algorithms from both fields. The students also learn attack techniques that apply to secret key algorithms and public key algorithms. The course teaches students the design and use of stream ciphers as well. The students learn various schemes to securely manage and exchange cryptographic keys. The students also learn applications of one-way functions to compute and verify hashes and digital signatures. The course also teaches students the principal identification schemes currently in use. Throughout the course, the students also learn the use of various cryptographic tools.
+
+## Credits
+
+3.0
+
+## Cost
+
+$927.92
+
+## Prerequisites
+
+- 60% in FSCT 7511
+
+## Learning Outcomes
+
+- Discuss the mathematical foundations of cryptography.
+- Analyze pseudo-random number generators.
+- Outline, design, use, and cryptanalyze a symmetric cryptographic algorithm.
+- Outline, design, use, and cryptanalyze an asymmetric cryptographic algorithm.
+- Discuss the inner workings of a stream cipher.
+- Justify and implement key management schemes.
+- Justify and implement key exchange algorithms.
+- Calculate and verify hashes and digital signatures.
+- Apply identification schemes.
+- Apply identification schemes.
+
+## Related Programs
+
+- Forensic Investigation (Digital Forensics and Cybersecurity Option)

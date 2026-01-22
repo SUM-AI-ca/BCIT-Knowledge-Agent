@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/application-development-with-java-comp-3601/
+Title: Application Development with Java
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3601
+
+================================================================================
+
+## Overview
+
+This forth-level programming course follows on from COMP 2601 and assumes students have significant prior knowledge of object-oriented programming using Java. COMP 3601 starts with using Java core APIs and the Eclipse IDE with industry standard coding styles and naming conventions. Students practice how to build and deploy commercial quality Java applications with Event Driven Architecture. Labs and exercises use a variety of skills to debug programs and use design patterns to develop advanced applications in Java. Topics include: packages, inner classes, file I/O, an overview of database connectivity, user interfaces, model-view-controller (MVC) and other design patterns for standalone Java applications as well as Java web applications. Participants develop database enabled web applications and are introduced to Java web tier development. There is a focus on the design and how to build, deploy and distribute Java web applications into application servers. They configure and customize a simple web application server with Java Database Connectivity (JDBC) to create and edit data from Java Web Applications. Maven is used with Java Servlets as web application controllers and Java Server Pages (JSP) to build and deploy Java web apps on JEE containers, implemented by a WildFly application server. COMP 3601 is part of three BCIT Computing Associate Certificates; Applied Software Development (ASD), Advanced Java Application Development (AJD), a prerequisite for Web and Mobile Applications (WMA) and a recommended elective in the CST FLEX Diploma. Upon completion, successful students will be able to build and deploy well designed basic Java Web applications and be prepared to move on to COMP 4601 - Advanced Java Web App Development. COMP3601 will be offered in the Spring (April) and Fall (September) terms.
+
+## Credits
+
+4.0
+
+## Cost
+
+$611.04
+
+## Prerequisites
+
+- 60% in COMP 2601
+
+## Learning Outcomes
+
+- ​Demonstrate Model-View-Controller design through Java application, and other advanced object-oriented development design patterns.
+- Implement Event Driven Architecture applications.
+- Use Java Collection framework and serialization to manage and save object data.
+- Explain Java's relationship to database using JDBC protocols in standalone Java applications as well as Java web applications.
+- Create relation object mapping between Java objects and database tables.
+- Develop database enabled web applications.
+- Create dynamic HTML tables using JDBC ResultSet metadata and Database Metadata.
+- Build and deploy Java web application in any Application Server using Maven.
+- Launch and configure WildFly Application Server from command line as well as from Eclipse.
+- Create secure Data Sources in WildFly Application Server and connect to them via DataSource interface.
+- Create Java web applications using Servlet, JSPs, Expression Language and JSTLs.
+- Create, read, update and delete data from a database using Java web applications.
+- Describe the role of Java Servlets as web application controllers.
+- Configure and customize a simple web application server.
+
+## Related Programs
+
+- Advanced Java Development
+- Applied Software Development (ASD)
+- Computer Systems

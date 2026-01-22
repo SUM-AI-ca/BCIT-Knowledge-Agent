@@ -1,0 +1,116 @@
+URL: https://www.bcit.ca/outlines/20241089217/
+Course: ACIT 2831
+Field: Business Systems Analysis
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology (CIT)
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ORGB 1100
+CRN: 89217
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Trevor Lord
+E-mail: tlord1@bcit.ca
+Location: DTC 531 - Office hours are held online
+Office Hours: Office Hours for this course will be held online via Zoom.Refer to your instructor's schedule posted in the course Learning Hub site.Appointments can be booked outside of office hours, if required.
+
+## Course Description
+Business Analysis and Systems Design is the study of concepts, processes and tools that professionals use to plan and develop information systems. Students learn how to ask implicit questions, create plans and make decisions as needed to support the creation of an information system. Students work in teams to initiate the system process, analyze problems, discover requirements and create a logical design. Topics include: techniques used in the discovery of business requirements, traditional approaches to data and process modelling, and techniques for Object Oriented modelling. Agile approaches to software development are also introduced.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Discuss the phases of the Software Development Life Cycle (SLDC).
+- Identify the various project artifacts associated with each phase of the SDLC.
+- Discuss current trends in system development such as: Agile approaches, Business Process Management.
+- Discover and define system requirements.
+- Develop use case diagrams and scenario descriptions.
+- Read, interpret and develop models that can be incorporated with Business Process Management.
+- Explain how Use Case Modelling and WorkFlow Analysis work together to define functional system requirements.
+- Construct a cost benefit analysis to determine the feasibility of a project.
+- Identify and analyze the data entities and objects needed in a system using both Information Engineering and OO techniques.
+- Design a technical architecture system "blueprint".
+- Identify the required integrity controls for inputs, outputs, data and processing.
+- Describe implementation and support activities associated with information systems projects.
+- Prepare and present a system proposal in a team environment.
+
+## Learning Resources
+There are two required items for this course:
+
+(1) Information Systems for Business and Beyond (2019) by David Bourgeois, et al (https://opentextbook.site/informationsystems2019/)
+
+(2) LinkedIn Learning (https://www.bcit.ca/library/linkedin-learning/)
+
+## Course Goals
+The goals for this course are to develop skills to enable you to understand and analyze the business goals for information systems and information systems projects, and to model and communicate those goals effectively.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Weekly Individual Assignments: 35: Weekly participation in class sessions is required
+Mid-Term Examination: 25: During Midterm Exam Week, February 26 - March 01 (schedule TBC)
+Term Project: 15: The Term Project is a team-based presentation. All team members must contribute equally to receive the same grade.
+Final Examination: 25: During Final Exam Week, April 15 - 19 (schedule TBC)
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored.
+
+Unapproved absence of 2 or more classes may result withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations:https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+This course includes mandatory online activities and content. Lack of participation in the online portion of this class may result in failure of the course.
+
+## Course Schedule and Assignments
+Please note that the course schedule is subject to change at the sole discretion of the instructor:
+
+Dates (Week of:): Topics: Preparation: Assessments Due
+Week 1 (Jan. 08): Introduction to Business and Systems Analysis and Design: Learning Hub: Module 0 Module 1: Individual Assignment – Module 1
+Week 2 (Jan 15): Analyzing the Business Case: Learning Hub: Module 2: Individual Assignment – Module 2
+Week 3 (Jan 22): Requirements Modelling: Learning Hub: Module 3: Individual Assignment – Module 3
+Week 4 (Jan 29): Business Process Management, Data and Process Modelling: Learning Hub: Module 4: Individual Assignment – Module 4
+Week 5 (Feb 05): Object Modelling: Learning Hub: Module 5: Individual Assignment – Module 5
+Week 6 (Feb 12): Development Strategies Midterm Exam Preparation: Learning Hub: Module 6: Individual Assignment – Module 6
+Week 7 (Feb 19): Review - Midterm Exam Preparation Monday Feb 19th – B.C. Family Day holiday (BCIT closed, no class session): N/A: N/A
+Week 8 (Feb 26): Midterm Exam Week: Feb. 26 – Mar. 01 Exam Schedule TBC
+Week 9 (Mar 04): Midterm Exam Review System Architecture: Learning Hub: Module 7: Individual Assignment – Module 7
+Week 10 (Mar 11): Spring Break – classes not in session
+Week 11 (Mar 18): Managing Systems Implementation: Learning Hub: Module 8: Individual Assignment – Module 8
+Week 12 (Mar 25): Managing Systems Projects Friday Mar. 29th – Good Friday holiday (BCIT closed, no class session): Learning Hub: Module 9: Individual Assignment – Module 9
+Week 13 (Apr 01): Agile Software Development Monday Apr. 1st – Easter Monday holiday (BCIT closed, no class session): Learning Hub: Module 10: Individual Assignment – Module 10
+Week 14 (Apr 08): Trends in Information Systems and the Future of Systems Analysis and Design Course Wrap-Up Review - Final Exam Preparation: Learning Hub: Module 11: Term Project Presentation
+Week 15 Apr 15: Final Exam Week: Apr. 15 – Apr. 19 Exam Schedule TBC
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Trevor Lord, Program Head December 18, 2023
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head January 08, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 08, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

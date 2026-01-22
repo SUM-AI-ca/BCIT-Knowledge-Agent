@@ -1,0 +1,124 @@
+URL: https://www.bcit.ca/outlines/20253049825/
+Course: MDAA 3335
+Field: Rigging 3
+
+School: School of Business + Media
+Program: 3D Modeling Art & Animation
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lab
+Prerequisite(s): All courses from term 2 must be successfully completed.
+CRN: 49825
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Dustin Nelson
+E-mail: dustin_nelson@bcit.ca
+Location: CARI 2018D
+Office Hours: Wednesdays from 5pm-8pm
+
+## Course Description
+​This course is built on the previous rigging courses. Students will create and utilize custom tools for a more efficient rigging process. In addition, students will create characters rigs that are captible across several characters to save time during the production work flow. By the end of this course, students will be able to create powerful scripts with UI's to build and support their rigs. Students will also be able to create fully rigged characters with user friendly systems for animators.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Setup the initial skeleton for 3D characters.
+- Employ appropriate techniques in creating modular rigs.
+- Setup joints and twist controls for flexible rigs.
+- Script IK/FK blending and matching.
+- Prepare tools and custom scripts for efficient workflow.
+- Create scripts and tools that will aid animators.
+- Apply appropriate limits to joints to avoid unwanted transformation during animation.
+- Create a flexible and fully functional rig for a human and/or creature character.
+
+## Learning Resources
+Maya Help Documentation and Scripting Reference
+
+Useful sites: Google searching, Stack Overflow, CG Society, Highend3D and Chat GPT for coding solutions
+
+## Course Goals
+Upon completion of this course, students should be comfortable with:
+
+-the basics of Python scripting (variables, data types, if/else statements, for loops, UI's, functions) to build tools in Maya
+
+-improved deformations (corrective joints, muscle system, pose space deformers)
+
+-advanced skinning techniques (painting techniques, NG skinning, copying and transferring weights)
+
+-building a clean, functional rig for a character or creature
+
+## Evaluation Criteria
+Grade Item: %: Comments
+Generate Primitives: 5: Script to generate primitives and arrange them
+Unlock Channels Script: 5: Script to quickly unlock and unhide hidden channels
+FK Generator UI Control Size: 5: Script to generate Fk controls with user input for control size
+FK Generator UI Hierarchy: 6: Add to the script to generate FK controls with different settings for the hierarchy
+Lower Limb Twist Script: 7: Script to generate twist joints for lower limbs
+Scene Checker Script: 7: Script to check for issues in rigs
+IK/FK Arm Generator: 15: Script to generate an IK/FK control setup on arm joints
+Joint Driven Correctives: 10: Correcting the shoulder deformation with joints
+Full Character Rig: 30: Full Character Rig
+Quizzes: 10: Quizzes that cover coding in Python for Maya
+Total: 100
+
+## Course Schedule and Assignments
+Week: Date: Topics Covered: Assignment
+Week 1: Sept 1: No class - Labour Day
+Week 2: Sept 8: Review of Scripting -MEL and Python -commands, flags, arguments -setAttr command -Python PEP 8 https://peps.python.org/pep-0008/ Commands covered: polySphere polyCube polyCone move, rotate, scale setAttr: Assignment 1: Generate Primitives Weight: 5 Due End of Class
+Week 3: Sept 15: Python and coding systems -variables and types -for loops -if/else statements -ls command Quiz 1 (Weight: 2.5): Assignment 2: Unlock Channels Script Weight: 5 Due End of Class
+Week 4: Sept 22: Generating FK controls through code Introduction to User Interfaces -confirmDialog and promptDialog -window, showWindow, rowColumnLayout, columnLayout, separators -buttons, text fields, checkboxes, radio button groups -running commands and functions from buttons -introduction to functions External files Quiz 2 (Weight: 2.5): Assignment 3: FK Generator UI with Size Setting Weight: 5 Due End of Class
+Week 5: Sept 29: Continued work with UI’s -expanding on the generate FK controls to have more options -Maya window command and widgets (floatField, intField, textField, checkBox, button) -UI to ask user to create controls for selected, hierarchy, and with or without end joints -Check for child controls in addition to parent controls Quiz 3 (Weight: 2.5): Assignment 4: FK Generator UI with Hierarchy Settings Weight: 6 Due End of Class
+Week 6: Oct 6: Review of UI Review of joints, matchTransforms, connectAttr, freeze Transforms Quiz 4 (Weight: 2.5): Assignment 5: Lower Limb Twist Joint Script Weight: 7 Due End of Class
+Week 7: Oct 13: No Class - Thanksgiving
+Week 8: Oct 20: -finding node types through code -string compare through code -creating and adding to lists review -printing in the script editor Quiz 5 (Weight: 2.5): Assignment 6: Scene Checker Script Weight: 7 Due End of Class
+Week 9: Oct 27: Script to generate IK/FK controls for an arm - Part 1 -validate and generate joints and controls for IK and FK: Assignment 7a: IK/FK arm generator script Part 1 Weight: 6 Due End of Class
+Week 10: Nov 3: Script to generate IK/FK controls for an arm - Part 2 -Creating Switch controls and nodes for switching between FK and IK: Assignment 7b: IK/FK arm generator script Part 2 Weight: 9 Due End of Class
+Week 11: Nov 10: DEADLINE FOR FINAL RIG’S CHARACTER REVIEW AND APPROVAL Secondary joint deformations -Using additional joints for correcting areas and improving deformation -Bulging in a bicep by driving a joint using the elbow rotation -Corrective shoulder twist setup -Adding volume to a raised shoulder using measurements -Inherits Transform: Assignment 8: Corrective Joints Weight: 10 Due 10:00pm on November 9
+Week 12: Nov 17: Skeleton Review -proper joint placement -joint orientations -joint mirroring: Assignment 9: Full Character Rig Weight: 30 Due End of Last Class
+Week 13: Nov 24: Advanced Skinning Techniques -Component Editor and Skinning Tools Review -NG Skin Tools -Transferring weights -Importing/Exporting weights Lab Time for Final Assignment
+Week 14: Dec 1: -Review of Leg Setup -Face Rigging review Lab Time for Final Assignment
+Week 15: Dec 8: -Dynamic Joint Chain Lab Time for Final Assignment: Final Assignment Due End of Class
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations, regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate. For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines. Academic Integrity and Use of Artificial Intelligence: The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+
+## Approved
+I verify that the content of this course outline is current. Dustin Nelson, Instructor August 24, 2025
+
+I verify that this course outline has been reviewed. Aldrich Chung, Program Head August 25, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Morgan Westcott, Associate Dean August 26, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,119 @@
+URL: https://www.bcit.ca/outlines/20253030321/
+Course: BMET 3300
+Field: Electronics Principles and Practice 3
+
+School: School of Health Sciences
+Program: Biomedical Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): 50% in BMET 2200 and BMET 2210 and 50% in BMET 2215 and 50% in MATH 2782
+CRN: 30321
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Majid Shokoufi
+E-mail: mshokoufi@bcit.ca
+Location: SW1-4015
+Office Hours: Name: Majid ShokoufiEmail: mshokoufi@bcit.caLocation: SW1-4015Office Hours: Mondays from 11:30 am to 12:30 pm and from 1:30 pm to 2:30 pm Fridays from 11:30 am to 12:20 pm, location NW04 – 4021
+
+## Course Description
+This is the third course in the study of analog electronic devices and circuits for the BMET program. The course provides further knowledge of linear and non-linear electronic circuits. Major topics covered include: operational amplifier circuits, oscillators and timers, phase locked-loop circuits, voltage regulation, thyristor devices and phase control circuits, data acquisition systems, analog to digital and digital to analog converters and interfacing devices and techniques. Each topic is reinforced by practical applications examined in the laboratory section of the course.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Examine and analyze various special-purpose op-amp circuits.
+- Describe the operating principles of an oscillator.
+- Describe the internal construction and operation of the 555 timer
+- Analyze and design pulse generator circuits using 555 IC timers.
+- Examine the block diagram of phase-looked loop circuits.
+- Sketch and explain the basic circuit of a linear voltage regulator.
+- Sketch the block diagram and waveforms for a switching regulator and explain its operation.
+- Describe the construction and operation of various thyristor devices.
+- Discuss the use of the SCR as a crowbar circuit and a phase controller.
+- Explain the operation of the TRIAC phase control and zero-point triggering circuits.
+- Analyze and design simple optoelectronic and interfacing circuits.
+- Define basic terminology and concepts used in data acquisition and conversion.
+- Explain how several types of DACs and ADCs operate.
+- Use computer simulation software to design, simulate and test various electronic circuits.
+- Demonstrate in the laboratory the ability to assemble, test and trouble-shoot various electronic circuits.
+
+## Learning Resources
+1. Lecture notes
+
+2. Electronic Devices (Conventional Current Version), 10th or the latest edition, by Thomas L. Floyd - Published by Prentice Hall (Main textbook)
+
+3. Electronic Principles, 9th edition or the latest edition, by Albert Malvino | David Bates| Patrick Hoppe - Published by McGraw-Hill Education (Optional)
+
+4. BMET 3300 Laboratory Manual - available from the Learning Hub
+
+## Evaluation Criteria
+Criteria: %: Comments
+Laboratory: 30: A pass (≥50%) must be obtained separately in the combination of laboratory exercises and the combination of the exams (mid-term and final exams) or an UNSATISFACTORY (U) will be given as a final grade
+Homeworks: 10
+Midterm Exams (2): 32
+Final Exam: 28
+Total: 100
+
+## Attendance Requirements
+- Students are expected to complete all coursework and attend all classes, including laboratory sessions. Excessive absences may result in failure or withdrawal from this course.
+- Laboratory works or assessments (such as lab exams, mid-term exam, or final exam) must be completed within the scheduled period. No marks will be assigned to such work completed outside of the scheduled period. Lab marks will be deducted for late lab report submission.
+- No make-up lab or assessment will be provided, even after an excused absence (such as illness or other unavoidable cause as described below). However, if the absence is excused, the missed lab will not count toward the final grade.
+- In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with the course instructor. Prolonged illness must be substantiated by a medical certificate. Absence other than illness must be supported by valid documentation. Based on the information provided, the instructor will determine if the absence is deemed to be excused.
+
+## Course Specific Requirements
+AI Tools Usage Policy
+
+AI-based content generation tools, or AI tools, are permitted for assignments and project work. However, they are not allowed during class assessments (e.g., in exams). Note that AI output may include incorrect or misleading information, fabricated authors/dates/publications, faked works, or may incorporate discriminatory ideas. It is your responsibility to ensure the quality, accuracy and appropriateness of the work you submit in this course.
+
+If you use ChatGPT (or a similar tool) to get ideas and/or partial answers for an assignment and/or to generate any text for a draft or final version of any part of an assignment, you must declare that you have used it, with a short paragraph describing the extent to which it was used, and you must save any generated text from this tool in case it is requested. You will not be penalized for using this tool, but the instructor may ask you to provide the generated text to help with grading decisions.
+
+Material directly copied from any source (e.g. websites, books, AI tools) must be cited. Undeclared use of AI is a violation of academic integrity as it presents work, or ideas created by tools or other people as your own. Failure to fully declare the use of this tool will be considered a violation of BCIT academic policy.
+
+## Course Schedule and Assignments
+The schedule of lecture topics and laboratory sessions will be posted on the course website.
+
+- Practical exercises (prototyping and programming) are intended to be completed at home as much as possible, while scheduled lab time will be used to access test equipment and to obtain assistance from the instructor.
+
+Assignments will be posted on the course website. Quizzes may be held during scheduled class time to verify completion of assignments.
+
+## Course topics
+Will be posted on the course website.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Majid Shokoufi, Faculty August 30, 2025
+
+I verify that this course outline has been reviewed. Anthony Chan, Faculty September 01, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Elliott, Associate Dean September 02, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

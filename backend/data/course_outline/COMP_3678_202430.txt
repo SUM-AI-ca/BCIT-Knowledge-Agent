@@ -1,0 +1,213 @@
+URL: https://www.bcit.ca/outlines/20243051085/
+Course: COMP 3678
+Field: SQL Server Development
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: September 21, 2024
+End Date: December 14, 2024
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 1630 and 60% in COMP 2364 or 60% in COMP 2362
+CRN: 51085
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Alaa Alakari
+E-mail: Instructor to provide
+Location: Online - via MS Teams by appointment
+Office Hours: Instructor to provide
+
+## Course Description
+​This hands-on course has replaced COMP 4678 as of September 2023 and follows on from COMP 1630 and COMP 2364. Students who already understand relational database design, SQL programming and MS Excel are introduced SQL Server Development. SQL Server Development begins with a brief overview cloud computing using the MS Azure ecosystem and MS SQL Server tools. There also will be a brief review of the relational database modelling, Entity Relationship Design (ERD) and normalization topics from COMP 1630. COMP 3678 topics include SQL server data types, the use of Data Definition Language (DDL), and how to write MS SQL queries using Data Manipulation Language (DML). Labs and exercises show how to use SQL Server tools and techniques to optimize SQL queries Transact-SQL (T-SQL) runtime errors. Students will use T-SQL to develop and manage the data layer for software applications, working with relational and portable data from multiple sources in MS SQL Server. Participants will see the basic differences between on premises Database Management Systems (DBMS) and a cloud Database setup. Tasks to Extract, Transform, and Load (ETL) data, MS SQL Server Database operations will also be discussed. ​COMP 3678 is an elective in the Applied Database Administration and Design (ADAD) Associate Certificate, the Applied Data Analytics Certificate (ADAC) and Computer Systems Technology (CST FLEX) Diploma. Successful participants will be able to: manage data from multiple sources, create scripts and database objects using T-SQL. This course will be offered starting April 2024.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the features, architecture, and security fundamentals of MS SQL Server.
+- Detail various SQL server data types (Main data types, Complex data types, Object, Geospatial, etc.
+- Use Data Definition Language (DDL) to create and alter database tables and schema.
+- Write MS SQL queries using Data Manipulation Language (DML) to retrieve, filter, sort, and aggregate data from SQL Server databases.
+- Employ SQL Server tools and techniques to optimize SQL queries (Indexes, Filtering, Joins).
+- Write procedural code in Transact-SQL (T-SQL) to develop and manage the data layer for software applications.
+- Demonstrate various tools and methods to track, debug, and rectify T-SQL runtime errors (@ERROR etc.).
+- Describe high-level overview of MS SQL Server Database Administration, security, backup, and restore operations
+- Detail the basic tasks needed to Extract, Transform, and Load data (ETL).
+- Use MS SQL Server tools to import and export data portable formats (XML/CSV/JSON).
+- Discuss future trends in database development including: Big Data, Data Streaming, and real time Data Analytics.
+
+## Learning Resources
+- To be provided via the BCIT Learning Hub
+
+## Course Goals
+- To use Data Definition Language (DDL) and Data Manipulation Language (DML).
+- To create scripts and database objects using T-SQL.
+- To work with relational and portable data from multiple sources in MS SQL Server.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Participation: 15: In-class participation in exercises and discussions
+10x Previous Week Assessment: 20: In class individual submissions via BCIT Learning Hub (D2L), each week weeks 2-11
+10x Labs: 20: Outside of class via BCIT Learning Hub (D2L), each week weeks 2-11
+Project 1: 10: To demonstrate understanding of the first 6 weeks materials.
+Project 2: 15: Encapsulates all topics covered in the entire course.
+Final Exam: 20: In order to pass this course; You must average 50% between the weekly assessments, 2 projects and Final Exam.
+100: The total passing grade is 60%.
+
+By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Access to a Windows PC or Mac OSx and internet.
+- All students must provide their own current model PC desktop or laptop with a webcam, and a microphone and have high-speed internet access.
+- BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real-time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Statement for prior learning assessment
+n/a
+
+## Course Schedule and Assignments
+Week: Topics: In Class Assessments: Labs: Assignments
+1: Database systems Review COMP 1630
+Components of DBMS
+Relational Database model
+Entity-relationship (ER) Modelling
+Database Design concepts
+2: Fundamentals of MS SQL Server DBMS
+Cloud computing basics
+Cloud labs
+Azure ecosystem: Assessment 1: Lab 1
+Using MS SQL Server 2019 interface
+3: Using Data Definition/Manipulation Language (DDL/DML) On MS SQL server
+DDL commands (CREATE Database, Create Table ): Assessment 2: Lab 2: Project 1 available: Due in Week 6
+CREATE, ALTER, TRUNCATE and DROP
+DML commands (INSERT, UPDATE, DELETE)
+4: Writing SQL queries using Data Manipulation Language (DML) - I
+Retrieve, filter, and sort data from the SQL Server database: Assessment 3: Lab 3
+Grouping data from SQL Server database
+5: Writing Advanced SQL queries using Data Manipulation Language (DML) - II
+Joining tables: Assessment 4: Lab 4
+Using Union
+6: Writing procedural code in Transact-SQL (T-SQL) - I: Project 1 Due
+T-SQL fundamentals.
+Data Types and Variables in T-SQL: Assessment 5: Lab 5: Project 2 available: Due in Week 10
+writing complex queries for data retrieval
+7: Writing procedural code in Transact-SQL (T-SQL) - II
+writing complex queries for data manipulation: Assessment 6: Lab 6
+NOTE:: Withdrawal Deadline
+Please inform your instructor that you are dropping this course.
+You must also fill out and submit the Flexible Learning Request to Withdraw form before Session 8 or you will receive a failing grade on your academic record.
+8: T-SQL concepts for performance optimization
+Transaction Management
+Managing Transactions with BEGIN TRANSACTION, COMMIT, and ROLLBACK
+Using @@ERROR and TRY...CATCH for Error Handling: Assessment 7: Lab 7
+Triggers in T-SQL
+9: SQL Server Administration and Maintenance
+SQL Server Administration
+Managing Users, Roles, and Permissions: Assessment 8: Lab 8
+Backing Up and Restoring Databases
+10: MS SQL Server Database Administration tools: Project 2 Due
+MS SQL Server Database Administration and security: Assessment 9: Lab 9
+MS SQL Server data backup, and restore operations
+Course Evaluation:
+To be conducted online during session 11 prior to the class break.
+Students will have previously received a link to the survey via their preferred email.
+Those who do not have the link in their preferred email cannot complete this online evaluation.
+If you did not receive the link please email: BCIT_Feedback@bcit.ca
+at least 48 hours before session 11.
+11: SQL Server Integration Services (SSIS)
+ETL (Extract, Transform, Load) Concepts
+SSIS architecture and components
+Data transformation techniques using SSIS.: Assessment 10: Lab 10
+Connecting SSIS to Various Data Sources
+12: Q&A before the exam 30 mins
+Final exam 1.5 hours
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Alaa Alakari, Instructor September 13, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator September 13, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 13, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,110 @@
+URL: https://www.bcit.ca/outlines/20243050119/
+Course: COMP 3721
+Field: Introduction to Data Communications
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST)
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): COMP 2721
+CRN: 50119
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Maryam Tanha
+E-mail: mtanha@bcit.ca
+Location: SW2 - room 121
+Office Hours: By appointment via video conferencing
+
+## Course Description
+This course covers the basic concepts and terminologies related to data communications, networking and network topologies. Students will learn about the TCP/IP protocol suite and the principles of protocols at the physical, data link, network and transport layers, the characteristics of transmission media, analog/digital transmission, multiplexing/switching techniques, basic error detection and correction, elementary data link protocols, flow control and an introduction to routing and congestion control issues. Multiple access protocols, the UDP and TCP protocols, networking and internetworking devices, LANs and WANs will also be discussed.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the basic concepts and terminologies related to data communications and networking.
+- Discuss network protocol implementation using a layered approach.
+- Apply basic data communication theory to the performance analysis of networks.
+- Explain and describe the characteristics of various transmission media.
+- Discuss and analyze protocols at the physical, data link, network and transport layers.
+- Explain the performance and characteristics of the TCP/IP protocol suite.
+- Explain and identify key protocol information given samples of captured packets.
+
+## Learning Resources
+Data Communications and Networking with TCP/IP Protocol Suite (6th Edition) Behrouz A. Forouzan McGraw-Hill ISBN: 978-1-260-59782-0
+
+Please note that this outline is based on 6th Ed. You may find the topics in different chapters of the 5th Ed.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 25: Ten quizzes in lab, one take-home quiz
+Assignments: 20: Five (individual)
+Midterm Exam: 25: You must achieve a minimum 50% average between the Midterm and Final Exams in order to pass this course.
+Final Exam: 30: You must achieve a minimum 50% average between the Midterm and Final Exams in order to pass this course.
+
+Midterm and final exams will be scheduled by the timetabler during the midterm and final exam weeks, respectively.
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf.
+
+## Course Specific Requirements
+It is expected that you have a working knowledge of solving algebraic equations, manipulating logarithms and basic trigonometry.
+
+## Other information
+Students are not allowed to use AI tools, including ChatGPT to answer quiz and assignments questions. However, they can use AI tools to enhance their learning and validating their understanding and solutions to course practice examples/problems.
+
+## Course Schedule and Assignments
+Week: Topic: Reading: Quiz/Assignment
+1 – Sep 5: Introduction to Data Communications and Networks Protocol Layering and TCP/IP Protocol Suite: Chapter 1
+2 – Sep 12: Physical Layer – Analog and Digital Data/Signals Transmission Media (self-study): Chapter 2: Quiz 1
+3 – Sep 19: Baseband and Broadband Transmission Transmission Impairment Data Rate Limits Bandwidth Definition Transmission Modes Transmission Media: Chapter 2: Take-Home Quiz (different deadline from Quiz 2) Quiz 2, Assignment 1
+4 – Sep 26: Digital-to-Digital Conversion (Line Coding Schemes and their Characteristics): Chapter 2 (Chapter 4 of 5th Ed): Quiz 3
+5 – Oct 3: Analog-to-Digital Conversion Digital-to-Analog Conversion Analog-to-Analog Conversion: Chapter 2: Quiz 4
+6 – Oct 10: Multiplexing (FDM, WDM, Synchronous TDM) Introduction to Data-link Layer (Nodes and Links, Sublayers, Addressing, ARP): Chapter 2 Chapter 3: Quiz 5, Assignment 2
+7 – Oct 17: Error Detection and Correction Data Link Control Review: Chapter 3: Quiz 6
+Week of Oct 21: Midterm Exam Week – No Classes
+8 – Oct 31: Media Access Control Virtual LANs (VLANs): Chapter 3 Chapter 6
+9 – Nov 7: Introduction to Network Layer (Packet Switching, Services, Performance Metrics) Network Layer Addressing (IPv4 Addresses) IP Packet Forwarding, DHCP, NAT: Chapter 7: Quiz 7, Assignment 3
+10 – Nov 14: Network Layer Protocols (IPv4, ICMP) IPv6 Addresses: Chapter 7 Chapter 8: Quiz 8, Assignment 4
+11 – Nov 21: Routing Algorithms Transport Layer Services: Chapter 7 Chapter 9
+12 – Nov 28: Transport Layer Protocols: Chapter 9: Quiz 9, Assignment 5
+Dec 5: Makeup/Review: Quiz 10
+Week of Dec 9: Final Exam Week – No Classes
+
+This schedule is tentative and subject to change as certain material may take longer/shorter.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Maryam Tanha, Faculty August 20, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head August 29, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 30, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

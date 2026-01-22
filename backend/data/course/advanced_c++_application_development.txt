@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/advanced-c-application-development-comp-4603/
+Title: Advanced C++ Application Development
+Field: Computer Systems
+Type: Course
+Course Code: COMP 4603
+
+================================================================================
+
+## Overview
+
+This advanced software application development course follows on from COMP 3603 and COMP 3761 . It assumes students have solid knowledge of procedural programming with C and can already write intermediate-level programs in C++. Participants must also understand how to use Alorithms Analysis and Design for advanced software application development. COMP 4603 starts with a quick review of writing and testing a well-formed C++ program. Students are then introduced to hands-on best practices, common design patterns and features added to C++ 20. They will be shown how to develop maintainable and adaptable C++ applications to industry standards. COMP 3603 and COMP 4603 are electives in the Applied Software Development (ASD) Associate Certificate and both C++ courses are required courses in the CST FLEX Diploma. Upon completion, successful students will be able to design, build and deploy advanced C++ software for a variety of applications, from Games Development to Artificial Intelligence (AI).
+
+## Credits
+
+4.0
+
+## Cost
+
+$611.02
+
+## Prerequisites
+
+- 50% in COMP 2510 or 60% in COMP 2511 or (60% in COMP 2801 and 60% in COMP 3603 ) and (50% in COMP 3760 or 60% in COMP 3761 )
+
+## Learning Outcomes
+
+- Demonstrate advanced C++ design idioms including the Dependency-inversion Principle, Liskov Substitution Principle, Open/Closed Principle, and Interface-segregation Principle.
+- Use the Principle of Least Knowledge or “Law of Demeter" to design guidelines for maintainable and adaptable software code.
+- Use profiling tools to monitor the memory and CPU usage of C++ programs.
+- Use multiple inheritance to model complex C++ abstractions.
+- Create reusable containers in C++ and iterate over them.
+- Demonstrate an understanding of advanced C++ design patterns including Abstract Factory, Builder, Lazy Initialization, Bridge, Decorator, Facade, Proxy, Chain of Responsibility, Iterator, Mediator, State, and Strategy.
+- Develop systems using advanced architectures that reduce system coupling including dependency injection, asynchronous message passing, brokers, and observers.
+- Create an advanced C++ application to industry standards.
+
+## Related Programs
+
+- Applied Software Development (ASD)
+- Computer Systems

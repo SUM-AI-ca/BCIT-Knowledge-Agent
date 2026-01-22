@@ -1,0 +1,125 @@
+URL: https://www.bcit.ca/outlines/20253046774/
+Course: COMP 3330
+Field: JavaScript Frameworks and Server
+
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Zero Textbook Cost: Yes
+Prerequisite(s): COMP 2131 and COMP 2523
+CRN: 46774
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Iman Anooshehpour
+E-mail: iman_anooshehpour@bcit.ca
+Location: Downtown Campus
+Office Hours: Wednesday 10:00 AM – 2:00 PM By appointment (Via Email / or In-Class) Email (iman_anooshehpour@bcit.ca)
+
+## Course Description
+​In this course, students will learn to use client-side JavaScript frameworks, such as React and MVC frameworks such as Angular, to create fast and modular applications. They will also learn to use server-side JavaScript using platforms such as Node.js, and build networked web applications. Labs and exercises focus on how to structure and develop web applications following current industry standards.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Implement HTTP servers and clients.
+- Install and make use node modules to extend the capabilities of the Node.js platform.
+- Use express web framework to build web applications.
+- Build a RESTful API.
+- Connect and retrieve data from a Data store.
+- Access the file system to read and write files.
+- Write Command-Line scripts.
+- Explain transpilers in the Node.js environment.
+- Add real time capabilities to the application by using socket.io module.
+- Explain the use of a web stack as a way to build modern scalable web apps.
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React and it’s supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Build feature-rich, interactive user interfaces with modular components.
+- Implement extended React functionality with modern react libraries.
+- Apply fundamental Software Development concepts to architect your web application.
+- Develop one-page data-driven applications using the component-based architecture.
+- Build custom components and services. Obtain and use suitable tools for developin
+- Select and apply common directives for data binding, filtering, validation, and DOM manipulation.
+- Use a client side library to interact with REST Services to send and receive data in JSON format.
+- Automate unit-testing and end-to-end testing.
+
+## Learning Resources
+Online Course Delivery Tools:
+
+- BCIT Learning Hub (D2L) (instructions, links to materials, deadlines, assignment submission, quizzes, exams)
+
+Flipped content will be provided through Youtube: https://www.youtube.com/playlist?list=PL0X6fGhFFNTe_vJIlAQQo0IEgPgk9er3g
+
+## Course Goals
+This course will focus on building modern full-stack applications using a contemporary JavaScript toolchain. Students will learn to develop backends with Bun + Hono, create responsive frontends with React (Vite) + TailwindCSS + ShadCN UI, manage data with Neon/Postgres and Drizzle ORM, and integrate validation, authentication, file uploads, and deployment workflows. The emphasis is on hands-on, incremental learning through labs and projects that reflect real-world full-stack development practices.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 45: 10-12 Labs Submission in Github
+Midterm: 25
+Final: 30
+
+## Course Specific Requirements
+This course includes mandatory online learning activities. Lack of participation in the online portion of this class may result in failure or forced withdrawal from the course.
+
+## Course Schedule and Assignments
+Week: Topics: Labs & Deliverables
+1: Environment Setup: Bun runtime, Hono basics, Git workflow: Lab 1 – Kickoff & Hello API Deliverables: Bun server with 3 routes, logger middleware, curl outputs, Git repo init
+2: Routing & Validation: Hono routes, middleware, Zod schemas: Lab 2 – Routes, Middleware & Validation Deliverables: GET, POST, DELETE routes with Zod validation, custom timing middleware, curl tests & screenshots
+3: Full CRUD: PUT vs PATCH, standardized error handling: Lab 3 – CRUD & Error Handling Deliverables: PUT & PATCH routes, error helpers, curl tests (valid + invalid cases), Git commits
+4: Database Integration: Neon Postgres setup, Drizzle ORM migrations: Lab 4 – Database Setup Deliverables: Neon DB connected, Drizzle schema & migration applied, CRUD hooked into DB
+5: Frontend Setup: Vite React, TailwindCSS, ShadCN UI: Lab 5 – Frontend Initialization Deliverables: React app bootstrapped, Tailwind configured, ShadCN UI card displaying dummy data
+6: API → UI Bridge: Vite dev proxy, Hono RPC client: Lab 6 – Backend/Frontend Bridge Deliverables: Fetch API data into React via RPC client, display dynamic expenses list
+7: State Management: TanStack Query (caching, error/loading states): Lab 7 – Query Integration Deliverables: React app using TanStack Query to fetch, cache, and refetch expenses with proper error/loading UI
+8: Midterm Exam: –
+9: Authentication: Kinde setup, protected routes: Lab 9 – Auth Integration Deliverables: Login/logout flow, session persistence, protected API + frontend routes
+10: File Uploads: S3-compatible storage, DB metadata: Lab 10 – File Handling Deliverables: Upload form, file sent to S3 bucket, file URL stored in DB, fetch & display file links
+11: Optimistic UI: Mutations, invalidation, user experience: Lab 11 – UX Improvements Deliverables: Optimistic UI for expense creation/deletion, rollback on error
+12: Deployment: Serving frontend from Hono, Fly.io deployment: Lab 12 – Production Deployment Deliverables: App deployed to Fly.io, backend + frontend integrated, public URL submitted
+13: Capstone Project: Combine all features into final product: Capstone Part 1 Deliverables: Project proposal, repo setup, initial commits
+14: Capstone Project: Final touches, presentation prep: Capstone Part 2 Deliverables: Completed full-stack app with all features
+15: Final Exam: –
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for
+Attendance: As set out in BCIT Policy 5101 Student Regulations, regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate. For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines. Academic Integrity and Use of Artificial Intelligence: The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+
+## Approved
+I verify that the content of this course outline is current. Iman Anooshehpour, Instructor September 02, 2025
+
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head September 02, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 02, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

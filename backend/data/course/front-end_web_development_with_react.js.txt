@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/front-end-web-development-with-react-js-comp-3013/
+Title: Front-End Web Development with React.js
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3013
+
+================================================================================
+
+## Overview
+
+React.js is an open source JavaScript library widely used to create fast, modular web and mobile applications. This hands-on course follows on from COMP 2132 and was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with an introduction to React.js concepts, participants concentrate on how React works with browsers and the Document Object Model (DOM). Then students use the modern Hooks API to built clean and testable components. Instructor led labs and exercises focus on how to structure and develop single-page applications using NPM, Webpack and Babel, following current industry standards. Topics include: Routing, Server-Side Rendering, Styling, State Management, and deployment. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider learning multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals and COMP 3012 Back-End Web Development with Node.js. COMP 3013 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST/PTS Diploma. Upon completion successful participants will be able to use React to create and deploy dynamic web applications quickly, with more functionality and less code. This course replaces COMP 2913 as of January 2023.
+
+## Credits
+
+3.0
+
+## Cost
+
+$568.44 - $596.72
+
+## Prerequisites
+
+- 60% in COMP 2132 or 50% in ACIT 1620
+
+## Learning Outcomes
+
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React.js and it's supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Describe how React.js can be used to build both server-side rendered and client-side rendered pages through meta-frameworks like Next.js.
+- Leverage the Hooks API to build lean React components that are easy to read and reason about.
+- Explore the different ways to style your React components, including CSS-In-JS, CSS and Modules.
+- Use global state management libraries to help share common application state across several components.
+- Explore different ways to deploy your React.js applications to production, including using CDN's to cache and serve application content to users as quickly as possible.
+- Build fast, feature-rich, dynamic user interfaces with React.js modular components.​
+
+## Related Programs
+
+- Advanced .NET Development
+- Advanced Java Development
+- Applied Web Development
+- Computer Systems
+- Introduction to Full-Stack Web Development
+- Web and Mobile Application Development

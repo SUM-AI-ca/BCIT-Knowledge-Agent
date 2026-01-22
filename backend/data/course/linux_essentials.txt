@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/linux-essentials-citx-2210/
+Title: Linux Essentials
+Field: Computer Information Technology Electronics
+Type: Course
+Course Code: CITX 2210
+
+================================================================================
+
+## Overview
+
+This course provides students with insight into the Linux operating system and reviews core skills in configuration and installation of the operating system. Both the command line and GUI interface are used. Students explore file systems, users and groups, the Bash shell, process management, the VI text editor, searching and organizing data, regular expressions and permissions. It is recommended that students have prior exposure to computer operating systems. Students must have access to a Windows based multi-media computer.
+
+## Credits
+
+6.0
+
+## Cost
+
+$1,263.33
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Edit text using the VI editor.
+- Manage Linux files and directories.
+- Manage user and group accounts.
+- Describe the Linux file system.
+- Conduct searches using regular expressions.
+- Customize the Bash shell.
+- Configure system permissions.
+
+## Related Programs
+
+- Network Administrator Technician

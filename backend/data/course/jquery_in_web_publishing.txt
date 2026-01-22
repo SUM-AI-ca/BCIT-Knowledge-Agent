@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/jquery-in-web-publishing-mdia-4307/
+Title: jQuery in Web Publishing
+Field: Media Communications
+Type: Course
+Course Code: MDIA 4307
+
+================================================================================
+
+## Overview
+
+This is an introduction to using the jQuery JavaScript library which will help students write JavaScript in a simplified, concise and elegant manner. Topics include navigating and selecting DOM (Document Object Model) elements on a web page using jQuery functions, handling events and event binding, creating simple visual effects including animation, creating simple jQuery widgets. This course also introduces learners to jQuery plugins for image manipulation, form validation and file uploads.
+
+## Credits
+
+3.0
+
+## Cost
+
+$724.75
+
+## Prerequisites
+
+- 50% in MDIA 2205
+
+## Learning Outcomes
+
+- Explain the basics of the jQuery JavaScript library
+- Correctly use jQuery to select elements on a page by ID, attribute name, by attribute value, by position and by the text within an element on a web page
+- Manipulate elements on a page by setting attribute values, rewriting an element's XHTML or its text, appending content to an element, moving page elements, etc.
+- Use jQuery to perform form validation
+- Work with event handlers and event binding using jQuery, and use the information returned by the event object
+- Create visual effects using jQuery including toggling element visibility, fading, sliding elements up and down and create custom animation
+- Create jQuery widgets such as dialogs, tabs and DatePickers
+- Create an image gallery using a jQuery plugin
+- Perform file uploads using a jQuery plugin
+
+## Related Programs
+
+None

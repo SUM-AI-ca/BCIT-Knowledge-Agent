@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/using-php-in-web-publishing-mdia-4325/
+Title: Using PHP In Web Publishing
+Field: Media Communications
+Type: Course
+Course Code: MDIA 4325
+
+================================================================================
+
+## Overview
+
+This course introduces the fundamentals of creating dynamic, interactive Web pages using PHP technology. Topics include: an introduction to PHP, PHP syntax, using variables HTML forms and PHP, doing math in PHP, using strings, basic control structures, using arrays, creating functions, working with files and directories, using databases in PHP, employing cookies, creating Web applications, and debugging PHP scripts.
+
+## Credits
+
+3.0
+
+## Cost
+
+$724.75
+
+## Prerequisites
+
+- 50% in MDIA 2205 and 50% in MDIA 3207
+
+## Learning Outcomes
+
+- Describe the basic structure and syntax of PHP coding
+- Illustrate how to use variables in PHP code
+- Employ HTML forms to interface with PHP pages
+- Use mathematical functions to do calculations in PHP pages
+- Use string functions in PHP pages, including encryption and decryption
+- Illustrate how control structures can enhance PHP output
+- Describe how arrays can increase PHP functionality
+- Create and use functions in PHP pages
+- Manipulate files and directories on a PHP server
+- Set up and configure a MySQL database
+- Interface PHP pages with a MySQL database
+- Use cookies to personalize PHP output
+- Create PHP Web applications
+
+## Related Programs
+
+None

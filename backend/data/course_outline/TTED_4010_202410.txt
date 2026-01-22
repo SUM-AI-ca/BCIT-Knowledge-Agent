@@ -1,0 +1,133 @@
+URL: https://www.bcit.ca/outlines/20241042533/
+Course: TTED 4010
+Field: Microcontroller Programming and Integration
+
+School: School of Energy
+Program: Technology Teacher Education
+Course Credits: 2.5
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 40
+Total Weeks: 20
+Hours/Weeks: 2
+Delivery Type: Lecture
+Prerequisite(s): TTED 3060
+CRN: 42533
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jason Brett
+E-mail: Jason_Brett@bcit.ca
+Location: SW9 Room 123
+Office Hours: Office hours will be arranged to work with student schedules. For a specific meeting request, please contact me at 604-451-6722 or at jbrett@bcit.caWhen emailing Faculty, please email from your myBCIT account and include your name and student number. If you do not include this information, your email may be ignored.
+
+## Course Description
+In this course, students are introduced to programming (coding) microcontrollers and interfacing them to various sensors and actuators. Topics include binary and hexadecimal numbers, variables, syntax, boolean logic, program flow, and functions. The course prepares students to support microcontroller projects in secondary school courses.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe how transistors and logic gates are used in the design of computers.
+- Create microcontroller programs to perform useful tasks
+- Interface microcontrollers to sensors such as switches and potentiometers.
+- Interface microcontrollers to output devices such as motors and lights.
+- Integrate schematic diagrams, circuit board designs and software code to produce a project suitable for use in a high school electronics class.
+
+## Learning Resources
+Required:
+
+Big Bad Breadboard Board (assembled in TTED 3060)
+
+Arduino Uno R3 Microcontroller Board https://arduino.cc/en/Main/ArduinoBoardUno
+
+Arduino IDE https://arduino.cc/en/Main/Software
+
+Batteries as necessary to power projects. Typically 4-6 AA alkaline batteries or 8 NiMH rechargable batteries.
+
+## Evaluation Criteria
+Programming Challenges: 70%
+Learning Hub Quizzes: 30%
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Absence from more than 10% of the scheduled course hours may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+## Course Specific Requirements
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices including personal music players, mobile devices (cell phones) and laptops are prohibited. The instructor will provide specific information regarding resources for use in computer-based examinations.
+
+Accessibility Services: Students in this course who may need special accommodations because of a disability are welcome to discuss their situation with Accessibility Services, located in SW01 Room 2360. It is recommended that you do this within the first two weeks of the term.
+
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+
+All assignments and work must be submitted on time unless previous arrangements have been made with the instructor.
+
+## Safety equipment or protective clothing
+N/A
+
+## Other information
+TTED 4010 continues to evolve to present challenging and relevant material at a pace that allows for student success. The topics and timeline should be considered a guide and may be modified if required to ensure learning outcomes are achieved.
+
+## Course Schedule and Assignments
+Week 1: Introduction to Coding: VEXCode VR
+
+Week 2: VEXCode VR Challenge
+
+Week 3: Introduction to Scratch
+
+Week 4: Playing Pong With Scratch
+
+Week 5: TinkerCAD Simulator - The Winky Blink (Massive Overkill Arduino Edition)
+
+Week 6: Big Bad Breadboard Board: Analog and Digital Inputs and Serial Print
+
+Week 7: BBBB: Using the LCD Display
+
+Week 8: Binary, Decimal, Hex and Logic
+
+Week 9: Using the Numeric Keypad
+
+Week 10: Arduino Symphony Orchestra
+
+SPRING BREAK
+
+Week 12: Reading an Encoder
+
+Week 13: Controlling a Brushed DC Motor
+
+Week 14: Controlling a Servo
+
+Week 15: Controlling a Stepper
+
+Week 16: Reading A Rangefinder
+
+Week 17: Controlling Neopixels - the WS2812B LEDs
+
+Week 18-20: Zombie Apocalypse Survival Device
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jason Brett, Instructor December 18, 2023
+
+I verify that this course outline has been reviewed. Roger Bortignon, Program Head December 18, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Stephen McMillan, Associate Dean December 28, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

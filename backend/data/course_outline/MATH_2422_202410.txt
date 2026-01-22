@@ -1,0 +1,141 @@
+URL: https://www.bcit.ca/outlines/20241073835/
+Course: MATH 2422
+Field: Integral Calculus for Civil Engineering
+
+School: School of Construction and the Environment
+Program: Civil Engineering
+Course Credits: 6.5
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 100
+Total Weeks: 20
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): MATH 1422
+CRN: 73835
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kim Nishimura
+E-mail: Kim_Nishimura@bcit.ca
+Location: SW2 231
+Office Hours: Primary Instructor: Kim Nishimura, P.Eng. (Non-practising) Office: SW2 231 Phone: 604-451-7173 Office Hours: As posted E-mail: Kim_Nishimura@bcit.ca: Kim Nishimura, P.Eng. (Non-practising): Office: SW2 231: Phone: 604-451-7173: Office Hours: As posted: E-mail: Kim_Nishimura@bcit.ca
+Kim Nishimura, P.Eng. (Non-practising): Office: SW2 231: Phone: 604-451-7173
+Office Hours: As posted: E-mail: Kim_Nishimura@bcit.ca
+
+## Course Description
+Introduction of the integral with its many practical uses in engineering and science type applications; overview of different integration techniques.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Differentiate implicit functions. [1]
+- Graph functions using their first and second derivatives and asymptotes. [1]
+- Relate the concept of the integral to that of the derivative. [1]
+- Integrate algebraic and transcendental functions. [1]
+- Apply the indefinite integral to problems involving motion, shear force, bending moment, deflection. [1, 2]
+- Calculate areas and volumes of irregular shapes using the trapezoid rule or Simpson’s rule. (Applications include area and volume of materials, lakes, reservoirs, areas under hydrographs.) [1]
+- Use definite integrals to find area, volume, centroid, arc length, surface area, fluid pressure and work. [1, 2]
+- Recognize situations which require the use of l’Hôpital’s rule. [1]
+- Apply the different integration techniques appropriately. [1]
+- Use successive integration to solve linear differential equations. [1]
+
+## Learning Resources
+Text(s) and Equipment:
+
+Required:
+
+- Mobius Assessment access code - available at the BCIT Bookstore (NOTE: One code gives access for 12 months. Do not re-purchase if you already have access.)
+- Any non-programmable scientific calculator
+
+Optional Reference:
+
+- Calculus, Early Transcendentals, 7th Edition, by Edwards & Penney, Digital textbook
+
+## Evaluation Criteria
+Criteria: %
+Assignments (weekly): 10
+Quizzes (5 or 6): 20
+Term Tests (2): 40
+Final Exam: 30
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+Date: Readings: Assignment: Due Date
+January 3: Lecture 1: Implicit Differentiation: January 13
+January 3: Lectures 1 to 3: Related Rates and Approximations: January 13
+January 11: Lecture 4: Derivative Tests: January 20
+January 18: Lecture 5: L’hopital’s Rule and Curve Sketching: January 27
+January 25: Lectures 6 and 7: Optimization and Indefinite Integrals: February 3
+February 1: Lecture 8: Beam Loads: February 10
+February 8: Lectures 9 and 10: Riemann Sums and Definite Integrals: February 17
+February 15: Lecture 11: Average Values and Areas: February 24
+February 22: Lectures 12 and 13: Numerical Integration and Solids of Revolution: March 2
+February 29: Lecture 14: Volume Applications: March 9
+March 7: Lecture 15: Arc Length, Surfaces of Revolution: March 23
+March 21: Lectures 16 and 17: Centroids and Distributed Beam Loads: March 30
+March 28: Lecture 17: Fluid Pressure and Work: April 6
+April 4: Lectures 18 and 19: Moments of Inertia, Inverse Trig Functions: April 13
+April 11: Lectures 19 and 20: Hyperbolic Functions, Integration by Parts: April 20
+April 18: Lectures 21 and 22: Partial Fractions and Trig Integrals: April 27
+April 25: Lecture 23: Quadratic Polynomials and Improper Integrals: May 4
+May 2: Lecture 24: Differential Equations: May 11
+
+## Course topics
+WEEK: UNIT: TOPIC: TEXT REFERENCE
+1: ADDITIONAL APPLICATIONS OF DERIVATIVES: Implicit Functions & Related Rates Successive Approximations and Newton’s Method: §3.9 §3.10
+2: Increments, Differentials & Linear Approximation Increasing & Decreasing Functions & The Mean Value Theorem The First Derivative Test & Applications: §4.2 §4.3 §4.4
+3: Simple Curve Sketching Higher Derivatives & Concavity Curve Sketching & Asymptotes: §4.5 §4.6 §4.7
+4: INTEGRALS: Introduction Antiderivatives & Initial Value Problems Elementary Area Computations: §5.1 §5.2 §5.3
+5: Riemann Sums & the Integral Evaluation of Integrals The Fundamental Theorem of Calculus: §5.4 §5.5 §5.6
+6: Integration by Substitution Areas of Plane Regions Numerical Integration: §5.7 §5.8 §5.9
+7: APPLICATIONS OF INTEGRALS: Riemann Sum Approximations Volumes by the Method of Cross Sections Volumes by the Method of Cylindrical Shells: §6.1 §6.2 §6.3
+8: Arc Length & Surface Area of Revolution Force & Work Centroids of Plane Regions and Curves: §6.4 §6.5 §6.6
+9: Load, Shear Force and Bending Moment on Beams Beam Deflection Concentrated Load on a Beam: Notes Notes Notes
+10: Moment of Inertia of a Thin Flat Plate Moment of Inertia of Solids By the Shell method Moment of Inertia of Solids by the Disk method: Notes Notes Notes
+11: CALCULUS OF TRANSCENDENTAL FUNCTIONS: The Natural Logarithm as an Integral Indeterminate Forms & L’Hopital Rule More Indeterminate Forms: §6.7 §4.8 §4.9
+12: Inverse Trigonometric Functions Hyperbolic Functions: §6.8 §6.9
+13: TECHNIQUES OF INTEGRATION: Integral Tables & Simple Substitutions Integration by Parts: §7.1, §7.2 §7.3
+14: Trigonometric Integrals Rational Functions & Partial Functions Trigonometric Substitution: §7.4 §7.5 §7.6
+15: Integrals Involving Quadratic Polynomials Improper Integrals: §7.7 §7.8
+16: DIFFERENTIAL EQUATIONS: Simple Equations & Models Separable Equations & Applications Linear Equations & Applications: §8.1 §8.3 §8.4
+17: POLAR COORDINATES: Analytic geometry and the Conic Sections Polar Coordinates: §9.1 §9.2
+18: Area Computation in Polar Coordinates Parametric Curves: §9.3 §9.4
+19: Review
+20: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kim Nishimura, Instructor December 20, 2023
+
+I verify that this course outline has been reviewed. David Holloway, Program Head December 22, 2023
+
+I verify that this course outline has been reviewed. Sudip Talukdar, Program Head January 10, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean January 10, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

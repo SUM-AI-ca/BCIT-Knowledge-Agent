@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/algorithm-analysis-and-design-comp-3761/
+Title: Algorithm Analysis and Design
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3761
+
+================================================================================
+
+## Overview
+
+Understanding how to use algorithms for computer science is essential for problem solving to develop effective software applications. Algorithms are the foundation of both Artificial Intelligence (AI) and Machine Learning (ML). In this hands-on course, Java programming students who have also taken Discrete Mathematics will develop their ability to analyze and design computer algorithms. Learners will analyze the time and space complexity of programs, solve nontrivial programming problems using algorithmic techniques, and prove that their solution is correct. The emphasis will be on developing the practical skills of analysis and design. Topics include evaluating time and space complexity and designing solutions by using appropriate data structures or applying techniques such as recursion, parsing and graph algorithms. COMP 3761 is a required course in the CST FLEX Diploma and it is equivalent to COMP 3760 in the Full-time CST Diploma. Upon completion, successful students will have a better understanding of algorithm behavior and how to develop more efficient and effective software applications.
+
+## Credits
+
+4.0
+
+## Cost
+
+$629.98 - $658.26
+
+## Prerequisites
+
+- 50% in COMP 2121 and (60% in COMP 2601 or 50% in COMP 2522 )
+
+## Learning Outcomes
+
+- Describe the basic framework of algorithm analysis.
+- Analyze pseudocode using asymptotic notations.
+- Compare the order of growth of different algorithms.
+- Explain the differences between non-recursive and recursive algorithms.
+- Describe some common algorithm design strategies. e.g. Divide and Conquer, Greedy, Dynamic programming, Graph techniques, etc.
+- Recognize diverse types of computing problems and how to solve them.
+- Apply algorithm design techniques to solve practical problems.
+- Specify algorithms in pseudocode.
+- Implement solutions by using appropriate data structures.
+- Deduce the complexity of a program by running different experiments.
+- Argue the correctness of the algorithms.
+- Find lower bounds for simple problems.
+- Develop more efficient software applications.
+
+## Related Programs
+
+- Computer Systems

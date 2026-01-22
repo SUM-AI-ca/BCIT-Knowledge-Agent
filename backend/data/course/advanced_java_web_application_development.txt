@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/advanced-java-web-application-development-comp-4601/
+Title: Advanced Java Web Application Development
+Field: Computer Systems
+Type: Course
+Course Code: COMP 4601
+
+================================================================================
+
+## Overview
+
+Following on from COMP 3601 , this course replaces COMP 4613 and COMP 4656 . Those who also understand HTML, CSS and JavaScript and already capable of developing basic Java web applications will focus on Advanced Java Web App design, organization and deployment. Starting with the Java Persistence API (JPA), students creating Object Relational Mapping solutions and configure data sources in J ava Enterprise Edition (JEE) containers. They connect Java web applications to data sources by utilizing Java Naming and Directory Interface (JNDI). SQL queries are executed using native and Java Persistence Query Language (JPQL queries as well as JPA's Criteria Builder API. COMP 4602 activites include; use Create/Read/Update/Delete (CRUD) operations on JPA entities using entity managers. Students create XML-based web services using the Java API for XML Web Services (JAX- WS) and RESTful web services (JAX-RS API) and Jersey Implementation. Industry best practices are discussed for well-informed decisions about web services strategies. Labs and exercises use industry standards to develop and deploy advanced Java web applications. Topics include: Java Persistence API (JPA), creating Object Relational Mapping solutions, JEE containers, Hibernate API. Students will develop a database-enabled web application, and web services using a variety of industry standards and using design patterns. Enterprise Java Beans (EJB™) API is used to develop the components to build the business logic for Java Enterprise Edition (JEE) applications. Upon successful completion, students will be able to create and deploy advanced Java Web Applications to industry standards. COMP 4601 will be offered in the Winter (January) term.
+
+## Credits
+
+4.0
+
+## Cost
+
+$575.86
+
+## Prerequisites
+
+- 60% in COMP 3601 or 60% in COMP 3656
+
+## Learning Outcomes
+
+- Describe the Java Persistence API (JPA) and employ it for creating Object Relational Mapping solution
+- Create and configure data sources in JEE containers.
+- Connect Java web applications to data sources by utilizing Java Naming and Directory Interface (JNDI)
+- Use Hibernate API as a JPA implementer to create a database-enabled web application.
+- Execute SQL queries using native and JPQL (Java Persistence Query Language) queries as well as JPA's Criteria Builder API.
+- Develop JPA entities using JPA annotations to map the Java classes, properties, and types to relational tables, columns, and types.
+- Carry out Create/Read/Update/Delete (CRUD) operations on JPA entities using entity managers.
+- Create web applications and web services using a variety of industry standards and design patterns.
+- Map XML documents to Java objects and vice versa by employing Java API for XML Binding (JAXB).
+- Create XML-based web services with JAX-WS API in bottom-up and top-down.
+- Create RESTful web services using JAX-RS API and Jersey Implementation.
+- Make well-informed decisions about web services strategies.
+- Use EJB™ API to develop components used in building the business logic of Java EE applications.
+- Create, send, receive and read messages between two or more applications using Java Messaging Service (JMS).
+- Use Message-Driven beans to process messages asynchronously in Java EE applications.
+- Provide case-based recommendations for asynchronous vs synchronous messaging between application clients, EJB™ components and web components.
+- Make well-informed decisions about Publisher/Subscriber or point-to-point strategies.
+
+## Related Programs
+
+- Advanced Java Development
+- Computer Systems
+- Web and Mobile Application Development

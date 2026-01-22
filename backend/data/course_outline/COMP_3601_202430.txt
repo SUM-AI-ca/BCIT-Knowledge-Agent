@@ -1,0 +1,194 @@
+URL: https://www.bcit.ca/outlines/20243050629/
+Course: COMP 3601
+Field: Application Development with Java
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: September 25, 2024
+End Date: December 11, 2024
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2601
+CRN: 50629
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Arash Ghavami
+E-mail: Instructor to provide
+Location: N/A
+Office Hours: Instructor to provide
+
+## Course Description
+​This forth-level programming course follows on from COMP 2601 and assumes students have significant prior knowledge of object-oriented programming using Java. COMP 3601 starts with using Java core APIs and the Eclipse IDE with industry standard coding styles and naming conventions. Students practice how to build and deploy commercial quality Java applications with Event Driven Architecture. Labs and exercises use a variety of skills to debug programs and use design patterns to develop advanced applications in Java. Topics include: packages, inner classes, file I/O, an overview of database connectivity, user interfaces, model-view-controller (MVC) and other design patterns for standalone Java applications as well as Java web applications. Participants develop database enabled web applications and are introduced to Java web tier development. There is a focus on the design and how to build, deploy and distribute Java web applications into application servers. They configure and customize a simple web application server with Java Database Connectivity (JDBC) to create and edit data from Java Web Applications. Maven is used with Java Servlets as web application controllers and Java Server Pages (JSP) to build and deploy Java web apps on JEE containers, implemented by a WildFly application server. COMP 3601 is part of three BCIT Computing Associate Certificates; Applied Software Development (ASD), Advanced Java Application Development (AJD), a prerequisite for Web and Mobile Applications (WMA) and a recommended elective in the CST FLEX Diploma. Upon completion, successful students will be able to build and deploy well designed basic Java Web applications and be prepared to move on to COMP 4601- Advanced Java Web App Development. ​COMP3601 will be offered in the Spring (April) and Fall (September) terms.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- ​Demonstrate Model-View-Controller design through Java application, and other advanced object-oriented development design patterns.
+- Implement Event Driven Architecture applications.
+- Use Java Collection framework and serialization to manage and save object data.
+- Explain Java's relationship to database using JDBC protocols in standalone Java applications as well as Java web applications.
+- Create relation object mapping between Java objects and database tables.
+- Develop database enabled web applications.
+- Create dynamic HTML tables using JDBC ResultSet metadata and Database Metadata.
+- Build and deploy Java web application in any Application Server using Maven.
+- Launch and configure WildFly Application Server from command line as well as from Eclipse.
+- Create secure Data Sources in WildFly Application Server and connect to them via DataSource interface.
+- Create Java web applications using Servlet, JSPs, Expression Language and JSTLs.
+- Create, read, update and delete data from a database using Java web applications.
+- Describe the role of Java Servlets as web application controllers.
+- Configure and customize a simple web application server.
+
+## Learning Resources
+Required:
+
+- Java SE Development Kit (SDK) version 11 - https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html
+- Eclipse IDE for Java Developers – https://www.eclipse.org/downloads/
+- The Java Tutorials by Oracle - https://docs.oracle.com/javase/tutorial/
+- The Java EE Tutorials by Oracle - https://javaee.github.io/tutorial/
+
+## Course Goals
+- To learn and apply best practices in Java applications development.
+- Build and Deploy Java web applications in any Application Server using Maven
+- Create java web applications using Servlet and JSPs
+- Examine the role of Java Servlets as web application controllers.
+- Configure and customize a simple web application server.
+- Analyze and apply web application design architecture.
+- Create and design web application deployment descriptors
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 20: Weekly homework: Weekly homework. You must attempt and submit all labs in order to pass this course
+Assignments: 26: Two assignments: Two assignments. You must attempt and submit both assignments in order to pass this course
+Quizzes: 30: Quizzes: There will be a quiz approximately every two weeks
+Final Exam: 24: Week 12: You must average 50% between the Quizzes and Final Exam in order to pass the course
+
+To receive a grade, all take home assignments and labs must compile and run and all project files and source code must be submitted.
+
+Not submitting the assignments will jeopardize your ability to pass this course.
+
+NOTE: Passing grade for the course is 60%.
+
+- COMP 3601 is blended delivery with a mandatory online component.
+- Assignments and exam questions include online topics.
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Ability to provide solutions to programming problems.
+- Understanding of object oriented programming.
+- Prior knowledge of the Java programming language.
+- Prior knowledge of the core Java framework classes.
+- A computer with email and internet access capable of running the Java SDK.
+- Participation in all online activities via the BCIT Learning Hub.
+
+- Students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- Students must be able to log in during regular scheduled class hours in order to participate in real time and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Please understand that consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Date: Material Covered: Readings: Assignment: Due Date
+Weekly: The day's lecture and homework material: See lab specifications: Labs: most weeks, prior to next lecture at 06:59 PM PT
+Wk 5: Assignment 1: See Assignment 1 specifications: The day prior to session 7 at 06:00 PM PT
+Wk 9: Assignment 2: See Assignment 2 specifications: The day prior to session11 at 06:00 PM PT
+
+Note:
+
+Not submitting all the labs and assignments will jeopardize your ability to pass this course. Late assignments/labs will not be graded.
+
+## Course topics
+Week: Outcome/Material Covered: Assignment
+Note! The topics below have links to the Java Tutorial. You are expected to read the material each week.
+1: The eclipse Integrated Development Environment Recap & Review Packages Jar Files: Lab 1
+2: Design Patterns-Introduction; MVC, Builder, Iterator, Annotations, Enums: Quiz 1 Lab 2
+3: Interfaces, Comparator, Logging using Log4j, Properties: Lab 3
+4: Database programming, JDBC: Quiz 2 Lab 4
+5: Web Application Lifecycle, Building & Deploying WEeb Apps: Eclipse, Maven, WildFly (JBoss): Lab 5
+6: Java Servlet Technology: Quiz 3 (No Lab, work on Assignment 1)
+7: JavaServer Pages: Lab 7
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before week 8 or else you will receive a failing grade on your academic record.
+8: MVC 2, Servlet-JSP Integeration: Quiz 4 Lab 8
+9: Expression Language: Lab 9
+10: JSTL - The JavaServer Pages Standard Tag Library: Quiz 5 (Lab10)
+Course Evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their myBCIT email. Those who do not have the link in their myBCIT email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: Custom Tag Libraries: (No lab - Work on Assignment 2)
+12: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Arash Ghavami, Instructor September 12, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator September 13, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 13, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

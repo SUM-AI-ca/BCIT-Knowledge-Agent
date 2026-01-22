@@ -1,0 +1,118 @@
+URL: https://www.bcit.ca/outlines/20243047196/
+Course: COMP 3958
+Field: Functional Programming
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): Completion of first year CST and admission into the Programming Paradigms Option.
+CRN: 47196
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Albert Wei
+E-mail: awei@bcit.ca
+Location: Online
+Office Hours: By appointment via video conferencing
+
+## Course Description
+This course introduces functional programming techniques and data structures. The course looks at the features that a functional language provides that allow developers to write expressive and concise programs. Topics covered include higher-order functions, algebraic data types, data abstraction and the implementation of selected data structures.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply the functional paradigm to create extensible programs.
+- Analyze and explain the behaviour of programs involving functional design.
+- Apply functional decomposition to break a program into multiple functions.
+- Apply functional idioms and patterns.
+- Build data structures in a clean and efficient way.
+- Design and implement tests for functional programs.
+
+## Learning Resources
+- Computer running a Unix-like operating system
+
+- Softwares & references:
+
+https://ocaml.org
+
+https://dev.realworldocaml.org
+
+https://www.haskell.org
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Exam (In-person): 15: You must pass the exam component (midterm & final exams) in order to be able to pass the course (See Course Specific Requirements below)
+Midterm Exam (In-person): 10
+Presentation: 10
+Assignment (1 individual assignment): 17
+Lab Exercises (5 or 6): 48: You must pass the lab component in order to be able to pass the course (See Course Specific Requirements below.)
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+1) You must pass the exam component in order to be able to pass the course. The midterm exam will be calculated out of 10 marks, the final exam out of 15 marks. The total score of the two exams is thus 25 marks. Under this calculation, you must score a total of at least 12.5 marks on the exams.
+
+2) You must pass the lab component in order to be able to pass the course, i.e., your total lab score must be at least 50% of the maximum total lab score.
+
+If you do not meet the above 2 requirements, you will fail this course regardless of your overall score.
+
+## Other information
+Recording of lessons is prohibited without prior written consent of the instructor. In such cases where recordings are allowed by the instructor, these recordings are for the exclusive use of the student making the recording, and are not to be posted online or shared with others.
+
+## Course Schedule and Assignments
+Instructional Week: Topics
+1 - Sep 2: No Classes (Labour Day)
+2 - Sep 9: Introduction to OCaml
+3 - Sep 16: Higher-Order & Anonymous Functions
+4 - Sep 23: Sum Types
+5 - Sep 30: No Classes (National Day for Truth & Reconciliation)
+6 - Oct 7: Product Types; Input/Output
+7 - Oct 14: No Classes (Thanksgiving Day)
+Oct 21: Midterm Exam Week - Non-instructional Week
+8 - Oct 28: Modules
+9 - Nov 4: Infinite & Lazy Streams
+10 - Nov 11: No Classes (Remembrance Day)
+11 - Nov 18: Monads; Presentations
+12 - Nov 25: Presentations
+Dec 2: Study/Makeup/Review/Presentation Week
+Dec 9: Final Exam Week - Non-instructional Week
+
+Note: Schedule is subject to change
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Albert Wei, Instructor August 18, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head August 29, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

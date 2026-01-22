@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/signal-theory-and-processing-elex-7210/
+Title: Signal Theory and Processing
+Field: Electrical and Computer Engineering
+Type: Course
+Course Code: ELEX 7210
+
+================================================================================
+
+## Overview
+
+This course is divided into two parts. Approximately 40% of the course time is devoted to continuous time signal processing and 60% to discrete time signal processing. The continuous time section of the course starts with a general overview of analog filter types and the approximation problem. Transfer functions for various filter types, typically Butterworth, Chebyshev, Cauer and Bessel, are then derived. Transformations from normalized low-pass to high-pass, band-pass, and band-reject and also scaling are covered. Various circuits to realize the resulting transfer functions are analyzed and implemented in the laboratory. The discrete time section starts with a review of the properties of sine waves including discrete time representation. Spectrum representation is examined and various Fourier series representations are covered. Sampling and aliasing are examined followed by an examination of the basics of FIR filters. Techniques for designing FIR filters are presented. The z-transform is developed, followed by an examination of recursive filters. Various s-plane to z-plane transformations are presented and design techniques for recursive filters are covered. The theory is strongly supported by several design projects which are implemented and tested in the laboratory.
+
+## Credits
+
+3.0
+
+## Cost
+
+$756.02
+
+## Prerequisites
+
+- 50% in ELEX 7110
+
+## Learning Outcomes
+
+- Derive continuous and discrete time mathematical models using both time domain and transform approaches for physical systems such as electric circuits, mechanical systems, thermal systems, and hydraulic systems based on first principles.
+- Fit models to empirical data using model validation criteria.
+- Write dynamic computer simulation programs for physical systems.
+- Investigate the properties of mathematical models using a variety of model structures.
+- Outline the fundamental ideas of Fourier analysis such as the continuous and discrete Fourier Transforms and series, the inverse transforms, and the properties of the Fourier models.
+- Draw Bode plots for frequency responses.
+- Perform time and frequency domain analysis of systems such as automobile suspensions and non-recursive filters.
+- Use computational algorithms such as the FFT and computer software to analyze real data.
+- Design a sampling system taking into account the appropriate choice of sampling rate, aliasing and quantization considerations.
+- Outline the mathematical descriptions of the sampling operation most often used in practice.
+- Reconstruct sampled data using the most common signal reconstruction techniques.
+- Outline the most common modulation schemes used in communication systems and their relation to the Fourier transform.
+
+## Related Programs
+
+- Electronics

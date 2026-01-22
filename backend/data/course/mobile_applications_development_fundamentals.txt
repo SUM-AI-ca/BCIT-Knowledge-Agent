@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/mobile-applications-development-fundamentals-comp-7031/
+Title: Mobile Applications Development Fundamentals
+Field: Computer Systems
+Type: Course
+Course Code: COMP 7031
+
+================================================================================
+
+## Overview
+
+This course teaches design and development of mobile applications using native as well as multiplatform development environments. Basic building blocks of mobile applications are created using native development environments such as Java, Kotlin and Android Studio for Android and Swift, Objective C and XCode for iOS; as well as multiplatform development alternatives such as React Native, for comparative analysis. Influence of software process models and software engineering practices is studied. Version control strategies along with build, integration, testing and deployment automation pipelines are constructed. Software patterns are applied to resolve recurring design problems in mobile applications.
+
+## Credits
+
+3.0
+
+## Cost
+
+$852.98
+
+## Prerequisites
+
+- 60% in COMP 7082 † ( † may be taken concurrently)
+
+## Learning Outcomes
+
+- Utilize layouts and components available through GUI libraries and frameworks of the smartphone platforms to create the GUI for the mobile applications.
+- Create and wire UI event handling routines to the UI components following the supported programming patterns.
+- Utilize file system, repositories such contacts and calendars, or supported database systems to enable a mobile application manage data locally.
+- Develop mobile applications that support data exchange with servers using HTTP (Hyper Text Transfer Protocol) and peer applications using SMS (Short Message Service).
+- Develop mobile applications that can monitor and leverage data from location and other onboard sensors.
+- Define software process model and accompanying software engineering practices most likely to positively influence the creation of a mobile application.
+- Collect and analyze metrics to improve the software process model for a mobile application.
+- Setup version control appropriate for the development and deployment of a mobile app.
+- Implement build automation pipelines appropriate for the development and deployment of a mobile app.
+- Quantitatively measure maintainability of a mobile application.
+- Evaluate application of software patterns in resolving recurring design issues in mobile apps.
+
+## Related Programs
+
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)

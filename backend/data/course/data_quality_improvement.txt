@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/data-quality-improvement-comp-3839/
+Title: Data Quality Improvement
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3839
+
+================================================================================
+
+## Overview
+
+Continuing on from COMP 1630 , this course is aimed at students who already understand relational database, data modeling, using spreadsheets and the importance of improving Data Quality (DQ). Topics include the business impact of Data Quality, data profiling techniques, capability, and maturity models. Data Governance, DQ improvement roadmaps and approaches to gaining executive support for DQ improvement are discussed. In class labs, homework assignments and a project focus on how to use Data Quality techniques and tools. COMP 3839 is a required course in the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and an elective in the Computer Systems Technology (CST FLEX) Diploma. Successful participants learn how to apply a data quality framework to data migration projects and are better prepared to move on to higher-level Database, Business Intelligence and Data Analytics courses.
+
+## Credits
+
+1.5
+
+## Cost
+
+$422.23 - $441.72
+
+## Prerequisites
+
+- 60% in COMP 1630
+
+## Learning Outcomes
+
+- Define the business value and goals of Data Quality (DQ) improvement.
+- Measure the baseline DQ of data sets with data profiling to establish baselines for improvement.
+- Use simple statistical measures for prioritizing discovered DQ issues.
+- Assess business process capabilities through the DQ characteristics of their data sets.
+- Discuss DQ root causes and prioritize mitigation for discovered DQ issues using the established Data Quality Improvement Methodology for large and small projects.
+- Describe how the Data Quality Contract approach integrates Data Engineering and Data Governance.
+- Integrate data quality improvement initiatives into development projects using concepts such as Data Mesh, Data Observability and Active Data Catalogues.
+- Describe how Enterprise Information Management connects the principles of Data Governance to the implementation of Data Management using concepts such as Data Quality Rules, Contracts, and Stewardship.
+
+## Related Programs
+
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Computer Systems

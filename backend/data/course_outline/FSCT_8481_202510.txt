@@ -1,0 +1,262 @@
+URL: https://www.bcit.ca/outlines/20251073052/
+Course: FSCT 8481
+Field: Major Crimes Analysis
+
+School: School of Computing and Academic Studies
+Program: Forensic Science and Technology (Crime and Intelligence Analysis Option)
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: March 01, 2025
+End Date: April 12, 2025
+Total Hours*: 45
+Total Weeks: 6
+Hours/Weeks: 7.5
+Delivery Type: Other
+Prerequisite(s): 60% in FSCT 8436
+CRN: 73052
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Sara Lee
+E-mail: Instructor to provide
+Location: Virtual
+Office Hours: Instructor to provide
+
+## Course Description
+This course will introduce you to the various structured analytical techniques that are commonly used throughout the Crime Analysis Cycle as it is applied in Canadian violent crime investigations. You will learn the best practices in analytical software, techniques, and methods used by analysts in major case management for violent crimes, such as homicide, serious assaults, sex offences, extortion, kidnapping, and missing persons. You will also learn how to collect and evaluate publicly available information when completing analytical tasks for crimes of violence.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply critical-thinking skills to assess the relevance, reliability, and validity of data collected during violent crime investigations.
+- Use GIS software to prepare crime maps for violent crimes analysis, using temporal and spatial data.
+- Analyze a variety of sources to develop offender profiles and timelines.
+- Identify crime patterns and similar fact analysis in relation to a violent crime, such as analyzing witness statements and open source information.
+- Prepare a threat assessment related to an individual’s propensity for violence.
+- Complete an intermediate-level communications analysis, which includes phone records and cell tower information.
+- Create an intermediate-level link association, timeline, or event flow, and commodity flow charts for violent crime investigation.
+- Design and prepare an intermediate tactical crime analysis bulletin related to violent crime.
+- Prepare a report and then give a verbal presentation of your analysis that could be used as court testimony.
+
+## Learning Resources
+i2 Analyst's Notebook, ESRI ArcGIS Pro, ArcGIS for Excel. Additional readings provided by instructor.
+
+## Course Goals
+Upon successful completion of this course, students will be able to: • Discuss the different types of investigative techniques associated with major crime investigations. • Describe the role of an analyst working in a major case management (MCM) setting. • Conduct a range of analytic techniques including suspect identification, tracker analysis, communication analysis, cell dump analysis, association analysis, and timeline. • Recommend investigation avenues with sound analytical findings. • Prepare effective analytical products and present findings in a logical and organized manner. • Apply critical thinking to solve challenges associated with analyzing imperfect data. • Describe the requirements of disclosure provisions and the stages of a court process. • Discuss the role of the analyst in post-case evaluations and de-briefing.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 45: Class 1: Person Profile Class 2: GPS Analysis Class 3: Phone Analysis Class 4: Timeline
+Group Project: 20: One presentation in Classes 2-5 focused on one case study
+Final Exam: 25: Six short answers
+Participation: 10: Class discussions
+*See below for course schedule and assignment details
+
+## Attendance Requirements
+All classes will be conducted virtually.
+
+## Other information
+Assignment 1:
+
+Student will be asked to create a comprehensive background profile using information of themselves.
+
+Students are tasked with creating a document that summarizes everything known about a suspect (namely the students themselves). Students may use made-up data or modify real data from at least 15 sources of data as discussed in class.
+
+Grading is based on the student’s ability to create an aesthetically pleasing document that provides information pertaining to suspect to the investigating team. Data accuracy will not be evaluated
+
+This assignment is worth 20 points (10% of Assignment portion):
+
+- 6 points – Organization and Presentation
+- 6 points – Content and Sources
+- 3 points - Sourcing and Mechanics
+
+Assignment 2:
+
+Student will be asked to create a comprehensive tracker analysis report pertaining to the class case study.
+
+Students are given a set of GPS tracker data. Using the techniques discussed in class, students are asked to analyze the tracker data and submit a minimal 700-word report in a format discussed in class: background, methodology, Analysis, Conclusions, and Recommendations.
+
+Grading is based on the student’s ability to analyze the tracker data using the appropriate techniques and synthesize the findings with information known about the case study thus far.
+
+This assignment is worth 20 points (30% of Assignment portion):
+
+- 16 points - Purpose and organization (written portion)
+- 10 points - Effective use of visual to illustrate your findings
+- 4 points - Syntax and Mechanics including sourcing
+
+Assignment 3:
+
+Student will be asked to create a comprehensive a call detail records analysis report pertaining to the class case study.
+
+Students are given a set of call detail records pertaining to one of the suspects in the class case study. Using the techniques discussed in class, students are asked to analyze the records data and submit a minimal 1500-word report in a format discussed in class: background, methodology, Analysis, Conclusions, and Recommendations.
+
+Grading is based on the student’s ability to analyze the call records data using the appropriate techniques and synthesize the findings with information known about the case study thus far.
+
+This assignment is worth 30 points (40% of Assignment portion):
+
+- 16 points - Purpose and organization (written portion)
+- 10 points - Effective use of visual to illustrate your findings
+- 4 points - Syntax and Mechanics including sourcing
+
+Assignment 4:
+
+Student will be asked to create a comprehensive timeline of the class case study.
+
+Students are to create a visual product that effectively summarizes all relevant information and evidence for the class case study. This may include materials provided during class and supplemental documents in the weekly readings.
+
+Grading is based on the student’s ability to communicate information in a concise manner using a visual timeline.
+
+This assignment is worth 30 points (20% of Assignment portion):
+
+- 12 points - Purpose and Content
+- 12 points – Visual
+- 6 points – Sourcing and Mechanics
+
+Group Project:
+
+Students will be assigned into one of four real case studies. Selected information pertaining to each case will be given to each group week by week. The task is to compile and analyze the investigative materials provided as a group and present a 5–10-minute presentation in Day 2, 3, 4, and 5.
+
+Every member of the group must contribute to the final product and participate in the oral presentation. Each presentation will include a review of the case, a compilation of the investigative materials provided, and between 1 and 3 products derived from the analysis of the materials.
+
+Each presentation is worth 10 marks:
+
+- 6 points - Purpose, Content, and Accuracy
+- 4 points - Oral presentation
+
+Final Exam:
+
+Students will be given 90 minutes to complete 6 scenario-based questions. The purpose of each question is to assess the student’s ability to logically examine different types of data sets in different situations leading to the determination of the appropriate analytical technique to be applied.
+
+The exam is worth 45 marks.
+
+## Course Schedule and Assignments
+Class: Content: Class Exercises: Assessments
+1: Introductions Introduction to Major Crime Investigation Definitions Roles & Responsibilities: Background Suspect ID Crime Pattern Analysis Association Analysis: Readings Assignment #1 Group Project
+2: Investigation II – Dissecting Crimes: Tracker Analysis Communications Analysis: Readings Assignment #2 Group Project
+3: Investigation III – Specialized Techniques: Fob Analysis GPS Analysis Communications Analysis: Readings Assignment #3 Group Project
+4: Investigation IV – Advanced Techniques: Transmission Data Analysis Cell Dump analysis: Readings Assignment #4 Group Project
+8: Evidence Documentation Court Process & Preparation: Timeline Analysis: Final Exam
+
+## Course topics
+Day 1 Class:
+
+- Instructor and student introductions
+- Class expectations and Course evaluation
+- What is a Major Crime Investigation?
+- Fundamental Principles of Major Crime Management
+- Command Triangle
+- Roles & Responsibilities of Major Crime Analysts
+- Sources of information and background profiles (Class exercise)
+- “IZE” Methodology and Suspect Identification (Class discussion)
+- Crime pattern analysis (Class exercise)
+- Crime bulletins (Class exercise)
+- Crime map, link chart, and timeline
+- Review
+
+Day 1 Readings and Videos:
+
+- Additional case information
+- Case Law: R v Hamdan
+- OSINT cheatsheet
+- USDOJ: Why Law Enforcement Agencies Need an Analytical Function
+
+Day 2 Class:
+
+- Review of Day 1
+- Group presentation
+- Search Warrant
+- Forensic Sciences (Biology, Fingerprint, Toolmark, Firearm, Pathology, Toxicology)
+- Digital Forensics and definitions
+- Five properties of Big Data (Class discussion)
+- Review of Assignment 1 (Class discussion)
+- Tracker analysis (Class exercise using ArcGIS for Excel)
+- Introduction to communication analysis (2 Class exercises: one without and one with cell sites using ArcGIS for Excel)
+- Effective Mapping strategies
+- Review
+
+Day 2 Readings and Videos:
+
+- Additional case information
+- Case Law: R v Oland
+- Case Law: R v Spackman
+- MS Excel Cheatsheet
+
+Day 3 Class:
+
+- Review of Day 2
+- Group presentation
+- Covert Techniques (surveillance and confidential informants)
+- Review of Assignment 2 (Class discussion)
+- Tracker analysis (Class exercise using ESRI ArcGIS PRO)
+- FOB analysis (Class exercise using Excel)
+- Suspect identification (Class discussion using iBase)
+- Advanced communication analysis (Class exercises using ESRI ArcGIS PRO)
+- Introduction to cell dump analysis (Class discussion)
+- Effective analytical writing
+- Review
+
+Day 3 Readings and Videos:
+
+- Additional case information
+- Case Law: R v Leipert
+
+Day 4 Class:
+
+- Review of Day 3
+- Group presentation
+- Forensic Artists and Behavioural Science
+- Covert Techniques (Undercover operations and electronic surveillance)
+- Review of Assignment 3 (Class discussion)
+- Association analysis (Class exercise using i2 Analyst Notebook)
+- Effective charting strategies
+- Cell dump analysis (Class discussion)
+- Commonality analysis and Transmission Data Recording analysis (Class discussion)
+- Timelines
+- Review
+
+Day 4 Readings and Videos:
+
+- Additional case information
+
+Day 5 Class:
+
+- Evidence documentation
+- Legal framework & judicial process
+- Course review (Days 1 to 4)
+- Final Exam
+- Class case study wrap up
+- Group presentation wrap up
+- Analytical landscape, career path, opportunities
+- Q&A
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Sara Lee, Instructor December 31, 2024
+
+I verify that this course outline has been reviewed. Ken Schulz, Program Coordinator December 31, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 02, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

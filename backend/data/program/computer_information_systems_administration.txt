@@ -1,0 +1,371 @@
+URL: https://www.bcit.ca/programs/computer-information-systems-administration-diploma-full-time-1930dipma/
+
+Title: Computer Information Systems Administration
+
+================================================================================
+
+## Overview
+
+Overview text
+
+The Computer Information Systems Administration (CISA) program is a full-time program that provides graduates with a comprehensive skill set geared towards administration of computer networks and system. The CISA program emphasizes a hands-on, technical approach to training, where experience gained in labs and classrooms can be applied directly to business and industry. The program focuses on Information Technology (IT) infrastructure solutions rather than computer engineering or software development. Training comprises of both theory and practical experience, where the goal is to have the students develop a skill set to be able to install, configure, maintain, monitor, and troubleshoot systems and hardware. To support this training, students are exposed to considerable hands-on activities using well equipped labs. The first year consists of training that introduces students to computer hardware, operating systems, network infrastructure, and cybersecurity. Topics include Microsoft Active Directory services and networking, Cisco routing and switching, Linux administration as well as essentials of databases and programming. While much of the training aligns with industry certifications, students are not required to write any industry exams. Included in first year is a Business Skills for IT course that provides insight into the communication and management skills required in the IT sector. The second year specializes in deploying and supporting the network infrastructure used in today’s enterprise systems. Students leverage industry leading products from Cisco Systems, Microsoft, Fortinet, Juniper, Palo-Alto, Red Hat, SUSE, Oracle, VMWare, and others to create a secure, multiservice business solution. Students work with routing, switching, firewall, server, and client technologies to deploy reliable and redundant campus networks that support remote access and wide area interconnectivity. Topics include security, advanced routing and switching, Voice-over-IP (VoIP), and wireless access. Networked applications are explored and deployed including collaboration and messaging services. Students learn to leverage virtualization technologies, providing the responsiveness needed to support business applications. The integration of “cloud” services to an enterprise along with network management solutions provides insight into the complexities of an enterprise system. Students are encouraged to obtain more advanced industry certifications from Aruba, AWS, Cisco Systems, Microsoft, Oracle, Red Hat, Fortinet, Juniper, Palo-Alto, and VMWare. Applicants should have a keen interest in computers, exposure to home networking, strong communication, troubleshooting, and problem solving skills. CISA graduates have skills focused on maintaining network infrastructure and client support. Graduates are capable of working with a wide range of Cisco products, including routers, switches, firewalls, wireless systems, IP phones, and management tools.
+
+
+
+## Courses
+
+Class hours
+
+0830-1500, Monday through Friday.
+
+### Level 1 (15 weeks)
+
+CISA 1310 - Network Essentials
+
+Outline URL: https://www.bcit.ca/outlines/cisa1310/
+
+Credits: 5.0
+
+Description: This course introduces basic concepts involved in the electronic transmission of data from one computer system to another utilizing data networks. The major types of network topologies, protocols, and infrastructures are discussed, and students are presented with various networking models and standards. Topics covered will include the Open Systems Interconnection (OSI) model, TCP/IP, Ethernet, network topologies, IP addressing, sub-netting, IPv6, networking components, and basic network design. Students will gain the knowledge and skills necessary to implement, administer, and troubleshoot basic network systems and hardware, including configuring devices using command line tools.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 1320 - Desktop Support & Maintenance
+
+Outline URL: https://www.bcit.ca/outlines/cisa1320/
+
+Credits: 5.0
+
+Description: This course provides students with the skills to support end users with their computers and operating systems. Students will diagnose hardware and operating systems, assemble computers, add peripherals, configure network settings, and implement basic system security. Students will learn about tools built into operating systems (OS) used to manage and monitor the computer. The primary focus is on the Windows OS; however, students will also be introduced to Linux, Mac, and mobile operating systems.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 1330 - Windows Server Essentials
+
+Outline URL: https://www.bcit.ca/outlines/cisa1330/
+
+Credits: 5.0
+
+Description: This course introduces students to Windows Servers and includes configuration and management of components relating to Installation, Storage systems, Networking including DHCP and DNS, HyperV, Domain Controllers, Active Directory, Permissions, Securing Servers, and other items supporting a large enterprise environment.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 1340 - Linux Essentials
+
+Outline URL: https://www.bcit.ca/outlines/cisa1340/
+
+Credits: 5.0
+
+Description: This course introduces students to the Linux operating system (OS) and develops their proficiency using the command line interface to configure and manage the OS. Students will be able to describe the file system, structures, and basic architecture of Linux. In addition, students will configure files and the file system, and manage processes, users, and groups within the Linux environment. Students will implement file globbing, redirection, processes, regular expressions, permissions and basic scripting.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 1350 - Database Essentials
+
+Outline URL: https://www.bcit.ca/outlines/cisa1350/
+
+Credits: 5.0
+
+Description: In this course, students will learn the structure of a database and how to query a database. Students will use various relational database management systems as platforms for hosting a database. Students will create a relational database, write SQL statements to extract information, create entity relationship diagrams (ERDs) to depict a database, and analyze table designs.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 1360 - Programming Essentials
+
+Outline URL: https://www.bcit.ca/outlines/cisa1360/
+
+Credits: 5.0
+
+Description: This course is an introduction to computer programming terminology and concepts. Students will learn to write basic programs using loops, statements, variables, functions and arrays. The course employs an object-oriented programming language called Python. Practical exercises provide students the exposure to computer programming and the ability to interpret programming code.
+
+Prerequisites: No prerequisites are required for this course.
+
+### Level 2 (20 weeks)
+
+CISA 2310 - IP Routing Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/cisa2310/
+
+Credits: 6.0
+
+Description: Building upon concepts learned in the previous term, this course expands on routing and router configuration, explores networking protocols, and applies routing concepts within a lab environment. Topics covered include Cisco IOS management, routing protocols, network security concepts, Network Address Translation (NAT) and Access Control Lists (ACLs). Routing protocols covered include Open Shortest Path First (OSPF). IPv6 operations, routing, and address assignment are also explored. Students will learn how to configure routers, interpret routing tables, and troubleshoot connectivity issues. Students are provided hands-on experience with routers and switches in a networked lab environment. The course also covers Wide Area Network (WAN) technologies and Quality of Service (QoS) mechanisms used for secure remote access along with the introduction of software-defined networking, virtualization, and automation concepts that support the digitalization of networks.
+
+Prerequisites: CISA 1310CISA 2320‡(‡must be taken concurrently)
+
+CISA 2320 - Ethernet Switching Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/cisa2320/
+
+Credits: 6.0
+
+Description: Building on skills learned in the previous term, this course describes the architecture, components, and operations of Ethernet switches in both small and larger, more complex, networks. Students learn how to configure a switch for basic and advanced functionality. Topics include Virtual LANs (VLAN), inter-VLAN routing, Dot1q trunking, Virtual Trunking Protocol (VTP), Dynamic Trunking Protocol (DTP), Spanning-Tree Protocol (STP), Switched Virtual Interfaces (SVI), port security, switch security, switch remote management, port aggregation, and first hop redundancy. Dynamic Host Configuration Protocol (DHCP), Stateless Address Auto Configuration (SLAAC), static and default routes, and basic Wireless LAN (WLAN) configuration are also covered.
+
+Prerequisites: CISA 1310
+
+CISA 2330 - Windows Server Administration
+
+Outline URL: https://www.bcit.ca/outlines/cisa2330/
+
+Credits: 6.0
+
+Description: This course continues from the CISA 1330 course and introduces students to Group Policies and Certificate Services running on Windows Servers (on-premises). The course then moves to cloud services and introduces students to Azure fundamentals and administration. Fundamental topics include an introduction to cloud services, Azure core services, networking with Azure, security, compliance, privacy and trust, pricing, service levels, lifecycle, and managing Azure resources. Azure administration topics include Azure Active Directory, virtual networking, intersite connectivity, network traffic management, storage, automation, deployment and configuration of resources, PaaS compute options, data protection, and monitoring resources.
+
+Prerequisites: CISA 1330
+
+CISA 2340 - Linux Administration
+
+Outline URL: https://www.bcit.ca/outlines/cisa2340/
+
+Credits: 6.0
+
+Description: In this course students learn how to administer Linux operating systems. Topics include installation, boot process configuration, partitions, file systems, network settings, logging services, user account policies, and host security. Additional topics include Apache web server, scripting, and Structured Query Language (SQL). Lab exercises reinforce the theory and provide opportunities for troubleshooting.
+
+Prerequisites: CISA 1340
+
+CISA 2370 - Network Security Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/cisa2370/
+
+Credits: 6.0
+
+Description: This course introduces students to the concepts of network security, the terminology, and the insight into how to secure operating systems and networks. Students will learn how to identify risk, to participate in risk mitigation activities, and to provide secure infrastructure to support the three pillars of security (confidentiality, integrity, and availability). Students investigate security technologies and products, troubleshoot security events and incidents, and are exposed to applicable policies, laws, and regulations. Ethical values and moral obligations are stressed. Students will monitor the network using various network operating systems tools to respond to security breaches, and acquire the skills to implement basic security services on computer networks.
+
+Prerequisites: CISA 1320
+
+CISA 2380 - Business Skills for IT
+
+Outline URL: https://www.bcit.ca/outlines/cisa2380/
+
+Credits: 6.0
+
+Description: This course provides students with insight into the workplace culture and the business of IT. It focuses on business writing, active listening, and communicating ideas effectively to a target audience. Discussions on the impact of assumptions or bias that people may bring to the workplace, ethics, and business politics will raise student awareness of their interactions and activities. Students will explore the impact and integration of IT in business. Learners will apply their knowledge by critiquing real-world business scenarios from the workplace.
+
+Prerequisites: No prerequisites are required for this course.
+
+CISA 2390 - Campus Network Project
+
+Outline URL: https://www.bcit.ca/outlines/cisa2390/
+
+Credits: 4.0
+
+Description: Students leverage the knowledge and skills they have accumulated during the first 33 weeks of the program to design, build, test, and troubleshoot a computer network. The students work in teams, develop a report and presentation on their project, and exercise project management procedures. The computer network is deployed across the classrooms using real equipment interconnected in a hierarchy that lends the design to multiple subnets, sites & services, issues with bandwidth, and issues with security. This provides a real-world experience.
+
+Prerequisites: No prerequisites are required for this course.
+
+### Level 3 (15 weeks)
+
+CISA 3310 - Advanced Ethernet Switching
+
+Outline URL: https://www.bcit.ca/outlines/cisa3310/
+
+Credits: 5.0
+
+Description: This course provides the theory and practice opportunities for students to plan, prepare, implement, and optimize switching technologies within an enterprise campus networks. Students will focus on best practices in integrating Virtual LANs (VLANs) for wired and wireless access, and for data, voice, and real time video applications. Secure, scalable, and highly available solutions for both IPv4 and IPv6 will be explored. This course includes hands-on activities using Cisco switching and routing gear within the classroom/lab.
+
+Prerequisites: CISA 2310 and CISA 2320
+
+CISA 3320 - Deploying Wireless Systems
+
+Outline URL: https://www.bcit.ca/outlines/cisa3320/
+
+Credits: 5.0
+
+Description: In this course, students will learn to design, install, configure, monitor, and troubleshoot wireless local area networks (WLANs) for the enterprise. The course starts with the fundamentals of wireless communications, explores the operation of stand-alone wireless access points (APs), discusses wireless security concepts, and then focuses on controller-based operations. Students will work with WLAN controllers, authentication-authorization and accounting (AAA) servers, light-weight access points, and wireless network management software to deploy a secure WLAN. The course will also cover security topics such as open and web authentication, 802.1X/EAP (extensible authentication protocol) authentication, 802.11i/WPA/WPA2 (Wi-Fi Protected Access) standards, and the underlying protocols for secure client support, including EAP-FAST, EAP-PEAP, and EAP-TLS.
+
+Prerequisites: CISA 2320
+
+CISA 3330 - Deploying Windows Services
+
+Outline URL: https://www.bcit.ca/outlines/cisa3330/
+
+Credits: 5.0
+
+Description: This course provides a comprehensive exploration of advanced Windows Server technologies, focusing on virtualization, deployment, and management. Areas of focus include Active Directory, Windows PowerShell, Windows Deployment Services (WDS), Azure Virtual Desktop (AVD), Hyper-Converged Infrastructure (HCI), and clustering. The course emphasizes hands-on experience with Windows Server Hyper-V, high availability solutions, and automated deployment techniques. This curriculum provides a strong foundation for leveraging modern Windows Server technologies in enterprise environments and prepares students for advanced roles in IT infrastructure management.
+
+Prerequisites: CISA 2330
+
+CISA 3350 - Deploying Messaging Systems
+
+Outline URL: https://www.bcit.ca/outlines/cisa3350/
+
+Credits: 5.0
+
+Description: Students will learn to install and configure a Microsoft Windows Active Directory Environment in preparation for messaging services deployment. Students will also learn to install, configure, and administer an enterprise messaging system that is integrated with Active Directory. The course will introduce the theory behind messaging systems, and provide students with hands-on activities to install, maintain, customize, and troubleshoot Microsoft Exchange Server and clients.
+
+Prerequisites: CISA 2330
+
+CISA 3360 - Deploying VoIP Systems
+
+Outline URL: https://www.bcit.ca/outlines/cisa3360/
+
+Credits: 5.0
+
+Description: This course focuses on providing the skills and knowledge necessary to implement Cisco Collaboration and Unified Communication solutions. This course first explores the traditional telephone system, voice communications, codecs, and voice technology. Next, it moves to the fundamental of Voice over IP (VoIP), Cisco Unified Communications Manager (CUCME), as well as external communication with the Cisco Unified Communications Manager (CUCM) Express. This course describes telephony features supported in CUCME and CUCM, also covers the class of restriction, call handling features and quality of service. Other topics that are covered include phone restriction, device configuration, and user access to CUCM. Students will learn about the Cisco Unity Connection, Cisco Unified Presence, and troubleshooting. This course includes practical labs relating to the day to day administration using the Cisco Collaboration solution to complete the common tasks.
+
+Prerequisites: CISA 2310 and CISA 2320
+
+CISA 3370 - Enterprise Network Security
+
+Outline URL: https://www.bcit.ca/outlines/cisa3370/
+
+Credits: 5.0
+
+Description: This course explores security concepts with a focus on switches, routers, firewall configuration in Cisco, and FortiGate Firewalls. Students will learn about specific types of security attacks, how to secure switches and routers, and work with the next generation of firewalls (NGFW). Students will learn what is new in NGFW and how they can use these technologies to secure the network. Hands-on activities include hardening Cisco switches and routers, working with NGFW, and implementing VPN in different scenarios in a lab environment. This course will provide students with in-depth knowledge and practical experience on current essential security systems.
+
+Prerequisites: CISA 2370
+
+### Level 4 (20 weeks)
+
+CISA 4310 - Advanced Routing Services
+
+Outline URL: https://www.bcit.ca/outlines/cisa4310/
+
+Credits: 6.0
+
+Description: This course will provide students with the skills to plan, implement, and optimize a large, scalable routed enterprise. Students will carry out an in-depth analysis of enterprise routing protocols (EIGRP, OSPF) using both Ipv4 and Ipv6. To learn about enterprise Internet connectivity, students will study Border Gateway Protocol (BGP). As they work through the course, students will learn how to redistribute routes, implement path control, provide route filtering, and secure Cisco routers and their operations. This course incorporates hands-on activities using Cisco switching and routing gear within the classroom/lab.
+
+Prerequisites: CISA 3310
+
+CISA 4330 - Enterprise Windows Services
+
+Outline URL: https://www.bcit.ca/outlines/cisa4330/
+
+Credits: 6.0
+
+Description: This course covers Microsoft Windows System Center products: Operations Manager, Service Manager, and Configuration Manager. Microsoft SharePoint and advanced Microsoft Azure Cloud Administration topics will also be covered.
+
+Prerequisites: CISA 3330
+
+CISA 4340 - Unified Communications
+
+Outline URL: https://www.bcit.ca/outlines/cisa4340/
+
+Credits: 6.0
+
+Description: Students will learn to design, implement and manage Microsoft 365 services, manage user identity and roles, manage access and authentication, and plan Office 365 workloads and applications. Students will also learn to configure, deploy, and manage Office 365 workloads for Microsoft Teams that focus on efficient and effective collaboration and communication in an enterprise environment. This course will introduce the students to plan, deploy, and manage Teams chat, apps, channels, meetings, audio conferencing, live events, and calling. This course includes topics such as Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, and supporting technologies.
+
+Prerequisites: CISA 3350
+
+CISA 4350 - Deploying Cloud Services
+
+Outline URL: https://www.bcit.ca/outlines/cisa4350/
+
+Credits: 6.0
+
+Description: This course introduces and provides opportunities for students to build a variety of Cloud infrastructures, services and security employed by small to medium size businesses through a guided, hands-on approach. Students learn how to design systems that are secure, reliable, high-performing, and cost efficient. Students will configure, implement, test, troubleshoot, optimize, and document mainstream Cloud services. Topics include networks, storage, database, analytics, security, accounts, and automation as well as design for high availability, fault tolerance, and scalability to meet current industry benchmarks. The content of this course is supported by the AWS (Amazon Web Services) Learning Academy.
+
+Prerequisites: CISA 3330
+
+CISA 4360 - Managing Network Services
+
+Outline URL: https://www.bcit.ca/outlines/cisa4360/
+
+Credits: 6.0
+
+Description: This course provides students with the knowledge and skills necessary to provision, configure and deploy computer systems and software used in an enterprise network. Students will learn how to use clustering to deliver and monitor highly available network services for an enterprise network infrastructure. Students will also gain the skills necessary to allow secure remote access to server-hosted applications and desktops. The course will also explore network management tools used for IT tasks such as configuration management, application deployment, and provisioning. Topics covered include hardware and software configuration, data service configuration, system operation, device discovery, device monitoring and management.
+
+Prerequisites: CISA 1360 and CISA 2340
+
+CISA 4370 - Advanced Network Security
+
+Outline URL: https://www.bcit.ca/outlines/cisa4370/
+
+Credits: 6.0
+
+Description: This course explores advanced security concepts with a focus on Palo Alto,Checkpoint Firewall and SIEM. Students will learn about advanced scenarios in Palo Alto, Checkpoint Firewall and how to manage the network from threats by using this firewall. SIEM is a security information and event management (SIEM) product that collects the events. It provides real-time analysis of security alerts generated by applications and network hardware. Students will learn how to connect different devices to SIEM and view the real-time traffic.
+
+Prerequisites: CISA 3370
+
+CISA 4390 - Enterprise Network Project
+
+Outline URL: https://www.bcit.ca/outlines/cisa4390/
+
+Credits: 4.0
+
+Description: In this course, students will leverage the knowledge and skills they have accumulated over four terms of the program to design, build, test and troubleshoot a complex, converged computer network. Students will work in teams, develop a report, create a presentation on their project, and use project management procedures to monitor work progress. The computer network will be deployed across the classrooms using real equipment. The project will include technologies such as VoIP, enterprise wireless, messaging services, integrated management, and cloud services. Students focus on ensuring the system is secure and fault tolerant.
+
+Prerequisites: No prerequisites are required for this course.
+
+
+
+## Entrance Requirements
+
+introduction
+
+If the Computer Information Systems Administration program interests you, review the entrance requirements. If you qualify, you may want to attend an information session or become a student for a day. Want to learn more about our program before you apply? Come spend-a-day with us. You’ll meet students and instructors, and get a hands-on feel for what the program is about. If you have questions regarding the entrance requirements or the application process, please visit Admission & Registration , or if you want to discuss the program in more detail, contact the Department Head, Patrick_Duffey@bcit.ca or call 604-432-8592.
+
+Application processing
+
+Open to applications beginning October 1st (or next business day). Applications are considered for a specific intake; this program does not carry a wait-list from year to year.
+
+Entrance requirements
+
+Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. Read more about how to meet BCIT’s entrance requirements English language proficiency: Category 2 – English Studies 12 (67%) or equivalent Math: one of the following: Pre-Calculus 11 (60%) or Foundations of Math 11 (67%) or Workplace Math 11 (73%) or Other acceptable BC and Yukon courses Pre-Calculus 11 (60%) or Foundations of Math 11 (67%) or Workplace Math 11 (73%) or Other acceptable BC and Yukon courses
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+September each year.
+
+myCommunication
+
+Within two business days of submitting your completed application, BCIT will send a message to your personal and myBCIT email addresses. All correspondence regarding your application will be posted to your online myCommunication account at my.bcit.ca . We will send you an email when a new message is posted. It is important to watch for these emails or regularly check your account online. You can expect to receive communication concerning the status of your application within four weeks.
+
+
+
+## Costs & Supplies
+
+introduction
+
+The information below will help you determine the cost of taking the program and assist you in developing a budget for your two years of study. If you have concerns about being able to afford the program, please visit Financial Aid to learn how you may benefit from financial assistance.
+
+Tuition fees
+
+Use our tuition estimator to find tuition and fees for this program. For more information on full-time tuition and fees, visit: Full-Time Studies Tuition & Fees International Tuition & Fees
+
+Books & supplies
+
+Approximately $500 per level for books and supplies. (general estimated cost, subject to change) The program consists of four levels spread over two years.
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+Program length
+
+Two years, full-time.
+
+Grading
+
+
+
+Program delivery
+
+In person: This program is delivered on campus.
+
+Program location
+
+Burnaby Campus 3700 Willingdon Avenue Burnaby, BC
+
+
+
+## Graduating & Jobs
+
+introduction
+
+Manufacturers such as Cisco, HP, and IBM, typically have “partners” who sell their products. It is with these partners that our students find employment. Other sources of employment include Internet Service Providers (ISPs), government, municipalities, hospitals, health authorities, management companies, airports, transportation services, insurance companies, and many small businesses. If a computer network exists within a business and it grows to any size there is a demand for competent administrators to maintain this network and its clients. Graduates have the ability to continue developing their skills in more specialized areas such as wireless, security, storage area services, and voice services providing a path to higher pay and ensured employment. Graduates also have experience supporting Linux and Microsoft clients and servers. Employment opportunities exist within Internet providers, cablevision, telephone companies, service outsourcing companies, and any IT department. Upon graduation, students may also choose to continue their studies full-time, or to begin working in their chosen field while pursuing a degree part-time. CISA graduates are eligible to apply for the following bachelor’s degree programs: Bachelor of Technology – Digital Forensics and Cybersecurity Bachelor of Technology – Technology Management Bachelor of Applied Information Systems Technology – Information Systems – Northern Alberta Institute of Technology (NAIT)
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Computer Information Systems Administration

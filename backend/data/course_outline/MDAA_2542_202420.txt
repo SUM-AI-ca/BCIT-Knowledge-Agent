@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20242068495/
+Course: MDAA 2542
+Field: Lighting and Rendering 2
+
+School: School of Business + Media
+Program: 3D Modeling Art & Animation
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: May 06, 2024
+End Date: August 16, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lab
+Prerequisite(s): All courses from term 1 must be successfully completed.
+CRN: 68495
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ezra Petruik
+E-mail: ezra_petruik@bcit.ca
+Location: CARI 2018B
+Office Hours: Office hours:Wednesday 11:30 - 1:30Thursday 11:30 - 1:30Available on Discord ( https://discord.gg/E2XQE5V7 ) or, in office at CARI campus
+
+## Course Description
+​Students will examine the effects of lights, cameras, and surface interactions. Students will setup cameras and camera effects and create a shading network for a high quality 3D scene that is optimized for efficient rendering. Both offline and real time renderers will be explored and the benefits to both will be examined. Students will be able to render their shots in passes, and composite them together in an editing package. Focusing on industry standard presentation techniques, camera moves, pacing, and framing will be explored so students can showcase their work effectively.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Analyze how cameras work in a 3D environment.
+- Assign appropriate shaders to 3D models.
+- Create high quality shading network for multiple purposes.
+- Apply camera effects such as motion blur and depth of field for better and more realistic appearance.
+- Render scenes in offline renderers and real time renderers.
+- Render in passes and composite shots back together.
+- Showcase renders in an effective, industry standard format.
+
+## Learning Resources
+https://marmoset.co/resources/
+
+https://helpx.adobe.com/ca/after-effects/tutorials.html
+
+## Evaluation Criteria
+Assignment #: Criteria: %: Handout: Due
+Assignment 1: Compositing (Maya): 20%: May 6th: Due May 12th 10:00pm
+Assignment 2: Compositing (Nuke): 20%: May 13th: Due May 26th 10:00pm
+Assignment 3: Treasure: 20%: May 27th: Due June 16th 10:00pm
+Assignment 4: Vehicle: 20%: June 17th: Due July 14th 10:00pm
+Assignment 5: Marmoset: 20%: July 15th: Due August 11th10:00pm
+
+## Course Schedule and Assignments
+Week: Material Covered: Assignments Hand out: Assignment Due
+Week 1 May 6th: Rendering in Layers and AOV's Compositing (Maya): Assignment 1 - Fruit Bowl Composting(Maya)
+Week 2 May 13th: Compositing (Nuke): Assignment 2 Fruit Bowl Composting(Nuke): Assignment 1 May 12th 10:00pm
+Week 3 May 20th Holiday - Victoria Day
+Week 4 May 27th: Global Illumination and Light Groups: Assignment 3 Treasure: Assignment 2 May 26th 10:00pm
+Week 5 June 3rd: Advanced Shading and Rendering 1
+Week 6 June 10th: Advanced Shading and Rendering 2
+Week 7 June 17th: Vehicle Exterior: Assignment 4 Vehicle: Assignment 3 June 16th 10:00pm
+Week 8 June 24th: Vehicle Interior
+Week 9 July 1st Holiday Canada day
+Week 10 July 8th: Lab Time
+Week 11 July 15th: Real Time Rendering: Assignment 5 Marmoset: Assignment 4 July 14th 10:00pm
+Week 12 July 22nd: Lab Time
+Week 13 July 29th: Lab Time
+Week 14 August 5th Holiday - B.C. day
+Week 15 August 12th: Final Review: Assignment 5 August 11th 10:00pm
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: Regular attendance in lectures and labs is seen as integral to student success, therefore, attendance in class is monitored. Unexcused absences in excess of 10% of the time prescribed for this course may result in the assignment of a failing grade. Attendance may be taken at any time during class. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken.
+
+In case of illness or other unavoidable absence, students must communicate with the instructor, or the appropriate Program Head, as soon as possible (preferably in advance) indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate ). For other absences, students must be prepared to provide appropriate supporting documentation.
+
+A student who has unexcused absences in excess of 10% of the time prescribed for the course by the Withdrawal Deadline is considered to have ‘Vanished’ and will be assigned a grade of ‘V’. In these cases, no further work will be graded.
+
+These requirements are set out in accordance with BCIT Policy 5101 Student Regulations. More information regarding withdrawals from Flexible Learning courses is available at Refunds and Withdrawals
+
+## Approved
+I verify that the content of this course outline is current. Ezra Petruik, Instructor April 16, 2024
+
+I verify that this course outline has been reviewed. Bob Kreut, Program Head April 17, 2024
+
+I verify that this course outline has been reviewed. Susannah Skerl, Associate Dean April 17, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Kenton Low, Dean April 20, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

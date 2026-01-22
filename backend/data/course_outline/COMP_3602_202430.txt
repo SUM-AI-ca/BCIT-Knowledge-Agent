@@ -1,0 +1,183 @@
+URL: https://www.bcit.ca/outlines/20243048314/
+Course: COMP 3602
+Field: Application Development with C#
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: September 11, 2024
+End Date: November 27, 2024
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2601
+CRN: 48314
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Charlie Blattler
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​This fourth-level computer programming course follows on from COMP 2601 and assumes prior knowledge of object-oriented programming using Java. COMP 3602 starts with an introduction to C# programming with Microsoft Visual Studio and the .NET Framework for application development. Labs and assignments are designed to reinforce Microsoft industry standard naming conventions and best practices. Topics include: Windows Forms and controls, event-driven programming, deploying a web service, asynchronous programming, working with SQL databases and effective application debugging. Students build graphical user interfaces (GUIs) and design Windows application software. ​​COMP 3602 is an elective in the Applied Software Development (ASD) Associate Certificate. It is a prerequisite for COMP 4602​. Both .NET courses are required in the Advanced .NET Development (AND) Associate Certificate, and are electives the CST/FLEX Diploma. Upon completion, successful students will be able to use C# to build and deploy cross platform software applications with the latest .NET technologies.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- ​Describe .Net Core, .Net 5, and the Microsoft.NET Framework.
+- Explain .NET's major components: Common Language Runtime (CLR) and Base Class Library (BCL).
+- Use the C# language to build Console and Windows Form applications.
+- Design Windows GUI applications with Forms and Dialogs.
+- Use Windows controls such as Form, TextBox, Button, and Label.
+- Use Visual Studio and Microsoft Docs for on-line help.
+- Write executable and Class Library Assemblies, using the C# language.
+- Work with multiple projects, using Visual Studio Solutions.
+- Implement exception handling to build robust applications.
+- Work with the Input/Output (I/O) system.
+- Implement the latest .NET features including LINQ, Lambdas, and Extension Methods.
+- Write asynchronous code using async/await.
+- Work with .NET Collection classes.
+- Interact with SQL databases using Active Data Objects (ADO.NET).
+- Enhance code separation using namespaces and class libraries.
+
+## Learning Resources
+Optional Text:
+
+Essential C# 8.0 (7th Edition) by Mark Michaelis (Author) Addison-Wesley Professional; ISBN: 978-0135972267
+
+Learning Hub for the online portion of the course.
+
+## Course Goals
+- To build a Windows software application to industry standards.
+- To use C# with Visual Studio 2022 and .NET 7 to develop significant software applications.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 10: There is a quiz after each class in the first 11 weeks These quizzes are based on each week’s material. You must attempt and submit every quiz in order to pass this course.
+Labs: 10: There is a lab every class, except for the last. You must attempt and submit every lab in order to pass this course.
+Assignments: 30: There are a total of 6 assignments weighted for this course. You must attempt and submit all assignments in order to pass this course.
+Midterm Exam: 15: Includes hands-on coding components. You must attempt and submit the Midterm in order to pass this course.
+Final Exam: 35: Includes written and hands-on coding components. You must achieve a 50% weighted average between the Midterm and the Final Exam in order to pass this course
+
+Note:
+
+- COMP 3602 is blended delivery with a mandatory online component.
+- Assignments and exam questions include online topics.
+
+Passing grade: 60%.
+
+By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the Flexible Learning student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the Flexible Learning student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Successful completion of COMP 2601, or equivalent object oriented programming experience.
+- Participation in Learning Hub Online Discussion Forums is required to pass this course.
+- A PC with internet access, capable of running Visual Studio 2022 on Windows (Visual Studio for Mac will NOT be sufficient for this class).
+- All students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio as well as group work.
+- All students must be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Please understand that consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+There are six assignments - see course topics.
+
+Late assignments will not count for marks unless prior arrangements were made with your instructor.
+
+## Course topics
+Week: Outcome/Material Covered: Assignment: Due Date
+1: Synchronous: Course Introduction Introduction to C# and .NET Working with Numeric Data Operators Formatted Console I/O Introduction to Visual Studio 2022 Asynchronous: C# Primer: Assign 1: Week 2
+2: Synchronous: Datatypes Working with String Data Arrays Namespaces Working with Classes Asynchronous: Debugging with Visual Studio: Assign 2: Week 3
+3: Synchronous: Methods and Method Parameters Casting and Conversion Exception Handling File I/O Command Line Arguments Asynchronous: More File I/O XML Comments: Assign 3: Week 5
+4: Synchronous: Interfaces Collection Classes Working with Boolean Data Working with Temporal Data Asynchronous: Enumerations Structs
+5: Synchronous: Classes and Inheritance Polymorphism Language Integrated Query Extension Methods Lambdas Asynchronous: SQL Primer: Midterm Exam: 3 Days
+6: Synchronous: ADO.NET Working with SQL Data Pattern Matching Asynchronous: More Pattern Matching: Assign 4: Week 7
+7: Synchronous: Introduction to Windows Forms Events and Event Driven Programming Keyboard Navigation Asynchronous: Foundational Windows Controls: Assign 5: Week 8
+8: Synchronous: From .NET Framework to .NET7 Nuget Packages Databinding DataGridView Asynchronous: Windows GUI Controls 1: Assign 6, part A: Week 12
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW' form before week 8 or else you will receive a failing grade on your academic record.
+9: Synchronous: More ADO .NET CRUD Operations Records Dialogs Asynchronous: Windows GUI Controls 2: Assign 6, part B: Week 12
+10: Synchronous: Code Separation Validation Asynchronous: Windows GUI Controls 3: Assign 6, part C: Week 12
+Course Evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their myBCIT email. Those who do not have the link in their myBCIT email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before Week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: Synchronous: Class Libraries Asynchronous Programming Other UI Technologies Where Do I Go From Here? Asynchronous: Final Exam Review: Assign 6. part D: Week 12
+12: Synchronous: Final Exam - No Lecture, No Lab
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Charlie Blattler, Instructor August 26, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator September 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

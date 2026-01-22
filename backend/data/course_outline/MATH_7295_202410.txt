@@ -1,0 +1,213 @@
+URL: https://www.bcit.ca/outlines/20241073781/
+Course: MATH 7295
+Field: Numerical Methods
+
+School: School of Energy
+Program: Mechanical Engineering
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Prerequisite(s): MECH 7171
+CRN: 73781
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Seyyed Hosseini
+E-mail: seyyed_hosseini@bcit.ca
+Location: SW2-217
+Office Hours: Office hours will be provided on the first day of class.Note: When emailing faculty and/or other staff, please email from your myBCIT account and include your name, student number, and set. By including this information in your email, we are able to quickly verify the sender of the email and respond in a timely fashion.
+
+## Course Description
+The course extends the introduction of numerical methods in MATH 3499 to more advanced algorithms and an analysis of error, convergence and stability. Topics covered include the numerical solution of initial- and boundary-value problems involving ordinary differential equations; an introduction to partial derivatives; the numerical solution of partial differential equations of engineering interest; matrix decomposition methods and numerical methods for linear algebra.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Use numerical methods to solve ordinary differential equations. [1]
+- Calculate error bounds, analyze stability, and limit error in the numerical solution. [1]
+- Convert between differential and difference equations using numerical/matrix methods. [1]
+- Calculate partial derivatives of any order. [1]
+- Classify and solve partial differential equations using appropriate methods. [1]
+- Determine/analyze stability conditions of a discretization scheme using implicit FDM. [1]
+- Use numerical methods to solve large systems of simultaneous linear equations. [1]
+- Perform LU-decomposition of matrices and use the results to obtain matrix inverses. [1]
+
+## Learning Resources
+Text(s) and Equipment:
+
+Required:
+
+• Chapra, S, and Canale, R. (2014) Numerical Methods for Engineers (7th edition), New York, NY, USA: McGraw Hill
+
+Recommended: • For home/laptop use Matlab Software R2017b or more recent. (Student edition)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Tests: 40
+Assignments: 10
+Lab Exercises: 10: Weekly. Pass/fail
+Final Exam: 40
+Total: 100: Minimum passing grade is 50%
+
+## Attendance Requirements
+Students are expected to attend all classes. Students who attend less than 90% of the classes may be given failing mark of unsatisfactory (U).
+
+## Other information
+Engineering Accreditation
+
+The Canadian Engineering Accreditation Board (CEAB) accredits bachelor of engineering programs across Canada. To ensure programs graduate well-rounded engineers who are prepared to enter engineering practice, the CEAB requires graduates to possess 12 specific attributes (see below for descriptions). The learning outcomes for each course have been mapped to relevant CEAB graduate attributes. The numbers in [ ] after each learning outcome indicate the graduate attribute to which the learning outcome is mapped.
+
+CEAB Graduate Attributes
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+Tentative Schedule:
+
+Basic Numerical Considerations (2 weeks)
+
+Roots of equations (2 weeks)
+
+Numerical Methods in Linear Algebra (2 weeks)
+
+Test 1 on February 14th
+
+Numeric Integration (2 weeks)
+
+Numeric Differentiation (2 weeks)
+
+Differential equations (2 weeks)
+
+## Course topics
+Introduction to Matlab as a programming language
+
+Basic Numerical Considerations- sources of errors in finite precision computing
+
+· Round-off errors
+
+· Truncation errors and Taylor Series
+
+Roots of equations
+
+· Bracketing methods: Bisection, False Positon
+
+· Open methods: Newton-Raphson and Secant
+
+Systems of non-linear equations
+
+· Newton-Raphson Method
+
+· Fixed-Point Iteration
+
+Numerical Methods in Linear Algebra
+
+· Numerical methods for large systems of linear equations
+
+· Gaussian Elimination
+
+· LU decomposition (Crout’s, Doolittle and Cholesky)
+
+· Matrix Inversion
+
+· Iterative Methods (Gauss-Seidel)
+
+· Error analysis, ill conditioned matrices
+
+Numeric Integration
+
+· Review of Newton-Cotes Methods: Trapezoidal rule, Simpson’s rule
+
+· Quadrature
+
+· Romberg Integration
+
+· Adaptive Step Size
+
+· Multiple Integrals
+
+Numeric Differentiation
+
+· Review of Backward, Forward and Central Difference Methods
+
+· Richardson Extrapolation
+
+· Unequally spaced data
+
+Numeric solutions of Ordinary Differential equations
+
+· Review Basic Methods: Runge Kutta Methods
+
+· Adaptive Methods
+
+· Methods for Systems and Higher Order differential equations
+
+· Boundary Value Problems – Shooting Method, Finite Difference
+
+· Eigenvalue Problems
+
+Modeling with PDE’s: wave equation, heat equation, Laplace equation.
+
+· Numeric Solutions to Partial Differential Equations
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Seyyed Hosseini, Instructor December 28, 2023
+
+I verify that this course outline has been reviewed. David Holloway, Program Head December 29, 2023
+
+I verify that this course outline has been reviewed. Martin Strange, Program Head December 29, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 29, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

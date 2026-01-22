@@ -1,0 +1,195 @@
+URL: https://www.bcit.ca/outlines/20251087316/
+Course: COMP 3215
+Field: AWS Academy Cloud Architecting
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 10, 2025
+End Date: March 28, 2025
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 3012 or 60% in COMP 3601 or 60% in COMP 3602
+CRN: 87316
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: John Ali
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+This hands-on course introduces the fundamental concepts of planning IT solutions for deployment on cloud service providers. Participants must have prior technical knowledge creating software applications using programming languages or scripting in Node.js, or Java, or .NET. COMP 3215 is supported by AWS Academy and is delivered by an AWS Academy Accredited Educator. Students will be shown how to access to limited AWS resources through a registration process. They will use a scenario-based lab environments for evaluating trade-offs in different approaches to design reliable, secure, high-performing, cost-efficient systems leveraging the AWS Cloud. Labs and exercises leverage infrastructure-as-code techniques to automate the build of a solution based on their chosen scenario. Alternative services available through other cloud service providers or open-source solutions are introduced for comparison with the AWS Cloud services used in the course. Upon successful completion, students will have gained experience designing scalable and secure distributed systems on the AWS Cloud. They will also be prepared to challenge the AWS Certified Solutions Architect – Associate certification exam, available at additional cost through Amazon. COMP 3215 is an elective in several BCIT Computing Flexible Learning/PTS programs, including the CST FLEX Diploma. This course is offered once per year in January (Winter) term.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- ​Describe Cloud Computing.
+- Design highly available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS.
+- Use AWS foundational, deployment, and management services.
+- Design identity and access management system to secure organizational accounts.
+- Identify and define technical requirements for an AWS-based application.
+- Prepare a business plan for implementation of AWS cloud architecture solutions.
+- Utilize best practices for building secure and reliable applications on the AWS platform.
+- Implement the basic architectural principles of building on the AWS cloud.
+- Evaluate logging and monitoring services for AWS applications and data access.
+- Implement automated services to enable greater flexibility and resiliency in an infrastructure.
+- Utilize advanced cloud security features and tools that AWS provides.
+- Evaluate and consider trade-offs in different implementations for how they impact business objectives.
+- Prepare to challenge the AWS Certified Solutions Architect – Associate certification exam available through Amazon (for an additional cost).
+
+## Learning Resources
+- Lecture materials with activities and demonstrations
+- Online multiple-choice knowledge checks
+- Lab exercises
+- Lab assessments
+- Video / demos
+- Example solution
+
+## Course Goals
+- To be familiar with the basic concepts and tools used for cloud computing.
+- To be familiar with best practices used in cloud computing architecture scenarios.
+- To help prepare for the AWS Solution Architecture Foundation / Associate Certification exam(s).
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Applied Assignments: 50: You must attempt and submit all labs and assignments
+Quizzes: 20: You must average 50% between the Quizzes and Skills Exams in order to pass this course.
+Skill Exam 1: 15: You must average 50% between the Quizzes and Skills Exams in order to pass this course.
+Skill Exam 2: 15: You must average 50% between the Quizzes and Skills Exams in order to pass this course.
+100*
+
+* The total passing grade for COMP 3215 is 60%.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Week: Module: Labs: Quizzes: Skill Exam(s)
+01: Cloud Computing Concepts (definition , terminologies, benefits, services, models, providers): 1: 1
+02: Cloud Economics and Planning: 1, 2: 2
+03: Securing User and Application Access, Accounts: 3: 3
+04: Introducing Cloud Architecting: 4
+05: Creating a Networking Environment: 4, 5: 5
+06: Adding a Compute Layer: 6, 7: 6: 1
+07: Adding a Storage Layer: 8: 7
+NOTE:: Withdrawal Deadline Please inform your instructor if you are dropping this course.: You must fill out and submit the Request to Withdraw form before week 8 or you will receive a failing grade on your academic record.
+08: Adding a Database Layer: 9: 8
+09: Connecting Networks: 10: 9
+10: Implementing Elasticity, High Availability, and Monitoring: 11: 10
+Course evaluation: To be conducted online during week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11.
+11: Automating and Monitoring Your Architecture: 12: 11, 12
+12: Bridging to Certification: 2
+
+- AWS open-sources documents will be used to perform all learning activities.
+- The above assignments/schedule are subject to be updated as an when required for better learning and performance
+- A detail explanation on class learning management plan will be presented to the students on first day of the course.
+
+## Course topics
+- Module 1 - Cloud Computing Concepts (definition, terminologies, benefits, services, models, providers)
+- Module 2 - Cloud Economics and Planning
+- Module 3 – Securing User and Application Access
+- Module 4 - Introducing Cloud Architecting
+- Module 5 – Creating a Networking Environment
+- Module 6 – Adding a Compute Layer
+- Module 7 – Adding a Storage Layer
+- Module 8 – Adding a Database Layer
+- Module 9 – Connecting Networks
+- Module 10 - Implementing Elasticity, High Availability, and Monitoring
+- Module 11 – Automating and Monitoring Your Architecture
+- Module 12 – Bridging to Certification
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Ali, Instructor January 06, 2025
+
+I verify that this course outline has been reviewed. Kevin Cudihee, Program Head January 08, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 08, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

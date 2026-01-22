@@ -1,0 +1,85 @@
+URL: https://www.bcit.ca/outlines/20243051008/
+Course: DCOM 3510
+Field: RF Principles 2
+
+School: School of Energy
+Program: Digital Communications and Wireless Technologies
+Course Credits: 8
+Minimum Passing Grade: 60%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 120
+Total Weeks: 4
+Hours/Weeks: 30
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in DCOM 2510
+CRN: 51008
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: David Hogg
+E-mail: Dave_Hogg@bcit.ca
+Location: NE25-206B
+Office Hours: 8 am-2:30 pm Mon to Fri
+
+## Course Description
+​This course introduces the student to the theoretical and operational analysis of Angle Modulation (FM & PM) schemes as applied to radio transmission and reception. Common FM transmitter and receiver configurations, technical specifications, and schematics are investigated. Students will receive hands-on experience with basic analog and digital FM modulation technology. Frequency Division Multiplexing (FDM) in FM radio transmissions are examined and students are introduced to advanced digital modulation techniques. The basic theory of spread spectrum radio systems and DSP analog is introduced. Laboratory exercises include programming and performance testing of commercial Land Mobile Radios (LMR). Basic concepts of LMR dispatching are introduced.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the functions of all blocks, within a generic 2-way radio Block Diagram, of an FM transmitter and receiver. Explain the fundamental operation of an FM transmitter and receiver.
+- Perform bench testing on analog and digital FM transceivers to verify manufacturer's operational specifications.
+- Differentiate between wideband and narrowband FM transmission.
+- Discuss the advantages in noise suppression and sensitivity improvements using FM technology.
+- Differentiate the concepts and uses of narrowband and wideband baseband within FM transmissions.
+- Explain the key concepts and advantages of all forms of FM digital modulation technology.
+- Explain the fundamentals of analog PCM, digitized voice and DSP/Vocoder operations.
+- Explain the fundamentals of FHSS and DSSS spread spectrum techniques.
+- Configure a spread spectrum FHSS radio network to send and receive low speed data between peripheral devices.
+- Program a variety of analog and digital FM 2-way radios using manufacturer's software.
+- Configure an FM radio fleet to operate with an established Dispatch Console network.​
+
+## Learning Resources
+Gary Miller, Jeffery Beasley, and Jonathan Hymers, Electronic Communications: a Systems Approach
+
+## Evaluation Criteria
+Criteria: %: Comments
+Theory
+Midterm: 32
+Final: 33: 65% total for theory
+Practical
+Lab Test: 3
+Labs: 20
+Assignments: 12: 35% total for practical
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. late arrivals or early departures may be considered as absences.
+
+## Course Schedule and Assignments
+A full course schedule will be available on the Learning Hub prior to the commencement of class.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. David Hogg, Department Head September 16, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean September 16, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

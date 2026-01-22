@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/web-development-with-javascript-comp-2132/
+Title: Web Development with JavaScript
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2132
+
+================================================================================
+
+## Overview
+
+This hands-on course follows on from COMP 1850 Web Design and Development with HTML. Those who already understand HTML5 and CSS3 will explore web development in more depth with JavaScript and jQuery and be introduced to programming for web sites and web applications. COMP 2132 introduces web programming concepts, participants will create and use JavaScript variables, objects, functions, and arrays. Labs, exercises, and assignments focus on the theory behind client-side web scripting and how to manage interactive sites. Topics include objects, event handling, functions, closures, object detection, prototyping, event handling, callback functions, jQuery introduction, jQuery plugin usage, form validation, timers, and simple animations. Attendance, participation in class and the BCIT Learning Hub are mandatory. This course is typically delivered over 12 weeks. Please Note: The 6-week compressed sections are designed for students not taking multiple courses as the compressed sections have 2 lessons and twice the workload per week. COMP 2132 is the prerequisite for several follow-on advanced JavaScript courses, COMP 2909 Angular and Vue.js, COMP 3012 Back-End Web Development with Node.js, COMP 3013 Front-End Web Development with React.js and COMP 3015 Introduction to Web Applications with PHP. is a required course for Applied Web Development (AWD) and Web Development Fundamentals (WDF) and the Computer Systems Certificate (CSC). Upon completion, successful students will be able to program web sites and develop significant web applications with JavaScript.
+
+## Credits
+
+3.0
+
+## Cost
+
+$582.74 - $611.02
+
+## Prerequisites
+
+- 60% in COMP 1850 or 50% in COMP 1170 or 50% in COMP 1171 or 50% in COMP 1537 or 50% in GDES 1195
+
+## Learning Outcomes
+
+- Create and use JavaScript variables, objects, functions, and arrays.
+- Explain Array() manipulation for native ES6 array methods.
+- Describe various iterative and conditional control constructs in JavaScript.
+- Evaluate jQuery and how it applies to web development.
+- Create JavaScript event handler code in order to respond to various event types.
+- Perform customized data validation.
+- Construct code that creates animation effects within a web page.
+- Explain the HTTP protocol and how it is used to deliver web content.
+- Use Fetch and Async/Await to retrieve data from a REST API.
+- Store and retrieve data using JSON.
+- Design JavaScript code that generates both HTML 5 and CSS 3.
+- Use the Constructor, Class and the Prototype patterns to create objects with their own properties and methods.
+- Use Git/GitHub and Gulp/WebPack and build systems.
+- Use Sass (SCSS) for modern web development.
+
+## Related Programs
+
+- Applied Web Development
+- Computer Systems
+- Web Development Foundations (WDF)

@@ -1,0 +1,124 @@
+URL: https://www.bcit.ca/outlines/20243045225/
+Course: CISA 1310
+Field: Network Essentials
+
+School: School of Energy
+Program: Computer Information Systems Administration
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 45225
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jingjing Lount
+E-mail: jlount@bcit.ca
+Location: SE1-123A
+Office Hours: TBD
+
+## Course Description
+​This course introduces basic concepts involved in the electronic transmission of data from one computer system to another utilizing data networks. The major types of network topologies, protocols, and infrastructures are discussed, and students are presented with various networking models and standards. Topics covered will include the Open Systems Interconnection (OSI) model, TCP/IP, Ethernet, network topologies, IP addressing, sub-netting, IPv6, networking components, and basic network design. Students will gain the knowledge and skills necessary to implement, administer, and troubleshoot basic network systems and hardware, including configuring devices using command line tools.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe how devices communicate in data networks and the Internet
+- Use network protocol models to explain the layers of communications in data networks
+- Describe the protocols and services provided by the application layer in the OSI model
+- Explain the operations and features of the transport layer protocols and services
+- Describe the operations of network layer protocols including concepts of packet routing
+- Convert decimal numbers to and from both binary and hexadecimal
+- Design, calculate, and apply subnet masks and IPv4 addressing plans
+- Design, calculate, and apply IPv6 addresses and prefixes to computers and router interfaces
+- Explain fundamental Ethernet concepts and build a simple Ethernet network
+- Describe structured data cabling and the differences between straight-through, crossover, and rollover patch cords
+- Use router command-line-interface (CLI) commands to perform basic configuration and verification
+- Configure static and default routes from the CLI for both IPv4 and IPv6
+
+## Learning Resources
+Cisco Networking Academy online curriculum CCNAv7 Introduction to Networks at www.netacad.com
+
+In this course, students will be required to use Cisco Networking Academy, an online collaborative service. During the account creation process, Cisco Networking Academy will collect your name and other identifying information. By using Cisco Networking Academy, you are consenting to the storage of this information in the United States. If you choose not to provide your consent, see the instructor to make alternate arrangements.
+
+No Textbook is required for this course.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Assignments: 20%
+Module Tests: 5%
+Midterm Exam: 20%
+Skills Exam: 20%
+Academy Final Exam: 10%
+Final Exam: 25%
+Total: 100%
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success. Students are expected to be punctual and attend class for the full duration.
+
+## Course Specific Requirements
+Assignments: Late assignments, lab reports or projects will not be accepted for marking. Assignments must be done on an individual basis unless otherwise specified by the instructor.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and/or expulsion from the course.
+
+Attempts: Students must successfully complete a course within a maximum of three attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon special written permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from the appropriate program.
+
+Course Outline Changes: The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+
+## Course Schedule and Assignments
+Topic: Details
+1: Course Outline, Module 1, NetAcad enrollment
+2: Module 2
+3: Module 3
+4: Module 4
+5: Module 5 and Hardware Lab Basic Router Configuration
+6: Module 6
+7: Module 7
+8: Math and Hardware Lab Switch MAC Address Table
+9: Module 8
+10: Midterm Exam
+11: Module 9
+12: Module 10 and math for subnetting
+13: Module 11 Basic Subnetting
+14: Module 11 VLSM Subnetting
+15: Module 12
+16: Module 13
+17: Module 14
+18: Module 15
+19: Module 16 and Hardware Lab SSH
+20: Module 17 and Skills Exam
+21: Academy Exam
+22: Final BCIT Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jingjing Lount, Instructor August 31, 2024
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head September 03, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean September 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

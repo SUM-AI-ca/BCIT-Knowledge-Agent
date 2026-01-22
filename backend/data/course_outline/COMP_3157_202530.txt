@@ -1,0 +1,188 @@
+URL: https://www.bcit.ca/outlines/20253050513/
+Course: COMP 3157
+Field: MS Power BI Advanced Data Visualization
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 1.5
+Minimum Passing Grade: 60%
+Start Date: October 22, 2025
+End Date: November 26, 2025
+Total Hours*: 22.5
+Total Weeks: 6
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2156
+CRN: 50513
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ahmad Chamy
+E-mail: Instructor to provide
+Location: Online
+Office Hours: Instructor to provide
+
+## Course Description
+​​​Following on from COMP 2156, and parallel to COMP 3156, this hands-on advanced course was designed for Business Intelligence and Data Analysts. Students who already know how to use Power BI to build and publish reports begin with an in-depth introduction to the dashboard development process. COMP 3157 in-class labs and exercises focus on creating advanced user-friendly reports and dashboards. Topics include visualization best practices, misleading data visualization practices to avoid, how to manage dashboard development projects and more. There is also an in-depth explanation of the Guided Analytics Approach and Dashboard UI/UX principles are also discussed. Labs and assignments include creating advanced reports with Power BI Desktop, identifying common data visualization pitfalls and discussing methods to apply visualization best practices. Participants must provide their own current model PC capable of running Windows 11 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 3157 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and the Applied Data Analytics Certificate (ADAC). By the end of this course, successful students will be able to build innovative and accessible dashboards for various stakeholder groups. This course will be offered in the fall (September) or winter (January) term.
+
+## Course Learning Outcomes/Competencies
+Upon success completion of this course, the student will be able to:
+
+- Describe the Guided Analytics Framework for dashboard design.
+- Identify standard UX/UI principles for Dashboards.
+- Manage dashboard projects using the Iterative Dashboard Development Methodology.
+- Describe the foundations of data storytelling and create user-friendly dashboards.
+- Describe the various methods for dashboard requirements gathering and best practices.
+- Determine the appropriate data visualization style for the various data types and categories.
+- Identify common data visualization mistakes and misleading practices.
+- Properly format data visualizations for a variety of chart types.​
+
+## Learning Resources
+The Wall Street Journal Guide to Information Graphics - Dona M. Wong
+
+Effective Data Storytelling - Brent Dykes
+
+Delivering Data Analytics - Nicholas Kelly
+
+Storytelling with Data - Cole Nussbaumer Knaflic
+
+How Charts Lie - Alberto Cairo
+
+Course materials to be provided
+
+## Course Goals
+- To create effective data visualizations and dashboards
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignment #1: 30: Complete and submit both assignments in order to pass this course.
+Assignment #2: 30: Complete and submit both assignments in order to pass this course
+Final Project: 40
+
+NOTE: Passing grade for this course is 60%.
+
+Must pass the combination of the assignments and final to pass the course
+
+Late assignments will not be accepted for marking unless the student makes arrangements with the instructor at least one week before the assignment is due.
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments are to be completed by each student on an individual basis.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+BCIT Computer Use Guidelines
+
+Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Week: Course Content: Learning Outcomes
+Week 1: Consumer-Driven Data Visualization Framework
+1: Part 1: Dashboard Design Framework Describe the Guided Analytics Framework for dashboard design.: Describe the Guided Analytics Framework for dashboard design. Identify standard UX/UI principles for Dashboards. Manage dashboard projects using the Iterative Dashboard Development Methodology.
+Part 2: Dashboard Development Methodology Manage dashboard projects using the Iterative Dashboard Development Methodology.
+Part 3: Design Thinking for Dashboards Describe the various methods for dashboard requirements gathering and best practices
+Week 2: Foundations of Data Storytelling
+2: Data Storytelling & Dashboard UI Principles Describe the foundations of data storytelling and create user-friendly dashboards. Data Storytelling Elements Data Storytelling Arc Data Storytelling Continuum UI Principles & Wireframing: Describe the foundations of data storytelling and create user-friendly dashboards. Describe the various methods for dashboard requirements gathering and best practices
+Assignment #1 assigned (due Week 3 prior to class)
+Week 3: Data Visualization Selection Process
+3: Data Visualization Selection Determine the appropriate data visualization style for the various data types and categories.: Determine the appropriate data visualization style for the various data types and categories.
+NOTE: Withdrawal Deadline This is the final week to withdraw to get a 'W' on transcript. Please inform your instructor if you are dropping this course. You must fill out and submit the Request to Withdraw form before week 4 or you will receive a failing grade on your academic record.
+Week 4: Formatting Common Data Visualizations
+4: Section 1: General Chart Formatting Rules Properly format data visualizations for a variety of chart types Section 2: Specific Chart Formatting Rules Tabular Data Charts Bar Charts Line & Area Charts Single Value Visualizations / KPIs Thematic Maps: Properly format data visualizations for a variety of chart types.
+Assignment #2 assigned (due Week 5 prior to class)
+Course evaluation: To be conducted online during Week 5 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before Week 5.
+Week 5: Visualization Mistakes to Avoid & Misleading Visualization Practices
+5: Identify common data visualization mistakes and misleading practices. Poorly Designed Charts Displaying Dubious Data Displaying Insufficient Data Visualizations to Avoid & Alternatives: Identify common data visualization mistakes and misleading practices.
+Week 6: Final Project Presentations
+6: Part 1: Governance of Proactive Performance Improvement Processes
+Final Project Submission & Presentations
+
+## Course topics
+Week 1:: Consumer-Driven Data Visualization Framework
+Week 2:: Foundations of Data Storytelling
+Week 3:: Data Visualization Selection Process
+Week 4:: Formatting Common Data Visualizations
+Week 5:: Visualization Mistakes to Avoid & Misleading Visualization Practices
+Week 6:: Final Project Presentations
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ahmad Chamy, Instructor September 08, 2025
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator October 17, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean October 17, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

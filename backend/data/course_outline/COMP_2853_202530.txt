@@ -1,0 +1,181 @@
+URL: https://www.bcit.ca/outlines/20253051302/
+Course: COMP 2853
+Field: Introduction to Python for Data Analysis
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 12, 2025
+End Date: November 28, 2025
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in COMP 1630
+CRN: 51302
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Johnny Zhang
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​This hands-on course has replaced COMP 2454 as of September 2024. Following on from COMP 1630, students who understand data modelling and Structured Query Language (SQL) programming are introduced to Python as a tool for data analytics. ​Starting with an installation and overview of the Python IDE; students will explore Python programming and are introduced foundational programming concepts: Variables, Conditions, Operators, Loops, Functions, Arrays, Dictionaries and DataFrames. Exercises and labs explore data analysis using simple statistics with Python. There is an introduction to string manipulation, Regression, Aggregation, and object-oriented structures with Python used in data analysis. Participants are shown how to use Python for basic graphing. COMP 2853 is a required course in the Applied Data Analytics Certificate (ADAC) from BCIT Computing. Upon completion successful students will be able to use Python to perform exploratory data analysis and as preparation for data modeling/data cleaning in the follow-on ADAC courses.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Install and set-up Python IDEs.
+- Write a program that uses primitive data types, variables, strings, and expressions.
+- Write a program that uses conditional structures, functions, and parameter passing.
+- Write a program that uses the following data structures: tuple, list, and dictionary.
+- Implement fundamental code structures and logic for data analysis using Python.
+- Use Python to load, manipulate and prepare structured and unstructured data for modeling.
+- Use SQLAlchemy to connect database for data storage and retrieval.
+- Perform exploratory data analysis using Python.
+- Use python techniques to clean and transform data in preparation for modeling and data analysis.
+- Create predictive models using appropriate statistical and data mining techniques.
+- Report on data using text based and visual statistical summaries using Python.
+
+## Learning Resources
+TextBook:
+
+This course uses online resources to be provided by your instructor on Learing Hub under Course Materials.
+
+Recommended:
+
+McKinney, W. (2022). Python for Data Analysis: Data wrangling with pandas, NumPy, and Jupyter. O’Reilly Media, Inc.(ISBN-13: 978-1098104030)
+
+Matthes, E. (2023). Python crash course: A hands-on, project-based introduction to programming. No Starch Press. (ISBN-13: 978-1718502703)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 10%: Weekly quiz except the first and last week
+Labs: 15%: Weekly Lab
+Participation: 10%: Online discussions and inclass learning activities
+Assignments: 20%: There are a total of 3 individual assignments. You have to complete and submit all assignments on time in order to get full marks.
+Midterm: 15%: A minimum average of 50% between the midterm and final exam is required in order to pass this course.
+Final Exam: 30%: A minimum average of 50% between the midterm and final exam is required in order to pass this course.
+Total: 100%: The total passing grade for COMP 2853 is 60%.
+
+Makeup Tests, Exams, and Quizzes: No makeup tests, exams, or quizzes will be offered. If you miss a test, exam, or quiz, you will receive a zero.
+
+Late Assignments, Online Submissions, and Projects: Late assignments, online submissions, and projects will not be accepted and will receive no credit.
+
+* Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+- No assignments/projects will count for marks after marked assignments or solutions to questions have been posted.
+- Midterm exams, final exams, and project papers will not be returned to the student.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- A personal computer with internet, capable of running Python for use outside of class.
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Course will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Week: Topics: Lab: Assignments
+1: Python Setup, Variables, Expressions, Naming Conventions: Lab 1
+2: Functions and Modules Mathematical Operators: Lab 2
+3: Python Branching and Loops: Lab 3
+4: Strings (Concatenations, Formatted Strings, Slicing, Manipulations, String methods): Lab 4
+5: Working With Python Built-in Data Structures Lists and Tuples Dictionaries and Sets Build-in Functions/Methods: Lab 5
+6: Midterm (On Campus DTC Rm. 410) Introduction to Pandas Core Data Structures in Pandas (Series and DataFrame): Lab 6: Assignment 1 Due
+7: Data Manipulation Data Cleaning Data Transformation Data Aggregation: Lab 7
+Note: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A FLEXIBLE LEARNING COURSE' before week 8 or else you will receive a failing grade on your academic record.
+8: String Manipulation Data Visualization: Lab 8
+9: Introduction to SQLALchemy Introduction to Web Scraping (BeautifulSoup, lxml, Selenium): Lab 9: Assignment 2 Due
+10: Web Scraping (II) Case Studies and Projects Jupyter Notebook Files I/O: Lab 10
+Note: Course Evaluation: To be conducted online during week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: Project Week
+12: Final Exam (On Campus DTC Rm. 410): Assignment 3 Due
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Johnny Zhang, Instructor August 17, 2025
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator September 08, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 08, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

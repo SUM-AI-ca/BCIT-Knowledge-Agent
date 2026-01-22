@@ -1,0 +1,153 @@
+URL: https://www.bcit.ca/outlines/20241071725/
+Course: GIST 8128
+Field: ArcGIS 2: Data Management and Analysis
+
+School: School of Construction and the Environment
+Program: Geographic Information Systems (GIS)
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 12, 2024
+End Date: March 29, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): 50% in GIST 7128 Course registration is restricted to current students registered in a BCIT GIS program.
+CRN: 71725
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kim Hopkins
+E-mail: Instructor to provide
+Location: SW03-2079
+Office Hours: Instructor to provide
+
+## Course Description
+GIST 8128 gives an introduction to the more advanced aspects of GIS software using Esri Desktop GIS software. Topics include map projections, advanced editing, data conversion, image display, customization, 3D geographic data, proximity and adjacency analysis, scripting and models, geocoding, routes, networks and cartography. Previous programming experience is recommended.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply coordinate transformations and projection and datum changes to spatial data.
+- Investigate advanced Data Storage and Editing in a GIS Data Model.
+- Create, visualize and analyze three dimensional Geographic data.
+- Create simple customizations of GIS Desktop software.
+- Write simple Python scripts.
+- Import and export spatial and non-spatial data to/from GIS data formats.
+- Implement standard data conversion procedures.
+- Display raster images in GIS Desktop software.
+- Perform GIS proximity and adjacency analysis.
+- Solve advanced GIS analysis problems using Models and scripting.
+- Perform Geocoding, Utility Network Analysis and Linear Referencing.
+- Perform Transportation Network Analysis.
+
+## Learning Resources
+Required Texts:
+
+- Understanding GIS An ArcGIS Pro Project Workbook, Fourth Edition,Esri Press 2018
+
+- eText available in course content - no purchase necessary
+
+Reference Material:
+
+· ArcGIS Pro Help, ArcGIS Online Help
+
+## Evaluation Criteria
+Type: Total Allocated (%): Individual Elements: Element Percent (%)
+Assignment: 50%: 10 Individual Assignments: Each Assignment is weighted the same: 5% of Course Mark. If a lab assignment is dropped (not given), then the weighting for that assignment is equally distributed amongst all the lab assignments.
+Exam: 50%: Midterm: 20%
+Final: 30%
+Total: 100%: 100%
+
+## Attendance Requirements
+Assignments must be completed by the due date and time. Late assignments will receive zero marks - exceptions may be made due to illness or personal situations and it is the responsibility of the student to inform the instructor of any extenuating circumstances before the due date/time of the assignment.
+
+## Course Schedule and Assignments
+GIST-8128-NET - ArcGIS 2: Data Mgmt/Analysis
+Week: Module: Lecture: Lab - Practical Exercises
+12-Jan: 1: Introduction, Working with Coordinate Systems: Esri GIS Software and Environments
+ArcGIS Pro
+ArcGIS Online
+Accessing GIS and other Software at BCIT
+BCIT Learning Hub
+Projections, Coordinate Systems and Datums
+19-Jan: 2: Advanced Geodatabase Editing: Advanced Geodatabase Editing and Capabilities
+Edgematching & rubbersheeting
+Joining Adjacent Feature Classes
+Advanced editing
+26-Jan: 3: Three Dimensions in GIS: ArcGIS Pro and 3D
+3D Data and Analysis
+Animation
+02-Feb: 4: Data Conversion and Image Display: FME and Data Interoperability
+Data Conversion Exercises
+CAD Conversion
+ASCII Data, JSON
+Image Data
+Image Display and Analysis
+09-Feb: 5
+Image data and GIS, georeferencing, display, parcel fabrics
+Project Data Conversion
+16-Feb: 6: Midterm: No lab this week
+Opens - Feb 16 (8am)
+Closes - Feb 23 (11pm)
+23-Feb: 7: ArcGIS Customization, Geoprocessing and Scripting: Customizing the ArcGIS Pro Interface
+Tasks
+Modelbuilder
+Python scripting
+01-Mar: 8: Analysis with Model Builder and Scripting
+An Analysis Problem to solve with Modelbuilder and Python Scripts
+08-Mar: 9: Advanced Analysis using Model Builder and Python: Adjacency analysis, proximity analysis, polygon overlay
+The Problem and Objectives
+The Criteria
+The Analysis
+The Final Python Script
+15-Mar: 10
+ArcOnline and Linear Referencing: ArcOnline web app and map creation
+22-Mar: 11
+Network Datasets and Geocoding Services: Network Datasets
+Geocoding with ArcGIS Pro
+29-Mar: 12: Final Exam: No invigilator required
+Opens - March 29 (8am)
+Closes - April 5 (11pm)
+
+## Course topics
+Upon successful completion of this course, the student will be able to:
+
+- Apply coordinate transformations and projection and datum changes to spatial data.
+- Investigate advanced Data Storage and Editing in a GIS Data Model.
+- Create, visualize and analyze three dimensional Geographic data.
+- Create simple customizations of GIS Desktop software.
+- Write simple Python scripts.
+- Import and export spatial and non-spatial data to/from GIS data formats.
+- Implement standard data conversion procedures.
+- Display raster images in GIS Desktop software.
+- Perform GIS proximity and adjacency analysis.
+- Solve advanced GIS analysis problems using Models and scripting.
+- Perform Geocoding, Utility Network Analysis and Linear Referencing.
+- Perform Transportation Network Analysis.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kim Hopkins, Instructor December 18, 2023
+
+I verify that this course outline has been reviewed. Carmen Heaver, PTS Coordinator December 18, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean December 21, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

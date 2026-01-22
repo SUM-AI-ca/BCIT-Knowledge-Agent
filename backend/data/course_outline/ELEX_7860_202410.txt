@@ -1,0 +1,126 @@
+URL: https://www.bcit.ca/outlines/20241078044/
+Course: ELEX 7860
+Field: Wireless System Design
+
+School: School of Energy
+Program: Electrical Engineering
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ELEX 7530 and ELEX 7640 and MATH 7510
+CRN: 78044
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ed Casas
+E-mail: Eduardo_Casas@bcit.ca
+Location: SW01-3061
+Office Hours: Tuesday, Thursday, and Friday 12:30 to 13:20.Tuesday 13:30 to 15:20 (by appointment)
+
+## Course Description
+This design elective builds on the prerequisite core courses to explore important technical topics in modern wireless communications systems. The evolution of cellular systems from is discussed, and other contemporary standards such as wireless local area networks (LAN) and personal area networks (PAN) are reviewed. Mathematical representation of the wireless channel is presented, and effects such as multipath, fading, and shadowing are discussed. The performance of various digital modulation schemes in the presence of noise is evaluated. Contemporary radio transceivers are presented and evaluated, including radio architecture, radio components, and performance measures. System design concepts such as link budget are used to engineer basic wireless systems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Outline the evolution of cellular systems. Describe and contrast common standards used in cellular communication, wireless LAN, and wireless PAN. [1]
+- Describe the loss mechanisms in the wireless channel, and effects such as multipath fading and shadowing. Calculate and predict losses using mathematical models of the wireless channel. [1,2,3,5]
+- Calculate link budgets and estimate fade margin requirements. [1,2,4,5]
+- Assess the merits, disadvantages and noise performance of various digital modulation schemes. [1,2,3]
+- Describe the benefits of contemporary techniques such as OFDM and MIMO [1,2]
+- Describe and contrast various multiple access schemes such as FDMA, TDMA, and CDMA. [1]
+- Describe the key aspects of various radio architectures such as super-heterodyne, low-IF, and direct conversion. Explain the advantages and disadvantages of each scheme. [1,2]
+- Describe the key blocks within a modern radio transceiver. Explain the important specifications associated with each block, such as noise figure (NF) and third-order intercept point. [1,2,3,5]
+- Calculate radio performance using cascaded noise figure and IP3 analysis. [1,2]
+- Design wireless systems adhering to a given specification, such as the IEEE 802.15 standards [2,3,4,5,6]
+
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+None.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 20: Practical
+Quizzes: 50: Theory
+Final Exam: 30: Theory
+
+The minimum passing grade is 50%. Successful completion of both the practical component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+ELEX 7860: Mon: Tue: Wed: Thu: Fri
+Lectures:: 8:30: 13:30: 11:30
+week: starts: lab
+1: Jan 01: holiday: holiday
+2: Jan 08
+3: Jan 15: 1: Q1
+4: Jan 22: 1
+5: Jan 29: 2: Q2
+6: Feb 05: 2
+7: Feb 12: 3: Q3
+8: Feb 19: 3: holiday
+9: Feb 26: 4: Q4
+10: Mar 04: 4: WD
+11: Mar 11: break: break: break: break: break
+12: Mar 18: 5: Q5
+13: Mar 25: 5: holiday
+14: Apr 01: holiday
+15: Apr 08
+16: Apr 15: exams: exams: exams: exams: exams
+Qn = Quiz n, MTn=Midterm n, WD = Course withdrawal deadline.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ed Casas, Program Head January 06, 2024
+
+I verify that this course outline has been reviewed. David Romalo, Program Head January 07, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 08, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/programmable-logic-controllers-acim-5010/
+Title: Programmable Logic Controllers
+Field: Automated Controls Installation & Maintenance
+Type: Course
+Course Code: ACIM 5010
+
+================================================================================
+
+## Overview
+
+Two essential parts of automated control systems installations are measurement and control. This course will introduce various transducers that are encountered in automated control systems as this foundation is necessary for the installation, maintenance, and troubleshooting of analogue devices and programmable devices. Students will make power, signal, and communication connections for the programmable relay and interpret and write programs. Numerous troubleshooting exercises will be completed. Topics covered include installation, interfacing, closed loop control, trouble-shooting and testing, safety, and an introduction to monitoring.
+
+## Credits
+
+3.0
+
+## Cost
+
+$1,156.05
+
+## Prerequisites
+
+- TELC 0130 Basic Motor Control and/or successful completion of Electrical Apprenticeship Level 2 or 3 or 4 program within the last 5 years. Electrical Journeyperson Certificate, Electrical Engineering Degree and/or Electrical Engineer Practitioner are also acceptable.
+
+## Learning Outcomes
+
+- Select, install, connect, maintain and troubleshoot basic functions of PLCs.
+- Configure PLC programming and operating Software.
+- Create ladder and function block programs and test them in simulation and connected to lab peripherals.
+- Set up communication between a PLC and a PC locally.
+- Install, connect, maintain, repair, and troubleshoot Sensors and Transducers in Automated Control systems.
+- Install, connect, maintain, repair, and troubleshoot common feedback and communication systems in basic Automated Control Open and Closed Loop Systems.
+
+## Related Programs
+
+- Automated Controls Installation and Maintenance
+- Renewable Energy Electrical Systems Installation & Maintenance

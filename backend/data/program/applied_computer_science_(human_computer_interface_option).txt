@@ -1,0 +1,469 @@
+URL: https://www.bcit.ca/programs/applied-computer-science-human-computer-interface-option-bachelor-of-science-part-time-867dbsc/
+
+Title: Applied Computer Science (Human Computer Interface Option)
+
+================================================================================
+
+## Overview
+
+Delivery
+
+blended
+
+Overview text
+
+The Human Computer Interface (HCI) Option is all about learning advanced skills in creating computer systems that are easy and enjoyable for people to use. This includes designing interfaces, interactions, and user-centered design. It also covers the latest User Experience (UX or UE) design developments. The program integrates theory and practice, fostering critical thinking, problem-solving, and creativity. See the Program Details to learn more about what you can expect from BScACS and how you can prepare for a career in Computing. This program might be for you if you: If any of these sound like you, please check the Entrance Requirements to ensure you can apply and start your new Computing career! By earning your BCIT Degree, you’ll be honing your computing skills and gaining knowledge of various industry-recognized technologies. The HCI option focuses on all contemporary delivery platforms (e.g., Apple, Google, Windows OSs, etc.) and devices. It is designed to give you the tools, resources, and critical thinking required to succeed with all new technologies. It also prepares you to apply and evolve this knowledge, keeping pace with emerging and future technologies as they appear. Vancouver has been home to Canada’s fastest-growing tech force for multiple years now, and you’ll have the chance to join one of the 4,500 local tech companies or one of many international titans with Vancouver development studios. And you also have the option to continue your education, including by applying to the BCIT Master of Science in Applied Computing . Learn more about future opportunities on the Graduating and Jobs page .
+
+
+
+## Courses
+
+### Core Courses (29.0 credits):
+
+COMP 7003 - Introduction to Information and Network Security
+
+Outline URL: https://www.bcit.ca/outlines/comp7003/
+
+Credits: 3.0
+
+Description: This course provides in-depth coverage of TCP/IP and "real-world" network traffic analysis using tools such as Wireshark and tcpdump. Students are introduced to securing servers and services as well as monitoring systems for performance and intrusion. Students will gain practical knowledge in the use of public-key encryption in securing information and implementing secure automatic logins and file transfers. This course provides coverage of perimeter protection and firewall designs, intrusion detection and IDS/IPS design and their implementation.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 7012 - Interaction Design
+
+Outline URL: https://www.bcit.ca/outlines/comp7012/
+
+Credits: 3.0
+
+Description: As computers and digital devices are ubiquitous and embedded in everyday objects, it is very important to focus on designing intuitive, effective and simple interactions. This course will present an introduction to principles of human-computer interaction and will explore the concepts and practices used for interaction design: information architecture, immersion techniques, prototyping, user-centered design, usability design and testing and user research. Principles of designing for accessibility and ethical considerations will be discussed and applied. Students will evaluate and design several interfaces for software applications (e.g., desktop, mobile and web) and pervasive computing devices (e.g., wearable, AR/AM/VR, and voice interaction devices), and will design a low-fidelity prototype.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 7035 - Operating Systems
+
+Outline URL: https://www.bcit.ca/outlines/comp7035/
+
+Credits: 3.0
+
+Description: This course is focused on advanced concepts in operating systems: inter-process communication, inter-core synchronization, memory organization and management, virtual memory, uniprocessor and multiprocessor scheduling, input/output management, modern storage strategies, file management and security. Concepts of processes and threads, inter-process communication, concurrency and synchronization will be discussed. Students will learn about the design of operating system structures and related algorithms and policies with a focus on performance and optimization. For example: placement and replacement memory algorithms, scheduling algorithms, resident set management and load control theories. The course will include an introduction to virtualization. To illustrate the concepts, each topic will include examples of real life design choices used in modern operating systems (e.g., UNIX, Linux, Windows, and Android).
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 7082 - Software Engineering
+
+Outline URL: https://www.bcit.ca/outlines/comp7082/
+
+Credits: 3.0
+
+Description: This course offers a comprehensive overview of software engineering issues: software development methodologies, software requirements analysis, functional and non-functional requirements, software architecture, design principles and paradigms, and quality assurance. Students will learn how to apply principles, use the most adequate strategies and tools, and assure quality during the entire software development cycle.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+COMP 8042 - Advanced Algorithms and Data Structures Design and Analysis
+
+Outline URL: https://www.bcit.ca/outlines/comp8042/
+
+Credits: 3.0
+
+Description: The objective of this course is to apply concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms. This course will provide students with exposure and practice to more advanced data structures and algorithmic strategies used in software development. Students will identify real world problems and apply a heuristic approach to solve them. After reviewing basic data structures and algorithms, students will apply advanced analysis techniques and algorithms. Particular emphasis will be placed on efficiency and optimization.
+
+Prerequisites: 60% in MATH 7908†and 60% in MATH 7808†(†may be taken concurrently)
+
+COMP 8082 - Project Management
+
+Outline URL: https://www.bcit.ca/outlines/comp8082/
+
+Credits: 3.0
+
+Description: This course offers a comprehensive overview of project management techniques to effectively plan, manage, and control software development projects. Students will learn project management methodologies with an emphasis on software projects and agile methodology. Students will design a project for which they will create a project work breakdown structure; identify risks, inter-operability, and privacy and security issues; establish the necessary roles in the software development team; and apply strategies to control the project schedule and quality. Students will also discuss ethical and sustainability considerations from a project management perspective.
+
+Prerequisites: 60% in COMP 7082
+
+COMP 8085 - Artificial Intelligence
+
+Outline URL: https://www.bcit.ca/outlines/comp8085/
+
+Credits: 3.0
+
+Description: Artificial Intelligence (AI) is the intelligence expected to be demonstrated by machines and computer programs. This course is designed to provide students with expertise in creating and modifying required AI algorithms and techniques. The first part of the course will focus on classic AI solutions (especially decision making) while the second part will cover some of machine learning (ML) related applications of AI (with an emphasis on learning from examples). The course will consider real world problems that need to be solved with applications of AI and the techniques used to build such applications (e.g. using the techniques to create challenging non player characters (NPC) in games development or password strength classification and intrusion detection in network security). More specifically, students will learn about the searching paradigm in designing intelligent agents and will practice implementing search algorithms. Probabilistic reasoning will also be explored to help students learn how to deal with incomplete information and uncertainty. The course will also examine different learning techniques to guide students in creating self-learning models that can improve performance in decision-making over time through practical examples.
+
+Prerequisites: 60% in COMP 8042
+
+MATH 7808 - Calculus for Computing
+
+Outline URL: https://www.bcit.ca/outlines/math7808/
+
+Credits: 4.0
+
+Description: This course introduces the major concepts of calculus: differentiation, integration, and differential equations as applied to computing. The course covers both single and multivariable differentiation for basic functions and some basic single variable integration, both definite and indefinite. It will finish with a short introduction to differential equations applied to modeling physical phenomena.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+MATH 7908 - Linear Algebra and Applications for Computing
+
+Outline URL: https://www.bcit.ca/outlines/math7908/
+
+Credits: 4.0
+
+Description: This course covers the basics of linear algebra and related topics, including vector algebra with its application to 3D geometry, matrix algebra with application to solving systems of linear equations, complex numbers/ vectors and discrete Fourier Transforms. Matrix topics will include linear transformations, eigenvalues and eigenvectors, similarity of matrices and applications of these. Concepts such as vector spaces, inner product spaces, and symmetric and orthogonal matrices are also introduced. Computer algorithms for performing various matrix operations and calculations and discrete Fourier Transforms will be explored.
+
+Prerequisites: 60% in MATH 7808Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+### Specialty Courses (15.0 credits)
+
+COMP 7022 - Foundations of Human-Computer Interaction
+
+Outline URL: https://www.bcit.ca/outlines/comp7022/
+
+Credits: 3.0
+
+Description: Human-Computer Interaction (HCI) is the field of computing concerned with the design, implementation, and evaluation of interactive technology. In this foundation course students learn and apply HCI heuristics and principles to software development. Students will learn to analyze the context of interaction, identify the users' needs based on a user-centered approach, conduct usability studies, and design, implement and test effective and usable interfaces. Part of this course, students will develop an application related to their interests applying the capabilities of computer technology and the needs of human factors.
+
+Prerequisites: 60% in COMP 7012 and 60% in COMP 7082
+
+COMP 8022 - Multimodal Interfaces
+
+Outline URL: https://www.bcit.ca/outlines/comp8022/
+
+Credits: 3.0
+
+Description: This course provides a hands-on introduction to combining different input and output devices for human computer interaction, with a focus on the application of concepts. Lab exercises and assignments are used to help student understand the differences in input modalities and display devices and learn when and how to combine different input devices to create effective 3D user interfaces. Topics include visual representation of data, tactile and gesture input, wearable computing, user body tracking, context-aware computing, and multi-modal and 3D user interfaces.
+
+Prerequisites: 60% in COMP 7022
+
+COMP 8522 - Adaptive User Interfaces
+
+Outline URL: https://www.bcit.ca/outlines/comp8522/
+
+Credits: 3.0
+
+Description: In this course students will learn advanced techniques aimed to design user interaction. This course introduces the students to adaptive interfaces that provide individualized support and incorporate intelligent agents. Applying heuristics and principles of Human-Computer Interaction (HCI), probabilistic models and machine learning algorithms, students will learn how to design, implement and test adaptive software applications.
+
+Prerequisites: 60% in COMP 8022
+
+COMP 7005 - Computer Networks and Protocols
+
+Outline URL: https://www.bcit.ca/outlines/comp7005/
+
+Credits: 3.0
+
+Description: This course will cover the advanced elements of Data Communication and Network Architecture. The TCP/IP protocol suite and its application within the Internet architecture will be examined in depth, and in a practical manner. Also covered will be advanced topics such as Wireless Data Communication, and Security Protocols. Students will be introduced to the Berkeley socket API and the basics of Client/Server programming.
+
+Prerequisites: 60% in COMP 7003†(†may be taken concurrently)
+
+COMP 7031 - Mobile Applications Development Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/comp7031/
+
+Credits: 3.0
+
+Description: This course teaches design and development of mobile applications using native as well as multiplatform development environments. Basic building blocks of mobile applications are created using native development environments such as Java, Kotlin and Android Studio for Android and Swift, Objective C and XCode for iOS; as well as multiplatform development alternatives such as React Native, for comparative analysis. Influence of software process models and software engineering practices is studied. Version control strategies along with build, integration, testing and deployment automation pipelines are constructed. Software patterns are applied to resolve recurring design problems in mobile applications.
+
+Prerequisites: 60% in COMP 7082†(†may be taken concurrently)
+
+COMP 7071 - Database Applications Development and Optimization
+
+Outline URL: https://www.bcit.ca/outlines/comp7071/
+
+Credits: 3.0
+
+Description: This course offers an in-depth study of Database System Concepts and Architectures including, query processing, query optimization, transaction processing, concurrency control, recovery, parallel databases, distributed databases and access control. Design of storage and file structures including different indexing and hashing organizations are also discussed. ACID (Atomicity, Consistency, Isolation and Durability) property and non-ACID complied database are discussed. Various database languages are discussed including Data Definition Language (DDL) and Data Manipulation Language (DML). Comparative analysis with alternative data models and database systems is conducted. Assignments will reinforce learning through designing and constructing a database from conceptual, to logical model to final physical deployment.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+COMP 7171 - Data Center Design
+
+Outline URL: https://www.bcit.ca/outlines/comp7171/
+
+Credits: 3.0
+
+Description: This course provides hands-on training of deploying, configuring and optimizing Database-As-A-Service (DBaaS) for cloud computing. Students will implement and experiment with fault-tolerant and scalable DBaaS architectures and test their efficacy in meeting the performance, scalability and availability needs of diverse set of cloud applications. Opportunities for power savings will be explored.
+
+Prerequisites: 60% in COMP 7071
+
+COMP 7401 - Topics in Computer Programming - Mobile Graphics
+
+Outline URL: https://www.bcit.ca/outlines/comp7401/
+
+Credits: 3.0
+
+Description: This course offers an introduction to the theory and practice of mobile graphics. Emphasis is placed on understanding the principles underlying interactive computer graphics on mobile devices, as well as gaining hands-on experience in programming with OpenGL ES.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+COMP 7402 - Topics in Computer Programming - Cryptology
+
+Outline URL: https://www.bcit.ca/outlines/comp7402/
+
+Credits: 3.0
+
+Description: This course teaches students the art and science of securing data (information). Course components will cover Cryptography with an introduction to Cryptanalysis, with an emphasis on the practical implementation of Cryptographic algorithms and techniques. Topics in Cryptography will include substitution and transposition ciphers, including stream and block ciphers. Applications will include bit-manipulation ciphers, secret and public-key ciphers. Topics in Cryptanalysis will include traditional techniques such as Ciphertext-only, Known-plaintext, and Chosen-plaintext attacks. Students will also be introduced to more modern linear and differential cryptanalysis. Students will be permitted to choose programming languages of their choice in the implementation of algorithms during assignments and final projects.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 7404 - Topics in Computer Programming – Artificial Intelligence
+
+Outline URL: https://www.bcit.ca/outlines/comp7404/
+
+Credits: 3.0
+
+Description: This course provides an introduction to the various topics in Artificial Intelligence (AI). Topics to be covered include search, games, regression, classification and neural networks. Students will develop an understanding of the fundamentals underpinning AI applications and gain hands-on experience through the development of AI systems. Practical work in course projects focuses on developing components of AI systems as well as analyzing real-world datasets from different domains. The societal implications and ethical considerations in the design of AI systems will also be discussed.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program OR special permission (COMP2121, MATH3042, COMP3522 or equivalent).
+
+COMP 7611 - Selected Topics in Computer Systems - Data Mining
+
+Outline URL: https://www.bcit.ca/outlines/comp7611/
+
+Credits: 3.0
+
+Description: There is a wealth of information stored in each organization's operational data store, with an increasing demand to mine that data and use it for competitive advantage. Data Mining/Business Intelligence enables organizations to move from merely good to great by supporting better business decision making. Course participants will gain an understanding of the principles of data mining and the various techniques and algorithms through classroom instructions and by conducting a research paper in data mining / business intelligence technology. Through participation in a group project, students are exposed to hands-on experience of designing and using a data mining tool to consolidate their learning experience. Some of the Data Mining predictive and inference techniques learned in the course can apply to Big Data and Data Science. The course is divided into three main components: (1) Understanding of knowledge discovery, business intelligence, data mining concepts, techniques, selected algorithms and associated applications, as well as overview of the underlying large data storage architecture such as data warehouse and data mart; (2) Participation in a group project in design and building a model using a business intelligence data mining tool; (3) Conduct an individual research paper on a data mining algorithm and/or tool for a business application.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program
+
+COMP 7612 - Selected Topics in Computer Systems – Malware Analysis
+
+Outline URL: https://www.bcit.ca/outlines/comp7612/
+
+Credits: 3.0
+
+Description: This course is designed to equip students with Malware analysis skills, which are a critical requirement in the cybersecurity repertoire today. Throughout the course, students will learn to reverse engineer and analyze machine code. Students will be able to identify vulnerabilities in executable code and construct effective defenses against malicious attacks. The course will develop a strong set of skills for reverse-engineering malicious software using a variety of freely available tools. Students will learn to identify and acquire investigative leads from host and network-¬based indicators associated with malicious code and applications.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program
+
+COMP 7881 - Advanced Topics Software Engineering
+
+Outline URL: https://www.bcit.ca/outlines/comp7881/
+
+Credits: 3.0
+
+Description: This course will cover fundamental concepts, theory, methodologies, and techniques of DevOps. Students will learn principles of DevOps Software Development Lifecycle, and use various DevOps tools and frameworks designed to support real life deployment.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program
+
+COMP 8003 - Network Security Administration
+
+Outline URL: https://www.bcit.ca/outlines/comp8003/
+
+Credits: 3.0
+
+Description: This course is a study of topics of particular interest to advanced students in the area of network security. The focus will be on understanding network vulnerabilities and how they can be exploited. Penetration testing frameworks and tools will be covered. Understanding how to mitigate network threats and vulnerabilities will be covered. . Introduction to privacy and Cyberwarfare issues and vulnerabilities. Students will be familiarized with network monitoring and security tools and use them to perform traffic and IDS signature analysis, and network forensics.
+
+Prerequisites: 60% in COMP 7003
+
+COMP 8005 - Network and Security Applications Development
+
+Outline URL: https://www.bcit.ca/outlines/comp8005/
+
+Credits: 3.0
+
+Description: This course is designed to provide students with a solid set of practical skills in the area of network and system-level programming on the Linux platform. The design and implementation of IPv4/IPv6 tools is covered in-depth. Issues such as modularity and efficiency in the implementation of protocols will be covered. The emphasis will be very much the design and implementation of robust, and useful network tools. Security and private data transmission techniques over public networks are covered. Networking tools are designed and implemented using the Secure Sockets Layer (SSL) API. An in-depth coverage of techniques used to design and develop secure code and robust applications will be provided. Students will also be familiarized with the Bluetooth software development techniques.
+
+Prerequisites: 60% in COMP 7003 and 60% in COMP 7005 and 60% in COMP 8800†(†may be taken concurrently)
+
+COMP 8031 - Interactive and Responsive Mobile Applications
+
+Outline URL: https://www.bcit.ca/outlines/comp8031/
+
+Credits: 3.0
+
+Description: This course teaches techniques to measure and improve usability, accessibility, performance and scalability of mobile applications. Tools available through IDEs (Integrated Development Environments) such as the Android Studio are utilized or repurposed to setup testbeds to measure these quality attributes. Impact of modalities, in addition to multitouch, in improving user interaction with the mobile applications is studied. Development of custom layouts, UI components and animation are explored to enhance usability and accessibility. Mobile applications that record, transport, stream and playback rich media, render 2D/3D graphics/animation and augmented reality, store and process large quantities of data locally and schedule tasks with strict deadlines are developed and executed on Android smartphones and tablets with varying form factors as well as wireless networks with varying channel conditions to locate performance and scalability bottlenecks. Strategies to alleviate identified performance and scalability bottlenecks are implemented. These include fine tuning data Input/Output, rendering pipelines and storage structures; exploring opportunities for parallel processing that take advantage of multicore CPUs available on mobile platforms; and adaptive GUI design.
+
+Prerequisites: 60% in COMP 7031
+
+COMP 8071 - Data Warehousing
+
+Outline URL: https://www.bcit.ca/outlines/comp8071/
+
+Credits: 3.0
+
+Description: This course teaches the design and development of data warehouses. The OLTP and OLAP needs of businesses are analyzed to rationalize the need of data warehouses and corresponding data models. Data warehouse architectures ranging from ROLAP to MOLAP are developed and evaluated. Data models conducive to such needs are studied. Tools to develop in-house data warehouses are identified and practiced along with off-the-shelf data warehouse solutions including cloud based services. Role of competing concepts such as data lakes and big data is evaluated in the context of data warehousing.
+
+Prerequisites: 60% in COMP 7071
+
+COMP 8171 - Database Systems Security
+
+Outline URL: https://www.bcit.ca/outlines/comp8171/
+
+Credits: 3.0
+
+Description: Students will learn to work with security models for database systems, including evaluating Intrusion Detection schemes, implementing and evaluating cryptographic solutions for data privacy and confidentiality, and experimenting with solutions for authentication, access control and non-repudiation. They will conduct in-depth studies of the design and composition of database engines and their popular deployment architectures to explore attack vectors, security vulnerabilities and threat protection. Students will gain familiarity with relevant regulatory frameworks to ensure compliance/conformance of security solutions.
+
+Prerequisites: 60% in COMP 7071 and 60% in COMP 7171
+
+COMP 8505 - Special Topics in Network and Security Development
+
+Outline URL: https://www.bcit.ca/outlines/comp8505/
+
+Credits: 3.0
+
+Description: This course is a study of topics of particular interest to advanced B. Tech students in the area of Network software development and Network security. The focus will be on the research and application of advanced implementation of security tools such as Covert Channels, Stealth Backdoors, Trojans, Packet crafting and sniffing, and security tools proof-of-concept and prototyping. Also covered will be Malware analysis and Reverse Engineering techniques.
+
+Prerequisites: 60% in COMP 7042 and 60% in COMP 8005
+
+COMP 8510 - Applied Natural Language Processing
+
+Outline URL: https://www.bcit.ca/outlines/comp8510/
+
+Credits: 3.0
+
+Description: Natural Language Processing (NLP) is a subfield of artificial intelligence enabling computers to understand and generate language. This course is designed to provide students with an applied understanding of both classic and modern NLP tasks, along with the most effective modelling techniques for each task. Leveraging a hands-on approach, students will explore neural language modelling-based techniques for real-world NLP tasks such as text classification, machine translation, question answering, and information extraction. The course introduces students to classical n-gram language models, word embeddings, early RNN (Recurrent Neural Network) language models, modern Transformer-based language models, and (generative) pre-training, in-context learning and large language models. Through weekly exercises, students will learn to evaluate and apply NLP theory, tools, and libraries to gain experience in developing software applications for real-world tasks.
+
+Prerequisites: 60% in COMP 8085
+
+COMP 8531 - Robust and Trustworthy Mobile Applications
+
+Outline URL: https://www.bcit.ca/outlines/comp8531/
+
+Credits: 3.0
+
+Description: This course teaches techniques to assess and assure robustness and trustworthiness of mobile applications. Testbeds composed of tools available through IDEs (Integrated development Environments) such as Android Studio as well as 3rd party are used for reliability, stress and security testing of a mobile application. Anti-patterns that can cause failures in mobile applications e.g. thread safety and memory leaks etc. are studied. Strategies to ensure correctness and integrity of data in local storage, during its processing and transport are implemented. Architectures that ensure fault-tolerance of critical functionality and high availability of critical data are incorporated in the mobile application. Causes of high battery drain in mobile apps are identified and corrective measures are experimented with. Security solutions available in network protocol stack to address privacy, authentication, authorization, message tempering and replay are incorporated in the mobile application. Cryptography libraries and access control mechanisms available on mobile platforms are utilized to develop custom solutions to address some of the identified security vulnerabilities related to mobile applications.
+
+Prerequisites: 60% in COMP 8031
+
+COMP 8575 - Data Mining and Analytics
+
+Outline URL: https://www.bcit.ca/outlines/comp8575/
+
+Credits: 3.0
+
+Description: This course is focused on incorporating data mining and integrating data analytics frameworks to database systems, data warehouses and big data infrastructures. Approaches for mining correlations, associations and other data patterns are studied. Clustering, classification and regression implementations are integrated with the data systems. Database applications utilizing charts, maps and AR/VR augmented data visualization to support visual analytics are developed.
+
+Prerequisites: 60% in COMP 8071 and 60% in MATH 7808 and 60% in MATH 7908
+
+### Major Project (6.0 credits):
+
+COMP 8800 - Major Project 1
+
+Outline URL: https://www.bcit.ca/outlines/comp8800/
+
+Credits: 3.0
+
+Description: The objectives of this course are to give students the opportunity to explore in-depth a selected area of computer technology and identify complex real-world problems. Students will select a problem to solve in their Major Project. They will critically analyze the problem, existing challenges and issues, and related products and literature. Students will prepare a project proposal that includes the project’s objectives, specifications, review of similar systems and related products and literature, feasibility analysis, and a design of a solution that should be inventive, experimental or exploratory in nature. Students will also complete the first 2 of 5 milestones of the project during the course. This course is directed study under the guidance of a supervisor. Students will follow a software engineering methodology. Please refer to the Major Projects Guidelines as described on the BScACS Commons webpage.
+
+Prerequisites: 60% in COMP 8082 and 50% in LIBS 7001At least one 8000 level specialty course.
+
+COMP 8900 - Major Project 2
+
+Outline URL: https://www.bcit.ca/outlines/comp8900/
+
+Credits: 3.0
+
+Description: Based on their approved proposal and initial stages of the project developed in Comp 8800 Major Project 1, students will continue to implement, test and deliver their major project. This course is directed study under the guidance of a supervisor. Students will follow a software engineering methodology. The outcome of this course is a working project and a final report. Please refer to the Major Projects Guidelines as described on the BScACS Commons webpage.
+
+Prerequisites: COMP 8800
+
+### General Education (15.0 credits):
+
+LIBS 7001 - Critical Reading and Writing
+
+Outline URL: https://www.bcit.ca/outlines/libs7001/
+
+Credits: 3.0
+
+Description: This is a course in advanced composition and rhetoric, in which students will develop skills in complex critical analysis and interpretation by analyzing and evaluating materials from a variety of discourses or genres, including visual, online, and print; developing and writing essays, including critiques and research papers; applying and discussing principles of rhetoric and critical theory; examining and using methods of interpretation and analysis from the humanities and social sciences; evaluating the credibility of primary and secondary sources, including as it applies to media literacy, and for the purposes of academic research; situating discourses within their historical context and relevant to rhetorical theories of different periods (for example, Aristotle in the ancient world and Bakhtin in the twentieth century). The course format will include lecture, discussion, and both individual and group activities.
+
+Prerequisites: 50% in BCIT ENGL 1177 or equivalent, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+LIBS 7002 - Applied Ethics*
+
+Outline URL: https://www.bcit.ca/outlines/libs7002/
+
+Credits: 3.0
+
+Description: Fosters abilities and values required for ethical decision making at work. Develops skills in logical analysis, a working knowledge of moral principles and theories, and the ability to diagnose and resolve moral disagreements commonly found at work. Examines and applies moral principles to historically famous cases in manufacturing, human resources, management, engineering, health care, and computing.
+
+Prerequisites: BCIT ENGL 1177, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+
+
+## Entrance Requirements
+
+introduction
+
+The Bachelor of Science in Applied Computer Science (BScACS) is a two year degree completion program, meant to be taken after two years of post-secondary education in computing. External applicants will apply based on the pre-entry assessment. BCIT CST Diploma Graduates who graduated in the last five (5) years may apply directly to the program at bcit.ca/apply without a pre-entry or departmental assessment. CIT and FSWD Diploma Graduates will apply based on the pre-entry assessment.
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+This program has a two-step admission process. Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. Step 1: Pre-entry assessment Applicants must have a pre-assessment with the program area to identify pre-entry courses and have their work experience reviewed and assessed prior to applying. Please email the completed Pre-entry Assessment Request form [PDF] along with your resume and official sealed transcript(s) to the program coordinator . You can apply once you have completed any necessary pre-entry courses. A completed pre-entry assessment document from the program area must be uploaded with your application. Step 2: Meet the following entrance requirements Applicants who have completed post-secondary studies outside of Canada, the United States, the United Kingdom, Australia or New Zealand will require a comprehensive evaluation of their credentials by the International Credential Evaluation Service (ICES) . Credential evaluation reports from other Canadian services may be considered. These reports must include course-by-course evaluations and GPA calculations. Read more about how to meet BCIT’s entrance requirements English language proficiency: Category 2 – English Studies 12 (67%) or equivalent Post-secondary education: A minimum of 60.0 credits of post-secondary education in Computing from a recognized institution, which consists of: 6.0 credits of English or communications 6.0 credits of math, with a minimum of 3.0 credits in discrete math 3.0 credits of statistics 27.0 credits of computing, with a minimum of 3.0 credits in each of the following seven courses: Algorithms and data structures Computer architecture Database Data communications and networking Object-oriented programming Procedural programming Systems analysis and design In addition to the above, acceptance into the following options is subject to the following requirements: Games Development Option requires familiarity with C++. Network Security Development Option requires familiarity with C. 18.0 of general education and/or other computing courses: The BScACS Program Head will assess the equivalency of credits obtained from other institutions to ensure that graduation requirements are met. 6.0 credits of English or communications 6.0 credits of math, with a minimum of 3.0 credits in discrete math 3.0 credits of statistics 27.0 credits of computing, with a minimum of 3.0 credits in each of the following seven courses: Algorithms and data structures Computer architecture Database Data communications and networking Object-oriented programming Procedural programming Systems analysis and design In addition to the above, acceptance into the following options is subject to the following requirements: Games Development Option requires familiarity with C++. Network Security Development Option requires familiarity with C. Algorithms and data structures Computer architecture Database Data communications and networking Object-oriented programming Procedural programming Systems analysis and design Games Development Option requires familiarity with C++. Network Security Development Option requires familiarity with C. 18.0 of general education and/or other computing courses: The BScACS Program Head will assess the equivalency of credits obtained from other institutions to ensure that graduation requirements are met. The BScACS Program Head will assess the equivalency of credits obtained from other institutions to ensure that graduation requirements are met.
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+myCommunication
+
+Within two business days of submitting your completed application, BCIT will send a message to your personal and myBCIT email addresses. All correspondence regarding your application will be posted to your online myCommunication account at my.bcit.ca . We will send you an email when a new message is posted. It is important to watch for these emails or regularly check your account online. You can expect to receive communication concerning the status of your application within four weeks.
+
+
+
+## Costs & Supplies
+
+Tuition fees
+
+Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information on domestic and international tuitions.
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+Program length
+
+Students are required to complete this program within seven years starting from the date of their first technical degree-level course or the date of acceptance to the bachelor program, whichever comes first. General Education Electives cannot be older than five years from the date of acceptance to be used toward the degree. Extensions beyond the maximum time limitation will not be allowed. However, students may request a timeshift. A timeshift moves the program start year to one year later and the program completion year to one year later. With a timeshift, any COMP 7xxx and COMP 8xxx courses taken prior to the new start date will become stale-dated and not apply towards the credential. Students will need to re-take or challenge the expired courses if they wish to use them towards fulfilling program requirements. In the event of a major program change, students who timeshift will be required to follow the new program matrix. Some exemptions of equivalent courses may apply. Student requests for a timeshift shall be reviewed and approved by the Program Head and the Registrar’s Office.
+
+Exception to Section 5 of Policy 5103:
+
+Students are required to complete this program within seven years starting from the date of their first technical degree-level course or the date of acceptance to the bachelor program, whichever comes first. General Education Electives cannot be older than five years from the date of acceptance to be used toward the degree. Extensions beyond the maximum time limitation will not be allowed. However, students may request a timeshift. A timeshift moves the program start year to one year later and the program completion year to one year later. With a timeshift, any COMP 7xxx and COMP 8xxx courses taken prior to the new start date will become stale-dated and not apply towards the credential. Students will need to re-take or challenge the expired courses if they wish to use them towards fulfilling program requirements. In the event of a major program change, students who timeshift will be required to follow the new program matrix. Some exemptions of equivalent courses may apply. Student requests for a timeshift shall be reviewed and approved by the Program Head and the Registrar’s Office.
+
+Grading
+
+A minimum passing grade of 60 percent is required for all COMP courses at the 7000 and 8000 level.
+
+Additional program options
+
+Database Option Network Security Administration Option Network Security Applications Development Option Wireless and Mobile Applications Development Option
+
+Program delivery
+
+Blended: This program is delivered partly on campus and partly online. Once accepted into the flexible learning program, students register and complete classes on a course-by-course basis. Flexible learning courses are taught in our Downtown Vancouver Campus, Burnaby Campus, and online on weekday evenings and weekends.
+
+Program location
+
+Courses may be offered at the following locations: Burnaby Campus 3700 Willingdon Avenue Burnaby, BC Downtown Campus 555 Seymour Street Vancouver, BC Online Learning
+
+Program structure
+
+
+
+Continue your education
+
+Graduates of the Bachelor of Science in Applied Computer Science program can apply to continue their studies with the Master of Science in Applied Computing . Through an interdisciplinary and rigorous full-time curriculum, the MSc helps develop technical leadership and research skills for a professional setting or for further academic study. Students select a Project & Internship Path or Thesis Path, and have opportunities to apply computing solutions to industry challenges.
+
+
+
+## Graduating & Jobs
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Applied Computer Science (Human Computer Interface Option)

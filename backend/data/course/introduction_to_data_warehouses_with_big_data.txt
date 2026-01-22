@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/introduction-to-data-warehouses-with-big-data-comp-3841/
+Title: Introduction to Data Warehouses with Big Data
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3841
+
+================================================================================
+
+## Overview
+
+Continuing on from COMP 1630 , this hands-on course is a primer for data warehouse and data analytics with Big Data. Students must already understand industry standards in data modelling, relational database design and creating reports with SQL. COMP 3841 begins with an exploration of different Big Data systems. Participants must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Labs and assignments use a web browser to access course content. Exercises focus on data ingestion, data extraction, data transformation, accessing/querying data, and data visualization. Students conduct a big data analysis with practical, real-world examples and focus on how to populate and analyze vast data sets using a case-study approach. Topics include an overview of different data stores, querying data with visualizations, and an overview of Extract, Transform and Load (ETL) process in the data warehouse. COMP 3841 is a required course in the Applied Data Analytics Certificate (ADAC) and an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will be able to leverage and maintain a large-scale data warehouse for Business Intelligence.
+
+## Credits
+
+1.5
+
+## Cost
+
+$405.40 - $424.89
+
+## Prerequisites
+
+- 60% in COMP 1630
+
+## Learning Outcomes
+
+- Describe big data analytical concepts.
+- Ingest, store, and secure data.
+- Populate data stores with manual and automatic schema detection.
+- Automate loading data into a data warehouse.
+- Load and query data in a data warehouse.
+- Visualize structured and unstructured data.
+
+## Related Programs
+
+- Applied Data Analytics
+- Computer Systems

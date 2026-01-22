@@ -1,0 +1,111 @@
+URL: https://www.bcit.ca/outlines/20242062419/
+Course: CITX 2200
+Field: Microsoft Server Level 1
+
+School: School of Energy
+Program: Network Administrator Technician
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: April 13, 2024
+End Date: July 13, 2024
+Total Hours*: 72
+Total Weeks: 12
+Hours/Weeks: 6
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 62419
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rouzbeh Keshavarz
+E-mail: Instructor to provide
+Location: SE1-135
+Office Hours: Instructor to provide
+
+## Course Description
+​This course introduces students to Windows Servers and includes configuration and management of components relating to Installation, Storage systems, Networking including DHCP and DNS, HyperV, Domain Controllers, Active Directory, Permissions, Securing Servers, and other items supporting a large enterprise environment. ​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Install and configure servers and domain controllers.
+- Configure Windows server licensing and activation.
+- Manage Windows servers remotely.
+- Configure Windows clients to securely connect to Windows servers.
+- Configure hard drives and storage.
+- Configure SMB shares in Windows server.
+- Configure basic and advanced NTFS and share permissions.
+- Install and configure HyperV.
+- Configure and manage HyperV Storage and networking.
+- Install and configure images (guests) using HyperV.
+- Install and configure DHCP, DNS, and implement an IP Addressing strategy.
+- Configure Virtual Private Networking and Remote Access.
+- Install and configure forests, domains, and child domains.
+- Create, manage, and maintain Active Directory.
+- Create and manage Active Directory users, computers, groups, organizational units (OUs), and many other Active Directory objects.
+- Configure global catalog servers and operations masters.
+- Configure service authentication and account policies.
+- Create and configure password policies, account lockout policies, and Kerberos authentication policies.
+- Create and configure various trust relationships in enterprise environments.
+- Monitor, manage and recover Widows Servers and AD DS.
+- Configure and manage Active Directory in a complex enterprise environment using Active Directory sites and services.
+- Configure and manage Active Directory replication.
+- Use PowerShell to install, configure, and manage many of the components learned in this course.​
+
+## Learning Resources
+Required:
+
+1. Waypoint/XtremeLabs – Combo Bundle includes:
+
+- Waypoint Ventures: Windows Server Essentials eBook
+
+- XtremeLabs: Hands on Digital Labs
+
+2. External USB Type C SSD (Minimum 256GB)
+
+Purchasing these items will be discussed on the first day of class.
+
+You will need a credit card to purchase the items.
+
+## Evaluation Criteria
+Criteria*: %: Comments
+Labs: 50: Students are going to do in-classroom labs and digital online labs. A passing grade of 50% is required to satisfactorily complete this course.
+Midterm: 15
+Skills Exam: 15
+Final: 20
+TOTAL: 100%
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration.
+
+## Other information
+Note - In this course, students may be required to create/use an on-line account to access software. During the account creation process your name and other identifying information may be recorded and stored outside of Canada. If you choose not to create an account, please see the instructor to make alternate arrangements.
+
+## Course Schedule and Assignments
+Course schedule and assignments due, will be announced and accessible to students on learning hub(D2L).
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rouzbeh Keshavarz, Instructor April 09, 2024
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head April 09, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Paul Morrison, Interim Associate Dean April 10, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

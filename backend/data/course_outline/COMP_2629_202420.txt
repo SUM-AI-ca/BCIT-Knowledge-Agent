@@ -1,0 +1,164 @@
+URL: https://www.bcit.ca/outlines/20242068066/
+Course: COMP 2629
+Field: Enterprise Networking Fundamentals
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: April 27, 2024
+End Date: July 20, 2024
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 1002
+CRN: 68066
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Dawood Sajjadi Torshizi
+E-mail: Instructor to provide
+Location: Remote (Microsoft Teams)
+Office Hours: Instructor to provide
+
+## Course Description
+Following on from COMP 1002 students are introduced to the fundamental concepts and terminology related to data communications and enterprise networks. COMP 2629 is required for Applied Network Administration and Design, ANAD and is also an elective in the CST/PTS Diploma. This course is also equivalent to ACIT 2620 - Principles of Enterprise Networking, in the full-time CIT Diploma. Students are introduced to the basic (design, implementation and management) concepts and terminology related to data communications and networking. The OSI model as well as the TCP/IP protocol suite at the physical, data link, network and transport layers are used throughout the course to demonstrate concepts and implementation. Topics include: network topology, protocols, transmission media, switching techniques, access control and addressing for wired and wireless networks. There is also an overview of network security and network management principles. Participants will investigate how requirements relate to network design and network administration. They will also study how computers exchange data over LANs and WANs. Labs and exercises will examine network protocol implementation as well as show how to troubleshoot and improve network design. Upon successful completion, students will be prepared to start COMP 3700 MS Windows Server Administration. They will have a practical understanding of the principles of data communications for enterprise networks. This course is offered in the April (spring) ​or September (fall) terms.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain basic data communication concepts and terminology related to networking.
+- Discuss and compare network protocol implementation using a layered approach.
+- Discuss and analyze protocols at the physical, data link, network and transport layers.
+- Explain the similarities and differences between the OSI model and TCP/IP protocol suite.
+- Explain the techniques of switching, access control and addressing in networks.
+- Explain and describe the characteristics of various transmission media.
+- Explain and identify key protocol information given samples of captured packets.
+- Describe wireless technologies features and address wireless design needs.
+- Describe the issues involved in designing enterprise networks.
+- Configure network services (including domain name services, dynamic address allocation, dynamic routing, network address translation, packet filtering, static routing, switching, and web services).
+- Explain network security and network management principles.
+- Be prepared for higher level courses in server administration and network security.
+
+## Learning Resources
+- Text and Reference Computer Networking: A Top-Down Approach (8th Edition) by Jim Kurose, Keith Ross. Additional online material will be provided for specific subjects.
+- Computer Networking: A Top-Down Approach (8th Edition) by Jim Kurose, Keith Ross.
+- Additional online material will be provided for specific subjects.
+- Software Wireshark VMware Fusion (Mac), VMware Workstation Player (Windows/Linux) Graphical Network Simulator-3 (GNS3)
+- Wireshark
+- VMware Fusion (Mac), VMware Workstation Player (Windows/Linux)
+- Graphical Network Simulator-3 (GNS3)
+- Hardware BYOD Laptop/Desktop (with Mac, Windows, or Linux Operating Systems)
+- BYOD Laptop/Desktop (with Mac, Windows, or Linux Operating Systems)
+
+## Course Goals
+- To Introduce Basic Concepts and Terminologies related to Data Communications and Computer Networking.
+- To Understand the Principles of Computer Networks and the Internet using the TCP/IP Protocol Stack.
+- To Grasp the Fundamentals of Switching, Routing, and Transport Layer Protocols as the essence of Enterprise Networking.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quiz: 15: 8 quizzes
+Midterm Exam: 20: Online (via Microsoft Teams)
+Final Exam: 35: Online (via Microsoft Teams)
+Lab Assignment: 25: 5 assignments (reports)
+Project: 5: Group presentation on a selected topic
+
+Passing Grade: 60%
+
+- Incomplete or poor-quality work will be assigned a grade of zero.
+- There will be no makeup quizzes or exams. If you miss a quiz or exam, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the student's responsibility to inform the instructor immediately.
+- Late lab assignments (reports) will not be accepted except for proof of illness or extenuating circumstances.
+- The midterm and final exams will not be returned to the student.
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer-to-peer communication and support. However, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund, failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- This course includes mandatory online readings and content via the BCIT Learning Hub.
+- Students are encouraged to pre-read the specified chapters in their textbook before lectures as per the course outline.
+- You must also read the supplementary material posted online before each class. Lack of participation in the online portion may result in failure of this course.
+- Students need to have a current model PC desktop or laptop with a camera and high speed internet access.
+- BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games, and software).
+- Respect our vendor software agreements. Do not download products that are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor-provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT coursework.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and/or removal from classes.
+
+## Course Schedule and Assignments
+Week: Topic: Assessment/Action
+1: An Introduction to Computer Networking: Reading instructions for Lab Setup and Installing Required Software.
+2: Link Layer (Switching) - Part 1: Quiz 1, Review of Lab Setup and Lab1 assignment for students. Students start working on the Lab1 assignment (report submission deadline: Friday noon PDT).
+3: Link Layer (Switching) - Part 2: Quiz 2, Review of Lab1 solution for students.
+4: Link Layer (Switching) - Part 3: Quiz 3, Review of Lab2 assignment, Students start working on the Lab2 assignment (report submission deadline: Friday noon PDT).
+5: Midterm Exam: Review of Lab2 solution for students.
+6: Network Layer (IP/Routing) - Part 1: Review of Lab3 assignment, Students start working on the Lab assignment (report submission deadline: Friday noon PDT).
+7: Network Layer (IP/Routing) - Part 2: Quiz 4, Review of Lab 3 solution for students.
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before week 8 or else you will receive a failing grade on your academic record.
+8: Transport Layer (UDP/TCP) - Part 1: Quiz 5, Review of Lab4 assignment, Students start working on the Lab assignment (report submission deadline: Friday noon PDT).
+9: Transport Layer (UDP/TCP) - Part 2: Quiz 6, Review of Lab 4 solution for students.
+10: Network Security and Management: Quiz 7, Review of Lab5 assignment, Students start working on the Lab assignment (report submission deadline: Friday noon PDT).
+11: Project Presentation (Teamwork): Quiz 8, Review of Lab 5 solution for students.
+12: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Dawood Sajjadi Torshizi, Instructor April 01, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 19, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 19, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,129 @@
+URL: https://www.bcit.ca/outlines/20251012731/
+Course: PHYS 2288
+Field: Applied Physics 2 for OCHS
+
+School: School of Computing and Academic Studies
+Program: Occupational Health and Safety
+Course Credits: 5.5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 23, 2025
+Total Hours*: 110
+Total Weeks: 20
+Hours/Weeks: 5.5
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in PHYS 1288
+CRN: 12731
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Alex Khramov
+E-mail: akhramov@bcit.ca
+Location: SW3-4083
+Office Hours: In my office (SW3-4083): M 11:30 (Before Spring Break), T 11:30, 12:30, Th 11:30 (After Spring Break) At the Physics Learning Centre (SW3-4785): W 12:30 Th 12:30 Online: upon request
+
+## Course Description
+Covers areas of fluids, thermal physics, vibrations, waves and electricity, as well as light and properties of radiation. Topics in fluids include fluid pressure, buoyancy, and fluid dynamics. Topics in thermal physics include kinetic theory of gases, specific and latent heat, thermal expansion, and heat transfer. Vibrations and waves covers types of simple vibrations, waves, standing waves and resonance and sound. Topics in electricity include DC and AC circuits and electrical safety. Particular attention is paid to the importance and interpretation of noise measurements in the workplace.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Identify some of the basic physical principles underlying the OCHS technology.
+- Use analytical skills in the solution of technical problems.
+- Analyze experimental data.
+- Write scientific reports.
+
+## Learning Resources
+- John Betts textbook modules for PHYS 2288 (will be made available via Learning Hub)
+- Lab manual modules for PHYS 2288 (will be made available via Learning Hub)
+- Scientific calculator (must have logarithmic, exponential, trigonometric functions)
+- A computer which is able to run MS Excel
+- A computer with reliable internet connection
+- A smartphone may be useful for some lab activities (let me know if you don't have one and we'll work something out)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 10: 8 online quizzes, equally weighted (5%) 5 tutorial homeworks, equally weighted (5%)
+Lab Writeups: 10: 7 lab writeups, equally weighted
+Lab Exam: 10: Scheduled date: May 1
+Midterms (2, equally weighted): 30: Scheduled dates: Feb 27, Apr 10
+Final Exam: 40: Final exam is cumulative
+
+## Other information
+AI-based content generation tools, or AI tools, are permitted for assignments and project work. However, they are not allowed during class assessments (e.g., in exams). Note that AI output may include incorrect or misleading information, fabricated authors/dates/publications, faked works, or may incorporate discriminatory ideas. It is your responsibility to ensure the quality, accuracy and appropriateness of the work you submit in this course.
+
+If you use ChatGPT (or a similar tool) to get ideas and/or partial answers for an assignment and/or to generate any text for a draft or final version of any part of an assignment, you must declare that you have used it, with a short paragraph describing the extent to which it was used, and you must save any generated text from this tool in case it is requested. You will not be penalized for using this tool, but the instructor may ask you to provide the generated text to help with grading decisions.
+
+Material directly copied from any source (e.g. websites, books, AI tools) must be cited. Undeclared use of AI is a violation of academic integrity as it presents work, or ideas created by tools or other people as your own. Failure to fully declare the use of this tool will be considered a violation of BCIT academic policy
+
+## Course Schedule and Assignments
+Course schedule is provisional and subject to change Assignments consist of 8 online quizzes (Q) and 5 tutorial homeworks (TH). Reading references are to page numbers in Betts' modules
+
+Week: Topics: Reference: Assignments: Lab Activity
+1: M: Intro/Fluid statics W: Pressure hazards: 14.4-14.23: -: None
+2: M: Buoyancy W: Fluid dynamics: 15.4-15.12: W: Q1 given: Lab 1: Venturi Apparatus
+3: M: Heat W: Calorimetry: 23.4-23.16: W: Q1 due: Lab 1 review / Tutorial 1
+4: M: Psychrometrics W: Thermal Expansion: 23.25-23.37 24.4-24.31: M: Q2 given Th: TH1 due: Lab 2: Thermal Expansion
+5: M: Conduction W: Radiation: 25.4-25.23: M: Q2 due W: Q3 given: Lab 2 Review / Tutorial 2
+6: M: Vibrations W: Waves: 16.4-16.13 17.4-17.10: W: Q3 due Th: TH2 due: Lab 3: Poor conductor
+7: M: (Holiday) W: Waves in 2D and 3D: 17.17-17.26: Lab 3 Review / Tutorial 3
+8: M: Sound W: Resonance: 17.34-17.38 18.4-18.18: W: TH3 due: Midterm 1
+9: M: Decibels W: Acoustics: 18.27-18.42: M: Q4 given: Lab 4: Audiometry
+10: Spring Break: -: None
+11: M: Light W: Photometry: 19.4-19.23: M: Q4 due W: Q5 given: Lab 5: Photometry
+12: M: Ionizing radiation W: Nuclear structure: 43.3-43.15: W: Q5 due: Lab 6 Nuclear decay
+13: M: Nuclear decay W: Nuclear safety: 43.15-43.38: M: Q6 given: Lab 6 Review / Tutorial 4
+14: M: Circuit elements W: DC Circuits: 28.4-28.22: M: Q6 due W: TH4 due: Midterm 2
+15: M: Kirchhoff's Laws W: Circuit safety: 30.4-30.30: Lab 7: Circuit basics / Tutorial 5
+16: (Holiday) W: AC and DC: 36.4-36.9: W: Q7 given Th: TH5 due: Lab 8: DC Circuits
+17: M: Charge W: Coulomb's Law: 27.4-27.21: W: Q7 due: Lab Exam
+18: M: Electric fields W: Voltage: 27.21-27.44: M: Q8 given: Review
+19: M: Magnets W: Review: 32.4-32.10: W: Q8 due: None
+20: Exam week continues
+
+## Course topics
+1. Fluids - Hydrostatic pressure - Safety aspects related to pressure hazards - Bernoulli's Equation
+
+2. Temperature and Heat - Heat and heat energy - Temperature hazards and psychrometric measurement - Ideal gas law - Heat transfer
+
+3. Waves and vibrations - Vibrations and resonance - Waves and the physical nature of sound - Sound safety (decibel scale, hearing damage) - Acoustics
+
+4. Light and Illumination - The physical nature of light - Introduction to light safety - Introduction to photometry
+
+5. Nuclear Physics (basics of Radiation Safety) - Nuclear physics and elementary particles - Safety: types of radiation and shielding
+
+6. Electricity and Magnetism - Electric Fields (power lines, arcing) - Electric Current (safety and current through body) - Basic introduction to DC circuits - Basic introduction to magnetism
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Alex Khramov, Instructor January 06, 2025
+
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty January 06, 2025
+
+I verify that this course outline has been reviewed. Bobby Sidhu, Program Head January 07, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 07, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

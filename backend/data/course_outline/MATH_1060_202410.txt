@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/outlines/20241087319/
+Course: MATH 1060
+Field: Statistics for Data Analysis
+
+School: School of Computing and Academic Studies
+Program: Data Analytics
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 08, 2024
+End Date: April 08, 2024
+Total Hours*: 39
+Total Weeks: 12
+Hours/Weeks: 3.25
+Delivery Type: Lecture/Lab
+Prerequisite(s): Math 12 Pre-Calculus or equivalent.
+CRN: 87319
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Masomeh Jamshid Nejad
+E-mail: Instructor to provide
+Location: TBA
+Office Hours: Instructor to provide
+
+## Course Description
+This hands-on course introduces descriptive statistics, basic inferential statistics, linear regression, and probability concepts and calculations. Emphasis throughout the course will be placed on using statistical methods for the exploration and analysis of data sets. This introduction will enable students to use statistics for data analysis, will prepare them for “Data Analytics/Mining,” and covers topics appropriate for anyone seeking a first statistics course. Labs and exercises employ standard graphical methods to represent statistical data. Hypothesis tests, including ANOVA, are used to test for significant differences between multiple groups. Students will be introduced to the open source R Programming language, a statistical analysis tool used to extract meaningful information from a variety of scientific, industrial and commercial data sets. Upon successful completion, students will be able to carry out calculations, perform statistical decision making and solve problems with involving collected data. This course prepares the student to move on to MATH 3060 and is a required course for the Applied Data Analytics Certificate offered by BCIT Computing.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Compute and understand the meaning of mean, median, range, standard deviation, variance, percentiles and standard scores.
+- Use and understand standard graphical methods of representing statistical data.
+- Use R to process and analyse data.
+- Perform basic probability calculations.
+- Solve problems with statistical variables that have a binomial, Poisson, normal or other probability distributions.
+- Describe the basic procedures for null hypothesis testing; define, explain, illustrate basic concepts such as null and alternate hypotheses, type 1 and 2 errors, level of significance, critical values, test statistic, rejection region, one-tailed and two-tailed tests; power; determination of sample size.
+- Carry out calculations and statistical tests related to sample means, sample proportions, chi-square distribution, and correlation and regression.
+- Use ANOVA to test hypotheses on differences between multiple groups.
+- Estimate with confidence intervals for population parameters (means, difference between means, difference between proportions).
+- Apply principles of linear correlations and regression and determine correlation coefficients between different data variables.
+- Use multiple regression to predict a response variable and determine the most significant predictor variables.
+
+## Learning Resources
+- Scientific Calculator (recommended: SHARP ADVANCED EL-520)
+- Access to BCIT Learning Hub
+- Personal computer with R (programing language) and R Studio installed
+
+## Evaluation Criteria
+Criteria: %
+Labs: 10
+Quizzes: 20
+Midterm: 30
+Final Exam: 40
+Total: 100
+
+Passing overall grade: 60%
+
+## Attendance Requirements
+PTS Attendance Policy
+
+Attendance is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with their Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT -approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Other information
+“Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.”
+
+## Course Schedule and Assignments
+Week: Topics: Date
+1: Descriptive statistics 1: Jan. 8
+2: Descriptive statistics 2: Jan. 15
+3: Combinatorics & probability - Quiz1: Jan. 22
+4: Probability distributions 1: Jan. 29
+5: Probability distributions 2 - Quiz2: Feb. 5
+6: Confidence intervals: Feb. 12
+8: Hypothesis testing - Quiz3: Feb. 26
+Note:: Withdrawal deadline: Please inform your instructor if you are dropping this course. You must fill out and submit the Request to Withdraw form before week 8 or else you may receive a failing grade on your academic record.
+9: Midterm Exam: March 4
+10: Chi squared distribution: Mar. 11
+11: ANOVA- Quiz 4: Mar. 18
+12: Linear regression: Mar. 25
+14: final exam: April 8
+
+The course schedule given above is tentative.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Masomeh Jamshid Nejad, Instructor December 19, 2023
+
+I verify that this course outline has been reviewed. Winona Cordua-von Specht, Faculty December 19, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 19, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

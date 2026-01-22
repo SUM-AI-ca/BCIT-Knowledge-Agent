@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/application-development-with-c-comp-2801/
+Title: Application Development with C
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2801
+
+================================================================================
+
+## Overview
+
+Following on from COMP 2701 , students continue their exploration of procedural programming with C to build software applications. COMP 2801 assumes students have prior knowledge of programming concepts with Java and procedural programming using C. After a brief review of introductory C, students move on to more advanced C concepts including scope, storage, linkage, and memory models. Participants will practice how to build commercial quality applications using the standard C library. T opics include implementing selected data structures and algorithms in C, using linked lists, binary trees and managing large C programs with multiple files. Labs and exercises use a variety of skills to debug programs and use complex control statements, and advanced functions with pointers, arrays, and strings. COMP 2801 is an elective for Applied Software Development (ASD) and required for the Computer Systems Certificate (CSC). Upon completion, successful students will be able to build and deploy a modular multi-file C program to industry standards.
+
+## Credits
+
+3.0
+
+## Cost
+
+$588.53
+
+## Prerequisites
+
+- 60% in COMP 2701
+
+## Learning Outcomes
+
+- Discuss programming language concepts such as scope, storage duration, linkage, and memory models.
+- Describe complex control statements in C programs.
+- Utilize advanced functions in C programs.
+- Employ complex pointer concepts in relation to arrays and strings; pointers to pointer, function pointers, pointers to struct.
+- Use pointers as function parameters to simulate pass-by-reference.
+- Write complex string concepts for predefined functions in standard library for strings, strings in struct, sort solution with strings, and pointers vs. strings.
+- Apply the functions in the standard C library in developing programs.
+- Process arrays in C.
+- Implement selected data structures and algorithms in C, including linked lists and binary trees.
+- Perform file processing in C, with both sequential and random-access files.
+- Manage large C programs that involve multiple files.
+- Design, implement and debug software application programs written in C to industry standards.
+
+## Related Programs
+
+- Applied Software Development (ASD)
+- Computer Systems

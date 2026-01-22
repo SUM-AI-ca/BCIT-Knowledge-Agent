@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/data-analytics-fundamentals-comp-2854/
+Title: Data Analytics Fundamentals
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2854
+
+================================================================================
+
+## Overview
+
+This hands-on course follows on from COMP 1630 , COMP 2362 (or COMP 2364 ) and MATH 1060 . It introduces data analytics fundamentals to students who have previously acquired skills in Excel spreadsheets, database systems, Structured Query Language (SQL) programming and statistics. Starting with an overview of the business cycle for data mining, students learn how to translate a business problem into a data mining problem. Through a number of problems and case studies, students will build, assess, and deploy different models to gain insights into the data by testing probable hypotheses using primarily SQL and Excel. Discussions include the fundamentals of using the R Language for data analytics. Labs and exercises include: using advanced analytics with SQL, advanced Excel and R Studio to clean data and perform analysis. Participants will gain experience with data exploration, testing hypothesis, and predictive analytics. This is a required course in the Applied Data Analytics Certificate, ADAC from BCIT Computing. Upon successful completion, participants will be able to identify the process of data analysis, the roles of data analytics practitioners and how to create analytics models. Students will be prepared to move on to MATH 3060 Advanced Statistical Techniques for Data Analytics and COMP 4254 Advanced Topics in Data Analytics.
+
+## Credits
+
+3.0
+
+## Cost
+
+$716.73
+
+## Prerequisites
+
+- 60% in COMP 1630 and (60% in COMP 2362 or 60% in COMP 2364 ) and 60% in MATH 1060
+
+## Learning Outcomes
+
+- Identify analytics stakeholders and roles.
+- Identify the steps in data analysis process.
+- Translate business problems into data analytic problems.
+- Describe data refinement and data mining.
+- Identify data issues.
+- Troubleshoot data, prepare and clean data for data mining and analysis.
+- Optimize SQL for efficient query execution.
+- Recognize SQL antipatterns and apply corrective measures.
+- Create data analytic models.
+- Perform data exploration, testing hypothesis and predictive analytics with SQL and advanced Excel functions.
+- Use R language and R Studio software for Data Analytics tasks.
+- Create meaningful reporting to uncover insights and trends to support business decision making.
+
+## Related Programs
+
+- Applied Data Analytics

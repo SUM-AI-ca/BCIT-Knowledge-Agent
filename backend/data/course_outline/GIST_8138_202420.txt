@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/outlines/20242055890/
+Course: GIST 8138
+Field: ArcGIS 3:  Customization and Modelling
+
+School: School of Construction and the Environment
+Program: GIS
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: April 04, 2024
+End Date: June 20, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): 50% in GIST 8010† and 50% in GIST 8128 († may be taken concurrently) Course registration is restricted to current students registered in a BCIT GIS program.
+CRN: 55890
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rob Hewlett
+E-mail: Instructor to provide
+Location: SW03-2079
+Office Hours: Instructor to provide
+
+## Course Description
+This course in GIS customization introduces the Esri Desktop GIS development environment using Python scripting. Topics include writing Python Scripts, extending the functionality of GIS models, importing external .txt files, creating custom tools and integrating with other development environments.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Develop custom labels and field calculations using python.
+- Automate existing models by adding python scripting.
+- Create custom class and function definitions in python.
+- Use existing GIS software components to create a customized set of tools.
+- Investigate other development environments used by Desktop GIS software.
+
+## Learning Resources
+Recommended (not required):
+
+Textbook:
+
+Python scripting for ArcGIS Pro
+
+Author(s): Paul A. Zandbergen Publisher: Environmental Systems Research Copyright year: © 2020 Edition: 1st
+
+Print ISBN: 9781589484993, 1589484991Print ISBN: 9781589484993, 1589484991 eText ISBN: 9781589485006, 1589485009
+
+VitalSource
+
+Advanced Python Scripting for ArcGIS Pro
+
+Author(s): Paul A. Zandbergen Publisher: Environmental Systems Research Copyright year: © 2020 Edition: 1st
+
+Print ISBN: 9781589486188, 1589486188Print ISBN: 9781589486188, 1589486188 eText ISBN: 9781589486195, 1589486196
+
+VitalSource
+
+Online Python Tutorials at www.python.org
+
+ArcGIS Pro Help
+
+## Evaluation Criteria
+Type: Component Weight: Element: Element Weight
+Exams: 70%
+Midterm 1: 17.50%
+Midterm 2: 17.50%
+Midterm 3: 17.50%
+Final Exam: 17.50%
+Assignments:: 30%
+All labs (evenly weighted): 30%
+Total: 100%
+
+## Course Schedule and Assignments
+week: mod: lecture: lab: exam: due_date
+1: 0: Intro: Orientation
+2: 1: Tasks in ArcPro: Assignment 01: 18-Apr-2024
+3: 2: Expressions in ArcPro: Assignment 02: 25-Apr-2024
+4: 3: Script tools in ArcPro: Assignment 03: Midterm 01: 2-May-2024
+5: 4: Data and its geometry: Assignment 04: 9-May-2024
+6: 5: Organizing your tools, scripts and code: Assignment 05: 16-May-2024
+7: 6: Toolboxes in ArcPro: Assignment 06: Midterm 02: 23-May-2024
+8: 7: Arcpy and Layouts: Assignment 07: 30-May-2024
+9: 8: External tools and integrations: Project phase 01: 6-Jun-2024
+10: 9: ArcPro SDK: Project phase 02: Midterm 03: 13-Jun-2024
+11: 10: ArcGIS runtimes: Project phase 03: 20-Jun-2024
+12: Flex: Flex: Final Exam: 20-Jun-2024
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rob Hewlett, Instructor April 01, 2024
+
+I verify that this course outline has been reviewed. Carmen Heaver, PTS Coordinator April 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean April 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

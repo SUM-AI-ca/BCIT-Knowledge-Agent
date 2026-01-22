@@ -1,0 +1,136 @@
+URL: https://www.bcit.ca/outlines/20253051894/
+Course: FSCT 8500
+Field: Mobile Forensics
+
+School: School of Computing and Academic Studies
+Program: Digital Forensics and Cybersecurity
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): Admission to a forensic credential program or permission of the Program Head
+CRN: 51894
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jas Randhawa
+E-mail: jas_randhawa@bcit.ca
+Location: Rm. 473
+Office Hours: Monday: Noon-12:30pm, 2:30-3pm
+
+## Course Description
+This course will introduce students to forensic issues related to mobile devices that may use cloud resources. Students will learn what data can be retrieved from a mobile device, and they will get hands-on experience using current tools to perform the extraction. Students will analyze this data and align it with records from network security providers to inform an investigation. Cloud resources will also be addressed using industry standard software. Technical and legal issues will be considered.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe all steps required to collect and handle evidence from mobile devices.
+- Create a forensic report detailing the data extracted from a mobile device.
+- Analyze the data collected from a mobile device using existing hardware and software.
+- Assess the impact of different cellular networks on forensic data.
+- Use data from network service providers together with extracted data to improve forensic picture.
+- Extract cloud data associated with a given mobile device.
+- Explain the legal considerations associated with cloud extraction.
+
+## Learning Resources
+To be provided by instructor
+
+## Course Goals
+Upon successful completion, the student will be able to:
+
+- Describe all steps required to collect and handle evidence from mobile devices;
+- Analyze the data collected from a mobile device using existing hardware and software;
+- Extract data from physically and logically failed devices;
+- Extract cloud data associated with a given mobile device;
+- Explain the legal considerations associated with mobile and cloud extraction;
+- Create a forensic report detailing the data extracted from a mobile device.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Midterm Exam: 35: Passing grade is 60%
+Quizzes(5): 30: Each quiz is 6%
+Final Exam: 35
+
+## Course Schedule and Assignments
+Month: Date: Topic
+Sep: 2: Labour Day - No Class
+Sep: 8: Introduction
+Sep: 15: Cellular Technology: Quiz 1
+Sep: 22: Legal Topics in MF: Quiz 2
+Sep: 29: iOS: Quiz 3
+Oct: 6: Android: Quiz 4
+Oct: 13: Thanksgiving - No Class
+Oct: 20: Cellebrite
+Oct: 27: Midterm
+Nov: 3: Electronics
+Nov: 10: Cellebrite
+Nov: 17: Advanced iOS
+Nov: 24: Sim Cards, Mobile Reports
+Dec: 1: Review: Quiz 5
+Dec: 8: Final Exam
+
+## Course topics
+· Legal issues: The authority of a law enforcement agency in Canada to seize and search mobile evidence.
+
+· Introduction to cell phone technology: History of mobile devices, mobile communication standards.
+
+· Coping with non-responsive devices: Hardware inspection and repair of damaged devices (e.g., water damage, electrical damage, malicious destruction).
+
+· Data extraction: Extracting data from logically failed mobile devices.
+
+· Forensic practice: Applications of sound mobile device seizure procedures.
+
+· Cell phone analysis: In-depth analysis of iOS and Android systems.
+
+· Forensic software usage: Application of leading mobile extraction and analysis tools.
+
+· Cloud issues: Techniques and approaches for accessing cloud data and artifacts.
+
+· Best practices: Finding and identifying the best approach to properly process digital evidence from a mobile device – Choosing the best tool for the job.
+
+· Working with storage media: Preserving and analyzing SIM cards and media cards.
+
+· Manual method: Using manual approach to extract and verify data when traditional tools will not work.
+
+· Mobile data: Processing and analyzing extracted mobile data – getting the artifacts and the evidence needed.
+
+· Location of data: Interpreting geo-location data and applying it to the case.
+
+· Documentation: Taking notes, creating and submitting a full forensic report describing all the steps taken during the analysis.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jas Randhawa, Instructor August 27, 2025
+
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator August 27, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean August 27, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

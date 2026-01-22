@@ -1,0 +1,117 @@
+URL: https://www.bcit.ca/outlines/20241016345/
+Course: COMP 4915
+Field: System Administration
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma - Information Systems Option
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in COMP 3910
+CRN: 16345
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bruce Link
+E-mail: Bruce_Link@bcit.ca
+Location: SW02-365
+Office Hours: Monday 1130,1230, Tuesday 1330, Wednesday 1230, Thursday 1230, by appointment (email instructor).
+
+## Course Description
+This course introduces 2 key technologies prominent in the Information Systems industry: 1) The Unix operating system. In the Unix portion of the course you will learn to work comfortably on a Unix platform, to be able to install and configure Unix services, and to create simple Shell scripts. Linux Fedora will be used for this part of the course. 2) The Windows Server Operating System. Students will learn the components and architecture of the Windows Server Operating System, as well as how to configure the operating system.
+
+## Course Learning Outcomes/Competencies
+At the end of the Unix portion of this course, the student will be able to:
+
+- Explain how Unix came into existence, and its relevance in the workplace.
+- Explain the Systems Administrator tasks.
+- Manage a Unix file systems.
+- Configure networks and file sharing.
+- Program the Unix shell.
+- Work comfortably in the bash-shell.
+- Use Unix utilities such as awk, grep, sed, wc, or diff.
+- Set up internet services.
+- Set up firewalls.
+
+At the end of the Windows portion of this course, the student will be able to:
+
+- Perform the following tasks on a Windows Server Operating System:
+- Configure
+- Customize
+- Optimize
+- Integrate on a network
+- Troubleshoot.
+
+## Learning Resources
+Required:
+
+- A Practical Guide to Fedora and Red Hat Enterprise Linux, Mark G. Sobell, Seventh Edition, Prentice Hall, ISBN: 978-0133477436, 2013.
+
+Optional:
+
+- Core Kubernetes, Jae Vyas and Chris Love, MEAP, Manning, 2022.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 20: 4 quizes expected
+Assignments: 25: Approximately 10 marked lab assignments
+Midterm: 20
+Final: 35: Cumulative
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absense of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+The following schedule is subject to change with sufficient notice to students.
+
+Week #: Week of: Topic: Required Reading: Lab/Assignment (see D2L)
+1: Jan. 8: Overview and Shell: Ch. 1: Welcome to Linux Ch. 4: Introduction to Fedora and Red Hat Enterprise Linux Ch. 5: The Shell App. A: Regular Expressions
+2: Jan. 15: File systems and permissions The basic utilities: Ch. 6: Linux Filesystem Ch. 7: Utilities: Lab 1
+3: Jan. 22: Unix and networking Networking utilities DNS, NIS, NFS: Ch. 8: Networking and the Internet Ch. 10: System Administration: Core Concepts (DHCP section): Lab 2
+4: Jan. 29: Using the Bourne Again Shell (bash) Shell scripts, parameters and variables Command-line expansion: Ch. 9: Bourne Again Shell: Lab 3
+5: Feb. 5: System Administration Concepts Lower level file system details: Ch. 10: System Administration: Core Concepts Ch. 11: Files, Directories and Filesystems: Lab 4
+6: Feb. 12: System Administration Tasks and services Open SSH: Secure network communications FTP: Transferring files: Ch. 15: Administration Tasks Ch. 18: OpenSSH Ch. 19: FTP: Lab 5
+7: Feb 19: Sendmail NIS and LDAP NFS Samba: Ch. 20: sendmail - Setting Up Mail Clients, Servers, and More Ch. 21: NIS and LDAP Ch. 22: NFS - Sharing File Systems Ch. 23: Samba - Integrating Linux and Windows: Lab 6
+8: Feb. 26: Midterm Week
+9: Mar. 4: DNS/BIND security, firewalld and iptables Apache: Ch. 24: DNS/BIND - Tracking Domain Names and Addresses Ch. 25: firewalld and iptables - Setting up a Firewall Ch. 26: Apache (httpd) - Setting up a web server: Lab 7
+10: Mar. 11: Spring break
+11: Mar. 18: Shell programming Control structures Builtins: Ch. 27: Programming the Bourne Again Shell: Lab 8
+12: Mar. 25: Kernetes and Containers Why Pods: notes (Core K8s ch 1-2): Lab 9
+13: Apr. 1: Build a Pod CGroups and Namespaces: notes (Core K8s ch 3, 4): Lab 10
+14: Apr. 8: Topics in Kubernetes: CNIS and networks, Kubelet, DNS, Control Plane or Windows 2016 and Active Directory: notes (Core K8s ch 5, 8, 9, 10) or Windows Server 2016, Ch1, 4: Lab 11
+15: Apr. 15: FINALS Week
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bruce Link, Faculty January 02, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 05, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

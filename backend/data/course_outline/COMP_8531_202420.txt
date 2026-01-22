@@ -1,0 +1,123 @@
+URL: https://www.bcit.ca/outlines/20242055077/
+Course: COMP 8531
+Field: Robust and Trustworthy Mobile Applications
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Technology - Computer Systems
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: April 02, 2024
+End Date: June 18, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in COMP 8031
+CRN: 55077
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Tejinder Randhawa
+E-mail: Instructor to provide
+Location: SW2-125
+Office Hours: Instructor to provide
+
+## Course Description
+This course teaches techniques to assess and assure robustness and trustworthiness of mobile applications. Testbeds composed of tools available through IDEs (Integrated development Environments) such as Android Studio as well as 3rd party are used for reliability, stress and security testing of a mobile application. Anti-patterns that can cause failures in mobile applications e.g. thread safety and memory leaks etc. are studied. Strategies to ensure correctness and integrity of data in local storage, during its processing and transport are implemented. Architectures that ensure fault-tolerance of critical functionality and high availability of critical data are incorporated in the mobile application. Causes of high battery drain in mobile apps are identified and corrective measures are experimented with. Security solutions available in network protocol stack to address privacy, authentication, authorization, message tempering and replay are incorporated in the mobile application. Cryptography libraries and access control mechanisms available on mobile platforms are utilized to develop custom solutions to address some of the identified security vulnerabilities related to mobile applications.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Model to predict reliability of a mobile application.
+- Setup testbeds to stress test a mobile application and assess its availability and recoverability.
+- Setup testbeds to test a mobile application for security vulnerabilities.
+- Conduct safety analysis of a mobile application.
+- Implement and evaluate solutions that ensure correctness and integrity of data in mobile applications.
+- Implement and evaluate solutions that prevent data loss during its transfer or processing.
+- Incorporate high availability architectures in mobile applications to ensure that critical functionality, data and sensory information is available during failures.
+- Use tools to monitor battery and incorporate strategies to minimize battery drain.
+- Leverage security solutions available through network protocol stack in the mobile application to prevent eavesdropping, masquerading, message tempering and replay attacks during its access to resources in the network.
+- Implement custom solutions to address security vulnerabilities in mobile applications utilizing cryptographic libraries and access control mechanisms available on mobile platforms.
+
+## Learning Resources
+Tejinder S. Randhawa, Mobile Applications: Design, Development and Optimization, Springer; 1st ed. 2022 edition, ISBN-10: 3030023893, ISBN-13: 978-3030023898
+
+Course notes for topics not covered in the text book will be provided and Online resources will be utilized.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 30: 3 Assignments each worth approx. 10 marks
+Project: 40
+Final: 30
+Total: 100: A total mark of 60% is required to pass the course
+
+## Attendance Requirements
+Attendance in lectures and labs is mandatory.
+
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor indicating the reason for the absence.
+
+Prolonged illness which causes the student to miss 10% or more of the labs will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Unapproved absence of 10% or more of the labs may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+This course is delivered in a hybrid mode with 30 hours online and 4 virtual classroom sessions totalling 15 hours. Final Exam is in-class and in-person.
+
+Computer Use Policy: BCIT has an Institute-wide policy (#3501) pertaining to information technology and services and to the resources available in support of the Institute mission. Computer Systems Technology students are expected to exercise the highest degree of professionalism and ethical behaviour related to information technology. Violations of BCIT Policy #3501 will result in disciplinary action which may include suspension or expulsion of students. Also refer to the Computer Systems Technology Student Conduct Guidelines.
+
+Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and/or expulsion from the course.
+
+Assignments: Late assignments, lab reports or projects will not be accepted for marking. Assignments must be done on an individual basis unless otherwise specified by the instructor.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+Course Outline Changes: The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+
+Labs and Tutorials: Lab attendance is mandatory. Lab exercises are due at the end of the lab period unless otherwise specified by the instructor. Tutorials are due as indicated on the tutorial sheets.
+
+Lab Discussions: During some of the labs, case studies will be discussed. Attendance in the labs and participation in the discussions is a requirement of the course. You may be required, on occasion, to make a mini presentation.
+
+I.D. Required in Examination Centres: Effective December 2000, in order to write exams, students will be required to produce photo-identification at examination centres. Photo I.D. must be placed on the desk before an exam will be issued to the student. The I.D. must remain in view on the desk while writing the exam, for inspection by invigilators. Students should bring a BCIT OneCard or alternatively two pieces of identification, one of which must be government photo I.D. such as a driver’s licence. Please see BCIT Policy #5300, Formal Invigilation Procedures.
+
+Final Exam and Project Papers: The exam papers and final project will not be returned to the student
+
+## Course Schedule and Assignments
+Week of/ Number: Topics Covered
+Week 1 (In Class Session): Stateful Data Transport
+Week 2: Mobility Management and Handoff Support in Cellular Systems
+Week 3: Locaion Sensing and Location Based Services
+Week 4 (In Class Session): Iinternetworking with Sensor Systems
+Week 5: Data Availability Solutions for Mobile Environments
+Week 6: Gateway Middleware for Sensor Systems Internetworking
+Week 7: Battery Power Saving Strategies
+Week 8: Cryptography APIs in Mobile Platforms
+Week 9 (In Class Session): Authentication and Authorization in Mobile Apps
+Week 10: System Access Control
+Week 11: Final Project Demos and Review
+Week 12 (Final Exam): Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Tejinder Randhawa, Faculty April 15, 2024
+
+I verify that this course outline has been reviewed. Mirela Gutica, Program Head April 15, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 15, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

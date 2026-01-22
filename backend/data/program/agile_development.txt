@@ -1,0 +1,171 @@
+URL: https://www.bcit.ca/programs/agile-development-associate-certificate-part-time-5530acert/
+
+Title: Agile Development
+
+================================================================================
+
+## Overview
+
+Delivery
+
+blended and online options
+
+Overview text
+
+See Program Details to learn more. Please check the Entrance Requirements . Start with just one course COMP 1630
+
+
+
+## Courses
+
+### 1. Required Courses:
+
+COMP 1630 - Relational Database Design and SQL
+
+Outline URL: https://www.bcit.ca/outlines/comp1630/
+
+Credits: 5.0
+
+Description: This intensive, hands-on course is the prerequisite for follow-on database courses in several BCIT Computing programs. Students are introduced to relational database design concepts and industry standards. COMP 1630 starts with tools and processes for data modeling in Relational Database Management Systems (RDBMS). Labs and exercises take place in a Windows 11 PC environment. There is also a heavy focus on the Structured Query Language (SQL) to define and manipulate data. Topics include functional dependencies, normalization, database design methodologies, entity relationship modeling and the use of UML as a diagramming notation. Advanced topics include: an introduction to SQL, DDL- data definition language and DML- data manipulation language, views, security, transaction management, triggers and stored procedures. Current trends in database such as Replication, Data Warehousing, Online Analytical Processing (OLAP), using databases on the web and in the cloud are discussed. Students in are required to participate in group work, there is significant reading and assignments required outside of class. Online activities via the BCIT Learning Hub are mandatory. COMP 1630 is a required course for the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and the Computer Systems Certificate (CSC). It is also equivalent to the Full-time COMP 2714 and ACIT 1630 database courses. Upon successful completion, participants will be able to design and implement a database application and be prepared to move on to higher level database courses including: COMP 3677 Introduction to MS Server Administration Part 1, COMP 3678 SQL Server Development; COMP 3679 Business Intelligence (BI) Tools, and COMP 3839 Data Quality Improvement.
+
+Prerequisites: 60% in COMP 1002 or 50% in ACIT 1420
+
+COMP 2831 - Business Analysis and Systems Design
+
+Outline URL: https://www.bcit.ca/outlines/comp2831/
+
+Credits: 4.0
+
+Description: Business Analysis and Systems Design is the study of concepts, processes and tools that professionals use to plan and develop information systems to industry standards. Computer Systems Certificate (CSC) students must complete COMM 1103 or COMM 1106 prior to COMP 2831. This course assumes that all participants have strong English communication and interpersonal skills. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Beginning with an introduction to the Software Development Life Cycle (SDLC), students work in teams to initiate the system process, analyze problems, discover requirements and create a logical design. Participants will work in groups to ask implicit questions in order to make better decisions. They will then document detailed communication plans prior to developing an information system. COMP 2831 provides the foundation for all is a required in 6 BCIT Computing development credentials. Topics include: techniques used in the discovery of business requirements, traditional approaches to data and process modelling. There is an overview of Object-Oriented Modelling techniques using the Unified Modelling Language (UML) as well as an introduction to Project Management. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 13+ hours per week; 3 hours of synchronous class time, a 1-hour online component, plus 9+ hours of homework each week. Participants must be able to work in groups, to provide detailed written materials and to make presentations of their designs. Upon completion, successful students will be able to use industry standard tools and methods to analyze, design, document, present, implement information systems and move on to COMP 2833 Agile Methods and the Scrum Framework.
+
+Prerequisites: 60% in COMP 2501 or 60% in COMP 1630 or (50% in ACIT 1630 and 50% in ORGB 1100)
+
+COMP 2833 - Agile Scrum Methods
+
+Outline URL: https://www.bcit.ca/outlines/comp2833/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 2831 and begins with an in-depth overview of the goals of Agile, followed by hands-on Scrum implementations. Students will practice how to implement primary agile methods within the Scrum Framework. COMP 2833 assumes that all participants have strong English communication and interpersonal skills. In class exercises include: self-directed teams, writing of user stories, Agile estimating with relative sizing, co-location, metric reporting and test-driven development. Topics include: Scrum, and Lean/Kanban. Participants will experience the roles of Scrum Master, Scrum Product Owner, and Developer, both real-time in class and also online with a dispersed agile team. As an added bonus, this course helps students prepare to challenge the Professional Scrum Master™(PSM 1) certification exam from Scrum.org (additional cost). COMP 2833 is a required course in the Computer Systems Certificate (CSC) and an elective in the Applied Software Development (ASD) Associate Certificate. It is the prerequisite for the follow-on COMP 2836 - Agile Product Owner course in the Agile Development Associate Certificate from BCIT Computing. Upon completion, successful students will have gained significant experience forming and working in Agile teams.
+
+Prerequisites: 60% in COMP 2831 or 50% in ACIT 2831
+
+COMP 2836 - Agile Team Leadership with AI
+
+Outline URL: https://www.bcit.ca/outlines/comp2836/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 2833, and builds on the content of the Scrum Guide. Students who have experience applying Agile Scrum Methods and the Scrum Framework will use integrated case studies for Agile Business Systems Analysis. Participants will be introduced to using AI agents and tools to generate an Agile business start-up. COMP 2836 assumes participation in exercises and simulations within the Scrum and Kanban frameworks. Topics include forming self-directed teams, understanding team dynamics and Agile coaching, and Agile Team Leadership. In class exercises include applying Agile Team Leadership styles through role-play and user story creation with AI tools to embrace the continual flow of changing requirements. Students will gain experience with using AI agents to scale the Agile techniques to apply Scrum to geographically distributed projects. They engage in delivering business value to clients with production ready concepts early and throughout the project. Continuous collaboration with the product owner and the self-directed Agile Team Leaders team is reinforced. This course helps students prepare to challenge the Certified Scrum Product Owner® (PSPO1), certification exam from Scrum.org (additional cost). COMP 2836 is a required course in the Agile Development Associate Certificate and is an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will have gained considerable experience with Agile Analysis methods, techniques, and best practices with AI-driven insights for Agile Team Leadership. This course will be offered once per year in the winter (January) term, online.
+
+Prerequisites: 60% in COMP 2833
+
+### 2. Complete 1.5 credits from the following list of electives:
+
+COMP 1288 - IT Project Management Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/comp1288/
+
+Credits: 1.5
+
+Description: This hands-on course is aimed at BCIT Computing students who want to develop and implement an IT project plan. Students focus on Project Management best practices and decisions which apply across the IT sector including software development, building web sites and data analytics systems. COMP 1288 begins with a definition of Project Management fundamentals and terminology. Topics include: stakeholders, scope, deliverables, phases, milestones, deadlines, scheduling, estimates and budgets. Labs and exercises are designed to create project plans that identify and manage risk and take into account quality measures. There is a basic introduction to Microsoft Project software. Participants apply strategies to communicate project progress to stakeholders to keep IT projects on time and on budget. COMP 1288 is an elective in several associate certificates, including Applied Computer Information Systems (ACIS) and Agile Development, and is required for the CST FLEX Diploma. Upon successful completion students will have a basic understanding of project management concepts and tools and will be able to conduct a post project evaluation.
+
+Prerequisites: No prerequisites are required for this course.
+
+XCOM 3840 - Technical Presentations
+
+Outline URL: https://www.bcit.ca/outlines/xcom3840/
+
+Credits: 1.5
+
+Description: Acquiring effective communication and presentation skills will help advance your career and bring positive attention to your projects and ideas. In this course, you will review sample speeches, perform audience and purpose analysis for your own project, rehearse effective public speaking techniques, and deliver your final presentation to a wider audience. Students can present on a school project from one of their technical courses, an entrepreneurial idea, or a current work project.
+
+Prerequisites: No prerequisites are required for this course.
+
+
+
+## Entrance Requirements
+
+introduction
+
+Students are required to use computers and have significant English reading, writing, and speaking skills. Specific prerequisites or equivalent knowledge are required for each course. The Associate Certificate in Agile Development program is aimed at students with previous post-secondary education and work experience. This program is not designed for students just out of high school. Those students should consider completing a Computing Diploma or Degree in order to be well-positioned in the job market. Full-time students who have completed the Computer Systems Technology, CST or the Computer Information Technology, CIT diplomas from BCIT will have (partial credit or advanced standing) in this program including earned credit for COMP 1630 . Part-time BCIT students who have completed a variety of Computing Flexible Learning credentials may have credit for specific courses. Depending on electives chosen in the CST FLEX Diploma, those students may also earn this Agile Associate Certificate simultaneously.
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. English language proficiency: Category 2 – English Studies 12 (67%) or equivalent
+
+International applicants
+
+The blended delivery option is available to international applicants. The online delivery option is available to international applicants who will complete the program from outside Canada or who currently have a valid status in Canada other than study permit. Study permit: A valid BCIT study permit is required prior to starting the blended delivery program. International students completing the program fully online are not eligible for a study permit.
+
+Program declaration
+
+Declaring your Flexible Learning (Part-time Studies) program ensures that BCIT is aware of your intent to complete a program as it is currently outlined and provides you the opportunity to apply for transfer credit. To submit your declaration: Upon approval, a program plan letter will be sent to you confirming your program of study. Please allow approximately eight weeks for processing. Learn more about program declaration Answer all questions completely. If required, convert transcripts and documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+
+
+## Costs & Supplies
+
+introduction
+
+All Computing Flexible Learning programs are course-by-course registration. Course tuition and books for this program are around $3,500 depending on if eBooks are chosen. Specific textbooks are required for COMP 1630 and COMP 2831, which also have lower-cost eBook options. Students register and pay for available courses online, by clicking on the green block ‘Add to Cart’. Follow the directions to obtain a BCIT student number if you do not already have one. Note: Please register early to avoid disappointment, our COMP courses are very popular and fill well in advance.
+
+Tuition fees
+
+Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information.
+
+
+
+## Program Details
+
+introduction
+
+This program starts with COMP 1630 in order to introduce students to data modelling, group work and IT systems. After completing the core courses in Relational Database Design with SQL, plus Business Analysis and Systems Design, students may then complete the Agile courses in sequence. Due to prerequisites and scheduling, it is not possible to fast track this credential in less than one year. Each course in this series has prerequisites. Students are not permitted to register in COMP 2831 or COMP 2833 or COMP 2836 concurrently. These courses build on top of each other sequentially. COMP 2833 students receive significant preparation to challenge Professional Scrum Master, PSM Certification from Scrum.org for an additional fee. The foundations of this program include group work, the communication of technical system specifications in writing, and oral presentations in a team environment. Attendance, group work, and participation in the online components are mandatory. Computer hardware and Internet requirements Students must provide a current model PC desktop or laptop with a webcam, microphone and have high-speed internet access. COMP courses may use two-way audio and video as well as group work outside of class. Participants must be computer literate in order to participate and complete each course. COMP Flexible Learning evening and weekend courses may not be offered every term. Please email; cstflex@bcit.ca for schedule planning or if you have any general questions.
+
+Program length
+
+The time limit to complete the Associate Certificate in Agile Development is three years.
+
+Grading
+
+Students will be given a grade for each course based on the listed competencies. In some cases each course carries a mark for individual work; most courses require teamwork, as well as an individual test. The passing grade for each course in this program is 60%. Assignments, exams and presentations will be used in the evaluation of students. All assignments must be completed and submitted in order to pass each course.
+
+Program delivery
+
+Blended: This program is delivered partly on campus and partly online. Online: This program is delivered fully online.
+
+Program location
+
+Most COMP courses are offered at the Burnaby and Downtown Campuses. The Agile specific courses, COMP 2833 and 2836, are typically scheduled only at the Downtown Campus. Courses may be offered at the following locations: Burnaby Campus 3700 Willingdon Avenue Burnaby, BC Downtown Campus 555 Seymour Street Vancouver, BC Online Learning
+
+Program abandonment
+
+Students approved for a Flexible Learning (Part-time Studies) program are expected to register and complete courses on a continuous basis. A student that has not completed a course from their approved program of study over a period of three consecutive academic terms will be considered to have abandoned the program. Throughout the duration of the program, a student is permitted a maximum of five academic terms where they are not required to register and complete a course from their approved program of study. Students who exceed the five term maximum will be considered to have abandoned the program. Students who have abandoned their approved program of study and wish to be reinstated will be required to apply for program approval for a current credential. BCIT cannot guarantee that courses taken prior to this reapplication will be credited towards the current credential. BCIT Policy 5103 - Student Evaluation [PDF] permits a maximum of three attempts to successfully complete each course within a credential. Students approved for a Flexible Learning (Part-time Studies) program are expected to register and complete courses on a continuous basis. A student that has not completed a course from their approved program of study over a period of three consecutive academic terms will be considered to have abandoned the program. Throughout the duration of the program, a student is permitted a maximum of five academic terms where they are not required to register and complete a course from their approved program of study. Students who exceed the five term maximum will be considered to have abandoned the program. Students who have abandoned their approved program of study and wish to be reinstated will be required to apply for program approval for a current credential. BCIT cannot guarantee that courses taken prior to this reapplication will be credited towards the current credential.
+
+
+
+## Graduating & Jobs
+
+introduction
+
+100% of grads were very satisfied or satisfied with their education in Agile Development [PDF]
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Agile Development
+
+Apply for graduation
+
+Upon successful completion of all program requirements, complete an Application for BCIT Credential [PDF] and submit it to Student Information and Enrolment Services. Allow approximately six to eight weeks for processing. All financial obligations to the Institute must be met prior to issuance of any credential.

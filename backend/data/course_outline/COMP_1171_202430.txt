@@ -1,0 +1,113 @@
+URL: https://www.bcit.ca/outlines/20243046723/
+Course: COMP 1171
+Field: Web Development 1
+
+School: School of Computing and Academic Studies
+Program: Full Stack Web Development
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 46723
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Tomoko Okochi
+E-mail: tomoko_okochi@bcit.ca
+Location: DTC 617- 8
+Office Hours: Mondays 2:30 - 4:30 Online by appointment Tuesdays 2:30 - 4:30 Online by appointment Fridays 8:30 - 9:20 TEC Hub: Mondays 2:30 - 4:30: Online by appointment: Tuesdays 2:30 - 4:30: Online by appointment: Fridays 8:30 - 9:20: TEC Hub
+Mondays 2:30 - 4:30: Online by appointment
+Tuesdays 2:30 - 4:30: Online by appointment
+Fridays 8:30 - 9:20: TEC Hub
+
+## Course Description
+This course introduces the students to the basics of front-end web development. Students learn how to utilize HTML 5 and CSS 3 in order to create web templates. Topics include Hypertext Markup Language (HTML) 5, Cascading Style Sheets (CSS) 3, and an introduction to JavaScript. This course is the foundation for subsequent web-development courses.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Construct web documents, utilizing many of the HTML elements available.
+- Identify well-formed and valid HTML.
+- Develop web forms utilizing HTML5 form inputs and validation features.
+- Design web documents utilizing HTML5 semantic elements.
+- Generate HTML5 elements using JavaScript.
+- Analyze JavaScript variables and functions.
+- Differentiate between the different CSS 3 selectors.
+- Analyze cascading effects using CSS 3 and how they apply to layouts.
+- Differentiate between fixed, liquid, adaptive, and responsive layouts.
+- Understand how to import style sheets, fonts, and images into CSS 3 style sheets.
+- Analyze errors and messages in a current web browser debugging tool such as Firefox or Chrome.
+- Select appropriate markup that facilitates embedding external resources into a web document.
+
+## Learning Resources
+Software: VSCode
+Equipment: Windows/Mac PC
+Texts and References: None
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Exercises: 20: Weekly lab exercises, completed in-class
+Projects: 30: Two individual projects
+Midterm Exam: 20
+Final Exam: 30: Comprehensive (covers material from weeks 1 through 15)
+
+Passing Criteria:
+
+- Students must complete and submit both projects to pass the course
+- Students must achieve at least 50% on the combined total of the midterm and final exams to pass the course
+
+Lab Exercise Details:
+
+- Labs are started in class each week and due (in most cases) in a week
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Unapproved absence of 2 or more classes may result in withdrawal from the course or program. Please see Policy 5101 – Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+Week: Week Starting: Topics: Activities
+1: 6-Sep-2024: Introduction to the internet and world wide web; Introduction to HTML; Creating basic web pages; Adding images and links to web pages: Lab Exercise 1
+2: 13-Sep-2024: Emmet Introduction to CSS and styling; File paths; Color; Text styles: Lab Exercise 2
+3: 20-Sep-2024: Intermediate CSS; Selection and priority; Layout; Validation: Lab Exercise 3
+4: 27-Sep-2024: Intermediate layout; CSS grids; Embedded fonts and icons: Lab Exercise 4
+5: 4-Oct-2024: Responsive design; Mobile-first methodology; Media queries; Optimization: Lab Exercise 5 Project 1 brief available
+6: 11-Oct-2024: Forms; Server-side vs client-side;: Lab Exercise 6
+7: 18-Oct-2024: Accessibility: In-class reflection
+8: 25-Oct-2024: Midterm Exam
+9: 1-Nov-2024: Tables; Position property: Lab Exercise 7 Project 1 due
+10: 8-Nov-2024: CSS flexbox CSS Advanced Selectors: Lab Exercise 8 Project 2 brief available
+11: 15-Nov-2024: CSS transitions and animations: Lab Exercise 9
+12: 22-Nov-2024: CSS Pre-processors: Lab Exercise 10
+13: 29-Nov-2024: DOM manipulation using JavaScript Modularization
+14: 6-Dec-2024: Review: Project 2 due
+15: 13-Dec-2024: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Tomoko Okochi, Instructor August 25, 2024
+
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head August 27, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

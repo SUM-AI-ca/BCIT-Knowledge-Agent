@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/outlines/20241089805/
+Course: INTD 2160
+Field: AutoCAD for Interior Design
+
+School: School of Construction and the Environment
+Program: Interior Design
+Course Credits: 3
+Minimum Passing Grade: 65%
+Start Date: January 08, 2024
+End Date: March 25, 2024
+Total Hours*: 36
+Total Weeks: 11
+Hours/Weeks: 3.27
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in COMM 1120 and (65% in INTD 1150 or 65% in INTD 1180)
+CRN: 89805
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Sara Patterson
+E-mail: spatterson@bcit.ca
+Location: N/A
+Office Hours
+
+## Course Description
+Using the current release of AutoCAD for Windows, students will become familiar with and use the drawing, editing, and view manipulation commands of the program. They will also be introduced to layouts, blocks, dimensioning, and text commands. The students will complete a dimensioned floor plan, a furniture plan, elevations, and details. Overall emphasis will be on using AutoCAD for designing a residential project.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Create new drawings without the use of templates, using drawing and editing commands found in the current release of AutoCAD.
+- Draw residential floor plans, elevations and details using different line types.
+- Create blocks of furniture, fixtures and architectural details for use within drawings.
+- Create various text styles for different applications such as title blocks, room names, construction and detail notes.
+- Create various dimension styles for plans, elevations, and details.
+- Apply the External Reference command to create elevation drawings.
+- Apply the External Reference command to create elevation drawings.
+- Use Attributes for symbols in referencing.
+- Create a standard title block template for a drawing sheet.
+- Layout drawings in paper space to produce different viewports at various scales.
+- Plot drawings using appropriate line weights for interior design applications.
+
+## Learning Resources
+BCIT AutoCAD INTD 2160 textbook, latest release - supplied digitally
+
+1 USB Key
+
+Recommended:
+
+PC computer (Not a MAC) capable of running the latest version of AutoCAD
+
+AutoCAD & AutoCAD LT Latest Release
+
+SEIDLER / DIGITAL DRAWING FOR DESIGNERS
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignment 1: 5
+Assignment 2: 5
+Assignment 3: 5
+Assignment 4: 10
+Assignment 5: 5
+Assignment 6: 10
+Assignment 7: 5
+Assignment 8: 10
+Mid- term Quiz: 15
+Final Exam: 30
+Total: 100
+
+## Course Schedule and Assignments
+Syllabus subject to change at discretion of instructor.
+
+See Learning Hub for due dates and course content.
+
+Week: Content: Assignments / Readings / Activities
+Week 01 Jan 8 2024: Introduction and how to log in at BCIT Review Course Outline Windows Quick Overview Getting Started Managing Your Drawing Files Making folders, Making new drawings Opening existing drawings, Saving changes to drawings Backing up files Start & Close AutoCAD Using the start button and a shortcut menu AutoCAD Interface Overview Opening drawings Text Window, Ribbons, Pulldown Menus, Toolbars Status Bar and Command line/prompt Communicating with AutoCAD Invoking commands, responding to prompts Right-click shortcut menus Getting Out of Trouble Cancel, Using UNDO & REDO Using active assistance – HELP Display Commands Drawing Scale ZOOM - Window, Previous, all, extents, scale, dynamic Real time ZOOM and PAN Selection methods (pick, window, crossing) Editing 2d geometry Erase (fence, all, window, crossing): Read Chapter 1
+Week 01 cont……. Jan 8 2024: Drawing Set Up Units Limits Zoom All Ortho Function Keys Creating 2d Geometry Direct Distance Line, Circle, & Rectangle CAD Construction Techniques Fillet, Offset, Trim, Extend Object Snaps endpoint, midpoint, center, perpendicular, intersection etc. Running Osnaps: Reading See Textbook Assigned ASSIGN. 1A - FURNITURE / FIXTURES LIBRARY
+Week 02 Jan 15 2024: Review Check your work Inquiry Toolbar - Distance, List Creating 2D Geometry Arc Pline, Pedit and Explode Editing 2D Geometry Copy and Move Coordinates, Cartesian Coordinate system to drawing accurate lines Absolute Coordinates, Relative Coordinates, Relative polar Coordinates Precision Input Direct Distance Entry and Polar Tracking: Reading See Textbook Assigned ASSIGN. 1B - FURNITURE / FIXTURES LIBRARY continued
+Week 03 Jan 22 2024: Review Dimensioning Practices Reading Dimensions in Architectural & Interior Design Drawings Layers Making new layers, renaming, Assigning colours to new layers Differences of layers on, off, freeze, thaw Locking layers: Due ASSIGN. 1A-B (PDF and DWG file) Reading See Textbook Assigned ASSIGN. 2 - FLOOR PLAN WITH WALLS AND MILLWORK
+Week 04 Jan 29 2024: Editing and Creating 2D Geometry Copy, Rotate and Scale Polyline, Polygon Point style, Measure, Divide Attribute Editor (ATE) & Enhanced Attribute Editor (Double-Click) Information about Creating/Defining Attributes - (ATT) CAD Construction Techniques Mirror, Fillet, Chamfer, Array (Polar & Rectangular), Stretch: Due ASSIGN. 2 (PDF and DWG file) Reading See Textbook Assigned ASSIGN. 3 - EDITING COMMANDS
+Week 05 Feb 5 2024: Managing Object Properties Properties, Modifying Layers, change properties of exist. objects Match Properties, On/Off, Freeze/Thaw Ltscale / Global Scale Factor LTS Introduction to Blocks Making Blocks, Inserting Blocks, Redefining Blocks Renaming and Purging Blocks Design Center REVIEW FOR MIDTERM: Due ASSIGN. 3 (PDF and DWG file) Reading See Textbook Assigned ASSIGN. 4 - ADDING BLOCKS OF DOORS, WINDOWS, FURNITURE, AND FIXTURES TO PLAN
+Week 06 Feb 12 2024: MIDTERM Two (3) hours – Submit PDF & DWG file Open book: Due ASSIGN. 4 (PDF and DWG file) Reading See Textbook Assigned ASSIGN. 5A - TITLE BLOCKS ASSIGNMENT
+Feb 19: HOLIDAY – FAMILY DAY NO CLASS!!!
+Week 07 Feb 26 2024: ASSIGNMENT 5A - TO BE COMPLETE Creating Text and Making Text Styles Dtext - Single line text and Justifications Creating text styles Editing Single line text Multiline text Editing Multiline text Design Business Card/Logo for Titleblocks Snap and Grid IN CLASS ASSIGNMENT - LAYOUTS: Reading See Textbook Assigned ASSIGN. 5B & 5C - ADDING TEXT & LOGO TO TITLEBLOCKS
+Week 08 Mar 4 2024: Introduction to Hatch Hatch and Solid Pre-defined Hatch, User defined Hatch Introduction to Dimensioning Dimension styles Linear, Aligned, Radius, Diameter, Angular, Baseline and Continuous. Quick dim and Leader arrows Dimension editing: grips, text edit and update: Due ASSIGN. 5A-B (1 combined PDF and 1 DWG file) ASSIGN. 6 - EDITING PLAN - HATCH, DIMENSION, MTEXT
+Week 9 Mar 11 2024: Wblock – ASSIGNMENT 5C make five (5) title blocks into individual drawing files External References (XREF) – uses of XREFs in ID Drawings attach plan drawing to a detail drawing to project linework XCLIP crop an XREF or a block to a specified boundary Hatching scales and patterns Dimensioning & Detail text heights Lab more dimension styles: Due ASSIGN. 6 (PDF and DWG file) Reading See Textbook Assigned ASSIGN. 7 – DETAILS AND ELEVATIONS – HATCH, DIMENSIONS, NOTES
+Week 10 Mar 18 2024: Prepare drawings for Layouts with 24 x 18 Border Paper space, Layouts for Furniture Plan, Finishes Plan Elevation and Section Plotting Drawings at a Print Shop Plotting using the “DWG To PDF.pc3” printer driver: Due ASSIGN. 7 (1 Combined PDF and 2 DWG file) Reading See Textbook Assigned ASSIGN. 8 – LAYOUTS – PLANS, ELEVATIONS, AND DETAILS
+Week 11 Mar 25 2024: FINAL EXAM (3) hours -submit 1 combined PDF & DWG Files Open book: Due ASSIGN. 8 (1 Combined PDF and 2 DWG files) and 18” x 24” printed set
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Sara Patterson, Instructor January 04, 2024
+
+I verify that this course outline has been reviewed. Grace Rodrigues Sikich, Program Head January 11, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Michael Currie, Associate Dean January 12, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

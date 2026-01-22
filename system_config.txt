@@ -1,0 +1,39 @@
+sudo journalctl -u bcit-chatbot -f
+
+sudo journalctl -u bcit-chatbot -n 100
+
+sudo tail -50 /var/log/nginx/error.log
+
+sudo tail -50 /var/log/nginx/access.log
+
+
+# sparse vector searching testing
+source /home/jpark440/bcit-chatbot/venv/bin/activate
+python3 -c "
+import pickle
+import re
+
+def preprocess_func(text):
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9\s]', ' ', text)
+    tokens = [token for token in text.split() if token]
+    return tokens
+
+with open('vectorstore/documents.pkl', 'rb') as f:
+    documents = pickle.load(f)
+
+print(f'Total chunks: {len(documents):,}')
+
+all_tokens = set()
+for doc in documents:
+    tokens = preprocess_func(doc.page_content)
+    all_tokens.update(tokens)
+
+print(f'Vocabulary size (sparse vector dimension): {len(all_tokens):,}')
+
+sample = sorted(list(all_tokens))[:20]
+print(f'Sample tokens: {sample}')
+
+bcit_tokens = [t for t in all_tokens if 'comp' in t or 'bcit' in t][:10]
+print(f'BCIT-related tokens: {bcit_tokens}')
+"

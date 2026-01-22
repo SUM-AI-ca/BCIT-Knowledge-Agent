@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/power-system-analysis-elex-8270/
+Title: Power System Analysis
+Field: Electrical and Computer Engineering
+Type: Course
+Course Code: ELEX 8270
+
+================================================================================
+
+## Overview
+
+The course presents methods of power system analysis and design in sufficient depth to give the basic knowledge for solving fundamental problems of modern power systems. The main goal of the course is to review the students existing knowledge of power systems and then advance it toward analysis methods, developing conceptual insights, and gaining experience with applicable software simulation and analytical tools through hands on laboratory exercises. Topics include: review of fundamentals of power systems, symmetrical components, modelling of generators, transformers, transmission lines and loads, principles of network analysis, power flow, faults, voltage and frequency controls, economic dispatch, voltage stability, and transient stability.
+
+## Credits
+
+3.0
+
+## Cost
+
+$756.02
+
+## Prerequisites
+
+- 50% in ELEX 7240
+
+## Learning Outcomes
+
+- Power systems fundamentals: building blocks, principal objectives, operating criteria and controls.
+- Network representation: per-unit system and its use, the concept of single line diagrams for three phase systems, symmetrical components, and balanced networks.
+- Power systems components and their models for system analysis and simulation purposes. Electric circuit models of transformers, transmission lines and cables, rotating machines, and loads.
+- Identification of equations and unknowns in a load flow problem. Definition of PV, PQ and Slack buses.
+- Balanced and unbalanced faults, computer methods. Use of power system analysis and simulation software package such as PowerWorld Simulator to solve power system problems.
+- System protection components. Types of relays and their applications.
+- Voltage stability and voltage collapse phenomenon as well as methods of preventing them. Applications of tap-changing and phase-shifting transformers, series and shunt compensation, and voltage regulators.
+- Power system controls: generator-voltage control, turbine-generator control, and load- frequency control. Economic dispatch.
+- Dynamic models: swing equation, derivation and properties. Numerical integration methods.
+- Transient stability phenomenon. System response to a short-circuit fault. Equal-area criterion. Methods for improving transient stability and power transfer limitation.
+
+## Related Programs
+
+- Electronics

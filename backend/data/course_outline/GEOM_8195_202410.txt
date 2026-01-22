@@ -1,0 +1,129 @@
+URL: https://www.bcit.ca/outlines/20241085041/
+Course: GEOM 8195
+Field: Hydrographic Surveying
+
+School: School of Construction and the Environment
+Program: Geomatics BSc Degree
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): 50% in GEOM 3050 and 50% in MATH 3512 Course registration is restricted to students with completion of 2-year Geomatics diploma.
+CRN: 85041
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Sean Galway
+E-mail: sgalway@bcit.ca
+Location: SW02-317
+Office Hours: Sean Galway: As posted on Course HomePage in LearningHubTentative: Mon: 1:30pm-3:30pm Tues: 10:30am - 12:30pm/1:30pm-2:30pm Wed: 2:30pm - 3:30pm Thurs: 3:30pm - 4:30pm
+
+## Course Description
+This course provides an understanding of hydrographic surveying in sufficient depth to enable the student to plan, carry out, and evaluate proposals for such a survey. Topics include Canadian legislation, oceanography and marine geosciences, marine positioning, depth determination using echo-sounders and multi-beam systems, side-scan sonar, some non-acoustic depth determination techniques, tides, hydrographic charts, data management, hydrographic survey specifications and project management.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+
+- Describe the three main pieces of Canadian legislation that govern a large portion of hydrographic surveys conducted in Canadian waters.
+- Demonstrate how Canada's offshore international boundaries are determined.
+- Explain why a basic knowledge of oceanography and marine geosciences is necessary for the planning and conduct of hydrographic surveys.
+- Recognize some key instrumentation used to collect oceanographic and marine geosciences physical samples and digital data.
+- Relate the physical properties of water to the speed of sound in water and demonstrate how to calculate sound speed from measurements of temperature, pressure (depth), and salinity.
+- Evaluate the various coordinate systems involved for the horizontal positioning for a hydrographic survey.
+- Differentiate between the various vertical datums used in hydrographic operations and methods used to establish them.
+- Explain the functions of marine positioning instrumentation used to determine system orientation and vessel heave.
+- Illustrate the various sources of errors of horizontal positioning when conducting a hydrographic survey.
+- Describe the principles of long, short and ultra-short baseline acoustic positioning system modes.
+- Perform a water level datum transfer, for both tidal and non-tidal waters.
+- Explain how acoustic system performance is affected by frequency, beamwidth, pulse-length, pulse repetition rate, detection threshold, bandwidth, and resolution.
+- For single-beam echo-sounders:
+- Explain the differences between narrow and wide beam transducers.
+- Describe the various calibration methods.
+- Explain the reductions needed to be made to measured depths due to water level variations, draft and transducer separation.
+- Assess the uncertainty in soundings due to errors in the positioning system, echo-sounder, water level measurement, vessel motion and seabed topography and explain how to select appropriate methods for controlling or reducing sounding uncertainty for specific applications.
+- For multi-beam echo-sounders:
+- Explain the basic principles of multi-beam sonar transmit and receive beam forming and steering.
+- Analyze and process a multibeam sensor calibration dataset, known as a Patch Test
+- For side-scan sonar systems:
+- Explain how side-scan sonar systems work.
+- Interpret side-scan sonar records.
+
+## Learning Resources
+Required:
+
+· Online course notes · Pocket calculator, scientific type.
+
+Additional/Helpful Resources:
+
+· ONLINE RESOURCE: MetED/UCAR Website: Elements of Hydrography (4 Modules) [https://www.meted.ucar.edu/education_training/course/47] · Canadian Tidal Manual (Part I), Forrester, W.D., Hydrographic Chart Distribution Office, DFO, 1675 Russell Road, Ottawa, ON. K1G 3H6 ISBN 0-66—11341-4; https://www.psmsl.org/train_and_info/training/reading/canadian_manual.php · The Canadian Hydrographic Service: Website> https://www.charts.gc.ca/help-aide/about-apropos/index-eng.html · Standards for Hydrographic Surveys, Canadian Hydrographic Service, Fisheries & Oceans Canada, December 2005, First Edition: https://www.charts.gc.ca/data-gestion/hydrographic/standards-normes-eng.pdf · A Manual on Technical Aspects of the United Nations Convention of the Law of the Sea – 1982, International Hydrographic Organization, 4th Edition, March 2006. International Hydrographic Organization, Special Publication No. 51 · Surveying Offshore Canada Lands for Mineral Resource Development (1982), 3rd Edition, reprints available from Association of Canada Lands Surveyors · Manual on Hydrography, International Hydrographic Organization, 1st Edition, May 2005. International Hydrographic Organization, Publication C-13 at https://www.iho-ohi.net/iho_pubs/IHO_Download.htm · IHO Standards for Hydrographic Surveying, (1998) International Hydrographic Organization, Special Publication S-44, 5th Edition, IHO, Monaco: https://www.iho-ohi.net/iho_pubs/IHO_Download.htm · Hydrography, de Jong,C.D., Lachapelle, G. et al, 2002, Delft University Press (Available at BCIT library) · Hydrography for the Surveyor and Engineer, Ingham, A.E., 3rd Edition, 1992. Blackwell Scientific Publications, Oxford ISBN 0-632-02943-9 (Available at BCIT library) · Engineering and Design: Hydrographic Surveying, Department of the Army, U.S. Army Corps of Engineers, 1 April 2004, Manual No. 1110-2-1003
+
+## Course Goals
+Each of the major topics covered will include in-depth studies of two or more key elements of the particular subject matter:
+
+1. Introduction and Canadian Legislation: What are Hydrographic & Oceanographic Surveys?; Depth Measurement Systems; Canadian Legislation Governing Hydrographic Surveys 2. Oceanography and Marine Geosciences: Properties of Seawater; Physical Oceanography; Marine Geology; Data Collection. 3. Tides and Tidal Currents: Tidal Theory & Datums; Tide & Current Tables & Predictions; Non-tidal Effects; Establishing & Maintaining a Datum; Tide Gauges; Co-tidal Charts. 4. Marine Positioning and Orientation: Horizontal and Vertical Positioning Systems & Methodologies; Sensor Intergration & Data Logging; Review Sources of Error. 5. Acoustics and Depth Measuring Systems: Basic Acoustics; Echo-sounder Principles; SONAR Equations; 6. Imaging Sonar Systems: SingleBeam Sonars; Side-scan SONAR/Interferometric Systems; Multi-beam Echo-sounders; Swath Acquistion Operations. 7. Charts: What is a Nautical Chart?; How to Read & Use Nautical Charts; What are the Differences Between Charts & Maps?; RNC’s, ENC’s & ECDIS. 8. Survey Project Management: Survey Planning & Management; Scope Documents and Project Instructions; Hydrographic Surveying Standards; Project Logistics.
+
+## Evaluation Criteria
+Criteria: %: Comments
+End of Module Quizzes: 10: Quizzes are equally weighted. Quizzes are delivered the week FOLLOWING Module Completion, as shown in the course schedule.
+End of Module Assignments: 20: Assignments are equally weighted
+NET- Elements of Hydrography METED Online Modules (4 of them) Full Term Activity: 10: https://www.meted.ucar.edu/education_training/course/47
+Midterm Exam: 25: TBD - Students will be given 2 weeks Notice (Tentative Feb 7th, 2024)
+Final Exam: 35: TBD
+Total: 100
+
+Assignments are typically due one week after the lab is given. Assignments are expected to be 100% a students own work, unless otherwise specified. Instructor will provide detailed requirements/submission instructions.
+
+## Course Schedule and Assignments
+Week#: Date (Wednesday): Topic: Evaluation:: References/Readings
+1: 03-Jan: MODULE 01: Introduction to Hydrographic Surveying and Survey Standards: Assignment: Given in Lecture Notes
+2: 10-Jan: MODULE 02: Oceanography & Marine Geosciences: Quiz#1: Given in Lecture Notes
+3: 17-Jan: MODULE 02: Oceanography & Marine Geosciences: Assignment: Given in Lecture Notes
+4: 24-Jan: MODULE 03: Tides: Quiz#2: Given in Lecture Notes
+5: 31-Jan: MODULE 03: Tides: Assignment: Given in Lecture Notes
+6: 07-Feb: Midterm (Feb 8, 2024-tentative): Midterm - in Lecture: Given in Lecture Notes
+7: 14-Feb: MODULE 04: Marine Positioning & Orientation/ Survey Standards: Assignment: Given in Lecture Notes
+8: 21-Feb: MODULE 05: Acoustics & Depth Determination: Quiz#4: Given in Lecture Notes
+9: 28-Feb: MODULE 05: Acoustics & Depth Determination (Single Beam): Assignmemt: Given in Lecture Notes
+10: 06-Mar: MODULE 06: Survey Acquisition - Software Post-Processing: Quiz#5 and Assignment: Given in Lecture Notes
+13-Mar: Spring Break (March 11-15)
+11: 20-Mar: MODULE 07: Multi-beam Echo Sounders: Given in Lecture Notes
+12: 27-Mar: MODULE 07: MBES/Sidescan Sonars/Guest Lecture: Assignment: Given in Lecture Notes
+13: 03-Apr: MODULE 08: Hydrographic Data Management and Visualization: Quiz 6&7 Combined and Assignmnet: Given in Lecture Notes
+14: 10-Apr: MODULE 09: Working with Nautical Charts: Assignment: Given in Lecture Notes
+15: 17-Apr: Final Exam (2 hrs in duration) - TBD: Final Exam - Scheduled Class Time: Modules 1 thru 9
+
+Please note:
+
+Regarding QUIZZES: At the completion of each module, there will be a quiz the following week. The anticipated schedule is shown above, but is subject to change depending on course progress. In all cases requiring a schedule change, students will be given a full weeks noticed of any upcoming quizzes - in person, during class time. All quizzes will be equally weighted.
+
+Regarding ASSIGNMENTS: Assignments are typically due one week after the lab is given, but are subject to change depending on course progress. Assignments are expected to be 100% a students own work, unless otherwise specified. Instructor will provide detailed requirements/submission instructions for all quizzes and assignments, in class - in a timely manner. In the event of a schedule change, neccesitated by course progress, and minimum of 1 week notice will be provided.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Sean Galway, Instructor December 28, 2023
+
+I verify that this course outline has been reviewed. Darryl Dube, Program Head December 28, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean December 29, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

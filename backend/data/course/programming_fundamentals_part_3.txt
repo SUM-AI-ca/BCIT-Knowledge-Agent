@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/programming-fundamentals-part-3-object-design-comp-2601/
+Title: Programming Fundamentals Part 3
+Field: Computer Systems
+Type: Course
+Course Code: Object Design
+
+================================================================================
+
+## Overview
+
+This hands-on, third-level computer programming fundamentals course follows on from COMP 2501 – Programming Fundamentals Part 2 (Java). Students who already understand how to write computer programs in Python and Java will focus on object-oriented programming (OOP) best practices and design in preparation for higher-level software development courses. COMP 2601 introduces debugging intermediate-level programs with an OOP language specifically Java. It is the third step in in a series of three (3) applied programming fundamentals courses. Students must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Topics include: language syntax, data abstraction, with a deeper focus on encapsulation, inheritance, polymorphism, and exception handling. Design Patterns and collections will be applied to appropriate problems. Labs and exercises demonstrate concepts of design, development, and testing. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 13+ hours per week; 3 hours of class time, and 10+ hours of homework each week. COMP 2601 is required for the Applied Software Development, ASD and the Computer Systems Certificate, CSC. Upon completion, successful students will be able to plan, write, and test significant OOP programs in Java. They will be able to apply design patterns and prepared move on to higher level application development courses in specific languages: Java, C# and C++.
+
+## Credits
+
+3.0
+
+## Cost
+
+$568.16 - $611.10
+
+## Prerequisites
+
+- 60% in COMP 2501
+
+## Learning Outcomes
+
+- Apply object-oriented decomposition to break a program into multiple classes with well-defined interfaces.
+- Implement proper object and class initialization and validation.
+- Apply the properties of good OOP software design using encapsulation, information hiding, inheritance, and polymorphism to create easily extensible systems in the context of intermediate-level programs.
+- Integrate the Java Collection Framework.
+- Apply collection streaming and filtering in application design.
+- Create and handle exceptions to write robust programs.
+- Develop applications with Graphic User Interfaces, GUIs.
+- Apply design techniques such as sequence diagrams, collaboration diagrams and class diagrams to define classes and their relationships when solving a problem.
+- Design, implement, debug and write automated tests for intermediate-level programs in high-level OOP languages.
+- Write programs addressing concurrency issues and basic multithreading concepts.
+- Identify and implement relationships between classes and interfaces.
+- Apply well-known design patterns to create flexible Object-Oriented program designs.
+- Move on to higher-level software application development courses.
+
+## Related Programs
+
+- Applied Software Development (ASD)
+- Computer Systems

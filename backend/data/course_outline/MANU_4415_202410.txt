@@ -1,0 +1,109 @@
+URL: https://www.bcit.ca/outlines/20241080960/
+Course: MANU 4415
+Field: Process Planning & CNC Programming
+
+School: School of Energy
+Program: Mechanical Engineering-Manufacturing
+Course Credits: 5.5
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 80
+Total Weeks: 20
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): MANU 3310 and MANU 3312 and MANU 3314
+CRN: 80960
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Mohammad Alemi
+E-mail: malemi3@bcit.ca
+Location: SW9-201
+Office Hours: Instructor: Mohamamd Alemi, PhD, PEngE: malemi3@bcit.caT: (604) 456 8044Office Hours: by appointmentNote: When emailing Faculty and/or other staff, please email from your myBCIT account and include your name, student number and set. If you do not include this information, your email may not be addressed.
+
+## Course Description
+This course examines the relative merits of different metal removal processes from a quality, reliability and productivity point of view. The sequence of operations necessary to manufacture metal components reliably and economically are examined. CNC, semi-automatic and manual machining techniques are compared. G-code and CAM techniques for programming CNC lathes will be studied.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Assess the relative merits of different metal removal processes.
+- Compare CNC, semi-automatic and manual machining processes based on quantity and quality requirements.
+- Develop a sequence of operations (a Process Plan) to manufacture components reliably and economically.
+- Select tooling to optimize metal removal and maintain tool life.
+- Estimate cycle times for machining components.
+- Manually write G-code programs for a CNC lathe.
+- Generate CNC programs for a CNC lathe using CAM software.
+
+## Learning Resources
+Textbooks: No textbook is required. Course material will be provided in class or posted on LearningHub.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab reports: 20
+Quizzes: 5
+Midterm 1: 25
+Midterm 2: 25
+Final Exam: 25
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend classes for the full duration of the course. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Absence from more than 10% of the scheduled course hours may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+## Course Specific Requirements
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators (Sharp EL-520, Sharp El-546, HP 33S, and HP 35S) and authorized materials are allowed. All other electronic devices including personal music players, mobile devices (cell phones), tablets and laptops are prohibited.
+
+Assignments: Assignments, lab reports and projects must be done on an individual basis unless otherwise specified by the instructor. Completed assignments must be neat and well organized. All assignments should include the date, course number, the student's name and set and any other student's names who worked on the assignment where applicable.
+
+Late Assignments: Assignments are expected to be completed and submitted by the posted due dates. Late assignments may be devalued by 20% of the total mark per day late. Assignments may not be accepted after other students have received their marked assignments.
+
+## Safety equipment or protective clothing
+The following MUST BE WORN AT ALL TIMES in the shop:
+
+- Safety glasses
+- CSA-approved (green triangle) safety footwear (puncture-proof sole, steel toe)
+- Suitable close fitting clothing and long pants
+
+Jewlery, watches, loose clothing or anything that could become tangled in rotating equipment must be removed.
+
+These rules must be followed during every lab period or else you will not be permitted in the shop, and there are no make-up periods.
+
+## Course Schedule and Assignments
+Weeks: subject: Assignments
+Week 1: Introduction
+Week 2: CNC lathe setup
+Weeks 3-10: Computer aided manufacturing (CAM) for turning processes: 4 Lab assignments
+Week 11: Midterm exam 1: MT 1
+Weeks 12-17: Manual programming for CNC turning processes: 4 Lab assignments
+Week 18: Midterm exam 2: MT 2
+Weeks 19-20: Process Planning: 1 Lab assignment
+
+## Course topics
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Mohammad Alemi, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Stephen McMillan, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

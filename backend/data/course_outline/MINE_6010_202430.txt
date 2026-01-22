@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20243050933/
+Course: MINE 6010
+Field: Computer Aided Mine Design
+
+School: School of Construction and the Environment
+Program: Mining and Mineral Resource Engineering
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): MINE 5000 and MINE 5005 and MINE 2109
+CRN: 50933
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Clarence Ndunguru
+E-mail: clarence_ndunguru@bcit.ca
+Location: SW01 - 2570
+Office Hours: Office Hours for Students' Consultantion Tue 1100 - 1240hrs Wed 1150 - 1330hrs Frid 0830 - 1010hrs
+
+## Course Description
+The course introduce students to the more complex system design tasks, which span disciplines and involve many areas of engineering science and design. This course expands and diversifies on the knowledge acquired during MINE 5000 - Surface Mine Design. Through a series of workshops using selected packages of mining software in current usage, the students will learn and implement different techniques regarding the design, optimization, planning, scheduling, simulation and project management of surface mines. Exercises (and assignments) will include manipulating topographical and geological data, developing a geological database, solids modeling of an ore body shape, mineral resource estimation using sectional and block modeling techniques, open pit design and optimization.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe how the use of computer software applications leads to improved efficiency in mine design and operate the software application Dassault Systèmes Geovia SURPAC TM [5].
+- Perform all the preliminary tasks/operations leading to generating the block model [3].
+- Describe basic block modeling techniques, understand and manipulate all the input requirements [2,3].
+- Create a computer block model for different types of ore bodies [2].
+- Design a 3D open pit mine [4].
+- Design a waste dump development [4].
+- Perform a mine road design for given topographic and mining activities [4].
+- Generate optimized pit shells while considering physical characteristics of a mineral deposit, cost/price scenarios, and other operational constraints [4].
+- Evaluate the economic viability and determine the strategic direction for a surface mine (optimized cut-off grade; mining areas and extraction sequence, push backs, etc.) using GEOVIA Whittle™ software and re-evaluate the mine design in response to changing condition for a mine site [4,11].
+- Discuss the distinctions between the results of computer simulation and the realities of operations on the mine site [10].
+
+## Learning Resources
+• Dassault Systèmes Geovia software (SURPAC and WHITTLE), including the Training Modules will be provided by BCIT. The students will be able to access the software through AppsAnywhere, which is BCIT’s software delivery platform for all the academic software.
+
+• The course materials will be provided by the instructors.
+
+Other Required Learning Resources:
+
+- Learning Hub and Email: students are responsible for knowing how to sign in and how to use the Learning Hub online environment facilities, including their BCIT email accounts. All the communication with the instructor by email, will be via BCIT email accounts.
+- Access to Microsoft Office (Word, PowerPoint, Excel, Access) or Open Office. All students registered in the current term will have access to Office 365 for Education products: https://kb.bcit.ca/student/microsoft-office-365-access-information-2136/
+- Technology Support for students https://www.bcit.ca/its/student/
+
+## Evaluation Criteria
+Criteria: %: Comments
+Knowledge tests (KT): 15: Will be 3 KT. Each KT has the same weight (33.33% out of 15%)
+Workshops - Assignments: 40: Will be 3 assignments. Each assignment has the same weight (33.33% out of 40%)
+Final Exam: 45
+TOTAL: 100: The Minimum Passing Grade for this course is 50%. (A combined grade of 50% for all criteria is required to pass this course)
+
+## Other information
+Makeup Tests, Exams or Quizzes:
+
+Makeup Assignments, Quizzes and Exam: There will be no makeup assignments, quizzes or exams. If the students miss any quiz, assignment or exam, she/he will receive zero marks for the missing work.
+
+Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+
+For the Final exam specific instructions will be provided to the students. These instructions will be an integral part of the exam.
+
+## Statement for prior learning assessment
+MINE 6010 is a prerequisite for the MINE 7110 (Capstone Project 1)
+
+## Course Schedule and Assignments
+The course schedule (including assignments, quizzes and the final exam) will be discuss with the students in class at the first meeting. A hard copy of the course schedule can be delivered to the students upon individual request.
+
+Assignments:
+
+A total of 3 assignments will be set. All the assignments will be worked on both during in-class time (specific time allocated during the workshops) and outside the course hours.
+
+Since all the assignments will be delivered by the students using the Learning Hub environment, no late assignments will be accepted. All the assignments not uploaded on the LH system at or before the due date/time will be graded as zero.
+
+Assignments must be done on an individual basis unless otherwise specified by the instructor.
+
+Students will be provided with as much notice as possible should there be any changes to the evaluation criteria, course delivery methods, and course schedule.
+
+Module No./Weeks: Topics / Material Covered
+Week 2-3: Review of course outline and modules details Practical applications in SURPAC: Adjusting the SURPAC working space Creating and editing points and strings Changing colours and appearance of points, lines, DTM’s and solids Managing data in layers RECAP: DTMS DTM’s: Editing, interpolation, contouring, topography, and faults Intersections and volumes between surfaces Creating better plots RECAP: SOLIDS Introduction to solid modeling, Preparing data for solid modeling Creating solid models Creating sections Reporting volumes of solids Intersecting drill holes with solid models
+Week 4: RECAP: GEOLOGICAL DATABASE Practical applications: Creating a SURPAC database from variable sources Practicing database construction, drill hole layouts, data composition, etc.: Searching, adding, and editing data in an existing SURPAC database Displaying drill holes in various formats Creating sections and digitizing data Compositing by geology Quiz #1
+Week 5: Assignment # 1
+Weeks 6-7-8: BLOCK MODELLING Concepts of block modeling: Creating a block model Estimation the block model Reporting Grade interpolation methods and search ellipsoid Practice in solids modeling and volume/tonnage and grade estimates Practice in block model construction and grade interpolation OPEN PIT DESIGN Open pit design with ramps – Different approaches (bottom up and top down) Quiz #2
+Weeks 9: MINE ROAD DESIGN Road design concepts Designing roads using string edits tools Designing the roads using the Road design module Calculate the road design volumes Assignment #2
+Week 10: WHITTLE-INTRODUCTION Recap the theory of strategic mine planning and open pit optimization What is the mine planning? What is pit optimization? What are the optimization algorithms? How the slopes are defined and what is the structure arcs? Haw the block value is calculated? What is the influence of commodity price? What is the influence of the costs? What is a Mining block? Quiz #3
+Weeks 11-12: OPEN PIT DESIGN and OPTIMIZATION Whittle concepts Whittle Block model Define the input parameters Create and validate the block model (GMP) Slopes in Whittle Mining Dilution and mining recovery Costs Working with Whittle Import model and validate Add slopes Optimize Operational scenarios Analyze pits using graphs, schedules and spider diagrams Produce optimal pit shell Choose the pit shells for future development Ore selection methods Export options Import PIL Scheduling and Analysis
+Weeks 13-14: PRACTICE: WHITTLE-CASE STUDEIES Gold tutorial Polymetallic tutorial Simultaneous optimization Quiz #4 Assignment #3
+Week 15: FINAL EXAM
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Gheorghe Bonci, Instructor on behalf of Clarence Ndunguru, Instructor August 29, 2024
+
+I verify that this course outline has been reviewed. Shawna Waberi, Program Head August 30, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean August 30, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,130 @@
+URL: https://www.bcit.ca/outlines/20252067050/
+Course: FWDP 2400
+Field: Web Scripting 2
+
+School: School of Computing and Academic Studies
+Program: Front End Web Development
+Course Credits: 5
+Minimum Passing Grade: 65%
+Start Date: May 20, 2025
+End Date: December 05, 2025
+Total Hours*: 72
+Total Weeks: 6
+Hours/Weeks: 12
+Delivery Type: Lecture/Lab
+Prerequisite(s): FWDP 1000
+CRN: 67050
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jeff Parker
+E-mail: Jeffrey_Parker@bcit.ca
+Location: N/A
+Office Hours
+
+## Course Description
+This course shifts the focus from client-side to server-side programming utilizing PHP and MySQL. An introduction to PHP fundamentals and the role it plays in generating dynamic websites will be covered. Students will explore the differences between client-side and server-side scripting, learning to identify when scripting solutions are appropriate. They will apply basic scripting techniques, write and use functions, validate HTML forms, utilize regular expressions, and implement cookie management and session handling. Additionally, students will learn to design and implement relational databases using MySQL, write basic SQL queries for data manipulation, and use PHP to interact with and manage databases. Evaluation will include assignments and a project.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe the difference between client-side scripting and server-side
+- Recognize where scripting solutions are required / desirable
+- Understand fundamental scripting techniques: data types, variables, flow control structures, Boolean logic, and function design
+- Perform HTML form validation and processing
+- Use regular expressions for pattern matching
+- Manage files and folders on the server side
+- Utilize cookie management and session handling to maintain state
+- Design and implement relational databases with MySQL
+- Write SQL statements for database reading and writing
+- Store and retrieve content using PHP and MySQL
+
+## Learning Resources
+- Visual Studio Code Editor
+- MAMP HTTP Server environment
+
+Note: All of the above software is free.
+
+- Mac or Windows computer that has a connection to the internet.
+
+Provided by instructor.
+
+Various publicly available online resources will be provided.
+
+## Course Goals
+Upon successful completion, the student will be able to: • Describe the difference between client-side scripting and server-side scripting • Recognize where scripting solutions are required / desirable • Understand fundamental scripting techniques: data types, variables, flow control structures, Boolean logic, and function design • Perform HTML form validation and processing • Use regular expressions for string pattern matching • Manage files and folders on the server side • Utilize cookie management and session handling to maintain state • Design and implement relational databases with MySQL • Write SQL statements for database reading and writing • Store and retrieve content using PHP and MySQL
+
+## Evaluation Criteria
+Minimum passing grade: 65%
+
+Criteria: %
+Ten Assignments: 75
+One Project: 25
+Total: 100%
+
+## Attendance Requirements
+A maximum absense of up to 2 course days total is permitted. Absenses of 3 or more course days will require a written explanation of the reason for the absense. Missing 3 or more days of the course without a written explanation may result in an incomplete mark being assigned.
+
+## Course Schedule and Assignments
+Session: Description: Assignment: Due
+Session01: HTTP server, PHP, MySQL and XDebug installations and configurations. PHP syntax, standards, and application architecture: HTTP server, PHP, MySQL and XDebug installations and configurations.: PHP syntax, standards, and application architecture: Lab01: Session02
+HTTP server, PHP, MySQL and XDebug installations and configurations.
+PHP syntax, standards, and application architecture
+Session02: Fundamentals: Variables, data types, operators, error handling Control structures: if statements, switch, try/catch: Fundamentals: Variables, data types, operators, error handling: Control structures: if statements, switch, try/catch: Lab02: Session03
+Fundamentals: Variables, data types, operators, error handling
+Control structures: if statements, switch, try/catch
+Session03: Iterative processes, array handling, functions: Iterative processes, array handling, functions: Lab03: Session04
+Iterative processes, array handling, functions
+Session04: System file and directory handling, reading, writing: System file and directory handling, reading, writing: Lab04: Session05
+System file and directory handling, reading, writing
+Session05: Form validation and processing: Form validation and processing: Lab05: Session06
+Form validation and processing
+Session06: Maintaining state: Cookie management and session handling: Maintaining state: Cookie management and session handling: Lab06: Session07
+Maintaining state: Cookie management and session handling
+Session07: Object Oriented Programming (OOP) with PHP: Class design, PHP extensions: Object Oriented Programming (OOP) with PHP: Class design, PHP extensions: Lab07: Session08
+Object Oriented Programming (OOP) with PHP: Class design, PHP extensions
+Session08: Database and table design, relationship and constraint modeling, accessing MySQL with phpMyAdmin and command line SQL: CREATE, ALTER TABLE, SELECT, ORDER BY: Database and table design, relationship and constraint modeling, accessing MySQL with phpMyAdmin and command line: SQL: CREATE, ALTER TABLE, SELECT, ORDER BY: Lab08: Session09
+Database and table design, relationship and constraint modeling, accessing MySQL with phpMyAdmin and command line
+SQL: CREATE, ALTER TABLE, SELECT, ORDER BY
+Session09: PHP database access using mysqli and PDO, Password hashing, SQL injection SQL: INSERT, UPDATE, DELETE, WHERE, BETWEEN, IN, LINK: PHP database access using mysqli and PDO,: Password hashing, SQL injection: SQL: INSERT, UPDATE, DELETE, WHERE, BETWEEN, IN, LINK: Lab09: Session10
+PHP database access using mysqli and PDO,
+Password hashing, SQL injection
+SQL: INSERT, UPDATE, DELETE, WHERE, BETWEEN, IN, LINK
+Session10: Database functions, aggregate functions, joins, importing/exporting data SQL: JOIN, UNION, GROUP BY, HAVING, CASE, ELSE, COMMIT: Database functions, aggregate functions, joins, importing/exporting data: SQL: JOIN, UNION, GROUP BY, HAVING, CASE, ELSE, COMMIT: Lab10: Session11
+Database functions, aggregate functions, joins, importing/exporting data
+SQL: JOIN, UNION, GROUP BY, HAVING, CASE, ELSE, COMMIT
+Session11: User defined data types, Stored procedures, Triggers. Transactions.: User defined data types, Stored procedures, Triggers. Transactions.: Project
+User defined data types, Stored procedures, Triggers. Transactions.
+Session12: Lab day/Project work: Project
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jeff Parker, Instructor May 29, 2025
+
+I verify that this course outline has been reviewed. Michael Whyte, Program Head May 30, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean May 30, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

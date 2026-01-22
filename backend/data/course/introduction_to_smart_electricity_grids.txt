@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/introduction-to-smart-electricity-grids-sgst-9110/
+Title: Introduction to Smart Electricity Grids
+Field: Smart Grid Systems & Tech
+Type: Course
+Course Code: SGST 9110
+
+================================================================================
+
+## Overview
+
+This course introduces students to basic concepts involved in smart grid systems and discusses its constituent components. These components will be explored through study of smart grid architectures, technologies, and applications in the form of case-studies. Standards for automation and communication in modern electric utility systems will also be introduced and applied to the development of a modern grid architecture. This foundational knowledge will be used to support topics explored in courses throughout the program. Theoretical content in the course will be supported by site visits which will make use of BCIT’s smart microgrid as a living-laboratory and demonstration centre. In this initial introductory course, students will begin to work on the overarching project which ties together all courses in the program: the implementation of a smart microgrid from start to finish. In this course students will form teams to focus on the development of a high-level architecture (both hardware and communications) of their smart microgrid using the concepts from the course. This architecture will be referenced and updated throughout the remainder of the program. This team-based project will require students to work collaboratively to develop a report which demonstrates and documents the resulting architecture.
+
+## Credits
+
+3.0
+
+## Cost
+
+$2,569.34
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Explain the motivation for the implementation of smart grid technologies and grid-modernization, including improved operation and reliability
+- Explain how smart grid technologies can contribute to reduced carbon emissions by enabling the adoption of renewable energy technologies and electric vehicles
+- Discuss the various applications in which smart grid systems and technologies can be used to improve a system or mitigate challenges with the current electrical grid
+- Explain how modern technologies are applied in electric utilities at the generation, transmission and distribution level
+- Identify the communications technologies, protocols, standards, and hardware which are used in smart grid systems and technologies, along with the associated security risks brought forth by enabling this communication
+- Describe the flow of information and interconnection between components within a modern electric utility
+- Provide an overview of both legacy and modern substation automation communication network architectures based on relevant portions of the IEC 61850 and IEC 61970 standards
+- Develop a high-level system architecture for a smart microgrid, including communications architecture, which will meet a set of defined goals
+- Develop leadership and collaboration skills
+
+## Related Programs
+
+- Smart Grid Systems and Technologies

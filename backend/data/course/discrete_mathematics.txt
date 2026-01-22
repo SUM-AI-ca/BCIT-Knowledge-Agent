@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/discrete-mathematics-comp-2121/
+Title: Discrete Mathematics
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2121
+
+================================================================================
+
+## Overview
+
+Discrete Mathematics concerns processes that consist of a sequence of individual steps. The ideas of discrete mathematics underline the science and technology specific to computer applications. The Discrete Mathematics course provides the mathematical basis and concepts for applications in computer science: elementary logic, the logic of quantified statements, methods of proof, set theory, discrete functions, relations, counting and probabilities, sequences and mathematical induction, recursion, graphs, trees, and Boolean algebra.
+
+## Credits
+
+4.0
+
+## Cost
+
+$671.78
+
+## Prerequisites
+
+- 50% in COMP 1113 or 60% in COMP 1114
+
+## Learning Outcomes
+
+- Prove that an argument is valid using a truth table or valid argument forms.
+- Prove mathematical arguments using Direct Proof and Counterexample.
+- Solve problems in set theory and relate its concepts to enumeration problems and probability.
+- Solve problems in basic counting theory involving combinations and permutations.
+- Work with discrete mathematics functions and use them in applications.
+- Design finite-state automata and finite-state machines.
+- Apply the basic concepts and formulas of probability and distinguish between independent and mutually exclusive events.
+- Compute event probabilities using probabilities trees.
+- Apply mathematical induction to the solution of problems.
+- Understand properties of integers.
+- Represent computing problems in the form of a graph and tree.
+- Diagram and identify properties of graphs and trees.
+- Illustrate basic graph algorithms such as minimal spanning trees and shortest path.
+- Use tree structure on problems related to searching and sorting.
+- Carry out operations using sigma notation.
+
+## Related Programs
+
+- Computer Systems
+- Computer Systems Technology

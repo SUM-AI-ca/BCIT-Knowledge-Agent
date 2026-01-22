@@ -1,0 +1,118 @@
+URL: https://www.bcit.ca/outlines/20241091353/
+Course: MDAA 3542
+Field: Lighting and Rendering 3
+
+School: School of Business + Media
+Program: 3D Modeling Art & Animation
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 03, 2024
+End Date: April 12, 2024
+Total Hours*: 42
+Total Weeks: 14
+Hours/Weeks: 3
+Delivery Type: Lab
+Prerequisite(s): All courses from term 2 must be successfully completed.
+CRN: 91353
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Wilson Leung
+E-mail: wilson_leung@bcit.ca
+Location
+Office Hours: Mon - 12:30pm - 1:30pm (Classroom C)Tue 9am - 12pm (Zoom)Fri 12:30pm - 1:30pm (Classroom C)
+
+## Course Description
+​Real time rendering is used across many different industries. In this course, students will examine in depth the capabilities, limitations, and advantages of rendering in a real time renderer. Students will set up cameras and learn to animate their cameras for effectively showing off models and environments. Lighting will be explored for both pre-computed lighting and run-time lighting. Materials will be created with parameters exposed for quickly iterating on different looks for the surface. Finally, post process volumes will be used to achieve cinema quality renders.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Define the limitations and advantages of a real time renderer.
+- Set up cameras to effectively show off models.
+- Use the correct lighting techniques for the correct situation.
+- Fine-tune settings to create realistic lighting conditions.
+- Prepare materials with adjustable parameters.
+- Implement post process volumes to achieve cinematic renders.
+
+## Learning Resources
+Course information will be provided through the Learning Hub.
+
+Epic Games Learning Portal: https://dev.epicgames.com/community/unreal-engine/learning
+
+Sample Projects and Assets: https://www.unrealengine.com/marketplace/en-US/content-cat/assets/onlinelearning
+
+Tutorials for Marmoset Toolbag: https://marmoset.co/resources/
+
+## Course Goals
+The purpose of this course is to introduce students to Real Time Renderers and explore the flexibility and limitations that arise with them. The lighting, rendering, and shading capabilities of Unreal Engine 5 will be explored in depth and Marmoset Toolbag 4 will be used to show parallels in workflow, techniques, and terminologies. By the end of the semester students will have another render option to consider using for their assignments and demo reels.
+
+## Evaluation Criteria
+Criteria: %
+Assignment 1 - Setting Up Shared DDC: 5
+Assignment 2 - Creating a Master Material for Substance Painter Template: 10
+Assignment 3 - Rendering Images from Unreal Engine: 10
+Assignment 4 - Rendering Sequences from Unreal Engine: 10
+Assignment 5 - Light and Render from Unreal: 15
+Assignment 6 - Light and Render from Marmoset Toolbag: 10
+Assignment 7 - Light and Render a Sequence: 15
+Assignment 8 - Shaders: 10
+Assignment 9 - Final Project: 15
+
+## Course Specific Requirements
+Students should sign up for an Epic Games account. If you already have one, you do not need to create a new one. The free monthly asset packs and games will remain in your account forever, so it is a good idea to sign up with an email address or account that you will be able to access after the course ends.
+
+For some assignments, you will be required to create a recording of your project. You may use any software you like to capture your screen, but files must be an .mp4 file using the h.264 codec. If you use OBS, ensure it's setup to produce an .mp4 with a relatively low file size with a clear image. The instructions for what I will want captured will be clearly put into the Assignments page so if your capture does not allow for me to see what was requested, you will not get marks for it.
+
+## Other information
+Any projects submitted should be set up to be using a Shared DDC at T:\MDAA\DerivedDataCache\. Assignment 1 will cover how to set this up. Future assignments will have marks deducted if this is not set.
+
+## Course Schedule and Assignments
+Week: Date: Material Covered: Assignment
+1: Jan 5: What is a Real Time Renderer? Baked Lighting, Run Time Lighting, Lumens Light Types and Mobility Creating Unreal Projects Setting up Unreal Engine to use Shared DDC: Assignment 1 - Setting Up Shared Derived Data Cache (DDC)
+2: Jan 12: Texture Compression, Sampler Type, and Resolution Packing Textures for Efficiency Master Materials and Material Instances Creating Material Parameters: Assignment 2 - Create a Master Material for use with Substance's Unreal Engine Template
+3: Jan 19: Material Parameters Continued Camera Settings Lighting and Rendering for Presentation
+4: Jan 26: Atmosphere and Fog Actors Local Volumetric Fog Post Process Volumes Sequencer for High Quality Renders: Assignment 3 - Still Frame Render from Unreal Engine
+5: Fed 2: Advanced Movie Render Queue Settings Anti-Aliasing Configuration Effective Camera Movement Sequencer for Animations: Assignment 4 - Render a sequence from Unreal Engine
+6: Feb 9: Lighting in Unreal Engine Controlling Mood with Post Process Volume Lighting Assignment 5 Lab: Assignment 5 - Light and Render a Sequence from Unreal
+7: Feb 16: Lighting Assignment 5 Lab
+8: Feb 23: Marmoset Toolbag: Render Settings Material Creation Camera Settings: Assignment 6 - Render a scene using Marmoset Toolbag 4
+9: Mar 1: Glass Shaders Dithering Translucency Fresnel Depth Sorting
+10: Mar 8: Lighting Practice Assignment 7: Assignment 7 - Light and Render a Sequence
+11: Mar 15: Lighting Practice Lab
+12: Mar 22: Unwrapping Models for Trim Sheets Trim Sheet Shaders Layered Trim Sheet Shader: Assignment 8 - Shaders
+13: Mar 29: Good Friday (No School)
+14: Apr 5: Lighting Practice Lab: Assignment 9 - Final Project
+15: Apr 12: Lighting Practice Lab Continued
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: Regular attendance in lectures and labs is seen as integral to student success, therefore, attendance in class is monitored. Unexcused absences in excess of 10% of the time prescribed for this course may result in the assignment of a failing grade. Attendance may be taken at any time during class. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken.
+
+In case of illness or other unavoidable absence, students must communicate with the instructor, or the appropriate Program Head, as soon as possible (preferably in advance) indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate ). For other absences, students must be prepared to provide appropriate supporting documentation.
+
+A student who has unexcused absences in excess of 10% of the time prescribed for the course by the Withdrawal Deadline is considered to have ‘Vanished’ and will be assigned a grade of ‘V’. In these cases, no further work will be graded.
+
+These requirements are set out in accordance with BCIT Policy 5101 Student Regulations. More information regarding withdrawals from Flexible Learning courses is available at Refunds and Withdrawals
+
+## Approved
+I verify that the content of this course outline is current. Wilson Leung, Instructor December 20, 2023
+
+I verify that this course outline has been reviewed. Bob Kreut, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Susan Burgess, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

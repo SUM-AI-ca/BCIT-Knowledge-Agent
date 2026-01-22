@@ -1,0 +1,95 @@
+URL: https://www.bcit.ca/outlines/20251080135/
+Course: GIST 7100
+Field: Fundamentals of GIS
+
+School: School of Construction and the Environment
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 08, 2025
+End Date: March 26, 2025
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 80135
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Naz Ali
+E-mail: Instructor to provide
+Location: email
+Office Hours: Instructor to provide
+
+## Course Description
+This course provides an overview of the theory, concepts and related disciplines of GIS. Topics include fundamental terminology and technologies associated with GIS, practical examples of GIS applications, raster and vector spatial data representations, the data modelling process, concepts of file and database systems, methods of data collection, extraction, translation and loading; spatial analysis and geoprocessing, data quality, spatial data management, and organizational issues.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe the fundamental concepts and characteristics of GIS.
+- Compare representations and uses of spatial data.
+- Describe the data modelling process.
+- Describe file and database systems.
+- Describe architectures of GIS software.
+- Discuss data acquisition, conversion and integration issues.
+
+## Learning Resources
+Required e-textbook: Michael Shin, Jonathan Campbell, and Nick Burkhart, 2022. Essentials of Geographic Information Systems v3.0, Irvington, NY: Flat World Knowledge, Inc. (low cost web-based book)
+
+Recommended Textbook: Longley, P., Goodchild, M., Maguire, D., and D. Rhind. 2015. Geographic Information Science & Systems, 4th Edition, Hobokoken, NJ: John Wiley & Sons
+
+## Course Goals
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments and Quizzes: 30
+Final Presentation: 10
+Mid-term Exam: 20
+Final Exam: 40
+
+## Course Schedule and Assignments
+Week Number / Lecture Date: Outcome / Material Covered: Optional Readings Longley et al: Required Readings Campbell & Shin v2.1 & videos: Assignment
+1 / January 8: Course Introduction. GIS & Info Systems. Characteristics of GIS. Uses and Applications of GIS. GIS and other disciplines.: 1.4 – 1.7: 1.3, 1.4: Assignment 1
+2 / January 15: Data Modelling. Vector Data Model. Topology.: 3.1 – 3.6, Chapter 7: 2.1, 3.2, 3.3, 6.2: Assignment 2 Due: Assignment 1
+3 / January 22: Raster Data, and Intro to FME: 3.3, 3.6: 6.1, 6.3: Assignment 2 (cont) Assignment 3
+4 / January 29: Files and Databases. Data sources and data capture. Digitizing. Scanning. Metadata. Files and databases.: 6.1 – 6.3, 9.1 – 9.6: 5.1, 5.3, 5.4: Assignment 4 FME Due: Assignment 2 Due: Assignment 3 (Raster QUIZ).
+5 / February 5: GIS Data Queries and Analysis Techniques.: 13.1 – 13.3.2: 5.5, Chapter 8: Assignment 5 Due: Assignment 4 (QUIZ)
+6 / February 12: Midterm Exam: Due: Assignment 5 (QUIZ)
+7 / February 19: Network Analysis. Address Geocoding. Introduction to student presentations.: 4.1-4.5: Assignment 6. Start work on student presentations.
+8 / February 26: Surface Interpolation and Analysis. Raster Analysis. Spatial Modelling.: 13.3.6: Chapter 7: Assignment 7 (Hand in plus QUIZ) Due: Assignment 6
+9 / March 5: GIS Management and Organization Issues. Implementing GIS.: Chapter 16: Chapter 10: Assignment 8 Due: Assignment 7
+10 / March 12: Error. Data quality. Data Standards. Metadata.: 5.1 – 5.4: 2.2, 2.3, 5.2: Assignment 9 (QUIZ) Due: Assignment 8
+11 / March 19: Final: Due: Student Presentations
+12 / March 26: Course Completed: Due: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Naz Ali, Instructor January 03, 2025
+
+I verify that this course outline has been reviewed. Carmen Heaver, PTS Coordinator January 06, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 07, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

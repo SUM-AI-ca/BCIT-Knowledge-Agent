@@ -1,0 +1,136 @@
+URL: https://www.bcit.ca/outlines/20243033004/
+Course: ELEX 7021
+Field: Scientific Computing 1
+
+School: School of Energy
+Program: Bachelor of Technology in Electronics
+Course Credits: 1
+Minimum Passing Grade: 50%
+Start Date: October 19, 2024
+End Date: December 07, 2024
+Total Hours*: 8
+Total Weeks: 8
+Hours/Weeks: 1
+Delivery Type: Lecture/Lab
+Prerequisite(s): ELEX 7020 or can be taken concurrently
+CRN: 33004
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Maryam Heshmatzadeh
+E-mail: Instructor to provide
+Location: SW02-234
+Office Hours: Instructor to provide
+
+## Course Description
+This course is to be taken in conjunction with ELEX 7020 and will cover numerical analysis techniques used for constrained and unconstrained maximization problems, ordinary differential equations, root finding, and the solution of non-linear equations. Engineering applications are emphasized and MatLab is used throughout as the computing tool.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe the effects of round off error in numeric computations.
+- Solve nonlinear equations using gradient and non gradient search techniques such as fixed point iteration, incremental search, bisection method, Newton's method, the secant method, the bisection method, the golden section search, and false position methods.
+- Describe situations in which search methods may fail.
+- Analyze the convergence rates of numeric algorithms
+- Solve one dimensional and multidimensional unconstrained and constrained nonlinear programming problems using both gradient and non-gradient algorithms.
+- Solve a set of nonlinear ordinary differential equations using numeric integration, including adaptive step size algorithms.
+
+## Learning Resources
+Mandatory: Course notes published by the BCIT Bookstore for ELEX 7021 Scientific Computing 1.
+
+Optional: Numerical Analysis by Burden & Faires, Brooks Cole, Seventh Edition
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 15: In class and take home
+Lab work: 15: In class
+Midterm examnation: 30: Nov 4th
+Final examination: 40: Dec 2nd
+
+## Attendance Requirements
+Required in-person.
+
+BCIT Policies apply.
+
+## Course Specific Requirements
+Knowledge of Calculus and proficiency in use of MATLAB.
+
+## Course Schedule and Assignments
+Saturdays (Oct. 14th to Dec 2nd, no class on Nov. 11th)
+
+8:00-10:50 am Set 1
+
+2:00- 4:50 am Set 2
+
+Lab work: Every week
+
+Assignments: 2
+
+Midterm: Nov 4th
+
+Final: Dec. 2nd
+
+## Course topics
+* Rolle's theorem and Mean Value Theorem
+
+* Taylor's Theorem
+
+* Roundoff Errors and Computer Arithmetic
+
+* Solution of Equations in One Variable:
+
+- The Bisection Method
+
+- Newton's Method
+
+- The Secant method
+
+* Zeros of Polynomials: Horner's Method
+
+* Interpolation and Polynomial Approximation
+
+* Cubic Spline Interpolation
+
+* Numerical Differentiation
+
+* Numerical Integration
+
+- Euler's Method
+
+- Trapezoidal Rule
+
+- Simpson's Rule
+
+-
+
+* Solution of Ordinary Differential Equations
+
+- Euler's Method
+
+- Runge-Kutta 4 Method
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Maryam Heshmatzadeh, Instructor October 07, 2024
+
+I verify that this course outline has been reviewed. Muhammad Ahmed, Program Head October 07, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean October 07, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

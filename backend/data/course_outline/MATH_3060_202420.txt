@@ -1,0 +1,121 @@
+URL: https://www.bcit.ca/outlines/20242065337/
+Course: MATH 3060
+Field: Advanced Statistical Techniques for Data Analytics
+
+School: School of Computing and Academic Studies
+Program: Applied Data Analytics
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: April 06, 2024
+End Date: June 22, 2024
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in MATH 1060
+CRN: 65337
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Takashi Nakamura
+E-mail: Instructor to provide
+Location: Online / SW2-217
+Office Hours: Instructor to provide
+
+## Course Description
+​This hands-on course follows on from MATH 1060 - Statistics for Data Analysis and introduces the students to many of the techniques used in the field of data analytics. This introduction will enable students to use general classification and predictive analysis methods. Methods appropriate for scientific data are also discussed. Labs and projects using the open source statistical analysis tool, R, build on the skills learned in Math 1060 to apply these advanced techniques. Upon successful completion, students will be able to effectively analyze large and small data sets while adhering to sound statistical principles. This course is required for COMP 4254 in the Applied Data Analytics Certificate offered by BCIT Computing.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Compute confidence regions and perform basic hypothesis testing with multivariate normal distributions.
+- Perform dimensionality reduction of high-dimensional data sets using principal component analysis.
+- Describe principles of various regression and classification/clustering algorithms.
+- Apply appropriate classification algorithms for problems at hand.
+- Describe principles of various time series analysis methods.
+- Apply appropriate time series analysis for problems at hand.
+- Apply basic Bayesian statistics in decision making and risk assessment.
+- Describe principles of neural network algorithms.
+- Adopt constantly-evolving new tools (algorithms).
+
+## Learning Resources
+• Scientific Calculator • Learning Hub: lecture notes, anouncements, quiz solutions, etc. • R, the programming language, and an IDE such as RStudio.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments/Quizzes: 25
+Lab Exercises: 5
+Midterm Test (in-person): 25
+Final Exam (in-person): 45
+Minimum passing mark is 60%
+
+## Other information
+“Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.”
+
+## Course Schedule and Assignments
+Each week consists of 3 hours of lecture and 1 hr of work online.
+
+Week: date: Topic
+1: Apr 6: Vectors
+2: Apr 13: Matrices
+3: Apr 20: Linear Regression
+4: Apr 27: Multiple Linear Regression
+5: May 4: Logistic Regression
+6: May 11: Midterm Exam (SW3-3655)
+7: May 18: Time Series Analysis
+8: May 25: Multivariate Normal Distribution
+9: Jun 1: Principal Component Analysis
+10: Jun 8: Bayesian Analysis
+11: Jun 15: Machine Learning
+12: Jun 22: Final Exam (SW3-3655)
+
+## Course topics
+Module 0 Linear Algebra for Data Analysis
+
+- Vectors
+- Matrices
+
+Module 1 Regression Analysis
+
+- Ordinary Least Square
+- Logistic Regression
+
+Module 2 Time Series Analysis
+
+- Moving Average and Autoregressive Models
+
+Module 3 Multivariate Normal Distribution
+
+- Multivariate Normal Distribution
+- Principal Component Analysis
+
+Module 4 Bayesian Analysis and Beyond
+
+- Bayesian Analysis
+- Machine Learning
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Takashi Nakamura, Instructor March 26, 2024
+
+I verify that this course outline has been reviewed. Winona Cordua-von Specht, Faculty March 26, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean March 26, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

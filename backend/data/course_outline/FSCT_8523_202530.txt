@@ -1,0 +1,115 @@
+URL: https://www.bcit.ca/outlines/20253048933/
+Course: FSCT 8523
+Field: Digital Forensics 2
+
+School: School of Computing and Academic Studies
+Program: Digital Forensics and Cybersecurity
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in FSCT 8513
+CRN: 48933
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ilia Lvovski
+E-mail: ilvovski@bcit.ca
+Location: Online
+Office Hours: TBD
+
+## Course Description
+Students will learn advanced concepts in digital forensic analysis and investigation. The course will cover the investigation and response process from the focus of a computer forensics analyst. Topics include analysis of evidence from computers, networks, and mobile devices; event reconstruction; interpretation of digit evidence; and anti-forensic techniques, including encryption, steganography and rootkit hiding. Throughout this course, extensive hands-on exercises provide the students with practical experience in performing computer forensic investigation in the real world.
+
+## Course Learning Outcomes/Competencies
+Upon successful compleltion of this course, the student will be able to:
+
+- Collect and analyze network-based forensic evidence.
+- Recover data and deleted files from a variety of digital devices.
+- Apply Digital Forensic techniques to investigate network compromise and malware activity.
+- Discover and analyse information hidden my anti-forensic techniques
+- Apply legal principles correctly in complex digital investigations.
+
+## Learning Resources
+To be provided by the instructor
+
+## Course Goals
+Students will learn advanced concepts in digital forensic analysis and investigation. The course will cover the investigation and response process from the focus of a computer forensics analyst. Topics include analysis of evidence from computers and mobile devices; advanced registry analysis, logs and event reconstruction; interpretation of digital evidence; and various forensic tools and techniques. Throughout this course, extensive hands-on exercises provide the students with practical experience in performing computer forensic investigation in the real world. The students will learn to implement advanced forensic techniques, while utilizing various tools used in real life forensic investigations. The course will also cover advanced data recovery and introduction to crypto currencies and block chains.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Midterm: 35: Passing Grade is 60%
+Quizzes: 15: 2 Quizzes - 7.5% each
+Assignment: 15
+Final Exam: 35
+
+## Other information
+Throughout the course, and specifically during the quizzes and exams, it is forbidden:
+
+- a. To collaborate with other classmates or anyone else during the exam (online or offline)
+- b. To copy/paste answers from the instructors PPT's, class notes, or notes taken from other students
+- c. To use any form of AI, including chat GPT, and to use a Language Correction AI during the quizzes and exams
+
+## Course Schedule and Assignments
+Month: Date: Day: Week: Topic
+Sep: 4: Thu: 1: Advanced FTK
+Sep: 11: Thu: 2: Magnet
+Sep: 18: Thu: 3: Various forensics tools
+Sep: 25: Thu: 4: Various forensics tools 2
+Oct: 2: Thu: 5: Various forensics tools 3 + Registry: Quiz 1
+Oct: 9: Thu: 6: Crypto
+Oct: 16: Thu: 7: Crypto Part 2+ Ransomware: Quiz 2
+Oct: 23: Thu: 8: Midterm
+Oct: 30: Thu: 9: Forensic artifacts
+Nov: 6: Thu: 10: Mac Forensics
+Nov: 13: Thu: 11: Advanced Data Recovery
+Nov: 20: Thu: 12: Advanced Axiom
+Nov: 27: Thu: 13: Advanced Axiom 2
+Dec: 4: Thu: 14: Final Rehearsal + Final Assignment
+Dec: 11: Thu: 15: Final Exam
+
+## Course topics
+Outcome/Material Covered
+Advanced Axiom
+Advanced FTK
+Registry
+Various tools – Linux based distributives, Sleuth Kit, Autopsy, NirSoft and others
+Crypto currency
+Ransomware
+Advanced data recovery
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ilia Lvovski, Instructor August 24, 2025
+
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator August 25, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean August 25, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

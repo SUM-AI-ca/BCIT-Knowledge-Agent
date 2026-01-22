@@ -1,0 +1,105 @@
+URL: https://www.bcit.ca/outlines/20253045900/
+Course: ELEX 1610
+Field: Electrical Systems for Industrial Network Cybersecurity
+
+School: School of Energy
+Program: Industrial Network Cybersecurity
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 5
+Total Weeks: 15
+Hours/Weeks: .33
+Delivery Type: Lecture
+Prerequisite(s): MATH 1600‡ (‡ must be taken concurrently)
+CRN: 45900
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Yousry Abdelhamid
+E-mail: yabdelhamid@bcit.ca
+Location: SW02-358
+Office Hours: Office hours will be posted on the office door or by appointment.Note: When emailing Faculty and other staff, please email from your myBCIT account to the address (yabdelhamid@my.bcit.ca). Please include your name, course, and student number. Having this information in your email lets us verify the email's sender quickly and respond promptly.
+
+## Course Description
+This course provides a foundation in simple circuits comprised of basic passive and active electrical components. The concepts developed in this course prepares students for the Industrial Systems and Safety for Industrial Network Cybersecurity, Engineering Fundamentals for Industrial Network Cybersecurity, and Programmable Logic Controllers course in term two. Topics include: Ohm’s Law, basic circuit analysis, passive components (resistors, capacitors, and inductors), active components (diodes, transistors, etc.), electrical devices (switches, sensors, etc.), and wiring diagrams. Simple circuits using active and passive components will be built and tested using a multimeter. Corequisite: MATH 1431*, Technical Mathematics for Electronics (* (*may be taken concurrently)
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe the characteristics of passive electrical components (resistors, capacitors, and inductors) and their behavior in simple circuits. (2)
+- Describe the characteristics and principle of operation of common active electrical components (diodes, LEDs, transistors and photo-sensors) and their behavior in simple circuits. (2)
+- Apply Ohm’s law and Kirchhoff’s voltage and current laws to simple circuits. (3)
+- Build simple series-parallel passive networks. (3)
+- Troubleshoot simple series-parallel passive networks using a multimeter to measure voltage, current and resistance. (3)
+- Predict the operation of common, basic industrial interface circuits. (4)
+- Interface common electrical devices (switches, sensors, drivers, voltage-to-current converter, etc.) given a wiring diagram. (3)
+- Troubleshoot common electrical devices (switches, sensors, drivers, voltage-to-current converter, etc.) given a wiring diagram. (3)
+
+## Learning Resources
+- Practical Electronics for Inventors, 4th Edition; Paul Scherz and Simon Monk; ISBN-13: 978-1-25-958754-2 (Optional)
+- SparkFun Inventor's Kit - V4.1 (Needed for future courses as well)
+- ELEX 1610 Parts Kit
+- Calculator with scientific functions (programmable preferred).
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 20: 2- 3 Quizzes
+Midterm: 20
+Labs: 30
+Final: 30
+
+The minimum passing grade is 50%. Successful completion of both the lab and theory components (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade, a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+Week: Lecture: Lab
+1: Electric Current & Voltage: No labs
+2: Resistance, Resistivity, Conductivity, Insulators, Conductors, Semiconductors, Heat & Power, Thermal Heat Conductance & Thermal Resistance, Wire Gauges, Grounds: Lab #1: Introduction to Lab Equipment and Digital Multimeters
+3: Electric Circuits (Basic, Parallel, Series). Ohm's Law and Resistors (Parallel, Series): Lab #2: Breadboards and connections
+4: Voltage & Current Sources, Measuring Voltage, Current, Resistance: Lab #3: Voltage and Current measurements
+5: Measuring Voltage, Current, Resistance Continued, Combining Batteries, Kirchhoff’s Voltage & Current Laws (Monday BCIT closed): Lab #4: Series Resistive Circuits
+6: Quiz #1 - Series and Parallel Circuits (Cont.): Lab #5: Parallel Resistive Circuits
+7: Quiz #1 - Series and Parallel Circuits (Cont): Lab #6: Parallel Resistive Circuits (Cont.)
+8: Superposition on DC circuits: Lab #7: Combinatorial Resistive Circuits
+9: Midterm. The Midterm Covers Materials from Weeks 1-7: Lab #8: Oscilloscopes & Function Generators
+10: Semiconductors and Diodes, Capacitance and Capacitors: Lab #9: Oscilloscopes
+10: Oscilloscopes and how to use them: Lab #10: Lab Review
+11: Electrical and Electronic Devices: Review
+12: Transistors: Lab Exam
+13: Digital Logic: Review
+14: Interfacing with Microcontrollers: No labs in the last week
+
+Week 15: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Yousry Abdelhamid, Instructor September 07, 2025
+
+I verify that this course outline has been reviewed. Umme Salsabil, Program Head September 15, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 22, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

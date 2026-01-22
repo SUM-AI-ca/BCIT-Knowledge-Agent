@@ -1,0 +1,146 @@
+URL: https://www.bcit.ca/outlines/20253044433/
+Course: ELEX 3425
+Field: Electrical Equipment
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): ELEX 2105 and MATH 2431 and PHYS 2143
+CRN: 44433
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kathy Manson
+E-mail: Kathy_Manson@bcit.ca
+Location: SW2-355
+Office Hours: Wednesdays 11:30 am - 12:30 pmFridays 11:30 am - 1:30 pmAppointments available on request.
+
+## Course Description
+The focus of this course is on introducing students to three-phase circuits and electrical equipment found in industry. This course builds on circuit analysis from previous courses and gives students the required background for future courses in advanced power system analysis. Topics include: three-phase power analysis, power factor, power quality, line losses, abnormal conditions, protective devices, magnetic circuit fundamentals, transformer operation and analysis, motor operation and analysis, electrical controls (switches and relays), documentation methods and standards for power and control systems such as one-line and ladder diagrams.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Identify safety hazards and demonstrate safe work practices when working with voltage above 50 V as per WorkSafe BC regulations.
+- Analyze single-phase and three-phase circuit configurations.
+- Measure three-phase power using standard methods, including the 2 watt-meter method.
+- Analyze and improve power factor in a three-phase electric circuit.
+- Summarize power quality issues in electric circuits including true RMS.
+- Calculate per-unit values for an electrical system.
+- Discuss operating principles and characteristics of protective devices in electric circuits.
+- Analyze the properties of magnetic materials and magnetic circuits used in electrical equipment.
+- Analyze operation of single-phase and three-phase power transformers and examine their characteristics.
+- Analyze operation of three-phase AC induction motors and examine their characteristics.
+- Analyze operation of DC motors and examine their characteristics.
+- Analyze stepper motor operation.
+- Design and implement basic motor control circuits including interlocking.
+
+## Learning Resources
+Optional:
+
+- Fitzgerald, Kingsley, Umans. Electric Machinery (6th ed.).
+- Wildi, T. Electrical Machines, Drives and Power Systems (6th ed.).
+
+## Course Goals
+•Identify safety hazards and demonstrate safe work practices when working with voltage above 50 V as per WorkSafe BC regulations.
+
+•Analyze single-phase and three-phase circuit configurations.
+
+•Measure three-phase power using standard methods.
+
+•Analyze and improve power factor in a three-phase electric circuit.
+
+•Summarize power quality issues in electric circuits including true RMS.
+
+•Calculate per-unit values for an electrical system.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab performance: 20: Lab component
+Lab test: 10: Lab component
+Mid-term exams (2): 30: Theory component
+Final exam: 40: Theory component
+
+Successful completion of both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend classes for the full duration of the course. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Absence from more than 10% of the scheduled course hours of either the lab component or the lecture component may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+## Course Specific Requirements
+Safety shoes and a padlock are required for the labs.
+
+## Safety equipment or protective clothing
+CSA-approved footwear and eye protection is required for all labs in ELEX 3425.
+
+## Course Schedule and Assignments
+Tuesday: Tuesday: Thursday: Friday: Friday
+Week: Lecture: Lab – 3F: Lecture: Lecture: Lab – 3H and 3G
+Sep 1 – 5: Introduction: No lab: AC review and three-phase power: AC review and three-phase power: No lab
+Sep 8 – 12: AC review and three-phase power: Lab 1 – Safety lab: AC review and three-phase power: AC review and three-phase power: Lab 1 – Safety lab
+Sep 15 – 19: Power factor correction: Lab 2 – Three-phase power: Power factor correction: Power factor correction: Lab 2 – Three-phase power
+Sep 22 – 26: Nonlinear loads and Harmonics: Lab 3 – Power factor correction: Nonlinear loads and Harmonics: Nonlinear loads and Harmonics: Lab 3 – Power factor correction
+Sep 29 – 3: Practical magnetic circuits: Lab 4 – Harmonics: Practical magnetic circuits: Practical magnetic circuits: Lab 4 – Harmonics
+Oct 6 – 10: Single-phase transformers: Lab 5 – Magnetics: Single-phase transformers: Single-phase transformers: Lab 5 – Magnetics
+Oct 13 – 17: Midterm 1: Lab 6 – Single-phase transformers: Three-phase transformers: Three-phase transformers: Lab 6 – Single-phase transformers
+Oct 20 – 24: Per unit: Lab 7 – Three-phase transformers: Per unit: Per unit: Lab 7 – Three-phase transformers
+Oct 27 – 30: Induction motors: Lab 8 – Induction motors: Induction motors: Induction motors: Lab 8 – Induction motors
+Nov 3 – 7: Industrial control: Lab 9 – Industrial control: Industrial Control: Industrial control: Lab 9 – Industrial control
+Nov 10 – 14: Remembrance Day: Remembrance Day: Hardwired control: Hardwired control: No Labs
+Nov 17 – 21: Midterm 2: Lab 10 – Hardwired motor control: Protection: Protection: Lab 10 – Hardwired motor control
+Nov 24 – 28: Protection: Make-up lab: Protection: Protection: Make-up lab
+Dec 1 – 5: Final Review: Lab test: Final review: Final review: Lab test
+Dec 8 – 12: Final Exam Week
+
+## Course topics
+1.AC power review – single-phase and three-phase
+
+2.Magnetic circuits
+
+3.Transformers
+
+4.Motors
+
+5.Generators
+
+6.Controls
+
+7.Protection
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kathy Manson, Program Head September 03, 2025
+
+I verify that this course outline has been reviewed. Nurul Islam, Program Head September 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

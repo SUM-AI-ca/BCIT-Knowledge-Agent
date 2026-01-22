@@ -1,0 +1,136 @@
+URL: https://www.bcit.ca/outlines/20243051317/
+Course: GEOM 5140
+Field: Introduction to Least Squares
+
+School: School of Construction and the Environment
+Program: Geomatics
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): MATH 3513 and GEOM 4091
+CRN: 51317
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Olusegun John Ogundare
+E-mail: John_Ogundare@bcit.ca
+Location: SW2-317
+Office Hours: Wednesday: 2:30 - 4:20 PMFriday: 1:30 - 4:20 PM
+
+## Course Description
+​The course starts with a review of observation errors, their modelling and propagation; confidence regions and statistical testing and transition; network design; and pre-analysis of survey observations. Then it covers the formulation and derivation of different cases of least-squares adjustments, such as parametric, conditional, and general mathematical models; the adjustment of control networks (1D, 2D, 3D) and other geomatics measurements; the measures of quality and elimination of blunders by global and local tests; and the analysis of variance components. Students learn through lectures, labs and participation.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Model and propagate observation errors.
+- Evaluate survey measurements and the adjusted quantities using the concepts of confidence level and error probability of statistical hypotheses (significance level, power of test, type I and type II errors).
+- Design survey networks by simulation and pre-analysis.
+- Apply a matrix theory approach to data analysis and least-squares estimation.
+- Formulate least-squares adjustment problems (parametric, conditional, general) in geomatics, including the functional and stochastic models.
+- Derive least-squares adjustment solutions (parametric, conditional, general) for geomatics problems, including the functional and stochastic models.
+- Solve geomatics adjustment problems (functional and stochastic) relating to levelling, traverse, triangulation, trilateration, GNSS surveys, and other network types (1D, 2D and 3D), using different least-squares adjustment methods and constraints.
+- Assess the quality of adjustment solutions using the concepts of global and local statistical tests, covariance matrices, relative and absolute error ellipses, and histogram plot.
+- Analyze redundancy (and absorption) numbers and reliability of survey networks.
+- Compute and analyze variance components.​
+
+## Learning Resources
+Required:
+
+Ogundare, J. O. (2018). Understanding Least Squares Estimation and Geomatics Data Analysis, Published by John Wiley & Sons. ISBN 978-111-950-139-8. Available in BCIT. Bookstore, Burnaby.
+
+Tools: Knowledge of how to use MATLAB, MS Excel and Scientific calculator is very important in this course.
+
+Recommended:
+
+1. Mikhail, E. M. and F. Ackerman (1976). Observations and Least Squares. University Press of New York
+
+2. Mikhail, E.M. and G. Gracie (1981). Analysis and Adjustment of Survey Measurements. Reprints available from the Dept. of Geomatics Engineering, University of Calgary, Calgary, Alberta.
+
+3. Wolf, P.R. and C. D. Ghilani (1997). Adjustment Computations: Statistics and Least Squares in Surveying and GIS. John Wiley and Sons, Inc., New York.
+
+4. The Canadian Institute of Surveying and Mapping (now Canadian Institute of Geomatics). Papers for CISM Adjustment and Analysis Seminars. Second Ed. January, 1987.
+
+5. Vanicek, P. and E. Krakiwsky 1987). Geodesy: The Concept. Second Edition. Elsevier Science Publishers, North-Holland.
+
+## Evaluation Criteria
+Criteria: %: Comments: Combined mark of 50% for all criteria is required to pass this course; 60% is required to satisfy CBEPS exemption requirement.
+Final Examination: 40
+Labs: 25: Lab #: Weight Lab 1: 8.89% of 25% Lab 2: 8.88% of 25% Lab 3: 8.89% of 25% Lab 4: 13.35 of 25% Lab 5: 8.88% of 25% Lab 6: 11.11% of 25% Lab 7: 11.11% of 25% Lab 8: 8.89% of 25% Lab 9: 8.88% of 25% Lab 10: 11.12% of 25%
+Quizzes: 5: Quiz #: Weight Quiz 1: 24.71% of 5% Quiz 2: 22.35% of 5% Quiz 3: 28.23% of 5% Quiz 4: 24.71% of 5%
+Midterm Tests (2): 28: Exam #: Weight Exam 1: 42.86% of 28% Exam 2: 57.14% of 28%
+Participation (Online quizzes ): 2: Quizzes can be assigned to students to complete; quality of participation in Discussion Forum will also be evaluated and marks will be awarded proportionately by the instructor.
+TOTAL: 100
+
+## Attendance Requirements
+Class and lab attendance is mandatory; students are also expected to regularly monitor postings in the News section of Learning Hub. If any student will be away for any reason, he/she must send a prior notice to the instructor and the chief instructor about the intended absence and must explain what arrangement would be made to catch up on resumption of class and lab activities.
+
+## Course Specific Requirements
+Post-Secondary Differential Calculus, Matrix Methods and Statistics and Introductory Adjustment computations.
+
+## Other information
+Policies on Late Assignments and Missed Test (Exam):
+
+In addition to the BCIT policy, the following will apply:
+
+- Assignment due dates will be strictly enforced; Exam and Tests must be completed at the specified times (NO MAKE-UP EXAMS/TESTS).
+- Late assignment will not be awarded any mark; it must be handed in to the instructor within 72 hours in order to receive comments on the assignment.
+- After 72 hours of the due time, the student will still be expected to hand in the late assignment (for no marks and for additional penalty to be decided by the instructor) to the instructor before the course ends; otherwise, the student will receive incomplete (INC) grade for the lab and in the course.
+- Each assignment must be handed in following appropriate professional format.
+- In case of illness supported with a BCIT medical certificate (according to the BCIT Policy 5101), the instructor will decide on what to do on the late assignment or missed tests (or Exams) and communicate such decision to the student promptly.
+- Students are expected to obey additional instructions on assignments that may be posted time-to-time on the Discussion forums and on the News tool of the Learning Hub.
+- It is the sole responsibility of the student to arrange to complete every exam, test, quiz and lab as scheduled.
+- The students must strictly follow specific instructions on every learning activity, including exam, test, quiz, lab, etc., otherwise the appropriate marks would be deducted by the instructor as a penalty for the students' inability to follow specific instructions.
+
+## Statement for prior learning assessment
+Students must have good and current understanding of Differential Calculus (MATH 2511), Matrix Methods and Statistics (MATH 3512) before taking this course and Introductory Adjustment computations.
+
+## Course Schedule and Assignments
+Note: The following schedule is tentative and may change at the discretion of the instructor. Any important changes, however, will be communicated to the students appriopriately. Recorded lectures will be posted and comments will be posted time to time in the News section of the Learning Hub.
+
+Week: Material Covered: Readings: Assignment: *Due Date
+1-2: Review of Survey Measurements, Functional and Stochastic Models: Required Book (Chap. 1/video): Lab #1 & Quiz #1 (Chap. 1): Quiz #1: Sept. 13 Lab 1: Sept. 13
+3: Analysis & Error Propagation of survey observations: Required Book (Chap 2/videos): Lab #2: Lab 2: Sept. 25
+4-5: Statistical Hypothesis Tests & Confidence Interval estimation/ EXAM 1: Required Book Chap. 3 (sec. 3.5-3.6.5) &Chap. 7 (sec.7.1-7.4)/videos: Lab #3 & Quiz #2 (Chap. 3 & 7) & EXAM 1: EXAM 1: Oct. 4 Quiz #2: Oct. 9 Lab 3: Oct. 9
+6-7: Least Squares Adjustment of Parametric models -criterion, model formulation & basic steps: Required Book Chap. 4 (sec. 4.3-4.7.3) & Chap. 5/ videos: Lab #4: Lab 4: Oct. 23
+8: Least Squares Adjustment of Parametric models -adjustment of various geomatics problems & confidence error ellipses: Required Book Chap.6 & Chap. 7 (sec. 7.5 - 7.6.2) /videos: Lab#5 & Quiz #3 (Chap. 4, 5, 6): Quiz #3: Oct. 30 Lab 5: Oct. 30
+9: Network Design and Pre-analysis: Required Book Chap. 8/ videos: Lab #6: Lab 6: Nov. 6
+10: Post-Adjustment Data Analysis and histogram plots/EXAM 2: Required Book (Chap. 11/videos): Lab #7 & EXAM 2: EXAM 2: Nov.8 Lab 7: Nov. 13
+11: Network redundancy and reliability and Variance component estimation: Required Book (Chap. 11/videos) & additional material: Lab #8: Lab 8: Nov. 20
+12: Least Squares Adjustment of Conditional Models.: Required Book (Chap. 12/videos): Lab #9 & Quiz #4 & (Chap. 11 &12): Quiz #4: Nov.27 Lab 9: Nov. 27
+13: Least Squares Adjustment of General Mathematical Models: Required Book (Chap. 13/video): Lab #10: Lab. 10: Dec. 4 Quiz #5: Dec. 4
+14: Review: Dec. 4-6
+15: Final Examination: Dec. 9-13
+
+*Check instructions on each assignment to confirm due dates.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Ogundare, Instructor August 27, 2024
+
+I verify that this course outline has been reviewed. Mark Dailey, Program Head August 28, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean August 30, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

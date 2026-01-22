@@ -1,0 +1,57 @@
+URL: https://www.bcit.ca/courses/introduction-to-photogrammetry-geom-3071/
+Title: Introduction to Photogrammetry
+Field: Geomatics
+Type: Course
+Course Code: GEOM 3071
+
+================================================================================
+
+## Overview
+
+This course introduces the concepts of photogrammetry and remotely piloted aircraft systems (RPAS). The course begins with a general introduction to aerial mapping cameras and how reflected electromagnetic radiation is captured. Topics to be covered include film exposure, photogrammetric principles such as parallax, geometry of stereo photographs, orientation, scale, RPAS, orthophotos, flight planning, LiDAR, the importance of ground control, and planimetric capture. Elements of visual interpretation will be used throughout the course to examine various products derived from photogrammetry. The course includes a combination of lectures (theories and concepts) and labs (practical experience) related to photogrammetry and RPAS.
+
+## Credits
+
+5.0
+
+## Cost
+
+$1,176.89
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- List different type of sensor data.
+- Describe fundamental concepts of remote sensing and data models.
+- Select appropriate raster data for survey projects.
+- Recognize appropriate platforms and sensors to capture data relevant to specific projects.
+- Identify the data requirements for the specific project.
+- Demonstrate airborne mission-planning.
+- Discuss and review the right sensor/data to meet the survey requirements.
+- Explain the role of resolution in data quality captured by cameras and scanners.
+- Memorize basic image corrections.
+- State the mathematical models relating sensor space to object space.
+- Solve calculations to determine print scale and size.
+- Select appropriate DEM for orthoimage generation.
+- Implement and compare visual and digital imager interpretation.
+- Demonstrate common image analyses and interpretation techniques.
+- Compare the various vegetation indices.
+- Apply the concepts of optical data for spatial data collection (3D position) and the 2/3D object reconstruction from optical and range measurements.
+- Interpret the mathematical photogrammetric theory and procedures of photogrammetric triangulation (indirect, integrated sensor, direct, orientations).
+- Recognize the camera calibration parameters required for a photogrammetric project.
+- Calculate approximate coordinate precision from aerial imagery.
+- Define graphics (e.g., maps and other forms of geographic visualizations) to explain, interpret, and assess information.
+- List different GIS data acquisition approaches and data sources.
+- Recognize appropriate tools and techniques to acquire and maintain high-quality data.
+- Examine appropriate spatial analysis methods to support decision-making.
+- List mathematical approaches and techniques for terrain surface interpolations and reconstruction.
+- State terrain/surface parameters, visualization, generalization, accuracy, and quality control.
+- Demonstrate data-acquisition methods for DEM applications.
+- Evaluate DTM applications and terrain analysis.
+
+## Related Programs
+
+- Geomatics Engineering Technology

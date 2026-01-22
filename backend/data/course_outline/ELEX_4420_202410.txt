@@ -1,0 +1,199 @@
+URL: https://www.bcit.ca/outlines/20241083981/
+Course: ELEX 4420
+Field: Power Electronics and Renewable Energy Applications
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): ELEX 3130 and MATH 3433 and PHYS 2143
+CRN: 83981
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Pooya Taheri
+E-mail: ptaheri3@bcit.ca
+Location: SW2 - 263
+Office Hours: Tuesdays: 12:30-13:30Thursdays: 12:30-13:30Fridays: 12:00-13:00Or by appointment.
+
+## Course Description
+This course focuses on the use of power electronics for industrial and renewable energy applications. The material builds upon the concepts introduced in ELEX 3130 in the previous term and provides the required background to design and analyze electronics used for high power applications. The key topics covered include: printed circuit board design for power electronics; DC-DC and DC-AC (line and forced commutated) converter topologies; applications of power electronics in industry and renewable energy systems; switching harmonics; feedback control of power electronic systems; and implementation of those controllers on a digital platform. Concepts are applied in laboratories in order to realize a working prototype for a pre-defined list of projects by term end.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Discuss printed-circuit board layout techniques used for power electronic converter design with the aim of meeting safety, grounding and electromagnetic interference standards.
+- Analyze common DC-DC switch-mode power supplies.
+- Analyze commonly used line-commutated and forced-commutated DC-AC power electronic topologies for both three-phase and single phase AC connections.
+- Discuss the reasoning behind the use of different power electronic topologies in different applications such as renewable energy devices (photovoltaics, wind), VFDs, EV charging/driving, battery storage/fuel cell interfaces, lighting, and machine excitation.
+- Calculate harmonic output for different types of power supplies or switched waveforms and mitigate harmonic distortion issues with appropriate design of filters, modulation schemes, and control systems.
+- Describe the parts of a closed-loop control system and make use of Laplace-domain transfer functions to model those parts (plant, controller) in order to form a complete system model.
+- Determine system stability and other performance characteristics from a system model such as step and frequency response metrics.
+- Convert continuous time system/controller models to the discrete time domain.
+- Implement discrete time controllers on a digital platform to be used for course laboratory work.
+- Build a variety of power electronic circuits based on theoretical models and analysis.
+
+## Learning Resources
+Scientific Calculator.
+
+MATLAB/Simulink available through BCIT's AppsAnywehere.
+
+Parts kits from the previous course may be required for some labs.
+
+No textbooks required.
+
+For further reading, students can refer to the following textbooks available at BCIT's library:
+
+- Power Electronics - A First Course; By Ned Mohan and Siddharth Raju; 2023; John Wiley & Sons Inc.; ISBN 9781119818571 (pdf) | ISBN 9781119818588 (epub)
+- High-Power Converters and AC Drives; By Bin Wu and Mehdi Narimani; 2017; Wiley-IEEE; ISBN: 978-1-119-15603-1
+
+## Course Goals
+Upon successful completion of this course, the student will have a solid understanding of:
+
+- RMS and DC values
+- Harmonics and total harmonic distortion (THD)
+- Semiconductor switches (diodes and transistors)
+- Operation of half-wave and full-wave single-phase rectifiers
+- Operation of three-phase 6-pulse and 12-pulse rectifiers
+- Operation of single-phase and three-phase inverters
+- Sinusoidal pulse-width modulation (SPWM)
+- Variable frequency drives (VFD) and motor control
+- Operation of DC/DC converters (boost, buck, and buck-boost)
+- Basics of feedback control
+
+## Evaluation Criteria
+Category: %: Comments
+Attendance: 5
+Quizzes: 10: Quizzes may be unannounced or take home
+Labs: 30: Preparation: 20% Performance: 20% Reports: 40% Lab exam: 20%
+Midterm 1: 15: Thursday, Feb. 8, 13:30-14:20, SW1 - 2004
+Midterm 2: 15: Thursday, Mar. 7, 13:30-14:20, SW1 - 2004
+Final: 25: Cumulative
+
+Successful completion of both the Lab component and the Theory component of this course is required for a passing grade. The minimum passing grade for both Lab and Theory components is 50%. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+- Theory part includes quizzes, midterms, and final exam.
+- Practical part includes labs and lab test.
+
+## Attendance Requirements
+Laboratories: Participation in all laboratory sessions is required and will be checked. If an illness or emergency situation arises the instructor and assistant instructor must be contacted as soon as reasonably possible. It may be possible to attend a different lab session but make up lab sessions are not available. If absence is recurring, BCIT’s policies regarding medical certificates will apply. 90% lab attendance is required to pass the course.
+
+Makeup test, exams or quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks for the work missed. Exceptions may be made for extenuating circumstances or for medical reasons according to departmental policy and documented by a BCIT Student Medical Certificate (https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf). In such a case, it is the responsibility of the student to inform one of the course instructors immediately. Note that exceptions will not be made for personal events such as vacations, weddings, or travel arrangements.
+
+Late assignments: The penalty for late assignments is 5% per day past the due date. Extensions may be granted but must be requested AND confirmed at least 72 hours in advance of the assignment due date. If an extension is granted and the assignment is still late, the penalty is 10% for the first day and 5% for each subsequent day. All extensions and penalties will be granted or enforced at the discretion of the instructor and program head.
+
+Lecture attendance: Lecture attendance will be checked and includes 5% of total mark. There may be unannounced quizzes during the lecture.
+
+## Course Specific Requirements
+Students must pass both lab and lecture components in order to pass the course.
+
+90% lab attendance is required to pass the course.
+
+## Safety equipment or protective clothing
+- All labs for this course will be at SW3-2750. In some labs, we will be working with voltages above 200 V. Students are expected to follow the safety protocols very carefully.
+- The electrical switch for each station is supposed to be locked by default.
+- Students are required to ask the lab instructor to double check the wiring before energizing the circuit.
+- Professional behaviour is required from all the students in the lab. No foul play will be tolerated.
+- Students are expected to read the lab manual and be prepared for the experiments before attending the lab.
+- Lab equipment should be put back after use. Students are required to tidy up their stations after the experiments.
+- Safety glasses are mandatory during experiments (unless you wear prescription glasses).
+- Safety shoes are not mandatory for ELEX 4420 labs but recommended.
+
+## Other information
+Students are expected to have a solid understanding of the material covered in ELEX 3130 including but not limited to:
+
+- time- and frequency-domain analysis of RLC circuits
+- signal characteristics (average, RMS, transient, steady state, etc.)
+- Fourier series and harmonics
+- Operational amplifiers and comparators
+- Semiconductor switches (diodes and transistors)
+- Volt-sec and amp-sec balance rules
+
+## Statement for prior learning assessment
+There may be assignments/quizzes in the first weeks of the course to review the materials covered in your previous courses.
+
+## Course Schedule and Assignments
+Lectures:
+
+- Tuesdays, 13:30 - 14:20, SW5-2895 (After Spring break SW3-1710).
+- Wednesdays, 9:30 - 10:20, SW5-2895 (After Spring break SE12-312).
+- Thursdays, 13:30 - 14:20, SW1-2004 (After Spring break SE12-313).
+
+Midterms:
+
+- Thursday, Feb. 8, 13:30-14:20, SW1 - 2004
+- Thursday, Mar. 7, 13:30-14:20, SW1 - 2004
+
+ELEX 4420 Lecture Schedule: Lectures Topics: Comments
+Week 1 (Jan. 1 - Jan. 7): DC, RMS, and harmonics: Jan. 3: Classes begin
+Week 2 (Jan. 8 - Jan. 14): Diodes and HW rectifiers
+Week 3 (Jan. 15 - Jan. 21): FW rectifiers: Jan. 17: Last day to withdraw with full refund
+Week 4 (Jan. 22 - Jan. 28): 6- and 12-pulse rectifiers: Quiz 1
+Week 5 (Jan. 29 - Feb. 4): Semiconductor switches
+Week 6 (Feb. 5 - Feb. 11): SPWM and 1~ inverters: Feb. 8: Midterm 1
+Week 7 (Feb. 12 - Feb. 18): Quiz 2
+Week 8 (Feb. 19 - Feb. 25): Three-phase inverters
+Week 9 (Feb. 26 - Mar. 3): VFDs and motor control
+Week 10 (Mar. 4 - Mar. 10): DC/DC converters (1): Mar. 7: Midterm 2 Mar. 8: Last day to withdraw with W
+Spring Break (Mar. 11 - Mar. 17)
+Week 11 (Mar. 18 - Mar. 24): DC/DC converters (2)
+Week 12 (Mar. 25 - Mar. 31): DC/DC converters (3)
+Week 13 (Apr. 1 - Apr. 7): Feedback Control: Quiz 3
+Week 14 (Apr. 8 - Apr. 14): Review
+Week 15 (Apr. 15 - Apr. 21): Final exams: Final exam schedule TBD
+
+ELEX 4420 Lab Schedule SW3-2750: 4G (Behrouz) Tue. 14:30 – 17:20: 4F (Pooya) Fri. 8:30 – 11:20
+Lab 1 - RMS, DC: Jan. 9: Jan. 12
+Lab 2 - Introduction to HV equipment: Jan. 16: Jan. 19
+Lab 3 - Diodes and half-wave rectifiers: Jan. 23: Jan. 26
+Lab 4 - Full-wave rectifiers and filters: Jan. 30: Feb. 2
+Lab 5 - 6-pulse and 12-pulse rectifiers: Feb. 13: Feb. 16
+Lab 6 - Inverters: Feb. 20: Feb. 23
+Lab 7 - VFD: Feb. 27: Mar. 1
+Lab 8 - DC/DC converters 1: Mar. 19: Mar. 22
+Lab 9 - DC/DC converters 2: Apr. 2: Apr. 5
+Lab Exam: Apr. 9: Apr. 12
+
+The schedules provided here are subject to change. Any change will be communicated during lectures and via learning hub.
+
+## Course topics
+- Signal characteristics (RMS, DC offset, and harmonics) - 1 week
+- Operation of half-wave and full-wave single-phase rectifiers - 2 weeks
+- Operation of three-phase 6-pulse and 12-pulse rectifiers - 1 week
+- Semiconductor switches (diodes and transistors) - 1 week
+- Operation of single-phase and three-phase inverters - 3 weeks
+- Variable frequency drives (VFD) and motor control - 1 week
+- Operation of DC/DC converters (boost, buck, and buck-boost) - 3 weeks
+- Basics of feedback control - 1 week
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Pooya Taheri, Instructor January 02, 2024
+
+I verify that this course outline has been reviewed. Kathy Manson, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 02, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

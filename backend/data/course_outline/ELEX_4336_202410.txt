@@ -1,0 +1,166 @@
+URL: https://www.bcit.ca/outlines/20241018682/
+Course: ELEX 4336
+Field: Feedback Systems                                                                                    
+
+School: School of Energy
+Program: Robotics
+Course Credits: 8
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 160
+Total Weeks: 20
+Hours/Weeks: 8
+Delivery Type: Lecture
+Prerequisite(s): 50% in ROBT 3341 and 50% in ROBT 3351 and 50% in ROBT 3356 and 50% in MATH 3342 and 50% in ELEX 3321
+CRN: 18682
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Elmer Magsino
+E-mail: emagsino@my.bcit.ca
+Location: SW01 3701
+Office Hours: Students can email the instructor to set up an appointment during the following available hours.Monday, Tuesday, and Friday - 12:30 - 1:30 PMTuesday - 4:30 - 5:30 PM
+
+## Course Description
+This course starts with a study of feedback in electronic amplifiers. This is followed by a qualitative overview of general feedback systems with emphasis on the problem of stability and the need for an appropriate controller. Electromechanical systems are then examined as a specific example and the rest of the course investigates various aspects of electromechanical feedback systems. Topics include system modelling, block diagram reduction, transfer functions, derivation of time and frequency response, stability prediction, the significance of poles and zeros, root locus and Bode plots. Students design and test various continuous time feedback systems. Controllers studied include lead-lag filters, notch filters, and various PID controllers. Consideration is also given to the problems of non-linearity and overloading. Digital controllers are considered in as much detail as time allows and students design and test at least one digital control system.
+
+## Course Learning Outcomes/Competencies
+- Identify the parts of a feedback system.
+- Identify the forward path.
+- Identify the feedback path.
+- Identify the comparator.
+- Make a block diagram of a feedback system.
+- Given a physical description, identify the blocks.
+- Construct a block diagram of the system.
+- Reduce the block diagram to a simpler form.
+- Use reduction rules so that the standard feedback equation can be applied.
+- Reduce the block diagram to a unity feedback system.
+- Derive the transfer function for each system block.
+- Under the significance of mathematical modeling of system components.
+- Understand and use current driven permanent magnet DC motor transfer functions.
+- Understand and use voltage driven permanent magnet DC motor transfer functions.
+- Derive and apply gearbox transfer functions.
+- Derive and apply electrical network transfer functions.
+- Derive and apply the transfer function of a given simple mechanical system.
+- Derive the transfer function of the entire feedback system.
+- Derive the transfer function of the entire system.
+- Set up the system transfer function in standard form.
+- Recognize the basic stability problem and its cause.
+- Recognize there is always time delay in a feedback loop.
+- Recognize the consequences of this for system stability.
+- Compute the step response and frequency response for a second order system.
+- Use the concepts of over, under and critical damping.
+- Use the concepts of natural frequency, damped frequency, damping ratio.
+- Recognize the consequences of changing the loop gain.
+- Predict the type number of a system.
+- Estimate the steady state error for a stable closed-loop system as a result of standard inputs step, ramp or parabolic form.
+- Use control system design software to evaluate the step response of second and higher order systems.
+- Become familiar with the function and use of system modeling software such as Maple or MATLAB.
+- Recognize the significance of pole placement.
+- Recognize the significance of the location of the poles on system stability.
+- Change the position of the poles to change the system response as required.
+- Use the root-locus technique as an aid in predicting system stability.
+- Explain the principle of root locus plotting.
+- Plot first and second order root loci by hand.
+- Generate root locus plots using the software design package.
+- Use root locus plots to determine system response.
+- Construct frequency response plots.
+- Make Bode plots for first and second order transfer functions by hand given the transfer function.
+- Make use of straight line approximation techniques.
+- Use the design software to make Bode plots of second and higher order systems.
+- Recognize the implications to system stability of various Bode plot types.
+- Design analog compensators.
+- From pole placement considerations, design a simple analog compensator to achieve the required stability using frequency response methods.
+- Understand the applications and limitations of PID controllers.
+- Draw a block diagram of a PID controller.
+- Draw circuitry to implement the controller.
+- Appreciate the significance of each part of the controller.
+- Understand and apply the Ziegler Nichols tuning method.
+- Recognize practical limitations of modeling in feedback systems.
+- Appreciate the problems due to non-linear mechanical friction.
+- Appreciate the problems due to overloading of amplifiers.
+- Appreciate the significance of integrator wind-up and the use of anti-windup schemes.
+- Design and test various continuous time feedback control systems.
+- Design and test Lead-lag, Notch filter and various PID controllers.
+- Analyze and design Phase Locked motor speed controllers.
+- Recognize the phase locked loop as a feedback system.
+- Make a block diagram and derive the transfer function for phase locked speed controllers.
+- Design and test a phase locked speed controller.
+- Draw a block diagram of a basic digital control system and recognize the significance of each part.
+- Describe the action of the shaft encoder, pulse counter, system clock, digital compensator, and ADC and DAC.
+- Explain the advantages of a digital control system.
+- Recognize that compensator transfer functions can be realized in software.
+- Recognize that the parameters of a digital system are readily changed via software changes.
+- Understand the sampling process and the significance of the Nyquist limit.
+- Analyze and design systems consisting of a mixture of analog and digital components.
+- Appreciate the dilemma in analyzing systems consisting of both discrete and continuous time components and the need to perform either s-plane or z-plane analysis.
+- Design compensators using the equivalent continuous method.
+- Transform s-plane transfer functions to the z-plane using various mapping techniques.
+- Code and test digital controller for a servo system.
+- Generate a suitable s-plane controller to stabilize a motor control system.
+- Map this into the z-plane.
+- Generate DSP code to implement the controller.
+- Implement the controller using a small microcontroller chip.
+- Set up and test the entire digital control system.
+
+## Learning Resources
+1- Lecture notes are provided in D2L
+
+2- Modern Control Systems, Richard C. Dorf, Robert H. Bishop, 12th Edition Publisher: Pearson Prentice Hall
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 10
+Quizzes: 30: Average of Three Quizzes
+Lab: 25
+Final: 35
+
+## Course Schedule and Assignments
+Week: Topics: Assignments: Exams
+1: Introduction to feedback systems
+2: Mathematical Models of Systems (Mechanical Systems): 1
+3: Assignment 1 Discussion Mathematical Models of Systems (Electrical Systems): 2
+4: Assignment 2 Discussion Mathematical Models of Systems (Transfer function, Block Diagrams): 3
+5: Assignment 3 Discussion Mathematical Models of Systems (Signal Flow Graphs): Quiz 1
+6: Feedback Control Characteristics
+7: Performance of Feedback Control Systems (First and Second Order Systems): 4
+8: Assignment 4 Discussion Stability of Linear Feedback Systems (Routh-Hurwitz Criterion): 5: Quiz 2
+9: Assignment 5 Discussion Root Locus Concepts
+10: Root-Locus Examples: 6
+11: SPRING BREAK
+12: Assignment 6 Discussion Frequency Response Method (Bode Plot)
+13: Stability in the Frequency Domain: 7
+14: Assignment 7 Discussion Design of Feedback Controllers (Introduction to Controllers and Compensators)
+15: Phase-Lead Controllers: 8
+16: Assignment 8 Discussion Phase-Lag Ccontrollers: 9
+17: Assignment 9 Discussion PID controllers: Quiz 3
+18: Compensator Circuit Realizations
+19: Review
+20: Final
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Elmer Magsino, Instructor January 02, 2024
+
+I verify that this course outline has been reviewed. Isaiah Regacho, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

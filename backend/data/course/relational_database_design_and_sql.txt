@@ -1,0 +1,52 @@
+URL: https://www.bcit.ca/courses/relational-database-design-and-sql-comp-1630/
+Title: Relational Database Design and SQL
+Field: Computer Systems
+Type: Course
+Course Code: COMP 1630
+
+================================================================================
+
+## Overview
+
+This intensive, hands-on course is the prerequisite for follow-on database courses in several BCIT Computing programs. Students are introduced to relational database design concepts and industry standards. COMP 1630 starts with tools and processes for data modeling in Relational Database Management Systems (RDBMS). Labs and exercises take place in a Windows 11 PC environment. There is also a heavy focus on the Structured Query Language (SQL) to define and manipulate data. Topics include functional dependencies, normalization, database design methodologies, entity relationship modeling and the use of UML as a diagramming notation. Advanced topics include: an introduction to SQL, DDL- data definition language and DML- data manipulation language, views, security, transaction management, triggers and stored procedures. Current trends in database such as Replication, Data Warehousing, Online Analytical Processing (OLAP), using databases on the web and in the cloud are discussed. Students in are required to participate in group work, there is significant reading and assignments required outside of class. Online activities via the BCIT Learning Hub are mandatory. COMP 1630 is a required course for the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and the Computer Systems Certificate (CSC). It is also equivalent to the Full-time COMP 2714 and ACIT 1630 database courses. Upon successful completion, participants will be able to design and implement a database application and be prepared to move on to higher level database courses including: COMP 3677 Introduction to MS Server Administration Part 1, COMP 3678 SQL Server Development; COMP 3679 Business Intelligence (BI) Tools, and COMP 3839 Data Quality Improvement.
+
+## Credits
+
+5.0
+
+## Cost
+
+$755.20 - $798.14
+
+## Prerequisites
+
+- 60% in COMP 1002 or 50% in ACIT 1420
+
+## Learning Outcomes
+
+- Describe the database approach, its environment, and database application life cycle.
+- Explain the functions and characteristics of the relational model.
+- Describe and work through the normalization process.
+- Apply UML techniques of database design including:
+- Enhanced entity-relationship modeling using UML
+- Functional dependencies
+- Derivation of relations schema from EER model.
+- Use Crow's foot notation to represent relationship among entities in a database system.
+- Apply database design process to implement a database application.
+- Describe security issues, improve query performance, and data protection techniques in a database environment.
+- Explain the use of databases in data warehousing and OLAP.
+- Use SQL - DDL to implement a relational database.
+- Use SQL for data manipulation with the basic statements: INSERT, UPDATE, DELETE and SELECT.
+- Use SQL for advanced manipulation such as Group BY, Having, Correlated subqueries.
+- Create stored procedures and triggers.
+- Discuss techniques for transaction management and concurrency control.
+- Discuss provisioning a Relational Database Management System (RDBMS) in the Cloud.
+
+## Related Programs
+
+- Agile Development
+- Applied Computer Information Systems (ACIS)
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Applied Web Development
+- Computer Systems

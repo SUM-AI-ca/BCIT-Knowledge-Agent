@@ -1,0 +1,101 @@
+URL: https://www.bcit.ca/outlines/20241084016/
+Course: ELEX 4652
+Field: Industrial Electrical System Design
+
+School: School of Energy
+Program: Electrical Engineering
+Course Credits: 1.5
+Minimum Passing Grade: 50%
+Start Date: April 22, 2024
+End Date: May 17, 2024
+Total Hours*: 6
+Total Weeks: 4
+Hours/Weeks: 1.5
+Delivery Type: Lecture
+Prerequisite(s): ELEX 3120 and MATH 3620
+CRN: 84016
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kathy Manson
+E-mail: Kathy_Manson@bcit.ca
+Location: SW3-2905
+Office Hours: Mondays, Tuesdays and Thursdays 12:30 - 1:30 pmAppointments available on request.
+
+## Course Description
+The focus of this course is on the application of the Canadian Electrical Code (CEC) to design industrial electrical systems. This course builds from concepts learned in the circuit analysis courses and the code and standard course in first year to give students the required background to design basic power distribution systems used in industry. Topics include 3 phase circuit analysis, feeder calculations and ratings, motor branch feeders, voltage levels, grounding, fault calculations, protection and coordination, arc‐flash calculations, appropriate sections of the Canadian Electrical Code and established engineering practices. Software tools will be used throughout this course.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Analyze 3 phase electric circuits and calculate 3 phase active, reactive and apparent power [1, 2].
+- Design feeders to meet the requirements of the Canadian Electrical Code and established engineering practices [8].
+- Select the correct grounding and bonding conductor sizes for a specified system in accordance with CEC [3, 4].
+- Discuss branch circuits and feeders for motors to meet the requirements of the Canadian Electrical Code and established engineering practices [8].
+- Select the correct grounding and bonding conductor sizes for a specified system in accordance with CEC [8].
+- Explain CSA voltage standards and terminology [8].
+- Calculate fault current of typical industrial systems using established engineering practices and software [2].
+- Identify parts of an electrical protection system [1].
+- Describe what is required to design an industrial system that complies with the Canadian Electrical Code [8, 9].
+
+## Learning Resources
+The Canadian Electrical Code, part 1, 2021 version (available in an electronic version from the BCIT library website)
+
+Course notes available in the Learning Hub, Elex 4652 Lecture, Content Tab
+
+## Course Goals
+Apply the CEC to electrical distribution systems.
+
+Apply industry standards to design electrical distribution systems.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 25
+Quizzes: 25
+Final Exam: 50
+
+## Safety equipment or protective clothing
+Students require a lock for the lab and safety glasses. Safety glasses may be borrowed from the lab room.
+
+## Course Schedule and Assignments
+Elex 4652 – Industrial Electrical System Design – 4 Week Term 2024-10 (Spring 2024)
+
+Monday: Tuesday: Thursday: Friday
+Week: Lecture: Lecture: Lab: Lab: Lecture: Lab
+Apr 22 – 26: Three-phase power: Three-phase power: Lab 1 – Safety: Lab 1 – Safety: CEC: Feeders: Lab 1 – Safety
+Apr 29 – May 3: CEC: Branch circuit design: CEC: Grounding: Lab 2 – Three-phase power: Lab 2 – Three-phase power: Fault calculations: Lab 2 – Three-phase power
+May 6 – 10: Fault calculations: Fault calculations: Lab 3 – Distribution: Lab 3 – Distribution: Protection: Lab 3 – Distribution
+May 13 – 17: Protection: Protection: Lab 4 - Fault Analysis: Lab 4 - Fault Analysis: Final exam: Lab 4 – Fault Analysis
+
+## Course topics
+1. Review of single-phase and three-phase power
+
+2. Introduction to the CEC, Feeder Design, Motor Branch Circuit Feeder Design
+
+3. Grounding, Bonding and Fault Calculations
+
+4. Protection, coordination example for a motor branch circuit
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kathy Manson, Program Head January 01, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 02, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

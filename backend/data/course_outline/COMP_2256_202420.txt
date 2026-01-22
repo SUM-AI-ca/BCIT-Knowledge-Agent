@@ -1,0 +1,197 @@
+URL: https://www.bcit.ca/outlines/20242063953/
+Course: COMP 2256
+Field: Introduction to Visual Analytics with Tableau
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: April 09, 2024
+End Date: June 25, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): COMP 1002
+CRN: 63953
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Donabel Santos
+E-mail: Instructor to provide
+Location: N/A
+Office Hours: Instructor to provide
+
+## Course Description
+​This hands-on course is designed for database professionals, data analysts, business analysts and managers, who want to analyze and visualize data from a variety of sources. Students begin with a foundation in data visualization techniques and principles. Effective data analysis techniques, and industry standard best practices are discussed. Through hands-on labs, assignments, projects and group work, participants learn how to build insightful and interactive dashboards. Participants learn to present compelling visuals via lab exercises and assignments. Tableau dashboard performance considerations are discussed. Students registered in COMP 2256 will receive a student license for Tableau software for their home machines for the duration of the course and have access to a Tableau subject matter expert with industry experience. This course is an elective in five School of Computing and Academic Studies credential programs; Computer Systems Technology Diploma (CST/PTS), Applied Computer Information Systems (ACIS), Applied Computer Applications (ACA), Applied Database Administration and Design (ADAD) and Technical Writing. COMP 2256 is a requirement for the Applied Data Analytics Certificate (ADAC). A project presentation is required and designed to help the students become better communicators. By the end of this course successful participants will be able to produce highly interactive graphs, reports and dashboards that access and visualize data from a multiple sources. We recommend that students working toward a Computing credential complete COMP 1630 first.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Discuss the increasing importance of analytics and visualization in data prevalent markets.
+- Explain data visualization principles and guidelines for effective analysis and presentation.
+- Describe different Tableau Desktop Interface components.
+- Practice different ways of connecting and integrating data in Tableau Desktop.
+- Create and understand different visualizations using Tableau.
+- Develop compelling and interactive dashboards and stories from multiple worksheets.
+- Incorporate geospatial visualization (maps) in Tableau dashboards.
+- Use basic and advanced calculations in Tableau.
+- Explore Tableau’s statistical functions and forecasting capabilities.
+- Incorporate Tableau filters and highlight parameters for interactivity and usability.
+- Publish Tableau dashboards.
+
+## Learning Resources
+Notes will be provided
+
+## Course Goals
+- Describe visualization best practices
+- Visually explore and analyze data using Tableau as a tool.
+- To create compelling and effective interactive dashboards.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Participation *: 5: In Class/Lecture participation
+Quizzes / In Class Exercises: 10: Exercises/Quizzes as assigned/provided in class. Students will be asked to submit in class work to the Learning Hub
+Online Discussions*: 10: Students are asked to respond to a series of questions in the Learning Hub (https://learn.bcit.ca), they must atttempt and submit each discussion in order to pass the course.
+Assignments / Presentations: 20: Students will need to present their finished assignments in class. Students must present their work in order to get marks for the assignment. Students must atttempt all assignments in order to pass the course.
+Midterm Exam: 25: Students must average a minimum of 50% between the Midterm exam and the Final Project in order to pass the course
+Final Project / Presentation: 30: Students must complete and present a term-long comprehensive visualization project and final report. A minimum of 50% between the Midterm exam and the Final Project/Presentation is required in order to pass the course
+100: Total course passing Grade: 60%
+
+* Participation in groupwork and discussions is mandatory, all excercises and assignments must be completed.
+
+Late assignments will not be accepted for marking unless the student makes arrangements with the instructor before the assignment is due.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+Access to a PC with internet outside of class.
+
+- The system must be capable of running Tableau Desktop Professional (current version).
+- All students are provided with a student license of Tableau Desktop Professional. Tableau's data visualization software is provided through the Tableau for Teaching program.
+- You must also be able to connect to the BCIT online portal the Learning Hub.
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses. It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Note that assignments are a combination of written and practical tasks related to the topics covered to date.
+
+See the Learning Hub for more details and specific deadlines
+
+Week: Discussion Post: Activity
+1
+2: Discussion
+3: Discussion
+4: Discussion: Quiz 1
+5: Discussion: Assignment 1
+6: Discussion
+7: Midterm
+8: Discussion
+9
+10: Assignment 2
+11: Discussion: Quiz 2
+12: Term Project Submission
+
+## Course topics
+Note that lectures will highlight the important topics. Students are responsible for reading the assigned chapters and/or resources.
+
+Reference/reading materials may also be updated as necessary. Additional lecture handouts will be provided on topics where required materials may not be sufficient. Topics listed in Outcome/Material Covered are the emphasized topics only. Material covered for that week may include other topics covered in the assigned reading.
+
+COMP 2256
+Week No: Topic
+1: • Introduction to Visual Analytics and Business Intelligence • Introduction to Visualization, Theory, Different Types of Graphs
+2: • Introduction to Tableau • Terminologies, Basic Visualization, Show Me • Data Connections, Requirements, Shaping Data • Basic Dashboards
+3: • Formatting • Filters
+4: • Basic Calculations • Tableau Functions • Quick Table Calculations
+5: • Advanced Table Calculations • Maps / Geospatial Visualization
+6: • Importance of Storytelling, Case Studies • Dashboards – design, layout, containers, actions
+7: Midterm Exam
+NOTE:: Withdrawal Deadline: Please inform your instructor that you are dropping this course. You must fill out and submit the Request to Withdraw form before week 8 or else you will receive a failing grade on your academic record.
+8: • Parameters
+9: •Joins and Blends •Dealing with Different Data Sources
+10: • Statistics and Forecasting
+Course Evaluation: To be conducted online during week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: • Advanced Charts
+12: Final Project and Presentation: •Final Project and Presentation due
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Donabel Santos, Instructor February 03, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator March 28, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean March 28, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

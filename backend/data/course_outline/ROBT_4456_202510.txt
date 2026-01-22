@@ -1,0 +1,122 @@
+URL: https://www.bcit.ca/outlines/20251079736/
+Course: ROBT 4456
+Field: PLC Applications
+
+School: School of Energy
+Program: Mechatronics and Robotics
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ROBT 3356
+CRN: 79736
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Isaiah Regacho
+E-mail: iregacho@bcit.ca
+Location: SW09-202
+Office Hours: Day Start End Monday 15:30 17:30 Thursday 16:30 17:30 Friday 14:30 15:30 Also by appointment, please email me.: Day: Start: End: Monday: 15:30: 17:30: Thursday: 16:30: 17:30: Friday: 14:30: 15:30
+Day: Start: End
+Monday: 15:30: 17:30
+Thursday: 16:30: 17:30
+Friday: 14:30: 15:30
+
+## Course Description
+Covers the application and programming of a programmable logic controllers (PLC). Topics include a description of the basic components of a PLC system, the fundamentals of ladder diagrams, PLC timers and counters, data manipulation, control and math functions, sequences, human machine interfaces (HMIs), and PLC programming methods. Throughout the course various industrial control examples are used for demonstrating the use of the PLC instructions.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+
+- Describe the architecture of a programmable logic controller (PLC).
+- Describe the scanning sequence and input/output updating.
+- Describe the Allen Bradley ControlLogix project structure.
+- Use tags to address inputs, outputs and memory locations.
+- Interpret schematics that use relay ladder logic.
+- Analyze a process to determine if it is sequential or nonsequential.
+- Write PLC programs using sequencing instructions in ladder logic.
+- Write PLC programs using modular programming techniques based on state diagrams.
+- Implement diagnostic and fault detection techniques.
+- Create human machine interfaces (HMIs) for PLC applications.
+- Connect automation components using various network protocols.
+- Write PLC programs using Sequential Function Charts (SFCs).
+
+## Learning Resources
+Notes will be provided. Recommended:
+
+PLC Programming using RSLogix 5000 Nathan Clark
+
+Programmable Logic Controllers, Rehg, James A., Glenn J. Sartori Programming ControlLogix, Stenserson, Jon
+
+## Evaluation Criteria
+Criteria: %
+Labs: 10
+Lab Quizzes: 30
+Final Project: 30
+Midterm Exam: 15
+Final Exam: 15
+
+## Course Specific Requirements
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices including personal music players, mobile devices (cell phones) and laptops are prohibited.
+
+Lab reports: No late lab reports or projects will be accepted. Lab reports or projects must be done on an individual basis unless otherwise specified by the instructor. Lab attendance is mandatory.
+
+## Other information
+## Course Schedule and Assignments
+Week: Labs: Lecture
+1: No Labs: Ladder Diagrams and the Scan Cycle
+2: Lab 1: Introduction to PLCs: Tags, UDTs and the Seal-In Cicuit
+3: Lab 2: Seal-In Circuit and ONS: Timers and Counters
+4: Lab 3: Timer and Counter: Program Control and Compute Instructions
+5: Lab Quiz #1: Interfacing to Modules
+6: Lab 4: Scan Times and Subroutines: Finite State Machines
+7: No Labs: Midterm Exam
+8: Lab 5: State Machines: Files, Arrays, and Sequencers
+9: Lab 6: Files, Array, and Sequencers: Task Scheduling
+10: No Lab: No Lectures
+11: Lab Quiz #2: Alternative Programming Languages
+12: Lab 7: Tasks and Programs: Add-On Instructions
+13: Lab 8: AOIs and UDTs: Networking and Fieldbuses
+14: Lab 9: Networking: HMIs and New Technologies
+15: Project Demos: No Lectures
+16: --: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Isaiah Regacho, Instructor January 03, 2025
+
+I verify that this course outline has been reviewed. Greg Scutt, Program Head January 06, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean January 08, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,144 @@
+URL: https://www.bcit.ca/outlines/20241013097/
+Course: ELEX 1105
+Field: Circuit Analysis 1
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 13097
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ron Stewart
+E-mail: rstewart67@bcit.ca
+Location
+Office Hours: Mondays, 12:30-1:20Tuesdays, 8:30-9:20 and 12:30-1:20Wednesdays, 10:30 to 11:20Thursdays, 12:30-1:20Note about email: When emailing Faculty and/or other staff, please email from your my.bcit.ca account, which assures us of your identity. Always include your name, course, student number and set. For this course, the subject line must include #ELEX 1105# (including the pound signs).
+
+## Course Description
+This course covers the methods for investigating the behavior of direct current (dc) circuits whose circuit quantities (voltage, current) do not vary with time. The fundamental circuit laws developed by Kirchhoff and Ohm are applied to circuit analyses. Networks comprised of series, parallel, series/parallel and non-series/parallel interconnected branches are analyzed. Specialized circuit analysis methods: Thévenin’s, Norton’s, maximum power transfer, source transformation and superposition are applied to circuits. The application of nodal and mesh analyses to determine all voltages and currents in a circuit is developed. Laboratory sessions relate theory to practice.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe (ii) the relationship of the quantities: voltage, current and resistance to the concepts of: branch, node and loop in a direct current circuit. [1]
+- Use (iii) the power law to find the power supplied or dissipated in a circuit branch. [1, 2]
+- Use (iii) Ohm's Law to relate voltage proportionately to current through a resistor. [1, 2]
+- Use (iii) Kirchhoff's Laws to set up a voltage or current relationship around a loop or at a node in a circuit. [1, 2]
+- Use (iii) analog or digital multimeters to measure voltage, current or resistance in a direct current circuit. [5]
+- Describe (ii) Kirchoff, Norton, Thevinin, and Superposition Laws in DC circuits. [1]
+- Apply (iii) circuit analysis tools including Kirchoff's Law, Thevinin, Norton, and Superposition to calculate voltage & current in a direct current circuit with maximum 4 nodes and 3 loops. [1, 2, 3]
+
+## Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+
+(ii) Comprehension - Students are expected to explain and understand a topic.
+
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+Required:
+
+- The required tools and parts for this course are sold during the first week of the term on campus by the BCIT Student Branch of the Institute of Electrical and Electronics Engineers.
+
+Optional:
+
+- Fundamentals of Electric Circuits (7th Edition), Alexander & Sadiku, McGraw-Hill (electronic or paper format)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab performance and reports: 20: Lab component
+Lab test: 10: Lab component
+Weekly quizzes: 10: Theory component
+Mid-term exams, 10% & 15%: 25: Theory component
+Final exam: 35: Theory component
+
+Successful completion of both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend classes for the full duration of the course. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Absence from more than 10% of the scheduled course hours may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+Laboratories: Laboratory marks are earned in class only. If an illness or emergency situation arises, the instructor and assistant instructor must be contacted as soon as reasonably possible. If absence is recurring, BCIT’s policies regarding medical certificates will apply. Arriving late to a lab session will result in a 20% penalty for that session. Make-up labs may be permitted, but only with the express agreement of both the course instructor and laboratory instructor.
+
+## Course Schedule and Assignments
+Week: Dates: Lectures: Labs
+1: January 4: Introduction.: No lab
+2: Jan 8 - 12: 4 central parameters (V, I, R & P). 4 central laws (Ohm's law, KVL, KCL & P=VI). Schematic diagrams. Circuit components. Simplest circuits.: #1: Introduction to Measurement
+3: Jan 15 - 19: Series circuits. Kirchoff's voltage law. Voltage sources and current sources. Voltage dividers. E12 component values.: #2: Ohm's Law
+4: Jan 22 - 26: Parallel circuits. Kirchhoff's current law. Series/parallel circuits. Special cases.: #3: Series Circuits & Kirchhoff's Voltage Law
+5: Jan 29 - Feb 2: Mid-Term Exam 1. Thevenin equivalent circuits.: #4: Parallel Circuits and Kirchhoff's Current Law
+6: February 5 - 9: Thevenin equivalent circuits (cont). Norton equivalent circuits.: #5: Series/Parallel Circuits
+7: Feb 12 - 16: Regulation. Delta-Wye (Pi-Tee) transformations. Superposition.: #6: Thevenin & Norton Equivalent Circuits
+8: Feb 20 - 23: Mesh analysis.: No lab (Family Day)
+9: Feb 26 - Mar 1: Nodal analysis.: #7: Superposition
+10: March 4 - 8: Mid-Term Exam 2. Loaded voltage dividers.: Open Lab
+11: Mar 11 - 15: Spring break.: Spring break.
+12: Mar 18 - 22: Efficiency. Power sharing with multiple sources. Maximum power transfer theorem.: #8: Loaded Voltage Divider
+13: Mar 25 - 28: Maximum power transfer theorem. Meter loading.: #9: Meter Loading, Set D No labs, Sets A, B & C (Good Friday)
+14: April 2 - 5: Diodes, LEDs & Zener diodes: #9: Meter Loading, Sets A, B & C No lab, Sets D (Easter Monday)
+15: Apr 8 - 12: Final exam review.: #10: Diodes
+16: Apr 15 - 19: Final exams.: Final exams.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ron Stewart, Instructor December 30, 2023
+
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Acting Program Head – Automation & Instrumentation on behalf of Maurice LeNoble, Program Head January 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 07, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

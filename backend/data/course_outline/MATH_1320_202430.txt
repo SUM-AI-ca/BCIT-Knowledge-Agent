@@ -1,0 +1,159 @@
+URL: https://www.bcit.ca/outlines/20243046211/
+Course: MATH 1320
+Field: Mathematics for Computing
+
+School: School of Computing and Academic Studies
+Program: Full-Stack Web Development
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 46211
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Julian Fekety
+E-mail: julian_fekety@bcit.ca
+Location: Burnaby SW02-229
+Office Hours: To be announced by instructor.
+
+## Course Description
+​This course introduces students to discrete mathematics, statistics, and Boolean logic, and applies these mathematical constructs to computer program code. The purpose of this course is twofold: one, introduce students to math that is immediately applicable to their studies and programming for web application development; two, demonstrate to students the importance of these facets of math in their software development and design studies by allowing students to create real-world examples in computer program code that demonstrate the importance of math in computer science.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Build a corresponding truth table for a Boolean expression..
+- Explain how text and graphics are represented inside the computer..
+- Perform arithmetic operations with numbers represented in different number systems (binary, octal, and hexadecimal).
+- Convert from base 10 to and from other bases for number systems including Binary, Hexadecimal, and Octal.
+- Construct and describe finite-state machines using state-transition diagrams.
+- Analyze Big-O notation and how it applies to algorithms.
+- Describe and use graphs and trees.
+- Use algorithms to find a minimum-spanning tree for a graph.
+- Use depth-first search and breadth-first search algorithms.
+- Use basic set theory and counting (inclusion/exclusion principle, pigeonhole principle).
+- Explain basic encryption and decryption techniques, and encrypt and decrypt sample data.
+- Explain the purpose of hashing, and use hashing algorithms to create hashes of sample data.
+- Explain popular statistical study methods learn the positives and negatives of each.
+- Create and interpret histograms, bar charts, and frequency plots.
+- Explain central tendency.
+- Compute and interpret the three measures of center for distributions: mean, median, and mode.
+- Quantify the spread of data using the range and standard deviation.
+- Identify outliers in data sets using the concept of the interquartile range.
+- Convert distributions into the standard normal distribution using the Z-score.
+- Compute proportions using standardized distributions.
+- Use normalized distributions to compute probabilities.
+- Use Z-table or software to look up the proportions of observations above, below, or in between values.
+- Apply the concepts of probability and normalization to sample data sets.
+
+## Learning Resources
+Text(s) and Equipment:
+
+Required:
+
+- A scientific calculator with statistical functions, for instance: CASIO fx-991 EX any Texas Instruments TI 30X model any SHARP EL model
+- CASIO fx-991 EX
+- any Texas Instruments TI 30X model
+- any SHARP EL model
+- Course notes (available to download in the Learning Hub)
+- A laptop meeting the FSWD program requirements
+- Software: R and R Studio. R is free, open-source statistical software and R Studio is the interface. You can download R at https://cran.rstudio.com/ and you can download R Studio at https://www.rstudio.com/products/rstudio/download/. We will only use this for the last half of the course, and advance notice will be given for when you need to download and install it.
+
+References (optional):
+
+- Applied Discrete Structures (open source) https://discretemath.org/ads/index-ads.html
+- Discrete and Combinatorial Mathematics, an Applied Introduction, Ralph P. Grimaldi, Fifth Edition (2018)
+- Introduction to Cryptography with Coding Theory, Wade Trappe & Lawrence C. Washington, 2nd edition, Pearson, 2005 (or more recent edition)
+- Elementary Statistics, Mario F. Triola, 11th edition, Pearson, 2009 (or more recent edition)
+- Introductory Statistics (free from OpenStax) https://openstax.org/details/books/introductory-statistics
+- OpenIntro Statistics https://www.openintro.org/book/os/
+- R project site https://www.r-project.org/about.html
+- R-coder site https://r-coder.com
+
+## Evaluation Criteria
+Criteria: %: Comments
+Online Quizzes: 7.5: To be completed prior to each class session
+Lab Assignments: 7.5
+Lab Quizzes: 20
+Midterm Exam: 25
+Final Exam: 40
+
+Online Quizzes: This course includes mandatory online content, which will be assessed by the online quizzes due before each class meeting. Lack of participation in the online portion of this class may result in failure of the course.
+
+Lab Assignments: During most class sessions students will be expected to work on that week's lab assignment. Lab assignments will be due by the end of the class session and are marked primarily for completion on a 0, 1, 2 scale. A score of 2 corresponds to complete. A score of 1 indicates incomplete, but with at least 50% complete. A score of 0 indicates less than 50% of the work was completed.
+
+Lab Quizzes: At the start of most classes there will be a short (20-30 minute) quiz based on the previous week's content.
+
+## Attendance Requirements
+This course includes mandatory online activities and content. Lack of participation in the online portion of this class may result in failure of the course.
+
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Other information
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However, unless stated otherwise, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other sources.
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Course Schedule and Assignments
+Note that this schedule is subject to change at the instructor's discretion
+
+Week: Topic(s): Major Assessment
+1 - Sep 4-6: Positional Number Systems: binary, octal, hexadecimal, arithmetics in different number systems
+2 - Sep 9-13: Set Theory: set operations, Venn diagrams, inclusion/exclusion principle
+3 - Sep 16-20: Boolean Algebra: logical operators, derived operators, truth tables, proving equivalences
+4 - Sep 23-27: Finite State Machines: state-transition diagrams, transition tables
+5 - Sep 30 Oct 4: Graphs & Trees: terminology and notation, counting theorems, breadth-first search, depth-first search
+6 - Oct 7-11: Hashing: terminology and notation, modular arithmetic, cryptographic hash functions
+7 - Oct 14-18: Data Encryption: terminology, classic ciphers, Diffie-Helman key exchange, RSA cryptography
+8 - Oct 21-25: Midterm Exam
+9 - Oct 28-Nov 1: Statistics: graphical methods, histograms, boxplots, bar charts, misuses of statistics
+10 - Nov 4-8: Statistics: numerical summaries, measures of central tendency, measures of spread, skew, Chebyshev's theorem, empirical rule, identifying outliers
+11 - Nov 11-15: Introduction to Probability: terminology for probability, permutations, combinations, pigeonhole principle, law of large numbers
+12 - Nov 18-22: Probability Rules: addition rule, multiplication rule, conditional probability, reliability
+13 - Nov 25-29: Probability Distributions: discrete distributions, continuous distributions (uniform, normal and standard normal)
+14 - Dec 2-6: Review
+15: Final Exam
+
+*Note: Most weeks without a Major Assessment will have an Online Quiz, a Lab Quiz, and a Lab Assignment.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Julian Fekety, Instructor September 05, 2024
+
+I verify that this course outline has been reviewed. David Holloway, Program Head September 05, 2024
+
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head September 05, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean September 06, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

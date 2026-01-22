@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/interactive-and-responsive-mobile-applications-comp-8031/
+Title: Interactive and Responsive Mobile Applications
+Field: Computer Systems
+Type: Course
+Course Code: COMP 8031
+
+================================================================================
+
+## Overview
+
+This course teaches techniques to measure and improve usability, accessibility, performance and scalability of mobile applications. Tools available through IDEs (Integrated Development Environments) such as the Android Studio are utilized or repurposed to setup testbeds to measure these quality attributes. Impact of modalities, in addition to multitouch, in improving user interaction with the mobile applications is studied. Development of custom layouts, UI components and animation are explored to enhance usability and accessibility. Mobile applications that record, transport, stream and playback rich media, render 2D/3D graphics/animation and augmented reality, store and process large quantities of data locally and schedule tasks with strict deadlines are developed and executed on Android smartphones and tablets with varying form factors as well as wireless networks with varying channel conditions to locate performance and scalability bottlenecks. Strategies to alleviate identified performance and scalability bottlenecks are implemented. These include fine tuning data Input/Output, rendering pipelines and storage structures; exploring opportunities for parallel processing that take advantage of multicore CPUs available on mobile platforms; and adaptive GUI design.
+
+## Credits
+
+3.0
+
+## Cost
+
+$852.98
+
+## Prerequisites
+
+- 60% in COMP 7031
+
+## Learning Outcomes
+
+- Setup testbeds to assess usability and accessibility of a mobile application.
+- Setup testbeds to benchmark performance of a mobile application.
+- Setup testbeds to load test a mobile application to model its scalability.
+- Improve user interaction with the mobile app by incorporating multimodality and adding custom layouts, UI components and animation.
+- Fine tune network I/O to scale throughput of mobile applications that transport rich media content to varying network conditions.
+- Create scalable data storage in mobile applications by fine tune data I/O, data models and storage structures.
+- Introduce parallel processing in mobile applications to take advantage of multicore CPUs available on smartphone platforms to schedule tasks with tight deadlines and timely completion of CPU intensive processing.
+- Fine tune rendering pipelines in mobile applications to meet the performance requirements of playback of rich media, 2D/3D graphics and animation, and Augmented Reality.
+
+## Related Programs
+
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)

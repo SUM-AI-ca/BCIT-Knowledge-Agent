@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20251083965/
+Course: ELEX 4206
+Field: Industrial Data Communications
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): ELEX 1103 and ELEX 2117 and ELEX 3215† († may be taken concurrently)
+CRN: 83965
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Umme Salsabil
+E-mail: usalsabil@bcit.ca
+Location: SW03-2065
+Office Hours: Available by appointment as requested. Monday 12.30 – 1.30, 2.30 - 4.30 Tuesday 1.30 – 2.30 Thursday 2.30 – 3.30
+
+## Course Description
+​This course provides a foundation in industrial data communications as it relates to industrial control systems (ICS). The first half of this course builds on outcomes in ELEX 1103 for TCP/IP over Ethernet and is based on the concepts, media and topologies, and installation and configuration domains of industrial networks. The second half of this course studies specific industrial networks and fieldbuses with an emphasis on their application in ICS and supervisory control and data acquisition (SCADA) systems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe the difference between LANs, WANs and the Internet.
+- Contrast the OSI and TCP/IP models.
+- Describe the characteristics of wired, fiber-optic and wireless media.
+- Explain Ethernet technology and the address resolution protocol (ARP).
+- Explain the TCP/IP internet layer protocol used for routing.
+- Compare IPv4 and IPv6 packets and addressing.
+- Subnet a simple IPv4 network.
+- Contrast the TCP and UDP transport layer protocols.
+- Explain common TCP/IP application layer protocols and services.
+- Configure a Cisco IOS device.
+- Explain the differences between ICS and Business networks.
+- Describe the differences between commercial and industrial Ethernet networking equipment and applications.
+- Integrate common serial interfaces and industrial network communication protocols into industrial networks.
+
+## Learning Resources
+- Lecture Notes, Slides and Lab Activities will be provided
+
+## Evaluation Criteria
+Theory: Quiz: 15%
+Midterm: 20%
+Final: 35%
+Lab: Lab Report: 30%
+Lab Exam
+
+## Attendance Requirements
+Attendance in class is mandatory.
+
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor indicating the reason for the absence.
+
+Prolonged illness which causes the student to miss 10% or more of the lectures and labs will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Unapproved absence of 10% or more of the lectures and labs may result in failure or forced withdrawal from this course.
+
+Laboratories
+
+Participation in all laboratory sessions is required and will be checked. If an illness or emergency arises the instructor and assistant instructor must be contacted as soon as reasonably possible. It may be possible to attend a different lab session but make up lab sessions are not available. If absence is recurring, BCIT’s policies regarding medical certificates will apply.
+
+Makeup Test, Exams or Quizzes
+
+There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks for the work missed. Exceptions may be made for extenuating circumstances or for medical reasons according to departmental policy and documented by a BCIT Student Medical Certificate (https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf). In such a case, it is the responsibility of the student to inform one of the course instructors immediately. Note that exceptions will not be made for personal events such as vacations, weddings, or travel arrangements.
+
+## Course Schedule and Assignments
+Week: Lecture Topic(s): Labs
+1: Introduction to Networking: NO LABS
+2: Wired Ethernet: NO LABS
+3: Wired Ethernet: Network Cabling & Utilities
+4: The Internet Layer: Network Cabling & Utilities (2)
+5: IPv4 Routing: Cisco ISR and IOS
+6: IPv4 Subnetting: Ethernet Switching
+7: Transport Layer /Application Layer: IPv4 Subnetting
+8: IPv6 /Asynch. Serial / MIDTERM: IPv4 Routing
+9: Asynch. Serial: SCADA & HMI
+10: Industrial Control Systems: Exploring ICS Packet Capture and Scanning ICS
+11: Interface /Modbus Serial Modbus TCP /Modulation / Wired HART: Modbus
+12: BAcnet: BACnet
+13: Other Industrial Protocol: Practice
+14: Wired HART /Wireless HART: Lab exam
+15: Review
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Umme Salsabil, Program Head January 12, 2025
+
+I verify that this course outline has been reviewed. Remya Sreenath, Program Head January 13, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 20, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

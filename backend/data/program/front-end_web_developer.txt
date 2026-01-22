@@ -1,0 +1,235 @@
+URL: https://www.bcit.ca/programs/front-end-web-developer-certificate-full-time-6535cert/
+
+Title: Front-End Web Developer
+
+================================================================================
+
+## Overview
+
+Delivery
+
+blended
+
+Overview text
+
+Apply now for April See the Program Details to learn more about what to expect from FWD, and how to prepare for a career in web development. If any of these sound like you, please check the Entrance Requirements to ensure you can apply and start your new web developer career path! When you graduate, you’ll be ready to launch your career in web development with a professional portfolio that showcases the real-world projects you’ve built throughout the program. Your new skills and experience can lead to roles such as: You’ll also be equipped to take on freelance clients or even start your own web development business, building websites for small businesses or collaborating with agencies. Visit the Graduating and Jobs page to discover five compelling reasons to become a Front-End Web Developer.
+
+
+
+## Courses
+
+Class hours
+
+9:30 am to 4:00 pm, Monday - Friday (excluding statutory holidays).
+
+### Required Courses:
+
+FWDP 1000 - Web Development 1
+
+Outline URL: https://www.bcit.ca/outlines/fwdp1000/
+
+Credits: 4.0
+
+Description: This course introduces the BCIT resources and systems used in the program, including the lab environment, policies, and file storage/retrieval. Students will learn the basics of front-end web development, code management, and the tools of web design. Course topics and activities include a review of the web in general, how it works from the internet layer to the application layer, and how to create basic multi-page websites. Students will register a domain name, secure their own commercial web space and learn to operate basic web services including content transfer and admin features. Students will also review the latest versions of Hyper Text Markup Language (HTML) and CSS (Cascading Styles Sheets). Learning will focus on web standards as outlined by the World Wide Web Consortium (W3C), hand coding HTML, and use of CSS to control overall hierarchy structure, functionality, layout, and appearance of websites while creating modern, standards-compliant, semantic and accessible markup for a website. Evaluation will include assignments.
+
+Prerequisites: No prerequisites are required for this course.
+
+FWDP 1100 - Web Design Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/fwdp1100/
+
+Credits: 2.0
+
+Description: This course covers the theory and best practices of web design fundamentals. Topics include screen-design principles; web layout and design; digital colour theory; typography fundamentals; image and web graphics sourcing, handling and copyright. Students will learn the best practices in creating designs for responsive web sites that adapt to different screen sizes using the fundamental design and usability principles for layout, such as visual hierarchy, colours, fonts, readability, proportions, alignments, and white space. In this class, students will explore in detail the differences between raster and vector graphics and basic techniques suitable for digital image creation, manipulation, and management. Students will develop practical skills will be developed in how to colour correct, resize, and resample images as well as how to use transparency settings and automate the resizing and saving of large numbers of images for the web. Evaluation will include lab assignments.
+
+Prerequisites: No prerequisites are required for this course.
+
+FWDP 1200 - UX Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/fwdp1200/
+
+Credits: 2.0
+
+Description: User Experience (UX) plays a critical role in the success of products and services. This course will focus on the theory of website UX planning, the design process, and the integration of UX into the web design and development process. Students will learn the fundamentals of defining requirements, creating information architecture, and evaluating solutions using usability testing techniques. This course will use a combination of lectures, in-class discussions, hands-on exercises, group work, and tool demonstrations. Evaluation will include a combination of group and individual assignments.
+
+Prerequisites: No prerequisites are required for this course.
+
+FWDP 1400 - Web Scripting 1
+
+Outline URL: https://www.bcit.ca/outlines/fwdp1400/
+
+Credits: 5.0
+
+Description: Modern web sites and applications demand dynamically and constantly updated content and interactive user interfaces. This course introduces the JavaScript programming language as well as foundational programming concepts to provide the services and features that industry demands. Students will be introduced to general computer programming concepts such as variables, conditional statements, loops, functions, objects and classes. By applying these basic programming concepts students will explore the development of interactive web experiences such as slide shows, animated navigation systems, tabs, accordions, lightboxes and other common web widgets. Manipulating and traversing an HTML document with JavaScript using the browser's DOM API will also be discussed.
+
+Prerequisites: No prerequisites are required for this course.
+
+FWDP 2000 - Web Development 2
+
+Outline URL: https://www.bcit.ca/outlines/fwdp2000/
+
+Credits: 4.0
+
+Description: This course explores advanced mobile-first responsive layout techniques and team-based web development process techniques. Students will develop an understanding of web development processes as part of a team of developers and project stake holders and will review modern CSS which provides a multitude of tools for creating advanced mobile-first responsive layouts. Practical applications will be demonstrated and reviewed including creating animated user interfaces using standards compliant HTML and CSS. Sharing and version controlling code, automating tasks using task runners and improving CSS development using the latest CSS pre-processors will be discussed and practiced. The web development process will include publishing a finished website for public consumption as a major step. Evaluation will include lab assignments and projects.
+
+Prerequisites: FWDP 1000
+
+FWDP 2200 - Web Design Process
+
+Outline URL: https://www.bcit.ca/outlines/fwdp2200/
+
+Credits: 3.0
+
+Description: Web design is, at its essence, creating information user experiences to communicate a message to an online audience. This course focuses on a critical step for designers and developers when they make decisions related to creating and developing a website: considering the people who use the website. In preparation for the Web Portfolio and the Capstone Project courses, students will integrate the learned web design and user experience (UX) fundamentals from previous courses to develop the mindset of considering the end user in the web design process. Evaluation will include team and individual assignments.
+
+Prerequisites: FWDP 1100
+
+FWDP 2300 - Managing Web Projects
+
+Outline URL: https://www.bcit.ca/outlines/fwdp2300/
+
+Credits: 1.0
+
+Description: This course is an overview of common project management concepts which will be applied to the collaborative projects in the later courses. The course includes the basic concepts of web project management, teamwork, and an introduction to popular project management software applications used in the web development field. Students will apply their knowledge and skills as well as appropriate tools and techniques to project activities to meet project requirements in later courses. Students will engage in project planning, identify project stakeholders, define the roles and responsibilities of the team, define project scope, devise risk and quality plans, map out schedules, and learn about time tracking and documentation. Evaluation will include in-class assignments.
+
+Prerequisites: FWDP 1000
+
+FWDP 2400 - Web Scripting 2
+
+Outline URL: https://www.bcit.ca/outlines/fwdp2400/
+
+Credits: 5.0
+
+Description: This course shifts the focus from client-side to server-side programming utilizing PHP and MySQL. An introduction to PHP fundamentals and the role it plays in generating dynamic websites will be covered. Students will explore the differences between client-side and server-side scripting, learning to identify when scripting solutions are appropriate. They will apply basic scripting techniques, write and use functions, validate HTML forms, utilize regular expressions, and implement cookie management and session handling. Additionally, students will learn to design and implement relational databases using MySQL, write basic SQL queries for data manipulation, and use PHP to interact with and manage databases. Evaluation will include assignments and a project.
+
+Prerequisites: FWDP 1000
+
+FWDP 3400 - Web Scripting 3
+
+Outline URL: https://www.bcit.ca/outlines/fwdp3400/
+
+Credits: 4.0
+
+Description: The Web Scripting 3 course introduces students to JavaScript-based web application development. The course explores setting up and developing a web application using modern JavaScript build systems. Students will learn how to implement modern coding methodologies available in JavaScript such as modules and classes. Application state management will be explored in detail along with routing, validating user data and styling modules. Utilizing foundational JavaScript skills and modern JavaScript coding and build system techniques, students will explore developing and deploying full-featured web applications.
+
+Prerequisites: FWDP 1000 and FWDP 1400
+
+FWDP 3600 - Content Management Systems
+
+Outline URL: https://www.bcit.ca/outlines/fwdp3600/
+
+Credits: 5.0
+
+Description: This course covers the fundamental features of dynamic websites and the creation of custom-coded websites built with a Content Management System (CMS). Students will learn the basics of dynamic websites, how they are used to create a CMS, and how to work with a CMS to build websites. Students will create, configure, and migrate websites built using a CMS. Once they understand the basic features, students will create custom code to extend functionality, edit and create templates, and build a basic web app or website on a CMS. To prepare them for their Capstone Project, students will also create a development plan for a mock client website. Evaluation will include lab assignments and projects.
+
+Prerequisites: FWDP 2000 and FWDP 1400 and FWDP 2400
+
+FWDP 3700 - Online Stores
+
+Outline URL: https://www.bcit.ca/outlines/fwdp3700/
+
+Credits: 2.0
+
+Description: This course focuses on the multiple platforms and solutions that can be used to create and launch an online store. These include open source and Software as a Service (SaaS) platforms to provide a foundation for work with e-commerce solutions Course topics include all stages of the preparation, configuration, and setup of a secure online store. Students will determine the appropriate tools necessary to configure and securely operate an online store for various products and services. Learners will then review tool features, configure settings for product samples, price options, and manage shipping options. Students will also learn and use the relevant templating or theming languages and methods to customize the design, layout, and functionality of their online store and further customize functionality using extensions. Once the store is set up, students will use best practices to secure the store, connect payment gateways, and test the payment process to complete the entire e-commerce purchasing process. Evaluation will include assignments.
+
+Prerequisites: FWDP 3600
+
+FWDP 4000 - Web Portfolio Project
+
+Outline URL: https://www.bcit.ca/outlines/fwdp4000/
+
+Credits: 4.0
+
+Description: The focus of this course is to plan a front-end web development-related career, and at the same time, prepare to showcase a body of digital work created in and outside the program. This includes personal and professional development designed to support career success. Students will research trends, employment, and entrepreneurship to create a career plan. They will also create a fully functional, publicly accessible, professional-level portfolio website based on after-program career goals and industry expectations. At the end of the course project, students will have a portfolio website that demonstrates their skills using HTML5, CSS, JavaScript, JavaScript frameworks, and optionally server-side programming and/or content management systems. Students will also develop their personal brand, create a competitive resume and cover letter and learn advanced interview skills. Evaluation will include the project and workshop participation.
+
+Prerequisites: FWDP 1000 and FWDP 2200
+
+FWDP 4500 - Capstone Project
+
+Outline URL: https://www.bcit.ca/outlines/fwdp4500/
+
+Credits: 9.0
+
+Description: This course is the culmination of the knowledge and learning in the Front-End Web Development program and the practical application and development of skills gained in earlier courses. This course will introduce students to the professional practice of working on a small web development team to build a mid-sized custom dynamic website. Throughout the supervised project, students will use industry best practices to develop a website based on specific business and functional requirements. To manage their tasks and meet deadlines, students will work collaboratively using communication and management tools common in the industry. All teams will have scheduled meetings with the instructor to track their progress and will present tutorials to the class on topics they research during their projects. Evaluation will be based on the project. Evaluation will be based on the project.
+
+Prerequisites: FWDP 2000 and FWDP 2200 and FWDP 2400 and FWDP 3600 and FWDP 3700
+
+
+
+## Entrance Requirements
+
+Application processing
+
+Applications are accepted during the following periods: *or next business day Intakes may fill before the deadline. Applications are considered for a specific intake.
+
+Entrance requirements
+
+Applicants must meet the following entrance requirement and will be accepted on a first-qualified basis as long as space remains: Read more about how to meet BCIT’s entrance requirements English language proficiency: Category 3 – English Studies 12 (50%) or equivalent
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+April and September/October (TBA) each year. Please see the program overview for precise dates.
+
+
+
+## Costs & Supplies
+
+introduction
+
+Learn about BCIT entrance awards , including support for Indigenous students entering computing programs.
+
+Tuition fees
+
+Use our tuition estimator to find tuition and fees for this program. For more information on full-time tuition and fees, visit: Full-Time Studies Tuition & Fees International Tuition & Fees
+
+Books & supplies
+
+Tuition fees include classroom materials and all required software. Students are required to bring in their own laptop to class each day. Please refer to the Laptop Specifications [PDF] for requirements. The instructions on installing the software on your computer will be provided on the first day of class. Laptop costs vary depending on the configuration chosen but will likely range from approximately $1000 to $2000.
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+introduction
+
+The front-end web developer program prides itself on teaching the skills necessary to start a career as a front-end web developer. Our curriculum evolves with industry demands, ensuring you’re always learning the skills that employers value most. At the core of every web page are two key technologies: HTML, which structures the content, and CSS, which styles its appearance. You’ll learn the fundamentals of semantic HTML to follow best practices for accessibility and search engine optimization (SEO). Using the knowledge and best practices learned from their design and UX courses, you’ll learn how to style websites using CSS to build user-friendly websites. The first programming language you’ll learn is the one that adds interactivity to websites and web apps: JavaScript. After learning the fundamentals of JavaScript, you’ll learn more advanced JavaScript with React, the most popular JavaScript framework, to build advanced web applications utilizing APIs to populate dynamic content. Some websites just work — they’re intuitive, easy to navigate, and visually appealing. That’s the power of a great user experience . It is why UX/UI is a critical component in creating successful websites and applications. You’ll learn the foundations of UX — how to define user requirements, design effective information architecture, and evaluate solutions through usability testing. The program emphasizes both the theory and practical application of UX. To bring interfaces to life, you’ll also explore graphic design principles and gain hands-on experience with industry-standard tools like Photoshop, Illustrator, Adobe XD, and Figma. To build dynamic, data-driven websites, front-end developers need to understand how the front end communicates with servers and databases. That’s where PHP and MySQL come in. PHP is a server-side language used on over 70% of all websites. MySQL is the most common database management system on the web. These skills, which are covered in the program, can lead to becoming a full-stack web developer should you choose that path. As AI tools become increasingly integrated into the web development workflow, they’re proving to be valuable assets for boosting development efficiency and accelerating learning. In the Front-End Web Developer program, you’re guided in using AI tools effectively for web development — learning how to leverage them for learning, while understanding their boundaries, limitations, and ethical concerns. Through hands-on practice, learners will use AI models and agents, such as ChatGPT, Copilot, Gemini, and Claude, to enhance their development skills and productivity. For example: Despite what you may have heard, AI models are not a replacement for a developer. Instead, they are tools to improve development efficiency. They require human input at the start and human verification at the end. AI models are productivity tools that lack creativity, empathy, judgment and the ability to know if what they suggest even works! Skilled developers remain essential for designing and evaluating development solutions that meet user needs. The human touch remains at the core of front-end web development. See also the interview we had with faculty Jonathon Leathers about how artificial intelligence is reshaping the profession – and what that means for students, employers, and the future of the web . Web development isn’t just about writing code — it’s also about using the right tools to work efficiently and professionally. You’ll gain experience with the essential tools that modern developers rely on to build, test, and manage websites and web applications, and will learn how to: By the end of the program, you’ll be comfortable using the tools and workflows that are standard in the web development industry. You’ll learn how to create custom WordPress themes and plugins to practice building websites for businesses while learning the fundamentals of a CMS. Over 40% of all websites on the internet use WordPress as their content management system (CMS), and the Front-end Web Developer program teaches custom WordPress development to meet this demand. After learning how to build websites with a CMS, you’ll take it a step further to learn how to build online stores using the two most popular platforms: Shopify and WooCommerce. While web developers typically don’t begin their careers as project managers, they are often part of collaborative teams working on a variety of projects. In this program, you’ll gain an understanding of common project management processes and methodologies — including waterfall and agile — that are widely used in the web development field. This foundational knowledge helps you contribute effectively to team-based projects and understand how development work fits into the broader project lifecycle. Towards the end of the program, you’ll focus on planning a career in front-end web development. You’re helped to build a compelling resume and LinkedIn profile and prepare to showcase a body of digital work created both in and outside the classroom. Through guided research, you’ll explore industry trends, employment opportunities, and entrepreneurial paths to develop a personalized career plan. As part of this process, they also create a fully functional, professional-level portfolio website — a public showcase of their skills, aligned with their career goals and industry expectations. The final course in the program is a team-based project where you’ll apply the full range of skills you’ve developed — from user experience and interface design to development and project management. Working in teams, you’ll build a website for a specific business of their choosing. This Capstone Project replicates a real-world web development scenario, focusing on meeting client needs through a custom website or online store. The Front-End Web Developer program uses a hands-on and project-based approach to learning. There are no exams. Instead, you’ll complete assignments, solo projects, and team projects that mimic web development projects they will encounter in their careers. Because employers are looking for individuals with technical and communication skills, you’ll learn how to work effectively in a team by utilizing best practices for project management and communication. Building a strong professional network is just as important as building technical skills. In FWD, you’ll have opportunities to connect with classmates, alumni, and industry professionals, forming relationships that can lead to mentorship, collaboration, and career opportunities. You’ll also learn where to find and how to engage with online and local tech communities, meetups, and professional groups.
+
+Program length
+
+28 weeks, full-time.
+
+Grading
+
+Students must obtain a minimum of 65% in each course in order to proceed to the next course. All courses must be passed in order to qualify for the final capstone project.
+
+Program delivery
+
+Blended: This program is delivered partly on campus and partly online. Students will have the choice of either physically attending class or participating online. For instance, if class starts at 9:30 am, the instructor will be in class teaching and will also be available live online to those who opt to participate remotely. This program is run as a cohort model with instruction in the morning and mandatory labs in the afternoon.
+
+Program location
+
+Distance and online learning
+
+
+
+## Graduating & Jobs
+
+introduction
+
+Graduates will find careers in a variety of industries including business, finance, government, health, information technology, telecommunications and independent consulting. Depending on previous academic and work experience, career paths for graduates may include but are not limited to:
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Front-End Web Developer

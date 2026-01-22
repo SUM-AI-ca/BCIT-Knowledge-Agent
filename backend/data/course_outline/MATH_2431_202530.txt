@@ -1,0 +1,177 @@
+URL: https://www.bcit.ca/outlines/20253030619/
+Course: MATH 2431
+Field: Calculus for Electronics                                                                            
+
+School: School of Computing and Academic Studies
+Program: Electrical and Computer Engineering Technology
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): 50% in MATH 1431
+CRN: 30619
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Seyyed Hosseini
+E-mail: seyyed_hosseini@bcit.ca
+Location: SW02-217
+Office Hours: TBA
+
+## Course Description
+This course covers differentiation and integration with applications to electronics, electrical engineering and physics. The derivative and rules of differentiation are discussed. Differentiation of polynomial, trigonometric, exponential, logarithmic, composite and implicit functions is considered. The rules of differentiation are applied to related rate problems, max/min problems, differentials and the Taylor series. Indefinite and definite integrals are introduced and applied to circuit problems and to calculations of area, average value and rms value. Various analytical and numerical integration techniques, including change of variables, integration by parts, table lookup, numerical integration and partial fractions, are addressed. The trigonometric Fourier series and line spectrum are discussed.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply (iii) techniques of integration and differentiation to functions commonly encountered in electronics including trigonometric, logarithmic, exponential and polynomial functions. [1]
+- Use (ii) differential calculus as a tool for calculating and comparing rates of change for locating extreme values of a function, estimating change in a function and approximating a function. [1]
+- Evaluate (iii) the indefinite and definite integral of a function including change of variables, integration by parts, table lookup, numerical integration and partial fractions. [1]
+- Use (iii) integral and differential calculus to solve simple differential equations such as RLC circuits and simple kinematics. [1,2]
+- Calculate (iii) the average and rms value of a time‐varying, periodic current or voltage waveform such as pulses and sawtooth to determine the average power dissipated in a circuit. [1,2]
+- Explain (ii) the trigonometric Fourier series and how any waveform can be constructed by adding sin waves with different frequencies. [1]
+- Calculate (iii) the Fourier coefficients for various periodic waveforms to determine the strength of higher frequency harmonics. [1]
+
+## Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+
+(ii) Comprehension - Students are expected to explain and understand a topic.
+
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+Text(s) and Equipment:
+
+Calculator
+
+You require a scientific calculator with trigonometric, logarithmic and exponential functions, rectangular to polar conversion, and complex number arithmetic. Additional calculator features such as simultaneous equation solving and graphing capabilities would be helpful but will not be formally required in this course.
+
+Recommended Text
+
+- Calculus for Electrical Technology (Book 2), Eric Hiob.
+
+Reference Texts:
+
+- Calculus for Electronics, A.E. Richmond and Gary W. Hecht, McGraw-Hill Publ.
+- Calculus : Early Transcendentals, James Stewart, Brooks/Cole Publ.
+- Calculus for Engineering Technology, Walter R. Blakely, Wiley Publ.
+- Basic Technical Mathematics with Calculus, A.J. Washington, Benjamin Publ.
+- Technical Mathematics with Calculus, Paul Calter, Prentice Hall Publ.
+
+## Evaluation Criteria
+Criteria: %: Date
+Term Test (2): 36: Oct. 15th Nov. 12th
+Quizzes (4): 16: Will be announced
+Homework/Participation: 8
+Final Exam: 40
+
+Comments: Minimum passing grade for this course is 50%.
+
+## Attendance Requirements
+Participation will be considered into the 8% participation/homework/tutorial/mini quizzes mark.
+
+## Course Specific Requirements
+Makeup Test, Exams or Quizzes:
+
+There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT “Student Medical Certificate” (BCIT Policy 5101). In such a case, it is the responsibility of the student to inform the course instructor immediately.
+
+Course Credit:
+
+Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+I.D. Required in Examination Centres: In order to write exams, students will be required to produce photo identification at examination centres. Photo I.D. must be placed on the desk and must remain in view on the desk while writing the exam, for inspection by invigilators. Students should bring a myBCIT student ID card or alternatively two pieces of identification, one of which must be government photo I.D. such as a driver’s licence. Please see BCIT Policy #5300, Formal Invigilation Procedures.
+
+## Other information
+This document is intended to be a guideline only. Unforeseeable circumstances may necessitate the alteration of sequencing, timing or evaluation. As much as is possible, adequate notice of any such changes will be given.
+
+## Course Schedule and Assignments
+Problem Sets in the book as well as extra problems will be assigned and uploaded on Learning Hub on a weekly basis throughout the term. Selected problems from each Problem Set will be solved in detail in the labs (i.e. tutorials). Problem Sets will provide practice both with theoretical foundations and with many electronics, physics and engineering related applications. Students are expected to solve the assigned problems and are responsible for all of the material covered in the Problem Sets and in the lectures. Exam and quiz questions will often be of a similar type and caliber to those found in the Problem Sets and to those discussed in the lectures.
+
+## Course topics
+Weeks: Number of lectures: Topics: Reference/Chapter
+1,2: 5: Introduction to derivative and the rules of differentiation, Implicit differentiation: Chapters 1 and 2
+3,4: 6: Applications of derivatives: Circuit applications, Max/Min problems, curve sketching, waveform differentiation: Chapter 3 (3.1 to 3.7)
+4: 2: Related rates, differentials: 3.5, Chapter 4
+5: 3: Derivative of special functions: Chapter 7
+6: 4: Derivative of special functions: Chapter 7
+7,8: 5: Anti derivative, waveform integration: Chapter 5
+8,9: 6: Definite integrals: Chapter 6
+10,11: 5: Integration techniques: Chapter 8
+11: 2: PFD: 8.6
+12: 4: PFD: 8.6
+13: 4: Fourier Series: Chapter 10
+14: 3: Fourier Series, Review
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Seyyed Hosseini, Faculty August 26, 2025
+
+I verify that this course outline has been reviewed. Andrew McConnell, Faculty August 27, 2025
+
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Acting Program Head – Automation & Instrumentation August 27, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean August 27, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

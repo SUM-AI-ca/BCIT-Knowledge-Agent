@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/fundamentals-of-cybersecurity-data-analysis-xinc-2140/
+Title: Fundamentals of Cybersecurity Data Analysis
+Field: Cybersecurity Professionals Microcredentials
+Type: Course
+Course Code: XINC 2140
+
+================================================================================
+
+## Overview
+
+This badge with introducing students to a Security Information and Event Management (SIEM) system. Students will learn to a SIEM to identify attacks against an organization's network. Students will evaluate alerts and determine the level of threat facing an organization. Students will drill down into alerts to determine other relevant information about an attack including whether other hosts on the network were compromised by the attack. After examining various network attacks students will work with an incident response model to respond to and mitigate attacks.
+
+## Credits
+
+2.0
+
+## Cost
+
+$444.61
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Use network monitoring tools to identify attacks against network protocols and services
+- Evaluate network security alerts
+- Analyze network intrusion information to identify compromised hosts
+- Apply incident response models to manage security incidents
+
+## Related Programs
+
+- Cybersecurity Operations

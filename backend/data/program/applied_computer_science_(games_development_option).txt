@@ -1,0 +1,343 @@
+URL: https://www.bcit.ca/programs/applied-computer-science-games-development-option-bachelor-of-science-full-time-867absc/
+
+Title: Applied Computer Science (Games Development Option)
+
+================================================================================
+
+## Overview
+
+Delivery
+
+in person
+
+Overview text
+
+The Games Development option integrates theory and practice, fostering critical thinking, problem-solving, and creativity. It is designed to equip you with the critical skills to succeed in the fast-paced and rapidly growing gaming industry. All tools and frameworks are put to practical use in developing, testing, and managing game applications, culminating in a major project showcasing students’ skills. See the Program Details to learn more about what you can expect from BScACS and how you can prepare for a career in Computing. This program might be for you if you: If any of these sound like you, please check the Entrance Requirements to ensure you can apply and start your new Computing career! By earning your BCIT Degree, you’ll be honing your computing skills and mastering industry-recognized technologies. You’ll have developed highly marketable and transferable skills, giving you the flexibility to pursue careers in game development and other areas of software development, such as computer programming or software engineering. Vancouver is home to over 170 game development studios, from industry giants to indies with one title. And you also have the option to continue your education, including by applying to the BCIT Master of Science in Applied Computing . Learn more about future opportunities on the Graduating and Jobs page .
+
+
+
+## Courses
+
+Introduction
+
+The Bachelor of Science in Applied Computer Science (Games Development) curriculum has been revised effective for the September 2023 intake. Students who began the program under Bachelor of Technology in Computer Systems (Games Development) prior to September 2023 should refer to the September 2022 cohort matrix [PDF] .
+
+### Level 5 (15 weeks)
+
+COMP 7035 - Operating Systems
+
+Outline URL: https://www.bcit.ca/outlines/comp7035/
+
+Credits: 3.0
+
+Description: This course is focused on advanced concepts in operating systems: inter-process communication, inter-core synchronization, memory organization and management, virtual memory, uniprocessor and multiprocessor scheduling, input/output management, modern storage strategies, file management and security. Concepts of processes and threads, inter-process communication, concurrency and synchronization will be discussed. Students will learn about the design of operating system structures and related algorithms and policies with a focus on performance and optimization. For example: placement and replacement memory algorithms, scheduling algorithms, resident set management and load control theories. The course will include an introduction to virtualization. To illustrate the concepts, each topic will include examples of real life design choices used in modern operating systems (e.g., UNIX, Linux, Windows, and Android).
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 7051 - Introduction to Computer Games Development
+
+Outline URL: https://www.bcit.ca/outlines/comp7051/
+
+Credits: 3.0
+
+Description: This course provides students with an introduction to games development. The focus in this course is to create a number of games using available industry tools such as Unity3D. Students will complete small game assignments as a well as a larger game as part of a team development environment. The course will cover topics including basic game design, 2D and 3D rendering and modelling, basic audio, input devices (Controllers, Keyboard, Mice), storage and networking. The emphasis will be on basic game design, simple game architectures and basic game project scoping and management.
+
+Prerequisites: COMP 7903†(†may be taken concurrently)Acceptance into the Bachelor of Science in Applied Computer Science program.
+
+COMP 7082 - Software Engineering
+
+Outline URL: https://www.bcit.ca/outlines/comp7082/
+
+Credits: 3.0
+
+Description: This course offers a comprehensive overview of software engineering issues: software development methodologies, software requirements analysis, functional and non-functional requirements, software architecture, design principles and paradigms, and quality assurance. Students will learn how to apply principles, use the most adequate strategies and tools, and assure quality during the entire software development cycle.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+COMP 7903 - Games Design Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/comp7903/
+
+Credits: 3.0
+
+Description: In this course students will learn concepts and processes of game design and will study human nature in order to create meaningful and engaging experiences. Students will study design from both a theoretical and an applied standpoint. Students will assess and quantify the validity of game design in existing games and use this knowledge to create an interactive experience using a team-oriented design methodology. In this course students will be unpacking game design principles that have made successful games such as chess, Tetris, cards, and other physical and digital games popular across centuries and cultures. Specific emphasis is placed on both the examination and deconstruction of historical successes and failures. Focus is also placed on the role of individuals in a team-oriented design methodology. The course will consist of interactive lectures and weekly activities where students are expected to actively participate and engage in the culture of design, classroom activities and critique games as it relates to the field. The result of this course is the development of individual game prototypes and team based digital game prototypes.
+
+Prerequisites: COMP 7051†(†may be taken concurrently)
+
+MATH 7808 - Calculus for Computing
+
+Outline URL: https://www.bcit.ca/outlines/math7808/
+
+Credits: 4.0
+
+Description: This course introduces the major concepts of calculus: differentiation, integration, and differential equations as applied to computing. The course covers both single and multivariable differentiation for basic functions and some basic single variable integration, both definite and indefinite. It will finish with a short introduction to differential equations applied to modeling physical phenomena.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+### Level 6 (15 weeks)
+
+COMP 7905 - Art in Game Development
+
+Outline URL: https://www.bcit.ca/outlines/comp7905/
+
+Credits: 3.0
+
+Description: This course introduces learners to the art production and implementation pipeline in game development. Learners will encounter technical considerations and challenges surrounding the creation, implementation, and optimization of art assets in games and visual 3D interactive experiences. During this course, learners individually pitch and develop a short interactive visual experience in a game engine that matches an established aesthetic and art direction. Through this project and supporting weekly workshops, learners will experience the 3D asset creation pipeline (Modelling, Texturing, Rigging, and Animating), learn the fundamentals of visual design (composition, color theory, and lighting), create custom shaders and visual effects, and asset implementation/optimization techniques. Learners will also take a planned iterative approach to asset creation and level design.
+
+Prerequisites: 60% in COMP 7051 and 60% in COMP 7903
+
+COMP 8042 - Advanced Algorithms and Data Structures Design and Analysis
+
+Outline URL: https://www.bcit.ca/outlines/comp8042/
+
+Credits: 3.0
+
+Description: The objective of this course is to apply concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms. This course will provide students with exposure and practice to more advanced data structures and algorithmic strategies used in software development. Students will identify real world problems and apply a heuristic approach to solve them. After reviewing basic data structures and algorithms, students will apply advanced analysis techniques and algorithms. Particular emphasis will be placed on efficiency and optimization.
+
+Prerequisites: 60% in MATH 7908†and 60% in MATH 7808†(†may be taken concurrently)
+
+COMP 8051 - Advanced Games Architecture
+
+Outline URL: https://www.bcit.ca/outlines/comp8051/
+
+Credits: 3.0
+
+Description: This course provides students with an introduction to the design of a game system using cross-platform tools and frameworks commonly used in the games industry. The focus in this course is to build a number of small mobile games as well as to design and build a basic engine and game for mobile platforms. To achieve the goals of realizing playable games in a short time frame, students will also be introduced to common tools and techniques used in the game industry. Students will complete smaller assignments on an individual basis as well as a larger game as part of a team development environment. The course will cover topics including game design and architectures, game physics, and 2D and 3D graphics.
+
+Prerequisites: COMP 7051
+
+COMP 8082 - Project Management
+
+Outline URL: https://www.bcit.ca/outlines/comp8082/
+
+Credits: 3.0
+
+Description: This course offers a comprehensive overview of project management techniques to effectively plan, manage, and control software development projects. Students will learn project management methodologies with an emphasis on software projects and agile methodology. Students will design a project for which they will create a project work breakdown structure; identify risks, inter-operability, and privacy and security issues; establish the necessary roles in the software development team; and apply strategies to control the project schedule and quality. Students will also discuss ethical and sustainability considerations from a project management perspective.
+
+Prerequisites: 60% in COMP 7082
+
+MATH 7908 - Linear Algebra and Applications for Computing
+
+Outline URL: https://www.bcit.ca/outlines/math7908/
+
+Credits: 4.0
+
+Description: This course covers the basics of linear algebra and related topics, including vector algebra with its application to 3D geometry, matrix algebra with application to solving systems of linear equations, complex numbers/ vectors and discrete Fourier Transforms. Matrix topics will include linear transformations, eigenvalues and eigenvectors, similarity of matrices and applications of these. Concepts such as vector spaces, inner product spaces, and symmetric and orthogonal matrices are also introduced. Computer algorithms for performing various matrix operations and calculations and discrete Fourier Transforms will be explored.
+
+Prerequisites: 60% in MATH 7808Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+### Level 7 (15 weeks)
+
+COMP 7003 - Introduction to Information and Network Security
+
+Outline URL: https://www.bcit.ca/outlines/comp7003/
+
+Credits: 3.0
+
+Description: This course provides in-depth coverage of TCP/IP and "real-world" network traffic analysis using tools such as Wireshark and tcpdump. Students are introduced to securing servers and services as well as monitoring systems for performance and intrusion. Students will gain practical knowledge in the use of public-key encryption in securing information and implementing secure automatic logins and file transfers. This course provides coverage of perimeter protection and firewall designs, intrusion detection and IDS/IPS design and their implementation.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 8085 - Artificial Intelligence
+
+Outline URL: https://www.bcit.ca/outlines/comp8085/
+
+Credits: 3.0
+
+Description: Artificial Intelligence (AI) is the intelligence expected to be demonstrated by machines and computer programs. This course is designed to provide students with expertise in creating and modifying required AI algorithms and techniques. The first part of the course will focus on classic AI solutions (especially decision making) while the second part will cover some of machine learning (ML) related applications of AI (with an emphasis on learning from examples). The course will consider real world problems that need to be solved with applications of AI and the techniques used to build such applications (e.g. using the techniques to create challenging non player characters (NPC) in games development or password strength classification and intrusion detection in network security). More specifically, students will learn about the searching paradigm in designing intelligent agents and will practice implementing search algorithms. Probabilistic reasoning will also be explored to help students learn how to deal with incomplete information and uncertainty. The course will also examine different learning techniques to guide students in creating self-learning models that can improve performance in decision-making over time through practical examples.
+
+Prerequisites: 60% in COMP 8042
+
+COMP 8552 - Advanced Games Programming Techniques
+
+Outline URL: https://www.bcit.ca/outlines/comp8552/
+
+Credits: 3.0
+
+Description: This course will provide the student with an introduction to more advanced computing methods related to building a simple game engine. The course will focus on materials not covered in other programming courses and will include topics on advanced programming, optimization, multi-threading, real-time programming considerations and hardware interfaces. Students will be exposed to different technologies and programming environments. Students will also learn basic physics concepts and how to apply them when building a game engine. These concepts include basic physics and mathematics governing natural phenomena such as force, kinematics, inertia, and momentum. Students are recommended to have C++ knowledge.
+
+Prerequisites: 60% in COMP 8051 and 60% in COMP 7035
+
+COMP 8800 - Major Project 1
+
+Outline URL: https://www.bcit.ca/outlines/comp8800/
+
+Credits: 3.0
+
+Description: The objectives of this course are to give students the opportunity to explore in-depth a selected area of computer technology and identify complex real-world problems. Students will select a problem to solve in their Major Project. They will critically analyze the problem, existing challenges and issues, and related products and literature. Students will prepare a project proposal that includes the project’s objectives, specifications, review of similar systems and related products and literature, feasibility analysis, and a design of a solution that should be inventive, experimental or exploratory in nature. Students will also complete the first 2 of 5 milestones of the project during the course. This course is directed study under the guidance of a supervisor. Students will follow a software engineering methodology. Please refer to the Major Projects Guidelines as described on the BScACS Commons webpage.
+
+Prerequisites: 60% in COMP 8082 and 50% in LIBS 7001At least one 8000 level specialty course.
+
+LIBS 7001 - Critical Reading and Writing
+
+Outline URL: https://www.bcit.ca/outlines/libs7001/
+
+Credits: 3.0
+
+Description: This is a course in advanced composition and rhetoric, in which students will develop skills in complex critical analysis and interpretation by analyzing and evaluating materials from a variety of discourses or genres, including visual, online, and print; developing and writing essays, including critiques and research papers; applying and discussing principles of rhetoric and critical theory; examining and using methods of interpretation and analysis from the humanities and social sciences; evaluating the credibility of primary and secondary sources, including as it applies to media literacy, and for the purposes of academic research; situating discourses within their historical context and relevant to rhetorical theories of different periods (for example, Aristotle in the ancient world and Bakhtin in the twentieth century). The course format will include lecture, discussion, and both individual and group activities.
+
+Prerequisites: 50% in BCIT ENGL 1177 or equivalent, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+LIBS 7002 - Applied Ethics*
+
+Outline URL: https://www.bcit.ca/outlines/libs7002/
+
+Credits: 3.0
+
+Description: Fosters abilities and values required for ethical decision making at work. Develops skills in logical analysis, a working knowledge of moral principles and theories, and the ability to diagnose and resolve moral disagreements commonly found at work. Examines and applies moral principles to historically famous cases in manufacturing, human resources, management, engineering, health care, and computing.
+
+Prerequisites: BCIT ENGL 1177, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+### Level 8 (15 weeks)
+
+COMP 7012 - Interaction Design
+
+Outline URL: https://www.bcit.ca/outlines/comp7012/
+
+Credits: 3.0
+
+Description: As computers and digital devices are ubiquitous and embedded in everyday objects, it is very important to focus on designing intuitive, effective and simple interactions. This course will present an introduction to principles of human-computer interaction and will explore the concepts and practices used for interaction design: information architecture, immersion techniques, prototyping, user-centered design, usability design and testing and user research. Principles of designing for accessibility and ethical considerations will be discussed and applied. Students will evaluate and design several interfaces for software applications (e.g., desktop, mobile and web) and pervasive computing devices (e.g., wearable, AR/AM/VR, and voice interaction devices), and will design a low-fidelity prototype.
+
+Prerequisites: Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+COMP 8900 - Major Project 2
+
+Outline URL: https://www.bcit.ca/outlines/comp8900/
+
+Credits: 3.0
+
+Description: Based on their approved proposal and initial stages of the project developed in Comp 8800 Major Project 1, students will continue to implement, test and deliver their major project. This course is directed study under the guidance of a supervisor. Students will follow a software engineering methodology. The outcome of this course is a working project and a final report. Please refer to the Major Projects Guidelines as described on the BScACS Commons webpage.
+
+Prerequisites: COMP 8800
+
+### Co-op work term courses (competitive entry)
+
+COMP 7990 - Cooperative Education Workterm 1
+
+Outline URL: https://www.bcit.ca/outlines/comp7990/
+
+Credits: 16.0
+
+Description: Cooperative Education (Co-op) involves enhancing the educational experience by integrating traditional academic studies with relevant work experience. The student is employed for the duration of the Co-op Work Term placement period. The Co-op Work Term is a paid position where the student completes productive tasks that relate directly to the core competencies of the Bachelor of Science in Applied Computer Science Program. The Co-op position is approved by the Co-op Coordinator. Students in the program attend mandatory pre-employment workshops to enhance their employability prior to their Co-op placement and compete for job postings during the second academic term. During the work term, students are monitored by the Co-op Coordinator.
+
+Prerequisites: Successful application and admission to the Co-op Program, 75% GPA in term 5 with no failures or withdrawals and no pending grade appeals.
+
+COMP 8990 - Cooperative Education Workterm 2
+
+Outline URL: https://www.bcit.ca/outlines/comp8990/
+
+Credits: 16.0
+
+Description: Cooperative Education (Co-op) involves enhancing the educational experience by integrating traditional academic studies with relevant work experience. The student is employed for the duration of the Co-op Work Term placement period. The Co-op Work Term is a paid position where the student completes productive tasks that relate directly to the core competencies of the Bachelor of Science in Applied Computer Science Program. The Co-op position is approved by the Co-op Coordinator. Students in the program attend mandatory pre-employment workshops to enhance their employability prior to their Co-op placement and compete for job postings during the second academic term. During the work term, students are monitored by the Co-op Coordinator.
+
+Prerequisites: COMP 7990
+
+COMP 8991 - Cooperative Education Workterm 3
+
+Outline URL: https://www.bcit.ca/outlines/comp8991/
+
+Credits: 16.0
+
+Description: Cooperative Education (Co-op) involves enhancing the educational experience by integrating traditional academic studies with relevant work experience. The student is employed for the duration of the Co-op Work Term placement period. The Co-op Work Term is a paid position where the student completes productive tasks that relate directly to the core competencies of the Bachelor of Science in Applied Computer Science Program. The Co-op position is approved by the Co-op Coordinator. Students in the program attend mandatory pre-employment workshops to enhance their employability prior to their Co-op placement and compete for job postings during the second academic term. During the work term, students are monitored by the Co-op Coordinator.
+
+Prerequisites: S in COMP 8990
+
+
+
+## Entrance Requirements
+
+introduction
+
+The Bachelor of Science in Applied Computer Science (BScACS) is a two year degree completion program, meant to be taken after two years of post-secondary education in computing. External applicants will apply based on the pre-entry assessment. BCIT CST Diploma Graduates who graduated in the last five (5) years may apply directly to the program at bcit.ca/apply without a pre-entry or departmental assessment. CIT and FSWD Diploma Graduates will apply based on the pre-entry assessment.
+
+Application processing
+
+Applications are accepted during the following periods: Intake may fill before the deadline. Indigenous applicants: Read about Indigenous student support available for BCIT Computing programs.
+
+Entrance requirements
+
+This program has a two-step admission process. Applicants must meet all entrance requirements to be accepted. Step 1: Pre-entry assessment Applicants must have a pre-assessment with the program area to identify pre-entry courses and have their work experience reviewed and assessed prior to applying. Please email the completed Pre-entry Assessment Request form [PDF] along with your resume and official sealed transcript(s) to the program coordinator . You can apply once you have completed any necessary pre-entry courses. A completed pre-entry assessment document from the program area must be uploaded with your application. Step 2: Meet the following entrance requirements Applicants who have completed post-secondary studies outside of Canada, the United States, the United Kingdom, Australia or New Zealand will require a comprehensive evaluation of their credentials by the International Credential Evaluation Service (ICES) . Credential evaluation reports from other Canadian services may be considered. These reports must include course-by-course evaluations and GPA calculations. Read more about how to meet BCIT’s entrance requirements English language proficiency: Category 2 – English Studies 12 (67%) or equivalent Post-secondary education: A minimum of 60.0 credits of post-secondary education in Computing from a recognized institution, which consists of: 6.0 credits of English or communications 6.0 credits of math, with a minimum of 3.0 credits in discrete math 3.0 credits of statistics 27.0 credits of computing, with a minimum of 3.0 credits in each of the following seven courses: Algorithms and data structures Computer architecture Database Data communications and networking Object-oriented programming Procedural programming Systems analysis and design In addition to the above, acceptance into the following options is subject to the following requirements: Games Development Option requires familiarity with C++. Network Security Development Option requires familiarity with C. Algorithms and data structures Computer architecture Database Data communications and networking Object-oriented programming Procedural programming Systems analysis and design Games Development Option requires familiarity with C++. Network Security Development Option requires familiarity with C. 18.0 of general education and/or other computing courses: The BScACS Program Head will assess the equivalency of credits obtained from other institutions to ensure that graduation requirements are met.
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program. Students enrolled in this program must complete the mandatory work component to qualify for graduation. A co-op work permit is required prior to starting the work component.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+September each year.
+
+myCommunication
+
+Within two business days of submitting your completed application, BCIT will send a message to your personal and myBCIT email addresses. All correspondence regarding your application will be posted to your online myCommunication account at my.bcit.ca . We will send you an email when a new message is posted. It is important to watch for these emails or regularly check your account online. You can expect to receive communication concerning the status of your application within four weeks.
+
+
+
+## Costs & Supplies
+
+introduction
+
+Learn about entrance awards , including awards for women and Indigenous students entering computing.
+
+Tuition fees
+
+Use our tuition estimator to find tuition and fees for this program. For more information on full-time tuition and fees, visit: Full-Time Studies Tuition & Fees International Tuition & Fees
+
+Books & supplies
+
+Level 5: $1100; Level 6: $1100; Level 7: $1100; Level 8: $800 (general estimated cost, subject to change)
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+Program length
+
+Two years, full-time. Students are required to complete this program within seven years starting from the date of their first technical degree-level course or the date of acceptance to the bachelor program, whichever comes first. General Education Electives cannot be older than five years from the date of acceptance to be used toward the degree. Extensions beyond the maximum time limit will not be allowed. However, students may request a timeshift. A timeshift moves the program start date to one year later and the program completion date to one year later. With a timeshift, any COMP 7xxx and COMP 8xxx courses taken before the new start date will not apply towards the credential. Students will need to re-take or challenge the expired courses if they wish to use them towards fulfilling program requirements. In the event of a major program change, students who timeshift will be required to follow the new program matrix. Some exemptions of equivalent courses may apply. Student requests for a timeshift shall be reviewed and approved by the Program Head and the Registrar’s Office.
+
+Exception to Section 5 of Policy 5103:
+
+Two years, full-time. Students are required to complete this program within seven years starting from the date of their first technical degree-level course or the date of acceptance to the bachelor program, whichever comes first. General Education Electives cannot be older than five years from the date of acceptance to be used toward the degree. Extensions beyond the maximum time limit will not be allowed. However, students may request a timeshift. A timeshift moves the program start date to one year later and the program completion date to one year later. With a timeshift, any COMP 7xxx and COMP 8xxx courses taken before the new start date will not apply towards the credential. Students will need to re-take or challenge the expired courses if they wish to use them towards fulfilling program requirements. In the event of a major program change, students who timeshift will be required to follow the new program matrix. Some exemptions of equivalent courses may apply. Student requests for a timeshift shall be reviewed and approved by the Program Head and the Registrar’s Office.
+
+Grading
+
+A minimum passing grade of 60 percent is required for all COMP courses at the 7000 and 8000 level.
+
+Program delivery
+
+In person: This program is delivered on campus.
+
+Program location
+
+Burnaby Campus 3700 Willingdon Avenue Burnaby, BC
+
+Program structure
+
+
+
+Continue your education
+
+Graduates of the Bachelor of Science in Applied Computer Science program can apply to continue their studies with the Master of Science in Applied Computing . Through an interdisciplinary and rigorous full-time curriculum, the MSc helps develop technical leadership and research skills for a professional setting or for further academic study. Students select a Project & Internship Path or Thesis Path, and have opportunities to apply computing solutions to industry challenges.
+
+Co-operative education
+
+The Co-operative Education (co-op) stream of the BSc ACS program provides students with substantial benefits in their career preparation, given that employers are more eager to hire graduates who have had some industry experience. Students who apply to the co-op stream are required to meet year one performance qualification criteria. Acceptance into the program is competitive based on Level 5 GPA. Students will require two four-month co-op terms to graduate with a co-op designation on their BSc ACS degree. These co-op terms are back-to-back and are completed between Levels 6 and 7. Co-op students will be provided full support in their employment search, career development, and during their work terms. They will be assisted with securing employment with one employer for a minimum of eight months.
+
+
+
+## Graduating & Jobs
+
+introduction
+
+Sector snapshot
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Applied Computer Science (Games Development Option)

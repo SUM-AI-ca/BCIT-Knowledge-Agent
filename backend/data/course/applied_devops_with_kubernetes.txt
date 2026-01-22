@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/applied-devops-with-kubernetes-comp-4016/
+Title: Applied DevOps with Kubernetes
+Field: Computer Systems
+Type: Course
+Course Code: COMP 4016
+
+================================================================================
+
+## Overview
+
+This hands-on course replaces COMP 3916 –Docker for DevOps as of April 2023. It is aimed at web software developers who want to use current DevOps standards to reduce service downtime. Software developers who can create web-based applications, are introduced to best practices and techniques to create software services resilient to failures. COMP 4016 starts with an overview of DevOps. Labs and exercises cover the basics of Docker including creating Docker images and debugging containers. Participants are then introduced to Kubernetes, an open source platform for managing containerized workloads and services. Assignments focus on best practices to automate DevOps operations to reduce on-call work, and how to leverage Kubernetes self-healing features. There is a focus on the use of automatic scalers to react to bursts of traffic and monitor the current state of the service. YAML (a data-serialization language) is used configure Kubernetes and to program running services. Students practice how to automate typical human elements and inputs to apply different DevOps concepts to a running service. COMP 4016 is an elective course the CST FLEX Diploma and several BCIT Computing Associate Certificates. DevOps students should also consider completing COMP 2833 - Agile Scrum Methods, for additional skills. Upon completion, successful students will have working knowledge of DevOps. They will be able to use Docker and Kubernetes to orchestrate automation, to reduce costs and downtime for software as a service. Students without the specific BCIT prerequisites, who have equivalent knowledge of Web Software Application Development with PHP, and or Java Web or ASP are welcome to apply. COMP 4016 will be offered once a year in the fall (September) term.
+
+## Credits
+
+3.0
+
+## Cost
+
+$485.20
+
+## Prerequisites
+
+- 60% in COMP 3015 or 60% in COMP 3601 or 60% in COMP 3973 or 60% in COMP 4602 or 60% in COMP 4613
+
+## Learning Outcomes
+
+- Use Docker-Desktop and the command line to develop Docker images and Kubernetes containers.
+- Debug containers and manage the cycle of a container with Docker.
+- Work with a container registry to push and pull images.
+- Create a local cluster to run containerized applications.
+- Use Kubernetes Deployments to deploy and run software.
+- Describe running services using Kubernetes Service and Ingress.
+- Use Kubernetes Stateful Sets and Volumes to manage persistent data stores.
+- Create Horizontal Pod AutoScalers to scale up resources required for bursts of traffic.
+- Define logging and metrics for monitoring software services.
+- Create monitors and alarms for a smooth on-call experience.
+- Automate human input out of DevOps operations to reduce on-call time.
+- Describe techniques for secure management using Kubernetes Secrets.
+- Use command line to explore Kubernetes issues and debug running services.
+
+## Related Programs
+
+- Advanced .NET Development
+- Advanced Java Development
+- Computer Systems
+- Web and Mobile Application Development

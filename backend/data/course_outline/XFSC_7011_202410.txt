@@ -1,0 +1,131 @@
+URL: https://www.bcit.ca/outlines/20241090641/
+Course: XFSC 7011
+Field: Network Foundation
+
+School: School of Computing and Academic Studies
+Program: Cybersecurity Essentials for IT Professionals Microcredential
+Course Credits: 1
+Minimum Passing Grade: 60%
+Start Date: January 20, 2024
+End Date: January 27, 2024
+Total Hours*: 15
+Total Weeks: 2
+Hours/Weeks: 7.5
+Delivery Type: Other
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 90641
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bogdan Pirvoaica
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​​​This 2-day workshop introduces networking concepts such as communications hardware, communications software, OSI and network protocols. This course will update the network administration knowledge with a particular emphasis on the fundamental skills needed to design and maintain secure network environments. The attendee will review network traffic analysis, concepts around the network security, intrusion detection, and improve defenses against malicious attacks. The attendee should have some knowledge of an operating system (e.g., Windows 10 or Linux). This workshop is suitable for those Help Desk Support technicians who plan to move into the networking area at work. This workshop is especially useful to those people who are handling network administration tasks.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Compare a variety of network protocols such as UDP/TCP, ICMP, HTTP, SMTP;
+- Analyze network traffic and detect intrusion through the use of networking commands;
+- Differentiate the traffic that monitors network topology from the normal communication;
+- Assess the type of protocols used in data communication;
+- Monitor in real time the network activities on a computer.​
+
+## Learning Resources
+Cisco Packet Tracer
+
+## Course Goals
+Upon successful completion of this workshop, the attendee will be able to:
+
+- Explain the OSI model;
+- Explain the functions of communications hardware such as switch, router and firewall;
+- Explain the purposes of different network protocols such as UDP/TCP, ICMP, HTTP, SMTP;
+- Use different networking commands to carry out different network operations such as network traffic analysis and detect intrusion.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Exam: 100
+
+## Course Specific Requirements
+Cisco Packet tracer
+
+## Course Schedule and Assignments
+Day: Outcome/Material Covered: Date
+1: Basic Network Design OSI model Switches Routers Firewalls: Jan 20th, 2024
+2: Network Protocols Protocols – UDP/TCP DNS, ICMP HTTP, SMTP: Jan 27th 2024
+
+## Course topics
+Day 1
+
+OSI Reference Model with correspondence to the TCP/IP model
+
+TCP model layers and headers
+
+TCP/IP – Protocols and Sockets
+
+IP Protocol
+
+IP Addresses – subnetting
+
+Switches – classification
+
+Switches - Spanning Tree Protocol
+
+Switches – VLANs
+
+Routing Information Protocol
+
+Routers – Functions and main characteristics
+
+NAT – Network Address Translation
+
+Firewalls – Types and main characteristics
+
+Lab using Cisco Packet Tracer – Spanning Tree Protocol, ARP and VLAN traffic
+
+Day 2
+
+TCP Protocol – UDP/TCP characteristics
+
+DNS – Domain Name Server – define and present main features
+
+ICMP – main characteristics and usage
+
+HTTP – functions and protocol definition
+
+HTTPS – encryption standards
+
+SMTP – mail and review email headers
+
+Lab using Packet Tracer and/or Wireshark and Network Miner – UDP and TCP packets – HTTP and SMTP traffic
+
+Final exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bogdan Pirvoaica, Instructor January 04, 2024
+
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator January 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

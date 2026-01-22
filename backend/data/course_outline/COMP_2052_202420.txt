@@ -1,0 +1,173 @@
+URL: https://www.bcit.ca/outlines/20242061793/
+Course: COMP 2052
+Field: Android and Mobile Application Development Tools
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: April 13, 2024
+End Date: June 29, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2132
+CRN: 61793
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Alexander Volkov
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​COMP 2052 provides an introduction to mobile application development using tools and scripting languages rather than object-oriented programing languages. This hands-on course follows on from COMP 1850 and COMP 2132) and assumes students already understand how to develop and deploy web sites with HMTL5, CSS3 and JavaScript. Participants do not need to be object-oriented programmers however they should have significant experience using mobile apps. Students will design and develop web-based, native and hybrid mobile applications using jQuery Mobile, Android Studio, Apache Cordova, and other tools. Labs and exercises focus on how to implement entry level, mobile applications for Android and other mobile web platforms. Topics include a comparison of native, hybrid and web based mobile technologies. Starting with the fundamentals of web-based mobile applications, Android Studio and Apache Cordova are used to implement web-based, native, and cross-platform mobile solutions. COMP 2052 is an elective in the CST FLEX Diploma, the Web and Mobile Development (AMD) and Applied Web Development (AWD) associate certificates from BCIT Computing. Upon successful completion, students will be able to choose from a variety of tool sets for platform independent mobile and web application development. This course will be offered for the last time in April 2024.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Install and configure Android Studio and Apache Cordova platform.
+- Identify the role of various components of Android system architecture.
+- Develop entry level native Android applications implementing various types of layouts.
+- Deploy Android mobile apps to emulators and physical devices.
+- Build entry level web based mobile applications using jQuery Mobile platform.
+- Develop mobile applications using Apache Cordova platform.
+- Identify the differences of web-based, native and hybrid mobile architectures.
+- Develop entry level mobile applications using Android Studio, Apache Cordova, HTML5/CSS3/JavaScript and jQuery Mobile.
+- Use Apache Cordova plugins to access native functionality of mobile devices (sensors, file system, etc.)
+- Debug and test web-based, native, and hybrid mobile applications.
+
+## Learning Resources
+- Course materials provided by the instructor online
+
+## Course Goals
+- Describe the fundamentals of web-based, native and hybrid mobile application development.
+- To choose the appropriate architecture and tools for a given mobile software development project.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 50: All assignments must be submitted
+Midterm: 20: Midterm & final average
+Final Exam: 30: must be at least 50%
+
+Note:
+
+In order to pass this course you must submit all assignments.
+
+Late assignments will not count for marks without prior approval from the instructor.
+
+Assignments must be done individually by each student unless groups are specified.
+
+Your midterm and final exam average must be at least 50%.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Access to a PC with internet outside of class,
+- Fundamentals of HTML, CSS and JavaScript
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information see BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Schedule and assignments included in Course Topic section below.
+
+## Course topics
+Week Number: Topics: Assignment: Due Date
+Week 1: Course Overview. Web-based Mobile Applications. Responsive web design. Bootstrap grid. Client-Side Mobile App.: Assignment 1: Week 2
+Week 2: Software Engineering Design Patterns. Model-View-Controller Software Architecture Pattern. Server-side programming. Client-Server Mobile App.: Assignment 2: Week 3
+Week 3: Mobile Content Management. Content Management Systems (CMS). CMS-Based Mobile App: Assignment 3: Week 4
+Week 4: Native Mobile Platforms Overview. Android Development Environment Setup. Java Programming Language. Input Processing Android App.: Assignment 4: Week 5
+Week 5: Widgets and Event Handlers. Multiple Widgets App. Android Toolset. Building and Deploying Packages.: Assignment 5: Week 6
+Week 6: Mobile User Experience. Activity Lifecycle. Fragments and Layouts. Multiple Fragments App.: Assignment 6: Week 7
+Week 7: MIDTERM EXAM (1 hour). Cross-Platform and Hybrid Mobile Architectures. Apache Cordova Platform. Simple Cordova App.: Assignment 7: Week 8
+NOTE:: Withdrawal Deadline Please inform your instructor that you are dropping this course.: You must fill out and submit the Request to Withdraw form before week 8 or else you will receive a failing grade on your academic record.
+Week 8: Accessing Native Device Functionality. Exposing Native Android Functionality in a Hybrid App. Camera App.: Assignment 8: Week 9
+Week 9: File I/O Fundamentals. Asynchronous operations. Reading and Writing Files. File I/O App.: Assignment 9: Week 10
+Week 10: Accelerometer. SensorEvent Coordinate System. Accelerometer App. Debugging and Testing Mobile Applications. Test-Driven Development fundamentals.: Assignment 10: Week 11
+Course evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+Week 11: Making Architectural Decisions.
+Week 12: FINAL EXAM (3 hours).
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Alexander Volkov, Instructor March 28, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 09, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 09, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

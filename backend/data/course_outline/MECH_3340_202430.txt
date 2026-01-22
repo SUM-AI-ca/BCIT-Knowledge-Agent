@@ -1,0 +1,144 @@
+URL: https://www.bcit.ca/outlines/20243030361/
+Course: MECH 3340
+Field: Machine Design 1                                                                                    
+
+School: School of Energy
+Program: Mechnical Engineering Technology, Mechanical Engineering Degree.
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): 50% in MECH 2240
+CRN: 30361
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Olivian Ciobanu
+E-mail: ociobanu@bcit.ca
+Location: SW09 - 205
+Office Hours: By appointment: email to schedule your in-person or online appointment.When emailing Faculty and/or other staff, please email from your myBCIT account and include your name, student number and set. If you do not include this information, your inquiry may not be addressed.
+
+## Course Description
+Introduces machine design, with emphasis on elementary design and analytical procedures for machine components. The course covers theories of failure, combined stresses, stress concentration, fatigue phenomena, welded and threaded connections.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Analyze different types of loads acting on machine components [1, 2].
+- Identify the type of stresses in machine components [1, 2].
+- Calculate stresses and safety factors in machine components [1, 2].
+- Predict failure for machine components under static loads [1, 2].
+- Estimate endurance limits of metals subjected to repeated loads [1, 2].
+- Predict fatigue failure [1, 2].
+- Size bolted connections under static loads [1, 2].
+- Size welded connections under static loads [1, 2].
+
+## Learning Resources
+Required
+
+- O. Ciobanu, MECH3340 Machine Design 1, Lecture Notes (A collection of PDFs uploaded in the Learning Hub, typically at the beginning of each week).
+
+Recommended
+
+- R.G. Budynas, J.K. Nisbett (2020), Shigley's Mechanical Engineering Design (11th Ed. or newer), McGraw Hill Education.
+- R. Juvinall, K. Marshek (2017), Fundamentals of Machine Component Design (7th Ed. or newer), Hoboken, NJ, Wiley Press.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments / labs: 15
+Midterm test: 40
+Final exam: 45
+
+## Course Specific Requirements
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup assignments or exams for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices including mobile devices (cell phones, tablets) and laptops are prohibited.
+
+Assignments: Assignments, lab reports or projects must be done on an individual basis unless otherwise specified by the instructor. Assignments are expected to be completed and submitted by the posted due dates. Late assignments will not be accepted.
+
+Cell phones and communication devices: Cell phones, pagers, or other communication devices are to be kept in silent mode or turned off during class time. The use of cell phone or other devices for communication is prohibited in class.
+
+Internet: Accessing internet and/or email is NOT allowed during class and lab time unless instructed to do so for the benefits of the course. Internet should not be considered as the only source of research for this course.
+
+Class Etiquette: The Instructor has an obligation to maintain an environment conducive to learning and for this reason inappropriate behaviour will not be tolerated. Discipline will progress from verbal warning to written warning to expulsion from the class or course.
+
+## Other information
+Engineering Accreditation
+
+The Canadian Engineering Accreditation Board (CEAB) accredits bachelor of engineering programs across Canada. To ensure programs graduate well-rounded engineers who are prepared to enter engineering practice, the CEAB requires graduates to possess 12 specific attributes (see below for descriptions). The learning outcomes for each course have been mapped to relevant CEAB graduate attributes. The numbers in [ ] after each learning outcome indicate the graduate attribute to which the learning outcome is mapped.
+
+CEAB Graduate Attributes
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Course Schedule and Assignments
+Week: Outcome / Material Covered (Subject to change): Assignment/ Lab
+1: Course presentation and general information.: No lab
+2: Principles of machine analysis and design. Allowable Stress Design. Load analysis: external loads - Free Body Diagrams: 1. Review simple stress states.
+3: Load analysis: internal loads - method of sections. Stress analysis: simple stresses, stress combinations, initial stress state.: 2. Create initial stress states.
+4: Stress analysis: stress transformations. Static failure theories for ductile and brittle metals.: 2. Create initial stress states (continued)
+5: Stress concentration: 3. Predict static failure.
+6: Fatigue analysis 1: Introduction, typical S-N diagram. Estimated S-N diagram, Basquin equation, endurance limit.: Midterm review
+7: Fatigue analysis 2: modified S-N diagrams, Marin factors. Midterm exam.: 4. Fatigue analysis 1
+8: Fatigue analysis 3: fluctuating stress, failure theories, combined loading.: 5. Fatigue analysis 2
+9: Welded joints - size single welds and weld groups using AWS method.: 6. Fatigue analysis 3
+10: Bolted joints 1: single bolts loaded in shear and tension. Bolt preload: 7. Size welded joints
+11: Bolted joints 1 continued: 8. Size bolted joints 1
+12: Bolted joints 2: bolt groups under combined loading: 8. Size bolted joints 1
+13: Bolted joints 2 continued: 9. Size bolted joints 2
+14: Solidworks applications for welds and bolt sizing: Exam review
+15: Examination
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Olivian Ciobanu, Instructor September 05, 2024
+
+I verify that this course outline has been reviewed. Cyrus Raoufi, Program Head September 06, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean September 06, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

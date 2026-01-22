@@ -1,0 +1,113 @@
+URL: https://www.bcit.ca/outlines/20241089389/
+Course: BMET 1482
+Field: Applied Electrical Fundamentals
+
+School: School of Health Sciences
+Program: Prosthtics and Orthotics
+Course Credits: 2
+Minimum Passing Grade: 50%
+Start Date: January 29, 2024
+End Date: May 24, 2024
+Total Hours*: 30
+Total Weeks: 15
+Hours/Weeks: 2
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in MATH 1841
+CRN: 89389
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Nigel Halsted
+E-mail: Nigel_Halsted@bcit.ca
+Location: CARI Wing A
+Office Hours: Office Hrs.: by appointment at any mutually convenient time
+
+## Course Description
+Teaches AC and DC circuits as well as other electrical building blocks. Uses this theory to explain the operation of electrically powered prostheses.
+
+## Course Learning Outcomes/Competencies
+- Explain the electrical entities voltage, current, charge, resistance, capacitance, and inductance in terms of analogies and to define the relationships between these electrical entities.
+- Use test equipment, including the multimeter and oscilloscope, to measure voltage, current and resistance as appropriate.
+- Explain the relationship between time-varying signals and their frequency domain representation.
+- Describe the fundamentals of myoelectric prosthetic control, including:
+- Single-muscle and multi-state control systems
+- Electrodes and the transduction of the myoelectric signal
+- Signal processing of the myoelectric signal
+- Myoelectric roportional control.
+- To analyse and trouble-shoot the fundamental components of myoelectric prosthesis, including:
+- Threshold circuits and state control systems
+- Problems associated with myoelectric prostheses including noise, muscle co-contraction and transducer cross-talk, muscle fatigue, and amputee training.
+- Myoelectric prosthetic components: transducers, battery packs, amplifiers, control circuits, bridge circuits, motors, etc.
+
+## Learning Resources
+- In class Lectures
+- Demonstrations
+- Hands on experience
+- Any one of thousands and thousands of electronics textbooks in the library, even high school physicstext book
+- Williams, W.T.Practical Methods for Controlling Powered Upper-Extremity Prostheses, AssistiveTechnology, 1990;2:3 - 18
+
+## Course Goals
+- Explain the electrical entities voltage, current, charge, resistance, capacitance, and inductance in terms of analogies and to define the relationships between these electrical entities.
+- Use test equipment, including the multi-meter and oscilloscope, to measure voltage, current and resistance as appropriate.
+- Describe the fundamentals of myoelectric prosthetic control, including: Single-muscle and multi-state control systems, Electrodes and the transduction of the myoelectric signal, Signal processing of the myoelectric signal, Myoelectric proportional control.
+- To analyze and trouble-shoot the fundamental components of myoelectric prosthesis, including: Threshold circuits and state control systems, Problems associated with myoelectric prostheses including noise, muscle co-contraction and transducer cross-talk, muscle fatigue, and amputee training, Myoelectric prosthetic components: transducers, battery packs, amplifiers, control circuits, bridge circuits, motors, etc.
+
+## Evaluation Criteria
+Final Examination 30%
+
+Mid-Term Examination 30%
+
+Class Participation 20%
+
+Laboratory work, Quizzes and Assignments: 20% (Assignments will be due at the agreed upon times (in class negotiation). Late assignments will incur r 10% per day penalty.)
+
+## Safety equipment or protective clothing
+None.
+
+## Course Schedule and Assignments
+Course Topic Schedule (by week):
+
+- Electrical circuit concepts: scientific notation, engineering notation, electricity
+- Electrical circuit concepts (continued): voltage, current, resistance, impedance
+- Signal concepts, analog and digital signals
+- Powered prostheses concepts, Origins of the myoelectric signal
+- Electrodes and transduction, single muscle/multi- state control systems
+- Powered prosthetic components: Battery packs, bridge circuits, control circuits, electrodes, amplifiers, motors
+- MIDTERM EXAM (2 hours)
+- Problems associated with control circuitry; crosstalk, fatigue and amputee training
+- Proportional control concepts, microcontroller fundamentals
+- Feedback Concepts and microcontroller system design
+- Laboratory 1: Advanced Neuro-Prosthetics
+- Future developments in powered prosthetics
+- Applied Research Facilities Tour
+- FINAL EXAM
+
+## Course topics
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Nigel Halsted, Instructor January 23, 2024
+
+I verify that this course outline has been reviewed. Loren Schubert, Program Head January 24, 2024
+
+I verify that this course outline has been reviewed. Anthony Chan, Faculty January 25, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Elliott, Associate Dean January 27, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

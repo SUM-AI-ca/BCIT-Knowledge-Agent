@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/network-addressing-and-services-xinc-1102/
+Title: Network Addressing and Services
+Field: Cybersecurity Professionals Microcredentials
+Type: Course
+Course Code: XINC 1102
+
+================================================================================
+
+## Overview
+
+In this course, students will learn about Internet Protocol (IP) and how routing works between networks. Students will create a fully connected network and will subnet an IP address. Students will learn about IP address management and how Dynamic Addressing occurs using Dynamic Host Configuration Protocol (DHCP). Finally, students will create Domain Name System (DNS) records in a Domain Name Server.
+
+## Credits
+
+2.0
+
+## Cost
+
+$444.61
+
+## Prerequisites
+
+- 50% in XINC 1101
+
+## Learning Outcomes
+
+- Explain the need for routing in large networks
+- Build a fully connected network
+- Explain IPv4 addresses and the difference between Unicast, Multicast, and Broadcast addresses
+- Configure a DHCP server to dynamically assign IPv6 address
+- Explain IPv6 addressing and features
+- Explain client and server interaction on a network
+- Describe DNS, HTTP, FTP, Telnet, and SSH
+- Perform basic configuration of a DNS Server​
+
+## Related Programs
+
+- Essentials of Data Networks

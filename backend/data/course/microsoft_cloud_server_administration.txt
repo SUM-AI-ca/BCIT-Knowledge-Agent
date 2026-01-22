@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/microsoft-cloud-server-administration-comp-3682/
+Title: Microsoft Cloud Server Administration
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3682
+
+================================================================================
+
+## Overview
+
+This hands-on 12-week course follows on from COMP 1630 or COMP 2629 , and has replaced these three 6-week courses COMP 3677 , COMP 3680 , COMP 3681 as of April 2025. Students are introduced to the basic tasks that an Administrator performs to manage Microsoft cloud server products, specifically MS SQL Server and MS Windows Server. COMP 3682 details the different roles and types of servers on premises and the cloud server environment with Microsoft Azure. Labs and exercises focus on Microsoft Server Administration to create and manage users, groups, shares, and file permissions. Role Based Access Control (RBAC) best practices will be used. Students will install, configure, and architect both a Microsoft Windows Server and a Microsoft SQL Server in a Cloud environment. Topics include how to plan and implement Group and local Security Policies; industry standard strategies and planning for server back-ups, troubleshooting, monitoring, and managing a server with built-in tools. Server security and recovery plans with compliance strategies for a Microsoft Server on the cloud will be discussed. COMP 3682 is a required course in the Applied Database Administration and Design (ADAD), Applied Network Administration and Design (ANAD) Associate Certificates, and is an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will be able to create and manage user accounts, use built-in troubleshooting tools, monitor performance, and implement a security and recovery plan for Microsoft Window Server and Microsoft SQL Server in a cloud environment.
+
+## Credits
+
+4.0
+
+## Cost
+
+$692.64
+
+## Prerequisites
+
+- 60% in COMP 1002 or 60% in COMP 1630 or (50% in ACIT 1420 and 50% in ACIT 1630 )
+
+## Learning Outcomes
+
+- Describe the different roles and types of a server.
+- Define different server environments on the cloud with Microsoft Azure.
+- Install, configure, and architect a Server in an On-Premises and Cloud environment
+- Describe physical database design considerations for MS SQL Server.
+- Explain mirroring, log shipping, high availability groups and replication.
+- Create and manage MS SQL databases, transaction logs and database snapshots.
+- Implement security for logins, databases, and objects for MS SQL Server.
+- Create and manage users, groups, shares, and file permissions with Role Based Access Control (RBAC) in a Microsoft Server environment.
+- Plan and implement Group Policies and Local Security Policies.
+- Plan and implement the following on MS Windows Server: Dynamic Host Configuration Protocol (DHCP) services; Remote Desktop Services (RDS) and Virtual Private Networks (VPN); Print Servers; Roaming Profiles.
+- Plan, create and perform backup and recovery strategies and management with built-in Microsoft Server tools for high availability.
+- Manage Microsoft Server troubleshooting and monitoring strategy with built-in tools.
+- Use best practices and industry standards for Microsoft Server security and governance.​
+
+## Related Programs
+
+- Applied Database Administration and Design
+- Applied Network Administration and Design
+- Computer Systems

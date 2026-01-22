@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/outlines/20241087054/
+Course: COMP 2350
+Field: Web Database Technologies
+
+School: School of Computing and Academic Studies
+Program: Full Stack Web Development
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): COMP 1171 and COMP 1350
+CRN: 87054
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Patrick Guichon
+E-mail: patrick_guichon@bcit.ca
+Location: DTC-513
+Office Hours: Patrick's Office DTC-513 Please let me know if you wish to see me during office hours by email Patrick Guichon at: patrick_guichon@bcit.ca or during class.I am also available for Zoom meetings. Please schedule a Zoom meeting (preferably 24-hours in advance) - Send me an email to patrick_guichon@bcit.ca.
+
+## Course Description
+​This course introduces students to utilize database technologies to persist application data – both on the server as well as on the client. Students learn how to model data using relational, object, and hierarchical models. Students also learn to install, configure, and use relational and NoSQL databases such as MySQL and MongoDB respectively. Other topics include local versus remote storage, transactions, querying, schemas, data formats such as XML and JSON, and normalization. Students will use NoSQL data storage services such as Firebase or other Backend As A Service (cloud) stores that clients can access in real time.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Contrast the relational, object, and hierarchical data models, and how to utilize these models.
+- Model data for a given business context.
+- Perform data normalization with data for a given business context.
+- Install and configure databases such as MySQL and MongoDB.
+- Identify and solve security issues such as SQL injection, encryption of data, and access control.
+- Perform database queries using SQL and JSON for relational and NoSQL databases respectively.
+- Analyze concurrency control issues and resolve these issues.
+- Optimize database queries within distributed computing environments in order to minimize bandwidth.
+- Use syntax with XML.
+- Create XML documents that are valid to the DTD specification.
+- Identify when to use XML and when to use JSON for data transport within a distributed application.
+- Design data models using Entity Relationship Diagrams (ERDs) and successfully implement them in SQL, XML, or JSON.
+- Perform standard Create, Read, Update, and Delete (CRUD) operations with a given database.
+- Demonstrate database migrations and programmatic updates to existing database models.
+- Perform database backups utilizing various tools such as operating system services
+- Demonstrate database seeding.
+- Store and retrieve data in a cloud-based, BAAS, NoSQL data store such as Firebase.
+- Program database transactions.
+
+## Learning Resources
+Murach's MySQL (3rd Edition) Joel Murach Mar-19
+
+Print or eBook (ISBN 978-1-943872-36-7) https://www.murach.com/shop-books/database-programming-books/murach-s-mysql-3rd-edition-detail
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final: 30: A combined average of 50% on the midterm and the final exam is required in order to pass this course.
+Midterm: 20
+Labs: 35
+In-class Quizzes: 10
+Reading Quizzes: 5
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty. Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+COMP 2350 Web Database Technologies
+Tentative Schedule
+Week: Date: Topics: Reading: Quiz: Lab
+1: Jan 8, 2024: Install MySQL, Tools: TBA: 1
+2: Jan 15, 2024: Intro to ERDs, Create Tables: TBA: 1: 2
+3: Jan 22, 2024: Importing and Munipulating Data: TBA: 2: 3
+4: Jan 29, 2024: Database Normalization: TBA: 3: 4
+5: Feb 5, 2024: SELECTs: TBA: 4: 5
+6: Feb 12, 2024: JOINs, SQL Injection: TBA: 5: 6
+7: Feb 19, 2024: Access Control: TBA: 7
+8: Feb 26, 2024: Midterm
+9: Mar 4, 2024: Indexes, Transactions, Optimizations: TBA: 6: 8
+10: Mar 11, 2024: Spring Break - No Class
+11: Mar 18, 2024: Sequelize, Migration and Seeding: TBA: 7: 9
+12: Mar 25, 2024: NoSQL - MongoDB, CRUD, JSON: TBA: 8: 10
+13: Apr 1, 2024: NoSQL - MongoDB, Relationships, Validation: TBA: 9: 11
+14: Apr 8, 2024: NoSQL - MongoDB, Review, Comparison: TBA: 10: 12
+15: Apr 15, 2024: Final
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Patrick Guichon, Instructor December 29, 2023
+
+I verify that this course outline has been reviewed. Sam Meech-Ward, FSA Curr Dev Pooled 123101 December 31, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

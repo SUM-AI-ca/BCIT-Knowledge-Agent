@@ -1,0 +1,180 @@
+URL: https://www.bcit.ca/outlines/20252068045/
+Course: COMP 3761
+Field: Algorithm Analysis and Design
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: May 13, 2025
+End Date: July 29, 2025
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in COMP 2121 and (50% in COMP 2522 or 50% in COMP 2526 or 60% in COMP 2601 or 60% in COMP 2613 or 60% in COMP 3601)
+CRN: 68045
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Frederic Guo
+E-mail: Instructor to provide
+Location: By Email
+Office Hours: Instructor to provide
+
+## Course Description
+In this hands-on course, Java programming students who have also taken Discrete Math will develop their ability to analyze and design computer algorithms. In particular, learners will analyze the time and space complexity of programs, solve nontrivial programming problems using algorithmic techniques, and prove that their solution is correct. The emphasis will be on developing the practical skills of analysis and design. Topics include: evaluating time and space complexity and designing solutions by using appropriate data structures or applying techniques such as recursion, parsing and graph algorithms.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Understand the basic framework of algorithm analysis.
+- Analyze pseudo-code using asymptotic notations.
+- Compare the order of growth of different algorithms.
+- Understand the differences between nonrecursive and recursive algorithms.
+- Describe some common algorithm design strategies: Divide and Conquer, Transform and Conquer, Greedy Technique, Graph Algorithm, dynamic programming, etc.
+- Recognize different types of computing problems and how to solve them.
+- Apply algorithm design techniques to solve some practical problems.
+- Specify algorithms in pseudocode.
+- Implement solutions by using appropriate data structures.
+- Deduce the complexity of a program by running different experiments.
+- Argue the correctness of the algorithms.
+- Find lower bounds for some simple problems.
+
+## Learning Resources
+Text: Introduction to the Design & Analysis of Algorithms, 3rd Edition Author: Anany Levitin ISBN-10: 0132316811 ISBN-13: 978-0132316811
+
+ONLINE: This course uses the Learning Hub online system. Students must access this system regularly for announcements and learner support.
+
+## Course Goals
+- To analyze and design computer algorithms to solve programming problems
+- To implement common data structures.
+- To describe, implement and use common data structures and algorithms.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Assignments: 18: Weekly assignments, 9 lab assignments in total All lab assignments must be completed in order to pass this course.
+Quizzes: 12
+Midterm Exam: 30: To pass this course, you must achieve an average of 50% or higher between the Midterm and Final Exam
+Final Exam: 40
+Total: 100
+
+Assignments are to be completed by each student on an individual basis unless stated otherwise.
+
+Assignments must be submitted to the Learning Hub (LH) prior to the due date. Late assignments will not be accepted. Emailed and/or in-person submissions will not be accepted.
+
+Note: the passing grade in this course is 50%. Students who earn less than 50% on the midterm exam and less than 50% on the final exam will be assigned a failing grade in the course.
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+COMP 2121 and (COMP 2526 or COMP 2613) Or prior understanding of both Discrete Mathematics and Java Programming
+
+NOTE:
+
+CST Diploma day school students must have passed COMP 2121 and COMP 2526 before starting this course.
+
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+BCIT Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Please understand that consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Week of: Material Covered: References / Reading: Assignment
+1: Course Introduction Algorithmic Efficiency Orders of Growth: 1.1, 1.4 2.1, 2.3
+2: Brute Force Exhaustive Search: 3.1, 3.2, 3.4: - Assign 1
+3: Decrease and Conquer: 4.1, 4.3, 4.4: - Assign 2 - Quiz 1
+4: Divide and Conquer: 5.1, 5.2, 5.4: - Assign 3
+5: Transform and Conquer: 6.1, 6.4: - Assign 4 - Quiz 2
+6: Space/Time Trade-offs: 7.1, 7.2, 7.3: - Assign 5
+7: Midterm: -: -
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before week 8 or you will receive a failing grade on your academic record.: NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before week 8 or you will receive a failing grade on your academic record.
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before week 8 or you will receive a failing grade on your academic record.
+8: Data Structures and Graph: 1.4, 3.5: - Assign 6 - Quiz 3
+9: Graph Algorithms: 3.5, 4.2, 5.3: - Assign 7
+10: The Greedy Technique: 9.1, 9.2, 9.3: - Assign 8 - Quiz 4
+Course Evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their myBCIT email. Those who do not have the link in their myBCIT email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: Dynamic Programming, Final Review, Course Evaluation: 8.1, 8.2, 8.4: - Assign 9
+12: Final Exam: -
+
+This schedule is tentative and subject to change; certain topics will take longer/shorter to cover in response to the needs of the students.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Frederic Guo, Instructor May 06, 2025
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator May 12, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean May 12, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

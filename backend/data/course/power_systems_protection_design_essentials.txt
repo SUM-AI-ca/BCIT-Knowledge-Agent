@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/power-systems-protection-design-essentials-elex-1472/
+Title: Power Systems Protection Design Essentials
+Field: Electrical and Computer Engineering
+Type: Course
+Course Code: ELEX 1472
+
+================================================================================
+
+## Overview
+
+The essential equipment used to protect electrical systems is the protection relay – it is critical to understand the different types and where they are used. This course is intended for professionals working in the electrical industry who wish to develop essential skills and knowledge in electrical protection. The course is based on hands-on learning, using software to demonstrate the essential concepts of electrical protection and the different components of a protection system. Topics include protection zones, overcurrent, directional, impedance/distance and differential relays, the per unit system and how to calculate the fault current at a specific bus in a power system. Labs will be based on using PSCAD and ETAP software. Instruction on using the software will be provided during the lab periods. The course addresses concepts in the design of power system protection equipment.
+
+## Credits
+
+1.5
+
+## Cost
+
+$875.73
+
+## Prerequisites
+
+- 50% in ELEX 1471
+
+## Learning Outcomes
+
+- Identify protection zones on a single line diagram
+- Explain how different types of protection relays operate, such as current, directional, impedance / distance, and differential
+- Use the per unit system to represent the impedances in a power system
+- Determine the fault current at a specific bus in a power system​
+
+## Related Programs
+
+- Introduction to Power Systems Protection Design

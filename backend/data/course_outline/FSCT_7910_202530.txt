@@ -1,0 +1,141 @@
+URL: https://www.bcit.ca/outlines/20253051893/
+Course: FSCT 7910
+Field: Research Methodology and Measurement Models
+
+School: School of Computing and Academic Studies
+Program: Digital Forensics and Cybersecurity
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): Admission to a Forensic credential program or permission of the Program Coordinator.
+CRN: 51893
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Maryam Raiyat Aliabadi
+E-mail: maryam_aliabadi@bcit.ca
+Location: DTC, RM.617
+Office Hours: Friday 1PM- 3PM
+
+## Course Description
+​This course is intended to develop the student's advanced research and analytical skills. It will focus on the theory of inquiry, the logic, reality, and structure of investigative enquiry, as well as data analysis, methodologies of measurement models and reporting of results. Emphasis will be placed on data gathering and statistical techniques. The student will be introduced to statistical analysis techniques for applications in the law enforcement and forensics fields. Various models of measurement, including quantitative, qualitative and data mining techniques with hands on data sets will be covered. Groups will be required to prepare a mini research project using all the statistical applications covered in class.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the strengths and limitations of applied investigative research and research methodologies.
+- Examine the significance of conceptualization and measurement models and analysis.
+- Identify the differences between qualitative and quantitative research, and assess the suitability of each type of research for different applications.
+- Identify the methodological issues when using public safety data.
+- Articulate research findings in the law enforcement context.
+- Apply statistical crime research methods and advanced data analysis techniques using predictive analytics.
+- Identify a suitable research topic to be explored in the capstone research project course.
+- Assess the ethical and methodological implications of using AI-driven analytics in public safety research.​
+
+## Learning Resources
+1. Research Database Access
+
+- Google Scholar – https://scholar.google.com
+- IEEE Xplore – https://ieeexplore.ieee.org/
+- ACM Digital Library – https://dl.acm.org/
+- SpringerLink – https://link.springer.com/
+- ScienceDirect – https://www.sciencedirect.com/
+
+2. Data Sources for Labs
+
+- Canadian Centre for Justice Statistics (CCJS) datasets (publicly available crime statistics)
+- FBI Crime Data Explorer – https://cde.ucr.cjis.gov/
+- Kaggle Cybersecurity datasets: https://www.kaggle.com/datasets
+- Canadian Open Data Portal – https://open.canada.ca/en/open-data
+- UCI Machine Learning Repository (e.g., Intrusion Detection datasets)
+
+3. Python Libraries & Technical Tools
+
+- Jupyter Notebook – for code execution and analysis.
+- Pandas, NumPy, Matplotlib, Seaborn – data wrangling and visualization.
+- TextBlob, NLTK, spaCy – qualitative text processing.
+- scikit-learn – predictive analytics.
+- Google Forms / Microsoft Forms – survey creation.
+- Zotero – reference management and citation formatting.
+- LaTeX / Overleaf – academic writing and paper structuring.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab assignments (5@5%): 25: Assess applied statistical skills and data analysis using Python/Jupyter.
+Project proposal submission: 10: Evaluate clarity of problem statement and depth of literature review.
+Mid-term report submission: 20: Assess completeness of research methodology and initial findings.
+Oral project presentation: 15: Evaluate clarity and effectiveness in communicating research progress.
+Final paper submission: 30: Assess final research quality, analysis, and professional formatting.
+
+## Course Specific Requirements
+- Prerequisite Knowledge Basic understanding of statistics (mean, median, standard deviation, correlation). Familiarity with Python programming and Jupyter Notebook. Prior exposure to data handling and simple visualizations (e.g., Pandas, Matplotlib, Seaborn).
+- Basic understanding of statistics (mean, median, standard deviation, correlation).
+- Familiarity with Python programming and Jupyter Notebook.
+- Prior exposure to data handling and simple visualizations (e.g., Pandas, Matplotlib, Seaborn).
+- Technical Requirements Laptop with at least 8GB RAM and current operating system (Windows, macOS, or Linux). Installed Python 3.10+ with Jupyter Notebook (Anaconda or equivalent environment). LaTeX editor (Overleaf or local TeX installation) for IEEE paper formatting. Stable internet connection for online research and accessing datasets.
+- Laptop with at least 8GB RAM and current operating system (Windows, macOS, or Linux).
+- Installed Python 3.10+ with Jupyter Notebook (Anaconda or equivalent environment).
+- LaTeX editor (Overleaf or local TeX installation) for IEEE paper formatting.
+- Stable internet connection for online research and accessing datasets.
+- Resource Access Access to academic research databases (e.g., Google Scholar, ACM Digital Library, IEEE Xplore). Access to course datasets (provided via LMS or instructor).
+- Access to academic research databases (e.g., Google Scholar, ACM Digital Library, IEEE Xplore).
+- Access to course datasets (provided via LMS or instructor).
+- Engagement & Participation Active participation in weekly labs and discussions. Completion of all lab assignments and project milestones on schedule.
+- Active participation in weekly labs and discussions.
+- Completion of all lab assignments and project milestones on schedule.
+
+## Course Schedule and Assignments
+Week #: Topics: Lab Assignments: Projects
+1 (Sep 1-5): Introduction: Research on Google Scholar, ACM, IEEE Xplore; and selecting research topics
+2 (Sep 8-12): Research Methodology: Jupyter basics; install pandas, matplotlib, seaborn; load sample cybersecurity dataset
+3 (Sep 15-19): Literature review fundamentals: Collect and review 15 papers and bar chart publication years
+4 (Sep 22-26): Research Gap & Problem Statement Writing: Keyword frequency & tokenization; word frequency plots. Draft problem statement (150 words): Submit project proposal – including problem statement and literature review (15%) Due: Sun at 11:59pm
+5 (Sep29-Oct 3): Research Design & Survey Methodology: Design simple survey in Google Forms; export & analyze data, propose survey method
+6 (Oct 6-10): Qualitative Data Analysis: Thematic coding simulation; sentiment analysis with TextBlob, (5%)
+7 (Oct 13-17): Quantitative Data Analysis: Descriptive stats (pandas, NumPy); hypothesis tests (Chi-square, t-test) and apply a statistical test on dataset (5%)
+8 (Oct 20-24): Measurement Models & Validity: Build Likert-scale survey; analyze survey data in Python, design and pilot 5-question Likert-scale survey (5%)
+9 (Oct 27-31): Data Visualization: Advanced plots: heatmaps, pairplots with matplotlib/seaborn. Create three visualizations on dataset (5%): Submit mid-term report in Latex format (15%) Due: Sun at 11:59pm
+10 (Nov 3-7): Predictive Analytics in Cybersecurity: Logistic regression, decision trees with scikit-learn. Build a classifier on intrusion dataset and visualize the result. (5%)
+11 (Nov 10-14): Latex Structure and Style: Writing the paper: Draft final report in Latex
+12 (Nov 17-21): Citation & Referencing: Zotero automation; BibTeX formatting. Submit formatted bibliography to the report.
+13 (Nov 24-28): Peer Review Process & Feedback: Provide peer review feedback: Submit final project paper (30%) Due: Sun at 11:59pm
+14 (Dec 1-5 ): Final Presentations: Present survey paper (15%)
+15 (Dec 8-12): Ethics, Bias & AI in Public Safety
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Maryam Raiyat Aliabadi, Instructor August 25, 2025
+
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator August 25, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean August 25, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

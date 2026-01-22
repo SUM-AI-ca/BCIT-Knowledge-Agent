@@ -1,0 +1,101 @@
+URL: https://www.bcit.ca/outlines/20243045193/
+Course: ELEX 4525
+Field: Radio Frequency Circuit Design                                                                      
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): PHYS 2143 and MATH 3433 and ELEX 3130 ELEX 4560‡ (‡ must be taken concurrently)
+CRN: 45193
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: David Verner
+E-mail: David_Verner@bcit.ca
+Location: SW1 3067
+Office Hours: Mon 10:30 - 1:20 PM Tue 12:30 - 1:20 PMFri 11:30-12:20 PM
+
+## Course Description
+This course teaches the analysis of HF, VHF, UHF and SHF circuits. Topics include: impedance matching networks; synthesis of low pass, high pass, band pass and bandstop Butterworth and Chebyshev filters; design, build and test of simple microstrip and stripline filters and amplifiers; high frequency modeling; small-signal device design using S parameters; analysis and test of stability, noise performance and distortion of active and passive devices. Labs require students to design, simulate, build and test various RF circuits referencing data sheets.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Analyze self-resonance and estimate parasitic impedances for passive devices.
+- Design VHF LC impedance matching networks.
+- Design micro-strip and strip-line transmission line matching networks and filters.
+- Design RF filters for amplitude, phase and delay characteristics.
+- Compare the different types of filters such as Butterworth, Bessel, Chebyshev and Cauer.
+- Calculate gain and stability of RF components and devices using scattering parameters.
+- Select heat sinks for heat dissipation of power devices using data sheet specifications.
+- Analyze heat sinks for transient thermal gradients and to identify hot spots.
+- Construct I/O plots from gain and distortion specifications and calculate signal to noise/distortion ratios. Confirm the results in a UHF-SHF amplifier.
+- Calculate noise figure for various configurations and matches of active and passive devices.
+- Optimize gain - noise figure trade-offs.
+- Construct and test a variety of RF circuits.
+
+## Learning Resources
+RF Circuit Design Lecture Notes and Labs
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 20: Students must complete all labs during lab sessions.
+Midterms (2) and quizzes: 40
+Final Exams: 40
+
+## Course Schedule and Assignments
+WEEK
+1 09/02: Overview: Parts, Matching, Filters, Signals & Distortion
+Passive Component Behavior at RF
+2 09/09
+Impedance Matching
+3 09/16
+4 09/23
+5 09/30: Filter Design
+6 10/7
+7 10/14: Micro-strip Impedance Matching
+8 10/21: Hybrid-Pi Transistor Model
+S Parameters Design with S Parameters
+9 10/28
+Amplifier Distortion
+10 11/4
+11 11/11
+12 11/18: WiFi & Cell formats
+13 11/25: Extended Topics: Thermal Design
+Noise
+Broadband Xmrs
+14 12/2: Review
+12/09: Exams
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. David Verner, Instructor September 03, 2024
+
+I verify that this course outline has been reviewed. Bob Gill, Program Head September 05, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean September 06, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

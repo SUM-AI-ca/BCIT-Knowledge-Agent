@@ -1,0 +1,133 @@
+URL: https://www.bcit.ca/outlines/20241070236/
+Course: MATH 6105
+Field: Statistics and Research Methodology for Radiation Therapy
+
+School: School of Health Sciences
+Program: Radiation Therapy
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 03, 2024
+End Date: April 26, 2024
+Total Hours*: 48
+Total Weeks: 16
+Hours/Weeks: 3
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 70236
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Andrew McConnell
+E-mail: Andrew_McConnell@bcit.ca
+Location: SW2 237
+Office Hours: TBA
+
+## Course Description
+Emphasizes statistical data treatment and decision making with illustrative cancer therapy applications. Topics include modeling with probability distributions (Binomial, Normal), statistical inference (estimation and hypothesis testing, p-values), regression and correlation. Applications include descriptive presentations, survival rates and experimental design.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course the student will be able to:
+
+- Analyse statistical data and summarise using standard measures such as mean, median, standard deviation and skew.
+- Present data in a graphical form, such as histogram, to provide a summary of large data sets.
+- Design and evaluate appropriate use of different types of clinical studies in the presentation of medical research.
+- Interpret the results of a hypothesis test as it pertains to clinical studies in radiation therapy.
+- Assess the p-value as a measure of clinical study validity and significance.
+- Determine the risk of a false test result using basic probability theory and Bayes' Theorem.
+- Apply the appropriate non-parametric tests to analyse discrete data resulting from subjective observations, or non-continuous data, as applied to patient evaluation and progress.
+- Evaluate the dependence between patient characteristics and medical conditions using contingency tables and Chi-squared analysis.
+- Interpret the results of a survival analysis from clinical studies with emphasis on Kaplan-Meier survival curves and the log-rank test to determine significance.
+- Evaluate articles in clinical journals for statistical significance of the result and appropriateness of the statistical analysis being used.
+- Apply linear regression and model fitting to multivariate data to test for dependence between variables.
+- Understand the different research methodologies used in evidence based practice.
+
+## Learning Resources
+1. Scientific calculator with statistical functions (mean, standard deviation, regression and correlation)
+
+2. Minitab - available via Appsanywhere
+
+3. Readings in Learning Hub
+
+Optional Texts
+
+- Biostatistics Open Learning Textbook: https://bolt.mph.ufl.edu/
+- OpenIntro Biostatistics https://www.openintro.org/book/biostat/
+
+## Course Goals
+- familiarize students with the underlying principles, concepts and terminology of descriptive and inferential statistics and their basic applications in relevant journals (e.g., International Journal of Radiation Oncology · Biology · Physics, Radiotherapy Oncology, International Journal of Cancer, Radiologic Technologist).
+- interpret medical statistics used in clinical research
+- practice design of statistically based clinical research studies at a level appropriate for student research projects.
+- learn to use basic statistical procedures aided by calculator/computer computations to collect, summarize, analyze and interpret statistical data as it applies to radiation therapy.
+- learn statistical basis of a systematic reviews and meta-analysis.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Examination: 30%: Minimum passing grade for this course is 60%.
+Group Assignment/Brief Presentation: 15%
+Midterm: 30%
+Assignments: 15%
+Quizzes: 10%
+
+## Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: https://www.bcit.ca/early-assist/
+
+## Course Schedule and Assignments
+Schedule subject to Change
+
+Week Approx: Topics: Assessments
+1-2: Systematic Reviews – Basics Risk of Bias Assessments Meta-analysis – overview
+3: Experimental Study Design Types of studies seen in literature Observational vs randomized clinical trials Methods of Randomization Why isn’t everything randomized: Quiz – Systematic Review understanding
+4 -5: Descriptive Statistics – the basics of summarizing data. display of data using tables and graphics measures of central tendency measures of variation quartiles and standard scores Summarizing data in an article - patient characteristics tables: Assignment 1 (Due week 5) Quiz – Experimental Design
+6: Probability – how it is used in the medical field medical testing: sensitivity, specificity Kaplan-Meier Survival Curves: Quiz - Descriptive statistics
+7: Population models Normal Binomial: Quiz - Probability Assignment 2 Due
+8: Midterm
+9: Sampling to Answer Population Questions the Central Limit Theorem and implications Estimating population values: confidence intervals Evidence Based Medicine: Asking Questions and arriving at a Conclusion stating a question to guide research basic principles and concepts of hypothesis testing interpreting p-values
+10: Spring Break
+11: One sample tests of means and proportions: Quiz- Confidence intervals
+12: Two sample hypothesis testing: Means, log-rank, OR, RR, HR, Chi-square
+13: Linear Regression: Quiz - Hypothesis Testing
+14: Returning to Meta-analysis: Assignment 3 – hypothesis testing in papers
+15: Presenting the results of the meta-analysis: Group Assignment due
+16: Final Exam
+
+## Course topics
+- Analyze statistical data and summarise using standard measures such as mean, median, standard deviation and skew.
+- Present data in a graphical form (e.g. histograms, boxplots) to summarize large data sets.
+- Design and evaluate appropriate use of different types of clinical studies in the presentation of medical research.
+- Interpret the results of a hypothesis test as it pertains to clinical studies in radiation therapy.
+- Assess the p-value as a measure of clinical study validity and significance.
+- Determine the risk of a false test result using Bayes’ Theorem.
+- Apply the appropriate non-parametric tests to analyse discrete data resulting from subjective observations, or non-continuous data, as applied to patient evaluation and progress.
+- Interpret the results of a survival analysis from clinical studies with emphasis on Kaplan-Meier survival curves and the log-rank test to determine significance.
+- Evaluate articles in clinical journals for statistical significance of the result and appropriateness of the statistical analysis being used.
+- Apply linear regression and model fitting to bivariate data to test for dependence between variables.
+- Systematic Reivews and Assessments of Bias
+- Meta-analysis: fixed and random effects
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Andrew McConnell, Faculty January 01, 2024
+
+I verify that this course outline has been reviewed. David Holloway, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed. Lorraine Clarke Roe, Faculty January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean January 02, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

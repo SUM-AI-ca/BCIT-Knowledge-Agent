@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/outlines/20241084023/
+Course: ELEX 4653
+Field: Introduction to Python
+
+School: School of Energy
+Program: Electrical Engineering
+Course Credits: 1.5
+Minimum Passing Grade: 50%
+Start Date: April 22, 2024
+End Date: May 17, 2024
+Total Hours*: 24
+Total Weeks: 4
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): ELEX 3305
+CRN: 84023
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ed Casas
+E-mail: Eduardo_Casas@bcit.ca
+Location: SW01-3061
+Office Hours: Monday and Tuesday, 12:30 to 13:20.Monday and Tuesday 13:30 to 15:20 (by appointment)
+
+## Course Description
+This course covers the basic elements of the Python language, program development, debugging and documentation. Students learn how to use Python libraries and are introduced to Python applications such as automated testing.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe the basic elements of the Python language and the Python interpreter. [1, 7]
+- Use fundamental control structures. [1, 5]
+- Implement algorithms to solve engineering problems using Python. [2, 5]
+- Debug Python programs. [3, 5]
+- Explain terminologies and parameters found in Python library documentation. [1, 7]
+- Use Python libraries. [5]
+- List the most common applications of Python. [1]
+
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+## CEAB Graduate Attributes
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+None.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 15
+Quizzes: 30
+Project: 15
+Final Exam: 40
+
+## Course Schedule and Assignments
+week: Monday: Tuesday: Wednesday: Thursday: Friday
+lectures:: 11:30: 10:30
+labs:: 13:30 (4T): 10:30 (4S) 14:30 (4L,6S): 12:30 (4S): 1:30 (4L,6S): 09:30 (4T)
+April 22: Lecture: Lecture: L1: L1: L1
+April 29: Q1: Q1: L2: L2: L2
+May 06: Q2: Q2: L3: L3: L3
+May 13: P: P: Exam: Exam: Exam
+Legend: Ln = Lab n, Qn = Quiz n, P = Presentations
+Tentative, subject to change.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ed Casas, Program Head April 22, 2024
+
+I verify that this course outline has been reviewed. David Romalo, Program Head April 22, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean April 24, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

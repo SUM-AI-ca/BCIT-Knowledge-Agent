@@ -1,0 +1,184 @@
+URL: https://www.bcit.ca/outlines/20252067132/
+Course: COMP 1516
+Field: Programming Fundamentals Part 1 (Python)
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: April 10, 2025
+End Date: July 03, 2025
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Zero Textbook Cost: Yes
+Prerequisite(s): COMP 1002
+CRN: 67132
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Mathew Linder
+E-mail: Instructor to provide
+Location: N/A
+Office Hours: Instructor to provide
+
+## Course Description
+​Students with no prior computer programming experience are introduced to using Python to write simple programs. This hands-on introductory computer programming course is the foundation for all BCIT Computing Flexible Learning programming courses. COMP 1516 is not a Python development course, it is the first step in a series of three (3) applied programming fundamentals courses. Students must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Topics include: Data structures, data modelling, programming constructs, lists, strings, sets and maps. Labs and exercises focus on writing code for projects, assignments, and activities. Participants will design, implement, test, and debug simple programs that incorporate: variables, expressions, assignments, I/O, conditional and iterative control constructs, functions, and parameter passing. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 15 hours per week; 3 hours of class time, a 1-hour online component and 10+ hours of homework each week. COMP 1516 is required for the Applied Software Development (ASD) and the Applied Computer Information (ACIS) Associate Certificates, as well as the Computer Systems Certificate (CSC). Upon completion, successful students will have a basic understanding of computer programming and be prepared to move on to COMP 2501 –Programming Fundamentals Part 2.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Install and set-up Python.
+- Analyze and explain the behavior of simple programs.
+- Create simple algorithms for solving simple problems.
+- Choose the appropriate data structure for modeling a given problem.
+- Choose appropriate conditional and iteration constructs for a given programming task.
+- Apply the techniques of decomposition to break a program into smaller pieces.
+- Write programs that use primitive data types, variables, expressions, and command line I/O.
+- Write programs that use conditional and iterative control structures, functions, and parameter passing.
+- Write programs that use each of the following data structures: lists, strings, sets, and dictionaries.
+- Write programs using the standard libraries available with a chosen programming language.
+- Write programs that use file I/O to provide persistence across multiple executions.
+- Design and implement a class.
+- Utilize Regular expressions to build search patterns.
+- Apply a variety of strategies to the testing and debugging of simple programs.
+- Conduct a personal code review on a program component.
+- Practice how to work with a partner as part of a team.
+- Move on to COMP 2501 - Programming Fundamentals Part 2.
+
+## Learning Resources
+This course uses online resources to be provided by your instructor, no text book is required.
+
+This may include:py4e.com for weekly readings.
+
+## Course Goals
+- COMP 1516 was designed to teach programming fundamental concepts. Students who achieve a 70% minimum grade are prepared to move on to COMP 2501 - Programming Fundamentals Part 2 (Java).
+- Python is used in COMP 1516 however this is not a Python course, it is the first step a series of 3 Programming Fundamentals courses.
+- To provide students with the experience working with a partner online.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 30: There is a quiz at the end of each class, except the first. The quizzes are based on a pre-class reading or online activity and a review of the previous week's topics. Note: You must average a minimum of 50% between the Quizzes and the Final Exam in order to pass this course.
+Labs: 20: There is a lab every class, except for the final exam session. You must attempt and submit each Lab in order to pass this course.
+Assignments: 20: There are 3 assignments. You must attempt and submit all assignments in order to pass this course.
+Final Exam: 30: Includes written and hands-on coding components. Note: You must average a minimum of 50% between the Quizzes and the Final Exam in order to pass this course.
+
+Please Note: Late submissions will have reduced marks or may not count toward your grades without the instructor's prior consent.
+
+The total passing grade for COMP 1516 is 60%. If you achieve less than 70% you should repeat this course before moving on to COMP 2501 Part 2.
+
+By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Computing PTS Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Access to a computer capable of running Python
+- An understanding of file management on a Windows PC
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Please understand that consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Statement for prior learning assessment
+email cstflex@bcit.ca for PLAR information (include your student ID)
+
+## Course Schedule and Assignments
+Week: Topics: Quiz: Lab: Assignments
+1: Python Setup, Variables, Expressions, Naming Conventions: Lab 1
+2: Functions and Modules, Main Function Includes Naming Conventions, DocString Mathematical Operators: Quiz 1: Lab 2
+3: Branching - includes Boolean, Logical Operators, Short Circuiting Introduce While Loop CLI: Quiz 2: Lab 3
+4: Strings – Concatenation, Formatted Strings, Slicing, Manipulation, String Methods: Quiz 3: Lab 4
+5: Lists and Tuples, List Comprehensions List Functions, List Methods, List of lists: Quiz 4: Lab 5
+6: Loops – For Loop, Ranges, Compare with While Loop: Quiz 5: Lab 6
+NO CLASS MAY 22ND
+7: Sets and Dictionaries Nested Dictionaries: Quiz 6: Lab 7: Assignment 1 Due
+Final week to withdraw to get a 'W' on transcript. NOTE: Withdrawal Deadline Please inform your instructor if you are dropping this course. You must fill out and submit the Request to Withdraw form before week 8 or else you will receive a failing grade on your academic record.
+8: Scope – Local vs Global, Object References, Debugging File I/O – file functions, methods and modes: Quiz 7: Lab 8
+9: Regular Expressions – search, findall, sub, split: Quiz 8: Lab 9
+10: Exception Handling – Raising and Handling Exceptions File Systems and Native OS Calls: Quiz 9: Lab 10: Assignment 2 Due
+Course evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before Week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: OOP – Classes and Objects: Quiz 10: Lab 11
+12: Final Exam: Assignment 3 Due
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Mathew Linder, Instructor April 01, 2025
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 04, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

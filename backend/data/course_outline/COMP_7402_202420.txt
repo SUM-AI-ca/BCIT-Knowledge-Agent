@@ -1,0 +1,142 @@
+URL: https://www.bcit.ca/outlines/20242069295/
+Course: COMP 7402
+Field: Topics in Computer Programming - Cryptology
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Technology - Computer Systems Technology
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: April 06, 2024
+End Date: June 22, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+CRN: 69295
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Aman Abdulla
+E-mail: Instructor to provide
+Location: SW02-323
+Office Hours: Instructor to provide
+
+## Course Description
+This course teaches students the art and science of securing data (information). Course components will cover Cryptography with an introduction to Cryptanalysis, with an emphasis on the practical implementation of Cryptographic algorithms and techniques. Topics in Cryptography will include substitution and transposition ciphers, including stream and block ciphers. Applications will include bit-manipulation ciphers, secret and public-key ciphers. Topics in Cryptanalysis will include traditional techniques such as Ciphertext-only, Known-plaintext, and Chosen-plaintext attacks. Students will also be introduced to more modern linear and differential cryptanalysis. Students will be permitted to choose programming languages of their choice in the implementation of algorithms during assignments and final projects.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the mathematical foundations of cryptography and the importance of pseudo-random number generators.
+- Describe cryptographic techniques with an emphasis on practical applications.
+- Implement any of the algorithms covered in the course using any programming language of choice.
+- Describe cryptographic protocols.
+- Evaluate and analyze the various cryptographic techniques such as key management algorithms, symmetric and asymmetric algorithms, hashes and signatures.
+- Apply various cryptanalysis techniques to retrieve plaintext messages from ciphertext.
+- Evaluate strong cryptographic algorithms for potential use within an organization.
+- Configure and deploy cryptographic tools for applications such as email, securing sensitive files, etc.
+
+## Learning Resources
+Learning Resources
+
+Required:
+
+Cryptography and Network Security: Principles and Practice (latest edition)
+
+William Stallings
+
+Pearson
+
+Recommended:
+
+Applied Cryptography: Protocols, Algorithms, and Source Code in C (latest edition)
+
+Bruce Schneier
+
+John Wiley
+
+The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography
+
+Simon Singh
+
+Anchor; Reprint edition
+
+## Course Goals
+Upon successful completion, the student will:
+
+1. Have a working knowledge of the mathematical foundations of cryptography and the importance of pseudo-random number generators.
+
+2. Have a solid understanding of cryptographic techniques with an emphasis on practical applications.
+
+3. Be able to implement any of the algorithms covered in the course using any programming language of choice.
+
+4. Have a detailed understanding of cryptographic protocols; evaluate and analyze the various cryptographic techniques such as key management algorithms, symmetric and asymmetric algorithms, hashes and signatures.
+
+5. Understand and apply various cryptanalysis techniques to retrieve plaintext messages from ciphertext.
+
+6. Understand the basics of strong cryptographic algorithms and be able to analyze and evaluate them for potential use within an organization.
+
+7. Acquire a solid foundation for pursuing more advanced courses in the field of Cryptology.
+
+8. Be able to configure and deploy cryptographic tools for applications such as email, securing sensitive files, etc.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Examination: 40%
+Final Project: 20%
+Assignments/Projects: 40%: 5 assignments.
+TOTAL: 100%
+
+The passing grade for this course is 60%.
+
+## Attendance Requirements
+Attendance in class is mandatory.
+
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor indicating the reason for the absence.
+
+Prolonged illness which causes the student to miss 10% or more of the labs will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Unapproved absence of 10% or more of the labs may result in failure or forced withdrawal from this course.
+
+## Course Schedule and Assignments
+Schedule
+
+Module Number: Outcome/Material Covered: Approximate Duration (Subject to change)
+1: Introduction & A Brief History of Cryptology (Cryptography and Cryptanalysis) Basic Terminology Cryptographic Basics Cipher Designs Modern Cryptography: Apr. 6 (1 Week)
+2: Traditional Cryptograpy: Substitution and Transposition Ciphers One-Time Pads Stream Ciphers Block Ciphers Bit Manipulation Ciphers Cipher Frequency analysis: Self Study
+3: Mathematical Foundations: Modular Arithmetic Modular exponentiation Modulo2 Arithmetic and Galois Fields Prime Numbers Probability Theory Field Arithmetic Finite Field concepts Public key encryption/decryption using RSA: Apr. 13 (2 Weeks)
+4: Finite Fields and Elliptic Curves: DH Key exchange Principles of Elliptic Curve Cryptography (ECC) Elliptic Curves over Finite Fields Elliptic Curve Diffie–Hellman Key Exchange (ECDH): Apr. 20 (2 Weeks)
+5: Cryptographic Protocols and Algorithm Modes: Key Exchange & Authentication Electronic Codebook Mode Cipher Block Chaining Mode Cipher Feedback Mode Synchronous Stream Ciphers Output Feedback Mode Public Key Length Key Length Analysis and Security Requirements: May. 4 (1 Week)
+6: Fiestel Architecture and Ciphers: Fiestel Architecture Fiestel Ciphers: May 4 (1 Week)
+7: The Data Encryption Standard (DES) and Variants: DES Structure and Analysis DES Security Public-Key Cryptography Multiple DES: May 11 (1 Week)
+8: Advanced Encryption Standard (AES): AES Structure and Analysis AES Security: May 18 (1 Week)
+9: Modern Stream Ciphers: Salsa20: May 25 (1 Week)
+10: Transport Layer Security: TLS Cipher Suite Digital Certificates Key Exchange Algorithms Bulk Encryption Algorithms: June 1 (2 Weeks)
+11: Final Exam Final Project: June 15 - 22
+
+*Topics may be omitted, replaced or added at the discretion of the instructor.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Aman Abdulla, Instructor April 03, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

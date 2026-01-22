@@ -1,0 +1,131 @@
+URL: https://www.bcit.ca/outlines/20243050116/
+Course: COMP 3522
+Field: Object Oriented Programming 2
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology Diploma
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): COMP 2510 and COMP 2526 or COMP 2522
+CRN: 50116
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jeffrey Yim
+E-mail: jyim3@bcit.ca
+Location: Online
+Office Hours: Will be posted in the Learning Hub.
+
+## Course Description
+This hands-on course follows on from COMP 2510 and COMP 2522. This course covers the advanced concepts of design, development, testing, and debugging intermediate-level programs with an object-oriented programming language. Topics include language syntax, design patterns, multiple inheritance (using classes and/or interfaces).
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Design, implement, debug and test intermediate to complex object-oriented programs in a modern high-level object-oriented programming language.
+- Demonstrate familiarity with advanced design idioms including Dependency-inversion Principle, Liskov Substitution Principle, Open/Closed Principle, Interface-segregation Principle, Law of Demeter in a modern high-level object-oriented programming language.
+- Use profiling tools to monitor the memory and CPU usage of programs.
+- Use multiple inheritance to model complex abstractions.
+- Use exception handling to catch errors and properly release resources.
+- Demonstrate an understanding of advanced design patterns including Abstract Factory, Builder, Lazy Initialization, Bridge, Decorator, Facade, Proxy, Chain of Responsibility, Iterator, Mediator, State, and Strategy.
+- Represent analysis and design models using sequence, collaboration and class diagrams.
+- Develop systems using advanced architectures that reduce system coupling including dependency injection, asynchronous message passing, and observers.
+
+## Learning Resources
+Optional Textbooks
+
+- C++ Primer Plus, 6th Edition, Addison-Wesley (2011)
+- The C++ Programming Language, 4th Edition, Addison-Wesley (2013)
+
+Software (All Required)
+
+- CLion C++ IDE
+- g++ compiler
+- A Free Student Developer Pack from Github Get it here: https://education.github.com/pack This is used to submit your assignments and labs
+- Get it here: https://education.github.com/pack
+- This is used to submit your assignments and labs
+
+## Course Goals
+By the end of this course, the student will be able to:
+
+- Understand design patterns (Creational, Structural, Behavioral)
+- Design and code basic C++ programs.
+- Understand abstract data types as represented in C++ code.
+- Design and code good C++ classes.
+- Understand and use common algorithms expressed in C++.
+- Use inheritance to capture and reuse common behavior.
+- Use polymorphism to create easily extensible systems.
+- Use multiple inheritance to model complex abstractions.
+- Use exception handling to catch errors and properly release resources.
+- Use simple persistence strategies for preserving objects between program invocations and/or share objects between programs.
+- Use the standard C++ library.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Exercises: 10: Weekly.
+Quizzes: 10: Weekly learning hub quizzes. Only students in lecture will be permitted to write the quiz.
+Midterm: 30: Will take place during midterm week.
+Assignments: 20: 2 Assignments. May be completed individually or in groups
+Final Exam: 30: Will take place during finals week
+
+Subject to Change
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf.
+
+## Course Specific Requirements
+You must pass the midterm & final exams on average in order to pass the course. That is, if the weighted average of your tests is less than 50%, you will fail this course.
+
+## Course Schedule and Assignments
+Week: Topics
+1 - Sept 2: Introduction, toolchain, C++ program structure, Fundamental types. Operators, c-style casting, constants, console/File IO
+2 - Sept 9: More File IO, Arrays in C++, Random number generation, Pointers, nullptr, References Functions references, local variables, and return values, string and stringstream, new and delete keywords, C++ Vectors
+3 - Sept 16: Classes and objects, Default constructor, Default arguments, Structs Copy constructor, destructor, Most vexing parse, Forward declaration, Inline functions
+4 - Sept 23: Friends, Operator overloading, Copy Assignment operator Inheritance, Polymorphism and virtual functions, Abstract classes & interfaces, Multiple Inheritance
+5 - Sept 30: Exceptions , Design idioms, Coupling, Cohesion SOLID principles, Law of Demeter
+6 - Oct 7: auto keyword, Ranged for, Intro to the STL, STL containers STL Iterators, Algorithms, Strict weak ordering
+7 - Oct 14: Copy elision, RVO, Right left rule Review
+Oct 21: MIDTERM WEEK – Non-Instructional Week
+8 - Oct 28: Casting, Enums, Static, Enums Introduction to design patterns
+9 - Nov 4: Design patterns: Wrapper, Proxy, Facade, Bridge, Decorator Factory, Abstract factory
+10 - Nov 11: Design patterns: Builder, Chain of responsibility, Strategy, State, Mediator, Dependency injection
+11 - Nov 18: Decorator design pattern, Concurrency, Functor, Lambda, Template
+12 - Nov 25: Move operator, Smart pointers, r and lvalues, Review
+Dec 2: Study/Makeup/Review/Presentation Week
+Dec 9: Final Exam Week – Non-Instructional Week
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jeffrey Yim, Instructor August 29, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head August 29, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

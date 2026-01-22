@@ -1,0 +1,149 @@
+URL: https://www.bcit.ca/outlines/20251092256/
+Course: GEOM 6125
+Field: Advanced Adjustments
+
+School: School of Construction and the Environment
+Program: Geomatics
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Prerequisite(s): GEOM 5140
+CRN: 92256
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Olusegun John Ogundare
+E-mail: John_Ogundare@bcit.ca
+Location: SW2-317
+Office Hours: Monday: 9:30 - 10:20 AMWednesday: 10:30 - 11:20 AMFriday: 11:30 AM - 2:30 PM
+
+## Course Description
+​This course begins with students learning to formulate and solve problems of weighted parameters, nuisance parameters elimination, and the sequential adjustment model. It continues with the analysis of datum, including inner constraint adjustments, constraint functions, and datum transformations, and then evaluation of local, network, internal and external accuracies of surveys. The course will then discuss major topics such as approximation, Fourier analysis, filtering in observation and frequency domains, and prediction, as well as Kalman filtering and their applications in geomatics. Students will learn through lectures, labs and participation.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Formulate and solve weighted parameters problems.
+- Formulate and solve problems with the nuisance parameters elimination model and sequential adjustment model.
+- Analyze datum problems in geomatics, including free network (inner constraint) adjustments and datum transformations.
+- Determine and evaluate local, network, internal and external accuracies of surveys.
+- Apply matrix theory in approximation problems.
+- Construct curve or mathematical functions that best fit to series of data points.
+- Model time and spatial data series for further analysis.
+- Apply the error propagation approach to determine quality of approximated functions.
+- Apply regression analysis to geomatics problems, such as time series and non-time-series data.
+- Perform spectral analysis.
+- Perform filtering in observation and frequency domains.
+- Describe the principles of a Kalman filter.
+- Relate simple Kalman filtering and prediction methods with the sequential least-squares adjustment method.
+- Design and use various filters, including a simple Kalman filter.
+- Describe the relationship between spectral analysis and filtering.
+
+## Learning Resources
+Required:
+
+Ogundare, J. O. (2018). Understanding Least Squares Estimation and Geomatics Data Analysis, Published by John Wiley & Sons. ISBN 978-111-950-139-8. Available in BCIT. Bookstore, Burnaby.
+
+Instructor's Handouts and PowerPoint Notes
+
+Tools: Knowledge of how to use MATLAB, MS Excel and Scientific calculator is very important in this course.
+
+Recommended:
+
+1. Mikhail, E. M. and F. Ackerman (1976). Observations and Least Squares. University Press of New York
+
+2. Mikhail, E.M. and G. Gracie (1981). Analysis and Adjustment of Survey Measurements. Reprints available from the Dept. of Geomatics Engineering, University of Calgary, Calgary, Alberta.
+
+3. Wolf, P.R. and C. D. Ghilani (1997). Adjustment Computations: Statistics and Least Squares in Surveying and GIS. John Wiley and Sons, Inc., New York.
+
+4. Vanicek, P. and E. Krakiwsky 1987). Geodesy: The Concept. Second Edition. Elsevier Science Publishers, North-Holland.
+
+## Evaluation Criteria
+Criteria: %: Comments: Combined mark of 50% for all criteria is required to pass this course
+Final Examination: 40
+Labs: 30: Lab #: Weight Lab 1: 10.0% of 30% Lab 2: 10.0% of 30% Lab 3: 10.0% of 30% Lab 4: 10.0 of 30% Lab 5: 10.0% of 30% Lab 6: 10.0% of 30% Lab 7: 10.0% of 30% Lab 8: 10.0% of 30% Lab 9: 10.0% of 30% Lab 10: 10.0% of 30%
+Quizzes (3): 8: Quiz #: Weight Quiz 1: 25.0% of 8% Quiz 2: 25.0% of 8% Quiz 3: 50.0% of 8%
+Midterm Test: 20: Exam #: Weight Mid Term Exam: 100.0% of 20%
+Participation (Un-announced quizzes): 2: Un-announced quizzes can be assigned to students to complete during lecture/lab times; quality of participation in class discussions will also be evaluated and marks will be awarded proportionately by the instructor.
+TOTAL: 100
+
+## Attendance Requirements
+Class and lab attendance is mandatory; students are also expected to regularly monitor postings in the News section of Learning Hub. If any student will be away for any reason, he/she must send a prior notice to the instructor and the chief instructor about the intended absence and must explain what arrangement would be made to catch up on resumption of class and lab activities.
+
+## Course Specific Requirements
+Post-Secondary Differential Calculus, Matrix Methods and Statistics and Introductory Adjustment computations.
+
+## Other information
+Policies on Late Assignments and Missed Test (Exam):
+
+In addition to the BCIT policy, the following will apply:
+
+- Assignment due dates will be strictly enforced; Exam and Tests must be completed at the specified times (NO MAKE-UP EXAMS/TESTS).
+- Late assignment will not be awarded any mark; it must be handed in to the instructor within 72 hours in order to receive comments on the assignment.
+- After 72 hours of the due time, the student will still be expected to hand in the late assignment (for no marks and for additional penalty to be decided by the instructor) to the instructor before the course ends; otherwise, the student will receive incomplete (INC) grade for the lab and in the course.
+- Each assignment must be handed in following appropriate professional format.
+- In case of illness supported with a BCIT medical certificate (according to the BCIT Policy 5101), the instructor will decide on what to do on the late assignment or missed tests (or Exams) and communicate such decision to the student promptly.
+- Students are expected to obey additional instructions on assignments that may be posted time-to-time on the Discussion forums and on the News tool of the Learning Hub.
+- It is the sole responsibility of the student to arrange to complete every exam, test, quiz and lab as scheduled.
+- The students must strictly follow specific instructions on every learning activity, including exam, test, quiz, lab, etc., otherwise the appropriate marks would be deducted by the instructor as a penalty for the students' inability to follow specific instructions.
+
+## Statement for prior learning assessment
+Students must have good and current understanding of Differential Calculus, Matrix Methods and Statistics before taking this course and Introductory Adjustment computations.
+
+## Course Schedule and Assignments
+Note: The following schedule is tentative and may change at the discretion of the instructor. Any important changes, however, will be communicated to the students appriopriately. If any component of the material is not completed as scheduled, the completed part will be reweighted accordingly to cover the assigned marks for that component. Lectures and necessary comments may be posted time to time in the News section of the Learning Hub.
+
+Week: Material Covered: Readings: Assignment: *Due Date
+1: Formulate and solve weighted parameters problems: Required Book (Chapter 6, sec. 6.7, p.260-271; Chap. 13, sec.13.10, p.524-538): Lab #1
+2: Nuisance parameter elimination and sequential adjustment: Required Book Chapter 10, p.377-417 (video): Lab #2: Lab 1: Jan. 15
+3: Analysis of datum and free network (inner constraint adjustment) and datum transformation: Required Book (Chapter 14, p.543-566 & video): Lab #3: Lab 2: Jan. 22
+4: Confidence Region Analysis (Evaluation of local, network, internal and external accuracies of survey measurements): Required Book Chapter 7, p.275-309: Lab #4 &Quiz 1 (Chap. 6, 10, 13): Quiz #1: Jan.29 Lab 3: Jan. 29
+5: Network transformation, Interpolation, curve fitting and least squares approximation of functions: Required Book: Chapter 6, sec. 6.6, p.254-259. & Handout: Lab#5: Lab 4: Feb. 5
+6-7: Introduction to Kalman filtering and prediction with comparison with sequential adjustment: Required Book Chapter 15, p.571-609.: Lab #6 & Exam 1 (Wk 6): Exam 1: Feb 12 (Wk 6) Lab 5: Feb. 19 - Wk 7
+8-9: Fourier series approximation and harmonics analysis (Fourier transform and inverse Fourier transform synthesis and analysis: Handout: Lab #7 & Quiz #2 (Chap. 14 & 7) - Wk 9: Lab 6: Feb. 26-Wk 8 Quiz #2: Mar.5 (Wk 9)
+SPRING BREAK
+10: Spectral analysis and filtering in frequency domain.: Handout: Lab #8: Lab 7: Mar. 19
+11: Time series modelling and analysis in time domain – autocovariance, autocorrelation and partial autocorrelation functions: Handout: Lab #9: Lab. 8: Mar.26
+12: Time series modelling and analysis in time domain – Autoregressive (AR), Moving Average (MA) modelling as predicting models/ Deterministic trend analysis: Handout: Lab #10 (Part 1): Lab 9: Apr. 2
+13: Finite Impulse Response (FIR) filtering using Moving Average filters –time domain filtering.: Handout: Lab #10 (Part 2) & Quiz #3 (Ch.15 & Fourier analysis and Time series modeling) - Wk 13: Quiz #3: Apr.9
+14: Review: Lab 10: Apr. 16 & Review
+15: Final Examination: Apr. 21-26
+
+*Check instructions on each assignment to confirm due dates.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Ogundare, Instructor January 01, 2025
+
+I verify that this course outline has been reviewed. Mark Dailey, Program Head January 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 03, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

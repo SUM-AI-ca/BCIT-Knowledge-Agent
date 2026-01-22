@@ -1,0 +1,117 @@
+URL: https://www.bcit.ca/outlines/20253051806/
+Course: GEOM 3025
+Field: Computer Programming
+
+School: School of Construction and the Environment
+Program: Geomatics
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): GEOM 2021
+CRN: 51806
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Mohamed Abdel-Salam
+E-mail: mohamed_abdelsalam@bcit.ca
+Location: SW02-317
+Office Hours: Office hours:Tuesdays: 10:30 am to 1:30 pmWednesdays: 1:30 pm to 2:30 pmFridays: 11:30 am to 12:30 pm
+
+## Course Description
+​This course introduces the fundamentals of computer programming using a high-level language. Topics include programing concepts and techniques, data structures, and algorithms. It also includes primitive and compound (nD arrays, structures, lists, etc.) data types, mathematical statements, conditional statements, loops, functions, file I/O, data parsing and display, use of libraries, and debugging and error/exception handling. Students will learn how to design, develop, and debug well-structured programs. With an emphasis on geomatics problems, a variety of real-world applications are developed to reinforce programming concepts and techniques. ​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe main components of a computer and their function, including hardware and software.
+- Differentiate between low- and high-level computer languages.
+- Discuss computer programming concepts, techniques, and what a well-structured program is.
+- Distinguish syntax, runtime, and logical errors.
+- Explain data types (simple and composite) and how to use them efficiently.
+- Write and evaluate mathematical formulas in the programming language using mathematical statements, decision-making statements, and loops.
+- Apply the programming language to read/write/append files, display their contents, and reformat them.
+- Use and develop functions, subroutines, and libraries.
+- Execute debugging and error/exception handling.​
+
+## Learning Resources
+Course Materials
+
+- Course notes, lecture material, labs and supplementary readings are provided to the student on-line via D2L.
+- Murach MUJ. Murach's Python Programming., Mike Murach & Associates; 2016.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab assignments: 40%: Nine assignment - equal weight
+Mid Term Exam: 20%
+finalTerm Exam: 40%
+
+## Attendance Requirements
+See BCIT's Attendence Policy.
+
+## Course Schedule and Assignments
+GEOM 3025 Computer Programming, Fall 2025
+Module: Details: Date: Assignment due date
+No Lecture or Lab: Tuesday, Sept 2
+Module 1 Course Logistics & Programming Introduction: Lecture: Tuesday, Sept 9 Sept 9, 11
+Lab Assignment: 10:00 am Sept 18
+Module 2 Data Format, Operators, Functions, Methods: Lecture: Tuesday, Sept 16
+Lab Assignment: 10:00 am Sept 25
+Module 3 Control Structures: Lecture: Tuesday, Sept 23 Sept 23, 25
+Lab Assignment: 10:00 am Oct 2
+Stat Holiday: Tuesday, Sept 30
+Module 4 More on Functions: Lecture: Tuesday, Oct 7 Oct 7, 9
+Lab Assignment: 10:00 am Oct 16
+Module 5 File I/O & Introduction to Libraries: Lecture: Tuesday, Oct 14 Oct 14, 16
+Lab Assignment: 10:00 am Oct 23
+Module 6 Mid Term Exam: Mid Exam: Tuesday, Oct 21
+No Lab
+Module 7 More on Libraries & Array Operations: Lecture: Tuesday, Oct 28 Oct 28, 30
+Lab Assignment: 10:00 am Nov 6
+Module 8 Exceptional and Error Handling: Lecture: Tuesday, Nov 4 Nov 4, 6
+Lab Assignment: 10:00 am Nov 13
+Stat Holiday: Tuesday, Nov 11
+Module 9 Using Graphics & Charts: Lecture: Tuesday, Nov 18 Nov 18, 20
+Lab Assignment: 10:00 am Nov 27
+Module 10 Object Oriented Programming: Lecture: Tuesday, Nov 25 Nov 25, 27
+Lab Assignment: 10:00 am Dec 4
+Module 11 Course Review & Evaluation: Lecture: Tuesday, Dec 2 Dec 2, 4
+No Lab Assignment
+Module 12 Final Exam: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Mohamed Abdel-Salam, Instructor September 02, 2025
+
+I verify that this course outline has been reviewed. Mark Dailey, Program Head September 02, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean September 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

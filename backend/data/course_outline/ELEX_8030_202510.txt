@@ -1,0 +1,234 @@
+URL: https://www.bcit.ca/outlines/20251073975/
+Course: ELEX 8030
+Field: Real-Time Embedded Systems
+
+School: School of Energy
+Program: Electrical and Computer Engineering - Bachelor of Technology
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 07, 2025
+End Date: April 22, 2025
+Total Hours*: 48
+Total Weeks: 16
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 73975
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Stefan Poli
+E-mail: Instructor to provide
+Location: SW01-3055 (lab)
+Office Hours: Instructor to provide
+
+## Course Description
+This course covers software and hardware design for real-time embedded systems. Topics include real-time implementation of DSP algorithms, code and hardware optimization for speed and power, real-time operating systems, reliable operation, and overall system architecture. In the laboratory, students will apply selected concepts learned in the lectures by implementing them on a development board centered around a DSP-oriented microcontroller. This course uses C as the programming language. There is some interaction with assembly code. Tutorial time early in the course is available to bring students back up to speed on selected topics such as C programming.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Select a processor or other implementation platform for the real-time embedded task at hand.
+- Design and implement hardware interfaces, including the related software.
+- Understand real-time operating system concepts including scheduling, interrupt handling, context switching, task synchronization, and resource sharing.
+- Predict and measure real-time performance.
+- Consider all aspects, including software and hardware, and technical and non-technical concepts, in the design of real-time embedded systems.
+
+## Learning Resources
+Required
+
+- Martin, Trevor – The Designer’s Guide to the Cortex-M Processor Family, 3rd Edition 2022, Elsevier Ltd., ISBN: 978-0-32-385494-8 (preferred)
+- Martin, Trevor – The Designer’s Guide to the Cortex-M Processor Family, 2nd Edition 2016, Elsevier Ltd., ISBN: 978-0-08-100629-0 (alternative to 1, if not available)
+- ST Microelectronics – RM0090 STM32F405/415, STM32F407/417, STM32F427/437 and STM32F429/439 advanced ARM-based 32-bit MCUs Reference manual, Rev.19 2021
+
+Recommended (RTOS)
+
+- Amos, Brian – Hands-On RTOS with Microcontrollers: Building real-time embedded systems using FreeRTOS, STM32 MCUs, and SEGGER debug tools, May 2020, Packt Publishing Ltd, ISBN 978-1-83882-673-4
+
+Reference (C Programming)
+
+- Kernighan Brian, Ritchie Dennis – C Programming Language, 2nd Edition, Pearson, 1988, ISBN:
+- Parlante Nick – Essential C, Independently published, 4/2003, ISBN: ‎ 978-1521314234
+- MISRA – MISRA C 2012 (Amendment 3), MISRA Consortium Limited, Oct 2022, ISBN 978-1-911700-02-9 PDF
+
+Online resources (C Programming)
+
+- Allain Alex – Learn C and C++ Programming, ©2019 Cprogramming.com
+- Tutorials Point – C - Quick Guide
+- OnlineGDB – Online C Compiler ©2016-2023 OnlineGDB.com (online compiler)
+
+Optional
+
+- Martin, Trevor – The Insider's Guide To The STM32 ARM Based Microcontroller; 2nd Edition (v1.8), Hitex, ISBN 0-9549988-8-X
+- Labrosse, Jean J. – Embedded Systems Building Blocks: Complete and Ready-to-Use Modules in C, 2nd Edition 2000, CMP Books, ISBN 10: 0-87930-604-1
+- Labrosse, Jean J. – µC/OS II: The Real-Time Kernel,‎ 2nd Edition 2002, CMP Books, ISBN: 1-57820-103-9
+- Beuchat René, Depraz Florian, Kashani Sahand, Guerrieri Andrea – Fundamentals of System-on-Chip Design on Arm Cortex-M Microcontrollers, ISBN 978-1-911531-33-3
+- Lutenberg Ariel, Gomez Pablo, Pernia Eric – A Beginner's Guide to Designing Embedded System Applications on Arm Cortex-M Microcontrollers, ISBN 978-1-911531-41-8
+- Lewis Daniel W.– Fundamentals of Embedded Software with the ARM Cortex M3, Pearson 2013 ISBN 978-0-13-291654-7
+- Wang, K.C. – Embedded and Real-Time Operating Systems, 2017 Springer International, ISBN 978-3-319-51516-8
+- Burns Alan, Wellings Andy – Real-Time Systems and Programming Languages: Ada, Real-Time Java and C/Real-Time POSIX, 4th Edition 2009, Pearson Education Ltd., ISBN: 978-0-321-41745-9
+- Wang, Jiacun – Real-Time Embedded Systems, Wiley 2017, ISBN 978-1-11-811617-3 (hardback)
+
+## Course Goals
+These goals are tentative but ambitious; their coverage may vary depending on time, level of participation, and enthusiasm of the students. Subject to some changes in mutual agreement with the participants and their interest in the subject.
+
+Upon successful completion, the student will be able to:
+
+Embedded Systems Architecture
+
+- Understand the differences between general-purpose computers and embedded systems
+- Differentiate various programmable computational devices: CPU, GPU, DSP, MCU, MPU, etc.
+- Determine the requirements of hardware components and software development platforms needed by various types of projects
+- Understand the embedded system architecture role in the design of a successful product
+- Learn testing and debugging methods, and tools required by embedded system development
+
+Real-Time Programming
+
+- Understanding the concept of time in programming and other related activities
+- Think of programming as a combination of algorithms and time that allow the system to respond in a timely fashion
+- Understand the impact of the programming language artifacts that interact with time even in indirect but meaningful ways
+- Learn about hardware features and particularities in handling time (interrupts, timers, latencies, jitter, synchronization, events)
+- Explore various means to achieve real-time behavior in embedded systems programming (ISRs, foreground/background method, real-time frameworks, state machines, RTOS, etc.)
+- Design modular device drivers that can be easily instantiated for multiple processing threads
+- Integrate properly existent RTOS or real-time frameworks and libraries into the application
+- Understand and use correctly the context switching and task scheduling methods
+- Demonstrate inter-task communication patterns (shared memory concept, messages, queues, mailboxes) and their use
+- Understand concurrency issues and the inter-task synchronization methods
+- Learn various algorithms of priority-based scheduling
+- Determine the memory requirements regarding size and management during the life of the application/product; implement a dynamic memory allocation algorithm
+- Learn to apply standard methods for fault handling in autonomous systems (fault detection and isolation, fault tolerance, fault recovery, constraint handling, performance optimization, etc.)
+- Understand the implications of data type choices for a given system and MCU capabilities; methods for mitigating performance issues (e.g. by using alternative data representation)
+
+Embedded Real-Time Applications (at least two, time permitting)
+
+- Understand GPIO and play with LEDs; using GPIO as test points for a scope or logic analyzer
+- Measure the frequency of a digital signal with a timer using its capture feature and interrupts
+- Using UART to communicate with a PC for debugging, monitoring, etc.
+- Learn how ADC and DAC connect the system with the analog world; demonstrate a simple signal acquisition application that measures the average value and noise level of the input
+- Learn what is a data acquisition and generation system, and its use; demonstrate simple digital filtering of the ADC input signal and streaming the result to the DAC (audio domain)
+- Using PWM to control a DC motor in several ways: open loop, closed loop with PID
+- Using a watchdog to detect application fatal errors and unrecoverable hardware faults
+
+Writing Code for Safety-Critical Devices (intended but limited by time)
+
+- Learn about safety levels and their impact
+- Platform choice impacts safety too: learn how to pick the right platform
+- Methods to reduce coding errors (changing the mindset, using safe libraries, assertive debugging, code by contract, static analysis, thinking of the unthinkable, etc.)
+- Run-time debugging (intrusive and non-intrusive methods, hardware for debugging, etc.)
+- Coding standards for Safety-Critical Systems (e.g. MISRA C for transportation or similar)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab work: 40: Minimum 20; distributed as (3+5+8+8+8+8)
+Bi-Weekly assignments: 10: Minimum 5; distributed as (2+2+2+2+2)
+Midterm paper/project: 20: Minimum 10
+Final exam: 30: Minimum 15
+Total: 100: Minimum for passing 50 (and the above minima)
+
+The Minimum Passing Grade for this course is 50% (see the table as well); you must achieve at least half of the points in each of the lecture and lab components to pass the course.
+
+Notes:
+
+- There will be no re-tests, make-ups, or incomplete assignments.
+- There is a 5% per day penalty of marks for late submission of labs, homework, or project.
+- In addition to the regular assignments, students will perform a midterm project involving the design, implementation, and testing of an embedded system with a real-time operating system. In terms of coding, the complexity of this project will be equivalent to one of the regular labs without hardware work; additionally, a design document and a testing report will be produced. The project starts 4 (four) weeks before the deadline. Additional details will be provided as needed.
+- The midterm project grading policy is based on 4 (four) criteria: 20% English style, grammar, spelling, clarity of discussion, logical organization 20% Neatness and presentation, figures, diagrams, graphs, code style, comments, etc. 30% Engineering quality, originality, creativity, correctness 30% Evaluation, test procedures, and verification of correctness
+- 20% English style, grammar, spelling, clarity of discussion, logical organization
+- 20% Neatness and presentation, figures, diagrams, graphs, code style, comments, etc.
+- 30% Engineering quality, originality, creativity, correctness
+- 30% Evaluation, test procedures, and verification of correctness
+- There will be several homework assignments with about one or two weeks each to complete; see the course schedule. Answers will be submitted by e-mail and I will respond by e-mail. They may consist of quizzes, and snippets of code to be analyzed, debugged, and corrected; occasionally, it may be a short essay on a problem to solve. The student is expected to justify the answers if asked.
+- The final exam will take place on a date announced in the calendar of the term and will be devoted to a three-hour written examination.
+- During the final exam, any use of electronic devices will be banned and may disqualify the student - this is the default assumption; if a certain device is allowed, students will be announced during the last lecture or laboratory.
+
+## Attendance Requirements
+In general, use BCIT Attendance Policy as outlined in Policy 5101 - Student Regulations, and accompanying procedures. Specific attendance requirements are outlined below.
+
+Even if hours are not scheduled in the first week of the term, please assume this is a regular week for our first face-to-face meeting together. The first meeting is intended for familiarizing yourself with the environment, knowing each other, and understanding your needs, existing skills, and level of previous computing experience – hardware and software. Administrative details, communication channels, and procedures will be provided, followed by a Q&A session. Please check your messages often and use the Learning Hub for announcements.
+
+Class attendance will be used for deciding grades in borderline cases. Students are expected to attend all lectures. Fundamental material will be presented in class, and the details can be found in the textbook, other recommended references, data sheets, and library files provided by the manufacturer. Some lecture material will be posted on the web, while other material will only be presented in class. If you decide that you do not want to come to every lecture, you may drop this class.
+
+Missing labs could disqualify you; in exceptional cases, contact the instructor in advance to arrange time in the lab - this is entirely at the discretion of the instructor and subject to the availability of the lab room and the presence of a lab attendant/technician.
+
+The days dedicated to tutorials are intended to prepare you for the labs. Together with office hours, these activities will help you to get ready for labs and the midterm project. Attendance to tutorials is not optional as assignments will be provided and marked later as well.
+
+The office hours can be arranged in advance during regular attendance (preferred) but also scheduled on a case-by-case basis via e-mail (please, don't abuse). Please come prepared for a short discussion (ideally, below 15 minutes) focused on a specific issue you have problems with. Do not expect long one-on-one discussions because other students may need similar attention. Direct e-mail contact is also possible for short communications limited to a maximum of 3 (three) per term - please, use e-mail wisely.
+
+## Course Specific Requirements
+While no prerequisite courses are indicated, some previous knowledge of the following is welcome:
+
+- Basic lab equipment operation (multimeter, oscilloscope, power supplies)
+- Number systems, number representation, conversions between number systems, Boolean algebra, binary operations
+- Digital circuits and techniques and terminology, combinational and sequential logic, state diagrams
+- C programming language (beginner to intermediate level is a good starting point)
+- Previous exposure to microcontrollers and microprocessors (it can be at the DIY or Maker level)
+- Basic algorithms and data structures (lookup, hashing, lists, stacks, queues, trees, etc.)
+
+Most of the mentioned knowledge will help to achieve more in class and laboratory and use the tutorials for getting help with the assignments, projects, and the final exam. Student cooperation in preparing for this course is strongly encouraged. Please review the references, ask for guidance in the first week, and get advice from the instructor.
+
+## Course Schedule and Assignments
+Subject to changes in agreement with the students and dependent on the availability of the hardware and software in the lab. Changes will be communicated at least one week in advance.
+
+Lecture date: Week: Module Lecture (in SW03-2745): References: L/T Date: Tutorial or Laboratory (in SW01-3055): Assignment
+07-Jan-25: 0: Embedded Systems Engineering: 11-Jan-25: T0: Getting Started (Hardware setup, software tools): n/a
+14-Jan-25: 1: Elements of Computer Architecture: 18-Jan-25: T1: C Coding Refresher 1 (beyond basics, variables, pointers): C quiz
+21-Jan-25: 2: ARM Processors and Microcontrollers: T.Martin, J.Yiu: 25-Jan-25: T2: C Coding Refresher 2 (data in memory, beyond integers, embedded coding): C quiz
+28-Jan-25: 3: Embedded Systems Primer: N.Parlante: 01-Feb-25: T3: Coding for STM32 with ARM Keil MDK: Simple coding with Keil MDK
+04-Feb-25: 4: Real-Time Programming 1: T.Martin, J.Yiu: 08-Feb-25: L4: The Famous Blinky Application: Extensions to Blinky
+11-Feb-25: 5: Real-Time Programming 2: T.Martin, J.Yiu: 15-Feb-25: T5: Your First Real-Time Project: Calendar clock and debug captures
+18-Feb-25: 6: Real-Time Programming 3: T.Martin, J.Yiu: 22-Feb-25: T6: Device Drivers intro: Buttons and LEDs coding
+25-Feb-25: 7: Real-Time Programming 4: B.Amos: 01-Mar-25: L7: Device Drivers extension: Human Response Measuring idea
+04-Mar-25: 8: Real-Time Programming 5: B.Amos: 08-Mar-25: P8: Mid-term Project (Tiny Threads & Soft Timers): Human Response Time Measurement
+11-Mar-25: 9: Real-Time Programming 6: B.Amos: 15-Mar-25: L9: CMSIS-RTOS and RTX: RTOS skeleton app
+18-Mar-25: 10: Real-Time Programming 7: B.Amos: 22-Mar-25: L10: A Multitasking Blinky: Measure timing in RTOS apps
+25-Mar-25: 11: Real-Time Programming 8: CMSIS-RTOS: 29-Mar-25: L11: Synchronization Problems: Expand RTOS Blinky app
+01-Apr-25: 12: Closing Thoughts: CMSIS-RTOS: 05-Apr-25: (reserved for rescheduling): n/a
+08-Apr-25: 13: (reserved for rescheduling): n/a: 12-Apr-25: *** Exam prep ***: n/a
+15-Apr-25: 14: Exam
+
+Notes:
+
+- During the first meeting(s) (week 0) additional details will be made available. So, don't miss them!
+- Tuesday lectures are scheduled in an auditorium fully equipped with media presentation equipment and whiteboards. We will use them all. Be also prepared with pen and paper to take notes as part of the provided information won't be easily available anywhere else (for example, ad-hoc answers to student questions or real-life stories from the life of an Embedded Systems Engineer).
+- Saturday activities in the lab are divided into tutorials - marked with Tw - and hands-on laboratory work - marked with Lw (w is the week number).
+- The homework varies in complexity depending on the topics covered in that week. For simple assignments, the time allowed to finish is one week. For more than a single assignment or for more complex assignments, the allotted time is a maximum of two weeks.
+- At the end of every lab or tutorial, there will be one office hour for face-to-face meetings with the instructor who will allocate about 15 min to help students who booked this time in advance. Booking of office time is made on a first come first served basis; once the time for the current week is booked, the next requests will be pushed to the following week. Bookings won't be possible more than two weeks in advance. Use your time wisely. The schedule of office hours will be available on the Learning Hub.
+- The project assignments will be handed in on March 8th, 2025, during a lab activity time; the project's recommended deadline is April 5th, 2025 but the absolute last deadline is April 8th, 2025. Activities labeled as [Project work] (if any) are intended to give students a week of home project related work without extra distractions. Please use this time wisely.
+- Before the final exam students will have one week equivalent of time to prepare - this time is marked *** Exam prep ***. Saturday, April 12th, 2025 is the last chance to have face-to-face meetings with the instructor during 3 office hours.
+
+## Course topics
+The Course Schedule above summarizes the topics. However, the Learning Hub is the main way of communicating. For everything ELEX 8030, follow the course page on the Learning Hub. An e-mail with the instructor's contact info and last-minute instructions will be sent to students between in the first week of January 2025 before the start of the course. Stay tuned!
+
+Course-related communication by e-mail should be limited to situations where there is no other option (e.g. LearningHub malfunction). Please note that LearningHub has its own e-mail system that is designed to operate on the web interface using the Internet browser. Use it wisely and only for course topics!
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Stefan Poli, Instructor November 09, 2024
+
+I verify that this course outline has been reviewed. Muhammad Ahmed, Program Head November 11, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean November 12, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

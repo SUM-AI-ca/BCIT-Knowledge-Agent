@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/advanced-building-performance-simulation-xbem-3052/
+Title: Advanced Building Performance Simulation
+Field: Building Energy Model & Sim
+Type: Course
+Course Code: XBEM 3052
+
+================================================================================
+
+## Overview
+
+Representing mechanical, electrical and control systems in a whole building energy model, and simulating the dynamics of the building and systems over the course of a representative year of operations and weather, is a complex task. Building on the knowledge of modelling and simulating a whole building with simple systems ( XBEM 3050 or equivalent experience), this course focuses on the representation of heating, cooling, and ventilation systems of the complexity relevant to real-world projects. In practice, buildings which require detailed energy models are typically large, complex, or both, with different zones using different systems. Delivering fresh air and space conditioning efficiently, meeting recent, high-performance codes, standards and certifications, relies on modern, well designed building systems. Modelling these appropriately, following the required level of accuracy – not too detailed but resolving all relevant features – is critical for a professional energy modeller. This course will show how common systems are modelled and will also equip the learner with the information on how to model new systems they might encounter.
+
+## Credits
+
+3.0
+
+## Cost
+
+$2,352.12
+
+## Prerequisites
+
+- 50% in XBEM 3050
+- Or departmental approval of equivalent experience
+
+## Learning Outcomes
+
+- Create an energy model including complex HVAC systems and controls
+- Analyze energy efficiency and GHG performance of HVAC systems, using the energy model
+- Evaluate simulation results and provide recommendations on HVAC systems
+- Develop a summary report describing the energy model, simulation results, and recommendations
+
+## Related Programs
+
+- Building Energy Modelling and Simulation
+- Mechanical Systems

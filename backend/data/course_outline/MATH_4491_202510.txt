@@ -1,0 +1,151 @@
+URL: https://www.bcit.ca/outlines/20251013401/
+Course: MATH 4491
+Field: Statistical Quality Control                                                                         
+
+School: School of Energy
+Program: Mechanical Manufacturing Option
+Course Credits: 5.5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 23, 2025
+Total Hours*: 80
+Total Weeks: 20
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): 50% in MATH 1491
+CRN: 13401
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Carl Gladish
+E-mail: cgladish@bcit.ca
+Location: SW02-230
+Office Hours: Hours: Mon 1:30 - 2:20Tue 2:30 - 3:20Wed 12:30 - 1:20Thur 12:30 - 1:20
+
+## Course Description
+Descriptive statistics, the hypergeometric, Poisson, binomial and normal probability models; an introduction to hypothesis testing, tolerances and fits; sampling distributions, capability analysis (Cp, Cpk, Cr) and design of acceptance sampling plans, use of Mil-Std-105E (ANSI/ASQC Z1.4-1993), risks in sampling; statistical process control (SPC), use and interpretation of control charting for x-bar and R or s, percent defective (p-charts), number of defects (c-charts), short run SPC including charts for individuals, target charts and charting part families. MATH 4491 provides a sound foundation for students hoping to eventually challenge the American Society for Quality's certified Quality Technician and Engineer examinations.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Explain common quality control acronyms.
+- Prepare a complete statistical description of sampled data including the calculation of appropriate measures of central tendency and variation and construction of a histogram.
+- Use the problem-solving strategies of brainstorming, flowcharting, Pareto and cause and effect (CE, fishbone) diagrams to focus efforts on the improvement of process stability and/or capability. (These concepts are covered in OPMT 1182).
+- Solve problems requiring the basic rules of probability including the addition and multiplicative laws.
+- Distinguish between discrete and continuous probability distribution models.
+- Use the appropriate model (hypergeometric, binomial or Poisson) to solve typical industrial sampling problems.
+- Illustrate the use of hypothesis testing in the context of proportions using six identifiable steps.
+- Distinguish between Type I and Type II errors as they relate to:
+- Hypothesis testing
+- Sampling plans (producer versus consumer risk)
+- Control charts (falsely looking for trouble versus failing to detect trouble).
+- Use the normal probability distribution to solve applications involving out of specification product, warranties and as an approximation to the discrete probability models.
+- Construct an operating characteristic curve (OC) for a given sample size and acceptance number.
+- Retrieve and verify requested information contained within the Mil-Std-105E attribute sampling plans.
+- Apply the Central Limit Theorem to problems involving the sampling distribution of the sampling means (e.g., x-bar control charts).
+- Distinguish between process control and process capability.
+- Discuss the important preliminary considerations prior to the establishment of control charts.
+- Calculate Shewhart (standard x-bar and range) control chart limits.
+- Construct x-bar and range charts.
+- Distinguish between common and assignable cause variation when analyzing control charts.
+- Analyze Shewhart charts (standard control charts) for non-random patterns (using Western Electric Rules) and bring into a state of control.
+- Interpret process capability indices (Cp, Cpk, Cr) in terms of the situation.
+- Use software to create histograms and to construct and interpret control charts of various types.
+- Meet most of the statistical requirements of the American Society for Quality (ASQ) Certified Quality Technician (CQT) Program and many of the statistical requirements of the ASQ Certified Quality Engineer's Program. (Certification requires at least a 2-year work experience component before the examination can be taken.)
+- Adapt quickly to an existing quality program and be a competent team player within such a program.
+
+## Learning Resources
+A scientific or graphing calculator with statistical functions is required. For example,
+
+- SHARP EL-520XT
+- CASIO fx-991EX
+
+A laptop or tablet device with Microsoft Excel installed is required for all assessments (quizzes, midterms, final exam).
+
+No textbook is required. See list of optional references below (available in BCIT library)
+
+- Quality Control, 8th Ed., Besterfield, Pearson, 2009
+- Statistical Quality Control, 7th Ed., Montgomery, Wiley, 2013.
+- Applied Statistics and Probability for Engineers, 6th Edition, Montgomery and Runger, Wiley, 2013.
+
+## Course Goals
+The goals of this course are to:
+
+- explain the underlying principles, concepts and terminology of descriptive and inferential statistics in the context of statistical process control (SPC), process capability and sampling inspection methods.
+- demonstrate the application of these concepts to industrial cases.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final Examination: 35%: 2 hours
+Term Tests (3): 45%: 50 minutes each
+Quizzes (13 total): 20%: 25 minutes each
+
+## Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or well-being, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.
+
+## Statement for prior learning assessment
+Course Credit: Students who intend to apply for course credit must have achieved at least C+ (65%) in a science-based statistics course at the post-secondary level, taken within the last 5 years AND be able to demonstrate course work or experience in Statistical Process Control. Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+This schedule is approximate and subject to change at the discretion of the instructor.
+
+Week - Starting: Lecture Topic: Assessment
+1 - Jan 6: Probability Basics
+2 - Jan 13: Probability Basics: Quiz 1
+3 - Jan 20: Normal Distributions: Quiz 2
+4 - Jan 27: Descriptive Statistics: Quiz 3
+5 - Feb 3: Descriptive Statistics: Quiz 4
+6 - Feb 10: Normal Distributions & Capability: Midterm Test 1 (Feb 13)
+7 - Feb 17: Control Charting: Quiz 5
+8 - Feb 24: Control Charting: Quiz 6
+9 - Mar 3: Hypothesis Testing: Quiz 7
+10 - Mar 10: Spring Break
+11 - Mar 17: Alpha-risk & Beta-risk: Quiz 8
+12 - Mar 24: Gauge R&R: Midterm 2 (Mar 27)
+13 - Mar 31: Probability Distributions: Quiz 9
+14 - Apr 7: Probability Distributions: Quiz 10
+15 - Apr 14: Probability Distributions: Quiz 11
+16 - Apr 21: Acceptance Sampling: Quiz 12
+17 - Apr 28: Acceptance Sampling: Midterm Test 3 (May 1)
+18 - May 5: Acceptance Sampling: Quiz 13
+19 - May 12: Catch-up / Review
+20 - May 19: Final Exam (TBA)
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Carl Gladish, Instructor January 01, 2025
+
+I verify that this course outline has been reviewed. David Holloway, Program Head January 02, 2025
+
+I verify that this course outline has been reviewed. Mohammad Alemi, Program Head January 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean January 03, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

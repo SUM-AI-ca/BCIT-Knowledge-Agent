@@ -1,0 +1,280 @@
+import { useState, useRef, useEffect } from "react";
+import { Send } from "lucide-react";
+import "./App.css";
+
+// Simple markdown-like formatting
+function formatMessage(text) {
+  if (!text) return "";
+
+  const lines = text.split('\n');
+  const elements = [];
+  let inList = false;
+  let listItems = [];
+
+  lines.forEach((line, idx) => {
+    // Headers
+    if (line.startsWith('### ')) {
+      if (inList) {
+        elements.push(<ul key={`list-${idx}`}>{listItems}</ul>);
+        listItems = [];
+        inList = false;
+      }
+      elements.push(<h4 key={idx}>{line.slice(4)}</h4>);
+    } else if (line.startsWith('## ')) {
+      if (inList) {
+        elements.push(<ul key={`list-${idx}`}>{listItems}</ul>);
+        listItems = [];
+        inList = false;
+      }
+      elements.push(<h3 key={idx}>{line.slice(3)}</h3>);
+    } else if (line.startsWith('# ')) {
+      if (inList) {
+        elements.push(<ul key={`list-${idx}`}>{listItems}</ul>);
+        listItems = [];
+        inList = false;
+      }
+      elements.push(<h2 key={idx}>{line.slice(2)}</h2>);
+    }
+    // Bullet points
+    else if (line.match(/^[-*]\s/)) {
+      inList = true;
+      listItems.push(<li key={idx}>{formatInline(line.slice(2))}</li>);
+    }
+    // Numbered lists
+    else if (line.match(/^\d+\.\s/)) {
+      inList = true;
+      listItems.push(<li key={idx}>{formatInline(line.replace(/^\d+\.\s/, ''))}</li>);
+    }
+    // Regular paragraph
+    else {
+      if (inList) {
+        elements.push(<ul key={`list-${idx}`}>{listItems}</ul>);
+        listItems = [];
+        inList = false;
+      }
+      if (line.trim()) {
+        elements.push(<p key={idx}>{formatInline(line)}</p>);
+      }
+    }
+  });
+
+  if (inList && listItems.length > 0) {
+    elements.push(<ul key="list-final">{listItems}</ul>);
+  }
+
+  return elements;
+}
+
+// Format inline elements (bold, links)
+function formatInline(text) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    if (part.match(/https?:\/\/[^\s]+/)) {
+      const urlParts = part.split(/(https?:\/\/[^\s]+)/g);
+      return urlParts.map((p, j) => {
+        if (p.match(/^https?:\/\//)) {
+          return <a key={`${i}-${j}`} href={p} target="_blank" rel="noopener noreferrer">{p}</a>;
+        }
+        return p;
+      });
+    }
+    return part;
+  });
+}
+
+export default function App() {
+  const [messages, setMessages] = useState([
+    {
+      id: "1",
+      text: "Hello! I'm the BCIT AI Advisor. Ask me about programs, courses, admissions, or campus life.",
+      sender: "assistant",
+      timestamp: new Date()
+    }
+  ]);
+
+  const [input, setInput] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [sessionId, setSessionId] = useState(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [password, setPassword] = useState("");
+  const [authError, setAuthError] = useState("");
+  const messagesEndRef = useRef(null);
+
+  useEffect(() => {
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [messages]);
+
+  async function handleLogin(e) {
+    e.preventDefault();
+    setAuthError("");
+
+    try {
+      const res = await fetch("/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password })
+      });
+
+      const data = await res.json();
+
+      if (data.success) {
+        setSessionId(data.session_id);
+        setIsAuthenticated(true);
+        setPassword("");
+      } else {
+        setAuthError("Incorrect password");
+      }
+    } catch (err) {
+      setAuthError("Connection error. Is the server running?");
+    }
+  }
+
+  async function handleSend() {
+    if (!input.trim()) return;
+
+    const userMessage = {
+      id: Date.now().toString(),
+      text: input,
+      sender: "user",
+      timestamp: new Date()
+    };
+
+    setMessages(prev => [...prev, userMessage]);
+    setInput("");
+    setIsLoading(true);
+
+    try {
+      const res = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: userMessage.text,
+          session_id: sessionId
+        })
+      });
+
+      const data = await res.json();
+
+      if (data.session_id) {
+        setSessionId(data.session_id);
+      }
+
+      const assistantMessage = {
+        id: (Date.now() + 1).toString(),
+        text: data.reply,
+        sender: "assistant",
+        timestamp: new Date()
+      };
+
+      setMessages(prev => [...prev, assistantMessage]);
+    } catch (err) {
+      setMessages(prev => [
+        ...prev,
+        {
+          id: (Date.now() + 2).toString(),
+          text: "Something went wrong. Please make sure the backend server is running on port 8000.",
+          sender: "assistant",
+          timestamp: new Date()
+        }
+      ]);
+    }
+
+    setIsLoading(false);
+  }
+
+  function handleKeyPress(e) {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
+    }
+  }
+
+  if (!isAuthenticated) {
+    return (
+      <main id="chat-container">
+        <header className="chat-header">
+          <h1>BCIT AI Advisor</h1>
+          <p>Ask me about anything in BCIT</p>
+        </header>
+
+        <div className="login-container">
+          <div className="login-box">
+            <h2>Login Required</h2>
+            <p>Enter password to access the chatbot</p>
+            <form onSubmit={handleLogin}>
+              <input
+                type="password"
+                className="login-input"
+                value={password}
+                onChange={e => setPassword(e.target.value)}
+                placeholder="Enter password"
+                autoFocus
+              />
+              <button type="submit" className="login-button">
+                Enter
+              </button>
+            </form>
+            {authError && <p className="login-error">{authError}</p>}
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  return (
+    <main id="chat-container">
+      <header className="chat-header">
+        <h1>BCIT AI Advisor</h1>
+        <p>Ask me about anything in BCIT</p>
+      </header>
+
+      <div className="chat-messages">
+        {messages.map(m => (
+          <div
+            key={m.id}
+            className={m.sender === "user" ? "msg-row user-row" : "msg-row assistant-row"}
+          >
+            <div className={m.sender === "user" ? "msg-bubble user-bubble" : "msg-bubble assistant-bubble"}>
+              {m.sender === "assistant" ? formatMessage(m.text) : m.text}
+            </div>
+          </div>
+        ))}
+
+        {isLoading && (
+          <div className="msg-row assistant-row">
+            <div className="msg-bubble assistant-bubble typing-bubble">
+              <span className="typing-dots">
+                <span>.</span><span>.</span><span>.</span>
+              </span>
+            </div>
+          </div>
+        )}
+
+        <div ref={messagesEndRef} />
+      </div>
+
+      <footer className="chat-footer">
+        <input
+          className="chat-input"
+          value={input}
+          onChange={e => setInput(e.target.value)}
+          onKeyPress={handleKeyPress}
+          placeholder="Ask about programs, admissions, campus life..."
+          disabled={isLoading}
+        />
+        <button
+          className="chat-send"
+          onClick={handleSend}
+          disabled={isLoading || !input.trim()}
+        >
+          <Send size={20} />
+        </button>
+      </footer>
+    </main>
+  );
+}

@@ -1,0 +1,165 @@
+URL: https://www.bcit.ca/outlines/20243037066/
+Course: MATH 1412
+Field: Technical Mathematics for Chemical and Environmental Technology
+
+School: School of Energy
+Program: Chemical and Environmental Technology
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 37066
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Winona Cordua-von Specht
+E-mail: wcordua@bcit.ca
+Location: SW2-218
+Office Hours: To be posted on the Learning Hub.
+
+## Course Description
+Graphical linear programming with applications from chemical sciences and industry, exponential/logarithmic theory and transformations, common and natural logarithms, logarithmic and semilogarithmic graphs with application to growth and decay functions, exponential and logarithmic equations with various applications from chemical engineering, trigonometric functions of any angle, vectors, solution of triangles, graphs of trigonometric functions, trigonometric identities and equations with applications.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Determine reasonable precision and accuracy in computations involving measured quantities.
+- Demonstrate unit conversions involving the Imperial System and Systeme International (SI).
+- Simplify algebraic expressions and solve algebraic equations using the basic laws of algebra.
+- Find the domain and range of a function and use functional notation to manipulate, combine, and evaluate functions.
+- Use substitution, addition/subtraction, matrix algebra, determinants and Cramer's rule to solve linear systems in up to three unknowns.
+- Perform the above by hand as well as by using Excel.
+- Solve systems of equations using the following methods: substitution, elimination (Gauss), Gauss-Jordan, matrix inversion and Cramer's Rule. Example applications:
+- Solve systems resulting from experimental data (e.g., analyze absorption spectra).
+- Solve for interpolating polynomials (e.g., instrument calibration, data interpolation).
+- Formulate and solve financial, mixture, work and flow problems.
+- Solve application problems involving quadratic relationships using factoring, and the quadratic formula.
+- Solve inequalities in one and two variables.
+- Optimize the use of limited resources in industry through graphical linear programming techniques.
+- Solve exponential and logarithmic equations.
+- Formulate and solve problems using common and natural logarithms. (e.g., applications to include pH, Beer?s Law, Kinetics, Arrhenius equation, radioactive decay, exponential growth and Newton?s Law of Cooling).
+- Convert exponential, power, and inverse data relationships into linear form using appropriate transformations.
+- Plot data points using log-log and semi-log graph paper.
+- Distinguish between exponential and power function relationships and estimate their coefficients by analyzing a set of data points.
+- Solve a variety of problems in chemical science technology and industry using right angle and oblique angle trigonometry, e.g., applications to include determination of bond lengths and angles in molecules and crystals.
+- Find the amplitude, period, frequency, and phase shift for sine and cosine waves.
+- Graph composite sine and the cosine waves as a function of degrees, radians, or time.
+- Demonstrate calculator fluency for all relevant applications.
+
+## Learning Resources
+Required Textbook:
+
+- MyMathLab with Pearson eText Access Card for Basic Technical Mathematics with Calculus SI Version 11th Edition by Washington. Available at the BCIT bookstore (https://www.bcitbookstore.ca/bcit/)
+
+Required Calculator:
+
+- Sharp EL-520WBBK (or equivalent)
+
+Course Notes:
+
+- Available on the Learning Hub once the term starts
+
+## Evaluation Criteria
+Criteria: %: Comments
+Midterm Test: 40: Two Parts: Lab (10%) & Lecture (30%)
+Quizzes and Assignments: 20
+Final Examination: 40: Cumulative final
+
+## Attendance Requirements
+Note that regular attendance at labs is required for course credit. Attendance will be taken at the beginning of each session. Absence from more than 10% of the scheduled course hours may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+## Course Specific Requirements
+Advancement: Students who fail three or more courses in a term cannot advance to the next term and may be asked to discontinue from the program.
+
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices including personal music players, mobile devices (cell phones) and laptops are prohibited.
+
+## Other information
+“Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.”
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+WEEKS: TOPICS: ASSIGNMENTS & QUIZZES
+1 - 7: Algebra, Word Problems, Functions, System of Equations, Quadratics & Inequalities: Weekly lab quizzes, 1 assignment
+8, 10: Lecture Midterm, Lab Midterm
+8 -14: Exponentials, Logs, Trigonometry, Power Functions, Trig Graphing and Log Graphing: Weekly lab quizzes, 1 assignment
+15: Final Exam
+
+## Course topics
+Review of Basic Algebra Skills (Chapters 1, 3, 6)
+
+- Precision, accuracy, significant figures and unit conversions
+- Review of algebraic operation, equations and functions
+- Word problems
+
+Systems of Equations (Chapters 5, 14, 16)
+
+- Solving systems of linear equations using graphical, algebraic, matrix and determinant techniques
+
+Quadratic Equations (Chapter 7)
+
+- Solution of quadratic equations
+- Derive quadratic equations from word problems
+
+Linear Programming (Chapter 17)
+
+- Use linear functions and inequalities to analyse problems related to maximizing profits, minimizing costs or the use of materials with certain constraints of production.
+
+Exponential and Logarithmic Functions (Chapters 11, 13)
+
+- Exponential function, exponential growth and decay problems
+- Solving exponential and logarithmic equations
+- Linear transformations using logarithms
+
+Trigonometry (Chapter 4, 8, 9, 10)
+
+- Geometry review including angles, triangles (right and oblique) and the Pythagorean theorem.
+- Graphing of trigonometric functions
+
+Graphical Analysis with Logarithmic Paper (Chapter 13)
+
+- Using log and semi-log graph paper to graph power and exponential functions.
+- Use log graphing to estimate exponential and power function coefficiants
+
+Note: Chapter references are to the required e-textbook.​
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Winona Cordua-von Specht, Faculty June 10, 2024
+
+I verify that this course outline has been reviewed. David Holloway, Program Head July 03, 2024
+
+I verify that this course outline has been reviewed. Lynn Erickson, Program Head August 26, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean August 26, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

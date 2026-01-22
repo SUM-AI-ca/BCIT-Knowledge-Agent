@@ -1,0 +1,118 @@
+URL: https://www.bcit.ca/outlines/20242067046/
+Course: FWDP 1400
+Field: Web Scripting 1
+
+School: School of Computing and Academic Studies
+Program: Front-End Web Developer Program
+Course Credits: 5
+Minimum Passing Grade: 65%
+Start Date: April 22, 2024
+End Date: November 01, 2024
+Total Hours*: 72
+Total Weeks: 12
+Hours/Weeks: 6
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 67046
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Randy Gulak
+E-mail: randy_gulak@bcit.ca
+Location: Downtown BCIT Campus
+Office Hours: 9:30am - 4:00pm During class days
+
+## Course Description
+Modern websites and applications demand dynamically and constantly updated content and interactive user interfaces. This course introduces the JavaScript programming language as well as foundational programming concepts to provide the services and features that industry demands. Students will be introduced to general computer programming concepts such as variables, conditional statements, loops, functions, objects and classes. By applying these basic programming concepts students will explore the development of interactive web experiences such as slide shows, animated navigation systems, tabs, accordions, lightboxes, and other common web widgets. Manipulating and traversing an HTML document with JavaScript using the browser's DOM API and by utilizing using modern JavaScript libraries will also be discussed.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain what JavaScript is, what the language can do, and when to implement it.
+- Attach scripts to an HTML document.
+- Explain foundational computer programming concepts such as variables, loops, conditionals, functions, objects, and classes.
+- Use the DOM API to manipulate and traverse an HTML document.
+- Use the DOM API to manipulate and traverse an HTML document.
+
+## Learning Resources
+Software
+
+- Visual Studio Code
+
+Note: All of the above software is free.
+
+Hardware
+
+- Mac or Windows computer that has a connection to the internet.
+
+## Course Goals
+Upon successful completion, the student will be able to:
+
+- Explain what JavaScript is, what the language can do and when to implement it
+- Attach scripts to an HTML document
+- Explain foundational computer programming concepts such as variables, loops, conditionals, functions, objects and classes
+- Use the DOM API to manipulate and traverse an HTML document
+- Implement the jQuery library for efficient JavaScript development
+- Create common interactive user interface widgets such as lightboxes and image carousels using modern JavaScript, HTML & CSS
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignment 01: 5
+Assignment 02: 5
+Assignment 03: 5
+Assignment 04: 10
+Assignment 05: 5
+Assignment 06: 10
+Project 01: 60
+
+## Attendance Requirements
+A maximum absense of up to 2 course days total is permitted. Absenses of 3 or more course days will require a written explanation of the reason for the absense. Missing 3 or more days of the course without a written explanation may result in an incomplete mark being assigned.
+
+## Course Schedule and Assignments
+Assignment Name: Assignment Description: Date Assigned: Date Due
+Assignment 01: Log in app: Day 01: Day 02
+Assignment 02: Finding Bigfoot: Day 02: Day 03
+Assignment 03: Image spinner: Day 03: Day 04
+Assignment 04: Shopping Cart: Day 04: Day 06
+Assignment 05: Pet Manager: Day 06: Day 07
+Assignment 06: Weather App: Day 08: Day 11
+Project 01: Game: Day 01: At least two weeks after the last day of the course
+
+## Course topics
+Day: Topics Covered: Assignments Due
+Day 01: JavaScript syntax Troubleshooting Variables Window methods Events
+Day 02: Data types Functions: Assignment 01
+Day 03: Lopps Arrays: Assignment 02
+Day 04: DOM jQuery: Assignment 03
+Day 05: Lab time
+Day 06: Timers Objects Classes: Assignment 04
+Day 07: JSON Fetch Async / Await: Assignment 05
+Day 08: Lab time
+Day 09: Lab time
+Day 10: Form validation
+Day 11: Creating a matching game: Assignment 06
+Day 12: Lab time: Note: Project 01 will be due at least two weeks after the last day of the course.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Randy Gulak, Instructor April 27, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

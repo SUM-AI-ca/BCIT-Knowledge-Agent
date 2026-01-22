@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20243050461/
+Course: DCOM 1530
+Field: Analog Electronics
+
+School: School of Energy
+Program: Digital Communications and Wireless Technologies
+Course Credits: 6
+Minimum Passing Grade: 60%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 90
+Total Weeks: 3
+Hours/Weeks: 30
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 50461
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Gareth Williams
+E-mail: gareth_williams@bcit.ca
+Location: 206 NE25
+Office Hours: Monday to Friday: 8 AM to 2:30 PM
+
+## Course Description
+​This course provides the theoretical and practical knowledge necessary to install, maintain, and troubleshoot circuits that employ discrete and integrated semiconductor devices. These include rectifier diodes, Zener diodes, 3-terminal regulator ICs, bipolar junction transistors, field effect transistors, operational amplifiers and switching regulator ICs. Applications of semiconductors as switches, amplifiers, oscillators and regulators are explored. Circuits are built from schematic diagrams and are tested and measured for their operating parameters. Students further develop soldering techniques, including insertion and soldering of components on a printed circuit board, resulting in a complete audio amplifier circuit as a small project.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe the internal structure and operation of p-n junctions in semiconductor devices.
+- Identify the schematic symbols and physical packages of discrete and integrated semiconductor devices.
+- Interpret datasheet specifications for certain discrete and integrated semiconductor devices.
+- Explain the operation of small signal, rectifier, Zener and varactor diodes.
+- Test various diodes for their operating conditions, for troubleshooting purposes.
+- Build, analyze and measure basic diode switching circuits (DC).
+- Build, analyze and measure basic rectifier circuits (half-wave and bridge).
+- Build, analyze and measure linear voltage regulator stages (Zener diode and 3-terminal IC).
+- Build, analyze and measure various bipolar transistor switching circuits.
+- Build, analyze and measure various linear amplifier circuits using bipolar transistors (classes A, B and AB).
+- Build, analyze and measure various field effect transistor circuits (as switches and linear amplifiers).
+- Build, analyze and measure circuits employing operational amplifiers (linear amplifiers and active filters).
+- Build, analyze and measure RC and crystal oscillator circuits.
+- Build, analyze and measure various switching regulator IC circuits (SMPS).
+- Insert, solder and clean through-hole components on a printed circuit board.​
+
+## Learning Resources
+Digital Communications and Wireless Technologies Term 1 Package
+
+Electronics Fundamentals: A Systems Approach, Floyd
+
+## Evaluation Criteria
+Criteria: %: Comments
+Theory: 60
+Practical: 40
+
+## Course Schedule and Assignments
+Week 1
+
+Day 1 Chapter 16-1 to 16-6: Small Signal Diodes, Rectifier Diodes and Varactor Diodes Rectifier Circuits and Power Supplies Lab 1 Diodes and Rectifier Circuits
+
+Day 2 Chapter 16-5 and 16-6: Zener Diodes and 3-Terminal Voltage Regulator ICs Reading Zener Diode Datasheets Lab 2 Zener Diodes and 3-Terminal Voltage Regulator ICs
+
+Day 3 Chapter 17-1 and 17-2 (DC only): Bipolar Junction Transistors Fundamentals Lab 3 Bipolar Junction Transistor Fundamentals
+
+Day 4 Chapter 17-2 (DC only) and 17-4: Bipolar Junction Transistor Switching Circuits Lab 4 Bipolar Junction Transistor Switching Circuits
+
+Day 5 Chapter 17-2: Bipolar Junction Transistor Class A Amplifiers Lab 5 Bipolar Junction Transistor Class A Amplifiers (Section One)
+
+Week 2
+
+Day 6 College Closed in lieu of Remembrance Day
+
+Day 7 Theory Test 1 (First four days) Lab Test 1 (BJT Switching Circuits) Lab 5 Bipolar Junction Transistor Class A Amplifiers (Section Two)
+
+Day 8 Chapter 17-2: Bipolar Junction Transistor Class B and AB Amplifiers Lab 6 Bipolar Junction Transistor Class B and Class AB Amplifiers
+
+Day 9 Chapter 17-5 and 17-6: Field-Effect Transistors Lab 7 Field-Effect Transistor Circuits
+
+Day 10 Chapter 18: Op-Amp Linear Amplifiers Lab 8 Op-Amp Linear Amplifiers
+
+Week 3
+
+Day 11 Chapter 19: Active Filters Lab 9 Active Filters
+
+Day 12 Chapter 17-7 and 19-4: Oscillators Lab 10 Oscillators
+
+Day 13 Switching Regulators Lab 11 Switching Regulators
+
+Day 14 PCB Soldering Lab 12 PCB Soldering
+
+Day 15 Lab Test 2 (Op-Amp Linear Amplifiers) Final Theory
+
+Test Please note: This schedule is a general guideline and subjected to change.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Gareth Williams, Instructor September 05, 2024
+
+I verify that this course outline has been reviewed. David Hogg, Department Head September 06, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean September 07, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

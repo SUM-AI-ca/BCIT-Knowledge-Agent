@@ -1,0 +1,207 @@
+URL: https://www.bcit.ca/outlines/20252065322/
+Course: COMP 2833
+Field: Agile Scrum Methods
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: April 28, 2025
+End Date: July 21, 2025
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2831
+CRN: 65322
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Edward Rubuliak
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​​This hands-on course follows on from COMP 2831 and begins with an in-depth overview of the goals of Agile, followed by hands-on Scrum implementations. Students will practice how to implement primary agile methods within the Scrum Framework. COMP 2833 assumes that all participants have strong English communication and interpersonal skills. In class exercises include: self-directed teams, writing of user stories, Agile estimating with relative sizing, co-location, metric reporting and test-driven development. Topics include: Scrum, and Lean/Kanban. Participants will experience the roles of Scrum Master, Scrum Product Owner, and Developer, both real-time in class and also online with a dispersed agile team. As an added bonus, this course helps students prepare to challenge the Professional Scrum Master™(PSM 1) certification exam from Scrum.org (additional cost). COMP 2833 is a required course in the Computer Systems Certificate (CSC) and an elective in the Applied Software Development (ASD) Associate Certificate. It is the prerequisite for the follow-on COMP 2836 - Agile Product Owner course in the Agile Development Associate Certificate from BCIT Computing. Upon completion, successful students will have gained significant experience forming and working in Agile teams.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- ​Explain and apply the core values of the Agile Manifesto.
+- Implement key Agile methods: Scrum, and Lean/Kanban.
+- Learn how to use a Lean/Kanban approach when operating exclusively in a product maintenance mode in both local and remote environments.
+- Explain the difference between a traditional Project Manager and an Agile Project Leader.
+- Communicate and collaborate in a dispersed online Agile team utilizing Scrum team standards.
+- Deliver a product developed interactively based on Agile Management Frameworks such as Scrum and Kanban.
+- Explain and implement key agile practices such as user stories, agile planning, agile metric reporting, and self-directed teams.
+- Implement and practice client/team collaboration techniques.
+- Create Agile requirements based on the five stages of the development of an agile "User Story".
+- Implement User Story Mapping and User Story Splitting.
+- Implement an Agile estimating technique (planning poker).
+- Define and Manage Product Backlogs.
+- Plan Iterations (Sprints) while conducting Sprint Planning, Daily Scrums, Backlog Grooming, Sprint Reviews & Retrospectives.
+- Track and Report project progress using a Scrum Board and Project Burn-Down Chart.
+- Set a strategy to transition a traditional organization to an Agile organization.
+- Implement formats for lean documentation and Agile presentations.
+
+## Learning Resources
+Required Reading Material:
+
+1. Weekly Posted White Papers
+
+Recommended Reading:
+
+1. Succeeding with Agile: Software Development Using Scrum (Mike Cohn)
+
+- ISBN-10: 0321579364
+- ISBN-13: 978-0321579362
+
+2. Agile Project Management: Creating Innovative Products , 2nd Edition (Jim Highsmith)
+
+- ISBN-10: 0321658396
+- ISBN-13: 978-0321658395
+
+3. Agile Software Development Ecosystems (Jim Highsmith)
+
+- ISBN-10: 0201760436
+- ISBN-13: 978-0201760439
+
+4. Scrum: The Art of Doing Twice the Work in Half the Time (Jeff Sutherland)
+
+- ISBN-10 ‏ : ‎ 038534645X
+- ISBN-13 ‏ : ‎ 978-0385346450
+
+## Course Goals
+- To gain an understanding of Agile software development techniques and practices.
+- To understand and apply the Agile Scrum method in all appropriate software development projects.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Weekly Assignments based on required reading of white papers.: 20: All assignments must be attempted and completed.
+Team Project / Presentation: 25: Online participation in the team project and presentations, is a requirement. All project work must be attempted and completed.
+Quizzes (Weekly): 25
+Final exam: 30
+Total: 100: A minimum course mark of 60% is required to pass the course.
+
+Note:
+
+- The minimum passing grade for this course is 60%.
+- All assignments must demonstrate accurate grammar, spelling, and professional language. Word processing skills are required. Incomplete or poor-quality work will be assigned a grade of zero.
+- Late assignments will not count for marks unless prior arrangements were made with the instructor.
+- Assignments are to be completed by each student on an individual basis unless stated otherwise.
+- All assignments and project work must be completed and submitted in order to pass this course.
+- You must participate in the teams and online component in order to pass this course.
+- Weekly quizzes, final exams, and project papers will not be returned to the student.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer-to-peer communication and support. However, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, and dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- COMP 2831 or equivalent experience with traditional Systems Analysis and Systems Design methods.
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information see BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Date: Material Covered: Readings: Assignment: Due Date
+Class 1: Introducation To Agile Software Development: Assigned White Papers: Questions Research Term Project Online Team Project: Class 2
+Class 2: Agile Methods: Scrum Extreme Programming Feature Driven Development Lean/Kanban: Assigned White Papers: Questions Research Term Project Online team project: Class 3
+Class 3: The Scrum Framework: Assigned White Papers: Questions Research Term Project Online team project: Class 4
+Class 4: Scrum Roles & Scrum Team Explored: Assigned White Papers: Questions Research Term Project Online team project: Class 5
+Class 5: Agile Requirements: Assigned White Papers: Questions Research Term Project Online team project: Class 6
+Class 6: Agile Estimating & Planning: Assigned White Papers: Questions Research Term Project Online team project: Class 7
+Class 7: Agile Meetings & Artifacts Explored: Assigned White Papers: Questions Research Term Project Online team project: Class 8
+NOTE:: Withdrawal Deadline: Please inform your instructor that you are dropping this course.: You must fill out and submit the Request to Withdraw form before class 8 or else you will receive a failing grade on your academic record.
+Class 8: The Scrum Master Role In Detail: Assigned White Papers: Questions Research Term Project Online team project: Class 9
+Class 9: The Product Owner Role In Detail: Assigned White Papers: Questions Research Term Project Online team project: Class 10
+Class 10: Agile Techniques Co-located Teams Self-Directed Teams: Assigned White Papers: Questions Research Term Project Online team project: Class 11
+Course evaluation: To be conducted online during class 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before class 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+Class 11: Agile Advanced Considerations Scrum & Large Projects Transition From Traditional Methodolgies To Scrum: Assigned White Papers: Questions Research Term Project Online team project presentation: Class 12
+Class 12: Final Exam
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Edward Rubuliak, Instructor March 26, 2025
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 24, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 24, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

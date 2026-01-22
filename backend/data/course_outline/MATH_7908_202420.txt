@@ -1,0 +1,154 @@
+URL: https://www.bcit.ca/outlines/20242067223/
+Course: MATH 7908
+Field: Linear Algebra and Applications for Computing
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Technology in Computer Systems
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: April 08, 2024
+End Date: July 15, 2024
+Total Weeks: 13
+Delivery Type: Lecture/Lab
+Prerequisite(s): Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+CRN: 67223
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Stefan Lukits
+E-mail: Instructor to provide
+Location: SW2 231
+Office Hours: Instructor to provide
+
+## Course Description
+This course covers the basics of linear algebra and related topics, including vector algebra with its application to 3D geometry, matrix algebra with application to solving systems of linear equations, complex numbers/ vectors and discrete Fourier Transforms. Matrix topics will include linear transformations, eigenvalues and eigenvectors, similarity of matrices and applications of these. Concepts such as vector spaces, inner product spaces, and symmetric and orthogonal matrices are also introduced. Computer algorithms for performing various matrix operations and calculations and discrete Fourier Transforms will be explored.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Solve systems of linear equations using common analytical and numerical matrix-based methods.
+- Perform matrix algebra calculations using +, -, ×, inversion, determinants and other common matrix operations.
+- Illustrate the use of vectors in 2- and 3-D space and the associated algebra of vectors, including the norm of a vector, vector arithmetic, and the dot/cross products with applications of vectors to lines and planes in 3-D space.
+- Use complex numbers, including complex vectors and matrices including quaternions.
+- Calculate the eigenvalues and eigenvectors of a matrix and apply to diagonalization of matrices.
+- Implement common computer algorithms for matrix calculations, such as decomposition, discrete Fourier Transforms and solving systems of equations.
+- Explain the function of Fourier transforms.
+- Explain general vector spaces and find the basis of a vector space along with its associated characteristics.
+- Determine transformations, mappings and projections between vector spaces.
+- Use matrices in an applied context, e.g. computer graphics, cryptography, principal component analysis, signal filter, etc..
+
+## Learning Resources
+References:
+
+Philip N. Klein. Coding the Matrix: Linear Algebra through Computer Science Applications.
+
+W. Keith Nicholson. Linear Algebra with Applications.
+
+Dominic Edelen and Anastasios Kydoniefs. An Introduction to Linear Algebra for Science and Engineering.
+
+Paul C. Shields. Elementary Linear Algebra.
+
+Andrew J. Hanson. Visualizing Quaternions.
+
+David Morin. Fourier Analysis.
+
+## Evaluation Criteria
+Criteria: Percent
+Attendance: 5
+Final Exam: 35
+Lab Reports: 12
+Term Tests (2): 48
+
+The passing grade for this course is 60 percent.
+
+## Attendance Requirements
+Attendance will be taken consistently and is an evaluation criterion.
+
+## Course Specific Requirements
+The lectures and all the tests are delivered in person.
+
+## Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.
+
+## Course Schedule and Assignments
+Monday, April 8
+
+Monday, April 15
+
+Monday, April 22
+
+Lab Report due
+
+Monday, April 29
+
+Lab Report due
+
+Monday, May 6
+
+Lab Report due
+
+Monday, May 13
+
+Lab Report due
+
+Monday, May 20
+
+No Class: Victoria Day
+
+Monday, May 27
+
+Term Test A
+
+Monday, June 3
+
+Lab Report due
+
+Monday, June 10
+
+Lab Report due
+
+Monday, June 17
+
+Lab Report due
+
+Monday, June 24
+
+Term Test B
+
+Monday, July 1
+
+No Class: Canada Day
+
+Monday, July 8
+
+Lab Report due
+
+Monday, July 15
+
+Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Stefan Lukits, Instructor April 04, 2024
+
+I verify that this course outline has been reviewed. Winona Cordua-von Specht, Faculty April 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean April 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/data-analytics-digh-7250/
+Title: Data Analytics
+Field: Digital Health
+Type: Course
+Course Code: DIGH 7250
+
+================================================================================
+
+## Overview
+
+This course revisits health data analytics techniques and reporting requirements to better understand health services and the health of our populations. The course examines concepts associated with health information exchanges, data standards, data aggregation, and population health data. Learners explore strategies for ensuring provenance and integrity of individual and population health informatics sourced across multiple integrated systems. The course discusses techniques to extract, transform, and load (ETL) database functions and their ordering, as well as the integration and harmonization of disparate data sources using ETL principles and software. Learners compare and contrast data management and validation techniques and relational and non-relational database designs (i.e., SQL versus flat file/NoSQL). Learners apply query tools and techniques in collaboration with stakeholders to analyze and interpret data. Learners compare and contrast statistical modelling, machine learning, and deep learning, including when it may be appropriate to choose one approach over another. Learners examine data-mining and analytic techniques (e.g., data visualization, artificial intelligence, natural language processing, machine learning) to optimize health outcomes and decision-making. These techniques will be applied to simulated scenarios. Learners explore, compare, and apply data visualization methods (graphic, geospatial, 3D modelling, dashboards, heat maps) to transform, organize, and present data as meaningful information for diverse audiences. Learners explore how business intelligence and the application of data and technology can be used to optimize decision-making and health outcomes. Learners also examine appropriate implementation of BI tools and strategies.
+
+## Credits
+
+3.0
+
+## Cost
+
+$963.23
+
+## Prerequisites
+
+- 65% in DIGH 7000 and 65% in DIGH 7200
+
+## Learning Outcomes
+
+- Explain the role health information exchanges and interoperating health systems play in data aggregation and population health.
+- Describe techniques to extract, transform, and load (ETL) database functions and their ordering.
+- Describe integration and harmonization of disparate data sources using ETL principles and software.
+- Apply data mining and analytic techniques (e.g., data visualization, artificial intelligence, natural language processing) to simulated scenarios.
+- Compare and contrast statistical modelling, machine learning, and deep learning, including when it may be appropriate to choose one approach over another.
+- Describe the focus and purpose of query tools, common core components, well-known query tool development frameworks, and common programming platforms.
+- Summarize the importance of perception and cognition related to data visualization.
+- Apply best practices of data visualization design, and describe the complimentary role data visualization plays in the analytic process.
+- Demonstrate knowledge of fundamental factors related to the appropriate implementation of business intelligence strategies and tools to optimize decision-making and health outcomes.​
+
+## Related Programs
+
+- Digital Health

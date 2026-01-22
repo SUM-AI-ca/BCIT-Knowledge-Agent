@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/mathematics-for-computing-comp-1114/
+Title: Mathematics for Computing
+Field: Computer Systems
+Type: Course
+Course Code: COMP 1114
+
+================================================================================
+
+## Overview
+
+COMP 1114 is partially discrete mathematics, partially an introduction to linear equations and assumes that students have a good understanding of Grade 12 Mathematics. The purpose of Mathematics for Computing is to give a solid foundation for follow-on technical and programming courses at BCIT. This course is divided in four parts; (1) Number systems and data representation; (2) Boolean algebra and design of logic circuits; (3) Exponential and logarithmic functions; and (4) Matrix methods in Linear algebra. COMP 1114 is equivalent to several full-time diploma courses; COMP 1113 –Applied Mathematics in Computer Systems Technology, CST; MATH 1310 -Technical Math for IT in Computer Information Technology, CIT; MATH 1320 –Mathematics for Computing in Full Stack Web Development, FSWD. Mathematics for Computing is also a required course in the Computer Systems Certificate, CSC and an elective in the Applied Computer information Systems, ACIS associate certificate. Upon successful completion of COMP 1114 , students who achieve 60% may move on to the next level; COMP 2121 – Discrete Mathematics and COMP 2825 - Computer Architecture.
+
+## Credits
+
+4.0
+
+## Cost
+
+$679.05
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Explain the concept of positional number system.
+- Explain how numbers, text and graphics are represented inside the computer memory.
+- Perform arithmetic operations with numbers represented in different number systems (binary, octal, and hexadecimal) and different computer representations (1s and 2s complement, Excess, BCD, and floating point representation).
+- Explain the Boolean algebra concepts: Boolean variables, basic and derived operators, postulates, algebraic laws and theorems, Boolean expressions and functions.
+- Build a corresponding truth table for a Boolean expression.
+- Build a Boolean expression from a truth table or from a Min-term/Max term expression.
+- Define canonical forms: Sum of Products (SOP) and Product of Sums (POS).
+- Simplify Boolean expressions using mathematical proof (Boolean algebra postulates, laws and theorems) and Karnaugh maps.
+- Analyze and simplify the works of combinatorial logic circuits.
+- Use AND, OR, NOT, NAND, NOR, XOR and XNOR gates to design simple logic circuits.
+- Apply mathematical concepts to real life problems by designing logic circuits using Boolean algebra: simple decision systems, adders, comparators, and decoders.
+- Solve logarithmic and exponential equations.
+- Determine if a system of linear equations has a unique solution (independent), an infinite number of solutions (dependent) or no solution (inconsistent).
+- Perform basic operations on matrices: addition and subtraction, multiplication with a scalar, matrix multiplication, and finding the inverse.
+- Perform elementary row operations on matrices to find the solutions of a system of linear equations.
+- Solve systems of linear equations using determinants and matrices.
+- Solve logarithmic and exponential equations.
+- Move on to COMP 2121 - Discrete Mathematics and COMP 2825 Computer Architecture.
+
+## Related Programs
+
+- Applied Computer Information Systems (ACIS)
+- Computer Systems

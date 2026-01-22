@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/advanced-web-applications-with-php-comp-4669/
+Title: Advanced Web Applications with PHP
+Field: Computer Systems
+Type: Course
+Course Code: COMP 4669
+
+================================================================================
+
+## Overview
+
+This hands-on course continues on from COMP 3015 –Web Application Development with PHP and is aimed at students who are already able to build significant PHP web applications. COMP 4669 , begins with a review of topics covered in COMP 3015 , then students are introduced to the Model-View-Controller (MVC) and Active Record patterns. Topics include: RESTful APIs, Caching, Message Queues, and Cross Origin Resource Sharing (CORS). Object-Relational Mapping (ORM) libraries are used in assignments and labs to interact with MySQL databases. WebSockets are also discussed with an emphasis on secure development practices and application performance. Labs and assignments use open source libraries and integrate with application framework and how to safely persist passwords and communicate with third party services. Participants use industry standard PHP frameworks to develop secure and scalable RESTful APIs with JSON responses. Application middleware is also introduced to handle CORS and cookie handling. COMP 4669 is an elective in the Applied Web Development (AWD), the Web and Mobile Application Development (WMA) Associate Certificates, and the CST FLEX Diploma. Note: Web Development students should also consider COMP 3012 -Back-End Web Development with Node.js and COMP 3013 -Front-End Web Development with React.js. Upon completion, successful students will be able to build and deploy front-end, single-page-applications (SPAs) by creating back-end PHP services for commercial quality server-side web applications. COMP 4669 will be offered for the final time in the winter (January) 2026 term.
+
+## Credits
+
+3.0
+
+## Cost
+
+$673.79
+
+## Prerequisites
+
+- 60% in COMP 3015
+
+## Learning Outcomes
+
+- Use the Composer package manager to leverage third party open-source libraries.
+- Build server-side applications using a major, industry standard, Model-View-Controller (MVC) style, PHP framework.
+- Interact with MySQL using an Object-Relational Mapper (ORM).
+- Leverage message queues to process jobs in the background.
+- Develop applications that implement Cross-Origin Resource Sharing (CORS) middleware.
+- Write applications utilizing a caching server.
+- Use the WebSocket protocol to build real time applications.
+- Analyze and improve query performance.
+- Explain how JSON can be used to interact with front-end applications.
+- Adopt and implement web applications that talk to other web services through their SDK.
+- Discuss security issues and write secure and robust code, resistant to errors and attacks.
+- Develop and deploy high-quality and high-performing web applications to industry standards.​
+
+## Related Programs
+
+- Applied Web Development
+- Computer Systems
+- Web and Mobile Application Development

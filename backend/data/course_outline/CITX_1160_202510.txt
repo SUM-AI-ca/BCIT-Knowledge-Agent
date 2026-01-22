@@ -1,0 +1,115 @@
+URL: https://www.bcit.ca/outlines/20251080047/
+Course: CITX 1160
+Field: Cisco CCNA Level 1
+
+School: School of Energy
+Program: Network Administrator Technician
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: March 31, 2025
+Total Hours*: 72
+Total Weeks: 12
+Hours/Weeks: 6
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 80047
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rick Phelan
+E-mail: Instructor to provide
+Location: SW3-1955
+Office Hours: Instructor to provide
+
+## Course Description
+Instruction will cover the fundamentals of LANs, WANs, routers, router programming, networking, network standards, and terminology. Topics also include the OSI model, cabling, cabling tools, TCP/IP protocol suite including IP addressing and subnetting. A close look at Ethernet and the functionality of the Data-Link and Physical layers allow students to visualize and describe communication between computers and systems. Students will also learn valuable network problem solving techniques and concepts. It is recommended that students have experience setting up home networks prior to attending this course. Students must have access to a Windows based multi-media computer.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain how communication works in data networks and the Internet.
+- Identify the devices and services that are used to support data communications.
+- Use network protocol models to explain the layers of communications in data networks.
+- Explain the role of protocols in data networks.
+- Describe the importance of addressing and naming schemes at various layers of data networks.
+- Describe the protocols and services provided by the application layer in the OSI model.
+- Explain the operations of transport layer protocols and services including the three-way handshake, acknowledgements and sliding windows.
+- Describe the operations of the network layer protocols.
+- Explain the fundamental concepts of routing.
+- Design, calculate, and apply subnet masks and IP addresses.
+- Describe the operation of protocols at the data link layer.
+- Describe physical layer protocols.
+- Explain fundamental Ethernet concepts such as media, services, and operations.
+- Employ basic cabling and network designs to connect devices.
+- Describe the differences between straight-through, crossover and roll-over patch cords.
+- Build a simple Ethernet network using routers, switches and computers.
+- Use router CLI commands to perform basic configuration and verification.
+- Describe wide area network (WAN) technology concepts.
+
+## Learning Resources
+Learning resources are online (included in the course). Access to Cisco Networking Academy will be provided on the first night.
+
+In this course, students will be required to use Cisco Networking Academy, an online collaborative service. During the account creation process, Cisco Networking Academy will collect your name and other identifying information. By using Cisco Networking Academy, you are consenting to the storage of this information in the United States. If you choose not to provide your consent, see the instructor to make alternate arrangements.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Assignments: 25
+Cisco Module Exams: 15
+Skills Exam: 30
+Final Exam: 30: This may be a combination of both a Netacad and BCIT exam
+50% average overall required for a pass.
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences.
+
+## Course Schedule and Assignments
+CITX 1160 Schedule
+Monday: Lecture: Hardware Labs: Exams: Lecture: Hardware Labs: Exams
+06-Jan: CH 1 - Networking Today: Lab Introduction: 08-Jan: CH 2 - Basic Switch and End Device Configuration: 2.3.8 - Lab - Navigate the IOS by Using Tera Term for Console Connectivity
+13-Jan: CH 3 - Protocols and Models: 2.9.2 - Lab - Basic Switch and End Device Configuration: 15-Jan: CH 3 - Protocols and Models: 3.7.10 - Lab - Use Wireshark to View Network Traffic
+20-Jan: CH 4 - Physical Layer: 4.6.6 - Lab - View Wired and Wireless NIC Information: 22-Jan: CH 5 - Number Systems: None Assigned: Checkpoint Exam 1-3
+27-Jan: CH 6 - Data Link Layer: None Assigned: 29-Jan: CH 7 - Ethernet Switching: 7.2.7 - Lab - View Network Device MAC Addresses
+03-Feb: CH 8 - Network Layer: 7.3.7 - Lab - View the Switch MAC Address Table: 05-Feb: CH 9 - Address Resolution: None Assigned: Check Point Exam 4 - 7
+10-Feb: CH 10 - Basic Router Config.: 10.4.3 - Lab - Build a Switch and Router Network: 12-Feb: CH 11 - IP Addressing: 11.6.6 - Lab - Calculate IPv4 Subnets
+17-Feb: Stat: 19-Feb: CH 11 - IP Addressing cont.: 11.10.2 - Lab - Design and Implement a VLSM Addressing Scheme: Checkpoint Exam 8 - 10
+24-Feb: CH 12 - IPv6 Addressing: 12.9.2 - Lab - Configure IPv6 Addresses on Network Devices: 26-Feb: CH 13 - ICMP: 13.3.2 - Lab - Use Ping and Traceroute to Test Network Connectivity
+03-Mar: CH 14 - Transport Layer: 05-Mar: CH 15 - Application Layer: 15.4.8 - Lab - Observe DNS Resolution: Checkpoint Exam 11 - 13
+10-Mar: CH 16 - Network Security Fundamentals: 16.4.7 - Lab - Configure Network Devices with SSH: 12-Mar: CH 17 - Build a Small Network: TBD: Checkpoint Exam 14 - 15 The last Check point exam 16-17 will be done online.
+17-Mar: Catch Up and Review.: 19-Mar: Skills Practice
+24-Mar: Skills Exam Group 1: 26-Mar: Skills Exam Group 2
+31-Mar: Final Exam
+Note this schedule is subject to change depending on need
+There will also be homework assignmed on Packet Tracer - which can be done in the labs when there is no hardware lab.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rick Phelan, Instructor January 06, 2025
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head January 06, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 06, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,175 @@
+URL: https://www.bcit.ca/outlines/20241091728/
+Course: COMP 3829
+Field: Quality Assurance and Software Testing
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 14, 2024
+End Date: April 14, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): 60% in COMP 2501 and 60% in COMP 2831
+CRN: 91728
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Anca Datcu-Romano
+E-mail: Instructor to provide
+Location: Virtual online
+Office Hours: Instructor to provide
+
+## Course Description
+Following on from COMP 2831 - Business Analysis and Systems Design, this hands-on course introduces the concepts, tools and processes needed to be perform Quality Assurance (QA) and software testing. Students with some programming background are shown best practices and will focus on creating and executing test plans using test cases and test scripts. They will practice how to record and report results, as well as document identified issues. Exercises and labs will include using popular open source QA software testing and tracking tools. Topics include: Black Box, White Box and Grey Box testing techniques and all aspects of QA planning and execution. Automated testing topics include constructing a framework, scripting techniques, generating test data, test architecture, pre/post-processing, test maintenance, and job specific metrics. Successful participants will be able to understand effective software testing methods, create a Quality Assurance plan and a test plan as well as be able to monitor test processes, evaluate test results and conduct automated testing to industry standards.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Understand the role of Quality Assurance in the software development process.
+- Identify the different types of testing: Black Box, White Box and Gray Box.
+- Write test cases.
+- Write test scripts.
+- Create a test plan.
+- Prepare and condition test data.
+- Perform manual testing, using a manual testing tool.
+- Perform automated testing, using an automated testing tool.
+- Use an issue tracking tool to create and assign bug reports.
+- Understand requirements traceability and create a traceability matrix.
+- Demonstrate a working knowledge of Unit Testing.
+
+## Learning Resources
+Recommended:
+
+Software Testing (2nd edition) by Ron Patton - ISBN-13: 978-0672327988 Testing Computer Software (2nd edition) by C. Kaner - ISBN-13:978-0471358466
+
+## Course Goals
+- To learn the fundamental concepts and processes of software testing
+- To gain hands-on experience in manual and automated software testing.
+- To produce key testing deliverables including test cases, bug reports, test plan.
+- To help prepare for the ISTQB foundation level exam.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 20: You must complete all labs in order to pass this course.
+Assignments: 10: You must complete all assignments in order to pass this course.
+Midterm: 30
+Quizzes: 10
+Final Exam: 30: You must average 50% or higher between the Midterm and Final Exam in order to pass this course.
+
+Passing grade: 60%.
+
+- Makeup Tests, exams or quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstance. In such a case, it is the responsibility of the student to inform the instructor immediately.
+- Late assignments/online submissions or projects will not be accepted except for proof of illness. No assignments/projects will be accepted after marked assignments or solutions to questions have been posted.
+- Midterm exams, final exams, and proper papers: The midterm and final exam will not be returned to the student.
+
+By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+
+## Other information
+Computer Use Guidelines
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Session: Outcome/Material Covered
+1: Review course outline. Introduction to Quality Assurance, Quality Control and Software Testing. Software Testing Life Cycle (STLC) and the Software Development process. Requirements Analysis for QA.
+2: The Realities of Software Testing. Testing Fundamentals and types of testing. The cost of bugs. Document existing software systems using UML Use Case diagrams. Writing Test Cases based on Use Case documents.
+3: Software Testing Life Cycle steps activities and outcomes. Functional Testing Test case management tools to manage test cases and test suites. Automated testing using GUI recording tools.
+4: Equivalence Partitioning and Boundary Value Analysis. Software Quality attributes. Types of Software Testing Unit Testing with JUnit Identify and create Test Cases based on Equivalence Partitions.
+5: Test Model and Test Plan - The Sieve Model. Prioritizing the issues and creating Bug Reports. Creating a Test Plan. Manual Testing: create the test cases, execute them and create bug reports. Review for Midterm
+6: Midterm
+7: Non-Functional testing types. Performance testing. Websites testing using the browser's Developer Tools.
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before session 8 or else you will receive a failing grade on your academic record.
+8: Test Automation and Test Automation Frameworks. Selenium test automation tools. Risk-based testing and risk analysis. Database testing, data mapping, data pools.
+9: Bug tracking tools, classifying issues. State Transition Testing based on UML Statechart diagrams. Identify and create Test Cases based on Statechart Diagrams.
+10: Decision Table Testing. Gray Box testing for Web applications and Web services. Identify and create Test Cases based on Decision Tables.
+Course Evaluation: To be conducted online during Session 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before session 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11: Security Testing. Types of software vulnerabilities, security actions to prevent attacks. Types of website attacks and prevention. Review for Final
+12: Final
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Anca Datcu-Romano, Instructor December 17, 2023
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator January 04, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

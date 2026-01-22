@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20243043020/
+Course: MINE 5005
+Field: Mineral Resource Estimation
+
+School: School of Construction and the Environment
+Program: Mining and Mineral Resource Engineering
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): MATH 3504 and MINE 3109 and MINE 4107
+CRN: 43020
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Russell Hartlaub
+E-mail: russell_hartlaub@bcit.ca
+Location: SW1-2570
+Office Hours: By appointment.
+
+## Course Description
+Mine 5005 examines different methods for data analysis and computer modeling of mineral deposits for resource estimation. Topics will include interpretation of drill results, geologic controls and continuities, geostatistics, outliers, and interpolation methods. . The primary parameters controlling the calculating and classifying of mineral resources are reviewed, including cut-off grade analysis, deposit type and drill hole spacing. Lab assignments and design work will focus on data compilation, integration, and analysis, geological and ore body modelling, and mineral resource estimating methodologies.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Assess data quality and certainty based on factors including drill hole spacing, nugget effects, lithological control and variability [3,4].
+- Evaluate and combine large datasets of subsurface geological data (core logs, assay data) [3,5].
+- Develop geologically realistic models of ore deposits [1,4,5].
+- Perform statistical analysis that is used to calculate mineral resources [1,3,4,5].
+- Generate mineral resource estimates and evaluate their limitations [4,5,10,11].
+- Evaluate mineral resource models and mineral resource estimates to reflect changing economic conditions (i.e., commodity price drop) or other external factors [11].
+- Understand the Canadian regulatory framework surrounding mineral resource estimates and apply recommended best practices and ethical standards for resource evaluation [8, 10].
+
+## Learning Resources
+Reference
+
+Applied Mineral Inventory Estimation
+
+Alistair J. Sinclair, Garston H. Blackwell (ISBN: 13978052102182)
+
+Mineral Resource Estimation
+
+By Mario E. Rossi, and Clayton, V. Deutsch (ISBN: 9781402057175)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments (10): 50: Assignments are equally weighted
+Mid-term Exam: 25
+Final Design Project: 25
+
+## Course Schedule and Assignments
+Lecture Schedule
+
+Note: The order and length of each module is subject to change
+
+Week: Topics/Material Covered: Textbook Chapter*/ Journal Papers
+Sept. 4: Introduction to Resource Estimation Ore, waste, and dilution Cut-off grade: 1 Mineral Resource Estimation (Glacken and Snowden, 2001)
+Sept. 10: Mineral exploration and drill data Review and plotting of initial results: CIM Mineral Exploration Best Practice Guidelines (2018)
+Sept. 17: Geological Control and Continuity: 2-3
+Sept. 24: QA-QC of Analytical Results De-clustering of Data Compositing Interpolation and the inverse distance method: 4-6 CIM Estimation of Mineral Resources and Mineral Reserves – Best Practice Guidelines (2019)
+Oct. 1: Data Analysis Outliers Co-products, Bi-products, and Equivalent Grade: 7
+Oct. 8: Introduction to Geostatistics and Spatial Analysis: 8-9
+Oct. 15: Ethics and Best Practices Case studies Disciplinary notices
+Oct. 22: Mid-Term Exam
+Oct. 29: Kriging: 10
+Nov. 5: Cut-off grade, Initial Mining Volumes, and Grade-Tonnage Curves: 12-13
+Nov. 12: Resource Classification and NI 43-101 SEDAR and NI-4301 Case study: 11
+Nov. 19: Validation of Resources; Density and Dilution Reconciliation of Resources: 14-16 Reconciliation – Delivering on Promises (Shaw et al. 2013)
+Nov. 26: Converting Resources to Reserves Due Diligence: 17-19
+Dec. 3: Review and other topics
+
+*Sinclair, A.J., and Blackwell, G.H., 2002, Applied Mineral Inventory Estimation; Cambridge University Press
+
+Lab Schedule
+
+Date: Topics/Material Covered
+Sept. 11: Drill Database Quality Assurance and Quality Control (QA/QC) Nearest Neighbor Interpolation
+Sept. 18: Importing your database and visualizing drill holes.
+Sept. 25: Geological Interpretation – Surfaces and Wireframes
+Oct. 2: Data Analysis and Statistics Compositing Outliers
+Oct. 9: Geological Modelling - Volumes
+Oct. 16: Building and filling a block model
+Oct. 23: Resource Estimates and Ethics
+Oc. 30: Mineral Resource Estimation and Block Model Analysis Variograms
+Nov. 6: Cut-off Grade and Mining Volumes Grade-Tonnage Curves
+Nov. 13: Resource Estimates and Initial Mine Design
+Nov. 20: Classifying and Reporting a Resource
+Nov. 27: Final Design Project
+Dec. 4: Final Design Project
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Russell Hartlaub, Faculty August 29, 2024
+
+I verify that this course outline has been reviewed. Shawna Waberi, Program Head August 29, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean August 30, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

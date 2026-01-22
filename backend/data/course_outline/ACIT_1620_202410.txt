@@ -1,0 +1,115 @@
+URL: https://www.bcit.ca/outlines/20241089205/
+Course: ACIT 1620
+Field: Fundamental Web Technologies
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 89205
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Yves Shema
+E-mail: yshema@bcit.ca
+Location: Will be posted on the Learning Hub
+Office Hours: Wednesdays: 9:00 AM - 12:00 PMThursdays: 9:00 AM - 11:00 AM
+
+## Course Description
+This course introduces the fundamental principles, concepts, and techniques for understanding and developing modern web sites. Topics include: underlying infrastructure and technologies that make the web works; building the structure of webpages with HTML; styling text and content with CSS; dynamically updating the content and style of pages with client-side scripting techniques. This course is intended as the foundation for more advanced web courses.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the underlying infrastructure of internet.
+- Describe client/server interactions and communications.
+- Demonstrate an in-depth understanding of how HTTP protocol works.
+- Explain anatomy of a URL and its relationship to the location of a resource.
+- Explain the processes involved in rendering websites in browsers.
+- Develop W3C compliant web pages by hand using HTML.
+- Customize layout of responsive web pages using CSS.
+- Use Document Object Model (DOM) tree structure to describe the relationship between HTML elements.
+- Utilize CSS selectors to access and interact with DOM elements.
+- Develop client-side scripting with JavaScript to handle propagating user events.
+- Diagnose errors with browser developer tools.
+- Use version control tool to track different versions of code.
+- Publish static web pages.
+
+## Learning Resources
+- Chrome and Firefox browsers
+- Visual Studio Code
+- PowerShell, bash, or command line equivalent
+
+There is no required text book for this course. Online resources will be posted on D2L for weekly course readings and activities. Various books and references will be recommended in class.
+
+## Course Goals
+- Use HTML and CSS to structure and style web content
+- Use JavaScript to add interactivity and respond to browser events
+- Use version control with git and GitHub
+- Publish static web pages on the Internet
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 10: Weekly online and in class quizzes
+Labs: 20: Weekly small in class assignments
+Evaluation 1: 15: In class individual assignment
+Midterm Exam: 20
+Evaluation 2: 15: In class individual assignment
+Final Exam: 20
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see: Policy 5101 - Student Regulations.
+
+## Course Specific Requirements
+This course includes mandatory online learning activities. Lack of participation in the online portion of this class may result in failure or forced withdrawal from the course.
+
+## Course Schedule and Assignments
+Week: Week Starting: Topics: Evaluation
+1: 8 Jan: Course introduction Introduction to tools Introduction to version control How the web works Introduction to HTML: Quiz Lab
+2: 15 Jan: HTML continued: generic and semantic elements, images, lists, and links URLs (absolute/relative): Quiz Lab
+3: 22 Jan: Introduction to CSS: selectors, properties and values The box model Layout and positioning (absolute/relative/fixed): Quiz Lab
+4: 29 Jan: Advanced CSS selectors CSS variables CSS transitions and animations: Quiz
+5: 5 Feb: EVALUATION 1: Assignment due in class
+6: 12 Feb: Responsive layout using CSS Grid and Flexbox Media queries: Quiz Lab
+7: 19 Feb: Midterm exam review
+8: 26 Feb: MIDTERM WEEK: Midterm exam
+9: 4 Mar: Introduction to JavaScript: syntax, flow, and logic Arrays and objects: Quiz Lab
+10: 11 Mar: SPRING BREAK
+11: 18 Mar: Manipulating the DOM Events: Quiz Lab
+12: 25 Mar: Data fetching and JSON Local storage: Quiz
+13: 1 Apr: EVALUATION 2: Assignment due in class
+14: 8 Apr: Final exam review
+15: 15 Apr: FINAL EXAM: Final exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Yves Shema, Instructor January 03, 2024
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head January 08, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 08, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

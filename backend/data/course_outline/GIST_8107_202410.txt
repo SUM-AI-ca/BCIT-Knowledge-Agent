@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20241073760/
+Course: GIST 8107
+Field: GIS Digital Mapping and Cartography
+
+School: School of Construction and the Environment
+Program: GIS - Geographic Information Systems
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: March 08, 2024
+Total Hours*: 40
+Total Weeks: 10
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): GIST 7108
+CRN: 73760
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kim Hopkins
+E-mail: khopkins17@bcit.ca
+Location: SW03-2079
+Office Hours: Sean Galway: As posted on Course HomePage in LearningHubsgalway@bcit.ca; SW03-2795 Tentative: Mondays: 1pm-3:30pm, Tuesdays: 10:30am-12:30pm, Wednesdays: 11:30am-12:30pm, Thursdays: 12:30pm-1:30pmKim Hopkins: As posted on Course HomePage in LearningHubSW03-2079 - Mondays: 1:30-3:30pm, Thursdays: 12:30-1:30pmBy email: khopkins17@bcit.ca; Monday-Friday: 9am-5pm Other Information:There are two instructors involved in delivering this course:Part 1: Digital Mapping-Weeks 1-5 (Sean Galway) Part 2: Cartography and Visualization-Weeks 6-10 (Kim Hopkins)
+
+## Course Description
+Examines sources of digital mapping data, elevation extraction and derived product creation for mapping, and an introduction to cartographic principles. Map composition, typography, thematic mapping and symbolization, colour and pattern are reviewed as part of cartographic principles.
+
+## Course Learning Outcomes/Competencies
+Upon the successful completion of this course the student will be able to:
+
+- Understand the basic principles of photogrammetry and stereo viewing.
+- Explain the requirements necessary to view images in stereo.
+- Demonstrate the geometry of a stereo-model using CAD.
+- Measure elevations and identify objects using a 3D software environment.
+- Collect elevation points and derive a digital elevation model using a 3D software environment.
+- Process a LiDAR point cloud dataset to produce a digital elevation model and contours.
+- Understand the variety of sensors used in point cloud data capture for mapping.
+- Understand the problems that can exist in map communication.
+- Know when / how to symbolize points, lines and polygons.
+- Properly employ colour and pattern in maps
+- Generate an effective single map layout.
+- Properly use annotation (typography) in maps and understand the components of typography.
+
+## Learning Resources
+Course Notes will be provided by instructors.
+
+## Evaluation Criteria
+There are two distinct parts to the course:
+
+Part 1: Digital Mapping (Weeks 1-5), taught by Sean Galway (Dept. of Geomatics). Part 2: Principles of Cartography & Visualization (Weeks 6-10), taught by Kim Hopkins (Dept. of GIS). Assignments are typically due one week after the lab is given. Assignments are expected to be 100% a students own work, unless otherwise specified. Instructor will provide detailed requirements/submission instructions.
+
+Type:: Comments: This course has two evaluated segments:
+Part 1: Digital Mapping: Segment 1: Digital Mapping worth 50% of Total Mark (Weeks 1-5)
+Part 1: Lab Assignments: 20%: Lab assignments for this segment will be equally weighted. If a lab assignment is dropped (not given), then the weighting for that assignment will be equally re-distributed amongst all of the completed lab assignments. Late assignments will be given a mark of Zero. Late assignments will NOT be accepted (Repeated!)
+Part 1: Written Exam: 30%: All written evaluations completed during class time, or otherwise formally scheduled by Timetabling Dept.
+Part 2: Cartography & Visualization: Segment 2: Cartography and Visualization worth 50% of Total Mark (Weeks 6-10)
+Part 2: Lab Assignments: 30%: Lab assignments for this segment will be equally weighted. If a lab assignment is dropped (not given), then the weighting for that assignment will be equally re-distributed amongst all of the completed lab assignment.
+Part 2: Written Exam: 20%: All written evaluations completed during class time, or otherwise formally scheduled by Timetabling Dept.
+Total: 100%
+
+## Attendance Requirements
+Assignments must be completed by the due date and time. Late assignments will receive zero marks - exceptions may be made due to illness or personal situations and it is the responsibility of the student to inform the instructor of any extenuating circumstances before the due date/time of the assignment.
+
+## Course Schedule and Assignments
+Week: MONDAY: Lab: Description
+W1: 01-Jan: MOD01A: MONDAY - No Lecture / THURSDAY - Lab Scheduled Please Attend!
+W2: 08-Jan: MOD02A: Introduction to Digital Mapping & Photogrammetry
+W3: 15-Jan: MOD03A: Photogrammetry - 3D Stereo Viewing & Structure From Motion
+W4: 22-Jan: MOD04A: Digital Surface Models & UAV Orthophotography
+W5: 29-Jan: MOD05A: LiDAR - Derived Product Generation
+W6: 05-Feb: MOD06A: Part 1 - Exam (Monday in first hour of Lecture time) - Sean Galway
+05-Feb: MOD01B: Part 2 - Introduction to Effective Mapping (Monday in second hour of Lecture time) - Kim Hopkins
+W7: 12-Feb: MOD02B: Symbolization + Colour and Pattern
+W8: 19-Feb: MOD03B: Monday - No Lecture due to Family Day, Map Annotation Lecture recorded, Thursday Lab scheduled - Annotation
+W9: 26-Feb: MOD04B: Graphic Elements of Map Design and Layout
+W10: 04-Mar: MOD05B: Monday - Review Lecture, Thursday - Part 2 Exam during first hour of lab time
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kim Hopkins, Instructor December 18, 2023
+
+I verify that this course outline has been reviewed. Mike Hill, Program Head December 21, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean December 21, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,80 @@
+URL: https://www.bcit.ca/outlines/20241091569/
+Course: DCOM 2540
+Field: Voice Networks
+
+School: School of Energy
+Program: Digital Communications and Wireless Technologies
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 60
+Total Weeks: 2
+Hours/Weeks: 30
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in DCOM 1540
+CRN: 91569
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: David Hogg
+E-mail: Dave_Hogg@bcit.ca
+Location: NE25-206B
+Office Hours: 8 am-2:30 pm Mon to Fri
+
+## Course Description
+​This course introduces the applications, concepts and implementation of VoIP (Voice over IP) networks. The operation of a VoIP will be compared and contrasted with that of traditional telephony networks. Students will configure a VoIP telephony system on a PC connected to a VoIP switch. Troubleshooting with a network protocol analyzer will be introduced. Session Initiation Protocol (SIP) phones will be introduced and used in the configured PBX. WAN networks and bandwidth considerations will be discussed with reference to the CODECs necessary for implementation​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Compare and contrast traditional telephony with VoIP networks.
+- Install and configure a PC-based VoIP system.
+- Connect a VoIP switch to an Ethernet LAN.
+- Perform administrative tasks required to manage a VoIP system.
+- Troubleshoot VoIP systems using a network protocol analyzer.
+- Configure SIP phones for VoIP operation.
+- Calculate bandwidth requirements for VoIP calls and correctly determine CODEC requirements.​
+
+## Learning Resources
+All required course material will be provided
+
+Optional: Introduction to Data Communications and Networking, Tomasi
+
+## Evaluation Criteria
+Criteria: %: Comments
+Midterm: 35
+Final: 35
+Lab Assignments: 15
+Lab Test: 15
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences.
+
+## Course Schedule and Assignments
+A course schedule will be made available on the Learning Hub prior to the commencement of class.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. David Hogg, Department Head December 12, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Paul Morrison, Interim Associate Dean December 12, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

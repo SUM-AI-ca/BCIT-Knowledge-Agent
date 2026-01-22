@@ -1,0 +1,212 @@
+URL: https://www.bcit.ca/outlines/20253034442/
+Course: ELEX 8170
+Field: Industrial System Electrical Design
+
+School: School of Energy
+Program: Bachelor of Technology in Electronics
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 16, 2025
+Total Hours*: 45
+Total Weeks: 14
+Hours/Weeks: 3.21
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in ELEX 7020
+CRN: 34442
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Kathy Manson
+E-mail: Instructor to provide
+Location: SW2-355
+Office Hours: Instructor to provide
+
+## Course Description
+Industrial systems commences with a study of safety considerations for electrical power systems. The Canadian Electrical Code, building codes, and IEEE standards are used for assigned design projects in the areas of commercial and industrial power distribution, protective device co ordination and protective relaying, lighting design, and grounding system design. Projects will incorporate designing various components of industrial systems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+Prepare Single Line Drawings
+
+Feeder Design For Industrial & Commercial Buildings
+
+- Select conductor size based on CEC requirements.
+- Calculate voltage drop of feeder.
+- Determine short circuit rating of conductor.
+- Determine protection of feeders.
+- Identify cable types.
+- Select conduit size.
+
+Branch Circuit Design
+
+- Identify types of branch circuits - lighting & motor.
+- Identify essential components of each type of branch circuit.
+- Design each type of branch circuit based on CEC requirements.
+- Determine loading requirements of buildings.
+
+Grounding Design
+
+- Define grounding terms.
+- Explain intent of grounding.
+- Design electrical system and equipment grounding according to CEC rules and IEEE recommendation.
+- Use IEEE recommendations for signal cable grounding.
+
+Protective Devices
+
+- Analyze requirements.
+- Select and use fuses.
+- Select and use breakers.
+- Select and use various types of protective relays.
+- Understand CEC rules for protection of feeders, branch circuits and transformers.
+
+Fault Current
+
+- Define symmetrical & asymmetrical fault.
+- Perform fault current calculations at various parts of an electrical system.
+
+Power Distribution Design
+
+- Analyze different systems.
+- Explain various types of radial systems.
+- Explain various types of primary selective systems.
+- Explain various types of secondary selective systems.
+
+Substation Design
+
+- Differentiate outdoor vs indoor.
+- Select transformer types.
+- Select primary protective devices.
+- Select secondary protective devices.
+- Use protective relaying for substations.
+- Protect against surge voltage.
+- Operate and use surge arrestors.
+
+System Coordination
+
+- Coordinate a typical industrial or commercial electrical system.
+- Select all the required components.
+- Plot curves of all selected protective devices.
+- Analyze the coordination.
+
+Lighting
+
+- Define lighting terms and units.
+- Analyze various lighting sources.
+- Design indoor and outdoor lighting layout to IES standards.
+- Interface Programmable Logic Controllers (PLCs) to lighting controls.
+
+Building Code
+
+- Analyze building code requirements for electrical rooms and vaults.
+
+## Learning Resources
+Required: Canadian Electrical Code, 2024 version. Electronic or hard-copy. Free electronic version available from library.
+
+Recommended: Industrial Power Distribution, Ralph E. Fehr.
+
+## Course Goals
+- Apply IEEE and CEC standards and rules to design electrical systems for industrial systems and commercial buildings.
+- Evaluate the safety of commercial and industrial power distribution, protective relaying and grounding systems.
+- Apply Illumination Engineering Society (IES) standards to lighting system design
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 30
+Quizzes: 20
+Midterm: 20
+Final: 30
+
+## Attendance Requirements
+All six labs must be completed to the satisfaction of the instructor.
+
+The following are common points across our department:
+
+Laboratories: Participation in all laboratory sessions is required and will be checked. If an illness or emergency situation arises the instructor and assistant instructor must be contacted as soon as reasonably possible. It may be possible to attend a different lab session but make up lab sessions are not available. If absence is recurring, BCIT’s policies regarding medical certificates will apply.
+
+Makeup Test, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks for the work missed. Exceptions may be made for extenuating circumstances or for medical reasons according to departmental policy and documented by a BCIT Student Medical Certificate (https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf). In such a case, it is the responsibility of the student to inform one of the course instructors immediately. Note that exceptions will not be made for personal events such as vacations, weddings, or travel arrangements.
+
+Late Assignments The penalty for late assignments is 5% per day past the due date. Extensions may be granted but must be requested AND confirmed at least 72 hours in advance of the assignment due date. If an extension is granted and the assignment is still late, the penalty is 10% for the first day and 5% for each subsequent day. All extensions and penalties will be granted or enforced at the discretion of the instructor and program head.
+
+## Course Specific Requirements
+In person hours over 15 weeks:
+
+(14 lectures) * (3 hours /lecture) = 42 hours
+
+1 final exam = 3 hours
+
+(6 labs) * (3 hours /lab) = 18 hours
+
+Total contact hours = 42+3+18 = 63 hours
+
+## Safety equipment or protective clothing
+None
+
+## Course Schedule and Assignments
+Tuesday Lecture: Saturday Lab
+Date: Topic: Date: Set 1: 11am-2pm: Set 2: 2-5pm
+Sep 2: Intro & feeder design: Sep 6
+Sep 9: Branch circuits: Sep 13
+Sep 16: Grounding: Sep 20: Lab 1 – Feeders and branch circuit design: Lab 1 – Feeders and branch circuit design
+Sep 23: Fault calculations: Sep 27
+Sep 30: Fault calculations: Oct 4: Lab 2 – Fault calculations: Lab 2 – Fault calculations
+Oct 7: Substation design: Oct 11
+Oct 14: Midterm: Oct 18: Lab 3 – Substation design: Lab 3 – Substation design
+Oct 21: Protection: Oct 25
+Oct 28: Motor protection: Nov 1: Lab 4 – Motor Protection: Lab 4 – Motor Protection
+Nov 4: Protection coordination: Nov 8
+Nov 11: Remembrance Day: Nov 15: Lab 5 – Protection coordination: Lab 5 – Protection coordination
+Nov 18: Lighting: Nov 22
+Nov 25: Lighting: Nov 29: Lab 6 – Lighting design: Lab 6 – Lighting design
+Dec 2: Arc Flash & Final Review: Dec 6
+Dec 9: Final exam: Dec 13
+
+## Course topics
+1. Feeder circuit design
+
+2. Branch circuit design
+
+3. Grounding and bonding
+
+4. Fault calculations
+
+5. Distribution systems
+
+6. Introduction to protection
+
+7. Motor protection ccoordination
+
+8. Lighting
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Kathy Manson, Program Head September 02, 2025
+
+I verify that this course outline has been reviewed. Muhammad Ahmed, Program Head September 02, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

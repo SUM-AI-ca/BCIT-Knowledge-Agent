@@ -1,0 +1,136 @@
+URL: https://www.bcit.ca/outlines/20243041864/
+Course: MATH 3423
+Field: Multivariable Calculus and Linear Algebra for Civil Engineering
+
+School: School of Construction and the Environment
+Program: Civil Engineering
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): MATH 2422
+CRN: 41864
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Andrew McConnell
+E-mail: Andrew_McConnell@bcit.ca
+Location: SW2 237
+Office Hours: TBA
+
+## Course Description
+This course provides an introduction to multivariable calculus—differentiation and integration—and linear algebra. Calculus will be used in a variety of Civil engineering applications including calculating moments and centroids for three-dimensional objects, solving non-uniform distributed-loading problems, axial loading of non-uniform members and optimizing a solution to a problem involving multiple variables. The basics of linear algebra will be introduced and applied to various Civil engineering applications including matrix analysis of trusses and the stiffness matrix method. In all areas, the use of a computer to find a numerical solution to a physical problem will be emphasized using a mathematics computer software package and/or a spreadsheet program.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply multivariable differential and integral calculus to computing physical properties used in mechanics of materials. [1]
+- Use Taylor Series expansions of functions. [1]
+- Solve problems in the appropriate coordinate system for the problem: Cartesian, cylindrical or spherical. [1, 2]
+- Demonstrate working familiarity with the basics of linear algebra. [1]
+- Solve independent & determinate systems of linear equations using various matrix methods. [1]
+- Use the stiffness matrix method to analyze a loaded planar truss and determine axial forces and displacement of joints. [1, 2]
+- Apply rotation of vectors and matrices to transformation between member local rotated and global coordinate systems. [1]
+- Use spreadsheets and other software to numerically analyze integrals and derivatives to solve applied problems. [5]
+
+## Learning Resources
+Required:
+
+- Calculus, Early Transcendentals 7th Ed., by C.H. Edwards and D.E. Penny, Prentice-Hall Inc., 2008. (Do not buy if you don't already own this)
+- MathCad This software is provided to the students on campus over the BCIT network.
+- Scientific calculator (One of the approved models)
+
+Optional:
+
+- Statics and Mechanics of Materials by R.C. Hibbeler or other statics and mechanics text.
+- Linear Algebra for Engineers and Science and Visualizing Linear Algebra, K. Hardy and S. Keith, Prentice Hall 2005
+- Structural Analysis by R.C. Hibbeler
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 15
+Term Test 1: 25
+Term Test 2: 25
+Final Exam: 35
+
+Course pass is 50%
+
+## Attendance Requirements
+Makeup Test, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT Student Medical Certificate (https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf). In such a case, it is the responsibility of the student to inform one of the course instructors immediately.
+
+## Other information
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the BEng in Civil Engineering program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB Graduate Attributes as shown in the square brackets [ ] following each course learning outcome.
+
+- A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+- Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+- Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+- Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+- Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+- Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+- Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+- Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+- Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+- Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+- Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+- Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.
+
+Quizzes will typically occur in lecture in a particular week but will be on material covered in the previous week's lab.
+
+Lectures may be recorded if it has been requested so be aware that anything you say during class could be recorded as a result. If you have concerned please contact your instructor.
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Department taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3-5 years)
+- the grade (generally at least C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+All work submitted for assessment - assignments and tests - is expected to be your own work. Unless explictly stated that it is allowed, use of another human or an Artificial Intelligence, to perform any part of the assessment will be considered plagiarism and will be subject to the penalities outlined in the Student Code of Academic Integrity Policy #5104. Students may be required to meet with the instructor to explain their work as a check.
+
+## Course topics
+Week (Approximate): Material Covered: Reference/ Reading
+1-2: Taylor/Power Series Convergence test of series Numerical Methods of Differentiation: 10.3, 10.4, 10.7 3.10, class notes
+3-4: Partial derivatives: chain rule, Multivariable min/max problems: 12.2, 12.4, 12.6, 12.7 12.5, 12.10
+Week of Oct 14, 2024: Test 1
+5-8: Two- and three-dimensional integration, setting up and solving, e.g., calculating the center of gravity, volume, mass, centroid, area moments, and distributed load resultants of an area or solid. Alternate coordinate systems: 13.1, 13.2, 13.5, 13.6 13.4, 13.7
+9-10: Systems of linear equations arising in structural analysis (and other problems) and their formulation in terms of matrices. Gaussian elimination for general linear systems. Stability of structures and determinacy of systems of linear equations.: Class Notes
+11-12: Basic matrices, addition, scalar multiplication, matrix multiplication, the inverse matrix, the transpose matrix. Solving determinants and Cramer’s method of solving systems of linear equations. Linear Transformation matrices with emphasis on rotation matrices: Class Notes
+Week of Nov 11, 2024: Term Test 2
+12: Matrix Stiffness Method for a planar truss. – based on a reading by Hibbeler: Class/Lab Notes
+13: Final exam (Comprehensive)
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Andrew McConnell, Faculty August 06, 2024
+
+I verify that this course outline has been reviewed. David Holloway, Program Head August 07, 2024
+
+I verify that this course outline has been reviewed. Sudip Talukdar, Program Head September 05, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean September 05, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/introduction-to-procedural-programming-with-c-comp-2701/
+Title: Introduction to Procedural Programming with C
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2701
+
+================================================================================
+
+## Overview
+
+This hands-on programming course follows on from COMP 2501 and is designed for students who already know how to write code in Java. COMP 2701 introduces the C language which is one of the principal foundations of computer software and the basis for C++. Students are introduced to procedural programming and best practices for writing introductory-level C programs. Concepts taught in this course make it easier to understand other programming languages. Topics include introduction to pointers and string basics. Participants will be shown how to access and use LeetCode to gain experience solving coding problems. COMP 2701 is an elective for Applied Software Development (ASD) and required for the Computer Systems Certificate (CSC). Students will practice developing a simple C program to industry standards and gain a basic understanding of procedural programming. Upon successful completion of COMP 2701 , students are prepared to move on to COMP 2801 Application Development with C.
+
+## Credits
+
+3.0
+
+## Cost
+
+$588.53
+
+## Prerequisites
+
+- 60% in COMP 2501
+
+## Learning Outcomes
+
+- Discuss programming language concepts such as pass-by-value versus pass-by-reference, scope, storage duration, linkage & memory models.
+- Apply the functions in the standard C library in developing programs.
+- Perform input/output in C.
+- Identify and use control statements in C programs.
+- Create and use functions in C programs.
+- Process arrays in C.
+- Explain pointers & their relation to arrays & strings.
+- Process strings in C using C library functions.
+- Access and use LeetCode to improve programming skills.
+- Be prepared to move on to C Part 2, COMP 2801- Application Development with C.
+
+## Related Programs
+
+- Applied Software Development (ASD)
+- Computer Systems

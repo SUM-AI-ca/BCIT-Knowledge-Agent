@@ -1,0 +1,132 @@
+URL: https://www.bcit.ca/outlines/20253042286/
+Course: ELEX 7815
+Field: Digital Image and Video Processing
+
+School: School of Energy
+Program: BEng- Electrical
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): ELEX 7620
+CRN: 42286
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: John Dian
+E-mail: John_Dian@bcit.ca
+Location: SW1-3071
+Office Hours: Students can email the instructor to set up an appointment. Tuesdays: 12:30-1:30 , 2:30-3:30Thursdays: 12:30-1:30, 3:30-4:30Fridays:11:30-12:30
+
+## Course Description
+This course is a design elective. It extends and expands the students’ knowledge of digital signal processing (DSP), with an emphasis on image processing. It reviews and then advances beyond prior courses that cover the classical topics of sampling, aliasing, digital filter design, and Discrete Fourier transformation. This course will introduce fundamental technologies for digital image/, compression, analysis, and processing. Students will gain understanding of algorithm, system design, analytical tools, and practical implementations of various digital image and video applications. Topics include two dimensional sampling and quantization, digital image enhancement techniques, point processing, spatial filtering, frequency domain filtering, digital image restoration, image histogram, color perception, discrete cosine transformation (DCT), image compression, multi-resolution processing and Wavelet transformation. Selected image processing methods are demonstrated and developed in laboratory activities through the relevant specialized modules of MatLab.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+
+- Calculate multi-dimensional Fourier Transform [1]
+- Develop efficient and effective methods for 2-D signal sampling and quantization. [2,5]
+- Design efficient methods for Image filtering in spatial and frequency domains. [2,5]
+- Apply histogram processing including histogram equalization and matching.[2,3]
+- Analyze DCT transformation used in image and video coding. [1]
+- Gain practical experience in the design and implementation of image processing algorithms. [4,5]
+- Explain current image coding standards. [7]
+- Design multi-resolution processing including image pyramid, sub-band coding and Wavelet transformation. [2, 4]
+- Implement image restoration and reconstruction algorithm.[2,3]
+- Demonstrate familiarity with specialized extension modules for MatLab, or other software design packages available for designing digital image processing systems. [5]
+
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+[1] Rafael C. Gonzalez, Richard E. Woods, ``Digital Image Processing'', 3rd Edition, Prentice Hall; 2007
+
+[2] O. Marques, “Practical Image and Video Processing Using MATLAB”, Wiley, 2011 (Recommended)
+
+[3] Class lecture notes will be provided to students.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 10
+Midterm: 25
+Labs, Projects: 25
+Final: 40
+Total: 100: The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103‐PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+7815 Schedule
+this schedule is subject to change, and that changes will be communicated in lectures and via D2L.
+Week 1: Concept of Image and video processing, Image acquisition & presentation
+Week 2: Intensity Transformation: Lab 1
+Week 3: Geometric Transformation and Interpolation: Assignment #1: Lab 2
+Week 4: Histogram Processing , Thresholding: Lab 3
+Lab 4
+Week 5: Spatial Filtering: Assignment #2: Lab 5
+Week 6: Image padding: Lab 6
+Week 7: 2-D Fourier Transformation: Assignment #3: Lab 7
+Week 8: Image Frequency domain concept: Lab 8
+Week 9: Image Filtering in frequency domain: Assignment #4: Lab 9
+Week 10: DCT and JPEG: Project lab
+Week 11: Image restoration and reconstruction: Project lab
+week 12: Color Image Processing: Assignment #5: Project lab
+Week 13: Morphological image processing: Project lab
+Week 14: Multi-resolution processing: Assignment #6: Project demo
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Dian, Instructor August 29, 2025
+
+I verify that this course outline has been reviewed. Victor Mendez, Program Head September 01, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 04, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

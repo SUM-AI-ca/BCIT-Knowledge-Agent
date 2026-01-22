@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/outlines/20251088012/
+Course: ACIT 4421
+Field: Virtualization and Database Systems for Industrial Network Cybersecurity
+
+School: School of Energy
+Program: Industrial Network Cybersecurity
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): ACIT 3421
+CRN: 88012
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Chris Wiebe
+E-mail: Chris_Wiebe@bcit.ca
+Location
+Office Hours
+
+## Course Description
+This course develops a working knowledge of virtualization and database systems to provide a deep understanding that industrial networks often extend into a virtualized server or workstation running a relational database. Building on the concepts developed in the Windows Server Administration for Industrial Network Cybersecurity course in term three, this course prepares students for the Culmination Project in the following five-week term. The concepts being developed in this course are closely related to the concepts being developed concurrently in the Cyber Operations course. Topics include: the implementation and configuration of Microsoft’s Hyper-V, the installation of a relational database on a virtual machine, creating a database and database objects, querying a database using SQL, security issues with relational databases, and data protection techniques for relational databases.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain why virtualization is important and where it can be used. (2)
+- Describe Microsoft’s virtualization solution. (2)
+- Install Microsoft Hyper-V. (3)
+- Configure Hyper-V storage, networking, and virtual machine settings using the Virtual Machine Manager (VMM). (3)
+- Deploy a guest operating system in Hyper-V. (3)
+- Install a relational database on a virtual host. (3)
+- Create a database and database objects on a virtual host using a desktop RDBMS. (4)
+- Use SQL to implement and query a relational database. (3)
+- Identify security issues. (3)
+- Propose data protection techniques for databases. (3)
+- Explain the application of virtualization and databases in an industrial environment. (2)
+
+## Learning Resources
+A zyBooks subscription will be required for the Database portion of this course
+
+Students will be required to use an online course delivery service, and create various accounts for companies originating in the US. During the account creation process, these companies will collect your name and other identifying information. By using any of these services, you are consenting to the storage of this information in the United States.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments/Labs: 20
+zyBooks Labs: 5
+Chapter Quizzes: 15
+Midterm Assessment: 30
+Final Assessment: 30
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Extended unapproved absences may result in failure or forced withdrawal from the course or program. ​Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+SCHEDULE FOR WINTER 2025
+INCS 4421
+Week - Week of: Monday: Thursday
+Week 1 - Jan 6: Course Introduction: Windows Development Environment
+Week 2 - Jan 13: 1 - Intro to Databases: continued from previous week
+Week 3 - Jan 20: 2 - Relatational Databases: Markdown/JSON/YAML
+Week 4 - Jan 27: Relational Databases cont.: Dev Environment - Vagrant
+Week 5 - Feb 3: 3 - Database Design: Containerization
+Week 6 - Feb 10: Database Design cont.: continued from previous week
+Week 7 - Feb 17: Family Day: Version control / Collaboration
+Week 8 - Feb 24: Midterm
+Week 9 - Mar 3: 4 - Structured Query Language: continued from previous week
+Week 10 - Mar 10: Spring Break
+Week 11 - Mar 17: SQL cont.: Promox
+Week 12 - Mar 24: 7 - Database Architecture: Promox cont.
+Week 13 - Mar 31: 8 - Complex Data Types: Virtualization in the Cloud
+Week 14 - Apr 7: 10 - NoSQL Databases: continued from previous week
+Week 15 - Apr 14: Final Review: no class
+Week 16 - Finals: Final Exams
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Chris Wiebe, Instructor January 02, 2025
+
+I verify that this course outline has been reviewed. Roger Gale, Associate Dean January 02, 2025
+
+I verify that this course outline has been reviewed. Umme Salsabil, Program Head January 06, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 06, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

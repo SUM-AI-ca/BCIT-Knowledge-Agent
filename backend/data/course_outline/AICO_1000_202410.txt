@@ -1,0 +1,210 @@
+URL: https://www.bcit.ca/outlines/20241010524/
+Course: AICO 1000
+Field: AutoCAD 1
+
+School: School of Energy
+Program: Associate Certificate in Computer Aided Design
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: February 24, 2024
+End Date: March 23, 2024
+Total Hours*: 36
+Total Weeks: 5
+Hours/Weeks: 7.2
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 10524
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Hamed Tahmooressi
+E-mail: Instructor to provide
+Location: SW3 2640
+Office Hours: Instructor to provide
+
+## Course Description
+The first step in using computer aided design (CAD) software requires a solid foundation of the user interface, commands and features of the CAD software. This intensive, hands-on course prepares the student with the knowledge and skills necessary for creating a basic 2D working drawing using AutoCAD. Topics include CAD concepts, file management, the viewing, drawing, and editing of drawings as well the placement of text and dimensions onto a drawing layout in preparation for plotting. The expectation is that students are proficient in the use of a computer including file and folder management. Students should also be familiar with the fundamentals of technical drawing.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Use the AutoCAD interface to access commands and files.
+- Discuss the importance of file management when using CAD software.
+- Access the on-line help system and user documentation.
+- Setup drawings and establish initial drawing settings.
+- Change the drawing display using View commands.
+- Use layers effectively to manage object properties.
+- Establish CAD standards.
+- Create a new drawing using a template file.
+- Create 2D drawings using the Draw commands.
+- Edit drawings with the Modify commands.
+- Use effective CAD construction techniques to ensure data accuracy and integrity.
+- Use Inquiry tools to verify accuracy of CAD constructions.
+- Define text styles and create text to accepted standards.
+- Layout a single viewport drawing using a standard scale.
+- Place basic dimensions using annotative scale.
+- Insert blocks to place complex objects as a single entity.
+- Place hatch patterns.
+- Print or plot a 2D drawing.
+
+## Learning Resources
+Text: Ascent - AutoCAD 2024 Essentials - AICO 1000 - Student Guide
+
+The text may be purchased online: https://www.bcit.ca/bookstore/store/
+
+Please allow time for delivery.
+
+Equipment:
+
+Memory device - USB Flash drive
+
+Windows or Mac computer capable of running AutoCAD software
+
+## Course Goals
+Develop proficiency in 2D drawing techniques in AutoCAD, acquiring essential tools and commands to create precise technical drawings and layouts.To support you and your education, BCIT is adapting applied learning in formats appropriate to the course. This course is an on campus, instructor-led introduction to AutoCAD with supplementary online resources.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments: 40
+Midterm Exam: 20
+Final Exam: 40
+
+Lab exercises will be completed during class time. They will not be handed in for marking. There will be assignments given out. Deadlines will be established for assignments which may require time outside of the scheduled hours to be completed
+
+## Attendance Requirements
+Regular attendance in labs is seen as integral to student success and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences.
+
+## Course Specific Requirements
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+## Other information
+BCIT Policy
+
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Course Schedule and Assignments
+Information will be posted on the Learning Hub.
+
+## Course topics
+Getting Started
+
+- AutoCAD User Interface
+- On-line help and user documentation
+- Command entry; Dynamic Input
+- Cartesian workspace
+- Opening and saving drawing files; File Management
+- View commands: Pan and Zoom
+
+Basic Drawing and Editing
+
+- Line, Circle, Rectangle commands
+- Using Polar Tracking
+- Erasing objects; Undo and Redo actions
+
+Other Fundamental Objects
+
+- Arc command
+- Drawing Polylines
+- Polygon command
+- Ellipse command*
+
+Drawing with Precision
+
+- Running Object Snaps
+- Object Snap Overrides
+- Polar Tracking at Angles
+- Using Snap and Grid
+- Coordinate Entry
+
+Editing Objects
+
+- Object selection fundamentals
+- Copy and Move commands
+- Rotate command
+- Scale command
+- Mirror command
+- Trim and Extend commands
+- Stretch command
+- Fillet and Chamfer commands
+- Offset command
+- Creating Rectangular and Polar arrays
+- Polyline editing
+- Grip editing fundamentals
+
+Using Layers
+
+- Creating drawings from templates
+- Layer concepts
+- Using layers to organize a drawing
+
+Object Properties
+
+- Properties command
+- List command
+- Measure tools
+
+Complex Objects
+
+- Block concepts
+- Insert command
+
+Drawing Layout
+
+- Model Space / Paper Space concepts
+- Layout creation
+
+Text and Annotations
+
+- Annotative text concepts
+- Text styles
+- Multiline text
+- Notes with leaders
+
+Hatching
+
+- Place and edit hatches
+
+Dimensioning
+
+- Dimensioning concepts
+- Dimension styles
+- Placing linear, radial and angular dimensions
+- Modifying dimensions
+
+Printing / Plotting
+
+- Page setup
+- Print preview
+- Print a layout
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Hamed Tahmooressi, Instructor January 03, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Paul Morrison, Interim Associate Dean January 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

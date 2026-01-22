@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/surveying-computations-1-geom-1021/
+Title: Surveying Computations 1
+Field: Geomatics
+Type: Course
+Course Code: GEOM 1021
+
+================================================================================
+
+## Overview
+
+This course lays the foundation for many courses in the diploma. It begins with a brief history of surveying and an introduction to both the imperial and metric units of measurement. This introduction is followed by a review of geometry and trigonometry as they apply to plane surveying problems, including sine, cosine, and Pythagoras' Theorem for survey applications. Other topics include azimuths and bearings, polar and rectangular coordinate systems (including system conversions), traverse calculations using the compass rule for the adjustment of different types of closed traverses, coordinate cross-multiplication to determine the area of a polygon, and the application of trigonometry-based triangle solutions. A combination of manual methods using scientific calculators and Microsoft Excel will be used to perform the various calculation methods.
+
+## Credits
+
+3.0
+
+## Cost
+
+$943.83
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Solve right and scalene triangles by various manual methods.
+- Use horizontal field angles to compute full-circle bearings.
+- Compute rectangular coordinates from polar coordinates and vice versa (both manually and in Excel).
+- Compute the results of an open traverse and apply bearing swing in specific cases.
+- Calculate a closed survey traverse and adjust traverses by the compass rule (both manually and in Excel).
+- Locate angular and linear blunders in closed traverses by computation.
+- Solve for elevation differences by trigonometric levelling. Use coordinates to compute the area of a closed polygon using Excel.
+- Carry out computations of missing parts in a closed traverse or polygon.​
+
+## Related Programs
+
+- Geomatics Engineering Technology

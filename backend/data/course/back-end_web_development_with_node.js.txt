@@ -1,0 +1,47 @@
+URL: https://www.bcit.ca/courses/back-end-web-development-with-node-js-comp-3012/
+Title: Back-End Web Development with Node.js
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3012
+
+================================================================================
+
+## Overview
+
+This hands-on course follows on from COMP 2132 and replaces COMP 2912 . It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with how Node.js fits into client-server software architecture, participants will focus on the Node.js programming model. Labs and exercises cover creating, installing and using node modules. Web frameworks like Express.js and Jest as used to build and test powerful web applications. Students will experience how Node.js is used by enterprise environments and modern web stacks like MEAN and MERN. Topics include: how to build, and deploy a RESTful API following best-practices, and learn error handling strategies. Typescript integration with Node.js as well as how to connect to databases will also be discussed. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider multiple advanced JavaScript tools including: COMP 2909 Angular and Vue.js Fundamentals and COMP 3013 Front-End Web Development with React.js. COMP 3012 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Node.js to build robust, scalable, data intensive web applications with user authentication.
+
+## Credits
+
+3.0
+
+## Cost
+
+$568.16
+
+## Prerequisites
+
+- 60% in COMP 2132 or 50% in ACIT 1620
+
+## Learning Outcomes
+
+- Explain how Node.js fits into client-server software architecture.
+- Create, install and make use node modules to extend the capabilities of the Node.js platform.
+- Use a web framework like Express.js to build web applications.
+- Make use of testing frameworks like Jest to automate the testing of code.
+- Connect to, insert and retrieve data from a database.
+- Use modern Node.js techniques for efficiently working with files and network requests through asynchronous IO.
+- Prevent your Node.js applications from crashing by applying best-practice error handling strategies to ensure your server can gracefully recover in the event of an error
+- Gain an understanding of how Node.js fits into modern web stacks like MEAN or MERN.
+- Build a complete user authentication system that allows for registering and login of users.
+- Build, deploy, and consume a RESTful API.
+- Use static type checking through Typescript to build more robust, scalable Node.js applications.
+- Use static type checking through Typescript to build more robust, scalable Node.js applications.
+
+## Related Programs
+
+- Advanced .NET Development
+- Advanced Java Development
+- Applied Web Development
+- Computer Systems
+- Introduction to Full-Stack Web Development
+- Web and Mobile Application Development

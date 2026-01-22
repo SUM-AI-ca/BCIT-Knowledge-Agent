@@ -1,0 +1,47 @@
+URL: https://www.bcit.ca/courses/software-engineering-comp-7082/
+Title: Software Engineering
+Field: Computer Systems
+Type: Course
+Course Code: COMP 7082
+
+================================================================================
+
+## Overview
+
+This course offers a comprehensive overview of software engineering issues: software development methodologies, software requirements analysis, functional and non-functional requirements, software architecture, design principles and paradigms, and quality assurance. Students will learn how to apply principles, use the most adequate strategies and tools, and assure quality during the entire software development cycle.
+
+## Credits
+
+3.0
+
+## Cost
+
+$867.64
+
+## Prerequisites
+
+- Acceptance into the Bachelor of Science in Applied Computer Science (BScACS) program.
+
+## Learning Outcomes
+
+- Apply design principles: levels of abstraction (architectural design and detailed design), separation of concerns, information hiding, coupling and cohesion and re-use of standard structures, to software project design.
+- Apply design paradigms such as structured design (top-down functional decomposition), object-oriented analysis and design, event-driven design, component-level design, and data-structure centered, aspect oriented, function oriented, and service oriented to software project design.
+- Identify design implications of non-functional requirements, including ethics, availability, fault tolerance, maintainability, scalability, security and usability.
+- Apply architecture design principles that incorporate availability, scalability, and quality and analyze how performance variation related to available resources will be monitored and measured in the presence of varying degrees of loading to software project design.
+- Incorporate fault tolerant designs into software architectures, including rollback capabilities.
+- Incorporate asynchronous designs into architectures to ensure high throughput and fault tolerance.
+- Develop software and system architectures tests for speed, throughput, and scalability.
+- Design success criteria and determine an appropriate test environment that will mimic the production system as closely as possible.
+- Analyze the data collected during tests, validate the results, and prepare a report for teams tasked with investigating and solving overall performance issues.
+- Describe the issues that are important in selecting a set of tools for the development of a particular software system, including tools for requirements tracking, design modeling, implementation, build automation, testing, deployment, and maintenance.
+- Apply multiple methods to develop reliability estimates for a software system.
+- Discuss software engineering code of ethics and professional best practices (e.g., ACM Software Code of Ethics and Professional Practices)
+
+## Related Programs
+
+- Applied Computer Science (Database Option)
+- Applied Computer Science (Games Development Option)
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Network Security Applications Development Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)

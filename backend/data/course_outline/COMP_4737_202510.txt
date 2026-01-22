@@ -1,0 +1,161 @@
+URL: https://www.bcit.ca/outlines/20251090572/
+Course: COMP 4737
+Field: Introduction to Operating Systems for CST
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 4
+Minimum Passing Grade: 60%
+Start Date: January 09, 2025
+End Date: March 27, 2025
+Total Hours*: 48
+Total Weeks: 12
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): (50% in COMP 2510 or 60% in COMP 2511) and (50% in COMP 2721 or 60% in COMP 2825)
+CRN: 90572
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rahim Oraji
+E-mail: Instructor to provide
+Location: Online
+Office Hours: Instructor to provide
+
+## Course Description
+​​Following on from “Procedural Programming with C" and “Computer Architecture and Organization"; students are introduced to the basic concepts, terminology and leveraging operating systems for concurrent software applications. COMP 4737 replaces COMP 4731 in the CST/PTS Diploma. Participants focus on using concurrent programming: processes and threads, inter-process communication (IPC), synchronization and mutual exclusion, deadlock and starvation with an introduction to memory organization. Theoretical topics include: overall operating system structure, operating systems services, how these services are used, and kernel architecture. Labs and exercises reinforce concepts with examples of using these operating system services within application programs. This course is equivalent to COMP 4736 in the Full-time CST Diploma. Upon successful completion, students will be able analyze, design and implement concurrent software applications. COMP 4737 is required for the Computer Systems (CST/PTS) Diploma and is offered twice per year the Winter (January) and Spring (May) terms.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe the role of an operating system.
+- Analyze how the operating system is structured (layers and components).
+- Describe the operating system interface (system calls, shells).
+- Use POSIX system calls in C.
+- Describe synchronization concepts such as mutual exclusion, critical sections, and race conditions.
+- Solve synchronization problems using constructs such as spinlocks, mutexes, semaphores, condition variables, and monitors.
+- Compare and contrast synchronization of threads with semaphores and monitors.
+- Discuss the consequences of concurrency: deadlock, starvation and livelock.
+- Describe how to prevent, avoid, detect and recover from deadlock.
+- Design and implement concurrent applications using processes and kernel-level and user-level threads.
+- Solve IPC problems by implementing applications using methods such as signaling, messages, pipes, and shared memory.
+
+## Learning Resources
+- Modern Operating Systems (5th Edition) by Andrew Tanenbaum (Recommended)
+- Operating Systems: Three Easy Pieces,Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau (University of Wisconsin-Madison). Online version (Further reading -- Optional)
+
+- Operating Systems – Internals and Design Principles, William Stallings, Ninth Edition. (Further reading -- Optional)
+
+## Course Goals
+- To be familiar with the basic concepts, design and implementation of operating systems.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab assignments: 30: Participation in labs and lab assignments is mandatory in order to pass this course. Weekly lab assignment must be completed by each student individually during lab time.
+Quizzes: 20: Two quizzes (week 5 and week 10)
+Midterm Exam: 25: You must achieve a minimum average of 50% or better between the midterm and final exams in order to pass this course.
+Final Exam: 25: You must achieve a minimum average of 50% or better between the midterm and final exams in order to pass this course.
+
+- No assignments/projects will be accepted after marked assignments or solutions to questions have been posted.
+- Participation in the online activities posted in the BCIT Learning Hub is mandatory and a requirement to pass this course.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- Students require access to an Internet connection fast enough to support streaming video.
+- All students must provide their own current model PC desktop or laptop with a webcam, a microphone, and have high-speed internet access. BCIT does not provide technical support for student’s devices
+
+## Other information
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Week: Material Covered: Reference Chapter
+1: Computer architecture and operating system overview: Chapter 1 and lecture notes
+2: Operating system structures and clocks: Chapter 1 and 5
+3: Introduction to processes Process model, creation, termination, states, implementation, modeling multiprogramming and Linux process states.: Chapter 2 and lecture notes
+4: Introduction to threads Thread usage, the classical thread model, POSIX threads, implementing threads in user space and Kernel, hybrid implementations, and pop-Up threads: Chapter 2 and lecture notes
+5: Process managment system calls: Chapter 2 and lecture notes, Quiz 1
+6: Concurrency 1 Race conditions, critical regions, and mutual exclusion with busy waiting (disabling interrupts, lock variables, strict alternation, Peterson’s solution, the TSL instruction): Chapter 2
+7: Midterm Exam
+8: Concurrency 2 Sleep and wakeup, semaphores, mutexes, monitors, message passing, and barriers: Chapter 2
+9: Concurrency 3 IPC in Linux, system V IPC vs POSIX IPC, pipes, named pipes, shared memory, message queues, semaphores, signals, and memory mapping: Chapter 2 and lecture notes
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before session 8 or you will receive a failing grade on your academic record.: NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before session 8 or you will receive a failing grade on your academic record.
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the 'REQUEST TO WITHDRAW FROM A PART-TIME STUDIES COURSE' before session 8 or you will receive a failing grade on your academic record.
+10: Deadlocks Preemptable and non-preemptable resources, resource acquisition, conditions for resource deadlocks, deadlock modeling, Ostrich algorithm, deadlock detection and recovery,deadlock avoidance, banker’s algorithm, deadlock prevention, livelock, and starvation.: Chapter 6, Quiz 2
+Course Evaluation: To be conducted online during Session 9 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before session 8.
+11: Introduction to memory management No memory abstraction vs memory abstraction, address spaces, paging, page tables, translation lookaside buffers(TLB), and page tables for large memories: Chapter 3
+12: Final Exam: N/A
+
+* This is a tentative schedule and subject to change
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rahim Oraji, Instructor December 16, 2024
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator December 27, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean December 28, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

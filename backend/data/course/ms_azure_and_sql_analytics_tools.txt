@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/ms-azure-and-sql-analytics-tools-comp-3679/
+Title: MS Azure and SQL Analytics Tools
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3679
+
+================================================================================
+
+## Overview
+
+This hands-on course follows on from COMP 1630 and COMP 2156 . Participants must already understand relational database design, data modeling, SQL programming and the basics of MS PowerBI. COMP 3679 begins with an overview of Business Intelligence (BI) tools and MS Azure data analytics concepts. Students are introduced to cloud computing using Microsoft Azure Cloud Services and explore business intelligence platforms. They review best practices to author, deploy and manage reports using Power BI on Azure. Labs and exercises show how to use Azure tools to extract the data from its multiple collections of data sources. MS SQL Server Analysis Services (SSAS) is used to provide additional BI concepts. COMP 3679 topics include BI platforms, the Data Warehouse (DW) Lifecycle and data modelling concepts. Star, Snowflake schemas and using Azure Data on the cloud are discussed. There will be a focus on best practices to implement data pipelines and data loading using Azure Data Factory (ADF) and Azure SQL. Various reporting options will be discussed, students will author, deploy and manage significant BI reports. They will extract data from multiple sources, integrated with MS PowerBI. COMP 3679 is an elective in the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and the Computer Systems Technology (CST FLEX) Diploma. Upon successful completion, students will be able to use components of the Azure ecosystem to design and optimize Azure data solutions for data analysts and developers.
+
+## Credits
+
+4.0
+
+## Cost
+
+$594.66
+
+## Prerequisites
+
+- 60% in COMP 1630 and 60% in COMP 2156
+
+## Learning Outcomes
+
+- Discuss Business Intelligence (BI) platforms.
+- Describe the typical data warehouse lifecycle.
+- Design Dimensions and Measures for data warehouse.
+- Review relational database and data warehouse modeling concepts, including Star and Snowflake schemas.
+- Describe Azure cloud computing basics and MS Azure data.
+- Define Azure data analytics concepts.
+- Explain the MS Azure ecosystem including SQL Azure Reporting.
+- Design, implement and manage data pipelines using Azure Data Factory (ADF) and Azure SQL.
+- Integrate PowerBI with MS Azure Services.
+- Design effective, and scalable data models in MS PowerBI.
+- Extract data from multiple sources, integrated with MS PowerBI
+- Implement MS Power BI integration with MS Azure.
+- Design and optimize MS Azure data solutions.
+
+## Related Programs
+
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Computer Systems

@@ -1,0 +1,86 @@
+URL: https://www.bcit.ca/outlines/20242050020/
+Course: CITX 2060
+Field: Cisco CCNA Level 2
+
+School: School of Energy
+Program: Cisco Certified Network Associate program
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: April 13, 2024
+End Date: July 13, 2024
+Total Hours*: 72
+Total Weeks: 12
+Hours/Weeks: 6
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in CITX 1160
+CRN: 50020
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rick Phelan
+E-mail: Instructor to provide
+Location: SW3 1955 or online
+Office Hours: Instructor to provide
+
+## Course Description
+​This course provides insight into the architecture, components, and operations of routers, switches and wireless devices in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this course, students will be able to configure and troubleshoot networks with technologies such as static routing, virtual LANs (VLANs), inter-VLAN routing, Dot1q trunking, , Dynamic Host Configuration Protocol (DHCP), Stateless Address Auto Configuration (SLAAC), Spanning-Tree Protocol (STP), port security, standard access control lists, and device discovery protocols. Students work with both IPv4 and IPv6 addressing and subnetting. First hop redundancy and basic Wireless LAN (WLAN) configuration are also covered Students must have access to a Windows based multi-media computer.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Perform basic configuration of Cisco routers and switches
+- Describe routing tables and their search structure
+- Code static and default routes
+- Describe Ethernet switching operations
+- Configure Virtual LAN operations
+- Configure VLAN trunks between switches
+- Configure Virtual Trunking Protocol (VTP) parameters
+- Optimize STP operations in a multi-switch environment
+- Implement IPv4 and IPv6 functionality using static routing
+- Implement secure remote access to routers and switches
+- Provide first hop redundancy to hosts connected to a switch
+- Implement a WLAN using a wireless router and a Wireless LAN Controller (WLC)
+
+## Learning Resources
+Cisco Networking Academy website – access provided when enrolled in class
+
+## Evaluation Criteria
+Criteria: %: Comments
+Chapter Examinations: 15
+Packet Tracers: 10
+In Class Labs: 15
+Skills Examination: 25
+Final Examination: 35: Note this may be a combination of Netacad and BCIT
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences. Absence from more than 10% of the scheduled course hours will result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+
+## Course Schedule and Assignments
+A schedule will be available on Netacad
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rick Phelan, Instructor March 19, 2024
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head March 19, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Paul Morrison, Interim Associate Dean March 21, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

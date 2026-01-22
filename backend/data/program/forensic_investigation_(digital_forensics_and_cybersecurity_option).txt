@@ -1,0 +1,331 @@
+URL: https://www.bcit.ca/programs/forensic-investigation-digital-forensics-and-cybersecurity-option-bachelor-of-technology-full-time-part-time-847cbtech/
+
+Title: Forensic Investigation (Digital Forensics and Cybersecurity Option)
+
+================================================================================
+
+## Overview
+
+Delivery
+
+in person
+
+Overview text
+
+There is a growing need for specialists trained in digital forensics and cybersecurity (DFCS) because criminals are increasingly targeting our computers and using computers to commit fraudulent and violent crimes. Computers are the backbone of our infrastructure, and anyone with malicious intent can cause irreparable harm by sabotaging these systems. Most criminals leave clues behind, but you must know how and where to find them, and how to secure evidence for use in legal proceedings. The DFCS Bachelor of Technology (BTech) provides you with essential technical expertise, investigative skills, legal knowledge, and communication skills to combat computer crimes such as identity and corporate theft, and credit card fraud. Through hands-on labs that teach the common software and approaches used in industry, including Artificial Intelligence (AI), you will be ready for a career in Digital Forensics and Cybersecurity upon completion of the program. Full-time Part-time See the Program Details to learn more about what you can expect from Digital Forensics and Cybersecurity, and how you can prepare for a career as a cyber specialist. This program might be for you if you: If any of these sound like you, please check the Entrance Requirements to ensure you can apply and start your new cyber career! Technical people may think they know how to extract data; however, they may inadvertently alter or delete important information. As a DFCS grad, you know how to handle information extraction, as well as how to identify information that is useful in a legal case and how to explain and present it in court. By earning your BCIT Degree, you’ll be honing your DFCS skills and gaining knowledge of various industry-recognized technologies, preparing you for positions in multiple industries, including the Royal Canadian Mounted Police (RCMP) that almost exclusively rely on BCIT grads in this field. And because there is a growing requirement for professionals in both the private and public sectors, you’ll have excellent job opportunities. Have a look, for example, at where our grads, James Black and Raeann Sherman , ended up working. Learn more about job positions and future opportunities on the Graduating and Jobs page .
+
+
+
+## Courses
+
+Introduction
+
+The courses within the matrix shown below have been split into terms for students in the full-time option.
+
+### Full-time option:Term 1 (15 weeks)
+
+FSCT 7001 - Forensic Applications of Criminal Law 1: Legal Procedures
+
+Outline URL: https://www.bcit.ca/outlines/fsct7001/
+
+Credits: 2.5
+
+Description: The Canadian criminal justice system is an adversarial system which pits the accused person against the State. The adversarial process follows a well-defined series of procedural steps from initial complaint to verdict and sentencing. This course provides a detailed examination of the legal procedures that govern criminal proceedings in Canada including the tendering of evidence by both Crown and defence, with a particular emphasis on issues applicable to forensic investigators and technicians.
+
+Prerequisites: Admission to a Forensic credential program or permission of the Program Coordinator.
+
+FSCT 7509 - Introduction to Digital Forensics and Evidence Imaging
+
+Outline URL: https://www.bcit.ca/outlines/fsct7509/
+
+Credits: 3.0
+
+Description: This course introduces students to the scientific principles of digital forensics and provides a good forensic evidence acquisition experience with the most common digital devices found today. Students will learn the fundamental components of a forensic investigation, including proper evidence collection, the chain of custody, and forensic standards for legal evidence. Students will understand how to forensically acquire laptop/desktop computers, mobile phones, Raid arrays and USB drives, as each device type often requires a unique combination of skills, techniques and forensic tools to capture a forensic image that can be used for evidentiary purposes. The course offers a brief introduction to data recovery methods and techniques, which would assist the future investigator in extracting data from non-functioning digital devices.
+
+Prerequisites: Admission to a Forensic credential program or permission of the Program Coordinator.
+
+FSCT 7511 - Cybersecurity Foundations
+
+Outline URL: https://www.bcit.ca/outlines/fsct7511/
+
+Credits: 3.0
+
+Description: This course is an introduction to cybersecurity, with an emphasis on the fundamental skills needed to design and maintain secure systems. Topics will include access control, logging and monitoring, and hardening systems. The course will also cover the foundations of network communication, and students will be taught the basic scripting skills required to automate key cybersecurity tasks. Through lectures and hands-on labs in a Linux environment, student will learn the foundational skills required to move on to advanced courses in Network Security and Administration.
+
+Prerequisites: Admission to a Forensic credential program or permission of the Program Coordinator.
+
+FSCT 7512 - Digital Forensics in the Cloud
+
+Outline URL: https://www.bcit.ca/outlines/fsct7512/
+
+Credits: 3.0
+
+Description: This course introduces students to the concepts of cloud computing, forensics and security. The course will touch on advanced cloud concepts, including security and privacy, and discuss the best methods to store, control, manage and access private and corporate data in the cloud while addressing issues such as risk management and disaster recovery. The course will discuss the modern cloud forensics approaches and challenges with preserving, collecting and processing cloud-based data and the best methods and tools to commence a forensics investigation in the cloud.
+
+Prerequisites: No prerequisites are required for this course.
+
+LIBS 7001 - Critical Reading and Writing
+
+Outline URL: https://www.bcit.ca/outlines/libs7001/
+
+Credits: 3.0
+
+Description: This is a course in advanced composition and rhetoric, in which students will develop skills in complex critical analysis and interpretation by analyzing and evaluating materials from a variety of discourses or genres, including visual, online, and print; developing and writing essays, including critiques and research papers; applying and discussing principles of rhetoric and critical theory; examining and using methods of interpretation and analysis from the humanities and social sciences; evaluating the credibility of primary and secondary sources, including as it applies to media literacy, and for the purposes of academic research; situating discourses within their historical context and relevant to rhetorical theories of different periods (for example, Aristotle in the ancient world and Bakhtin in the twentieth century). The course format will include lecture, discussion, and both individual and group activities.
+
+Prerequisites: 50% in BCIT ENGL 1177 or equivalent, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+### Term 2 (15 weeks)
+
+FSCT 7002 - Criminal Law 2: Legal Evidence
+
+Outline URL: https://www.bcit.ca/outlines/fsct7002/
+
+Credits: 2.5
+
+Description: Forensic evidence is subject to all the general rules related to the admissibility of evidence in the criminal trial process and is also subject to certain unique rules of scrutiny. This course examines the fundamental laws of evidence within the adversarial process and provides a context for the expert in their role as witness.
+
+Prerequisites: 60% in FSCT 7001
+
+FSCT 7910 - Research Methodology and Measurement Models
+
+Outline URL: https://www.bcit.ca/outlines/fsct7910/
+
+Credits: 3.0
+
+Description: This course is intended to develop the student's advanced research and analytical skills. It will focus on the theory of inquiry, the logic, reality, and structure of investigative enquiry, as well as data analysis, methodologies of measurement models and reporting of results. Emphasis will be placed on data gathering and statistical techniques. The student will be introduced to statistical analysis techniques for applications in the law enforcement and forensics fields. Various models of measurement, including quantitative, qualitative and data mining techniques with hands on data sets will be covered. Groups will be required to prepare a mini research project using all the statistical applications covered in class.
+
+Prerequisites: Admission to a Forensic credential program or permission of the Program Coordinator.
+
+FSCT 8500 - Mobile Forensics
+
+Outline URL: https://www.bcit.ca/outlines/fsct8500/
+
+Credits: 3.0
+
+Description: This course will introduce students to forensic issues related to mobile devices that may use cloud resources. Students will learn what data can be retrieved from a mobile device, and they will get hands-on experience using current tools to perform the extraction. Students will analyze this data and align it with records from network security providers to inform an investigation. Cloud resources will also be addressed using industry standard software. Technical and legal issues will be considered.
+
+Prerequisites: Admission to a forensic credential program or permission of the Program Head
+
+FSCT 8513 - Digital Forensics 1
+
+Outline URL: https://www.bcit.ca/outlines/fsct8513/
+
+Credits: 3.0
+
+Description: Students will learn how to identify, collect, and preserve digital evidence with an emphasis on evidence collected from the Windows operating system. Topics include fundamental computer forensics principles, information extraction, legal issues, and challenges posed by variations in both data sources and devices. Students will use specialized forensic software to collect and use evidence in a forensically sound manner, to support an investigation.
+
+Prerequisites: 60% in FSCT 7509
+
+FSCT 8540 - Network Security 1
+
+Outline URL: https://www.bcit.ca/outlines/fsct8540/
+
+Credits: 3.0
+
+Description: This course is an introduction to the fundamentals of network administration, with particular emphasis on network security monitoring. Students will learn fundamental concept related to the design of secure networks, including the deployment of security devices and sensors. Students will get hands-on experience in network traffic analysis, using packet sniffers and other network monitoring tools. Intrusion detection, attacks and defenses will be introduced to prepare students for more advanced courses in network security administration.
+
+Prerequisites: 60% in FSCT 7511
+
+### Term 3 (15 weeks)
+
+FSCT 7131 - Principles of Incident Response and Disaster Recovery
+
+Outline URL: https://www.bcit.ca/outlines/fsct7131/
+
+Credits: 3.0
+
+Description: The course provides an introduction and an overview on planning and implementation of contingencies in case of a disaster. The course intends to familiarize students with technology focused on the business aspects related to disaster recovery planning and management.
+
+Prerequisites: Admission to a Forensic credential program or permission of the Program Coordinator.
+
+FSCT 8523 - Digital Forensics 2
+
+Outline URL: https://www.bcit.ca/outlines/fsct8523/
+
+Credits: 3.0
+
+Description: Students will learn advanced concepts in digital forensic analysis and investigation. The course will cover the investigation and response process from the focus of a computer forensics analyst. Topics include analysis of evidence from computers, networks, and mobile devices; event reconstruction; interpretation of digit evidence; and anti-forensic techniques, including encryption, steganography and rootkit hiding. Throughout this course, extensive hands-on exercises provide the students with practical experience in performing computer forensic investigation in the real world.
+
+Prerequisites: 60% in FSCT 8513
+
+FSCT 8560 - Network Security 2
+
+Outline URL: https://www.bcit.ca/outlines/fsct8560/
+
+Credits: 3.0
+
+Description: This course covers advanced topics in network security and intrusion detection. In-depth coverage of perimeter protection and firewall designs. Advanced Intrusion Detection and IDS/IPS design and implementation. Students will be familiarized with network monitoring and security tools, and use them to perform traffic and IDS signature analysis, and network forensics. Also covered will be reverse engineering and machine code analysis techniques. These will be used to analyze malicious code and malware.
+
+Prerequisites: 60% in FSCT 8540
+
+FSCT 8561 - Security Applications
+
+Outline URL: https://www.bcit.ca/outlines/fsct8561/
+
+Credits: 3.0
+
+Description: This course is a study of prototyping security tools using high-level languages such as Ruby, Python, and Lua. Implementation of basic communication applications using the TCP/IP protocol suite will be introduced. Security applications that will be designed and implemented as part of the course will include packet sniffers, backdoors, logfile parsers, packet crafters, variety of spoofing applications, simple Intrusion Detection and Prevention systems. Also covered will be shell scripting techniques and implementation of shell-scripts to perform system-related tasks. As part of implementing defensive applications, students will also be introduced to basic Linux-based tools and utilities such as Netfilter, cron, etc.
+
+Prerequisites: 60% in FSCT 7511
+
+FSCT 8611 - Graduation Project 1
+
+Outline URL: https://www.bcit.ca/outlines/fsct8611/
+
+Credits: 3.0
+
+Description: Under the supervision of the graduation project research methodologist, faculty mentor(s), and industry subject matter expert, you will build upon the project concept initiated in FSCT7910 and complete a theoretical or applied independent research proposal. The course will focus on research themes relevant to your chosen areas of specialty in forensic investigation. You will conduct a comprehensive literature review, prepare a research design and protocol, validate the measurement model(s), conduct reliability and validity studies, and undertake a pilot study to ensure measurement instrument reliability. The research proposal should be innovative, experimental, or explanatory in nature to demonstrate the practical application of knowledge and skills. It should be comprehensive, covering all the operational aspects of the project and the measurement instrument to be employed. The research models employed and the research protocol followed will be well articulated and defined. This course will be focusing on building a foundation that leads to FSCT8621, Graduation Project 2.
+
+Prerequisites: 60% in FSCT 7910Completion of all framework courses and all specialty courses or permission of program coordinator.
+
+### Term 4 (15 weeks)
+
+BUSA 7250 - Management Skills and Applications
+
+Outline URL: https://www.bcit.ca/outlines/busa7250/
+
+Credits: 3.0
+
+Description: The course provides an overview of the basic skills of a manager and applies these skills through a series of projects and case studies. It examines the evolution of management and the organizational culture and environment. It also teaches the decision-making skills and the skills involved in planning, organizing, leading and controlling, including planning and facilitating change, teamwork, applying motivational techniques and effective communication.
+
+Prerequisites: No prerequisites are required for this course.
+
+COMM 7200 - Report Writing and Workplace Communication for Forensic Investigation
+
+Outline URL: https://www.bcit.ca/outlines/comm7200/
+
+Credits: 3.0
+
+Description: This course provides practice in written and oral communication skills used in forensic science and investigation careers. The emphasis is on explaining technical material in plain language and communicating investigation results in reports and presentations. The course also includes techniques for e-mails, letters, reports, and for making oral presentations. Students prepare a professional job application and LinkedIn profile and examine strategies for maintaining their online reputation as professionals.
+
+Prerequisites: 6 credits of COMM 1100 level or above, or 3 credits of university/college writing course.
+
+FSCT 8590 - Network Exploits and Vulnerabilities
+
+Outline URL: https://www.bcit.ca/outlines/fsct8590/
+
+Credits: 3.0
+
+Description: The course covers a wide range of topics from common vulnerabilities and tools that are used to exploit, to incident response and handling. Addresses theoretical and practical issues in malicious programs and scripts, steganography, worms and different types of network exploits and attacks.
+
+Prerequisites: 60% in FSCT 8540
+
+FSCT 8622 - Graduation Project 2
+
+Outline URL: https://www.bcit.ca/outlines/fsct8622/
+
+Credits: 6.0
+
+Description: In this capstone graduation course, under the supervision of the course instructor, you will implement the graduation project proposal developed in FSCT 8611. You will apply the chosen research methodology and collect the requisite data needed to answer the research questions of interest. At defined intervals, you must present in writing to the course instructor. At the end of the course, you will prepare a formal research paper (akin to a scientific publication), a research poster and an oral presentation. The poster and the presentation are expected to clearly highlight the research questions posed, the model of measurement utilized, data analysis, and key research findings.
+
+Prerequisites: 60% in FSCT 8611
+
+LIBS 7002 - Applied Ethics
+
+Outline URL: https://www.bcit.ca/outlines/libs7002/
+
+Credits: 3.0
+
+Description: Fosters abilities and values required for ethical decision making at work. Develops skills in logical analysis, a working knowledge of moral principles and theories, and the ability to diagnose and resolve moral disagreements commonly found at work. Examines and applies moral principles to historically famous cases in manufacturing, human resources, management, engineering, health care, and computing.
+
+Prerequisites: BCIT ENGL 1177, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+
+
+## Entrance Requirements
+
+Application processing
+
+Full-time Applications are accepted during the following periods: Intakes may fill before the deadline. Part-time Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+This program has a two-step admission process. Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. Step 1: Pre-entry assessment Contact the Program Head for a pre-entry assessment. You must upload an approved pre-entry assessment from the Program Head to your online application. The following documents will be required for your pre-assessment: Step 2: Meet the following entrance requirements Applicants who have completed post-secondary studies outside of Canada, the United States, the United Kingdom, Australia or New Zealand will require a comprehensive evaluation of their credentials by the International Credential Evaluation Service (ICES) . Credential evaluation reports from other Canadian services may be considered. These reports must include course-by-course evaluations and GPA calculations. Read more about how to meet BCIT’s entrance requirements For Full-time Learning : Resume Resume For Flexible Learning : Resume Completed and signed applicant waiver form from the Program Head Resume Completed and signed applicant waiver form from the Program Head English language proficiency: Category 2 – English Studies 12 (67%) or equivalent Completion of one of the following options prior to admission: Option 1: A two-year diploma (minimum 60.0 credits), an associate's degree, or a bachelor's degree from a recognized post-secondary institution in a computing or IT field, such as Computer Information Technology (CIT) , Computer Systems Technology (CST) , Full-Stack Web Development (FSWD) , Business Information Technology Management (BITMAN) , Computer Information Systems Administration (CISA) , or Industrial Network Cybersecurity (INCS) including: 6.0 credits from outside of core academic discipline [PDF] Option 2: A minimum of 60.0 credits of courses fulfilling the requirements of the first two years of study towards the completion of a defined undergraduate degree from a recognized post-secondary institution in a computing or IT field including: 6.0 credits from outside of core academic discipline [PDF] Option 3: A minimum of 60.0 credits of courses from one or more recognized post-secondary institutions in a computing or IT field, including: 18.0 second year or higher level credits 30.0 credits of computing including courses in networking, programming, and operating systems 6.0 credits from outside of core academic discipline [PDF] Option 1: A two-year diploma (minimum 60.0 credits), an associate's degree, or a bachelor's degree from a recognized post-secondary institution in a computing or IT field, such as Computer Information Technology (CIT) , Computer Systems Technology (CST) , Full-Stack Web Development (FSWD) , Business Information Technology Management (BITMAN) , Computer Information Systems Administration (CISA) , or Industrial Network Cybersecurity (INCS) including: 6.0 credits from outside of core academic discipline [PDF] 6.0 credits from outside of core academic discipline [PDF] Option 2: A minimum of 60.0 credits of courses fulfilling the requirements of the first two years of study towards the completion of a defined undergraduate degree from a recognized post-secondary institution in a computing or IT field including: 6.0 credits from outside of core academic discipline [PDF] 6.0 credits from outside of core academic discipline [PDF] Option 3: A minimum of 60.0 credits of courses from one or more recognized post-secondary institutions in a computing or IT field, including: 18.0 second year or higher level credits 30.0 credits of computing including courses in networking, programming, and operating systems 6.0 credits from outside of core academic discipline [PDF] 18.0 second year or higher level credits 30.0 credits of computing including courses in networking, programming, and operating systems 6.0 credits from outside of core academic discipline [PDF] Criminal Record Check (CRC) Do not apply for a CRC until you have communicated with the Program Head Contact your local police department to obtain the appropriate forms Must be issued within one year of your application date The outcome of the CRC may influence your acceptability for this program Do not apply for a CRC until you have communicated with the Program Head Contact your local police department to obtain the appropriate forms Must be issued within one year of your application date The outcome of the CRC may influence your acceptability for this program
+
+Recommended for success
+
+
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Full-time: January and September each year. Part-time: January, April, and September .
+
+myCommunication
+
+Within two business days of submitting your completed application, BCIT will send a message to your personal and myBCIT email addresses. All correspondence regarding your application will be posted to your online myCommunication account at my.bcit.ca . We will send you an email when a new message is posted. It is important to watch for these emails or regularly check your account online. You can expect to receive communication concerning the status of your application within four weeks.
+
+
+
+## Costs & Supplies
+
+introduction
+
+Learn more about entrance awards.
+
+Tuition fees
+
+Full-time Studies Use our tuition estimator to find tuition and fees for this program. For more information on full-time tuition and fees, visit: Flexible Learning Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information on domestic and international tuitions. Full-time Studies Tuition & Fees International Tuition & Fees
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+introduction
+
+Some applications of computer forensics are: Training in computer forensics is extremely important in order to understand how to handle the delicate information in storage devices. Technical people may think they know how to extract data; however, they may inadvertently alter or delete important information. Computer forensics practitioners know how to handle information extraction, as well as how to identify information that is useful in a legal case and how to explain and present it in court. Primary responsibilities of computer forensic investigators include:
+
+Program length
+
+Full-time: Two years. Part-time: Up to seven years. The Bachelor of Technology in Forensic Investigation must be completed within seven years.
+
+Grading
+
+Depending on the course learning outcomes, students will be graded on a combination of the following: The minimum passing grade for each course is 60%. Participation in in-class exercises Participation in and completion of case studies Participation in discussion forums Submission of completed projects Submission of completed assignments Quizzes Mid-term and final examinations
+
+Additional program options
+
+Crime and Intelligence Analysis Forensic Science
+
+Program delivery
+
+In person: This program is delivered on campus.
+
+Program location
+
+Full-time : Downtown Campus 555 Seymour Street Vancouver, BC Part-time : Courses may be offered at the following locations: Burnaby Campus 3700 Willingdon Avenue Burnaby, BC Downtown Campus 555 Seymour Street Vancouver, BC
+
+Program structure
+
+1.1 General Education (9.0 credits) 1.2 Legal Framework (5.0 credits) 1.3 Applied Management (3.0 credits)
+
+Flexible Learning (Part-time Studies):
+
+1.1 General Education (9.0 credits) 1.2 Legal Framework (5.0 credits) 1.3 Applied Management (3.0 credits)
+
+
+
+## Graduating & Jobs
+
+introduction
+
+The Digital Forensics and Cybersecurity Option is intended to provide the additional skills and knowledge that professionals require to work successfully in the prevention and investigation of commercial crime and computer crime. There is a growing requirement for professionals in both the private and public sectors. Graduates will be able to function both as professionals in their own right and as members of multidisciplinary teams composed of financial and investigative professionals.
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Forensic Investigation (Digital Forensics and Cybersecurity Option)
+
+Apply for graduation
+
+Upon successful completion of all program requirements, complete an Application for BCIT Credential [PDF] and submit it to Student Information and Enrolment Services. Allow approximately six to eight weeks for processing. All financial obligations to the Institute must be met prior to issuance of any credential.

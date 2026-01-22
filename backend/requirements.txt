@@ -1,0 +1,34 @@
+# FastAPI Server
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Environment
+python-dotenv==1.1.1
+
+# LangChain & RAG
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.78
+langchain-google-genai==2.0.10
+
+# Vector Store
+faiss-gpu==1.7.2
+
+# Embeddings & Reranking
+FlagEmbedding==1.3.5
+sentence-transformers==5.1.2
+
+# BM25 Retrieval
+rank-bm25==0.2.2
+
+# Core ML
+torch==2.5.1
+numpy==1.26.4
+
+# Utilities
+tqdm==4.67.1
+pydantic==2.11.9
+pydantic-settings==2.11.0
+transformers==4.51.3
+peft==0.17.1

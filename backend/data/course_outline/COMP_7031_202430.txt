@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20243033871/
+Course: COMP 7031
+Field:  Mobile Applications Development Fundamentals
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Science in Applied Computer Science - Wireless and Mobile
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 12, 2024
+End Date: November 28, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in COMP 7082† († may be taken concurrently)
+CRN: 33871
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Tejinder Randhawa
+E-mail: Instructor to provide
+Location: SW2-125
+Office Hours: Instructor to provide
+
+## Course Description
+This course teaches design and development of mobile applications using native as well as multiplatform development environments. Basic building blocks of mobile applications are created using native development environments such as Java, Kotlin and Android Studio for Android and Swift, Objective C and XCode for iOS; as well as multiplatform development alternatives such as React Native, for comparative analysis. Influence of software process models and software engineering practices is studied. Version control strategies along with build, integration, testing and deployment automation pipelines are constructed. Software patterns are applied to resolve recurring design problems in mobile applications.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Utilize layouts and components available through GUI libraries and frameworks of the smartphone platforms to create the GUI for the mobile applications.
+- Create and wire UI event handling routines to the UI components following the supported programming patterns.
+- Utilize file system, repositories such contacts and calendars, or supported database systems to enable a mobile application manage data locally.
+- Develop mobile applications that support data exchange with servers using HTTP (Hyper Text Transfer Protocol) and peer applications using SMS (Short Message Service).
+- Develop mobile applications that can monitor and leverage data from location and other onboard sensors.
+- Define software process model and accompanying software engineering practices most likely to positively influence the creation of a mobile application.
+- Collect and analyze metrics to improve the software process model for a mobile application.
+- Setup version control appropriate for the development and deployment of a mobile app.
+- Implement build automation pipelines appropriate for the development and deployment of a mobile app.
+- Quantitatively measure maintainability of a mobile application.
+- Evaluate application of software patterns in resolving recurring design issues in mobile apps.
+
+## Learning Resources
+Tejinder S. Randhawa, Mobile Applications: Design, Development and Optimization, Springer; 1st ed. 2022 edition, ISBN: 978-3-030-02391-1; ISBN-10: 3030023893, ISBN-13: 978-3-030-02389-8
+
+Course notes for topics not covered in the text book will be provided.
+
+## Evaluation Criteria
+5Criteria: %: Comments
+Final Exam: 40
+Assignments: 30: 3 assignments each worth approx. 10 marks.
+Project: 30
+Total: 100
+60% is required to pass the course.
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+Week #: Outcome/Material Covered: Assignment Due
+Week 1: Android Development Environment, App composition, UI Test Automation, Unit Testing
+Week 2: Graphical User Interface
+Week 3: Local Storage: Assignment 1
+Week 4: Data Connectivity
+Week 5: Concurrency: Assignment 2
+Week 6: Sensor API
+Week 7: Location API: Assignment 3
+Week 8: Native Development in Android/Kotlin
+Week 9: Native Development in iOS/Swift
+Week 10: Cross-platform Development in React Native
+Week 11: Hybrid Apps: Project
+Week 12: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Tejinder Randhawa, Faculty August 27, 2024
+
+I verify that this course outline has been reviewed. Mirela Gutica, Program Head August 28, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

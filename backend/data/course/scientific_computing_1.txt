@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/scientific-computing-1-elex-7021/
+Title: Scientific Computing 1
+Field: Electrical and Computer Engineering
+Type: Course
+Course Code: ELEX 7021
+
+================================================================================
+
+## Overview
+
+This course is to be taken in conjunction with ELEX 7020 and will cover numerical analysis techniques used for constrained and unconstrained maximization problems, ordinary differential equations, root finding, and the solution of non-linear equations. Engineering applications are emphasized and MatLab is used throughout as the computing tool.
+
+## Credits
+
+1.0
+
+## Cost
+
+$306.14
+
+## Prerequisites
+
+- ELEX 7020 or can be taken concurrently
+
+## Learning Outcomes
+
+- Describe the effects of round off error in numeric computations.
+- Solve nonlinear equations using gradient and non gradient search techniques such as fixed point iteration,  incremental search, bisection method, Newton's method, the secant method, the bisection method, the golden section search,  and false position methods.
+- Describe situations in which search methods may fail.
+- Analyze the convergence rates of numeric algorithms
+- Solve one dimensional and multidimensional unconstrained and constrained nonlinear programming problems using both gradient and non-gradient algorithms.
+- Solve a set of nonlinear ordinary differential equations using numeric integration, including adaptive step size algorithms.
+
+## Related Programs
+
+- Electronics

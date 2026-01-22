@@ -1,0 +1,172 @@
+URL: https://www.bcit.ca/outlines/20241086164/
+Course: COMP 1850
+Field: Introduction to Web Development
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 16, 2024
+End Date: April 02, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): COMP 1002
+CRN: 86164
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Lynda Williams
+E-mail: Instructor to provide
+Location: NA
+Office Hours: Instructor to provide
+
+## Course Description
+​This hands-on course provides an introduction to basic web technologies, including scripting with HTML5 and CSS3. COMP 1850 is the foundation for several advanced web courses in BCIT Computing. Students are shown how to hand code web pages according to W3C standards using HTML plus style text and content with CSS. In addition to learning the foundational web scripting languages, students receive an introduction to web interface design concepts. Information architecture, and basic interactivity using web forms will also be discussed. There is a brief introduction to JavaScript and the concept of the DOM (Document Object Model). Labs and exercises focus on how to build fluid layouts using CSS flexbox and grid. Students will also create mobile phone and tablet friendly websites using modern mobile-first responsive web development techniques. COMP 1850 is a required course for Web Development Fundamentals and several Associate Certificates including: Applied Web Development, AWD; Applied Computer Information Systems, ACIS; Applied Computer Applications, ACA; Technical Writing, some Business programs, as well as the Computer Systems Certificate, CSC. By the end of this course successful students will be able to design, develop, and deploy effective modern and responsive web sites. After completing COMP 1850 students are prepared to move on to the next level COMP 2132 -Web Development with JavaScript..
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Outline, plan and design basic web pages and web sites.
+- Write standards compliant HTML using the latest HTML5 semantic tags.
+- Plan site and page elements using information design techniques.
+- Create imagery and graphics for the web.
+- Style text and page elements using CSS3.
+- Code mobile-first responsive web sites using media queries.
+- Build fluid layouts using CSS flexbox and grid.
+- Transfer files to web servers using SFTP.
+- Move on to a series of courses in advanced web development.
+
+## Learning Resources
+Required:
+
+There is no required text. We will rely, instead, on openly available resources organized by the instructor to address specific topics, in addition to instructor-created content.
+
+Optional supportive text: Web Development & Design Foundations with HTML5 (any edition, the later the better)
+
+Felke-Morris, Terry, Addison Wesley. (9th edition) ISBN-10: 0-13-480114-8 ISBN-13: 978-0-13-480114-8
+
+## Course Goals
+- Learn to use current web technologies and tools to hand-code basic web pages.
+- Understand best practices and industry standards to design, build and manage websites.
+
+## Evaluation Criteria
+This course section is 100% online delivery.
+
+Criteria: %: Comments
+Assignments: 30: Graded as best 7 of 8. Exercises submitted at the end of most weeks.
+Mid-term Project: 10: First of two projects
+Final Project: 25: Must average a minimum of 50% between the final project and the final exam in order to pass this course.
+Module Quizzes: 10: These are done weekly
+Final Exam: 25: You must submit a valid ID to the ID assignment before taking the final exam online. Must average a minimum of 50% between the final project and the final exam in order to pass this course.
+Total: 100
+
+- No catch up for missed weekly quizzes: . If you miss a weekly quiz you will receive zero marks for that quiz. Exceptions will be made only for documented medical extenuating circumstances and in such cases, how to deal with missed weekly quizzes will be negotiated with the instructor.
+- Late assignments will not be accepted. View course policy concerning the end of term review for exceptional cases, and the natural justice option for possibly gaining a day or two at your own risk.
+- Exams will be done online, on a timed basis. They will be open book. Students are advised to review in advance, however, as they will not have time to look up and research everything in the exam within the time limit (duration) of the exam. Students may start the exam at any time during the window of time (days) it is available. However, once started, the exam must be finished within the time limit set for it.
+
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+
+Plagiarism and other forms of cheating will not be tolerated.
+
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise
+
+Academic misconduct includes providing solutions to other students.
+
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+Academic Integrity:
+
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+This course section is 100% online delivery, there are no face to face lessons.
+
+Students are expected to login at least twice a week, and to read any announcements on the course homepage.
+
+Students are responsible for getting their work submitted on time.
+
+## Course Specific Requirements
+- Prior experience with PCs and file management.
+- A personal computer capable of running graphic editing software.
+- Internet access to participate in each lesson and submit assignments.
+- This course section is delivered entirely online asynchronously. There are no scheduled class times.
+
+## Other information
+Computer Use Guidelines
+
+Students are expected to find their own solutions for accessing the course online and doing the work required. For students with access to a BCIT campus, access to computer labs is available. Students without access to Photoshop, in BCIT labs, may use open source product GIMP instead.
+
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Session 1: Set Up: Account setup, creating first HTML file, submission process
+Session 2: HTML Element and Links: Normal flow, lists, links, images and relative referencing
+Session 3: HTML & CSS: Introduction to CSS, Semantic HTML elements, class & id
+Session 4: Intro to Page Layout: Using Flexbox, styling navigation bars with CSS
+Session 5: Responsive Web Design: Mobile-first, responsive web design, media queries
+Session 6: Web Design Principles: Principles of UI design
+Session 7: Graphics for the Web: Image editing for web designers
+NOTE: Withdrawal Deadline Please inform your instructor that you are dropping this course. You must fill out and submit the Request to Withdraw form before Session 8 or you will receive a failing grade on your academic record.
+Session 8: Positioning with CSS: CSS reset file and CSS positioning
+Session 9: Modern Layouts: Flexbox & CSS Grid
+Session 10: Using Forms: Creating and using HTML forms
+Course Evaluation: An online survey will be conducted during Session 11. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before Session 11.
+Session 11: Introduction to Javascript: The DOM, Javascript, using library, intro to domains and hosting.
+Session 12: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Lynda Williams, Instructor December 06, 2023
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator January 08, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 09, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

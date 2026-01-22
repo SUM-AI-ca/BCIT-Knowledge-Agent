@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/network-security-1-fsct-8540/
+Title: Network Security 1
+Field: Forensic Investigation
+Type: Course
+Course Code: FSCT 8540
+
+================================================================================
+
+## Overview
+
+This course is an introduction to the fundamentals of network administration, with particular emphasis on network security monitoring. Students will learn fundamental concept related to the design of secure networks, including the deployment of security devices and sensors. Students will get hands-on experience in network traffic analysis, using packet sniffers and other network monitoring tools. Intrusion detection, attacks and defenses will be introduced to prepare students for more advanced courses in network security administration.
+
+## Credits
+
+3.0
+
+## Cost
+
+$922.62
+
+## Prerequisites
+
+- 60% in FSCT 7511
+
+## Learning Outcomes
+
+- Identify major security issues on a network.
+- Design a secure network configuration, including placement of network devices.
+- Manipulate the configuration files related to the setup and initialization of networking components.
+- Configure and test cross-platform networking applications using different tools.
+- Monitor network traffic using tools such as tcpdump and other packet sniffers.
+- Analyze network traffic to identify compromises in security.
+- Write scripts to automate network modelling and analysis tasks.
+- Design an AI-assisted workflow to monitor and classify network traffic anomalies using packet analysis data.​
+
+## Related Programs
+
+- Forensic Investigation (Digital Forensics and Cybersecurity Option)
+- Forensic Investigation (Digital Forensics and Cybersecurity Option)

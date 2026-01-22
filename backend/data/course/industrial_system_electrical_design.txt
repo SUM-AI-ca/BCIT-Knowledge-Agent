@@ -1,0 +1,71 @@
+URL: https://www.bcit.ca/courses/industrial-system-electrical-design-elex-8170/
+Title: Industrial System Electrical Design
+Field: Electrical and Computer Engineering
+Type: Course
+Course Code: ELEX 8170
+
+================================================================================
+
+## Overview
+
+Industrial systems commences with a study of safety considerations for electrical power systems. The Canadian Electrical Code, building codes, and IEEE standards are used for assigned design projects in the areas of commercial and industrial power distribution, protective device co ordination and protective relaying, lighting design, and grounding system design. Projects will incorporate designing various components of industrial systems.
+
+## Credits
+
+3.0
+
+## Cost
+
+$756.02
+
+## Prerequisites
+
+- 50% in ELEX 7020
+
+## Learning Outcomes
+
+- Select conductor size based on CEC requirements.
+- Calculate voltage drop of feeder.
+- Determine short circuit rating of conductor.
+- Determine protection of feeders.
+- Identify cable types.
+- Select conduit size.
+- Identify types of branch circuits - lighting & motor.
+- Identify essential components of each type of branch circuit.
+- Design each type of branch circuit based on CEC requirements.
+- Determine loading requirements of buildings.
+- Define grounding terms.
+- Explain intent of grounding.
+- Design electrical system and equipment grounding according to CEC rules and IEEE recommendation.
+- Use IEEE recommendations for signal cable grounding.
+- Analyze requirements.
+- Select and use fuses.
+- Select and use breakers.
+- Select and use various types of protective relays.
+- Understand CEC rules for protection of feeders, branch circuits and transformers.
+- Define symmetrical & asymmetrical fault.
+- Perform fault current calculations at various parts of an electrical system.
+- Analyze different systems.
+- Explain various types of radial systems.
+- Explain various types of primary selective systems.
+- Explain various types of secondary selective systems.
+- Differentiate outdoor vs indoor.
+- Select transformer types.
+- Select primary protective devices.
+- Select secondary protective devices.
+- Use protective relaying for substations.
+- Protect against surge voltage.
+- Operate and use surge arrestors.
+- Coordinate a typical industrial or commercial electrical system.
+- Select all the required components.
+- Plot curves of all selected protective devices.
+- Analyze the coordination.
+- Define lighting terms and units.
+- Analyze various lighting sources.
+- Design indoor and outdoor lighting layout to IES standards.
+- Interface Programmable Logic Controllers (PLCs) to lighting controls.
+- Analyze building code requirements for electrical rooms and vaults.
+
+## Related Programs
+
+- Electronics

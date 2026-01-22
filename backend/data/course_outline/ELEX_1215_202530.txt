@@ -1,0 +1,198 @@
+URL: https://www.bcit.ca/outlines/20253031478/
+Course: ELEX 1215
+Field: Digital Techniques 1 for Robotics                                                                   
+
+School: School of Energy
+Program: Mechatronics and Robotics
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 31478
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Joselito Laguio
+E-mail: Joselito_Laguio@bcit.ca
+Location: SW2-357
+Office Hours: As posted on office door.
+
+## Course Description
+This course teaches digital numbering systems and the design of combinational and simple sequential logic circuits. Numbering systems include: binary, octal, hexadecimal, BCD and Gray Code. Addition and subtraction of 2's complement numbers are covered, as well as ASCII codes and parity. Truth tables and Boolean algebra are used in the design of circuits and to minimize component counts. Electronic logic gates are investigated for function and specifications. Techniques for designing and building logic circuits using only NAND gates (or only NOR gates) are covered. Proper DeMorgan's equivalent logic symbols are used when preparing schematic diagrams. Encoders, decoders, latches and flipflops are introduced. Labs follow lectures so that theory is studied and confirmed by application.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+## BINARY NUMBER SYSTEM
+- Perform number system conversions between binary and decimal numbers.
+- Describe differences between analog and digital.
+- Describe fundamental theory of number systems.
+- Convert between binary and decimal numbers.
+
+## SWITCHES AND LOGIC SOURCES
+- Design logic sources for use with electronic logic.
+- Describe SPST, SPDT, DPST, and DPDT switches.
+- Identify switch types (push button, slide, toggle, DIP, rotary).
+- Define a convention for switch handles and contacts.
+- Use an ohmmeter to evaluate switch contact configurations.
+- Demonstrate the need for electronic logic and the required voltage level inputs.
+- Define logic levels.
+- Generate a logic variable using a single throw switch and a pullup (or pulldown) resistor.
+- Generate a logic variable and its complement using a double throw switch and two pullup (or pulldown) resistors.
+- Build, test, measure and troubleshoot logic sources.
+
+## BOOLEAN EQUATIONS AND TRUTH TABLES
+- Use AND, OR, and NOT in Boolean equations.
+- Define AND, OR, and NOT as logical operators.
+- Define Boolean equations, operators and precedence of operation.
+- Use one (1) to represent TRUE and zero (0) to represent FALSE.
+- Derive Boolean expressions from English language statements.
+- Define and construct truth tables using the binary number system
+- Generate truth tables from Boolean equations.
+
+## LOGIC SYMBOLS FOR AND, OR, INVERTER
+- Use AND, OR, and INVERTER symbols to represent logic circuits.
+- Define the AND, OR, and INVERTER logic symbols and the corresponding truth tables.
+- Generate logic symbol diagrams from Boolean equations.
+- Generate Boolean equations from logic symbol diagrams.
+- Generate truth tables from logic symbol diagrams.
+
+## ELECTRONIC LOGIC GATES
+- Design circuits using logic symbols. Use NAND and NOR gates to implement logic circuits.
+- Define the NAND and NOR electronic logic gates.
+- Develop the Boolean equations and the truth tables for the NAND and NOR gates.
+- Define the input characteristics of electronic gates.
+- Define the output characteristics (sink, source) of the electronic gates.
+- Define allowable voltage ranges for inputs and outputs of CMOS gates.
+- Analyze the effects of open inputs for CMOS gates.
+- Analyze loading and fanout capabilities of CMOS gates.
+- Calculate noise margins and power dissipation for CMOS gates.
+- Interface LEDs to electronic gates.
+
+## DESIGN WITH LOGIC GATES
+- Develop the alternate symbols for logic gates.
+- Follow “bubble-to-bubble” rules to draw logic diagrams.
+- Develop Boolean equations from logic diagrams.
+- Define Sum of Products and Product of Sums forms of Boolean expressions.
+- Design circuit diagrams using only two input NANDs (or two input NORS).
+- Design circuit diagrams that minimize the number of chips and gates using multiple-input NAND, NOR, and/or INVERTERS from equations.
+- Use the XOR gate as a conditional inverter.
+- Use the XNOR gate as a comparator.
+- Design, build, test, measure and troubleshoot circuits using electronic gates interfaced to LEDs.
+
+## DE MORGAN'S THEOREMS
+- Use De Morgan's theorems to minimize equations.
+- Develop De Morgan's theorems from the duality of gates.
+- Use De Morgan's theorems to minimize complex equations.
+
+## LOGIC CIRCUIT SIMPLIFICATION
+- Simplify Boolean equations to produce more cost effective circuits.
+- Confirm Boolean identities using switch logic, truth tables and other identities.
+- Simplify equations using Boolean identities, theorems and rules.
+- Simplify equations using Karnaugh Maps.
+
+## DIGITAL NUMBER SYSTEMS
+- Express numbers in industry standard forms.
+- Define the Octal number system.
+- Define the Hexadecimal number system.
+- Define the Binary Coded Decimal (BCD) system.
+- Define the Gray code system.
+- Define the ASCII system.
+- Define parity.
+- Convert between Binary, Octal, Hex, Decimal, and BCD.
+
+## BINARY NUMBER REPRESENTATION, ADDITION AND SUBTRACTION
+- Represent unsigned binary numbers within registers of various sizes.
+- Represent signed binary numbers (two’s complement method) within registers of various sizes.
+- Change the sign of a signed binary number.
+- Perform binary addition with signed and unsigned numbers.
+- Perform binary subtraction with signed and unsigned numbers.
+- Build and test a 4-bit adder/subtractor circuit.
+
+## DECODERS AND ENCODERS
+- Describe the use of decoders and encoders.
+- Define the decoder function.
+- Develop equations for decoders.
+- Investigate the 2-to-4 and 3-to-8 decoders.
+- Define the encoder function.
+- Develop equations for encoders.
+- Develop expressions for a binary to 7-segment display decoder/driver.
+
+## LATCHES AND FLIP-FLOPS
+- Analyze and implement latches and flip-flops.
+- Define level, pulse, leading/trailing edge, transition.
+- Analyze and design S-R and D latches using NOR/NAND gates.
+- Implement a switch debouncer using a latch.
+- Differentiate between latches and flip-flops.
+- Analyze and utilize the following flip-flops: D, J-K.
+
+## Learning Resources
+As dicussed in lecture.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Quizzes: 10
+Midterm exam: 20
+Final exam: 30
+Lab work: 20
+Lab tests: 20
+
+The minimum passing grade is 50%. Successful completion of both the lab component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+Week: Lecture topic: Laboratory
+1: Introduction to digital and binary number system
+2: Logic sources and indicators: Circuit simulation
+3: Digital integrated circuits and logic gates: Logic sources and indicators
+4: Boolean equations and truth tables: Logic gates
+5: De Morgan's theorems: Combinational logic sircuits
+6: Logic circuit simplification: NAND and NOR logic circuits
+7: Enable and Inhibit devices: Lab review
+8: Binary number representation, addition and subtraction: Lab test 1
+9: 7-segment display: Full adder
+10: Latches and flip-flops: 7-segment display
+11: Digital IC datasheets: Flip-flop
+12: Decoders and encoders: Lab review
+13: Magnitude comparators: Lab test 2
+14: Digital number systems
+15: Final Exams
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Joselito Laguio, Instructor August 28, 2025
+
+I verify that this course outline has been reviewed. Greg Scutt, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology August 29, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

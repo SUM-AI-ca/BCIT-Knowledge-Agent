@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/arcgis-2-data-management-and-analysis-gist-8128/
+Title: ArcGIS 2: Data Management and Analysis
+Field: Geographic Information Systems
+Type: Course
+Course Code: GIST 8128
+
+================================================================================
+
+## Overview
+
+GIST 8128 gives an introduction to the more advanced aspects of GIS software using Esri Desktop GIS software. Topics include map projections, advanced editing, data conversion, image display, customization, 3D geographic data, proximity and adjacency analysis, scripting and models, geocoding, routes, networks and cartography. Previous programming experience is recommended.
+
+## Credits
+
+3.0
+
+## Cost
+
+$863.60
+
+## Prerequisites
+
+- 50% in GIST 7128
+- Course registration is restricted to current students registered in a BCIT GIS program.
+
+## Learning Outcomes
+
+- Apply coordinate transformations and projection and datum changes to spatial data.
+- Investigate advanced Data Storage and Editing in a GIS Data Model.
+- Create, visualize and analyze three dimensional Geographic data.
+- Create simple customizations of GIS Desktop software.
+- Write simple Python scripts.
+- Import and export spatial and non-spatial data to/from GIS data formats.
+- Implement standard data conversion procedures.
+- Display raster images in GIS Desktop software.
+- Perform GIS proximity and adjacency analysis.
+- Solve advanced GIS analysis problems using Models and scripting.
+- Perform Geocoding, Utility Network Analysis and Linear Referencing.
+- Perform Transportation Network Analysis.
+
+## Related Programs
+
+- Geographic Information Systems
+- Geographic Information Systems
+- Geographic Information Systems
+- Geographic Information Systems

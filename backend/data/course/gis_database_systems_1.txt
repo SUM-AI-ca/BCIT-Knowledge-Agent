@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/gis-database-systems-1-gist-7132/
+Title: GIS Database Systems 1
+Field: Geographic Information Systems
+Type: Course
+Course Code: GIST 7132
+
+================================================================================
+
+## Overview
+
+This course is an introduction to databases, their terminology and an overview of various data models and modelling techniques. Topics include relational database design, Codd's rules, constraints, relationships, normalization, and the structured query language (SQL). Examples will be GIS-based, use an ORDBMS for storage and web-based customizations.
+
+## Credits
+
+3.0
+
+## Cost
+
+$863.60
+
+## Prerequisites
+
+- 50% in GIST 7010 † ( † may be taken concurrently)
+
+## Learning Outcomes
+
+- Navigate the ORDBMS graphical user interfaces.
+- Import and export various data formats.
+- Normalize data into the first, second and third normal forms.
+- Compare the hierarchically, network and relational database models.
+- Read and create data models.
+- Create database queries using the Structure Query Language (SQL).
+- Create application that integrate ORDBMS libraries.
+- Create Forms and Reports for an ORDBMS.
+
+## Related Programs
+
+- Geographic Information Systems
+- Geographic Information Systems
+- Geographic Information Systems

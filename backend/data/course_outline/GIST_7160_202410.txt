@@ -1,0 +1,90 @@
+URL: https://www.bcit.ca/outlines/20241087522/
+Course: GIST 7160
+Field: GIS Databases & Big Data
+
+School: School of Construction and the Environment
+Program: Geographic Information System
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: January 11, 2024
+End Date: March 28, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): 50% in GIST 7100 and 50% in GIST 7128
+CRN: 87522
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: William Johnstone
+E-mail: Instructor to provide
+Location: Online course
+Office Hours: Instructor to provide
+
+## Course Description
+This course is an introduction to database systems, geodatabases and Big Data. Topics will include database, GIS, and cloud computing services terminology. Database systems will be compared, and ESRI’s enterprise geodatabase and ArcGIS Online cloud capabilities will be examined. Data modelling (conceptual, logical and physical models), advanced spatial data structures, spatial SQL and international metadata standards will be covered. Data discovery, Open Data (e.g., OpenStreetMap) and RESTful Big GeoData services will be discussed. The use of Extract, Transform and Load (ETL) tools such as Safe Software’s Feature Manipulation Engine (FME) will also be demonstrated. The students will each develop their own geodatabase for one of five application areas: regional transit and commuting; regional weather and natural hazard emergency management; municipal infrastructure management; retail, logistics and eCommerce; or public health. Finally, this course provides a basic introduction to what Big Data is, how these datasets can be imported into a geodatabase, and how they can be visualized using ArcGIS Pro (desktop) and ArcGIS Online (cloud). This is a rapidly-changing field with high levels of innovation.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Distinguish between and give examples of data concepts such as: spatial vs attribute data, structured vs semi-structured vs unstructured data, and regular data vs metadata.
+- Distinguish between and give examples of DBMS models: RDBMS, OODBMS, ORDBMS, GIS, and Spatial DBMS.
+- Distinguish between and give examples of basic and advanced spatial data structures.
+- Describe the architecture of a modern enterprise spatial DBMS.
+- Describe the essential characteristics of Big Data and web (cloud) services
+- Describe how to scope and design a Big Data geodatabase for an application area.
+- Download and import cloud-based Open Data and Big GeoData into your own geodatabase.
+- Implement spatial databases using GIS desktop tools including ArcGIS Pro, and cloud data tools such as ArcGIS Online.
+- Develop visualizations of Big GeoData datasets using ArcGIS Pro, ArcGIS Online and ArcGIS Insights.
+
+## Learning Resources
+Course textbook: Focus on Geodatabases in ArcGIS Pro, 1st Edition, David W. Allen, Esri Press, Redlands CA (June 2019). ISBN-13: 978-1589484450. Available in paperback and Kindle formats. Additional materials are provided via D2L and URLs pointing to web-based resources.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Term Project No. 1: 60: Geodatabase Design and Development. A proposal is due one week after start of work. The final project is due seven weeks after start of work.
+Term Project No. 2: 10: Develop an ArcGIS Insights Workbook using ArcGIS Online. A short 2 week project that finishes at the end of term.
+7 Individual Quizzes: 10: Quiz marks are pro-rated by the number of questions in each quiz. If a quiz/exercise is dropped, then the weighting for that assignment is equally distributed among the rest.
+Final Exam: 20: Covers the full term.
+
+## Course Schedule and Assignments
+Week: Module: Title: Description: Tutorials/Exercises: Quizzes: Term Project 1: Term Project 2
+WK01: M01: Course Overview, Introduction to Data, Databases and Big Data: Course Overview: description, expected outcomes, learning resources, quizzes, tutorials term projects, and schedule. Describe how DBMS are used to store and manage business and geospatial data . Introduce and discuss business data modelling, and Relational Database Management Systems (RDBMS). Introduce Big Data concepts.: Get data files for textbook tutorials. Set up access to AGOL GIST 7160 Group.: M01: Start
+WK02: M02: RDBMS and Spatial Extensions: Explore the geospatial capabilities of commercial RDBMS. Survey key commercial RDBMS products that provide these capabilities including: Oracle Spatial and Graph, and Postgres/PostGIS.: Textbook: Chapter 1 (Tutorial): M02: Proposal Due
+WK03: M03: Object and FOSS4G, Esri Geodatabases, Open Data: Object GIS, and Free and Open Source for GIS (FOSS4G) databases. Introduce and discuss Esri Geodatabase concepts and capabilities. Discuss Data Discovery / Open Data tools.: Textbook: Chapter 2 (Tutorial): M03: In progress
+WK04: M04: Modelling Using Geodatabases, SQL and Spatial SQL: GeoDBMS: Modelling Geospatial Data: Continued exploration of how geodatabases are used to model real-world objects. Discuss selected aspects of how geospatial data is modelled and stored.: Textbook: Chapter 3 (Tutorial): M04: In progress
+WK05: M05: Data Creation: Measure, Convert, ETL, Data Quality and Metadata: Data Extract, Transform, Load (ETL): Discuss how geodatabases can be populated using Extract, Transform, Load toolsets. Define data quality and metadata. Discuss approaches for creating and using metadata.: Textbook: Chapter 4 (Tutorial): M05: In progress
+WK06: M06: Rasters, Surfaces, 3D, CAD-BIM: Raster Storage: Discuss how raster datasets are represented in geodatabases. Modelling Surfaces, 3D Objects, CAD and BIM: Discuss how geodatabases are used to model surfaces and volumetric objects, how GIS and BIM can be interfaced, and emerging 3D capabilities in GIS.: Textbook: Chapter 5 (Tutorial): M06: In progress
+WK07: M07: Geodatabases: Advanced Topics: Selected advanced topics will be discussed. The bulk of the class effort will be devoted to completing Term Project 1.: Textbook: Chapter 7 (Reading): -: In progress
+WK08: M08: Work on Term Project No. 1: Focus on completion and submission of Term Project No. 1.: -: -: Complete / Submit
+WK09: M09: Big GeoData: Cloud Service Models, The Esri GIS Web Stack, GeoVisualization and GeoAnalytics: Introduce and define Big Geodata concepts. Introduce and discuss products that provide big geodata, analytics and visualization capabilities.: ArcGIS Online: Insights: M09: Start
+WK10: M10: Esri Cloud / WebGIS. Focus on Term Project No. 2: Esri Cloud / WebGIS. Focus on Term Project No. 2.: ArcGIS Online: Insights: -: Complete / Submit
+WK11: M11: Big GeoData: Trends, Course Review: Discuss current trends in Big GeoData. Course Review: Review course content in preparation for the Final Exam.: -: -
+WK12: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. William Johnstone, Instructor January 05, 2024
+
+I verify that this course outline has been reviewed. Carmen Heaver, PTS Coordinator January 08, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 10, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

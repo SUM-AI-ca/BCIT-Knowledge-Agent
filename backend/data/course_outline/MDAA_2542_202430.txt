@@ -1,0 +1,103 @@
+URL: https://www.bcit.ca/outlines/20243049816/
+Course: MDAA 2542
+Field: Lighting and Rendering 2
+
+School: School of Business + Media
+Program: 3D Modeling Art & Animation
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lab
+Prerequisite(s): All courses from term 1 must be successfully completed.
+CRN: 49816
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Craig Shiells
+E-mail: craig_shiells@bcit.ca
+Location: CARI 2018B
+Office Hours: Office hours:Sunday 6:00 - 7:00pmAdditional contact information will be provided on the Learning Hub at the start of the course for online meetings, or in office at CARI campus
+
+## Course Description
+​Students will examine the effects of lights, cameras, and surface interactions. Students will setup cameras and camera effects and create a shading network for a high quality 3D scene that is optimized for efficient rendering. Both offline and real time renderers will be explored and the benefits to both will be examined. Students will be able to render their shots in passes, and composite them together in an editing package. Focusing on industry standard presentation techniques, camera moves, pacing, and framing will be explored so students can showcase their work effectively.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Analyze how cameras work in a 3D environment.
+- Assign appropriate shaders to 3D models.
+- Create high quality shading network for multiple purposes.
+- Apply camera effects such as motion blur and depth of field for better and more realistic appearance.
+- Render scenes in offline renderers and real time renderers.
+- Render in passes and composite shots back together.
+- Showcase renders in an effective, industry standard format.
+
+## Learning Resources
+Attached to the Course Content in the Learning Hub as applicable to the class
+
+## Course Goals
+The goal of this course is to expand upon the foundation of Lighting 1 and provide a thorough education on the Lighting, Rendering and Compositing process. Students will be introduced to advanced lighting techniques as well as industry used compositing practices.
+
+## Evaluation Criteria
+Assignment: Submission Criteria: Grade Weight %: Date Assigned: Date Due
+1. Time of Day: Rendering: 15%: September 4th: September 11th
+2. Bedroom Natural: Rendering: 15%: September 11th: September 18th
+3. Bedroom Artificial: Rendering: 15%: September 18th: September 25th
+4. AOV Comp: Screenshot: 5%: October 9th: End of Class
+5. Bathroom: Rendering: 15%: October 23rd: October 30th
+6. Render Layer Comp: Screenshot: 5%: October 30th: End of Class
+7. Integration: Rendering: 15%: November 13th: End of Class
+8. Animated Sequence: Rendering: 15%: November 20th: December 4th
+
+## Course Schedule and Assignments
+Intro to Lighting 2 – Sept 4th Introduction to myself and the curriculum. Discuss the role of a Production Lighting Artist. We will get to work producing various exterior lighting solutions that match selected reference material. In doing so, we will refresh students on: Analyzing reference material (camera basics) and what makes good reference content Various light types and controlling their attributes The principles of illumination Constraints and Rigging Image types and formats Rendering and render settings Sampling and quality control settings Naming convention and submission guidelines Some Photoshop painting Assignment: Time of Day Class Content: A collection of HDRI Panoramic Images Kelvin Temperature Chart Redshift Renderer (maxon.net) HDRi Haven
+Interior Lighting 1 – Sept 11th There will be a lecture on THE ILLUSION OF SHAPE before we get working on lighting an interior space through natural sources of illumination (sun/sky). Through this, students will learn about: Analyzing reference material and what makes good reference content Cameras and Composition (Staging) Global Illumination methods (strengths and weaknesses) Dome vs Environment Light Light placement (three-point lighting for environments) Contribution Scales and Render Stats Shaders and materials Depth of Field (camera) Redshift Post FX Assignment: Bedroom Natural Class Content: The Illusion of Shape PowerPoint Presentation The Bedroom Maya Project Asset Tilt-Shift Van Gogh (artcyclopedia.com)
+Interior Lighting 2 – Sept 18th Using the same interior asset as last week, we will gather reference material and produce a lighting solution for a space which is illuminated by artificial light sources. There will be a lecture on SETTING THE MOOD. We will cover: Various options for creating artificial sources Emissive materials Global Illumination limitations and techniques to resolve Render Optimization Assignment: Bedroom Artificial Class Content: Setting The Mood PowerPoint Presentation The Bedroom Maya Project Asset
+Evaluation/Feedback/Review – Sept 25th The main purpose of this class is to provide feedback on the assignment submissions and giving time for students to address the notes and improve their results. Students can request I re-explain or re-demonstrate any subject or topic that has previously been presented. There will be a lecture on GETTING ATTENTION. Class Content: Getting Attention PowerPoint Presentation
+Intro to Compositing – Oct 2nd This class, students will be introduced to Nuke. We will review the interface and a variety of nodes before rendering AOV’s and using them to produce an improved result in comp. We will cover: Basic Nuke interface Introduction to Node Based Compositing Read, Write, Grade, Color Correct Rendering and compositing Ambient Occlusion, Depth, Crytomatte Class Content: learn.foundry.com/nuke
+Linear Workflow and AOV’s – Oct 9th I will present a lecture on LINEAR WORKFLOW / COLOR MANAGEMENT before we head into Maya and explore rendering and compositing AOV’s. Students will gain knowledge on: Light Physics History of display devices sRGB colorspace versus ACES workflow Application practice and setup (Nuke, Maya, Substance…etc.) Rendering and Compositing AOV’s (basic/advanced) Assignment: AOV Comp Class Content: Linear Workflow / Color Management PowerPoint Presentation AOV Cornell Box Maya Project Asset CG Cinematography Archives - Chris Brejon https://petapixel.com/inverse-square-law-light/ How a TV Works in Slow Motion - The Slow Mo Guys (youtube.com)
+Light Effects – Oct 16th This class, students will learn to produce a variety of light effects observed in the natural world, as well as, how to fake various light effects. We will cover: Caustics, Volumetrics, Photometric Gobo’s, Caustics, Volume, Smoke, Fire Class Content: Gothic Window Maya Project Asset A collection of IES Files A collection of GOBO images Pre-selected stock Fire Footage Pre-selected stock Smoke Footage Caustic Generator Software IES Viewer Software List of refractive indices
+Lighting Analysis – Matching Reference – Oct 23rd Today’s lesson is back to practicing lighting. I will lead students through the process of lighting the Bathroom asset, in an attempt to match the reference it was produced from. New topics of discussion will be: Trace depth settings Materials and Shaders Importance of modeling to scale Assignment: Bathroom Class Content: Bathroom Maya Project Asset
+Render Layers – Beach Bug – Oct 30th I will deliver a lecture on LIGHTING CARL & ELLIE’S STORY demonstrating how to properly utilize Render Layers for compositing purposes. By the end of the lessons, students will be able to: Properly analyze a composition and evaluate how to separate it into layers Sufficiently name and produce a variety of render layers Produce a variety of render layer overrides Composite render layers in Nuke Assignment: Render Layer Comp Class Content: Beach Bug Maya Project Asset Pixar - UP - Carl & Ellie's Story (1080p) *HD* (youtube.com)
+Cameras and Composition – Nov 6th The focus of this lesson is cameras and compositions. How to move the camera and why. What lens works best for story. What are the rules of composition and how do they apply.
+Lighting Integration – Nov 12th Students will be given a lecture on LIGHTING INTEGRATION that uses Johannas Vermeer’s technique. We will then put it to practice by attempting our own integration and producing a working lighting solution. Students will learn: How to approach integrating CG elements with live action Image planes and backplates Matteshadowcatcher Assignment: Integration Class Content: Lighting Integration PowerPoint Presentation Integration Maya Project Asset Tim's Vermeer - Full Documentary (youtube.com)
+Lighting and rendering an animated sequence (1 of 3) – Nov 20th This is the first lesson in a series of classes where we will learn to light and render an animated sequence. In this lesson, we will familiarize students with: Alembic file animation How to approach shot lighting GI limitations what what’s best left for comp Assignment: Animated Sequence Class Content: Later Alliegator Maya Project Asset
+Lighting and rendering an animated sequence (2 of 3) – Nov 27th Building of our scenes from last week, this class will focus on setting up our scenes for rendering and creating render layers before batch rendering. We will cover: Render Setup/Render Layers File formats and compression settings Unified Sampling and render optimization Batch rendering Class Content: Later Alliegator Maya Project Asset
+Lighting and rendering an animated sequence (3 of 3) Dec 4th For the final class on rendering animation, we will take our renders into Nuke and build a comp tree to assemble our shots. We will review: How to produce a rack focus in Nuke How to produce glow and bloom effect in Nuke Class Content: Later Alliegator Maya Project Asset
+Studio Lighting Technique – Marmoset Toolbag 4 – Dec 11th Import assets and rendering in Marmoset How to light and render asset turntables Light Smithing
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: Regular attendance in lectures and labs is seen as integral to student success, therefore, attendance in class is monitored. Unexcused absences in excess of 10% of the time prescribed for this course may result in the assignment of a failing grade. Attendance may be taken at any time during class. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken.
+
+In case of illness or other unavoidable absence, students must communicate with the instructor, or the appropriate Program Head, as soon as possible (preferably in advance) indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate ). For other absences, students must be prepared to provide appropriate supporting documentation.
+
+A student who has unexcused absences in excess of 10% of the time prescribed for the course by the Withdrawal Deadline is considered to have ‘Vanished’ and will be assigned a grade of ‘V’. In these cases, no further work will be graded.
+
+These requirements are set out in accordance with BCIT Policy 5101 Student Regulations. More information regarding withdrawals from Flexible Learning courses is available at Refunds and Withdrawals
+
+## Approved
+I verify that the content of this course outline is current. Craig Shiells, Faculty August 27, 2024
+
+I verify that this course outline has been reviewed. Bob Kreut, Program Head August 29, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Susannah Skerl, Associate Dean August 29, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

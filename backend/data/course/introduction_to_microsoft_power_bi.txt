@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/introduction-to-microsoft-power-bi-comp-2156/
+Title: Introduction to Microsoft Power BI
+Field: Computer Systems
+Type: Course
+Course Code: COMP 2156
+
+================================================================================
+
+## Overview
+
+Power BI is a Microsoft collection of tools and an analytics service for data visualization and business intelligence reporting. BCIT Computing offers a series of MS Power Bi courses. COMP 2156 is a hands-on intro course designed for database professionals, data analysts, business analysts and managers. It follows on from COMP 2362 or COMP 2364 , it assumes that students have an understanding of statistics for data analysis and advanced functions of MS Excel. Students begin with a brief introduction to the building blocks of Microsoft Power BI and its related services. They are shown how to get a variety of data into the Power BI Desktop from multiple sources. In class labs and exercises focus on how to model, explore, clean and transform simple data for business reports. Topics include: Data Analysis Expressions, DAX, relationships and Data Visualization. Labs and assignments are designed to provide best practices that can be transferred to the workplace. Participants must provide their own current model PC capable of running Windows 10 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 2156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and a required course in the Applied Data Analytics Certificate (ADAC). By the end of this course successful students will be able use the Power BI unified analytics platform to build and publish high quality dashboards to the web. They will be prepared to move on to the next level COMP 3156 –MS Power BI Optimization and COMP 3157 –MS Power BI Advanced Data Visualization.
+
+## Credits
+
+1.5
+
+## Cost
+
+$387.88 - $407.37
+
+## Prerequisites
+
+- 60% in COMP 2362 or 60% in COMP 2364
+
+## Learning Outcomes
+
+- Describe MS Power BI and its components.
+- Explore different data connections to multiple sources, local, and online.
+- Extract, Load & Transform Data into Power BI Desktop using Power Query.
+- Describe at a foundational level how Power BI data models are created.
+- Create and understand different visualizations and dashboards in MS Power BI.
+- Tell the data story to engage stakeholders to bring insights from data visualizations.
+- Publish MS Power BI dashboards to a Power BI Service.
+
+## Related Programs
+
+- Applied Computer Information Systems (ACIS)
+- Applied Data Analytics
+- Applied Database Administration and Design
+- Computer Systems
+- Data Visualization with MS Power BI

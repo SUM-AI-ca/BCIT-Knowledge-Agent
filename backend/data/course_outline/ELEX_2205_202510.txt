@@ -1,0 +1,214 @@
+URL: https://www.bcit.ca/outlines/20251018701/
+Course: ELEX 2205
+Field: AC Circuits for Robotics
+
+School: School of Energy
+Program: Mechatronics and Robotics
+Course Credits: 6.5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 23, 2025
+Total Hours*: 100
+Total Weeks: 20
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): 50% in ELEX 1205 and 50% in MATH 1342
+CRN: 18701
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Pejman Alibeigi
+E-mail: pejman_alibeigi@bcit.ca
+Location: SW2-360
+Office Hours: Tuesdays 9:30 - 10:30 am,12:30 - 1:30 pm;Wednesdays 12:30 - 1:30 pm; Thursdays 11:30 am - 1:30 pm.
+
+## Course Description
+This course introduces circuits which contain not only resistance, but also inductance and capacitance. The main focus is on circuits driven by AC sources, in preparation for courses in electronics and power systems. Course topics include: DC applied to capacitors and inductors; the sine wave; average and effective values; power and power factor; resistance, capacitance and inductance in AC circuits; phasor, impedance, admittance, and power diagrams; analysis of AC circuits using complex algebra; three phase circuits; resonance and resonant circuits; high and low-pass filters; the application of circuit laws and theorems to AC networks; transients in RC circuits. Circuit theory is verified in the lab using multimeters, sine wave generators and dual trace oscilloscopes.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+## DC APPLIED TO CAPACITORS AND INDUCTORS
+- Analyze the electrical parameters of capacitors and inductors in a pure DC environment.
+- State effect of capacitor parameters on capacitance and working voltage.
+- Calculate energy stored in capacitor.
+- Calculate values of capacitors in series and parallel.
+- Calculate values and sketch graphs of V against time, and I against time, for steady DC current through capacitor.
+- State effect of inductor parameters on inductance.
+- Calculate energy stored in inductor.
+- Calculate values of inductors in series and parallel.
+- Calculate values and sketch graphs of V against time, and I against time, for steady DC voltage across inductor.
+
+## SINUSOIDAL WAVEFORMS
+- Apply knowledge of trigonometry and complex algebra to the analysis of AC voltages and currents.
+- Calculate instantaneous, average, and RMS values for AC waveforms.
+- Draw and interpret phasor diagrams for two or more sinewaves.
+- Measure phase angles with an oscilloscope.
+
+## R-ONLY, C-ONLY, L-ONLY, CIRCUITS
+- Analyze and measure the response of AC voltage applied to single pure electrical circuit parameters.
+- Calculate V, I, P, R and draw phasor diagrams for R-only circuits at any frequency.
+- Calculate V, I, Q, XC, BC and draw phasor diagrams for C-only circuits at any frequency.
+- For a capacitor, calculate XC and BC from measured values of V and I at any frequency.
+- For a capacitor, measure the phase angle between V and I at any frequency.
+- Calculate V, I, Q, XL, BL and draw phasor diagrams for L-only circuits at any frequency.
+- For an inductor, calculate XL and BL from measured values of V and I at any frequency.
+- For an inductor, measure the phase angle between V and I at any frequency.
+- Measure power in an AC circuit using a wattmeter.
+
+## SERIES RL OR RC CIRCUITS
+- Analyze and measure the response of series RL or RC circuits when AC voltage or current is applied.
+- List the three basic characteristics of any series circuit.
+- Calculate V, I, S, P, Q, phase angle, power factor; draw phasor, impedance and power diagrams for any series RL or RC circuit.
+- Measure V, I, P, and phase angle in a series RL or RC circuit.
+- Draw the series equivalent circuit for a practical inductor. Calculate Q of an inductor.
+
+## PARALLEL RL OR RC CIRCUITS
+- Analyze and measure the response of parallel RL or RC circuits when AC voltage or current is applied.
+- List three basic characteristics of any parallel circuit.
+- Calculate V, I, S, P, Q, phase angle, power factor; draw phasor, admittance and power diagrams for any parallel RL or RC circuit.
+- Measure V, I, P and phase angle in a parallel RL or RC circuit.
+- Measure equivalence between series and parallel RL or RC circuits.
+- Calculate values and draw diagrams for parallel circuits with practical inductors.
+- Convert between series and parallel RL or RC circuits.
+
+## RLC CIRCUITS
+- Analyze and measure the response of series, parallel, and series-parallel RLC circuits when AC voltage or current is applied.
+- Calculate V, I, P, phase angle; draw phasor, impedance and power diagrams for series RLC circuits. Determine an equivalent series RL or RC circuit at a given frequency.
+- Calculate values and draw diagrams for parallel RLC circuits. Determine an equivalent parallel RL or RC circuit at a given frequency.
+- Calculate values in series-parallel RLC circuits.
+- Calculate power factor and apply power factor correction techniques to AC loads.
+- Measure and improve power factor.
+
+## THREE PHASE CIRCUITS
+- Analyze three phase circuit configurations.
+- Describe the generation of three phase power.
+- Distinguish between three phase sources: 3-wire wye; 4-wire wye; delta.
+- Identify characteristics of three phase power and differentiate from single phase power.
+- Analyze 3-wire and 4-wire wye loads, both balanced and unbalanced.
+- Analyze balanced and unbalanced delta loads.
+- Correct the power factor of a balanced three phase load.
+
+## BODE PLOTS AND FREQUENCY RESPONSE
+- Predict and measure the gain and phase angle of RC, RL and RLC circuits over a range of frequencies.
+- Define and determine the transfer function for any AC circuit.
+- Define and determine voltage gain in dB and phase angle.
+- Plot the transfer function for any AC circuit on semi-log graph paper.
+- Draw straight-line approximations of gain and phase angle versus frequency (Bode Plots), for RC, RL and RLC filters.
+
+## RESONANT CIRCUITS
+- Analyze and measure the response of series and parallel RLC circuits at and around the resonant frequency.
+- Calculate the effects on Z and phase angle for series RLC circuits with varying frequency.
+- Calculate the effects on Y and phase angle for parallel RLC circuits with varying frequency.
+- Calculate fo, V, I, P, phase angle, Z in series RLC circuits at and around resonance.
+- Calculate V, I, phase angle, fo, bandwidth and half power frequencies for RLC circuits.
+- Measure and calculate all values in RLC circuits at, above and below resonance.
+
+## CIRCUIT ANALYSIS METHODS FOR NETWORKS
+- Determine circuit values and circuit parameters in a wide range of applications using systematic techniques.
+- Calculate values in networks using superposition theorem.
+- Calculate values in networks using mesh analysis.
+- Calculate values in networks using nodal analysis.
+- Calculate values in networks using Thevenin's theorem.
+- Calculate values in networks using Norton's theorem.
+- Calculate the load impedance for maximum power transfer.
+
+## TRANSIENT VALUES IN RC AND RL CIRCUITS
+- Analyze and determine values of voltages and currents during the transient period.
+- Calculate and sketch voltage and current in series RC circuits when square wave voltage is applied.
+- Calculate and sketch V's and I in series RL circuit when square wave voltage is applied.
+- Measure transient voltage and current in series RC circuits with square wave voltage applied.
+
+## DC POWER SUPPLIES
+- Analyze rectifier, capacitor filter and IC voltage regulator circuits.
+- Analyze single phase rectifier circuits: half wave; full wave center-tapped, full wave bridge.
+- Analyze three phase rectifier circuits: half wave; full wave bridge.
+- Analyze the effect of capacitor-only filters on load voltage, both DC and AC components.
+- Analyze the operation of an adjustable IC voltage regulator.
+- Design a DC power supply based on load voltage, load current and ripply voltage specifications.
+
+## Learning Resources
+Course Lecture Notes
+
+Recommended Reference Books:
+
+Fundamentals of Electric Circuits, Alexander and Sadiku, 7th Edition, McGraw-Hill
+
+Introductory Circuit Analysis, Robert L. Boylestad, 13th Edition, Pearson
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Assignments: 30%
+Midterms and Quizzes: 40%
+Final Exam: 30%
+
+The minimum passing grade is 50%. Successful completion of both the lab component and the theory component
+
+(50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that
+
+when one component is successfully completed and the other is not, but the average mark of the two components
+
+is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+Schedule (Winter 2025) *
+
+WEEK: TOPIC: TEST: LAB
+01: Capacitors & Inductors Introduction: No Labs
+02: Capacitors & Inductors in DC Circuits Sinusoidal AC Waveforms: 01 – Oscilloscope Introduction
+03: Basic Elements and Phasors: Quiz 1 (Jan 23): 02 – Measuring Phase Angle with Scope
+04: Series AC Circuits: 03 – Capacitors in AC Circuits
+05: Parallel AC Circuits: Quiz 2 (Feb 06): 04 – Inductors in AC Circuits
+06: Series/Parallel Networks: 05 – Series & Parallel Equivalent Circuits
+07: Network Theorems: Midterm Exam 1 (Feb 20): No Labs
+08: Methods of Analysis: 06 – AC Thévenin Equivalent Circuit
+09: AC Power Analysis: Quiz 3 (Mar 06): 07 – Wattmeter & RC Circuits
+10: Spring Break
+11: Polyphase Systems: 08 – Power Factor Correction
+12: Polyphase Systems: Quiz 4 (Mar 27): 09 – Three Phase Systems, Wye Loads
+13: Frequency Response: 10 – Three Phase Systems, Delta Loads
+14: Frequency Response: Midterm Exam 2 (Apr 10): No Labs
+15: Transient Response: 11 – RLC Circuits Frequency Response
+16: Transient Response: Quiz 5 (Apr 24): 12 – Square Waves & RC Circuits
+17: Regulated DC Power Supplies: 13 – Rectangular Waves & RC Circuits
+18: Regulated DC Power Supplies: Quiz 6 (May 08): 14 – Regulated DC Power Supplies
+19: Review for Final Exam: No Labs
+20: Final Exams Week
+
+* This schedule is tentative and subject to change.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Pejman Alibeigi, Instructor January 13, 2025
+
+I verify that this course outline has been reviewed. Greg Scutt, Program Head January 13, 2025
+
+I verify that this course outline has been reviewed. Jessica Wilson, Program Head January 21, 2025
+
+I verify that this course outline has been reviewed. Roger Gale, Associate Dean January 24, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean January 24, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,133 @@
+URL: https://www.bcit.ca/outlines/20243049563/
+Course: XBEM 3050
+Field: Building Energy Modelling and Simulation Fundamentals
+
+School: School of Energy
+Program: Building Energy Modelling and Simulation Microcredential
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: September 24, 2024
+End Date: December 10, 2024
+Total Hours*: 36
+Total Weeks: 12
+Hours/Weeks: 3
+Delivery Type: Other
+Prerequisite(s): A diploma or degree in science, technology, engineering, or equivalent, or department approval. To be successful in this microcredential we recommend you have knowledge in the basics of heat transfer, thermodynamics, and fluid dynamics.
+CRN: 49563
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jeanie Chan
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+This course is the first of a three part microcredential that prepares the building industry working professional to become a professional energy modeller. The learner will receive knowledge on how to build an energy model and run a simulation up to current industry standards. They will also learn how to obtain model inputs that appropriately represent the building design at various stages of the building design process. From those inputs, the learner will build an energy model from scratch, run an annual simulation, and analyze the results. With their model, they will also perform an energy efficiency and greenhouse (GHG) gas reduction study. Finally, they will present their analysis and results to their “client" in a report.​ Throughout the course skills will be assessed in assignments and examinations. Successful candidates will be awarded with an XBEM badge, from which they can ladder up into the full microcredential.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, ​the student will be able to:
+
+- Desc​ribe what an energy model is and what it represents.
+- Explain why and when to use an energy model for analysis.
+- Explain what is included in an energy model and how each component impacts building energy/GHG.
+- Create a simple energy model following standard energy modelling guidelines.
+- Analyze energy efficiency and GHG reduction measures using the energy model.
+- Evaluate simulation results and provide recommendations.
+- Develop a summary report describing the energy model and simulation results.​
+
+## Learning Resources
+Course Material:
+
+- Course Lecture Slides
+- Weekly Review Quiz
+- Weekly Lab Assignments
+- Energy Model Report Template
+
+Other Resources:
+
+- ASHRAE 90.1 - Energy Standard for Buildings Except Low-Rise Residential Buildings
+- ASHRAE 62.1 - Ventilation for Acceptable Indoor Air Quality
+- National Energy Code of Canada for Buildings (NECB)
+- ASHRAE 209 - Energy Simulation Aided Design for Buildings except Low Rise Residential Buildings,
+- City of Vancouver Energy Modelling Guidelines (https://vancouver.ca/files/cov/guidelines-energy-modelling.pdf)
+- EGBC Professional Practice Guidelines – Whole Building Energy Modelling Services (https://www.egbc.ca/News/Articles/Practice-Guidelines-on-Whole-Building-Energy-Model)
+
+## Course Goals
+- Describe what an energy model is and what it represents
+- Explain why and when we use an energy model for analysis
+- Explain what is included in an energy model and how each component impacts building energy/greenhouse gas
+- Create a simple energy model following standard energy modelling guidelines
+- Analyze energy efficiency and greenhouse gas reduction measures using the energy model
+- Evaluate simulation results and provide recommendations
+- Develop a summary report describing the energy model and simulation results
+
+## Evaluation Criteria
+Criteria: %: Comments
+Weekly Test: 30: Multiple choice or short answer quiz at the beginning of class to review last week’s content
+Energy Model Report: 70: This is an example of a professional energy modelling report that would be submitted to the client. A template energy model report will be provided at the start the course. Applying the concepts from the lecture and the techniques learned in the lab, students will be able to fill in the model inputs and complete report sections as they progress with their models.The report (i.e., .docx document) containing the completed part will be handed in for marking and feedback. The report is worth 100 points and will account for 70% of your final grade. Here are the sections: Intro & Weather Analysis (20 pts) Introduction - study purpose, building description, analysis methodology Weather analysis Building geometry and solar shading analysis Thermal Zoning, Envelope, and Internal Loads (20pts) Thermal zoning and space types Envelope constructions Internal Loads: plug loads, occupancy, lighting, domestic hot water load, elevator, and other loads Building Operation and HVAC (20pts) Building Operation: temperature setpoints, operation schedules Infiltration Ventilation and HVAC Analysis and Results (40pts) Energy Simulation Results and Discussion Energy Efficiency and GHG Reduction Analysis Results and Discussion Conclusions and Recommendations Results Slide for Final Lecture
+
+## Attendance Requirements
+Regular participation in online sessions is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend sessions for the full duration. It is the student’s responsibility to obtain missed course material in a timely manner.
+
+## Course Specific Requirements
+Makeup Quizzes: There will be no makeup quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+
+Late Assignments: Late assignments are subject to 10% penalty per day with a maximum penalty of 50%.
+
+## Course Schedule and Assignments
+Each week consists of a lecture and lab component. The first half of the class will focus on concepts and theory, while the 2nd half is focused on gaining hands-on experience of building an energy model using IESVE software. During the lab, there will be short demo, followed by an assignment for the students to complete during lab time.
+
+The topics covered each week for the lecture component are as follows:
+
+- What, Why, and When of Energy Modelling
+- What impacts a building’s energy and GHG emissions?
+- Weather Data and Solar Radiation
+- Building Geometry and Thermal Zones
+- Space and Building Types, Building Envelope (Part 1)
+- Building Envelope (Part 2) and Thermal Bridging
+- Internal Loads and Domestic Hot Water
+- Intro to Heating, Ventilation, and Air Conditioning (HVAC) Systems
+- Ventilation, Outdoor Air Requirements, and Infiltration
+- Energy Efficiency and Greenhouse Gas Reduction Measures
+- Thermal Comfort
+- Example Project Presentation (by Instructor) and Project Wrap-Up
+
+The topics covered each week for the lab component are as follows:
+
+- Intro to IESVE capabilities and course project
+- Interface overview and intro to IESVE Navigator
+- Choosing a weather file and performing a weather analysis
+- Building a simple geometry based on floor plans and performing a solar shading analysis
+- Thermal zoning and classifying space/building types
+- Creating and assigning envelope constructions
+- Assigning thermal templates, temperature setpoints, plug loads, and occupancy. Calculating and assigning and lighting, domestic hot water, and elevator loads.
+- Intro to ApacheHVAC and set up a simple HVAC system.
+- Assigning ventilation and outdoor air requirements
+- Viewing and analyzing results using VistaPro
+- Modelling energy and greenhouse gas reduction measures
+- Energy Model Project Discussion – Comparison of Results & Recommendations
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jeanie Chan, Associate Dean September 19, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Andrea Frisque, Dean September 22, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

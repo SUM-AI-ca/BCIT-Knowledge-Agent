@@ -1,0 +1,101 @@
+URL: https://www.bcit.ca/outlines/20241088042/
+Course: FSCT 8590
+Field: Network Exploits and Vulnerabilities
+
+School: School of Computing and Academic Studies
+Program: Digital Forensics & Cybersecurity
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Prerequisite(s): 60% in FSCT 8540
+CRN: 88042
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ahmed Awad
+E-mail: Ahmed_Awad@bcit.ca
+Location: DTC
+Office Hours: Friday 4:00 pm to 5:00 pm
+
+## Course Description
+The course covers a wide range of topics from common vulnerabilities and tools that are used to exploit, to incident response and handling. Addresses theoretical and practical issues in malicious programs and scripts, stegonagraphy, worms and different types of network exploits and attacks.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Select exploit code and hacker tools for the purposes of gaining an understanding of network vulnerabilities.
+- Use monitoring and scanning tools to identify system vulnerabilities.
+- Protect information and systems using appropriate security tools
+- Evaluate freely available tools and off-the-shelf hardware to sniff wireless traffic and compromise 802.11 networks.
+- Test systems vulnerabilities using popular frameworks such as Metasploit to penetrate networks.
+
+## Learning Resources
+Hands-On Ethical Hacking and Network Defense by Simpson et al
+
+TCP/IP Illustrated, Volume 1, Richard W. Stevens, Prentice-Hall
+
+## Course Goals
+Upon successful completion, the student will be able to:
+
+- Identify and use exploit code and security tools for the purposes of gaining an understanding of network vulnerabilities.
+- Use monitoring and scanning tools to identify system vulnerabilities.
+- Use security tools to protect information and systems.
+- Use freely available tools and off-the-shelf hardware to sniff wireless traffic and compromise 802.11 networks.
+- Use popular frameworks such as Metasploit to penetrate and test systems vulnerabilities.
+- Use publicly available tools as well as commercial devices to carry out penetration testing of networks.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Assignments: 40: Passing Grade is 60%
+Project: 20
+Midterm Exam: 20
+Final Exam: 20
+
+## Course Schedule and Assignments
+Week: Content: Assessment
+1: Introduction to Web Application Penetration Testing: Lab 1 Virtual Lab Initial Setup
+2: Payloads and Listeners CWE/SANS TOP 25 Most Dangerous Software Errors: Lab 2 Your First Hack
+3: Use Case: Address Resolution Protocol (ARP): Lab 3 Capturing Traffic with ARP Spoofing
+4: Common Vulnerability Scoring System CVSS: Lab 4 Vulnerability Scanning with OpenVAS
+5: Covert Channels Embedding Covert Channels into TCP-IP: Lab 5 Implementing a TCP-IP Covert Channel
+6: Information Hiding: Lab 6.1 Mutillidae Installation Lab 6.2 Web Application Vulnerabilities
+7: Midterm Exam
+8: Steganography: Lab 7.1 Penetration Testing Using Metasploit (Introduction)
+9: Wireless Network Security: Lab 7.2 Penetration Testing Using Metasploit (Information Gathering)
+10: Study Break
+11: Wireless Network Vulnerabilities and Attacks: Lab 7.3 Penetration Testing Using Metasploit (Case Study CVE-2012-1823)
+12: IEEE 802X Overview: Project: Foot printing Network Application
+13: Implementing 802.1X Security Solutions - Port-Based Authentication Concepts: Lab 8 Wi-Fi Password Cracking
+14: Project Presentation
+15: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ahmed Awad, Instructor December 28, 2023
+
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator December 28, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean December 29, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

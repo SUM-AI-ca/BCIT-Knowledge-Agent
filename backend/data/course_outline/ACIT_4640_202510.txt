@@ -1,0 +1,108 @@
+URL: https://www.bcit.ca/outlines/20251089230/
+Course: ACIT 4640
+Field: IT System and Network Provisioning
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ACIT 2515 and ACIT 3420 and ACIT 3640
+CRN: 89230
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Nathan McNinch
+E-mail: nmcninch@bcit.ca
+Location: Online and in-person LTBD
+Office Hours: By appointment. Please email me at least 24 hours in advance to arrange an appointment. Info for individual sections will be available on D2L
+
+## Course Description
+This course introduces the concepts, processes, and tools used in the automated provisioning of IT infrastructure as well as the deployment of applications using that infrastructure. Projects and activities incorporate the management of physical, virtual, and containerized run-time environments both on premises and in a public cloud. Topics include: bare metal provisioning, scripted installations, automated image creation, and declarative configuration management.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Provision Linux operating systems using DHCP, PXE, TFTP, and preconfigured installers.
+- Write imperative scripts to provision and configure virtualized services on a local host.
+- Describe the relative advantages of physical, virtualized, and containerized infrastructure.
+- Enumerate, compare, select and use popular configuration management and provisioning tools.
+- Understand and describe the infrastructure required to deploy and run a web service in a production environment.
+- Write declarative code to provision and configure infrastructure and virtualized services on a local host.
+- Write code to automate the creation of base images for use on local or cloud infrastructure.
+- Write declarative code to provision and configure infrastructure and services on a public cloud. Manage all "infrastructure as code" artifacts using modern version control.
+
+## Learning Resources
+Software: - Local Linux development environment (to be discussed in class)
+
+Flipped material: - Flipped material will be provided in course notes - This should be completed before the following class
+
+Accounts and Services: - Amazon Web Services - GitLab
+
+## Evaluation Criteria
+Criteria: %: Comments
+Midterm exam: 20
+Final exam: 30
+Tests: 30: 2 tests, 15% each, to be done in class
+Flipped material review: 10: 10 reviews, 1% each, to be done in class
+Labs: 10: 10 labs, 1% each, to be done in class
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+Week: Week start: Topics: Assessments
+1: Jan 06: - Introductions - Tools overview - development environment set up: Flipped material review Lab
+2: Jan 13: - Linux review - working with SSH keys - shell scripting - working with services: Flipped material review Lab
+3: Jan 20: - Working with AWS CLI - Configuration - Working with AWS resources using CLI: Flipped material review Lab
+4: Jan 27: - Introduction to Terraform - Terrraform HCL syntax - Terraform commands: Flipped material review Lab
+5: Feb 03: Test 1: Test 1
+6: Feb 10: - Introduction to Packer - Working with the shell provisioner: Flipped material review Lab
+7: Feb 17: - Introduction to Ansible - Ansible Inventories - Ansible Variables: Flipped material review Lab
+8: Feb 24: Midterm week, no class: Midterm exam
+9: Mar 03: - Use Ansible as a Packer provisioner - Use Terraform to deploy an image created with Packer: Flipped material review Lab
+10: Mar 10: - Terraform Modules - Terraform Variables: Flipped material review Lab
+11: Mar 17: - Ansible Roles - Ansible conditionals: Flipped material review Lab
+12: Mar 24: Test 2: Test 2
+12: Mar 31: - Terraform state: Flipped material review Lab
+14: Apr 07: Review
+15: Apr 14: Final exam week: Final exam
+
+Course Schedule is subject to change based on class progress. Any changes will be announced in class.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Nathan McNinch, Instructor January 02, 2025
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head January 20, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 21, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

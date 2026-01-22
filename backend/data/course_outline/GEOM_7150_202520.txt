@@ -1,0 +1,166 @@
+URL: https://www.bcit.ca/outlines/20252067889/
+Course: GEOM 7150
+Field: Advanced Topics in Precision Survey
+
+School: School of Construction and the Environment
+Program: Geomatics Engineering Technology
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: April 11, 2025
+End Date: July 18, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Other
+Prerequisite(s): 50% in GEOM 6140 Course registration is restricted to students with completion of 2-year Geomatics diploma.
+CRN: 67889
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Olusegun John Ogundare
+E-mail: Instructor to provide
+Location: SW2-317
+Office Hours: Instructor to provide
+
+## Course Description
+This course reviews and analyzes the precision aspects of survey equipment, including testing, calibration, and equipment operational procedures. It covers standards and specifications for horizontal and vertical control surveys (including precision GNSS surveys), accuracy analysis of measurement systems for survey observables, survey design and analysis, and three-dimensional coordinating systems in relation to industrial metrology. The course also includes deformation monitoring and analysis (geodetic and geotechnical techniques), as well as the analysis of tunnelling surveys for breakthrough errors. It ends with an introduction to precision alignment surveys. Students learn through a combination of lectures, lab assignments and projects.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Relate sources and types of errors to survey instruments and measurement techniques, including the associated error propagations and how to take care of the influence of the errors.
+- Interpret accuracy standards and specifications as they relate to terrestrial, GNSS surveys and mapping.
+- Translate standards and specifications (such as maximum allowable misclosures) into a choice of surveying equipment and field procedures for 1D, 2D or 3D positioning surveys.
+- Design by pre-analysis (including computer simulation), the appropriate combination of survey techniques (traditional and GNSS), and equipment for field data collection to satisfy specific quality requirements (in 1D, 2D and 3D).
+- Employ standard field techniques and procedures to data collection and calibration and testing of survey equipment.
+- Evaluate (with consideration for human, instrumental, atmospheric conditions, ground stability, etc.) equipment-testing and calibration results to determine the accuracy, precision and limitations of the equipment.
+- Analyze the positioning accuracy and suitability of measurement systems in industrial metrology.
+- Explain some aspects of deformation monitoring techniques (geodetic and geotechnical) and analyses with consideration for systematic and random influences on measurement systems.
+- Describe the techniques and instrumentations of precision alignment surveys (including conventional surveying and industrial metrology techniques, other).
+- Discuss factors affecting accuracy in industrial metrology and how the effects are mitigated.
+- Assess horizontal and vertical control networks for tunnelling surveys with consideration for breakthrough errors.
+
+## Learning Resources
+Required:
+
+Ogundare, J.O. (2016). Precision Surveying: The Principles and Geomatics Practice, 648p., October 2015, Wiley & Sons, Inc., Hoboken, New Jersey, ISBN: 978-1-119-10251-9, website: www.wiley.com/buy/9781119102519. Available in the BCIT Bookstore and on the Amazon site. Check www.wiley.com/go/Ogundare/PrecisionSurveying at the Browse by Chapter arrow down menu for PowerPoint slides and Sample Questions for the book. Available on Texidium as e-Texbook.
+
+Recommended:
+
+- Ogundare, J.O. (2019). Understanding Least Squares Estimation and Geomatics Data Analysis, 720p. November 2018, Wiley & Sons, Inc., Hoboken, New Jersey, ISBN: 978-1-119-50139-8, website: https://www.wiley.com/en-us/Understanding+Least+Squares+Estimation+and+Geomatics+Data+Analysis-p-9781119501398. Available in the BCIT Bookstore and on the Amazon sites.
+- anon. [2007]. Engineering Design: Control and Topographic Surveying. United States Army, Corps of Engineers, Engineer Manual EM 1110-1-1005, 498 pp. available via <140.194.76.129/publications/eng-manuals/> or web-search “Engineer Manuals”.
+- Donahue, B., J. Wentzel, and R. Berg [2013]. Guidelines for RTK/RTN GNSS Surveying in Canada. version 1.1. Natural Resources Canada, Earth Sciences Sector. 29 pp [via by searching title]
+- Geodetic Survey Division [1992]. Guidelines and Specifications for GPS Surveys, Release 2.1, 1992 12, Geodetic Survey Division, Canada Centre for Surveying, Surveys, Mapping and Remote Sensing Sector, Natural Resources Canada, Ottawa. [via <https://www3.sympatico.ca/craymer/geodesy/pubs.html>]
+- Geodetic Survey Division [1993]. GPS Positioning Guide, (1993 07) 3rd printing 1995 07, Geodetic Survey Division, Geomatics Canada, Natural Resources Canada, Ottawa. [via <https://www3.sympatico.ca/craymer/geodesy/pubs.html>]
+- Ghilani, C.D. and P.R. Wolf [2015]. Elementary Surveying: An Introduction to Geomatics, 14th edition, Prentice Hall Canada Inc., ISBN-13 978-0-13-375888-7 or ISBN-10 0-13-375888-5, hardcover. [the Global Positioning System (ch. 13, 14, 15), control surveys (ch. 19)]
+- International Standards (ISO 17123-1, ISO 17123-2; ISO 17123-3, ISO 17123-4) (Available for reference at the BCIT Library).
+- Surveys and Mapping Branch [1978]. Specifications and Recommendations for Control Surveys and Survey Markers, Specifications Series, Surveys and Mapping Branch, Energy, Mines and Resources Canada, Ottawa. [useful for types of survey markers and vertical control using levelling; otherwise superceeded by Geodetic Survey Division (1996)]
+
+## Course Goals
+Details of this course include discussing the principles, concepts, observing techniques and instrumentation of high-precision surveys with the sources and types of errors as they relate to the techniques and instruments; interpreting precision, accuracy standards and survey specifications for conducting terrestrial and GPS surveys; performing error analysis of survey measurements, such as angles, distances, and height differences; designing by pre-analysis the appropriate combination of survey techniques (conventional and GPS) and equipment for field data collection to satisfy specified quality requirements (in 1D, 2D and 3D); performing simple calibration and testing of survey equipment using standardized methods and procedures; assessing data gathered for the calibration and testing of survey equipment, for precision measurements; carrying out a variety of precise measurements and calculations to test and assess accuracy and limitations of survey equipment; performing a variety of precise measurements and calculations to obtain three dimensional coordinates of targeted points located on an object or surface; analyzing the accuracy of three-dimensional coordinating systems, including terrestrial and close-range photogrammetry (laser scanner) and some other photogrammetric applications to ground control densification; introducing the students to some aspects of deformation monitoring techniques and analyses; describing the techniques of alignment, tunnelling and mine surveys, and azimuth determination by gyro equipment.
+
+## Evaluation Criteria
+Criteria: %: Comments: Combined mark of 50% for all criteria is required to pass this course; 60% is required to satisfy CBEPS exemption requirement.
+Final Examination: 38
+Mid-Term Test: 25
+Quizzes (6): 7: Quiz #: Weight Quiz 1: 16.67% of 7% Quiz 2: 16.67% of 7% Quiz 3: 16.66% of 7% Quiz 4: 16.66% of 7% Quiz 5: 16.67% of 7% Quiz 6: 16.67% of 7%
+Self-Tests (4): 2: 80% is required in each of the 4 self-tests in order to earn the 2% (each is worth 0.5%; no partial mark for earning less than 80% in a test; Self-Test 1 must be completed before the Midterm exam (by 12:00 midnight on May 28); and the remaining 3 self-tests must be completed on July 15; any test done after these dates will not be graded)
+Partcipation: 3%: Online discussion quizzes to be assigned to each student (2%) + Quality Partcipation in Discussion Forum (1%)
+Term Project: 5
+Lab Assignments: 20: Lab #: Weight Lab 1: 9.75% of 20% Lab 2: 12.20% of 20% Lab 3: 9.75% of 20% Lab 4: 14.63% of 20 % Lab 5: 9.75% of 20% Lab 6: 14.64% of 20% Lab 7: 14.64% of 20% Lab 8: 14.64% of 20%
+Total: 100
+
+## Attendance Requirements
+For personal matters, such as having to be offline for more than 3 days, or illness, please contact (within 48 hours) the program assistant at (phone: 1-604-451-7001 or e-mail: arrian_macharia@bcit.ca) and copy me using the course mail, to arrange for how to catchup with the workload. We will respond within 24-36 hours.
+
+## Course Specific Requirements
+The students are expected to have current knowledge of geodetic positioning (or geodesy), the least squares adjustment of surveying measurements and computer programming in any language, e.g. MATLAB, in order to succeed in this course. Further information may be found in the How This Course Works in the Learning Hub course content space.
+
+## Other information
+The students must read and follow all the details stated in the welcome mail to the students, which is posted in the News section of the D2L. Note that these details in the Welcome mail will be enforced in this course.
+
+## Course Schedule and Assignments
+SA
+
+Module (Week): Material Covered: Reading: Assignment: Due Date*
+1 (1-2): Review of Precision Survey Properties and Techniques/ Observables, Measuring Instruments, and Theory of Observation Errors & Treatment: Chapter 1 (with Self-Test 1) Chapter 2 (with Quiz #1) Reference: Adjustment Notes: Self-test 1, Quiz #1 & Lab #1 Field project Instruction: Self-Test 1 to be completed before Midterm Exam Quiz #1: April 22 Lab #1: April 22
+2 (2-3): Standards and Specifications for Precision Surveys: Chapter 3 (with Quiz #2): Lab #2 & Quiz #2: Quiz #2: April 30 Lab #2: April 30
+3 (4): Accuracy Analysis and Evaluation of Angle Measurement System: Chapter 4 (with Self-Test 2): Self-Test 2 & Lab #3: Lab #3: May 7
+4 (5-6): Accuracy Analysis of and Evaluation of Distance Measurement System: Chapter 5 (with Quiz #3): Lab #4 Quiz #3: Quiz #3: May 17 Lab #4: May 17
+5 (6-7): Accuracy Analysis and Evaluation of Elevation and Coordinate Difference Measurement Systems: Chapter 6 (with Self-Test 3): Self-Test 3 Lab #5: Lab #5: May 24
+6(8-9): Midterm Exam/Field Project: Chapters 4- 6 & Field Instructions: Field Instruction Handouts: Midterm Exam: May 30
+7 (8-9): Survey Design and Analysis/3D Coordinating Systems.: Chapters 7 & 8 (with Quiz #4): Lab #6 Quiz #4: Quiz #4: June 7 Lab #6: June 7
+8 (9-11): Deformation Monitoring and Analysis: Geodetic Techniques and Geotechnical and Structural Techniques: Chapters 9 & 11 (sec. 11.1-11.2.1.2, 11.4-11.5): Quiz #5 & Lab #7: Quiz #5: June 21 Lab #7: June 21
+9 (11-13): Mining Surveying/Tunneling Surveys: Chapters 12 & 13: Quiz #6 & Lab #8: Quiz #6: July 5 Lab #8: July 5
+11 (13-14): Review/Project Submission: Chapters 13 &14 (sec.14.1-14.3) with Self-Test 4 Review Notes: Self-Test 4: Review: July 6 - 17 Self-Test 4: July 15 Project Submission: July 9
+12 (15): Final Examination: Final Exam: July 18
+
+*Check the Calendar on the D2L to confirm specific due dates of Lab Assignments
+
+## Course topics
+Assignment Details
+
+Assignments and labs are selected from the text and the lecture notes; attempting all of the lab assignments is mandatory. Unless otherwise stated, the students are to work on their own. Students are advised to discuss the assignment/lab questions with others on the appropriate Discussion Forum on D2L, but the actual answers to assignments/labs must represent their own work. Identical or copied assignments/labs will result in a mark of zero for the parties involved.
+
+- Due date for each assignment/lab will be provided with the assignment/lab; if the due date is revised, the students will be duly informed by e-mail.
+- Due date will be enforced; late submission of assignment will not be accepted and assignment/lab must be submitted as instructed in D2L. Note that if you missed any lab, you would be expected to do it(anyway) and e-mail it to my D2L e-mail within 72 hours of the due date for no marks.
+- All questions in each of the assignments/labs must be completely attempted by all the students; the instructor will only provide feedback on the questions substantially attempted - answer keys to lab assignments may or may not be posted. If a question in a lab is not substantially attempted by the student, the student will be asked to re-do that question, otherwise, the student may be awarded incomplete (INC) if not completed and handed in at the due date of the next assignment.
+- You are to respect instructor expectations concerning online participations, assignments, and deadlines.
+- Attendance Requirements: For personal matters, such as having to be offline for more than 3 days, or illness, please contact (within 48 hours) the program assistant at (Phone: 1-604-451-7001 or e-mail: arrian_macharia@bcit.ca) and copy me using using the course mail, to arrange for how to catchup with the workload; we will respond within 24-36 hours.
+- BCIT Policy (Attendance/illness): In case of illness or other unavoidable cause of absence, the student must communicate as soon a possible (within 48 hours as stated above) with his/her instructor or Program Head or Chief Instructor, indicating the reason for the absence. Prolonged illness of three or more consecutive days must have a BCIT medical certificate sent to the department. Excessive absence may result in failure or immediate withdrawal from the course or program. Please see Policy 5101 - Student Regulations, and accompanying procedures2
+- Other Information: The students must read and follow all the details in the Welcome mail to the students, which is posted in the News section of the D2L. Note that these details in the Welcome mail will be enforced in this course; read the Welcome mail (in the Resources module of the Contents menu of D2L) carefully.
+- You don't need to wait till the due date to hand in your assignments; you can hand in anytime before the due date or at the due time; but late submisison will not be accepted
+- If you are ill and will be offline for 3 days or more, get in touch with program assistant by phone or e-mail (and only copy the instructor; not contacting the instructor directly) and has to be within 48 hours of the illness
+- If you are ill for 3 days or more, you need BCIT medical certificate sent to the department (not to the instructor; the department will get in touch with the instructor on your behalf)
+- If you are ill, you need to arrange with program assistant how you will catch up in your work. Since the due date for assignment will be enforced, you would have to hand in on the due date what you have done so far in the assignment (to the level to which the illness allowed you to work on the assignment) and hand in the remaining assignment as arranged with the program assistant. It is your responsibility to arrange how to catch up within the allowable time.
+
+Exams, Tests, Quizzes and General
+
+Completing every exam, test and quiz is mandatory to all students; all exams, tests and quizzes must be completed at the specified times (check the calendar for the times). NO MAKE-UP exams, tests and quizzes. In addition, you are to take note of the following:
+
+- It is your sole responsibility to arrange to complete every exam, test, quiz and lab as scheduled. NO MAKEUP test, quiz and lab.
+- You are to strictly follow specific instructions on every learning activity, including exam, test, quiz, lab, etc., otherwise, you may lose some marks for your inability to follow specific instructions.
+- You must score at least 80% in each of the self-tests in order to earn the full marks alloted to the self-tests. Every self-test must be completed by the beginning of the review week; any test done after this day will not be assessed.
+
+Term Project Details
+
+Completing the Term Project and handing it in are mandatory; the student will receive an incomplete (INC) grade for this course if the project is not substantially completed and handed in. An identical or copied Term Project will result in a mark of zero for the parties involved, and the parties involved will still be expected to hand in new independent projects, although, for a mark of zero for the project.
+
+- Due date for the project will be provided in the appropriate D2L online tool; if the due date is revised, the students will be duly informed by e-mail.
+- Due date will be enforced; late submission of the project will result in a grade of zero for the Term Project; although the student will earn a grade of zero for the late submission, the student will not receive INC if the project is assessed (by the instructor) to have been substantially completed.
+
+Online Participation
+
+Online participation in the discussion of questions posted by the instructor or by the fellow student is mandatory; the student may lose some marks from the marks earned from the self-tests if the student does not substantially participate in the online discussions of those questions and other topics periodically posted by the instructor. Online Participation is mandatory for all students.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Ogundare, Instructor April 09, 2025
+
+I verify that this course outline has been reviewed. Mark Dailey, Program Head April 10, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean April 11, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

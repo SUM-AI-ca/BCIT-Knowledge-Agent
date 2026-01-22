@@ -1,0 +1,105 @@
+URL: https://www.bcit.ca/outlines/20241071575/
+Course: COMP 8031
+Field: Interactive and Responsive Mobile Applications
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Technology - Computer Systems
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 11, 2024
+End Date: March 28, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in COMP 7031
+CRN: 71575
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Tejinder Randhawa
+E-mail: Instructor to provide
+Location: SW2-125
+Office Hours: Instructor to provide
+
+## Course Description
+This course teaches techniques to measure and improve usability, accessibility, performance and scalability of mobile applications. Tools available through IDEs (Integrated Development Environments) such as the Android Studio are utilized or repurposed to setup testbeds to measure these quality attributes. Impact of modalities, in addition to multitouch, in improving user interaction with the mobile applications is studied. Development of custom layouts, UI components and animation are explored to enhance usability and accessibility. Mobile applications that record, transport, stream and playback rich media, render 2D/3D graphics/animation and augmented reality, store and process large quantities of data locally and schedule tasks with strict deadlines are developed and executed on Android smartphones and tablets with varying form factors as well as wireless networks with varying channel conditions to locate performance and scalability bottlenecks. Strategies to alleviate identified performance and scalability bottlenecks are implemented. These include fine tuning data Input/Output, rendering pipelines and storage structures; exploring opportunities for parallel processing that take advantage of multicore CPUs available on mobile platforms; and adaptive GUI design.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Setup testbeds to assess usability and accessibility of a mobile application.
+- Setup testbeds to benchmark performance of a mobile application.
+- Setup testbeds to load test a mobile application to model its scalability.
+- Improve user interaction with the mobile app by incorporating multimodality and adding custom layouts, UI components and animation.
+- Fine tune network I/O to scale throughput of mobile applications that transport rich media content to varying network conditions.
+- Create scalable data storage in mobile applications by fine tune data I/O, data models and storage structures.
+- Introduce parallel processing in mobile applications to take advantage of multicore CPUs available on smartphone platforms to schedule tasks with tight deadlines and timely completion of CPU intensive processing.
+- Fine tune rendering pipelines in mobile applications to meet the performance requirements of playback of rich media, 2D/3D graphics and animation, and Augmented Reality.
+
+## Learning Resources
+Tejinder S. Randhawa, Mobile Applications: Design, Development and Optimization, Springer; 1st ed. 2022 edition, ISBN-10: 3030023893, ISBN-13: 978-3030023898
+
+Course notes for topics not covered in the text book will be provided.
+
+## Evaluation Criteria
+3Criteria: %: Comments
+Final Exam: 30
+Assignments: 40: 3 take-home assignments to be done individually
+Project: 30: to be done Individually
+Total: 100: .A minimum score of 60 is needed to pass the course
+
+## Attendance Requirements
+Attendance in lectures and labs is mandatory.
+
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor indicating the reason for the absence.
+
+Prolonged illness which causes the student to miss 10% or more of the lectures and labs will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Unapproved absence of 10% or more of the lectures and labs may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+This course is delivered in a hybrid mode with 30 hours online and 4 Virtual Classroom sessions totalling 15 hours.The final exam may be in-person.
+
+Android Studio will be the platform used during most of this course for developing mobile apps. Although emulators could be used for some parts of the course, access to an Android phone for some assignments / project would also be needed. Development of iOS apps in Swift using Xcode, and react native apps will also be discussed.
+
+## Course Schedule and Assignments
+Week #/ Number: Outcome/Material Covered
+Week 1 (in-class session): MultiModal User Interaction
+Week 2: Custom Layouts, UI Components and GUI Animation
+Week 3: Data Compression
+Week 4 (in-class session): Data IO Optimization
+Week 5: Multimedia and Augmented Reality Rendering Pipelines
+Week 6: Parallel Processing
+Week 7: Scalable Media Transport
+Week 8 (in-class session): Scalable Local Storage
+Week 9: Scalable Design
+Week 10: Scalable GUI
+Week 11: Project Demos Review
+Week 12 (in-class session): Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Tejinder Randhawa, Faculty January 02, 2024
+
+I verify that this course outline has been reviewed. Mirela Gutica, Program Head January 03, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

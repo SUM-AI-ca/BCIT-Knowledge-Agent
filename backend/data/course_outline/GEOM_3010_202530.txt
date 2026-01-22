@@ -1,0 +1,150 @@
+URL: https://www.bcit.ca/outlines/20253044315/
+Course: GEOM 3010
+Field: Field Surveying 3
+
+School: School of Construction and the Environment
+Program: Geomatics Technologies
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): GEOM 2010 and GEOM 3030 (GEOM 3030 may be taken concurrently, as a co-requisite)
+CRN: 44315
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Christopher Griffith
+E-mail: cgriffith9@bcit.ca
+Location: SW02, 315
+Office Hours: Available on TEAMS and by email: cgriffith@bcit.caOffice Hours: Monday 8:30-12:20, Other times by appointment.
+
+## Course Description
+This course builds on the foundations from first-year field surveying courses and emphasizes the use of various total stations that work together with a range of industry-standard data-collection systems. Topics will include the collection and analysis of the measurements and procedures to minimize field (systematic) and computational errors, analysis of electronic field data, and the presentation of results in graphic and non-graphic forms. Measurements using industry-grade Global Navigation Satellite System (GNSS) equipment for rapid static and real- time methods will be introduced. Labs will be based on relevant industry challenges, which will include a design or planning component, a field measurement/data acquisition component, and a processing/computation/drafting component.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Properly care for and maintain surveying equipment.
+- Implement damage-reduction procedures for operating survey equipment.
+- Demonstrate competency in the setup and operation of levels and total stations.
+- Apply corrections to measurement using calibration components.
+- Lay out stations and offset lines, run levels, and prepare cut sheets using spreadsheets.
+- Use various total stations to measure distance and angle data in both IR (infrared) and RL (reflectorless) distance modes.
+- Evaluate reflectorless distance measurements on different surfaces.
+- Prepare field notes to accurately depict the measurements and procedures taken.
+- Solve for positions of points measured by traverse or resection and detect the effect of observational errors on the result.
+- Collect data using both onboard and handheld data-recording systems and apply necessary corrections.
+- Reduce and display the data in a professional manner using industry-standard CAD packages, transfer programs and/or spreadsheets.
+- Use GNSS equipment for static and real-time data collection, and perform office reductions, adjustments and presentations.
+- Compare and evaluate measurements and positions from various sources to detect errors and blunders.
+- Use the Helmert’s method to evaluate the quality of redundant data as applied to directions, elevations or positions.
+- Apply coordinate geometry (COGO) to determine solutions with field measurements.
+- Apply transformation parameters to rotate, scale and shift coordinates.
+- Interpret and parse the contents of digital survey field files.
+- Evaluate methods of surveying as they apply to the qualities obtained by those surveys
+- Evaluate the precision of geodetic survey instruments and their ancillary equipment using methods outlined by the International Organization for Standardization (ISO).
+
+## Learning Resources
+- Basic trigonometric calculator, non-programmable, capable of =>HMS and =>HR conversions & trig functions
+- USB Stick (for transfer of field data)
+- Field book - Duksbak No. 30 or equivalent with 6 ring loose-leaf binder
+- Field paper - Duksbak No. 30 waterproof loose-leaf paper; level grid format (both sides)
+- Plumbob, 14 - 16 ounce weight, with minimum 6 foot / 1.8m Gammon Reel
+- Pocket tape minimum 3m length graduated in meters, centimeters and millimeters & feet and decimals of a foot - not inches
+- 15cm plastic straight edge, metric and imperial graduations
+- (2) Pentel 0.5mm mechanical pencils or equivalent 0.5mm 2h lead for mechanical pencil
+- 0.5mm 2h lead for mechanical pencil
+- Stapler
+- Black Sharpie felt pen. No chisel tips No Paint sticks
+- No chisel tips
+- No Paint sticks
+- Staedtler-Mars General Purpose Stencil Template. Sample: https://www.staples.ca/en/Staedtler-Mars-General-Purpose-Stencil-Template/product_13316_1-CA_1_20001
+- Red colored pen or pencil for editing hardcopy data
+- Adobe Reader software
+- Scanning software for scanning of weekly field notes
+- PDF creation software Windows based and iOS or Andoid based
+- Windows based and
+- iOS or Andoid based
+- Geomatics Bring Your Own Device (BYOD) V2.0 Minimum Requirements for Year 2 and beyond.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Field Labs: 30: 10, equally weighted.
+Assignments: 9: 3, equally weighted.
+Field Exam: 20: Practical (field) Exam
+Mid Term Exam: 16: Written, 1hr.
+Final Exam: 25: Written & Practical (office), 1hr 40 min.
+
+## Attendance Requirements
+Attendance is expected and required. Field Labs are based primarily on participation. That participation is in teams, and your weekly partner(s) will be requiring your attendance to complete the work as necessary. More than two (2) unexcused absenses will result in a failing grade, If you cannot attend the lab that week, at least 24 hours notice is preferred. If there is an emergency, contact one of the instructors and your parnter(s) ASAP, so arrangements can be made.
+
+Labs can be made up on your own time, within the regulations of the Survey Stores.
+
+## Safety equipment or protective clothing
+- WorkSafeBC approved hi-vis field survey vest
+- Footwear with ankle support as a minimum. CSA approved rubber boots are also recommended for wet weather field work. Note: Students will not be permitted to participate in field labs without proper safety Personal Protective Equipment (PPE), clothing and footwear.
+- Rain gear
+- Cold weather gear
+- Cold Weather gloves
+- Sun protection
+- Face masks (optional)
+- Personal hand sanitizer
+- Safety glasses or face shield
+- Nitrile gloves (optional)
+
+## Other information
+As per Geomatics Department policy, no late assignments will be accepted. Asignments not turned in by the posted due date will receive a mark of 0.
+
+## Course Schedule and Assignments
+Week: Date (week of): Field Lab: Lecture
+1: September 1, 2025: Lab 1: Instrument Calibration: (NONE) LABOUR DAY
+2: September 8, 2025: Lab 2: ISO 17123-2/3 Simplified Method: Course Overview, ISO 17123 & Statistical Testing
+3: September 15, 2025: Lab 3: Differential vs Trigonometric Levelling: Basic Statistical Analysis/Average End Method Volume Calculations
+4: September 22, 2025: Lab 4: Volume Survey: Curves review and Spiral Calculations Assignment #1: Spiral Calculations
+5: September 29, 2025: Lab 5: Inaccessable Points Survey: Spirals
+6: October 6, 2025: Lab 6: Spiral Curve: Working with FBK files & C3D FBK adjustments
+7: October 13, 2025: WRITTEN MIDTERM: (NONE) THANKSGIVING
+8: October 20, 2025: PRACTICAL FIELD EXAM
+9: October 27, 2025: Assignment 2: PPP Processing: Fundamentals of Satellite Positioning (lecture continues through next 2 field lab periods)
+10: November 3, 2025: Assignment 3: DGNSS Processing
+11: November 10, 2025: Lab 7: STATIC GNSS SURVEYING LAB
+12: November 17, 2025: Lab 8: GNSS Site Localization: Integration of GNSS and Conventional Measurements
+13: November 24, 2025: Lab 9: Alignment Design: CAD: Line & Figure Coding, Alignment Design
+14: December 1, 2025: Lab 10: Stake to Surface: Final Exam Review
+15: December 8, 2025: WRITTEN FINAL EXAM
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Christopher Griffith, Instructor September 02, 2025
+
+I verify that this course outline has been reviewed. James Cowan, Program Coordinator September 02, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean September 02, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

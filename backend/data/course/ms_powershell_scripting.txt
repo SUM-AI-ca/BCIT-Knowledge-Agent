@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/ms-powershell-scripting-comp-3771/
+Title: MS PowerShell Scripting
+Field: Computer Systems
+Type: Course
+Course Code: COMP 3771
+
+================================================================================
+
+## Overview
+
+Microsoft PowerShell is a popular task automation and configuration framework. As a scripting language, PowerShell is commonly used for automating the management of Microsoft systems and services. PowerShell includes scripting tools to automate and control systems, programs, and files to improve productivity. COMP 3771 is a hands-on lab course aimed network or database administrators and software developers. PowerShell scripts are used for systems and services administration or database automation, monitoring, and maintenance, and can also automate tasks for testing software programs and rapid application development. Starting with a basic introduction to scripting with the Command Prompt window, the course then focuses on how to use MS PowerShell with Windows. There will be a brief overview of using Azure resources in PowerShell. COMP 3771 is required course in the Applied Database Administration and Design Associate Certificate and an elective in the Applied Network Administration and Design, Associate Certificates, plus the CST FLEX Diploma. Successful participants will be able to automate many tasks with Microsoft PowerShell and reduce repetitive tasks by creating scripts and functions that can run interactively or automatically. This course is offered in April (spring/summer) and September (fall) terms.
+
+## Credits
+
+3.0
+
+## Cost
+
+$624.39
+
+## Prerequisites
+
+- 60% in COMP 1002 or 60% in COMP 1630
+
+## Learning Outcomes
+
+- ​Describe MS PowerShell.
+- Create functional scripts using variables, loops, and conditional statements.
+- Manipulate files, directories and other objects using scripts.
+- Use PowerShell pipelines to retrieve, process and display objects.
+- Configure PowerShell providers to access system information.
+- Create scripts which read and update files.
+- Use scripts to run programs and invoke object methods.
+- Use functions to create tools that can be reused in scripts.
+- Use script Modules to package and distribute functions and cmdlets to make them easily be accessible and maintainable.
+- Configure scripts to run automatically at startup, shutdown, or at scheduled times.
+- Use Regular Expressions to match and extract data from text.
+- Install and use add-on components to manage other Microsoft services or third-party software and services.
+- Describe recommended practices for writing scripts.
+- Create Azure resources using Azure PowerShell.​
+
+## Related Programs
+
+- Applied Database Administration and Design
+- Applied Network Administration and Design
+- Computer Systems

@@ -1,0 +1,106 @@
+URL: https://www.bcit.ca/outlines/20243042133/
+Course: CITX 2210
+Field: Linux Essentials
+
+School: School of Energy
+Program: Network Administrator Technician
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 10, 2024
+End Date: November 28, 2024
+Total Hours*: 72
+Total Weeks: 12
+Hours/Weeks: 6
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 42133
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Steven Ng
+E-mail: Instructor to provide
+Location: SE1 135
+Office Hours: Instructor to provide
+
+## Course Description
+This course provides students with insight into the Linux operating system and reviews core skills in configuration and installation of the operating system. Both the command line and GUI interface are used. Students explore file systems, users and groups, the Bash shell, process management, the VI text editor, searching and organizing data, regular expressions and permissions. It is recommended that students have prior exposure to computer operating systems. Students must have access to a Windows based multi-media computer.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Edit text using the VI editor.
+- Manage Linux files and directories.
+- Manage user and group accounts.
+- Describe the Linux file system.
+- Conduct searches using regular expressions.
+- Customize the Bash shell.
+- Configure system permissions.
+
+## Learning Resources
+In this course, students will be required to use the Red Hat Academy, an online collaborative service. During the account creation process, the Red Hat Academy will collect your name and other identifying information. By using the Red Hat Academy, you are consenting to the storage of this information in the United States. Access to the Red Hat Academy's System Administration I course, delivered through the Red Hat Academy, will be provided for free once classes begin.
+
+## Evaluation Criteria
+Assignments: 20: To be done individually
+Quizzes: 40: Skills & Learning Hub
+BCIT midterm exam: 15: Thu, Oct 17
+Skills exam: 10: Tue, Nov 26
+BCIT final exam: 15: Thu, Nov 28
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences. This course is offered 100% in person on the Burnaby campus.
+
+## Course Specific Requirements
+To submit an assignment or write a quiz, a student must physically attend the class on the day the assignment or quiz is given. In addition to obtaining a minimum of 50% overall, an average of at least 50% on the midterm, skills, and final exams must be obtained to pass the course.
+
+## Course Schedule and Assignments
+Session: Reading: Lab(s)
+#1: Tue, Sep 10: Course and student introductions; Chapter 1: Red Hat Academy registration
+#2: Thu, Sep 12: Chapter 2
+#3: Tue, Sep 17: Chapter 2 cont'd, Chapter 4: Chapter 2 & 4 Labs
+#4: Thu, Sep 19: Chapter 3: Chapter 3 Lab 1
+#5: Tue, Sep 24: Chapter 3 cont'd: Chapter 3 Lab 2
+#6: Thu, Sep 26: Chapter 3 cont'd: Chapter 3 Lab 3
+#7: Tue, Oct 1: Chapter 5: Chapter 5 Lab 1
+#8: Thu, Oct 3: Chapter 5 cont'd: Chapter 5 Lab 2
+#9: Tue, Oct 8: Chapter 5 cont'd: Chapter 5 Lab 3
+#10: Thu, Oct 10: Chapter 6: Chapter 6 Lab 1
+#11: Tue, Oct 15: Review for Midterm Exam
+#12: Thu, Oct 17: Midterm Exam, Chapters 2,3,4,5
+#13: Tue, Oct 22: Chapter 6 cont'd: Chapter 6 Lab 2
+#14: Thu, Oct 24: Chapter 7: Chapter 7 Lab 1
+#15: Tue, Oct 29: Chapter 7 cont'd: Chapter 7 Lab 2
+#16: Thu, Oct 31: Chapter 7 cont'd: Chapter 7 Lab 3
+#17: Tue, Nov 5: Chapter 8: Chapter 8 Lab
+#18: Thu, Nov 7: Chapter 9: Chapter 9 Lab
+#19: Tue, Nov 12: Chapter 13: Chapter 13 Lab
+#20: Thu, Nov 14: Chapter 11: Chapter 11 Lab
+#21: Tue, Nov 19: Review for Skills Exam
+#22: Thu, Nov 21: Review for Final Exam
+#23: Tue, Nov 26: Skills Exam: comprehensive
+#24: Thu, Nov 28: Final Exam: comprehensive
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Steven Ng, Instructor August 13, 2024
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head August 27, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean August 27, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

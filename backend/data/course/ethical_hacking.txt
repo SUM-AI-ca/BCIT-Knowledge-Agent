@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/ethical-hacking-xcsa-1101/
+Title: Ethical Hacking
+Field: Cybersecurity Network Admin
+Type: Course
+Course Code: XCSA 1101
+
+================================================================================
+
+## Overview
+
+This course prepares students to assess and then correct vulnerabilities present within information systems. Students are introduced to tools and penetration testing methodologies used by ethical hackers. What and who ethical hackers are and how they protect corporate and government data from cyber-attacks is discussed. Methods and tools used in attacks and their countermeasures as well as available security resources and "attack type" systems are also investigated.
+
+## Credits
+
+1.0
+
+## Cost
+
+$222.30
+
+## Prerequisites
+
+- No prerequisites are required for this course.
+
+## Learning Outcomes
+
+- Identify the role of Ethical Hacking in today's network security environment.
+- Describe different types and methods of malicious software, viruses, malware attacks, network attacks, physical security attacks, and vulnerabilities.
+- Identify tools for footprinting and current types of social engineering.
+- Implement port scanning tools and produce port scanning reports by using NMAP.
+- Implement Nessus for finding OS vulnerability.
+- Describe DoS attack.
+- Describe Honeypot
+- Implement network sniffer tools in the network.
+- Describe vulnerabilities and techniques to harden current operating systems.
+- Implement web applications, their vulnerabilities, and the tools used to attack them.
+- Describe terms related to cryptography and cryptanalysis.
+
+## Related Programs
+
+- Cybersecurity Analysis for Network Administrators

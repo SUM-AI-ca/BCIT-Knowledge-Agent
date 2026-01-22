@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/advanced-net-web-app-development-comp-4602/
+Title: Advanced .NET Web App Development
+Field: Computer Systems
+Type: Course
+Course Code: COMP 4602
+
+================================================================================
+
+## Overview
+
+This hands-on course follows on from COMP 3602 and is aimed at students who can already use C# in the .NET Framework to create significant software applications. Participants must also understand how to build Web Applications using HTML5/CSS3 and JavaScript. Students are introduced to ASP.NET MVC (Model-View-Controller) and Razor Pages to build and deploy scalable and maintainable Server-side and Client-side Web Apps to MS Azure. Blazor is used to develop both Server-Side and Client-Side Apps within the latest Microsoft .NET Framework to cover modern and emerging technologies within the .NET ecosystem. Labs and exercises focus on building secure web apps with authentication to industry standards, covering best practices for preventing common web vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Extending web apps to interact with AI Models will also be discussed. COMP 4602 is an elective in the Web and Mobile Application Development Associate Certificate and the CST FLEX Diploma. Upon successful completion, students will be able to use ASP.NET MVC, Razor Pages, and Blazor to take a variety of their .NET Full Stack Web Applications from concept and deploy them to the cloud with MS Azure. This course is offered once per year in the January (Winter) term.
+
+## Credits
+
+4.0
+
+## Cost
+
+$575.86
+
+## Prerequisites
+
+- 60% in COMP 3602 and 60% in COMP 2132
+
+## Learning Outcomes
+
+- Describe ASP.NET.
+- Use Visual Studio Code to build ASP.NET applications using the latest framework.
+- Explain Model-View-Controller (MVC) Architecture.
+- Secure .NET web apps with Session Authentication.
+- Build secure .NET Web API apps with Token Authentication.
+- Develop Web API web applications.
+- Describe Client-Side Blazor.
+- Create a Server-Side Blazor App with Database backend.
+- Implement Server-Side caching.
+- Localize web apps to support multiple spoken languages.
+- Develop and deploy a Full Stack ASP.NET App to Azure.
+- Extend web apps to interact with local and hosted AI Models.
+- Create an Azure Static Web App and deploy to the cloud.
+
+## Related Programs
+
+- Advanced .NET Development
+- Computer Systems
+- Web and Mobile Application Development

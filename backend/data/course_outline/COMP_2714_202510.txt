@@ -1,0 +1,173 @@
+URL: https://www.bcit.ca/outlines/20251086157/
+Course: COMP 2714
+Field: Relational Database Systems
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): COMP 1712
+CRN: 86157
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Alireza Davoodi
+E-mail: adavoodi@bcit.ca
+Location: By appointment via video conferencing
+Office Hours: Will be posted in the Learning Hub
+
+## Course Description
+This course covers relational database technology, including basic concepts, relational algebra, enhanced entity-relationship data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, access control and transaction management. Students design and implement a database application using RDBMS. Also covers some current database trends such as data warehousing and OLAP and use of databases through web technology.
+
+## Course Learning Outcomes/Competencies
+At the end of this course, the student will be able to:
+
+- Describe the functions and characteristics of the relational database model.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling.
+- Functional dependencies and normalization.
+- Derivation of relations schema from EER models.
+- Apply database design process to design and implement a database application.
+- Use SQL to implement and query a relational database including:
+- Data definition language (DDL) and constraints.
+- Data manipulation language (DML) for data insert, update and delete.
+- Data manipulation language (DML) for data queries, including subqueries and views.
+- Data control language (DCL) for access control.
+- Discuss techniques for transaction management and concurrency control.
+- Describe the use of databases in data warehousing and OLAP.
+
+## Learning Resources
+Main reference [Optional]:
+
+Fundamentals of Database Systems, 7th Edition, Elmasri & Navathe, ISBN-10: 0133971112 • ISBN-13: 9780133971118
+
+Supplementary-Optional:
+
+Database Systems Design, Implementation, and Management, 13e, by Carlos Coronel, et al, Cengage Learning, ISBN: 978-1337627900
+
+## Evaluation Criteria
+Project: 12%: Course Project with Milestones
+Labs-Practicals: 18%: During the lab
+Tutorials: 5%: During the lecture
+Quizzes: 10%: 2-3 quizzes
+Midterm Exam: 25%: 1 midterm exam
+Final Exam: 30%: 1 final exam
+Total: 100
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty. Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+N/A
+
+## Other information
+- The tutorials are evaluaed as pass/fail - No feedback is provided. The key will be provided.
+- The tutorials are usually due the end of the same lecture session they are released. So it is not usually expected to submit a complete tutorial.
+- The labs are usually due the end of the next week lab. There will be 4-6 labs (depending on the itme availability)
+- The project has 4 main Milestones which needs to be completed after Modules 1,2,3,4.
+- All quizzes and exams will be done paperless and you need to bring your computer (laptop)
+- The quizzes are short exams and closed and no cheatsheet is allowed.
+- The exams (Midterm and Final) are also closed but you can bring a double-sided A4/Letter size handwritten paper.
+- The labs, quizzes and exams are evaluated within 2 weeks they are due.
+- The solutions to the labs, turorials, quizzes will be available withink 1 weeks they are due.
+
+## Course Schedule and Assignments
+Week #: Week of: Lecture (Wednesdays): Tutorials (Subject to time availability) - During Lectures: Practical - Labs (4-6 labs): Quizzes: Project (4 Main Milestones) - Reporting Template will be provided
+Week 1: Jan6 - Jan10: [Module 0]: Intro to the course (logistics, materials, activities, ...) Introduction to Database Systems: No Tutorial: No Lab / Skipped
+Week 2: Jan13 - Jan17: [Module 1]: Conceptual Modeling [Module 2] Relational Model (ER, EER) Database Design Review: M1's Tutorial: Module 1 Lab Release Project Time: Project - Milestone 1 - Conceptual Model
+Week 3: Jan 20 - Jan24: [Module 2]: Relational Modeling: M2's Tutorial: Module 1 Lab due Module 2 Lab Release Project Time
+Week 4: Jan27 - Jan31: [Module3]: Data Definition Language (DDL) + Data Definition Language + Delete, Insert, Update (1h) Basic Select Query (1h): M3's Tutorial: Module 2 Lab Due Module 3 Lab 1 Release Project Time
+Week 5: Feb3 - Feb7: [Module3]: Aggregation and Grouping (45m) Multiple Relation SQL Queries (1h) Quiz1 [Module 1,2]: M3's Tutorial: Project Time: Quiz 1: Project - Milestone 2 - Relational Model
+Week 6: Feb10 - Feb14: [Module3]: SQL - Nested Queries (part 1): M3's Tutorial: Module 3 Lab 1 Due Project Time
+Week 7: Feb17 - Feb21: Midterm review of Modules 1 and 2: M3's Tutorial: Project Time: Project - Milestone 3 - Database and SQL
+Week 8: Feb24 - Feb28: No Lecture / No Class Midterm Exam Week Midterm includes only Modules 0, 1 and 2: No Tutorial: Midterm Exam Week No Lab
+Week 9: March3 - March7: [Module3]: SQL - Nested Queries (part 2) Views: M3's Tutorial: Module 3 Lab 2 Release Project Time
+Week 10: March10 - March14: [Module4]: Design Guidelines (45 m) Functional Dependencies (45 m): M4's Tutorial: Module 3 Lab 2 Due Project Time
+Week 11: March17 - March21: [Module4]: Normalization (45 m) Quiz 2 [Modules 3]: M4's Tutorial: Module 4 Lab 1 Relase Project Time: Quiz 2
+Week 12: March24 - March28: [Module4]: Relational Database Scheme Design (3NF and BCNF Normalization) (1:30): M4's Tutorial: Module 4 Lab 1 Due Project Time: Project - Milestone 4 - Normalization - Due April 4
+Week 13: March31 - April4: [Module5]: Data Warehousing & OLAP Database Security, Access Control and Transaction Management Quiz 3 [Module4]: No Tutorial: Project Time: Quiz 3
+Week 14: April 7 - April11: Study/Presentation Week No lecture No deliverables: No Tutorial: No Lab / Study/Review time
+Week 15: April 14 - April22: Final Exam Week: Final Exam Week: Final Exam Week
+
+Lectures: (86157) - Downtown
+
+Instructor: Alireza Davoodi
+
+Class-86157: 11:30 am - 2:20 pm: Wednesdays: DTC - 645: Jan 06, 2025 - April 17, 2025: Lecture
+
+Labs (Thursdays):
+
+Instructor: Alireza Davoodi
+
+Class-77191: 1:30 pm - 3:20 pm: Thursdays: DTC - 686: Jan 06, 2025 - April 17, 2025: Lab
+
+Class-86162: 3:30 pm - 5:20 pm: Thursdays: DTC - 686: Jan 06, 2025 - April 17, 2025: Lab
+
+========================================================
+
+1) Important Dates
+
+========================================================
+
+(A) Special Dates
+
+- First Day of Classes: January 6
+- Midterm Exam: February 24-28
+- Makeups/Reviews/Presentations April 7-11
+- Final Exams April 14-22
+- Deadline for course credit/drop January 20
+- Withdrawal Deadline March 14
+
+(B) Statutory holidays (no classes)
+
+- Monday Feb 17 - Family Day
+- Friday April 18 - Good Friday
+- Monday April 21 - Easter Monday
+
+## Course topics
+The course is divided into 5 Modules:
+
+Modules: Topics
+Module1:: ER Model
+Module2:: Relational Model
+Module3:: SQL
+Module4:: Functional Dependencies (FDs) and Normalization
+Module5:: Database Management, Security and OLAP
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Alireza Davoodi, Instructor January 02, 2025
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 04, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 06, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

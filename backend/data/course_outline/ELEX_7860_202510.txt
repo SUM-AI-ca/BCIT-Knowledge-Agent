@@ -1,0 +1,164 @@
+URL: https://www.bcit.ca/outlines/20251078044/
+Course: ELEX 7860
+Field: Wireless System Design
+
+School: School of Energy
+Program: Electrical Engineering
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ELEX 7530 and ELEX 7640 and MATH 7510
+CRN: 78044
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Maryam Dehghani Estarki
+E-mail: mdehghani1@bcit.ca
+Location: SW02 216
+Office Hours: Office Location: Physical office: SW02 216 Virtual office: https://bit.ly/MaralOffice Office Hours: Monday: 11:30 to 13:20 Tuesday: 11:30 to 12:20 Thursday: 12:30 to 13:20 Friday: 11:20 to 12:30 By appointment: Office Location: Physical office: SW02 216 Virtual office: https://bit.ly/MaralOffice: Office Hours: Monday: 11:30 to 13:20 Tuesday: 11:30 to 12:20 Thursday: 12:30 to 13:20 Friday: 11:20 to 12:30 By appointment
+Office Location: Physical office: SW02 216 Virtual office: https://bit.ly/MaralOffice
+Office Hours: Monday: 11:30 to 13:20 Tuesday: 11:30 to 12:20 Thursday: 12:30 to 13:20 Friday: 11:20 to 12:30 By appointment
+
+## Course Description
+This design elective builds on the prerequisite core courses to explore important technical topics in modern wireless communications systems. The evolution of cellular systems from is discussed, and other contemporary standards such as wireless local area networks (LAN) and personal area networks (PAN) are reviewed. Mathematical representation of the wireless channel is presented, and effects such as multipath, fading, and shadowing are discussed. The performance of various digital modulation schemes in the presence of noise is evaluated. Contemporary radio transceivers are presented and evaluated, including radio architecture, radio components, and performance measures. System design concepts such as link budget are used to engineer basic wireless systems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Outline the evolution of cellular systems. Describe and contrast common standards used in cellular communication, wireless LAN, and wireless PAN. [1]
+- Describe the loss mechanisms in the wireless channel, and effects such as multipath fading and shadowing. Calculate and predict losses using mathematical models of the wireless channel. [1,2,3,5]
+- Calculate link budgets and estimate fade margin requirements. [1,2,4,5]
+- Assess the merits, disadvantages and noise performance of various digital modulation schemes. [1,2,3]
+- Describe the benefits of contemporary techniques such as OFDM and MIMO [1,2]
+- Describe and contrast various multiple access schemes such as FDMA, TDMA, and CDMA. [1]
+- Describe the key aspects of various radio architectures such as super-heterodyne, low-IF, and direct conversion. Explain the advantages and disadvantages of each scheme. [1,2]
+- Describe the key blocks within a modern radio transceiver. Explain the important specifications associated with each block, such as noise figure (NF) and third-order intercept point. [1,2,3,5]
+- Calculate radio performance using cascaded noise figure and IP3 analysis. [1,2]
+- Design wireless systems adhering to a given specification, such as the IEEE 802.15 standards [2,3,4,5,6]
+
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+· Lecture notes posted on Learning Hub course page: https://learn.bcit.ca/d2l/home/904853
+
+· Ed Casas's course materials from last years: https://people.ece.ubc.ca/edc/
+
+· T. S. Rappaport, Wireless Communications: Principles and Practice
+
+· W. Stallings, Data and Computer Communications, 10th Edition, Pearson
+
+· R. G. Vaughan and J. B. Andersen, Channels, Propagation and Antennas for Mobile Communications, 1st ed. London, United Kingdom: Institution of Electrical Engineers, 2003
+
+· A. F. Molisch, Wireless communications. John Wiley & Sons
+
+· A. Goldsmith, Wireless Communications. Cambridge University Press
+
+· S. S. Haykin, M. Moher, and D. Koilpillai, Modern Wireless Communications. Pearson Education India, 2011
+
+· W. F. Egan, Practical RF System Design. John Wiley & Sons
+
+· B. P. Lathi, Modern Digital and Analog Communication Systems. Oxford University Press, Inc.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs and Field trip: 30: Practical
+Quizzes: 15: Theory
+Midterm Exams: 25: Theory
+Final Exam: 30: Theory
+
+The minimum passing grade is 50%. Successful completion of both the practical component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+- Biweekly labs starting on 14 January
+
+- Biweekly evaluations, i.e., quizzes and exams, starting the third week of the semester
+
+The detailed schedule is communicated to the class through Learning Hub/Email.
+
+## Course topics
+Course Topics (Tentative):
+
+- Propagation Mechanisms and Multipath Fading
+- Antennas and Free‑Space Propagation
+- Statistical Models of Average Path Loss
+- Diversity
+- Information and Capacity
+- Introduction to Coding
+- Error Detection and Correction
+- OFDM
+- RF Design ‑ IP3
+- RF Design ‑ Noise
+- PN Sequences and Spread‑Spectrum
+- Multi‑Antenna Systems
+- Link Budgets
+
+Lab Experiment (Tentative):
+
+- NLOS propagation
+- Antenna pattern measurement/simulation
+- Internet of Things
+- OFDM Spectrum
+- Communication System Simulation
+- Two‑Tone IP3 Measurement
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Maryam Dehghani Estarki, Instructor January 05, 2025
+
+I verify that this course outline has been reviewed. Victor Mendez, Program Head January 10, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 20, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

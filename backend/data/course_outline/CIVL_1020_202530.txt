@@ -1,0 +1,168 @@
+URL: https://www.bcit.ca/outlines/20253033704/
+Course: CIVL 1020
+Field: Statics
+
+School: School of Construction and the Environment
+Program: Civil Engineering
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 72
+Total Weeks: 15
+Hours/Weeks: 4.8
+Delivery Type: Lecture
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 33704
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Mohammed Farooq
+E-mail: mfarooq6@bcit.ca
+Location: SW03-2087
+Office Hours: Mohammed Farooq, PhD, EITBenedict Egbon, PhD, PEng, PMP. Sudip Talukdar, PhD, P.Eng.
+
+## Course Description
+This course presents a thorough introduction to the relationship between applied loads and the resultant support reactions and internal forces developed in statically determinate members and structures. Topics include classification of force systems, equilibrium equations, support conditions, freebody diagrams, support reactions, truss analysis by the methods of joints and sections, analysis of pinned plane frames, geometric properties of sections, distributed loading, and load, shear force and bending moment diagrams for beams.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Differentiate between scalars and vectors, and perform basic vector operations. [1]
+- Draw freebody diagrams of determinate members and/or structures. [1, 2]
+- Apply the fundamental equations of equilibrium to determine support reactions for plane structures. [1, 2]
+- Apply Varignons Theorem to calculate a moment, and calculate the moment of a couple. [1]
+- Reduce a system of forces and couple moments to an equivalent system [1]
+- Utilize the method of sections and method of joints to determine axial forces in pinned plane trusses. [1, 2]
+- Analyze the forces acting on members of frames, machines and arches comprised of pin connected members [1,2]
+- Calculate axial forces, shear forces, and bending moments at a section [1,2]
+- Derive equations for member shear force and bending moment as a function of location [1,2]
+- Graph shear force and bending moment functions. [1]
+- Determine the centroid of a body and apply the parallel axis theorem to calculate moments of inertia [1,2]
+- Determine the magnitude and location of a resultant force of a pressure loading caused by a fluid [1,2]
+
+## Learning Resources
+Required:
+
+- R.C.Hibbeler. Engineering Mechanics: Statics, SI Edition (Global Edition) with access code package (14th Ed). Pearson- Prentice Hall (2015)
+
+Electronic recording of course material (e.g. video, image, or audio files) is prohibited in this course with the following exceptions:
+
+- Where the student has obtained prior written permission from the instructor, or
+- Where the student has obtained permission under BCIT Policy 4501, Accommodation for Students with Disabilities.
+
+## Evaluation Criteria
+Weightage
+Quizzes (4 x 15% each): 60%
+Final Exam: 40%
+Total: 100%
+
+See course schedule for quiz dates.
+
+## Attendance Requirements
+Makeup Test, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks for the work missed. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT Student Medical Certificate (https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf). In such a case, it is the responsibility of the student to inform one of the course instructors immediately. Note that exceptions will not be made for personal events such as vacations, weddings, or travel arrangements.
+
+## Other information
+CIVL 1020 is a Prerequisite for:
+
+- CIVL 2020: Mechanics of Materials 1
+- CIVL 2025: Applied Hydraulics
+- CIVL 2024: Graphical Communication
+
+Engineering Accreditation
+
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the BEng in Civil Engineering program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB Graduate Attributes as shown in the square brackets [] following each course learning outcome.
+
+CEAB Graduate Attributes
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Course Schedule and Assignments
+CIVL 1020 - Spring/Summer 2026
+Week #: Date: Topic: Source
+1: 04-Sep-25: Course Introduction-General Principles​​: CH3
+2: 08-Sep-25: Force Vectors​ (ΣFx, Σfy): CH3​
+09-Sep-25: Equilibrium of a particle​: CH3​
+3: 15-Sep-25: Equilibrium of a particle​: CH3​
+16-Sep-25: Equilibrium of a particle​: CH3​
+4: 22-Sep-25: Force System Resultants​ (Equivalent F, M): CH4​
+23-Sep-25: Force System Resultants​ (Equivalent F, M): CH4​
+5: 29-Sep-25: QUIZ 1 (15%)
+30-Sep-25: Truth and Reconciliation day (lecture to be rescheduled)
+6: 06-Oct-25: Equilibrium of a rigid body​ (Support Reactions): CH5​
+07-Oct-25: Equilibrium of a rigid body​ (Support Reactions): CH5​
+7: 13-Oct-25: Thanksgiving (lecture to be rescheduled)
+14-Oct-25: Structural analysis​ (Trusses): CH6​
+8: 20-Oct-25: Structural analysis​ (Trusses): CH6​
+21-Oct-25: QUIZ 2 (15%): CH6​
+9: 27-Oct-25: Structural analysis​ (Trusses): CH6​
+28-Oct-25: Structural analysis​ (Trusses): CH6​
+10: 03-Nov-25: Structural analysis​ (Frames & Machines): CH6​
+04-Nov-25: Structural analysis​ (Frames & Machines): CH6​
+11: 10-Nov-25: QUIZ 3 (15%)
+11-Nov-25: Rememberance day (lecture to be rescheduled)
+12: 17-Nov-25: Internal forces​ (SFD, BMD): CH7
+18-Nov-25: Internal forces​ (SFD, BMD): CH7
+13: 24-Nov-25: Internal forces​ (SFD, BMD): CH7
+25-Nov-25: Quiz 4 (15%): ​
+14: 01-Dec-25: Moment of Inertia: CH9​
+02-Dec-25: Moment of Inertia: CH9​
+15: 08-Dec-25: FINAL EXAM (40%)
+09-Dec-25
+
+## Course topics
+Refer to course schedule.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Mohammed Farooq, Instructor September 08, 2025
+
+I verify that this course outline has been reviewed. Sudip Talukdar, Program Head September 15, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean September 19, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

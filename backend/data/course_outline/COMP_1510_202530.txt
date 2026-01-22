@@ -1,0 +1,162 @@
+URL: https://www.bcit.ca/outlines/20253044913/
+Course: COMP 1510
+Field: Programming Methods
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 44913
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Christopher Thompson
+E-mail: chris_thompson@bcit.ca
+Location: Online
+Office Hours: Office Hours will be posted in the Learning Hub.Office hours are by appointment via video conferencing.
+
+## Course Description
+This hands-on course is the foundation for all future programming courses and complements COMP 1537 and COMP 1800. This course introduces the fundamental concepts of programming including design, development, testing, debugging simple programs, as well as error-handling, and problem solving.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Design, implement, debug and test simple object-oriented programs in a modern high-level programming language.
+- Write programs using good software development processes including design before implementation, encapsulation, information hiding, message passing, decomposition and testing.
+- Analyze and explain behaviour of simple programs involving fundamental programming constructs.
+- Apply the techniques of decomposition to break a program into smaller modules with well-defined interfaces
+- Write automated tests to verify the correctness of their code.
+- Explain the representation and use of primitive data types and built-in data structures, including arrays and strings.
+- Explain the value of application programming interfaces (APIs) in software development.
+- Use variables, control statements, and input/output.
+- Use error handling to deal with exceptional circumstances.
+
+## Learning Resources
+Textbooks (Helpful but not required)
+
+- Ramalho, Luciano. (2022). Fluent Python: Clear, Concise, and Effective Programming 2nd Edition. O'Reilly.
+- Slatkin, Brett. (2020). Effective Python 2nd Edition. Addison-Wesley.
+- Various. (Ongoing). The Hitchhiker’s Guide to Python available at https://docs.python-guide.org/
+
+Software (Required)
+
+- A free copy of Python 3.13.1+ or later (instructions provided during first week)
+- A free copy of the JetBrains PyCharm Professional IDE (instructions provided during first week) You can request your free JetBrains Education License in advance here: https://www.jetbrains.com/community/education/#students
+- You can request your free JetBrains Education License in advance here: https://www.jetbrains.com/community/education/#students
+- A free account at Github.com (this will be used to submit your assignments, quizzes, and labs, instructions provided during second week in lab)
+- A free Slack account so you can join our COMP 1510 workspace (instructions provided during first week)
+- Videoconferencing software (see D2L for more details).
+
+## Evaluation Criteria
+Criteria: %: Comments
+Weekly quizzes and activities: 15: Weekly time-constrained individual and collaborative activities and quizzes in tutorial, and frequent in-lecture pop quizzes
+Labs: 15: Weekly time-constrained in-lab programming activities beginning during second week of class
+Term Project: 10: Independent at-home programming project assigned after the midterm and due at the end of the final week of class
+Midterm assessment: 25: Scheduled during midterm examination period
+Final assessment: 25: Scheduled during the final examination period
+Attendance and participation: 10: Attendance at labs and lectures and participation in online and in-person discussions and group activities
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+INSTRUCTIONAL WEEK: WEEK OF: TOPICS
+1: 01 Sep Introduction and setup: Hour 1: Intro; logistics and communication; selected history of programming; programming language levels and programming language paradigms
+Hour 2: Introduction to Python a high-level multi-paradigm language; Python keywords; The Zen of Python and the notion of programming philosophies and methods; the command line; operators, operands, and expressions; operator precedence; commands like print(); variables and assignment
+Hour 3: Text editors; IDEs and PyCharm; introduction to version control using git and GitHub; compound operators; basic input; data conversion and str(), int(), float(), etc.; type()
+Lab 0 (Welcome!): There are no labs this week! Labs begin next week on Monday!
+2: 08 Sep Computational thinking and flowcharts: Hour 1: Data types and why we need them; () [] {} and <>; four cornerstones of problem solving using computational thinking: decomposition, abstraction, pattern matching, algorithms
+Hour 2: Structured code using control statements for sequence (blocks), selection, repetition, and indirection (subroutines); flowcharts
+Hour 3: Programming lifecycle; sequence in Python; truth value testing and selection (branching) in Python using if, if-else, and if-elif-else statements; naming conventions
+Lab 1 (The Zen of Python): Learn the COMP 1510 workflow aka set up your toolchain -- Python3, pip3, PyCharm, git, GitHub, virtual environments, command line skills. Get started with programming and version control. You will write and execute a simple interactive script in PyCharm using variables, assignment, commands, expressions, operators, operands, and types! Quiz 01.
+3: 15 Sep Sequence, selection, repetition, indirection: Hour 1: Strings in detail; dot syntax; ASCII and Unicode; mutability; formatting output (f-strings, str.format, and %-formatting); built-in functions like len()
+Hour 2: Exploring the standard library; math module; random numbers; repetition (looping) with the for-loop; repetition (looping) with while; sentinel values; breaking out of loops; infinite loops; loops and user input
+Hour 3: Indirection and functions; anatomy of the single-purpose function; argument passing semantics (pass by value); functional decomposition; first decomposition examples and techniques; the main function
+Lab 2 (Computational thinking): Programming 101. You will generate and represent algorithmic solutions with flowcharts, and implement corresponding solutions that employ sequence and selection! Quiz 02.
+4: 22 Sep Simple debugging and unit testing: Hour 1: Passing functions to functions as objects; scope; always minimize scope; constants vs globals
+Hour 2: Intro to debugging and lint; debugging with PyCharm; documentation; comments and docstrings for functions and modules including pre- and post-conditions and doctests
+Hour 3: Errors, syntax and semantics; testing; disjointed equivalency partitions and coverage; automated testing; unit testing; assertions
+Lab 3 (Modularity, reusabililty, and encapsulation): Functions, indirection, and memory. You will implement and document first functions using indirection, decomposition, selection, user input, built in-functions. Quiz 03.
+5: 29 Sep Booleans, intro to data structures: Hour 1: Boolean expressions and, or, not; short-circuiting; bitwise operations; comparing and rounding floats
+Hour 2: Intro to data structures and containers; lists; working with lists; slicing lists; membership operators in and not in
+Hour 3: The range function; tuples; sets and frozensets
+Lab 4 (Parsimony, clarity, and correctness): Testing and debugging code. You will consider parsimony and clarity while implementing, documenting, testing and debugging a solution to a brain teaser that uses lists and looping and functions from some other module(s) like math, random, copy, pprint, etc. Quiz 04.
+6: 06 Oct More data structures, more unit testing: Hour 1: Dictionaries; nested data structures
+Hour 2: ​Syntactic sugar and list and dictionary and set comprehensions; conditional expressions; pass statement
+Hour 3: More about unit testing (fixtures; mocking; generating input for tests; testing printed output; creating 'predictable' random numbers)
+Lab 5 (Cryptography and ciphers): You will build, test, and debug a small module of related atomic functions to help me encrypt and decrypt some ciphers. Quiz 05.
+7: 13 Oct Memory, modules, and packages: Hour 1: The Python memory model summary (stack, heap, variables, references, addresses, objects, interning, identity is/id() vs equality ==); identity vs equality; copying (deep vs shallow copies)
+Hour 2: Memory management and garbage collection; compiling vs interpreting; duck typing (static vs dynamic) and strong vs weak typing; sys.args for command line arguments; passing command line arguments to the main function
+Hour 3: Modules and packages; using external packages with pip3; requirements.txt, __init__.py; building good modules and functions (implementing encapsulation, information hiding, message passing; decomposition; testing)
+Lab 6 (Put it all together): We will not meet for lab this week because Monday is Thanksgiving! The lab exercise is an at-home exercise! Quiz 06 with be deployed during lecture.
+20 Oct: Midterm exam week (no class) *** The use of a computer is required for the COMP 1510 midterm assessment***
+8: 27 Oct Exceptions, file IO: Hour 1: Exceptions; try-except-else-finally; unit testing: testing for expected exceptions; exception hierarchy; commonly used exceptions
+Hour 2: Programming approaches: validate arguments and throw exceptions in response to illegal arguments, guard clauses, LBYL vs EAFP
+Hour 3: File IO; opening, reading from, writing to, closing, deleting files; context managers and else blocks; context managers and file-like objects; working with JSON
+Lab 7 (Gaming): You will Implement a simple game for me! Quiz 07.
+Term Project: Term Project is released (due at the end of week 12)
+9: 03 Nov Closures, lambda, iteration: Hour 1: More about functions: default values; variable length parameter lists; positional and arbitrary arguments; keyword arguments; annotations; recursion 101
+Hour 2: Function decorators, inner functions, closures and lambda
+Hour 3: Iteration, Iterables and iterators; itertools
+Lab 8 (Profiling and optimizing): You will experiment and consider the benefits and costs of LBYL vs EAFP and explore some basic optimization techniques. Quiz 08.
+10: 10 Nov Advanced Iteration: Hour 1: Creating and using generators with yield
+Hour 2: Using zip, filter, map; using enumerate() instead of range; ranges vs iterators vs views
+Hour 3: Exploring the Python ecosystem: First steps
+Lab 9 (Programming style): You will build, document, annotate, test, and debug a shareable project that contains a small, well-designed module of related atomic functions that solves an interesting programming puzzle! Quiz 09.
+11: 17 Nov Python ecosystem exploration: Hour 1: Python ecosystem exploration: Flask and Django
+Hour 2: Python ecosystem exploration: ML/AI
+Hour 3: Python ecosystem exploration: databases
+Lab 10 (Python ecosystem exploration): TBA. Quiz 10.
+12: 24 Nov Python ecosystem exploration: Hour 1: Python ecosystem exploration: GUI with tkinder
+Hour 2: Python ecosystem exploration: regular expressions
+Hour 3: Review for final exam
+Lab 11 (Python ecosystem exploration): Python on the web. Build, test, document, and publish a simple web API using Flask. Quiz 11.
+Term Project: Final submission before midnight on Saturday.
+01 Dec Review: Study/Makeup/Review/Presentation Week
+08 Dec: Final exam week (no class) ***The use of a computer is required for the COMP 1510 final assessment.***
+
+* subject to change
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Christopher Thompson, Instructor August 25, 2025
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head August 31, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 02, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

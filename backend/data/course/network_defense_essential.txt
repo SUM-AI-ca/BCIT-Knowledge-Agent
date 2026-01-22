@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/network-defense-essential-xcsa-1102/
+Title: Network Defense Essential
+Field: Cybersecurity Network Admin
+Type: Course
+Course Code: XCSA 1102
+
+================================================================================
+
+## Overview
+
+This course explores essential security defense concepts with a focus on FortiGate Firewalls. Students will learn about specific types of security attacks, how to work with the next generation of firewalls (NGFW). Students will learn what is new in NGFW and how they can use these technologies to secure the network. Hands-on activities include working with NGFW, and implementing VPN in different scenarios in a lab environment.
+
+## Credits
+
+1.0
+
+## Cost
+
+$222.30
+
+## Prerequisites
+
+- Basic knowledge of networking, routing, and switching and OS.
+
+## Learning Outcomes
+
+- Implement Firewall Policies
+- Configure NAT
+- Configure Firewall Authentication
+- Configure Logging and Monitoring
+- Understand Certificate Operations
+- Configure Web Filtering
+- Configure Application Control
+- Configure Antivirus
+- Identify IPS
+- Implement SSL VPN
+- Implement IPSEC VPN
+- Data Leak Prevention
+- Configure High Availability
+- Configure VDOM
+- Configure SDWAN
+- Configure FSSO
+
+## Related Programs
+
+- Cybersecurity Analysis for Network Administrators

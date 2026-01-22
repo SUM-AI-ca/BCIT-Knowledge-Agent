@@ -1,0 +1,322 @@
+URL: https://www.bcit.ca/outlines/20241015211/
+Course: MATH 2511
+Field: Calculus for Geomatics
+
+School: School of Construction and the Environment
+Program: Geomatics
+Course Credits: 9.5
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: May 24, 2024
+Total Hours*: 140
+Total Weeks: 20
+Hours/Weeks: 7
+Delivery Type: Lecture
+Prerequisite(s): MATH 1511
+CRN: 15211
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Stefan Lukits
+E-mail: slukits@bcit.ca
+Location: SW2 231
+Office Hours: See D2L schedule.
+
+## Course Description
+Differentiation rules for algebraic, trigonometric, inverse trigonometric, logarithmic and exponential functions; related rates, differentials and approximations used in surveying, radius of curvature; selected integration, arc length, the spiral curve; Taylor and Maclaurin series; 3D analytic geometry, partial differentiation with applications in geomatics.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Compute functional values.
+- Calculate the limits of functions.
+- Use the limiting process to find the derivative of a polynomial.
+- Apply general rules for differentiating products and quotients.
+- Use differentiation to determine the radius of curvature for curves such as vertical curves.
+- Apply the rules of differentiation to find the derivatives of implicit functions.
+- Determine the maxima and minima of functions.
+- Locate the maximum and minimum of a vertical curve.
+- Use maxima and minima as an aid to curve sketching.
+- Use the graphics calculator to graph curves.
+- Solve related rates problems.
+- Use Newton-Raphson to solve non-linear equations such as can be found in map projections.
+- Find approximate and relative errors using differentials.
+- Find the derivatives of trigonometric and inverse trigonometric functions.
+- Apply trigonometric differentiation to problems such as finding the radius of curvature at a point on a spheroid.
+- Find the derivatives of logarithmic and exponential functions.
+- Carry out indefinite integration of polynomials.
+- Solve indefinite integrals using more advanced methods of integration.
+- Compute the values of definite integrals using a variety of methods including Simpson's Rule and a graphics calculator.
+- Apply definite integration to finding areas, volumes and arc lengths particularly of irregular areas and volumes.
+- Determine polar moments of inertia in order to help understand the physics of a gyroscope.
+- Carry out the expansion of functions using Taylor and Maclaurin series.
+- Use series expansions to find some approximate formulae used in geomatics such as reduction of EDM lines.
+- Derive some of the formulae used in spiral curves.
+- Employ basic calculus laws to find partial derivatives.
+- Use partial differentiation to determine some of the parameters used in map projections.
+- Carry out the partial differentiation necessary for the solution of small level net problems.
+- Use Lagrange multipliers to solve simple minimum/maximum problems.
+
+## Learning Resources
+There is no textbook. Lecture notes and other materials will be made available on D2L.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab Reports (16): 12
+Midterm Tests (3): 51
+Final Exam: 30
+Attendance: 7
+
+## Attendance Requirements
+Attendance will be taken consistently and is an evaluation criterion.
+
+## Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+
+## Course Schedule and Assignments
+no lab in first week
+
+Wednesday, January 3
+
+Lab B cancelled (lecture will go ahead)
+
+Thursday, January 4
+
+Friday, January 5
+
+Lab A cancelled (lecture will go ahead)
+
+Monday, January 8
+
+Wednesday, January 10
+
+Thursday, January 11
+
+Friday, January 12
+
+Monday, January 15
+
+Wednesday, January 17
+
+Lab Report due
+
+Thursday, January 18
+
+Friday, January 19
+
+Monday, January 22
+
+Wednesday, January 24
+
+Lab Report due
+
+Thursday, January 25
+
+Friday, January 26
+
+Monday, January 29
+
+Wednesday, January 31
+
+Lab Report due
+
+Thursday, February 1
+
+no class (instructor surgery scheduled)
+
+Friday, February 2
+
+Monday, February 5
+
+Wednesday, February 7
+
+Lab Report due
+
+Thursday, February 8
+
+Friday, February 9
+
+Monday, February 12
+
+Wednesday, February 14
+
+Lab Report due
+
+Thursday, February 15
+
+Friday, February 16
+
+Monday, February 19
+
+Family Day: no class
+
+Wednesday, February 21
+
+Lab Report due
+
+Thursday, February 22
+
+Friday, February 23
+
+Monday, February 26
+
+Term Test A
+
+Wednesday, February 28
+
+Lab Report due
+
+Thursday, February 29
+
+Friday, March 1
+
+Monday, March 4
+
+Wednesday, March 6
+
+Lab Report due
+
+Thursday, March 7
+
+Friday, March 8
+
+Monday, March 11
+
+Spring Break: no class
+
+Wednesday, March 13
+
+Spring Break: no class
+
+Thursday, March 14
+
+Spring Break: no class
+
+Friday, March 15
+
+Spring Break: no class
+
+Monday, March 18
+
+Wednesday, March 20
+
+Lab Report due
+
+Thursday, March 21
+
+Friday, March 22
+
+Monday, March 25
+
+Term Test B
+
+Wednesday, March 27
+
+Lab Report due
+
+Lab B cancelled (lecture will go ahead)
+
+Thursday, March 28
+
+Friday, March 29
+
+Good Friday: no class
+
+Monday, April 1
+
+Easter Monday: no class
+
+Wednesday, April 3
+
+Lab Report due
+
+Thursday, April 4
+
+Friday, April 5
+
+Monday, April 8
+
+Wednesday, April 10
+
+Lab Report due
+
+Thursday, April 11
+
+Friday, April 12
+
+Monday, April 15
+
+Wednesday, April 17
+
+Lab Report due
+
+Thursday, April 18
+
+Friday, April 19
+
+Monday, April 22
+
+Term Test C
+
+Wednesday, April 24
+
+Lab Report due
+
+Thursday, April 25
+
+Friday, April 26
+
+Monday, April 29
+
+Wednesday, May 1
+
+Lab Report due
+
+Thursday, May 2
+
+Friday, May 3
+
+Monday, May 6
+
+Wednesday, May 8
+
+Lab Report due
+
+Thursday, May 9
+
+Friday, May 10
+
+Monday, May 13
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Stefan Lukits, Instructor December 22, 2023
+
+I verify that this course outline has been reviewed. David Holloway, Program Head December 22, 2023
+
+I verify that this course outline has been reviewed. Darryl Dube, Program Head December 28, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 28, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/safety-controls-and-intrinsically-safe-systems-acim-6020/
+Title: Safety Controls and Intrinsically Safe Systems
+Field: Automated Controls Installation & Maintenance
+Type: Course
+Course Code: ACIM 6020
+
+================================================================================
+
+## Overview
+
+This course covers installation, configuration, and programming for safety devices, safety controllers, and intrinsically safe devices that are widely used in industrial manufacturing and process control systems to ensure worker safety, and to protect equipment by inhibiting unwanted machine movement and preventing explosions. The student will make electrical connections to master shutdown devices that have supervised wiring including safety light curtains. A major activity will be the integration of field safety and intrinsically safe field devices into a Rockwell Guardlogix Safety PLC system.
+
+## Credits
+
+3.0
+
+## Cost
+
+$1,156.05
+
+## Prerequisites
+
+- 70% in ACIM 5030 and 70% in ACIM 5040
+
+## Learning Outcomes
+
+- Apply the Canadian Electrical Code to the installation of safety devices and safety controllers.
+- Describe the difference between a PAC/PLC Safety Controller and a conventional PAC/PLC.
+- Follow manufacturers’ instructions to install safety devices and safety controllers.
+- Apply the Canadian Electrical Code—Hazardous Locations (Section 18) to specify installation materials and methods to volatile environments where intrinsically safe devices are required.
+- Identify stored energy hazards in automated control systems.·
+- Install intrinsically safe devices according to the instructions of the manufacturer and the Canadian Electrical Code.
+
+## Related Programs
+
+- Automated Controls Installation and Maintenance

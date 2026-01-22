@@ -1,0 +1,103 @@
+URL: https://www.bcit.ca/outlines/20242055896/
+Course: GIST 8010
+Field: GIS Programming 2
+
+School: School of Construction and the Environment
+Program: Geographic Information Systems
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: April 05, 2024
+End Date: June 21, 2024
+Total Hours*: 45
+Total Weeks: 12
+Hours/Weeks: 3.75
+Delivery Type: Other
+Prerequisite(s): 50% in GIST 7010 Course registration is restricted to current students registered in a BCIT GIS program.
+CRN: 55896
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Rob Hewlett
+E-mail: Instructor to provide
+Location: SW03-2079
+Office Hours: Instructor to provide
+
+## Course Description
+​This course covers advanced geospatial programming technologies. Topics include accessing the latest cloud and on premises geospatial datastores, working with the latest geospatial APIs, and comparing application patterns, responsive and reactive frameworks. Students will create various UI-based applications for the web and web-mobile realms. ​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Create applications that display geospatial information.
+- Integrate geospatial APIs that demonstrate encapsulation, inheritance, polymorphism, abstraction, and serialization.
+- Implement structured error handling.
+- Incorporate event driven architectures in geospatial solutions.
+- Access and update geospatial datastores.
+- Compare application patterns such as: MVC, MVP and MVVM.
+- Create applications that integrate the latest web and web-mobile geospatial technologies.
+- Compare COTS, MOTS, GOTS and NOTS solutions​.
+
+## Learning Resources
+Textbook:
+
+Getting to Know: Web GIS
+
+Author(s): Pinde Fu Publisher: ESRI Press Copyright year: © 2022 Edition: 5th
+
+Print ISBN: 9781589487277, 1589487273 eText ISBN: 9781589487284, 1589487281
+
+VitalSource
+
+Amazon
+
+## Evaluation Criteria
+Type: Item: Weight
+Exams
+Exam 01: 17.5%
+Exam 02: 17.5%
+Exam 03: 17.5%
+Final Exam: 17.5%
+Assignments
+Lab exercises (evenly weighted): 30%
+Total: 100%
+
+## Course Schedule and Assignments
+week: mod: lecture: lab: exam: due_date
+1: Course intro
+2: 1: Spatial web+mobile and COTS: FieldMaps and Survey123: 19-Apr-2024
+3: 2: Responsive design: Story maps and dashboards: Exam 01: 26-Apr-2024
+4: 3: Spatial-web and the separation of concerns: Instant apps, web apps & the webmap: 3-May-2024
+5: 4: Introduction to Experience Builder: EXB: data, page, section, screen, layouts: 10-May-2024
+6: 5: ArcGIS Maps SDK an introduction: Layers, maps, views and widgets: Exam 02: 17-May-2024
+7: 6: Introduction to the Calcite Design System: Calcite: Shell, panel, action bars and icons: 24-May-2024
+8: 7: ArcGIS Maps SDK a deeper dive: ReativeUtils, Querying client side, Charts, CSS-Grid: 31-May-2024
+9: 8: Calcite Design System a deeper dive: List, list items and chips: Exam 03: 7-Jun-2024
+10: 9: Javascript and threads: Web workers: 14-Jun-2024
+11: 10: Micro services and middleware: ArcGIS data pipelines: 21-Jun-2024
+12: Final Exam: Final Exam: 21-Jun-2024
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Rob Hewlett, Instructor April 01, 2024
+
+I verify that this course outline has been reviewed. Carmen Heaver, PTS Coordinator April 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean April 04, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

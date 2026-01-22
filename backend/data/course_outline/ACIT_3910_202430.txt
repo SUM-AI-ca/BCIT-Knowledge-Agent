@@ -1,0 +1,124 @@
+URL: https://www.bcit.ca/outlines/20243048493/
+Course: ACIT 3910
+Field: Database Administration and Management
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ACIT 1630
+CRN: 48493
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Patrick Guichon
+E-mail: patrick_guichon@bcit.ca
+Location: DTC-513
+Office Hours: Please let us know if you wish to see one of us during office hours by email Patrick Guichon at: patrick_guichon@bcit.ca, Trevor Lord at: tlord1@bcit.ca or see your instructor during class. Patrick's office hours: Tues 11:30AM to 1:30PM; Wed 2:30PM to 3:30PM; Thurs 8:30AM to 9:30AM; Thurs 12:30PM to 1:30PM. Trevor's office hours: Mon 10:30AM to 1:00PM; Tues 10:30AM to 1:00PM.Please schedule an online meeting (preferably 24-hours in advance) - Send an email to patrick_guichon@bcit.ca or tlord1@bcit.ca.
+
+## Course Description
+In this course students will install, create database and learn how to perform basic administration. Students will learn to configure the database to support different applications, perform tasks such as create users and schema objects, apply constraints, setup access control, assign memory, define storage structures and manipulate data. Since database administration does not end after the database is created, students will learn the importance of backup and recovery strategy. A good understanding of the DBMS architecture, performance monitoring and concurrency control are essential to ensure the database operates smoothly to support transaction processing.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Create database, configure and set initialization parameters
+- Start and stop the database in different modes
+- Connect clients to database instance
+- Describe a basic database management system architecture
+- Manage and use the DBMS’s process, memory and storage
+- Apply database access control and administer user accounts, roles and privileges
+- List and describe the different types of database objects
+- Apply various types of table constraints using SQL DDL with some advanced features
+- Access and manipulate data using SQL DML with some advanced features
+- Explain performance monitoring with basic analysis
+- Describe database transaction processing based on ACID property adherence
+- Explain recovery concepts of using redo and undo of transaction data
+- Describe concurrency control, locks application and resolution of lock conflicts
+- Identify potential key causes of database failures
+- Assess and evaluate suitable type of database for selected problem domain
+
+## Learning Resources
+Required: 1: MySQL 8 Administrator's Guide Chintan Mehta et al. February 2018 (eBook available) https://www.packtpub.com/big-data-and-business-intelligence/mysql-8-administrators-guide
+
+2: High Performance MySQL, 4th Edition Proven Strategies for Operating at Scale By Silvia Botros, Jeremy Tinley Publisher: O'Reilly Media Release Date: November 2021
+
+https://www.oreilly.com/library/view/high-performance-mysql/9781492080503/ https://www.amazon.ca/dp/1492080519
+
+## Course Goals
+- Install, configure and administer a MySQL Server on Windows and Linux (edit config file, start/stop MySQL service).
+- Optimize INSERTs, DELETEs, SELECTs and Aggregate queries in MySQL.
+- Connect to and run queries against a MySQL Server on a CLI and GUI.
+- Create users and assign privileges within MySQL to limit the potential threat of data loss due to accidental query execution. Analyze existing users and privileges to know who has access to what.
+- Import SQL and non-SQL formatted (CSV style) data into MySQL.
+- BEGIN, COMMIT and ROLLBACK a transaction.
+- Add indexes to a table to speed up a set of queries.
+- Create and manage summary tables to optimize aggregate SELECT statements (with GROUP BYs).
+- Be able to perform a hot and cold backup of a database and restore partial or complete databases in response to a variety of database loss scenarios.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final: 30: A combined weighted average of 50% on the midterm and the final exam is required in order to pass this course.
+Midterm: 20
+Assignments: 15
+Labs: 20
+In-class Quizzes: 10
+Reading Quizzes: 5
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+This course includes mandatory online learning activities. Lack of participation in the online portion of this class may result in failure or forced withdrawal from the course.
+
+## Course Schedule and Assignments
+ACIT 3910 Database Administration and Management
+Tentative Schedule
+Week: Date: Topics: Reading: Reading Quiz: Quiz: Lab: Assign
+1: Sep 2, 2024: Start your Engines: Configure VM, DB, Tools: MySQL8 Chap 1, 2 Handouts - Install Guide: 1
+2: Sep 9, 2024: Under the hood: DB Config and Services: MySQL8 Chap 3, 5, 15 (root password): 1: 1: 2
+3: Sep 16, 2024: Incoming: Importing and Manipulating Data: Lesson Notes: 2: 2: 3
+4: Sep 23, 2024: Power to the People: Users, Roles, Privileges: MySQL8 Chap 11: 3: 3: 4: 1
+5: Sep 30, 2024: It's in the cloud! Amazon Relational Database Service (AWS RDS) w/ Replication and Recovery: Lesson Notes: 4: 4: 5
+6: Oct 7, 2024: Data Play: Data Definition Language (DDL): MySQL8 Chap 4, 6, 7 HP4 Chap 5, 6: 5: 5: 6
+7: Oct 14, 2024: Data Play 2: Other Database Objects: HP3 Chap 7: 6: 6: 7: 2
+8: Oct 21, 2024: Midterm
+9: Oct 28, 2024: We are not alone: Transactions, Deadlocks: HP4 Chap 1, HP3 Apdx E: 7: 8
+10: Nov 4, 2024: Is that the best you can do? Performance Tuning: HP4 Chap 7, HP3 Apdx D: 8: 7: 9
+11: Nov 11, 2024: You can do better. Performance Tuning 2: HP4 p199, p288-p289 Percona Part 2 and 3: 9: 8: 10
+12: Nov 18, 2024: Ground Zero: Backup and Recovery: HP4 Chap 10 Percona Part 2 and 3: 10: 9: 11: 3
+13: Nov 25, 2024: Review: Lesson Notes: 10
+14: Dec 2, 2024: (reserve for Makeups, Reviews, or Presentations)
+15: Dec 9, 2024: Final
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Patrick Guichon, Instructor August 26, 2024
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head September 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

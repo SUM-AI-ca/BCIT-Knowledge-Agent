@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/web-design-technologies-2-mdia-2205/
+Title: Web Design Technologies 2
+Field: Media Communications
+Type: Course
+Course Code: MDIA 2205
+
+================================================================================
+
+## Overview
+
+This course is a continuation of MDIA 1205 (Web Design Technologies 1), which begins with a review of the basic concepts of HTML and CSS (Cascading Style Sheets) and then moves into more complex topics. These techniques involve HTML5 functions for creating interactive online forms using input elements and related attributes. You will be provided with server-side script for form processing. This course introduces you to organic Search Engine Optimization (SEO) and how search engines index, return, and rank results. Web analytics and sitemaps are also discussed. Activities include keyword research, choosing appropriate keywords, and preparing a web page optimized with the techniques covered. In depth coverage of CSS concepts and routines are detailed, including different types of page layouts, navigation menus, accessibility, semantic naming of CSS elements, contextual selectors, grouping selectors, pseudo-classes and elements, the float property and element positioning. You will create web page layouts with CSS styled vertical and horizontal navigation menus, general links as well CSS styled images, data tables, and print style sheets for your pages. Practical CSS techniques, such as best practices, code organization, commenting, shorthand, and accessibility, will be explored.
+
+## Credits
+
+3.0
+
+## Cost
+
+$648.57
+
+## Prerequisites
+
+- 50% in MDIA 1205 † ( † may be taken concurrently)
+
+## Learning Outcomes
+
+- Construct a functioning, interactive web form using server-side actions.
+- Design a complete web page including content related to the form topic.
+- Demonstrate the use of form input elements and attributes.
+- Style both the web page and the form using CSS.
+- Describe what SEO is and how search engines work.
+- Describe the difference between organic and paid SEO.
+- Analyze the results of keyword research based on a keyword tool.
+- Create search engine compatible web pages using SEO techniques.
+- Employ CSS to enhance website design that includes CSS styled layouts, navigation and general links.
+- Demonstrate element placement using CSS positioning properties.
+- Construct vertical and horizontal CSS-based navigation menus.
+- Create print style sheets.
+- Apply CSS best practices including semantic markup, commenting, shorthand, and accessibility considerations.
+
+## Related Programs
+
+- Web Technologies

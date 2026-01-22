@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/security-applications-fsct-8561/
+Title: Security Applications
+Field: Forensic Investigation
+Type: Course
+Course Code: FSCT 8561
+
+================================================================================
+
+## Overview
+
+This course is a study of prototyping security tools using high-level languages such as Ruby, Python, and Lua. Implementation of basic communication applications using the TCP/IP protocol suite will be introduced. Security applications that will be designed and implemented as part of the course will include packet sniffers, backdoors, logfile parsers, packet crafters, variety of spoofing applications, simple Intrusion Detection and Prevention systems. Also covered will be shell scripting techniques and implementation of shell-scripts to perform system-related tasks. As part of implementing defensive applications, students will also be introduced to basic Linux-based tools and utilities such as Netfilter, cron, etc.
+
+## Credits
+
+3.0
+
+## Cost
+
+$945.15
+
+## Prerequisites
+
+- 60% in FSCT 7511
+
+## Learning Outcomes
+
+- Assess and prototype proof-of-concept applications using languages such as Ruby and Python.
+- Design simple Intrusion Prevention systems using shell scripts, cron, and Netfilter.
+- Select appropriate applications such as packet sniffers to be used as defensive and offensive tools.
+- Explain how malicious applications such as ARP poisoning, DNS spoofing, stealth backdoors and covert channels are designed and used.
+- Protect network resources against malicious applications using different defensive tools.
+- Design a Network/Host based intrusion detection system that utilizes Machine Learning and AI techniques.​​​​
+
+## Related Programs
+
+- Forensic Investigation (Digital Forensics and Cybersecurity Option)
+- Forensic Investigation (Digital Forensics and Cybersecurity Option)

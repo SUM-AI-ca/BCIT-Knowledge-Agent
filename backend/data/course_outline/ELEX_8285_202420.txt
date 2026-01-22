@@ -1,0 +1,93 @@
+URL: https://www.bcit.ca/outlines/20242061963/
+Course: ELEX 8285
+Field: Power System Protection
+
+School: School of Energy
+Program: BTech Electronics
+Course Credits: 3
+Minimum Passing Grade: 50%
+Start Date: April 18, 2024
+End Date: July 18, 2024
+Total Hours*: 42
+Total Weeks: 14
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in ELEX 7240
+CRN: 61963
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Russ Chore
+E-mail: Instructor to provide
+Location: Off Campus
+Office Hours: Instructor to provide
+
+## Course Description
+This course describes design methods and equipment required to protect utility power systems against faults and operating conditions that could damage power system components. Topics include a review of power system fundamentals, types of faults, and protection philosophy. Design strategies for protection of distribution feeders, substation buses, transformers, transmission lines, and generators will be specified in detail. Laboratory exercises based on power system modelling for fault studies, protection coordination and fault record analysis are included in this course.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+
+- Describe the economic, reliability and safety roles that protection systems have in power system operation.
+- Specify how faults on power systems occur, and the impact these faults have on power system equipment and operation.
+- Analyse electrical one line diagrams and determine suitable protection schemes to allow safe and reliable operation of power systems.
+- Analyse how the non-ideal operating characteristics of instrument transformers impact protection system operation.
+- Design using a philosophy which considers the entire life cycle of protection system equipment, from initial design, installation, and commissioning to long term maintenance and performance monitoring.
+- Describe the operating principals of overcurrent, impedance, and current differential fault detection methods.
+- Identify power system faults using symmetrical components.
+- Design protection schemes for power system generators, transmission lines, transformers, buses, and distribution systems.
+- Design fault and protection coordination studies using modern power system simulation software.
+- Analyse the impact emerging technologies on traditional protection schemes
+
+## Learning Resources
+All course materials and resources will be available through Learning Hub.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignments and Quizzes: 25%
+Labs: 20%
+Midterm: 20%
+Final: 25%
+Course Completion: 10%
+
+## Course Schedule and Assignments
+April 18: Lesson 1 - Introduction to Power System Protection
+April 25: Lesson 2 - Protection Devices (CBs, CTs, VTs, Protection Relay Overview)
+May 2: Lesson 3 - Fault Modeling , Balanced Faults, Fault Levels and Fault Studies
+May 9: Lesson 4 - Unbalanced Faults, Symmetrical Components
+May 16: Lesson 5 - Overcurrent Protection, Distribution Feeder Protection
+May 23: Lesson 6 - Differential Protection, Bus Protection
+May 30: Midterm (Lesson 1-6)
+June 6: Lesson 7 - Electrical and Non-Electrical considerations for Transformer Protection
+June 13: Lesson 8/9 - Impedance Protection, Transmission Line Protection
+June 20: Lesson 10 - Generator Protection
+June 27: Lesson 11 - Miscellaneous Protection Topics
+July 4: Project - Feeder Protection Design, Relay Programming and Testing
+July 11: Lesson 12 - Arc Flash Studies and Arc Flash Protection
+July 18: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Russ Chore, Instructor April 09, 2024
+
+I verify that this course outline has been reviewed. Muhammad Ahmed, Program Head April 12, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean April 15, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

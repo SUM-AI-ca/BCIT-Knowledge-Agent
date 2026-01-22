@@ -1,0 +1,117 @@
+URL: https://www.bcit.ca/outlines/20241083940/
+Course: ELEX 3403
+Field: Renewable Energy Systems
+
+School: School of Energy
+Program: Electrical & Computer Engineering Technology
+Course Credits: 1
+Minimum Passing Grade: 50%
+Start Date: April 22, 2024
+End Date: May 17, 2024
+Total Hours*: 16
+Total Weeks: 4
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ELEX 3425† († may be taken concurrently)
+CRN: 83940
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Pooya Taheri
+E-mail: ptaheri3@bcit.ca
+Location: SW2 - 263
+Office Hours: Mondays: 11:00-12:00Thursdays: 11:00-12:00Or by appointment.
+
+## Course Description
+The focus of this course will be on the renewable energy resources, their present-day technologies and operation principals. This course builds upon general knowledge in mathematics and natural sciences as well as electrical concepts learned in the first year of the program. The course is designed to give students the required background to evaluate renewable energy systems. The class will explore solar, wind, small hydro and tidal energy systems in general and will be given the opportunity to specialize in wind or solar systems. Software tools will be used for modelling and simulation throughout the course.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Describe the primary renewable energy systems and technologies.
+- Describe basic electrical components and system architecture of renewable energy systems.
+- Compare energy resources and technologies using the concept of energy demand.
+- Evaluate renewable energy systems for residential and commercial applications.
+- Create a project proposal for a residential renewable energy systems.
+- Use engineering software to model and design renewable energy systems.
+- Apply Canadian Electric Code sections to design a residential renewable energy system.
+
+## Learning Resources
+Lecture Notes.
+
+## Course Goals
+The class will focus on solar and wind energy systems, providing the basics of energy conversion and the factors affecting the efficiency of the conversion.
+
+Software tools will be used for modelling and simulation of solar and wind energy systems.
+
+Students will be exposed to hands on experiments on solar panels to find the typical IV and PV curves of panels.
+
+The role of power electronics converters in renewable energy applications will be studied throughout the course.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs (practical): 70: (1)
+Final Exam (theory): 30
+
+(1): The minimum passing grade is 50%. Successful completion of both the practical component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Specific Requirements
+Successful completion of both the practical component and the theory component (50% grade in each) of this course is required for a passing grade.
+
+## Safety equipment or protective clothing
+Safety protocol for SW3-2750.
+
+## Other information
+Software Used in This Course: MATLAB/Simulink
+
+## Course Schedule and Assignments
+Week 1:
+
+- Introduction to solar cells, panels, arrays.
+- Lab 1: Simulink simulation of PV panels
+
+Week 2:
+
+- Introduction to IV and PV curves and Maximum Power Point Tracking (MPPT)
+- Lab 2: Simulink simulation of MPPT and partial shading
+
+Week 3:
+
+- Introduction to basics of renewable wind system
+- Lab 3: Double-Fed Induction Generators
+
+Week 4:
+
+- Introduction to different classes of Wind Turbine Generators (WTG)
+- Exam
+
+## Course topics
+Weeks 1 and 2: Solar systems
+
+Weeks 3 and 4: Wind energy systems
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Pooya Taheri, Instructor January 02, 2024
+
+I verify that this course outline has been reviewed. Kathy Manson, Program Head January 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

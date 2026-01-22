@@ -1,0 +1,553 @@
+URL: https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt/
+
+Title: Computer Systems
+
+================================================================================
+
+## Overview
+
+Delivery
+
+blended
+
+Overview text
+
+The CST Diploma is a well recognized credential with employers who know that CST graduates are job ready. CST grads have hands-on experience solving problems by writing code, creating software, developing web applications, and designing scalable and secure enterprise Computing and IT system solutions. CST/FLEX is part-time delivery so you can adjust your course load each term to suit your availability. You could complete this program in as little as 2 years with 3 courses per term, or 3 years with 2 courses per term. See the Program Details to learn more about what you can expect from CST/FLEX, and how you can prepare for a wide variety of career options in the Computing and IT industry. This program might be for you if: If any of these sound like you, please check the Entrance Requirements to ensure you can apply and start your new IT career! By earning your BCIT Diploma, you will have gained significant knowledge and hands-on skills with various industry-recognized technologies and tools, preparing you for positions in multiple sectors across the globe. As a CST graduate, you will be able to:
+
+
+
+## Courses
+
+### 1. Completion of the BCIT Computer Systems Certificate (60.0 credits):
+
+### 2. Required Courses (39.5 credits):
+
+COMP 1288 - IT Project Management Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/comp1288/
+
+Credits: 1.5
+
+Description: This hands-on course is aimed at BCIT Computing students who want to develop and implement an IT project plan. Students focus on Project Management best practices and decisions which apply across the IT sector including software development, building web sites and data analytics systems. COMP 1288 begins with a definition of Project Management fundamentals and terminology. Topics include: stakeholders, scope, deliverables, phases, milestones, deadlines, scheduling, estimates and budgets. Labs and exercises are designed to create project plans that identify and manage risk and take into account quality measures. There is a basic introduction to Microsoft Project software. Participants apply strategies to communicate project progress to stakeholders to keep IT projects on time and on budget. COMP 1288 is an elective in several associate certificates, including Applied Computer Information Systems (ACIS) and Agile Development, and is required for the CST FLEX Diploma. Upon successful completion students will have a basic understanding of project management concepts and tools and will be able to conduct a post project evaluation.
+
+Prerequisites: No prerequisites are required for this course.
+
+COMP 3015 - Web Application Development with PHP
+
+Outline URL: https://www.bcit.ca/outlines/comp3015/
+
+Credits: 3.0
+
+Description: This hands-on advanced course follows COMP 2132 –Web Development with JavaScript and is aimed at students who already possess a solid understanding of web development and who have client-side programming experience. COMP 3015 begins with basic client-server concepts. Participants are then introduced to server-side programming with PHP and a variety of open-source software tools. Topics include: data encoding, regular expressions, input sanitization, dependency management with Composer, and common components to a typical web application. MySQL, password hashing, and TLS are also discussed. Labs and assignments include using: file I/O, password hashing functions, plus uploading images and other files to a server. Participants gain hands-on experience developing and deploying server-side software in an Object- Oriented Programming (OOP) approach Students practice obtaining and processing user input, basic web application security and how to mitigate the dangers of cross site scripting, session hijacking, and SQL injection. COMP 3015 is a required course in the Web and Mobile Application Development (WMA) Associate Certificate, and the CST FLEX Diploma, which have significant coding prerequisites. Note: Applied Web Development (AWD) students without Java or C# programming language experience are advised to complete COMP 3012 -Back-End Web Development with Node.js, prior to this course. Upon completion, successful students will be able to develop commercial quality web applications and move on to COMP 4669 -Advanced Web Applications with PHP. The last offering of COMP 3015 is Fall 2025. The replacement course will be starting April 2026.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3603 - Application Development with C++*
+
+Outline URL: https://www.bcit.ca/outlines/comp3603/
+
+Credits: 4.0
+
+Description: This hands-on computer programming software application development course follows on from COMP 2511 and COMP 2601. It assumes students have prior knowledge of both procedural programming with C and understand object-oriented programming fundamentals using Java or C#. COMP 3603 starts with a quick review of the language syntax that is common to C, Java, C# and C++. Students are then introduced to C++ classes, and how inheritance, polymorphism, abstraction and modularization all relate to the C++ language. Participants must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Labs and exercises focus on the coding style and naming conventions used to build and deploy commercial quality C++ applications. Topics include: C++ Stream Input/Output, operator overloading, templates functions and classes, exception handling, and introduction to the Standard Template Library. Multiple inheritance to model complex algorithms is also discussed. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 16 total hours each week; 3 hours of class time, a 1-hour online component and 12+ hours of homework each week. COMP 3603 is the prerequisite for COMP 4603 – Advanced C++Application Development, starting September 2022. Both courses are electives in the Applied Software Development (ASD) Associate Certificate and both are required in the CST/PTS Diploma. Upon completion, successful students will be able to build and deploy well designed, entry-level C++ applications and be prepared to move on to COMP 4603- Advanced C++ Application Development.
+
+Prerequisites: 60% in COMP 2511 and 60% in COMP 2601
+
+COMP 3704 - Applied IT Security Foundations
+
+Outline URL: https://www.bcit.ca/outlines/comp3704/
+
+Credits: 3.0
+
+Description: This hand-on course offers and in-depth overview of key topics in information technology (IT) security and how to apply best practices for securing computer systems. COMP 3704 starts with an introduction to IT security principles prior to discussion risk terminology, IT security controls, policies, and standards. Topics include security awareness, risk mitigation and control administration. Data and application security, cryptography, information handling best practices, privacy and regulatory issues are also discussed. Labs and exercises include vulnerability assessment, penetration testing, incident response, disaster recovery, and forensic analysis to gain practical experience. COMP 3704 is a required course in BCIT's Applied Data Analytics Certificate (ADAC) and the Computer Systems Technology (CST) FLEX Diploma. Upon completion of this course, successful participants will be able to identify common cyber threats and use standard controls to protect information assets.
+
+Prerequisites: 60% in COMP 1002 or 50% in ACIT 1420
+
+COMP 3725 - Data Communications for CST
+
+Outline URL: https://www.bcit.ca/outlines/comp3725/
+
+Credits: 5.0
+
+Description: Following on from COMP 2825 Computer Architecture, students are introduced to the basic concepts and terminology related to data communications, networking and network topologies. COMP 3725 replaces COMP 3721 in the CST/PTS Diploma and is equivalent to the full-time CST Diploma course. Students will learn about the TCP/IP protocol suite and the principles of protocols at the physical, data link, network and transport layers, the characteristics of transmission media, analog/digital transmission, multiplexing/switching techniques, basic error detection and correction, elementary data link protocols, flow control and an introduction to routing and congestion control issues. Multiple access protocols, the UDP and TCP protocols, networking and internetworking devices, LANs and WANs will also be discussed. The course has a strong emphasis on data communications at the physical layer and the assignments will reinforce the fundamental concepts and analysis techniques. Upon successful completion, students will be familiar with network protocol implementation using a layered approach and apply basic data communication theory to the design and analysis of networks.
+
+Prerequisites: 60% in COMP 2825 or 50% in COMP 2721
+
+COMP 3761 - Algorithm Analysis and Design
+
+Outline URL: https://www.bcit.ca/outlines/comp3761/
+
+Credits: 4.0
+
+Description: Understanding how to use algorithms for computer science is essential for problem solving to develop effective software applications. Algorithms are the foundation of both Artificial Intelligence (AI) and Machine Learning (ML). In this hands-on course, Java programming students who have also taken Discrete Mathematics will develop their ability to analyze and design computer algorithms. Learners will analyze the time and space complexity of programs, solve nontrivial programming problems using algorithmic techniques, and prove that their solution is correct. The emphasis will be on developing the practical skills of analysis and design. Topics include evaluating time and space complexity and designing solutions by using appropriate data structures or applying techniques such as recursion, parsing and graph algorithms. COMP 3761 is a required course in the CST FLEX Diploma and it is equivalent to COMP 3760 in the Full-time CST Diploma. Upon completion, successful students will have a better understanding of algorithm behavior and how to develop more efficient and effective software applications.
+
+Prerequisites: 50% in COMP 2121 and (60% in COMP 2601 or 50% in COMP 2522)
+
+COMP 3833 - Object Oriented Analysis and Design
+
+Outline URL: https://www.bcit.ca/outlines/comp3833/
+
+Credits: 3.0
+
+Description: This hands-on course replaces COMP 3832 as of August 2023. It follows on from COMP 2601- Programming Fundamentals Part 3 (Object Design) and COMP 2831 Business Analysis and Systems Design. Object-Oriented Analysis and Design (OOAD) is aimed software designers and developers who already know how to code significant object-oriented software applications and who also understand the Software development Life Cycle (SDLC) related tools and processes. Exercises and lab work allow students to perform an Object-Oriented Analysis (OOA) based on given requirements. After first identifying business classes students then produce a business model which will be transformed into a design model through Object-Oriented Design (OOD). Topics include: use case analysis, domain model, business classes and relationships, design patterns, anti-patterns, refactoring, General Responsibility Assignment Software Patterns (GRASP), state machine diagrams and types of software architecture. An Agile iterative approach will be followed throughout the OOAD process. Labs include the use of a CASE tool to draw the Unified Modeling Language (UML) diagrams necessary to support the OOAD activities. COMP 3833 is a required course in the Advanced .NET Development, and the Advanced Java Development Associate Certificates, as well as the CST FLEX Diploma. Upon completion, successful students will be able to demonstrate how to analyze, design and construct software applications to industry standards. This course is offered twice per year in the fall (September) and spring (April) terms.
+
+Prerequisites: 60% in COMP 2831 and (60% in COMP 2601 or 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603)
+
+COMP 4603 - Advanced C++ Application Development
+
+Outline URL: https://www.bcit.ca/outlines/comp4603/
+
+Credits: 4.0
+
+Description: This advanced software application development course follows on from COMP 3603 and COMP 3761. It assumes students have solid knowledge of procedural programming with C and can already write intermediate-level programs in C++. Participants must also understand how to use Alorithms Analysis and Design for advanced software application development. COMP 4603 starts with a quick review of writing and testing a well-formed C++ program. Students are then introduced to hands-on best practices, common design patterns and features added to C++ 20. They will be shown how to develop maintainable and adaptable C++ applications to industry standards. COMP 3603 and COMP 4603 are electives in the Applied Software Development (ASD) Associate Certificate and both C++ courses are required courses in the CST FLEX Diploma. Upon completion, successful students will be able to design, build and deploy advanced C++ software for a variety of applications, from Games Development to Artificial Intelligence (AI).
+
+Prerequisites: 50% in COMP 2510 or 60% in COMP 2511 or (60% in COMP 2801 and 60% in COMP 3603) and (50% in COMP 3760 or 60% in COMP 3761)
+
+COMP 4737 - Introduction to Operating Systems for CST
+
+Outline URL: https://www.bcit.ca/outlines/comp4737/
+
+Credits: 4.0
+
+Description: Following on from “Procedural Programming with C" and “Computer Architecture and Organization"; students are introduced to the basic concepts, terminology and leveraging operating systems for concurrent software applications. COMP 4737 replaces COMP 4731 in the CST/PTS Diploma. Participants focus on using concurrent programming: processes and threads, inter-process communication (IPC), synchronization and mutual exclusion, deadlock and starvation with an introduction to memory organization. Theoretical topics include: overall operating system structure, operating systems services, how these services are used, and kernel architecture. Labs and exercises reinforce concepts with examples of using these operating system services within application programs. This course is equivalent to COMP 4736 in the Full-time CST Diploma. Upon successful completion, students will be able analyze, design and implement concurrent software applications. COMP 4737 is required for the Computer Systems (CST/PTS) Diploma and is offered twice per year the Winter (January) and Spring (May) terms.
+
+Prerequisites: (50% in COMP 2510 or 60% in COMP 2511) and (50% in COMP 2721 or 60% in COMP 2825)
+
+LIBS 7102 - Ethics for Computing Professionals
+
+Outline URL: https://www.bcit.ca/outlines/libs7102/
+
+Credits: 4.0
+
+Description: The course examines ethical and legal issues related to employment as a computing professional, including tensions between personal interests, interests of the company and interests of clients. This course identifies and examines a range of ethical dilemmas likely to be encountered by professionals in the computing industry. Students will be given the theoretical tools to identify and analyze the issues, evaluate them, and propose solutions. Students will develop competence in moral reasoning through examining case studies that describe ethical and legal problems including: Employment (e.g., resume padding, resume fraud, employment contract, conflict of interests, rights and duties of employers and employees, etc.) Remote work (e.g., productivity, trust, opportunities for promotions, privacy, security, etc.) Contracts (e.g., non-disclosure and non-compete agreements, contract law, freedom and autonomy, etc.) Internet fraud (e.g., cybercrime, fraud, hacking, spoofing, phishing, dark patterns, etc.) Property rights (e.g., intellectual property, trade secrets, copyright, patents, open-­­source code, screen scraping, selecting software licenses, etc.) Data (e.g., data storage, data privacy, data residency, data custody, professional negligence, legal data protection, hacking, spoofing, phishing, fiduciary obligations, etc.). The course is required for the CST Diploma and will be offered in the spring (May) and winter (January) terms.
+
+Prerequisites: BCIT ENGL 1177, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+MATH 1060 - Statistics for Data Analysis
+
+Outline URL: https://www.bcit.ca/outlines/math1060/
+
+Credits: 3.0
+
+Description: This hands-on course introduces descriptive statistics, basic inferential statistics, linear regression, and probability concepts and calculations. Emphasis throughout the course will be placed on using statistical methods for the exploration and analysis of data sets. This introduction will enable students to use statistics for data analysis, will prepare them for “Data Analytics/Mining,” and covers topics appropriate for anyone seeking a first statistics course. Labs and exercises employ standard graphical methods to represent statistical data. Hypothesis tests, including ANOVA, are used to test for significant differences between multiple groups. Students will be introduced to the open source R Programming language, a statistical analysis tool used to extract meaningful information from a variety of scientific, industrial and commercial data sets. Upon successful completion, students will be able to carry out calculations, perform statistical decision making and solve problems with involving collected data. This course prepares the student to move on to MATH 3060 and is a required course for the Applied Data Analytics Certificate offered by BCIT Computing.
+
+Prerequisites: Math 12 Pre-Calculus or equivalent.
+
+MATH 1061 - Computer Simulations for Statistics
+
+Outline URL: https://www.bcit.ca/outlines/math1061/
+
+Credits: 1.0
+
+Description: This course allows students to learn, practice and demonstrate competency in knowledge of computer statistical simulation methods that are not covered in Math 1060. Math 1060 plus Math 1061 together are equivalent to Full-Time CST Math 3042. Math 1061 is required for the CST FLEX Diploma and is only offered in the winter (January) and summer (August) terms.
+
+Prerequisites: 60% in MATH 1060
+
+### 3. Complete a minimum of 20.5 credits from the following list of electives:
+
+COMP 1011 - UX/UI Development
+
+Outline URL: https://www.bcit.ca/outlines/comp1011/
+
+Credits: 3.0
+
+Description: This hands-on introduction to UX/UI is aimed at those who want to experience the development of user interfaces for applications, web sites, mobile applications, and information systems. COMP 1011 follows an iterative and agile approach focusing on User-Centered Design (UCD) as the motivator for product direction. Participants are expected to work within interdisciplinary teams, there will be an emphasis on collaboration, brainstorming, and the continued evolution of an interface concept based on UCD. User Experience (UX) encompasses a wide range of activities including User Interface (UI) design, Information Architecture (IA) and user research. Usability design and testing, tight integration and collaboration with software development processes are included in UX. COMP 1011 is required in the Computer Systems Certificate (CSC) and is an elective in several other Computing programs. Upon completion, successful students will be able to incorporate user-centered iterative design principles and processes into a wide variety of IT projects. Note: To ensure student success, COMP 2831 plus COMP 2132 or COMP 2501 should be completed first.
+
+Prerequisites: 60% in COMP 2831 or 60% in COMP 2501 or 60% in COMP 2132
+
+COMP 2833 - Agile Scrum Methods
+
+Outline URL: https://www.bcit.ca/outlines/comp2833/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 2831 and begins with an in-depth overview of the goals of Agile, followed by hands-on Scrum implementations. Students will practice how to implement primary agile methods within the Scrum Framework. COMP 2833 assumes that all participants have strong English communication and interpersonal skills. In class exercises include: self-directed teams, writing of user stories, Agile estimating with relative sizing, co-location, metric reporting and test-driven development. Topics include: Scrum, and Lean/Kanban. Participants will experience the roles of Scrum Master, Scrum Product Owner, and Developer, both real-time in class and also online with a dispersed agile team. As an added bonus, this course helps students prepare to challenge the Professional Scrum Master™(PSM 1) certification exam from Scrum.org (additional cost). COMP 2833 is a required course in the Computer Systems Certificate (CSC) and an elective in the Applied Software Development (ASD) Associate Certificate. It is the prerequisite for the follow-on COMP 2836 - Agile Product Owner course in the Agile Development Associate Certificate from BCIT Computing. Upon completion, successful students will have gained significant experience forming and working in Agile teams.
+
+Prerequisites: 60% in COMP 2831 or 50% in ACIT 2831
+
+### The remainder of the 21.5 elective credits must be selected from the following:
+
+COMP 2010 - MS Office Applications
+
+Outline URL: https://www.bcit.ca/outlines/comp2010/
+
+Credits: 3.0
+
+Description: This hands-on course follows on from COMP 1002 - Applied Computer Concepts and is aimed at students who are already able to use a Windows 11 PC and able to manage files on a network, in the cloud. Topics include essential skills for proficiency in MS Word, MS Excel and MS PowerPoint using a student version of MS Office 365, hosted by BCIT. COMP 2010 includes lectures, lab exercises and assignments outside of class in MS Word, MS Excel, and MS PowerPoint. Students will also receive an introduction to simple databases with MS Access and be prepared to move on to the follow-on 6-week courses offered once per year: COMP 2361 MS Word Advanced, and COMP 2362 MS Excel Advanced in the April (spring) term. COMP 2010 is required in the Applied Computer Information Systems (ACIS) Associate Certificate. It is an elective in the Technical Writing Associate Certificate and the Computer Systems FLEX Diploma from BCIT Computing. Upon successful completion, students will be able to create, edit and manage documents, spreadsheets, and presentations in the cloud.
+
+Prerequisites: COMP 1002
+
+COMP 2156 - Introduction to Microsoft Power BI
+
+Outline URL: https://www.bcit.ca/outlines/comp2156/
+
+Credits: 1.5
+
+Description: Power BI is a Microsoft collection of tools and an analytics service for data visualization and business intelligence reporting. BCIT Computing offers a series of MS Power Bi courses. COMP 2156 is a hands-on intro course designed for database professionals, data analysts, business analysts and managers. It follows on from COMP 2362 or COMP 2364, it assumes that students have an understanding of statistics for data analysis and advanced functions of MS Excel. Students begin with a brief introduction to the building blocks of Microsoft Power BI and its related services. They are shown how to get a variety of data into the Power BI Desktop from multiple sources. In class labs and exercises focus on how to model, explore, clean and transform simple data for business reports. Topics include: Data Analysis Expressions, DAX, relationships and Data Visualization. Labs and assignments are designed to provide best practices that can be transferred to the workplace. Participants must provide their own current model PC capable of running Windows 10 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 2156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and a required course in the Applied Data Analytics Certificate (ADAC). By the end of this course successful students will be able use the Power BI unified analytics platform to build and publish high quality dashboards to the web. They will be prepared to move on to the next level COMP 3156 –MS Power BI Optimization and COMP 3157–MS Power BI Advanced Data Visualization.
+
+Prerequisites: 60% in COMP 2362 or 60% in COMP 2364
+
+COMP 2256 - Introduction to Visual Analytics with Tableau
+
+Outline URL: https://www.bcit.ca/outlines/comp2256/
+
+Credits: 3.0
+
+Description: This hands-on course is designed for database professionals, data analysts, business analysts and managers, who want to analyze and visualize data from a variety of sources. Students begin with a foundation in data visualization techniques and principles. Effective data analysis techniques, and industry standard best practices are discussed. Through hands-on labs, assignments, projects and group work, participants learn how to build insightful and interactive dashboards. Participants learn to present compelling visuals via lab exercises and assignments. Tableau dashboard performance considerations are discussed. Students registered in COMP 2256 will receive a student license for Tableau software for their home machines for the duration of the course and have access to a Tableau subject matter expert with industry experience. This course is an elective in five School of Computing and Academic Studies credential programs; Computer Systems Technology Diploma (CST/PTS), Applied Computer Information Systems (ACIS), Applied Computer Applications (ACA), Applied Database Administration and Design (ADAD) and Technical Writing. COMP 2256 is a requirement for the Applied Data Analytics Certificate (ADAC). A project presentation is required and designed to help the students become better communicators. By the end of this course successful participants will be able to produce highly interactive graphs, reports and dashboards that access and visualize data from a multiple sources. We recommend that students working toward a Computing credential complete COMP 1630 first.
+
+Prerequisites: COMP 1002
+
+COMP 2362 - Microsoft Excel Advanced
+
+Outline URL: https://www.bcit.ca/outlines/comp2362/
+
+Credits: 1.5
+
+Description: This instructor lead, hands-on course continues on from COMP 2010. Students must have prior knowledge and skills at using the basic and intermediate features of MS Excel before starting this Advanced MS Excel course. Participants start at an intermediate level and progress to expert in just 6 lessons while practicing how to create and manage a variety of meaningful spreadsheets. COMP 2362 focuses on the best practices, time saving techniques and how to use MS Excel to create to analyze, communicate and manage information. Lectures, lab exercises in class and assignments outside of class are used for an applied learning experience. Advanced topics include: consolidating data in multiple worksheets templates, dealing with error messages, solver and basic macros. Students who have not completed COMP 2010 should know subtotalling, pivot tables and pivot charts. Participants progress from intermediate to expert in just 6 weeks. This course is an elective in the Applied Computer Information Systems (ACIS) Associate Certificate from BCIT Computing. By the end of this course, successful participants will be expert end users of MS Excel. This course is offered once a year in the Spring (April) term.
+
+Prerequisites: 60% in COMP 2010
+
+COMP 2629 - Enterprise Networking Fundamentals
+
+Outline URL: https://www.bcit.ca/outlines/comp2629/
+
+Credits: 4.0
+
+Description: Following on from COMP 1002 students are introduced to the fundamental concepts and terminology related to data communications and enterprise networks. Students are introduced to the basic (design, implementation and management) concepts and terminology related to data communications and networking. Topics include network topology, protocols, transmission media, switching techniques, access control and addressing for wired and wireless networks. There is also an overview of network security and network management principles. Participants will investigate how requirements relate to network design and network administration. They will also study how computers exchange data over LANs and WANs. Labs and exercises will examine network protocol implementation as well as show how to troubleshoot and improve network design. The OSI model as well as the TCP/IP protocol suite at the physical, data link, network and transport layers are used throughout the course to demonstrate concepts and implementation. COMP 2629 is required for Applied Network Administration and Design (ANAD), and is also an elective in the CST/FLEX Diploma. This course is also equivalent to ACIT 2620 - Principles of Enterprise Networking, in the full-time CIT Diploma. Upon successful completion, students will have a practical understanding of the principles of data communications for enterprise networks. This course is offered in the April (spring) term.
+
+Prerequisites: 60% in COMP 1002 or 50% in ACIT 1420
+
+COMP 2766 - Introduction to Linux Part 1
+
+Outline URL: https://www.bcit.ca/outlines/comp2766/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 1002 and assumes proficiency with a PC and file management. Students are introduced to command line Linux concepts using the GNU/Linux operating system on the Intel platform. Participants will install the Linux operating system, partition a disk, create and mount a file system, and configure the boot loader and services. COMP 2766 labs and exercises focus on how to navigate the file system, manipulate files, and directories, and set permissions. Participants will manage processes, users, groups, and passwords in a Linux environment and learn to edit text files using vi editor. They will also practice how to redirect input, output, manage error messages, plus use shell metacharacters and the Secure Shell (SSH). Topics include login procedures, the Linux/Unix shell, the Linux file system, and directory management, text editing and process control. Linux system security concepts are also discused. COMP 2766 provides a working knowledge of how to install, set up and configure Linux. It is required in the Applied Network Administration and Design (ANAD) Associate Certificate and an elective in the CST FLEX Diploma. Upon successful completion, students will have a solid foundation of the Linux environment and be prepared for the follow-on COMP 2768 - Introduction to Linux Part 2 (Administration). Both courses are electives in the CST FLEX Diploma. COMP 2766 will be offered in the Spring (April) and Fall (September) terms.
+
+Prerequisites: 60% in COMP 1002 or 50% in ACIT 1420
+
+COMP 2768 - Introduction to Linux Part 2 (Administration)
+
+Outline URL: https://www.bcit.ca/outlines/comp2768/
+
+Credits: 1.0
+
+Description: This course follows from COMP 2766 and is designed for students who already have a solid foundation in command-line Linux. Through hands-on exercises and labs, students will monitor the system, automate common administrative tasks, secure and maintain the entire system. Topics include archiving and transferring files between systems, web server administration, scheduling, logging, and basic troubleshooting for Linux Administrators. Participants will configure a web server, schedule future tasks, write Bash shell scripts, configure a server firewall, log kernel messages, archive and transfer files. COMP 2766 and COMP 2768 are electives in the CST FLEX Diploma and together are equivalent to ACIT 2420 in the CIT Diploma. Upon successful completion of this course, students will be aware of best practices in Linux Administration. Note: COMP 2768 has replaced COMP 2767 and is offered in the summer term directly after COMP 2766.
+
+Prerequisites: 60% in COMP 2766
+
+COMP 2836 - Agile Team Leadership with AI
+
+Outline URL: https://www.bcit.ca/outlines/comp2836/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 2833, and builds on the content of the Scrum Guide. Students who have experience applying Agile Scrum Methods and the Scrum Framework will use integrated case studies for Agile Business Systems Analysis. Participants will be introduced to using AI agents and tools to generate an Agile business start-up. COMP 2836 assumes participation in exercises and simulations within the Scrum and Kanban frameworks. Topics include forming self-directed teams, understanding team dynamics and Agile coaching, and Agile Team Leadership. In class exercises include applying Agile Team Leadership styles through role-play and user story creation with AI tools to embrace the continual flow of changing requirements. Students will gain experience with using AI agents to scale the Agile techniques to apply Scrum to geographically distributed projects. They engage in delivering business value to clients with production ready concepts early and throughout the project. Continuous collaboration with the product owner and the self-directed Agile Team Leaders team is reinforced. This course helps students prepare to challenge the Certified Scrum Product Owner® (PSPO1), certification exam from Scrum.org (additional cost). COMP 2836 is a required course in the Agile Development Associate Certificate and is an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will have gained considerable experience with Agile Analysis methods, techniques, and best practices with AI-driven insights for Agile Team Leadership. This course will be offered once per year in the winter (January) term, online.
+
+Prerequisites: 60% in COMP 2833
+
+COMP 2909 - Front-End Web Development with Angular and Vue.js
+
+Outline URL: https://www.bcit.ca/outlines/comp2909/
+
+Credits: 1.5
+
+Description: This hands-on web development course follows on from COMP 2132. It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Angular and Vue are popular JavaScript open-source front-end application frameworks for developing modularized single-page applications and building user interfaces. Angular is a standalone front-end JavaScript framework with in-built tools and libraries to build scalable web apps. Vue provides the ability to extend web application functionality with customized modules and visual components. COMP 2909 starts with installing the latest version of Angular. Labs and exercises reinforce Angular development fundamentals to build components, modules, and services for data-driven, client-side web applications. Vue.js is then used for rapid modular web application development. Exercises also include: routing, asynchronous JSON transfer, and validation. These features are then implemented using Vue.js 3. Automated testing and redux architecture are also introduced using Angular. There is a brief introduction to using Angular with the Apache Cordova framework for platform independent mobile development for Android and iOS. Participants may also want to complete COMP 3012 -Back-End Web Development with Node.js, COMP 3013 -Front-End Web Development with React.js, and COMP 3015 -Web Application Development with PHP. COMP 2909 is an elective in several BCIT Computing applied associate certificate as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Angular and Vue frameworks to develop data-driven and interactive single-page web applications for all mainstream browsers. This course is offered in the fall (October) and winter (February).
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3012 - Back-End Web Development with Node.js*
+
+Outline URL: https://www.bcit.ca/outlines/comp3012/
+
+Credits: 3.0
+
+Description: This hands-on course follows on from COMP 2132 and replaces COMP 2912. It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with how Node.js fits into client-server software architecture, participants will focus on the Node.js programming model. Labs and exercises cover creating, installing and using node modules. Web frameworks like Express.js and Jest as used to build and test powerful web applications. Students will experience how Node.js is used by enterprise environments and modern web stacks like MEAN and MERN. Topics include: how to build, and deploy a RESTful API following best-practices, and learn error handling strategies. Typescript integration with Node.js as well as how to connect to databases will also be discussed. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider multiple advanced JavaScript tools including: COMP 2909 Angular and Vue.js Fundamentals and COMP 3013 Front-End Web Development with React.js. COMP 3012 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Node.js to build robust, scalable, data intensive web applications with user authentication.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3013 - Front-End Web Development with React.js*
+
+Outline URL: https://www.bcit.ca/outlines/comp3013/
+
+Credits: 3.0
+
+Description: React.js is an open source JavaScript library widely used to create fast, modular web and mobile applications. This hands-on course follows on from COMP 2132 and was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with an introduction to React.js concepts, participants concentrate on how React works with browsers and the Document Object Model (DOM). Then students use the modern Hooks API to built clean and testable components. Instructor led labs and exercises focus on how to structure and develop single-page applications using NPM, Webpack and Babel, following current industry standards. Topics include: Routing, Server-Side Rendering, Styling, State Management, and deployment. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider learning multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals and COMP 3012 Back-End Web Development with Node.js. COMP 3013 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST/PTS Diploma. Upon completion successful participants will be able to use React to create and deploy dynamic web applications quickly, with more functionality and less code. This course replaces COMP 2913 as of January 2023.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3156 - MS Power BI Optimization
+
+Outline URL: https://www.bcit.ca/outlines/comp3156/
+
+Credits: 1.5
+
+Description: Following on from COMP 2156 , and parallel to COMP 3157, this hands-on advanced course was designed for Business Intelligence and Data Analysts. Students who already know how to use Power BI to build and publish reports begin with an in-depth introduction to Star Schema and its relevance to optimal Power BI data modeling. COMP 3156 in-class labs and exercises focus on specific strategies to optimize large complex Power BI data models and how to leverage Power BI Service in the cloud for fast performing reports. Topics include relational data modeling in Power BI, Designing Import, DirectQuery, and Composite Data Models. There is also an in-depth explanation of Power BI Service Performance Monitoring. Tabular Editor and DAX Studio are also discussed. Labs and assignments include managing security permissions, data visibility based on role as and leveraging specialized third-party tools. Tabular Editor and DAX Studio are used to monitor and evaluate data model performance. Participants must provide their own current model PC capable of running Windows 11 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 3156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and the Applied Data Analytics Certificate (ADAC). By the end of this course, successful students will be able to build advanced, optimized data models and use the Power BI Service cloud environment. This course will be offered in the Winter (January) and Spring (April) terms.
+
+Prerequisites: 60% in COMP 2156
+
+COMP 3157 - MS Power BI Advanced Data Visualization
+
+Outline URL: https://www.bcit.ca/outlines/comp3157/
+
+Credits: 1.5
+
+Description: Following on from COMP 2156, and parallel to COMP 3156, this hands-on advanced course was designed for Business Intelligence and Data Analysts. Students who already know how to use Power BI to build and publish reports begin with an in-depth introduction to the dashboard development process. COMP 3157 in-class labs and exercises focus on creating advanced user-friendly reports and dashboards. Topics include visualization best practices, misleading data visualization practices to avoid, how to manage dashboard development projects and more. There is also an in-depth explanation of the Guided Analytics Approach and Dashboard UI/UX principles are also discussed. Labs and assignments include creating advanced reports with Power BI Desktop, identifying common data visualization pitfalls and discussing methods to apply visualization best practices. Participants must provide their own current model PC capable of running Windows 11 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 3157 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and the Applied Data Analytics Certificate (ADAC). By the end of this course, successful students will be able to build innovative and accessible dashboards for various stakeholder groups. This course will be offered in the fall (September) or winter (January) term.
+
+Prerequisites: 60% in COMP 2156
+
+COMP 3215 - AWS Academy Cloud Architecting
+
+Outline URL: https://www.bcit.ca/outlines/comp3215/
+
+Credits: 3.0
+
+Description: This hands-on course introduces the fundamental concepts of planning IT solutions for deployment on cloud service providers. Participants must have prior technical knowledge creating software applications using programming languages or scripting in Node.js, or Java, or .NET. COMP 3215 is supported by AWS Academy and is delivered by an AWS Academy Accredited Educator. Students will be shown how to access to limited AWS resources through a registration process. They will use a scenario-based lab environments for evaluating trade-offs in different approaches to design reliable, secure, high-performing, cost-efficient systems leveraging the AWS Cloud. Labs and exercises leverage infrastructure-as-code techniques to automate the build of a solution based on their chosen scenario. Alternative services available through other cloud service providers or open-source solutions are introduced for comparison with the AWS Cloud services used in the course. Upon successful completion, students will have gained experience designing scalable and secure distributed systems on the AWS Cloud. They will also be prepared to challenge the AWS Certified Solutions Architect – Associate certification exam, available at additional cost through Amazon. COMP 3215 is an elective in the CST FLEX Diploma. This course is currently under review and not offered.
+
+Prerequisites: 60% in COMP 3012 or 60% in COMP 3601 or 60% in COMP 3602 or 50% in ACIT 2520
+
+COMP 3601 - Application Development with Java
+
+Outline URL: https://www.bcit.ca/outlines/comp3601/
+
+Credits: 4.0
+
+Description: This forth-level programming course follows on from COMP 2601 and assumes students have significant prior knowledge of object-oriented programming using Java. COMP 3601 starts with using Java core APIs and the Eclipse IDE with industry standard coding styles and naming conventions. Students practice how to build and deploy commercial quality Java applications with Event Driven Architecture. Labs and exercises use a variety of skills to debug programs and use design patterns to develop advanced applications in Java. Topics include: packages, inner classes, file I/O, an overview of database connectivity, user interfaces, model-view-controller (MVC) and other design patterns for standalone Java applications as well as Java web applications. Participants develop database enabled web applications and are introduced to Java web tier development. There is a focus on the design and how to build, deploy and distribute Java web applications into application servers. They configure and customize a simple web application server with Java Database Connectivity (JDBC) to create and edit data from Java Web Applications. Maven is used with Java Servlets as web application controllers and Java Server Pages (JSP) to build and deploy Java web apps on JEE containers, implemented by a WildFly application server. COMP 3601 is part of three BCIT Computing Associate Certificates; Applied Software Development (ASD), Advanced Java Application Development (AJD), a prerequisite for Web and Mobile Applications (WMA) and a recommended elective in the CST FLEX Diploma. Upon completion, successful students will be able to build and deploy well designed basic Java Web applications and be prepared to move on to COMP 4601- Advanced Java Web App Development. COMP3601 will be offered in the Spring (April) and Fall (September) terms.
+
+Prerequisites: 60% in COMP 2601
+
+COMP 3602 - Application Development with C#
+
+Outline URL: https://www.bcit.ca/outlines/comp3602/
+
+Credits: 4.0
+
+Description: This fourth-level computer programming course follows on from COMP 2601 and assumes prior knowledge of object-oriented programming using Java. COMP 3602 starts with an introduction to C# programming with Microsoft Visual Studio and the .NET Framework for application development. Labs and assignments are designed to reinforce Microsoft industry standard naming conventions and best practices. Topics include: Windows Forms and controls, event-driven programming, deploying a web service, asynchronous programming, working with SQL databases and effective application debugging. Students build graphical user interfaces (GUIs) and design Windows application software. COMP 3602 is an elective in the Applied Software Development (ASD) Associate Certificate. It is a prerequisite for COMP 4602. Both .NET courses are required in the Advanced .NET Development (AND) Associate Certificate, and are electives the CST/FLEX Diploma. Upon completion, successful students will be able to use C# to build and deploy cross platform software applications with the latest .NET technologies.
+
+Prerequisites: 60% in COMP 2601
+
+COMP 3617 - Android and Mobile Applications in Java
+
+Outline URL: https://www.bcit.ca/outlines/comp3617/
+
+Credits: 3.0
+
+Description: Continuing on from COMP 2613 or COMP 3601, this hands-on course is designed for those who already understand how to use Java to develop applications to industry standards. Students who are experienced Java programmers are introduced to the Kotlin programming language to develop, debug and deploy Android applications. This is a BYOD course not in a computer lab. Students must provide their own Windows, Mac or Linux laptop to participate in this course. See the current Android Studio hardware requirements. Please note: BCIT does provide technical support for student's hardware or operating systems. Labs and assignments explore and use Android Studio, SDK tools - avd, adb etc., to build and deploy Android applications on the emulator(s). Topics include: Designing user interfaces with Layouts, Fragments and Activities. Students learn to manage Android Resources, work with Manifest files, persist data, create Services, leverage multi-threading constructs and make use of REST endpoints. Other topics of discussion include Location Based Services, network connectivity, accessing cloud services and data. This course is an elective in the CST/PTS Diploma. Upon completion, students may continue on to advanced courses and programs, COMP 3617 is a required course for the Web and Mobile Application Development Associate Certificate and an elective in the Advanced Java Development Associate Certificate. By the end of this course successful participants will complete a final project which includes using Java to design, build, and package and deploy an Android application to a mobile device. COMP 3617 is under review and not currently being offered.
+
+Prerequisites: COMP 2522 or COMP 2613 or COMP 3601
+
+COMP 3678 - SQL Server Development
+
+Outline URL: https://www.bcit.ca/outlines/comp3678/
+
+Credits: 4.0
+
+Description: This hands-on course has replaced COMP 4678 as of September 2023 and follows on from COMP 1630 and COMP 2364. Students who already understand relational database design, SQL programming and MS Excel are introduced SQL Server Development. SQL Server Development begins with a brief overview cloud computing using the MS Azure ecosystem and MS SQL Server tools. There also will be a brief review of the relational database modelling, Entity Relationship Design (ERD) and normalization topics from COMP 1630. COMP 3678 topics include SQL server data types, the use of Data Definition Language (DDL), and how to write MS SQL queries using Data Manipulation Language (DML). Labs and exercises show how to use SQL Server tools and techniques to optimize SQL queries Transact-SQL (T-SQL) runtime errors. Students will use T-SQL to develop and manage the data layer for software applications, working with relational and portable data from multiple sources in MS SQL Server. Participants will see the basic differences between on premises Database Management Systems (DBMS) and a cloud Database setup. Tasks to Extract, Transform, and Load (ETL) data, MS SQL Server Database operations will also be discussed. COMP 3678 is an elective in the Applied Database Administration and Design (ADAD) Associate Certificate, the Applied Data Analytics Certificate (ADAC) and Computer Systems Technology (CST FLEX) Diploma. Successful participants will be able to: manage data from multiple sources, create scripts and database objects using T-SQL. This course will be offered starting April 2024.
+
+Prerequisites: 60% in COMP 1630 and 60% in COMP 2364 or 60% in COMP 2362
+
+COMP 3679 - MS Azure and SQL Analytics Tools
+
+Outline URL: https://www.bcit.ca/outlines/comp3679/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 1630 and COMP 2156. Participants must already understand relational database design, data modeling, SQL programming and the basics of MS PowerBI. COMP 3679 begins with an overview of Business Intelligence (BI) tools and MS Azure data analytics concepts. Students are introduced to cloud computing using Microsoft Azure Cloud Services and explore business intelligence platforms. They review best practices to author, deploy and manage reports using Power BI on Azure. Labs and exercises show how to use Azure tools to extract the data from its multiple collections of data sources. MS SQL Server Analysis Services (SSAS) is used to provide additional BI concepts. COMP 3679 topics include BI platforms, the Data Warehouse (DW) Lifecycle and data modelling concepts. Star, Snowflake schemas and using Azure Data on the cloud are discussed. There will be a focus on best practices to implement data pipelines and data loading using Azure Data Factory (ADF) and Azure SQL. Various reporting options will be discussed, students will author, deploy and manage significant BI reports. They will extract data from multiple sources, integrated with MS PowerBI. COMP 3679 is an elective in the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and the Computer Systems Technology (CST FLEX) Diploma. Upon successful completion, students will be able to use components of the Azure ecosystem to design and optimize Azure data solutions for data analysts and developers.
+
+Prerequisites: 60% in COMP 1630 and 60% in COMP 2156
+
+COMP 3682 - Microsoft Cloud Server Administration
+
+Outline URL: https://www.bcit.ca/outlines/comp3682/
+
+Credits: 4.0
+
+Description: This hands-on 12-week course follows on from COMP 1630 or COMP 2629, and has replaced these three 6-week courses COMP 3677, COMP 3680, COMP 3681 as of April 2025. Students are introduced to the basic tasks that an Administrator performs to manage Microsoft cloud server products, specifically MS SQL Server and MS Windows Server. COMP 3682 details the different roles and types of servers on premises and the cloud server environment with Microsoft Azure. Labs and exercises focus on Microsoft Server Administration to create and manage users, groups, shares, and file permissions. Role Based Access Control (RBAC) best practices will be used. Students will install, configure, and architect both a Microsoft Windows Server and a Microsoft SQL Server in a Cloud environment. Topics include how to plan and implement Group and local Security Policies; industry standard strategies and planning for server back-ups, troubleshooting, monitoring, and managing a server with built-in tools. Server security and recovery plans with compliance strategies for a Microsoft Server on the cloud will be discussed. COMP 3682 is a required course in the Applied Database Administration and Design (ADAD), Applied Network Administration and Design (ANAD) Associate Certificates, and is an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will be able to create and manage user accounts, use built-in troubleshooting tools, monitor performance, and implement a security and recovery plan for Microsoft Window Server and Microsoft SQL Server in a cloud environment.
+
+Prerequisites: 60% in COMP 1002 or 60% in COMP 1630 or (50% in ACIT 1420 and 50% in ACIT 1630)
+
+COMP 3771 - MS PowerShell Scripting
+
+Outline URL: https://www.bcit.ca/outlines/comp3771/
+
+Credits: 3.0
+
+Description: Microsoft PowerShell is a popular task automation and configuration framework. As a scripting language, PowerShell is commonly used for automating the management of Microsoft systems and services. PowerShell includes scripting tools to automate and control systems, programs, and files to improve productivity. COMP 3771 is a hands-on lab course aimed network or database administrators and software developers. PowerShell scripts are used for systems and services administration or database automation, monitoring, and maintenance, and can also automate tasks for testing software programs and rapid application development. Starting with a basic introduction to scripting with the Command Prompt window, the course then focuses on how to use MS PowerShell with Windows. There will be a brief overview of using Azure resources in PowerShell. COMP 3771 is required course in the Applied Database Administration and Design Associate Certificate and an elective in the Applied Network Administration and Design, Associate Certificates, plus the CST FLEX Diploma. Successful participants will be able to automate many tasks with Microsoft PowerShell and reduce repetitive tasks by creating scripts and functions that can run interactively or automatically. This course is offered in April (spring/summer) and September (fall) terms.
+
+Prerequisites: 60% in COMP 1002 or 60% in COMP 1630
+
+COMP 3829 - Quality Assurance and Software Testing
+
+Outline URL: https://www.bcit.ca/outlines/comp3829/
+
+Credits: 3.0
+
+Description: Following on from COMP 2501 - Programming Fundamentals Part 2 (Java) and COMP 2831 - Business Analysis and Systems Design, this hands-on course introduces the concepts, tools and processes to perform Quality Assurance (QA) and software testing. Students with Java programming experience are shown how to integrate QA best practices in every step of the development process. Topics include manual and automated testing, creating test cases, bug finding and reporting, and understanding the steps of the Software Testing Life Cycle (STLC). COMP 3829 will focus on the fundamental concepts of QA, practicing different methods of finding, writing, and running test cases. Participants will acquire practical experience with key QA tools and technologies. They will use Artificial Intelligence (AI) integration, automated testing, Unified Modeling Language (UML) diagramming, and browser developer tools for efficient test management. Students are introduced to using Artificial Intelligence (AI) for assisted verification, tracking and reporting bugs. Exercises and labs will include using popular open-source QA software testing and tracking tools, plus writing unit tests in a Java environment with JUnit. Additional topics include Black Box, White Box and Grey Box, Unit testing for Quality Assurance (QA), Quality Control (QC) planning, and test execution. Automated testing topics include constructing an automation framework, scripting techniques, generating test data, and test architecture will be discussed. COMP 3839 is an elective in the CST FLEX Diploma, as well as the Web and Mobile Development (WMA), and Applied Software Development (ASD) Associate Certificates. Upon completion, successful students will be able to create automated test scripts with Selenium IDE, monitor test processes, evaluate test results, and conduct testing to industry standards. They will have experience with software testing methods, creating a Quality Assurance plan and a test plan.
+
+Prerequisites: 60% in COMP 2501 and 60% in COMP 2831
+
+COMP 3839 - Data Quality Improvement
+
+Outline URL: https://www.bcit.ca/outlines/comp3839/
+
+Credits: 1.5
+
+Description: Continuing on from COMP 1630 , this course is aimed at students who already understand relational database, data modeling, using spreadsheets and the importance of improving Data Quality (DQ). Topics include the business impact of Data Quality, data profiling techniques, capability, and maturity models. Data Governance, DQ improvement roadmaps and approaches to gaining executive support for DQ improvement are discussed. In class labs, homework assignments and a project focus on how to use Data Quality techniques and tools. COMP 3839 is a required course in the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and an elective in the Computer Systems Technology (CST FLEX) Diploma. Successful participants learn how to apply a data quality framework to data migration projects and are better prepared to move on to higher-level Database, Business Intelligence and Data Analytics courses.
+
+Prerequisites: 60% in COMP 1630
+
+COMP 3841 - Introduction to Data Warehouses with Big Data
+
+Outline URL: https://www.bcit.ca/outlines/comp3841/
+
+Credits: 1.5
+
+Description: Continuing on from COMP 1630, this hands-on course is a primer for data warehouse and data analytics with Big Data. Students must already understand industry standards in data modelling, relational database design and creating reports with SQL. COMP 3841 begins with an exploration of different Big Data systems. Participants must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Labs and assignments use a web browser to access course content. Exercises focus on data ingestion, data extraction, data transformation, accessing/querying data, and data visualization. Students conduct a big data analysis with practical, real-world examples and focus on how to populate and analyze vast data sets using a case-study approach. Topics include an overview of different data stores, querying data with visualizations, and an overview of Extract, Transform and Load (ETL) process in the data warehouse. COMP 3841 is a required course in the Applied Data Analytics Certificate (ADAC) and an elective in the Computer Systems Technology (CST FLEX) Diploma. Upon completion, successful students will be able to leverage and maintain a large-scale data warehouse for Business Intelligence.
+
+Prerequisites: 60% in COMP 1630
+
+COMP 3912 - iOS Mobile Application Development
+
+Outline URL: https://www.bcit.ca/outlines/comp3912/
+
+Credits: 4.0
+
+Description: This hands-on application development course was designed for experienced object oriented programmers. Students must have prior experience developing a software application, they are also required to work in teams and participate in online activities. The focus of COMP 3912 is on the user interface components of current popular iOS business applications. In order to follow this course participants need to be avid users of iPhones. This is a bring your own devices (BYOD) course, students must provide their own Mac computer with OS X Catalina or higher, plus a current iOS mobile device, ideally an iPhone. Participants have access to Apple resources for the development and testing of iOS applications during this course. Students design and develop apps for the current iOS platform to Apple standards. Starting with an intensive overview of the Swift programming language, students are introduced to the iOS development platform via in class labs and exercises. Topics include; Xcode, Cocoa Touch API, Swift, SwiftUI, troubleshooting and debugging, Git source control basics, memory management, user input and gesture recognition. Additional topics include: Auto Layout, data persistence including Core Data, NSUserDefaults and Plists. Testing, networking, SpriteKit, Core Location and multi-threading are also discussed. Upon successful completion of COMP 3912 students will be able to design and build a commercial quality iOS application for iPhone. This course will be offered once per year in the spring (April or May) term.
+
+Prerequisites: 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603 or 60% in COMP 3656
+
+COMP 3925 - Computer Projects Practicum 1
+
+Outline URL: https://www.bcit.ca/outlines/comp3925/
+
+Credits: 5.0
+
+Description: This hands-on project practicum course includes an online component and allows students to work on industry projects with faculty guidance. Our industry sponsored projects are drawn from a variety of sources, and equire extensive contact with clients in the business community. Students work in teams under the direction of a subject matter expert who is a Full-time Computing faculty member acting as their project supervisor. COMP 3925 is an elective in the CST FLEX Diploma and equivalent to COMP 3800; the Full-time CST Diploma Computer Projects course. Candidates must have completed Full-time CST Year 1 or the Computer Systems Certificate (CSC) in Flexible Learning. Full-time CST students may take this project course in the summer to lighten their workload in the fall and winter. Registration requires Computing Flexible Learning department approval. COMP 3925 is offered once a year in the spring/summer term.
+
+Prerequisites: Completion of the Part-time Computer Systems Certificate (CSC) in Flexible Learning, or Full-time CST Level 2.
+
+COMP 4016 - Applied DevOps with Kubernetes
+
+Outline URL: https://www.bcit.ca/outlines/comp4016/
+
+Credits: 3.0
+
+Description: This hands-on course replaces COMP 3916 –Docker for DevOps as of April 2023. It is aimed at web software developers who want to use current DevOps standards to reduce service downtime. Software developers who can create web-based applications, are introduced to best practices and techniques to create software services resilient to failures. COMP 4016 starts with an overview of DevOps. Labs and exercises cover the basics of Docker including creating Docker images and debugging containers. Participants are then introduced to Kubernetes, an open source platform for managing containerized workloads and services. Assignments focus on best practices to automate DevOps operations to reduce on-call work, and how to leverage Kubernetes self-healing features. There is a focus on the use of automatic scalers to react to bursts of traffic and monitor the current state of the service. YAML (a data-serialization language) is used configure Kubernetes and to program running services. Students practice how to automate typical human elements and inputs to apply different DevOps concepts to a running service. COMP 4016 is an elective course the CST FLEX Diploma and several BCIT Computing Associate Certificates. DevOps students should also consider completing COMP 2833 - Agile Scrum Methods, for additional skills. Upon completion, successful students will have working knowledge of DevOps. They will be able to use Docker and Kubernetes to orchestrate automation, to reduce costs and downtime for software as a service. Students without the specific BCIT prerequisites, who have equivalent knowledge of Web Software Application Development with PHP, and or Java Web or ASP are welcome to apply. COMP 4016 will be offered once a year in the fall (September) term.
+
+Prerequisites: 60% in COMP 3015 or 60% in COMP 3601 or 60% in COMP 3973 or 60% in COMP 4602 or 60% in COMP 4613
+
+COMP 4601 - Advanced Java Web Application Development
+
+Outline URL: https://www.bcit.ca/outlines/comp4601/
+
+Credits: 4.0
+
+Description: Following on from COMP 3601, this course replaces COMP 4613 and COMP 4656 . Those who also understand HTML, CSS and JavaScript and already capable of developing basic Java web applications will focus on Advanced Java Web App design, organization and deployment. Starting with the Java Persistence API (JPA), students creating Object Relational Mapping solutions and configure data sources in J ava Enterprise Edition (JEE) containers. They connect Java web applications to data sources by utilizing Java Naming and Directory Interface (JNDI). SQL queries are executed using native and Java Persistence Query Language (JPQL queries as well as JPA's Criteria Builder API. COMP 4602 activites include; use Create/Read/Update/Delete (CRUD) operations on JPA entities using entity managers. Students create XML-based web services using the Java API for XML Web Services (JAX- WS) and RESTful web services (JAX-RS API) and Jersey Implementation. Industry best practices are discussed for well-informed decisions about web services strategies. Labs and exercises use industry standards to develop and deploy advanced Java web applications. Topics include: Java Persistence API (JPA), creating Object Relational Mapping solutions, JEE containers, Hibernate API. Students will develop a database-enabled web application, and web services using a variety of industry standards and using design patterns. Enterprise Java Beans (EJB™) API is used to develop the components to build the business logic for Java Enterprise Edition (JEE) applications. Upon successful completion, students will be able to create and deploy advanced Java Web Applications to industry standards. COMP 4601 will be offered in the Winter (January) term.
+
+Prerequisites: 60% in COMP 3601 or 60% in COMP 3656
+
+COMP 4602 - Advanced .NET Web App Development
+
+Outline URL: https://www.bcit.ca/outlines/comp4602/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 3602 and is aimed at students who can already use C# in the .NET Framework to create significant software applications. Participants must also understand how to build Web Applications using HTML5/CSS3 and JavaScript. Students are introduced to ASP.NET MVC (Model-View-Controller) and Razor Pages to build and deploy scalable and maintainable Server-side and Client-side Web Apps to MS Azure. Blazor is used to develop both Server-Side and Client-Side Apps within the latest Microsoft .NET Framework to cover modern and emerging technologies within the .NET ecosystem. Labs and exercises focus on building secure web apps with authentication to industry standards, covering best practices for preventing common web vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Extending web apps to interact with AI Models will also be discussed. COMP 4602 is an elective in the Web and Mobile Application Development Associate Certificate and the CST FLEX Diploma. Upon successful completion, students will be able to use ASP.NET MVC, Razor Pages, and Blazor to take a variety of their .NET Full Stack Web Applications from concept and deploy them to the cloud with MS Azure. This course is offered once per year in the January (Winter) term.
+
+Prerequisites: 60% in COMP 3602 and 60% in COMP 2132
+
+COMP 4669 - Advanced Web Applications with PHP
+
+Outline URL: https://www.bcit.ca/outlines/comp4669/
+
+Credits: 3.0
+
+Description: This hands-on course continues on from COMP 3015 –Web Application Development with PHP and is aimed at students who are already able to build significant PHP web applications. COMP 4669, begins with a review of topics covered in COMP 3015, then students are introduced to the Model-View-Controller (MVC) and Active Record patterns. Topics include: RESTful APIs, Caching, Message Queues, and Cross Origin Resource Sharing (CORS). Object-Relational Mapping (ORM) libraries are used in assignments and labs to interact with MySQL databases. WebSockets are also discussed with an emphasis on secure development practices and application performance. Labs and assignments use open source libraries and integrate with application framework and how to safely persist passwords and communicate with third party services. Participants use industry standard PHP frameworks to develop secure and scalable RESTful APIs with JSON responses. Application middleware is also introduced to handle CORS and cookie handling. COMP 4669 is an elective in the Applied Web Development (AWD), the Web and Mobile Application Development (WMA) Associate Certificates, and the CST FLEX Diploma. Note: Web Development students should also consider COMP 3012 -Back-End Web Development with Node.js and COMP 3013 -Front-End Web Development with React.js. Upon completion, successful students will be able to build and deploy front-end, single-page-applications (SPAs) by creating back-end PHP services for commercial quality server-side web applications. COMP 4669 will be offered for the final time in the winter (January) 2026 term.
+
+Prerequisites: 60% in COMP 3015
+
+XCOM 3840 - Technical Presentations
+
+Outline URL: https://www.bcit.ca/outlines/xcom3840/
+
+Credits: 1.5
+
+Description: Acquiring effective communication and presentation skills will help advance your career and bring positive attention to your projects and ideas. In this course, you will review sample speeches, perform audience and purpose analysis for your own project, rehearse effective public speaking techniques, and deliver your final presentation to a wider audience. Students can present on a school project from one of their technical courses, an entrepreneurial idea, or a current work project.
+
+Prerequisites: No prerequisites are required for this course.
+
+
+
+## Entrance Requirements
+
+introduction
+
+The CST FLEX Diploma is 120 credits; 60 unique credits built on top of the 60 credits in the CSC. Students must complete the majority of CSC, including Communications, Java, C, and Architecture, before applying to the CST FLEX Diploma. Please Note: The CST FLEX Diploma requires a minimum of 2 years of study, with a maximum of 5 years to complete. Due to prerequisites and scheduling, it is not possible to complete this Flexible Learning program in a full-time delivery. The absolute minimum time is 12 terms or 4 years to complete both the part-time CSC and CST FLEX Diploma. For course and program planning before applying to the CST FLEX Diploma, please email: cstflex@bcit.ca
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. Post-secondary education: Completion of the Computer Systems Certificate (CSC) program. You must have completed or be enrolled in your final term of the CSC before applying to the Flexible Learning Diploma in Computer Systems Technology program. Students who have not completed the certificate in the past five years or have department-approved equivalent education may require additional courses. Post-secondary education: Completion of the Computer Systems Certificate (CSC) program. You must have completed or be enrolled in your final term of the CSC before applying to the Flexible Learning Diploma in Computer Systems Technology program. Students who have not completed the certificate in the past five years or have department-approved equivalent education may require additional courses. English language proficiency: Category 2 – English Studies 12 (67%) or equivalent
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+
+
+## Costs & Supplies
+
+introduction
+
+This program is a course-by-course registration, there are approximately 36 individual courses in the entire series ASD, ACIS, CSC, CST/PTS. The average course tuition is around $550 per course depending on credits. Textbooks are generally required and may cost $150+ for each course. Credit for the CST FLEX Diploma calculated on top of the 60 credits in the CSC. CST FLEX Diploma students will not receive dual credit for any course used in the CSC. There are approximately 18 courses (60 credits) in this CST FLEX diploma completion segment depending on electives chosen. Please budget an additional $9,500 for tuition on top of the CSC cost to complete this follow-on credential. A total of 120 unique total credits from ASD, ACIS and CSC is required to graduate from the CST FLEX Diploma. The cost of tuition and books for this series of laddered part-time credentials is approximately $20,000 for Canadian residents. International students who are approved into CSC and CST FLEX will pay 3x standard tuition and need to budget over $60,000 for tuition and books. Scheduling of Computing Flexible Learning courses typically does not allow students to attempt more than 3 courses simultaneously. Students should not expect to complete the CST FLEX Diploma series in less than 4-5 years part-time. Flexible Learning is market-driven course by course delivery and not all courses are available every term. Please attend a program specific information session for more details.
+
+Tuition fees
+
+Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information on domestic and international tuitions.
+
+Financial assistance
+
+Financial assistance may be available for this program. For more information, please contact Student Financial Aid and Awards .
+
+
+
+## Program Details
+
+introduction
+
+The Computer Systems Technology Diploma ( CST FLEX ) requires 60 unique credits on top of the 60 credits in the Computer Systems Certificate (CSC), for a total of 120 credits. 65% of the CST FLEX Diploma required courses include: C++, IT Security, Ethics for Computing Professionals, Advanced Web Applications, Data Communications, Object-Oriented Design, Algorithms, Operating Systems and Statistics. 35% of the CST FLEX Diploma comprised a variety of advanced application development courses in Java, .Net, Web, Linux, Agile Development, Amazon AWS, Advanced Database, Business Intelligence, Data Analytics and Network Security. The CST FLEX Diploma is course by course registration and designed to be delivered one course at a time. It is aimed at those who are working full-time. Due to prerequisites and scheduling it is not possible to complete the CSC and CST FLEX Diploma in any less than 4 years. Timelines: Most CST FLEX students typically complete 1-2 courses per term over a period of 3-4 years. Some students who are not working full-time may consider 3 courses per term and potentially complete this second half of the CST FLEX Diploma in 2 years. Note to Full-time CST Students: CST FLEX parallels the second year of the Full-time CST Diploma, Level 3 and Level 4. Students who drop full-time CST may have credit if they want to complete the CST FLEX Diploma. Please read the CST FLEX Diploma “Program Entry” section and the Computing Flexible Learning Student Guide before registering for any COMP courses. For course and program planning before applying to the CST FLEX Diploma, please email: cstflex@bcit.ca Computer hardware and Internet requirements Students must provide a current model PC desktop or laptop with a webcam, microphone and have high-speed internet access. COMP courses may use two-way audio and video as well as group work outside of class. The curriculum may be modified in accordance with industry trends. Programs and courses are subject to change without notice.
+
+Program delivery
+
+Blended: This program has courses that are delivered on campus or partly on campus and partly online. Please check the individual course schedule pages. Some COMP courses are delivered entirely online and others are entirely on campus. Several course sections in CST have a blended delivery with synchronous on campus classes, and others have synchronous online classes, while both options may include required asynchronous online components.
+
+Program location
+
+Courses may be offered at the following locations: Burnaby Campus 3700 Willingdon Avenue Burnaby, BC Downtown Campus 555 Seymour Street Vancouver, BC Distance and online learning
+
+
+
+## Graduating & Jobs
+
+introduction
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. Upon successful completion of all program requirements, complete an Application for BCIT Credential [PDF] and submit to Student Information and Enrolment Services. Allow approximately six to eight weeks for processing. All financial obligations to the Institute must be met prior to the issuance of any credential.
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Computer Systems

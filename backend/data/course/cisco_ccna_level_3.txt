@@ -1,0 +1,47 @@
+URL: https://www.bcit.ca/courses/cisco-ccna-level-3-citx-3060/
+Title: Cisco CCNA Level 3
+Field: Computer Information Technology Electronics
+Type: Course
+Course Code: CITX 3060
+
+================================================================================
+
+## Overview
+
+Building upon static routing, this course expands on dynamic routing and router configuration, explores networking protocols, and applies routing concepts within a lab environment. Topics covered include Cisco IOS management, routing protocols, network security concepts, Network Address Translation (NAT) and Access Control Lists (ACLs). Routing protocols covered include Open Shortest Path First (OSPF). IPv6 operations, routing, and address assignment are also explored. Students will learn how to configure routers, interpret routing tables, and troubleshoot connectivity issues. Students are provided hands-on experience with routers and switches in a networked lab environment. The course covers Wide Area Network (WAN) technologies and Quality of Service (QoS) mechanisms used for secure remote access. The course also introduces software-defined networking, virtualization, and automation concepts that support the digitalization of networks.
+
+## Credits
+
+6.0
+
+## Cost
+
+$1,307.72
+
+## Prerequisites
+
+- 50% in CITX 2060
+
+## Learning Outcomes
+
+- Connect routers, switches, and PCs to form a cohesive local area network.
+- Connect routers to simulate a wide area network.
+- Configure the Cisco Command Line Interface (CLI) for system analysis, configuration and repair.
+- Perform the password recovery procedure on a router.
+- Manage system image and device configuration files.
+- Configure, verify, and troubleshoot OSPF.
+- Explain Network Address Translation (NAT) and Port Address Translation (PAT).
+- Configure and troubleshoot NAT and PAT services on a gateway router.
+- Describe the use of and configure Access Control Lists (ACLs).
+- Configure, verify, and troubleshoot Generic Routing Encapsulation (GRE) tunnel connectivity.
+- Configure and monitor basic Simple Network Management Protocol (SNMP) services on a router.
+- Explain network security terms, attack tools and best practices.
+- Describe the role of cryptography in network security.
+- Explain WAN concepts.
+- Troubleshoot LAN and WAN networks.
+- Explain the concept of cloud computing and virtualization of network devices and services.
+- Describe the methods and tools used to automatically monitor, manage and configure networks.
+
+## Related Programs
+
+- Cisco Certified Network Associate

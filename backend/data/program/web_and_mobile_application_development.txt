@@ -1,0 +1,219 @@
+URL: https://www.bcit.ca/programs/web-and-mobile-application-development-associate-certificate-part-time-6465acert/
+
+Title: Web and Mobile Application Development
+
+================================================================================
+
+## Overview
+
+Delivery
+
+blended
+
+Overview text
+
+See the Program Details to learn more. This program might be for you if you: If any of these sound like you, please check the WMA Entrance Requirements . By earning your WMA, you will have gained hands-on skills in developing commercial-quality web application software. You will be able to: Start with just one course: COMP 3012- Back-End Web Development with Node.js
+
+
+
+## Courses
+
+Introduction
+
+Web and Mobile Application Development (WMA) is a second level Associate Certificate that requires Applied Software Development , or equivalent post-secondary education in Java or C# software application development, Business Analysis and Systems Design and prior web development with HTML5, CSS3 and JavaScript prior to starting this program.
+
+### 1. Required Courses: (16.0 credits)
+
+COMP 3012 - Back-End Web Development with Node.js*
+
+Outline URL: https://www.bcit.ca/outlines/comp3012/
+
+Credits: 3.0
+
+Description: This hands-on course follows on from COMP 2132 and replaces COMP 2912. It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with how Node.js fits into client-server software architecture, participants will focus on the Node.js programming model. Labs and exercises cover creating, installing and using node modules. Web frameworks like Express.js and Jest as used to build and test powerful web applications. Students will experience how Node.js is used by enterprise environments and modern web stacks like MEAN and MERN. Topics include: how to build, and deploy a RESTful API following best-practices, and learn error handling strategies. Typescript integration with Node.js as well as how to connect to databases will also be discussed. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider multiple advanced JavaScript tools including: COMP 2909 Angular and Vue.js Fundamentals and COMP 3013 Front-End Web Development with React.js. COMP 3012 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Node.js to build robust, scalable, data intensive web applications with user authentication.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3013 - Front-End Web Development with React.js*
+
+Outline URL: https://www.bcit.ca/outlines/comp3013/
+
+Credits: 3.0
+
+Description: React.js is an open source JavaScript library widely used to create fast, modular web and mobile applications. This hands-on course follows on from COMP 2132 and was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with an introduction to React.js concepts, participants concentrate on how React works with browsers and the Document Object Model (DOM). Then students use the modern Hooks API to built clean and testable components. Instructor led labs and exercises focus on how to structure and develop single-page applications using NPM, Webpack and Babel, following current industry standards. Topics include: Routing, Server-Side Rendering, Styling, State Management, and deployment. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. Web developers should also consider learning multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals and COMP 3012 Back-End Web Development with Node.js. COMP 3013 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST/PTS Diploma. Upon completion successful participants will be able to use React to create and deploy dynamic web applications quickly, with more functionality and less code. This course replaces COMP 2913 as of January 2023.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3015 - Web Application Development with PHP
+
+Outline URL: https://www.bcit.ca/outlines/comp3015/
+
+Credits: 3.0
+
+Description: This hands-on advanced course follows COMP 2132 –Web Development with JavaScript and is aimed at students who already possess a solid understanding of web development and who have client-side programming experience. COMP 3015 begins with basic client-server concepts. Participants are then introduced to server-side programming with PHP and a variety of open-source software tools. Topics include: data encoding, regular expressions, input sanitization, dependency management with Composer, and common components to a typical web application. MySQL, password hashing, and TLS are also discussed. Labs and assignments include using: file I/O, password hashing functions, plus uploading images and other files to a server. Participants gain hands-on experience developing and deploying server-side software in an Object- Oriented Programming (OOP) approach Students practice obtaining and processing user input, basic web application security and how to mitigate the dangers of cross site scripting, session hijacking, and SQL injection. COMP 3015 is a required course in the Web and Mobile Application Development (WMA) Associate Certificate, and the CST FLEX Diploma, which have significant coding prerequisites. Note: Applied Web Development (AWD) students without Java or C# programming language experience are advised to complete COMP 3012 -Back-End Web Development with Node.js, prior to this course. Upon completion, successful students will be able to develop commercial quality web applications and move on to COMP 4669 -Advanced Web Applications with PHP. The last offering of COMP 3015 is Fall 2025. The replacement course will be starting April 2026.
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3833 - Object Oriented Analysis and Design
+
+Outline URL: https://www.bcit.ca/outlines/comp3833/
+
+Credits: 3.0
+
+Description: This hands-on course replaces COMP 3832 as of August 2023. It follows on from COMP 2601- Programming Fundamentals Part 3 (Object Design) and COMP 2831 Business Analysis and Systems Design. Object-Oriented Analysis and Design (OOAD) is aimed software designers and developers who already know how to code significant object-oriented software applications and who also understand the Software development Life Cycle (SDLC) related tools and processes. Exercises and lab work allow students to perform an Object-Oriented Analysis (OOA) based on given requirements. After first identifying business classes students then produce a business model which will be transformed into a design model through Object-Oriented Design (OOD). Topics include: use case analysis, domain model, business classes and relationships, design patterns, anti-patterns, refactoring, General Responsibility Assignment Software Patterns (GRASP), state machine diagrams and types of software architecture. An Agile iterative approach will be followed throughout the OOAD process. Labs include the use of a CASE tool to draw the Unified Modeling Language (UML) diagrams necessary to support the OOAD activities. COMP 3833 is a required course in the Advanced .NET Development, and the Advanced Java Development Associate Certificates, as well as the CST FLEX Diploma. Upon completion, successful students will be able to demonstrate how to analyze, design and construct software applications to industry standards. This course is offered twice per year in the fall (September) and spring (April) terms.
+
+Prerequisites: 60% in COMP 2831 and (60% in COMP 2601 or 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603)
+
+COMP 4601 - Advanced Java Web Application Development
+
+Outline URL: https://www.bcit.ca/outlines/comp4601/
+
+Credits: 4.0
+
+Description: Following on from COMP 3601, this course replaces COMP 4613 and COMP 4656 . Those who also understand HTML, CSS and JavaScript and already capable of developing basic Java web applications will focus on Advanced Java Web App design, organization and deployment. Starting with the Java Persistence API (JPA), students creating Object Relational Mapping solutions and configure data sources in J ava Enterprise Edition (JEE) containers. They connect Java web applications to data sources by utilizing Java Naming and Directory Interface (JNDI). SQL queries are executed using native and Java Persistence Query Language (JPQL queries as well as JPA's Criteria Builder API. COMP 4602 activites include; use Create/Read/Update/Delete (CRUD) operations on JPA entities using entity managers. Students create XML-based web services using the Java API for XML Web Services (JAX- WS) and RESTful web services (JAX-RS API) and Jersey Implementation. Industry best practices are discussed for well-informed decisions about web services strategies. Labs and exercises use industry standards to develop and deploy advanced Java web applications. Topics include: Java Persistence API (JPA), creating Object Relational Mapping solutions, JEE containers, Hibernate API. Students will develop a database-enabled web application, and web services using a variety of industry standards and using design patterns. Enterprise Java Beans (EJB™) API is used to develop the components to build the business logic for Java Enterprise Edition (JEE) applications. Upon successful completion, students will be able to create and deploy advanced Java Web Applications to industry standards. COMP 4601 will be offered in the Winter (January) term.
+
+Prerequisites: 60% in COMP 3601 or 60% in COMP 3656
+
+COMP 4602 - Advanced .NET Web App Development
+
+Outline URL: https://www.bcit.ca/outlines/comp4602/
+
+Credits: 4.0
+
+Description: This hands-on course follows on from COMP 3602 and is aimed at students who can already use C# in the .NET Framework to create significant software applications. Participants must also understand how to build Web Applications using HTML5/CSS3 and JavaScript. Students are introduced to ASP.NET MVC (Model-View-Controller) and Razor Pages to build and deploy scalable and maintainable Server-side and Client-side Web Apps to MS Azure. Blazor is used to develop both Server-Side and Client-Side Apps within the latest Microsoft .NET Framework to cover modern and emerging technologies within the .NET ecosystem. Labs and exercises focus on building secure web apps with authentication to industry standards, covering best practices for preventing common web vulnerabilities such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). Extending web apps to interact with AI Models will also be discussed. COMP 4602 is an elective in the Web and Mobile Application Development Associate Certificate and the CST FLEX Diploma. Upon successful completion, students will be able to use ASP.NET MVC, Razor Pages, and Blazor to take a variety of their .NET Full Stack Web Applications from concept and deploy them to the cloud with MS Azure. This course is offered once per year in the January (Winter) term.
+
+Prerequisites: 60% in COMP 3602 and 60% in COMP 2132
+
+### 2. Complete 7.0 credits from the following list of electives:
+
+COMP 2909 - Front-End Web Development with Angular and Vue.js
+
+Outline URL: https://www.bcit.ca/outlines/comp2909/
+
+Credits: 1.5
+
+Description: This hands-on web development course follows on from COMP 2132. It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Angular and Vue are popular JavaScript open-source front-end application frameworks for developing modularized single-page applications and building user interfaces. Angular is a standalone front-end JavaScript framework with in-built tools and libraries to build scalable web apps. Vue provides the ability to extend web application functionality with customized modules and visual components. COMP 2909 starts with installing the latest version of Angular. Labs and exercises reinforce Angular development fundamentals to build components, modules, and services for data-driven, client-side web applications. Vue.js is then used for rapid modular web application development. Exercises also include: routing, asynchronous JSON transfer, and validation. These features are then implemented using Vue.js 3. Automated testing and redux architecture are also introduced using Angular. There is a brief introduction to using Angular with the Apache Cordova framework for platform independent mobile development for Android and iOS. Participants may also want to complete COMP 3012 -Back-End Web Development with Node.js, COMP 3013 -Front-End Web Development with React.js, and COMP 3015 -Web Application Development with PHP. COMP 2909 is an elective in several BCIT Computing applied associate certificate as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Angular and Vue frameworks to develop data-driven and interactive single-page web applications for all mainstream browsers. This course is offered in the fall (October) and winter (February).
+
+Prerequisites: 60% in COMP 2132 or 50% in ACIT 1620
+
+COMP 3617 - Android and Mobile Applications in Java
+
+Outline URL: https://www.bcit.ca/outlines/comp3617/
+
+Credits: 3.0
+
+Description: Continuing on from COMP 2613 or COMP 3601, this hands-on course is designed for those who already understand how to use Java to develop applications to industry standards. Students who are experienced Java programmers are introduced to the Kotlin programming language to develop, debug and deploy Android applications. This is a BYOD course not in a computer lab. Students must provide their own Windows, Mac or Linux laptop to participate in this course. See the current Android Studio hardware requirements. Please note: BCIT does provide technical support for student's hardware or operating systems. Labs and assignments explore and use Android Studio, SDK tools - avd, adb etc., to build and deploy Android applications on the emulator(s). Topics include: Designing user interfaces with Layouts, Fragments and Activities. Students learn to manage Android Resources, work with Manifest files, persist data, create Services, leverage multi-threading constructs and make use of REST endpoints. Other topics of discussion include Location Based Services, network connectivity, accessing cloud services and data. This course is an elective in the CST/PTS Diploma. Upon completion, students may continue on to advanced courses and programs, COMP 3617 is a required course for the Web and Mobile Application Development Associate Certificate and an elective in the Advanced Java Development Associate Certificate. By the end of this course successful participants will complete a final project which includes using Java to design, build, and package and deploy an Android application to a mobile device. COMP 3617 is under review and not currently being offered.
+
+Prerequisites: COMP 2522 or COMP 2613 or COMP 3601
+
+COMP 3829 - Quality Assurance and Software Testing
+
+Outline URL: https://www.bcit.ca/outlines/comp3829/
+
+Credits: 3.0
+
+Description: Following on from COMP 2501 - Programming Fundamentals Part 2 (Java) and COMP 2831 - Business Analysis and Systems Design, this hands-on course introduces the concepts, tools and processes to perform Quality Assurance (QA) and software testing. Students with Java programming experience are shown how to integrate QA best practices in every step of the development process. Topics include manual and automated testing, creating test cases, bug finding and reporting, and understanding the steps of the Software Testing Life Cycle (STLC). COMP 3829 will focus on the fundamental concepts of QA, practicing different methods of finding, writing, and running test cases. Participants will acquire practical experience with key QA tools and technologies. They will use Artificial Intelligence (AI) integration, automated testing, Unified Modeling Language (UML) diagramming, and browser developer tools for efficient test management. Students are introduced to using Artificial Intelligence (AI) for assisted verification, tracking and reporting bugs. Exercises and labs will include using popular open-source QA software testing and tracking tools, plus writing unit tests in a Java environment with JUnit. Additional topics include Black Box, White Box and Grey Box, Unit testing for Quality Assurance (QA), Quality Control (QC) planning, and test execution. Automated testing topics include constructing an automation framework, scripting techniques, generating test data, and test architecture will be discussed. COMP 3839 is an elective in the CST FLEX Diploma, as well as the Web and Mobile Development (WMA), and Applied Software Development (ASD) Associate Certificates. Upon completion, successful students will be able to create automated test scripts with Selenium IDE, monitor test processes, evaluate test results, and conduct testing to industry standards. They will have experience with software testing methods, creating a Quality Assurance plan and a test plan.
+
+Prerequisites: 60% in COMP 2501 and 60% in COMP 2831
+
+COMP 3912 - iOS Mobile Application Development
+
+Outline URL: https://www.bcit.ca/outlines/comp3912/
+
+Credits: 4.0
+
+Description: This hands-on application development course was designed for experienced object oriented programmers. Students must have prior experience developing a software application, they are also required to work in teams and participate in online activities. The focus of COMP 3912 is on the user interface components of current popular iOS business applications. In order to follow this course participants need to be avid users of iPhones. This is a bring your own devices (BYOD) course, students must provide their own Mac computer with OS X Catalina or higher, plus a current iOS mobile device, ideally an iPhone. Participants have access to Apple resources for the development and testing of iOS applications during this course. Students design and develop apps for the current iOS platform to Apple standards. Starting with an intensive overview of the Swift programming language, students are introduced to the iOS development platform via in class labs and exercises. Topics include; Xcode, Cocoa Touch API, Swift, SwiftUI, troubleshooting and debugging, Git source control basics, memory management, user input and gesture recognition. Additional topics include: Auto Layout, data persistence including Core Data, NSUserDefaults and Plists. Testing, networking, SpriteKit, Core Location and multi-threading are also discussed. Upon successful completion of COMP 3912 students will be able to design and build a commercial quality iOS application for iPhone. This course will be offered once per year in the spring (April or May) term.
+
+Prerequisites: 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603 or 60% in COMP 3656
+
+COMP 4016 - Applied DevOps with Kubernetes
+
+Outline URL: https://www.bcit.ca/outlines/comp4016/
+
+Credits: 3.0
+
+Description: This hands-on course replaces COMP 3916 –Docker for DevOps as of April 2023. It is aimed at web software developers who want to use current DevOps standards to reduce service downtime. Software developers who can create web-based applications, are introduced to best practices and techniques to create software services resilient to failures. COMP 4016 starts with an overview of DevOps. Labs and exercises cover the basics of Docker including creating Docker images and debugging containers. Participants are then introduced to Kubernetes, an open source platform for managing containerized workloads and services. Assignments focus on best practices to automate DevOps operations to reduce on-call work, and how to leverage Kubernetes self-healing features. There is a focus on the use of automatic scalers to react to bursts of traffic and monitor the current state of the service. YAML (a data-serialization language) is used configure Kubernetes and to program running services. Students practice how to automate typical human elements and inputs to apply different DevOps concepts to a running service. COMP 4016 is an elective course the CST FLEX Diploma and several BCIT Computing Associate Certificates. DevOps students should also consider completing COMP 2833 - Agile Scrum Methods, for additional skills. Upon completion, successful students will have working knowledge of DevOps. They will be able to use Docker and Kubernetes to orchestrate automation, to reduce costs and downtime for software as a service. Students without the specific BCIT prerequisites, who have equivalent knowledge of Web Software Application Development with PHP, and or Java Web or ASP are welcome to apply. COMP 4016 will be offered once a year in the fall (September) term.
+
+Prerequisites: 60% in COMP 3015 or 60% in COMP 3601 or 60% in COMP 3973 or 60% in COMP 4602 or 60% in COMP 4613
+
+COMP 4669 - Advanced Web Applications with PHP
+
+Outline URL: https://www.bcit.ca/outlines/comp4669/
+
+Credits: 3.0
+
+Description: This hands-on course continues on from COMP 3015 –Web Application Development with PHP and is aimed at students who are already able to build significant PHP web applications. COMP 4669, begins with a review of topics covered in COMP 3015, then students are introduced to the Model-View-Controller (MVC) and Active Record patterns. Topics include: RESTful APIs, Caching, Message Queues, and Cross Origin Resource Sharing (CORS). Object-Relational Mapping (ORM) libraries are used in assignments and labs to interact with MySQL databases. WebSockets are also discussed with an emphasis on secure development practices and application performance. Labs and assignments use open source libraries and integrate with application framework and how to safely persist passwords and communicate with third party services. Participants use industry standard PHP frameworks to develop secure and scalable RESTful APIs with JSON responses. Application middleware is also introduced to handle CORS and cookie handling. COMP 4669 is an elective in the Applied Web Development (AWD), the Web and Mobile Application Development (WMA) Associate Certificates, and the CST FLEX Diploma. Note: Web Development students should also consider COMP 3012 -Back-End Web Development with Node.js and COMP 3013 -Front-End Web Development with React.js. Upon completion, successful students will be able to build and deploy front-end, single-page-applications (SPAs) by creating back-end PHP services for commercial quality server-side web applications. COMP 4669 will be offered for the final time in the winter (January) 2026 term.
+
+Prerequisites: 60% in COMP 3015
+
+
+
+## Entrance Requirements
+
+introduction
+
+WMA is a second-level associate certificate with very specific requirements. You either have the Applied Software Development (ASD Associate Certificate) or proof of equivalent post-secondary education within the last 5 years to be accepted into this program. Candidates must already know how to develop significant software applications in an object-oriented programming language environment, specifically Java or C#, and how to build web pages with HTML5, CSS3, and JavaScript before starting WMA. You’re also expected to have an excellent command of English and Math at a BC high school Grade 12 level or equivalent. Prerequisites: A) Applied Software Development (ASD) Associate Certificate plus solid web development and scripting skills, HTML5, CSS3, and JavaScript. Those students who have not completed ASD and have other formal post-secondary in Computing and IT must provide detailed course outlines on a course-by-course basis to prove equivalence to: WMA includes advanced web scripting and development tools. Students must already have significant web scripting skills as prerequisites. B) Some students may wish to complete the Applied Web Development (AWD) Associate Certificate which includes the web scripting prerequisites.
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. English language proficiency: Category 2 – English Studies 12 (67%) or equivalent
+
+International applicants
+
+This program is not available to international students. View available programs .
+
+Program declaration
+
+Declaring your Flexible Learning (Part-time Studies) program ensures that BCIT is aware of your intent to complete a program as it is currently outlined and provides you the opportunity to apply for transfer credit. To submit your declaration: Upon approval, a program plan letter will be sent to you confirming your program of study. Please allow approximately eight weeks for processing. Learn more about program declaration Note: Before declaring your intent to complete this program, please complete COMP 1850 and the Applied Software Development (ASD) associate certificate, with COMP 3601 Application Development with Java or COMP 3602 Application Development with C# as electives. Web and Mobile Development (WMA) is a second-level Associate Certificate built on top of Applied Software Development (ASD) with specific electives. Answer all questions completely. If required, convert transcripts and documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+
+
+## Costs & Supplies
+
+introduction
+
+WMA program is built on top of ASD . The cost of WMA alone is an additional cost of $5,000 in tuition and books, so the total cost to complete the WMA associate certificate is approximately $9,000 including ASD.
+
+Tuition fees
+
+Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information.
+
+
+
+## Program Details
+
+introduction
+
+Students must provide a current model PC desktop or laptop with a webcam, microphone and have high-speed internet access. COMP courses may use two-way audio and video, as well as group work outside of class. Timeline WMA may be completed with as few as 7 courses. However, delivery was designed for 1-2 courses per term, not full-time delivery. Due to prerequisites and scheduling, it is typically not possible to complete this part-time program in less than 4 terms (12+ months). Depending on their course load, some students may be able to complete both ASD and WMA in sequence in around three years. Workload Attendance and participation are mandatory. COMP courses have significant homework each week. Please budget 12-15+ hours per week for each course. Credit Overlap These three (3) advanced software development programs were designed for students not moving on to the CST Diploma. Program approval will only be granted for one (1) of these programs due to credit overlap. Associate Certificates require a minimum of 25% unique credits. It is not possible to earn multiple BCIT credentials using all the same credits in each program.
+
+Program delivery
+
+Blended: This program has courses that are delivered on campus or partly on campus and partly online. Some COMP courses are delivered entirely online and others are entirely on campus. A few course sections in have a blended delivery with synchronous on campus classes, and others have synchronous online classes, while both options include required asynchronous online components.
+
+Program location
+
+Courses may be offered at the following locations: Burnaby Campus 3700 Willingdon Avenue Burnaby, BC Downtown Campus 555 Seymour Street Vancouver, BC Distance and online learning
+
+Program abandonment
+
+Students approved for a Flexible Learning (Part-time Studies) program are expected to register and complete courses on a continuous basis. A student that has not completed a course from their approved program of study over a period of three consecutive academic terms will be considered to have abandoned the program. Throughout the duration of the program, a student is permitted a maximum of five academic terms where they are not required to register and complete a course from their approved program of study. Students who exceed the five term maximum will be considered to have abandoned the program. Students who have abandoned their approved program of study and wish to be reinstated will be required to apply for program approval for a current credential. BCIT cannot guarantee that courses taken prior to this reapplication will be credited towards the current credential. BCIT Policy 5103 - Student Evaluation [PDF] permits a maximum of three attempts to successfully complete each course within a credential. Students approved for a Flexible Learning (Part-time Studies) program are expected to register and complete courses on a continuous basis. A student that has not completed a course from their approved program of study over a period of three consecutive academic terms will be considered to have abandoned the program. Throughout the duration of the program, a student is permitted a maximum of five academic terms where they are not required to register and complete a course from their approved program of study. Students who exceed the five term maximum will be considered to have abandoned the program. Students who have abandoned their approved program of study and wish to be reinstated will be required to apply for program approval for a current credential. BCIT cannot guarantee that courses taken prior to this reapplication will be credited towards the current credential.
+
+
+
+## Graduating & Jobs
+
+Apply for graduation
+
+Upon successful completion of all program requirements, complete an Application for BCIT Credential [PDF] and submit it to Student Information and Enrolment Services. Allow approximately six to eight weeks for processing. All financial obligations to the Institute must be met prior to issuance of any credential.

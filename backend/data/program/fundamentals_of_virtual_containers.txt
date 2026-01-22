@@ -1,0 +1,109 @@
+URL: https://www.bcit.ca/programs/fundamentals-of-virtual-containers-microcredential-part-time-0844cm/
+
+Title: Fundamentals of Virtual Containers
+
+================================================================================
+
+## Overview
+
+Delivery
+
+distance
+
+Overview text
+
+The Fundamentals of Virtual Containers Microcredential program is focused on containerization technologies and orchestration systems. It covers the basics of creating and managing containerized applications — emphasizing scalable, cloud-native technologies. Participants will learn about container orchestration tools, which are essential for managing complex applications and services in a distributed and scalable environment. This includes understanding how to deploy, scale, and manage containerized applications across multiple nodes in a cloud environment. This microcredential is suitable for IT professionals, system administrators, and those involved in DevOps roles who are interested in learning about containerization and orchestration. It’s ideal for those who are new to these technologies as well as for professionals seeking to enhance their skills in managing modern, scalable applications. The course is designed to bridge the gap between development and operations, making it a valuable resource for anyone looking to improve their expertise in efficient and scalable application deployment. Upon completion of this microcredential, students can apply for skilled IT positions managing and creating containerized applications.
+
+
+
+## Courses
+
+### Required Courses:
+
+CITX 1010 - Introduction to Docker and Containerization Technologies
+
+Outline URL: https://www.bcit.ca/outlines/citx1010/
+
+Credits: 1.5
+
+Description: This introductory course demystifies containerization, focusing on practical Docker tools for modern application deployment. Participants will learn how to build, deploy, and manage containers, gaining hands-on skills in container creation and cluster management. The course covers essential Docker skills including container lifecycle management, image deployment, Docker Swarm clustering, networking, load balancing, and scaling strategies. Designed for system administrators, developers, and IT professionals new to containerization, this training provides a direct path to understanding container technologies. Students will explore Docker's architecture, learning to transform traditional application deployment through practical, real-world techniques. The curriculum moves beyond theory, giving participants actionable skills to implement efficient and scalable containerized environments This hands-on training bridges the gap between theoretical knowledge and practical implementation, preparing professionals to leverage Docker technologies in their daily work.
+
+Prerequisites: No prerequisites are required for this course.
+
+CITX 1020 - Advanced Containerization Concepts
+
+Outline URL: https://www.bcit.ca/outlines/citx1020/
+
+Credits: 1.5
+
+Description: This advanced course delves deeper into the world of container orchestration, focusing on managing complex, distributed applications in a scalable manner. Participants will explore advanced topics in container orchestration, learning how to deploy, scale, and manage multi-container applications across various nodes and environments. Additional topics include managing containerized applications at scale, deploying multi-service applications in a distributed environment, monitoring and troubleshooting containerized applications and best practices for ensuring high availability and disaster recovery in containerized systems. This course is suitable for those who have completed an introductory course in containerization or have equivalent practical experience. It's aimed at IT professionals, system administrators, and DevOps engineers who are looking to deepen their understanding and skills in advanced container orchestration techniques.
+
+Prerequisites: 50% in CITX 1010
+
+
+
+## Entrance Requirements
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+
+
+Recommended for success
+
+Although no previous experience is necessary, applicants should have basic knowledge of Linux and Networking.
+
+International applicants
+
+This program is available to international applicants who will complete the program from outside Canada or who currently have a valid status in Canada other than study permit. Study permit: International applicants accepted into this program are not eligible for a study permit.
+
+Apply to program
+
+Formal application to the microcredential is not required. Upon successful completion of the courses , email the program contact with your full name, student number, and mailing address to be issued a microcredential.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+
+
+## Costs & Supplies
+
+Tuition fees
+
+Flexible Learning (Part-time Studies) tuition is charged on a course-by-course basis. Please see the Flexible Learning Tuition & Fees page for more information on domestic and international tuitions.
+
+Books & supplies
+
+
+
+
+
+## Program Details
+
+Program length
+
+This self-paced microcredential can be completed in one year.
+
+Grading
+
+
+
+Program delivery
+
+Online: This program is delivered fully online.
+
+Program location
+
+
+
+
+
+## Graduating & Jobs
+
+introduction
+
+Graduates may qualify for several entry-level and intermediate job roles in the IT and DevOps fields, depending on their existing education and experience in IT. The specific job outcomes may include:

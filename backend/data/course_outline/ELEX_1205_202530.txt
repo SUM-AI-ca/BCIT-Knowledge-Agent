@@ -1,0 +1,185 @@
+URL: https://www.bcit.ca/outlines/20253031475/
+Course: ELEX 1205
+Field: DC Circuit Analysis for Robotics
+
+School: School of Energy
+Program: Mechatronics and Robotics
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Zero Textbook Cost: Yes
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 31475
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Pejman Alibeigi
+E-mail: pejman_alibeigi@bcit.ca
+Location: SW2-360
+Office Hours: Mondays 2:30 - 4:30 pm;Tuesdays 1:30 - 2:30 pm;Thursdays 1:30 - 3:30 pm.
+
+## Course Description
+This course teaches the principles and methods of analysis related to DC circuits. Topics include SI units and terminology, voltage, current, work, energy, power and resistance. Series, parallel and series-parallel circuits are analyzed and designed. Methods of analysis for more complex circuits include superposition, mesh, nodal, Thevenin, Norton, and wye to delta conversion. RMS values for sinewaves are calculated. Labs are synchronized with lectures so that theory is studied and confirmed by application.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course the student will be able to:
+
+## QUANTITIES, UNITS AND SYMBOLS
+- Use quantities, units and symbols in the correct context.
+- Define the terms 'variable' and 'parameter'.
+- Convert between scientific and engineering notation.
+- Calculate values using standard SI prefixes.
+- List the relationships between charge, time, current, voltage, energy, power and efficiency.
+- Calculate values using charge, time, current, voltage, energy, power and efficiency.
+- Produce graphs of charge versus time and current versus time.
+
+## OHM'S LAW
+- Apply Ohm's Law to circuit design, analysis and testing.
+- Describe the relationships between voltage, current, resistance and power.
+- Calculate voltage, current, resistance and power using Ohm's Law.
+- Identify resistor values by power rating and colour code.
+- Set up circuits according to schematic diagrams.
+- Operate a DC power supply.
+- Measure voltage, current and resistance using analog and digital meters.
+- Plot current versus voltage for non-linear devices and calculate static and dynamic resistance.
+
+## SERIES CIRCUITS
+- Analyze, design and test series circuits.
+- List the three basic characteristics of series circuits.
+- Describe the purpose of switches, fuses and circuit breakers.
+- Analyze resistive circuits using Ohm’s Law and Kirchoff’s Voltage Law.
+- Define the anode, cathode, biasing and forward voltage drop of a silicon diode and a light emitting diode.
+- Identify the anode and cathode of a silicon diode using an ohmmeter.
+- Analyze circuits with resistors and a diodes in series.
+- Calculate voltages using the voltage divider rule.
+- Define and calculate relative potential.
+- Analyze series circuits with multiple voltage sources.
+- Analyze series circuits with sources that have internal resistance.
+- Analyze series circuits that have significant conductor resistance.
+- Design a multi-range voltmeter.
+
+## PARALLEL CIRCUITS
+- Analyze, design and test parallel circuits.
+- Identify parallel components in schematic diagrams.
+- List the three basic characteristics of parallel circuits.
+- Analyze resistive parallel circuits using Ohm's Law and Kirchoff’s Current Law.
+- Calculate currents using the current divider rule.
+- Compare the characteristics of ideal and practical current sources.
+- Convert between current sources and voltage sources.
+- Analyze parallel circuits with current sources.
+- Analyze parallel circuits with both voltage and current sources.
+- Design a multi-range ammeter.
+- SERIES-PARALLEL CIRCUITS
+- Analyze, design and test series-parallel circuits by comparing, contrasting and combining series and parallel circuits.
+- Identify series and parallel parts of circuits.
+- Calculate voltage, current and power for series-parallel circuits using series and parallel methods.
+- Design loaded voltage-divider circuits.
+- Measure voltage and current in a loaded voltage-divider circuit.
+- Calculate resistance values for a balanced Wheatstone bridge.
+- Calculate line currents in a 3-wire power distribution circuit.
+- Design and test an ammeter and a voltmeter based on an analog meter movement.
+- Determine the internal resistance of sources from voltage and current measurements.
+- Calculate the effects of voltmeter and ammeter loading.
+
+## CIRCUIT ANALYSIS METHODS FOR NETWORKS
+- Analyze circuits using various network analysis methods.
+- Analyze networks using the current assumption method.
+- Analyze networks using the superposition theorem.
+- Analyze networks using mesh analysis.
+- Analyze networks using nodal analysis.
+- Measure currents in a 3-wire distribution circuit.
+
+## EQUIVALENT CIRCUIT METHODS FOR NETWORKS
+- Solve and test for specific parameters in a DC circuit network using alternate equivalent techniques.
+- Simplify a network into series-parallel form using wye-delta conversion.
+- Reduce a network to its Thevenin equivalent circuit.
+- Calculate the value of a load resistor to obtain maximum power transfer.
+- Reduce a network to its Norton equivalent circuit.
+- Reduce network by alternately applying Thevenin and Norton methods.
+- Design a T-pad attenuator to obtain desired attenuation and resistance matching.
+- Calculate values using the reciprocity theorem.
+- Measure bridge current in balanced and unbalanced bridges.
+- Measure voltage and current in equivalent wye, delta and Thevenin circuits to confirm equivalency.
+
+## ANALYZE WAVEFORMS
+- Analyze AC and DC waveforms.
+- Define DC, AC, peak, peak-to-peak, cycle, period, frequency and wavelength for any periodic waveform.
+- Calculate the RMS value of a sinusoidal waveform.
+
+## Learning Resources
+Course Lecture Notes
+
+Recommended Reference Books:
+
+Fundamentals of Electric Circuits, Alexander and Sadiku, 7th Edition, McGraw-Hill
+
+Engineering Circuit Analysis, William H. Hayt, 9th Edition, McGraw-Hill
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lab assignments: 30: (1)
+Midterm and quizzes: 30
+Final exam: 40
+
+(1) The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is also required for a passing grade. Section 3.4 of BCIT policy 5103PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+Schedule (Fall 2025) *
+
+WEEK: TOPIC: TEST: LAB: TUTORIAL
+01: Introduction: N/A: N/A
+02: Basic Concepts: 00 – Laboratory Tools and Practices: N/A
+03: Fundamental Laws: Quiz: 01 – Introduction to Measurement: 01
+04: Series Circuits: 02 – Resistors and Ohm’s Law: 02
+05: Parallel Circuits: Quiz: N/A: N/A
+06: Series/Parallel Circuits: 03 – Series Circuits and Kirchhoff’s Voltage Law: 03
+07: Applications: Quiz: 04 – Parallel Circuits and Kirchhoff’s Current Law: 04
+08: Circuit Elements: 05 – Series/Parallel Circuits: 05
+09: Operational Amplifier: Midterm Exam: 06 – Loaded Voltage Divider: 06
+10: Superposition Principle/Source Transforms: 07 – Dependent Sources: 07
+11: Thévenin’s/Norton’s Theorem: Quiz: N/A: N/A
+12: Maximum Power Transfer: 08 – Superposition Principle: 08
+13: Nodal/Mesh Analysis: Quiz: 09 – Thévenin Equivalent Circuits: 09
+14: Review for Final Exam: N/A: 10
+15: N/A: Final Exam: N/A: N/A
+
+* This schedule is tentative and subject to change.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Pejman Alibeigi, Instructor August 25, 2025
+
+I verify that this course outline has been reviewed. Greg Scutt, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology August 29, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

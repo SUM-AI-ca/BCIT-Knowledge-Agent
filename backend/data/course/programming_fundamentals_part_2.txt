@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/programming-fundamentals-part-2-java-comp-2501/
+Title: Programming Fundamentals Part 2
+Field: Computer Systems
+Type: Course
+Course Code: Java
+
+================================================================================
+
+## Overview
+
+Students who already understand how to write simple programs in Python will focus on best practices in computer programming and explore problem-solving skills. This second-level computer programming course follows on from COMP 1516 - Programming Fundamentals Part 1 (Python). COMP 2501 introduces application programming interfaces (APIs) and how to transition from Python to Java. This is not a Java development course, it is the second step in a series of three (3) applied programming fundamentals courses where Java is introduced. Students must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Topics include: an overview of object-oriented programming constructs including basic introductions to: encapsulation, inheritance, polymorphism, and exceptions. Labs and exercises demonstrate problem solving; writing automated tests, and practicing design before implementation. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 13+ hours per week; 3 hours of synchronous class time, and 10+ hours of homework each week. COMP 2501 is required for the Applied Software Development, ASD and the Computer Systems Certificate, CSC. Upon completion, successful students will be able to write robust computer programs. They will be prepared to move on to COMP 2511 - Procedural Programming with C and/or COMP 2601 - Programming Fundamentals Part 3 (Objects).
+
+## Credits
+
+3.0
+
+## Cost
+
+$568.16 - $611.10
+
+## Prerequisites
+
+- 60% in COMP 1516 or 50% in ACIT 1515
+
+## Learning Outcomes
+
+- Describe fundamental OOP concepts such as classes, objects, constructors, inheritance, encapsulation, polymorphism and overloading.
+- Apply design techniques using class diagrams to define classes and their relationships when solving a problem.
+- Explain the difference between primitive types and reference types.
+- Perform data validation with exceptions, methods, and constructors.
+- Design first, implement, debug and write automated tests for object-oriented programs
+- Write programs processing data using sources and sinks.
+- Handle standard exceptions to write robust programs.
+- Refactor a program by identifying opportunities to apply procedural abstraction
+- Use collections and iterators.
+- Explain the value of application programming interfaces (APIs) in software development.
+- Apply fundamental best practices for OOP including packages.
+- Contribute to a small-team code walkthrough.
+- Move on to COMP 2511 Procedural Programming with C and COMP 2601 - Programming Fundamentals Part 3 (Objects).
+
+## Related Programs
+
+- Applied Software Development (ASD)
+- Computer Systems

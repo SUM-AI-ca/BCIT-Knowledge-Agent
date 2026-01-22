@@ -1,0 +1,141 @@
+URL: https://www.bcit.ca/outlines/20251084594/
+Course: COMP 3962
+Field: Cloud Computing Platforms
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): Completion of first year CST and Admission into the Cloud Computing Option
+CRN: 84594
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Frederic Guo
+E-mail: frederic_guo@bcit.ca
+Location: DTC 537
+Office Hours: By appointment via video conferencing.
+
+## Course Description
+In this course students learn how to utilize a wide variety of resources and services available on cloud computing platforms. Topics include characteristics of cloud computing; cloud deployment models; cloud platform architectures; cloud computing platforms and comparative analysis; cloud compute resources including virtual machine instances, load balancers, auto scaling groups, and snapshots; cloud networking, with an emphasis on virtual private clouds (VPCs); cloud storage and content delivery, cloud-hosted databases, and cloud security models including user identity, access management, and resource security. Students will build their skills by participating in in-class interactive lectures, hands-on lab activities, and working on comprehensive assignments.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Differentiate the different types of cloud deployment and service models.
+- Describe the advantages and disadvantages of cloud computing.
+- Analyze the platform architectures of a variety of public cloud computing platforms.
+- Configure and deploy virtual machines (instances), load balancers, and auto scaling groups.
+- Design and implement VPCs.
+- Implement security policies on users and resources, including VPCs and instances.
+- Select storage options for resources and applications, including instances, databases and websites.
+- Design and deploy cloud-based websites.
+- Deploy and configure a variety of database instances.
+- Remotely configure and monitor deployed resources.
+- Install, configure and use both integrated development environments and command line interfaces to configure and manage resources on public clouds.
+
+## Learning Resources
+Recommended textbooks:
+
+- Baron, J., Baz, H., Bixler, T., Gaut, B., Kelly, K.E., Senior, S., & Stamper, J. (2017). AWS Certified Solutions Architect Official Study Guide: Associate Exam. Sybex. ISBN-13: 978-1-119-13855-6.
+- Cole, S., Digby, G., Fitch, C., Frideberg, S., Qualheim, S., Rhoads, J., Roth, M., & Sundrud. (2018). AWS Certified SysOps Administrator Official Study Guide: Associate Exam. Sybex. ISBN-13:978-1-119-37742-9
+
+Applicable software programs and tools, online digital resources, technical specifications, whitepapers, and selected academic articles.
+
+## Evaluation Criteria
+Criteria: %: Comments
+In-class labs & quizzes: 25: Expected 9 in-class exercises & 6 quizzes
+Assignments: 15: 3 take-home assignments (5% each)
+Project: 20: Group Project with three checkpoints: Proposal (2%), Milestone(6%), Final Submission(12%)
+Final Exam: 40: Comprehensive
+Total: 100
+
+Note:
+
+1) NO late submission (lab, assignment, project deliverables) will be considered for marks.
+
+2) NO makeup quiz will be provided.
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Specific Requirements
+- Credit card. Required in order to create accounts on Amazon Web Services (AWS), Microsoft Azure (Azure), and Google Cloud Platform (GCP).
+- It will be the students' responsibility to monitor their use of AWS, GCP, and Azure to prevent or minimize any fees charged to their credit cards.
+- Signature on a Student Consent Statement regarding the storage of personal information outside of Canada.
+- Purchase of a domain name from a domain registrar.
+
+## Other information
+In this course, students will be using Amazon Web Services (Amazon), Google Cloud Platform (Google) and Microsoft Azure (Microsoft). As BCIT is subject to the BC Freedom of Information and Protection of Privacy Act and in accordance with BCIT Policy 6700 Freedom of Information and Protection of Privacy that requires all BCIT employees take steps to protect Personal Information within their custody and control, it is BCIT's responsibility to inform students prior to using Amazon, Google and Microsoft products in this course, that this software may be hosted outside of Canada.
+
+What is Personal information? “Personal Information” is any recorded information that uniquely identifies the student, such as your name, address, telephone number, age, sex, race, religion, sexual orientation, disability, fingerprints, or blood type. It includes information about the student's educational, financial, criminal, employment or health care/medical history. It also includes anyone else's opinions about the student and the student's own views or opinions.
+
+Why is BCIT concerned about where Personal Information resides? Amazon, Google and Microsoft may be operated by vendors that are US owned and any information held on Amazon, Google and Microsoft servers outside of Canada are subject to the USA Patriot Act. Student's personal information may be used by other third parties as is it not protected by Canadian law. The USA Patriot Act gives the US government the right to seize and use any data residing on any server owned and/or controlled by a US or US based company regardless of where that server may be in the world. This increases the risk of unauthorized or improper access, use and disclosure of BCIT student's and instructor's personal information and violation of privacy provisions under section 30.1 of FIPPA which with few limited exceptions requires that personal information in the control or custody of a public body be stored and accessed only in Canada unless the individual about whom the information is about has consented to their Personal Information being accessed or stored outside of Canada.
+
+Notice and Consent. BCIT wishes students to be fully informed prior to their using this software and BCIT is thus also obligated to obtain a student's written consent should the student agree to the use Amazon, Google and Microsoft products. It is also important for a student to know that their consent to agree is optional and may be withdrawn at any time. If a student wishes to opt out of using the Amazon, Google and Microsoft cloud platforms altogether, the student can discuss alternative activities to complete with the instructor. A student may also choose to opt back in at any time.
+
+The nature of the information that may be at risk within the context of the specific software being proposed is the studen'ts name, address, email address, telephone number and credit card information.
+
+If a student agrees to the use of Amazon, Google and Microsoft, BCIT must ask them to agree in writing to do so. BCIT will provide the student with a consent form the first day this course convenes.
+
+## Course Schedule and Assignments
+Week#: Topics: Lab: Quiz
+1: Intro to Cloud Computing AWS Account Setup: Lab 1: -
+2: AWS EC2: Lab 2: Quiz 1
+3: AWS Storage Systems: Lab 3: -
+4: AWS Elastic Load Balancing, Auto Scaling, High Availability: Lab 4: Quiz 2
+5: Instances & AMIs: Lab 5: -
+6: AWS Elastic Beanstalk: Lab 6: Quiz 3
+7: Family Day - no class on Monday DNS and AWS Route 53, and Elastic IP Addresses: -: -
+8: Mid-Term Exam Week - No class
+9: AWS Virtual Private Cloud & Networking [Optional] AWS Architecture Best Practices: Lab 7: Quiz 4
+10: Introduction to Azure: Lab 8: -
+11: Security for Cloud Computing: Lab 9: Quiz 5
+12: Project: -: -
+13: Outro & Review: Project Due: Quiz 6
+14: Study/Makeup/Review/Presentation Week - No class
+15: Final Exam Week - No class
+
+This schedule is tentative and subject to change.
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Frederic Guo, Instructor December 19, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 03, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 03, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

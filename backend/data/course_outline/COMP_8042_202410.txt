@@ -1,0 +1,124 @@
+URL: https://www.bcit.ca/outlines/20241091196/
+Course: COMP 8042
+Field: Advanced Algorithms and Data Structures Design and Analysis
+
+School: School of Computing and Academic Studies
+Program: Bachelor of Technology - Computer Systems
+Course Credits: 3
+Minimum Passing Grade: 60%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 45
+Total Weeks: 15
+Hours/Weeks: 3
+Delivery Type: Lecture
+Prerequisite(s): 60% in MATH 7908† and 60% in MATH 7808† († may be taken concurrently)
+CRN: 91196
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Sayyedhassan Shavarani
+E-mail: sshavarani@bcit.ca
+Location: SW2-124
+Office Hours: By appointment through email in either of the two ways (1) In person in SW2-124 (2) In my virtual meeting room.
+
+## Course Description
+The objective of this course is to apply concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms. This course will provide students with exposure and practice to more advanced data structures and algorithmic strategies used in software development. Students will identify real world problems and apply a heuristic approach to solve them. After reviewing basic data structures and algorithms, students will apply advanced analysis techniques and algorithms. Particular emphasis will be placed on efficiency and optimization.​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Design and analyze data structures (including advanced tree data structures, dictionaries, hash tables, heaps, and priority queues)
+- Apply a heuristic approach to problem solving.
+- Apply the most appropriate and optimal solution for problem solving using fundamental algorithms (including greedy, divide-and-conquer, and dynamic programming) and advanced algorithms.
+- Apply mapping of real-world problems to algorithmic solutions (including graph problems).
+- Apply advanced techniques to algorithms (including probabilistic and Big O analysis).
+- Design finite state machines for practical problems.
+- Develop (design and implement) optimized software applications using the most appropriate data structures and algorithmic strategies
+
+## Learning Resources
+Required:
+
+Weiss, Data Structures and Algorithm Analysis in C++ 4th edition, Pearson, 2014, ISBN 9780132847377
+
+Readings provided in class.
+
+Recommended:
+
+Rosen, Discrete Mathematics and its Applications, 7th edition, McGraw Hill Inc, 2012, ISBN 9780073383095 (Chapter 13 is used as the reference for FSM section)
+
+Main & Savitch, Data Structures and Other Objects Using C++, 4th edition, Pearson, 2011, ISBN 9780132129480
+
+Levitin, Introduction to the Design and Analysis of Algorithms, 3rd edition, Pearson, 2010, ISBN 9780132316811
+
+## Course Goals
+The objective of this course is to apply concepts and problem-solving techniques that are used in the design and analysis of efficient algorithms. This course will provide students with exposure and practice to more advanced data structures and algorithmic strategies used in software development. Students will identify real world problems and apply a heuristic approach to solve them. After reviewing basic data structures and algorithms, students will apply advanced analysis techniques and algorithms.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignment 1 (Focusing on Stacks and Queues): 10: The passing grade for this course is 60%
+Assignment 2 (Focusing on Trees and Hashing): 20
+Assignment 3 (Focusing on Sorting and Graphs): 15
+Attendance: 10
+Midterm: 15
+Final Exam: 30
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success. Attendance will be worth 10% of the total marks for the course and will be taken in the beginning of each session before the start of the lecture. Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+There will be three assignments in this course, which you will be required to submit individually.
+
+The first assignment will be released in Week 2.
+
+The second assignment willl be released in Week 5.
+
+The third assignment willl be released in Week 9.
+
+Details on the assignments will be provided in class.
+
+As well, there will be a midterm exam and a final exam.
+
+## Course topics
+Date: Lecture: Readings: Material Covered
+Jan 10: Algorithm Analysis: Ch. 1-2
+Jan 17: Useful Data Structures: Ch. 3: ADTs, Lists, and STL
+Jan 24: Useful Data Structures: Ch. 3: Stacks and Queues
+Jan 31: Trees: Ch. 4: Binary Trees, BSTs, AVL Trees
+Feb 07: Trees: Ch. 4 & Ch. 12.2: Red-Black Trees, Sets and Maps
+Feb 14: Hashing: Ch. 5: Separate Chaining, Open Addressing, Perfect Hashing, Cuckoo Hashing, Hopscotch Hashing
+Feb 21: Priority Queues: Ch. 6: Heaps, Selection Problem
+Feb 28: Sorting: Ch. 7: Insertion Sort, Shellsort, Heapsort, Mergesort (we will have the midterm exam in this session after the lecture)
+Mar 06: Sorting: Ch. 7: Quicksort, Bucket Sort, Radix Sort
+Mar 13: Graph Algorithms: Ch. 9: Topological Sorting, Shortest Path
+Mar 20: Graph Algorithms: Ch. 9: MST, DFS and its applications
+Mar 27: Algorithm Design Techniques: Ch. 10: Greedy Algorithms, Divide and Conquer, Dynamic Programming, Randomization, Backtracking
+Apr 03: Finite State Machines: Ch. 13 (Rosen): FSMs, FSAs and Turing Machines
+Apr 10: Final Thoughts and Review: -
+Apr 17: -: -: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Sayyedhassan Shavarani, Instructor December 21, 2023
+
+I verify that this course outline has been reviewed. Mirela Gutica, Program Head December 21, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean December 22, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

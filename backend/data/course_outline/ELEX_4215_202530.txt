@@ -1,0 +1,136 @@
+URL: https://www.bcit.ca/outlines/20253030673/
+Course: ELEX 4215
+Field: Strategies for Industrial Process Control                                                           
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Weeks: 15
+Delivery Type: Lecture
+Prerequisite(s): CHSC 3342 and MATH 3343 and ELEX 3215 and ELEX 4210† († may be taken concurrently) COMM 2443‡ (‡ must be taken concurrently)
+CRN: 30673
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bill Maki
+E-mail: bill_maki@bcit.ca
+Location: SW03-2069
+Office Hours: Posted on Office Door. By appointment please verify by email.
+
+## Course Description
+This course examines the practical application of common control systems to industrial processes. Industrial control loop components and processes are studied and basic operating characteristics identified. Control valve sizing and operating characteristics (static and dynamic response) are studied. Control loop stability based on a first order plus dead time model is analyzed using Bode plots. Control strategies are discussed for a variety of processes including heat exchangers, boiler systems, level applications, evaporators and pH systems. These processes are used to demonstrate the application of the most common multi-input, single output (MISO) control strategies including cascade, feedforward, ratio, and relevant selective systems.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+
+- Evaluate various control valve performance characteristics and size valves for liquid service applications.
+- Evaluate common industrial control strategies and formulate appropriate controller tuning to achieve desired closed loop performance as measured against established performance criteria.
+- Examine and explain relevant control loop operating characteristics of common industrial components and processes in the time and frequency domains.
+- Analyze control systems exhibiting non-linear gains. Implement and tune single-input (SISO) and multi-input (MISO) control systems (cascade, feedforward and ratio).
+- Apply signal override, signal selection and anti-reset windup configurations as required for a given application.
+- Study and evaluate the performance criteria and interaction of multi-loop control systems.
+- Collect, assemble and analyze control system related information and present this information in an organized, concise technical report and oral presentation.
+
+## Learning Resources
+Required:
+
+Control Valve Handbook (5th ed.) by Fisher Controls URL: https://www.emerson.com/documents/automation/control-valve-handbook-en-3661206.pdf
+
+Recommended:
+
+Principles and Practices of Automatic Process Control by C. Smith & A. Corriprio
+
+For other recommended books, refer to the book list posted on the course Learning Hub.
+
+Optional:
+
+Instrument Engineers Handbook, Process Control, 3rd Edition, by Bela G. Liptak (available in BCIT library and in lab)
+
+## Course Goals
+- Evaluate various control valve performance characteristics and size valves for liquid service applications.
+- Evaluate common industrial control strategies and formulate appropriate controller tuning to achieve desired closed loop performance as measured against established performance criteria.
+- Examine and explain relevant control loop operating characteristics of common industrial components and processes in the time and frequency domains.
+- Analyze control systems exhibiting non-linear gains. Implement and tune single-input (SISO) and multi-input (MISO) control systems (cascade, feedforward and ratio).
+- Apply signal override, signal selection and anti-reset windup configurations as required for a given application.
+- Study and evaluate the performance criteria and interaction of multi-loop control systems.
+- Collect, assemble and analyze control system related information and present this information in an organized, concise technical report and oral presentation.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Laboratory and Project (Lab): 30: Lab attendance is included in the evaluation.
+Quizzes / Assignments (Theory): 20
+Midterm Exam (Theory): 20
+Final Exam (Theory): 30
+Minimum passing grade:: 50
+
+Successful completion of both the Lab component and Theory component of this course is required for a passing grade. The minimum passing grade for both the Lab and Theory components is 50%. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade, a failing grade of U (Unsatisfactory) is awarded.
+
+## Attendance Requirements
+Attendance Attendance and full participation in all laboratory sessions is mandatory. Students are expected to discuss any class absence with the instructor in a timely manner. The sole responsibility for any missed course material, quizzes, assignments, notifications or announcements lies entirely with the student.
+
+## Course Specific Requirements
+Laptop / Tablet
+
+It is recommended that students have a laptop, tablet, or smart phone with a large display with them during lectures. Classes and notes will be presented using Microsoft OneNote. Students are not required to have Microsoft OneNote installed on their device; a hyperlink is available for web browsers.
+
+Safety Equipment / Protective Clothing
+
+Labs in the Unit Operations facility (SW1-1450) requires appropriate dress wear (long pants and, ideally, long sleeve shirts), appropriate footwear (no open-toed or high-heeled shoes or any unsafe footwear) and safety equipment (safety glasses). Students are expected to come to the lab prepared to meet the above safety requirements.
+
+## Safety equipment or protective clothing
+Labs conducted in SW1-1450 (Unit Ops) requires appropriate personal protection equipment. Specifically, students must come to the lab with appropriate footwear (ideally, safety shoes; absolutely no open-toed or high-heeled shoes), long pants and (ideally) long sleeved shirts. Hard hats and safety glasses are also required but will be provided as needed.
+
+## Course Schedule and Assignments
+This schedule is tentative, and is subject to change as the term progresses.
+
+Week: Theory/Class Schedule: Practical/Lab Schedule
+1: Valve Workshop / 3215 Review: No Lab
+2: 3215 Review / Plant Operating Window: Valve Workshop
+3: Process Dynamics: Unit Ops HE Water Valve Audit
+4: Valve Dynamics/ Frequency Response: Unit Ops HE Temp. Steam Valve Audit
+5: Stability / Performance Objectives / Tuning: No Lab
+6: Cascade: Unit Ops HE PID Tuning
+7: Cascade / Feedforward: Unit OPs HE PID Tuning
+8: Midterm / Feedforward: Unit OPs HE PID Tuning
+9: Feedforward / Ratio: Ratio Lab / Loop Checks
+10: Ratio: Ratio Lab / Loop Checks
+11: Selectors / Boilers: No Lab
+12: Boilers / Combustion Control: Unit Ops HE Cascade Control
+13: Combustion Control: Unit Ops HE Cascade Control
+14: Process Plant applications
+15: Final Exam week
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bill Maki, Instructor August 28, 2025
+
+I verify that this course outline has been reviewed. Remya Sreenath, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology August 29, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

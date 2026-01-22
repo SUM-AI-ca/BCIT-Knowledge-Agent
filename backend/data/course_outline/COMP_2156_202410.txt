@@ -1,0 +1,202 @@
+URL: https://www.bcit.ca/outlines/20241088354/
+Course: COMP 2156
+Field: Introduction to Microsoft Power BI
+
+School: School of Computing and Academic Studies
+Program: Computing - Flexible Learning
+Course Credits: 1.5
+Minimum Passing Grade: 60%
+Start Date: January 16, 2024
+End Date: February 20, 2024
+Total Hours*: 18
+Total Weeks: 6
+Hours/Weeks: 3
+Delivery Type: Lecture/Lab
+Prerequisite(s): 60% in COMP 2362 or 60% in COMP 2364
+CRN: 88354
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Wouter De Raeve
+E-mail: Instructor to provide
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+​Power BI is a Microsoft collection of tools and an analytics service for data visualization and business intelligence reporting. BCIT Computing offers a series of MS Power Bi courses. COMP 2156 is a hands-on intro course designed for database professionals, data analysts, business analysts and managers. It follows on from COMP 2362 or COMP 2364, it assumes that students have an understanding of statistics for data analysis and advanced functions of MS Excel. Students begin with a brief introduction to the building blocks of Microsoft Power BI and its related services. They are shown how to get a variety of data into the Power BI Desktop from multiple sources. In class labs and exercises focus on how to model, explore, clean and transform simple data for business reports. Topics include: Data Analysis Expressions, DAX, relationships and Data Visualization. Labs and assignments are designed to provide best practices that can be transferred to the workplace. Participants must provide their own current model PC capable of running Windows 10 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 2156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and a required course in the Applied Data Analytics Certificate (ADAC). By the end of this course successful students will be able use the Power BI unified analytics platform to build and publish high quality dashboards to the web. They will be prepared to move on to the next level COMP 3156 –MS Power BI Optimization and COMP 3157–MS Power BI Advanced Data Visualization.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe MS Power BI and its components.
+- Explore different data connections to multiple sources, local, and online.
+- Extract, Load & Transform Data into Power BI Desktop using Power Query.
+- Describe at a foundational level how Power BI data models are created.
+- Create and understand different visualizations and dashboards in MS Power BI.
+- Tell the data story to engage stakeholders to bring insights from data visualizations.
+- Publish MS Power BI dashboards to a Power BI Service.
+
+## Learning Resources
+For access to supplementary resources on Power BI - refer to this site https://docs.microsoft.com/en-us/power-bi/guided-learning/
+
+Course materials to be provided
+
+## Course Goals
+- To conduct analysis and prepare visualizations with MS Power BI.
+- To perform data transformations and build data models.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Assignment #1: 10: Must attempt and submit each assignment to pass the course.
+Assignment #2: 10: Must attempt and submit each assignment to pass the course
+Assignment #3: 10: Must attempt and submit each assignment to pass the course
+Quizzes: 20: Must attempt each quiz to pass the course,
+Final Exam: 50: Must attempt and submit the final exam to pass the course,
+
+NOTE: Passing grade for this course is 60%.
+
+Late assignments will not be accepted for marking unless the student makes arrangements with the instructor at least one week before the assignment is due.
+
+- Plagiarism and other forms of cheating will not be tolerated:
+
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+
+Assignments are to be completed by each student on an individual basis.
+
+- Academic misconduct also includes providing solutions to other students:
+
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+
+- Academic Integrity:
+
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
+
+## Attendance Requirements
+Welcome to BCIT Computing
+
+Please bookmark the Computing Flexible Learning landing page.
+
+Be sure to read the following important information:
+
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+
+Attendance Policy
+
+Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
+
+- In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+
+- Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+
+Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
+
+## Course Specific Requirements
+- All students must provide their own current model PC (NOT Mac!) desktop or laptop for outside of class
+
+## Other information
+BCIT Computer Use Guidelines
+
+Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
+
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+
+## Course Schedule and Assignments
+Course Schedule and Assignments
+Links and Reading via BCIT Learning Hub: Assessments: Due Date
+Week 1:: Power BI & Get Data
+Connecting to multiple data sources in Power BI Desktop
+Explore Power BI Desktop
+Explore Power BI Service
+Other Power BI products (Power BI Report Server)
+Connecting to local vs. online sources
+Transforming data in Query Editor
+Week 2:: Data Modeling in Power BI: Assignment #1: Prior to Week 3 class
+Database Normalization & Cardinality: Get Data.: 11:59 am day of class
+Data/Fact & Dimension/Lookup Tables: Transform your Data.
+Managing Relationships: Build your Data Model
+Date/Calendar Tables
+Publishing Data Models & Report Templates
+Week 3:: Analyzing Data with DAX
+Calculated Columns vs. Measures
+Introduction to DAX (Data Analysis Expressions)
+Building blocks of DAX & Most commonly used DAX
+Quick Measures
+Time-Intelligence with DAX and leveraging your Data Table
+Mastering DAX Tips
+Course Withdrawal Deadline
+Please inform your instructor that you are dropping this course.
+Fill out and submit the Request to Withdraw form before week 4. If you simply stop attending a failing grade is recorded on your academic record.
+Week 4:: Visualizing your Data: Assignment #2: Prior to Week 5 class
+Report Layout: Create your report.: 11:59 am day of class
+Next Level Matrixes: Publish it to Power BI Service.
+Using Buttons and Drill-Throughs
+Custom Visuals - Import from Microsoft Marketplace
+Configure Interactions, Add Slicers & Filters
+AI enabled Visualizations
+Course Evaluation
+An online survey will be conducted during week 5 prior to the class break.
+Students will have previously received a link to the survey via their preferred email.
+Those who do not have that link cannot complete this online evaluation.
+If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 5.
+The Instructor will leave for 15 minutes while each student completes the online anonymous course evaluation.
+Week 5:: Building Dashboards & Apps with Power BI Service: Quiz
+Workspace vs. App Workspaces
+Introduction to Data Flows
+Dashboards in Power BI Service
+Using Alerts in Dashboards
+Enabling Q&A Tools
+Week 6:: Sharing & Collaboration Options in Power BI Service: Final Exam
+Exporting from Power BI Service: 1.5 hours
+Roles & Permissions in Power BI Service
+Row-level Security in Power BI Desktop & Service
+Sharing Power BI Reports and Dashboards
+Publishing Apps in Power BI Service
+
+## Course topics
+Week 1:: Introduce Microsoft Power BI and its components. Explore various types of data connections to data sources, local, and online.
+Week 2:: Discuss the principles of Data Modeling in Power BI Desktop. Create optimized data models to share with other report builders.
+Week 3:: Describe DAX and how it is used to create complex DAX measures.
+Week 4:: Create detailed and compelling reports for data story telling.
+Week 5:: Use Power BI Service to automate and make data work in your organization.
+Week 6:: Add visibility to your reports and dashboards to make easier data driven decisions.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Wouter De Raeve, Instructor December 06, 2023
+
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator January 08, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 09, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

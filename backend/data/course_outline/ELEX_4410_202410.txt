@@ -1,0 +1,103 @@
+URL: https://www.bcit.ca/outlines/20241083979/
+Course: ELEX 4410
+Field: Power Systems Analysis
+
+School: School of Energy
+Program: Electrical and Computer Engineering Technology
+Course Credits: 6
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 90
+Total Weeks: 15
+Hours/Weeks: 6
+Delivery Type: Lecture
+Prerequisite(s): 50% in ELEX 3425
+CRN: 83979
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Nurul Islam
+E-mail: Nurul_Islam@bcit.ca
+Location: SW02-359
+Office Hours
+
+## Course Description
+The course presents the principles of analysis of interconnected power systems design, operation and control. Based on previous circuit analysis and electrical equipment courses, it provides an overview of interconnected power systems and develops concepts of electrical power circuit analysis. Topics include: an overview of utility systems, generation, transmission and distribution, load sharing of generators and systems; the per unit method of circuit calculation; voltage regulation; short circuit current analysis; power system protection, modeling equipment, power flow analysis, symmetrical components, transient stability, and grid voltage and frequency control. Software tools will be used for modeling and simulation throughout this course.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Explain the operation of an electric power system.
+- Describe how electric energy is generated from different sources including hydro, thermal, nuclear, solar and wind.
+- Prepare a single line representation of an electrical power system.
+- Calculate system characteristics using per unit techniques.
+- Discuss different methods to improve efficiency and power factor of electrical systems and equipment.
+- Analyze a power system by combining models of power transformers, generators and distribution/transmission lines, using engineering software as applicable.
+- Apply power flow equations to perform a power flow study of an electrical power network.
+- Predict load sharing between paralleled generators, transformers and transmission lines.
+- Explain transient behaviour of power systems under different conditions such as switching and start-up.
+- Apply symmetrical component techniques to calculate short circuit current and to analyze unbalanced power systems.
+- Discuss methods to maintain power system stability and reliability such as frequency and voltage control.
+- Synchronize a generator with the grid.
+- Describe the main concepts of smart-grids and micro grids.
+
+## Learning Resources
+Textbook: Power System Analysis and Design, 6th Edition, By D. Glover; S. Sarma; J. Overbye Software: Power System Analysis and Design Tools: Matlab, PSCAD, SimPowerSystems (These tools are available on BCIT network)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs (Practical, lab reports 20% lab test 5%): 25
+Midterm(Theory): 20
+Assignments and quizzes (Theory): 15
+Final Exam (Theory): 40
+The minimum passing grade is 50%. Successful completion of both the practical component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Safety equipment or protective clothing
+For hands-on labs, students need to bring their own safety glasses and steel-toed shoes.
+
+## Course Schedule and Assignments
+Monday: Wednesday: Thursday: Friday
+Lecture 10:30 to11:20: Lab Set 4F 8:30-11:20 (Behrouz Sattari) Lecture 15:30 to 16:20: Lab Set 4G 9:30-12:20 Lecture 13:30 to 14:20
+Jan 01: No class: Jan 03: No class: Jan 04: No Lab Lecture 1: Jan 05: No Lab Lecture 2
+Jan 08: Lecture 3: Jan 10: No class: Jan 11: Lab 0: Power lab safety Lecture 4: Jan 12: Lab 0: Power lab safety Lecture 5
+Jan 15: Lecture 6: Jan 17: No class: Jan 18: Lab 1: Electrical Measurement Lecture 7: Jan 19: Lab 1: Electrical Measurement Lecture 8 Quiz 1
+Jan 22: Lecture 9: Jan 24: No class: Jan 25: No Lab Lecture 10 (Assignment 1): Jan 26: No lab Lecture 11
+Jan 29: Lecture 12: Jan 31: No class: Feb 01: Lab 2: Power System Problem Solving Using PSCAD Lecture 13: Feb 02: Lab 2: Power System Problem Solving Using PSCAD/ Lecture 14 Quiz 2
+Feb 05: Lecture 15: Feb 07: No class: Feb 08: Lab 3: Three-Phase Transformer Connection (Delta-Wye & Wye-Wye) Lecture 16 (Assignment 2): Feb 09: Lab 3: Three-Phase Transformer Connection (Delta-Wye & Wye-Wye) Lecture 17
+Feb 12: Lecture 18: Feb 14: No class: Feb 15: Lab 4: Three-Phase Transformer Connection (Delta-Delta & open Delta) Lecture 19: Feb 16: Lab 4: Three-Phase Transformer Connection (Delta-Delta & open Delta) Lecture 20 Quiz 3
+Feb 19: Family Day: Feb 21: No class: Feb 22: Lab 5: Generator synchronization (between benches) Lecture 21: Feb 23: Lab 5: Generator synchronization (between benches) Lecture 22
+Feb 26: Lecture 23: Feb 28: No class: Mar 01: Lab 6: Generator Synchronization with Power Grid Lecture 24 (Assignment 3): Mar 01: Lab 6: Generator Synchronization with Power Grid Lecture 25 Quiz 4
+Mar 04: Lecture 26: Mar 06: No class: Mar 07: Lab 7 - Transmission Lines Midterm Exam: Mar 08: Lab 7 - Transmission Lines Lecture 27
+Mar 11: March Break: Mar 13: No class: Mar 14: March Break: Mar 15: March Break
+Mar 18: Lecture 29: Mar 20: No class: Mar 21: Lab 8 – Transients Lecture 30: Mar 22: Lab 8 – Transients Lecture 31 (Assignment 4) Quiz 5
+Mar 25: Lecture 32: Mar 27: No class: Mar 28: No Lab Lecture 33: Mar 29: Good Friday
+Apr 01: Easter Monday: Apr 03: No class: Apr 04: Lab Test Lecture 34: Apr 05: Lab Test Lecture 35 Quiz 6
+Apr 08: Lecture 36: Apr 10: No class: Apr 11: Lecture 37: Apr 12: Lecture Review
+Apr 15: Final Exam Week: Apr 17: Final Exam Week: Apr 18: Final Exam Week: Apr 19: Final Exam Week
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Nurul Islam, Instructor December 29, 2023
+
+I verify that this course outline has been reviewed. Kathy Manson, Program Head January 01, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 02, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

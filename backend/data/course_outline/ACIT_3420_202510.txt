@@ -1,0 +1,143 @@
+URL: https://www.bcit.ca/outlines/20251089221/
+Course: ACIT 3420
+Field: Windows Server Administration
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 17, 2025
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ACIT 2420 and ACIT 2620
+CRN: 89221
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Johnny Zhang
+E-mail: johnny_zhang@bcit.ca
+Location
+Office Hours: Instructor to provide
+
+## Course Description
+This course covers the configuration and administration of a Microsoft Windows Server environment. Students learn the core technologies and capabilities of a Windows Server. Topics include: local and remote server management; server storage; Active Directory (AD); managing organization units and AD accounts; configuring group policies; TCP/IP in Windows network; Domain Name System (DNS); and Dynamic Host Configuration Protocol (DHCP). Students configure a Windows Server to perform a variety of roles, including acting as a DNS server, DHCP server, and file server. During the course students will build a Windows domain consisting of three or more Windows and Linux virtual machines, and learn to troubleshoot and monitor a Windows domain environment.​
+
+## Course Learning Outcomes/Competencies
+Upon successful compleiton of this course, the student will be able to:
+
+- Install and configure a Windows Server.
+- Configure Windows Server to be a domain controller.
+- Build a Windows domain consisting of three or more computers.
+- Deploy and configure the DNS service.
+- Deploy and configure the DHCP service.
+- Create and manage Active Directory users, computers, groups and organization units.
+- Create group policy objects.
+- Configure security and account policies.
+- Configure and manage group policy settings.
+- Configure file and share access.
+- Configure servers for remote management.
+- Configure Windows firewall.
+- Configure file server resource manager, file service and disk encryption.
+- Configure VPN, routing and direct access.
+- Configure IPv4 and IPv6 addressing.
+- Monitoring server and domain activity.
+
+## Learning Resources
+Required:
+
+Krause, J. (2023). Mastering windows server 2022: Comprehensive administration of your windows server environment (4th ed.). packt. ISBN-13: 978-1837634507)
+
+Recommended:
+
+William, P. (2022). Mastering Windows Server 2022 with Azure Cloud Services: laas, PaaS, and SaaS 1st Edition. NY: John Wiley & Sons. (ISBN-13: 978-1119798927)
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 20: Weekly. Each lab is worth 10%, except Lab 1a (2.5%), Lab 1b (2.5%), and Lab 5 (5%).
+Team Project: 10: One group project due in week 14.
+Quizzes: 10: In-person quizzes covering lectures, online discussions, and labs, totaling 5 quizzes.
+Participation: 10: Participation in online and in-person discussions and group activities.
+Midterm: 20
+Final: 30: Comprehensive
+
+Note:
+
+- Passing grade for this course is 50%
+- Students must earn a minimum of 50% on the midterm and final exam to pass this course
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored.
+
+Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf.
+
+## Course Specific Requirements
+This course includes mandatory online learning activities. Lack of participation in the online portion of this class may result in failure of the course.
+
+Course Website: The course will be managed through the BCIT Learning Hub. This platform will be used for announcements, electronic handouts, and assignment submissions. All course announcements will be posted on the Learning Hub. Students are responsible for regularly checking the site for updates.
+
+Online Participation: Weekly online activities include required readings and discussions. These must be completed before the start of each class. Readings will be assigned from the textbook, and handouts will be available on the Learning Hub. To receive full participation marks, students must actively engage in these online activities.
+
+In-Class Participation: During lab sessions, students are expected to engage in discussions, problem-solving exercises, or work on assignments. Students using class time for unrelated activities, such as checking emails or browsing social media, will be asked to leave.
+
+In-Class Activities: Assignments typically involve reading, class discussions, responding to instructor-assigned questions, and completing pre-lab exercises. Completion of pre-lab exercises is required to participate effectively in lab work.
+
+Quizzes: Quizzes will cover online learning materials, lecture content, and lab activities from the previous week. Missed quizzes will result in a grade of zero, as there will be no makeup opportunities.
+
+Group Presentation: Each team will prepare a 10-15 minute presentation to be delivered after the midterm. Teams are responsible for forming themselves, selecting a team leader, and choosing a relevant topic with input from all members.
+
+Assignments: Assignments must be completed individually unless otherwise specified by the instructor. Late assignments will not be accepted for grading. Plagiarism will result in a grade of zero for the affected assignment.
+
+## Course Schedule and Assignments
+Textbook: Mastering Windows Server 2022
+
+Week: Topics: Reading Assignments: Lab & Online Assignments
+1: Online Week: Introducing Microsoft Windows Server 2022 Windows Server 2022 Features Windows Server 2022 Editions Preparing for a Windows Server 2022 Installation: Chapter 1 (pp. 1-39): Online Questions Lab 1a
+2: Installing and Configuring Windows Servers (2022) Installing Windows Sever 2022 Post-installation Configuration Working with Server Manager Working with the Windows Admin Center Configuring Server Hardware Devices Using Windows PowerShell: Chapter 2 (pp. 41-83): Online Questions Lab 1b
+3: Implementing and Configuring Domain Controllers Overview of AD DS Overview of AD DS domain controllers Deploying a domain controller: Chapter 3 (pp. 85-97): Online Questions Lab 2a
+4: Managing Objects in AD DS Creating and Managing Active Directory Users and Computers Creating and Managing Active Directory Groups and Organizational Units How to install and manage multi-domain: Chapter 3 (pp. 97-128) Handout 1: Online Questions Lab 2b
+5: Implementing and Configuring Hyper-V and Virtual Machines Overview of Hyper-V Installing Hyper-V Configuring Networking on Hyper-V Host Servers Configuring Hyper-V Virtual Machines Managing Virtual Machines: Chapter 14 (pp. 522-559): Online Questions Lab 3
+6: Implementing Enterprise Storage Solutions Overview of DAS, NAS, and SANs Configuring iSCSI Storage: Handout 3: Online Questions Lab 4
+7: Implementing Windows Server IPv4 and IPv6 Addressing Configuring IPv4 Addresses and Options Determining and Configuring Appropriate IPv6 Addresses Configuring IPv4 and IPv6 Subnetting Configuring Resource Access Configuring folder and File Attributes Managing Folder and File Security Configuring Shared Folders: Chapter 7 (pp. 257-273) Handout 2: Online Questions Lab 5
+8: --------------Midterm Exam------------------: -------No------: -------No------
+9: Implementing Windows Server DNS Deploying and Configuring the DNS Service Configuring DNS Zones in DNS Configuring DNS Records Configuring Advanced DNS Settings: Chapter 4 (pp. 133-149): Online Questions Lab 6
+10: Implementing Windows Server DHCP Deploying and Configuring the DHCP Service Managing and Troubleshooting DHCP: Chapter 4 (pp. 153-167) Handout 4: Online Questions Lab 7
+11: Implementing Group Policy Creating and Managing Group Policy Objects Configuring Group Policy Settings Configuring Group Policy Preferences: Chapter 5 (pp. 177-210) Handout 5: Online Questions Lab 8
+12: Implementing Virtual Private Network (VPN) and DirectAccess Solutions Common VPN protocols and their primary benefits Set up an L2TP/PPTP VPN on Windows Server 2022 Windows Server 2022 DirectAccess: Chapter 8 (pp. 295-318): Online Questions Lab 9
+13: Docker and Kubernetes Installing Docker on Windows Server Creating and Managing Windows Server Containers Configuring and Managing Windows Server Containers Security Best Practices: Chapter 13 (pp. 499-519): Online Questions Lab 10
+14: Monitoring and Management Servers Troubleshooting and Optimization Hardening and Security: Chapter 9 (pp. 337-382) Chapter 16: Online Questions
+15: ---------------Final Exam------------------: -------No------: --------No-------
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Johnny Zhang, Instructor December 17, 2024
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head January 20, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 21, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

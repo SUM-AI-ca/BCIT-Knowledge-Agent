@@ -1,0 +1,99 @@
+URL: https://www.bcit.ca/outlines/20243048492/
+Course: ACIT 3896
+Field: Applied Algorithms
+
+School: School of Computing and Academic Studies
+Program: Computer Information Technology Diploma
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: September 03, 2024
+End Date: December 13, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ACIT 2515 and ACIT 2831
+CRN: 48492
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Jeremy Holman
+E-mail: jholman12@bcit.ca
+Location: after class or online by appointment
+Office Hours: Office hours to be documented in D2L.
+
+## Course Description
+​In this course, students will develop the ability to analyze, select, and design computer algorithms. In particular, students will analyze the time and space complexity of programs, solve difficult programming problems using algorithmic techniques, and prove that their solution is correct. The emphasis will be on developing the practical skills to analyze various algorithms, select the optimal algorithm based on constraints, and implement solutions. Topics covered may vary each term
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe common algorithms.
+- Analyze pseudo-code using the Big-O notation.
+- Deduce the complexity of a program by running different experiments.
+- Design new algorithms using several techniques and machine learning approaches.
+- Implement the algorithms.
+- Recognize different types of problems and select an appropriate algorithm.
+- Argue the correctness of their algorithms
+
+## Learning Resources
+- Python 3
+- A code editor such as VS Code
+
+## Evaluation Criteria
+Criterion: %: Comments
+Labs: 10: 11 Weekly - Announced in Class
+Quizzes: 10: 7 Bi-Weekly - Announced in Class
+Class Participation: 10
+Assignments: 30: 3 @ 10% each
+Midterm Exam: 15
+Final Exam: 25
+
+## Attendance Requirements
+Regular attendance in classes is critical to student success and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+
+Week #: Week of...: Topic: Deliverables
+1: Sep 2: Introduction
+2: Sep 9: Benchmarking
+3: Sep 16: Asymptotics
+4: Sep 23: Intro to Data Structures
+5: Sep 30: Trees: A1 due
+6: Oct 7: Queues and BFS
+7: Oct 14: Stacks and DFS
+8: Oct 21: Midterm Week: Midterm Exam
+9: Oct 28: Recursion
+10: Nov 4: Sorting: A2 due
+11: Nov 11: Mergesort
+12: Nov 18: Quicksort
+13: Nov 25: TBD: A3 due
+14: Dec 2: Review
+15: Dec 9: Finals Week: Final Exam
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Jeremy Holman, Program Head August 31, 2024
+
+I verify that this course outline has been reviewed. Thomas Lane, Program Head September 02, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean September 03, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

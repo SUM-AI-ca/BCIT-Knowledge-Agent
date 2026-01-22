@@ -1,0 +1,134 @@
+URL: https://www.bcit.ca/outlines/20251074825/
+Course: ELEX 4618
+Field: Object Oriented Program Design
+
+School: School of Energy
+Program: Electrical Engineering
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: April 25, 2025
+Total Hours*: 70
+Total Weeks: 14
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): ELEX 3305
+CRN: 74825
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Craig Hennessey
+E-mail: chennessey1@bcit.ca
+Location: SW2-361
+Office Hours: On request.
+
+## Course Description
+This course continues to build on previous programming skills with the introduction of object-oriented programming techniques. C++ classes and the related topics of abstraction, encapsulation, inheritance, polymorphism, and function and operator overloading are covered. The C++ standard library is covered for both console and file input/output data manipulation, as well as more recent additions to the library such as threads. C++ string manipulation techniques will be used to implement a custom serial communication protocol. The use of C++ in complex, time-critical, applications is motivated through the development of a machine vision application using the open source C++ library OpenCV. Advanced data structures such as vectors and linked lists for dynamic memory allocation will also be introduced. Development will take place on both Windows and Linux operating systems to investigate cross-platform development.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+
+- Use the C++ standard library to manipulate strings and store and retrieve data from text and binary files. [1]
+- Generate simple classes and build class hierarchies to solve programming problems. [4]
+- Design, implement and test applications of moderate complexity using object-oriented methods. [4]
+- Use objects such as vectors and linked lists for dynamic memory allocation. [1]
+- Interface to external hardware in order to provide analog and digital I/O. [1]
+- Use a software version control system to manage changes to software developed for the course. [5]
+- Use a modern software documentation system to expose (i.e., provide access to) the API commands developed. [7]
+- Work effectively and productively in both the Windows and Linux environments to develop C++ programs. [5]
+
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+
+## Learning Resources
+There is no required textbook for this course. Library resources will be outlined during the first lecture. Course notes will be provided as the term progresses. A parts kit is required which includes the Raspberry Pi embedded computer and related accessories.
+
+- ELEX 4618 parts kit
+- ELEX 3305 microcontroller
+- SK-10 type proto board
+- Wire strippers/cutters
+- Small screwdriver
+
+## Evaluation Criteria
+Criteria: %: Comments
+Laboratory: 50
+Midterm exam: 20
+Final exam: 30
+Total: 100
+
+The minimum passing grade is 50% in both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+
+## Course Schedule and Assignments
+A detailed and up to date course schedule can be found on the D2L Schedule page.
+
+Week 1: Review
+Week 2: C++ OOP
+Week 3: C++ Classes
+Week 4: Embedded Systems
+Week 5: Inheritance
+Week 6: Timing & Multi-Threading
+Week 7: Linux / PI
+Week 8: Image Processing
+Week 9: Color Processing
+Week 10: Spring Break
+Week 11: Sockets
+Week 12: 3D Design / PCB Design
+Week 13: Dynamic Data / Version Control
+Week 14: Exams
+Week 15
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Craig Hennessey, Instructor January 05, 2025
+
+I verify that this course outline has been reviewed. Victor Mendez, Program Head January 10, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean January 20, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

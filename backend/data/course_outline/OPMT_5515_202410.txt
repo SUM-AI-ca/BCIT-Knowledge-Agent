@@ -1,0 +1,132 @@
+URL: https://www.bcit.ca/outlines/20241085944/
+Course: OPMT 5515
+Field: Quantitative Methods for Managers
+
+School: School of Business + Media
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 85944
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Armarn Roland
+E-mail: armarn_roland@bcit.ca
+Location: SE6 364
+Office Hours: Come during office hours (posted on office door and on the BCIT Timetable website) Drop-in Peer Tutoring (Main Floor of the Library): See link below: https://www.bcit.ca/learning-commons/peer-tutoring/
+
+## Course Description
+This course emphasizes the use of decision-making models in business. Students will learn to use quantitative methods to choose alternatives in the decision-making process. Software applications (spreadsheets and databases) will be used to support the decision-making process.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Apply descriptive statistics and basic probability theory to management science models.
+- Compare decision-making techniques including: Decision Analysis, Forecasting Methods including Simple Regression, Time Series, Linear Programming and basic Inventory models.
+- Construct and interpret a confidence interval estimates for a single population means or proportions using the appropriate standard normal or t distributions.
+- Manipulate data between databases and spreadsheets.
+- Carry out a hypothesis test comparing one or two population means or proportions.
+- Import data into a spreadsheet and carry out a statistical analysis of the data.
+- Manipulate data between databases and spreadsheets.
+- Import data into a spreadsheet and carry out a statistical analysis of the data.
+
+## Learning Resources
+LEARNING RESOURCES, Recommended
+
+- Essentials of Business Statistics First Canadian Edition by Ken Black, Ignacio Castillo, Amy Goldlist and Timothy Edmunds. Publisher: Wiley ISBN 978-1-119 - 36836 – 6
+- OpenIntro Statistics, Fourth Edition, David Die, This open source book is available on the course homepage.
+- Students are required to have laptop and use Excel for this course. Training videos and notes for Excel will be posted on the Learning Hub, D2L
+- Lecture Notes, announcements and all material for the course will be posted on D2L (learn.bcit.ca)
+
+## Evaluation Criteria
+EVALUATION
+
+Quizzes: 15%: Total of 22 quizzes, one for each lesson
+Excel Labs: 10%: Total of 10 Excel Labs
+Tests: 40%: Two tests worth 20% each, dates are in the following table
+Excel Projects: 15%: This is the group term project, more information is below
+Final Exam: 20%: Covers the entire course
+Total: 100
+
+Term Group-Project: The end of term project is an important part of the course. In completing the project, you will have an opportunity to demonstrate your understanding of the statistical modelling process. You will be required to team up in groups of 2 or 3 people and perform any required research about the project problem, do a full statistical analysis of the problem, write a detailed report, and prepare a virtual presentation to the class. Presentations will be held during the last week of class. A detailed of the description and requirements of the project and presentation will be available in the term project folder on Learning Hub.
+
+## Other information
+GETTING HELP
+
+Support for BCIT online students is available at: https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml
+
+Here are a couple of videos produced in the LTC for students:
+
+Logging into the LH:
+
+https://youtu.be/fGOrdt9Ippc
+
+Overview of the LH
+
+https://www.youtube.com/watch?v=3ZSK-qjKNxc&feature=youtu.be
+
+Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and/or expulsion from the course.
+
+There will be no makeup for missing tests or any other component of the course. If you miss a test or any other component of the course, you will receive zero marks for that component. Students seeking accommodation for a medical absence must have a BCIT-approved medical certificate.
+
+## Course Schedule and Assignments
+Course Schedule: This schedule is subject to change at the discretion of the instructor
+
+Date: Topic
+Week 1: Introduction to: Data Analytics, Quantitative Methods and Statistical Analysis. Populations and samples, Descriptive Statistics, Measures of central location: Mean, median, weighted mean and mode for listed and grouped data, Quartiles and percentiles for listed and grouped data, Measures of variation: range, Range, standard deviation, and interquartile range for listed and grouped data, coefficient of variation
+Week 2: Statistical Software (Excel), Finding numerical summary statistics using Excel for both listed and grouped data, Constructing frequency distributions, obtaining graphical descriptions of data including bar graphs, histograms, scatter plots and box plots
+Week 3: Basic probability rules: Addition + Multiplication, Union, Intersection Mutually Exclusive and Independent Events, Conditional probability, start on 2×2 probability tables, expected value and standard deviation of random variables
+Week 4: Discrete Probability functions Binomial distribution, Hypergeometric distributions, Poisson distribution
+Week 5: Continuous Distributions: Uniform, Exponential, Empirical rule, Normal distribution (applied problems)
+Week 6: Test #1, Monday Feb 12, 2024 Point estimation, distribution of population means, central limit theorem (CLT) and Interval estimation of population mean and population proportion
+Week 7: Confidence intervals for proportions Confidence intervals for means for both known and unknown population std dev
+Week 8: Decision Making and Hypothesis Testing: Null + alternative hypotheses, Type I and II errors. One and two-tailed tests
+Week 9: One and two-tailed tests for population mean and population proportion P-values and its applications
+Week 10: Comparing two population means Comparing two population proportions Test #2, Monday March 11, 2024
+Week 11: Chi-square test of independence,
+Week 12: ANOVA
+Week 13: Regression Analysis: Simple regression model, least square method, coefficient of determination, assumptions. Testing for significance, Regression line for prediction. Using Excel for multivariable regression
+Week 14: Project Presentations and Review for final exam
+Week 15: Final Exam, the date will be Announce by the Program
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Business + Media
+Attendance: Regular attendance in lectures and labs is seen as integral to student success, therefore, attendance in class is monitored. Unexcused absences in excess of 10% of the time prescribed for this course may result in the assignment of a failing grade. Attendance may be taken at any time during class. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken.
+
+In case of illness or other unavoidable absence, students must communicate with the instructor, or the appropriate Program Head, as soon as possible (preferably in advance) indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate ). For other absences, students must be prepared to provide appropriate supporting documentation.
+
+A student who has unexcused absences in excess of 10% of the time prescribed for the course by the Withdrawal Deadline is considered to have ‘Vanished’ and will be assigned a grade of ‘V’. In these cases, no further work will be graded.
+
+These requirements are set out in accordance with BCIT Policy 5101 Student Regulations. More information regarding withdrawals from Flexible Learning courses is available at Refunds and Withdrawals
+
+## Approved
+I verify that the content of this course outline is current. Armarn Roland, Instructor December 11, 2023
+
+I verify that this course outline has been reviewed. Sam Choo, Program Head December 13, 2023
+
+I verify that this course outline has been reviewed. Phil Ramer, Associate Dean December 14, 2023
+
+I verify that this course outline has been reviewed. Marlize van Jaarsveld, Program Head December 15, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Steve Yallouz, Associate Dean December 15, 2023
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

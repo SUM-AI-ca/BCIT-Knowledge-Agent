@@ -1,0 +1,395 @@
+URL: https://www.bcit.ca/programs/electronics-bachelor-of-technology-part-time-8900btech/
+
+Title: Electronics
+
+================================================================================
+
+## Overview
+
+Delivery
+
+in person
+
+Overview text
+
+The program is approved by the BC Provincial Ministry of Advanced Education. It develops strong mathematics, physics and analytical foundations and broadens this skill set by including business management and liberal studies elements. This degree enhances career advancement opportunities for graduates and supplies the high technology sector with well educated professionals possessing strong practical skills. For projected BTech Electronics course offering information, please view the Course Plan [PDF] and the sample Program Plan [PDF] . You can also take a look at our tentative Winter 202610 Timetable [PDF] . This BCIT Flexible Learning (formerly Part-time Studies) program is scheduled to serve the needs of working professionals who wish to continue their education while working. BCIT Flexible Learning classes are offered year-round, three terms per year, on evenings or weekends. B.Tech Electronics graduates have a wide range of career opportunities. They can work as technical design engineers, engineering managers, or professional engineers. They may also join engineering consultancies, pursue careers in sales and marketing, work for the government, become technology entrepreneurs, or further their education with advanced degrees in engineering or business management.
+
+
+
+## Courses
+
+### 1. Degree Core:  (38.0 credits required)
+
+ELEX 7010 - Engineering Statistics
+
+Outline URL: https://www.bcit.ca/outlines/elex7010/
+
+Credits: 3.0
+
+Description: The course covers numerical and graphical methods of descriptive statistics, basic probability theory, the notion of discrete and continuous random variables and their probability distributions (focussing on the binomial, geometric, hypergeometric, Poisson, uniform, exponential, normal and Erlang-k distributions), the connection between probability and statistical inference (population and sample), sampling and sampling distributions, computation of confidence interval estimates and testing of hypotheses (involving means, differences of means, proportions, difference of proportions, variances), an introduction to simple and multiple linear regression, an introduction to experimental design and analysis of variance, and an introduction to basic principles of quality control.
+
+Prerequisites: No prerequisites are required for this course.
+
+ELEX 7020 - Multivariable Calculus and Dynamic Systems
+
+Outline URL: https://www.bcit.ca/outlines/elex7020/
+
+Credits: 3.0
+
+Description: This course begins with a review of advanced calculus concepts such as functions, limits, continuity, sequences, derivatives and integrals. Partial derivatives, multiple integrals and their applications are then introduced. Ordinary differential equations are covered including first, second and higher order linear differential equations, with an emphasis on modeling engineering systems in the electrical, mechanical, heat transfer, fluid mechanics and control systems fields. Dynamic systems (time as the independent variable) are emphasized throughout the course.
+
+Prerequisites: ELEX 7021‡(‡must be taken concurrently)ELEX 7020 and ELEX 7021 are co-requisites and should be taken concurrently if possible. If not, please take ELEX 7020 and then ELEX 7021.
+
+ELEX 7021 - Scientific Computing 1
+
+Outline URL: https://www.bcit.ca/outlines/elex7021/
+
+Credits: 1.0
+
+Description: This course is to be taken in conjunction with ELEX 7020 and will cover numerical analysis techniques used for constrained and unconstrained maximization problems, ordinary differential equations, root finding, and the solution of non-linear equations. Engineering applications are emphasized and MatLab is used throughout as the computing tool.
+
+Prerequisites: ELEX 7020 or can be taken concurrently
+
+ELEX 7030 - Thermodynamics
+
+Outline URL: https://www.bcit.ca/outlines/elex7030/
+
+Credits: 3.0
+
+Description: This course introduces students to the fundamental concepts of heat, work and energy. The first law of thermodynamics is introduced and used to analyse engineering devices such as compressors, turbines, mixing chambers, cooling towers, heat exchangers and reciprocating engines. Both air, steam and refrigerants are used as working fluids. The second law of thermodynamics is used to evaluate the direction in which real processes occur. The concept of entropy as a property is introduced and used to evaluate irreversibilities in real processes and to quantify the efficiency of devices. Power and refrigeration cycles are introduced and the first and second laws are used to perform engineering analysis of the cycles. Laboratory demonstrations form part of the course.
+
+Prerequisites: No prerequisites are required for this course.
+
+ELEX 7040 - Engineering Materials
+
+Outline URL: https://www.bcit.ca/outlines/elex7040/
+
+Credits: 3.0
+
+Description: Overview of materials used in engineering-metals, ceramics, plastics, semiconductors and wood. Examines microstructure of materials and macroscopic properties such as modulus of elasticity and tensile and shear strengths. Topics such as phase diagrams, solid state transformations, fracture, corrosion and sizing are included. Some laboratory demonstrations.
+
+Prerequisites: No prerequisites are required for this course.
+
+ELEX 7110 - Linear Physical Systems
+
+Outline URL: https://www.bcit.ca/outlines/elex7110/
+
+Credits: 3.0
+
+Description: This interdisciplinary course covers some of the mathematical background in linear system theory required for further studies in signal processing and feedback control. Both continuous time and discrete time systems are covered, using time domain and frequency domain techniques. Emphasis is placed on the modeling process, model validation, and on computer aided design tools. Examples are drawn from mechanical, hydraulic, thermal, electrical and economic systems. Experimental validation of models using modern tools is the main focus of the laboratory portion of the course.
+
+Prerequisites: 50% in ELEX 7020
+
+ELEX 7120 - Linear Algebra and Vector Calculus
+
+Outline URL: https://www.bcit.ca/outlines/elex7120/
+
+Credits: 3.0
+
+Description: This course covers the basics of vectors, matrices, matrix operations, determinants and linear transformations. Applications to linear algebraic equations and eigenvalue/eigenvector problems are covered, as well as to systems of linear ordinary differential equations. The course then covers vector functions and operators, curvilinear coordinates, line and surface integrals and integral theorems such as Stoke's and Green's theorems.. Applications in circuit theory, control systems, network theory, electromagnetism, robotics, gravitation, and system modeling are emphasized.
+
+Prerequisites: 50% in ELEX 7020
+
+ELEX 7121 - Scientific Computing 2
+
+Outline URL: https://www.bcit.ca/outlines/elex7121/
+
+Credits: 1.0
+
+Description: Covers numerical methods and use of computer algorithms for discrete least squares approximation, trigonometric polynomial approximation, Fast Fourier Transforms, and Boundary value problems. Solutions of second order partial differential equations, namely, elliptic (Laplace's and Poisson's), parabolic and hyperbolic equations, using finite difference methods will be covered. Computer programs and software packages (MATLAB) will be used to solve equations.
+
+Prerequisites: ELEX 7120 or can be taken concurrently
+
+ELEX 7140 - Semiconductor Theory and Applications
+
+Outline URL: https://www.bcit.ca/outlines/elex7140/
+
+Credits: 3.0
+
+Description: This course is an introduction to semiconductor and electronic devices. Crystal properties of semiconductor materials will be described. After a review of the Bohr model and quantum mechanics Schrodinger equation will be solved. Energy bands and charge carriers in semiconductors will be described. Theory of forward-and reverse-biased p-n junction and transistor will be presented. Operation of field effect transistor will be explained. There will be experiments to relate theory to the electronic devices.
+
+Prerequisites: 50% in ELEX 7040
+
+ELEX 7210 - Signal Theory and Processing
+
+Outline URL: https://www.bcit.ca/outlines/elex7210/
+
+Credits: 3.0
+
+Description: This course is divided into two parts. Approximately 40% of the course time is devoted to continuous time signal processing and 60% to discrete time signal processing. The continuous time section of the course starts with a general overview of analog filter types and the approximation problem. Transfer functions for various filter types, typically Butterworth, Chebyshev, Cauer and Bessel, are then derived. Transformations from normalized low-pass to high-pass, band-pass, and band-reject and also scaling are covered. Various circuits to realize the resulting transfer functions are analyzed and implemented in the laboratory. The discrete time section starts with a review of the properties of sine waves including discrete time representation. Spectrum representation is examined and various Fourier series representations are covered. Sampling and aliasing are examined followed by an examination of the basics of FIR filters. Techniques for designing FIR filters are presented. The z-transform is developed, followed by an examination of recursive filters. Various s-plane to z-plane transformations are presented and design techniques for recursive filters are covered. The theory is strongly supported by several design projects which are implemented and tested in the laboratory.
+
+Prerequisites: 50% in ELEX 7110
+
+ELEX 7220 - Feedback Control
+
+Outline URL: https://www.bcit.ca/outlines/elex7220/
+
+Credits: 3.0
+
+Description: Linear controller design in a variety of application areas. Model equations from first principles, empirical models. Continuous and discrete time frameworks. PID control analysis, transform controller design, state feedback design the linear quadratic Gaussian regulator problem, dead time compensation, sensitivity analysis, predictive control. Hands-on labs form an integral part of the course.
+
+Prerequisites: 50% in ELEX 7110
+
+ELEX 7230 - Electromagnetism
+
+Outline URL: https://www.bcit.ca/outlines/elex7230/
+
+Credits: 3.0
+
+Description: This course covers the theory of electromagnetism, including field concepts, Maxwell's equations free space and guided wave propagation, transmission lines and radiation from simple structures. Application examples in high-speed circuit board design, ionosphere modeling, and antenna theory are included. Computer simulations are used to help students visualize the concepts presented in the course.
+
+Prerequisites: 50% in ELEX 7120
+
+ELEX 7240 - Electric Machines
+
+Outline URL: https://www.bcit.ca/outlines/elex7240/
+
+Credits: 3.0
+
+Description: This is a rigorous introductory course in electromechanical energy conversion devices. Primary emphasis is placed on rotating AC and DC machines. Following a brief review of electromagnetic field theory and polyphase AC circuits, magnetic materials and circuits are introduced, using transformers as representative systems. A systematic approach to modeling machines is introduced, based on the principle of virtual work. This framework, applicable to general dynamic conditions, is applied narrowly to the steady-state operation of AC synchronous and asynchronous machines, as well as DC machines. Equivalent steady-state circuits are developed for common rotating machines. Practical information relating to general machine characteristics and nominal ratings is provided. Laboratory experiments are conducted to reinforce theory and to provide practical experience with motors and generators.
+
+Prerequisites: 50% in ELEX 7120
+
+ELEX 7250 - Communication Theory and Applications
+
+Outline URL: https://www.bcit.ca/outlines/elex7250/
+
+Credits: 3.0
+
+Description: The course covers an introduction to the analysis of signals, amplitude (SSB, DSB, QAM) and angle (FM, PM) modulations as well as sampling and pulse code modulation (PCM) techniques. Also covered are the principles of digital data communications, probability theory, random processes, and performance of analog and digital systems in the presence of noise. The course includes an introduction to information theory and error correction techniques.
+
+Prerequisites: 50% in ELEX 7110
+
+### 2. Specialization Electives:  (9.0 credits required)
+
+ELEX 8010 - Data Communication
+
+Outline URL: https://www.bcit.ca/outlines/elex8010/
+
+Credits: 3.0
+
+Description: This course gives an overview of data communication. The course covers the ISO/OSI seven layer protocol model. Emphasis is placed on the role and function of communication protocols, particularly at the physical and data-link layers. Students gain an understanding of the various communication protocols that have been defined to create communication environments in which computers can exchange information in an open way. Course topics include protocol operation error detection and control, encoding, modulation techniques and data compression. Hands on data communication programming and hardware labs are incorporated into the course so that students can master the material.
+
+Prerequisites: 50% in ELEX 7020
+
+ELEX 8030 - Real-Time Embedded Systems
+
+Outline URL: https://www.bcit.ca/outlines/elex8030/
+
+Credits: 3.0
+
+Description: This course covers software and hardware design for real-time embedded systems. Topics include real-time implementation of DSP algorithms, code and hardware optimization for speed and power, real-time operating systems, reliable operation, and overall system architecture. In the laboratory, students will apply selected concepts learned in the lectures by implementing them on a development board centered around a DSP-oriented microcontroller. This course uses C as the programming language. There is some interaction with assembly code. Tutorial time early in the course is available to bring students back up to speed on selected topics such as C programming.
+
+Prerequisites: No prerequisites are required for this course.
+
+ELEX 8130 - Computer Networks
+
+Outline URL: https://www.bcit.ca/outlines/elex8130/
+
+Credits: 3.0
+
+Description: This course analyzes the various communication protocols that have been defined to create communication environments in which computers can exchange information in an open way. Course topics include protocol structures, inter-networking, high-speed networks and network management issues. Error control and correction, and queuing theory is also presented. Students will perform hands-on labs and programming assignments using BCIT's telecommunications lab hardware.
+
+Prerequisites: 50% in ELEX 8010
+
+ELEX 8140 - Mobile Communications
+
+Outline URL: https://www.bcit.ca/outlines/elex8140/
+
+Credits: 3.0
+
+Description: This course covers an introduction to past and modern wireless communication systems (2G, 3G and Bluetooth). The cellular concept and system design fundamentals are presented. Discussion of mobile radio propagation for large-scale path loss is followed by small-scale fading and multi-path. A summary of various modulation techniques is given. Finally, multiple access techniques for wireless communication are described. There will be two or more labs. and a team project regarding coverage prediction and frequency re-use for a region of North America.
+
+Prerequisites: 50% in ELEX 7230
+
+ELEX 8170 - Industrial System Electrical Design
+
+Outline URL: https://www.bcit.ca/outlines/elex8170/
+
+Credits: 3.0
+
+Description: Industrial systems commences with a study of safety considerations for electrical power systems. The Canadian Electrical Code, building codes, and IEEE standards are used for assigned design projects in the areas of commercial and industrial power distribution, protective device co ordination and protective relaying, lighting design, and grounding system design. Projects will incorporate designing various components of industrial systems.
+
+Prerequisites: 50% in ELEX 7020
+
+ELEX 8180 - Discrete-Time Control Systems
+
+Outline URL: https://www.bcit.ca/outlines/elex8180/
+
+Credits: 3.0
+
+Description: Model structure selection, noise and disturbance models, system identification- maximum likelihood, least squares, instrumental variables, correlation and frequency domain methods. Controller design in discrete time- z-transform, PID control, polynomial and state space methods, observers, LQR methods, cascade control, feedforward, selector control, gain scheduling, sampling, anti-aliasing and reconstruction, discrete equivalents of continuous time controllers, dead time compensation, nonlinearities, introduction to multivariable methods. Lab component includes identification and real time control of various processes, graphical user interface design and logic programming using Stateflow software.
+
+Prerequisites: 50% in ELEX 7220
+
+ELEX 8270 - Power System Analysis
+
+Outline URL: https://www.bcit.ca/outlines/elex8270/
+
+Credits: 3.0
+
+Description: The course presents methods of power system analysis and design in sufficient depth to give the basic knowledge for solving fundamental problems of modern power systems. The main goal of the course is to review the students existing knowledge of power systems and then advance it toward analysis methods, developing conceptual insights, and gaining experience with applicable software simulation and analytical tools through hands on laboratory exercises. Topics include: review of fundamentals of power systems, symmetrical components, modelling of generators, transformers, transmission lines and loads, principles of network analysis, power flow, faults, voltage and frequency controls, economic dispatch, voltage stability, and transient stability.
+
+Prerequisites: 50% in ELEX 7240
+
+ELEX 8275 - RF Design Engineering
+
+Outline URL: https://www.bcit.ca/outlines/elex8275/
+
+Credits: 3.0
+
+Description: This course covers the design principles for high frequency circuits, at the component and circuit level, from HF through the lower microwave range. Topics include: passive component behaviour, impedance matching networks, two-port network parameters, passive lumped and distributed filter design; stability, gain and noise considerations in amplifier design; oscillator design; detector and mixer design; control circuits. Labs require students to design, simulate, build and test various circuits applying theoretic knowledge.
+
+Prerequisites: 50% in ELEX 7230
+
+ELEX 8285 - Power System Protection
+
+Outline URL: https://www.bcit.ca/outlines/elex8285/
+
+Credits: 3.0
+
+Description: This course describes design methods and equipment required to protect utility power systems against faults and operating conditions that could damage power system components. Topics include a review of power system fundamentals, types of faults, and protection philosophy. Design strategies for protection of distribution feeders, substation buses, transformers, transmission lines, and generators will be specified in detail. Laboratory exercises based on power system modelling for fault studies, protection coordination and fault record analysis are included in this course.
+
+Prerequisites: 50% in ELEX 7240
+
+### 3. Management Component:  (9.0 credits required)
+
+BUSA 7250 - Management Skills and Applications
+
+Outline URL: https://www.bcit.ca/outlines/busa7250/
+
+Credits: 3.0
+
+Description: The course provides an overview of the basic skills of a manager and applies these skills through a series of projects and case studies. It examines the evolution of management and the organizational culture and environment. It also teaches the decision-making skills and the skills involved in planning, organizing, leading and controlling, including planning and facilitating change, teamwork, applying motivational techniques and effective communication.
+
+Prerequisites: No prerequisites are required for this course.
+
+ELEX 8280 - Engineering Law
+
+Outline URL: https://www.bcit.ca/outlines/elex8280/
+
+Credits: 3.0
+
+Description: This course provides an introduction to the Canadian legal system, discusses business organizations, international considerations, tort liability, contracts (offer and acceptance, interpretation, discharge, breach, dispute resolutions), intellectual property law, legal and ethical responsibilities of professional engineer. The course will include critique and group discussion of case studies.
+
+Prerequisites: No prerequisites are required for this course.
+
+FMGT 8295 - Engineering Economics
+
+Outline URL: https://www.bcit.ca/outlines/fmgt8295/
+
+Credits: 3.0
+
+Description: This course is meant to provide the practicing engineer with the financial knowledge and skills required for the economic analysis of business situations; more specifically the costs and benefits of alternative solutions to technical problems. This course covers the syllabus material for the CCPE Engineering Economics exam.
+
+Prerequisites: No prerequisites are required for this course.
+
+### 4. Liberal Studies Component  (12.0 credits required)
+
+LIBS 7001 - Critical Reading and Writing
+
+Outline URL: https://www.bcit.ca/outlines/libs7001/
+
+Credits: 3.0
+
+Description: This is a course in advanced composition and rhetoric, in which students will develop skills in complex critical analysis and interpretation by analyzing and evaluating materials from a variety of discourses or genres, including visual, online, and print; developing and writing essays, including critiques and research papers; applying and discussing principles of rhetoric and critical theory; examining and using methods of interpretation and analysis from the humanities and social sciences; evaluating the credibility of primary and secondary sources, including as it applies to media literacy, and for the purposes of academic research; situating discourses within their historical context and relevant to rhetorical theories of different periods (for example, Aristotle in the ancient world and Bakhtin in the twentieth century). The course format will include lecture, discussion, and both individual and group activities.
+
+Prerequisites: 50% in BCIT ENGL 1177 or equivalent, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+LIBS 7002 - Applied Ethics
+
+Outline URL: https://www.bcit.ca/outlines/libs7002/
+
+Credits: 3.0
+
+Description: Fosters abilities and values required for ethical decision making at work. Develops skills in logical analysis, a working knowledge of moral principles and theories, and the ability to diagnose and resolve moral disagreements commonly found at work. Examines and applies moral principles to historically famous cases in manufacturing, human resources, management, engineering, health care, and computing.
+
+Prerequisites: BCIT ENGL 1177, or 6 credits BCIT Communication at 1100-level or above, or 3 credits of a university/college first-year social science or humanities course.
+
+### 5. Industry Project:  (5.0 credits required)
+
+ELEX 8300 - Industry Project
+
+Outline URL: https://www.bcit.ca/outlines/elex8300/
+
+Credits: 5.0
+
+Description: The student will complete the industry project in a workplace setting and choose a project that involves applied research or technology transfer. The project will be innovative, experimental, or exploratory in nature. Activities can range from directed study projects to the preparation of a proposal, project plan and the development of formal deliverables - including a final report demonstrating the practical application of knowledge and skills in the local high technology economic sector.
+
+Prerequisites: No prerequisites are required for this course.
+
+
+
+## Entrance Requirements
+
+introduction
+
+If the Bachelor of Technology in Electronics program interests you, review the entrance requirements below. If you have any questions regarding the entrance requirements and equivalents, please contact Program Advising .
+
+About Flexible Learning
+
+Flexible Learning offers a variety of courses and programs in different delivery modes and locations to customize your learning at your own pace. You can review course prerequisites on our website and if you meet them, you’ll be able to register for that available course immediately. Some courses may require departmental approval or formal acceptance into the program. BCIT Flexible Learning courses are offered during the Winter (January), Spring/Summer (April), and Fall (September) terms.
+
+Application processing
+
+Applications are accepted throughout the year with intake options available during the following periods: Intakes may fill before the deadline. If you are currently registered in a course or planning to start, submit your application early to secure your spot in the program.
+
+Entrance requirements
+
+This program has a two-step admission process. Applicants must meet all entrance requirements and will be accepted on a first-qualified basis as long as space remains. Step 1: Pre-entry assessment Applicants that feel they meet the entrance requirements are required to contact the program head for an evaluation of work experience, assessment for pre-entry courses, and have the Proposed Program of Study form for Technical Coursework approved. Contact the program assistant at 604-432-8237 or khoward18@bcit.ca for more information. Any required pre-entry courses that are part of the degree program matrix will be credited towards the degree. You can apply if you have had the pre-entry assessment and have completed any necessary pre-entry courses. A completed pre-entry assessment document from the program area must be uploaded to complete your application. Step 2: Meet the following entrance requirements Applicants who have completed post-secondary studies outside of Canada, the United States, the United Kingdom, Australia or New Zealand will require a comprehensive evaluation of their credentials by the International Credential Evaluation Service (ICES) . Credential evaluation reports from other Canadian services may be considered. These reports must include course-by-course evaluations and GPA calculations. Read more about how to meet BCIT’s entrance requirements English language proficiency: Category 2 – English Studies 12 (67%) or equivalent Entry options: one of the following: Option 1: BCIT diploma in Electrical and Computer Engineering Technology with a minimum course average of 65% or Option 2: Diploma from any nationally accredited program in a related engineering technology discipline, with a minimum course average of 65% or Option 3: Students with a diploma grade point average between 60 and 65% can only gain full admission status after completing three of the following courses: ELEX 7010 , ELEX 7020 , ELEX 7030 and ELEX 7040 , with an overall average of 70% or more or Option 4: An equivalent level of education at the post-secondary level and registration (or qualifying to register) as an Applied Science Technologist will be considered. BCIT diploma in Electrical and Computer Engineering Technology with a minimum course average of 65% or Diploma from any nationally accredited program in a related engineering technology discipline, with a minimum course average of 65% or Students with a diploma grade point average between 60 and 65% can only gain full admission status after completing three of the following courses: ELEX 7010 , ELEX 7020 , ELEX 7030 and ELEX 7040 , with an overall average of 70% or more or An equivalent level of education at the post-secondary level and registration (or qualifying to register) as an Applied Science Technologist will be considered.
+
+Continuation requirements
+
+A minimum of two years of relevant work experience prior to graduation.
+
+International applicants
+
+This program is available to international applicants. Study permit: A valid BCIT study permit is required prior to starting the program. Students enrolled in this program must complete the mandatory work component to qualify for graduation. A co-op work permit is required prior to starting the work component.
+
+Apply to program
+
+To submit your application: Learn more about how to apply Include proof of meeting all entrance requirements. Convert all transcripts and supporting documents to PDF files . Have a credit card ready to pay the application fee.
+
+Scheduled Intakes
+
+Ongoing Flexible Learning (Part-time Studies) intakes: January, April, and September .
+
+myCommunication
+
+Within two business days of submitting your completed application, BCIT will send a message to your personal and myBCIT email addresses. All correspondence regarding your application will be posted to your online myCommunication account at my.bcit.ca . We will send you an email when a new message is posted. It is important to watch for these emails or regularly check your account online. You can expect to receive communication concerning the status of your application within four weeks.
+
+
+
+## Program Details
+
+Program length
+
+As a Part-time Studies program, a period of three to five years may be required to complete the program. However, the degree must be completed within seven years from acceptance into the program. Prior to acceptance into the program, candidates may complete: a maximum of 6 credits of Technical Studies/Management course work a maximum of 12 credits of Liberal Studies component course work a maximum of 6 credits of mathematics
+
+Accreditation
+
+Upon graduation, students who intend to pursue registration as a Professional Engineer can apply to Engineers & Geoscientists British Columbia for acceptance into the Engineer-in-Training (EIT) program. This acceptance will require passing specified confirmatory exams.
+
+Program delivery
+
+In person: This program is delivered on campus.
+
+Program location
+
+Burnaby Campus 3700 Willingdon Avenue Burnaby, BC
+
+Program structure
+
+The general requirement for a Bachelor of Technology in Electronics degree program is a minimum of 73 credits from five components. Candidates will follow their individually approved educational plan. It is highly recommended that students also take the MatLab/Simulink tutorial (ELEX 0362) as it is used in several core BTech Electronics courses. ELEX 0362 - Matlab/Simulink Tutorial
+
+
+
+## Graduating & Jobs
+
+Graduate employment outcomes
+
+The BCIT student outcomes report presents summary findings from the annual survey of former students administered by BC Stats one to two years after graduation. These reports combine the last three years of available results for the 2022-2024 BCIT Outcomes Surveys of 2021-2023 graduates and for Degree 2020-2022 graduates. The reports are organized into three-page summaries containing information on graduates’ labour market experiences and opinions regarding their education. More detailed information can be accessed at the BC Student Outcomes website. To view these results, you may need to have the Adobe Acrobat Reader installed in your Web browser. Electronics
+
+Apply for graduation
+
+Upon successful completion of all program requirements, complete an Application for BCIT Credential [PDF] and submit it to Student Information and Enrolment Services. Allow approximately six to eight weeks for processing. All financial obligations to the Institute must be met prior to issuance of any credential.

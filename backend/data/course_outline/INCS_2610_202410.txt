@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20241087077/
+Course: INCS 2610
+Field: Programmable Logic Controllers
+
+School: School of Energy
+Program: Industrial Network Cybersecurity
+Course Credits: 4
+Minimum Passing Grade: 50%
+Start Date: January 03, 2024
+End Date: April 19, 2024
+Total Hours*: 60
+Total Weeks: 15
+Hours/Weeks: 4
+Delivery Type: Lecture
+Prerequisite(s): ELEX 2610† and ELEX 2620† († may be taken concurrently) ELEX 2610‡ and ELEX 2620‡ (‡ must be taken concurrently)
+CRN: 87077
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Bill Maki
+E-mail: bill_maki@bcit.ca
+Location: SW03-2069
+Office Hours: Posted on Office Door. By appointment please.
+
+## Course Description
+This course develops a working knowledge of Programmable Logic Controllers (PLCs) to provide a deep appreciation as to their application in industry and the challenges associated with the networking and network security of them. Building on the concepts learned in the Electrical Systems for Industrial Network Cybersecurity and Technical Mathematics for Industrial Network Cybersecurity courses in term one, this course prepares students for the Industrial Networking course in the following five-week term. Topics include: an overview of PLCs, their industrial applications, and a survey of the programming languages conforming to the IEC-61131-3 standard. A step-by-step approach is used to interface devices to a PLC. Lab activities include the creation of a simple sequential and ON/OFF control system and the implementation of Ethernet communications to integrate an HMI touchscreen display. ​
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- List the industrial applications in which PLCs are employed. (1)
+- Explain the scan cycle of a PLC. (2)
+- Establish communications between a PLC and a networked PC for programming. (3)
+- Create structured text, ladder logic, Function Block Diagrams (FBDs) and Sequential Function Charts (SFCs) programs. (4)
+- Troubleshoot structured text, ladder logic, Function Block Diagrams (FBDs) and Sequential Function Charts (SFCs) programs. (3)
+- Interface devices to a PLC including switches, pushbuttons, sensors, and final control elements. (3)
+- Create a simple sequential control system. (4)
+- Create a simple ON/OFF control system. (4)
+- Establish communications between an HMI and a PLC. (3)
+- Design a basic HMI touchscreen display for control and alarms. (4)
+
+## Learning Resources
+Course/Lecture Notes:
+
+Course Handouts/Links
+
+## Course Goals
+- Introduction to industrial contol
+- List some of the industrial applications in which PLCs are employed
+- Explain the scan cycle of a PLC
+- Explain the communications between a PLC and a networked PC for programming
+- Create Ladder Logic, Function Block Diagrams (FBDs)
+- Troubleshoot ladder logic, Function Block Diagrams (FBDs)
+- Simulate an interface device to a PLC including switches, pushbuttons, sensors, and final control element
+- Create a simple ON/OFF control system
+- Establish communications between an HMI and a PLC
+- Design a basic HMI display for a control system
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs: 25
+Quizzes: 10
+Assignments: 15
+Midterm Exam: 20
+Final Exam - Includes Practical: 30
+TOTAL: 100
+
+Successful completion of both the Lab component and Theory component of this course is required for a passing grade. The minimum passing grade for both the Lab and Theory components is 50%. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade, a failing grade of U (Unsatisfactory) is awarded.
+
+## Attendance Requirements
+Attendance Attendance and full participation in all laboratory sessions is mandatory. Lecture classes may be missed but the instructor must be notified of the student's choice to do so. Nonetheless, the sole responsibility for any and all missed course material, quizzes, assignments, notifications or announcements due to lack of attendance or tardiness lies entirely with the student.
+
+## Course Specific Requirements
+Laptop / Tablet
+
+It is recommended that students have a laptop, tablet, or smart phone with a large display with them during lectures. Classes and notes will be presented using Microsoft OneNote. Students are not required to have Microsoft OneNote installed on their device
+
+## Course Schedule and Assignments
+Course Schedule is tenative and subject to change
+
+Week 1: No Lab: Lec 1: Introduction to Industrial Control
+Week 2: Lab 0: Hardwiring Relay Logic: Lec 2: Introduction to PLC Architecture and Relay Logic
+Week 3: Lab 1 :Relay Logic Based lab: Lec 3: Introduction to PLC Programming Software and Ladder Logic ( AND . OR implementation )
+Week 4: Lab 2: Intro to PLC Programming Software implementing Logic gates: Lec 4: Introduction to Latching and Interlocking
+Week 5: Lab 3 : Interpret and modify Programming with interlocking conditions: Lec 5 : Timer and Counter functions
+Week 6: Lab 4: Understand timer functions and settings and logic implementation: Lec 6 : Data types, Memory organizatoin and Analog Inputs/Outputs/Scaling
+Week 7: Lab Resreved for Assignment: Lec 7: Communication with HMI
+Week 8: Lab 5: Analog I/O: lec 8: Programming Languages
+Week 9: Lab 6 HMI Interface: Lec 9: PLC I/O Wiring
+Week 10: Lab 7: Function block based programming: Lec 10: Remote I/0
+Week 11: Lab 8: PLC -PLC communication: Lec 11: PLC networking
+Week 12: Reserved for Assignment: Lec 12: PLC Safety Systems
+Week 13: Reserved for Tutorial/Review Session: Lec 13: PLC network security
+Week 14: Exam Includes Practical
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Bill Maki, Instructor December 30, 2023
+
+I verify that this course outline has been reviewed. Roger Gale, Program Head December 30, 2023
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Matthew Pedley, Associate Dean January 01, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

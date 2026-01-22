@@ -1,0 +1,99 @@
+URL: https://www.bcit.ca/outlines/20241019468/
+Course: COMP 4941
+Field: Client/Server Systems Quality Control
+
+School: School of Computing and Academic Studies
+Program: Computer Systems Technology (CST) Diploma - Client Server Option
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: January 08, 2024
+End Date: April 19, 2024
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): 50% in COMP 3940
+CRN: 19468
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Tejinder Randhawa
+E-mail: Tejinder_Randhawa@bcit.ca
+Location: SW2-125
+Office Hours: By appointment via video conferencing
+
+## Course Description
+This course is an extension to COMP 3940 and provides in-depth knowledge of the principles and practice of client/server & distributed systems design. The focus is on examining strategies and algorithms to achieve design goals such as performance, reliability, scalability, consistency, and security in a distributed system. Some of the topics that will be covered include: Concurrency Control, Recovery and Performance considerations in multi-user and distributed data servers; Replication, Security and Fault Tolerance in distributed systems & the design and development of client/server based database applications.
+
+## Course Learning Outcomes/Competencies
+At the end of this course, the student will be able to:
+
+- Identify and review key requirements of client/server and distributed systems.
+- Examine strategies and algorithms to achieve design goals such as performance, reliability,scalability, consistency, and security in a distributed system.
+- Evaluate various algorithms and protocols associated with transaction management, con-currency control and recovery.
+- Evaluate existing client/server based systems such as relational database management systems (RDBMS) to assess how user requirements are being met.
+- Develop client/server based and distributed database applications using these too.
+
+## Learning Resources
+Distributed Systems - Concepts and Design by G. Coulouris, J. Dollimore, T. Kindberg and Gordon Blair Addison Wesley, 5th edition ISBN 10: 0-13-214301-1 ISBN 13: 978-0-13-214301-1 (not mandatory).
+
+Additional readings and course notes will be provided
+
+## Evaluation Criteria
+Criteria: %: Comments
+Final: 30
+Midterm: 20
+Assignments: 30: approx. 1 take-home group assignments and 8 individual in-class exercises
+Project: 20: to be done individually or in pairs
+Total: 100: In addition to getting at least 50 marks in the course, the total of the Midterm and the Final exam marks must also be at least 25, to pass the course
+
+## Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+
+## Course Schedule and Assignments
+Week #: Outcome/Material Covered
+1 - Jan 8: Lec: Introduction Lab: .Net Security APIs
+2 - Jan 15: Lec: Securing Distributed Systems; Security & Integrity in Database Systems Lab: .Net Security APIs
+3 - Jan 22: Lec: Introduction to PL/SQL Lab: Stored Procedures & Triggers using PL/SQL
+4 - Jan 29: Lec: Parallel Processing & Scheduling Lab: Stored Procedures & Triggers using PL/SQL
+5 - Feb 5: Lec: Data Structures for External Storage Lab: Data Structures for External Storage
+6 - Feb 12: Lec: Distributed Query Optimization Lab: Data Structures for External Storage
+7 - Feb 19: Lec: Transactions - Concurrency Control Lab: Applications development using ODBC
+8 - Feb 26: Midterm Exam Week - No Classes
+9 - Mar 4: Lec: Transactions – Recovery Lab: Applications development using ODBC
+10 - Mar 11: Spring Break - No Classes
+11 - Mar 18: Lec: Distributed Transactions Lab: Distributed Transactions in Oracle & SQL Server
+12 - Mar 25: Lec: Replication Lab: Replication in Oracle & SQLServer
+13 - Apr 1: Lec: Time and Coordination; . Lab: Time Server
+14 - Apr 8: Lec: External Storage Data Models; . Lab: Distributed Architectures, Performance and Reliability Modeling
+15 - Apr 15: Final Exam Week - No Classes.
+
+## BCIT Policy
+Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Tejinder Randhawa, Faculty January 02, 2024
+
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 06, 2024
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 08, 2024
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

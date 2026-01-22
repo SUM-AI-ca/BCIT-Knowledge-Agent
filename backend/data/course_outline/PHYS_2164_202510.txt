@@ -1,0 +1,207 @@
+URL: https://www.bcit.ca/outlines/20251078687/
+Course: PHYS 2164
+Field: Applied Physics 2 for Robotics                                                                      
+
+School: School of Computing and Academic Studies
+Program: Robotics and Mechatronics Engineering Technology
+Course Credits: 6.5
+Minimum Passing Grade: 50%
+Start Date: January 06, 2025
+End Date: May 23, 2025
+Total Hours*: 100
+Total Weeks: 20
+Hours/Weeks: 5
+Delivery Type: Lecture
+Prerequisite(s): 50% in PHYS 1164 MATH 2342‡ (‡ must be taken concurrently)
+CRN: 78687
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: Ken Mark
+E-mail: Kenneth_Mark@bcit.ca
+Location: SW3-4079
+Office Hours: If you have any questions about the course, I encourage you to drop by my office - no appointment needed! - for help on the days listed below. Tuesdays: 11:30 am - 1:20 pm in SW3-4079 (office)Wednesdays: 12:30 - 1:20 pm in SW3-4079 (office) Thursdays: 11:30 am - 1:20 pm in SW3-4079 (office)Fridays: 12:30 - 1:20 pm in SW3-4079 (office)If you would like to meet at a time not posted above, send me an e-mail in advance as much as possible, and I will do my best to accommodate you!
+
+## Course Description
+PHYS 2164 is an algebra-based physics course that addresses topics of special relevance to mechatronics and robotics engineering technology. There are three major topic areas: Part 1 Thermal Physics; Part 2 Statics and Properties of Materials; and Part 3 Electricity and Magnetism. The accompanying laboratory program emphasizes the proper techniques of measurement, experimentation, graphical data analysis, and error analysis. Practical applications of the physics discussed in the course are identified in relation to current technology.
+
+## Course Learning Outcomes/Competencies
+From the theory (lecture) portion of the course, the student will continue to develop the necessary problem-solving skills needed by mechatronics and robotics technologists. Specifically, the student will be able to:
+
+- Solve problems involving temperature, thermal expansion, specific and latent heat of materials, and heat transfer (convection, conduction, radiation) by applying the kinetic theory of matter and thermodynamics.
+- Solve problems related to the mechanical properties of materials involving the stress-strain relationship, Young’s modulus, shear modulus, and bulk modulus.
+- Design structural members that are in tension, compression and shear by applying the concepts of factor of safety, elastic limit, yield strength, and ultimate strength of a material.
+- Calculate forces, bending moments, stresses and strains that act on two-dimensional rigid bodies such as booms, simply supported beams, and trusses by applying the principles of static equilibrium.
+- Solve problems related to damped/undamped oscillating mass-spring systems, natural period and frequency, quality factor and resonance.
+- Calculate electric force, field, work, energy, potential, and draw electric field lines and equipotential lines for point charges.
+- Calculate capacitance of capacitors with consideration to plate separation and area, and the use of dielectric materials between the plates.
+- Solve problems involving magnetic fields, flux, force, electromagnetism, and magnetic permeability.
+- Define and explain the phenomena of diamagnetism, paramagnetism, and ferromagnetism that are observed in various materials.
+- Solve problems involving electromagnetic induction (Faraday’s and Lenz’s Laws), inductors, transformers and magnetic energy.
+- Explain the principles of operation of modern electric generators and motors, thermistors, resistance strain gauges, thermocouples, piezoelectric devices, and superconducting materials.
+
+From the practical (laboratory) portion of the course, the student will continue to develop his/her ability to:
+
+- Use scientific instruments to make accurate measurements and to estimate the uncertainty in those measurements.
+- Analyse data and obtain the mathematical relationship between experimental variables by using graphical analysis software on the computer.
+- Estimate the uncertainty in quantities that are calculated from measurements and the results of graphical analysis.
+- Write a clear, concise and properly formatted technical report that explains the significance of the results.
+
+## Learning Resources
+Required
+
+• printed textbook or eText of Sears and Zemansky's College Physics, by Young, Hugh D. and Adams, Philip W., 11th edition, Pearson Addison Wesley, 2020 (9th and 10th editions are acceptable)
+
+• access to Mastering Physics on-line assignments for the above textbook. You are advised to purchase access for at least 5 months from the start of the course (both PHYS 1164 and PHYS 2164 course use the same text).
+
+The eText and access to Mastering Physics may be obtained as follows:
+
+1. https://www.campusebookstore.com/link/?id=6bc78f3c-7a19-4f04-bd9b-25ad7eb06d1d
+
+2. https://www.pearson.com/en-ca/higher-education/products-services/mastering/physics.html
+
+If you choose to buy a used 9th, 10th or 11th edition printed text, any previously registered access code that may come with the book is invalid for subsequent use. In this case, you must purchase a new standalone access code, of which there are two versions: basic with no eText, and the full version with eText access included. The full version of the standalone access code may be purchased at the BCIT Bookstore (https://www.bcit.ca/bookstore). The basic (no eText) version may only be purchased online using option 2 above. Please carefully consider the cost and expiry date of the version you are buying.
+
+• PHYS 1164/2164 Laboratory Manual, British Columbia Institute of Technology, Revised September 2024 - printed version available at the BCIT Bookstore (https://www.bcit.ca/bookstore) by special order
+
+• 3 ring binder for notes, assignments, lecture and lab hand-outs
+
+• non-programmable scientific calculator with trigonometric functions, scientific/engineering notation, logarithms
+
+Recommended
+
+• Physics Laboratory Notebook (graph paper on left page, ruled paper on right page) - available at the BCIT Bookstore
+
+• USB memory storage device
+
+## Evaluation Criteria
+Criteria: %: Comments
+Lecture Assignments: 10: All assignments are equally weighted.
+Lecture Test 1: 10
+Lecture Test 2: 10
+Lecture Test 3: 10
+Lecture Final Exam: 20
+Lab Reports and Lab Quizzes: 10: All lab reports and lab quizzes are equally weighted.
+Lab Test 1: 15
+Lab Test 2: 15
+
+Course Requirements For Passing Grade
+
+The minimum passing grade for this course is 50% with the condition that both the laboratory and the lecture portions be passed separately with a minimum average of 50% in each. If both portions have an average of 50% or better, the weighted average of both portions will be assigned as the final grade. However, if a failing average of less than 50% occurs in any one portion, but not the other, and the weighted average of both portions is 50% or greater, a failing final grade of Unsatisfactory (U) will be assigned. In all other cases with a failing average in one or both portions, and where the weighted average of both portions is less than 50%, this failing weighted average will be assigned as the final grade.
+
+## Course Specific Requirements
+Course Website: All course related lecture and lab documents will be posted in Portable Document Format (pdf) at the Learning Hub - https://learn.bcit.ca/d2l/home (D2L or Desire To Learn). Log-in with your BCIT credentials. For course content, go to ‘My Courses' and under '202510.Winter', select the 'PHYS-2164-0 - Appplied Physics for Robotics - 78687 - Lecture' option. Important class announcements from your instructor will be posted here over the course of the term, so please log-in regularly.
+
+Pre-Class Preparation: Every week, based on the Proposed Lecture Schedule, you will be assigned sections of the text to be read in advance before they are to be discussed in class. This allows you to more easily understand the material presented in the class and to retain it for use in assignments and tests.
+
+Note Taking: Because the class notes are available on the course website in advance of the lectures, they may be printed out or transferred to your computer. Of course, you may preview them ahead of the lectures, and during lectures, the notes may be referenced and annotated at your convenience. More importantly, this allows you to concentrate on listening to the discussion and understanding the concepts being discussed. The lecture example questions are posted in advance as well, but the solutions to them are not posted in advance. It is very important that you actively participate by thinking about the work being presented by the instructor, verifying the mathematics, and giving some thought to the meaning of the solutions presented. Also, you are enouraged to participate by answering questions, and posing your own questions as example problems are being discussed in class. The solutions to the lecture example problems done in class will be posted to the course website shortly afterwards.
+
+Term Tests and Final Examination: These will be related to the assigned problems and concepts covered in classes and assignments. Term tests will be non-comprehensive but the final exam will be comprehensive, involving all of the material covered over the course of the term. The tests are closed book, but a formula sheet will be provided for use during all examinations. Approved non-programmable scientific calculators are allowed, but all unapproved electronice devices such as mobile teleophones, computers, earphones, Apple or other electronic watches, video glasses, etc. are expressly prohibited.
+
+Laboratory: Attendance and performance of laboratory experiments are mandatory and occur approximately every week at the scheduled time. Missing two (2) or more experiments with no legitimate reason will result in a failing grade of Unsatisfactory (U) in the course, regardless of other grades. Legitimate reasons include illness and personal or family emergency situations. See the note below regarding illness. The instructor must be informed of this reason as soon as possible, and no later than 24 hours after the missed lab. Before coming to the lab, students are expected to have prepared for the experiment by reading the appropriate section of their lab manual.
+
+Laboratory Reports: Written laboratory reports in the form of Lab Templates will be required to be completed for each lab session. Reports will be completed by the student and submitted for marking by the appointed due date and time. Lab reports should be attached to your Lab Binder for future studying purposes. Substantially incomplete lab reports will receive a mark of zero. Lab reports not submitted in the time allotted will be penalized. Before coming to the lab, students are expected to have prepared for the experiment by reading the assigned sections of their lab manual.
+
+Laboratory Test: On two (2) Laboratory Tests (see Lab Schedule), you will be tested on your understanding of the theory, experimental methods, use of scientific equipment, calculations, and the physical interpretation of the results pertaining to the experiments you have performed. During the lab test, you will be allowed to freely refer to your own Lab Binder which may only contain your own lab reports, and any of your own personal, hand written notes. Any other materials must be approved by your instructor before being used during the Lab Tests.
+
+Workload: Set aside time for physics (and for your other classes, too) every week. It is very important to study regularly, keep up with the work and seek the assistance of the instructor when problems arise. The course load is quite heavy and to succeed you must be prepared to make the appropriate time commitment. The time that you will need to succeed in this course depends on your own background and abilities. As a rough guide, an ‘average’ time allotment is usually one hour for every classroom or lab hour per week. The pace of this (and your other) courses is very fast, so DO NOT FALL BEHIND! With a full load of other classes, it will be extremely difficult to catch up! Because physics is a “cumulative” subject (successful learning of new material is based on a sound understanding of previous material), you must have a firm foundation of knowledge, starting from the beginning of the course.
+
+Getting Help: Any difficulties that you may have should be resolved as soon as possible. Please consult with the instructor after class, during office hours, or by appointment. Be sure to make use of the Physics Learning Centre (see note below). Also, the BCIT Student’s Society often hires 2nd year students, who have previously taken physics, to provide free ‘peer tutoring’ at select times and days of the week. In addition, see the note below concerning the Physics Learning Centre.
+
+Physics Learning Centre (PLC): Additional help may be obtained in Room SW3-4785 between the times of 11:30 am to 1:20 pm on Monday, Tuesday, Wednesday, Thursday, and Friday. An instructor from the Physics Department will be in the PLC to answer questions regarding assignments and labs.
+
+- If the instructor is not in the PLC when you arrive, he/she may be in his/her office. Please refer to the schedule posted on the door of the room for the instructor’s office location.
+
+- The PLC is to be used for make-up labs that are to be performed in the adjoining mini-lab room, SW3-4775. The PLC instructor will be available for assistance.
+
+- The PLC is a no-appointment needed drop-in help desk. Please take advantage of this valuable learning resource!
+
+Class Conduct: The BCIT Student Code Of Conduct (non-academic) (https://www.bcit.ca/files/pdf/policies/5102.pdf) will be enforced. Students are expected to act professionally during class. Students disrupting or disturbing others during classes and labs may be asked to leave, and their behaviour will be reported to their program head.
+
+Attendance: Inevitably, there will be times during the term when you will be tempted to miss a physics class in order to study or finish an assignment for another class. This may seem like a convenient short term solution but can have long term negative effects on your performance in this course. If you do happen to miss a physics class, all examples done will be posted in the Learning Hub. However, actually attending the class allows you to actively parrticipate, ask questions, and more easily “learn” the material. If you have missed a class, it is your responsibility to read the posted Lecture Reminders which contain important class announcements such as changes to course content, assigned reading material, dates of assignments, quizzes, tests, exams, and labs.
+
+Regular attendance in lectures, labs, field trips, workshops, etc. is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Unexplained absences from more than 10% of the scheduled course hours will result in a written warning. Course continuation will require the approval of the instructor and Program Head. Continued absences may result in failure or immediate withdrawal from the course or program.
+
+The BCIT Student Regulations Policy (https://www.bcit.ca/files/pdf/policies/5101.pdf) regarding attendance will be enforced.
+
+Absence From Classes: In case of illness or other unavoidable cause of absence, the student must communicate (e-mail) as soon as possible with the instructor and Program Head to explain the reason for the absence. Unexplained and excessive absence in a course (6 classes or more) may result in failure and immediate withdrawal from the course or program. Course continuation will require the approval of the insructor and program head. It is the student's responsibility to contact the course instructor and obtain missed course material in a timely manner.
+
+Medical Documentation and Missed Work: A written doctor’s note is required for any illness causing a student to miss required academic work such as labs, assignments, quizzes, tests and exams. The medical note must: (1) be submitted to the Program Head and course instructor within one week of the missed academic work, (2) substantiate the reason for the absence, and (3) identify the dates of the absence. Late medical notes may not be accepted. A separate and current medical note is required for each period of absence. The instructor will determine the most appropriate method for making up missed work. It is at the instructor’s discretion whether or not a make-up exam, test or quiz is to be offered.
+
+Academic Integrity: Violations of academic integrity, including dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 — Academic Integrity and Appeals, and accompanying procedures: https://www.bcit.ca/files/pdf/policies/5104.pdf. BCIT requires that all students follow a high standard of ethics. Incidents of cheating or plagiarism may result in a grade of zero for the assignment, quiz, test, exam, or project for all parties involved and expulsion from the course.
+
+Accommodation: Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT’s Policy on Accommodation for Students with Disabilities (Policy #4501), and contact BCIT’s Accessibility Services (Tel: 604-451-6963, Web: https://www.bcit.ca/accessibility) as early as possible. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area. Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should also promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Mobile Telephones and Communication Devices: Cellular phones, pagers, or other communication devices are to be kept on silent mode or turned off during class time.
+
+Video, Digital, or Sound Recording: Video, digital, or sound recording of lectures, lab presentations, and posted course material is not permitted without prior approval from the instructor. Students are expected to take their own notes.
+
+Internet: Internet and/or e-mail use is not permitted during class time, unless it is specifically required for the course. The Internet should not be considered as the only source of research for this course.
+
+Course Outline Changes: On occasion, the instructor may find it necessary to modify the material or schedule specified in this course outline. If major changes are required, they will be announced in class, on the learning hub, e-mail, or through other appropriate communication.
+
+## Course Schedule and Assignments
+Regularly assigned homework (due dates to be announced in class) will cover the topics discussed in lectures, and ideally, should be completed shortly after the material is discussed in class. Some homework assignments will be submitted in handwritten form on paper, but most will be on-line using the Mastering Physics system.
+
+Solve each question or problem with a complete written solution following the methods outlined in the lectures. For future studying purposes, place all completed assignments in a separate notebook and refer to them as the need arises. Students are encouraged to do a good job on assignments as they closely relate to questions on tests and exams.
+
+Please keep in mind that Assignments represent the minimum number of problems that you should be attempting. In order to obtain sufficient confidence and mastery over the course topics, solving more problems is generally needed. The textbook contains many additional problems with answers to odd numbered questions at the end of each chapter.
+
+Late Assignments: It is the student’s responsibility to ensure that assignments are submitted on time. Any portion of an assignment question submitted after the due date and time will be subject to a 20% penalty per calendar day of the value of the entire question. Any portion of an assignment question submitted 5 days or more late will result in a zero grade for the entire question. Students should notify the instructor immediately of any extenuating circumstances relating to late, or potentially late, assignments. For late assignments due to illness, please see Medical Documentation and Missed Work.
+
+## Course topics
+Week Number/ Week of: Topics Covered (* = optional): Textbook Reference/ Reading: Assessments: Lab Activity
+1 06-10 Jan: All lecture & lab content is posted on the physics page of the Learning Hub: PHYS-2164-0 - Applied Physics for Robotics - 78687 - Lecture Course Introduction - review course outline - website for eText and Mastering Physics assignments: https://www.pearson.com/en-ca/higher-education/products-services/mastering/physics.html PART I: THERMAL PHYSICS Temperature & Heat Temperature and Thermal Equilibrium Temperature Scales Thermal Expansion (linear and volumetric): 14.1 14.2 14.3: Intro to Mastering Physics available on 7th Jan Assignment #1 available on 9th Jan Intro to Mastering Physics due on 12th Jan: Lab Introduction, Review of Uncertainty Calculations
+2 13-17 Jan: Quantity of Heat (units of heat, specific heat capacity, sensible heat) Phase Changes (latent heat) Calorimetry: 14.3 14.4 14.5: Assignment #2 available on 14th Jan Assignment #1 due on 19th Jan: Experiment HT6 Thermal Conductivity of a Poor Conductor
+3 20-24 Jan: Heat Transfer by Convection Heat Transfer by Conduction Heat Transfer by Radiation: 14.5 14.6 14.7: Assignment #3 available on 21st Jan Assignment #2 due on 26th Jan: Experiment HT7 Thermal Radiation
+4 27-31 Jan: Heat Transfer by Radiation (continued) Applications of Heat Transfer PART II: MATERIALS, STATICS, AND OSCILLATIONS Mechanical Properties of Materials Stress, Strain and Elastic Deformation - Hooke's Law: 14.7 Hand-out #1 11.1: Assignment #4 available on 28th Jan Assignment #3 due on 2nd Feb: Experiment MS5 Linear Expansion of Metals
+5 03-07 Feb: Elasticity and Plasticity – features of the Stress vs Strain Graph for a Typical Metal: Proportional Limit, Yield Strength, Ultimate Strength Young's Modulus for Tensile and Compressive Deformation Safety Factor Sheard Modulus for Shear Deformation Young's Modulus: 11.1: Assignment #4 due on 9th Feb: Experiment MS4 Stress Strain Curve of Nichrome
+6 10-14 Feb: Statics: Equilibrium Conditions (Newton's 1st Law) for a Rigid Body First Equilibrium Condition Torque (Moment of a Force) Couples Centre of Gravity: 10.1 10.6 Hand-out #2: Betts 6-2 to 6.21: Lecture Test 1: Friday, 14th Feb at 11:30 am [Tentative]: Experiment MS2 Young’s Modulus via Strain Gauge
+7 17-21 Feb: Family Day: Monday, 17th February - No Classes Second Equilibrium Condition Types of Equilibrium Statics: Internal Forces, Bending Moment, and Stress in Support Beams Definition of Area Moment of Inertia: Hand-out #2: Betts 6-2 to 6.21: work on Assignment #5 (not Mastering Physics) available in 'Content' - not for hand-in: Review for Lab Test 1
+8 24-28 Feb: Parallel Axis Theorem for Area Moment of Inertia Bending Moment in Beams Flexural (Bending) Stress Equation for Beams: Hand-Out #3: work on Assignment #6 (not Mastering Physics) available in 'Content' - not for hand-in: Lab Test 1: Friday, 28th Feb at 8:30 am
+9 03-07 Mar: Statics: Trusses and Internal Forces Trusses Tensile and Compressive Forces Inside Structural Members Method of Joints Method of Sections: Hand-Out #4 Betts 6-21 to 6-36: work on Assignment #7 (not Mastering Physics) available in 'Content' - not for hand-in: Experiment VW4 Damping and Resonance of an Oscillator - Parts A to D only
+10-14 Mar: No Classes - Spring Break
+10 17-21 Mar: Periodic Motion (Oscillations) Simple Harmonic Motion (SHM) Definitions of Cycle, Amplitude, Period, Frequency, Angular Frequency Equations of Motion for SHM Energy of Simple Harmonic Motion: 11.2 11.3 11.4 11.5: Assignment #8 available on 18th Mar: Experiment EM1 Acceleration and Deflection of Electrons in an E-Field
+11 24-28 Mar: Simple Pendulum Damped and Forced Oscillations Quality Factor Resonance: 11.6 11.7 Hand-Out #5: Lecture Test 2: Tuesday, 25th March at 1:30 pm [Tentative]: Experiment EM2 The Electric Field and Gauss's Law
+12 31 Mar-04 Apr: PART III: ELECTRICITY & MAGNETISM Electrostatics Electric Charge and Electric Field Electric Charge (physical basis from atomic structure) Conservation and Quantization of Charge Conductors and Insulators - Charging Processes (Induction and Conduction) Coulomb's Law (for electric force) Electric Field and Electric Forces Calculating Electric Fields (for point charges): 17.1 17.2 17.3 17.4 17.5 17.6: Assignment #9 available on 1st Apr Assignment #8 due 2nd Apr: Experiment EM4 Deflection of an Electron Beam in a Magnetic Field
+13 07-11 Apr: Electric Field Lines Gauss's Law and Field Calculations* Electrostatic Shielding Electric Potential Electric Potential Energy - general concept and equation for point charges Potential (Voltage) - general concept and equation for point charges: 17.7 17.8* 17.9 18.1 18.2: Assignment #10 available on 8th Apr Assignment #9 due on 13th Apr: Experiment EM5 Magnetic Field in a Solenoid
+14 14-18 Apr: Equipotential Surfaces and Potential Gradient - the relationship between voltage and electric field Capacitance and Parallel Plate Capacitors Magnetic Field and Magnetic Forces Magnetism and Magnetic Field Magnetic Force - magnetic field lines and the right hand rule Good Friday: 18th April - No Classes: 18.3 18.5 20.1 20.2: Assignment #11 available on 15th Apr
+15 21-25 Apr: Easter Monday: 21st April - No Classes Motion of Charged Particles in a Magnetic Field - helical motion Mass Spectrometers Magnetic Force on a Current-Carrying Conductor Force and Torque on a Current Loop - the DC motor: 20.3 20.4 20.5: Assignment #10 due on 23rd Apr: Experiment EM6 Electromagnetic Induction
+16 28 Apr-02 May: Magnetic Field of a Long Straight Conductor Magnetic Force Between Parallel Conductors Current Loops and Solenoids Magnetic Field Calculations - law of Biot and Savart* Magnetic Materials - paramagnetism, diamagnetism, ferromagnetism: 20.6 20.7 20.8 20.9 20.10* 20.11: Lecture Test 3: Friday, 2nd May at 11:30 am [Tentative]: Experiment VW4 Part E (Resonance and Damping in an LCR Circuit) + Review for Lab Test 2
+17 05-09 May: Electromagnetic Induction Induction Experiments Magnetic Flux Faraday's Law (basis of electrical generators) Lenz's Law Motional Electromotive Force Eddy Currents Mutual Inductance Self Inductance Transformers: 21.1 21.2 21.3 21.4 21.5 21.6 21.7 21.8 21.9: Assignment #12 available on 6th May Assignment #11 due on 7th May: Lab Test 2: Friday, 9th May at 8:30 am
+18 12-16 May: Last Physics Class: Tuesday, 13th May Magnetic Field Energy* The R-L Circuit* The L-C Circuit* Thursday, 15th May: Final Exams Begin (no classes) Friday, 16th May: Final Exams Underway (no classes): 21.10* 21.11* 21.12*: Assignment #12 due on 15th May: Lab Test 2 Results + Review for Final Exam
+19 19-23 May: Victoria Day: Monday, 19th May (no exams on this day) Final Exam Week: The day and time of the PHYS 2164 Final Exam is to be announced.: Final Exam Day and Time TBA
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. Ken Mark, Instructor January 07, 2025
+
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty January 08, 2025
+
+I verify that this course outline has been reviewed. Greg Scutt, Program Head January 08, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 08, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

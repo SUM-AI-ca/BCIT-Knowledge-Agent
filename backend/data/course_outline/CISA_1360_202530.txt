@@ -1,0 +1,156 @@
+URL: https://www.bcit.ca/outlines/20253050718/
+Course: CISA 1360
+Field: Programming Essentials
+
+School: School of Energy
+Program: CISA
+Course Credits: 5
+Minimum Passing Grade: 50%
+Start Date: September 02, 2025
+End Date: December 12, 2025
+Total Hours*: 75
+Total Weeks: 15
+Hours/Weeks: 5
+Delivery Type: Lecture/Lab
+Prerequisite(s): No prerequisites are required for this course.
+CRN: 50718
+
+## Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+
+## Instructor Details
+Name: John Ali
+E-mail: zali39@bcit.ca
+Location: SE1-208A
+Office Hours: With prior email arrangement
+
+## Course Description
+​This course is an introduction to computer programming terminology and concepts. Students will learn to write basic programs using loops, statements, variables, functions and arrays. The course employs an object-oriented programming language called Python. Practical exercises provide students the exposure to computer programming and the ability to interpret programming code.
+
+## Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+
+- Describe the use of an object-oriented programming language
+- Install the tools required to use an object-oriented programming language to create a program
+- Implement code to demonstrate the functions of variables, loops and decisions in Python
+- Describe various data types including Strings, Integers, and Floats
+- Describe the differences between interpreted and compiled languages
+- Implement code to demonstrate functions and arrays in Python
+- Access built-in and 3rd party libraries within a program
+- Build a simple Graphical User Interface using a programming language
+- Describe the concepts behind modular programming
+- Code within an Integrated Development Environment
+
+## Learning Resources
+Learning Resources:
+
+Python Essentials 1 & 2 (Cisco Networking Academy / Skills for All) – Core course material aligned with PCEP and PCAP certifications.
+
+Python Official Documentation – https://docs.python.org/3 – Reference guide for Python syntax and libraries.
+
+Supplementary Resources:
+
+ZyBooks: Python Programming Interactive eBook – Interactive online textbook with examples and self-check exercises.
+
+W3Schools Python Tutorial – https://www.w3schools.com/python – Quick reference and examples.
+
+Real Python – https://realpython.com – Tutorials and in-depth articles on Python development.
+
+GeeksforGeeks Python Programming – https://www.geeksforgeeks.org/python-programming-language – Problem-solving and coding practice.
+
+Practical Tools:
+
+MS VS / Copilot / ChatGPT/Cousre-specific APPs / PyCharm/Juypter
+
+GitHub – For code sharing, version control, and collaborative projects.
+
+Repl.it / Jupyter Notebooks – For cloud-based Python coding and practice.
+
+Google Colab – For Python practice with free cloud GPU support (useful in automation and AI tasks).
+
+## Course Goals
+The goal of this course is to build a solid foundation in programming with Python, enabling students to: - Design, implement, and test simple to intermediate-level Python programs. - Apply decision-making, iteration, and functions to solve computational problems. - Use built-in and third-party libraries for practical applications. - Understand and apply OOP principles in Python. - Develop programs that involve file handling, GUIs, and networking. - Demonstrate readiness for PCEP and PCAP certifications. - Gain applied programming experience relevant to software development, networking, automation, and AI-driven fields.
+
+## Evaluation Criteria
+Criteria: %: Comments
+Labs / Micro Project: 30: AI Powered
+Skill Exam / Projects: 20: AI Proof / AI Powered
+Quizes: 10: AI Proof
+Mid Term Exam: 20: AI Proof
+Final Exam: 20: AI Proof
+
+Note: Learning activities in this course will intentionally integrate AI tools in accordance with BCIT’s AI Policy. All graded assessments are designed to uphold academic integrity and are robust against unauthorized use of AI, consistent with BCIT’s Academic Integrity Policy.
+
+## Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor, indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT approved medical certificate submitted to the department, substantiating the reason for absence. For other absences, the student should be prepared to provide appropriate supporting documentation.The student must notify the instructor that he/she will miss the exam or evaluation as soon as possible, preferably prior to the time when the exam or evaluation is scheduled to occur. For medical related absences the student must produce a BCIT approved medical certificate, obtained at the student’s own expense, to show that an examination or evaluation was missed due to medical reasons. The BCIT Student Medical Certificate form is available on the BCIT website. Please see Policy 5101 - Student Regulations, and accompanying procedures.
+
+## Course Specific Requirements
+Will be provided by the Instructor.
+
+## Other information
+The course schedule/content may be updated as required. Approved, course-specific AI applications may be provided to support student learning.
+
+## Course Schedule and Assignments
+Week: Module / Topics: Labs: Micro-Projects: Adaptive Quiz (Day 1): Graded Quiz (Day 2): Exam
+1: Introduction & Setup (PE1): Lab 1.1: Install Python & IDE Lab 1.2: Display name, ID, date/time Lab 1.3: Python as calculator: Micro-Project 1 (Topic assigned later): Python basics, IDE, print(): Quiz 1: Setup & Basics
+2: Variables & Data Types (PE1): Lab 2.1: BMI Calculator Lab 2.2: Interest Calculator Lab 2.3: Type conversion Lab 2.4: String operations: Micro-Project 2 (Topic assigned later): Data types, I/O: Quiz 2: Variables & Strings
+3: Decision Structures (PE1): Lab 3.1: Grade Calculator Lab 3.2: Even/Odd Lab 3.3: Scholarship Checker Lab 3.4: Menu-driven program: Micro-Project 3 (Topic assigned later): Conditionals: Quiz 3: Decisions
+4: Loops & Iteration (PE1): Lab 4.1: Multiplication Table Lab 4.2: Guessing Game Lab 4.3: Factorial Calculator Lab 4.4: Pattern Generator: Micro-Project 4 (Topic assigned later): Loops: Quiz 4: Iteration
+5: Functions (PE1): Lab 5.1: Unit Converter Lab 5.2: Tax Calculator Lab 5.3: Prime Checker Lab 5.4: Modularized Guessing Game: Micro-Project 5 (Topic assigned later): Functions: Quiz 5: Functions & Scope
+6: Lists & Data Structures (PE1): Lab 6.1: Grocery List Lab 6.2: Gradebook Lab 6.3: Search in List Lab 6.4: Weekly Sales Tracker: Micro-Project 6 (Topic assigned later): Lists & Tuples: Quiz 6: Collections
+7: Libraries & Modular Programming (PE1/PE2): Lab 7.1: Dice Roller Lab 7.2: Math Utilities Lab 7.3: Date/Time Lab 7.4: Helper Module: Micro-Project 7 (Topic assigned later): Libraries & modularity: Quiz 7: Modules
+8: Midterm Exam: Review Quiz (Modules 1–7): Midterm Exam
+9: OOP Basics (PE2): Lab 9.1: Student Class Lab 9.2: Bank Account Lab 9.3: Library System Lab 9.4: Course Registry: Micro-Project 8 (Topic assigned later): OOP basics: Quiz 8: Classes & Objects
+10: Networking & Automation: Lab 10.1: TCP Chat Lab 10.2: File Transfer Lab 10.3: File Automation Lab 10.4: Batch Processing: Micro-Project 9 (Topic assigned later): Networking & Automation: Quiz 9: Networking
+11: File Handling & Error Handling (PE2): Lab 11.1: File I/O Lab 11.2: Exception Handling Lab 11.3: Grade Manager Lab 11.4: Login Logger: Micro-Project 10 (Topic assigned later): File handling & errors: Quiz 10: Exceptions
+12: GUI Programming (Tkinter): Lab 12.1: Basic Window Lab 12.2: Login Form Lab 12.3: Calculator GUI Lab 12.4: Student Info Form: Micro-Project 11 (Topic assigned later): GUI basics: Quiz 11: GUI
+13: Skill Exam / Capstone Project (Student Choice): Review Quiz: Skill Exam / Project
+14: Skill Exam / Capstone Project & Final Exam Preparation: Practice Labs & Mock Final Tests: Micro-Project 12 (Topic assigned later): Integrated practice & debugging: Quiz 12: Final Prep: Final Prep Activities
+15: Final Exam: Review Quiz: Final Exam
+
+## Course topics
+- Module 1: Introduction to Python, IDE setup, first program, Python as calculator
+- Module 2: Variables, data types, input/output, strings and formatting
+- Module 3: Decision-making with if/elif/else, logical operators, comparisons
+- Module 4: Loops (for, while), nested loops, control flow
+- Module 5: Functions, parameters, scope, return values
+- Module 6: Lists, tuples, indexing, slicing
+- Module 7: Libraries (math, random, datetime), modular programming
+- Module 8: Midterm Exam (Modules 1–7)
+- Module 9: OOP basics – classes, objects, methods, attributes
+- Module 10: Networking & Automation – socket programming, simple automation scripts
+- Module 11: File handling (read/write/append), exception handling, logging
+- Module 12: GUI development with Tkinter – windows, forms, input handling
+- Module 13: Skill Exam or Capstone Project (to be discussed in the class)
+- Module 14: Skill Exam / Project continuation, Final Exam preparation, practice tests
+- Module 15: Final Exam (Modules 1–14)
+
+## BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
+
+Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
+
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+
+## Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+
+## Approved
+I verify that the content of this course outline is current. John Ali, Instructor August 29, 2025
+
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head August 29, 2025
+
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology August 29, 2025
+
+Notice:
+Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

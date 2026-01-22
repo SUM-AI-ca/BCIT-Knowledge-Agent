@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/operating-systems-comp-7035/
+Title: Operating Systems
+Field: Computer Systems
+Type: Course
+Course Code: COMP 7035
+
+================================================================================
+
+## Overview
+
+This course is focused on advanced concepts in operating systems: inter-process communication, inter-core synchronization, memory organization and management, virtual memory, uniprocessor and multiprocessor scheduling, input/output management, modern storage strategies, file management and security. Concepts of processes and threads, inter-process communication, concurrency and synchronization will be discussed. Students will learn about the design of operating system structures and related algorithms and policies with a focus on performance and optimization. For example: placement and replacement memory algorithms, scheduling algorithms, resident set management and load control theories. The course will include an introduction to virtualization. To illustrate the concepts, each topic will include examples of real life design choices used in modern operating systems (e.g., UNIX, Linux, Windows, and Android).
+
+## Credits
+
+3.0
+
+## Cost
+
+$858.01
+
+## Prerequisites
+
+- Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+
+## Learning Outcomes
+
+- Compare and contrast design strategies used for various operating systems.
+- Discuss concepts of processes, threads, concurrency and synchronization.
+- Analyze solutions for inter-process communication and inter-core synchronization for real-life concurrent problems.
+- Explain how the memory management system operates, including virtual memory, logical/physical addressing schemes, swapping, segmentation, and paging.
+- Discuss the advantages and challenges of virtual memory design.
+- Analyze page replacement algorithms (for example: FIFO, LRU, optimal, clock, working set) implemented for virtual memory management.
+- Apply frame allocation algorithms for virtual memory management (for example: equal, proportional, local, and global).
+- Analyze algorithms implemented for uniprocessor and multiprocessor scheduling (for example: FCFS, SRT, priority scheduling, multilevel queue scheduling).
+- Compare and contrast different scheduling algorithms.
+- Describe the I/O management and file management systems.
+- Analyze algorithms used for disk scheduling (for example: FCFS, SSTF, SCAN, CSCAN, FSCAN, LOOK).
+- Discuss modern storage strategies including cloud storage.
+- Describe security threats and attacks as well as various countermeasures to such attacks.
+- Describe virtual machines for virtualization and their benefits, building blocks and their life cycles.​
+
+## Related Programs
+
+- Applied Computer Science (Database Option)
+- Applied Computer Science (Games Development Option)
+- Applied Computer Science (Human Computer Interface Option)
+- Applied Computer Science (Network Security Administration Option)
+- Applied Computer Science (Network Security Applications Development Option)
+- Applied Computer Science (Wireless and Mobile Applications Development Option)
