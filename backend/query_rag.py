@@ -1,32 +1,33 @@
-import os
 import warnings
 import pickle
 
-os.environ['USE_TF'] = '0'
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 warnings.filterwarnings('ignore')
 
 from typing import List, Set
 
-from langchain_community.vectorstores import FAISS
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_postgres import PGVector
+from langchain_google_vertexai import ChatVertexAI
+from sqlalchemy import create_engine
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.documents import Document
 from langchain.memory import ConversationBufferWindowMemory
 
-from embeddings import BGEM3Embeddings
-from reranker import CrossEncoderReranker
+from embeddings import VertexGeminiEmbeddings
+from reranker import VertexRanker
 from hybrid_retriever import create_hybrid_retriever
 from config import (
-    VECTOR_STORE_DIR,
     DOCUMENTS_PICKLE,
-    EMBEDDING_MODEL_NAME,
-    EMBEDDING_DEVICE,
+    EMBEDDING_MODEL,
+    EMBEDDING_DIMENSIONS,
+    EMBEDDING_LOCATION,
+    PG_CONNECTION,
+    PG_COLLECTION,
+    HNSW_EF_SEARCH,
     GEMINI_MODEL,
-    GEMINI_API_KEY,
+    GEMINI_PROJECT,
+    GEMINI_LOCATION,
     GEMINI_TEMPERATURE,
     GEMINI_MAX_OUTPUT_TOKENS,
     USE_HYBRID_SEARCH,
@@ -40,6 +41,8 @@ from config import (
     QUERY_REWRITE_TEMPLATE,
     USE_RERANKING,
     RERANKER_MODEL,
+    RANKING_LOCATION,
+    RANKING_CONFIG,
     RERANKER_CANDIDATES,
     RERANKER_TOP_K
 )
@@ -64,36 +67,35 @@ class BCITChatbot:
 
     def _validate_requirements(self):
 
-        if not VECTOR_STORE_DIR.exists():
-            raise FileNotFoundError(f"Vectorstore not found: {VECTOR_STORE_DIR}")
-
         if USE_HYBRID_SEARCH and not DOCUMENTS_PICKLE.exists():
             raise FileNotFoundError(f"Documents pickle not found: {DOCUMENTS_PICKLE}")
-
-        if not GEMINI_API_KEY:
-            raise ValueError("GEMINI_API_KEY not set")
 
         print("Requirements validated\n")
 
     def _load_embeddings(self):
-        import logging
-        logging.getLogger('FlagEmbedding').setLevel(logging.ERROR)
-
-        self.embeddings = BGEM3Embeddings(
-            model_name=EMBEDDING_MODEL_NAME,
-            device=EMBEDDING_DEVICE,
-            use_fp16=True,
-            normalize_embeddings=True
+        self.embeddings = VertexGeminiEmbeddings(
+            model_name=EMBEDDING_MODEL,
+            project=GEMINI_PROJECT,
+            location=EMBEDDING_LOCATION,
+            dimensions=EMBEDDING_DIMENSIONS
         )
         print("Embeddings loaded\n")
 
     def _load_vectorstore(self):
-        self.vectorstore = FAISS.load_local(
-            str(VECTOR_STORE_DIR),
-            self.embeddings,
-            allow_dangerous_deserialization=True
+        engine = create_engine(
+            PG_CONNECTION,
+            pool_pre_ping=True,
+            connect_args={"options": f"-c hnsw.ef_search={HNSW_EF_SEARCH}"}
         )
-        print(f"Vectorstore loaded ({self.vectorstore.index.ntotal:,} vectors)\n")
+        self.vectorstore = PGVector(
+            embeddings=self.embeddings,
+            collection_name=PG_COLLECTION,
+            connection=engine,
+            use_jsonb=True,
+            embedding_length=EMBEDDING_DIMENSIONS,
+            create_extension=False
+        )
+        print(f"Vectorstore connected (collection: {PG_COLLECTION})\n")
 
     def _load_documents(self):
         if USE_HYBRID_SEARCH:
@@ -104,11 +106,12 @@ class BCITChatbot:
             self.documents = None
 
     def _initialize_llm(self):
-        self.llm = ChatGoogleGenerativeAI(
+        self.llm = ChatVertexAI(
             model=GEMINI_MODEL,
-            google_api_key=GEMINI_API_KEY,
+            project=GEMINI_PROJECT,
+            location=GEMINI_LOCATION,
             temperature=GEMINI_TEMPERATURE,
-            max_output_tokens=GEMINI_MAX_OUTPUT_TOKENS
+            max_output_tokens=GEMINI_MAX_OUTPUT_TOKENS,
         )
         print("LLM initialized\n")
 
@@ -122,9 +125,11 @@ class BCITChatbot:
 
     def _initialize_reranker(self):
         if USE_RERANKING:
-            self.reranker = CrossEncoderReranker(
-                model_name=RERANKER_MODEL,
-                device=EMBEDDING_DEVICE
+            self.reranker = VertexRanker(
+                project=GEMINI_PROJECT,
+                model=RERANKER_MODEL,
+                location=RANKING_LOCATION,
+                ranking_config=RANKING_CONFIG
             )
             print("Reranker initialized")
         else:
@@ -331,9 +336,10 @@ def main():
         chatbot.chat()
     except Exception as e:
         print(f"Failed to initialize: {e}")
-        print("1. Run: python build_vectorstore.py")
-        print("2. Check GEMINI_API_KEY in .env")
-        print("3. Check: pip install -r requirements.txt")
+        print("1. Run: python build_pgvector.py")
+        print("2. Check ADC: gcloud auth application-default login (or VM service account)")
+        print("3. Check PG_CONNECTION in .env and that the Cloud SQL Auth Proxy is running")
+        print("4. Check: pip install -r requirements.txt")
 
 
 if __name__ == "__main__":

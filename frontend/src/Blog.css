@@ -1,0 +1,250 @@
+.blog-page {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background: #fafafa;
+  color: #1f2937;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-y: auto;
+}
+
+/* Top nav */
+.blog-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.5rem;
+  background: #003c71;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+
+.blog-nav-brand {
+  color: white;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.blog-nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: white;
+  color: #003c71;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.blog-nav-cta:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  transform: translateY(-1px);
+}
+
+/* Hero */
+.blog-hero {
+  background: linear-gradient(160deg, #003c71 0%, #00284d 100%);
+  color: white;
+  padding: 4rem 1.5rem 4.5rem;
+  text-align: center;
+}
+
+.blog-kicker {
+  margin: 0 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #8db8e0;
+}
+
+.blog-hero h1 {
+  margin: 0 auto;
+  max-width: 740px;
+  font-size: clamp(1.8rem, 4.5vw, 2.7rem);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.blog-subtitle {
+  margin: 1.2rem auto 2rem;
+  max-width: 640px;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.85);
+}
+
+.blog-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  color: #003c71;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.blog-hero-cta:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+}
+
+/* Article body */
+.blog-article {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.blog-article section {
+  margin-bottom: 2.8rem;
+}
+
+.blog-article h2 {
+  font-size: 1.45rem;
+  color: #003c71;
+  margin: 0 0 0.9rem;
+}
+
+.blog-article p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0 0 1rem;
+  color: #374151;
+}
+
+.blog-article code {
+  background: #eef2f7;
+  color: #00305a;
+  padding: 0.12rem 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 0.88em;
+  font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace;
+}
+
+.blog-article strong {
+  color: #111827;
+}
+
+/* Architecture diagram */
+.arch-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.arch-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #003c71;
+  border-radius: 0.6rem;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.arch-step strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #003c71;
+}
+
+.arch-step p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #4b5563;
+}
+
+.arch-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.6rem;
+  background: #eef4fa;
+  color: #003c71;
+}
+
+/* Infra card */
+.infra-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.6rem;
+  padding: 1.2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.infra-card p {
+  margin: 0;
+}
+
+.infra-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.6rem;
+  background: #eef4fa;
+  color: #003c71;
+}
+
+/* Bottom CTA */
+.blog-cta-section {
+  text-align: center;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.8rem;
+  padding: 2.2rem 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.blog-cta-section p {
+  max-width: 480px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Footer */
+.blog-footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.blog-footer p {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #9ca3af;
+}
+
+@media (max-width: 600px) {
+  .blog-hero {
+    padding: 3rem 1.25rem 3.5rem;
+  }
+
+  .blog-nav-cta span {
+    display: none;
+  }
+
+  .blog-nav-cta {
+    padding: 0.5rem 0.65rem;
+  }
+}

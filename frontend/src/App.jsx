@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import { Send } from "lucide-react";
+import { Send, ArrowLeft } from "lucide-react";
+import Blog from "./Blog";
 import "./App.css";
 
 // Simple markdown-like formatting
@@ -86,6 +87,14 @@ function formatInline(text) {
 }
 
 export default function App() {
+  const path = window.location.pathname;
+  if (path === "/chat" || path.startsWith("/chat/")) {
+    return <Chat />;
+  }
+  return <Blog />;
+}
+
+function Chat() {
   const [messages, setMessages] = useState([
     {
       id: "1",
@@ -98,9 +107,6 @@ export default function App() {
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [sessionId, setSessionId] = useState(null);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [password, setPassword] = useState("");
-  const [authError, setAuthError] = useState("");
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
@@ -108,31 +114,6 @@ export default function App() {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [messages]);
-
-  async function handleLogin(e) {
-    e.preventDefault();
-    setAuthError("");
-
-    try {
-      const res = await fetch("/auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password })
-      });
-
-      const data = await res.json();
-
-      if (data.success) {
-        setSessionId(data.session_id);
-        setIsAuthenticated(true);
-        setPassword("");
-      } else {
-        setAuthError("Incorrect password");
-      }
-    } catch (err) {
-      setAuthError("Connection error. Is the server running?");
-    }
-  }
 
   async function handleSend() {
     if (!input.trim()) return;
@@ -194,43 +175,17 @@ export default function App() {
     }
   }
 
-  if (!isAuthenticated) {
-    return (
-      <main id="chat-container">
-        <header className="chat-header">
-          <h1>BCIT AI Advisor</h1>
-          <p>Ask me about anything in BCIT</p>
-        </header>
-
-        <div className="login-container">
-          <div className="login-box">
-            <h2>Login Required</h2>
-            <p>Enter password to access the chatbot</p>
-            <form onSubmit={handleLogin}>
-              <input
-                type="password"
-                className="login-input"
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-                placeholder="Enter password"
-                autoFocus
-              />
-              <button type="submit" className="login-button">
-                Enter
-              </button>
-            </form>
-            {authError && <p className="login-error">{authError}</p>}
-          </div>
-        </div>
-      </main>
-    );
-  }
-
   return (
     <main id="chat-container">
       <header className="chat-header">
-        <h1>BCIT AI Advisor</h1>
-        <p>Ask me about anything in BCIT</p>
+        <div>
+          <h1>BCIT AI Advisor</h1>
+          <p>Ask me about anything in BCIT</p>
+        </div>
+        <a href="/" className="chat-home-link">
+          <ArrowLeft size={16} />
+          <span>About this project</span>
+        </a>
       </header>
 
       <div className="chat-messages">

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+.env
+backend/.env
+
+# Built vector store artifacts (large, regenerable)
+backend/vectorstore/
+
+# Node
+frontend/node_modules/
+
+# Build output (regenerate with `npm run build`; deployed via scp, not git)
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+.gstack/

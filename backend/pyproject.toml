@@ -1,0 +1,25 @@
+[project]
+name = "bcit-rag-chatbot"
+version = "5.0.0"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn[standard]==0.32.1",
+    "python-multipart==0.0.12",
+    "python-dotenv==1.1.1",
+    "langchain==0.3.27",
+    "langchain-community==0.3.31",
+    "langchain-core==0.3.78",
+    "langchain-google-vertexai==2.1.2",
+    "google-cloud-discoveryengine==0.20.0",
+    "langchain-postgres==0.0.17",
+    "psycopg[binary]>=3.2,<4",
+    "rank-bm25==0.2.2",
+    "numpy==1.26.4",
+    "tqdm==4.67.1",
+    "pydantic==2.11.9",
+    "pydantic-settings==2.11.0",
+]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"

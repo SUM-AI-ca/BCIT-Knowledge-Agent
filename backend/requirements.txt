@@ -10,25 +10,22 @@ python-dotenv==1.1.1
 langchain==0.3.27
 langchain-community==0.3.31
 langchain-core==0.3.78
-langchain-google-genai==2.0.10
 
-# Vector Store
-faiss-gpu==1.7.2
+# Google Cloud (Vertex AI / Gemini Enterprise Agent Platform, ADC auth)
+langchain-google-vertexai==2.1.2
+google-cloud-discoveryengine==0.20.0
 
-# Embeddings & Reranking
-FlagEmbedding==1.3.5
-sentence-transformers==5.1.2
+# Vector Store (Cloud SQL PostgreSQL + pgvector)
+langchain-postgres==0.0.17
+psycopg[binary]>=3.2,<4
 
 # BM25 Retrieval
 rank-bm25==0.2.2
 
-# Core ML
-torch==2.5.1
+# Core
 numpy==1.26.4
 
 # Utilities
 tqdm==4.67.1
 pydantic==2.11.9
 pydantic-settings==2.11.0
-transformers==4.51.3
-peft==0.17.1

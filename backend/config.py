@@ -6,14 +6,23 @@ load_dotenv()
 
 # Paths
 DATA_DIR = Path("./data")
-VECTOR_STORE_DIR = Path("./vectorstore")
 DOCUMENTS_PICKLE = Path("./vectorstore/documents.pkl")
 
-EMBEDDING_MODEL_NAME = "BAAI/bge-m3"
-EMBEDDING_DEVICE = "cuda"  # or cpu
+# Embeddings (Vertex AI / Gemini Enterprise Agent Platform, ADC auth)
+EMBEDDING_MODEL = "gemini-embedding-001"
+EMBEDDING_DIMENSIONS = 1536  # MRL truncation; pgvector HNSW supports <= 2000 dims
+EMBEDDING_LOCATION = "us-central1"  # embeddings are regional, chat uses global
 
-GEMINI_MODEL = "gemini-2.5-flash"
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+# Vector store (Cloud SQL PostgreSQL + pgvector, via Cloud SQL Auth Proxy)
+PG_CONNECTION = os.getenv(
+    "PG_CONNECTION",
+    "postgresql+psycopg://raguser:raguser@127.0.0.1:5432/ragdb"
+)
+PG_COLLECTION = "bcit_docs"
+
+GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_PROJECT = "wine-agent-jh-2026"
+GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
 GEMINI_MAX_OUTPUT_TOKENS = 7700
 
@@ -30,9 +39,12 @@ RETRIEVAL_BM25_K = 23
 
 RETRIEVAL_FETCH_K = 50
 MMR_LAMBDA = 0.87
+HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
 
 USE_RERANKING = True
-RERANKER_MODEL = "BAAI/bge-reranker-large"
+RERANKER_MODEL = "semantic-ranker-default-004"  # Vertex AI Ranking API
+RANKING_LOCATION = "global"
+RANKING_CONFIG = "default_ranking_config"
 RERANKER_CANDIDATES = 25
 RERANKER_TOP_K = 13
 

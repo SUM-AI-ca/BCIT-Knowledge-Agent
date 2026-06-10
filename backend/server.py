@@ -21,15 +21,6 @@ from concurrent.futures import ThreadPoolExecutor
 from query_rag import BCITChatbot
 from langchain.memory import ConversationBufferWindowMemory
 
-class AuthRequest(BaseModel):
-    password: str
-
-
-class AuthResponse(BaseModel):
-    success: bool
-    session_id: Optional[str] = None
-
-
 class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
@@ -42,10 +33,8 @@ class ChatResponse(BaseModel):
 
 chatbot: Optional[BCITChatbot] = None
 sessions: Dict[str, dict] = {}
-authenticated_sessions: Dict[str, datetime] = {}
 executor = ThreadPoolExecutor(max_workers=2)
 
-AUTH_PASSWORD = os.getenv("AUTH_PASSWORD", "bcit2025")
 SESSION_TIMEOUT_MINUTES = 30
 
 
@@ -80,26 +69,15 @@ def cleanup_expired_sessions():
         if now - data["last_access"] > timeout
     ]
     
-    expired_auth = [
-        sid for sid, last_access in authenticated_sessions.items()
-        if now - last_access > timeout
-    ]
-    
     for sid in expired_sessions:
         del sessions[sid]
-    
-    for sid in expired_auth:
-        del authenticated_sessions[sid]
-    
-    total_expired = len(set(expired_sessions) | set(expired_auth))
-    
-    return total_expired
+
+    return len(expired_sessions)
 
 
 def get_session_stats():
     return {
         "active_sessions": len(sessions),
-        "authenticated_sessions": len(authenticated_sessions),
         "timeout_minutes": SESSION_TIMEOUT_MINUTES
     }
 
@@ -162,7 +140,6 @@ async def lifespan(app: FastAPI):
     print("\nShutting down")
     executor.shutdown(wait=True)
     sessions.clear()
-    authenticated_sessions.clear()
 
 
 app = FastAPI(
@@ -174,23 +151,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173", "https://bcitai.ca", "https://www.bcitai.ca"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-@app.post("/auth", response_model=AuthResponse)
-async def authenticate(request: AuthRequest):
-    if request.password == AUTH_PASSWORD:
-        session_id = str(uuid.uuid4())
-        authenticated_sessions[session_id] = datetime.now()
-        print(f"[Auth] New authenticated session: {session_id[:8]}...")
-        return AuthResponse(success=True, session_id=session_id)
-    else:
-        print("[Auth] Failed login attempt")
-        return AuthResponse(success=False)
-
 
 @app.get("/health")
 async def health_check():
@@ -205,19 +170,7 @@ async def health_check():
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
     global chatbot
-    
-    if not request.session_id or request.session_id not in authenticated_sessions:
-        raise HTTPException(status_code=401, detail="Unauthorized. Please login first.")
-    
-    now = datetime.now()
-    last_access = authenticated_sessions.get(request.session_id)
-    if last_access and now - last_access > timedelta(minutes=SESSION_TIMEOUT_MINUTES):
-        authenticated_sessions.pop(request.session_id, None)
-        sessions.pop(request.session_id, None)
-        raise HTTPException(status_code=401, detail="Session expired. Please login again.")
-    
-    authenticated_sessions[request.session_id] = now
-    
+
     if chatbot is None:
         raise HTTPException(status_code=503, detail="Chatbot not initialized")
     
@@ -275,5 +228,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=8000,
         reload=True,
-        workers=1  # Single worker for GPU model
+        workers=1
     )

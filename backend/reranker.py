@@ -1,17 +1,26 @@
 from typing import List
+
 from langchain_core.documents import Document
-from sentence_transformers import CrossEncoder
+from google.cloud import discoveryengine_v1 as discoveryengine
 
 
-class CrossEncoderReranker:
+class VertexRanker:
 
     def __init__(
             self,
-            model_name: str = "BAAI/bge-reranker-base",
-            device: str = "cuda"
+            project: str,
+            model: str = "semantic-ranker-default-004",
+            location: str = "global",
+            ranking_config: str = "default_ranking_config",
     ):
-        self.model = CrossEncoder(model_name, device=device)
-        print(f"Reranker loaded: {model_name}")
+        self.model = model
+        self.client = discoveryengine.RankServiceClient()
+        self.ranking_config = self.client.ranking_config_path(
+            project=project,
+            location=location,
+            ranking_config=ranking_config,
+        )
+        print(f"Reranker loaded: {model}")
 
     def rerank(
             self,
@@ -23,17 +32,33 @@ class CrossEncoderReranker:
         if not documents:
             return []
 
-        pairs = [[query, doc.page_content[:1024]] for doc in documents]
+        records = [
+            discoveryengine.RankingRecord(
+                id=str(i),
+                content=doc.page_content[:1024]
+            )
+            for i, doc in enumerate(documents)
+        ]
 
-        scores = self.model.predict(pairs)
-
-        doc_score_pairs = list(zip(documents, scores))
-
-        doc_score_pairs.sort(key=lambda x: x[1], reverse=True)
+        try:
+            response = self.client.rank(
+                request=discoveryengine.RankRequest(
+                    ranking_config=self.ranking_config,
+                    model=self.model,
+                    top_n=top_k,
+                    query=query,
+                    records=records,
+                )
+            )
+        except Exception as e:
+            # degrade to retrieval order instead of failing the request
+            print(f"Ranking API error, using retrieval order: {e}")
+            return documents[:top_k]
 
         reranked_docs = []
-        for doc, score in doc_score_pairs[:top_k]:
-            doc.metadata["rerank_score"] = float(score)
+        for record in response.records:
+            doc = documents[int(record.id)]
+            doc.metadata["rerank_score"] = float(record.score)
             reranked_docs.append(doc)
 
         return reranked_docs
