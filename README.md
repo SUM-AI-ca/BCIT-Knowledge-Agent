@@ -323,6 +323,11 @@ Ideas that fit the current architecture, with their natural hook points:
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
+- **Request timeout in the chat executor** — `/chat` has no deadline: a
+  Vertex call that wedges (observed once locally — a gRPC call sat ~8 min
+  before completing) parks one of the two worker threads the whole time.
+  Two wedged requests would freeze the service. Hook: `asyncio.wait_for`
+  around `query_chatbot_async` + a 504 response.
 - **Streaming responses** — `ChatVertexAI` supports streaming; `/chat` returns
   a single JSON blob today. Needs SSE endpoint + frontend incremental render.
 - **Citations UI** — answers already end with a `Sources` section (prompt-enforced);
