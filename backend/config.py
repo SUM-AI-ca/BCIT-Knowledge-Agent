@@ -4,6 +4,38 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+# Tunables are env-overridable so eval runs and prod rollbacks can flip
+# behavior without code changes (config is read once at import time).
+def _env_str(name, default):
+    return os.getenv(name, default)
+
+
+def _env_int(name, default):
+    raw = os.getenv(name)
+    return int(raw) if raw not in (None, "") else default
+
+
+def _env_float(name, default):
+    raw = os.getenv(name)
+    return float(raw) if raw not in (None, "") else default
+
+
+def _env_bool(name, default):
+    raw = os.getenv(name)
+    if raw in (None, ""):
+        return default
+    return raw.strip().lower() in ("1", "true", "yes", "on")
+
+
+def _env_opt_int(name, default):
+    raw = os.getenv(name)
+    if raw in (None, ""):
+        return default
+    if raw.strip().lower() in ("none", "null"):
+        return None
+    return int(raw)
+
 # Paths (env-overridable so a fresh corpus can be indexed side by side)
 DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
 DOCUMENTS_PICKLE = Path(os.getenv("DOCUMENTS_PICKLE", "./vectorstore/documents.pkl"))
@@ -26,12 +58,21 @@ GEMINI_MODEL = "gemini-3.5-flash"
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
-GEMINI_MAX_OUTPUT_TOKENS = 7700
+GEMINI_MAX_OUTPUT_TOKENS = _env_int("GEMINI_MAX_OUTPUT_TOKENS", 7700)
+
+# Single source of truth for conversation window (was k=5 in server.py and
+# k=3 in query_rag.py, neither actually applied due to the window bug).
+MEMORY_WINDOW_K = _env_int("MEMORY_WINDOW_K", 5)
+
+# Per-million-token prices for the generation model, used only for the
+# estimated-cost field in logs/eval. 0 disables the estimate.
+PRICE_INPUT_PER_M = _env_float("PRICE_INPUT_PER_M", 0.0)
+PRICE_OUTPUT_PER_M = _env_float("PRICE_OUTPUT_PER_M", 0.0)
 
 CHUNK_SIZE = 1024
 CHUNK_OVERLAP = 130
 
-USE_HYBRID_SEARCH = True
+USE_HYBRID_SEARCH = _env_bool("USE_HYBRID_SEARCH", True)
 
 HYBRID_ALPHA = 0.48
 
@@ -43,12 +84,12 @@ RETRIEVAL_FETCH_K = 50
 MMR_LAMBDA = 0.87
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
 
-USE_RERANKING = True
+USE_RERANKING = _env_bool("USE_RERANKING", True)
 RERANKER_MODEL = "semantic-ranker-default-004"  # Vertex AI Ranking API
 RANKING_LOCATION = "global"
 RANKING_CONFIG = "default_ranking_config"
-RERANKER_CANDIDATES = 25
-RERANKER_TOP_K = 13
+RERANKER_CANDIDATES = _env_int("RERANKER_CANDIDATES", 25)
+RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 13)
 
 RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
 

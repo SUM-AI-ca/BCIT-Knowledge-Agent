@@ -3,6 +3,14 @@ from typing import List
 from langchain_core.documents import Document
 from google.cloud import discoveryengine_v1 as discoveryengine
 
+try:
+    from langsmith import traceable
+except ImportError:
+    def traceable(*args, **kwargs):
+        def decorator(fn):
+            return fn
+        return decorator
+
 
 class VertexRanker:
 
@@ -22,6 +30,7 @@ class VertexRanker:
         )
         print(f"Reranker loaded: {model}")
 
+    @traceable(run_type="retriever", name="vertex_rerank")
     def rerank(
             self,
             query: str,

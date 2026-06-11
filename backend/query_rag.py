@@ -3,16 +3,25 @@ import pickle
 
 warnings.filterwarnings('ignore')
 
-from typing import List, Set
+import json
+import logging
+import time
+from typing import List, Optional, Set
 
 from langchain_postgres import PGVector
 from langchain_google_vertexai import ChatVertexAI
 from sqlalchemy import create_engine
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
 from langchain_core.documents import Document
 from langchain.memory import ConversationBufferWindowMemory
+
+try:
+    from langsmith import traceable
+except ImportError:
+    def traceable(*args, **kwargs):
+        def decorator(fn):
+            return fn
+        return decorator
 
 from embeddings import VertexGeminiEmbeddings
 from reranker import VertexRanker
@@ -44,8 +53,30 @@ from config import (
     RANKING_LOCATION,
     RANKING_CONFIG,
     RERANKER_CANDIDATES,
-    RERANKER_TOP_K
+    RERANKER_TOP_K,
+    MEMORY_WINDOW_K,
+    PRICE_INPUT_PER_M,
+    PRICE_OUTPUT_PER_M,
 )
+
+logger = logging.getLogger("bcit.rag")
+
+EASTER_EGGS = {
+    "WHO IS THE BEST INSTRUCTOR AT BCIT": "Chi En Huang",
+    "WHO IS THE BEST INSTRUCTOR AT BCIT?": "Chi En Huang"
+}
+
+
+def _message_text(msg) -> str:
+    content = msg.content
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        return "".join(
+            part if isinstance(part, str) else part.get("text", "")
+            for part in content
+        )
+    return str(content)
 
 
 class BCITChatbot:
@@ -61,7 +92,7 @@ class BCITChatbot:
         self._initialize_memory()
         self._initialize_reranker()
         self._setup_retriever()
-        self._create_chain()
+        self._create_prompts()
 
         print("\nCommands: 'quit', 'exit', 'q' to exit\n")
 
@@ -117,7 +148,7 @@ class BCITChatbot:
 
     def _initialize_memory(self):
         self.memory = ConversationBufferWindowMemory(
-            k=3,
+            k=MEMORY_WINDOW_K,
             memory_key="chat_history",
             return_messages=True
         )
@@ -169,8 +200,14 @@ class BCITChatbot:
                 }
             )
 
-    def _format_chat_history(self) -> str:
-        messages = self.memory.chat_memory.messages
+    def _create_prompts(self):
+        self.prompt = ChatPromptTemplate.from_template(RAG_PROMPT_TEMPLATE)
+        self.rewrite_prompt = ChatPromptTemplate.from_template(QUERY_REWRITE_TEMPLATE)
+
+    def _format_chat_history(self, memory: ConversationBufferWindowMemory) -> str:
+        # buffer_as_messages applies the k-window; chat_memory.messages is the
+        # raw unbounded list and must not be used here.
+        messages = memory.buffer_as_messages
         if not messages:
             return "No previous conversation."
 
@@ -180,58 +217,26 @@ class BCITChatbot:
             formatted.append(f"{role}: {msg.content}")
         return "\n".join(formatted)
 
-    def _rewrite_query(self, question: str) -> str:
-        chat_history = self._format_chat_history()
-
+    def _rewrite_query(self, question: str, chat_history: str) -> tuple:
         if chat_history == "No previous conversation.":
-            return question
-
-        rewrite_prompt = ChatPromptTemplate.from_template(QUERY_REWRITE_TEMPLATE)
-        rewrite_chain = rewrite_prompt | self.llm | StrOutputParser()
+            return question, {}
 
         try:
-            rewritten = rewrite_chain.invoke({
+            prompt_value = self.rewrite_prompt.invoke({
                 "chat_history": chat_history,
                 "question": question
             })
+            msg = self.llm.invoke(prompt_value)
+            rewritten = _message_text(msg).strip()
+            if not rewritten:
+                return question, {}
 
-            if rewritten.strip() != question.strip():
-                print(f"\n[Query Rewritten]")
-                print(f"Original: {question}")
-                print(f"Rewritten: {rewritten}")
+            if rewritten != question.strip():
+                logger.info("query rewritten: %r -> %r", question, rewritten)
 
-            return rewritten.strip()
-        except:
-            return question
-
-    def _retrieve_with_rewrite(self, question: str) -> List[Document]:
-        standalone_question = self._rewrite_query(question)
-
-        docs = self.base_retriever.invoke(standalone_question)
-
-        if USE_RERANKING and self.reranker:
-            docs = self.reranker.rerank(
-                query=standalone_question,
-                documents=docs,
-                top_k=RERANKER_TOP_K
-            )
-        return docs
-
-    def _create_chain(self):
-        prompt = ChatPromptTemplate.from_template(RAG_PROMPT_TEMPLATE)
-
-        self.chain = (
-                {
-                    "context": lambda x: self._format_docs_full(
-                        self._retrieve_with_rewrite(x)
-                    ),
-                    "question": RunnablePassthrough(),
-                    "chat_history": lambda x: self._format_chat_history()
-                }
-                | prompt
-                | self.llm
-                | StrOutputParser()
-        )
+            return rewritten, dict(msg.usage_metadata or {})
+        except Exception:
+            return question, {}
 
     def _load_full_document(self, source_path):
         try:
@@ -251,10 +256,8 @@ class BCITChatbot:
                 if source not in source_to_metadata:
                     source_to_metadata[source] = doc.metadata
 
-        print("\nRETRIEVED DOCUMENTS:")
-
-
         formatted = []
+        filenames = []
         for i, source_path in enumerate(sorted(unique_sources), 1):
             metadata = source_to_metadata.get(source_path, {})
             full_content = self._load_full_document(source_path)
@@ -263,7 +266,7 @@ class BCITChatbot:
                 continue
 
             filename = metadata.get('filename', 'N/A')
-            print(f"{i}. {filename}")
+            filenames.append(filename)
 
             source_info = ""
             if metadata.get("url"):
@@ -278,29 +281,117 @@ class BCITChatbot:
                 f"{full_content}"
             )
 
-        print("-" * 80 + "\n")
+        logger.debug("full-doc context sources: %s", ", ".join(filenames))
 
         return "\n\n" + "-" * 60 + "\n\n".join(formatted)
 
-    def query(self, question: str) -> str:
-        easter_eggs = {
-        "WHO IS THE BEST INSTRUCTOR AT BCIT": "Chi En Huang",
-        "WHO IS THE BEST INSTRUCTOR AT BCIT?": "Chi En Huang"
-        }
+    @traceable(name="bcit_query")
+    def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
+        if memory is None:
+            memory = self.memory
 
         normalized = question.strip().upper()
-        if normalized in easter_eggs:
-            answer = easter_eggs[normalized]
-            self.memory.chat_memory.add_user_message(question)
-            self.memory.chat_memory.add_ai_message(answer)
-            return answer
+        if normalized in EASTER_EGGS:
+            answer = EASTER_EGGS[normalized]
+            memory.chat_memory.add_user_message(question)
+            memory.chat_memory.add_ai_message(answer)
+            return {
+                "answer": answer,
+                "docs": [],
+                "standalone_question": question,
+                "finish_reason": "",
+                "usage": {},
+                "est_cost_usd": None,
+                "timings": {},
+                "n_context_docs": 0,
+            }
 
-        answer = self.chain.invoke(question)
+        t_start = time.perf_counter()
+        chat_history = self._format_chat_history(memory)
 
-        self.memory.chat_memory.add_user_message(question)
-        self.memory.chat_memory.add_ai_message(answer)
+        t0 = time.perf_counter()
+        standalone_question, rewrite_usage = self._rewrite_query(question, chat_history)
+        t_rewrite = time.perf_counter() - t0
 
-        return answer
+        t0 = time.perf_counter()
+        docs = self.base_retriever.invoke(standalone_question)
+        t_retrieve = time.perf_counter() - t0
+
+        t0 = time.perf_counter()
+        if USE_RERANKING and self.reranker:
+            docs = self.reranker.rerank(
+                query=standalone_question,
+                documents=docs,
+                top_k=RERANKER_TOP_K
+            )
+        t_rerank = time.perf_counter() - t0
+
+        context = self._format_docs_full(docs)
+
+        t0 = time.perf_counter()
+        prompt_value = self.prompt.invoke({
+            "context": context,
+            "question": question,
+            "chat_history": chat_history
+        })
+        msg = self.llm.invoke(prompt_value)
+        t_generate = time.perf_counter() - t0
+
+        answer = _message_text(msg)
+        usage = dict(msg.usage_metadata or {})
+        finish_reason = str((msg.response_metadata or {}).get("finish_reason", ""))
+        if finish_reason == "MAX_TOKENS":
+            logger.warning("answer truncated (finish_reason=MAX_TOKENS) — Sources section likely lost")
+
+        memory.chat_memory.add_user_message(question)
+        memory.chat_memory.add_ai_message(answer)
+
+        input_tokens = usage.get("input_tokens", 0)
+        output_tokens = usage.get("output_tokens", 0)
+        details_in = usage.get("input_token_details") or {}
+        details_out = usage.get("output_token_details") or {}
+        rw_in = rewrite_usage.get("input_tokens", 0)
+        rw_out = rewrite_usage.get("output_tokens", 0)
+
+        est_cost = None
+        if PRICE_INPUT_PER_M > 0 or PRICE_OUTPUT_PER_M > 0:
+            est_cost = round(
+                (input_tokens + rw_in) / 1e6 * PRICE_INPUT_PER_M
+                + (output_tokens + rw_out) / 1e6 * PRICE_OUTPUT_PER_M,
+                6
+            )
+
+        meta = {
+            "answer": answer,
+            "docs": docs,
+            "standalone_question": standalone_question,
+            "finish_reason": finish_reason,
+            "usage": {
+                "input_tokens": input_tokens,
+                "output_tokens": output_tokens,
+                "reasoning_tokens": details_out.get("reasoning", 0),
+                "cache_read_tokens": details_in.get("cache_read", 0),
+                "rewrite_input_tokens": rw_in,
+                "rewrite_output_tokens": rw_out,
+            },
+            "est_cost_usd": est_cost,
+            "timings": {
+                "rewrite_s": round(t_rewrite, 3),
+                "retrieve_s": round(t_retrieve, 3),
+                "rerank_s": round(t_rerank, 3),
+                "generate_s": round(t_generate, 3),
+                "total_s": round(time.perf_counter() - t_start, 3),
+            },
+            "n_context_docs": len(docs),
+        }
+
+        log_entry = {k: v for k, v in meta.items() if k not in ("answer", "docs")}
+        logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
+
+        return meta
+
+    def query(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> str:
+        return self.query_with_meta(question, memory=memory)["answer"]
 
     def chat(self):
         while True:

@@ -1,4 +1,5 @@
 import os
+import logging
 import warnings
 import uuid
 from typing import Dict, Optional
@@ -10,6 +11,12 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 warnings.filterwarnings('ignore')
 
+logging.basicConfig(
+    level=os.getenv("LOG_LEVEL", "INFO"),
+    format="%(asctime)s %(levelname)s %(name)s %(message)s"
+)
+logger = logging.getLogger("bcit.server")
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -19,6 +26,7 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 from query_rag import BCITChatbot
+from config import MEMORY_WINDOW_K
 from langchain.memory import ConversationBufferWindowMemory
 
 class ChatRequest(BaseModel):
@@ -47,13 +55,13 @@ def get_or_create_session(session_id: Optional[str]) -> tuple[str, ConversationB
     if session_id not in sessions:
         sessions[session_id] = {
             "memory": ConversationBufferWindowMemory(
-                k=5,
+                k=MEMORY_WINDOW_K,
                 memory_key="chat_history",
                 return_messages=True
             ),
             "last_access": now
         }
-        print(f"[Session] Created new session: {session_id[:8]}...")
+        logger.info("[Session] Created new session: %s...", session_id[:8])
     else:
         sessions[session_id]["last_access"] = now
     
@@ -83,18 +91,9 @@ def get_session_stats():
 
 
 def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> str:
-    global chatbot
-    
-    # Swap memory
-    original_memory = chatbot.memory
-    chatbot.memory = memory
-    
-    try:
-        answer = chatbot.query(question)
-        return answer
-    finally:
-        # Restore original memory (though we don't really use it)
-        chatbot.memory = original_memory
+    # Memory is passed per request — never swap chatbot.memory globally,
+    # concurrent requests would leak history across sessions.
+    return chatbot.query(question, memory=memory)
 
 
 async def query_chatbot_async(question: str, memory: ConversationBufferWindowMemory) -> str:
@@ -181,17 +180,17 @@ async def chat(request: ChatRequest):
     session_id, memory = get_or_create_session(request.session_id)
     
     try:
-        print(f"\n[Query] Session {session_id[:8]}...: {request.message[:50]}...")
-        
+        logger.info("[Query] Session %s...: %s", session_id[:8], request.message[:80])
+
         # Query chatbot (async to avoid blocking)
         reply = await query_chatbot_async(request.message, memory)
-        
-        print(f"[Reply] {reply[:100]}...")
-        
+
+        logger.debug("[Reply] %s...", reply[:100])
+
         return ChatResponse(reply=reply, session_id=session_id)
-    
+
     except Exception as e:
-        print(f"[Error] {e}")
+        logger.exception("[Error] chat request failed")
         raise HTTPException(status_code=500, detail=str(e))
 
 
