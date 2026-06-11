@@ -27,35 +27,83 @@ Credentials end to end). Every query is traced in LangSmith.
 
 ## How a query flows
 
-1. **Rewrite** — follow-up questions are rewritten into standalone queries using
-   the conversation history (`QUERY_REWRITE_TEMPLATE` in `config.py`).
-2. **Embed** — the query is embedded with Vertex AI `gemini-embedding-001`
+1. **Rewrite + decompose** — one schema-constrained JSON call per turn
+   (`REWRITE_DECOMPOSE_TEMPLATE`, temperature 0, thinking 0, ~430 tokens)
+   returns a standalone question (pronouns resolved from history) plus 1–4
+   self-contained sub-queries. Single questions yield one sub-query;
+   "admission requirements AND tuition AND housing" yields three. Parse
+   failure falls back to the raw question (counted in `query_usage` logs).
+2. **Embed** — each query is embedded with Vertex AI `gemini-embedding-001`
    (1536 dimensions).
-3. **Hybrid retrieval** — two retrievers run in parallel:
-   - *Dense*: pgvector HNSW search in Cloud SQL (MMR, `fetch_k=50`,
-     `ef_search=100`).
-   - *Sparse*: in-process BM25 over the same chunks (exact identifiers like
-     "COMP 1510" that embeddings miss).
-
-   Results merge via **Reciprocal Rank Fusion**: each document scores
-   `1 / (60 + rank)` per list, weighted by `HYBRID_ALPHA=0.48` between
-   retrievers. RRF compares ranks, not raw scores, so incompatible similarity
-   scales never need normalizing.
-4. **Rerank** — the candidate pool (13 chunks) goes to the Vertex AI Ranking
-   API (`semantic-ranker-default-004`), a managed cross-encoder that re-scores
-   each candidate against the query and keeps the top 10.
-5. **Generate** — `gemini-3.5-flash` answers with the reranked chunks as
-   grounding context, citing source URLs.
+3. **Hybrid retrieval** — dense (pgvector HNSW, MMR, `fetch_k=50`,
+   `ef_search=100`) and sparse (in-process BM25 — exact identifiers like
+   "COMP 1510" that embeddings miss) merge via **Reciprocal Rank Fusion**:
+   `1 / (60 + rank)` per list, weighted by `HYBRID_ALPHA=0.48`. RRF compares
+   ranks, not raw scores, so incompatible similarity scales never need
+   normalizing.
+   - *Single-topic turns* retrieve once at full width (23+23 → RRF top 25).
+   - *Multipart turns* fan out per sub-query (12+12 → top 15 each) on a
+     shared thread pool, then rank-interleave into one deduped pool
+     (cap 40). Retrieval returns metadata copies — BM25 documents alias the
+     shared corpus pickle, and annotating them in place would corrupt it.
+4. **Rerank** — ONE Vertex AI Ranking API call per turn regardless of
+   sub-query count (the API bills per query): the pooled candidates are
+   scored against the standalone question (`semantic-ranker-default-004`),
+   the top `RERANKER_TOP_K=10` are kept, and a coverage quota guarantees
+   every sub-query keeps ≥ 2 of its own chunks (its best leftovers swap in,
+   evicting only above-quota docs).
+5. **Assemble context from chunks** — the selected chunks themselves go into
+   the prompt (not their whole source files, which is what the pre-June-2026
+   pipeline did at ~44k input tokens/query). Each chunk pulls in ±2
+   neighbors from an in-process ordinal index built off the BM25 pickle at
+   startup, consecutive runs merge with their 130-char overlaps deduped, and
+   the result is capped at 24k chars (neighbor expansion drops from the
+   lowest-ranked sources first). Citation headers
+   (`Document N: [URL: …]`) are identical to the legacy format — the
+   Sources-section prompt instructions depend on them.
+6. **Generate** — `gemini-3.5-flash`, static instructions first / variable
+   inputs last (implicit-cache-friendly), `{question_parts}` enumerating
+   multipart sub-questions, `max_output_tokens=2048` with
+   `thinking_budget=0` (see gotchas — thinking counts against the cap).
 
 Conversation state: each browser session holds a 5-turn
-`ConversationBufferWindowMemory`; sessions expire after 30 minutes. Chat
-requests run in a thread pool so the FastAPI event loop never blocks.
+`ConversationBufferWindowMemory`; sessions expire after 30 minutes. Saved
+answers are stripped of their Sources section and capped at 1,500 chars —
+history is re-sent every turn, so it pays to keep it lean. Chat requests run
+in a thread pool so the FastAPI event loop never blocks.
 
-Every query produces one LangSmith trace (project `bcit-chatbot`): the root
-`RunnableSequence` nests the query-rewrite LLM call, the hybrid retriever run
-(with the returned chunks), and the generation call. The Vertex reranker is a
-plain HTTP client rather than a Runnable, so its latency is included in the
-context-assembly step instead of getting its own span.
+Every query produces one LangSmith trace (project `bcit-chatbot`) rooted at
+`bcit_query`, with a dedicated `vertex_rerank` retriever span; one
+structured `query_usage` JSON log line per query records tokens
+(input/output/reasoning/cache-read), per-stage latency, sub-query count,
+context size, and fallback flags.
+
+---
+
+## Cost & accuracy optimization (June 2026)
+
+Measured on a 40-case golden set (`backend/eval/golden_set.jsonl`: outline
+facts, program/admission, student life, multipart, follow-up pairs) against
+the same corpus and models — only the pipeline changed:
+
+| Metric | Before (full-doc context) | After (chunks + decompose) |
+|---|---|---|
+| Input tokens / query (mean) | 44,322 | **5,884 (−87%)** |
+| Input tokens / query (p50) | 36,471 | 5,936 (−84%) |
+| Output tokens (incl. thinking) | 210 + 896 thinking | **175 + 0** |
+| Retrieval URL hit-rate | 0.892 | **0.963** |
+| Key-fact recall | 0.848 | **0.885** |
+| Citation precision | 1.000 | 1.000 |
+| Latency p50 / p95 | 7.6 s / 10.8 s | **4.1 s / 5.2 s** |
+| Truncated answers / decompose fallbacks | 0 / 0 | 0 / 0 |
+
+Reproduce: `eval/run_eval.py --label <name>` (flags via env, set BEFORE
+launch — config reads env at import), compare with `--compare A.json B.json`.
+The legacy pipeline stays one env away:
+`CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13`.
+Sweep notes: `NEIGHBOR_RADIUS=2` beat 1 (outline recall +0.04 for +5.6%
+tokens); `RERANKER_TOP_K=13`, `RERANK_SCORE_THRESHOLD=0.2`, and model-default
+thinking all measured worse (see `config.py` comments for why).
 
 ---
 
@@ -107,10 +155,12 @@ and ensures the HNSW index. Three properties worth knowing:
   *all* collections. Without the collection salt, rebuilding from same-named
   source files would hijack rows out of the live collection mid-build.
 - **Blue-green cutover** — build into a fresh versioned collection while
-  production serves the old one, flip the `PG_COLLECTION` default in
-  `config.py`, deploy config + pickle, restart. Zero downtime; the old
-  collection doubles as instant rollback until you drop it
-  (`drop_old_collection.sh` pattern).
+  production serves the old one, flip the `PG_COLLECTION` **and**
+  `DOCUMENTS_PICKLE` defaults in `config.py` **together** (the dense and BM25
+  sides must serve the same crawl — June 2026 the pickle default was left
+  behind and local BM25 quietly served the retired corpus), deploy config +
+  pickle, restart. Zero downtime; the old collection doubles as instant
+  rollback until you drop it (`drop_old_collection.sh` pattern).
 
 ---
 
@@ -152,6 +202,25 @@ A decision record for future development — each of these was deliberate:
     `([A-Z]{2,4})_(\d[A-Z0-9]{3,4})_(\d{6})` — apprenticeship codes like
     `AATE 1GAP` exist). The `URL:` header line in each txt feeds source
     citation metadata.
+12. **Chunks in the prompt, whole files never.** The original pipeline loaded
+    each cited source file from disk into the prompt (~9k tokens × ~3–5 files
+    = 44k input tokens/query) to preserve list/table completeness across
+    chunk boundaries. Neighbor expansion (±2 chunks from the in-process
+    ordinal index) buys that completeness for a few hundred tokens instead;
+    eval showed accuracy went UP (fact recall 0.848 → 0.885) because precise
+    chunks beat 9k-token haystacks.
+13. **One Ranking API call per turn, not per sub-query.** The Ranking API
+    bills per query; pooled rerank with `top_n=len(pool)` + a per-sub-query
+    coverage quota keeps multipart quality without multiplying the fixed
+    cost (`RERANK_MODE=per_subquery` exists as the comparison flag).
+14. **Decompose on every turn.** The old history-only rewrite skipped turn 1,
+    missing first-turn multipart questions. The merged rewrite+decompose
+    call is ~430 tokens with thinking 0 — cheap enough to always run, and
+    single questions short-circuit back to full-width legacy retrieval.
+15. **Thinking off for generation.** This is an extraction-and-summarize
+    workload over provided context: eval measured model-default thinking as
+    strictly worse (recall 0.852 vs 0.877, p95 2.2×, ~900 thinking tokens
+    billed per query).
 
 ---
 
@@ -189,6 +258,20 @@ Environment quirks that cost time once — don't rediscover them:
 - **Embedding throughput**: `gemini-embedding-001` takes one text per request;
   the build parallelizes across threads (~20 chunks/s sustained, 100k chunks
   ≈ 1.5 h, no quota errors at that rate).
+- **Thinking tokens count against `max_output_tokens`.** With the model
+  default thinking budget and a 2048 cap, gemini-3.5-flash burned ~1,950
+  tokens thinking and truncated every answer at ~80 visible tokens
+  (`finish_reason=MAX_TOKENS`, Sources lost). Pair the cap with
+  `GEMINI_THINKING_BUDGET=0`, or raise the cap to ≥ 4096 if re-enabling
+  thinking. The `query_usage` log warns on MAX_TOKENS.
+- **`RERANK_SCORE_THRESHOLD` undermines the multipart quota.** The threshold
+  filter runs during context assembly — after pooled-rerank selection — so it
+  strips exactly the lower-scored chunks the coverage quota swapped in
+  (eval: multipart recall 0.819 → 0.611 at threshold 0.2). Leave it at 0
+  unless re-evaluating multipart cases alongside.
+- **`config.py` reads env at import.** Anything that should affect a run
+  (eval flags, `PG_CONNECTION` port rewrite) must be exported before Python
+  starts; `load_dotenv()` does not override already-exported variables.
 
 ---
 
@@ -224,10 +307,15 @@ Ideas that fit the current architecture, with their natural hook points:
   `existing_ids()` / `deterministic_ids()`.
 - **Scheduled term refresh** — the whole refresh is two commands (runbook
   below); wire into cron/GitHub Actions once credentials story is decided.
-- **Retrieval evaluation harness** — no golden set exists. Build ~50 Q/A pairs
-  (mix: outline facts, program requirements, BCITSA), measure retrieval
-  hit-rate and answer faithfulness before touching retrieval params
-  (`HYBRID_ALPHA`, `RERANKER_*` in `config.py`).
+- **Program-page section flooding** — the one retrieval weakness the eval
+  left open: section headings like "Entrance requirements" exist on all 529
+  program pages, so BM25 floods the pool with sibling programs' chunks and
+  the asked-about program's section chunk sometimes loses (multipart CST
+  cases in `eval/results/`). Hook: section-aware metadata at build time
+  (`chunk_index` is already stamped), or a BM25 field boost on the
+  program/course code.
+- **LLM-judge eval** — `run_eval.py --judge` is reserved but unimplemented;
+  key-fact recall is substring-based today. Hook: `score_case()`.
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
@@ -235,10 +323,9 @@ Ideas that fit the current architecture, with their natural hook points:
   a single JSON blob today. Needs SSE endpoint + frontend incremental render.
 - **Citations UI** — answers already end with a `Sources` section (prompt-enforced);
   the frontend renders it as plain text. Parse and render as cards/links.
-- **Observability** — LangSmith tracing (June 2026) gives per-query traces
-  with stage latency and token counts; logs are still print statements.
-  Remaining: wrap `VertexRanker.rerank` in `@traceable` so rerank latency gets
-  its own span, structured logging, and a `/metrics` endpoint.
+- **Observability** — LangSmith traces (with a dedicated rerank span) and a
+  structured `query_usage` JSON log line per query exist; remaining: ship
+  the log line somewhere queryable and add a `/metrics` endpoint.
 - **Frontend dist in CI** — `frontend/dist` is gitignored and deployed by scp;
   a GitHub Action building + deploying on push would remove the manual step.
 
@@ -255,8 +342,11 @@ backend/
   crawl_bcit.py            Corpus crawler (sitemaps + outlines API)
   build_pgvector.py        Indexing job (resumable, collection-versioned)
   drop_old_collection.sh   One-off: drop a retired collection via proxy
+  eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
+  eval/run_eval.py         Offline eval harness (--label runs, --compare)
+  eval/results/            Per-run metrics JSON (gitignored)
   data/                    Crawled corpus (11,129 txt docs, 16 categories)
-  vectorstore/             documents.pkl — BM25 source (generated, not committed)
+  vectorstore/             documents_<version>.pkl — BM25 source (generated, not committed)
 frontend/
   src/App.jsx              Pathname routing: "/" → Blog, "/chat" → Chat
   src/Blog.jsx             Tech blog landing page (architecture deep dive)
@@ -361,16 +451,17 @@ PG_CONNECTION=<...5433...> PG_COLLECTION=bcit_docs_<version> \
   DOCUMENTS_PICKLE=./vectorstore/documents_<version>.pkl \
   .venv/bin/python build_pgvector.py
 
-# 3. Smoke-test against the new collection (same env vars + query_rag),
-#    then flip the PG_COLLECTION default in config.py
+# 3. Smoke-test against the new collection (same env vars + query_rag), then
+#    flip BOTH defaults in config.py: PG_COLLECTION and DOCUMENTS_PICKLE
+#    (they version together — dense and BM25 must serve the same crawl)
 
-# 4. Deploy config + pickle, restart
+# 4. Deploy config + pickle (keep the versioned filename — it matches the
+#    config default and leaves the previous pickle in place for rollback)
 gcloud compute scp backend/config.py bcit-rag-vm:/tmp/config.py --zone=us-west1-b
-gcloud compute scp vectorstore/documents_<version>.pkl bcit-rag-vm:/tmp/documents.pkl --zone=us-west1-b
+gcloud compute scp vectorstore/documents_<version>.pkl bcit-rag-vm:/tmp/documents_<version>.pkl --zone=us-west1-b
 gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
-  cd /opt/bcit-rag/backend/vectorstore && sudo cp documents.pkl documents_old.pkl &&
+  sudo cp /tmp/documents_<version>.pkl /opt/bcit-rag/backend/vectorstore/ &&
   sudo cp /tmp/config.py /opt/bcit-rag/backend/config.py &&
-  sudo cp /tmp/documents.pkl documents.pkl &&
   sudo systemctl restart bcit-chatbot && sleep 30 && curl -s localhost:8000/health'
 
 # 5. After verifying production, drop the old collection
