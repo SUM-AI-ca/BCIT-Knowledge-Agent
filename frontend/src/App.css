@@ -123,18 +123,8 @@
   cursor: default;
 }
 
-.msg-stats svg {
-  color: #e8a33d;
-  flex-shrink: 0;
-}
-
 .msg-stats-sep {
   color: #d0d3d8;
-}
-
-.msg-stats-model {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.68rem;
 }
 
 /* Markdown Styles in Assistant Bubble */
