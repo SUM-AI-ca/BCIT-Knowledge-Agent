@@ -38,7 +38,10 @@ def _env_opt_int(name, default):
 
 # Paths (env-overridable so a fresh corpus can be indexed side by side)
 DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
-DOCUMENTS_PICKLE = Path(os.getenv("DOCUMENTS_PICKLE", "./vectorstore/documents.pkl"))
+# Versioned with PG_COLLECTION (blue-green): bcit_docs_202606 pairs with
+# documents_202606.pkl. Flip BOTH defaults together on corpus rebuilds —
+# the dense and BM25 sides must serve the same crawl.
+DOCUMENTS_PICKLE = Path(os.getenv("DOCUMENTS_PICKLE", "./vectorstore/documents_202606.pkl"))
 
 # Embeddings (Vertex AI / Gemini Enterprise Agent Platform, ADC auth)
 EMBEDDING_MODEL = "gemini-embedding-001"
