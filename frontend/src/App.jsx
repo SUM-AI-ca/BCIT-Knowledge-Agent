@@ -200,7 +200,7 @@ function Chat() {
               {m.stats && (
                 <div
                   className="msg-stats"
-                  title={`input ${m.stats.input_tokens.toLocaleString()} tokens · output ${m.stats.output_tokens.toLocaleString()} tokens (incl. query rewriting)`}
+                  title={`input ${m.stats.input_tokens.toLocaleString()} tokens · output ${m.stats.output_tokens.toLocaleString()} tokens (incl. query rewriting) · cost includes search reranking and embedding fees`}
                 >
                   <span>{m.stats.total_tokens.toLocaleString()} tokens</span>
                   <span className="msg-stats-sep">·</span>
