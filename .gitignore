@@ -15,6 +15,9 @@ backend/vectorstore/
 backend/data_old_*/
 backend/data/_state/
 
+# Eval run outputs (per-machine measurements, not source)
+backend/eval/results/
+
 # Node
 frontend/node_modules/
 
