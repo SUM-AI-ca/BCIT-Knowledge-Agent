@@ -11,8 +11,36 @@ function formatMessage(text) {
   const elements = [];
   let inList = false;
   let listItems = [];
+  let inSources = false;
 
   lines.forEach((line, idx) => {
+    // Sources section: bold heading, then one "- url" link per line —
+    // normalizes any "Document N [URL: ...]" wrappers the model may emit.
+    if (line.replace(/[*#:\s]/g, '').toLowerCase() === 'sources') {
+      if (inList) {
+        elements.push(<ul key={`list-${idx}`}>{listItems}</ul>);
+        listItems = [];
+        inList = false;
+      }
+      inSources = true;
+      elements.push(<p key={idx} className="msg-sources-heading">Sources</p>);
+      return;
+    }
+    if (inSources) {
+      if (!line.trim()) return;
+      const urlMatch = line.match(/https?:\/\/[^\s\])"']+/);
+      if (urlMatch) {
+        const url = urlMatch[0].replace(/[.,;]+$/, '');
+        elements.push(
+          <p key={idx} className="msg-source-line">
+            -&nbsp;<a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+          </p>
+        );
+      } else {
+        elements.push(<p key={idx} className="msg-source-line">{line.trim()}</p>);
+      }
+      return;
+    }
     // Headers
     if (line.startsWith('### ')) {
       if (inList) {
@@ -204,7 +232,7 @@ function Chat() {
                 >
                   <span>{m.stats.total_tokens.toLocaleString()} tokens</span>
                   <span className="msg-stats-sep">·</span>
-                  <span>${m.stats.cost_usd.toFixed(4)}</span>
+                  <span>{m.stats.currency === "CAD" ? "CAD$" : "US$"}{m.stats.cost_usd.toFixed(4)}</span>
                   <span className="msg-stats-sep">·</span>
                   <span>{m.stats.latency_s.toFixed(1)}s</span>
                 </div>

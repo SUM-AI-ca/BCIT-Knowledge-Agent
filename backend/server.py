@@ -40,6 +40,7 @@ class ChatStats(BaseModel):
     output_tokens: int
     total_tokens: int
     cost_usd: float
+    currency: str = "USD"  # Google Cloud bills in USD
     latency_s: float
     model: str
 

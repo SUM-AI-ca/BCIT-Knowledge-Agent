@@ -127,6 +127,20 @@
   color: #d0d3d8;
 }
 
+/* Sources section inside answers */
+.msg-sources-heading {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #003c71;
+  margin: 0.9rem 0 0.3rem 0 !important;
+}
+
+.msg-source-line {
+  margin: 0.15rem 0 !important;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
 /* Markdown Styles in Assistant Bubble */
 .assistant-bubble p {
   margin: 0 0 0.5rem 0;

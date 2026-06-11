@@ -212,9 +212,10 @@ INSTRUCTIONS:
 8. SOURCES (BCIT URLs)
    - At the end of your answer, add a section titled "Sources".
    - Under "Sources", list only the BCIT URLs that appear in the retrieved text and that
-     you actually used.
-   - Copy each URL exactly as it appears, for example in lines like
-     "Document 1 [URL: https://...]".
+     you actually used, one per line, each formatted exactly as:
+       - https://...
+   - Output ONLY the URL itself on each line. Never copy the "Document N" labels,
+     square brackets, or "[URL: ...]" wrappers that appear in the retrieved text.
    - If you used information that has no URL in the provided documents, write:
        Sources: No BCIT URL available in the provided documents.
 
