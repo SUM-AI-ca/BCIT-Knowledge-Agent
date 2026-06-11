@@ -45,7 +45,7 @@ RESULTS_DIR = EVAL_DIR / "results"
 # Tunables snapshotted into the results file. Names that config.py does not
 # define (yet) are skipped, so this list can stay ahead of the code.
 SNAPSHOT_KEYS = [
-    "GEMINI_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
+    "GEMINI_MODEL", "REWRITER_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
     "GEMINI_THINKING_BUDGET", "MEMORY_WINDOW_K",
     "USE_HYBRID_SEARCH", "HYBRID_ALPHA", "USE_RERANKING",
     "RERANKER_CANDIDATES", "RERANKER_TOP_K", "RERANK_SCORE_THRESHOLD",

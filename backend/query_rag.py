@@ -38,6 +38,7 @@ from config import (
     PG_COLLECTION,
     HNSW_EF_SEARCH,
     GEMINI_MODEL,
+    REWRITER_MODEL,
     GEMINI_PROJECT,
     GEMINI_LOCATION,
     GEMINI_TEMPERATURE,
@@ -201,7 +202,7 @@ class BCITChatbot:
         # Dedicated rewriter: deterministic, schema-constrained JSON, no
         # thinking budget — a cheap fixed-shape call that runs every turn.
         self.rewriter_llm = ChatVertexAI(
-            model=GEMINI_MODEL,
+            model=REWRITER_MODEL,
             project=GEMINI_PROJECT,
             location=GEMINI_LOCATION,
             temperature=0.0,

@@ -57,7 +57,10 @@ PG_CONNECTION = os.getenv(
 # (blue-green — the live server keeps serving the old collection during a build)
 PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606")
 
-GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.5-flash")
+# The rewrite/decompose call is a trivial structured task — it can run on a
+# cheaper model than generation. Defaults to GEMINI_MODEL.
+REWRITER_MODEL = _env_str("REWRITER_MODEL", GEMINI_MODEL)
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
