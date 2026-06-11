@@ -35,8 +35,11 @@ class VertexRanker:
             self,
             query: str,
             documents: List[Document],
-            top_k: int = 10
+            top_k: int = 10,
+            return_all: bool = False
     ) -> List[Document]:
+        """return_all=True scores and returns every candidate (rank order);
+        the caller slices after applying its own selection logic."""
 
         if not documents:
             return []
@@ -54,7 +57,7 @@ class VertexRanker:
                 request=discoveryengine.RankRequest(
                     ranking_config=self.ranking_config,
                     model=self.model,
-                    top_n=top_k,
+                    top_n=len(records) if return_all else top_k,
                     query=query,
                     records=records,
                 )
@@ -62,7 +65,7 @@ class VertexRanker:
         except Exception as e:
             # degrade to retrieval order instead of failing the request
             print(f"Ranking API error, using retrieval order: {e}")
-            return documents[:top_k]
+            return documents if return_all else documents[:top_k]
 
         reranked_docs = []
         for record in response.records:

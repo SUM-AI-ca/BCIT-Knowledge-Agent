@@ -61,7 +61,11 @@ SNAPSHOT_KEYS = [
 
 # Optional per-query meta keys added by later optimization steps; copied into
 # per-case results when present so before/after files stay comparable.
-EXTRA_META_KEYS = ["n_subqueries", "sub_queries", "decompose_fallback"]
+EXTRA_META_KEYS = [
+    "n_subqueries", "sub_queries", "decompose_fallback",
+    "context_mode", "context_chars", "n_context_sources",
+    "n_chunks_kept", "neighbor_misses",
+]
 
 ANSWER_EXCERPT_CHARS = 1500
 

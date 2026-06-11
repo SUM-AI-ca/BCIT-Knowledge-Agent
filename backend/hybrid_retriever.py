@@ -49,35 +49,62 @@ class HybridRetriever(BaseRetriever):
     def _rrf_score(self, rank: int) -> float:
         return 1.0 / (self.rrf_k + rank)
 
-    def _get_relevant_documents(
+    def _dense_search(self, query: str, dense_k: int = None) -> List[Document]:
+        if dense_k is None:
+            return self.dense_retriever.invoke(query)
+        # Per-call k: go through the underlying vectorstore with the same MMR
+        # parameters the configured retriever uses.
+        kwargs = dict(self.dense_retriever.search_kwargs)
+        kwargs["k"] = dense_k
+        return self.dense_retriever.vectorstore.max_marginal_relevance_search(
+            query, **kwargs
+        )
+
+    def _bm25_search(self, query: str, bm25_k: int = None) -> List[Document]:
+        if bm25_k is None:
+            return self.bm25_retriever.invoke(query)
+        # Per-call k: score directly against the (read-only, thread-safe)
+        # BM25 index instead of mutating the shared retriever's k.
+        tokens = self.bm25_retriever.preprocess_func(query)
+        scores = self.bm25_retriever.vectorizer.get_scores(tokens)
+        if len(scores) <= bm25_k:
+            top = range(len(scores))
+        else:
+            import numpy as np
+            part = np.argpartition(scores, -bm25_k)[-bm25_k:]
+            top = part[np.argsort(scores[part])[::-1]]
+        docs = self.bm25_retriever.docs
+        return [docs[i] for i in top]
+
+    def search(
             self,
             query: str,
-            *,
-            run_manager: CallbackManagerForRetrieverRun = None
+            dense_k: int = None,
+            bm25_k: int = None,
+            top_k: int = None,
     ) -> List[Document]:
-        dense_docs = self.dense_retriever.invoke(query)
-        bm25_docs = self.bm25_retriever.invoke(query)
+        """RRF-fused hybrid search with per-call k overrides.
+
+        Returns COPIES (fresh metadata dicts) — BM25 hands out Documents that
+        alias the shared pickle corpus, and downstream steps annotate
+        metadata, which must never leak back into the corpus (or race when
+        sub-queries run in parallel).
+        """
+        dense_docs = self._dense_search(query, dense_k)
+        bm25_docs = self._bm25_search(query, bm25_k)
 
         doc_scores: Dict[str, float] = {}
         doc_map: Dict[str, Document] = {}
 
-        for rank, doc in enumerate(dense_docs, start=1):
-            doc_id = self._create_doc_id(doc)
-            rrf_score = self._rrf_score(rank)
-            weighted_score = self.alpha * rrf_score
-
-            doc_scores[doc_id] = doc_scores.get(doc_id, 0.0) + weighted_score
-            if doc_id not in doc_map:
-                doc_map[doc_id] = doc
-
-        for rank, doc in enumerate(bm25_docs, start=1):
-            doc_id = self._create_doc_id(doc)
-            rrf_score = self._rrf_score(rank)
-            weighted_score = (1.0 - self.alpha) * rrf_score
-
-            doc_scores[doc_id] = doc_scores.get(doc_id, 0.0) + weighted_score
-            if doc_id not in doc_map:
-                doc_map[doc_id] = doc
+        for weight, ranked_docs in (
+            (self.alpha, dense_docs),
+            (1.0 - self.alpha, bm25_docs),
+        ):
+            for rank, doc in enumerate(ranked_docs, start=1):
+                doc_id = self._create_doc_id(doc)
+                doc_scores[doc_id] = doc_scores.get(doc_id, 0.0) + weight * self._rrf_score(rank)
+                if doc_id not in doc_map:
+                    doc_map[doc_id] = doc
 
         sorted_doc_ids = sorted(
             doc_scores.items(),
@@ -86,12 +113,24 @@ class HybridRetriever(BaseRetriever):
         )
 
         result = []
-        for doc_id, score in sorted_doc_ids[:self.top_k]:
+        for doc_id, score in sorted_doc_ids[:(top_k or self.top_k)]:
             doc = doc_map[doc_id]
-            doc.metadata["fusion_score"] = score
-            result.append(doc)
+            copy = Document(
+                page_content=doc.page_content,
+                metadata=dict(doc.metadata),
+            )
+            copy.metadata["fusion_score"] = score
+            result.append(copy)
 
         return result
+
+    def _get_relevant_documents(
+            self,
+            query: str,
+            *,
+            run_manager: CallbackManagerForRetrieverRun = None
+    ) -> List[Document]:
+        return self.search(query)
 
 
 def create_hybrid_retriever(

@@ -92,7 +92,46 @@ RERANKER_MODEL = "semantic-ranker-default-004"  # Vertex AI Ranking API
 RANKING_LOCATION = "global"
 RANKING_CONFIG = "default_ranking_config"
 RERANKER_CANDIDATES = _env_int("RERANKER_CANDIDATES", 25)
-RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 13)
+RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 10)
+
+# Context construction. "chunks" injects the reranked chunks themselves with
+# small-to-big neighbor expansion; "full_doc" restores the legacy behavior of
+# loading each cited source file whole (~9k tokens/file). Legacy baseline =
+# CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13.
+CONTEXT_MODE = _env_str("CONTEXT_MODE", "chunks")
+# How many adjacent chunks to pull in on each side of a selected chunk. The
+# corpus pickle stores chunks per source in document order, so neighbors can
+# be resolved in-process without a DB migration.
+NEIGHBOR_RADIUS = _env_int("NEIGHBOR_RADIUS", 1)
+# Hard cap for the assembled context; neighbor expansion is dropped from the
+# lowest-ranked sources first, then whole trailing sources.
+CONTEXT_MAX_CHARS = _env_int("CONTEXT_MAX_CHARS", 24000)
+# Chunks scoring below this after reranking are dropped (0 disables). The
+# reranker fallback path returns unscored docs — the filter is skipped then.
+RERANK_SCORE_THRESHOLD = _env_float("RERANK_SCORE_THRESHOLD", 0.0)
+MIN_CONTEXT_CHUNKS = _env_int("MIN_CONTEXT_CHUNKS", 3)
+
+# Multi-query decomposition. One LLM call per turn (replacing the old
+# history-only rewrite) returns the standalone question plus 1..MAX
+# self-contained sub-queries; multipart questions get one query per part.
+MULTI_QUERY_ENABLED = _env_bool("MULTI_QUERY_ENABLED", True)
+MAX_SUB_QUERIES = _env_int("MAX_SUB_QUERIES", 4)
+# Per-sub-query retrieval breadth (single-question turns keep the legacy
+# full-width retrieval; these only apply when a turn decomposes into 2+).
+MQ_DENSE_K = _env_int("MQ_DENSE_K", 12)
+MQ_BM25_K = _env_int("MQ_BM25_K", 12)
+MQ_CANDIDATES_PER_SUBQUERY = _env_int("MQ_CANDIDATES_PER_SUBQUERY", 15)
+MQ_POOL_CAP = _env_int("MQ_POOL_CAP", 40)
+# After the pooled rerank, every sub-query keeps at least this many of its
+# own candidates in the final context (swap-in by that sub-query's best).
+MQ_MIN_CHUNKS_PER_SUBQUERY = _env_int("MQ_MIN_CHUNKS_PER_SUBQUERY", 2)
+# "pooled": ONE Ranking API call per turn over the merged candidate pool
+# (the API bills per query). "per_subquery": one call per sub-query.
+RERANK_MODE = _env_str("RERANK_MODE", "pooled")
+REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 512)
+REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
+# None = model default. Evaluated against 0 in the eval sweeps before deploy.
+GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", None)
 
 RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
 
@@ -165,7 +204,39 @@ INSTRUCTIONS:
 
 Answer:"""
 
-# Query Rewriting Prompt
+# Combined rewrite + decompose (one JSON call per turn, replaces the legacy
+# rewrite when MULTI_QUERY_ENABLED). The schema is enforced server-side via
+# response_schema; the prompt still spells out the rules for quality.
+REWRITE_DECOMPOSE_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "standalone_question": {"type": "STRING"},
+        "sub_queries": {"type": "ARRAY", "items": {"type": "STRING"}},
+    },
+    "required": ["standalone_question", "sub_queries"],
+}
+
+REWRITE_DECOMPOSE_TEMPLATE = """You prepare search queries for a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
+
+Given the conversation history and the student's latest message, return JSON with:
+1. "standalone_question": the latest message rewritten as ONE self-contained question. Resolve references like "it", "that course", "this program" using the history. If the message is already self-contained, return it unchanged.
+2. "sub_queries": 1 to {max_sub_queries} short, self-contained search queries.
+   - If the message asks a single thing, return exactly one sub-query (the standalone question itself).
+   - If it asks several distinct things (e.g. admission requirements AND tuition AND housing), return one sub-query per distinct thing.
+   - Every sub-query must name the concrete program/course/topic (no pronouns).
+
+Rules:
+- English only.
+- Do not invent topics the student did not ask about.
+- At most {max_sub_queries} sub-queries.
+
+Conversation history:
+{chat_history}
+
+Student's latest message:
+{question}"""
+
+# Legacy query rewriting prompt (used when MULTI_QUERY_ENABLED=false)
 QUERY_REWRITE_TEMPLATE = """You are helping a BCIT academic advisor chatbot with retrieval.
 
 Task:

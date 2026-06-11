@@ -3,9 +3,11 @@ import pickle
 
 warnings.filterwarnings('ignore')
 
+import hashlib
 import json
 import logging
 import time
+from concurrent.futures import ThreadPoolExecutor
 from typing import List, Optional, Set
 
 from langchain_postgres import PGVector
@@ -57,6 +59,25 @@ from config import (
     MEMORY_WINDOW_K,
     PRICE_INPUT_PER_M,
     PRICE_OUTPUT_PER_M,
+    CONTEXT_MODE,
+    NEIGHBOR_RADIUS,
+    CONTEXT_MAX_CHARS,
+    RERANK_SCORE_THRESHOLD,
+    MIN_CONTEXT_CHUNKS,
+    CHUNK_OVERLAP,
+    MULTI_QUERY_ENABLED,
+    MAX_SUB_QUERIES,
+    REWRITE_MAX_OUTPUT_TOKENS,
+    REWRITE_THINKING_BUDGET,
+    REWRITE_DECOMPOSE_TEMPLATE,
+    REWRITE_DECOMPOSE_SCHEMA,
+    GEMINI_THINKING_BUDGET,
+    MQ_DENSE_K,
+    MQ_BM25_K,
+    MQ_CANDIDATES_PER_SUBQUERY,
+    MQ_POOL_CAP,
+    MQ_MIN_CHUNKS_PER_SUBQUERY,
+    RERANK_MODE,
 )
 
 logger = logging.getLogger("bcit.rag")
@@ -135,14 +156,56 @@ class BCITChatbot:
             print(f"Loaded {len(self.documents):,} documents\n")
         else:
             self.documents = None
+        self._neighbor_index = (
+            self._build_neighbor_index(self.documents) if self.documents else None
+        )
+
+    @staticmethod
+    def _chunk_key(source: str, page_content: str) -> tuple:
+        return source, hashlib.md5(page_content.encode("utf-8")).hexdigest()
+
+    def _build_neighbor_index(self, documents) -> dict:
+        # The pickle stores chunks per source in document order (the splitter
+        # emits them sequentially in build_pgvector.py), so a chunk's position
+        # in its source doubles as its ordinal for neighbor lookups. Dense
+        # results are distinct objects deserialized from pgvector, so they are
+        # matched by content hash, not identity.
+        chunks_by_source = {}
+        ordinals = {}
+        for doc in documents:
+            source = doc.metadata.get("source")
+            if not source:
+                continue
+            chunks = chunks_by_source.setdefault(source, [])
+            key = self._chunk_key(source, doc.page_content)
+            if key not in ordinals:
+                ordinals[key] = len(chunks)
+            chunks.append(doc.page_content)
+        return {"chunks": chunks_by_source, "ordinals": ordinals}
 
     def _initialize_llm(self):
-        self.llm = ChatVertexAI(
+        llm_kwargs = dict(
             model=GEMINI_MODEL,
             project=GEMINI_PROJECT,
             location=GEMINI_LOCATION,
             temperature=GEMINI_TEMPERATURE,
             max_output_tokens=GEMINI_MAX_OUTPUT_TOKENS,
+        )
+        if GEMINI_THINKING_BUDGET is not None:
+            llm_kwargs["thinking_budget"] = GEMINI_THINKING_BUDGET
+        self.llm = ChatVertexAI(**llm_kwargs)
+
+        # Dedicated rewriter: deterministic, schema-constrained JSON, no
+        # thinking budget — a cheap fixed-shape call that runs every turn.
+        self.rewriter_llm = ChatVertexAI(
+            model=GEMINI_MODEL,
+            project=GEMINI_PROJECT,
+            location=GEMINI_LOCATION,
+            temperature=0.0,
+            max_output_tokens=REWRITE_MAX_OUTPUT_TOKENS,
+            thinking_budget=REWRITE_THINKING_BUDGET,
+            response_mime_type="application/json",
+            response_schema=REWRITE_DECOMPOSE_SCHEMA,
         )
         print("LLM initialized\n")
 
@@ -189,6 +252,11 @@ class BCITChatbot:
                 dense_fetch_k=RETRIEVAL_FETCH_K,
                 dense_lambda=MMR_LAMBDA
             )
+            # Shared fan-out pool for sub-query retrieval: 2 concurrent
+            # requests x 4 sub-queries fits SQLAlchemy's default pool (5+10).
+            self._retrieval_pool = ThreadPoolExecutor(
+                max_workers=8, thread_name_prefix="subq"
+            )
         else:
             print("dense only")
             self.base_retriever = self.vectorstore.as_retriever(
@@ -199,10 +267,14 @@ class BCITChatbot:
                     "lambda_mult": MMR_LAMBDA
                 }
             )
+            self._retrieval_pool = None
 
     def _create_prompts(self):
         self.prompt = ChatPromptTemplate.from_template(RAG_PROMPT_TEMPLATE)
         self.rewrite_prompt = ChatPromptTemplate.from_template(QUERY_REWRITE_TEMPLATE)
+        self.rewrite_decompose_prompt = ChatPromptTemplate.from_template(
+            REWRITE_DECOMPOSE_TEMPLATE
+        ).partial(max_sub_queries=str(MAX_SUB_QUERIES))
 
     def _format_chat_history(self, memory: ConversationBufferWindowMemory) -> str:
         # buffer_as_messages applies the k-window; chat_memory.messages is the
@@ -237,6 +309,36 @@ class BCITChatbot:
             return rewritten, dict(msg.usage_metadata or {})
         except Exception:
             return question, {}
+
+    def _rewrite_and_decompose(self, question: str, chat_history: str) -> tuple:
+        """One JSON call: standalone rewrite + sub-query decomposition.
+
+        Runs every turn (a first-turn multipart question still needs
+        decomposing). Returns (standalone, sub_queries, usage, fallback).
+        """
+        try:
+            prompt_value = self.rewrite_decompose_prompt.invoke({
+                "chat_history": chat_history,
+                "question": question
+            })
+            msg = self.rewriter_llm.invoke(prompt_value)
+            data = json.loads(_message_text(msg))
+
+            standalone = (data.get("standalone_question") or "").strip() or question
+            sub_queries = [
+                q.strip() for q in (data.get("sub_queries") or [])
+                if isinstance(q, str) and q.strip()
+            ][:MAX_SUB_QUERIES] or [standalone]
+
+            if standalone != question.strip():
+                logger.info("query rewritten: %r -> %r", question, standalone)
+            if len(sub_queries) > 1:
+                logger.info("decomposed into %d sub-queries: %s", len(sub_queries), sub_queries)
+
+            return standalone, sub_queries, dict(msg.usage_metadata or {}), False
+        except Exception:
+            logger.warning("rewrite+decompose failed, using raw question", exc_info=True)
+            return question, [question], {}, True
 
     def _load_full_document(self, source_path):
         try:
@@ -285,6 +387,220 @@ class BCITChatbot:
 
         return "\n\n" + "-" * 60 + "\n\n".join(formatted)
 
+    def _apply_score_threshold(self, docs: List[Document]) -> List[Document]:
+        if RERANK_SCORE_THRESHOLD <= 0 or not docs:
+            return docs
+        if any("rerank_score" not in doc.metadata for doc in docs):
+            # reranker fallback path returns unscored docs in retrieval order
+            return docs
+        kept = [d for d in docs if d.metadata["rerank_score"] >= RERANK_SCORE_THRESHOLD]
+        if len(kept) < MIN_CONTEXT_CHUNKS:
+            kept = docs[:MIN_CONTEXT_CHUNKS]  # docs arrive in rerank order
+        return kept
+
+    def _merge_chunk_run(self, texts: List[str]) -> str:
+        # Consecutive chunks overlap by up to CHUNK_OVERLAP chars (less at
+        # split boundaries); drop the duplicated span when it matches exactly,
+        # otherwise just join.
+        merged = texts[0]
+        for text in texts[1:]:
+            joined = False
+            for k in range(min(len(merged), len(text), CHUNK_OVERLAP + 70), 9, -1):
+                if merged[-k:] == text[:k]:
+                    merged += text[k:]
+                    joined = True
+                    break
+            if not joined:
+                merged += "\n" + text
+        return merged
+
+    def _source_text(self, source: str, entry: dict, radius: int) -> str:
+        index = self._neighbor_index or {"chunks": {}, "ordinals": {}}
+        chunks = index["chunks"].get(source, [])
+        texts = []
+        if entry["ordinals"]:
+            wanted = set()
+            for ordinal in entry["ordinals"]:
+                for j in range(ordinal - radius, ordinal + radius + 1):
+                    if 0 <= j < len(chunks):
+                        wanted.add(j)
+            run = []
+            for j in sorted(wanted):
+                if run and j != run[-1] + 1:
+                    texts.append(self._merge_chunk_run([chunks[i] for i in run]))
+                    run = []
+                run.append(j)
+            if run:
+                texts.append(self._merge_chunk_run([chunks[i] for i in run]))
+        texts.extend(entry["loose"])
+        return "\n[...]\n".join(texts)
+
+    def _expand_and_format_chunks(self, docs: List[Document]) -> tuple:
+        docs = self._apply_score_threshold(docs)
+        index = self._neighbor_index or {"chunks": {}, "ordinals": {}}
+
+        order = []
+        grouped = {}
+        neighbor_misses = 0
+        for doc in docs:
+            source = doc.metadata.get("source")
+            if not source:
+                continue
+            if source not in grouped:
+                grouped[source] = {"metadata": doc.metadata, "ordinals": [], "loose": []}
+                order.append(source)
+            key = self._chunk_key(source, doc.page_content)
+            ordinal = index["ordinals"].get(key)
+            if ordinal is None:
+                neighbor_misses += 1
+                grouped[source]["loose"].append(doc.page_content)
+            elif ordinal not in grouped[source]["ordinals"]:
+                grouped[source]["ordinals"].append(ordinal)
+
+        def render(radii, sources):
+            blocks = []
+            for i, source in enumerate(sources, 1):
+                metadata = grouped[source]["metadata"]
+                source_info = ""
+                if metadata.get("url"):
+                    source_info = f" [URL: {metadata['url']}]"
+                elif metadata.get("title"):
+                    source_info = f" [Title: {metadata['title']}]"
+                blocks.append(
+                    f"Document {i}:{source_info}\n"
+                    f"Filename: {metadata.get('filename', 'N/A')}\n"
+                    f"Category: {metadata.get('category', 'N/A')}\n\n"
+                    f"{self._source_text(source, grouped[source], radii[source])}"
+                )
+            return "\n\n" + ("\n\n" + "-" * 60 + "\n\n").join(blocks)
+
+        radii = {source: NEIGHBOR_RADIUS for source in order}
+        sources = list(order)
+        context = render(radii, sources)
+        # Over budget: first strip neighbor expansion from the lowest-ranked
+        # sources, then drop trailing sources entirely.
+        while len(context) > CONTEXT_MAX_CHARS:
+            shrinkable = [s for s in reversed(sources) if radii[s] > 0]
+            if shrinkable:
+                radii[shrinkable[0]] = 0
+            elif len(sources) > 1:
+                sources.pop()
+            else:
+                context = context[:CONTEXT_MAX_CHARS]
+                break
+            context = render(radii, sources)
+
+        stats = {
+            "n_chunks_kept": len(docs),
+            "n_context_sources": len(sources),
+            "neighbor_misses": neighbor_misses,
+            "context_chars": len(context),
+        }
+        return context, stats
+
+    def _multi_query_retrieve(self, standalone_question: str, sub_queries: List[str]) -> tuple:
+        """Fan out retrieval per sub-query, merge into one deduped pool, then
+        rerank once. Returns (docs, stats)."""
+        t0 = time.perf_counter()
+        futures = [
+            self._retrieval_pool.submit(
+                self.base_retriever.search,
+                q,
+                dense_k=MQ_DENSE_K,
+                bm25_k=MQ_BM25_K,
+                top_k=MQ_CANDIDATES_PER_SUBQUERY,
+            )
+            for q in sub_queries
+        ]
+        per_sub = [f.result() for f in futures]
+
+        # Interleave by rank so the pool cap cuts fairly across sub-queries.
+        # Dedupe keeps the first copy and records every sub-query that
+        # surfaced the chunk (for the coverage quota below).
+        pooled: List[Document] = []
+        by_key = {}
+        origins = {}  # id(doc) -> set of sub-query indices
+        for rank in range(max((len(d) for d in per_sub), default=0)):
+            for si, docs_i in enumerate(per_sub):
+                if rank >= len(docs_i):
+                    continue
+                doc = docs_i[rank]
+                key = f"{doc.metadata.get('source', 'unknown')}::{doc.page_content[:200]}"
+                if key in by_key:
+                    origins[id(by_key[key])].add(si)
+                elif len(pooled) < MQ_POOL_CAP:
+                    by_key[key] = doc
+                    origins[id(doc)] = {si}
+                    pooled.append(doc)
+        t_retrieve = time.perf_counter() - t0
+
+        t0 = time.perf_counter()
+        docs = self._select_from_pool(standalone_question, sub_queries, pooled, origins)
+        t_rerank = time.perf_counter() - t0
+
+        return docs, {
+            "retrieve_s": t_retrieve,
+            "rerank_s": t_rerank,
+            "n_candidates": len(pooled),
+        }
+
+    def _select_from_pool(
+            self,
+            question: str,
+            sub_queries: List[str],
+            pooled: List[Document],
+            origins: dict,
+    ) -> List[Document]:
+        if not (USE_RERANKING and self.reranker):
+            return pooled[:RERANKER_TOP_K]  # interleaved order ≈ even coverage
+
+        if RERANK_MODE == "per_subquery":
+            # One Ranking API call per sub-query (costs n_subqueries x the
+            # pooled mode's fixed per-query fee).
+            per_share = max(MQ_MIN_CHUNKS_PER_SUBQUERY, -(-RERANKER_TOP_K // len(sub_queries)))
+            selected, seen = [], set()
+            for si, sub_query in enumerate(sub_queries):
+                candidates = [d for d in pooled if si in origins[id(d)]]
+                for doc in self.reranker.rerank(sub_query, candidates, top_k=per_share):
+                    if id(doc) not in seen:
+                        seen.add(id(doc))
+                        selected.append(doc)
+            selected.sort(key=lambda d: d.metadata.get("rerank_score", 0.0), reverse=True)
+            return selected[:max(RERANKER_TOP_K, MQ_MIN_CHUNKS_PER_SUBQUERY * len(sub_queries))]
+
+        # Default "pooled": ONE Ranking API call scoring the whole pool.
+        scored = self.reranker.rerank(question, pooled, top_k=RERANKER_TOP_K, return_all=True)
+        if any("rerank_score" not in d.metadata for d in scored):
+            return scored[:RERANKER_TOP_K]  # API fallback: interleaved order
+
+        selected = scored[:RERANKER_TOP_K]
+        rest = scored[RERANKER_TOP_K:]
+
+        def covered(si, sel):
+            return sum(1 for d in sel if si in origins[id(d)])
+
+        # Coverage quota: every sub-query keeps >= MQ_MIN_CHUNKS_PER_SUBQUERY
+        # of its own candidates; swap in its best leftovers, evicting the
+        # lowest-scored doc whose sub-queries all stay above quota.
+        for si in range(len(sub_queries)):
+            deficit = MQ_MIN_CHUNKS_PER_SUBQUERY - covered(si, selected)
+            if deficit <= 0:
+                continue
+            for candidate in [d for d in rest if si in origins[id(d)]][:deficit]:
+                evict = next(
+                    (d for d in reversed(selected)
+                     if all(covered(sj, selected) > MQ_MIN_CHUNKS_PER_SUBQUERY
+                            for sj in origins[id(d)])),
+                    None,
+                )
+                if evict is not None:
+                    selected.remove(evict)
+                selected.append(candidate)
+                rest.remove(candidate)
+
+        selected.sort(key=lambda d: d.metadata.get("rerank_score", 0.0), reverse=True)
+        return selected
+
     @traceable(name="bcit_query")
     def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
         if memory is None:
@@ -310,23 +626,47 @@ class BCITChatbot:
         chat_history = self._format_chat_history(memory)
 
         t0 = time.perf_counter()
-        standalone_question, rewrite_usage = self._rewrite_query(question, chat_history)
+        if MULTI_QUERY_ENABLED:
+            standalone_question, sub_queries, rewrite_usage, decompose_fallback = (
+                self._rewrite_and_decompose(question, chat_history)
+            )
+        else:
+            standalone_question, rewrite_usage = self._rewrite_query(question, chat_history)
+            sub_queries, decompose_fallback = [standalone_question], False
         t_rewrite = time.perf_counter() - t0
 
-        t0 = time.perf_counter()
-        docs = self.base_retriever.invoke(standalone_question)
-        t_retrieve = time.perf_counter() - t0
+        # Single-question turns keep the full-width legacy retrieval; only
+        # genuinely multipart turns fan out per sub-query.
+        use_fanout = (
+            len(sub_queries) > 1
+            and self._retrieval_pool is not None
+            and hasattr(self.base_retriever, "search")
+        )
+        if use_fanout:
+            docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries)
+            t_retrieve = mq_stats["retrieve_s"]
+            t_rerank = mq_stats["rerank_s"]
+            n_candidates = mq_stats["n_candidates"]
+        else:
+            t0 = time.perf_counter()
+            docs = self.base_retriever.invoke(standalone_question)
+            t_retrieve = time.perf_counter() - t0
 
-        t0 = time.perf_counter()
-        if USE_RERANKING and self.reranker:
-            docs = self.reranker.rerank(
-                query=standalone_question,
-                documents=docs,
-                top_k=RERANKER_TOP_K
-            )
-        t_rerank = time.perf_counter() - t0
+            t0 = time.perf_counter()
+            n_candidates = len(docs)
+            if USE_RERANKING and self.reranker:
+                docs = self.reranker.rerank(
+                    query=standalone_question,
+                    documents=docs,
+                    top_k=RERANKER_TOP_K
+                )
+            t_rerank = time.perf_counter() - t0
 
-        context = self._format_docs_full(docs)
+        if CONTEXT_MODE == "chunks":
+            context, context_stats = self._expand_and_format_chunks(docs)
+        else:
+            context = self._format_docs_full(docs)
+            context_stats = {"context_chars": len(context)}
 
         t0 = time.perf_counter()
         prompt_value = self.prompt.invoke({
@@ -383,6 +723,13 @@ class BCITChatbot:
                 "total_s": round(time.perf_counter() - t_start, 3),
             },
             "n_context_docs": len(docs),
+            "context_mode": CONTEXT_MODE,
+            "n_subqueries": len(sub_queries),
+            "sub_queries": sub_queries,
+            "decompose_fallback": decompose_fallback,
+            "retrieval_mode": "fanout" if use_fanout else "single",
+            "n_candidates": n_candidates,
+            **context_stats,
         }
 
         log_entry = {k: v for k, v in meta.items() if k not in ("answer", "docs")}
