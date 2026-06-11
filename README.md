@@ -6,8 +6,8 @@ A retrieval-augmented generation (RAG) chatbot that answers questions about BCIT
 programs, courses, admissions, and campus life, grounded in **11,129 documents
 crawled from the live BCIT website** (September 2024 intake onwards). The entire
 pipeline is **CPU-only**: embeddings, vector search, reranking, and the LLM all
-run on GCP managed services — no GPU, no API keys (Application Default
-Credentials end to end).
+run on GCP managed services — no GPU, no GCP API keys (Application Default
+Credentials end to end). Every query is traced in LangSmith.
 
 | Component | Service |
 |---|---|
@@ -21,6 +21,7 @@ Credentials end to end).
 | Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
 | Hosting | GCE `e2-standard-2` VM + Cloudflare (DNS, TLS, port routing) |
+| Observability | LangSmith tracing (project `bcit-chatbot`) |
 
 ---
 
@@ -49,6 +50,12 @@ Credentials end to end).
 Conversation state: each browser session holds a 5-turn
 `ConversationBufferWindowMemory`; sessions expire after 30 minutes. Chat
 requests run in a thread pool so the FastAPI event loop never blocks.
+
+Every query produces one LangSmith trace (project `bcit-chatbot`): the root
+`RunnableSequence` nests the query-rewrite LLM call, the hybrid retriever run
+(with the returned chunks), and the generation call. The Vertex reranker is a
+plain HTTP client rather than a Runnable, so its latency is included in the
+context-assembly step instead of getting its own span.
 
 ---
 
@@ -198,7 +205,8 @@ Everything deployed/configured outside this repo, in one place:
 | Cloud SQL | `bcit-rag-pg` (us-west1), db `ragdb`, user `raguser`, pgvector |
 | Live collection | `bcit_docs_202606` — 100,515 chunks from 11,129 docs (June 2026 crawl) |
 | Cloudflare | zone `bcitai.ca`: A `@` → 34.19.21.7 (proxied), Origin Rule port→8000, SSL Flexible |
-| Secrets | `backend/.env` (`PG_CONNECTION`) — local + VM copies, never committed |
+| LangSmith | project `bcit-chatbot` ([smith.langchain.com](https://smith.langchain.com)) — tracing on since 2026-06-10, enabled purely via env vars |
+| Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed |
 | Rollback assets | `backend/data_old_202409/` (old corpus, gitignored), VM `vectorstore/documents_old.pkl` |
 
 Pending niceties: `www` CNAME is not set up; "Always Use HTTPS" is off
@@ -227,9 +235,10 @@ Ideas that fit the current architecture, with their natural hook points:
   a single JSON blob today. Needs SSE endpoint + frontend incremental render.
 - **Citations UI** — answers already end with a `Sources` section (prompt-enforced);
   the frontend renders it as plain text. Parse and render as cards/links.
-- **Observability** — logs are print statements; no per-stage latency
-  (retrieve vs rerank vs generate). Structured logging + a `/metrics` endpoint
-  would make tuning honest.
+- **Observability** — LangSmith tracing (June 2026) gives per-query traces
+  with stage latency and token counts; logs are still print statements.
+  Remaining: wrap `VertexRanker.rerank` in `@traceable` so rerank latency gets
+  its own span, structured logging, and a `/metrics` endpoint.
 - **Frontend dist in CI** — `frontend/dist` is gitignored and deployed by scp;
   a GitHub Action building + deploying on push would remove the manual step.
 
@@ -287,7 +296,12 @@ gcloud auth application-default set-quota-project wine-agent-jh-2026
 # 2. Backend deps + secrets
 cd backend
 uv sync
-# .env (not committed):  PG_CONNECTION=postgresql+psycopg://raguser:<pw>@127.0.0.1:5432/ragdb
+# .env (not committed):
+#   PG_CONNECTION=postgresql+psycopg://raguser:<pw>@127.0.0.1:5432/ragdb
+#   LANGSMITH_TRACING=true                              # optional: tracing
+#   LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+#   LANGSMITH_API_KEY=<key>
+#   LANGSMITH_PROJECT=bcit-chatbot
 
 # 3. Database tunnel (separate terminal; 5433 + matching PG_CONNECTION on WSL)
 cloud-sql-proxy --port 5432 wine-agent-jh-2026:us-west1:bcit-rag-pg
@@ -362,6 +376,26 @@ gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
 # 5. After verifying production, drop the old collection
 #    (adapt backend/drop_old_collection.sh)
 ```
+
+### Tracing (LangSmith)
+
+Enabled 2026-06-10 with **zero code changes** — `langsmith` is already a
+transitive dependency of `langchain-core`, so four env vars in `backend/.env`
+(present in both the local and VM copies) switch it on:
+
+```
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_API_KEY=<key — in .env, never committed>
+LANGSMITH_PROJECT=bcit-chatbot
+```
+
+- Traces land in project `bcit-chatbot` at https://smith.langchain.com — one
+  root run per query (see "How a query flows" for what each trace contains).
+- Uploads are batched in a background thread; a LangSmith outage slows nothing
+  and blocks no replies.
+- To disable: set `LANGSMITH_TRACING=false` in the VM `.env`, then
+  `sudo systemctl restart bcit-chatbot`.
 
 ### Operations
 
