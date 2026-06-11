@@ -17,7 +17,7 @@ Credentials end to end). Every query is traced in LangSmith.
 | Sparse retrieval | In-process BM25 (`rank_bm25`) |
 | Rank fusion | Reciprocal Rank Fusion (alpha 0.48, k=60) |
 | Reranker | Vertex AI Ranking API (`semantic-ranker-default-004`) |
-| LLM | `gemini-3.5-flash` via LangChain `ChatVertexAI` |
+| LLM | `gemini-3.1-flash-lite` (generation) + `gemini-3.5-flash` (query rewriter) via LangChain `ChatVertexAI` |
 | Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
 | Hosting | GCE `e2-standard-2` VM + Cloudflare (DNS, TLS, port routing) |
@@ -28,9 +28,11 @@ Credentials end to end). Every query is traced in LangSmith.
 ## How a query flows
 
 1. **Rewrite + decompose** — one schema-constrained JSON call per turn
-   (`REWRITE_DECOMPOSE_TEMPLATE`, temperature 0, thinking 0, ~430 tokens)
-   returns a standalone question (pronouns resolved from history) plus 1–4
-   self-contained sub-queries. Single questions yield one sub-query;
+   (`REWRITER_MODEL=gemini-3.5-flash`, temperature 0, thinking 0, ~430
+   tokens) returns a standalone question (pronouns resolved from history)
+   plus 1–4 self-contained sub-queries. The rewriter deliberately runs on a
+   stronger model than generation: sub-query quality drives retrieval
+   (benchmark: hit-rate 0.929 with a lite rewriter vs 0.963 with 3.5-flash). Single questions yield one sub-query;
    "admission requirements AND tuition AND housing" yields three. Parse
    failure falls back to the raw question (counted in `query_usage` logs).
 2. **Embed** — each query is embedded with Vertex AI `gemini-embedding-001`
@@ -61,10 +63,11 @@ Credentials end to end). Every query is traced in LangSmith.
    lowest-ranked sources first). Citation headers
    (`Document N: [URL: …]`) are identical to the legacy format — the
    Sources-section prompt instructions depend on them.
-6. **Generate** — `gemini-3.5-flash`, static instructions first / variable
-   inputs last (implicit-cache-friendly), `{question_parts}` enumerating
-   multipart sub-questions, `max_output_tokens=2048` with
-   `thinking_budget=0` (see gotchas — thinking counts against the cap).
+6. **Generate** — `GEMINI_MODEL=gemini-3.1-flash-lite`, static instructions
+   first / variable inputs last (implicit-cache-friendly),
+   `{question_parts}` enumerating multipart sub-questions,
+   `max_output_tokens=2048` with `thinking_budget=0` (see gotchas — thinking
+   counts against the cap).
 
 Conversation state: each browser session holds a 5-turn
 `ConversationBufferWindowMemory`; sessions expire after 30 minutes. Saved
@@ -102,6 +105,13 @@ The legacy pipeline stays one env away:
 Sweep notes: `NEIGHBOR_RADIUS=2` beat 1 (outline recall +0.04 for +5.6%
 tokens); `RERANKER_TOP_K=13`, `RERANK_SCORE_THRESHOLD=0.2`, and model-default
 thinking all measured worse (see `config.py` comments for why).
+
+A follow-up model benchmark (`eval/benchmarks/202606_model_comparison/`)
+then cut cost a further 69%: generation moved to `gemini-3.1-flash-lite`
+with the rewriter kept on `gemini-3.5-flash` — $0.0126 → $0.0039/query
+($12.61 → $3.87 per 1k) at hit-rate parity (0.963) and the best fact recall
+of any run (0.890). At lite-class generation prices the Ranking API's fixed
+$0.001/query is now the largest cost component.
 
 ### The eval harness
 

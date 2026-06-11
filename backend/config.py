@@ -57,10 +57,12 @@ PG_CONNECTION = os.getenv(
 # (blue-green — the live server keeps serving the old collection during a build)
 PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606")
 
-GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.5-flash")
-# The rewrite/decompose call is a trivial structured task — it can run on a
-# cheaper model than generation. Defaults to GEMINI_MODEL.
-REWRITER_MODEL = _env_str("REWRITER_MODEL", GEMINI_MODEL)
+# Mixed-model setup (June 2026 benchmark, eval/benchmarks/202606_model_comparison):
+# generation on flash-lite cut cost 69% at equal-or-better quality, but ONLY
+# with the rewriter kept on 3.5-flash — sub-query quality drives retrieval
+# (pure lite: hit 0.929; mix: hit 0.963 / recall 0.890, best of all runs).
+GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.1-flash-lite")
+REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.5-flash")
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
