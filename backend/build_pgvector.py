@@ -228,6 +228,12 @@ def chunk_documents(documents: List[Document]) -> List[Document]:
     chunks = []
     for doc in tqdm(documents, desc="Chunking", unit="doc"):
         doc_chunks = text_splitter.split_documents([doc])
+        # Ordinal within the source document. The serving-side neighbor
+        # expansion currently reconstructs this from pickle order +
+        # content-hash lookups; chunks built with this stamp can use it
+        # directly (and it survives any future reordering of the pickle).
+        for i, chunk in enumerate(doc_chunks):
+            chunk.metadata["chunk_index"] = i
         chunks.extend(doc_chunks)
 
     sizes = [len(c.page_content) for c in chunks]

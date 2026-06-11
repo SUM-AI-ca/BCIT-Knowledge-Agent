@@ -107,8 +107,9 @@ RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 10)
 CONTEXT_MODE = _env_str("CONTEXT_MODE", "chunks")
 # How many adjacent chunks to pull in on each side of a selected chunk. The
 # corpus pickle stores chunks per source in document order, so neighbors can
-# be resolved in-process without a DB migration.
-NEIGHBOR_RADIUS = _env_int("NEIGHBOR_RADIUS", 1)
+# be resolved in-process without a DB migration. Eval: 2 beats 1 on outline
+# fact recall (+0.04) and entrance-requirement chunks for +5.6% tokens.
+NEIGHBOR_RADIUS = _env_int("NEIGHBOR_RADIUS", 2)
 # Hard cap for the assembled context; neighbor expansion is dropped from the
 # lowest-ranked sources first, then whole trailing sources.
 CONTEXT_MAX_CHARS = _env_int("CONTEXT_MAX_CHARS", 24000)
