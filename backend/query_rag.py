@@ -59,8 +59,12 @@ from config import (
     RERANKER_CANDIDATES,
     RERANKER_TOP_K,
     MEMORY_WINDOW_K,
-    PRICE_INPUT_PER_M,
-    PRICE_OUTPUT_PER_M,
+    PRICE_GEN_INPUT_PER_M,
+    PRICE_GEN_OUTPUT_PER_M,
+    PRICE_REWRITE_INPUT_PER_M,
+    PRICE_REWRITE_OUTPUT_PER_M,
+    PRICE_RERANK_PER_CALL,
+    PRICE_EMBED_PER_QUERY,
     CONTEXT_MODE,
     NEIGHBOR_RADIUS,
     CONTEXT_MAX_CHARS,
@@ -637,7 +641,7 @@ class BCITChatbot:
                 "standalone_question": question,
                 "finish_reason": "",
                 "usage": {},
-                "est_cost_usd": None,
+                "est_cost_usd": 0.0,
                 "timings": {},
                 "n_context_docs": 0,
             }
@@ -667,6 +671,9 @@ class BCITChatbot:
             t_retrieve = mq_stats["retrieve_s"]
             t_rerank = mq_stats["rerank_s"]
             n_candidates = mq_stats["n_candidates"]
+            n_rerank_calls = 0
+            if USE_RERANKING and self.reranker:
+                n_rerank_calls = len(sub_queries) if RERANK_MODE == "per_subquery" else 1
         else:
             t0 = time.perf_counter()
             docs = self.base_retriever.invoke(standalone_question)
@@ -674,12 +681,14 @@ class BCITChatbot:
 
             t0 = time.perf_counter()
             n_candidates = len(docs)
+            n_rerank_calls = 0
             if USE_RERANKING and self.reranker:
                 docs = self.reranker.rerank(
                     query=standalone_question,
                     documents=docs,
                     top_k=RERANKER_TOP_K
                 )
+                n_rerank_calls = 1
             t_rerank = time.perf_counter() - t0
 
         if CONTEXT_MODE == "chunks":
@@ -718,16 +727,21 @@ class BCITChatbot:
         output_tokens = usage.get("output_tokens", 0)
         details_in = usage.get("input_token_details") or {}
         details_out = usage.get("output_token_details") or {}
+        reasoning_tokens = details_out.get("reasoning", 0)
         rw_in = rewrite_usage.get("input_tokens", 0)
         rw_out = rewrite_usage.get("output_tokens", 0)
 
-        est_cost = None
-        if PRICE_INPUT_PER_M > 0 or PRICE_OUTPUT_PER_M > 0:
-            est_cost = round(
-                (input_tokens + rw_in) / 1e6 * PRICE_INPUT_PER_M
-                + (output_tokens + rw_out) / 1e6 * PRICE_OUTPUT_PER_M,
-                6
-            )
+        # Generation and rewrite run on different models (and prices); thinking
+        # tokens bill as output. Rerank is per-call, embedding ~flat.
+        est_cost = round(
+            input_tokens / 1e6 * PRICE_GEN_INPUT_PER_M
+            + (output_tokens + reasoning_tokens) / 1e6 * PRICE_GEN_OUTPUT_PER_M
+            + rw_in / 1e6 * PRICE_REWRITE_INPUT_PER_M
+            + rw_out / 1e6 * PRICE_REWRITE_OUTPUT_PER_M
+            + n_rerank_calls * PRICE_RERANK_PER_CALL
+            + PRICE_EMBED_PER_QUERY,
+            6
+        )
 
         meta = {
             "answer": answer,
@@ -737,11 +751,13 @@ class BCITChatbot:
             "usage": {
                 "input_tokens": input_tokens,
                 "output_tokens": output_tokens,
-                "reasoning_tokens": details_out.get("reasoning", 0),
+                "reasoning_tokens": reasoning_tokens,
                 "cache_read_tokens": details_in.get("cache_read", 0),
                 "rewrite_input_tokens": rw_in,
                 "rewrite_output_tokens": rw_out,
             },
+            "n_rerank_calls": n_rerank_calls,
+            "models": {"generation": GEMINI_MODEL, "rewriter": REWRITER_MODEL},
             "est_cost_usd": est_cost,
             "timings": {
                 "rewrite_s": round(t_rewrite, 3),

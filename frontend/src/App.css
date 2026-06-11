@@ -110,6 +110,33 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
 }
 
+/* Per-reply usage footer (tokens / cost / latency / model) */
+.msg-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.72rem;
+  color: #8a8f98;
+  cursor: default;
+}
+
+.msg-stats svg {
+  color: #e8a33d;
+  flex-shrink: 0;
+}
+
+.msg-stats-sep {
+  color: #d0d3d8;
+}
+
+.msg-stats-model {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.68rem;
+}
+
 /* Markdown Styles in Assistant Bubble */
 .assistant-bubble p {
   margin: 0 0 0.5rem 0;

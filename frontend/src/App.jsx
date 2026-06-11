@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Send, ArrowLeft } from "lucide-react";
+import { Send, ArrowLeft, Zap } from "lucide-react";
 import Blog from "./Blog";
 import "./App.css";
 
@@ -149,6 +149,7 @@ function Chat() {
         id: (Date.now() + 1).toString(),
         text: data.reply,
         sender: "assistant",
+        stats: data.stats || null,
         timestamp: new Date()
       };
 
@@ -196,6 +197,21 @@ function Chat() {
           >
             <div className={m.sender === "user" ? "msg-bubble user-bubble" : "msg-bubble assistant-bubble"}>
               {m.sender === "assistant" ? formatMessage(m.text) : m.text}
+              {m.stats && (
+                <div
+                  className="msg-stats"
+                  title={`input ${m.stats.input_tokens.toLocaleString()} tokens · output ${m.stats.output_tokens.toLocaleString()} tokens (incl. query rewriting) · ${m.stats.model}`}
+                >
+                  <Zap size={11} />
+                  <span>{m.stats.total_tokens.toLocaleString()} tokens</span>
+                  <span className="msg-stats-sep">·</span>
+                  <span>${m.stats.cost_usd.toFixed(4)}</span>
+                  <span className="msg-stats-sep">·</span>
+                  <span>{m.stats.latency_s.toFixed(1)}s</span>
+                  <span className="msg-stats-sep">·</span>
+                  <span className="msg-stats-model">{m.stats.model}</span>
+                </div>
+              )}
             </div>
           </div>
         ))}

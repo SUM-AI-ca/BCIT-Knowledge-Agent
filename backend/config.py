@@ -78,10 +78,16 @@ MEMORY_WINDOW_K = _env_int("MEMORY_WINDOW_K", 5)
 STRIP_SOURCES_FROM_HISTORY = _env_bool("STRIP_SOURCES_FROM_HISTORY", True)
 HISTORY_MAX_ANSWER_CHARS = _env_int("HISTORY_MAX_ANSWER_CHARS", 1500)
 
-# Per-million-token prices for the generation model, used only for the
-# estimated-cost field in logs/eval. 0 disables the estimate.
-PRICE_INPUT_PER_M = _env_float("PRICE_INPUT_PER_M", 0.0)
-PRICE_OUTPUT_PER_M = _env_float("PRICE_OUTPUT_PER_M", 0.0)
+# Per-call prices for the cost estimate shown to users and logged per query.
+# List prices as of 2026-06 (ai.google.dev/gemini-api/docs/pricing and the
+# Ranking API pricing page) — UPDATE THESE when models or prices change; all
+# env-overridable. Output prices include thinking tokens.
+PRICE_GEN_INPUT_PER_M = _env_float("PRICE_GEN_INPUT_PER_M", 0.25)      # gemini-3.1-flash-lite
+PRICE_GEN_OUTPUT_PER_M = _env_float("PRICE_GEN_OUTPUT_PER_M", 1.50)
+PRICE_REWRITE_INPUT_PER_M = _env_float("PRICE_REWRITE_INPUT_PER_M", 1.50)   # gemini-3.5-flash
+PRICE_REWRITE_OUTPUT_PER_M = _env_float("PRICE_REWRITE_OUTPUT_PER_M", 9.00)
+PRICE_RERANK_PER_CALL = _env_float("PRICE_RERANK_PER_CALL", 0.001)     # Ranking API $1/1k queries
+PRICE_EMBED_PER_QUERY = _env_float("PRICE_EMBED_PER_QUERY", 0.00001)   # $0.15/M x ~60 tokens
 
 CHUNK_SIZE = 1024
 CHUNK_OVERLAP = 130

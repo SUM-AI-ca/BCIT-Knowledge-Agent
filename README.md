@@ -410,7 +410,7 @@ frontend/
 |---|---|
 | `GET /` | Blog landing page (also serves any non-API path as SPA fallback) |
 | `GET /chat` | Chatbot UI |
-| `POST /chat` | `{message, session_id?}` → `{reply, session_id}` |
+| `POST /chat` | `{message, session_id?}` → `{reply, session_id, stats}` — `stats` = per-reply `{input_tokens, output_tokens, total_tokens, cost_usd, latency_s, model}` (rendered as the footer under each answer; cost = role-priced LLM tokens + Ranking API call + embedding, prices in `config.py`) |
 | `POST /reset` | Clear a session's conversation history |
 | `GET /health` | Status + active session count |
 

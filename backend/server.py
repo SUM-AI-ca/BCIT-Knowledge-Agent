@@ -34,9 +34,20 @@ class ChatRequest(BaseModel):
     session_id: Optional[str] = None
 
 
+class ChatStats(BaseModel):
+    """Per-reply transparency footer: what this answer actually consumed."""
+    input_tokens: int
+    output_tokens: int
+    total_tokens: int
+    cost_usd: float
+    latency_s: float
+    model: str
+
+
 class ChatResponse(BaseModel):
     reply: str
     session_id: str
+    stats: Optional[ChatStats] = None
 
 
 chatbot: Optional[BCITChatbot] = None
@@ -90,15 +101,33 @@ def get_session_stats():
     }
 
 
-def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> str:
+def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> dict:
     # Memory is passed per request — never swap chatbot.memory globally,
     # concurrent requests would leak history across sessions.
-    return chatbot.query(question, memory=memory)
+    return chatbot.query_with_meta(question, memory=memory)
 
 
-async def query_chatbot_async(question: str, memory: ConversationBufferWindowMemory) -> str:
+async def query_chatbot_async(question: str, memory: ConversationBufferWindowMemory) -> dict:
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(executor, query_chatbot_sync, question, memory)
+
+
+def build_stats(meta: dict) -> ChatStats:
+    usage = meta.get("usage") or {}
+    tokens_in = (usage.get("input_tokens", 0) or 0) + (usage.get("rewrite_input_tokens", 0) or 0)
+    tokens_out = (
+        (usage.get("output_tokens", 0) or 0)
+        + (usage.get("reasoning_tokens", 0) or 0)
+        + (usage.get("rewrite_output_tokens", 0) or 0)
+    )
+    return ChatStats(
+        input_tokens=tokens_in,
+        output_tokens=tokens_out,
+        total_tokens=tokens_in + tokens_out,
+        cost_usd=meta.get("est_cost_usd") or 0.0,
+        latency_s=(meta.get("timings") or {}).get("total_s", 0.0),
+        model=(meta.get("models") or {}).get("generation", ""),
+    )
 
 
 @asynccontextmanager
@@ -183,11 +212,15 @@ async def chat(request: ChatRequest):
         logger.info("[Query] Session %s...: %s", session_id[:8], request.message[:80])
 
         # Query chatbot (async to avoid blocking)
-        reply = await query_chatbot_async(request.message, memory)
+        meta = await query_chatbot_async(request.message, memory)
 
-        logger.debug("[Reply] %s...", reply[:100])
+        logger.debug("[Reply] %s...", meta["answer"][:100])
 
-        return ChatResponse(reply=reply, session_id=session_id)
+        return ChatResponse(
+            reply=meta["answer"],
+            session_id=session_id,
+            stats=build_stats(meta),
+        )
 
     except Exception as e:
         logger.exception("[Error] chat request failed")
