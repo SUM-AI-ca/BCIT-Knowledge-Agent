@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/signal-processing-and-filters-elex-7620/
+Title: Signal Processing and Filters ELEX 7620
+Type: Course
+Course Code: ELEX 7620
+
+================================================================================
+
+## Signal Processing and Filters ELEX 7620
+Electrical and Computer Engineering Course
+## Course Overview
+This course covers important topics in continuous-time signal processing and discrete-time signal processing. It includes a general treatment of analog filter types, and the transfer functions for various classical filter types. Transformations from normalized low-pass to high-pass, band-pass, band-reject are covered. Various circuits to realize the resulting transfer functions are analyzed and implemented in the laboratory. Fourier Series and the various related transformations are covered. Spectrum representation of digitized waveforms is examined. Sampling and aliasing are examined, followed by an introduction to basic analysis and design strategies for finite impulse response (FIR) filters. The Z transform is developed, followed by an examination of recursive digital filters. Various s-plane to z-plane transformations are presented, and design techniques for recursive digital filters are covered.
+### Prerequisite(s)
+- ELEX 3210 and ELEX 7610 and MATH 4620
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss advantages and disadvantages of analog signal processing as compared with Digital Signal Processing (DSP) [1]
+- Identify the characteristics of various classical filters, including passband response and group delay [1]
+- Design, build, and test analog implementations of Butterworth and other filters [2,4,5]
+- Apply frequency scaling and mapping for the design of high pass and band pass filters [4]
+- Describe and analyze the effects of sampling and quantization [3]
+- Discuss anti-aliasing and reconstruction filters for discrete time systems [1]
+- Use the z-transform to study discrete time signals and systems. Describe the relationship between z-transform and Laplace transform [1,2]
+- Design, implement, and test low pass, high pass, and band pass FIR filters using various windows [2,3,4,5]
+- Design, implement, and test IIR filters using various s-plane to z-plane mapping techniques [2,3,4,5]
+- Analyze discrete time signals with the Discrete Fourier Transform (DFT). Describe the idea behind the Fast Fourier Transform (FFT) algorithm [1,2]
+- Demonstrate proficiency with design software such as MATLAB for designing filter systems [4,5]
+Effective as of Winter 2022
+## Related Programs
+Signal Processing and Filters (ELEX 7620) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

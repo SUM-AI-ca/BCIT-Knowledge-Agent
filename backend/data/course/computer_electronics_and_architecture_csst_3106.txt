@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/computer-electronics-and-architecture-csst-3106/
+Title: Computer Electronics and Architecture CSST 3106
+Type: Course
+Course Code: CSST 3106
+
+================================================================================
+
+## Computer Electronics and Architecture CSST 3106
+Computer Systems Service Technician Course
+## Course Overview
+This course introduces students to basic electronics and architecture necessary in working with computer platforms, peripherals and networks. Focused primarily on hardware design and organization, students cover the basic organization, design, and programming of a simple digital computer. Students are presented with an incremental look at networked computer systems starting with digital logic and hardware, moving through the layers of software, and leading to an introduction to networking and operating systems. Students will use assembly language programming as a means to describe machine behaviour.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the usages of the binary and hexadecimal numbering systems.
+- Perform conversions between binary, hexadecimal and decimal numbering systems.
+- Perform basic arithmetic operations across binary, hexadecimal and decimal numbering systems.
+- Explain the logical operation of simple digital circuits such as gates, multi-plexers, adders and half-adders.
+- Produce functional logical schematic diagrams using simple digital circuits.
+- Program the simulator in both assembly language and C ++.
+- Explain the design components used in microprocessors.
+- Explain how the components of microprocessors work with other components.
+- Explain differences in microprocessor design.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

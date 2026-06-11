@@ -1,0 +1,103 @@
+URL: https://www.bcit.ca/outlines/20261092227/
+Course: GEOM 2021
+Field: Surveying Computations 2
+Subject: Geomatics
+Term: 202610
+CRN: 92227
+
+================================================================================
+
+## Course Outline
+## GEOM 2021
+## Surveying Computations 2
+School | School of Construction and the Environment
+Program | Geomatics Engineering Technology
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 60
+Total Weeks | 20
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | 50% in GEOM 1021
+CRN | 92227
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Scott Netherton
+E-mail | snetherton@bcit.ca
+Location | SW02-313
+Office Hours | Burnaby Campus: Tuesday: 8:30AM to 9:30AM Wednesday: 8:30Am to 9:30AM, 10:30AM to 11:30AM Thursday: 11:30AM to 1:30PM
+### Course Description
+​This course is a continuation of GEOM 1021 and will introduce geomatics students to more complex and varied survey computation techniques. Lectures will focus on the theoretical principles and procedures for computation, while lab assignments show the practical approach of computations in industry applications. The course will introduce control survey calculations using intersection and resection methods and the linear transformation of local to global rectangular coordinate systems. The geometry of simple circular curves and the computation of curve layout data will be presented and then further expanded to include compound and reverse curve applications. Other topics include the theory and practical application of calculations for symmetrical and non-symmetrical parabolic vertical curves, a variety of area calculation methods to enable the subdivision of land parcels to meet specific design requirements, and road cross-sectional area and volume calculations for typical earthwork applications.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Perform computations of coordinates of control stations using intersection and resection methods.
+- Calculate linear transformation parameters and transform local to global rectangular coordinates.
+- Compute areas of land parcels using various methods.
+- Identify the various geometric elements of simple circular curves.
+- Apply mathematical theory to compute the primary elements of horizontal circular curves, including compound and reverse curves.
+- Identify the various design elements of symmetrical and non-symmetrical parabolic vertical curves.
+- Apply mathematical theory to compute elevations and curve lengths for typical symmetrical and non-symmetrical vertical curve applications.
+- Calculate road cross-section areas and determine earthwork volumes for road and construction applications.
+- Subdivide land parcels to meet specific design requirements using calculation methods.​
+### Learning Resources
+Required :
+- Course notes will be provided by the instructor
+- Scientific Calculator
+Recommended :
+Either of the following texts contain introductory material on plane survey calculations:
+”Elementary Surveying: An Introduction to Geomatics” , 15 th Edition (2017), Dr Charles D. Ghilani, Pearson, ISBN-10: 0134604652 or ISBN-13: 978-0134604657
+“Surveying: Principles and Application s” , 9 th Edition (2012), Barry Kavanagh and Tom Mastin, Pearson, ISBN-10: 0137009402 or ISBN-13: 978-0137009404
+### Evaluation Criteria
+Criteria | % | Comments
+Final Examination | 35 | 15 weekly assignments are equally weighted.
+Midterm 1 | 20
+Midterm 2 | 20
+Assignments | 25
+TOTAL | 100
+### Course Schedule and Assignments
+Week | Lec Date | Topic | Labs
+1 | No Lecture or Labs
+2 | 07 Jan | Intersections 1 | Assign. 1
+3 | 14 Jan | Intersections 2 | Assign. 2
+4 | 21 Jan | 2D Resection | Assign. 3
+5 | 28 Jan | 3D Resection & Inaccessible Point | Assign. 4
+6 | 04 Feb | Areas 1 | Assign. 5
+7 | 11 Feb | Areas 2 / Midterm 1 in Lab | Assign. 6
+8 | 18 Feb | Horizontal Curves 1 | Assign. 7
+9 | 25 Feb | Horizontal Curves 2 | Assign. 8
+10 | 04 Mar | Vertical Curves 1 | Assign. 9
+11 | 11 Mar | Spring Break
+12 | 18 Mar | Vertical Curves 2 | Assign. 10
+13 | 25 Mar | Midterm 2 in Lab (no lecture or assignment)
+14 | 01 Apr | Transformation of Coordinates | Assign. 11
+15 | 08 Apr | Volumes and Grades 1 | Assign. 12
+16 | 15 Apr | Volumes and Grades 2 | Assign. 13
+17 | 22 Apr | Subdivision of Land 1 | Assign. 14
+18 | 29 Apr | Subdivision of Land 2 | Assign. 15
+19 | 06 May | Final Review Lecture - (lecture only, no Labs)
+20 | Final Exam Week
+Note - all lab assignments due within one week of scheduled lab unless otherwise noted.
+- schedule is subject to change, students will be advised in advance of any changes.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Scott Netherton, Instructor January 05, 2026
+I verify that this course outline has been reviewed. Mark Dailey, Program Head January 05, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 06, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

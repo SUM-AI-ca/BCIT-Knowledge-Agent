@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/relational-database-systems-comp-1730/
+Title: Relational Database Systems COMP 1730
+Type: Course
+Course Code: COMP 1730
+
+================================================================================
+
+## Relational Database Systems COMP 1730
+Computer Systems Course
+## Course Overview
+This course covers relational database technology, including basic concepts, relational algebra, enhanced entity relationship data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, security and transaction management. Students design and implement a database application using RDBMS. Also covers some current database trends such as replication, object-relational DBMS, data warehousing and OLAP, and use of databases through web technology.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the functions and characteristics of the relational database model.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling;
+- Functional dependencies and normalization; and
+- Derivation of relations schema from EER models.
+- Apply database design process to design and implement a database application using a RDBMS.
+- Describe security issues and data protection techniques in a database environment.
+- Use relational algebra operations to solve relational queries.
+- Use SQL to implement and query a relational database.
+- Discuss techniques for transaction management and concurrency control.
+- Explain the use of databases in data warehousing and OLAP.
+- Identify recent trends and developments in the database systems area.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

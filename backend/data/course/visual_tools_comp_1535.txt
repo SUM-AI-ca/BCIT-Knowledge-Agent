@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/visual-tools-comp-1535/
+Title: Visual Tools COMP 1535
+Type: Course
+Course Code: COMP 1535
+
+================================================================================
+
+## Visual Tools COMP 1535
+Computer Systems Course
+## Course Overview
+Emphasis is on good programming techniques, interface design, OOP, creating visual components and testing procedures. The course complements principles of programming and methodologies using advanced modern visual development tools. Students will learn how to write high quality Windows GUI based applications using Rapid Aplication Development (RAD) tools. Students will also create applications dealing with sound and images and will produce a simple game as their final project.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Create applications using Object Oriented Programming techniques.
+- Create applications using the Windows 32 API.
+- Create a Win32 compatible DLL for use with other Win32 applications.
+- Create Active X Components for use with Win32 based applications.
+- Create Delphi 6 Components for use with Win32 based applications.
+- Create Multi-Threaded Win32 and Linux based applications.
+- Create Cross Platform Compatible applications between Win32 and Linux platforms.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

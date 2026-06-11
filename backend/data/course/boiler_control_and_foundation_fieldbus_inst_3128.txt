@@ -1,0 +1,50 @@
+URL: https://www.bcit.ca/courses/boiler-control-and-foundation-fieldbus-inst-3128/
+Title: Boiler Control and Foundation Fieldbus INST 3128
+Type: Course
+Course Code: INST 3128
+
+================================================================================
+
+## Boiler Control and Foundation Fieldbus INST 3128
+Industrial Inst/ProcessControl Course
+## Course Overview
+Students will learn the fundamentals of industrial boiler control, including burner management safety. Students will gain experience tuning up a real industrial boiler control system with state of the art controls to achieve optimum performance from the boiler. Students will gain hands-on experience with a Foundation Fieldbus control system applied to a wide variety of control loops on a running boiler.
+### Prerequisite(s)
+- Successful completion of term 3 courses
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Combustion Control
+- Explain the fundamental elements of combustion, Stoichiometric combustion and the importance of the 3 Ts of combustion (time, temperature and turbulence) applied to combustion control.
+- Explain the importance, sources and methods of control of CO/NOX/SOX when applied to industrial combustion control.
+- Explain the application and operation of flue gas analyzers such as chemical cell, high temperature chemical cell (zirconium oxide), catalytic combustion, paramagnetic etc. applied to industrial boilers.
+- Calibrate a microprocessor based O2/COe analyzer applied to industrial boiler control.
+## Industrial Boilers
+- Explain the difference between the fire tube and a water tube industrial boiler.
+- Explain the steam components found in an industrial boiler system such as steam drum, mud drum, risers, down comers, de-aerators and the combustion components such as FD fan, ID fan, burner, nozzles, airflow transmitters, gas flow transmitters, gas flow transducers, oil flow transmitters.
+- Explain the operation of a Burner Management System (BMS) to conform to ASME, NFPA and BC Safety Authority, industrial gas standards including the operation of primary interlocks and permissive such as low water cut offs, high fuel pressure cut offs, low fuel pressure cut offs, high furnace pressure cut offs, low furnace pressure cut offs, minimum air flow cut offs, low oxygen cut offs, high CO cut offs.
+## Industrial Boiler Control Systems
+- Explain the operation of a parallel open/closed loop, jackshaft and cross limited including excess oxygen trim combustion control systems.
+- Explain the difference between plant master and boiler master controls.
+- Explain the application of feedforward control indexing to the plant master pressure controller.
+- Explain the operation of steam temperature attemporator and conventional desuperheater control.
+- Explain the operation of balanced draft furnace pressure control using FD and ID fans.
+## Foundation Fieldbus Systems
+- Explain the fundamental principles of Foundation Fieldbus control compared to conventional analog or DCS control.
+- Troubleshoot control loops in a Foundation Fieldbus control system.
+- Tune an industrial boiler control system applying a hybrid DCS and Foundation Fieldbus control system.
+- Optimize industrial boiler control systems to achieve maximum efficiency and performance under significant load changes.
+## Gas Analyzers
+- Explain the operation and application of gas analyzers such as NOX, SO2, H2S, CO and LEL (lower explosive limit) analyzers.
+Effective as of Winter 2018
+## Related Programs
+Boiler Control and Foundation Fieldbus (INST 3128) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

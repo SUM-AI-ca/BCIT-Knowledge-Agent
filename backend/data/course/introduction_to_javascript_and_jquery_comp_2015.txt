@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/introduction-to-javascript-and-jquery-comp-2015/
+Title: Introduction to JavaScript and jQuery COMP 2015
+Type: Course
+Course Code: COMP 2015
+
+================================================================================
+
+## Introduction to JavaScript and jQuery COMP 2015
+Computer Systems Course
+## Course Overview
+Continuing on from COMP 1850 students with a good understanding of HTML5 and CSS3 are introduced to client-side scripting with JavaScript and jQuery. Topics include: object/feature detection, DOM manipulation, event handling, functions (named and anonymous), closures, object detection, object creation and prototyping, event handling and callback functions, jQuery introduction, jQuery plugin usage, form validation, timers and simple animations. Labs, exercises and assignments focus on the theory behind client-side web scripting and how to manage interactive sites. This course is prerequisite for several advanced JavaScript/jQuery courses including: COMP 2052 Android and Mobile Application Development Tools, COMP 2909 Angular and Vue.j, COMP 2912 Node.js and COMP 2913 React and Modern JavaScript. Upon successful completion participants will be able to write browser independent JavaScript code and use jQuery. PLEASE NOTE: COMP 2015 will be offered for the final time in June 2020. It will be replaced with a new 3 credit course COMP 2132 - Web Development with JavaScript starting September 2020.
+### Prerequisite(s)
+- COMP 1850 or equivalent knowledge
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the theory behind client-side web scripting.
+- Write JavaScript web scripts with and without HTML content.
+- Validate user input from web pages.
+- Write DOM scripting using W3C standard methods and objects such as "createElement".
+- Explain the JQuery Framework.
+- Use JQuery in addition to jQuery plugins to redevelop scripts in native JavaScript.
+- Use JQuery third-party plugins.
+- Use timers and intervals to create animations.
+- Create our own objects with their own properties and methods.
+- Use the Constructor and the Prototype patterns to create objects
+Effective as of Spring/Summer 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

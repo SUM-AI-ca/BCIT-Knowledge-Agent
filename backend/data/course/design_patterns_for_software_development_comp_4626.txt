@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/design-patterns-for-software-development-comp-4626/
+Title: Design Patterns for Software Development COMP 4626
+Type: Course
+Course Code: COMP 4626
+
+================================================================================
+
+## Design Patterns for Software Development COMP 4626
+Computer Systems Course
+## Course Overview
+This intense course is focused on best practices in Software Development and is aimed at students who already have some UML and hands-on, intermediate level Object Oriented Programming skills in Java, or C# or C++. Programmers receive an introduction to both object oriented and enterprise architecture design patterns and learn to apply them in common programming scenarios. There is an introduction into common frameworks which leverage design patterns, plus an overview of common anti-patterns. Topics include; design pattern fundamentals, a review of UML, and an overview of the most common design patterns, when they should be applied and how to apply them. By the end of this course, software developers will be able to solve common design problems, write cleaner, more maintainable code, and have a better understanding of common API's and popular frameworks using software Design Patterns. Prerequite: COMP 2830 and Java, or C# or C++.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Learn basic design pattern fundamentals and programming best practices.
+- Describe what design patterns are and how they can be used to solve common programming problems.
+- Gain knowledge of object-oriented design principles.
+- Describe how patterns relate to object-oriented design.
+- Describe how design patterns are documented and classified.
+- Implement creational patterns to abstract away how objects are created.
+- Implement structural patterns to properly arrange classes/objects into larger structures.
+- Implement behavioural patterns to control algorithms and assign objects responsibilities.
+- Implement common enterprise architecture patterns (Active Record, Service Layer, Model View Controller etc).
+- Review existing frameworks and API's that aid in design patterns goals (IOC Containers/Dependency Injection, Reflection etc).
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20253051911/
 Course: COMP 9200
 Field: Applied Research Methods
-
-School: School of Computing and Academic Studies
-Program: Master of Science in Applied Computing
-Course Credits: 3
-Minimum Passing Grade: 60%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Other
-Prerequisite(s): No prerequisites are required for this course.
+Subject: Computer Systems
+Term: 202530
 CRN: 51911
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## COMP 9200
+## Applied Research Methods
+School | School of Computing and Academic Studies
+Program | Master of Science in Applied Computing
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Other
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 51911
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Borna Noureddin
-E-mail: borna_noureddin@bcit.ca
-Location: SW2-321
-Office Hours: Wed 10:30am - 11:30amBy appointment (E-mail borna_noureddin@bcit.ca or 604-453-4007)
-
-## Course Description
+### Instructor Details
+Name | Borna Noureddin
+E-mail | borna_noureddin@bcit.ca
+Location | SW2-321
+Office Hours | Wed 10:30am - 11:30am By appointment (E-mail borna_noureddin@bcit.ca or 604-453-4007 )
+### Course Description
 ​This course introduces principles and procedures of standard research methodologies in the context of an interdisciplinary computing environment. It introduces the students to theories, paradigms and frameworks in computing, and the role and importance of models, theories and conceptual frameworks. The course also exposes students to quantitative and qualitative research methods such as surveys, interviews, experiments, case studies, grounded theory analysis and ethnography. Students also practice using inference as well as deductive and inductive reasoning, assessing the reliability and validity of data, and examining critically the assumptions, claims and methodology of existing literature. Students will also learn how to write an applied research proposal, including data collection and analysis.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Analyze and assess problems and issues underlying applied research methods in the context of computing.
 - Locate current and relevant primary source research materials using the Internet, periodicals, professional journals, and other sources of research.
 - Critically analyze and evaluate published literature in major discipline areas related to computing.
@@ -39,83 +42,61 @@ Upon successful completion of this course, the student will be able to:
 - Apply the principles of various research methods such as experiment, survey, field study and case study.
 - Prepare and present a computing related research proposal according to generally accepted standards.
 - Demonstrate a basic understanding of Indigenous and Indigenist research methodologies.​
-
-## Learning Resources
+### Learning Resources
 Practical Research: Design and Process, 13th edition. Jeanne Ellis Ormrod, ISBN-13: 9780137871537, Pearson Ed
-
-## Evaluation Criteria
-Criteria: %: Comments
-Quizzes: 10: In-class closed-book quizzes
-Assignments: 30
-Final proposal: 50: Written proposal and in-class presentation
-Class participation: 10: Attendance and participation in group class activities
-
-## Other information
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 10 | In-class closed-book quizzes
+Assignments | 30
+Final proposal | 50 | Written proposal and in-class presentation
+Class participation | 10 | Attendance and participation in group class activities
+### Other information
 Assignments: Late assignments will not be accepted for marking unless previously approved by instructor. Assignments must be done on an individual basis unless otherwise specified by the instructor.
-
-Makeup Quizzes: There will be no makeup quizzes. If you miss a quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
-
+Makeup Quizzes: There will be no makeup quizzes. If you miss a quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately .
 Ethics: BCIT assumes that all students attending the Institute will follow a high standard of ethics. Incidents of cheating or plagiarism may, therefore, result in a grade of zero for the assignment or quiz for all parties involved and/or expulsion from the course.
-
 Attendance: The attendance policy as outlined in the current BCIT Calendar will be enforced.
-
-Responsibilities: Each student will take responsibility for the following:
-
+Responsibilities : Each student will take responsibility for the following:
 - Reading any assigned materials for each class.
 - Participating energetically in the group discussions.
 - Completing all assignments and quizzes.
 - Course details are subject to change with sufficient prior notification to students.
-
 Course information, announcements, notes and discussion group facilities will be provided throughout the duration of the course.
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 Assignments, discussion postings and other work submitted by students will be considered to be ‘public domain’ materials and may be duplicated and made available to other students and classes.
-
 Evaluation of assignments may, at the discretion of the instructor, include peer evaluations, oral reviews or examination as part of the evaluation process.
-
 The instructor will provide a detailed course agenda at the beginning of each session, which will include an updated list of activities and commitments.
-
-Module: Theme: Week: Class date: Topic: Quiz or assignment due
-1: Research fundamentals in computing: 1: 3-Sep-25: Academic writing basics How to review a paper
-2: 10-Sep-25: Carrying out a literature review
-2: Data collection and analysis: 3: 17-Sep-25: Methods and methodology Data and measurement: Assignment 1
-4: 24-Sep-25: Quantitative methods, data collection and analysis
-5: 1-Oct-25: Statistical significance testing
-6: 8-Oct-25: AI/ML training, testing and validation data Data bias: Quiz 1
-7: 15-Oct-25: Qualitative methods, data collection and analysis: Assignment 2
-3: Technical communication: 8: 22-Oct-25: Conference paper writing Peer review process
-9: 29-Oct-25: Poster and presentation skills
-4: Ethics and related considerations: 10: 5-Nov-25: Privacy considerations in research Research ethics approval process: Assignment 3
-11: 12-Nov-25: Interdisciplinary methods: Quiz 2
-12: 19-Nov-25: Indigenous and indigenist methodologies: Assignment 4
-5: Industry research methods: 13: 26-Nov-25: Patent searches and IP considerations Grant writing introduction
-14: 3-Dec-25: Industry-academic collaboration: Final literature review and methodology proposal
-15: 10-Dec-25: Final proposal presentations: Final proposal presentations
-
-## BCIT Policy
+Module | Theme | Week | Class date | Topic | Quiz or assignment due
+1 | Research fundamentals in computing | 1 | 3-Sep-25 | Academic writing basics How to review a paper
+2 | 10-Sep-25 | Carrying out a literature review
+2 | Data collection and analysis | 3 | 17-Sep-25 | Methods and methodology Data and measurement | Assignment 1
+4 | 24-Sep-25 | Quantitative methods, data collection and analysis
+5 | 1-Oct-25 | Statistical significance testing
+6 | 8-Oct-25 | AI/ML training, testing and validation data Data bias | Quiz 1
+7 | 15-Oct-25 | Qualitative methods, data collection and analysis | Assignment 2
+3 | Technical communication | 8 | 22-Oct-25 | Conference paper writing Peer review process
+9 | 29-Oct-25 | Poster and presentation skills
+4 | Ethics and related considerations | 10 | 5-Nov-25 | Privacy considerations in research Research ethics approval process | Assignment 3
+11 | 12-Nov-25 | Interdisciplinary methods | Quiz 2
+12 | 19-Nov-25 | Indigenous and indigenist methodologies | Assignment 4
+5 | Industry research methods | 13 | 26-Nov-25 | Patent searches and IP considerations Grant writing introduction
+14 | 3-Dec-25 | Industry-academic collaboration | Final literature review and methodology proposal
+15 | 10-Dec-25 | Final proposal presentations | Final proposal presentations
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Computing and Academic Studies
+### Guidelines for School of Computing and Academic Studies
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Borna Noureddin, Instructor August 26, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Aaron Hunter, Associate Dean August 28, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

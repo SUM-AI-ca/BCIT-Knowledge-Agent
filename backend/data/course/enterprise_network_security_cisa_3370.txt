@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/enterprise-network-security-cisa-3370/
+Title: Enterprise Network Security CISA 3370
+Type: Course
+Course Code: CISA 3370
+
+================================================================================
+
+## Enterprise Network Security CISA 3370
+Computer Info Systems Admin Course
+## Course Overview
+​This course explores security concepts with a focus on switches, routers, firewall configuration in Cisco, and FortiGate Firewalls. Students will learn about specific types of security attacks, how to secure switches and routers, and work with the next generation of firewalls (NGFW). Students will learn what is new in NGFW and how they can use these technologies to secure the network. Hands-on activities include hardening Cisco switches and routers, working with NGFW, and implementing VPN in different scenarios in a lab environment. This course will provide students with in-depth knowledge and practical experience on current essential security systems.
+### Prerequisite(s)
+- CISA 2370
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Cisco
+- Harden switches and routers
+- Configure security features on switches to mitigate Layer 2 attacks
+- Configure a zone-based firewall to perform basic security operations on a network
+- Implement Private VLANs on switches
+- Configure SNMPV3 and Syslog
+- Implement VPN technologies in NGFW(IKE) (SSL VPN-IPSEC)
+- FortiGate
+- Compare NGFW & classic Firewalls
+- Configure firewall objects and firewall policies
+- Configure the source and destination matching in firewall policies
+- Configure NAT settings
+- Configure Url-Filtering and App-ID
+- Configure Captive Portal
+- Monitor logs and events in the firewall
+- Implement VPN technologies in NGFW(IKE) (SSL VPN-IPSEC)
+Effective as of Fall 2020
+## Related Programs
+Enterprise Network Security (CISA 3370) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

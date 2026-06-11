@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/frontend-web-development-1-comp-2170/
+Title: Frontend Web Development 1 COMP 2170
+Type: Course
+Course Code: COMP 2170
+
+================================================================================
+
+## Frontend Web Development 1 COMP 2170
+Computer Systems Course
+## Course Overview
+​In this course, students are introduced to client-side programming with JavaScript. Students will learn how to write programs with JavaScript, using a full range of modern techniques. This will then be applied to traditional frontend development, including such topics as event handling, DOM manipulation, and AJAX students in this course build on skills learn in Fundamental Frontend Web Technologies, and prepares students for a future course in more sophisticated approaches to modern frontend development.
+### Prerequisite(s)
+- 50% in COMP 1170
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design, implement, test, debug programs in JavaScript in the browser.
+- Review and analyze the behaviour of simple programs in JavaScript.
+- Use different variables and values in JavaScript, including built-in primitive types, built-in compound types (such as arrays and assoative arrays), functions, and global objects (such as Array or Date or RegExp).
+- Demonstrate proficiency with various control structures, including loops, conditionals, functions and compound expressions.
+- Apply decomposition to break a program into modules and functions.
+- Use first-party and third-party modules.
+- Evaluate and debug JavaScript in the browser, using the development tools provided by the browser.
+- Use callbacks and closures to organize logic and execute code synchronously or asynchronously.
+- Identify common outcomes of type coercion such as numbers to strings and coercion in Boolean contexts.
+- Implement good programming practices for clear communication, such as comments and formatting style.
+- Use promises and/or async await to handle execution of asynchronous functions.
+- Identify the properties of higher order functions and closures within JavaScript.
+- Select DOM elements in JavaScript using CSS selectors.
+- Write JavaScript code to manipulate the DOM.
+- Write JavaScript that executes based on DOM events.
+- Write frontend JavaScript that retrieves data over HTTP to dynamically change the content of the web page.
+- Use template-style technologies to dynamically create and edit DOM nodes.
+Effective as of Winter 2023
+## Related Programs
+Frontend Web Development 1 (COMP 2170) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Digital Design and Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

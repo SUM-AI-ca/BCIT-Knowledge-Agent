@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/virtualization-and-database-systems-for-industrial-network-cybersecurity-acit-4421/
+Title: Virtualization and Database Systems for Industrial Network Cybersecurity ACIT 4421
+Type: Course
+Course Code: ACIT 4421
+
+================================================================================
+
+## Virtualization and Database Systems for Industrial Network Cybersecurity ACIT 4421
+Computer Information Technology Course
+## Course Overview
+This course develops a working knowledge of virtualization and database systems to provide a deep understanding that industrial networks often extend into a virtualized server or workstation running a relational database. Building on the concepts developed in the Windows Server Administration for Industrial Network Cybersecurity course in term three, this course prepares students for the Culmination Project in the following five-week term. The concepts being developed in this course are closely related to the concepts being developed concurrently in the Cyber Operations course. Topics include: the implementation and configuration of Microsoft’s Hyper-V, the installation of a relational database on a virtual machine, creating a database and database objects, querying a database using SQL, security issues with relational databases, and data protection techniques for relational databases.
+### Prerequisite(s)
+- ACIT 3421
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain why virtualization is important and where it can be used. (2)
+- Describe Microsoft’s virtualization solution. (2)
+- Install Microsoft Hyper-V. (3)
+- Configure Hyper-V storage, networking, and virtual machine settings using the Virtual Machine Manager (VMM). (3)
+- Deploy a guest operating system in Hyper-V. (3)
+- Install a relational database on a virtual host. (3)
+- Create a database and database objects on a virtual host using a desktop RDBMS. (4)
+- Use SQL to implement and query a relational database. (3)
+- Identify security issues. (3)
+- Propose data protection techniques for databases. (3)
+- Explain the application of virtualization and databases in an industrial environment. (2)
+Effective as of Winter 2021
+## Related Programs
+Virtualization and Database Systems for Industrial Network Cybersecurity (ACIT 4421) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

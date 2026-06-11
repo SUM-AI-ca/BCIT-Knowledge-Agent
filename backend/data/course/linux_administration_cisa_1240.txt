@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/linux-administration-cisa-1240/
+Title: Linux Administration CISA 1240
+Type: Course
+Course Code: CISA 1240
+
+================================================================================
+
+## Linux Administration CISA 1240
+Computer Info Systems Admin Course
+## Course Overview
+Building upon knowledge from CISA 1140 , this course advances the student skills to effectively administer Linux operating systems. Students learn more advanced configurations for users, groups, hardware, file systems, networking and learn the steps to manage kernel services. Students develop additional troubleshooting skills and investigate account policies, security, web services, and scripting.
+### Prerequisite(s)
+- Successful completion of CISA Level 1 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Manage application software on the Linux operating system.
+- Describe the boot process for Linux and troubleshoot boot issues.
+- Display information about Linux kernel modules and hardware parameters.
+- Configure and review system logging.
+- Create and manage file systems, users, and groups.
+- Configure account policies, access control lists, host security, and system time.
+- Configure dynamic and static network settings for both IPv4 and IPv6.
+- Perform interactive and automated installations of Enterprise Linux.
+- Customize a user’s shell environment.
+- Write basic SQL statements and scripts.
+- Configure display managers.
+- Install and configure Apache web server.
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/oracle-11g-administration-workshop-2-comp-4671/
+Title: Oracle 11g Administration Workshop 2 COMP 4671
+Type: Course
+Course Code: COMP 4671
+
+================================================================================
+
+## Oracle 11g Administration Workshop 2 COMP 4671
+Computer Systems Course
+## Course Overview
+COMP 4671 is no longer offered. This hands-on course uses Oracle 11g Enterprise Edition database software and follows on from COMP 4670 and is designed only for those who have completed a Level 1 Oracle Administration workshop. Advanced topics include; higher level administration, automating tasks with scheduler, globalization settings and how to backup and recover databases using RMAN. Students learn how to diagnose Oracle using log and trace files, recover committed transactions, manage resources, database storage and memory. Participants are required to purchase mandatory Oracle University course materials in e-Book format. The official Oracle materials are $300 in addition to the course tuition. After registration, call 604-434-1610 to arrange purchase of the specific Oracle e-Book course material prior to the first class. Please note that the e-Book is personalized for each student by Oracle and this cost is not refundable. BCIT is a member of the Oracle Workforce Development Program and this course fulfils the Instructor-Lead-Training requirement for the Oracle 11g certification.
+### Prerequisite(s)
+- COMP 4670
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use globalization support.
+- Control access to the Oracle Listener.
+- Configure recovery manager.
+- Use recovery manager.
+- Use diagnostic sources.
+- Perform database recovery.
+- Flashback database.
+- Recover from database errors.
+- Deal with database corruption.
+- Use automatic management tools.
+- Monitor and manage storage.
+- Configure automatic storage management.
+- Monitor and manage memory.
+- Manage resources.
+- Automate tasks with the scheduler.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

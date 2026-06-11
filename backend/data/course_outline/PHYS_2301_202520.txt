@@ -1,0 +1,149 @@
+URL: https://www.bcit.ca/outlines/20252068127/
+Course: PHYS 2301
+Field: General Physics 2
+Subject: Physics
+Term: 202520
+CRN: 68127
+
+================================================================================
+
+## Course Outline
+## PHYS 2301
+## General Physics 2
+School | School of Computing and Academic Studies
+Program | Physics
+Course Credits | 6
+Minimum Passing Grade | 50%
+Start Date | July 15, 2025
+End Date | August 21, 2025
+Total Hours* | 36
+Total Weeks | 6
+Hours/Weeks | 6
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in PHYS 1143 or 50% in PHYS 1147 or 50% in PHYS 1151 or 50% in PHYS 1164 or 50% in PHYS 1181 or 50% in PHYS 1288 or 50% in PHYS 1301
+CRN | 68127
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Hillgan Ma
+E-mail | Instructor to provide
+Location | SW3-4790
+Office Hours | Instructor to provide
+### Course Description
+Topics covered include heat, wave phenomena, electrostatics, electric circuits, magnetism and electromagnetic induction. This course is equivalent to general level second term Physics courses at BCIT.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Apply the concepts of calorimetry to compute temperature changes, heat loss/gain in conduction and radiation processes, thermal expansion and thermal stress in technological contexts.
+- Demonstrate how vibrations and wave concepts apply, predict modes of vibration in simple systems, and explain the use of sound waves in non-destructive testing.
+- Verify Ohm's Law for DC current and voltage and compute resistivity.
+- Analyze electric and magnetic forces and simple electric circuits.
+### Learning Resources
+Textbook modules, laboratory manuals, lecture slides and videos will be made available via the Learning Hub
+You will need a scientific calculator for exams, and access to Microsoft Excel or an equivalent program for data analysis for labs.
+### Course Goals
+At the end of this course, the student will be able to:
+- Describe simple circuit components, and predict the behaviour of a circuit containing these components
+- Calculate electric and magnetic forces and fields for simple systems
+- Describe the connection between energy and heat, and the mechanisms of heat transfer
+- Describe quantitative properties of waves and use them to analyze simple systems
+- Explain the connections between electricity, heat, waves, and mechanics and synthesize this information to solve problems.
+- Make and interpret graphs of relationships between physical variables
+- Write laboratory reports, complete with the analysis of data and the prediction of mathematical relationships.
+### Evaluation Criteria
+Criteria | % | Comments
+Term Tests | 50 | 2 Term tests
+Final Exam | 35
+Lab Reports | 10 | Student must pass lab section to pass the course.
+Quizzes | 5
+### Attendance Requirements
+The class will proceed in a hybrid format, which allows some flexibility in scheduling. The class is scheduled from M to F 1 PM to 4 PM, of which M and W will be in-person. Students must attend the in-person sessions to complete term tests and labs.
+### Course Specific Requirements
+To obtain a passing grade in the course, the student must pass BOTH the laboratory AND the lecture portions of the course. If you do not pass both your assigned grade will be U.
+### Other information
+This course has 36 hours of in-person learning, 48 hours of online learning, and 6 hours of self-directed study, for a total of 90 hours.
+### Course Schedule and Assignments
+Class # Date Class Lab Quiz 1 Tue, July 15 Course Introduction + 23. Heat 2 Wed, July 16 23. Heat HT01: Specific heat capacity 3 Thu, July 17 24. Thermal expansion 4 Fri, July 18 24. Thermal expansion + 25. Heat Transfer 5 Mon, July 21 16. Oscillations HT06: Thermal conductivity of a poor conductor Q23 6 Tue, July 22 17. Wave motion 7 Wed, July 23 18. Sound and acoustics VW3: Resonance and the speed of sound Q24+25 8 Thu, July 24 18. Sound and acoustics 9 Fri, July 25 27. Electrostatics 10 Mon, July 28 28. Circuit Components CT03: Basic Circuit Analysis 11 Tue, July 29 29. Electric Energy and Power Q16-18 12 Wed, July 30 TERM TEST 1: Ch. 16 - 18, 23 - 25 13 Thu, July 31 30. Direct Current Circuits 14 Fri, August 01 30. Direct Current Circuits 15 Mon, August 04 FLEX Q27 16 Tue, August 05 31. Capacitance Q28+29 17 Wed, August 06 31. Capacitance EM3: Deflection of electrons in an E-field 18 Thu, August 07 32. Magnetism 19 Fri, August 08 32. Magnetism Q30 20 Mon, August 11 TERM TEST 2: Ch. 27 - 30 Q31 21 Tue, August 12 33. Magnetic Properties of Materials 22 Wed, August 13 34. Electromagnetic Induction EM4: Capacitor and RC Circuits 23 Thu, August 14 34. Electromagnetic Induction 24 Fri, August 15 35. Inductance Q32-33 25 Mon, August 18 35. Inductance EM17: Electromagnetic induction + Deflection of electron in a B-field (Demo) 26 Tue, August 19 36. Alternating Current Q34 27 Wed, August 20 Review EM12: Transformers 28 Thu, August 21 FINAL EXAM: All chapters
+### Course topics
+Unit 1: Heat and Heat Transfer
+- temperature
+- specific heat capacity
+- sensible and latent heating
+- phase diagrams
+- first law of thermodynamics
+- linear expansion
+- the mole
+- gas laws
+- the ideal gas law
+- thermal conduction
+- r-value
+- thermal radiation and emissivit
+Unit 2: Waves
+- wave properties
+- equation of a harmonic wave
+- phase
+- Huygens’ Principle
+- refraction
+- diffraction qualitatively
+- reflection
+- intensity
+- inverse square law
+- superposition
+- AM and FM signals
+- standing waves
+- waves on a string
+- sound speed
+- Doppler Effect
+- decibels
+Unit 3.1: Electrostatics
+- electric charge
+- charging by conduction and induction
+- Coulomb’s Law
+- electric fields
+- Gauss’ Law
+- electric potential difference and potential
+- electrical energy storage
+- capacitance
+- parallel plate capacitors
+- dielectrics
+- energy stored in capacitors
+- energy stored in batteries
+- emf
+Unit 3.2: Circuits
+- voltage, current, resistance
+- Ohm’s Law
+- resistivity
+- basic circuits
+- series and parallel circuits
+- Kirchhoff’s Laws and network analysis
+- Basic electrical safety
+Unit 4: Magnetism and Induction
+- properties of magnets
+- magnetic fields
+- magnetic force on moving charges and the Lorentz relationship
+- magnetic fields due to currents
+- Ampère’s Law
+- solenoids
+- Faraday’s Law
+- AC electric generators
+- inductance
+- inductors
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Hillgan Ma, Instructor July 24, 2025
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty July 28, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean July 28, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

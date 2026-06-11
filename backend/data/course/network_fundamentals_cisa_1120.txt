@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/network-fundamentals-cisa-1120/
+Title: Network Fundamentals CISA 1120
+Type: Course
+Course Code: CISA 1120
+
+================================================================================
+
+## Network Fundamentals CISA 1120
+Computer Info Systems Admin Course
+## Course Overview
+This course introduces basic concepts involved in the electronic transmission of data from one computer system to another utilizing local and wide area networks. The major types of network topologies, protocols, and infrastructures are discussed and students are presented with various networking models and standards. Topics covered will include; the OSI model, TCP/IP, 802.3, Protocol Data Units (PDUs), physical and logical network topology, IP addressing, variable length subnet masking (VLSM) , networking components and basic network design. Students will gain the knowledge and skills necessary to implement, administer, and troubleshoot basic networking systems and hardware. Students are introduced to configuring network routers using command line tools.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain how communication works in data networks and the Internet.
+- Identify the devices and services that are used to support communications across a network.
+- Use network protocol models to explain the layers of communications in data networks.
+- Explain the role of protocols in data networks.
+- Describe the importance of addressing and naming schemes at various layers of data networks.
+- Describe the services provided by each layer of the TCP/IP protocol stack.
+- Explain the operations and features of application, transport, network, data-link, and physical layer protocols.
+- Explain the fundamental concepts of routing.
+- Design, calculate, and apply subnet masks and IPv4 addressing to routed networks.
+- Explain fundamental Ethernet concepts such as media, services, and operations.
+- Employ basic cabling and network designs to connect devices.
+- Describe the differences between straight-through, crossover and roll-over patch cords.
+- Build a simple Ethernet network using routers, switches and computers.
+- Use router command line interface to perform basic configuration and verification.
+- Describe the key WAN technology concepts.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

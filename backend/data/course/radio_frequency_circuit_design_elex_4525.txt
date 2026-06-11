@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/radio-frequency-circuit-design-elex-4525/
+Title: Radio Frequency Circuit Design ELEX 4525
+Type: Course
+Course Code: ELEX 4525
+
+================================================================================
+
+## Radio Frequency Circuit Design ELEX 4525
+Electrical and Computer Engineering Course
+## Course Overview
+This course teaches the analysis of HF, VHF, UHF and SHF circuits. Topics include: impedance matching networks; synthesis of low pass, high pass, band pass and bandstop Butterworth and Chebyshev filters; design, build and test of simple microstrip and stripline filters and amplifiers; high frequency modeling; small-signal device design using S parameters; analysis and test of stability, noise performance and distortion of active and passive devices. Labs require students to design, simulate, build and test various RF circuits referencing data sheets.
+### Prerequisite(s)
+- PHYS 2143 and MATH 3433 and ELEX 3130
+- ELEX 4560 ‡ ( ‡ must be taken concurrently)
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Analyze self-resonance and estimate parasitic impedances for passive devices.
+- Design VHF LC impedance matching networks.
+- Design micro-strip and strip-line transmission line matching networks and filters.
+- Design RF filters for amplitude, phase and delay characteristics.
+- Compare the different types of filters such as Butterworth, Bessel, Chebyshev and Cauer.
+- Calculate gain and stability of RF components and devices using scattering parameters.
+- Select heat sinks for heat dissipation of power devices using data sheet specifications.
+- Analyze heat sinks for transient thermal gradients and to identify hot spots.
+- Construct I/O plots from gain and distortion specifications and calculate signal to noise/distortion ratios. Confirm the results in a UHF-SHF amplifier.
+- Calculate noise figure for various configurations and matches of active and passive devices.
+- Optimize gain - noise figure trade-offs.
+- Construct and test a variety of RF circuits.
+Effective as of Fall 2018
+## Related Programs
+Radio Frequency Circuit Design (ELEX 4525) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

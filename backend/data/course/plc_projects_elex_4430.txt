@@ -1,0 +1,59 @@
+URL: https://www.bcit.ca/courses/plc-projects-elex-4430/
+Title: PLC Projects ELEX 4430
+Type: Course
+Course Code: ELEX 4430
+
+================================================================================
+
+## PLC Projects ELEX 4430
+Electrical and Computer Engineering Course
+## Course Overview
+This course examines the application of programmable control devices to industrial automation. Interlock and sequence control systems are designed using ISA and JEDEC symbologies and implemented using programmable logic controllers (PLCs). Project work involves the design and implementation of various control solutions including a complete working system using typical industrial programmable logic controllers. Project presentations are done utilising AutoCAD.
+### Prerequisite(s)
+- ELEX 2115 and COMM 2443 ** (**must be taken concurrently)
+### Credits
+2.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## PROGRAMMABLE LOGIC CONTROLLER ARCHITECTURE
+- Describe the architecture and scan sequence of typical industrial PLCs.
+- Produce a block diagram of a typical PLC.
+- Describe the function of each of the components of a typical PLC.
+- Describe the steps in the scan sequence of a PLC.
+- Discuss the significance of the scan sequence with respect to instruction placement and I/O latency.
+- Describe the types of memory used and the organization of program memory and data tables.
+- Describe the data references and data types used in PLC programming.
+## LADDER DIAGRAM AND BOOLEAN NOTATION
+- Design and document sequential and interlock functions using ladder logic diagrams and commercial PLC programming software.
+- Develop relay ladder diagram for a logic system using JEDEC symbology.
+- Develop a PLC ladder diagram for a logic system.
+- Translate ladder diagrams to Boolean statements and vice versa.
+- Use commercial software to document a logic system and download to PLC.
+## BINARY LOGIC SYSTEMS
+- Design and document interlock and sequence control systems using ISA. S5.1 binary logic symbols.
+- Document combinational logic networks using ISA S5.1 symbology.
+- Develop memory elements (latches) and document them using S5.1 symbology.
+- Develop complex timing and counting functions and document them using S5.1 symbology.
+- Translate binary logic diagrams to PLC ladder networks and/or Boolean language statements.
+## PROGRAMMABLE LOGIC CONTROLLER FUNCTIONS
+- Implement sequence, interlock, and data manipulation functions on a Programmable Logic Controller.
+- Implement combinational logic functions on an industrial PLC.
+- Implement one-shots, initialization pulses, etc, on an industrial PLC.
+- Implement timer and counter functions on an industrial PLC.
+- Implement special functions (register manipulation, data conversion, math, etc) on a PLC.
+## LOGIC SYSTEM DESIGN
+- Design interlock and sequence control systems to meet operating specifications for implementation on PlCs.
+- Analyze requirements for alarms and interlocks on processes.
+- Determine process conditions for fail safe operation.
+- Select appropriate sensor, contact, and final element configurations for fail safe operation of trip ad permissive systems.
+- Determine the need for bypass circuits for start-up conditions.
+- Verify that the operation of an interlock control system meets its specifications.
+## PROJECT
+- Project No. 1 Motor Control
+- Create the binary logic diagram to ISA standards and complete I/O (input-output) diagram to industry norms. Design, debug and test a PLC control program for a typical motor start/stop system complete with over temperature and over current interlocks
+- Project No. 2 Bottling Line
+- Create the binary logic diagram to ISA standards and complete I/O (input-output) diagram to industry norms. Design, debug and test a PLC control program for a simulated bottling line.
+- Final Project Dual Pump Water Booster Station
+- Create the binary logic diagram to ISA standards and complete I/O (input-output) diagram to industry norms. Design, debug and test a PLC control program for a dual variable speed pump water booster station. The project is a very close simulation of an actual water pumping station complete with alarms, "Hand-Off-Auto" stations, a level transducer (simulated) and float switches (simulated).
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

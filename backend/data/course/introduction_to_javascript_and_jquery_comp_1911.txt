@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/introduction-to-javascript-and-jquery-comp-1911/
+Title: Introduction to JavaScript and jQuery COMP 1911
+Type: Course
+Course Code: COMP 1911
+
+================================================================================
+
+## Introduction to JavaScript and jQuery COMP 1911
+Computer Systems Course
+## Course Overview
+COMP 1911 has been replaced by COMP 2015 as of January 2016. If you have completed COMP 1911 then you do not need COMP 2015 and credit will not be awarded for both courses. This intensive, hands-on JavaScript workshop continues on from COMP 1850 . Students with a solid understanding of HTML5 and CSS3 are introduced to client-side browser scripting with JavaScript. Labs, exercises and assignments focus on the theory behind client-side web scripting and how to manage interactive sites that use JavaScript to generate and manipulate a page's HTML and CSS. Participants learn to download and install several free, platform independent tools. Topics include: object detection, DOM manipulation, timers and animation, event handling, functions (named and anonymous), jQuery introduction, form validation, timers and simple animations. Students will be well prepared to continue on to COMP 1950 Web Development and Design 2 and then COMP 2051 Web Development and Design 3. Upon successful completion of COMP 1911 successful participants will be able to write browser independent code that meets official ECMA standards.
+### Prerequisite(s)
+- COMP 1850 or equivalent knowledge of building web pages and web sites with HTML5, CSS3, and FTP.
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify, locate, download, and install free tools useful for client-side web scripting.
+- Explain the theory behind client-side web scripting.
+- Write JavaScript web scripts with and without HTML content.
+- Identify, locate, and download sample JavaScript scripts and other Internet resources.
+- Validate user input from web pages.
+- Write browser sniffers, object detectors, and custom APIs useful for client-side scripting.
+- Use browser resources and abilities to change the contents of a web page dynamically.
+- Explain the JQuery Framework
+- Use JQuery in addition to jQuery plugins to redevelop scripts in native JavaScript.
+- Use timers and intervals to create animations.
+Effective as of Spring/Summer 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

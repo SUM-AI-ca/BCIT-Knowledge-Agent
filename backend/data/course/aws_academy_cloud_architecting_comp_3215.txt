@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/aws-academy-cloud-architecting-comp-3215/
+Title: AWS Academy Cloud Architecting COMP 3215
+Type: Course
+Course Code: COMP 3215
+
+================================================================================
+
+## AWS Academy Cloud Architecting COMP 3215
+Computer Systems Course
+## Course Overview
+​This hands-on course introduces the fundamental concepts of planning IT solutions for deployment on cloud service providers. Participants must have prior technical knowledge creating software applications using programming languages or scripting in Node.js, or Java, or .NET. COMP 3215 is supported by AWS Academy and is delivered by an AWS Academy Accredited Educator. Students will be shown how to access to limited AWS resources through a registration process. They will use a scenario-based lab environments for evaluating trade-offs in different approaches to design reliable, secure, high-performing, cost-efficient systems leveraging the AWS Cloud. Labs and exercises leverage infrastructure-as-code techniques to automate the build of a solution based on their chosen scenario. Alternative services available through other cloud service providers or open-source solutions are introduced for comparison with the AWS Cloud services used in the course. Upon successful completion, students will have gained experience designing scalable and secure distributed systems on the AWS Cloud. They will also be prepared to challenge the AWS Certified Solutions Architect – Associate certification exam, available at additional cost through Amazon. COMP 3215 is an elective in the CST FLEX Diploma. This course is currently under review and not offered.
+### Prerequisite(s)
+- 60% in COMP 3012 or 60% in COMP 3601 or 60% in COMP 3602 or 50% in ACIT 2520
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Describe Cloud Computing.
+- Design highly available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS.
+- Use AWS foundational, deployment, and management services.
+- Design identity and access management system to secure organizational accounts.
+- Identify and define technical requirements for an AWS-based application.
+- Prepare a business plan for implementation of AWS cloud architecture solutions.
+- Utilize best practices for building secure and reliable applications on the AWS platform.
+- Implement the basic architectural principles of building on the AWS cloud.
+- Evaluate logging and monitoring services for AWS applications and data access.
+- Implement automated services to enable greater flexibility and resiliency in an infrastructure.
+- Utilize advanced cloud security features and tools that AWS provides.
+- Evaluate and consider trade-offs in different implementations for how they impact business objectives.
+- Prepare to challenge the AWS Certified Solutions Architect – Associate certification exam available through Amazon (for an additional cost).
+Effective as of Fall 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

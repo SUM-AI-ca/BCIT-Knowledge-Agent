@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/physics-for-electroneurophysiology-2-phys-2280/
+Title: Physics for Electroneurophysiology 2 PHYS 2280
+Type: Course
+Course Code: PHYS 2280
+
+================================================================================
+
+## Physics for Electroneurophysiology 2 PHYS 2280
+Physics Course
+## Course Overview
+This course is a continuation of Physics for Electroneurophysiology 1. The emphasis will be on the applications of physics to sensors commonly used in this technology. The oscilloscope will be introduced as a method for visualizing waveforms and the parallel with the EEG trace will be highlighted. AC electric voltages will be described as will the effect of filters to an AC signal. The basic ideas behind the differential amplifier will be presented and the minimum specifications for their use in ENPY will be reviewed. Digitization, sample rates, and the nyquist limit will be discussed. The physical principles behind strain gauges will be explained with an introduction to stress and strain, the operation of resistive sensors such as thermistors will be presented, as will the operation of thermocouples. The use of these gauges, their relative advantages and disadvantages will be presented. Magnetism and the principles of magnetic induction will be covered and its application to magneto-encephalography will be studied. Finally, photometry and its application to photoic stimulation will be covered.
+### Prerequisite(s)
+- PHYS 1280
+### Credits
+6.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course the student will be able to:
+- At the end of this course the student will be able to:
+- View AC waveforms using an oscilloscope and describe the waveform’s amplitude and frequency.
+- Interpret the specifications associated with the differential amplifiers used in EEG systems based on where the electrodes are attached to the scalp.
+- Explain the concepts of digitization rate, bit depth, and the Nyquist limit as applied to electroneurophysiology.
+- Interpret the specifications associated with an EEG system and evaluate these in comparison to the CAET recommended guidelines.
+- Describe the basic physical principles behind the strain gauge, the thermistor, the thermocouple, and piezo-electric sensors.
+- State the principle of magnetic induction.
+- Calculate the EMF induced in a loop of wire as the magnetic flux changes through the loop.
+- Discuss the application of induction in magneto-encephalography.
+- State the differences between photometry and radiometry, luminous flux and radiant power, and irradiance and illuminance.
+- Estimate the illuminance of a light source and explain how this varies with the distance from the source to an object and with viewing angle.
+Effective as of Winter 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

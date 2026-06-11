@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/operating-systems-comp-4731/
+Title: Operating Systems COMP 4731
+Type: Course
+Course Code: COMP 4731
+
+================================================================================
+
+## Operating Systems COMP 4731
+Computer Systems Course
+## Course Overview
+​This course introduces the theory and concepts of operating systems to CST Diploma students who already understand both C Programming and Computer Architecture. COMP 4731 begins with an examination of operating systems structure and services. Lectures, exercises and homework focus on how these services are used and implemented for processor management. Topics include: processes and threads, kernel architecture, inter-process communication, synchronization and mutual exclusion, deadlock and starvation, memory organization and management, virtual memory, processor scheduling, input/output management, disk scheduling, and file management. Labs and assignments use examples to illustrate operating systems concepts used in UNIX,/Linux and Windows. Upon successful completion students will have an understanding of how operating systems work and how to write concurrent code for software applications. COMP 4731 is no longer offered and will be replaced by COMP 4737 as of January 2023.
+### Prerequisite(s)
+- (50% in COMP 2510 or 60% in COMP 2511 ) and (50% in COMP 2721 or 60% in COMP 2825 )
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the role of an operating system.
+- Explain how an operating system is structured (layers & components).
+- Describe operating system interfaces (system calls, shells).
+- Decide what functions should be implemented for a typical operating system and explain how these functions are implemented in modern operating system
+- Describe process management concepts such as processes, threads, CPU scheduling, process synchronization, deadlock, and starvation.
+- Explain interprocess communication.
+- Implement synchronization solutions for real-life concurrent problems.
+- Write basic concurrent programs.
+- Explain how memory management systems operate.
+- Explain how memory management systems operate.
+- Explain I/O management.
+- Describe the algorithms used for disk scheduling.
+- Describe file system management.
+Effective as of Spring/Summer 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

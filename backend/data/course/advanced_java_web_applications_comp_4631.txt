@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/advanced-java-web-applications-comp-4631/
+Title: Advanced Java Web Applications COMP 4631
+Type: Course
+Course Code: COMP 4631
+
+================================================================================
+
+## Advanced Java Web Applications COMP 4631
+Computer Systems Course
+## Course Overview
+COMP 4631 and COMP 3631 are being replaced by COMP 3641 as of September 2009. COMP 4631 will be offered one final time in January 2010 for those students who have already completed COMP 3631 . Continuing from COMP 3631 , this advanced six week course covers recent developments in JavaSever Page technology and is aimed at students who already know how to build Java Web Applications. Participants must have a working knowledge of Java Servlet and JavaServer Pages (JSP 2.0). Topics include: the JavaServer Pages Standard Tag Library (JSTL), and the JSP Expression Language. JavaServer Faces technology is also examined to show how this server-side UI component framework is used to enhance client side development in detail from the design through to implementation. Participants will learn to use the LSTL API to develop advanced Java web applications.
+### Prerequisite(s)
+- COMP 3631
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Develop an in-depth understanding of JSP version 2.0.
+- Utilize the JSTL API to develop Java web applications.
+- Integrate JSF components into Java web applications.
+- Learn the benefits of and utilize the JSP Expression Language.
+- Examine the appropriate use of the Regular Expression Language and the java.util, regex package in the creation of web applications.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

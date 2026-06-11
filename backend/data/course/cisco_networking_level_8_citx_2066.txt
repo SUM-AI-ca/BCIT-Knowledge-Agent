@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/cisco-networking-level-8-citx-2066/
+Title: Cisco Networking Level 8 CITX 2066
+Type: Course
+Course Code: CITX 2066
+
+================================================================================
+
+## Cisco Networking Level 8 CITX 2066
+Computer Information Technology Electronics Course
+## Course Overview
+Students work with IP phones and traffic generators to understand the requirements within enterprise networks to support the multitude of traffic that exists today. This course focuses on optimizing networks via the use of Quality of Service (QoS) techniques.
+### Prerequisite(s)
+- Completion of Cisco Academy CCNP Levels 1, 2 and 3 (BCIT Cisco Levels 5, 6 and 7) and valid CCNA Certification.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the Cisco hierarchical network model as it pertains to an end-to-end enterprise network.
+- Describe the converged network requirements within the Cisco conceptual network models, including performance and wireless security issues as well as network and networked applications.
+- Describe basic principles of VoIP networks.
+- List the bandwidth requirements for various codecs and data links, and, given the formula to calculate total bandwidth for a VoIP call, list the methods to reduce bandwidth consumption.
+- Explain encapsulation of voice into IP packets.
+- Calculate the bandwidth requirements for the organization's network, given traffic information for said organization.
+- Describe the need to implement QoS and the methods for implementing QoS on a converged network using Cisco's routers and Catalyst Switches.
+- Describe the conditions and nature of traffic in enterprise networks that lead to QoS problems and explain the IP QoS mechanisms.
+- Explain the use of the three models for providing QoS in a network-best-effort, Intserv, Diffserv.
+- Identify the type of QoS problem currently in progress and suggest a possible solution to mitigate the QoS problem.
+- Explain the purpose of classification and marking of packets and how they can be used to define a QoS service class.
+- Explain Cisco queuing operations and basic configurations.
+- Explain Cisco class-based header compression operations and basic configurations.
+- Describe the set of QoS mechanisms used to implement Cisco end-to-end QoS best practices in a typical enterprise network connected through a service provider that is providing Layer 3 IP services.
+- Implement Cisco's best practices when configuring QoS within a network.
+- Configure Cisco AutoQoS for enterprises.
+- Describe WLAN QoS and its current implementation.
+- Describe WLAN security fundamentals and various 802.1x EAP types.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

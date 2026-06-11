@@ -1,0 +1,50 @@
+URL: https://www.bcit.ca/courses/programmable-logic-controllers-and-human-machine-interface-hmi-inst-3112/
+Title: Programmable Logic Controllers and Human Machine Interface (HMI) INST 3112
+Type: Course
+Course Code: INST 3112
+
+================================================================================
+
+## Programmable Logic Controllers and Human Machine Interface (HMI) INST 3112
+Industrial Inst/ProcessControl Course
+## Course Overview
+This course will prepare students to be able to design and interpret conventional relay logic. They will also learn how to configure, program and troubleshoot Programmable Logic Controllers (PLCs) for motor control. Students will also learn to configure, program and interface with PLC’s using Human Machine Interface (HMI) software. Prrequisite: Successful completion of term 2 courses
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Relays & Ladder Logic
+- Explain electrical relay types including on-delay and off-delay timers with ratings for both AC & DC
+- Build circuits using on-delay and off-delay timers and relays
+- Troubleshoot circuits that include on-delay and off-delay timers and relays
+## Communication Basics
+- Explain various communication network topographies, standards and protocols such as RS232, RS485, Modbus and Ethernet to communicate with PLCs and HMIs.
+- Explain the Open Systems Integration (OSI) model to modern communication systems.
+- Configure a typical SCADA system with I/O.
+- Explain PLC system grounding requirements, independent from electrical grounding requirements.
+## Programming of PLCs using Boolean Instructions
+- Explain the operation of small ('shoebox') PLCs with Boolean programming instructions.
+- Program PLCs using Boolean instructions.
+- Troubleshoot the PLC software and field circuits.
+## Programmable Logic Control using Ladder Logic
+- Describe the architecture of a PLC such as a Modicon Quantum including various types of I/O modules.
+- Program various motor control circuits using ladder logic.
+- Wire a PLC to field equipment demonstrating safe wiring practices.
+- Explain the difference between 2-wire and 3-wire motor control circuits.
+## Human Machine Interface (HMI)
+- Create an application in an HMI environment.
+- Create an I/O database with animation effects to interface with the PLC database.
+- Program a single loop level control project complete with trending, pump, mixer, interlocks and alarms.
+Effective as of Fall 2017
+## Related Programs
+Programmable Logic Controllers and Human Machine Interface (HMI) (INST 3112) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

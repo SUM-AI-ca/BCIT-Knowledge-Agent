@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/embedded-systems-incs-3610/
+Title: Embedded Systems INCS 3610
+Type: Course
+Course Code: INCS 3610
+
+================================================================================
+
+## Embedded Systems INCS 3610
+Industrial Network Cybersecuri Course
+## Course Overview
+This course introduces students to the role of embedded systems found within most modern control devices to develop an appreciation for their vulnerability to cyber-attacks . Building on the concepts developed in the Programmable Logic Controller and Linux Administration for Industrial Network Cybersecurity courses in term two, this course prepares students for the Cyber Operations course in term four. The concepts being developed in this course are closely related to the concepts being developed concurrently in the Ethical Hacking and Penetration Testing, Process Measurement and Control Fundamentals for Industrial Network Cybersecurity, and Industrial Network Security courses. Topics include: the operation of a microprocessor, the difference between microcontrollers and microprocessors, the role of machine code, the difference between assembly language and machine code, and the role of higher-level programs and how they are distinguished from assembly language programs. Using a Raspberry Pi students will create a system that acquires a measurement from the external environment and uses that measurement to change the environment by means of a final control element and then demonstrate the exploitation of a known vulnerability of the Linux OS to affect the system’s performance. ​
+### Prerequisite(s)
+- ACIT 2421 and INCS 2610
+- ELEX 3610 ‡ ( ‡ must be taken concurrently)
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the operation of a microprocessor in terms of its instruction cycle process and the role of machine code in its operation. (2)
+- Explain the differences between microcontrollers and microprocessors. (2)
+- Explain the role of assembly language programming and how it is distinguished from machine code. (2)
+- Explain the role of higher-level programs and how they are distinguished from assembly language. (2)
+- Describe the process of data acquisition and its application in automation and process control devices. (2)
+- Describe the application of embedded systems in measurement and control devices used in automation and process control. (2)
+- Create a simple system that acquires a measurement from an external environment and uses that measurement to change the environment by means of a final control element. (4)
+- Demonstrate the exploitation of a known vulnerability on an embedded system so that it can affect the performance of an automation or process control system. (4)
+- Describe the vulnerability of embedded systems to cyber-attacks. (2)
+- Describe the use of embedded systems in operational technology. (2)
+Effective as of Fall 2020
+## Related Programs
+Embedded Systems (INCS 3610) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

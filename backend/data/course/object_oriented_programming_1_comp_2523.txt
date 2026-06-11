@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/object-oriented-programming-1-comp-2523/
+Title: Object Oriented Programming 1 COMP 2523
+Type: Course
+Course Code: COMP 2523
+
+================================================================================
+
+## Object Oriented Programming 1 COMP 2523
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 1320 in the Full-Stack Web Development Diploma. Students are introduced to the fundamental concepts of design, development, testing, and debugging intermediate-level programs with an object-oriented programming language. Topics include language syntax, data abstraction, encapsulation, inheritance, polymorphism, and exception handling. Design Patterns and Graphical User Interfaces will be applied to appropriate problems. Upon successful completion, participants will be prepared to move on to more advanced courses in application and web development.
+### Prerequisite(s)
+- COMP 1320
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Apply the properties of good object-oriented software design including encapsulation, information hiding, inheritance, and polymorphism to create easily extensible systems in the context of intermediate-level programs.
+- Apply object-oriented decomposition to break a program into multiple classes with well-defined interfaces.
+- Decompose a program into multiple classes with well-defined interfaces.
+- Analyze and explain behaviour of intermediate-level programs involving object-oriented programming constructs including encapsulation, information hiding, inheritance, and polymorphism.
+- Write programs processing data using sources and sinks.
+- Create and handle exceptions to write robust programs.
+- Apply design techniques such as sequence diagrams, collaboration diagrams and class diagrams to define classes and their relationships when solving a problem.
+- Add/modify relationships between classes and objects to show the design.
+- Design, implement, debug and write automated tests for intermediate-level object-oriented programs in a modern high-level object-oriented programming language.
+- Write programs addressing concurrency issues such as race conditions using synchronization techniques including synchronization, wait/notify, join, and sleep.
+- Program with lambda expressions and closures.
+Effective as of Winter 2020
+## Related Programs
+Object Oriented Programming 1 (COMP 2523) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

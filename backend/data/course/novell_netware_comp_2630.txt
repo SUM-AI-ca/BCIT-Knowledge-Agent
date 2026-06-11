@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/novell-netware-comp-2630/
+Title: Novell Netware COMP 2630
+Type: Course
+Course Code: COMP 2630
+
+================================================================================
+
+## Novell Netware COMP 2630
+Computer Systems Course
+## Course Overview
+Introduces the students to Local Area Network Environments using Novell's NetWare 5. Topics include design and implementation of a LAN, including appropriate hardware and topology selection; efficient design of login scripts, creation and administration of users on a network; use of the essential NetWare menu and command-line programs; and proper system backups. Familiarity with hardware an asset.
+### Prerequisite(s)
+- COMP 1002 or equivalent knowledge and programming or systems design experience.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Design and implement a Netware LAN, including appropriate hardware and topology selection.
+- Steps necessary for installation of Netware 5.
+- Create and administer new users on the network.
+- Create System and User login scripts.
+- Implement a logical, consistent method for securing your NDS tree.
+- Utilize the most frequently used Netware tools.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

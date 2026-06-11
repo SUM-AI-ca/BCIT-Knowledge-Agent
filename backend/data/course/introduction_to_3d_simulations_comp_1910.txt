@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-3d-simulations-comp-1910/
+Title: Introduction to 3D Simulations COMP 1910
+Type: Course
+Course Code: COMP 1910
+
+================================================================================
+
+## Introduction to 3D Simulations COMP 1910
+Computer Systems Course
+## Course Overview
+​This hands-on course is aimed at software developers with no graphics or 3D modelling experience. Students who already know how to create software applications will learn how to create 3D models, then add texture maps and make them interactive online. At the end of this course there is an brief introduction to creating virtual reality simulations. Two open source tools are used; Blender 3D, and Gimp, plus the industry standard Unity Game Engine. Blender is used to create, manipulate and modify 3D models;Gimp is used create seamless texture maps; and the Unity Engine is used to set up an interactive scene. Each student must provide their own 16 GB USB memory stick to save their work. Labs and exercises focus on how to create a 3D model in Blender, and then how to use scripts in Unity to interact with these models in a browser. The main focus of this course is to create a 3D simulation to later be used in a brief introduction to Virtual Reality (VR). Students create an account to download the Vuforia extension for Unity in order to develop a simple mixed reality demo. By the end of this course participants will use a Microsoft HoloLens and other VR tools to experiment with creating a simple VR demo. COMP 1910 is an elective in the CST/PTS Diploma and aimed at software developers. Upon successful completion, students will be able to create a basic 3D simulation to use in a brief introduction to Virtual Reality. Students in the VR/AR Statement of Completion may want to complete COMP 1011 UX/UI Fundamentals concurrently.
+### Prerequisite(s)
+- COMP 2613 or COMP 2614 or equivalent experience developing software applications.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify and install open source tools for 3D Modelling.
+- Create and modify models.
+- Create UV maps.
+- Apply materials and textures to models.
+- Create seamless texture maps.
+- Set-up a scene and add lighting.
+- Set-up a simple Unity project.
+- Edit C# scripts that interact with a simulation.
+- Manipulate scripts to track user actions within the simulation.
+- Develop a simple Vuforia application using a graphical work flow.
+- Create a simple Virtual Reality demonstration with Unity.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

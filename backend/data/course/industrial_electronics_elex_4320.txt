@@ -1,0 +1,97 @@
+URL: https://www.bcit.ca/courses/industrial-electronics-elex-4320/
+Title: Industrial Electronics ELEX 4320
+Type: Course
+Course Code: ELEX 4320
+
+================================================================================
+
+## Industrial Electronics ELEX 4320
+Electrical and Computer Engineering Course
+## Course Overview
+This course covers electrical safety considerations, linear power supply design, C and L-C filtered, and thyristor phase controlled DC power supply design. Students learn to design buck, boost and flyback, switching power supplies. The use of SCRs and TRIACs for power control is also covered. The course continues with a study of feedback systems. The properties of first and second order transfer functions are studied leading to the design of position control servo systems using PID and leadlag controllers. Basic digital filter theory is introduced including the use of z-transfer functions and mapping functions from the s-plane to the z-plane. This leads to the implementation of simple digital control system. Stability criteria for feedback systems are examined and software is used to model the systems.
+### Prerequisite(s)
+- ELEX 3120 and ELEX 3310 and PHYS 2143
+### Credits
+7.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## SAFETY, SHOCK HAZARD AND GROUNDING
+- Test and verify that electrical equipment is safely and effectively grounded.
+- Identify key factors affecting the severity of electric shock hazards.
+- Draw the schematic for a three-wire electrical service to a residence.
+- Explain the significance of hot, neutral and ground conductors in an electrical service.
+- Identify and explain the principles of operation of Ground Fault Circuit Interrupters.
+## POWER SUPPLIES - LINEAR
+- Design, construct and test common power supplies for a wide variety of industrial applications.
+- Identify the advantages of switching vs. linear power supplies.
+- Design L and L-C filtered rectifier power supplies.
+- Recognize normal waveforms in linear power supplies.
+- Calculate RMS values for waveforms in linear power supplies.
+## POWER SUPPLIES - SWITCHING
+- Design, construct and test various switching power supplies.
+- Draw the schematics for series, shunt and flyback switching power supplier.
+- Design series, shunt, flyback switching power supplies.
+- Recognize normal waveforms in switching power supplies.
+- Identify and implement speed-up circuitry for bipolar and MOSFET transistor switches.
+## THYRISTOR POWER CIRCUITS
+- Design DC switching and AC power control systems.
+- Select the appropriate thyristor device for a given switching application of SCRs and TRIACs.
+- Describe the turn on and turn off characteristics of SCRs and TRIACs.
+- Describe with the aid of schematics the operation of solid state switches.
+- Design suitable L-C filters for SCR power supplies.
+- Design a TRIAC AC power control circuit.
+## PARTS OF A FEEDBACK SYSTEM.
+- Identify the parts of a feedback system
+- Identify the forward path.
+- Identify the feedback path.
+- Identify the comparator.
+- Given a physical description, identify the blocks.
+- Construct a block diagram of the system.
+## SYSTEM MODELLING
+- Use transfer functions to model feedback systems
+- Derive the transfer function for each system block.
+- Understand the significance of mathematical modeling of system components.
+- Understand and use current driven permanent magnet DC motor transfer functions.
+- Understand and use voltage driven permanent magnet DC motor transfer functions.
+- Derive and apply gearbox transfer functions.
+- Derive and apply electrical network transfer functions.
+- Derive and apply the transfer function of a given simple mechanical system.
+- Derive the transfer function of the entire system.
+- Set up the system transfer function in standard form.
+- Understand the significance of the properties of first and second order transfer functions.
+## STABILITY OF FEEDBACK SYSTEMS
+- Recognize the basic stability problem and its cause.
+- Recognize there is always time delay in a feedback loop.
+- Recognize the consequences of this for system stability.
+- Understand and apply the concept of phase margin to stability analysis.
+## SYSTEM STEP AND FREQUENCY RESPONSE
+- Compute the step response and frequency response for a feedback system.
+- Use the concepts of over, under and critical damping.
+- Use the concepts of natural frequency, damped frequency, damping ratio.
+- Use software to evaluate the system step response and frequency response.
+## CONTINUOUS TIME CONTROLLER DESIGN.
+- Design analog compensators.
+- Design and test leadlag controllers.
+- Design and test PID controllers.
+- Understand and apply the Ziegler Nichols tuning method.
+## BASICS OF DISCRETE TIME CONTROL SYSTEMS.
+- Draw a block diagram of a basic digital control system and recognize the significance of each part.
+- Describe the action of the shaft encoder, pulse counter, system clock, digital compensator, ADC and DAC.
+- Explain the advantages of a digital control system.
+- Recognize that compensator transfer functions can be realized in software.
+- Recognize that the parameters of a digital system are readily changed via software changes.
+- Understand the sampling process and the significance of the Nyquist limit.
+## DISCRETE TIME CONTROLLER DESIGN
+- Analyze and design systems consisting of a mixture of analog and digital components.
+- Appreciate the dilemma in analyzing systems consisting of both discrete and continuous time components and the need to perform either s-plane or z-plane analysis.
+- Design compensators using the equivalent continuous method.
+- Transform s-plane transfer functions to the z-plane using various mapping techniques.
+## DISCRETE TIME SYSTEM IMPLEMENTATION AND TESTING
+- Code and test digital controller for a servo system.
+- Design a suitable s-plane controller to stabilize a motor control system.
+- Map this into the z-plane.
+- Write DSP code to implement the controller.
+- Implement the controller using a small microcontroller chip.
+- Set up and test the entire digital control system.
+Effective as of Winter 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

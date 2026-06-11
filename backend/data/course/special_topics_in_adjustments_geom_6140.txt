@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/special-topics-in-adjustments-geom-6140/
+Title: Special Topics in Adjustments GEOM 6140
+Type: Course
+Course Code: GEOM 6140
+
+================================================================================
+
+## Special Topics in Adjustments GEOM 6140
+Geomatics Course
+## Course Overview
+The course starts with a review of observation errors and their modelling, confidence level and error probability of statistical hypotheses (significance level, power of test, type I and type II errors), error propagation law and network design by pre-analysis, including simple pre-analysis of survey observations. Then it covers the formulation and derivation of different cases of least squares adjustments, such as parametric, conditional and combined (or general) mathematical models; the adjustment of control networks (1D, 2D, 3D) and other geomatics measurements, including data series; the adjustment with weighted parameters; the measures of quality, elimination of blunders by global and local tests, elimination of nuisance parameters, and sequential adjustments; problem of reliability and sensitivity; and the problem of datum, including datum transformations. The course ends with an introduction to filtering and prediction.
+### Prerequisite(s)
+- 50% in MATH 2511 and 50% in MATH 3512 and 50% in GEOM 4090
+- Course registration is restricted to students with completion of 2-year Geomatics diploma.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Review observation errors and their modelling, including error (random and systematic) propagations in survey measurements.
+- Evaluate survey measurements and the adjusted quantities using the concepts of confidence level and error probability of statistical hypotheses (significance level, power of test, type I and type II errors).
+- Design survey network by pre-analysis.
+- Apply matrix theory approach to data analysis and least squares estimation.
+- Formulate least squares adjustment problems (parametric, conditional, combined), including the functional and stochastic models.
+- Solve 1D-, 2D- and 3D- network problems relating to levelling, traverse, triangulation, trilateration, and GNSS surveys, using different least squares adjustment methods and constraints.
+- Assess quality of adjustment solutions using the concepts of global and local statistical tests, covariance matrices, and error ellipses.
+- Explain reliability and sensitivity of survey networks.
+- Formulate nuisance parameters elimination model and sequential adjustments model.
+- Analyze datum problems in geomatics, including free network adjustments and datum transformations.
+- Relate simple filtering and prediction methods with the standard least squares adjustment methods.
+Effective as of Winter 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

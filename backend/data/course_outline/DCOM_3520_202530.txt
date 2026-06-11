@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20253051009/
+URL: https://www.bcit.ca/outlines/20253051003/
 Course: DCOM 3520
 Field: Transmission Lines and Antennas
+Subject: Digital Comm & Wireless Tech
+Term: 202530
+CRN: 51003
 
-School: School of Energy
-Program: Digital Communications and Wireless Technologies
-Course Credits: 6
-Minimum Passing Grade: 60%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 90
-Total Weeks: 15
-Hours/Weeks: 6
-Delivery Type: Lecture/Lab
-Prerequisite(s): 60% in DCOM 2510
-CRN: 51009
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## DCOM 3520
+## Transmission Lines and Antennas
+School | School of Energy
+Program | Digital Communications and Wireless Technologies
+Course Credits | 6
+Minimum Passing Grade | 60%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 90
+Total Weeks | 15
+Hours/Weeks | 6
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 60% in DCOM 2510
+CRN | 51003
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: David Hogg
-E-mail: Dave_Hogg@bcit.ca
-Location: NE25-206B
-Office Hours: 8 am-2:30 pm Mon to Fri
-
-## Course Description
+### Instructor Details
+Name | David Hogg
+E-mail | Dave_Hogg@bcit.ca
+Location | NE25-206B
+Office Hours | 8 am-2:30 pm Mon to Fri
+### Course Description
 ​This course investigates Radio Frequency (RF) signal propagation in cables and through free space. Concepts related to transmission of the RF signal within cables and causes of transmission impairment are explored. Free space propagation of an RF signal as an Electromagnetic (E/M) field is examined. The properties of RF signals radiated by an antenna system will be explored. RF filtering systems are introduced, including cavity filters. The practical component of this course will include forward and reflected power measurements, Voltage Standing Wave Ratio (VSWR) minimization and Time Domain Reflectometry (TDR) fault location techniques for transmission line systems. Antenna operational parameters will be measured and cavity filter alignment will be performed. ​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Describe the various types of transmission lines and their applications.
 - Explain the concept of characteristic impedance and how it may affect RF transmissions.
 - Fabricate and test an RF transmission cable.
@@ -41,67 +44,52 @@ Upon successful completion of this course, the student will be able to:
 - Test and analyze a quarterwave antenna for a given frequency.
 - Tune and test an RF cavity filter.
 - Investigate an RF antenna system and associated devices.​
-
-## Learning Resources
+### Learning Resources
 Gary Miller, Jeffery Beasley and Jonathan Hymers, Electronic Communications: A Systems Approach
-
-## Evaluation Criteria
-Criteria: %: Comments
+### Evaluation Criteria
+Criteria | % | Comments
 Theory
-Midterm: 32
-Final: 33: 65% total for theory
+Midterm | 32
+Final | 33 | 65% total for theory
 Practical
-Labs: 25
-Assignments: 10: 35% total for practical
-Total: 100
-
-## Attendance Requirements
+Labs | 25
+Assignments | 10 | 35% total for practical
+Total | 100
+### Attendance Requirements
 Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. late arrivals or early departures may be considered as absences.
-
-## Course Schedule and Assignments
-LECTURE: LABS
-Week 1: Day 1: Exam 3 RF Principles 2: Exercise 1 RF Cable Fabrication
-2: Introduction to transmission lines -cable types, -Characteristic impedance 12-3 12-4 12-5 12-6 Non-resonant line -Reading cable spec sheets: Exercise 1 RF Cable Fabrication Exp 1 Time Domain Reflectometry
-3: - 12-7 VSWR Bird Wattmeter Nomograph Power formula for VSWR: Exp 1 Time Domain Reflectometry
-4: 12-9 Shorted tuning stubs Baluns Discuss “Leaky Tx Lines” used by Skytrain and mining operations with 2-way radio systems -transmission line standard losses (polyphasor, connectors, baluns): Exp 2 Standing Waves VSWR Receive Tx/Antenna Assignment
-5: site grounding cable grounding Tower grounding Lightning arrest methods MGB inside enclosures: Exp 3 Balanced Audio Tx Lines
-
-Week 2: Day 1: - Chapter 13 Propagation: PM Lecture Propagation continued Project work time
-2: 14-1 Isotropic concept review Ch 13-2 electric field strength 14-2 Half Wave Dipole 14-3: Exp 4 Antenna & VSWR Analysis
-3: -Exam 1 Tx Lines and Propagation 14-4 14-5 1/4 wave antennas: Exp 4 Antenna & VSWR Analysis continued
-4: -Folded Dipole Family 14-6 Yagi ant 14-7 Log-periodic collinear ant. phased arrays Corner reflectors: Exp 5 Yagi Antenna Lab
-5: ERP & EIRP dBd & dBi Antenna H nd V radiation patterns Cross polarization Lobes F/B ratio Beamwidth Antenna Spec Sheets: PM Lecture Antenna Arrays Videos on antenna
-
-Week 3: Day1: Intro to Advanced Antenna Systems Explain Resonant cavity Heavy lifting of antenna gear: Exp 6 Cavity Tuning
-2: -Duplex, Multicoupler, isolators and circulators -transmitter combiners and receiver multicouplers -hybrid combiners -Tower top amplifiers DC feed thru TX line: Exp 6 Cavity Tuning finish up Exp 7 RF Filter Networks
-3: specialized antennas Helical patch parabolic: Exp 7 RF Filter Networks finish up
-4: -Phased Array -Slot antenna -Antenna theory Review: Exp 8 Intro to Duplexer, Combiner & Rx Multicoupler Continued
-5: Exam 2 Antennas and Cavities: Complete Exp 8 Duplexer, Combiner & Multicouplers
-
-## BCIT Policy
+### Course Schedule and Assignments
+LECTURE | LABS
+Week 1 | Day 1 | Exam 3 RF Principles 2 | Exercise 1 RF Cable Fabrication
+2 | Introduction to transmission lines -cable types, -Characteristic impedance 12-3 12-4 12-5 12-6 Non-resonant line -Reading cable spec sheets | Exercise 1 RF Cable Fabrication Exp 1 Time Domain Reflectometry
+3 | - 12-7 VSWR Bird Wattmeter Nomograph Power formula for VSWR | Exp 1 Time Domain Reflectometry
+4 | 12-9 Shorted tuning stubs Baluns Discuss “Leaky Tx Lines” used by Skytrain and mining operations with 2-way radio systems -transmission line standard losses (polyphasor, connectors, baluns) | Exp 2 Standing Waves VSWR Receive Tx/Antenna Assignment
+5 | site grounding cable grounding Tower grounding Lightning arrest methods MGB inside enclosures | Exp 3 Balanced Audio Tx Lines
+Week 2 | Day 1 | - Chapter 13 Propagation | PM Lecture Propagation continued Project work time
+2 | 14-1 Isotropic concept review Ch 13-2 electric field strength 14-2 Half Wave Dipole 14-3 | Exp 4 Antenna & VSWR Analysis
+3 | -Exam 1 Tx Lines and Propagation 14-4 14-5 1/4 wave antennas | Exp 4 Antenna & VSWR Analysis continued
+4 | -Folded Dipole Family 14-6 Yagi ant 14-7 Log-periodic collinear ant. phased arrays Corner reflectors | Exp 5 Yagi Antenna Lab
+5 | ERP & EIRP dBd & dBi Antenna H nd V radiation patterns Cross polarization Lobes F/B ratio Beamwidth Antenna Spec Sheets | PM Lecture Antenna Arrays Videos on antenna
+Week 3 | Day1 | Intro to Advanced Antenna Systems Explain Resonant cavity Heavy lifting of antenna gear | Exp 6 Cavity Tuning
+2 | -Duplex, Multicoupler, isolators and circulators -transmitter combiners and receiver multicouplers -hybrid combiners -Tower top amplifiers DC feed thru TX line | Exp 6 Cavity Tuning finish up Exp 7 RF Filter Networks
+3 | specialized antennas Helical patch parabolic | Exp 7 RF Filter Networks finish up
+4 | -Phased Array -Slot antenna -Antenna theory Review | Exp 8 Intro to Duplexer, Combiner & Rx Multicoupler Continued
+5 | Exam 2 Antennas and Cavities | Complete Exp 8 Duplexer, Combiner & Multicouplers
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. David Hogg, Department Head October 21, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology October 24, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/x-ways-forensics-integrated-computer-software-training-course-fsct-0095/
+Title: X-Ways Forensics Integrated Computer Software Training Course FSCT 0095
+Type: Course
+Course Code: FSCT 0095
+
+================================================================================
+
+## X-Ways Forensics Integrated Computer Software Training Course FSCT 0095
+Forensic Investigation Course
+## Course Overview
+Complete and systematic coverage of most computer forensics features in WinHex and X-Ways Forensics . Hands-on exercises, simulating most aspects of the complete computer forensics process. Attendees are encouraged to immediately try newly gained insights as provided by the instructor, with sample image files. Many topics are explained along with their theoretical background (slack space, partially initialized space, how hash databases are internally structured, how deleted partitions are found automatically, with what methods X-Ways Forensics finds deleted files, etc. etc.). Other topics are forensically sound disk imaging and cloning, data recovery, search functions, dynamic filtering, report creation. This main training course is focused on the systematic and efficient examination of computer media using our integrated computer forensics software “X-Ways Forensics”. After attending this course, you may start the X-PERT certification process (though taking the advanced course as well, is recommended). You will receive our full printed training material for this course. The software is provided for the duration of the training. Lodging and meals not included. Each training event needs to be confirmed by X-Ways. Do not make any non-refundable flight or hotel bookings etc. before the course is confirmed! If the minimum number of attendees is reached, the class will be confirmed. If the event is not confirmed, you will get a full refund. The decision is made no later than 14 days prior to the first day of class and you will be notified immediately.
+### Prerequisite(s)
+- Basic knowledge of computer forensics and approval from the Forensic Science & Technology Department.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful compleltion of this course, the student will be able to:
+- Complete basic setup of the software and user interface components.
+- Navigate disk and file systems and create disk images.
+- Create cases and add evidence items with hash values.
+- Detect data hiding methods and working with directory browser.
+- File filtering and searching methods.
+- Refine volume snapshots and exploring event logs.
+- Use advanced search methods
+Effective as of Spring/Summer 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

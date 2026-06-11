@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/artificial-intelligence-for-games-development-comp-8901/
+Title: Artificial Intelligence for Games Development COMP 8901
+Type: Course
+Course Code: COMP 8901
+
+================================================================================
+
+## Artificial Intelligence for Games Development COMP 8901
+Computer Systems Course
+## Course Overview
+In the broadest sense most games incorporate some form of artificial intelligence (AI). This course provides students with an opportunity to explore theoretical and practical aspects of Artificial Intelligence for computer games. Topics include chasing and evading, pattern movement, flocking, path finding, A* path finding, finite state machines, fuzzy logic, rule based AI, neural networks and genetic algorithms.
+### Prerequisite(s)
+- Acceptance into the Bachelor of Technology in Computer Systems Degree program.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the various AI algorithms and methods that are currently used in games development.
+- Describe AI algorithms for movement and pathfinding in video games.
+- Describe AI algorithms for decision making in video games.
+- Differentiate between deterministic and non-deterministic AI.
+- Implement AI programs to create believable simulations of an opponent.
+- Apply machine learning algorithms to basic problems, such as classification.
+- Implement adversarial search algorithms for games.
+Effective as of Fall 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

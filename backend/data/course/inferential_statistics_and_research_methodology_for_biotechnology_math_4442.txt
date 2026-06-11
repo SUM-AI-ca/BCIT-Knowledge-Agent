@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/inferential-statistics-and-research-methodology-for-biotechnology-math-4442/
+Title: Inferential Statistics and Research Methodology for Biotechnology MATH 4442
+Type: Course
+Course Code: MATH 4442
+
+================================================================================
+
+## Inferential Statistics and Research Methodology for Biotechnology MATH 4442
+Mathematics Course
+## Course Overview
+(UBC BIOT 242) The course covers inferential statistics and statistical research methods to give the students the tools to critically assess research papers. The course starts with discrete and continuous probability distributions; sampling, estimation and hypothesis testing; application to population means, proportions, difference of population means, paired differences; method of least squares, linear regression and correlation, goodness-of-fit tests and a brief introduction to analysis of variance. Multivariate techniques, applied to microarray analysis, will also be introduced. Statistical software, such as R, is used throughout to work with large realistic data sets.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Read, analyze and present the statistical content of research papers, with emphasis on papers in biotechnology.
+- Apply experimental design methods to understand what constitutes a statistically valid experiment.
+- Determine appropriate use of the binomial probability distribution; calculate binomial probabilities.
+- Determine appropriate use of the normal distribution; calculate normal probabilities.
+- Explain what is meant by a sampling distribution; explain the relation of sampling distribution to the sampled population.
+- Calculate a confidence interval for the mean with known population standard deviation.
+- Determine appropriate use of the student t-distribution; use the t-distribution to calculate confidence intervals.
+- Describe the basic procedures for null hypothesis testing; define, explain, illustrate basic concepts such as null and alternate hypotheses, type 1 and 2 errors, level of significance, critical values, test statistic, rejection region, one-tailed and two-tailed tests; power; determination of sample size.
+- Describe and carry out hypothesis testing involving a population mean (known and unknown population standard deviation).
+- Explain and use a p-value to draw a conclusion, and understand its limitations.
+- Test hypotheses on the difference between means for dependent and independent groups.
+- Test hypotheses involving single proportions and differences between proportions.
+- Describe the major features of simple linear regression; be able to compute the slope and intercept of the least-squares best-fit line through a scatterplot of points, and perform hypothesis tests with these statistics.
+- Interpret the value of the coefficient of determination and use residual plots to assess the validity of a regression model.
+- Compute the correlation coefficient; perform hypothesis testing on the correlation coefficient.
+- Use multiple regression to predict a response variable and determine the most significant predictor variables.
+- Use the χ2 distribution to test hypotheses and make confidence intervals for standard deviations.
+- Use the F distribution to test hypotheses on differences between standard deviations.
+- Use ANOVA to test hypotheses on differences between multiple groups.
+- Apply multivariate techniques to the analysis of microarray data (e.g. Principal Components Analysis).
+- Use clustering analysis.
+- Carry out non-parametric hypothesis tests as appropriate.
+Effective as of Spring/Summer 2014
+## Related Programs
+Inferential Statistics and Research Methodology for Biotechnology (MATH 4442) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Health Sciences
+- Honours in Biotechnology Bachelor of Science Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

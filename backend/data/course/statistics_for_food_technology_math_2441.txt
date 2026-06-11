@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/statistics-for-food-technology-math-2441/
+Title: Statistics for Food Technology MATH 2441
+Type: Course
+Course Code: MATH 2441
+
+================================================================================
+
+## Statistics for Food Technology MATH 2441
+Mathematics Course
+## Course Overview
+The course covers the organization and graphical representation of data, frequency distributions, measures of central tendency, variation, and other measures; probability theory and laws, random variables, discrete and continuous probability distributions; sampling, estimation and hypothesis testing with both large and small samples; application to population means, proportions, difference of population means, paired differences; method of least squares, linear regression and correlation, goodness- of-fit tests and a brief introduction to analysis of variance.
+### Prerequisite(s)
+- 50% in MATH 1441
+### Credits
+6.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Construct class frequency and relative class frequency tables, and produce histograms based on these tables.
+- Design and construct stem-and-leaf displays, interpret such displays, and demonstrate how to regenerate the original data from such a display.
+- Demonstrate use of summation notation.
+- Compute several measures of central tendency (mean, median, mode, etc.), explain the advantages and disadvantages of each, and give examples of situations in which each would be used.
+- Describe and compute various measures of dispersion (variance, standard deviation, range, coefficient of variation), and explain the advantages and disadvantages of each.
+- Compute proportions associated with categorical data.
+- Compute and interpret measures of relative standing (percentile); compute the five-number summary for a set of data, and construct a boxplot; also construct and interpret side-by-side boxplots for two sets of data.
+- Describe some simple approaches to detecting or dealing with outliers in a set of observations, and explain why the issue of outliers is a sensitive one in statistics.
+- State the relative frequency interpretation of probability and distinguish it from the notion of a subjective probability.
+- State the basic properties of probabilities, and justify them in terms of the characteristics of an actual random experiment.
+- Compute empirical probabilities from observational data and for simple models (coin flips, random draw, etc.) where the possible outcomes (sample space) can be expressed in terms of a set of equally-likely elementary events.
+- Demonstrate the use of simple counting techniques (combinations and permutations) to compute probabilities of selection of samples with certain characteristics from a population of known characteristics (and use this skill to comment on simple claims made about the population. For example, if 9 out of 10 randomly selected packages of a food are found to be underweight, what can we say about the claim that a certain proportion of all of these packages have the appropriate weight?)
+- Explain the concept of a conditional probability.
+- Demonstrate the application of the so-called 'total probability formula' and Bayes' formula to a variety of situations arising in biological sciences (e.g., dealing with the false positive problem when testing for the presence of a rare disease, rare contaminant, etc.).
+- Explain what is meant by a random variable, a probability distribution and a cumulative probability distribution, demonstrate how to use cumulative probability tables to compute probabilities; explain what is meant by the mean and standard deviation of a random variable; distinguish between discrete and continuous random variables.
+- Describe the characteristics of a binomial experiment; justify the use of the binomial probability distribution in appropriate circumstances; demonstrate the determination of binomial probabilities from formula, probability tables and cumulative probability tables.
+- Apply the binomial distribution to solve problems involving lot-acceptance sampling.
+- Describe the characteristics of the Poisson experiment; justify the use of the Poisson probability distribution in appropriate circumstances; and apply the Poisson distribution to solve problems involving the likelihood of a given number of occurrences of some event within a specified interval (e.g., number of service calls within a specified time interval, number of organisms within a specific region of a surface).
+- Describe the general characteristics of the normal distribution; describe the relationship between the standard normal distribution and all other normal distributions; demonstrate the computation of normal probabilities using a table of standard normal probabilities; demonstrate the computation of percentiles for both standard and general normal distributions; construct and interpret normal probability plots for sets of observations.
+- Demonstrate the computation of approximations to binomial probabilities using the standard normal probability table.
+- Demonstrate the computation of approximation binomial probabilities from using a cumulative Poisson probability table, and state the conditions under which this and the previous approximation are considered valid.
+- Explain what is meant by a sampling distribution, and explain how the characteristics of a sampling distribution are related to those of the sampled population.
+- Distinguish between a point estimate and an interval estimate, and state the advantages of interval estimates.
+- Illustrate the development of confidence interval estimates for the mean of a single population under various circumstances (F is known, F unknown but large sample available, F unknown and small sample available), describing typical contexts in which each type of situation is likely to arise.
+- Demonstrate the use of the student t-distribution tables; explain how the t-distribution differs from the standard normal distribution.
+- Explain what is meant by the standard symbols z' and t', and how to determine values for these quantities given specific values of '.
+- Illustrate the development of confidence interval estimates for the population proportion in the large sample case.
+- Illustrate the development of confidence interval estimates for the variance/standard deviation of a single population, using the P2-distribution and the normal distribution.
+- Illustrate the development of a confidence interval estimate of the difference of two population means (variances known, variances unknown but large samples available, variances unknown but assumed to be equal).
+- Illustrate the development of a confidence interval estimate of the difference of two population proportions (large samples available).
+- Describe the basic procedures for setting up a test of hypotheses; define, explain, illustrate basic concepts such as hypothesis, type 1 and 2 errors, level of significance, test statistic, rejection region, one-tailed and two-tailed tests, etc.
+- Describe and carry out the test of hypotheses involving a population mean (large and small sample case), and of hypotheses involving a population proportion (large sample case).
+- Describe and carry out the test of hypotheses involving the difference of two population means (or the difference of two population proportions).
+- Describe and carry out the test of hypotheses involving differences of paired observations from two populations (paired difference test); explain the difference between independent and dependent samples from two populations; and describe the advantage of using a paired-difference test when applicable.
+- Describe the major features of the basic single-independent variable linear regression model; and be able to compute the slope and intercept of the least-squares best-fit line through a scatterplot of points.
+- Interpret the value of the coefficient of determination and the appearance of a plot of residuals to assess the effectiveness and validity of a linear regression model in a specific instance.
+- Carry out tests of hypotheses involving the slope of the regression line (t-test); construct and interpret estimation and prediction intervals for the dependent variable.
+- Compute the correlation coefficient; interpret the result using the conventional rule of thumb; and perform tests of the hypothesis that the correlation coefficient has the value zero.
+- Discuss and distinguish between issues of regression, correlation and causality.
+- Carry out the P2-test for goodness-of-fit of observational data to a given discrete distribution.
+- Carry out the P2-test to test for independence of homogeneity in the distribution of observations.
+- Explain why the P2-test is not ideal for testing goodness-of-fit for continuous distributions.
+- Carry out the steps of the Kolmogorov-Smirnoff test for normality, and describe the conditions under which the test is valid.
+- Explain the basic principle behind single-factor ANOVA; set up the standard ANOVA table; carry out the F-test and interpret the results.
+Effective as of Fall 2003
+## Related Programs
+Statistics for Food Technology (MATH 2441) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Health Sciences
+- Food Processing, Safety, and Quality Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

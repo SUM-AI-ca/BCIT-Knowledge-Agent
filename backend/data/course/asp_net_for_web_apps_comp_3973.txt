@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/asp-net-for-web-apps-comp-3973/
+Title: ASP.NET for Web Apps COMP 3973
+Type: Course
+Course Code: COMP 3973
+
+================================================================================
+
+## ASP.NET for Web Apps COMP 3973
+Computer Systems Course
+## Course Overview
+​This hands-on course follows on from building software applications with C#.NET ( COMP 2614 or COMP 3602 ) and web development with HTML5, CSS3, JavaScript and jQuery ( COMP 2015 or COMP 2132 ). COMP 3973 students are introduced to ASP.NET Model View Controller (MVC) framework to build scalable and secure web applications. Labs and exercises reinforce patterns and how to script dynamic MVC websites to industry standards, in an alternate approach to ASP.NET Forms. Participants use both C# and Razor with MVC to develop powerful data driven web applications with AJAX for full control over mark-up. There is a focus on the latest tools and best practices used in ASP.NET. COMP 3973 is a required course in the “Advanced .NET Development", and “Web and Mobile Application Development" Associate Certificates. It is an elective in the CST/PTS Diploma a​nd offered once per year in ​the September ​(Fall) or January (Winter) term. By the end of this course successful participants will be able to design, create and deploy industry standard web applications. COMP 3973 was replaced by COMP 4602 starting January 2023. ​
+### Prerequisite(s)
+- (60% in COMP 2015 or 60% in COMP 2132 ) and (60% in COMP 2614 or 60% in COMP 3602 )
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the MVC (Model View Controller) Architecture.
+- Use Visual Studio to build ASP.NET MVC Core applications using the latest framework.
+- Integrate ASP.NET MVC applications with popular JavaScript libraries.
+- Develop responsive ingle Page Applications (SPAs).
+- Implement Test Driven Development best practices.
+- Integrate MVC applications with a variety of data sources.
+- Secure MVC web applications.
+- Use C#, Razor and Tag Helpers for building MVC pages.
+- Deploy ASP.NET MVC applications into the cloud.
+- Leverage the ASP.NET infrastructure.
+- Explain how an ASP.NET Core application participates in the build & release processes along the CI/CD pipeline.
+- Validate user input.
+- Produce and consume API services.
+- Develop cross-platform web applications to industry standards.
+Effective as of Spring/Summer 2022
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

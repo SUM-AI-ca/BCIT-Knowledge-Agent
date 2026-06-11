@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/special-topics-in-adjustments-geom-8353/
+Title: Special Topics in Adjustments GEOM 8353
+Type: Course
+Course Code: GEOM 8353
+
+================================================================================
+
+## Special Topics in Adjustments GEOM 8353
+Geomatics Course
+## Course Overview
+The course starts with a review of observation errors and modelling, confidence level and error probability of statistical decisions (significance level, power of test, type I and type II errors), and random error propagation and pre-analysis of survey observations. Then it covers the formulation and derivation of different cases of least squares adjustments, such as parametric, conditional and combined mathematical models; the adjustment of control networks, including the measures of quality, elimination of orientation parameters, sequential adjustments, distorted mathematical models, and elimination of blunders by global and local tests; problem of reliability and sensitivity; problem of datum, including datum transformations; and the adjustment with weighted parameters. The course ends with an introduction to filtering and prediction.
+### Prerequisite(s)
+- GEOM 8363 ‡ ( ‡ must be taken concurrently)
+- Successful completion of a 2 year Geomatics Diploma Program including MATH 2511 , MATH 3511 and MATH 4511 or equivalent approved from Program Head.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze observation errors and modelling, explain confidence level and error probability of statistical decisions (significance level, power of test, type I and type II errors), and perform random error propagation and pre-analysis of survey observations.
+- Formulate least squares adjustment problems (parametric, conditional, combined), including the functional and stochastic models.
+- Derive least squares adjustment equations of different cases (parametric, conditional, combined) and conduct least squares adjustment of geomatics problem such as levelling, traverse, triangulation and trilateration networks based on the different cases.
+- Assess the quality of the adjustment solutions (global and local statistical tests; covariance matrix, error ellipse).
+- Evaluate reliability and sensitivity of survey networks.
+- Carry out orientation parameters elimination, and perform weighted parameters and sequential adjustments.
+- Evaluate numerically the adjustment of free control networks and perform datum transformations.
+- Solve simple filtering and prediction problems, and explain the uses of filtering and prediction, and their relationship to the standard least squares adjustment methods.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

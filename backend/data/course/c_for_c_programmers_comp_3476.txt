@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/c-for-c-programmers-comp-3476/
+Title: C++ for C Programmers COMP 3476
+Type: Course
+Course Code: COMP 3476
+
+================================================================================
+
+## C++ for C Programmers COMP 3476
+Computer Systems Course
+## Course Overview
+This hands-on, intensive intermediate level, lab course assumes solid knowledge of the C programming language and Object Oriented Programming (OOP) concepts. Students will be receive a comprehensive introduction to the powerful features that were added to the C programming language in order to create the C++ programming language. Topics include: Classes; operator overloading; template classes; exception handling; and an introduction to the Standard Template Library (STL). Upon successful completion, participants will be able to write, test and debug C++ programs.
+### Prerequisite(s)
+- Comp 2510 or (Comp 1451 and COMP 3425 ), or equivalent knowledge of the C language and OOP.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain and use C++ Classes in conjunction with proper object-oriented programming techniques.
+- Explain, in terms of the C++ programming language, object oriented programming concepts including: classes, objects, methods, encapsulation, inheritance and polymorphism.
+- Explain and use Operator Overloading.
+- Explain and use Templates.
+- Explain and use Exception Handling.
+- Explain Class string and String Stream Processing.
+- Explain the Standard Template Library.
+- Test and debug C++ programs.
+Effective as of Spring/Summer 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

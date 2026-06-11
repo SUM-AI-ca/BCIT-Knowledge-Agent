@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/relational-database-systems-comp-2714/
+Title: Relational Database Systems COMP 2714
+Type: Course
+Course Code: COMP 2714
+
+================================================================================
+
+## Relational Database Systems COMP 2714
+Computer Systems Course
+## Course Overview
+This course covers relational database technology, including basic concepts, relational algebra, enhanced entity-relationship data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, access control and transaction management. Students design and implement a database application using RDBMS. Also covers some current database trends such as data warehousing and OLAP and use of databases through web technology.
+### Prerequisite(s)
+- COMP 1712
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Describe the functions and characteristics of the relational database model.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling.
+- Functional dependencies and normalization.
+- Derivation of relations schema from EER models.
+- Apply database design process to design and implement a database application.
+- Use SQL to implement and query a relational database including:
+- Data definition language (DDL) and constraints.
+- Data manipulation language (DML) for data insert, update and delete.
+- Data manipulation language (DML) for data queries, including subqueries and views.
+- Data control language (DCL) for access control.
+- Discuss techniques for transaction management and concurrency control.
+- Describe the use of databases in data warehousing and OLAP.
+Effective as of Winter 2010
+## Related Programs
+Relational Database Systems (COMP 2714) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

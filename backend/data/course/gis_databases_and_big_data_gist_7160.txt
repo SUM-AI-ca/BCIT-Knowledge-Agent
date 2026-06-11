@@ -1,0 +1,59 @@
+URL: https://www.bcit.ca/courses/gis-databases-and-big-data-gist-7160/
+Title: GIS Databases & Big Data GIST 7160
+Type: Course
+Course Code: GIST 7160
+
+================================================================================
+
+## GIS Databases & Big Data GIST 7160
+Geographic Information Systems Course
+## Course Overview
+This course is an introduction to database systems, geodatabases and Big Data. Topics will include database, GIS, and cloud computing services terminology. Database systems will be compared, and ESRI’s enterprise geodatabase and ArcGIS Online cloud capabilities will be examined. Data modelling (conceptual, logical and physical models), advanced spatial data structures, spatial SQL and international metadata standards will be covered. Data discovery, Open Data (e.g., OpenStreetMap) and RESTful Big GeoData services will be discussed. The use of Extract, Transform and Load (ETL) tools such as Safe Software’s Feature Manipulation Engine (FME) will also be demonstrated. The students will each develop their own geodatabase for one of five application areas: regional transit and commuting; regional weather and natural hazard emergency management; municipal infrastructure management; retail, logistics and eCommerce; or public health. Finally, this course provides a basic introduction to what Big Data is, how these datasets can be imported into a geodatabase, and how they can be visualized using ArcGIS Pro (desktop) and ArcGIS Online (cloud). This is a rapidly-changing field with high levels of innovation.
+### Prerequisite(s)
+- 50% in GIST 7100 and 50% in GIST 7128
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$881.16
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Distinguish between and give examples of data concepts such as: spatial vs attribute data, structured vs semi-structured vs unstructured data, and regular data vs metadata.
+- Distinguish between and give examples of DBMS models: RDBMS, OODBMS, ORDBMS, GIS, and Spatial DBMS.
+- Distinguish between and give examples of basic and advanced spatial data structures.
+- Describe the architecture of a modern enterprise spatial DBMS.
+- Describe the essential characteristics of Big Data and web (cloud) services
+- Describe how to scope and design a Big Data geodatabase for an application area.
+- Download and import cloud-based Open Data and Big GeoData into your own geodatabase.
+- Implement spatial databases using GIS desktop tools including ArcGIS Pro, and cloud data tools such as ArcGIS Online.
+- Develop visualizations of Big GeoData datasets using ArcGIS Pro, ArcGIS Online and ArcGIS Dashboards.​
+Effective as of Winter 2026
+## Related Programs
+GIS Databases & Big Data (GIST 7160) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Construction and the Environment
+- Geographic Information Systems Advanced Certificate Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of GIST 7160 for the Fall 2026 term.
+Sep 10 - Nov 26
+- CRN 44205
+- $881.16 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Naz Ali
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Students should be accepted into the GIS program and completed the prerequisites prior to registration of this course. To receive approval, please email your BCIT Student ID to gis@bcit.ca . For more information about online courses at BCIT, please visit: www.bcit.ca/distance/foryou.shtml Students must check your my.bcit.ca e-mail account for start-up instructions sent upon registration of this course. To be successful in our online courses, plan to spend 4-6 hours per course each week on your studies, starting Week 1. Our courses are highly interactive with participation requirements weekly. Most of our online learning courses require a textbook. You can search for your course textbook at : www.bcitbookstore.ca/distance/ If no textbook is listed, course material will be provided via e-mail.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

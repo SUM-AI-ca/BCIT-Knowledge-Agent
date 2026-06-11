@@ -1,0 +1,57 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-2-csst-2175/
+Title: Network Operating Systems 2 CSST 2175
+Type: Course
+Course Code: CSST 2175
+
+================================================================================
+
+## Network Operating Systems 2 CSST 2175
+Computer Systems Service Technician Course
+## Course Overview
+In this course students learn how to implement, administer and troubleshoot the Windows 2008 Server network operating system. Students will also become familiar with user account and group management, local and network security, installing and configuring protocols, DNS, Active Directory Services, resource sharing, network connectivity from various desktop platforms, application management, performance tuning, and troubleshooting techniques. In this hands-on lab based course, students are provided with the knowledge necessary to prepare for the MCSE Windows 2008 exam - Installing, Configuring, and Administering Microsoft Windows 2008 Server.
+### Prerequisite(s)
+- 70% in CSST 1175
+- 70% in CSST 1175 (5 Credits)
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- List and compare the different versions of Windows 2000.
+- Describe the basic architecture of Windows 2000 Server.
+- Perform attended and unattended installations of Windows 2000 Server.
+- List the various phases of the installation process.
+- Describe how to upgrade from Windows NT to Windows 2000 Server.
+- Identify the characteristics of workgroups and domains.
+- Describe the Windows 2000 file systems.
+- Describe the characteristics of different volume types.
+- Convert a simple disk to a dynamic disk.
+- Describe the Windows 2000 licensing systems.
+- Describe how shared folder and NTFS permissions work.
+- Apply shared folder and NTFS permissions.
+- Describe how the Distributed File System (Dfs) works.
+- Create standalone and domain-based Dfs shares.
+- Describe how the File Replication Service (FRS) works.
+- Describe the basic structure of Active Directory.
+- List and describe the domain modes.
+- Implement and administer Active Directory Services.
+- Create and add objects to organizational units.
+- Move and locate objects within Active Directory.
+- List and describe the different types of snap-ins and console options.
+- Create Microsoft Management Consoles (MMCs).
+- Describe the different Windows 2000 printing configurations.
+- Set up and administer network printers.
+- Describe how printing works Active Directory Services.
+- Describe the various properties of public key infrastructure.
+- Install and configure Certificate Services.
+- Describe how the Encrypting File System (EFS) works.
+- Use and configure EFS.
+- Describe how the Kerberos protocol works.
+- Describe how to install and uninstall devices.
+- Describe and implement various backup and restore strategies.
+- Describe the RAID implementations in Windows 2000.
+- Describe how to repair a Windows 2000 installation.
+- Restore data.
+- Describe how to recover a mirrored or RAID-5 volume.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

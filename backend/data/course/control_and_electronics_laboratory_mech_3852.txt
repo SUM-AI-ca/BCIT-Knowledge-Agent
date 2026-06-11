@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/control-and-electronics-laboratory-mech-3852/
+Title: Control and Electronics Laboratory MECH 3852
+Type: Course
+Course Code: MECH 3852
+
+================================================================================
+
+## Control and Electronics Laboratory MECH 3852
+Mechanical Engineering Course
+## Course Overview
+This course allows students to apply their knowledge gained in MECH 3851 and ELEX 2846 to practical hands-on laboratory exercises. Process control lab topics will include control of pneumatic systems with valves and with electrical circuitry, wiring of sensors to a PLC, programming of PLC systems, investigation of control algorithms on system performance, and control of hydraulic actuators. Electrical equipment lab topics will include basic electrical measurement techniques including current, voltage, and impedance measurement of capacitors, inductors, and resistors; measurement of the real, apparent, and reactive power of three phase systems; analysis of transformer operation in terms of voltage conversion and regulation, efficiency, and electrical faults; and analysis of the performance of AC motors. Throughout the course, as well as developing practical skills with the equipment, systematic approaches to troubleshooting are emphasized.
+### Prerequisite(s)
+- MECH 3851 and ELEX 2846
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course the student will be able to:
+- Develop electrical control systems to control the operation of pneumatic cylinders.
+- Wire sensors to a controller such as a PLC.
+- Program a PLC to perform basic timing, counting and control tasks.
+- Investigate the effects of proportional, integral and derivative control on system performance.
+- Develop sequential PLC programs to control industrial equipment.
+- Perform basic electrical measurements of resistors, capacitors and inductors to determine voltage, current and impedance.
+- Measure real, apparent and reactive power using a three-phase analyser.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

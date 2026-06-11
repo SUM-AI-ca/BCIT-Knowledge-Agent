@@ -1,0 +1,109 @@
+URL: https://www.bcit.ca/courses/introduction-to-operating-systems-for-cst-comp-4737/
+Title: Introduction to Operating Systems for CST COMP 4737
+Type: Course
+Course Code: COMP 4737
+
+================================================================================
+
+## Introduction to Operating Systems for CST COMP 4737
+Computer Systems Course
+## Course Overview
+​​Following on from “Procedural Programming with C" and “Computer Architecture and Organization"; students are introduced to the basic concepts, terminology and leveraging operating systems for concurrent software applications. COMP 4737 replaces COMP 4731 in the CST/PTS Diploma. Participants focus on using concurrent programming: processes and threads, inter-process communication (IPC), synchronization and mutual exclusion, deadlock and starvation with an introduction to memory organization. Theoretical topics include: overall operating system structure, operating systems services, how these services are used, and kernel architecture. Labs and exercises reinforce concepts with examples of using these operating system services within application programs. This course is equivalent to COMP 4736 in the Full-time CST Diploma. Upon successful completion, students will be able analyze, design and implement concurrent software applications. COMP 4737 is required for the Computer Systems (CST/PTS) Diploma and is offered twice per year the Winter (January) and Spring (May) terms.
+### Prerequisite(s)
+- (50% in COMP 2510 or 60% in COMP 2511 ) and (50% in COMP 2721 or 60% in COMP 2825 )
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$593.96
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the role of an operating system.
+- Analyze how the operating system is structured (layers and components).
+- Describe the operating system interface (system calls, shells).
+- Use POSIX system calls in C.
+- Describe synchronization concepts such as mutual exclusion, critical sections, and race conditions.
+- Solve synchronization problems using constructs such as spinlocks, mutexes, semaphores, condition variables, and monitors.
+- Compare and contrast synchronization of threads with semaphores and monitors.
+- Discuss the consequences of concurrency: deadlock, starvation and livelock.
+- Describe how to prevent, avoid, detect and recover from deadlock.
+- Design and implement concurrent applications using processes and kernel-level and user-level threads.
+- Solve IPC problems by implementing applications using methods such as signaling, messages, pipes, and shared memory.
+Effective as of Fall 2022
+## Related Programs
+Introduction to Operating Systems for CST (COMP 4737) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below are three offerings of COMP 4737 for the Spring/Summer 2026 term.
+May 26 - Jul 28
+- CRN 68757
+- $593.96 Domestic fees
+Dates | Days | Times | Locations
+May 26 - Jul 28 | Tue | 18:00 - 21:00 | Downtown DTC Rm. 362
+May 26 - Jul 28 | N/A | N/A | Online
+### Duration
+10 weeks
+### Instructor
+Rahim Oraji
+### Course outline
+View
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 30 hours on campus and 18 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1.5 to 2 hours per week asynchronously (as assigned by the instructor). Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 27 - Jul 29
+- CRN 68759
+- $593.96 Domestic fees
+Dates | Days | Times | Locations
+May 27 - Jul 01 | Wed | 18:00 - 21:00 | Online
+May 27 - Jul 29 | N/A | N/A | Online
+Jul 08 | Wed | 18:00 - 21:00 | Downtown DTC Rm. 372
+Jul 15 - Jul 22 | Wed | 18:00 - 21:00 | Online
+Jul 29 | Wed | 18:00 - 21:00 | Downtown DTC Rm. 372
+### Duration
+10 weeks
+### Instructor
+Rahim Oraji
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online with exams on-campus. The course is 48 hours - 30 hours synchronous online classes and 18 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1.5 to 2 hours per week asynchronously (as assigned by the instructor). MID TERM: July 8, 1800-2100, at the Downtown campus Rm372. FINAL EXAM: July 29, 1800-2100, at the Downtown campus Rm 372 . Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session July 1 (Canada Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 28 - Jul 30
+- CRN 68914
+- $593.96 Domestic fees
+Dates | Days | Times | Locations
+May 28 - Jul 02 | Thu | 18:00 - 21:00 | Online
+May 28 - Jul 30 | N/A | N/A | Online
+Jul 09 | Thu | 18:00 - 21:00 | Downtown DTC Rm. 374
+Jul 16 - Jul 23 | Thu | 18:00 - 21:00 | Online
+Jul 30 | Thu | 18:00 - 21:00 | Downtown DTC Rm. 374
+### Duration
+10 weeks
+### Instructor
+Rahim Oraji
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online with exams on-campus. The course is 48 hours - 30 hours online and 18 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1.5 to 2 hours per week asynchronously (as assigned by the instructor). MID TERM: July 9, 1800-2100, at the Downtown campus Rm374. FINAL EXAM: July 30, 1800-2100, at the Downtown campus Rm 374. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

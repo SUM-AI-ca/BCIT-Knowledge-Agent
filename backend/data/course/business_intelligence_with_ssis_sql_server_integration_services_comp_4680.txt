@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/business-intelligence-with-ssis-sql-server-integration-services-comp-4680/
+Title: Business Intelligence with SSIS, SQL Server Integration Services COMP 4680
+Type: Course
+Course Code: COMP 4680
+
+================================================================================
+
+## Business Intelligence with SSIS, SQL Server Integration Services COMP 4680
+Computer Systems Course
+## Course Overview
+This advanced course follows on from COMP 4677 and is designed for those who already understand relational database design, data modelling, SQL programming and MS SQL Server Administration but have little or no extract, transform, and load (ETL) experience. The course will cover ETL fundamentals, SQL Server Integration Services (SSIS) tools, and SSIS package development. Students will use Business Intelligence Development Studio (BIDS) in the lectures and labs to work with control flows, data flows, variables, package configuration and deployment, security, troubleshooting, logging and tuning. Students will also be introduced to ETL for the data warehouse. This course also helps to prepare for the SSIS component of the Microsoft Certified Technology Specialist (MCTS): Business Intelligence Developer, which is available through third parties for additional fees. Successful participants will gain a deeper understanding of ETL and Business Intelligence using Microsoft tools. COMP 4680 is currently under review and is not being offered at this time.
+### Prerequisite(s)
+- COMP 4677
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe SQL Server Integration Services (SSIS) architecture and tool.
+- Install and configure SSIS.
+- Identify SSIS components included in different versions of SQL Server.
+- Enumerate common SSIS components.
+- Use Control Flows to apply business rules and logic to SSIS packages.
+- Configure Data Flows for extract, transform, and load (ETL) operations.
+- Utilize variables and configurations to create dynamic packages.
+- Integrate .NET scripting into SSIS tasks.
+- Identify SSIS security considerations.
+- Deploy and manage packages to file system or database.
+- Employ different SSIS troubleshooting techniques.
+- Discuss SSIS standards and best practices.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

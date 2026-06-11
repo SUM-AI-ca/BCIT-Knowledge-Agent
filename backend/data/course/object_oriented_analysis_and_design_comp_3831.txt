@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/object-oriented-analysis-and-design-comp-3831/
+Title: Object Oriented Analysis and Design COMP 3831
+Type: Course
+Course Code: COMP 3831
+
+================================================================================
+
+## Object Oriented Analysis and Design COMP 3831
+Computer Systems Course
+## Course Overview
+​ COMP 3831 has been replaced by COMP 3832 . This advanced OOAD course follows on from COMP 2831 and is aimed at software analysts, designers and developers who already understand the Software development Life Cycle (SDLC). Through exercises and group work, students first perform Object Oriented Analysis (OOA) to produce a conceptual model of existing information using case studies to identify actors and primary use cases for documentation. Using Object Oriented Design (OOD) students learn how to identify classes and build the domain model. Round trip engineering, reverse engineering and code generation are practised in labs, where the design is converted to functional code. Topics include: design patterns, anti-patterns and General Responsibility Assignment Software Patterns (GRASP). The concepts of phases, iterations, activities and artifacts are emphasized throughout the course. Labs include the use of the Unified Process (UP) which is an extensible framework for iterative and incremental software development process, and the basis of all the modern “Agile methodologies”. Participants also gain hands-on experience using a case tool, Rational Rose Modeler, to draw most of the Unified Modeling Language (UML) diagrams necessary to support the OOAD activities. Students are introduced to manual and automated software testing. They will learn how to create and execute test scripts using a testing tool. Successful participants will be able to demonstrate the ability to analyse, design and construct sophisticated software applications to industry standards.
+### Prerequisite(s)
+- COMP 2831 and ability to write executable code in an object oriented programming language.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand the evolution from the Waterfall Development Process to the Agile Development Processes.
+- Understand iterations in the context of iterative development, including planning for an iteration, the steps, artifacts and activities inside of an iteration.
+- Identify Actors and Primary Use Cases from requirements and draw use case diagrams.
+- Write Use Case Documents in fully dressed format using Microsoft Word.
+- Identify business classes, attributes and relationships and construct the domain model as a class diagram using Rational Rose Modeler.
+- How to classify the Requirements using FURPS, intro to architectural analysis.
+- Be proficient using Rational Rose Modeler to represent both analysis and design models, including the following UML diagrams: use case, class, sequence, collaboration, activity and statechart diagrams.
+- Performing Responsibility Driven Design by recognizing and applying GRASP design patterns, anti-patterns and refactoring.
+- Identify Inheritance and refine the relationships between classes and objects to further extend the design as the use case realization is driving the completion of the design.
+- Understand the importance of functional code, analyze the user feedback to refine the design and grow the system with every new iteration.
+- Introducing the main types of software testing: unit testing, functional testing, regression testing, user acceptance testing, smoke test.
+- Introducing QA engineering concepts: test model, test plan, test case, test script, manual and automated testing tools, equivalence partitioning, Rational SQA scripts.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

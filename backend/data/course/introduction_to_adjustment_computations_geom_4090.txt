@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-adjustment-computations-geom-4090/
+Title: Introduction to Adjustment Computations GEOM 4090
+Type: Course
+Course Code: GEOM 4090
+
+================================================================================
+
+## Introduction to Adjustment Computations GEOM 4090
+Geomatics Course
+## Course Overview
+The emphasis of this course is on the practical applications of adjustment computations. It covers the theory of observational errors, measures of precision and accuracy; propagation law of errors; weights and propagation of weights; confidence region estimation and statistical hypothesis testing; principle of adjustment by traditional methods (Transit, Compass, Crandall’s rules); concepts of least squares adjustment; adjustment of parametric models with constraint equations, pre- and post-adjustment tests to detect blunders, which includes, but not limited to, using computer programming languages/commercial software packages to design 1D, 2D, and 3D survey networks, and analyze curve-fitting and coordinate transformation problems.
+### Prerequisite(s)
+- MATH 3512 and GEOM 3010
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the theory of errors, precisions, accuracy and weights, of geospatial measurements.
+- Apply the error and variance-covariance propagation laws to geomatics measurements.
+- Relate the concepts of estimation, probability, hypothesis testing and statistics.
+- Use statistical method to assess the magnitudes of errors in surveying measurements (including the means and variances).
+- Use Transit, Compass and Crandall’s rules to adjust traverse networks.
+- Discuss the assumptions, concept, advantages, disadvantages and applications of least squares adjustment.
+- Formulate parametric model equations of survey measurements for least squares adjustment.
+- Apply the principle of parametric least squares adjustment to adjust simple survey network measurements.
+- Solve practical geomatics problems, including 1D, 2D and 3D survey networks adjustment and pre-analyses, curve-fitting, and coordinate transformations using a commercial least squares adjustment package.
+- Perform post adjustment global and local tests to detect outliers in measurements and to evaluate quality of adjustment computations using commercial software.
+- Adjust simple survey measurements using a computer programming language.
+Effective as of Winter 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

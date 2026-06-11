@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/sql-server-analysis-services-ssas-comp-4681/
+Title: SQL Server Analysis Services, SSAS COMP 4681
+Type: Course
+Course Code: COMP 4681
+
+================================================================================
+
+## SQL Server Analysis Services, SSAS COMP 4681
+Computer Systems Course
+## Course Overview
+​ COMP 4681 has been replaced with COMP 3679 ​ starting Winter (January) 2024. This hands-on course follows on from COMP 1630 . Students who already understand relational database design, SQL programming and data warehouse foundations are introduced to SSIS. COMP 4681 is a blended BYOD course, participants must provide their own Windows 10 dual core laptop with a minimum of 8GB RAM to participate in this course. Please note: BCIT does not provide technical support for student's hardware or operating systems. Topics include: how to install, configure and manage SSAS; designing multidimensional Business Intelligence Semantic Model (BISM), accessing different data sources, creating multidimensional databases, data mining, interacting with cube data using Multidimensional Expressions (MDX) queries from MS Excel. Labs and exercises show how to use SSAS to design, create and manage multidimensional structures containing data from other sources. Participants are shown how to create and maintain an Analysis Services database. MS Excel and MS SQL Reporting Services are used to present data from SSAS. COMP 4681 is an elective in the Applied Database Administration and Design, ADAD Associate Certificate; the Applied Data Analytics Certificate, ADAC and the Computer Systems Technology, CST/PTS Diploma. Participation online via the BCIT Learning Hub and attendance are mandatory during scheduled class hours plus online activities for a minimum of 4 hours per week. Students should also plan for 9+ hours reading and homework each week. Please note: COMP 4681 will be offered in the winter (January) and fall (September) terms. Upon successful completion of COMP 4681 students will be able to use SSAS to deploy an Analysis Services database with multiple levels of security for data mining, they will be able to extract data from collections of multiple data sources and applications.
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explore Business Intelligence Platforms.
+- Install and configure SSAS?
+- Access Different Data Sources.
+- Create Cubes, Dimensions and Measures.
+- Use Aggregate Functions, Calculated Members and KPI.
+- Implement and utilize Advanced Dimension Design.
+- Incorporate Drillthough and Writeback functionality.
+- Interact with a Cube using MS Excel.
+- Utilize MDX queries to retrieve data from Analysis Services.
+- Linking Analysis to Reporting Services.
+- Build Secured Analysis Services.
+- Manage OLAP Database Storage, Processing, Partitions and Deployments.
+- Create and maintain an Analysis Services database.
+Effective as of Winter 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

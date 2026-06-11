@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/matrix-methods-for-geomatics-math-3511/
+Title: Matrix Methods for Geomatics MATH 3511
+Type: Course
+Course Code: MATH 3511
+
+================================================================================
+
+## Matrix Methods for Geomatics MATH 3511
+Mathematics Course
+## Course Overview
+Matrix algebra and its use in least squares adjustments. Matrix calculus with Taylor Series linearization, eigenvalues and eigenvectors, quadratic forms and error ellipses.
+### Prerequisite(s)
+- 50% in MATH 2511
+- MATH 2511 .
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Carry out matrix operations.
+- Solve small systems of linear equations using determinants.
+- Apply matrix operations to the solution of geomatics problems such as adjusting a small level net.
+- Solve large systems of linear equations using Gauss elimination and Choleski decomposition.
+- Use Choleski decomposition to solve the normal equations found in geomatics problems such as the determination of the position of a point.
+- Find matrix inverses using Choleski decomposition.
+- Use matrix inverses in geomatics adjustments problems to help estimate the standard deviations of variables.
+- Carry out matrix differentiation.
+- Use matrix differentiation to linearize matrices of functions so that the positions of points can be estimated.
+- Illustrate the use of Lagrange multipliers in least squares adjustments.
+- Solve vector problems involving distance and direction in 2- and 3- space.
+- Apply some of the concepts of vectors in finding eigenvalues and eigenvectors.
+- Use eigenvalues and eigenvectors to find the magnitude and directions of the semi-major and semi-minor axes of error ellipses about points whose position has been determined through adjustment.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/computer-applications-2-surv-2272/
+Title: Computer Applications 2 SURV 2272
+Type: Course
+Course Code: SURV 2272
+
+================================================================================
+
+## Computer Applications 2 SURV 2272
+Surveying Course
+## Course Overview
+This course will introduce Coordinate Geometry software for the hand held programmable calculator (HP50G). This software is used in the computations and field courses of Geomatics. Coordinate Geometry covers: creating jobs, creating & editing points, creating & editing traverses, inversing, intersection computations, area computation, and special coordinate operations such as transforming, Helmert's, and building shifts. This course will also introduce simple programming for the hand held programmable calculator (HP50G). This part of the course will deal with the structure of programs used in the HP50G including: Data types, variables, basic input and output, decision making, and loops. Labs and projects will be designed around typical Survey problems and data processing exercises.
+### Prerequisite(s)
+- SURV 1161 and SURV 1172
+### Credits
+2.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create a COGO job, store point coordinates, and compute traverse data.
+- Compute inverses and solve areas from the coordinate database.
+- Edit traverse data to correct typing mistakes and re-compute the traverse.
+- Compute missing traverse parts by Bearing-Bearing, Bearing-Distance, & Distance-Distance intersections.
+- Transform coordinates by rotating, shifting and scaling points.
+- Apply Helmert's Transformation to determine the relationship between two coordinate systems.
+- Shift a building's location on a lot to conform to setback constraints.
+- Create simple function programs to input from and output to the stack.
+- Identify the difference between local and global variables.
+- Create programs to ask for data input, process the data and output the results.
+- Apply conditional testing to make decisions within user programs.
+- Use loops to process repetitive data or generate multiple results for a data set.
+- Create programs to output special formats to the screen.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

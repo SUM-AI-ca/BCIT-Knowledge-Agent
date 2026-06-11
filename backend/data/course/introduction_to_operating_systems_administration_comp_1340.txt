@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/introduction-to-operating-systems-administration-comp-1340/
+Title: Introduction to Operating Systems Administration COMP 1340
+Type: Course
+Course Code: COMP 1340
+
+================================================================================
+
+## Introduction to Operating Systems Administration COMP 1340
+Computer Systems Course
+## Course Overview
+​​This course introduces students to the configuration, maintenance, and administration of both Microsoft Windows computers as well as Linux. Topics include an introduction to computer hardware, functions of an operating system (OS), Windows OS and Linux architecture, file and disk management, virtual machines, software installation/removal, performance tuning, backing up and protecting data, troubleshooting, networking, security, virus protection, and firewalls. Students can use tools such as VirtualBox and Cygwin to run Linux commands from a Windows operating system.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the purpose of different computer hardware components in desktop, laptop, and mobile computing devices such as smartphones and tablets.
+- Explain OS virtualization.
+- Backup and restore data files on Linux and PC computer systems.
+- Utilize Windows PowerShell for basic PC management operations.
+- Utilize the terminal in Linux for basic PC management operations.
+- Start, stop, and manage OS processes to fine-tune Microsoft Windows.
+- Start, stop, and manage OS processes to fine-tune Linux.
+- Performance tune a Microsoft Windows computer.
+- Discuss the advantages and disadvantages of Microsoft Windows and Linux.
+- Analyze the differences between computer viruses, Trojan horses, adware, and spyware and how to avoid them.
+- Performance tune a Linux computer.
+- Create accounts and perform configuration (creating/deleting/disabling accounts, changing passwords, privileges, usernames, etc.) for both Microsoft Windows and Linux.
+- Configure file and resource sharing for both Microsoft Windows and Linux.
+- Analyze differences between binary and text file formats.
+- Configure various security settings on both Microsoft Windows and Linux such as file permissions and firewall settings.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/intermediate-windows-application-development-comp-2691/
+Title: Intermediate Windows Application Development COMP 2691
+Type: Course
+Course Code: COMP 2691
+
+================================================================================
+
+## Intermediate Windows Application Development COMP 2691
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 3614 N-Tier Application Development in .NET as of November 2009. This hands-on intermediate level course follows-on from COMP 2690 . Participants will use MS Visual Studio 2008 in the .NET Framework 3.5 to create rich Windows Forms programs with advanced controls. Students learn Microsoft industry standards and are exposed to .NET features such as delegates, attributes and reflection. Topics include: I/O system, object serialization, common Windows controls, advanced Windows controls, programming with ADO.NET, multithreading, asynchronous programming techniques, COM Interop, XML.NET document object model, XML.NET query language, XML.NET navigation, and reflection. Upon successful completion participants will be able to design, debug and deploy stand-alone Windows applications. This course along with COMP 2690 helps prepare students to challenge several Microsoft exams and move on to more advanced Windows development courses.
+### Prerequisite(s)
+- 50% in COMP 2690
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Work with Input and Output (I/O) system.
+- Serialize and deserialize objects in .NET framework.
+- Explain simple delegates, multi-cast delegates, and asynchronous delegates.
+- Publish and subscribe to events.
+- Use common Windows controls such as LinkLabel, Scrollbar, Provider, MonthCalendar, DateTimePicker, DomainUpDown, NumericUpDown, TrackBar, ProgressBar, Timer, and MaskedTextBox controls.
+- Use advanced Windows controls such as ImageList, TreeView, ListView, TabControl, DataGrid, DataGridView, MenuStrip, ToolStrip, StatusStrip, and FlowLayoutPanel controls.
+- Develop Windows forms custom controls.
+- Design multithreaded applications
+- Explain thread synchronization techniques such as mutex, semaphore, and event techniques.
+- Use asynchronous programming model techniques.
+- Call Legacy COM objects (COM Interop) in .NET framework.
+- Create and manage .NET components and assemblies.
+- Use the ADO.NET classes to build data-bound Windows forms.
+- Read, write, process, and search the XML Data.
+- Use reflection techniques to load an assembly, and dump its type information.
+Effective as of Winter 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

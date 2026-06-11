@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/javascript-frameworks-and-server-comp-3330/
+Title: JavaScript Frameworks and Server COMP 3330
+Type: Course
+Course Code: COMP 3330
+
+================================================================================
+
+## JavaScript Frameworks and Server COMP 3330
+Computer Systems Course
+## Course Overview
+​In this course, students will learn to use client-side JavaScript frameworks, such as React and MVC frameworks such as Angular, to create fast and modular applications. They will also learn to use server-side JavaScript using platforms such as Node.js, and build networked web applications. Labs and exercises focus on how to structure and develop web applications following current industry standards.
+### Prerequisite(s)
+- COMP 2131 and COMP 2523
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement HTTP servers and clients.
+- Install and make use node modules to extend the capabilities of the Node.js platform.
+- Use express web framework to build web applications.
+- Build a RESTful API.
+- Connect and retrieve data from a Data store.
+- Access the file system to read and write files.
+- Write Command-Line scripts.
+- Explain transpilers in the Node.js environment.
+- Add real time capabilities to the application by using socket.io module.
+- Explain the use of a web stack as a way to build modern scalable web apps.
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React and it’s supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Build feature-rich, interactive user interfaces with modular components.
+- Implement extended React functionality with modern react libraries.
+- Apply fundamental Software Development concepts to architect your web application.
+- Develop one-page data-driven applications using the component-based architecture.
+- Build custom components and services. Obtain and use suitable tools for developin
+- Select and apply common directives for data binding, filtering, validation, and DOM manipulation.
+- Use a client side library to interact with REST Services to send and receive data in JSON format.
+- Automate unit-testing and end-to-end testing.
+Effective as of Fall 2021
+## Related Programs
+JavaScript Frameworks and Server (COMP 3330) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

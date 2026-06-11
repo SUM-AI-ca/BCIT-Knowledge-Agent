@@ -1,0 +1,162 @@
+URL: https://www.bcit.ca/courses/web-development-with-javascript-comp-2132/
+Title: Web Development with JavaScript COMP 2132
+Type: Course
+Course Code: COMP 2132
+
+================================================================================
+
+## Web Development with JavaScript COMP 2132
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 1850 Web Design and Development with HTML. Those who already understand HTML5 and CSS3 will explore web development in more depth with JavaScript and jQuery and be introduced to programming for web sites and web applications. COMP 2132 introduces web programming concepts, participants will create and use JavaScript variables, objects, functions, and arrays. Labs, exercises, and assignments focus on the theory behind client-side web scripting and how to manage interactive sites. Topics include objects, event handling, functions, closures, object detection, prototyping, event handling, callback functions, jQuery introduction, jQuery plugin usage, form validation, timers, and simple animations. Attendance, participation in class and the BCIT Learning Hub are mandatory. This course is typically delivered over 12 weeks. Please Note: The 6-week compressed sections are designed for students not taking multiple courses as the compressed sections have 2 lessons and twice the workload per week. COMP 2132 is the prerequisite for several follow-on advanced JavaScript courses, COMP 2909 Angular and Vue.js, COMP 3012 Back-End Web Development with Node.js, COMP 3013 Front-End Web Development with React.js and COMP 3015 Introduction to Web Applications with PHP. is a required course for Applied Web Development (AWD) and Web Development Fundamentals (WDF) and the Computer Systems Certificate (CSC). Upon completion, successful students will be able to program web sites and develop significant web applications with JavaScript.
+### Prerequisite(s)
+- 60% in COMP 1850 or 50% in COMP 1170 or 50% in COMP 1171 or 50% in COMP 1537 or 50% in GDES 1195
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$582.74 - $623.73 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create and use JavaScript variables, objects, functions, and arrays.
+- Explain Array() manipulation for native ES6 array methods.
+- Describe various iterative and conditional control constructs in JavaScript.
+- Evaluate jQuery and how it applies to web development.
+- Create JavaScript event handler code in order to respond to various event types.
+- Perform customized data validation.
+- Construct code that creates animation effects within a web page.
+- Explain the HTTP protocol and how it is used to deliver web content.
+- Use Fetch and Async/Await to retrieve data from a REST API.
+- Store and retrieve data using JSON.
+- Design JavaScript code that generates both HTML 5 and CSS 3.
+- Use the Constructor, Class and the Prototype patterns to create objects with their own properties and methods.
+- Use Git/GitHub and Gulp/WebPack and build systems.
+- Use Sass (SCSS) for modern web development.
+Effective as of Spring/Summer 2021
+## Related Programs
+Web Development with JavaScript (COMP 2132) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+- Computer Systems Certificate Part-time
+- Web Development Foundations (WDF) Microcredential Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are four offerings of COMP 2132 for the Spring/Summer 2026 term.
+Jun 22 - Aug 05
+- CRN 67142
+- $611.02 Domestic fees
+Dates | Days | Times | Locations
+Jun 22 - Aug 05 | Mon, Wed | 13:00 - 16:00 | Downtown DTC Rm. 484
+### Duration
+6 weeks
+### Instructor
+Jeff Parker
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours on campus. Please Note: The compressed 6-week delivery requires 6 hours per week in class (2 lessons per week) covering the same material in half the time. The 6-week intensive delivery may have 12-18+ hours homework per week, depending on the student, and is best suited for those not attempting multiple courses in the same term. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class July 1 (Canada Day) and August 3 (BC Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Apr 09 - Jun 25
+- CRN 67141
+- $582.74 Domestic fees
+Dates | Days | Times | Locations
+Apr 09 - Jun 25 | Thu | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Jeff Parker
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 05 - Jul 21
+- CRN 68899
+- $611.02 Domestic fees
+Dates | Days | Times | Locations
+May 05 - Jul 21 | Tue | 18:00 - 21:00 | Downtown DTC
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 12 - Jul 28
+- CRN 70680
+- $582.74 Domestic fees
+Dates | Days | Times | Locations
+May 12 - Jul 28 | Tue | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Johnny Zhang
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. The start and end dates have been changed from May 5 – July 21 to May 12 – July 28.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below are two offerings of COMP 2132 for the Fall 2026 term.
+Sep 10 - Nov 26
+- CRN 47007
+- $594.69 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Jeff Parker
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 15 - Dec 01
+- CRN 51459
+- $623.73 Domestic fees
+Dates | Days | Times | Locations
+Sep 15 - Dec 01 | Tue | 18:00 - 21:00 | Downtown DTC Rm. 370
+### Duration
+12 weeks
+### Instructor
+Johnny Zhang
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours on campus. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

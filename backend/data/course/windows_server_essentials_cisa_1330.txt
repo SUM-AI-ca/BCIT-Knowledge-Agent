@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/windows-server-essentials-cisa-1330/
+Title: Windows Server Essentials CISA 1330
+Type: Course
+Course Code: CISA 1330
+
+================================================================================
+
+## Windows Server Essentials CISA 1330
+Computer Info Systems Admin Course
+## Course Overview
+This course introduces students to Windows Servers and includes configuration and management of components relating to Installation, Storage systems, Networking including DHCP and DNS, HyperV, Domain Controllers, Active Directory, Permissions, Securing Servers, and other items supporting a large enterprise environment. ​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and configure servers and domain controllers.
+- Configure Windows server licensing and activation.
+- Manage Windows servers remotely.
+- Configure Windows clients to securely connect to Windows servers.
+- Configure hard drives and storage.
+- Configure SMB shares in Windows server.
+- Configure basic and advanced NTFS and share permissions.
+- Install and configure HyperV.
+- Configure and manage HyperV Storage and networking.
+- Install and configure images (guests) using HyperV.
+- Install and configure DHCP, DNS, and implement an IP Addressing strategy.
+- Configure Virtual Private Networking and Remote Access.
+- Install and configure forests, domains, and child domains.
+- Create, manage, and maintain Active Directory.
+- Create and manage Active Directory users, computers, groups, organizational units (OUs), and many other Active Directory objects.
+- Configure global catalog servers and operations masters.
+- Configure service authentication and account policies.
+- Create and configure password policies, account lockout policies, and Kerberos authentication policies.
+- Create and configure various trust relationships in enterprise environments.
+- Monitor, manage and recover Widows Servers and AD DS.
+- Configure and manage Active Directory in a complex enterprise environment using Active Directory sites and services.
+- Configure and manage Active Directory replication.
+- Use PowerShell to install, configure, and manage many of the components learned in this course.​
+Effective as of Fall 2022
+## Related Programs
+Windows Server Essentials (CISA 1330) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

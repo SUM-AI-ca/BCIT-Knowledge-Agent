@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/deploying-windows-services-cisa-3330/
+Title: Deploying Windows Services CISA 3330
+Type: Course
+Course Code: CISA 3330
+
+================================================================================
+
+## Deploying Windows Services CISA 3330
+Computer Info Systems Admin Course
+## Course Overview
+​This course provides a comprehensive exploration of advanced Windows Server technologies, focusing on virtualization, deployment, and management. Areas of focus include Active Directory, Windows PowerShell, Windows Deployment Services (WDS), Azure Virtual Desktop (AVD), Hyper-Converged Infrastructure (HCI), and clustering. The course emphasizes hands-on experience with Windows Server Hyper-V, high availability solutions, and automated deployment techniques. This curriculum provides a strong foundation for leveraging modern Windows Server technologies in enterprise environments and prepares students for advanced roles in IT infrastructure management.​
+### Prerequisite(s)
+- CISA 2330
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate advanced knowledge of Active Directory services and management.
+- Utilize PowerShell effectively for Windows Server administration and automation.
+- Implement and manage Windows Deployment Services (WDS) for automated deployments of desktop and server operating systems.
+- Configure and maintain Azure Virtual Desktop (AVD) for virtual desktop infrastructure and on-demand applications.
+- Explain Microsoft's virtualization solutions and the Hyper-V architecture.
+- Install, configure, and manage Windows Server Hyper-V.
+- Create and manage virtual machines and virtual networks in Hyper-V.
+- Implement high availability solutions using Windows Server Clustering.
+- Design and deploy Hyper-Converged Infrastructure (HCI) solutions.
+Effective as of Fall 2024
+## Related Programs
+Deploying Windows Services (CISA 3330) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,23 @@
+URL: https://www.bcit.ca/courses/web-applications-in-java-mmsd-3630/
+Title: Web Applications in Java MMSD 3630
+Type: Course
+Course Code: MMSD 3630
+
+================================================================================
+
+## Web Applications in Java MMSD 3630
+Multimedia Software Development Course
+## Course Overview
+Continues from COMP 3621 , students learn to design, code, build, and deploy Java Web Applications. Includes a study of Web servers, Web application directory structures, deployment of Web applications to Web servers, JSPs, servlets, and HTTP. Topics include; the servlet life cycle, web containers, handling of client requests, use of session management techniques, JSP Java scripting elements, designing using JSPs with and without servlets, and JSP custom tags. Integrating JSPs and Servlets into industrial strength Web Applications is also discussed.
+### Prerequisite(s)
+- 50% in COMP 3621 or 50% in MMSD 3620
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Design, code, build, and deploy Java Web Applications.
+- Set up Web Servers, Web Application directory structures.
+- Deploy Web applications to Web Servers, JSPs, Servlets, and HTTP.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/industrial-control-system-security-fsct-8591/
+Title: Industrial Control System Security FSCT 8591
+Type: Course
+Course Code: FSCT 8591
+
+================================================================================
+
+## Industrial Control System Security FSCT 8591
+Forensic Investigation Course
+## Course Overview
+This course provides the students with practical knowledge of how industrial control systems are attacked and defended. The course begins with background knowledge on industrial control systems. In that regard, the students will learn about SCADA, DCS, EMS, and PLCs. The students will also learn some of the major network communication protocols that are used in industrial control networks. The course then proceeds with an exploration of how industrial control systems interweave with information technology and control theory. After acquiring background knowledge on industrial control systems, the students will learn about the threat vectors that could carry and launch attacks on industrial control systems. The students then will learn the attack techniques that apply to industrial control systems, and how those techniques are materialized into exploits. The students will also learn how to conduct machine code analytics in order to discover and analyze 0-day vulnerabilities in the software or firmware of industrial control systems. This course teaches students about control system malware. It covers some important case studies, namely Stuxnet and Duqu, to illustrate how industrial control system specific malware is designed and implemented. The students will also learn how to perform digital forensics on a compromised industrial control system. The course concludes by teaching students about the main techniques that are utilized at the present time to detect intrusions into industrial control networks.
+### Prerequisite(s)
+- Admission to a Forensic credential program or permission of the Program Coordinator.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Outline the architecture and principles of operation of industrial control systems
+- Describe and analyze major network communication protocols used in industrial control networks
+- Determine how industrial control systems relate to information technology and dynamical systems control
+- Enumerate and describe threat vectors in industrial control networks
+- Describe the anatomy and implementation of attack techniques that apply to industrial control systems
+- Discover and analyze unknown vulnerabilities in industrial control systems
+- Describe the inner workings of industrial control system specific malware
+- Explain the design and implementation of Stuxnet and Duqu
+- Perform forensics on a compromised industrial control system
+- Describe the main techniques that are utilized to detect attacks on industrial control systems
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

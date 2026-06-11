@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-4-csst-4175/
+Title: Network Operating Systems 4 CSST 4175
+Type: Course
+Course Code: CSST 4175
+
+================================================================================
+
+## Network Operating Systems 4 CSST 4175
+Computer Systems Service Technician Course
+## Course Overview
+This course is for students who will be responsible for installing, configuring, managing, and supporting a network infrastructure that uses Microsoft Windows 2003 Server. This course includes topics such as: installing and configuring DNS, DHCP, virtual private networks and remote access, TCP/IP, WINS, IP Routing, Gateway services, RIS security and network protocol security.
+### Prerequisite(s)
+- 70% in CSST 3175
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Install and configure TCP/IP on a Windows 2000 computer.
+- Explain the purpose of the NWLink protocol.
+- Install Gateway Service for Netware.
+- Install and configure NWLink.
+- Capture, examine and view data using Network Monitor.
+- Describe the architecture of IPSec.
+- Explain the benefits of IPSec.
+- Configure, customize and monitor IPSec policies.
+- Explain how the HOSTS file is used in name resolution.
+- Configure and use the HOSTS file.
+- Explain how the WINS resolution process works.
+- Configure a WINS client and WINS replication.
+- Explain how name resolution works in DNS.
+- Install, configure, and troubleshoot DNS on a Windows 2000 computer.
+- Plan a DNS implementation.
+- Explain how DHCP works on a Windows 2000 computer.
+- Install, configure, and troubleshoot DHCP on a Windows 2000 computer.
+- Integrate DHCP and DNS on a Windows 2000 computer.
+- Explain the purpose of Windows 2000's remote access service.
+- Install, configure, monitor and manage a Routing and Remote Access Server.
+- Implement IP routing on a Remote Access Server.
+- Configure DHCP to work with Routing and Remote Access Server.
+- Explain how a VPN works.
+- Implement a VPN.
+- Describe the purpose of Network Address Translation.
+- Install and configure Network Address Translation.
+- Install, configure, and manage Certificate Authority.
+- Plan and implement network security on Windows 2000 computers.
+- Configure routing and remote access security.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

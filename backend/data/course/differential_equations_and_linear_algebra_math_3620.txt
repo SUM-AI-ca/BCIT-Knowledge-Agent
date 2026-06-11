@@ -1,0 +1,52 @@
+URL: https://www.bcit.ca/courses/differential-equations-and-linear-algebra-math-3620/
+Title: Differential Equations and Linear Algebra MATH 3620
+Type: Course
+Course Code: MATH 3620
+
+================================================================================
+
+## Differential Equations and Linear Algebra MATH 3620
+Mathematics Course
+## Course Overview
+This course covers methods and concepts of linear algebra including vectors, matrices and matrix operations, determinants, linear transformations, matrix decomposition, matrix diagonalization, eigenvalues and eigenvectors and the matrix exponential. The course also covers analytical methods for solving ordinary differential equations of first, second and higher orders as well as systems of differential equations. Course topics will be approached throughout with an emphasis on modeling of engineering systems in the electrical, mechanical, heat transfer and control systems fields. Some exposure to Matlab or equivalent mathematical software will be provided in this course. Students will use the software to assist with calculations in this course.
+### Prerequisite(s)
+- MATH 3433 † ( † may be taken concurrently)
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate working familiarity with the arithmetic of matrices including addition, subtraction and multiplication as well as with operations on matrices including matrix inversion, transposition, elementary row operations and reduction to row echelon form. [1]
+- Solve systems of linear equations using a variety of methods including Gaussian elimination, matrix inversion, determinants (Cramer’s rule) and matrix decomposition. [1]
+- Describe the fundamental mathematical properties of a vector space and outline the relevance of vector space concepts in mathematics and engineering analysis (e.g. Fourier analysis, image processing, etc.). [1]
+- Carry out various tests and calculations involving vector space related concepts and definitions including linear combinations, spanning sets, basis, linear independence and linear transformations. [1]
+- Perform calculations in the n-dimensional Euclidean vector space including the determination of length, angle and various vector projections and understand the significance of these calculations in applied problems involving signal representation, minimization of distance, and minimization of error. [1, 2]
+- Calculate the eigenvalues and eigenvectors for a matrix and use them in various applied situations including computation of matrix powers, matrix exponential, matrix diagonalization, determination of principal axes and discrete-time system analysis. [1, 2]
+- Use appropriate physical laws (e.g. Kirchhoff’s circuit laws, Newton’s laws of motion, etc.) to establish initial value and boundary value problems for applications involving circuits, mechanical systems, chemical mixing and heating/cooling. [1, 2]
+- Solve first, second and higher order homogeneous linear constant coefficient differential equations using the characteristic equation method and extend to the nonhomogeneous case using the methods of undetermined coefficients and variation of parameters. [1, 2]
+- Investigate the properties of the solutions of differential equations and examine the effects of changes in initial conditions, boundary conditions or system parameters on the solutions. [1, 2]
+- Set up and interpret models of important engineering concepts such as forced oscillations and resonance in both mechanical and electrical systems. [1, 2]
+- Solve applied problems involving systems of first-order homogeneous linear differential equations using eigenvalue methods and extend to the nonhomogeneous case using the method of undetermined coefficients. [1, 2]
+- Prepare the state-space representation of a system either directly from a given system of first-order differential equations or by reducing higher-order differential equations to an equivalent system of first-order differential equations. [1, 2]
+- Use phase plane analysis to assess the behaviour and stability of systems of first-order homogeneous linear differential equations. [1]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2017
+## Related Programs
+Differential Equations and Linear Algebra (MATH 3620) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

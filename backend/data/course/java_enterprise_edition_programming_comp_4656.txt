@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/java-enterprise-edition-programming-comp-4656/
+Title: Java Enterprise Edition Programming COMP 4656
+Type: Course
+Course Code: COMP 4656
+
+================================================================================
+
+## Java Enterprise Edition Programming COMP 4656
+Computer Systems Course
+## Course Overview
+​PLEASE NOTE: COMP 4656 will have its final offering in January 2023. Continuing on from COMP 4613 , this hands-on course focuses on development of Java Enterprise applications. Participants must already understand JDBC, Java Servlets, JSP, JSTL, XML and XML schemas. This capstone project is the final course in the Advanced Java Development Associate Certificate and is designed for experienced Java web developers who want to enhance their skills further by learning how to design and develop large scale enterprise applications. Students begin with an introduction to the Java EE application model, which defines the architecture for implementing services as distributed multi-tier application. Labs, exercises and assignments focus on creating web applications and web services using variety of industry standards and design patterns. There is a mandatory online component via D2L along with 3 hours class time each week. Topics include: Java Persistence API with Hibernate implementation, binding between XML and Java objects using JAXB API, RESTful and SOAP Web Services, Enterprise Beans and the Java Messaging Service API. By the end of the course, successful participants will have the skills to build multi-tier Java web applications by employing a variety of JEE libraries and integration techniques to industry standards.
+### Prerequisite(s)
+- 60% in COMP 4613
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the Java Persistence API (JPA) and employ it in order to create an Object Relational Mapping solution.
+- Use Hibernate API as JPA implementer to create a database enabled web application.
+- Develop JPA entities using JPA annotations to map the Java classes, properties, and types to relational tables, columns, and types.
+- Configure Data Sources in JEE containers.
+- Carry out Create/Read/Update/Delete (CRUD) operations on JPA entities using entity managers.
+- Create web applications and web services using variety of industry standards and design patterns.
+- Map XML documents to Java classes and vice versa by employing Java API for XML Binding (JAXB).
+- Create XML based web services with JAX-WS API in bottom-up and top-down.
+- Create RESTful web services using JAX-RS API and Jersey Implementation.
+- Make well informed decisions about web services strategies.
+- Use EJB™ API to develop components used in building the business logic of Java EE applications.
+- Use Message-Driven beans to process messages asynchronously in Java EE applications.
+- Integrate two or more java web applications using Java Messaging Service (JMS).
+- Provide case based recommendations for asynchronous vs synchronous messaging between application clients, EJB™ components and web components.
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

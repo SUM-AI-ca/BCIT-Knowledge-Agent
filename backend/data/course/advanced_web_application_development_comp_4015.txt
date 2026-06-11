@@ -1,0 +1,88 @@
+URL: https://www.bcit.ca/courses/advanced-web-application-development-comp-4015/
+Title: Advanced Web Application Development COMP 4015
+Type: Course
+Course Code: COMP 4015
+
+================================================================================
+
+## Advanced Web Application Development COMP 4015
+Computer Systems Course
+## Course Overview
+​This hands-on course provides an in-depth exploration of server-side web application development, focusing on industry standard best practices, scalability, and security. Participants will develop sophisticated web applications using modern architectural patterns, while gaining experience with the Go and PHP programming languages. COMP 4015 emphasizes secure development practices, database integration with PostgreSQL, and the foundations that underpin robust web application design. Labs and exercises include building scalable, secure, and maintainable server-side applications. There is an emphasis on the broader ecosystem of web application development technologies and long-term scalability strategies. COMP 4015 replaces COMP 3015 as an elective in the Applied Web Development (AWD), and as a required course in the Web and Mobile Application Development (WMA) Associate Certificates, and the CST FLEX Diploma. ​Upon successful completion, students will be able to develop secure, scalable, commercial quality server-side web applications.
+### Prerequisite(s)
+- 60% in COMP 3012 or 60% in COMP 2522 or 60% in COMP 2601 or 60% in ACIT 2520
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$576.74
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Build industry standard database-driven applications with a focus on security and scalability.
+- Identify and mitigate common web vulnerabilities such as Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and SQL injection.
+- Follow industry standard best practices for using cryptographic password hashing functions.
+- Configure and use industry-standard debugging tools for server-side applications.
+- Understand architectural patterns for load balancing, horizontal scalability, and queuing.
+- Apply typical Git workflows including branching strategies and pull requests.
+- Understand deployment strategies including blue-green deployments and rolling updates.
+- Analyse and compare server-side execution environments (e.g. PHP-FPM with Nginx, Goroutines) and their implications for performance and scalability.
+- Design and implement RESTful Web APIs following industry standards and best practices.
+- Develop comprehensive test suites with CI/CD pipeline integration and code coverage analysis.
+- Analyse reliability and correctness challenges in server-side web applications including race conditions, retries, idempotency, and timeouts.
+Effective as of Spring/Summer 2026
+## Related Programs
+Advanced Web Application Development (COMP 4015) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of COMP 4015 for the Spring/Summer 2026 term.
+May 04 - Jul 27
+- CRN 70605
+- $576.74 Domestic fees
+Dates | Days | Times | Locations
+May 04 - Jul 20 | Mon | 18:30 - 21:30 | Online
+Jul 27 | Mon | 18:30 - 21:30 | Downtown DTC
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online synchronously with exams on-campus. The course is 36 hours. Final Exam: July 27, 1830-2130 at DTC Rm 300. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 18 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 4015 for the Fall 2026 term.
+Sep 14 - Dec 07
+- CRN 52733
+- $576.74 Domestic fees
+Dates | Days | Times | Locations
+Sep 14 - Nov 30 | Mon | 18:30 - 21:30 | Online
+Dec 07 | Mon | 18:30 - 21:30 | Downtown DTC Rm. 370
+### Duration
+12 weeks
+### Instructor
+Christian Fenn
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online synchronously with exams on-campus. The course is 36 hours. Final Exam: December 7, 1830-2130 at DTC Room 370. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class October 12 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

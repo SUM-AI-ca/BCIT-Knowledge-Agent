@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/software-engineering-comp-4956/
+Title: Software Engineering COMP 4956
+Type: Course
+Course Code: COMP 4956
+
+================================================================================
+
+## Software Engineering COMP 4956
+Computer Systems Course
+## Course Overview
+This course introduces the students to system programming using an applied approach. The topics discussed in this course are: Windows system architecture, processes, threads and jobs, inter-process communications, multi-tasking, kernel objects, threads synchronization, virtual memory, and management mechanisms. Students will apply the concepts by developing real life applications. During the term, students will design and implement a large project. The project is intended to give students the chance to experience the work and the responsibilities of a real life project. Students will learn to work in a team, manage or report to a manager, keep the deadlines, take responsibilities and have initiative.
+### Prerequisite(s)
+- 50% in COMP 3951
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Identify the differences between system and application programming and the area that requires system programming knowledge.
+- Discuss Win32 principles.
+- Explain the message-based architecture implemented in the Windows operating system, the concepts of Window class, Window procedure and API call.
+- Explain the Windows operating system design and compare it with other operating systems.
+- Explain Windows internal architecture.
+- Explain selected aspects of the system mechanisms, including the object manager, processes, threads, fibers and jobs, multi-threaded processes, inter-process communications, low-level file and memory access, and multi-tasking (using both threads and processes).
+- Explain synchronization of concurrent processes.
+- Explain the concepts of systems calls, shared memory and virtual memory in the Windows environment.
+- Explain the management mechanisms: Windows Management Instrumentation (WMI), services, and the registry.
+- Identify and programmable change registry keys and contents.
+- Design and implement applications involving the above topics.
+- Design and implement a large project.
+- Take responsibilities (including management responsibilities) for the project research, design, implementation, integration and testing.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

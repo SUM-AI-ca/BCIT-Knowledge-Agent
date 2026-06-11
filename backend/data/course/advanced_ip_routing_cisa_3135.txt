@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/advanced-ip-routing-cisa-3135/
+Title: Advanced IP Routing CISA 3135
+Type: Course
+Course Code: CISA 3135
+
+================================================================================
+
+## Advanced IP Routing CISA 3135
+Computer Info Systems Admin Course
+## Course Overview
+This course teaches students how to plan, configure, maintain, and scale a routed network. It focuses on using Cisco routers connected in LANs and WANs typically found at medium-to-large network sites. IP routing concepts and routing protocols are explored in depth. Students spend considerable time implementing laboratory networks that utilize IP routing on Cisco routers. Topics include OSPF, EIGRP, IS-IS, BGPv4, route summarization, route redistribution, route filtering, VLSM, NAT, and advanced Access Control Lists. After completing this course, students will be able to select and implement the appropriate Cisco IOS services required to build a scalable, routed network.
+### Prerequisite(s)
+- Successful completion of CISA Level 3 (NSA option) with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the properties of Distance Vector versus Link State Routing protocols
+- Describe the operation of OSPF, IS-IS, EIGRP, BGPv4
+- Configure a routing domain to utilize a combination of OSPF, IS-IS, EIGRP, and BPGv4
+- Control route advertisement via route summarization, route filtering, and route redistribution
+- Utilize techniques such as NAT and VLSM to provide address scalability
+- Implement IPv6 based routed environments
+- Configure tunnelling features to allow IPv6 packets to flow across native IPv4 networks
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

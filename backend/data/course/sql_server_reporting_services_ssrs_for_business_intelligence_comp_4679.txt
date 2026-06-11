@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/sql-server-reporting-services-ssrs-for-business-intelligence-comp-4679/
+Title: SQL Server Reporting Services, SSRS for Business Intelligence COMP 4679
+Type: Course
+Course Code: COMP 4679
+
+================================================================================
+
+## SQL Server Reporting Services, SSRS for Business Intelligence COMP 4679
+Computer Systems Course
+## Course Overview
+​ COMP 4679 has been replaced by COMP 3679 ​ starting Winter (January) 2024. This hands-on course follows on from COMP 1630 . Students who already understand relational database design, SQL programming are introduced to SQL Server Reporting Services SSRS. Students must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Please note: BCIT does not provide technical support for student's hardware or operating systems. COMP 4679 topics include how to install, configure and manage SSRS; author reports using SQL Server Data Tools (SSDT), and apply multiple levels of report security. Students receive a brief overview of Microsoft SQL Server Analysis Services which provides additional BI concepts. Labs and exercises show how to use SSRS to extract the data from its multiple collections of applications and data sources, how to deliver and manage reports, to integrate SSRS reports. Participants explore business intelligence platforms and apply best practices to author, deploy and manage reports with SSRS. COMP 4679 is an elective in the Applied Database Administration and Design, ADAD Associate Certificate; the Applied Data Analytics Certificate, ADAC and the Computer Systems Technology, CST/PTS Diploma. Participation online via the BCIT Learning Hub and attendance are mandatory during scheduled class hours plus online activities for a minimum of 4 hours per week. Students should also plan for 9+ hours reading and homework each week. Upon successful completion of COMP 4679 students will be able to use SSRS to deploy a Reporting Services database, they will be able to extract data from multiple data sources and integrate traditional and interactive SSRS reports. Please note: COMP 4679 will be offered in the Spring (April) and Fall.
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explore Business Intelligence Platforms.
+- Install and configure SSRS.
+- Describe the architecture of SSRS.
+- Incorporate Business Intelligence through SSRS.
+- Connect to various data sources.
+- Describe the typical data warehouse lifecycle.
+- Differentiate between relational database and data warehouse modeling concepts, including star and snowflake schemas.
+- Determine ETL and Data Quality role and considerations.
+- Connect to various data sources.
+- Design reports using SQL Server Data Tools, SSDT.
+- Customize reports, enabling Write-back and Drill-through.
+- Utilize the report builder for user ad hoc reporting.
+- Render, manage, publish, automate and deploy reports in multiple formats, with multiple levels of security.
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

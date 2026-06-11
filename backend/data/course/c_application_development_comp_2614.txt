@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/c-application-development-comp-2614/
+Title: C# Application Development COMP 2614
+Type: Course
+Course Code: COMP 2614
+
+================================================================================
+
+## C# Application Development COMP 2614
+Computer Systems Course
+## Course Overview
+​This hands-on course builds upon COMP 1451 or equivalent knowledge of object oriented programming. Students who already understand OOP learn to build graphical user interfaces (GUIs) and design Windows application software. The focus of this course is an introduction to C# programming with Microsoft Visual Studio and the .NET Framework 4.7 for Windows application development. Labs and assignments are designed to reinforce Microsoft industry standards and best practices. Topics include: Windows Forms and controls, event-driven programming and effective application debugging. Students will be prepared to move on to more advanced C# in COMP 3618 Advanced .NET Application Development and COMP 3973 Web Application in ASP.NET MVC Core. Upon successful completion, participants will be able to use C# to create executable Console and Windows Form applications with the latest .NET technologies. PLEASE NOTE: COMP 2614 was offered for the last time in April 2021, it has been replaced in September 2021 by COMP 3602
+### Prerequisite(s)
+- COMP 1451 or equivalent knowledge of Object Oriented Programming.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the Microsoft.NET Framework and understand its' major components: Common Language Runtime (CLR) and Base Class Library (BCL).
+- Use the C# language to build Console and Windows Form applications.
+- Design Windows GUI applications with Forms and Dialogs.
+- Use common Windows controls including Form, TextBox, Button, and Label.
+- Use advanced Windows controls including DataGridView, ListView, and Error Provider.
+- Use Visual Studio 2019 and Microsoft Docs for on-line help
+- Write executable and Class Library Assemblies, using the C# language.
+- Work with multiple projects, using Visual Studio Solutions.
+- Implement exception handling to build robust applications.
+- Work with the Input/Output (I/O) system.
+- Implement the latest .NET features including LINQ, Lambdas, and Extension Methods.
+- Work with .NET Collection classes.
+- Interact with SQL databases using Active Data Objects (ADO.NET).
+- Enhance code separation using namespaces and class libraries.
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

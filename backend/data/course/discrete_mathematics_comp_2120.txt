@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/discrete-mathematics-comp-2120/
+Title: Discrete Mathematics COMP 2120
+Type: Course
+Course Code: COMP 2120
+
+================================================================================
+
+## Discrete Mathematics COMP 2120
+Computer Systems Course
+## Course Overview
+COMP 2120 has been replaced by COMP 2121 . Discrete Mathematics are concerned with processes that consist of a sequence of individual steps. The ideas behind Discrete Mathematics underline the science and technology specific to computer applications. The Discrete Mathematics course provides the mathematical basis and concepts for applications in computer science: elementary logic, the logic of quantified statements, methods of proof, set theory, discrete functions, counting, probabilities, and discrete statistics, sequences and mathematical induction, recursion, finite state machines and automata, graphs and trees. Each topic is accompanied by an application of the concepts taught.
+### Prerequisite(s)
+- COMP 1113
+### Credits
+5.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Use hypothetical reasoning.
+- Use truth tables to establish the truth of conditional statements.
+- Prove with a truth table that an argument is valid.
+- Deduce the conclusion from premises using the valid argument forms.
+- Use correctly the symbols ' and $.
+- Prove mathematical arguments using Direct Proof and Counterexample.
+- Apply Number Theory in developing useful and correct algorithms.
+- Verify the correctness of a program using mathematical methods.
+- Understand and define formal languages.
+- Understand and apply Set Theory.
+- Work with discrete mathematics functions and use them in applications.
+- Design finite-state automata and finite-state machines.
+- Graph functions and evaluate them (Big O- Notation).
+- Understand and build graphs and trees.
+- Understand how graph and trees can be applied in the study of artificial intelligence, scheduling problems and data communication problem.
+- Understand and apply the basic concepts and formulas of probability and distinguish between independent and mutually exclusive events.
+- Compute event probabilities using probabilities trees.
+- Explain the concept of random discrete variable, its parameters and probability distribution.
+- Describe the requirements of binomial and Poisson experiments and calculate associated event probabilities from basic formulae or probability tables.
+- Compute and interpret the entropy of a discrete random variable.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

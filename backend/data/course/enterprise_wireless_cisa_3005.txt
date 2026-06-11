@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/enterprise-wireless-cisa-3005/
+Title: Enterprise Wireless CISA 3005
+Type: Course
+Course Code: CISA 3005
+
+================================================================================
+
+## Enterprise Wireless CISA 3005
+Computer Info Systems Admin Course
+## Course Overview
+Students learn to design, install, configure, monitor and troubleshoot wireless local area networks (WLANs). The scope of the course includes medium-sized business and enterprise solutions. The course starts with the fundamentals of wireless communications, explores the operation of stand-alone wireless access points (APs), wireless security concepts, and then moves to controller based operations. Controller based operation provides the enterprise features and security required for today’s campuses. Students work with WLAN controllers, authentication-authorization and accounting (AAA) servers, light-weight access points, and wireless network management software. Security topics include open and web authentication, 802.1X/EAP (extensible authentication protocol) authentication, and 802.11i/WPA/WPA2 (Wi-Fi Protected Access) encryption for the client, access point, and the WLAN controllers and the underlying protocols for secure client support including EAP-FAST, EAP-PEAP, and EAP-TLS.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the fundamentals of wireless communications and radio frequency principles
+- Depict wireless networks and topologies and utilize RF mathematics to assess coverage
+- Describe the purpose and coverage of antennae
+- Describe Spread Spectrum Technologies
+- Assess the impact of other wireless technologies on spread spectrum signals
+- Describe the wireless protocol frame and its journey
+- Configure a wireless access controller
+- Ensure wireless devices discover and associate to a controller
+- Configure wireless roaming capabilities
+- Manage the wireless network from the controller
+- Configure and migrate Stand-Alone Access Points
+- Configure WLAN clients and adaptors
+- Describe wireless security framework and components
+- Configure the WLAN to support 802.1X authentication
+- Manage authentication and encryption with WPA and WPA2
+- Work with WLAN management software to administer a wireless network
+- Monitor WLAN activities and troubleshoot WLAN problems
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

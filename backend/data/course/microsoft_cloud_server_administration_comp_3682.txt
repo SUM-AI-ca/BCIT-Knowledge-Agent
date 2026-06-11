@@ -1,0 +1,68 @@
+URL: https://www.bcit.ca/courses/microsoft-cloud-server-administration-comp-3682/
+Title: Microsoft Cloud Server Administration COMP 3682
+Type: Course
+Course Code: COMP 3682
+
+================================================================================
+
+## Microsoft Cloud Server Administration COMP 3682
+Computer Systems Course
+## Course Overview
+​This hands-on course follows on from COMP 1630 or COMP 2629 . Students who understand database design and how to configure a MS Windows PC are introduced to the basic tasks that an Administrator performs to manage Microsoft cloud server products, specifically MS SQL Server and MS Windows Server. COMP 3682 details the different roles and types of servers used on premises and the cloud server environment with Microsoft Azure. Labs and exercises focus on Microsoft Server Administration to create and manage users, groups, shares, and file permissions. Role Based Access Control (RBAC) best practices will be used. Students will install, configure, and architect both a Microsoft Windows Server and a Microsoft SQL Server in a Cloud environment. Topics include how to deploy and manage Active Directory Domain Services (AD DS), plan and implement Group and local Security Policies; industry standard strategies for managing storage, planning for server back-ups, troubleshooting, monitoring, and managing a server with built-in tools. Server security and recovery plans with compliance strategies for a Microsoft Server on the cloud will be discussed. COMP 3682 is a required course in the Applied Database Administration and Design (ADAD), Applied Network Administration and Design (ANAD) Associate Certificates, and is an elective in the Computer Systems Technology (CST FLEX) Diploma. Please Note: The Spring/Summer 2026 section is compressed over 6 weeks, with 2 classes per week and twice the amount of homework per week as the 12-week section. Upon completion, successful students will be able to create and manage user accounts, use built-in troubleshooting tools, monitor performance, and implement a security and recovery plan for Microsoft Window Server and Microsoft SQL Server in a cloud environment.
+### Prerequisite(s)
+- 60% in COMP 1002 or 60% in COMP 1630 or (50% in ACIT 1420 and 50% in ACIT 1630 )
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$692.64
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the different roles and types of a server.
+- Define different server environments on the cloud with Microsoft Azure.
+- Install, configure, and architect a Server in an On-Premises and Cloud environment.
+- Describe physical database design considerations for MS SQL Server.
+- Explain mirroring, log shipping, high availability groups and replication.
+- Create and manage MS SQL databases, transaction logs and database snapshots.
+- Implement security for logins, databases, and objects for MS SQL Server.
+- Deploy and manage Active Directory Domain Services (AD DS) in both on-premises and Microsoft Azure cloud environments, including identity integration; create and manage users, groups, shares, and file permissions with Role Based Access Control (RBAC) in a Microsoft Server environment.
+- Plan and implement Group Policies and Local Security Policies.
+- Plan and implement the following on MS Windows Server: Dynamic Host Configuration Protocol (DHCP) services; Remote Desktop Services (RDS) and Virtual Private Networks (VPN); Print Servers; Roaming Profiles.
+- Manage storage and file services, including planning and performing backup and recovery strategies with built-in Microsoft Server tools for high availability.
+- Manage Microsoft Server troubleshooting and monitoring strategy with built-in tools across on-premises and Microsoft Azure cloud environments, applying security best practices for cloud server environments.
+- Use best practices and industry standards for Microsoft Server security and governance.
+Effective as of Spring/Summer 2026
+## Related Programs
+Microsoft Cloud Server Administration (COMP 3682) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Database Administration and Design Associate Certificate Part-time
+- Applied Network Administration and Design Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of COMP 3682 for the Spring/Summer 2026 term.
+Jun 23 - Jul 30
+- CRN 69896
+- $692.64 Domestic fees
+Dates | Days | Times | Locations
+Jun 23 - Jul 30 | Tue, Thu | 18:00 - 21:00 | Online
+Jun 23 - Jul 30 | N/A | N/A | Online
+### Duration
+6 weeks
+### Instructor
+Edison Sie
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This section is a compressed summer delivery over 6 weeks, rather than 12 weeks.. Students must attend 2 classes and be prepared to complete twice the amount of homework weekly. Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. This class meets twice per week for 6 hours online and requires an additional 2 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 24-32 hours per week. 6 hours of synchronous class, 2-hour asynchronous class time and 16-24+ hours per week for homework. Students should not attempt any other courses simultaneously with this compressed delivery. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students will be provided with a limited amount of server and data access outside of class each week for the course duration. Late registration is not permitted.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

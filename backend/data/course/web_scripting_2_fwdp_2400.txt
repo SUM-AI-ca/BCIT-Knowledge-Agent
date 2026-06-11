@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/web-scripting-2-fwdp-2400/
+Title: Web Scripting 2 FWDP 2400
+Type: Course
+Course Code: FWDP 2400
+
+================================================================================
+
+## Web Scripting 2 FWDP 2400
+Front-End Web Developer Course
+## Course Overview
+This course shifts the focus from client-side to server-side programming utilizing PHP and MySQL. An introduction to PHP fundamentals and the role it plays in generating dynamic websites will be covered. Students will explore the differences between client-side and server-side scripting, learning to identify when scripting solutions are appropriate. They will apply basic scripting techniques, write and use functions, validate HTML forms, utilize regular expressions, and implement cookie management and session handling. Additionally, students will learn to design and implement relational databases using MySQL, write basic SQL queries for data manipulation, and use PHP to interact with and manage databases. Evaluation will include assignments and a project.
+### Prerequisite(s)
+- FWDP 1000
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe the difference between client-side scripting and server-side
+- Recognize where scripting solutions are required / desirable
+- Understand fundamental scripting techniques: data types, variables, flow control structures, Boolean logic, and function design
+- Perform HTML form validation and processing
+- Use regular expressions for pattern matching
+- Manage files and folders on the server side
+- Utilize cookie management and session handling to maintain state
+- Design and implement relational databases with MySQL
+- Write SQL statements for database reading and writing
+- Store and retrieve content using PHP and MySQL
+Effective as of Spring/Summer 2025
+## Related Programs
+Web Scripting 2 (FWDP 2400) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Front-End Web Developer Certificate Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

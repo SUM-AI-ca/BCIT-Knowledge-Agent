@@ -33,7 +33,9 @@ INSERT_BATCH = 500
 def parse_filename(filename: str) -> Dict:
     name_without_ext = filename.replace('.txt', '')
 
-    course_match = re.match(r'([A-Z]{4})_(\d{4})_(\d{6})', name_without_ext)
+    # dept 2-4 letters; course number is 4-5 alphanumerics starting with a digit
+    # (apprenticeship courses use codes like AATE 1GAP)
+    course_match = re.match(r'([A-Z]{2,4})_(\d[A-Z0-9]{3,4})_(\d{6})', name_without_ext)
     if course_match:
         dept = course_match.group(1)
         num = course_match.group(2)
@@ -244,14 +246,17 @@ def save_documents(chunks: List[Document]):
 
 
 def deterministic_ids(chunks: List[Document]) -> List[str]:
-    # stable across re-runs so inserts upsert instead of duplicating
+    # stable across re-runs so inserts upsert instead of duplicating.
+    # Salted with the collection name: langchain_pg_embedding upserts on id
+    # across ALL collections, so unsalted ids from a same-named source file
+    # would hijack rows out of the live collection during a blue-green build.
     counters = {}
     ids = []
     for chunk in chunks:
         source = chunk.metadata["source"]
         index = counters.get(source, 0)
         counters[source] = index + 1
-        ids.append(str(uuid.uuid5(uuid.NAMESPACE_URL, f"{source}#{index}")))
+        ids.append(str(uuid.uuid5(uuid.NAMESPACE_URL, f"{PG_COLLECTION}:{source}#{index}")))
     return ids
 
 

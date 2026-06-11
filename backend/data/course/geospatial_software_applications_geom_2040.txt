@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/geospatial-software-applications-geom-2040/
+Title: Geospatial Software Applications GEOM 2040
+Type: Course
+Course Code: GEOM 2040
+
+================================================================================
+
+## Geospatial Software Applications GEOM 2040
+Geomatics Course
+## Course Overview
+This course will provide foundation knowledge that will be used in subsequent Geomatics courses at BCIT. Coordinate Geometry (COGO) software will be used to solve typical survey calculation problems such as intersections, traverse and coordinate calculations. Visual Basic for Applications (VBA) tools in Microsoft Excel will be used to solve survey geometry problems and compute horizontal and vertical curve layout data. GPS data will be converted from Latitude and Longitude format to Universal Transverse Mercator (UTM) coordinates using VBA tools. An introduction to Matlab will be given to enable students to solve common survey problems. Conditional tests and loop calculations will be used to solve specific survey calculation problems.
+### Prerequisite(s)
+- GEOM 1020 and GEOM 1040
+- GEOM 2010 ‡ and GEOM 2020 ‡ ( ‡ must be taken concurrently)
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use Coordinate Geometry (COGO) software to solve survey calculation problems such as intersections, traversing and coordinate transformations.
+- Solve survey geometry problems such as area, inverse and traverse, horizontal and vertical curve calculations using Visual Basic for Applications (VBA) tools for Microsoft Excel.
+- Compute the elevation, scale and shift between two coordinate systems using Microsoft Excel.
+- Convert Latitude and Longitude GPS data to Universal Transverse Mercator (UTM) coordinates using VBA tools in Microsoft Excel.
+- Create variables and define expressions in Octave.
+- Utilize conditional and loop statements in Octave.
+- Implement vectors and matrices to solve survey problems.
+- Develop functions, use built-in functions and libraries.
+- Read/write data from/to files in Octave.
+- Use Octave to plot 2D/3D graphs. ​
+Effective as of Winter 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

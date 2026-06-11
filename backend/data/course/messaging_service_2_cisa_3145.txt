@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/messaging-service-2-cisa-3145/
+Title: Messaging Service 2 CISA 3145
+Type: Course
+Course Code: CISA 3145
+
+================================================================================
+
+## Messaging Service 2 CISA 3145
+Computer Info Systems Admin Course
+## Course Overview
+In this course, students learn to implement advanced Linux networking functionality with a focus on messaging services. Students develop a more in-depth understanding of protocols such as Simple Mail Transfer Protocol (SMTP), Domain Name System (DNS), and Lightweight Directory Access Protocol (LDAP) and they work with applications that leverage these protocols to provide network services. The emphasis is on hands-on training where students install, configure, and manage a BIND server, OpenLDAP services, POSTFIX services, and a Zimbra server. A high-level introduction to the features and functionality of Cloud services and tools used to implement a private Cloud (such as OPENSTACK) concludes the course. Students work with both the Linux Command Line Interface and Graphical User Interfaces.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install the Linux OS and manage the boot process.
+- Manage the Linux file system, users, groups, processes, and applications.
+- Manage and troubleshoot network services.
+- Implement DNS services and activate BIND.
+- Configure directory services based on OpenLDAP.
+- Implement SMTP/Postfix messaging services.
+- Configure Zimbra open source messaging services.
+- Describe Openstack Cloud Services including virtualization and appliance creation.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

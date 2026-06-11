@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/web-administration-comp-1350/
+Title: Web Administration COMP 1350
+Type: Course
+Course Code: COMP 1350
+
+================================================================================
+
+## Web Administration COMP 1350
+Computer Systems Course
+## Course Overview
+​This course introduces students to install, configure, and run web HTTP servers such as Apache, IIS, and NGINX on their local machines. Students will run web applications on the server. Students will create and manage virtual hosts, configure and make use important issues such as security, HTTPS, redirecting and aliases, logging, performance optimization and troubleshooting. Students will also learn to manage remote host servers to do the same as the above.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be a ble
+- Describe components of a scalable, distributed web stack.
+- Set up, manage and deploy web servers.
+- Integrate dynamic web applications with web server modules, reverse proxies and standalone application servers.
+- Define load balancing, why it is needed, and common solutions and algorithms.
+- Identify solutions to eliminate single points of failure in a web stack.
+- Configure transport layer security with TLS and X.509 certificates.
+- Implement token-based authentication mechanisms including oAuth.
+- Integrate Content Delivery Networks.
+- Implement a centralized log server.
+- Implement simple directives in config files, ini files, and .htaccess-type files.
+- Move a web application from running on a local server to running on a remote host server.
+- Describe, measure, and optimize metrics such as those provided by Google Analytics to attract, hold, and convert users into customers, and also to identify abnormalities and opportunities for improvements.
+Effective as of Fall 2019
+## Related Programs
+Web Administration (COMP 1350) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/windows-systems-management-2-cisa-3170/
+Title: Windows Systems Management 2 CISA 3170
+Type: Course
+Course Code: CISA 3170
+
+================================================================================
+
+## Windows Systems Management 2 CISA 3170
+Computer Info Systems Admin Course
+## Course Overview
+System management is an important consideration in enterprise networks. In this course students are exposed to a number of software based tools that allow management of enterprise networks. This course focuses on the Microsoft System Center family of products which are loaded onto network servers. The core products covered will be System Center Essentials, System Center Configuration Manager, System Center Operations Manager, and System Center Virtual Machine Manager. Students will install, configure, and manage these software packages.
+### Prerequisite(s)
+- Successful completion of CISA Level 3 (ESA option) with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the functionality of System Center and its core products
+- Install and configure System Center to manage and monitor a small network
+- List systems and components that System Center can monitor and manage
+- Explain the importance of patch / update management and how System Center facilitates these tasks
+- Demonstrate System Center patch management and OS installation
+- Describe what System Center provides to assist in troubleshooting problems in a network
+- Describe the function of management packs and their contents
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

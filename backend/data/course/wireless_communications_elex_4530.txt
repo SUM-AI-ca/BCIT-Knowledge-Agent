@@ -1,0 +1,53 @@
+URL: https://www.bcit.ca/courses/wireless-communications-elex-4530/
+Title: Wireless Communications ELEX 4530
+Type: Course
+Course Code: ELEX 4530
+
+================================================================================
+
+## Wireless Communications ELEX 4530
+Electrical and Computer Engineering Course
+## Course Overview
+This course takes the circuits and techniques studied in prerequisite courses and demonstrates how they act together to solve a variety of wireless communications problems. Concepts are explained with practical application examples. For example, pre-emphasis, companding and forward error correction are discussed as specific examples of noise mitigation strategies. Similarly AM, FM, QAM, FDM, FDMA, TDMA and CMDA are some of the modulation and access techniques discussed in systems ranging from satellite to cellular radio to fleet and broadcast radio to TV and HDTV. Within the limitations of our equipment, principles learned in the lectures are reinforced by hands-on measurement in the lab. Commercial transmitters and receivers are studied in detail using the manufacturers’ schematics and service manuals. Radio performance is measured in accordance with Industry Canada specifications. In the first half of the course, student teams each select an electronic design project and write a formal project proposal. In the latter half, the course’s lab hours are dedicated to the design, and test of the projects. The final design and test results are presented as part of a formal report due at the end of the course.
+### Prerequisite(s)
+- ELEX 3530
+- COMM 2443 ‡ ( ‡ must be taken concurrently)
+### Credits
+7.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe and analyze analogue AM and FM wireless communications systems and measure radio performance. Topics include:
+- Noise sources and different types of noise measurements.
+- Analogue system measurements and performance evaluation - selectivity, sensitivity and spurious emissions.
+- AM radio systems.
+- SSB radio systems.
+- FM radio systems.
+- Phased locked loop frequency synthesis and the study of a practical PLL frequency synthesizer design.
+- Describe and analyze digital communication systems & modulation techniques, and measure system performance. Topics include:
+- Calculation of channel capacity using M-ary signalling with bandwidth and signal-to-noise ratio constraints.
+- Digital modulation techniques including ASK, FSK, and various forms of PSK and QAM.
+- Typical carrier recovery and clock recovery techniques.
+- Power spectral density, intersymbol interference, Nyquist filtering, and eye diagrams.
+- The performance of various types of digital modulation in noise using erfc (BER vs Eb/No) graphs.
+- The benefits and implications of forward error connection coding and examination of the characteristics of a common block code and a common convolutional code.
+- Trellis coded modulation and communications systems where it is applied.
+- The characteristics of waveform and voice coders.
+- Describe the operation of cellular radio networks and digital microwave backhaul systems, including the practical system design considerations. Topics include:
+- General cellular network concepts and structure.
+- Current cellular standards and systems – FDMA (AMPS), TDMA (GSM), CDMA.
+- Cellular call processing.
+- Design considerations of practical wireless systems – traffic, cell frequency planning, cell sectoring.
+- Spread Spectrum communications (Direct Sequence and Frequency Hopping).
+- The design of a typical terrestrial digital microwave transmitter and receiver.
+- Fading, fade mitigation.
+- Link budget and fade margin calculation for a terrestrial digital microwave link.
+- Describe the basic characteristics of a NTSC analogue colour TV signal and of a High Definition TV signal. Topics include:
+- NTSC monochrome and colour TV signals and subsystems.
+- MPEG-3 signal processing.
+- Broadcast HDTV signal processing.
+- Describe the basic concepts modern communications systems such as:
+- The Global Positioning System.
+- Orthogonal frequency division multiplex (OFDM) communications.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

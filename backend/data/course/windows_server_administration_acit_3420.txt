@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/windows-server-administration-acit-3420/
+Title: Windows Server Administration ACIT 3420
+Type: Course
+Course Code: ACIT 3420
+
+================================================================================
+
+## Windows Server Administration ACIT 3420
+Computer Information Technology Course
+## Course Overview
+This course covers the configuration and administration of a Microsoft Windows Server environment. Students learn the core technologies and capabilities of a Windows Server. Topics include: local and remote server management; server storage; Active Directory (AD); managing organization units and AD accounts; configuring group policies; TCP/IP in Windows network; Domain Name System (DNS); and Dynamic Host Configuration Protocol (DHCP). Students configure a Windows Server to perform a variety of roles, including acting as a DNS server, DHCP server, and file server. During the course students will build a Windows domain consisting of three or more Windows and Linux virtual machines, and learn to troubleshoot and monitor a Windows domain environment.​
+### Prerequisite(s)
+- ACIT 2420 and ACIT 2620
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful compleiton of this course, the student will be able to:
+- Install and configure a Windows Server.
+- Configure Windows Server to be a domain controller.
+- Build a Windows domain consisting of three or more computers.
+- Deploy and configure the DNS service.
+- Deploy and configure the DHCP service.
+- Create and manage Active Directory users, computers, groups and organization units.
+- Create group policy objects.
+- Configure security and account policies.
+- Configure and manage group policy settings.
+- Configure file and share access.
+- Configure servers for remote management.
+- Configure Windows firewall.
+- Configure file server resource manager, file service and disk encryption.
+- Configure VPN, routing and direct access.
+- Configure IPv4 and IPv6 addressing.
+- Monitoring server and domain activity.
+Effective as of Fall 2018
+## Related Programs
+Windows Server Administration (ACIT 3420) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

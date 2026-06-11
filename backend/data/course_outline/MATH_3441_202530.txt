@@ -1,36 +1,39 @@
 URL: https://www.bcit.ca/outlines/20253031719/
 Course: MATH 3441
 Field: Advanced Statistical Methods/Computer Skills For Food Technology
-
-School: School of Health Sciences
-Program: Food Technology
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Zero Textbook Cost: Yes
-Prerequisite(s): 50% in MATH 2441
+Subject: Mathematics
+Term: 202530
 CRN: 31719
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## MATH 3441
+## Advanced Statistical Methods/Computer Skills For Food Technology
+School | School of Health Sciences
+Program | Food Technology
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | 50% in MATH 2441
+CRN | 31719
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Andrew McConnell
-E-mail: Andrew_McConnell@bcit.ca
-Location: SW2 237
-Office Hours: TBA
-
-## Course Description
+### Instructor Details
+Name | Andrew McConnell
+E-mail | Andrew_McConnell@bcit.ca
+Location | SW2 237
+Office Hours | TBA
+### Course Description
 This course builds on the basic microcomputer skills developed in MATH 1441 and the comprehensive coverage of basic statistical inference methods presented in MATH 2441 to familiarize the student with more sophisticated applications of spreadsheet programs to more sophisticated methods of statistical analysis. The course includes an introduction to experimental design issues, one-way analysis of variance, multiple regression, factorial analysis, by implementing the computations in a spreadsheet from scratch, and using various built-in tools. Emphasis is given to interpretation of results.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion, the student will be able to:
-
 - Demonstrate use of the basic statistical functions and charting facilities of the electronic spreadsheet package they are using.
 - Explain the difference between experiments and observational studies, define and give examples illustrating the concepts of experimental units, treatments, factors, experimental error, control treatments, replications, blocking, and related terms, concepts, and issues of experimental design and statistical analysis.
 - Explain the principle behind the one-way analysis of variance method for inferring whether a difference exists between the means of several statistical populations (i.e., state the basic ANOVA model and state the appropriate null and alternative hypothesis); set up the basic calculations using a spreadsheet; and draw the appropriate conclusion based on the value of the F-Test statistic.
@@ -44,90 +47,65 @@ Upon successful completion, the student will be able to:
 - Describe the extension of the regression model to situations involving two or more independent variables, including methods for handling non-linear terms and use of dummy variables in the regression model, implement such calculations using existing linear regression tools in the spreadsheet package, to produce and interpret the results, including assessment of the adequacy of the regression model (via residual plots).
 - Demonstrate the interpretation of results of a multiple regression analysis to distinguish between important and unimportant influences of various variables on some characteristics of an application on food technology.
 - Describe the principles of extending single-factor ANOVA methods to experiments involving two distinct factors; set up the required calculations in a computer spreadsheet from the basic formulas, and using existing factor analysis tools in the software package so that the results of the latter calculations can be interpreted in terms of the quantities in the basic description in statistical terms; draw appropriate conclusions from the ANOVA table produced; and carry out an appropriate multiple comparison test (e.g., Duncan Multiple Range Test) with interpretation.
-
-## Learning Resources
+### Learning Resources
 Required: Software - MS Excel and Minitab are installed for use through BCIT computer labs.
-
 Scientific calculator with statistics functions (mean, std. dev., linear regression)
-
 Course Notes Math 3441 - available printed at bookstore or online as PDF.
-
 References/Recommended: Material from Math 2441, handouts and links provided as needed.
-
 Sensory Evaluation of Food Michael O' Mahony (Available via BCIT LIbrary as Full Text PDF)
-
-## Course Goals
+### Course Goals
 The two major goals of the course are:
-
 - to introduce the student to a working/understanding knowledge of basic idea of experimental design and some advanced statistical inference methods used to analyze data obtained in typical studies in their technology, and
-
 - to expand the student's use of spreadsheet (Excel) and statistics software for statistical computations.
-
 This course introduces students to statistics and computer skills for planning and implementing final term projects, analyzing the resulting data, and preparing reports.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 20: 4 or 5 assignments based on Labs.
-Meet with Instructor about industry project: 5: Discuss data types expected and appropriate analysis for your industry project
-Term Assignment: 15: Journal paper presentation and write up.
-Midterm: 30
-Final Examination: 30
-
-## Attendance Requirements
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 20 | 4 or 5 assignments based on Labs.
+Meet with Instructor about industry project | 5 | Discuss data types expected and appropriate analysis for your industry project
+Term Assignment | 15 | Journal paper presentation and write up.
+Midterm | 30
+Final Examination | 30
+### Attendance Requirements
 Attendance in all lectures and labs is expected. If you are unable to attend you must let the instructor know ahead of time.
-
-## Other information
-Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.
-
+### Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist .
+## Academic Misconduct
 All work submitted for assessment - assignments and tests - is expected to be your own work. Unless explictly stated that it is allowed, use of another human or an Artificial Intelligence, to perform any part of the assessment will be considered plagiarism and will be subject to the penalities outlined in the Student Code of Academic Integrity Policy #5104. Students may be required to meet with the instructor to explain their work as a check.
-
+## Privacy
 Lectures may be recorded if it has been requested so be aware that anything you say during class could be recorded as a result. If you have concerns please contact your instructor.
-
-## Statement for prior learning assessment
+### Statement for prior learning assessment
 Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
-
 - the correspondence between topics, content and level
 - recency (generally no more than 3–5 years)
 - the grade (generally at least a C+ or 65%)
 - the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
-
-## Course Schedule and Assignments
-Topic: Material Covered (Descriptions below are subject to minor revision or repackaging at the instructor's discretion. Cumulative content will not change.): Assignment
-1: Review of basic statistical principles; t-test for comparison of two population means, basic hypothesis testing: 1
-2: Review of the basic ideas of simple linear regression, doing regression with software, producing line fit and residual plots, estimation and prediction band plots. Proper interpretation of linear fits. Note: This topic may be only briefly reviewed if assessment of student's knowledge indicates good recall from Math 2441.: 2
-3: Introduction to linear models and factorial experiment designs .
-4: Review/Introduction to Basic single factor Analysis of Variance (ANOVA)..: 3
-5: Single-factor ANOVA using software, including several approaches for multiple comparison post-hoc tests.: 3
+### Course Schedule and Assignments
+Topic | Material Covered (Descriptions below are subject to minor revision or repackaging at the instructor's discretion. Cumulative content will not change.) | Assignment
+1 | Review of basic statistical principles; t-test for comparison of two population means, basic hypothesis testing | 1
+2 | Review of the basic ideas of simple linear regression, doing regression with software, producing line fit and residual plots, estimation and prediction band plots. Proper interpretation of linear fits. Note: This topic may be only briefly reviewed if assessment of student's knowledge indicates good recall from Math 2441. | 2
+3 | Introduction to linear models and factorial experiment designs .
+4 | Review/Introduction to Basic single factor Analysis of Variance (ANOVA).. | 3
+5 | Single-factor ANOVA using software, including several approaches for multiple comparison post-hoc tests. | 3
 Midterm Oct 31, 2025
-6: Introduction to the theory and implementation of calculations for a two-factor analysis of variance, including two-factor ANOVA without replication. Discussion of > 2 factor ANOVA including blocked and non-blocked factors. Non parametric equivalent to ANOVA. (Time permitting): 4
-7: Time permitting: Extension of regression methods to examples involving two or more independent variables, variables entering non-linearly, use of dummy variables to handle categorical data.: 5
-
-## BCIT Policy
+6 | Introduction to the theory and implementation of calculations for a two-factor analysis of variance, including two-factor ANOVA without replication. Discussion of > 2 factor ANOVA including blocked and non-blocked factors. Non parametric equivalent to ANOVA. (Time permitting) | 4
+7 | Time permitting: Extension of regression methods to examples involving two or more independent variables, variables entering non-linearly, use of dummy variables to handle categorical data. | 5
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Health Sciences
+### Guidelines for School of Health Sciences
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Andrew McConnell, Faculty September 09, 2025
-
 I verify that this course outline has been reviewed. Erin Friesen, Associate Dean September 09, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean September 09, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

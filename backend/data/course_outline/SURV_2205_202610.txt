@@ -1,0 +1,107 @@
+URL: https://www.bcit.ca/outlines/20261076528/
+Course: SURV 2205
+Field: Civil 3D: Introduction
+Subject: Surveying
+Term: 202610
+CRN: 76528
+
+================================================================================
+
+## Course Outline
+## SURV 2205
+## Civil 3D: Introduction
+School | School of Construction and the Environment
+Program | Geomatics Engineering Technology - Part Time Studies
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | January 06, 2026
+End Date | March 24, 2026
+Total Hours* | 36
+Total Weeks | 12
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | Students should have experience using computer aided design (CAD) software with the knowledge and skills necessary for creating a basic 2D working drawing using AutoCAD prior to taking SURV 2205.
+CRN | 76528
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Alan Weston
+E-mail | Instructor to provide
+Location
+Office Hours | Instructor to provide
+### Course Description
+Introduction to Autodesk Civil 3D software. Students will create and manage drawings; edit & create styles and settings; create, import, analyze, manipulate points; import and edit electronic data collection files; create point groups; create description keys; draw lines and curves; label points, lines and curves; subdivide land; create, edit and analyze terrain models; generate volumes between terrain models; create horizontal alignments; create existing and design profiles; create and use assemblies for corridor design.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, students will be able to:
+- Create and manage Civil 3D drawings and projects.
+- Create and manage Civil 3D object styles and object label styles.
+- Import and export point files.
+- Create, manage, edit and label points.
+- Create description keys to extract and label point attribute data.
+- Recognize similar point attributes points and create point groups.
+- Create, modify and analyze surfaces.
+- Create volume surfaces.
+- Determine the volume between two surfaces.
+- Subdivide parcels using a variety of methods.
+- Create horizontal and vertical alignments.
+- Create road design assemblies (templates).
+- Create corridors and corridor surface models.
+### Learning Resources
+Required :
+- Internet access to BCIT Learning Hub on-line learning environment.
+- Internet access to BCIT AppsAnywhere environment.
+- Basic trigonometric calculator
+- PDF creation software
+Recommended :
+- Autodesk Civil 3D 2025/26 software - student version.
+- AutoCAD Civil 3D 2025 - Fundamentals . SDC Publications.
+### Evaluation Criteria
+A combined mark of 50% for all criteria is required to pass this course.
+Criteria | % | Comments
+Labs | 40 | Note: All labs and assignments have equal weight in determining the final grade.
+Mid Term Exam | 30
+Final Exam | 30
+Total | 100
+### Attendance Requirements
+There will be no make-up exams or quizzes. Exceptions may be made for documented medical reasons or extenuating circumstances. In such cases, it is the responsibility of the student to inform the Instructor immediately according to BCIT Policy 5101.
+Students wishing to audit the course must inform the Instructor by email before the start of the 2nd class.
+### Course Specific Requirements
+Assignments, labs, reports or projects are due 1 week after being assigned unless otherwise stated.
+Submissions must be done on an individual basis unless otherwise specified by the instructor.
+Unless otherwise stated, all files must be submitted on-line to the BCIT Learning Hub Assignment Dropbox .
+Students are responsible for maintaining backup copies of all digital files created in the labs.
+### Course Schedule and Assignments
+Week | Material covered | Lab
+Jan 6 | Introduction to the AutoCAD Civil 3D Environment, Best Practices, including Drawing, Editing & Annotating a simple 2D drawing | Introduction to the Civil 3D environment
+Jan 13 | Civil 3D Object Styles and Settings, including Settings Hierarchy, Drawing Settings, Creating and Editing Point, Line and Label Styles | Settings and Styles
+Jan 20 | Civil 3D Template Files. Civil 3D Points, including creating (by various methods), Importing (i.e. PNEZD, PNE, et al), Exporting, Printing, Editing and Analyzing | Points, Civil 3D Template File Creation
+Jan 27 | Point Groups including Creation, Properties, and their various uses. Introduction to Description Keys | Point Groups & Description Keys
+Feb 3 | Line and Curve Creation & Annotation | Lines & Curves
+Feb 10 | Parcels (including Sites). Creation of Parcels (i.e. Single Family, R/W, et al) based on various criteria (i.e. Area, Frontage, et al) from Objects, and the Editing, Renumbering, and Labelling of Parcels | Parcels, MT Practice Exam
+Feb 17 | Surface Models including their creation | Mid-Term Exam
+Feb 24 | Editing TIN Surfaces and Surface Breaklines | Surface Model Creation & Editing, Surface Breaklines
+Mar 3 | Surface Models, Contours and their Annotation, Surface Analysis, Catchment Areas, Slope Analysis, Elevation Banding, Slope Arrows, Visibility Check Tools (i.e. Zone of Visual Influence, Point to Point), and Volumes | Surface Model Contours & Analysis, Volumes
+Mar 10 | Civil 3D Survey Toolspace (Survey Database (SDB)). Importing data (i.e. FBK files) into a SDB, including a Co-ordinate Transformation and creating Imperial Drawings from Metric Drawings | Survey Toolspace, SDB Translation
+Mar 17 | Automating linework, using Survey Figures and Figure Line Codes | Survey Figures, Figure Line Codes
+Mar 24 | Final Exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Alan Weston, Instructor January 19, 2026
+I verify that this course outline has been reviewed. Mark Dailey, Program Head January 20, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 20, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

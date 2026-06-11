@@ -1,0 +1,52 @@
+URL: https://www.bcit.ca/courses/oracle-11g-administration-workshop-1-comp-4670/
+Title: Oracle 11g Administration Workshop 1 COMP 4670
+Type: Course
+Course Code: COMP 4670
+
+================================================================================
+
+## Oracle 11g Administration Workshop 1 COMP 4670
+Computer Systems Course
+## Course Overview
+​ COMP 4670 is no longer offered. This updated hands-on course continues on from COMP 1630 and is designed for students who already understand relational database design, and who have a working knowledge of SQL programming. Students use Oracle 11g Enterprise Edition database software to create and administer a new database, then configure the database to support an application. Topics include; creating users, defining storage structures and setting up security. Participants will also learn how to protect the database by designing a backup and recovery strategy, as well as how to monitor the database. Participants are required to purchase mandatory Oracle University course materials in e-Book format. The official Oracle materials are $300 in addition to the course tuition. After registration, call 604-434-1610 to arrange purchase of the specific Oracle e-Book course material prior to the first class. Please note that the e-Book is personalized for each student by Oracle and this cost is not refundable. BCIT is a member of the Oracle Workforce Development Program and this course fulfils the Instructor-Lead-Training requirement for the Oracle 11g certification.
+### Prerequisite(s)
+- COMP 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Learn the prerequisites for installing Oracle 11g.
+- Understand Oracle's Optimal Flexible Architecture.
+- Create a database.
+- Connect to the database using Oracle’s SQL Developer.
+- Query the database.
+- Understand database transactions and transaction control statements.
+- Learn how to start and stop the database.
+- Control instance settings via initialization parameters.
+- Create and maintain database storage structures.
+- Administer user accounts.
+- Create roles.
+- Assign both system and object privileges.
+- Understand the different types of database objects.
+- Create and maintain database objects.
+- Manage table constraints.
+- Manipulate data using INSERT, UPDATE and DELETE commands.
+- Load data using SQL Loader.
+- Create and manage PL/SQL objects.
+- Configure the database listener.
+- Understand the different client connection options.
+- Configure local naming.
+- Understand and manage Oracle shared server connections.
+- Monitor performance.
+- Manage the automated collection of statistics.
+- Perform proactive maintenance.
+- Monitor the undo information.
+- Administer the undo tablespace.
+- Configure retention parameters.
+- Monitor and resolve lock conflicts.
+- Understand backup and recovery concepts.
+- Perform database backups.
+- Recover a database.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

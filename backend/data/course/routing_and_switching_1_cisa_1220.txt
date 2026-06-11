@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/routing-and-switching-1-cisa-1220/
+Title: Routing and Switching 1 CISA 1220
+Type: Course
+Course Code: CISA 1220
+
+================================================================================
+
+## Routing and Switching 1 CISA 1220
+Computer Info Systems Admin Course
+## Course Overview
+Building upon concepts from CISA 1120 , this course introduces routing and router configuration, explores networking protocols, and applies routing concepts within a lab environment. Topics covered include routing concepts and theory, Cisco operating system management, variable length subnet masking (VLSM), classless inter-domain routing (CIDR), routing protocols, and access control lists (ACLs). Routing protocols covered include Routing Information Protocol (RIPv1, RIPv2), Enhanced Interior Gateway Routing Protocol (EIGRP), and Open Shortest Path First (OSPF). Students will learn how to configure routers, interpret routing tables and troubleshoot connectivity issues. Students will have extensive hands-on experience with routers and switches in a networked lab environment.
+### Prerequisite(s)
+- Successful completion of CISA Level 1 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Physically connect routers, switches, cables and PCs to form a local area network.
+- Physically connect routers and serial cables to simulate a wide area network.
+- Use the router command line interface (CLI) for system analysis, configuration, and repair.
+- Perform the password recovery procedure on a router.
+- Identify the major internal and external components of a router.
+- Build, save, and test configurations on a router.
+- Use embedded data-link layer functionality to perform network neighbour discovery.
+- Identify the stages of the router boot-up sequence.
+- Manage system image and device configuration files.
+- Identify, configure, and verify the use of static and default routes.
+- Describe operation and inherent limitations of distance vector routing protocols.
+- Subnet a given network address using Variable Length Subnet Masking (VLSM).
+- Explain route summarization.
+- Configure, verify and troubleshoot RIP versions 1 and 2.
+- Configure, verify and troubleshoot Single-Area Open Shortest Path First (OSPF).
+- Configure, verify and troubleshoot Enhanced Interior Gateway Protocol (EIGRP).
+- Configure, verify and troubleshoot Standard and Extended Access Control Lists.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

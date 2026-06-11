@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/geodetic-positioning-1-geom-7362/
+Title: Geodetic Positioning 1 GEOM 7362
+Type: Course
+Course Code: GEOM 7362
+
+================================================================================
+
+## Geodetic Positioning 1 GEOM 7362
+Geomatics Course
+## Course Overview
+This course introduces the student to the topic of geodetic positioning. Topics covered include fundamental geodetic concepts, coordinate systems and coordinate transformations, the Earth's gravity field, vertical datums, geoid models and height systems, horizontal geodetic datums, reference systems and reference frames, datum and coordinate system transformations, direct and inverse computations on a sphere, an ellipsoid and in three-dimensions, and an introduction to space based positioning techniques.
+### Prerequisite(s)
+- Successful completion of a 2 year Geomatics Diploma Program or Equivalencies approval from Program Head
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the history of geodesy and it's relevance to the current practice of geomatics.
+- Discuss the uses of different geodetic reference surfaces and orientation.
+- Explain the geodetic concepts and quantities of the celestial sphere, time, latitude and longitude.
+- Perform geometric geodetic computations using spherical and ellipsoidal earth models.
+- Explain and relate different types of coordinate systems - Terrestrial (including Conformal Mapping), Celestial and Satellite.
+- Discuss the Earth's Gravity Field, Gravity potential, Gravity Anomalies and the effects of Gravity on survey instruments and field procedures.
+- Discuss various vertical datums and geoid models, including:
+- Different types of Vertical Datum (e.g. NGVD29, NAVD88, CGVD28),
+- Different Geoid Models (e.g. GEOID96, GEIOD99, GSD95, CGG2000).
+- Define and relate different height systems, including their relationships to Earth's Gravity Field.
+- Perform height computations in different height systems.
+- Define and relate different types of Geodetic Datums, Reference Frames and Spatial Reference Systems used in North America including:
+- NAD27, NAD83 and transformations between them,
+- Reference Frames such as ITRF, WGS84, NAD83 (CSRSxx), NAD83(Epoch xx),
+- Spatial Reference Systems such as ITRS, NAD83 (NSRS), NAD83 (CSRS).
+- Perform Datum and Coordinate System Transformation, Forward and Inverse Solutions on the ellipsoid and in three dimensions.
+- Reduce terrestrial observations for gravity and ellipsoidal effects.
+- Analyse the physical properties, instrumentation, application and accuracies of some Space-Based Positioning Techniques, such as Transit Doppler, GPS, GLONASS, SLR, VLBI, and Galileo.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

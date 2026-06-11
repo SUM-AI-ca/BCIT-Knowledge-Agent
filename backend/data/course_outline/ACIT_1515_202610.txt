@@ -1,0 +1,110 @@
+URL: https://www.bcit.ca/outlines/20261089204/
+Course: ACIT 1515
+Field: Scripting for IT
+Subject: Computer Information Technology
+Term: 202610
+CRN: 89204
+
+================================================================================
+
+## Course Outline
+## ACIT 1515
+## Scripting for IT
+School | School of Computing and Academic Studies
+Program | Computer Information Technology Diploma
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 89204
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Chris Harris
+E-mail | chris_harris@bcit.ca
+Location | DTC 513
+Office Hours | Instructor to provide
+### Course Description
+The course introduces the fundamental concepts of programming for IT professionals, with a focus on scripting languages that are commonly found in the workplace. Projects, assignments, and activities are representative of tasks that IT professionals are likely to encounter in the workplace. Students taking this course will design, implement, test, and debug programs that incorporate: variables, expressions, assignments, I/O, conditional and iterative control constructs, functions, and parameter passing. The course assumes no previous programming experience
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Write simple procedural programs.
+- Review and analyze the behaviour of simple programs.
+- Apply the techniques of decomposition to break a program into functions and modules.
+- Choose appropriate data structures, conditionals and iteration constructs for a given programming task.
+- Write programs that use primitive data types, variables, strings, expressions, and command line I/O.
+- Write programs that use conditional and iterative control structures, functions, and parameter passing.
+- Write programs that use each of the following data structures: tuples, lists, sets, and dictionaries.
+- Write programs using the standard libraries available with the chosen programming language.
+- Write programs that use file I/O to provide persistence across multiple executions.
+- Test and debug simple programs.
+### Learning Resources
+Students must have their own computer for use in class. A web cam and microphone are recommended.
+Software:
+- Windows 10 / 11 (students must have admin priviledges on their machine; a Windows VM is acceptable for use in this course), OS X, Linux
+- Python version 3.13 (installed during class)
+- Microsoft Visual Studio Code (installed during class)
+Online Course Delivery Tools:
+- BCIT Learning Hub (instructions, links to assignments, deadlines, announcements)
+- Microsoft Teams (office hours and student support, remote lessons if required)
+Textbooks / Reference material:
+- The main reference in this course is The Python Tutorial ( https://docs.python.org/3/tutorial/ )
+- Additional online references will be distributed in class
+### Course Goals
+This course will be delivered using the Python 3.13 programming language. The focus is on procedural programming (Object-Oriented Python is covered in the follow-on course, ACIT 2515). Students will learn to write and run programs from the command line and from an IDE.
+### Evaluation Criteria
+Criteria | % | Comments
+Weekly Assignments | 20 | Weekly practice in language grammar, syntax, and general programming concepts 10 labs total, equally weighted (10 * 2% of final mark)
+Quizzes | 30 | Weekly review of lab material and concepts 10 quizzes total, equally weighted (10 * 3% of final mark)
+Midterm exam | 20 | Practical hands-on test which involves writing code in a controlled test environment
+Final exam | 30 | Practical hands-on test which involves writing code in a controlled test environment
+Note : A combined average of 50% on the mid-term and final exam is required to pass this course.
+### Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf .
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
+### Statement for prior learning assessment
+Students with previous programming and Python experience: if you feel that you are already able to meet the requirements of this course, speak with the instructor.
+### Course Schedule and Assignments
+Week | Week starting | Notes | Primary Topic * | Objective | Assessment
+1 | 5-Jan-2026 | Introduction | Setting up Development Environment
+2 | 12-Jan-2026 | Programming Fundamentals | Terminal Basic Linux Commands Introduction to Git File Paths | Assignment 1
+3 | 19-Jan-2026 | Python Fundamentals | Variables Data Types Pathlib Operators: mathematical, concatenation, assignment, equality | Assignment 2 Quiz 1
+4 | 26-Jan-2026 | Conditional Statements | Keywords: if, elif, else Operators: comparison, logical, identity, membership | Assignment 3 Quiz 2
+5 | 2-Feb-2026 | While Loops | Keywords: while | Assignment 4 Quiz 3
+6 | 9-Feb-2026 | For Loops, Sequences | For Loops Variable Scope Lists and Tuples Functions: range | Assignment 5 Quiz 4
+7 | 16-Feb-2026 | Midterm Review | Quiz 5
+8 | 23-Feb-2026 | MIDTERM EXAM | Midterm Exam
+9 | 2-Mar-2026 | Functions, Modules | Function Parameters and Arguments Default Arguments Keywords: return | Assignment 6 Quiz 6
+10 | 9-Mar-2026 | File I/O, Dates | Keywords: with Functions: open, read, write Datetime module | Assignment 7 Quiz 7
+11 | 16-Mar-2026 | READING WEEK
+12 | 23-Mar-2026 | Dictionaries, JSON | Dictionary Operations and Methods JSON Formatting Functions: dump, dumps, load, loads | Assignment 8 Quiz 8
+13 | 30-Mar-2026 | ** | Sets and Strings | Set Operations and Methods String Operations and Methods | Assignment 9 Quiz 9
+14 | 6-Apr-2026 | Introduction to OOP, Flask | Object-Oriented Programming in Python Flask | Assignment 10 Quiz 10
+15 | 13-Apr-2026 | Final Exam Review
+16 | 20-Apr-2026 | FINAL EXAM | Final
+* Topics may be added or modified based on class progress ** Friday, April 3rd: Good Friday. An asynchronous video lesson will be provided for Set A
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Chris Harris, Instructor January 05, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

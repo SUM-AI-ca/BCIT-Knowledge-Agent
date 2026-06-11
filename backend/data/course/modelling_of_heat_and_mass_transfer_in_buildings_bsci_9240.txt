@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/modelling-of-heat-and-mass-transfer-in-buildings-bsci-9240/
+Title: Modelling of Heat and Mass Transfer in Buildings BSCI 9240
+Type: Course
+Course Code: BSCI 9240
+
+================================================================================
+
+## Modelling of Heat and Mass Transfer in Buildings BSCI 9240
+Building Science Course
+## Course Overview
+Correct design of healthy and comfortable indoor environments, and of durable and sustainable building envelopes requires reliable assessments of the heat and mass transfer in buildings, building zones and/or building components: ventilation flows, thermal stratification, interior moisture buffering, interstitial condensation, driving rain absorption, etc. Since not all these problems can be solved analytically, numerical modeling is becoming more and more widespread. This course will lead to proficiency in the mathematical and numerical modeling of heat and mass transfer in buildings. As such, the course will give students the ability to reliably create and/or apply numerical models in the hygrothermal design of buildings, building zones and /or building components.
+### Prerequisite(s)
+- 60% in BSCI 9100 and 60% in BSCI 9120
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Outline the need for numerical modelling in engineering practice.
+- Justify the simplifications and limitations inherent to numerical modelling, and the consequences for the applicability and reliability of the resulting knowledge.
+- Construct mathematical models describing heat and mass transfer in buildings, building zones and/or building components.
+- Develop algorithms for the solution of spatially discretised – by control volumes or finite elements – continuum systems.
+- Develop algorithms for the solution of temporally discretised – by explicit, implicit or Crank-Nicholson schemes – continuum systems.
+- Evaluate spatial and temporal discretisation errors and their effect on the applicability and reliability of the resulting knowledge.
+- Construct iteration procedures and convergence criteria for non-linear problems.
+- Outline different algorithms for solutions of (large) systems of algebraic equations.
+- Assess the accuracy and reliability of the developed numerical model by means of verification exercises and validation experiments.
+- Evaluate the suitability of the different mathematical and numerical methods for the modelling and solution of heat and mass transfer in buildings, building zones and/or building components.
+- Develop professional autonomy and make sound judgments independently.
+- Communicate results orally and in written form effectively.
+- Collect and evaluate literature, critically analyse theories.
+Effective as of Fall 2021
+## Related Programs
+Modelling of Heat and Mass Transfer in Buildings (BSCI 9240) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Construction and the Environment
+- Building Engineering/Building Science Master of Applied Science Full-time/Part-time
+- Building Science Master of Engineering Full-time/Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

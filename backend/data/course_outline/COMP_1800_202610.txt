@@ -1,0 +1,146 @@
+URL: https://www.bcit.ca/outlines/20261087568/
+Course: COMP 1800
+Field: Projects 1
+Subject: Computer Systems
+Term: 202610
+CRN: 87568
+
+================================================================================
+
+## Course Outline
+## COMP 1800
+## Projects 1
+School | School of Computing and Academic Studies
+Program | Computer System Technology
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | COMP 1510 ‡ and COMP 1537 ‡ ( ‡ must be taken concurrently)
+CRN | 87568
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Carly Orr
+E-mail | Carly_Wong_Orr@bcit.ca
+Location | SW2-319
+Office Hours | By appointment in-person or by video conferencing.
+### Course Description
+Students learn to work in a collaborative environment and complete a small-scale software project: a mobile-friendly web application. The course is focused on developing the essential technical skills that will allow a student to develop a functional web application project. The course takes students through the UX design process which includes creating and administering surveys & interviews, creating personas and user stories, designing wireframes, and performing user tests with a developed implementation that is based on the UX design process. Students will use the Agile methodology to manage the software process. Software management workflow also includes using Git from the command-line for version control basics in a collaborative workflow. Students will apply web technologies such as JavaScript, CSS, and HTML. Data persistence may be optionally achieved using NoSQL data technology solution.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Demonstrate proficiency at working on a project individually and with a partner.
+- Demonstrate usage of a version control system (such as Git) at the terminal/console level.
+- Utilize a scrum board to manage tasks within the software project.
+- Analyze task complexity, uncertainty, and effort and utilize time estimates and story points for task size
+- Explain the relationship between User Experience (UX) and User Interface (UI).
+- Design and the Agile Software Methodology and how they complement each other.
+- Use personas and user stories to identify features of a digital prototype.
+- Prepare and conduct surveys and interviews to prove product and feature validity Identify anti-patterns.
+- Analyze user Interface (UI) design and explain why certain features are unacceptable.
+- Conduct usability testing over several iterations and follow a User-Centered Design (UCD).
+- Develop effective prototypes and wireframes using an iterative methodology.
+- Design front-end logic and views utilizing JavaScript, HTML5, and CSS.
+- Design for a "mobile first" UI and utilize current UI mobile design patterns.
+### Learning Resources
+· The Design of Everyday Things , by Don Norman (Revised & Expanded Edition), ISBN-13: 978-0-465-05065-9 (available online from BCIT Library)
+· Don't Make Me Think Revisited: A Common Sense Approach to Web and Mobile Usability (3rd Edition), by Steve Krug, ISBN-10: 0-321-96551-5 (available online from BCIT Library)
+· The Elements of User Experience, Second Edition: User-Centered Design for the Web and Beyond , by Jesse James Garrett (2nd Edition), ISBN-10: 0-321-68368-4 (available online from BCIT Library)
+· Eloquent Javascript, Third Edition , by Marijn Haverbeke, ISBN-13: 978-1-59327-950-9 (available online from BCIT Library and https://eloquentjavascript.net/ )
+· GitHub Guides : https://guides.github.com
+· Pro Git Book : https://git-scm.com/book/en/v2
+### Course Goals
+This is the first of a series of Project courses in the CST program designed to prepare students with hands-on experience in software development in a team-based collaborative environment.
+### Evaluation Criteria
+Final project and all team assignments (with individual's contribution) must be submitted in order to pass the course.
+Criteria | % | Assessment Component
+Active Learning Assessments (Example: quizzes, polls, discussions, reflections, etc.) | 20% | Individual
+Individual Assignments | 20% | Individual
+Team Assignments | 25% | Team
+Final Project Deliverable Individual coding contributions* | 15% | Individual
+Final Project Deliverable Team final source code deliverable Team final presentation artifacts | 20% | Team
+* Each person’s coding contributions will be assessed. This includes an assessment of the quantity and quality of git commits (valuable code and descriptive messages), frequency and consistency of commits, as per an agile process, and planning where user stories are decomposed into meaningful and measurable tasks.
+- Students are expected to practice version control through frequent commits of working code.
+- Students are expected to put in the number of working hours needed for each sprint.
+- Students are expected to contribute to each phase: ideation, design, and implementation.
+## Peer Evaluation
+In group projects, constructive and honest peer feedback is an important part of learning. Students will provide peer feedback at the middle of the term, and again at the end of the term. All evaluations must be completed by the assigned deadline, to avoid penalty to the Team component.
+A student’s individual grade for the Team component may further be adjusted based on instructor’s review, demonstrated code contributions, and peer evaluations. The Team component can be reduced to zero, if a member has contributed little or nothing to the team project. Since most students are responsible and contribute fairly, there is generally no adjustment needed.
+### Attendance Requirements
+- Regular attendance in lectures, seminars, and labs is seen as critical to student success, and will be monitored by faculty.
+- Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+- Students who do not participate in the Final Presentation will receive a failing grade.
+- You are responsible for catching up on missed coursework. Please contact your peers or instructor to find out what you missed; Instructor will provide a summary and will not re-teach the material.
+- Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Course Specific Requirements
+The following requirements are intended to help students succeed in the course:
+Assignment Submission and Grading Policy:
+- Assignments should be submitted before the due time, as specified in the Learning Hub. Late assignments will receive a grade of zero.
+- The instructor will only evaluate assignments when grading is done after the deadline. Therefore, it is your responsibility to understand the material presented in class and to complete the assignment yourself (or in a group setting). On the other hand, if you need clarification regarding something the assignment asks for, then your instructor will be glad to help.
+- Assignments must be submitted to the correct submission folder in the “Assignments” section of D2L, unless specified otherwise. Any other format (e.g. email, Google Drive, etc.) different from what was specified, will NOT be accepted.
+- Always double-check that your assignment has been submitted to D2L. You should see the file listed in D2L, along with receiving a confirmation email; keep that email for your records.
+- A zero mark is applied to any assessment that is submitted late, with no exceptions unless proper documentation is supplied (see the attendance section above for details).
+- You may resubmit an assignment as many times as you’d like before its deadline, but not afterward. The last upload will be evaluated.
+- If you accidentally submit the wrong file(s) for an assignment, inform the instructor within two days of submission. The instructor will then assess the correct file, but the maximum grade achievable will be 60%. If you realize your mistake only after seeing a zero from the instructor's grading, that zero becomes your final grade for the assignment.
+Punctuality:
+- Being on time minimizes disruption for everyone. Late attendance will be noted. Consistently late or partial attendance (over 10%) will impact your Active Learning Assessment grade. Institute attendance policy is also assumed.
+Professionalism:
+- As a project course, industry professionalism is expected in all aspects. This includes etiquette and respect in all written ­and verbal communications with faculty and peers. Please minimize distractions (such as phone, food, microphone noise, camera presence etc.) when you come to meetings or the classroom, so that you can focus on each session.
+### Other information
+- Any form of plagiarism will result in a grade of ZERO for the first instance.
+- Plagiarism and other forms of cheating will not be tolerated:
+- Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+- Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+- Academic misconduct also includes providing solutions to other students:
+- Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+- Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+Academic Integrity
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+About Recording
+- Recording of lessons is prohibited without prior written consent of the instructor. If you wish to record lessons, you must contact the instructor during office hours and make suitable arrangements. In such cases where recordings are allowed by the instructor, these recordings are for the exclusive use of the student making the recording, and are not to be posted online or shared with others.
+Course Outline Changes:
+- The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+### Course Schedule and Assignments
+The instructor may adjust the material or schedule in this course outline as needed, with any changes announced in class.
+2026 | Wk | Lecture Topic | Lab Topic | Project Phase
+1 | Jan 05 | Intro, housekeeping, technical setup; command-line basics | Team formation, brainstorm | Project ideation
+2 | Jan 12 | Design fundamentals, UCD design thinking; Intro to version control and git | User research | UI/UX design
+3 | Jan 19 | Design thinking process, problem definition; Intro to gitHub | Git conflict and workflow | UI/UX design; Preliminary Pitch
+4 | Jan 26 | Personas, red routes, features; user stories, task flows and wireflows; Javascript Challenges Intro | Task flows and wireflows | UI/UX; pitch video
+5 | Feb 02 | Mobile-first design and patterns, wireframing; Intro to bootstrap | Wireframing, front-end coding | Early HTML coding
+6 | Feb 09 | Rapid prototyping, user testing; More front-end | Usability testing | Prototype testing
+7 | Feb 16 | Intro to Agile project management, Firebase authentication, Hosting | Trello setup | Sprint 1
+8 | Feb 23 | Midterm Week – No class (Feb 23-27)
+9 | Mar 02 | NoSQL database, Firestore read/write approaches | Team coding | Sprint 2
+10 | Mar 09 | Javascript and DB interactions In-class Instructional Assessments Online | Team coding | Sprint 3
+11 | Mar 16 | Computing Reading Week - No class (Mar 16-20)
+12 | Mar 23 | Javascript and DOM interactions | Team coding | Sprint 4
+13 | Mar 30 | Web-App Usability testing | Team coding | Sprint 5
+14 | Apr 06 | Testing and Review | Testing/Retrospective/Handover | Project Handover
+15 | Apr 13 | No lecture (Monday Stat) | Presentation Week | Final Delivery
+16 | Apr 20 | Final Exam Week – No class
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Carly Orr, Instructor December 20, 2025
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

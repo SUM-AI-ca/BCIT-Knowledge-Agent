@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/android-and-mobile-applications-in-java-comp-3617/
+Title: Android and Mobile Applications in Java COMP 3617
+Type: Course
+Course Code: COMP 3617
+
+================================================================================
+
+## Android and Mobile Applications in Java COMP 3617
+Computer Systems Course
+## Course Overview
+​​​Continuing on from COMP 2613 or COMP 3601 , this hands-on course is designed for those who already understand how to use Java to develop applications to industry standards. Students who are experienced Java programmers are introduced to the Kotlin programming language to develop, debug and deploy Android applications. This is a BYOD course not in a computer lab. Students must provide their own Windows, Mac or Linux laptop to participate in this course. See the current Android Studio hardware requirements. Please note: BCIT does provide technical support for student's hardware or operating systems. Labs and assignments explore and use Android Studio, SDK tools - avd, adb etc., to build and deploy Android applications on the emulator(s). Topics include: Designing user interfaces with Layouts, Fragments and Activities. Students learn to manage Android Resources, work with Manifest files, persist data, create Services, leverage multi-threading constructs and make use of REST endpoints. Other topics of discussion include Location Based Services, network connectivity, accessing cloud services and data. This course is an elective in the CST/PTS Diploma. Upon completion, students may continue on to advanced courses and programs, COMP 3617 is a required course for the Web and Mobile Application Development Associate Certificate and an elective in the Advanced Java Development Associate Certificate. By the end of this course successful participants will complete a final project which includes using Java to design, build, and package and deploy an Android application to a mobile device. COMP 3617 is under review and not currently being offered.
+### Prerequisite(s)
+- COMP 2522 or COMP 2613 or COMP 3601
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify the Android platform and architecture.
+- Understand Android Development setup including SDK, Emulators and Development Environment.
+- Develop mobileapplications using the Android Application Framework.
+- Explore the User Interface elements of the Android Framework.
+- Create Services and other threading constructs for background processing.
+- Make use of REST endpoints for service and data needs in mobile apps.
+- Leverage Android Persistence capabilities to store user data in mobile apps.
+- Implement Android applications to make use of Location based services.
+- Explore Packaging and Publishing Android applications.
+- Discuss MBaaS - Mobile Backend as a Service to add value to apps.
+- Explore advanced topics like Google Play APIs and other new advancements to Android platform.
+Effective as of Spring/Summer 2017
+## Related Programs
+Android and Mobile Applications in Java (COMP 3617) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

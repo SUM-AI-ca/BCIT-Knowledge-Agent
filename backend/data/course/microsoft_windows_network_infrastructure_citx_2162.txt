@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/microsoft-windows-network-infrastructure-citx-2162/
+Title: Microsoft Windows Network Infrastructure CITX 2162
+Type: Course
+Course Code: CITX 2162
+
+================================================================================
+
+## Microsoft Windows Network Infrastructure CITX 2162
+Computer Information Technology Electronics Course
+## Course Overview
+Using the most current windows server operating system, this course provides an introduction to various technologies used to support a complex computer network infrastructure. Topics include IP addressing and services (IPv4, IPv6, DHCP, and NAT), name resolution (DNS, WINS), remote access (RRAS, RADIUS), network authentication, firewall settings, file and print services, windows update services, and maintaining the infrastructure.
+### Prerequisite(s)
+- CITX 2165 or experience with Microsoft server platforms.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand TCP/IP Addressing basic.
+- Understand and configure the Domain Name System (DNS) Service.
+- Understand and configure the Dynamic Host Configuration (DHCP) Service.
+- Understand and configure the Routing and Remote Access Service and Wireless Networking.
+- Understand and configure File and Print Services.
+- Monitor Windows Sever 2008 and Configure Windows Server Update Services (WSUS).
+- Secure network traffic with IPSec.
+- Configure Network Authentication.
+- Understand Active Directory Certificate Services.
+- Understand Network Access Protection.
+- Configure Shadow Copies of Shared Folders.
+- Configure disk quotas.
+- Back and Restore Windows Server 2008.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

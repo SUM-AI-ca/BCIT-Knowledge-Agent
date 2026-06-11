@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/cloud-computing-acit-3640/
+Title: Cloud Computing ACIT 3640
+Type: Course
+Course Code: ACIT 3640
+
+================================================================================
+
+## Cloud Computing ACIT 3640
+Computer Information Technology Course
+## Course Overview
+Cloud computing resources and environments are used extensively in business, industry, government, and education. This course will cover the deployment and management of resources in cloud computing environments. Cloud computing resources and environments are used extensively in business, industry, government, and education. This course will cover the deployment and management of resources in cloud computing environments. The course will examine public cloud environments, including Amazon Web Services (AWS), Microsoft Azure and/or the Google Cloud Platform. An emphasis would be placed on AWS. Students will deploy both Windows and Linux virtual machines (instances), create virtual private clouds (VPCs) and virtual private networks (VPNs). They are also introduced to website and database hosting in a cloud computing environment. Topics include: how to apply aspects of the cloud computing security models, patch and upgrade instances in production environments and maintain fault tolerant websites. Student will be able to build and deploy a multi-tier cloud application utilizing both auto-scaling and load balancing. Students will examine cloud computing strategies for small,medium, or large companies, including what computing resources are candidates for migration to the cloud.
+### Prerequisite(s)
+- ACIT 2420 and ACIT 2620
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe the different models of cloud computing, including private clouds, community clouds, public clouds, and hybrid clouds.
+- Describe the differences between grid computing, utility computing, distributed computing, cloud computing, and virtualization.
+- Configure cloud hosted resources and environments, such as virtual machines and security groups.
+- Develop and deploy software applications and services in a cloud computing environment.
+- Write an infrastructure as service (IaaS) template to create a cloud environment containing both public and private subnets.
+- Configure and deploy cloud-native databases.
+- Identify and discuss issues related to scaling, multi-tenancy, and availability of cloud resources.
+- Deploy cloud computing resources using a GUI or from the command line.
+- Use cloud scripting languages, such as JSON and YAML, to configure cloud environments.
+- Monitor the status of cloud computing resources.
+Effective as of Fall 2018
+## Related Programs
+Cloud Computing (ACIT 3640) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

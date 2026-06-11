@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/cisco-ccna-level-4-citx-2062/
+Title: Cisco CCNA Level 4 CITX 2062
+Type: Course
+Course Code: CITX 2062
+
+================================================================================
+
+## Cisco CCNA Level 4 CITX 2062
+Computer Information Technology Electronics Course
+## Course Overview
+Introduces and extends the student's knowledge and practical experience with Wide Area Networks (WANs) and support for computer networks in remote office locations. Topics include WAN protocols for serial links, frame-relay, basic network security concepts and configuration, DHCP and DNS support with routers, working with access controls lists, network address translation (NAT), supporting Cisco Secure Device Manager (SDM), fundamentals of Virtual Private Networks (VPNs), and general troubleshooting. Graduates of this course will have completed the Cisco Certified Network Associate training and be prepared to pass the certification exam. This course provides a practice exam for CCNA certification but does not include CCNA certification. Depending on the student's achievement, they may receive a discount voucher from Cisco Systems for this exam. Students must have access to a Windows based multi-media computer.
+### Prerequisite(s)
+- 50% in CITX 2061
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to describe concepts and perform tasks related to:
+- Identify and correct common network problems at layers 1, 2, 3, and 7 using a layered model approach.
+- Implement basic switch security measures such as port security, trunk access, and management VLANs.
+- Configure, verify, and troubleshoot DHCP and DNS operations on a router.
+- Describe current network security threats and explain how to implement a comprehensive security policy to mitigate common threats to network devices, hosts, and applications.
+- Describe recommended security practices to secure network devices.
+- Configure and apply ACLs based on network filtering requirements.
+- Configure and apply ACLs to limit Telnet and SSH access to the router using the Security.Device Manager command-line interface (SDM/CLI).
+- Explain the basic operation of Network Address Translation (NAT).
+- Configure NAT for given network requirements using SDM/CLI.
+- Describe different methods for connecting to a WAN.
+- Configure and verify a basic WAN serial connection.
+- Configure and verify a Point-to-Point Protocol (PPP) connection between Cisco routers.
+- Configure and verify Frame Relay on Cisco routers.
+- Troubleshoot WAN implementation issues.
+- Describe the importance, benefits, role, impact, and components of VPN technology.
+Effective as of Spring/Summer 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

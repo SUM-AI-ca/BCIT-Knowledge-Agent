@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/advanced-games-programming-techniques-comp-8552/
+Title: Advanced Games Programming Techniques COMP 8552
+Type: Course
+Course Code: COMP 8552
+
+================================================================================
+
+## Advanced Games Programming Techniques COMP 8552
+Computer Systems Course
+## Course Overview
+​This course will provide the student with an introduction to more advanced computing methods related to building a simple game engine. The course will focus on materials not covered in other programming courses and will include topics on advanced programming, optimization, multi-threading, real-time programming considerations and hardware interfaces. Students will be exposed to different technologies and programming environments. Students will also learn basic physics concepts and how to apply them when building a game engine. These concepts include basic physics and mathematics governing natural phenomena such as force, kinematics, inertia, and momentum.​ Students are recommended to have C++ knowledge.
+### Prerequisite(s)
+- 60% in COMP 8051 and 60% in COMP 7035
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Optimize code to consider speed and size constraints.
+- Solve problems related to synchronization across threads and processes.
+- Adapt and optimize code to different underlying hardware architectures.
+- Design and create a simple multi-threaded game engine.
+- Apply the concepts of mass, centre of mass, moment of inertia and calculate these for a collection of masses in a game engine.
+- Apply the concepts of linear and angular displacement, velocity and acceleration in a game engine.
+- Apply vector forces and the relationship between force and acceleration in a game engine.
+- Apply rigid body collision response, linear and angular impulse and friction in a game engine.
+- Apply the above concepts to solve problems related to movement, acceleration, friction and collision detection related to movement simulation in a game engine.​
+Effective as of Fall 2023
+## Related Programs
+Advanced Games Programming Techniques (COMP 8552) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Games Development Option) Bachelor of Science Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

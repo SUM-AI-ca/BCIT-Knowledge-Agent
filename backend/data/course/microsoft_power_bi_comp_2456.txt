@@ -1,0 +1,71 @@
+URL: https://www.bcit.ca/courses/microsoft-power-bi-comp-2456/
+Title: Microsoft Power BI COMP 2456
+Type: Course
+Course Code: COMP 2456
+
+================================================================================
+
+## Microsoft Power BI COMP 2456
+Computer Systems Course
+## Course Overview
+​Microsoft Power BI is a business intelligence and data analytics platform that helps turn raw information into useful insights. COMP 2456 requires knowledge of advanced Excel functions and Pivot Tables from COMP 2364 and may be taken concurrently with COMP 2453 Introduction to Microsoft Fabric. Using a low-code, integrated environment to connect to different data sources, users create data models and publish interactive dashboards and reports. This hands-on course covers fundamental and advanced Power BI concepts with practical workplace applications. Activities cover the business intelligence lifecycle, including data preparation with Power Query. Topics include, Semantic modeling using Star Schema, analytical calculations utilizing Data Analysis Expressions (DAX) and dashboard design following UX/UI principles. Lab exercises and project tasks cover Extract, Transform, and Load (ETL) methods, Row-Level Security (RLS), performance optimization, and Power BI Service deployment. Participants gain skills in workspace management and Git version control, applying industry best practices in real-world contexts. They will also use AI tools like CoPilot and Claude for Power BI to boost report productivity, create DAX measures, and design wireframes. COMP 2456 is an elective in the Applied Computer Information Systems (ACIS), and the Applied Database Administration and Design (ADAD) Associate Certificates, the Applied Data Analytics Certificate (ADAC), and the CST FLEX Diploma. Upon completion of this course, successful students will be able to utilize the Power BI unified analytics platform to design and publish high-quality dashboards for web deployment.
+### Prerequisite(s)
+- 60% in COMP 2362 or 60% in COMP 2364
+- or equivalent knowledge.
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$560.00
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Microsoft Power BI as an integrated analytics platform within the Microsoft Fabric ecosystem. Including its core components.
+- (ETL) Extract, Transform, and Load data using Power Query, and apply data preparation best practices.
+- Design optimized semantic data models using Star Schema principles, including the creation of fact and dimension tables, relationships appropriate for analytical workloads.
+- Evaluate the trade-offs between import, DirectQuery, Direct Lake, and composite data models, and select the appropriate storage mode for a given business scenario.
+- Implement performance tuning strategies for semantic models using native and third-party performance assessment tools to diagnose and resolve bottlenecks.
+- Write DAX measures and calculated columns at both foundational and intermediate levels, applying time intelligence, iterators, and filter context manipulation to solve real business problems.
+- Implement RLS (both static and dynamic) to enforce data access controls aligned with organizational roles and governance requirements.
+- Describe the architecture of the Power BI Service within Microsoft Fabric, including workspaces, capacities, semantic models, and the OneLake data layer.
+- Apply UX/UI principles to design intuitive, accessible dashboards for diverse audiences.
+- Design and build interactive reports in Power BI Desktop while applying data visualization best practices - selecting appropriate chart types for different data types and avoiding common visualization mistakes
+- Leverage Copilot and AI-assisted features to accelerate report development while critically evaluating AI-generated outputs for accuracy.
+- Manage a report design project using the AI tooling such as CoPilot and Claude to capture requirements, create wireframes and mock-ups for stakeholder review and iteration.
+- Monitor and administer a Power BI environment using Fabric Admin tools, including usage metrics, capacity management, and tenant.
+- Deploy, version-control, and share Power BI reports and semantic models within Fabric using PBIP format, Deployment Pipelines & Git integration.​
+Effective as of Spring/Summer 2026
+## Related Programs
+Microsoft Power BI (COMP 2456) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Information Systems (ACIS) Associate Certificate Part-time
+- Applied Data Analytics Certificate Part-time
+- Applied Database Administration and Design Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Data Visualization with MS Power BI Microcredential Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 2456 for the Fall 2026 term.
+Sep 09 - Dec 09
+- CRN 52740
+- $560.00 Domestic fees
+Dates | Days | Times | Locations
+Sep 09 - Dec 09 | Wed | 18:30 - 21:30 | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class September 30 (Truth & Reconciliation) and November 11 (Remembrance Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

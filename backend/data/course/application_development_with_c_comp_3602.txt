@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/application-development-with-c-comp-3602/
+Title: Application Development with C# COMP 3602
+Type: Course
+Course Code: COMP 3602
+
+================================================================================
+
+## Application Development with C# COMP 3602
+Computer Systems Course
+## Course Overview
+​This fourth-level computer programming course follows on from COMP 2601 and assumes prior knowledge of object-oriented programming using Java. COMP 3602 starts with an introduction to C# programming with Microsoft Visual Studio and the .NET Framework for application development. Labs and assignments are designed to reinforce Microsoft industry standard naming conventions and best practices. Topics include: Windows Forms and controls, event-driven programming, deploying a web service, asynchronous programming, working with SQL databases and effective application debugging. Students build graphical user interfaces (GUIs) and design Windows application software. ​​ COMP 3602 is an elective in the Applied Software Development (ASD) Associate Certificate. It is a prerequisite for COMP 4602 ​. Both .NET courses are required in the Advanced .NET Development (AND) Associate Certificate, and are electives the CST/FLEX Diploma. Upon completion, successful students will be able to use C# to build and deploy cross platform software applications with the latest .NET technologies.
+### Prerequisite(s)
+- 60% in COMP 2601
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$611.04
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Describe .Net Core, .Net 5, and the Microsoft.NET Framework.
+- Explain .NET's major components: Common Language Runtime (CLR) and Base Class Library (BCL).
+- Use the C# language to build Console and Windows Form applications.
+- Design Windows GUI applications with Forms and Dialogs.
+- Use Windows controls such as Form, TextBox, Button, and Label.
+- Use Visual Studio and Microsoft Docs for on-line help.
+- Write executable and Class Library Assemblies, using the C# language.
+- Work with multiple projects, using Visual Studio Solutions.
+- Implement exception handling to build robust applications.
+- Work with the Input/Output (I/O) system.
+- Implement the latest .NET features including LINQ, Lambdas, and Extension Methods.
+- Write asynchronous code using async/await.
+- Work with .NET Collection classes.
+- Interact with SQL databases using Active Data Objects (ADO.NET).
+- Enhance code separation using namespaces and class libraries.
+Effective as of Spring/Summer 2023
+## Related Programs
+Application Development with C# (COMP 3602) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of COMP 3602 for the Spring/Summer 2026 term.
+May 13 - Jul 29
+- CRN 68028
+- $611.04 Domestic fees
+Dates | Days | Times | Locations
+May 13 - Jul 29 | Wed | 18:00 - 21:00 | Online
+May 13 - Jul 29 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Charlie Blattler
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session July 1 (Canada Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

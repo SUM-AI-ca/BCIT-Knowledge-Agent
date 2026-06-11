@@ -1,0 +1,180 @@
+URL: https://www.bcit.ca/courses/linear-physical-systems-elex-7110/
+Title: Linear Physical Systems ELEX 7110
+Type: Course
+Course Code: ELEX 7110
+
+================================================================================
+
+## Linear Physical Systems ELEX 7110
+Electrical and Computer Engineering Course
+## Course Overview
+This interdisciplinary course covers some of the mathematical background in linear system theory required for further studies in signal processing and feedback control. Both continuous time and discrete time systems are covered, using time domain and frequency domain techniques. Emphasis is placed on the modeling process, model validation, and on computer aided design tools. Examples are drawn from mechanical, hydraulic, thermal, electrical and economic systems. Experimental validation of models using modern tools is the main focus of the laboratory portion of the course.
+### Prerequisite(s)
+- 50% in ELEX 7020
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$771.64
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+## Definition of Systems and Model Terminology
+- Purpose of models in engineering, model suitability, example systems
+- Classifications and terminology
+- Memory-less versus dynamic systems
+- Causal versus non-causal systems
+- Time invariant versus time varying systems
+- Stable versus unstable systems
+- Linear versus nonlinear systems
+- Distributed parameter versus lumped parameter systems
+- Internal versus input/output system descriptions
+- Continuous time versus discrete time systems
+- Sampled data systems
+- Time domain versus transform domain system models
+- Order of a system, model simplification - reduction of order
+- Quantization and digital systems
+- Multiple input multiple output systems versus single input single output systems
+- System variables versus system parameters
+- Dynamic analogies
+- Analogous circuits - through and across variables
+- Mechanical linear systems
+- Mechanical rotary systems
+- Hydraulic systems
+- Electric circuits
+- Thermal circuits
+- Economic systems
+- Energy in physical systems
+- Power
+- Stability
+- Conservation of energy
+- Energy and power in mechanical, electric, thermal, and hydraulic systems
+## Modeling - Continuous Time
+- Review of differential equation theory
+- Nonlinear systems and linearization
+- Saturation
+- Hysterisis
+- Static nonlinearities
+- Dynamic nonlinearities
+- Linearization
+- Deviation variables and operating points
+- Definition of linear system, superposition, homogeneity, convolution
+- The phase plane and state space systems
+- Equilibrium and types of fixed points in second order systems
+- Review of the Laplace transform
+- Bilateral and unilateral transform
+- Region of convergence
+- Properties of the Laplace transform
+- Common signals and transforms
+- Step
+- Impulse
+- Ramp
+- Exponential/complex exponential
+- Sine/cosine
+- Time delay
+- Inverse Laplace transform
+- Solution of differential equations using the Laplace transform
+- Convolution and applications
+- Steady state error and the final value theorem
+- Initial value theorem
+- Block diagrams
+- Generalized impedance and loading/interaction considerations
+- System responses and pole zero locations
+- Transfer functions
+- Feedback interconnection and closed loop stability via the Laplace transform
+## Modeling - Discrete Time
+- Examples of inherently discrete systems
+- Sampled data systems and digital systems
+- Difference equations and their solution
+- The z-transform
+- Definition of z-transform
+- Region of convergence
+- Common transforms
+- Unit impulse, unit step, unit ramp
+- Exponential
+- Decaying exponential
+- Sinusoid
+- Damped sinusoid
+- Delay
+- Final value theorem
+- Inverse z-transform
+- Solution of difference equations using the z-transform
+- Discrete time transfer functions
+- Discrete convolution and applications
+- System responses
+- Zero order hold and discrete transfer functions of sampled analogue systems
+- Sampling consideration
+- Relation between the s- and z-plane
+- Closed loop stability of digital feedback control systems
+- Approximations of continuous systems
+- Tustin approximation
+- Frequency pre-warping
+- Step equivalence
+## State Space Systems and Computer Simulation
+- Review of linear algebra
+- Continuous time state space descriptions
+- State space feedback systems
+- Similarity transformations
+- Eigenvalue/eigenvector problems
+- Realizations
+- Relationship between state space and transfer function descriptions
+- Observability, controllability, observer design
+- Discrete time state space descriptions
+## Sinusoidal Steady State Response
+- Frequency response
+- Bode diagrams
+- Resonance/mode shapes
+- Gain and phase margins, stability, Nyquist encirclement criterion
+- Unmodelled dynamics
+## Identification
+- Model structures
+- Finite impulse response
+- Infinite impulse response
+- Moving average models
+- ARMA/ARMAX models
+- Selecting model structures
+- Model validation
+- Lease squares estimation
+- Geometric interpretation
+- Curve fitting
+- Estimation (BLUE property)
+- Least squares system identification
+- Model order selection
+- Difficulties with autocorrelation in the data
+- Nonsense correlations and detrending
+- Noise
+- Random variables and random processes
+- Autocorrelation
+- Cross correlation
+- Heteroscedasticity
+- Noise models
+- PRBS signals
+Effective as of Fall 2003
+## Related Programs
+Linear Physical Systems (ELEX 7110) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electronics Bachelor of Technology Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of ELEX 7110 for the Fall 2026 term.
+Sep 10 - Dec 10
+- CRN 34005
+- $771.64 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Dec 10 | Thu | 18:30 - 21:30 | Burnaby SW09 Rm. 117
+### Duration
+14 weeks
+### Instructor
+Gino Carrese
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- This course will be delivered 100% in-person at the BCIT Burnaby campus. 18 hours of lab work and 15 hours of CAD tutorial work to be scheduled outside of class hours on Saturdays, on a schedule to be determined on the first day of class. Registrants who are not BTech Electronics students must have program head approval.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

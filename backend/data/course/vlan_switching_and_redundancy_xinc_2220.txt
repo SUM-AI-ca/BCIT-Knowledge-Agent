@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/vlan-switching-and-redundancy-xinc-2220/
+Title: VLAN Switching and Redundancy XINC 2220
+Type: Course
+Course Code: XINC 2220
+
+================================================================================
+
+## VLAN Switching and Redundancy XINC 2220
+Cybersecurity Professionals Microcredentials Course
+## Course Overview
+XINC 2220 introduces students to redundant switch configuration. The course will focus on the configuration of Virtual Local AreaNetworks (VLANs) and trunking between switches. Redundancy protocols such as Spanning Tree Protocol (STP) and RapidSpanning Tree Protocol (RSTP) will be discussed. Students will then configure EtherChannel to allow high-speed networkcommunication between switches.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Configure initial settings on a switch and router,
+- Explain switching concepts such as frame forwarding and switching domains,
+- Implement VLANs and trunking in a switched network,
+- Configure and troubleshoot inter-VLAN routing on Layer 3 devices,
+- Explain how Spanning Tree Protocol enables redundancy in a Layer 2 network,
+- Configure and troubleshoot EtherChannel on a switched network.
+Effective as of Spring/Summer 2023
+## Related Programs
+VLAN Switching and Redundancy (XINC 2220) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Network Switching and Routing Microcredential Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

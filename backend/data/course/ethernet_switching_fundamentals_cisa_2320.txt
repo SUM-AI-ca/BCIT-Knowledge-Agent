@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/ethernet-switching-fundamentals-cisa-2320/
+Title: Ethernet Switching Fundamentals CISA 2320
+Type: Course
+Course Code: CISA 2320
+
+================================================================================
+
+## Ethernet Switching Fundamentals CISA 2320
+Computer Info Systems Admin Course
+## Course Overview
+​​Building on skills learned in the previous term, this course describes the architecture, components, and operations of Ethernet switches in both small and larger, more complex, networks. Students learn how to configure a switch for basic and advanced functionality. Topics include Virtual LANs (VLAN), inter-VLAN routing, Dot1q trunking, Virtual Trunking Protocol (VTP), Dynamic Trunking Protocol (DTP), Spanning-Tree Protocol (STP), Switched Virtual Interfaces (SVI), port security, switch security, switch remote management, port aggregation, and first hop redundancy. Dynamic Host Configuration Protocol (DHCP), Stateless Address Auto Configuration (SLAAC), static and default routes, and basic Wireless LAN (WLAN) configuration are also covered.
+### Prerequisite(s)
+- CISA 1310
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the concept of bridging and the evolution to switching via Application-Specific Integrated Chips (ASICs)
+- Describe the purpose and concept of VLANs and inter-VLAN routing
+- Describe IEEE Dot1q (trunking) functionality
+- Describe STP operations
+- Configure VLANs, trunk ports, and management capabilities on a Cisco switch
+- Optimize STP operations in a multi-switch environment and activate Rapid Per-VLAN STP
+- Configure and verify port aggregation
+- Provide first hop redundancy to hosts connected to a switch
+- Activate port security features on a switch
+- Implement DHCP to operate across multiple LANs
+- Implement a WLAN using a wireless router and a Wireless LAN Controller (WLC)
+- Configure IPv4 and IPv6 static routes
+- Troubleshoot static and default routes
+Effective as of Winter 2021
+## Related Programs
+Ethernet Switching Fundamentals (CISA 2320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

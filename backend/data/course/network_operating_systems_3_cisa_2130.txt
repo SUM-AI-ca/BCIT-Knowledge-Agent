@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-3-cisa-2130/
+Title: Network Operating Systems 3 CISA 2130
+Type: Course
+Course Code: CISA 2130
+
+================================================================================
+
+## Network Operating Systems 3 CISA 2130
+Computer Info Systems Admin Course
+## Course Overview
+This course prepares students to be responsible for planning, installing, configuring, managing, and supporting a network infrastructure using an industry current Microsoft server and workstation platform. Building upon topics in CISA 1130 and CISA 1230 , this course focuses on server and workstation deployment, infrastructure services, and Active Directory security features.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the functionality of Microsoft Active Directory.
+- Discuss basic security issues that exist within a computer network.
+- Describe the authentication and authorization features of Active Directory.
+- Deploy Windows workstations within a secure Active Directory environment.
+- Describe infrastructure services and server requirements.
+- Develop a plan for application resilience and security.
+- Assign multiple roles to servers.
+- Deploy BitLocker.
+- Implement secure remote access connections.
+- Deploy certificate services.
+- Activate and use Remote Desktop features.
+- Delegate administration tasks.
+- Extract information from the Reliability and Performance console.
+- Configure and implement auditing.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

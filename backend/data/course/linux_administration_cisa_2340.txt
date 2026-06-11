@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/linux-administration-cisa-2340/
+Title: Linux Administration CISA 2340
+Type: Course
+Course Code: CISA 2340
+
+================================================================================
+
+## Linux Administration CISA 2340
+Computer Info Systems Admin Course
+## Course Overview
+​In this course students learn how to administer Linux operating systems. Topics include installation, boot process configuration, partitions, file systems, network settings, logging services, user account policies, and host security. Additional topics include Apache web server, scripting, and Structured Query Language (SQL). Lab exercises reinforce the theory and provide opportunities for troubleshooting.
+### Prerequisite(s)
+- CISA 1340
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the Linux file system, operating system structure, boot process, and tools
+- Perform interactive and automated installations of Linux
+- Configure and troubleshoot the boot process
+- Configure services, networking settings, and system logging
+- Configure account policies, access control lists, and host security
+- Create and manage partitions and file systems
+- Describe the importance of system time settings
+- Manage software packages
+- Install and configure Apache web server
+- Configure advanced shell features
+- Customize the user’s shell environment
+- Use shell scripts to automate functions
+- Create SQL statements to query a database
+- Use the VI editor for editing files
+Effective as of Winter 2019
+## Related Programs
+Linux Administration (CISA 2340) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

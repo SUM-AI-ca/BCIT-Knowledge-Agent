@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/computer-systems-technology-foundations-1-comp-2653/
+Title: Computer Systems Technology Foundations 1 COMP 2653
+Type: Course
+Course Code: COMP 2653
+
+================================================================================
+
+## Computer Systems Technology Foundations 1 COMP 2653
+Computer Systems Course
+## Course Overview
+This intensive course is intended for applicants to the Bachelor of Technology degree in Computer Systems. The course covers, in one term, programming with C#, basic computer architecture concepts and principles. The material is presented in an integrated fashion and the goal is to provide the students with an introductory comprehension of computer systems technology and computer application development to continue in the Bachelor program. Topics include: 1) C# programming (Introduction to C# development environment, Basic Programming (Control Structures, Methods), Arrays, Files, Classes, Objects, Windows Forms Programming, Basic Debugging); 2) Architecture (Basic concepts, CPU, Primary Memory, Secondary Memory, I/O Devices, Boolean Algebra and Digital Logic Gates, Combinatorial Logic Design).
+### Prerequisite(s)
+- 60% in COMP 2501
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the architecture of the main hardware components of a computer system, including peripheral devices, and inter-computer communications.
+- Understand basic digital logic gates and combinatorial logic design.
+- Work with Boolean algebra, truth tables and logic equations.
+- Design and develop C# programs.
+- Explain and use different C# structures like arrays, files, classes and objects.
+- Create simple console and Windows forms applications.
+- Use exception handling in code.
+- Perform basic debugging in C#.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

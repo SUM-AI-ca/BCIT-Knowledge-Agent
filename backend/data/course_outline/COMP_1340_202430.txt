@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20243046209/
+Course: COMP 1340
+Field: Introduction to Operating Systems Administration
+Subject: Computer Systems
+Term: 202430
+CRN: 46209
+
+================================================================================
+
+## Course Outline
+## COMP 1340
+## Introduction to Operating Systems Administration
+School | School of Computing and Academic Studies
+Program | Full-Stack Web Development
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | September 03, 2024
+End Date | December 13, 2024
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture/Lab
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 46209
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Douglas Iu
+E-mail | diu@bcit.ca
+Location | DTC-528A
+Office Hours | Tuesdays 12:30pm-1:30pm before scheduled classes or Contact me to schedule an appointment at diu@bcit.ca
+### Course Description
+​​This course introduces students to the configuration, maintenance, and administration of both Microsoft Windows computers as well as Linux. Topics include an introduction to computer hardware, functions of an operating system (OS), Windows OS and Linux architecture, file and disk management, virtual machines, software installation/removal, performance tuning, backing up and protecting data, troubleshooting, networking, security, virus protection, and firewalls. Students can use tools such as VirtualBox and Cygwin to run Linux commands from a Windows operating system.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the purpose of different computer hardware components in desktop, laptop, and mobile computing devices such as smartphones and tablets.
+- Explain OS virtualization.
+- Backup and restore data files on Linux and PC computer systems.
+- Utilize Windows PowerShell for basic PC management operations.
+- Utilize the terminal in Linux for basic PC management operations.
+- Start, stop, and manage OS processes to fine-tune Microsoft Windows.
+- Start, stop, and manage OS processes to fine-tune Linux.
+- Performance tune a Microsoft Windows computer.
+- Discuss the advantages and disadvantages of Microsoft Windows and Linux.
+- Analyze the differences between computer viruses, Trojan horses, adware, and spyware and how to avoid them.
+- Performance tune a Linux computer.
+- Create accounts and perform configuration (creating/deleting/disabling accounts, changing passwords, privileges, usernames, etc.) for both Microsoft Windows and Linux.
+- Configure file and resource sharing for both Microsoft Windows and Linux.
+- Analyze differences between binary and text file formats.
+- Configure various security settings on both Microsoft Windows and Linux such as file permissions and firewall settings.
+### Learning Resources
+Useful Readings pertinent to the lecture will be made available within the Learning Hub.
+No textbooks are required for this course.
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 30 | Weekly Quizzes (10)
+Labs and Assignments | 20 | Weekly Assignments (11)
+Midterm Exam | 20 | Passing Grade for this course is 50%
+Final Exam | 30 | Students must earn an minimum of 50% average between Midterm and Final exam to pass the course
+Students must submit at least 75% of the assignments and average 50% on all Quizzes to pass the course.
+### Attendance Requirements
+Attendance in lectures and labs is mandatory. Since this is a full-time course, students are required to work on campus during regular school hours. Attendance will be taken in all scheduled lectures and labs (no makeup lectures or labs).
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with his/her instructor indicating the reason for the absence.
+Prolonged illness which causes the student to miss 10% or more of the labs will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
+Unapproved absence of 10% or more of the labs may result in failure or forced withdrawal from this course.
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Course Specific Requirements
+Bring your own Laptop is required for FSWD.
+### Course Schedule and Assignments
+Week | Outcome/Material Covered
+1 | No Scheduled Class - Orientation Week.
+2 | Hardware: Von Neumann Architecture, how a CPU works, CPU Cores and clock speed, Storage Systems, Memory (Volatile, Non-Volatile), Hardware differences depending on device form-factor
+3 | OS Virtualization: Windows architecture, Workstations and Servers, Intro to CMD and Powershell, Maintenance.
+4 | Windows File Systems, Backup and Restore, Disaster recovery. Managing OS processes
+5 | OS Virtualization: Linux Variations, Shell commands, software, disk and process management.
+6 | Unix, and Networking
+7 | Backup Managment
+8 | Midterm Exam
+9 | Bash, Cygwin
+10 | Powershell
+11 | OS Security, Managing user access/privledges, and Firewalls
+12 | Viruses Trojans, adware and spyware
+13 | Remote connectivity, File and resource sharing on Windows and OSX.Performance tuning
+14 | Review
+15 | Final Exam
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Douglas Iu, Instructor August 29, 2024
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head August 30, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean August 31, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/ms-power-bi-optimization-comp-3156/
+Title: MS Power BI Optimization COMP 3156
+Type: Course
+Course Code: COMP 3156
+
+================================================================================
+
+## MS Power BI Optimization COMP 3156
+Computer Systems Course
+## Course Overview
+​​Following on from COMP 2156 , and parallel to COMP 3157 , this hands-on advanced course was designed for Business Intelligence and Data Analysts. Students who already know how to use Power BI to build and publish reports begin with an in-depth introduction to Star Schema and its relevance to optimal Power BI data modeling. COMP 3156 in-class labs and exercises focus on specific strategies to optimize large complex Power BI data models and how to leverage Power BI Service in the cloud for fast performing reports. Topics include relational data modeling in Power BI, Designing Import, DirectQuery, and Composite Data Models. There is also an in-depth explanation of Power BI Service Performance Monitoring. Tabular Editor and DAX Studio are also discussed. Labs and assignments include managing security permissions, data visibility based on role as and leveraging specialized third-party tools. Tabular Editor and DAX Studio are used to monitor and evaluate data model performance. Participants must provide their own current model PC capable of running Windows 11 and MS Excel, with an i5 or higher equivalent processor, 8 GB minimum RAM, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. COMP 3156 is an elective in several BCIT Computing credentials including the CST Diploma (FLEX), and the Applied Data Analytics Certificate (ADAC). By the end of this course, successful students will be able to build advanced, optimized data models and use the Power BI Service cloud environment.​ This course will be offered in April 2026 for the last time and will be replaced along with COMP 2156 /3157 with one new combined 12-week course COMP 2456 Microsoft Power BI, starting in the Fall (September 2026) term.
+### Prerequisite(s)
+- 60% in COMP 2156
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Star Schema and its relevance to developing optimized Power BI data models.
+- Implement various techniques to reduce data model size and improve model performance.
+- Describe the implications of import, direct-query and composite data models.
+- Diagnose and troubleshoot common data relationship issues with your Power BI data model.
+- Conduct performance testing to identify opportunities for optimization.
+- Manage Row-Level Security (Dynamic & Static).
+- Describe the data architecture of Power BI Service.
+- Monitor a Power BI environment as a Power BI administrator for a Power BI Service in the cloud.
+Effective as of Fall 2022
+## Related Programs
+MS Power BI Optimization (COMP 3156) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Data Visualization with MS Power BI Microcredential Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,77 @@
+URL: https://www.bcit.ca/courses/programming-fundamentals-part-3-object-design-comp-2601/
+Title: Programming Fundamentals Part 3 (Object Design) COMP 2601
+Type: Course
+Course Code: COMP 2601
+
+================================================================================
+
+## Programming Fundamentals Part 3 (Object Design) COMP 2601
+Computer Systems Course
+## Course Overview
+​This hands-on, third-level computer programming fundamentals course follows on from COMP 2501 – Programming Fundamentals Part 2 (Java). Students who already understand how to write computer programs in Python and Java will focus on object-oriented programming (OOP) best practices and design in preparation for higher-level software development courses. COMP 2601 introduces debugging intermediate-level programs with an OOP language specifically Java. It is the third step in in a series of three (3) applied programming fundamentals courses. Students must provide their own current model Windows capable PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Topics include: language syntax, data abstraction, with a deeper focus on encapsulation, inheritance, polymorphism, and exception handling. Design Patterns and collections will be applied to appropriate problems. Labs and exercises demonstrate concepts of design, development, and testing. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 13+ hours per week; 3 hours of class time, and 10+ hours of homework each week. COMP 2601 has been replaced by COMP 2509 , Object Oriented Programming with Java, as of September (Fall) 2026.​ Upon completion, successful students will be able to plan, write, and test significant OOP programs in Java. They will be able to apply design patterns and prepared move on to higher level application development courses in specific languages: Java, C# and C++.​
+### Prerequisite(s)
+- 60% in COMP 2501
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$568.16 - $611.10 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Apply object-oriented decomposition to break a program into multiple classes with well-defined interfaces.
+- Implement proper object and class initialization and validation.
+- Apply the properties of good OOP software design using encapsulation, information hiding, inheritance, and polymorphism to create easily extensible systems in the context of intermediate-level programs.
+- Integrate the Java Collection Framework.
+- Apply collection streaming and filtering in application design.
+- Create and handle exceptions to write robust programs.
+- Develop applications with Graphic User Interfaces, GUIs.
+- Apply design techniques such as sequence diagrams, collaboration diagrams and class diagrams to define classes and their relationships when solving a problem.
+- Design, implement, debug and write automated tests for intermediate-level programs in high-level OOP languages.
+- Write programs addressing concurrency issues and basic multithreading concepts.
+- Identify and implement relationships between classes and interfaces.
+- Apply well-known design patterns to create flexible Object-Oriented program designs.
+- Move on to higher-level software application development courses.
+Effective as of Winter 2022
+## Course Offerings
+- Spring/Summer 2026
+Below are two offerings of COMP 2601 for the Spring/Summer 2026 term.
+May 01 - Jul 24
+- CRN 69489
+- $568.16 Domestic fees
+Dates | Days | Times | Locations
+May 01 - Jul 24 | Fri | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Jason Wilder
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class June 19.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 06 - Jul 29
+- CRN 68025
+- $611.10 Domestic fees
+Dates | Days | Times | Locations
+May 06 - Jul 29 | Wed | 18:00 - 21:00 | Burnaby
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours on campus. This is a BYOD (bring your own device) course. Students can not attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class June 17. Class in session July 1 (Canada Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

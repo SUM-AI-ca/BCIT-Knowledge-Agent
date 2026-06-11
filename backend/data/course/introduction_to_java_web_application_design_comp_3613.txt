@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-java-web-application-design-comp-3613/
+Title: Introduction to Java Web Application Design COMP 3613
+Type: Course
+Course Code: COMP 3613
+
+================================================================================
+
+## Introduction to Java Web Application Design COMP 3613
+Computer Systems Course
+## Course Overview
+​ COMP 3613 has been replaced by COMP 3656 . This intermediate level course continues from COMP 2613 and prepares experienced Java application developers to move on to higher level courses in Advanced Java Web Development. Students will receive an introduction to Java web application development and design, plus be introduced to the model view controller (MVC), with an emphasis on the controller for Java web development. Hands-on labs and exercises continue with an introduction to Java EE; starting with an examination of the Servlet API and the Servlet life cycle. Topics include: an introduction to JavaServer Pages and Expression Language (JSP & JSP-EL). Further examination of JDBC, JavaBean Design, Applets, Internationalisation, Multi-threading, and Security for Encryption. Successful participants will be able to build and deploy well designed basic Java Web applications to industry standards. Upon completion, students may register for COMP 4613 - Advanced Java Web Development.
+### Prerequisite(s)
+- COMP 2613 and COMP 1850
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Introduce JavaServer Page (JSP) development and the Expression Language (JSP-EL).
+- Examine the role of Java Servlets as web application controllers.
+- Understand the purpose and use of JDBC Metadata.
+- Discuss the ongoing role of JavaBean design and Reflection.
+- Utilise Multi-Threading and Thread Synchronisation in web design.
+- Configure and customise a simple web application server.
+- Analyse and apply web application design architecture.
+- Create and design web application deployment descriptors.
+- Develop and deploy Java Applets.
+- Implement web based internationalisation techniques.
+- Incorporate security techniques for encryption and authentication.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

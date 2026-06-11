@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/operating-systems-concepts-comp-3730/
+Title: Operating Systems Concepts COMP 3730
+Type: Course
+Course Code: COMP 3730
+
+================================================================================
+
+## Operating Systems Concepts COMP 3730
+Computer Systems Course
+## Course Overview
+This course presents introductory operating systems concepts, starting with operating systems services and how these services are used and implemented. Topics include processor management, processes and threads, microkernel architecture, interprocess communication, synchronization and mutual exclusion, deadlock and starvation, basic memory management.
+### Prerequisite(s)
+- 50% in COMP 2510
+### Credits
+3.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Describe what operating systems do.
+- Describe how the operating system is structured (layers and components).
+- Describe the operating system interface (system calls, shells).
+- Decide what functions should be implemented for a typical operating system.
+- Explain how to implement these functions.
+- Describe process management concepts such as processes, threads, CPU scheduling, process synchronization, deadlock resolution, starvation.
+- Explain interprocess communication concepts such as message passing and the different IPC patterns.
+- Explain how memory management systems operate, including logical/physical addressing schemes, swapping, segmentation, paging and virtual memory.
+- Trace the result of the various algorithms.
+- Decide between different design models.
+Topics such as the I/O systems, file systems, security and the implementation of common O/S such as Windows NT, Linux, etc. will be covered in Comp 4730 (term B).
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

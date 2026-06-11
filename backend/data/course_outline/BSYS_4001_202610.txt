@@ -1,0 +1,125 @@
+URL: https://www.bcit.ca/outlines/20261089398/
+Course: BSYS 4001
+Field: Artificial Intelligence Management 2
+Subject: Business Systems
+Term: 202610
+CRN: 89398
+
+================================================================================
+
+## Course Outline
+## BSYS 4001
+## Artificial Intelligence Management 2
+School | School of Business + Media
+Program | AI Management
+Course Credits | 5.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 80
+Total Weeks | 20
+Hours/Weeks | 4
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | BSYS 3001
+CRN | 89398
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Amy Goldlist
+E-mail | Amy_Goldlist@bcit.ca
+Location | SE6-336 or via Microsoft Teams
+Office Hours | See posted schedule at https://timetables.bcitsitecentre.ca/business, or bookings: Book time with Amy Goldlist Note: This works best in incognito mode!
+### Course Description
+In this course, students will continue to develop the skills from BSYS 3001 Artificial Intelligence Management 1. The business use cases of deep learning will be evaluated, and students will compare supervised, unsupervised and reinforcement machine learning models. The different types of neural networks, constraint and optimization problems, and search techniques will also be investigated. Other deep learning tools will be explored as the student applies these techniques to business process management. The focus will be on artificial intelligence/machine learning (AI/ML) business solutions that can be implemented and managed without unnecessary technical complexity. Upon completion of the course the student will be able to manage AI/ML implementation projects.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Contrast supervised, unsupervised and reinforcement learning
+- Define, discuss, and evaluate the ethics of recommendation systems
+- Learn about Machine Learning Algorithms such as Decision Trees, K-means, K-nearest neighbours, and Markov Chains
+- Understand the pros and cons of different Machine Learning Algorithms for making decisions
+- Understand the key components of Optimization, and how continuity, differentiability and convexity help determine the correct algorithm
+- Analyze optimization problems using Hill Climbing, Simulated Annealing, and Genetic Algorithms
+- Evaluate Automated Planning, Adversarial Search, Probabilistic Models, and Pattern Recognition techniques
+- Develop artificial intelligence applications as a project team and present these applications to stakeholders
+### Learning Resources
+Textbook:
+Handouts - to be posted on the Learning Hub, as well as open sources (to be posted)
+Online Open References - list will be on the Learning Hub
+Software:
+Python, via Jupyter Notebooks. You can download, use via BCIT workspace, or access your free account via https://bcit.syzygy.ca/
+We will discuss versions and packages in class (all open source and free via pip or conda installer)
+You may wish to use Microsoft Excel (Office 365 edition available via BCIT)
+### Course Goals
+It's not in the official course objectives, but our goals will include:
+- Evaluate emerging AI approaches for complex problem-solving, including the use of autonomous agents (agentic AI) and LLM-driven systems, in place of classical planning/search methods, for achieving business objectives.
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 10% | Weekly, in class
+Assignments | 10% | Individual
+Midterm | 25%
+Project | 20% | some individual checkpoints, as well as group work.
+Final Exam | 35%
+### Course Specific Requirements
+This course is about AI, so AI use is encouraged. On the first day we will discuss ethics and citations, and how to successfully vibe code. Based on our discussions, we will collectively create an AI contract and grading rubrics.
+There will be times when you are not allowed to use AI at all - exams and many quizzes will be on paper and technology free,
+Also, you may be required to explain how Generative AI works - which is something you should know by then end of the class.
+Students may use AI for specific task components if they critically evaluate AI outputs. | Students may compare output by different AI tools and then integrate it into their final work. Submitted work must include the prompt and AI-generated output. The critical analysis or reflection on the limitations and quality of output is assessed. Full citations are critical!
+Instructor may use AI for specific components | There may be AI generated data sets (mostly so I can get fake data) Exams and Assignments will include labelled AI generated code output, and students will be expected to critique and explain this. Debugging and Tracing AI generated code will be a built in component of the class.
+### Other information
+This course features a major team-based project. All team members usually receive the same mark. However, marks can be redistributed if one or more team members contribute less than their fair share. This may include one or more of the following:
+- frequently absent from team meetings or classes
+- submitting plagiarized or low effort work
+- missing team deadlines or class deadlines
+- disruptive behavior during team meetings
+Your team will need to have a team charter and document infractions, escalating the issue to your instructor before the assignment is due. The instructor will then guide your team through the mark redistribution / Reassign group member process. In this process, the team will have the following options:
+Option 1: If all members of the group agree that grades should be reallocated, up to 40% will be taken off one student’s score and redistributed to the other students.
+Option 2: If group members do not reach agreement on how marks should be reallocated, each team member’s contributions will be marked separately.
+Option 3: If a member is removed from the group, they will be responsible for finishing the project on their own, and will be graded on the same rubrics.
+### Course Schedule and Assignments
+* Subject to change, as experience has taught me that AI keeps changing....
+Week of | Topic
+1 | Introduction to AI, Components of Generative AI
+2 | Supervised Learning: Classification Models 1 (KNN)
+3 | Classification Models 2 (Decision Trees and Random Forests)
+4 | Building a model: Preprocessing: & Cross Validation
+5 | Unsupervised Learning: K-Means & Hierarchical Clustering
+6 | Model Selection: Unsupervised Learning as Preprocessing
+7 | Feature Engineering and Selection
+8 | Intro to Recommendation Systems
+9 | MIDTERMS
+10 | March Break - no class
+11 | Markov Chains and MCMC in recommendations
+12 | Errors and Accuracy
+13 | LLM Bootcamp
+14 | Regression
+15 | Optimization and Reinforcement Learning
+16 | Creating a Reinforcement Algorithm
+17 | Ensemble Methods
+18 | PCA (Or whatever is invented by May!)
+19 | Review
+20 | Exam Week
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Amy Goldlist, Program Head December 19, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Phil Ramer, Associate Dean December 19, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

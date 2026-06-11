@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/statistics-and-numerical-methods-for-mechanical-technologists-math-3493/
+Title: Statistics and Numerical Methods for Mechanical Technologists MATH 3493
+Type: Course
+Course Code: MATH 3493
+
+================================================================================
+
+## Statistics and Numerical Methods for Mechanical Technologists MATH 3493
+Mathematics Course
+## Course Overview
+This course introduces the use of numerical methods – linear system solutions, differentiation, integration and solving differential equations - to solve engineering problems. The basics of descriptive statistics and probability theory are also introduced and applied to technical problems such as quality control charts. For all topics, extensive use of spreadsheet or other software is made, allowing more complex realistic problems to be attempted.
+### Prerequisite(s)
+- MATH 2491
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Solve a system of simultaneous linear equations using matrix inversion.
+- Use a numerical scheme to differentiate a given function or time-series; for example to calculate the velocity of an object from a time-series of its displacement.
+- Use a numerical integration technique (including the Trapezoid Rule and Simpson’s Rule) to evaluate a definite integral, such as in area or volume calculations and bending moment problems.
+- Find the roots of a non-linear function using a numerical technique (including Newton-Raphson iteration); e.g., with application to the geometry of a three-bar mechanism.
+- Use a numerical method (including Euler’s Method) to solve a first order differential equation, as required in calculations pertaining to beam loading and hydrostatic pressure.
+- Prepare descriptive statistics and data presentations.
+- Interpret and calculate basic quality control mechanisms such as run charts.
+- Discuss the importance of random versus convenience sampling.
+- Use basic probability rules for independent and mutually exclusive events. (e.g., Calculations on the reliability of a system.)
+- Define the difference between discrete and continuous probability models. (e.g., Binomial versus Normal Probability Model. and solve practical situations involving probability distributions.
+- Evaluate the relationship between two variables by determining the least squares line of best fit, the correlation coefficient and residual plots.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

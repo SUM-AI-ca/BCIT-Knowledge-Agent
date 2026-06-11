@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/linux-administration-comp-2767/
+Title: Linux Administration COMP 2767
+Type: Course
+Course Code: COMP 2767
+
+================================================================================
+
+## Linux Administration COMP 2767
+Computer Systems Course
+## Course Overview
+​This course follows from COMP 2766 and is designed for students who already have a solid foundation in command line Linux. Participants start by customizing and fine tuning an automated CentOS distribution based on Red Hat Enterprise Linux. Students then learn to perform more advanced Linux administrative tasks. Through hands-on exercises and labs, students will monitor the system, troubleshoot common problems, secure the system, and maintain the entire system. Topics include: Apache, OpenSSH, DHCP, FACLs, scripting, RPM/YUM, iptables, and basic troubleshooting for Linux Administrators. Students will configure a web server, schedule tasks, install and maintain software, and troubleshoot common problems encountered by Linux system administrators. Additional topics include how to configure and analyze logs, impose filesystem quotas, implement kernel level firewalling, and configure filesystem access control lists. This course is an elective in the Applied Network Administration and Design (ANAD) Associate Certificate and the CST/PTS Diploma. COMP 2766 and COMP 2767 together are equivalent to ACIT 2420 in the CIT Diploma. Upon completion of this course, successful participants will be aware of best practices in Linux Administration. Note: This course is offered in the April term.
+### Prerequisite(s)
+- 60% in COMP 2766
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful compleltion of this course, the student will be able to:
+- Configure and secure OpenSSH.
+- Install and maintain software packages.
+- Configure and analyze system log files.
+- Compress and archive files.
+- Configure Apache web server.
+- Configure DHCP,
+- Schedule tasks.
+- Impose filesystem quotas.
+- Implement IP tables.
+- Troubleshoot common problems.
+- Customize a user's environment.
+- Configure filesystem ACLs.
+- Write scripts for common administrative tasks.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

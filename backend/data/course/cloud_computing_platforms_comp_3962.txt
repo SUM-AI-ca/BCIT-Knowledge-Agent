@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/cloud-computing-platforms-comp-3962/
+Title: Cloud Computing Platforms COMP 3962
+Type: Course
+Course Code: COMP 3962
+
+================================================================================
+
+## Cloud Computing Platforms COMP 3962
+Computer Systems Course
+## Course Overview
+In this course students learn how to utilize a wide variety of resources and services available on cloud computing platforms. Topics include characteristics of cloud computing; cloud deployment models; cloud platform architectures; cloud computing platforms and comparative analysis; cloud compute resources including virtual machine instances, load balancers, auto scaling groups, and snapshots; cloud networking, with an emphasis on virtual private clouds (VPCs); cloud storage and content delivery, cloud-hosted databases, and cloud security models including user identity, access management, and resource security. Students will build their skills by participating in in-class interactive lectures, hands-on lab activities, and working on comprehensive assignments.
+### Prerequisite(s)
+- Completion of first year CST and Admission into the Cloud Computing Option
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Differentiate the different types of cloud deployment and service models.
+- Describe the advantages and disadvantages of cloud computing.
+- Analyze the platform architectures of a variety of public cloud computing platforms.
+- Configure and deploy virtual machines (instances), load balancers, and auto scaling groups.
+- Design and implement VPCs.
+- Implement security policies on users and resources, including VPCs and instances.
+- Select storage options for resources and applications, including instances, databases and websites.
+- Design and deploy cloud-based websites.
+- Deploy and configure a variety of database instances.
+- Remotely configure and monitor deployed resources.
+- Install, configure and use both integrated development environments and command line interfaces to configure and manage resources on public clouds.
+Effective as of Winter 2017
+## Related Programs
+Cloud Computing Platforms (COMP 3962) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

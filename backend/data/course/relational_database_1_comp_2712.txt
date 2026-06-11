@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/relational-database-1-comp-2712/
+Title: Relational Database 1 COMP 2712
+Type: Course
+Course Code: COMP 2712
+
+================================================================================
+
+## Relational Database 1 COMP 2712
+Computer Systems Course
+## Course Overview
+COMP 2712 and COMP 2713 have been replaced by one course, COMP 1630 . This new course covers RDBMS, Relational Database Management Systems technology. There is a focus on the design methodology of databases that includes views, security and transaction management. Topics include: enhanced entity-relationship data modeling, functional dependencies and normalization. Students learn to design and implement a database application using various tools on a server RDBMS. Current database trends including replication, object-relational DBMS, data warehousing and OLAP are also covered. COMP 1630 in Part-Time studies is equivalent to COMP 2714 .
+### Prerequisite(s)
+- 50% in COMP 1711 or (50% in COMP 2615 and 50% in COMP 3615 )
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe the database approach, its environment, and database application life cycle.
+- Explain the functions and characteristics of the relational model.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling.
+- Functional dependencies and normalization.
+- Derivation of relations schema from EER model.
+- Apply database design process to implement a database application.
+- Design and implement a database application using a desktop RDBMS.
+- Describe security issues and data protection techniques in a database environment.
+- Explain the use of databases in data warehousing and OLAP.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

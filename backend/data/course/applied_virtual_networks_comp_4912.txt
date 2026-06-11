@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/applied-virtual-networks-comp-4912/
+Title: Applied Virtual Networks COMP 4912
+Type: Course
+Course Code: COMP 4912
+
+================================================================================
+
+## Applied Virtual Networks COMP 4912
+Computer Systems Course
+## Course Overview
+​This hands-on project course shows students how to configure, deploy and manage virtual networks. COMP 4912 builds on prerequisite courses in network design, Linux, Security, and Microsoft Windows Server administration. Students apply those technology skills for cloud-based network solutions. ​Participants must provide their own current model Windows 10+ capable PC, i7 or higher equivalent processor, 16 GB of RAM, and 500 GB minimum storage. High-speed internet access is needed for online classes and homework. Topics include organizing and documenting network components and tools; templates for cloning virtual images and machines; networking virtualization; storage virtualization; deployment automation and post provisioning; and Virtual memory and configuration considerations. Management of resource pools and Virtual I/O considerations and optimization practices for High availability (HA) considerations are also discussed. Labs and exercises include implementation, monitoring and maintenance strategies. Students are introduced to a combination of commercial and open-source tools and are e shown best practices for virtual technologies to manage enterprise networks. ​ COMP 4912 is the final course in the Applied Network Administration and Design (ANAD) Associate Certificate and is an elective in the Computer Systems Technology Diploma (CST FLEX). This course is currently under review and not offered.
+### Prerequisite(s)
+- 60% in COMP 2629 and 60% in COMP 2767 and 60% in COMP 3704 and (60% in COMP 3700 or 60% in COMP 3677 and 60% in COMP 3680 )
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the different types of Hypervisors and Cloud technologies.
+- Determine environment load potential and the methods required to scale.
+- Describe the different technologies and protocols used for network and storage virtualization.
+- Identify common performance bottlenecks and different ways to detect and prevent them.
+- Explain fundamental concepts surrounding High availability (HA) and Disaster Recovery (DR) in a virtual environment.
+- Describe a backup strategy for a virtual environment.
+- Explain various monitoring protocols (SNMP and syslog) and tools.
+- Describe fundamental concepts in Public and Private Cloud environments.
+- Conduct a performance assessment combined with a review of security baselines in cloud environments.
+- Describe container management and orchestration for cloud-based network solutions.
+- Automate resource provisioning process in virtual environments.
+- Explain the Infrastructure-as-a-Code (IaaC) concept for real-world applications.
+Effective as of Fall 2024
+## Related Programs
+Applied Virtual Networks (COMP 4912) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Network Administration and Design Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

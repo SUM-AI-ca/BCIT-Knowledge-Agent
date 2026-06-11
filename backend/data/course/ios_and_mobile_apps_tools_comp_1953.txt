@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/ios-and-mobile-apps-tools-comp-1953/
+Title: iOS and Mobile Apps Tools COMP 1953
+Type: Course
+Course Code: COMP 1953
+
+================================================================================
+
+## iOS and Mobile Apps Tools COMP 1953
+Computer Systems Course
+## Course Overview
+Continuing on from COMP 1951 and COMP 1952 , this hands-on project based course is an introduction to building cross-platform mobile apps for iOS and Android. Participants use web scripting and hybrid technologies in a Macintosh environment and must supply their own MacBook Pro with current OSX plus an Android and iOS mobile device. Students with a solid prior scripting knowledge in HTML5/CSS/JavaScript, who are not actual object-oriented programmers, will learn to design, build and deploy iOS and Android mobile solutions using, jQuery Mobile and other scripting tools in environments like PhoneGap. Labs and exercises focus on how students may create, test and implement their designs for entry-level mobile apps for both iOS and Android devices. Each student will learn to design and build mobile apps that meet App Store publisher requirements. Topics include: a comparison of web based and hybrid mobile architectures, how to set-up development environments, how to specify, design and build mobile apps to industry standards. Students will individually and in teams to create actual mobile app projects. They learn to choose from a variety of toolsets for platform independent mobile app production depending on the needs and scope of a particular project. Successful participants will be able to create well designed entry level Android and iOS mobile apps that could be published to online repositories.
+### Prerequisite(s)
+- COMP 1850 and COMP 1911 and COMP 1950
+- COMP 1951 and COMP 1952 or equivalent knowledge of HTML5, CSS3, FTP and JavaScript, plus supplying your own MacBook and mobile devices.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and configure iOS and Android mobile application design and production tools on a Mac computer.
+- Identify the role of various components of iOS and Android system architecture.
+- Make architectural decisions as to what framework to use for which project.
+- Create mobile apps in accordance with the Inductive User Experience Design Pattern.
+- Design and produce entry level jQuery Mobile client side mobile applications.
+- Design and produce entry level client-server mobile applications.
+- Design and produce entry level content management system-based mobile applications.
+- Design and produce entry level iOS and Android native mobile apps.
+- Integrate PhoneGap/Apache Cordova platform with iOS and Android development environments.
+- Design entry level iOS and Android mobile applications using PhoneGap, HTML5/CSS3/JavaScript and jQuery Mobile.
+- Deploy iOS and Android applications to emulators and physical devices.
+- Access native functionality of mobile devices using PhoneGap.
+- Debug PhoneGap applications with built-in tools.
+- Publish iOS and Android mobile apps.
+Effective as of Winter 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

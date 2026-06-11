@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/advanced-network-applications-development-comp-4981/
+Title: Advanced Network Applications Development COMP 4981
+Type: Course
+Course Code: COMP 4981
+
+================================================================================
+
+## Advanced Network Applications Development COMP 4981
+Computer Systems Course
+## Course Overview
+Exploration of ideas of communication, concurrency, and asynchronous operation at the operating system level. Covers advanced Linux Systems software development for Data Communications and networking. TCP/IP Network applications development using the Berkeley socket interface. Design and implementation of Client-Server models on the Linux environment using IPC and TCP/IP. Coverage of selected topics such as Multicasting, Raw Sockets, and ICMP.
+### Prerequisite(s)
+- 50% in COMP 3980 and 50% in COMP 3721 and 50% in COMP 3522
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use processes and threads in the implementation of advanced communications protocols for the Linux environment.
+- Develop Client-Server models using interprocess Communication (IPC) and the TCP/IP Protocol suite.
+- Use synchronization objects such as signals, semaphores, critical sections and mutexes in the design and implementation of applications.
+- Design and develop programs for Internetworking applications using Internet Protocol Suite.
+- Analyze and implement security measures on Linux servers using standard tools and packages.
+- Design and develop highly specialized communications software within a project team.
+- Use development tools such as standard debuggers (gdb, mtrace,strace, etc) and memory debuggers (valgrind).
+Effective as of Fall 2015
+## Related Programs
+Advanced Network Applications Development (COMP 4981) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

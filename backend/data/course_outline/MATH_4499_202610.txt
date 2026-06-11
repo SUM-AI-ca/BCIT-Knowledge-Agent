@@ -1,0 +1,137 @@
+URL: https://www.bcit.ca/outlines/20261074780/
+Course: MATH 4499
+Field: Applied Differential Equations and Vector Calculus
+Subject: Mathematics
+Term: 202610
+CRN: 74780
+
+================================================================================
+
+## Course Outline
+## MATH 4499
+## Applied Differential Equations and Vector Calculus
+School | School of Energy
+Program | Bachelor of Engineering in Mechanical Engineering
+Course Credits | 6.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 100
+Total Weeks | 20
+Hours/Weeks | 5
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | 50% in MATH 3499
+CRN | 74780
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Scott Hagan
+E-mail | Scott_Hagan@bcit.ca
+Location | SW2-223
+Office Hours | Office hours will be announced in class and posted on the Learning Hub. Any email sent from the Learning Hub cannot be replied to by your instructor.
+### Course Description
+Analytic solutions of first-order and linear second-order differential equations are covered. Eigenvalue methods are employed to solve systems of homogeneous differential equations and extended to the inhomogeneous case. Series solutions to higher-order differential equations with non-constant coefficients and Laplace transform methods for initial value problems are developed. Partial differential equations are introduced and solved using Fourier integral methods under a variety of boundary conditions. Vector functions and their associated operations are introduced, starting with differential operations (i.e. curl and divergence) and then integral operations (i.e. line integrals, surface integrals) including Stokes', Green's and Divergence theorems. The emphasis of the material is on its use in areas such as fluid flow and mechanics of solids. The laboratory component of the course emphasizes engineering applications in mechanical vibrations, control systems, robotics, fluid dynamics, material mechanics and system modelling. A computing tool such as Maple or MatLab is used throughout.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Model physical processes using higher-order differential equations. [1, 2]
+- Use eigenvalue methods to analytically solve homogeneous higher-order linear differential equations with constant coefficients and use the methods of undetermined coefficients and variation of parameters to extend this to the inhomogeneous case. [1, 2]
+- Analytically solve first- and second-order linear systems of differential equations in both the homogeneous and inhomogeneous cases. [1]
+- Solve higher-order linear differential equations using series methods about ordinary and regular singular points. [1, 2]
+- Use Laplace transform methods, including partial fractions and convolutions, to solve differential equations expressing initial value problems. [1, 2]
+- Use Fourier integral methods to solve initial and boundary value problems involving separable partial differential equations. [1, 2]
+- Apply vector differential and integral operations to vector fields, such as in fluid flow, solid mechanics and electric fields, and to scalar fields such as fluid density. [1]
+- Interpret the physical meaning of curl and divergence operations when applied to the dynamics of fluid flow. [1]
+- Distinguish between conservative and non-conservative fields and the implication for calculations. [1]
+- Use vector theorems - Gauss' Divergence, Green's and Stokes' theorems - to transform between different vector calculus calculations in order to solve most efficiently. [1, 2]
+- Demonstrate proficiency with the mathematics for fluid dynamics and mechanics of solids. [1, 2]
+### Learning Resources
+Required:
+- computer meeting minimum system requirements as outlined by BCIT IT Services on the Student Technology Requirements & Discounts webpage ( https://www.bcit.ca/it-services/student-discounts/ ) - students should be prepared to use their own computer in the event of a pivot to virtual delivery
+- webcam and microphone (either built-in or peripheral) - students should be prepared to use the webcam and/or microphone during lab sessions should a pivot to virtual delivery be required
+- scientific calculator with logarithmic, exponential and trigonometric functions
+Recommended:
+- Edwards, C. H., Penney, D. E. and Calvis, D. T. (2014). Differential Equations and Boundary Value Problems: Computing and Modeling (5th ed.). Harlow, England: Pearson. ISBN-10: 0321796985; ISBN-13: 9780321796981
+OR save over 50% by renting the digital textbook for 180 days at https://www.vitalsource.com/products/differential-equations-and-boundary-value-problems-c-henry-edwards-v9780321983978
+- Edwards, C. H. and Penney, D. E. (2008). Calculus Early Transcendentals (7th ed.). Harlow, England: Pearson.
+- Edwards, C. H. and Penney, D. E. (2002). Multivariable Calculus (6th ed.). Harlow, England: Pearson.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 20%
+Midterm 1 (DEs) | 20%
+Final 1 (DEs) | 25%
+Midterm 2 (Vector Calculus) | 15%
+Final 2 (Vector Calculus) | 20%
+Note that interviews with students may be conducted after exams in the event that a pivot to virtual exams becomes necessary in order to ensure that each student's submission constitutes their own work. Each student must be equipped with a webcam and microphone that function with their computer (these can be either built-in or peripheral) for this purpose. Students may receive zero on an exam or assignment if it is determined that their submission was not entirely their own work.
+### Course Specific Requirements
+Assignment deliverables may include a pdf scan of written work and/or an electronically submitted Excel or Maple document. Electronic submissions will not be acknowledged if submitted to the wrong folder. The pdf scan of written work and any electronic submission should be orderly, professional, and contain clearly identifiable answers. Each student is expected to complete his or her own assignment. Late assignments are not accepted. Exceptions may be made for documented medical reasons or extenuating circumstances.
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+### Other information
+Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) accredits bachelor of engineering programs across Canada. To ensure programs graduate well-rounded engineers who are prepared to enter engineering practice, the CEAB requires graduates to possess 12 specific attributes (see below for descriptions). The learning outcomes for each course have been mapped to relevant CEAB graduate attributes. The numbers in [ ] after each learning outcome indicate the graduate attribute to which the learning outcome is mapped.
+CEAB Graduate Attributes
+1. A knowledge base for engineering : Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis : An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation : An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design : An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools : An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work : An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills : An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism : An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment : An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity : An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management : An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning : An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+### Course Schedule and Assignments
+Assessment | Date Assigned | Date Due
+Assignment 1 - Modeling with First- and Second-Order Differential Equations | January 7 | January 15
+Assignment 2 - Higher-Order Differential Equations | January 20 | January 28
+Assignment 3 - Systems of Differential Equations | January 29 | February 10
+Midterm 1 (Units 1 - 3) | February 17 | February 17
+Assignment 4 - Series Solutions | February 18 | February 26
+Assignment 5 - Laplace Transforms | March 3 | March 18
+Final Part 1 (Units 4 - 6) | April 2 | April 2
+Assignment 6 - Partial Differential Equations | April 9 | April 21
+Midterm 2 (Units 7 - 10) | April 29 | April 29
+Final Part 2 (Units 9 - 15) | Exam Week | Exam Week
+### Course topics
+Lectures | Labs | Topics | Reference/Reading Edwards and Penney, Differential Equations and Boundary Value Problems
+3 | 1 | Modeling with First- and Second-Order Differential Equations modeling physical processes with first- and second-order differential equations exact equations substitution methods | 1.4 – 1.6, 2.1, 2.3
+5 | 1 | Higher-Order Differential Equations obtaining a second solution method of undetermined coefficients method of variation of parameters resonance fundamental equation of beam theory endpoint problems | 3.1, 3.3 – 3.8
+7 | 2 | Systems of Differential Equations homogeneous systems of first- and second-order differential equations by the eigenvalue method inhomogeneous systems by the method of undetermined coefficients | 4.1, 4.2, 5.2, 5.3, 5.6
+7 | 1 | Series Solutions radius of convergence term-wise differentiation power series solution around ordinary points Cauchy-Euler equation Frobenius series solution around regular singular points Bessel’s equation | 8.1 – 8.5
+9 | 2 | Laplace Transforms transformation of derivatives solution of differential equations and systems of differential equations partial fractions roots and poles in the s -domain translation along the s -axis unit step function and translation along the t -axis | 7.1 – 7.5
+10 | 2 | Partial Differential Equations Fourier series even and odd extensions Fourier sine and cosine series vibrating string transient one-dimensional heat flow vibrations of bars | 9.1, 9.3, 9.5, 9.6, 10.1
+3 | Testing for Part I
+Lectures | Labs | Topics | Reference/Reading Edwards and Penney, Calculus Early Transcendentals
+Vector Algebra Review vector algebra in 2-space and 3-space inner product and vector product vector and scalar functions and fields derivatives | 11.1 – 11.4
+10 | 2 | Differential Vector Calculus curves, tangents arc length velocity and acceleration partial derivatives and the chain rule gradient of a scalar field directional derivative divergence and curl of a vector field | 11.5 – 11.8, 12.4 – 12.5, 12.7 – 12.8, 12.10
+15 | 4 | Integral Vector Calculus line integrals independence of path double integrals Green's theorem in the plane surfaces for surface integrals surface integrals triple integrals divergence theorem Stokes’ theorem | 13.1 – 13.8, 14.1 – 14.7
+1 | Review and Testing for Part II
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Scott Hagan, Instructor December 15, 2025
+I verify that this course outline has been reviewed. David Holloway, Program Head December 15, 2025
+I verify that this course outline has been reviewed. Martin Strange, Program Head December 15, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean December 15, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,65 @@
+URL: https://www.bcit.ca/courses/advanced-c-application-development-comp-4603/
+Title: Advanced C++ Application Development COMP 4603
+Type: Course
+Course Code: COMP 4603
+
+================================================================================
+
+## Advanced C++ Application Development COMP 4603
+Computer Systems Course
+## Course Overview
+This advanced software application development course follows on from COMP 3603 and COMP 3761 . It assumes students have solid knowledge of procedural programming with C and can already write intermediate-level programs in C++. Participants must also understand how to use Alorithms Analysis and Design for advanced software application development. COMP 4603 starts with a quick review of writing and testing a well-formed C++ program. Students are then introduced to hands-on best practices, common design patterns and features added to C++ 20. They will be shown how to develop maintainable and adaptable C++ applications to industry standards. COMP 3603 and COMP 4603 are electives in the Applied Software Development (ASD) Associate Certificate and both C++ courses are required courses in the CST FLEX Diploma. Upon completion, successful students will be able to design, build and deploy advanced C++ software for a variety of applications, from Games Development to Artificial Intelligence (AI).
+### Prerequisite(s)
+- 50% in COMP 2510 or 60% in COMP 2511 or (60% in COMP 2801 and 60% in COMP 3603 ) and (50% in COMP 3760 or 60% in COMP 3761 )
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$623.73
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Design, implement, debug and test intermediate to complex object-oriented programs in C++.
+- Demonstrate advanced C++ design idioms including the Dependency-inversion Principle, Liskov Substitution Principle, Open/Closed Principle, and Interface-segregation Principle.
+- Use the Principle of Least Knowledge or “Law of Demeter" to design guidelines for maintainable and adaptable software code.
+- Use profiling tools to monitor the memory and CPU usage of C++ programs.
+- Use multiple inheritance to model complex C++ abstractions.
+- Create reusable containers in C++ and iterate over them.
+- Demonstrate an understanding of advanced C++ design patterns including Abstract Factory, Builder, Lazy Initialization, Bridge, Decorator, Facade, Proxy, Chain of Responsibility, Iterator, Mediator, State, and Strategy.
+- Develop systems using advanced architectures that reduce system coupling including dependency injection, asynchronous message passing, brokers, and observers.
+- Create an advanced C++ application to industry standards.
+Effective as of Winter 2025
+## Related Programs
+Advanced C++ Application Development (COMP 4603) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 4603 for the Fall 2026 term.
+Sep 14 - Dec 07
+- CRN 49050
+- $623.73 Domestic fees
+Dates | Days | Times | Locations
+Sep 14 - Oct 19 | Mon | 18:00 - 21:00 | Online
+Sep 14 - Dec 07 | N/A | N/A | Online
+Oct 26 | Mon | 18:00 - 21:00 | Downtown DTC Rm. 410
+Nov 02 - Nov 30 | Mon | 18:00 - 21:00 | Online
+Dec 07 | Mon | 18:00 - 21:00 | Downtown DTC Rm. 410
+### Duration
+12 weeks
+### Instructor
+Frederic Guo
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online with exams on-campus. The course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. This is a BYOD (bring your own device) course. MIDTERM EXAM: October 26, 1800-2100, at the Downtown campus Room 410. FINAL EXAM: December 7, 1800-2100, at the Downtown campus Room 410. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 12-15+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Due to the substantial time required on labs and assignments, students are advised not to take any other programming language courses simultaneously. No class October 12 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

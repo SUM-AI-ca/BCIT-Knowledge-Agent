@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/pre-entry-introduction-to-cogo-and-cad-surv-2009/
+Title: Pre Entry Introduction to COGO and CAD SURV 2009
+Type: Course
+Course Code: SURV 2009
+
+================================================================================
+
+## Pre Entry Introduction to COGO and CAD SURV 2009
+Surveying Course
+## Course Overview
+This Geomatics Engineering Technology Pre-Entry course is split into two parts comprising of a Coordinate Geometry (COGO) part and a Computer Aided Drafting (CAD) part. For the COGO part of the course, students will use the HP50G calculator to solve typical survey problems by using on board software and developing their own RPN programs. For the CAD part of the course, students will gain knowledge in the creation of maps and develop basic map and plan drafting skills using current AutoCAD software.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+## CAD
+- Explain the various components of a typical survey plan.
+- Explain the relationship of scale, paper size and survey area.,
+- Manage CAD drawings.
+- Explain fundamental CAD concepts including layers, text styles and entity editing.
+- Produce simple digital plans using CAD lines, arcs, circles and text.
+- Plot scaled CAD drawings.
+- Create and use industry standard symbols within the CAD environment.
+- Perform CAD inquiries for length, area, distance and direction.
+- Use COGO routines for survey computations.
+- Import and export digital plan data.
+## COGO / RPN Programming
+- Create a COGO job, store point coordinates and compute traverse data.
+- Compute inverses and solve areas from the coordinate database.
+- Edit traverse data to correct typing mistakes and re-compute the traverse.
+- Compute coordinate values by Bearing-Bearing, Bearing-Distance and Distance-Distance intersections.
+- Transform coordinates by rotating, shifting and scaling points.
+- Apply Helmert’s Transformation to determine the relationship between two coordinate systems.
+- Shift a building’s location on a lot to conform to setback constraints.
+- Create simple function programs to input from and output to the stack.
+- Identify the difference between local and global variables.
+- Create programs to ask for data input, process and then output the results.
+- Apply conditional testing to make decisions within user programs.
+Effective as of Spring/Summer 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

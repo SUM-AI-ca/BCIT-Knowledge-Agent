@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/courses/digital-techniques-1-elex-1115/
+Title: Digital Techniques 1 ELEX 1115
+Type: Course
+Course Code: ELEX 1115
+
+================================================================================
+
+## Digital Techniques 1 ELEX 1115
+Electrical and Computer Engineering Course
+## Course Overview
+This course describes why digital logic circuits have become ubiquitous, and introduces approaches to methodical design of such circuits. Decimal, Hexadecimal, Octal and Binary number systems are described, and techniques are introduced for converting from one system to another. Basic definitions and common elements of Binary logic systems are developed. Common representations of digital logic functions and circuits are introduced, including truth tables, waveform representations, switch logic and contact logic diagrams, schematics, distinctive symbols and Boolean expressions. Digital logic circuits using switches, contacts and electronic gates are discussed. Logic sources are defined and interfaced to combinational logic circuits. Steady-state design characteristics of digital IC’s are reviewed. Simulation software is introduced and used to investigate logic circuits. Programmable logic devices are discussed, and systems for programming of such devices are introduced. Boolean identities, Karnaugh maps, DeMorgan’s Theorem and design optimization strategies are described for use in simplifying logic expressions and deriving optimized circuits. Binary codes for representing numerical and alphanumerical information are discussed. The lecture material is reinforced by a series of lab assignments that develop skills in designing and creating prototype circuits using common logic elements.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## BINARY NUMBER SYSTEM
+- Perform number system conversions between binary and decimal numbers.
+- Describe differences between analog and digital.
+- Describe fundamental theory of number systems.
+- Convert between binary and decimal numbers.
+## BASIC CIRCUITS, THE DIODE AND THE LIGHT EMITTING DIODE (LED)
+- Simulate and construct logic circuits and use light emitting diodes in circuits.
+- Define the basic elements and components of a circuit.
+- Design and build simple logic circuits.
+- Use an electronic simulation package to model logic circuits.
+- Define the basic function of the diode.
+- Define anode and cathode and identify each on a physical diode.
+- Describe diode characteristics including forward/reverse bias and the typical voltage drop for the diode.
+- Describe the electronic function of the LED and unique characteristics.
+- Calculate current limiting resistors.
+- Make voltage and current calculations in circuits containing LEDs.
+- Build, test, measure and troubleshoot LED circuits using a DMM, DC power supply and standard electronics techniques.
+## LOGIC CIRCUITS
+- Simulate, constuct and use switch logic to demonstrate AND, OR, and NOT logic expressions .
+- Describe the basic On/Off (Digital) circuit.
+- Define AND, OR, and NOT as logical terms.
+- Design circuits that use switches in AND and OR configurations from word problems.
+- Describe SPST, SPDT, DPST, and DPDT switches.
+- Identify switch types (push button, slide, toggle, DIP, rotary)
+- Define a convention for switch handles and contacts.
+- Use an ohmmeter to evaluate switch contact configurations.
+- Define switch/contact logic diagrams.
+- Define Boolean equations, operators and precedence of operation.
+- Generate switch/contact logic diagrams from Boolean equations.
+- Generate Boolean equations from switch/contact logic diagrams.
+- Define and construct truth tables using the binary number systems.
+- Generate truth tables from switch/contact logic diagrams and equations.
+- Develop schematic diagrams from switch/contact logic diagrams.
+- Design, build, test, measure, and troubleshoot switch circuits using a DMM, DC power supply and standard electronic techniques.
+## LOGIC SOURCES
+- Design logic sources for use with electronic logic.
+- Demonstrate the need for electronic logic and the required voltage level inputs.
+- Define logic levels.
+- Build, test, measure and troubleshoot logic sources.
+## AND-OR-INVERTER LOGIC SYMBOLS
+- Use AND, OR, and INVERTER symbols to represent logic circuits.
+- Define the INVERTER, OR, and AND logic symbols and the corresponding truth tables.
+- Generate logic symbol diagrams from equations.
+- Generate Boolean equations from logic symbol diagrams.
+- Generate truth tables from logic symbol diagrams.
+- Generate waveform diagrams from truth tables and logic symbol diagrams.
+- Define the AND, OR, and INVERTER electronic logic gates.
+- Build, test, measure, and troubleshoot circuits using AND, OR, and INVERTER gates.
+## ELECTRONIC LOGIC GATES
+- Design circuits using electronic symbols and alternates. Use NAND, NOR, and INVERTER gates to implement minimized logic circuits.
+- Define the NAND and NOR electronic logic gates and the corresponding truth tables.
+- Develop the alternate symbols for the electronic gates.
+- Develop the corresponding equations for the electronic gates.
+- Describe p-type and n-type MOSFETs and define the input/output characteristics of the electronic gates using MOSFETs. .
+- Develop and analyze the MOSFET models for typical CMOS logic gates.
+- Define allowable voltage ranges for inputs and outputs.
+- Define the open (floating) input characteristics.
+- Interface LEDs to electronic gates.
+- Develop equations from circuit diagrams.
+- Define Sum of Products and Product of Sums forms.
+- Develop the single rail logic source as a supplier of logic levels.
+- Develop the double rail logic source.
+- Analyze the pull-up resistor operation.
+- Build, test, measure, and troubleshoot single and double rail logic sources.
+- Design circuit diagrams using only 2 input NANDs and NORs from equations using correct symbology.
+- Design circuit diagrams that minimize the number of chips and gates using multiple input NAND, NOR, and/or INVERTERS from equations using correct symbology.
+- Introduce the XOR as an electronic gate.
+- Design, build, test, measure, and troubleshoot circuits using electronic gates interfaced to LEDs.
+## DE MORGAN'S THEOREMS
+- Use De Morgan's theorems to minimize equations.
+- Develop De Morgan's theorems from the duality of gates.
+- Use De Morgan's theorems to minimize complex equations.
+## BOOLEAN ALGEBRA
+- Use Boolean algebra to simplify equations to produce more cost effect circuits.
+- Confirm Boolean identities using switch logic, truth tables and other identities.
+- Minimize equations using Boolean identities.
+## KARNAUGH MAP MINIMIZATION
+- Use Karnaugh map techniques to simplify equations to produce more cost effective circuits.
+- Convert two to four variable truth tables to Karnaugh maps.
+- Develop the unit distance code (Gray Code) rules of the maps.
+- Develop the rules for Karnaugh map minimization.
+- Minimize equations using Karnaugh maps.
+- Find the inverse of an equation using Karnaugh maps.
+- Define Don't Care states and how to use them to further minimize equations.
+## DIGITAL NUMBER SYSTEMS
+- Express numbers in industry standard forms.
+- Define the Octal number system.
+- Define the Hexadecimal number system.
+- Define the Binary Coded Decimal (BCD) system.
+- Define the Gray code system.
+- Define the ASCII system.
+- Define parity.
+- Convert between Binary, Octal, Hex, Decimal, and BCD.
+NOTE: The sequence of topics may vary from that outlined above. Minor topics may be dropped at the instructor's discretion if time does not permit all topics to be covered fully.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

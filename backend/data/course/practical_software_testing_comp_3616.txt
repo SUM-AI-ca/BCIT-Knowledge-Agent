@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/practical-software-testing-comp-3616/
+Title: Practical Software Testing COMP 3616
+Type: Course
+Course Code: COMP 3616
+
+================================================================================
+
+## Practical Software Testing COMP 3616
+Computer Systems Course
+## Course Overview
+This course follows on from COMP 2830 , focusing on the best practices and tools used in the software testing process. Students who already understand the Software Development Lifecycle, SDLC will examine the testing environment; learn to create test plans and test cases. The theory behind Quality Assurance in testing is explained in a framework with case studies that use practical exercises. Topics include: optimal testing techniques, the testers' role in the SDLC, bug tracking and reporting. Upon completion, participants will understand effective software testing methods and be able to monitor and evaluate the test results. This course is preparation for the higher level COMP 3811 Automated Software Testing.
+### Prerequisite(s)
+- COMP 2830 or equivalent knowledge of Systems Analysis and the SDLC are required.
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, students will be able to:
+- Model the testing environment.
+- Create test plans and test cases.
+- Execute the test cases and evaluate the results.
+- Use bug tracking, test plan and other common testing tools.
+- Differentiate between black box testing and white box testing.
+- Monitor the test progress, provide and communicate feedback.
+- Understand the Tester's contribution to the development life cycle.
+- Maximize test effectiveness by applying the optimal testing techniques.
+Effective as of Fall 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

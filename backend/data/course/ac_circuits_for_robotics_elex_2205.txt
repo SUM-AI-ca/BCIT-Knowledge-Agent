@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/courses/ac-circuits-for-robotics-elex-2205/
+Title: AC Circuits for Robotics ELEX 2205
+Type: Course
+Course Code: ELEX 2205
+
+================================================================================
+
+## AC Circuits for Robotics ELEX 2205
+Electrical and Computer Engineering Course
+## Course Overview
+This course introduces circuits which contain not only resistance, but also inductance and capacitance. The main focus is on circuits driven by AC sources, in preparation for courses in electronics and power systems. Course topics include: DC applied to capacitors and inductors; the sine wave; average and effective values; power and power factor; resistance, capacitance and inductance in AC circuits; phasor, impedance, admittance, and power diagrams; analysis of AC circuits using complex algebra; three phase circuits; resonance and resonant circuits; high and low-pass filters; the application of circuit laws and theorems to AC networks; transients in RC circuits. Circuit theory is verified in the lab using multimeters, sine wave generators and dual trace oscilloscopes.
+### Prerequisite(s)
+- 50% in ELEX 1205 and 50% in MATH 1342
+### Credits
+6.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## DC APPLIED TO CAPACITORS AND INDUCTORS
+- Analyze the electrical parameters of capacitors and inductors in a pure DC environment.
+- State effect of capacitor parameters on capacitance and working voltage.
+- Calculate energy stored in capacitor.
+- Calculate values of capacitors in series and parallel.
+- Calculate values and sketch graphs of V against time, and I against time, for steady DC current through capacitor.
+- State effect of inductor parameters on inductance.
+- Calculate energy stored in inductor.
+- Calculate values of inductors in series and parallel.
+- Calculate values and sketch graphs of V against time, and I against time, for steady DC voltage across inductor.
+## SINUSOIDAL WAVEFORMS
+- Apply knowledge of trigonometry and complex algebra to the analysis of AC voltages and currents.
+- Calculate instantaneous, average, and RMS values for AC waveforms.
+- Draw and interpret phasor diagrams for two or more sinewaves.
+- Measure phase angles with an oscilloscope.
+## R-ONLY, C-ONLY, L-ONLY, CIRCUITS
+- Analyze and measure the response of AC voltage applied to single pure electrical circuit parameters.
+- Calculate V, I, P, R and draw phasor diagrams for R-only circuits at any frequency.
+- Calculate V, I, Q, XC, BC and draw phasor diagrams for C-only circuits at any frequency.
+- For a capacitor, calculate XC and BC from measured values of V and I at any frequency.
+- For a capacitor, measure the phase angle between V and I at any frequency.
+- Calculate V, I, Q, XL, BL and draw phasor diagrams for L-only circuits at any frequency.
+- For an inductor, calculate XL and BL from measured values of V and I at any frequency.
+- For an inductor, measure the phase angle between V and I at any frequency.
+- Measure power in an AC circuit using a wattmeter.
+## SERIES RL OR RC CIRCUITS
+- Analyze and measure the response of series RL or RC circuits when AC voltage or current is applied.
+- List the three basic characteristics of any series circuit.
+- Calculate V, I, S, P, Q, phase angle, power factor; draw phasor, impedance and power diagrams for any series RL or RC circuit.
+- Measure V, I, P, and phase angle in a series RL or RC circuit.
+- Draw the series equivalent circuit for a practical inductor. Calculate Q of an inductor.
+## PARALLEL RL OR RC CIRCUITS
+- Analyze and measure the response of parallel RL or RC circuits when AC voltage or current is applied.
+- List three basic characteristics of any parallel circuit.
+- Calculate V, I, S, P, Q, phase angle, power factor; draw phasor, admittance and power diagrams for any parallel RL or RC circuit.
+- Measure V, I, P and phase angle in a parallel RL or RC circuit.
+- Measure equivalence between series and parallel RL or RC circuits.
+- Calculate values and draw diagrams for parallel circuits with practical inductors.
+- Convert between series and parallel RL or RC circuits.
+## RLC CIRCUITS
+- Analyze and measure the response of series, parallel, and series-parallel RLC circuits when AC voltage or current is applied.
+- Calculate V, I, P, phase angle; draw phasor, impedance and power diagrams for series RLC circuits. Determine an equivalent series RL or RC circuit at a given frequency.
+- Calculate values and draw diagrams for parallel RLC circuits. Determine an equivalent parallel RL or RC circuit at a given frequency.
+- Calculate values in series-parallel RLC circuits.
+- Calculate power factor and apply power factor correction techniques to AC loads.
+- Measure and improve power factor.
+## THREE PHASE CIRCUITS
+- Analyze three phase circuit configurations.
+- Describe the generation of three phase power.
+- Distinguish between three phase sources: 3-wire wye; 4-wire wye; delta.
+- Identify characteristics of three phase power and differentiate from single phase power.
+- Analyze 3-wire and 4-wire wye loads, both balanced and unbalanced.
+- Analyze balanced and unbalanced delta loads.
+- Correct the power factor of a balanced three phase load.
+## BODE PLOTS AND FREQUENCY RESPONSE
+- Predict and measure the gain and phase angle of RC, RL and RLC circuits over a range of frequencies.
+- Define and determine the transfer function for any AC circuit.
+- Define and determine voltage gain in dB and phase angle.
+- Plot the transfer function for any AC circuit on semi-log graph paper.
+- Draw straight-line approximations of gain and phase angle versus frequency (Bode Plots), for RC, RL and RLC filters.
+## RESONANT CIRCUITS
+- Analyze and measure the response of series and parallel RLC circuits at and around the resonant frequency.
+- Calculate the effects on Z and phase angle for series RLC circuits with varying frequency.
+- Calculate the effects on Y and phase angle for parallel RLC circuits with varying frequency.
+- Calculate fo, V, I, P, phase angle, Z in series RLC circuits at and around resonance.
+- Calculate V, I, phase angle, fo, bandwidth and half power frequencies for RLC circuits.
+- Measure and calculate all values in RLC circuits at, above and below resonance.
+## CIRCUIT ANALYSIS METHODS FOR NETWORKS
+- Determine circuit values and circuit parameters in a wide range of applications using systematic techniques.
+- Calculate values in networks using superposition theorem.
+- Calculate values in networks using mesh analysis.
+- Calculate values in networks using nodal analysis.
+- Calculate values in networks using Thevenin's theorem.
+- Calculate values in networks using Norton's theorem.
+- Calculate the load impedance for maximum power transfer.
+## TRANSIENT VALUES IN RC AND RL CIRCUITS
+- Analyze and determine values of voltages and currents during the transient period.
+- Calculate and sketch voltage and current in series RC circuits when square wave voltage is applied.
+- Calculate and sketch V's and I in series RL circuit when square wave voltage is applied.
+- Measure transient voltage and current in series RC circuits with square wave voltage applied.
+## DC POWER SUPPLIES
+- Analyze rectifier, capacitor filter and IC voltage regulator circuits.
+- Analyze single phase rectifier circuits: half wave; full wave center-tapped, full wave bridge.
+- Analyze three phase rectifier circuits: half wave; full wave bridge.
+- Analyze the effect of capacitor-only filters on load voltage, both DC and AC components.
+- Analyze the operation of an adjustable IC voltage regulator.
+- Design a DC power supply based on load voltage, load current and ripply voltage specifications.
+Effective as of Winter 2014
+## Related Programs
+AC Circuits for Robotics (ELEX 2205) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

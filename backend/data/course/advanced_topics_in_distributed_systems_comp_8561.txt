@@ -1,0 +1,24 @@
+URL: https://www.bcit.ca/courses/advanced-topics-in-distributed-systems-comp-8561/
+Title: Advanced Topics in Distributed Systems COMP 8561
+Type: Course
+Course Code: COMP 8561
+
+================================================================================
+
+## Advanced Topics in Distributed Systems COMP 8561
+Computer Systems Course
+## Course Overview
+This course discusses advanced topics in Client/Server systems, Distributed Systems, and Network Computing. The focus is on examining strategies and algorithms to achieve design goals such as performance, reliability, scalability, consistency, and security in a distributed system. Topics include: Parallel Processing and Scheduling; Performance Modelling; Concurrency Control, Recovery in multi-user and distributed data servers; Security and Fault Tolerance; Embedded and Real Time distributed systems; Multimedia Storage and Transmission.
+### Prerequisite(s)
+- 60% in COMP 8061
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Examine strategies and algorithms to achieve design goals such as performance, reliability, scalability, consistency, and security in a distributed system.
+- Evaluate various algorithms and protocols associated with transaction management, concurrency control, replication and recovery.
+- Examine Modeling techniques.
+- Examine methods of improving performance.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/windows-systems-management-1-cisa-3070/
+Title: Windows Systems Management 1 CISA 3070
+Type: Course
+Course Code: CISA 3070
+
+================================================================================
+
+## Windows Systems Management 1 CISA 3070
+Computer Info Systems Admin Course
+## Course Overview
+This course introduces Windows Server virtualization technologies. Student will learn why virtualization is important and about the different forms of virtualization available using Microsoft products. The focus will be on the Microsoft virtualization solutions. Topics will include server, application, desktop, presentation, and user state virtualization as well as Microsoft’s overall virtualization solution and how to build a virtualization infrastructure. This will provide a foundation for using virtualization technologies in industry as well as in other courses in this program.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Microsoft’s virtualization solution
+- State why virtualization is important and where it can be used
+- Describe the different forms of virtualization and when each one should be used
+- Demonstrate the installation of Microsoft Hyper-V
+- Demonstrate the creation of guest operating systems in Hyper-V
+- Demonstrate the installation and setup of Virtual Machine Manager (VMM 2008)
+- Demonstrate the use of Application virtualization to deploy applications
+- Demonstrate the use of Desktop virtualization
+- Describe the purpose of User State virtualization
+- Implement User State virtualization
+- Describe Presentation virtualization
+- Describe the requirements of a Virtualization Infrastructure
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

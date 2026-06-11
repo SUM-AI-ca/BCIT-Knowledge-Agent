@@ -1,0 +1,126 @@
+URL: https://www.bcit.ca/courses/introduction-to-python-for-data-analysis-comp-2853/
+Title: Introduction to Python for Data Analysis COMP 2853
+Type: Course
+Course Code: COMP 2853
+
+================================================================================
+
+## Introduction to Python for Data Analysis COMP 2853
+Computer Systems Course
+## Course Overview
+​This hands-on course has replaced COMP 2454 as of September 2024. Following on from COMP 1630 , students who understand data modelling and Structured Query Language (SQL) programming are introduced to Python as a tool for data analytics. ​Starting with an installation and overview of the Python IDE; students will explore Python programming and are introduced foundational programming concepts: Variables, Conditions, Operators, Loops, Functions, Arrays, Dictionaries and DataFrames. Exercises and labs explore data analysis using simple statistics with Python. There is an introduction to string manipulation, Regression, Aggregation, and object-oriented structures with Python used in data analysis. Participants are shown how to use Python for basic graphing. COMP 2853 is a required course in the Applied Data Analytics Certificate (ADAC) from BCIT Computing. Upon completion successful students will be able to use Python to perform exploratory data analysis and as preparation for data modeling/data cleaning in the follow-on ADAC courses.
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$586.54 - $598.76 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and set-up Python IDEs.
+- Write a program that uses primitive data types, variables, strings, and expressions.
+- Write a program that uses conditional structures, functions, and parameter passing.
+- Write a program that uses the following data structures: tuple, list, and dictionary.
+- Implement fundamental code structures and logic for data analysis using Python.
+- Use Python to load, manipulate and prepare structured and unstructured data for modeling.
+- Use SQLAlchemy to connect database for data storage and retrieval.
+- Perform exploratory data analysis using Python.
+- Use python techniques to clean and transform data in preparation for modeling and data analysis.
+- Create predictive models using appropriate statistical and data mining techniques.
+- Report on data using text based and visual statistical summaries using Python.
+Effective as of Spring/Summer 2024
+## Related Programs
+Introduction to Python for Data Analysis (COMP 2853) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Data Analytics Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are two offerings of COMP 2853 for the Spring/Summer 2026 term.
+Apr 24 - Jul 10
+- CRN 69836
+- $586.54 Domestic fees
+Dates | Days | Times | Locations
+Apr 24 - May 22 | Fri | 18:00 - 21:00 | Online
+May 29 | Fri | 18:00 - 21:00 | Downtown DTC
+Jun 05 - Jul 03 | Fri | 18:00 - 21:00 | Online
+Jul 10 | Fri | 18:00 - 21:00 | Downtown DTC
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This is a BYOD (bring your own device) course. This course is delivered online synchronously with exams on-campus. The course is 36 hours. MIDTERM: May 29, 1800 - 2100, at the Downtown campus in Room 410; FINAL EXAM: July 10, 1800 - 2100, at the Downtown campus in Room 410. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Apr 25 - Jul 18
+- CRN 69835
+- $586.54 Domestic fees
+Dates | Days | Times | Locations
+Apr 25 - Jul 18 | Sat | 09:00 - 12:00 | Downtown DTC Rm. 410
+### Duration
+12 weeks
+### Instructor
+Johnny Zhang
+### Course outline
+View
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This is a BYOD (bring your own device) course. Course is 36 hours on campus. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 16 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below are two offerings of COMP 2853 for the Fall 2026 term.
+Sep 11 - Nov 27
+- CRN 51302
+- $598.76 Domestic fees
+Dates | Days | Times | Locations
+Sep 11 - Oct 09 | Fri | 18:00 - 21:00 | Online
+Oct 16 | Fri | 18:00 - 21:00 | Downtown DTC Rm. 410
+Oct 23 - Nov 27 | Fri | 18:00 - 21:00 | Online
+Nov 27 | Fri | 18:00 - 21:00 | Downtown DTC Rm. 410
+### Duration
+12 weeks
+### Instructor
+Johnny Zhang
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online synchronously with exams on-campus. The course is 36 hours. MIDTERM: October 16, 1800 - 2100, at the Downtown campus in Room 410; FINAL EXAM: November 27, 1800 - 2100, at the Downtown campus in Room 410. This is a BYOD (bring your own device) course. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 12 - Dec 05
+- CRN 51301
+- $598.76 Domestic fees
+Dates | Days | Times | Locations
+Sep 12 - Dec 05 | Sat | 09:00 - 12:00 | Downtown DTC Rm. 410
+### Duration
+12 weeks
+### Instructor
+Johnny Zhang
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours on campus. This is a BYOD (bring your own device) course. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class October 10 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

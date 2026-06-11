@@ -1,0 +1,112 @@
+URL: https://www.bcit.ca/outlines/20261086050/
+Course: ACIT 2911
+Field: Agile Development Project
+Subject: Computer Information Technology
+Term: 202610
+CRN: 86050
+
+================================================================================
+
+## Course Outline
+## ACIT 2911
+## Agile Development Project
+School | School of Computing and Academic Studies
+Program | CIT
+Course Credits | 4
+Start Date | April 27, 2026
+End Date | May 22, 2026
+Total Hours* | 24
+Total Weeks | 4
+Hours/Weeks | 6
+Delivery Type | Other
+Prerequisite(s) | ACIT 1620 and ACIT 1630 and ORGB 1100
+CRN | 86050
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Mike Mulder
+E-mail | mmulder10@bcit.ca
+Location | DTC 533
+Office Hours | Office hours are in person. Online appointments are possible. Wednesday afternoon, after 1PM Friday afternoon, after 12PM
+### Course Description
+This course provide students with hands-on experience developing application software using an Agile methodology such as Scrum. Collaboration and teamwork are used to continuously develop software over a series of iterations. Students learn to cope with changes, to identify and manage multiple work tasks, and to focus on maintaining a potentially releasable product throughout the project.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Describe a modern agile development framework.
+- Describe the roles and responsibilities on an agile development project.
+- Plan and schedule work using agile development techniques.
+- Create the artifacts associated with an agile development project.
+- Maintain a potentially releasable product throughout agile project.
+- Use modern version control applications to manage project source code and related artifacts.
+- Use continuous integration with unit testing, to maintain software quality.
+- Use functional testing tools to assure proper project behaviour.
+- Use modern collaboration software throughout an agile development project.
+- Participate in the various project meetings associated with an agile development project.
+### Learning Resources
+- BCIT Learning Hub for assignment submissions, course information and instructor feedback.
+- Git and GitHub for project repository and development collaboration.
+- Online collaboration tools such as Trello. These are either free for student use or have trial versions that would expire past the end of the course.
+- Additional tools may be needed, depending on the projects undertaken.
+### Course Goals
+Students will undertake a team project, extending previous technology and adding skills for the development of software based systems. They will apply the core technical knowledge acquired in the program so far, completing the project by collaborating with their team members.
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 25 | There are 3 quizzes
+Project Management | 15
+Project Processes | 20
+Project Deliverables | 40
+Passing Criteria
+Grading Scheme: Satisfactory/Unsatisfactory (S/U)
+Student performance is evaluated against the rubric above:
+Achieving 70% or more = Satisfactory (S)
+Achieving less than 70% = Unsatisfactory (U)
+### Attendance Requirements
+Attendance in lectures, labs, team meetings and presentations (supervised/unsupervised) is mandatory. Students are required to attend lectures, supervisor meetings and presentations with your team members during regular school hours. Attendance will be taken in all scheduled online lectures (no makeup lectures). Students are required to attend and participate all scheduled meetings with team members.
+### Course Specific Requirements
+This course includes mandatory group activities. Failure to participate may result in failing the course.
+Course Website: All course materials are available on the Learning Hub. Please check regularly for announcements, assignment deadlines, and other updates.
+Group Composition: Each team will consist of a maximum of 6 members. Teams are pre-assigned by the instructors at the start of the course and will be posted on the Learning Hub. Students are required to remain in their assigned groups unless they withdraw from the course. Instructors reserve the right to reassign students to different groups to ensure the successful completion of the project.
+Group Communication: Each group is responsible for establishing an online communication channel, such as Discord or Slack, to facilitate remote collaboration among team members.
+Quizzes: There are three quizzes, based on online learning materials, lecture content, and lab practice. A score of zero will be given to any student who misses a quiz. Please note that there are no makeup quizzes.
+### Other information
+BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Course Schedule and Assignments
+Week | Topics | Deliverables | Due Date
+1 | Team Building and Role Definition Agile Software Development Principles Project Documentation Git and GitHub Collaboration Tools and Workflows | Team Charter with role specification Initial Project Proposal Project Plan (Overall deliverable identification) GitHub Repository Setup Trello Board Setup Peer Evaluation 1 Retrospective and Evaluation of Sprint 1 | End of Week 1
+2 | Principles and Best Practice of Unit Testing Writing and Executing Unit Tests | Project Plan (Deliverable 1 Specification) Implementation of Unit Testing Implementation and Delivery of Feature 1 Finalized Project Proposal Peer Evaluation 2 Retrospective and Evaluation of Sprint 2 | End of Week 2
+3 | Continuous Integration (CI) Continuous Delivery (CD) | Project Plan (Deliverable 2 Specification) Configuration and implementation of CI/CD pipelines Development and delivery of Feature 2 Peer Evaluation 3 Retrospective and evaluation of Sprint 3 | End of Week 3
+4 | Project Finalization and deployment | Issue Fixing Deployment of the project to the production environment Final backlog review and completion Retrospective Documents Final Project Expo/Presentation Submission of source code and project artifacts Final Peer Evaluation | End of Week 4
+### Course topics
+Project topics and technologies will be covered in instructional seminars every week. Students are required to attend each instructional seminar (Check your weekly schedule on the Learning Hub) on time. All teams will conduct a weekly check-in meeting with their respective supervisors. In addition, the students will have unsupervised collaborative time to complete their group tasks.
+The project that the students undertake will be completed using Agile development practices. There will be four one-week iterations that produce required project artifacts or feature deliverables starting in Week 1.
+The individuals and teams will conduct iteration reviews between iterations, and a project review at the end of the course. These will be assessed by the instructors. Additional comments and guidance will also be provided.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Tim Guicherd, Instructor on behalf of Mike Mulder, Program Head April 24, 2026
+I verify that this course outline has been reviewed. Mike Mulder, Program Head April 24, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 24, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

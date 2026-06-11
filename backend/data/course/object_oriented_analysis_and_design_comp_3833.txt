@@ -1,0 +1,86 @@
+URL: https://www.bcit.ca/courses/object-oriented-analysis-and-design-comp-3833/
+Title: Object Oriented Analysis and Design COMP 3833
+Type: Course
+Course Code: COMP 3833
+
+================================================================================
+
+## Object Oriented Analysis and Design COMP 3833
+Computer Systems Course
+## Course Overview
+T​his hands-on course replaces COMP 3832 as of August 2023. It follows on from COMP 2601 - Programming Fundamentals Part 3 (Object Design) and COMP 2831 Business Analysis and Systems Design. Object-Oriented Analysis and Design (OOAD) is aimed software designers and developers who already know how to code significant object-oriented software applications and who also understand the Software development Life Cycle (SDLC) related tools and processes. Exercises and lab work allow students to perform an Object-Oriented Analysis (OOA) based on given requirements. After first identifying business classes students then produce a business model which will be transformed into a design model through Object-Oriented Design (OOD). Topics include: use case analysis, domain model, business classes and relationships, design patterns, anti-patterns, refactoring, General Responsibility Assignment Software Patterns (GRASP), state machine diagrams and types of software architecture. An Agile iterative approach will be followed throughout the OOAD process. Labs include the use of a CASE tool to draw the Unified Modeling Language (UML) diagrams necessary to support the OOAD activities. COMP 3833 is a required course in the Advanced .NET Development, and the Advanced Java Development Associate Certificates, as well as the CST FLEX Diploma. Upon completion, successful students will be able to demonstrate how to analyze, design and construct software applications to industry standards. This course is offered twice per year in the fall (September) and spring (April) terms.
+### Prerequisite(s)
+- 60% in COMP 2831 and (60% in COMP 2601 or 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603 )
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$635.94 - $648.95 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain iterative OOAD including planning for an iteration, detailing the steps, artifacts and activities inside of an iteration.
+- Identify Actors and Primary Use Cases from requirements and draw Use Case Diagrams.
+- Identify business classes, attributes and relationships and construct the business model.
+- Apply the principles of "Object-Oriented Programming (OOP)": abstraction, encapsulation, polymorphism and inheritance.
+- Use UML diagrams for analysis and design: use case, class, sequence, collaboration, activity and state-chart diagrams.
+- Perform "Responsibility Driven Design (RDD)" by recognizing and applying "General Responsibility Assignment Software Patterns (GRASP)" design patterns, anti-patterns and refactoring.
+- Identify Inheritance and refine the relationships between classes to further extend the design.
+- Convert the design to code, reading and implementing the code by following the design sequence diagrams.
+- Create Activity and State Machine diagrams to enhance the design.
+- Describe Software Architecture types: n-tiered, event-driven, and microservices.
+- Identify functional code.
+- Analyze the user feedback to refine the design and grow the system with every new iteration.
+Effective as of Spring/Summer 2023
+## Related Programs
+Object Oriented Analysis and Design (COMP 3833) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of COMP 3833 for the Spring/Summer 2026 term.
+Apr 13 - Jul 06
+- CRN 69290
+- $635.94 Domestic fees
+Dates | Days | Times | Locations
+Apr 13 - Jul 06 | Mon | 18:30 - 21:30 | Online
+### Duration
+12 weeks
+### Instructor
+Anca Datcu-Romano
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 18 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 3833 for the Fall 2026 term.
+Sep 14 - Dec 07
+- CRN 50334
+- $648.95 Domestic fees
+Dates | Days | Times | Locations
+Sep 14 - Dec 07 | Mon | 18:30 - 21:30 | Online
+### Duration
+12 weeks
+### Instructor
+Anca Datcu-Romano
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. The course is 36 hours of synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class October 12 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

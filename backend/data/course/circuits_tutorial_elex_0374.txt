@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/circuits-tutorial-elex-0374/
+Title: Circuits Tutorial ELEX 0374
+Type: Course
+Course Code: ELEX 0374
+
+================================================================================
+
+## Circuits Tutorial ELEX 0374
+Electrical and Computer Engineering Course
+## Course Overview
+This is a refresher course in circuit theory, consisting of tutorials and examinations to prepare candidates for the Engineering National Examination 16-Elec-A1 Circuits. The course covers lumped parameter models of circuit components, nodal and mesh analysis of linear, passive circuits and equivalent networks, steady state analysis of lumped parameter, time-invariant circuits, and differential equation formulations (including sinusoidal inputs, frequency response, impulse response, and transfer functions). Laplace transform analysis, circuit transient response, and two-port circuit models and analysis are also covered.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Drive Thevenin and Norton equivalent circuits of electrical networks.
+- Perform mesh and nodal analysis of for DC and AC electrical circuits.
+- Calculate the power delivered by sources in the circuit as well as that consumed by loads.
+- Calculate the max power transfer to the load.
+- Solve AC circuits problems using phasor techniques.
+- Calculate transfer function of RLC circuits using Laplace Transforms.
+- Perform transient analysis of RLC circuits using Laplace Transforms.
+- Analyze AC circuits in the time and frequency domain using different techniques.
+- Develop required circuit analysis proficiency to solve National Professional Engineering Exam 16-Elec-Al Circuits question in an appropriate time span.
+Effective as of Spring/Summer 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

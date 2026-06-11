@@ -1,0 +1,78 @@
+URL: https://www.bcit.ca/courses/microcontroller-systems-elex-3305/
+Title: Microcontroller Systems ELEX 3305
+Type: Course
+Course Code: ELEX 3305
+
+================================================================================
+
+## Microcontroller Systems ELEX 3305
+Electrical and Computer Engineering Course
+## Course Overview
+Using a simple microcontroller system as a vehicle, this course introduces the single-chip microcontroller as a fundamental component of modern control and data acquisition systems. Course topics include: memory technologies; CPU architecture; low-level programming and instruction execution; general purpose (digital) input and output; interrupts; analog to digital converters; timers; pulse-width modulation; and serial communications. A PC-based Integrated Development Environment (IDE) and a single board microcontroller system are used. A strong emphasis is placed on software design and debugging methods.
+### Prerequisite(s)
+- 50% in ELEX 2117 and 50% in ELEX 2125
+### Credits
+6.0
+### Domestic fees
+$1,345.78
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain basic microcontroller and microprocessor architecture. [1]
+- Develop simple assembly and C programs on a microcontroller. [2,4,5]
+- Explain how peripheral devices are controlled through address bus and data bus connections in microcontroller subsystems. [1]
+- Use debugging tools and techniques to correct program errors. [5]
+- Develop programs that use the digital I/O ports on a microcontroller to interface with external hardware. [2,4,5]
+- Develop programs that respond to interrupts and use low-power modes. [2,4,5]
+- Use a microcontroller analog-to-digital converter (ADC) appropriately according to the Nyquist–Shannon sampling theorem. [1,2,5]
+- Program the timer subsystem of a microcontroller to perform such tasks as pulse width modulation, event timing and programmed output. [1,2,5]
+- Use microcontroller synchronous and asynchronous serial communication interfaces including UART, SPI and IIC interfaces. [1,2]
+- Use the watchdog timer to ensure normal program operation and detect hardware faults. [1]
+- Explain various memory technologies and the process to store variable data in non-volatile flash memory. [1]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2022
+## Related Programs
+Microcontroller Systems (ELEX 3305) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of ELEX 3305 for the Spring/Summer 2026 term.
+Jun 08 - Jun 26
+- CRN 28609
+- $1345.78 Domestic fees
+Dates | Days | Times | Locations
+Jun 08 - Jun 26 | Mon - Fri | 09:00 - 16:00 | Burnaby SW03 Rm. 2745
+Jun 08 - Jun 26 | Mon - Fri | 09:00 - 16:00 | Burnaby SW03 Rm. 3620
+### Duration
+3 weeks
+### Instructor
+Steven McClain
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Students must report to SW03 2745 on the first day of class. There might be 2 lab sets. If this is the case, your instructor will notify you what lab you will need to attend. For more information regarding this course, please contact the Program Assistant at soepts@bcit.ca and include your BCIT student ID. Note: BCIT reserves the right to cancel courses. In the event of a course cancellation, you will be notified at least two business days prior to the course start. Please ensure that your contact information is current in your myBCIT account.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

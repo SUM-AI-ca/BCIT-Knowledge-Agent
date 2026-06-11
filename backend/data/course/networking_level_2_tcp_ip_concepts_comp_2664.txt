@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/networking-level-2-tcp-ip-concepts-comp-2664/
+Title: Networking Level 2 - TCP/IP Concepts COMP 2664
+Type: Course
+Course Code: COMP 2664
+
+================================================================================
+
+## Networking Level 2 - TCP/IP Concepts COMP 2664
+Computer Systems Course
+## Course Overview
+COMP 2664 - Networking Level 2 - TCP/IP Concepts has been replaced by a new in depth, hands-on lab course. COMP 3821 Enterprise Network Design with TCP. This new course replaces both COMP 2664 and COMP 3665 and covers the theory, design and implementation of large scale and enterprise size networks. Please see the new course description for details. Students who have already taken COMP 2664 will also benefit from this new course.
+### Prerequisite(s)
+- 50% in COMP 2658
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, students will be able to:
+- Describe the 7 Layer OSI Model
+- Explain what an IP address is
+- Understand different Network Classes (A/B/C)
+- Understand the basics of an IP subnet
+- Describe Protocols : Headers, Data
+- Understand the importance of the TCP/IP Header
+- Explain the difference between a TCP and UDP connection
+- Explain the importance of ports
+- Explain TCP/IP functionality and SYN/FIN/ACK/RST including the TCP/IP State diagram
+- Explain the necessity for reliable transmission for applications
+Effective as of Spring/Summer 2004
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

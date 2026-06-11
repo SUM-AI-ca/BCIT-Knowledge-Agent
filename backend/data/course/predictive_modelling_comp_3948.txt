@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/predictive-modelling-comp-3948/
+Title: Predictive Modelling COMP 3948
+Type: Course
+Course Code: COMP 3948
+
+================================================================================
+
+## Predictive Modelling COMP 3948
+Computer Systems Course
+## Course Overview
+This code intensive course introduces modeling techniques for predicting binary, probability, ordinal and categorical outcomes. Modeling includes popular forms of regression and clustering. Introductory math and statistics behind the fundamental models are discussed and practiced. Use cases and exercises examine eliminating bias at each step of the modeling process. Common sampling methods for training and testing are used to assist with model validation. Techniques for treating missing values, transforming outliers, manufacturing variables and selecting variables are covered. Dimension reduction through principal component analysis is introduced. Analysis of variance is studied and also enhanced with factor analysis. Course work iterates over exploratory analysis and model reporting phases with statistical summaries and visual analytics for reinforcement of learning.
+### Prerequisite(s)
+- Completion of first year CST and admission into the Predictive Analytics Option.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Define predictive modeling objectives and select suitable predictive models.
+- Reduce biases of predictive modeling throughout the model cycle.
+- Present effective and reader-friendly data analysis with text-based and visual summaries.
+- Explain how optimized regression models reduce variance due to error.
+- Objectively evaluate and select appropriate methods to handle missing values and to transform variable values.
+- Improve model efficiency and ability with manufactured variables.
+- Select different sample methods for model training and testing.
+- Select model variables using manually and with automated algorithms.
+- Select optimal models based on statistical performance, variance, penalties for complexity and other suitable measures.
+- Conduct principal component analysis (PCA) for dimension reduction.
+- Conduct analysis using hierarchical and k-means clustering for segmentation.
+- Conduct factor analysis to understand and report on variance across component segments and clusters.
+Effective as of Winter 2020
+## Related Programs
+Predictive Modelling (COMP 3948) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

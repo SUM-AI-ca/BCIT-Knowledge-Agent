@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/advanced-asp-net-with-c-comp-3870/
+Title: Advanced ASP.NET with C# COMP 3870
+Type: Course
+Course Code: COMP 3870
+
+================================================================================
+
+## Advanced ASP.NET with C# COMP 3870
+Computer Systems Course
+## Course Overview
+This hands-on course is built on top of COMP 2870 and is focused on advanced concepts used to develop and maintain ASP.NET applications. Students who already understand ASP.NET and C#.NET will gain a deeper understanding of the latest .NET 4.0 technologies for web development through labs and exercises. Topics include: jQuery, Entity Framework, Web Parts, Custom Server Controls, Personalization, Caching, ASP.NET AJAX, WCF, Silverlight, RIA Services and ASP.NET MVC. By the end of this course, successful participants will be able to create and deploy scalable web applications and also be prepared to move on to COMP 3971 Silverlight Development with ASP.NET.
+### Prerequisite(s)
+- 50% in COMP 2870
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use JQuery.
+- Use LINQ to SQL.
+- Use the Entity Framework.
+- Create 'web parts'.
+- Create Custom Server Controls.
+- Build simple web applications using ASP.NET MVC.
+- Extend ASP.NET applications with ASP.NET AJAX.
+- Implement Membership & Roles Services.
+- Understand the opportunities offered by WPF and Silverlight.
+- Choose between Web Services and WCF.
+- Deploy web applications.
+- Personalize ASP.NET applications.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/plcs-and-vfds-for-process-control-elex-3230/
+Title: PLCs and VFDs for Process Control ELEX 3230
+Type: Course
+Course Code: ELEX 3230
+
+================================================================================
+
+## PLCs and VFDs for Process Control ELEX 3230
+Electrical and Computer Engineering Course
+## Course Overview
+This course introduces students to three phase power systems and the electrical equipment typically found in industrial and commercial environments and examines the application of programmable control devices to industrial automation. The course covers the following topics: three phase power systems, power factor and power quality, transformer operation and typical configurations, circuit protection devices, AC motor operation and analysis, motor controls and Motor Control Centers (MCCs), and variable frequency drives (VFDs), interlock and sequence control systems, and PLC selection, specification and configuration. Project work involves the design and implementation of various control solutions including a complete working system using typical industrial programmable logic controllers.
+### Prerequisite(s)
+- ELEX 2105 and ELEX 2117 and ELEX 3210 * (* may be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze (3) common three-phase circuit systems
+- Describe (2) transformer operation and characteristics using an equivalent model representation.
+- Interpret (3) transformer / motor configurations and associated parameters.
+- Model (3) three phase induction motor operation and its performance characteristics based on the previously developed transformer model.
+- Describe (2) the principle of operation of an IGBT-type variable frequency drive and the configuration parameters needed for common applications.
+- Design (4) a complete PLC installation for a simple application that includes hardware selection and ladder logic programming.
+- Use (3) binary logic diagrams for the design and documentation of PLC ladder logic programs.
+- Design (4) PLC interface circuits and the necessary ladder logic to ensure fail safe operation
+Effective as of Fall 2020
+## Related Programs
+PLCs and VFDs for Process Control (ELEX 3230) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

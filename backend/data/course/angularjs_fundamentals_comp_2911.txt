@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/angularjs-fundamentals-comp-2911/
+Title: AngularJS Fundamentals COMP 2911
+Type: Course
+Course Code: COMP 2911
+
+================================================================================
+
+## AngularJS Fundamentals COMP 2911
+Computer Systems Course
+## Course Overview
+COMP 2911 has been replaced by COMP 2909 . AngularJS is an open source web application framework maintained primarily by Google for rapid development of data-driven web and mobile applications. This hands-on workshop follows on from COMP 1911 and is aimed at students who already understand how to build web pages with HMTL, CSS and JavaScript. Students gain experience with dynamic data presentation and management, DOM (Document Object Model) manipulation, and unit testing. Topics include using the AngularJS library of modules, services, directives as well as building custom AngularJS components. Instructor lead labs and exercises focus on how to apply two way data binding between views and REST services. Learning AngularJS will allow you to build a responsive rich interactive applications. Successful participants learn to use HTML and JavaScript with AngularJS to create data-driven, single-page web applications for all mainstream browsers
+### Prerequisite(s)
+- COMP 1850 and COMP 1911 , or equivalent knowledge of HTML5, CSS3 and JavaScript.
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Build one page data driven applications with AngularJS using the model, view, controller pattern.
+- Select and apply common directives for data binding, filtering, validation, and DOM manipulation.
+- Use AngularJS to interact with REST Services to send and receive data in JSON format.
+- Automate data binding in the controller and view.
+- Create custom modules and services to encapsulate routines within the AngularJS application.
+- Create and apply custom directives to modify the behaviour of HTML elements.
+- Automate testing of AngularJS applications.
+Effective as of Spring/Summer 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

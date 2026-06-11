@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/unmanned-aircraft-systems-applications-for-geomatics-surv-1125/
+Title: Unmanned Aircraft Systems Applications for Geomatics SURV 1125
+Type: Course
+Course Code: SURV 1125
+
+================================================================================
+
+## Unmanned Aircraft Systems Applications for Geomatics SURV 1125
+Surveying Course
+## Course Overview
+This course presents an introduction into the applications of imagery acquired by an UAS to the field of Geomatics and related fields including resource management, forestry and mining. It provides training in the application of photogrammetric techniques with an emphasis on project planning, execution and quality control. Upon completion, the student can be expected to understand how to safely operate an UAS for the purpose of stereo image acquisition and have a functional knowledge of how to plan and conduct a photogrammetric UAS mission, perform aerial triangulation and produce a DEM and orthophoto mosaic. While there is no prerequisite for this course, a basic understanding of UAV operations is highly recommended.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe all the pertinent regulations regarding safe UAS operations.
+- Explain the various systems and components of an UAS.
+- Generate a mock SOFC and gain insight into application process.
+- Apply basic aircraft principles to safe UAS operation.
+- Demonstrate the function of each UAS system including vehicle, ground control and communications.
+- Carry out UAS and camera calibration before flight.
+- Evaluate camera calibration parameters and how they affect quality assurance.
+- Advise a client on the types of systems, techniques and products that would be most effective in achieving their mapping requirements, given a set of project specifications.
+- Design a mapping project based on achieving a set of given product and accuracy criteria.
+- Carry out a safe image acquisition project using pre-planned, semi-autonomous flight.
+- Apply photogrammetric principles to import acquired imagery and properly orient the photos.
+- Perform an aerialtriangulation to improve project accuracy using supplemental control.
+- Generate a digital elevation model using acquired images.
+- Generate an orthophoto mosaic using the acquired imagery and a dense LiDAR dataset.
+- Identify the main quality control factors.
+- Compare accuracy of produced DEM to a higher-order dataset (i.e. surveyed targets).
+- Compare accuracy of produced orthophoto mosaic to Google Earth.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

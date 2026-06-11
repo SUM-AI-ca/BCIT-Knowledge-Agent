@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/enterprise-network-design-with-tcp-comp-3821/
+Title: Enterprise Network Design with TCP COMP 3821
+Type: Course
+Course Code: COMP 3821
+
+================================================================================
+
+## Enterprise Network Design with TCP COMP 3821
+Computer Systems Course
+## Course Overview
+This course has been replaced with COMP 3521 . his hands-on course covers the theory, design and implementation of large scale and enterprise size networks. The functions and limitations of network layer protocols and design issues of the TCP/IP Network Layer protocol are discussed. This course focuses on the TCP/IP protocol; students learn how computers exchange data over the Internet and how network communication relates to network configuration and administration. Topics include: Selection criteria required to create, expand or improve a network, implementation of the TCP/IP protocol suite within a network and surrounding routing issues. Students will work in groups to study the theory and design of router operation, network performance, scalability and basic router security issues. Upon successful completion, participants will have an in-depth knowledge of TCP/IP, network masking; and how to plan and build a routed network. This course consists of one face to face meeting each week, group work, a significant online component and home work.
+### Prerequisite(s)
+- ( COMP 2658 and COMP 2665 ) or COMP 2654
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand the basic concepts behind the networking of computer systems.
+- Identify the hardware and software needed for data communications and networking.
+- Describe the types of information used on computer networks.
+- Understand the concepts involved in the transmission of data through the various media types.
+- Be able to evaluate existing Network hardware, protocols and topologies.
+- Have an understanding of the OSI model and how it relates to enterprise network technologies.
+- Given user requirements, be able to recommend specific technologies, and be able to defend the recommendation intelligently.
+- Give examples of methods used to increase efficiency within data networks.
+- Have an in-depth knowledge of the Ethernet technologies and the implementation of them.
+- Be able to identify all major components within a enterprise network structure and identify their characteristics.
+- Have an in-depth understanding of Ethernet Switching, including Vlan technology, the Spanning Tree Protocol, and other related issues surrounding the Ethernet Switching arena.
+- Understand the implications of extending the Ethernet Switched network beyond the LAN.
+- Understand the issues involved in designing a large scale, multi-location enterprise network.
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

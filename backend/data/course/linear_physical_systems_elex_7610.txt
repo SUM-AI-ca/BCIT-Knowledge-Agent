@@ -1,0 +1,48 @@
+URL: https://www.bcit.ca/courses/linear-physical-systems-elex-7610/
+Title: Linear Physical Systems ELEX 7610
+Type: Course
+Course Code: ELEX 7610
+
+================================================================================
+
+## Linear Physical Systems ELEX 7610
+Electrical and Computer Engineering Course
+## Course Overview
+This course builds on the mathematics, electrical, and mechanical courses to provide a foundation for the analysis and design of engineering systems. In particular, linear system theory is developed for use in further study of signal processing, feedback control and communications. Treatment of both signals and systems is dealt with, with emphasis on continuous time analysis techniques in both the time and frequency domains. Techniques for system modelling, validation, and analysis are explored in the laboratory component of the course. MatLab will be used extensively as a computer tool.
+### Prerequisite(s)
+- ELEX 7520 † and MATH 4620 and MECH 4630 † ( † may be taken concurrently)
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Explain the purpose of system models in engineering and understand system properties including linearity, time invariance, stability, and order. [1]
+- Use mathematical models to simulate and analyze deterministic signals. [1, 2]
+- Use mathematical models to solve, simulate, and analyze dynamic physical systems. [1, 2]
+- Linearize nonlinear system descriptions about an operating point. [1]
+- Use Matlab for simulation and validation of signals and models. [5]
+- Apply Time domain techniques (convolution integral) to calculate the response of linear systems with known input and initial condition. [1]
+- Apply Frequency domain techniques (Laplace transform) to calculate the response of linear systems with known input and initial condition. [1]
+- Draw frequency response of linear systems using Fourier transformation. [1]
+- Identify the frequency characteristics of various classical signal filters. [1]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2017
+## Related Programs
+Linear Physical Systems (ELEX 7610) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/c-for-c-programmers-comp-3479/
+Title: C++ for C Programmers COMP 3479
+Type: Course
+Course Code: COMP 3479
+
+================================================================================
+
+## C++ for C Programmers COMP 3479
+Computer Systems Course
+## Course Overview
+This hands-on, intensive summer course is the Part-time Studies equivalent of COMP 3512 in the CST Diploma. Following on from COMP 2510 and COMP 2526 , students must have prior knowledge of C programming plus Object Oriented Programming (OOP) concepts in order to understand this material. Building upon the C programming language, this is a comprehensive introduction to the powerful features that were added to the C in order to create C++. Topics include: Classes, operator overloading, template classes, exception handling, and an introduction to the Standard Template Library (STL). Upon successful completion, participants will be able to write, test and debug C++ programs. They will be able to create software applications with C++ and use this industry standard tool to implement Term 4 projects.
+### Prerequisite(s)
+- (Comp 2510 or COMP 2511 ) and COMP 2526 or equivalent knowledge of the C language plus Object Oriented Programming.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design & code classes in C++.
+- Use inheritance to capture & reuse common behaviour.
+- Implement some of the common design patterns in C++.
+- Perform input/output in C++
+- Use the string & string stream classes.
+- Use the standard containers.
+- Use the standard algorithms in the Standard Template Library (STL).
+- Explain the different categories of iterators.
+- Use operator overloading.
+- Use & implement class templates & function templates.
+- Explain and use Exception Handling.
+- Test and debug C++ programs.
+Effective as of Spring/Summer 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

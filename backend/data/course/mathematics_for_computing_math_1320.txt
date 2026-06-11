@@ -1,0 +1,50 @@
+URL: https://www.bcit.ca/courses/mathematics-for-computing-math-1320/
+Title: Mathematics for Computing MATH 1320
+Type: Course
+Course Code: MATH 1320
+
+================================================================================
+
+## Mathematics for Computing MATH 1320
+Mathematics Course
+## Course Overview
+​This course introduces students to discrete mathematics, statistics, and Boolean logic, and applies these mathematical constructs to computer program code. The purpose of this course is twofold: one, introduce students to math that is immediately applicable to their studies and programming for web application development; two, demonstrate to students the importance of these facets of math in their software development and design studies by allowing students to create real-world examples in computer program code that demonstrate the importance of math in computer science.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Build a corresponding truth table for a Boolean expression.
+.
+- Explain how text and graphics are represented inside the computer.
+.
+- Perform arithmetic operations with numbers represented in different number systems (binary, octal, and hexadecimal).
+- Convert from base 10 to and from other bases for number systems including Binary, Hexadecimal, and Octal.
+- Construct and describe finite-state machines using state-transition diagrams.
+- Analyze Big-O notation and how it applies to algorithms.
+- Describe and use graphs and trees.
+- Use algorithms to find a minimum-spanning tree for a graph.
+- Use depth-first search and breadth-first search algorithms.
+- Use basic set theory and counting (inclusion/exclusion principle, pigeonhole principle).
+- Explain basic encryption and decryption techniques, and encrypt and decrypt sample data.
+- Explain the purpose of hashing, and use hashing algorithms to create hashes of sample data.
+- Explain popular statistical study methods learn the positives and negatives of each.
+- Create and interpret histograms, bar charts, and frequency plots.
+- Explain central tendency.
+- Compute and interpret the three measures of center for distributions: mean, median, and mode.
+- Quantify the spread of data using the range and standard deviation.
+- Identify outliers in data sets using the concept of the interquartile range.
+- Convert distributions into the standard normal distribution using the Z-score.
+- Compute proportions using standardized distributions.
+- Use normalized distributions to compute probabilities.
+- Use Z-table or software to look up the proportions of observations above, below, or in between values.
+- Apply the concepts of probability and normalization to sample data sets.
+Effective as of Fall 2019
+## Related Programs
+Mathematics for Computing (MATH 1320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

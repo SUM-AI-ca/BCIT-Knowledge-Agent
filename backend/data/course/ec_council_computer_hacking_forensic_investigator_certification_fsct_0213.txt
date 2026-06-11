@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/ec-council-computer-hacking-forensic-investigator-certification-fsct-0213/
+Title: EC Council Computer Hacking Forensic Investigator Certification FSCT 0213
+Type: Course
+Course Code: FSCT 0213
+
+================================================================================
+
+## EC Council Computer Hacking Forensic Investigator Certification FSCT 0213
+Forensic Investigation Course
+## Course Overview
+​Upon registration in FSCT 0213 , students will receive an access code to enrol in EC-Council's online, self-paced Computer Hacking Forensic Investigator certification course. Students will have online access to EC Council materials including an e-book, labs, lecture videos, and the certification exam for 12 months. Upon successful completion of the certification exam, students will achieve CHFI certification through EC Council. Students will not receive a grade from BCIT for this course. This class will provide the participants with the necessary skills to perform an effective digital forensics investigation. The course presents a methodological approach to computer forensics, including searching and seizing, chain-of-custody, acquisition, preservation, analysis, and reporting of digital evidence. It is a comprehensive course, covering major forensic investigation scenarios that enables students to acquire necessary hands-on experience on various forensic investigation techniques and standard forensic tools necessary to successfully carry out a computer forensic investigation leading to the prosecution of perpetrators. Course Length: 45 Instructional hours (plus practice/study).​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand fundamental concepts of incident response and forensic, perform electronic evidence collection, and digital forensic acquisition.
+- Understand the strict data and evidence handling procedures, maintain an audit trail (i.e., chain of custody) and/or evidence of integrity, work on technical examination, analysis, and reporting of computer-based evidence, preparing and maintaining case files.
+- Utilize forensic tools and investigative methods to find electronic data, including Internet use history, word processing documents, images, and other files, gather volatile and non-volatile information from Windows, MAC, and Linux, and recover deleted files and partitions in Windows, Mac OS X, and Linux.
+- Understand different types of disk drives and their characteristics, examine file systems using autopsy and the sleuth kit tools, and understand data acquisition fundamentals and methodology.
+- Illustrate file carving techniques and ways to recover evidence from deleted partitions and understand anti-forensic techniques that exploit CFT bugs and CFT activities, and interpret their countermeasures.
+- Search file slack space where PC type technologies are employed, file MAC times (Modified, Accessed, and Create dates and times) as evidence of access and event sequences, examine file type and file header information, review e-mail communications; including webmail and Internet Instant Messaging programs, and examine the internet browsing history.
+- Understand network forensics and its steps involved, examine the network traffic and explain how to perform incident detection and examination using SIEM tools.
+- Understand web application forensics and its architecture, interpret the steps for web attacks, Apache web server architecture, and its logs investigation. Explain how to perform and identify the traces of the Tor browser during the investigation.
+- Understand database forensics, determine the database repositories, understand the cloud concepts and attacks on the cloud. The significance of cloud forensics and distinguish their types.
+- Understand email basics, review the steps for investigating the email crimes and explain malware forensics fundamentals and identify the techniques used to spread malware.
+- Perform the mobile forensics and illustrate its architecture, determine the mobile storage and its evidence.
+- Perform the IoT forensics, examine different types of IoT threats and explain how to perform forensics on IoT devices.
+Effective as of Winter 2022
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

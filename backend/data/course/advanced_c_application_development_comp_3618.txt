@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/advanced-c-application-development-comp-3618/
+Title: Advanced C# Application Development COMP 3618
+Type: Course
+Course Code: COMP 3618
+
+================================================================================
+
+## Advanced C# Application Development COMP 3618
+Computer Systems Course
+## Course Overview
+​This hands-on course continues from COMP 2614 and prepares those who are already C# programmers for advanced C# application development. Students who also have HTML5, CSS3, JavaScript and jQuery will build on their C# experience to create Enterprise level desktop and N-Tier software applications. Participants learn various software architectural patterns including "designing applications with the Service Oriented Architecture" and "Scaling applications with Microservices and NServiceBUS 6". Topics include: A review of ADO.NET and then a focus on Entity Framework (Code First, Model First, and Database First), Repository Pattern, Object Serialization and Deserialization, Discussions include: Services (WCF, WEB API, and Microservices), Asynchronous Programming with async/await, C# Design Pattern Strategies, Dependency Injection and MEF. Labs and assignments reinforce best practices in the use of architectural patterns. Students may also be interested in COMP 3973 - ASP.NET Core MVC. Upon successful completion, participants will be able to create commercial quality software applications using the latest Microsoft technologies.
+### Prerequisite(s)
+- 60% in COMP 2132 and (60% in COMP 2614 or 60% in COMP 3602 )
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create UI with HTML5, CSS3 and Bootstrap.
+- Use ADO.NET and then Entity Framework to create Database First, Model First, Code First Designs.
+- Implement Repository Pattern.
+- Serialize and Deserialize Objects in .NET Framework.
+- Create, Host and Test .NET Services (WCF, WEB API, and Microservices with NServiceBUS 6).
+- Consume .NET Services by using various tools.
+- Design Multi-Threaded Applications.
+- Use async/await.
+- Create Dependency Injection Container.
+- Use C# Design Patterns to write high quality code.
+- Design line of business line applications.
+- Deploy advanced C# software applications.
+Effective as of Fall 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/advanced-java-application-development-comp-3610/
+Title: Advanced Java Application Development COMP 3610
+Type: Course
+Course Code: COMP 3610
+
+================================================================================
+
+## Advanced Java Application Development COMP 3610
+Computer Systems Course
+## Course Overview
+This hands-on six week module is a bridging course from COMP 2613 to COMP 4613 , for those who have not completed COMP 3613 . It is not intended to replace COMP 3613 and is aimed at COMP 3641 students who are working toward the Advanced Java Development Associate. If you have not completed COMP 3641 then proceed directly to COMP 3613 prior to COMP 4613 . Topics include Reflection, JavaBean Properties Binding, JDBC Metadata, Scrollable/Updatable ResulsetSets, GUI Table Models, Multi-Threading and Thread Synchronization, Encryption and Class Loading. Upon successful completion, those who have completed COMP 3641 learn the additional topics from COMP 3613 in order to complete the Advanced Java Associate Certificate.
+### Prerequisite(s)
+- COMP 2613 and COMP 3641
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand the use and implementation of JDBC Metadata.
+- Discuss JavaBean Properties and Reflection.
+- Utilize Java Threading and Thread Synchronization models.
+- Incorporate security techniques for data encryption, and user verification.
+- Build custom Class loaders.
+- Implement Java GUI Table models to display two dimensional data.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

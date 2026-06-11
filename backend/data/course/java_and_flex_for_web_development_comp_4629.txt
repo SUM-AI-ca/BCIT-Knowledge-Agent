@@ -1,0 +1,24 @@
+URL: https://www.bcit.ca/courses/java-and-flex-for-web-development-comp-4629/
+Title: Java and Flex for Web Development COMP 4629
+Type: Course
+Course Code: COMP 4629
+
+================================================================================
+
+## Java and Flex for Web Development COMP 4629
+Computer Systems Course
+## Course Overview
+Adobe FlexTM is a software development kit for building cross-platform, rich internet applications based on the Adobe Flash platform. Participants will learn to use Adobe FlexTM 4 and ActionScript 3 with Java Enterprise Edition (JEE) to create outstanding web applications. This hands-on workshop continues on from COMP 3641 and is aimed at students who already understand Java programming and Java web application development. Topics include: programming in ActionScript 3, writing declarative user interfaces in Flex 4, multi-tiered connectivity with JEE and Flex, and utilizing the remoting RPC services for connecting Java to Flex. By the end of this intense workshop, successful participants will be able to produce and deploy advanced server side and client side Web Applications with Java.
+### Prerequisite(s)
+- COMP 3641
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Apply JEE design patterns to both the client (FlexTM) and the server side (JavaTM).
+- Demonstrate how to utilize validation, styling, and event handling within the FlexTM framework.
+- Demonstrate how to write graphical user interface applications using AdobeTM FlexTM 4 Framework ActionScript 3 and MXML.
+- Utilize AdobeTM BlazeDS for Remote Procedure Call (RPC) services between JavaTM and FlexTM.
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

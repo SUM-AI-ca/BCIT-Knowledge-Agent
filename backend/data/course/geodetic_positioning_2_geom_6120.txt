@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/geodetic-positioning-2-geom-6120/
+Title: Geodetic Positioning 2 GEOM 6120
+Type: Course
+Course Code: GEOM 6120
+
+================================================================================
+
+## Geodetic Positioning 2 GEOM 6120
+Geomatics Course
+## Course Overview
+This course starts with a review of different Global Navigation Satellite System (GNSS) operation modes and GNSS data processing procedures. Through a series of lectures and assignments it will continue with other major topics such as high precision GNSS positioning including inter-mixing different GNSS antenna types, data formats, utilizing Precise Clock and Ephemeris data, as well as correction messages, GNSS datums, reference frames, and coordinate transformations. The chapter on Network Adjustment will analyze network adjustment using satellite-based baseline data. Detailed GNSS data processing techniques, different reference station networks in North America, as well as Satellite Based Augmentation Systems (SBAS), and GNSS applications will be studied. The course emphasizes the Global Positioning System (GPS) but will conclude with the study of other satellite navigation systems.
+### Prerequisite(s)
+- 50% in GEOM 5120
+- Course registration is restricted to students with completion of 2-year Geomatics diploma.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Outline and contrast different GNSS Operation Modes, including Static, Rapid Static, Stop & Go, Kinematic and Kinematic On-The-Fly (OTF), Real -Time and Post-Processing.
+- Perform GNSS Data Processing Procedure, including Precise Point Positioning.
+- Apply Coordinate Transformations between GNSS, map and ground systems.
+- Relate topics on High Precision GNSS Positioning, including Inter-mixing different GNSS antenna types, data formats and Precise Clock and Ephemeris.
+- Differentiate GNSS Datums (Horizontal and Vertical) and Reference Frames.
+- Distinguish different GNSS Reference Station Networks in North America.
+- Explain Satellite Based Augmented Systems (SBAS).
+- Discuss GNSS Network Considerations and relate them to GNSS Network Adjustments.
+- Differentiate types of GNSS Differencing Techniques, including Phase Approach; Single Difference; Double Difference; Triple Difference Techniques, and different types of wavelength combinations.
+- Differentiate satellite navigation techniques other than GPS.
+Effective as of Winter 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

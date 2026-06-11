@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/hci-for-application-development-comp-4952/
+Title: HCI for Application Development COMP 4952
+Type: Course
+Course Code: COMP 4952
+
+================================================================================
+
+## HCI for Application Development COMP 4952
+Computer Systems Course
+## Course Overview
+This course is a continuation of Comp 3951 (Selected Topics in Application Development). The course covers an introduction to human-computer interaction (HCI), user experience design, prototyping, usability, web design and implementation, and cloud computing. Microsoft technologies including the .NET framework, C#, ASP.NET, ASP.NET MVC, and Azure will be used as vehicles for instruction. Course work includes ASP.NET web applications, web services, introduction to data access, ADO.NET, entity framework, architectural patterns used in software engineering: Model-View-Control (MVC) and Model-View-ViewModel (MVVM), and cloud computing (Azure platform and infrastructure). Principles of HCI, usability, user-centered design, task analysis and aesthetics are discussed and applied. During the term, besides class assignments, students will design and implement using the technologies discussed in this course (a) a web application in small teams, and (b) a large term project (including a web component) involving all students in the set. The large project is intended to give students the chance to experience the work and the responsibilities of a real life project. Students will learn to work in teams, manage or report to a manager, keep deadlines, take responsibilities and have initiative.
+### Prerequisite(s)
+- 50% in COMP 3951
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify the principles of Human-Computer interaction and apply them in design.
+- Identify the principles of usability.
+- Identify the principles of user-centered design.
+- Design applications with improved usability and user experience.
+- Design applications using software architecture patterns: Model-View-Control (MVC), Model-View-ViewModel (MVVM).
+- Compare and contrast client-side and server-side technologies.
+- Develop web applications using the .NET Framework Class Library, ASP.NET and ADO.NET.
+- Develop and consume a web service.
+- Explain distributed systems and web services.
+- Compare web services with other technologies (distributed computing and portals).
+- Explain data access and data providers.
+- Explain the particularities of ADO.NET and create a custom ADO.NET data provider.
+- Identify the security issues related to web development.
+- Identify and apply the best practices in application development (coding with the garbage collector in mind, memory and class management in the Common Language Runtime, server-side development, etc),
+- Design and implement a large project that reflects the above topics: prototyping, revised design, user-centered design, user experience, usability engineering, and the most appropriate web design techniques.
+- Actively engage in group discussions regarding the newest .NET technologies.
+Effective as of Fall 2015
+## Related Programs
+HCI for Application Development (COMP 4952) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

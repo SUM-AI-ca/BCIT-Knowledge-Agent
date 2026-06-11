@@ -1,0 +1,149 @@
+URL: https://www.bcit.ca/outlines/20261093141/
+Course: PHYS 2120
+Field: Physics for Nuclear Medicine and Lab 2
+Subject: Physics
+Term: 202610
+CRN: 93141
+
+================================================================================
+
+## Course Outline
+## PHYS 2120
+## Physics for Nuclear Medicine and Lab 2
+School | School of Health Sciences
+Program | Nuclear Medicine
+Course Credits | 6.5
+Minimum Passing Grade | 65%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 99
+Total Weeks | 18
+Hours/Weeks | 5.5
+Delivery Type | Lecture
+Prerequisite(s) | 65% in PHYS 1120
+CRN | 93141
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Barry Pointon
+E-mail | Barry_Pointon@bcit.ca
+Location | SW3-4083
+Office Hours | Office hour appointments are made on-request In-Person Availability (SW3-4083): Tues 12:30-13:20, Thurs 12:30-13:20 On-Line Availability (Class for Teams): Fri 7:30-8:20, 10:30-11:20 Other appointments may be scheduled.
+### Course Description
+This course covers the foundational physics and instrumentation concepts used in nuclear imaging with a gamma camera, including: The design and operation principles of scintillator-based radiation detectors, building on the relevant radiation physics from PHYS 1120. The overall design, components, and operation of a gamma camera, including how the design and operation are related to clinical imaging protocols, differences in camera performance, quality control, and image quality. Analysis of how the camera detects radiation, how planar images are produced, and how these are related to the properties and potential artifacts in human imaging. Evaluation of image quality, including the connections to clinical imaging protocols. Measurement and evaluation of gamma camera performance, including uniformity and spatial resolution and how they relate to the needs of routine quality control. Throughout this course, aspects of physics and instrumentation are given in the context of how to achieve optimal quality of diagnostic information in clinical nuclear medicine imaging. Students will use their foundational knowledge of nuclear medicine instrumentation as a basis for understanding new scientific and technical information to promote continued and life-long learning. The course labs support the course materials by providing hands-on experience in operating and troubleshooting nuclear instrumentation to perform relevant tasks and explorations.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the design and function of scintillator-based radiation detectors.
+- Apply knowledge of the function and design of scintillator-based radiation detectors to the clinical use of well-counters, uptake probes, and gamma cameras.
+- Describe and compare current gamma camera technologies.
+- Relate gamma camera technologies to performance and limitations.
+- Explain how changes in gamma camera components and system performance impact detector calibration and quality-control test results.
+- Perform gamma camera calibrations and routine planar quality-control tests.
+- Explain the relationship between detector count rates and activity using principles of radiation detector physics.
+- Explain how the physics of image acquisition and clinical acquisition parameters impact image quality.
+- Define image characteristics using principles of radiation physics and gamma camera detector design.
+- Evaluate image quality in terms of contrast, spatial resolution, noise, and artifacts.
+- Evaluate quantitative performance of gamma cameras in relation to quality control and equipment specifications.
+- Perform and interpret measurements using nuclear instrumentation, including a gamma camera.
+- Describe common post-acquisition image-processing and display techniques. (NM.3.2, NM.8.1, NM.8.3)​
+### Learning Resources
+Required:
+Pointon, B.W., PHYS 2120 Lecture Notes, 2026 .
+The following are available as free downloads from the IAEA website
+INTERNATIONAL ATOMIC ENERGY AGENCY, IAEA Quality Control Atlas for Scintillation Camera Systems, Non-serial Publications , IAEA, Vienna (2003)
+INTERNATIONAL ATOMIC ENERGY AGENCY, Quality Assurance for SPECT Systems, IAEA Human Health Series No. 6, IAEA, Vienna (2009)
+INTERNATIONAL ATOMIC ENERGY AGENCY, SPECT/CT Atlas of Quality Control and Image Artefacts, IAEA Human Health Series No. 36, IAEA, Vienna (2019)
+INTERNATIONAL ATOMIC ENERGY AGENCY, Quantitative Nuclear Medicine Imaging: Concepts, Requirements and Methods, IAEA Human Health Reports No. 9, IAEA, Vienna (2014)
+INTERNATIONAL ATOMIC ENERGY AGENCY, Nuclear Medicine Physics, Non-serial Publications , IAEA, Vienna (2015)
+INTERNATIONAL ATOMIC ENERGY AGENCY, Diagnostic Radiology Physics, Non-serial Publications , IAEA, Vienna (2014)
+Recommended:
+Chandra, R., Rahmim, A, Nuclear Medicine Physics: The Basics, 8th Ed. Lippincott, Williams & Wilkins, 2017.
+Performance Measurements of Gamma Cameras, Publication/No. NEMA-NU1 (2018), National Electrical Manufacturers Association, Rosslyn, VA, 2018.
+Cherry, S., Sorenson, J.A. and Phelps, M.E., Physics in Nuclear Medicine, 4th Ed., Saunders 2012.
+Bushberg, J.T., Seibert, J. A, Leidholt, E.M. and Boone, J.M., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott, Williams & Wilkins, 2011.
+Prekeges, J. Nuclear Medicine Instrumentation, 2nd Edition . Jones & Bartlett Learning, 2013.
+Articles from scientific journals and technical literature will also be used.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments (approx 10) | 5% | Completion mark only, weighted by points
+Quizzes (18) | 5% | Weighted by points, with weighting of each up to 3% of the final grade
+Labs | 15% | 12 labs each 10 marks, 2 lab test seach 20 marks
+all items weighted evenly
+Term Tests (2) | 40% | Each term test is worth 20% of the final grade.
+Final Exam | 35% | Comprehensive, but emphasizes material not tested previously
+Total | 100% | Course mark of 65% required to pass.
+Weighting subject to change with notice.
+### Attendance Requirements
+Students must inform instructor before missing any classes with reason.
+### Other information
+Video lectures may be recorded for instructional purposes.
+### Course Schedule and Assignments
+Week | Week of | Lecture Hours | Lecture Note Units | Assessments Q = quiz, A = Assignment | Lab
+1 | Jan 5 | 3 | Course Intro, Unit 1.1 | Q1.1, A1.1 | INTRO/ REFRESHER
+2 | Jan 12 | 3 | Unit 1.2, 1.3a | Q1.2, Q1.3, A1.2, A1.3 | NM40
+3 | Jan 19 | 3 | Unit 1.3b, 1.4 | Q1.4, A1.4 | NM41
+4 | Jan 26 | 3 | Unit 2.1, 2.2a | Q2.1, Q2.2, A2.1, A2.2 | NM42
+5 | Feb 2 | 3 | Unit 2.2b, 2.3 | Q2.3, A2.3 | NM43
+6 | Feb 9 | 3 | Term Test 1: 1.1–2.2 Unit 2.4a | Q2.4, A2.4 TT1 | NM50
+7 | Feb 16 | 3 | Unit 2.4b, 2.5 | Q2.5, A2.5 | NM51
+8 | Feb 23 | 3 | Unit 2.6 | Q2.6, A2.6 | NM52
+9 | Mar 2 | 3 | Unit 2.7 | Q2.7, A2.7 | LAB TEST #1
+11 | Mar 9 | 0 | Spring Break | No Classes
+11 | Mar 16 | 0 | Clinical #1 | No Classes
+12 | Mar 23 | 4 | Unit 3.1 | Q3.1 | NM53
+13 | Mar 30 | 2 | Unit 3.2 Good Friday Apr 3 | Q3.2, A3.2 | NM54
+14 | Apr 6 | 4 | Unit 3.3 | Q3.3 | NM55
+15 | Apr 13 | 4 | Term Test 2: 2.3–2.8 Unit 3.4 | TT2 Q3.4 | NM56
+16 | Apr 20 | 4 | Unit 4.1b | Q4.1, A4.1 | NM60
+17 | Apr 27 | 4 | Unit 4.2 | Q4.2, A4.2 | NM61
+18 | May 4 | 4 | Unit 4.3 | Q4.3, A4.3 | LAB TEST #2
+19 | May 11 | 0 | Clinical #2 | No Classes
+20 | May 18 | Exam Week | Final Exam
+- Term Test timing and contents subject to change with notice
+- Lecture schedule is approximate and subject to change.
+- Unit quizzes and assignments are due one week after start date.
+### Course topics
+Notice: Topics and Order of Material May Change with Notice
+Unit 1. Radiation Detection and Counting
+1.1 Gamma and X-Ray Interactions and Attenuation
+1.2 Scintillator Detectors and Energy Resolution
+1.3 Features of the Energy Spectrum
+1.4 Count Rates and Counting Efficiency
+Unit 2. Gamma Camera Function and Design
+2.1 Gamma Camera Introduction
+2.2 Radiation Detection with Gamma Cameras
+2.3 Collimator Design
+2.4 Collimator Performance
+2.5 Detector Design and Tuning
+2.6 Event Processing and Uniformity Corrections
+2.7 Image Acquisition
+Unit 3. Camera Performance and Quality Assurance
+3.1 Gamma Camera Testing
+3.2 Uniformity Testing
+3.3 Spatial Resolution, Linearity and MWSR
+3.4 Sensitivity and High Count-rate Performance
+Unit 4. Planar Nuclear Imaging
+4.1 Planar Imaging of Radioactivity
+4.2 Planar Imaging of Human Subjects
+4.3 Planar Image Quality
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Barry Pointon, Instructor January 15, 2026
+I verify that this course outline has been reviewed. Thomas Wong, Program Head January 15, 2026
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty January 16, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 19, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/ipad-application-development-comp-4906/
+Title: iPad Application Development COMP 4906
+Type: Course
+Course Code: COMP 4906
+
+================================================================================
+
+## iPad Application Development COMP 4906
+Computer Systems Course
+## Course Overview
+COMP 4906 is replaced by COMP 3912 . This hands-on course is designed for those who have already completed COMP 3906 and those with equivalent iPhone programming experience. Students who are already accomplished at building iPhone applications will focus on creating iPad applications using their own personal iPad and Intel based MacBook. BCIT students who do have the current hardware are entitled to purchase from Apple Canada at a discount. After learning to provision their own devices with the iPad SDK for development, programmers will start designing iPad specific applications that leverage the new 1024 x 768 screen size and support multiple orientations, using accelerometers. Topics include: split view controllers, popovers, custom input views, plus iPad audio and video capabilities. Each participant will also learn to handle events, utilize enhanced text, generate PDF documents, and integrate with Core Location and MapKit. The BCIT School of Computing is a member of the Apple iPhone Developer University program. Those registered in this course will be granted access to Apple's resources for development and testing at no extra cost. By the end of this advanced course, iPhone programmers will learn to design, build and present a software application for the iPad.
+### Prerequisite(s)
+- COMP 3906
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- State iPad specific design considerations.
+- Implement split view controllers.
+- Utilize popovers to present information.
+- Leverage custom input views.
+- Enhance their applications with audio and video.
+- Handle user input and events.
+- Make use of enhanced text.
+- Generate PDF documents.
+- Integrate with Core Location, MapKit and accelerometers.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

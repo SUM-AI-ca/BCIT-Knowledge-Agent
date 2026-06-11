@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mobile-web-design-using-jquery-mdia-4340/
+Title: Mobile Web Design using jQuery MDIA 4340
+Type: Course
+Course Code: MDIA 4340
+
+================================================================================
+
+## Mobile Web Design using jQuery MDIA 4340
+Media Communications Course
+## Course Overview
+This course introduces the fundamentals of creating mobile websites using the jQuery Mobile framework — a JavaScript library that makes it easy to create websites that render correctly on a variety of mobile devices, including iOS (iPhone, iPod Touch, iPad), Android, Blackberry, PalmOS, and others. Students will explore the basic structure of a jQuery Mobile page, how to implement commonly-used page components like headers, footers, toolbars, buttons, lists, dialogs, form controls and multi-column layouts. Additional topics include the jQuery Mobile navigation model, managing transitions between pages, using themes, and responding to touchscreen events like tap and swipe. NOTE: You should own or have access to at least one mobile device (smartphone or tablet) for this course.
+### Prerequisite(s)
+- 50% in MDIA 3207 and 50% in MDIA 4307
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course the student will be able to:
+- Demonstrate how to apply the principles of HTML5 and CSS3 to mobile websites
+- Describe how a mobile application page structure is built
+- Construct a mobile user interface using elements such as buttons, toolbars, and sliders
+- Classify and demonstrate where lists are to be used for data display, navigation, form results, and data entry
+- Apply multi-page interfaces with transitions
+- Demonstrate how to create and apply modal dialogues for interface interaction
+- Describe how to develop forms for mobile applications
+- Illustrate how to handle mobile touchscreen events such as tap, swipe, and so on
+- Describe how to deal with page orientation on mobile devices
+- Evaluate the importance of jQuery Themes in interface design
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

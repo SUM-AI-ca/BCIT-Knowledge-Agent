@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/modeling-for-next-gen-games-mdia-1365/
+Title: Modeling for Next-Gen Games MDIA 1365
+Type: Course
+Course Code: MDIA 1365
+
+================================================================================
+
+## Modeling for Next-Gen Games MDIA 1365
+Media Communications Course
+## Course Overview
+This course is designed to teach students how high resolution models could be really useful in pre-render applications such as video or films however high number of polygons in these object make them inappropriate for real-time interactive projects such as simulations and games. In this class students will learn how to create a high resolution model and then creating an illusion of that high-res model on a low-poly model which will be perfect for real-time interactive projects. Such techniques could be used for game props (cars and buildings) or Game characters. During this course students will use Maya or 3D Max for creating the base mesh for each game assets and characters. Students will then import their mesh into a sculpting application such as Z-Brush or MudBox to Subdivide, Sculpt and paint. At the end students will generate proper normal maps based on their high resolution models to be applied on a low-res model.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Analyze the concept of game modelling.
+- Build a basic mesh for games assets.
+- Unwrap a UV map for each asset.
+- Import student built assets to sculpting applications including ZBrush and Mudbox.
+- Subdivide and detail the basic mesh and create a high polygon 3D object.
+- Create proper textures such as painting, normal maps and light maps.
+- Apply textures to the low polygon object to create the illusion of a high resolution model.
+Effective as of Spring/Summer 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,106 @@
+URL: https://www.bcit.ca/outlines/20261087231/
+Course: COMP 3522
+Field: Object Oriented Programming 2
+Subject: Computer Systems
+Term: 202610
+CRN: 87231
+
+================================================================================
+
+## Course Outline
+## COMP 3522
+## Object Oriented Programming 2
+School | School of Computing and Academic Studies
+Program | Computer Systems Technology Diploma
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | COMP 2510 and COMP 2526 or COMP 2522
+CRN | 87231
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Jeffrey Yim
+E-mail | jyim3@bcit.ca
+Location | Online
+Office Hours | Will be posted in the Learning Hub.
+### Course Description
+This hands-on course follows on from COMP 2510 and COMP 2522. This course covers the advanced concepts of design, development, testing, and debugging intermediate-level programs with an object-oriented programming language. Topics include language syntax, design patterns, multiple inheritance (using classes and/or interfaces).
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Design, implement, debug and test intermediate to complex object-oriented programs in a modern high-level object-oriented programming language.
+- Demonstrate familiarity with advanced design idioms including Dependency-inversion Principle, Liskov Substitution Principle, Open/Closed Principle, Interface-segregation Principle, Law of Demeter in a modern high-level object-oriented programming language.
+- Use profiling tools to monitor the memory and CPU usage of programs.
+- Use multiple inheritance to model complex abstractions.
+- Use exception handling to catch errors and properly release resources.
+- Demonstrate an understanding of advanced design patterns including Abstract Factory, Builder, Lazy Initialization, Bridge, Decorator, Facade, Proxy, Chain of Responsibility, Iterator, Mediator, State, and Strategy.
+- Represent analysis and design models using sequence, collaboration and class diagrams.
+- Develop systems using advanced architectures that reduce system coupling including dependency injection, asynchronous message passing, and observers.
+### Learning Resources
+Textbook (Optional)
+- Philips, Dusty. (2018) Python 3 Object Oriented Programming 3rd Edition . Packt Publishing;
+Software (Required)
+- Python 3.8 (or later)
+- PyCharm Professional IDE (most recent version)
+- A Free Student Developer Pack from Github Get it here: https://education.github.com/pack This may be used to submit your assignments and possibly some labs
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 10 | Weekly learning hub quizzes. Conducted during lectures. 9 Quizzes total
+Labs | 10 | Weekly
+Assignments | 20 | May be completed individually or in groups. 2 Assignments total
+Midterm | 30 | Scheduled during midterm week
+Final Exam | 30 | Scheduled during final exam week
+### Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf .
+### Course Specific Requirements
+You must pass the midterm & final exams on average in order to pass the course. That is, if the weighted average of your tests is less than 50%, you will fail this course.
+### Other information
+Student recording allowed with conditions
+Recording in this course: Students may request to record specific parts of class. Approval is at the instructor’s discretion and, if granted, is subject to conditions under Procedure 5201-PR1: limit to the approved scope; store only on BCIT-approved platforms; use only for private study by students in this section; do not capture classmates without consent; and delete recordings by the timeline in Procedure 5201-PR1 (unless otherwise specified). Any use beyond the original instructional purpose requires additional consent(s).
+### Course Schedule and Assignments
+Week | Topics Covered
+1 - Jan 5 | Course Introduction & Logistics Python Fundamentals
+2 - Jan 12 | Introduction to Object Oriented Programming, Inheritance, interfaces, abstract classes
+3 - Jan 19 | SOLID Principles, Law of Demeter, Understanding Coupling & Dependencies
+4 - Jan 26 | Slicing, Ranges, Exceptions, unit testing, function overloading
+5 - Feb 2 | Enums, Iterator, Protocols, Comprehensions Multiple Inheritance
+6 - Feb 9 | Functions as objects, Generators, Lambda Expressions, Profiling
+7 - Feb 16 | Review
+Feb 23 - Feb 27 | Midterm Exam Week – Non-Instructional Week
+8 - Mar 2 | Intro to design patterns
+9 - Mar 9 | Design patterns 1 | In-class Instructional Assessments Online
+Mar 16 - March 20 | Computing Reading Week – Non-Instructional Week
+10 - Mar 23 | Design patterns 2
+11 - Mar 30 | Design patterns 3
+12 - Apr 6 | Revew
+Apr 13 – Apr 17 | Study/Makeup/Review/Presentation Week
+Apr 20 – Apr 24 | Final Exam Week – Non-Instructional Week
+Subject to change
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Jeffrey Yim, Instructor December 24, 2025
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

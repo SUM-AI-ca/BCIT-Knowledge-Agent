@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/advanced-net-user-interface-design-comp-3609/
+Title: Advanced .NET User Interface Design COMP 3609
+Type: Course
+Course Code: COMP 3609
+
+================================================================================
+
+## Advanced .NET User Interface Design COMP 3609
+Computer Systems Course
+## Course Overview
+​This hands on follows on from COMP 2614 and replaces COMP 3608 . It is aimed at .NET programmers who already understand how to write code and develop applications with C# in the .NET environment. Students gain practical skills using Microsoft Visual Studio to develop Extensible Application Markup Language (XAML) code. Labs and exercises focus on building Windows Presentation Foundation (WPF) and Universal Windows Platform (UWP) applications. .NET developers are introduced to the Model–View–Viewmodel (MVVM) software architectural pattern. Popular frameworks such as Prism and Caliburn Micro to build data-driven Line-of- Business applications with WPF/ UWP are also discussed. Lectures and assignments examine how to best utilize WPF /UWP for porting over existing Windows Forms to these newer frameworks. COMP 3609 is a required course for the Advanced .NET Development Associate Certificate and an elective in the CST/PTS Diploma and is complementary to COMP 3618 - Advanced .NET Application Development. Upon successful completion of this course, students will be able to design and develop modern apps with UWP and publish them to the Microsoft Store. COMP 3609 is currently under review and not being offered.
+### Prerequisite(s)
+- COMP 1850 , COMP 2015 and COMP 2614 or equivalent knowledge.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the fundamentals of effective modern user interface design.
+- Describe the architecture of WPF /UWP frameworks and design concepts.
+- Read and write the Extensible Application Markup Language (XAML) declarative language.
+- Create interface layouts using standard XAML.
+- Build custom user controls.
+- Create asynchronous Data-Driven MVVM application with WPF /UWP.
+- Work with Resources, Styles, Control Templates, and Behaviours.
+- Provide themes and styles to applications by restyling controls.
+- Explain how to use reflection-based binding to bind WPF controls to data sources.
+- Illustrate how to use compiled-binding to bind UWP to bind UWP properties to data sources.
+- Inject MVVM design pattern into an existing WPF /UWP application.
+- Illustrate how the following frameworks Caliburn Micro, and Prism can be used in WPF /UWP applications to enhance productivity.
+- Communicate between View and ViewModel with commands, and behaviours.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

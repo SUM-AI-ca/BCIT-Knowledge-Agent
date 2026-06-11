@@ -1,0 +1,116 @@
+URL: https://www.bcit.ca/outlines/20261092135/
+Course: BABI 4005
+Field: DQM with Python
+Subject: Business Analytics & Business Intelligence
+Term: 202610
+CRN: 92135
+
+================================================================================
+
+## Course Outline
+## BABI 4005
+## DQM with Python
+School | School of Business + Media
+Program | Business IT Management
+Course Credits | 2
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | March 06, 2026
+Total Hours* | 30
+Total Weeks | 10
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | 50% in BABI 3005
+CRN | 92135
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Amy Goldlist
+E-mail | Amy_Goldlist@bcit.ca
+Location | SE6-336 or via Microsoft Teams
+Office Hours | See posted schedule at https://timetables.bcitsitecentre.ca/business, or bookings: Book time with Amy Goldlist Note: This works best in incognito mode!
+### Course Description
+​This course will introduce students to the concepts and techniques of data quality management (DQM) using the Python programming language. Students will learn how to use Anaconda and Python libraries most suited for DQM, such as pandas, NumPy, seaborn, and SciPy. They will learn how to assess data quality, identify data anomalies, and develop strategies for improving data quality. Students will have the opportunity to work with real-world datasets and build hands-on skills in data quality management using Python. ​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Outline the importance of current data quality management strategy and its impact on business outcomes.
+- Use current Python libraries such as pandas, NumPy, and SciPy for DQM tasks.
+- Develop strategies for data quality assessment and anomaly detection using existing Python tools.
+- Apply contemporary data cleaning and transformation techniques to improve data quality in business.
+- Apply current statistical techniques for analyzing data quality in the real world.
+- Develop custom DQM tools for IT organizations using Python programming.
+- Use best practices for data quality management in real-world scenarios.​
+### Learning Resources
+See the Learning Hub
+Students must have access to Jupyterr Notebooks, and are recommended to install annaconda (Python) on their laptop. They may also choose to work remotely at https://bcit.syzygy.ca/.
+We will also work with terminal programs and git, all free but will be discussed in class.
+Students will create an account on github, which may be public or private. This is an important step in learning version control, and is also free.
+### Evaluation Criteria
+Criteria | % | Comments
+Lab Quizzes | 10% | Most weeks, must be in class.
+Assignments | 20%
+Project | 20% | Grades include commit history
+Lab Activities | 10% | Must be in class
+Final Exam | 40%
+### Attendance Requirements
+See attendance policy. If you miss a class activity, you must communicate with the instructor about why. In case of illness, alternate work may be done.
+### Course Specific Requirements
+Students may use AI for specific task components if they critically evaluate AI outputs. | Students may compare output by different AI tools and then integrate it into their final work. Submitted work must include the prompt and AI-generated output. The critical analysis or reflection on the limitations and quality of output is assessed. Full citations are critical
+Instructor may use AI for specific components | There may be AI generated data sets (mostly so I can get fake sensitive data) Exam will include labelled AI generated code output, and students will be expected to critique and explain this. Also debugging!
+### Course Schedule and Assignments
+Subject to change!
+- Reading and writing
+- Where’s the data? Using wget statement
+- Best practices for file management
+- Intro to version control
+- Types of data files: csv, excel, json, xml and feather.
+- What is a data.frame? How is this different from a NumPy array or Data.Table?
+- Typecasting columns
+- Exploring the data in Pandas
+- Cleaning vs Tidying
+- Reproducibility: Why not Excel?
+- Pivot, Melt, GroupBy, Aggregation
+- Best practices
+- Activity: Aggregating for anonymity
+- How to merge branches
+- Scripts to clean and combine
+- Best practices
+- Continuation from Data Quality
+- Saving time, increasing reliability
+- Left! Right! Inner! Outer! Anti?
+- Merge vs Join
+- Better in SQL?
+- Activity: Superheros?
+- New datatypes
+- Unnesting JSON
+- Activity: Does Tom Hanks make movies better?
+- Working with xml
+- Webcrawlers
+- Vibe coding to convert data types
+- Activity: Fix up a cookbook
+- Finding Problems
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Amy Goldlist, Program Head December 08, 2025
+I verify that this course outline has been reviewed. Shauna Begley, Program Head December 11, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Phil Ramer, Associate Dean December 11, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

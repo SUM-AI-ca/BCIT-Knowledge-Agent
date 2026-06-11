@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/cascading-stylesheets-css-mdia-3201/
+Title: Cascading Stylesheets (CSS) MDIA 3201
+Type: Course
+Course Code: MDIA 3201
+
+================================================================================
+
+## Cascading Stylesheets (CSS) MDIA 3201
+Media Communications Course
+## Course Overview
+This course is a continuation of the CSS (Cascading Style Sheets) concepts learned in the prerequisite courses and begins with a review of the basic concepts and benefits of using CSS and then moves into more complex topics. You will design three different page layouts using element positioning, use CSS styled images, build data tables, and create print style sheets for your pages. Page designs will include vertical, horizontal, and multi-level CSS menus that include CSS3 features. Practical CSS techniques, such as best practices, code organization, commenting, shorthand, and accessibility, will be explored.
+### Prerequisite(s)
+- MDIA 1205 and MDIA 2205 or equivalent.
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain why CSS should be used to style HTML documents.
+- Describe the differences between fixed, liquid, and elastic layouts.
+- Design CSS-based layouts (without tables).
+- Demonstrate element placement using CSS positioning properties.
+- Construct vertical, horizontal, and multi-level CSS-based navigation menus.
+- Create CSS styled main and secondary menus that use generic link styles for page content.
+- Employ the “current effect” technique to highlight navigation using CSS.
+- Create print style sheets.
+- Integrate CSS3 features including border-radius, box-shadow, and opacity settings.
+- Apply CSS best practices including semantic markup, commenting, shorthand, and accessibility considerations.
+Effective as of Winter 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

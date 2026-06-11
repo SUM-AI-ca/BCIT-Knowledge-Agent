@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/applied-systems-analysis-and-design-comp-3615/
+Title: Applied Systems Analysis and Design COMP 3615
+Type: Course
+Course Code: COMP 3615
+
+================================================================================
+
+## Applied Systems Analysis and Design COMP 3615
+Computer Systems Course
+## Course Overview
+COMP 2615 and COMP 3615 have been replaced by COMP 2830 . This course is built on top of COMP 2615 , student analysts will continue on through the software development lifecycle by completing a physical design and then move on to construction, testing, implementation, and maintenance of a project. The physical design will be accomplished through the use of software engineering concepts with the development of application architecture, physical data modeling and Object Oriented Design including UML notation. Topics include: CASE Tools, an overview of Project Management and various current development methodologies such as rapid application development and method tailoring with agile software development. Feature Driven Development and Extreme Programming will also be discussed. This course consists of group work and all participants are required to provide detailed written materials, make oral presentations and work as part of a team.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Prepare physical data flow diagrams.
+- Prepare Physical ER Diagrams.
+- Design a report following accepted design principles.
+- Design a GUI following accepted design principles.
+- Prepare detailed specifications for a system design.
+- Plan systems implementation, including consideration of:
+- System testing
+- Preparing user manuals
+- Maintenance
+- Recovery
+- Enhancements
+- Training
+- Prepare and create the following UML notations:
+- Use case models
+- Use case narratives
+- Sequence models
+- Activity models
+- Class models
+- Understand project management principles, standardized by the Project Management Institute, as they apply to the systems development lifecycle.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

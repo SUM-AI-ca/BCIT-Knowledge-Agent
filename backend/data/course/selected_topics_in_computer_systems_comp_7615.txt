@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/selected-topics-in-computer-systems-comp-7615/
+Title: Selected Topics in Computer Systems COMP 7615
+Type: Course
+Course Code: COMP 7615
+
+================================================================================
+
+## Selected Topics in Computer Systems COMP 7615
+Computer Systems Course
+## Course Overview
+This course exposes students to emerging technology topics. This term, we focus on developing high performance applications on Android based smart-phones. The course begins by an introduction to assembly programming, covering types of instructions, addressing modes and high-performance topics on instruction level parallelism and special instructions. Following that, the course examines how C/C++ is translated to assembly and techniques. The course concludes with a case study using the Android Native Development Kit is used to develop a Near Field Communication application. This is a lab based course accompanied with short lectures and workshop discussions and presentations, where students will discuss techniques used and results achieved. This course will culminate with a final project.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the classification of assembly instructions.
+- Explain how performance-critical applications are accelerated at assembly level.
+- Explain and analyze common assembly routines and functionality.
+- Develop native Android applications
+- Explain Near Field Communications Technology
+- Identify some related research, trends, challenges in industry.
+- Present, explain and demonstrate creative work to peers.
+- Submit course assignments by a fixed deadline.
+- Work effectively on coursework, with other students, as part of a team.
+Effective as of Fall 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/cisco-ccna-voice-citx-1186/
+Title: Cisco CCNA Voice CITX 1186
+Type: Course
+Course Code: CITX 1186
+
+================================================================================
+
+## Cisco CCNA Voice CITX 1186
+Computer Information Technology Electronics Course
+## Course Overview
+This course first explores the operation of traditional telephone systems and the public switched telephone network (PSTN). Topics include analog to digital conversion, the North American digital hierarchy, local loop operation, and call routing considerations. Next the course moves to the fundamental of Voice over IP (VoIP) and how voice information is packetized. An examination of the infrastructure required to support VoIP along with the protocols used allows the students to deploy IP based phones within the lab. With basic operation in place more advanced voice features are explored and the students configure, customize, and troubleshoot the infrastructure and its functionality. Topics include how to setup IP phones, configure users, how to configure phones and users for Class of Service, configuration of user features such as Do Not Disturb, Conferencing, Shared Lines, and Barge. Multiple site operation and connectivity is discussed along with integration to the PSTN. Topics include dial plans, bandwidth management, and call admission control. With reliability a major concern, students explore options to provide redundant and/or backup connectivity within the VoIP infrastructure. Students must have access to a Windows based multi-media computer.
+### Prerequisite(s)
+- CITX 2060 - Cisco CCNA Level 2, or a Valid CCENT Certification.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe the operation of traditional telephony systems
+- Describe legacy signalling including FXS, FXO, Loop-start, Ground-start, and E&M
+- Describe Time Division Multiplexing (TDM) including the Digital Hierarchy (Digital Signal Levels 1,2,3)
+- Describe numbering plans including E.164 standards
+- Describe analog to digital conversion of voice signals
+- Describe the building blocks required to deploy unified communications systems
+- Describe the functionality and purpose of VoIP
+- List VoIP protocols and describe their usage within the unified communications framework
+- Describe the function of a Digital Signal Processor (DSP) and how a DSP packetizes voice streams
+- Describe the functions of a CODEC and list some differences between models of CODECs
+- Describe how voice is transmitted in RTP packets
+- Describe the purpose of a voice VLAN, and network services used to support VoIP
+- Configure voice VLANs, DHCP service options, DHCP Relay Server, NTP
+- Describe and verify power over Ethernet (IEEE 802.3af)
+- Configure IP phones for use in Unified Communications network
+- Configure and deploy a call manager to enable VoIP operation
+- Update IP Phone firmware files and XML configuration files
+- Deploy key features and functionality of call managers
+- Configure analog voice interfaces, digital voice interfaces, and dial peers to set up VoIP communications
+- Configure additional GUI features and phone features
+- Configure auto attendant and voice mail features
+- Configure Paging, Call Pickup, Call Blocking, MOH, Call Forward, Call Transfer, Call Park, Intercoms
+- Configure networking functionality to improve VoIP performance with attention to quality of service (QoS)
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

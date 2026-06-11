@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/advanced-java-web-application-development-comp-4601/
+Title: Advanced Java Web Application Development COMP 4601
+Type: Course
+Course Code: COMP 4601
+
+================================================================================
+
+## Advanced Java Web Application Development COMP 4601
+Computer Systems Course
+## Course Overview
+​Following on from COMP 3601 , this hands-on course was designed for students who are already familiar with fundamental Java web application development, and HTML. COMP 4601 starts with the Java Persistence API (JPA). Participants will configure data sources and create solutions deployed on Java application servers. Labs and exercises strengthen skills in developing robust XML-based and RESTful Web Services. Additionally, students gain practical experience implementing JPA interfaces using frameworks such as Hibernate. There is a focus on best practices to design, develop and deploy enterprise-level, role-based web applications that seamlessly run across multiple tiers and containers, using web services and message-driven technologies. COMP 4601 is an elective in the Web and Mobile Application Development (WMA) Associate Certificate and the CST FLEX Diploma. Upon completion, successful students will be able to seamlessly integrate multiple web applications using Java Message Service (JMS) and Enterprise Java Beans (EJB) to build comprehensive web applications in Java Enterprise Edition (Jakarta JEE). This course will be offered in January 2026.
+### Prerequisite(s)
+- 60% in COMP 3601 or 60% in COMP 3656
+- or equivalent knowledge
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Describe the Java Persistence API (JPA) and implement its interfaces using the Hibernate framework to develop an Object-Relational Mapping solution.
+- Create and configure secure data sources within application servers and connect Java web applications to these sources using the Java Naming and Directory Interface (JNDI).
+- Map XML documents to Java objects and vice versa by employing Java API for XML Binding (JAXB).
+- Create XML-based web services with JAX-WS API in bottom-up and top-down.
+- Create RESTful web services using JAX-RS API and Jersey Implementation.
+- Use EJB™ API to develop components used in building the business logic of Java EE applications.
+- Create, send, receive, and read messages between two or more applications using Java Messaging Service (JMS).
+- Make well-informed decisions about Publisher/Subscriber or point-to-point messaging strategies.
+- Encapsulate the application's business logic and expose it through a set of APIs using Enterprise Java Bean (EJB) technology.
+- Create and design web applications in a microservices style using various integration technologies.
+Effective as of Winter 2026
+## Related Programs
+Advanced Java Web Application Development (COMP 4601) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Web and Mobile Application Development Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

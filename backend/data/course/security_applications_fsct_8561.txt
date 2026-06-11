@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/security-applications-fsct-8561/
+Title: Security Applications FSCT 8561
+Type: Course
+Course Code: FSCT 8561
+
+================================================================================
+
+## Security Applications FSCT 8561
+Forensic Investigation Course
+## Course Overview
+This course is a study of prototyping security tools using high-level languages such as Ruby, Python, and Lua. Implementation of basic communication applications using the TCP/IP protocol suite will be introduced. Security applications that will be designed and implemented as part of the course will include packet sniffers, backdoors, logfile parsers, packet crafters, variety of spoofing applications, simple Intrusion Detection and Prevention systems. Also covered will be shell scripting techniques and implementation of shell-scripts to perform system-related tasks. As part of implementing defensive applications, students will also be introduced to basic Linux-based tools and utilities such as Netfilter, cron, etc.
+### Prerequisite(s)
+- 60% in FSCT 7511
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Assess and prototype proof-of-concept applications using languages such as Ruby and Python.
+- Design simple Intrusion Prevention systems using shell scripts, cron, and Netfilter.
+- Select appropriate applications such as packet sniffers to be used as defensive and offensive tools.
+- Explain how malicious applications such as ARP poisoning, DNS spoofing, stealth backdoors and covert channels are designed and used.
+- Protect network resources against malicious applications using different defensive tools.
+- Design a Network/Host based intrusion detection system that utilizes Machine Learning and AI techniques.​​​​
+Effective as of Spring/Summer 2025
+## Related Programs
+Security Applications (FSCT 8561) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Forensic Investigation (Digital Forensics and Cybersecurity Option) Advanced Certificate Part-time
+- Forensic Investigation (Digital Forensics and Cybersecurity Option) Bachelor of Technology Full-time/Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/computer-systems-technology-foundations-4-comp-3683/
+Title: Computer Systems Technology Foundations 4 COMP 3683
+Type: Course
+Course Code: COMP 3683
+
+================================================================================
+
+## Computer Systems Technology Foundations 4 COMP 3683
+Computer Systems Course
+## Course Overview
+This intensive course is intended for applicants to the Bachelor of Technology degree in Computer Systems. The course covers two major topics: Object Oriented Analysis and Design and Object Oriented Programming using C++. The materials will be presented in an integrated approach. The goal of the course is to introduce and train the students with the Object-Oriented thought process, and allow the students to apply object-oriented analysis and design concepts into actual programming projects. The Unified Modeling Language (UML) will be utilized to document the design process. Topics include: C++ Fundamentals, Object Oriented programming in C++, Coding Standards, C++ Templates, Introduction to Design Patterns, and Object Oriented Analysis and Design.
+### Prerequisite(s)
+- 50% in COMP 3673
+### Credits
+12.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze, design and document projects using object-oriented techniques and technologies.
+- Use UML to appropriately model a project (using use case documents/diagrams, class diagrams, sequence diagrams and collaboration diagrams).
+- Understand object oriented modelling and programming concepts.
+- Develop and design C++ programs.
+- Explain, in terms of the C++ programming language, object-oriented programming concepts including: classes, objects, methods and encapsulation.
+- Use control statements, functions, arrays, pointers and strings.
+- Test and debug C++ program.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

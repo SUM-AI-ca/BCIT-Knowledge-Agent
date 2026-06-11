@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/computer-applications-3-surv-3372/
+Title: Computer Applications 3 SURV 3372
+Type: Course
+Course Code: SURV 3372
+
+================================================================================
+
+## Computer Applications 3 SURV 3372
+Surveying Course
+## Course Overview
+This course will introduce and emphasize the software components used in survey courses at BCIT. Microsoft EXCEL will be used to solve a number of typical survey problems using Visual Basic for Applications (VBA) tools within EXCEL to enhance computational ability. Civil 3D will be used to compute coordinates from Field Book File data. Traverses will be computed using the Compass Rule and Least Squares Adjustments will be introduced as a method of adjusting traverse data with common points for added redundancy. Civil 3D will be used to process, adjust and analyse control network data using Least Squares to detect and remove blunders. An introduction to Matlab will given to enable students to solve common survey problems in a technical computing environment.
+### Prerequisite(s)
+- 50% in SURV 2272
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use EXCEL to analyse and compute elevation, angular rotation and scale/shift between two coordinate systems.
+- Use EXCEL to compute coordinate data and calculate volumes.
+- Use EXCEL to solve survey geometry problems of Area, Inverse and Traverse.
+- Use EXCEL to compute horizontal and vertical curve layout data.
+- Use EXCEL to convert Lat/Long data to UTM coordinates and plot data to show path of travel, total distance travelled and average speed.
+- Identify the various codes used within the structure of Civil 3D Field Book Files.
+- Use Civil 3D to reduce Field Book Files into coordinates.
+- Use Civil 3D to adjust a traverse using both the Compass Rule and Least Squares methods.
+- Use Civil 3D to process, adjust and analyse survey data to detect blunders when processing control network files.
+- Solve common survey problems such as traverse calculations and Geographic to UTM coordinate conversions using Matlab software.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

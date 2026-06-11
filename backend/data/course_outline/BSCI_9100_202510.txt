@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20251092554/
+URL: https://www.bcit.ca/outlines/20251092536/
 Course: BSCI 9100
 Field: Building Environment and Climate
+Subject: Building Science
+Term: 202510
+CRN: 92536
 
-School: School of Construction and the Environment
-Program: Building Science Graduate Programs
-Course Credits: 3
-Minimum Passing Grade: 60%
-Start Date: January 07, 2025
-End Date: April 15, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): 60% in BSCI 9000
-CRN: 92554
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## BSCI 9100
+## Building Environment and Climate
+School | School of Construction and the Environment
+Program | Building Science Graduate Programs
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | January 06, 2025
+End Date | April 17, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 60% in BSCI 9000
+CRN | 92536
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Rodrigo Mora
-E-mail: Instructor to provide
-Location: Building NE1, office 248C
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Rodrigo Mora
+E-mail | Rodrigo_Mora@bcit.ca
+Location | Building NE1, office 248C
+Office Hours | Wednesdays 12 pm to 2 pm.
+### Course Description
 The course provides advanced understanding of the physical and environmental interconnections between the building and the local urban environment in the context of the local climate, while considering humans as integral receivers and enablers of the built environment. Topics include, atmospheric circulations as affected by oceans and land, the large scale weather context for buildings and the influence of small scale circulations and local weather; local wind and solar radiation; urban heat island (UHI); thermal and water balances and effects in urban microclimates; building-urban green-house gas (GHG) mitigation; building-urban adaptation to climate change; adaptive human comfort and environmental health; and human responses and adaptations to the built environment. Students will conduct measurements on the built environment, analyze environmental data, and build mathematical models to simulate strategies and systems to achieve more interconnected and sustainable built environments.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Demonstrate a basic understanding of the fundamentals of fluid dynamics relevant to building performance including conservation equations, limiting forms of the Navier-Stokes equations, high Reynolds number flows, boundary layer concepts, and turbulence.
 - Explain macro- and meso-scale atmospheric circulations and their effects on local weather events, including the influences of ocean and land masses and topographical influences, in the British Columbian context.
 - Evaluate wind and rain loads on buildings by applying empirical approaches based on concepts of the atmospheric boundary layer, wind velocity gradients, the power law for wind pressures, topographical and urban influences, building geometry and pressure coefficients, wind-driven rain, and water detention/retention on site.
@@ -41,8 +44,7 @@ Upon successful completion of this course, the student will be able to:
 - Communicate building science priorities related to the sustainability of the built environment with colleagues of other disciplines, while considering practical multi-disciplinary challenges and constraints.
 - Discuss the impacts, roles and responsibilities of engineers to protect the public and property, while considering social and environmental implications of decisions and actions.
 - Apply research principles and methods, and develop research plans to investigate building science environmental and climate related issues.
-
-## Learning Resources
+### Learning Resources
 - Urban Climates, T.R. Oke, G. Mills, A. Christen, and J.A. Voogt, 2017, Cambridge University Press.
 - Essentials of meteorology: an invitation to atmosphere, Donald Ahrens, 6th Ed., 2008, Brooks/Cole.
 - Boundary layer climates, T.R. Oke, 2nd Edition, 1987, Roudledge.
@@ -51,60 +53,48 @@ Upon successful completion of this course, the student will be able to:
 - ASHRAE Handbook of Fundamentals 2021: F09, F10, F13, F14, F15, F16, F24
 - ANSI-ASHRAE standard 55-2020: Thermal environmental conditions for human occupancy
 - Adaptive Thermal Comfort: Principles and Practice, by F. Nicol, M. Humphreys, and S. Roaf; Earthscan-Roudledge, Taylor & Francis Group, 2012.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 10%: Assignments help students gain knowledge and skills towards the projects. Reading material will be evaluated in the exams. The course project is modeling-based. It involves the research of a practical building environmental sustainability problem. The project evaluation will use the Professionalism and Research Rubrics provided. The project evaluation requires demonstrating competence in communication and professional autonomy. These are evaluated in the writing and the presentation of the project, as well as based on the students’ ability to critically defend and support the ideas, and the significance of research problems and proposed solutions in classroom discussions.
-Mid-term exam: 20%
-Final exam: 20%
-Project communication and professionalism: 20%
-Course project final report: 30%
-TOTAL: 100%
-
-## Course Schedule and Assignments
-Week: Date: Topic: Assignments
-1: Jan 7: Introduction to building environment and climate: the climate change, ethics and professionalism
-2: Jan 14: Thermal comfort (thermal balance approach)
-3: Jan 21: Thermal comfort (adaptive model): #1 Thermal comfort
-4: Jan 28: Thermal comfort and climate change
-5: Feb 4: Passive and climate-adaptive building systems: theory and modeling principles
-6: Feb 11: Passive and climate-adaptive building systems: theory and modeling principles
-7: Feb 18: Passive and climate-adaptive building systems: theory and modeling principles: #2 Modeling passive
-8: Feb 25: Passive and climate-adaptive building systems: theory and modeling principles
-9: Mar 4: Mid-term exam Weather & building environmental data analysis
-10: Mar 11: Climate change, future weather data
-11: Mar 18: Fundamentals of meteorology: #3 Data analysis
-12: Mar 25: The climate of Vancouver
-13: Apr 1: Urban heat island
-14: Apr 8: Final exam
-15: Apr 15: Project presentations
-
-## BCIT Policy
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 10% | Assignments help students gain knowledge and skills towards the projects. Reading material will be evaluated in the exams. The course project is modeling-based. It involves the research of a practical building environmental sustainability problem. The project evaluation will use the Professionalism and Research Rubrics provided. The project evaluation requires demonstrating competence in communication and professional autonomy. These are evaluated in the writing and the presentation of the project, as well as based on the students’ ability to critically defend and support the ideas, and the significance of research problems and proposed solutions in classroom discussions.
+Mid-term exam | 20%
+Final exam | 20%
+Project communication and professionalism | 20%
+Course project final report | 30%
+TOTAL | 100%
+### Course Schedule and Assignments
+Week | Date | Topic | Assignments
+1 | Jan 7 | Introduction to building environment and climate: the climate change, ethics and professionalism
+2 | Jan 14 | Thermal comfort (thermal balance approach)
+3 | Jan 21 | Thermal comfort (adaptive model) | #1 Thermal comfort
+4 | Jan 28 | Thermal comfort and climate change
+5 | Feb 4 | Passive and climate-adaptive building systems: theory and modeling principles
+6 | Feb 11 | Passive and climate-adaptive building systems: theory and modeling principles
+7 | Feb 18 | Passive and climate-adaptive building systems: theory and modeling principles | #2 Modeling passive
+8 | Feb 25 | Passive and climate-adaptive building systems: theory and modeling principles
+9 | Mar 4 | Mid-term exam Weather & building environmental data analysis
+10 | Mar 11 | Climate change, future weather data
+11 | Mar 18 | Fundamentals of meteorology | #3 Data analysis
+12 | Mar 25 | The climate of Vancouver
+13 | Apr 1 | Urban heat island
+14 | Apr 8 | Final exam
+15 | Apr 15 | Project presentations
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Rodrigo Mora, Instructor January 02, 2025
-
 I verify that this course outline has been reviewed. Fitsum Tariku, Director January 02, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Guido Wimmers, Dean January 06, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

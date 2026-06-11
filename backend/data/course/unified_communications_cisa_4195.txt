@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/unified-communications-cisa-4195/
+Title: Unified Communications CISA 4195
+Type: Course
+Course Code: CISA 4195
+
+================================================================================
+
+## Unified Communications CISA 4195
+Computer Info Systems Admin Course
+## Course Overview
+This course teaches students how to deploy, configure, and administer a Unified Communication Server solution. The course emphasizes Enterprise Voice features from a deployment and configuration perspective. The labs in this course build on each other to create a solution that includes IM and Presence, Conferencing, and Enterprise Voice features. Students will learn how to implement, maintain, and deploy a communications server. This course also covers integration with legacy or IP PBX systems. Students will learn how to integrate a communications server with support for Exchange Unified Messaging.
+### Prerequisite(s)
+- Completion of year one.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the functionality of a Communications Server and the features it would provide.
+- Describe networking protocols used to provide service for voice and video traffic.
+- Configure a directory service and network infrastructure for a communications server.
+- Deploy a communications server.
+- Install, configure, and support communications Server clients.
+- Implement an Instant Messaging solution by using Communications Server.
+- Implement a Group Chat solution by using Communications Server.
+- Implement a conferencing solution by using Communications Server.
+- Deploy and maintain telephony by using Communications Server.
+- Configure archiving and monitoring to maintain legal and internal corporate compliance in an organization.
+- Monitor and maintain a Communications Server
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

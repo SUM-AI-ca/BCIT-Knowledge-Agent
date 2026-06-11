@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-2-cisa-1230/
+Title: Network Operating Systems 2 CISA 1230
+Type: Course
+Course Code: CISA 1230
+
+================================================================================
+
+## Network Operating Systems 2 CISA 1230
+Computer Info Systems Admin Course
+## Course Overview
+Building upon concepts and skills from CISA 1130 , students will learn how to install, configure, and administer Active Directory Services on the most recent Microsoft server platform. This course teaches students through lectures, discussions, demonstrations, textbook exercises, and classroom labs. Students learn to plan for, implement, and maintain forests, sites, domains, and organizational units that meet the accessibility, performance, and security goals of a production network. Students will use Group Policy to deploy software and configure a computer or user environment. In addition, students configure Name Resolution Services and Certificate Services. Finally, students learn troubleshooting techniques that are valuable for the maintenance of a network environment.
+### Prerequisite(s)
+- Successful completion of CISA Level 1 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the components of Active Directory (AD).
+- Install Active Directory Domain Services and configure Domain Controller Roles.
+- Assess the domain and forest functional levels.
+- Describe the trust models used by Active Directory.
+- Determine a site strategy based on the physical network infrastructure.
+- Optimize the placement of global catalog servers.
+- Describe Flexible Single Master Operation (FSMO).
+- Implement local, global, domain local, and universal groups.
+- Use scripting tools to modify, create, and delete multiple users and groups.
+- Configure security settings including fine-grained password policies.
+- Describe the Default Domain Policy and the Default Domain Controllers Policy.
+- Explain Group Policy processing during computer startup and user logon.
+- Configure disk quotas using Group Policy.
+- Use Group Policy to install, manage, and maintain software applications.
+- Configure Software Restriction Policies.
+- Implement guidelines and procedures for monitoring Active Directory.
+- Differentiate and choose the appropriate tools for diagnosing Active Directory problems.
+- Describe the role of the Domain Name System (DNS) in an Active Directory environment.
+- Describe Active Directory Domain Services and DNS integration.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

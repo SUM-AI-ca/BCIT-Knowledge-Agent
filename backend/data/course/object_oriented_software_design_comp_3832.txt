@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/object-oriented-software-design-comp-3832/
+Title: Object Oriented Software Design COMP 3832
+Type: Course
+Course Code: COMP 3832
+
+================================================================================
+
+## Object Oriented Software Design COMP 3832
+Computer Systems Course
+## Course Overview
+​ COMP 3832 will be replaced with COMP 3833 starting September 2023. This hands-on course follows on from COMP 2831 Business Analysis and Systems Design and replaces COMP 3831 . Object-oriented software design includes Object-Oriented Analysis and Design (OOAD). COMP 3832 is aimed at systems analysts, designers and developers who already know how to write code and understand the Software development Life Cycle (SDLC). Exercises and lab work allow students to perform an Object-Oriented Analysis (OOA) based on given requirements. After first identifying business classes students then produce a business model which will be transformed into a design model through Object-Oriented Design (OOD). Topics include: design patterns, anti-patterns, refactoring and General Responsibility Assignment Software Patterns (GRASP). An Agile iterative approach will be followed throughout the OOAD process. Labs include the use of a CASE tool to draw the Unified Modeling Language (UML) diagrams necessary to support the OOAD activities. Upon completion successful students will be able to demonstrate the ability to analyze, design and construct software applications to industry standards. This course is offered in the fall (September) and spring (April) terms.​
+### Prerequisite(s)
+- 60% in COMP 2831 and (60% in COMP 2601 or 60% in COMP 2526 )
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain iterated OOAD including planning for an iteration, the steps, artifacts and activities inside of an iteration.
+- Identify Actors and Primary Use Cases from requirements and draw use case diagrams.
+- Identify business classes, attributes and relationships and construct the business model.
+- Be proficient in creating UML diagrams for analysis and design: use case, class, sequence, collaboration, activity and state-chart diagrams.
+- Perform Responsibility Driven Design (RDD) by recognizing and applying GRASP design patterns, anti-patterns and refactoring.
+- Identify Inheritance and refine the relationships between classes to further extend the design.
+- Understand the importance of functional code, analyze the user feedback to refine the design and grow the system with every new iteration.
+Effective as of Winter 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

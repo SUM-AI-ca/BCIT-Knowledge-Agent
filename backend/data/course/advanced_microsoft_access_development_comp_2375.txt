@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/advanced-microsoft-access-development-comp-2375/
+Title: Advanced Microsoft Access Development COMP 2375
+Type: Course
+Course Code: COMP 2375
+
+================================================================================
+
+## Advanced Microsoft Access Development COMP 2375
+Computer Systems Course
+## Course Overview
+COMP 2375 is no longer being offered. This course continues from Comp 2374, Microsoft Access, and covers the process of designing applications through the use of basic macros and VBA programming to build an effective database management system. Students will create basic macros in Access, and then progress to the fundamentals of VBA programming within the application. Participants will understand how to create sub procedures, functions, control structures and error handling procedures. Introduction to SQL and ADO objects and methods will also be discussed to enable students to manipulate data using recordsets. By the end of this course, successful participants will be able to enhance productivity with custom Access functions and routine task automation.
+### Prerequisite(s)
+- COMP 2374 or equivalent knowledge of MS Access.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create macros and embed macros onto forms
+- Create conditional macros
+- Understand event driven programming and Access events
+- Build public and private functions and procedures
+- Understand and create variables
+- Work with arrays
+- Use built in Access functions
+- Write IF statements, and For and Do Loops to enhance application functionality
+- Use the VBA debugging facility and create error handling procedures
+- Understand ADO technology and SQL to manipulate data record sets
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

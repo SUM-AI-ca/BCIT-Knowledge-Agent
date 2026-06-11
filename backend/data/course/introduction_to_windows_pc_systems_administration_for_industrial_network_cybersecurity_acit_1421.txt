@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/introduction-to-windows-pc-systems-administration-for-industrial-network-cybersecurity-acit-1421/
+Title: Introduction to Windows PC Systems Administration for Industrial Network Cybersecurity ACIT 1421
+Type: Course
+Course Code: ACIT 1421
+
+================================================================================
+
+## Introduction to Windows PC Systems Administration for Industrial Network Cybersecurity ACIT 1421
+Computer Information Technology Course
+## Course Overview
+This course introduces the skills necessary to administer a Windows personal computer (PC) that will be connected to an industrial network. The concepts developed in this course prepares students for the Linux Systems Administration for Industrial Network Cybersecurity course in term two. Topics include: an introduction to PC hardware, functions of an operating system (OS), Windows OS architecture, file and disk management, BIOS and UEFI, multi-boot, virtual machines, software installation/removal, performance tuning, backing up and protecting data, troubleshooting, networking, security, virus protection, firewalls, and Windows PC hardening for connection to an industrial network.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the purpose of different PC hardware components. (2)
+- Discuss the features and services provided by a typical PC operating system. (2)
+- Describe the architecture of the Windows OS. (2)
+- Customize BIOS and UEFI settings. (3)
+- Configure a PC as a multi-boot device. (3)
+- Explain OS virtualization on a Windows PC. (2)
+- Implement a Virtual Machine on a Windows PC. (4)
+- Manage partitions, files, and folders on a Windows PC. (3)
+- Perform backup and restoration of data files on a Windows PC. (3)
+- Use Windows System Restore capabilities to recover the Windows OS. (3)
+- Manage Windows PC software (install, update, and remove). (3)
+- Manage a Windows PC using the Windows Control Panel. (3)
+- Use Windows PowerShell for basic Windows PC management operations. (3)
+- Manage Windows OS services (start, stop, and disable). (3)
+- Perform performance tuning on a Windows PC. (3)
+- Configure Windows PC firewall and security settings. (3)
+- Implement Windows PC hardening for an industrial environment. (4)
+Effective as of Fall 2019
+## Related Programs
+Introduction to Windows PC Systems Administration for Industrial Network Cybersecurity (ACIT 1421) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/outlines/20251085036/
+Course: GEOM 8165
+Field: Advanced Digital Mapping
+Subject: Geomatics
+Term: 202510
+CRN: 85036
+
+================================================================================
+
+## Course Outline
+## GEOM 8165
+## Advanced Digital Mapping
+School | School of Construction and the Environment
+Program | Geomatics
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | January 06, 2025
+End Date | April 25, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | GEOM 4070 or equivalent
+CRN | 85036
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Mohamed Abdel-Salam
+E-mail | mohamed_abdelsalam@bcit.ca
+Location | SW02-317
+Office Hours | Office hours: Thursdays 2:30 pm to 5:30 pm Fridays 3:30 pm to 5:30 pm
+### Course Description
+This course presents a broad range of techniques and products currently used in the field of digital mapping. It provides training in the application of photogrammetry with an emphasis on project planning and management. The topics covered include mapping project design; digital data capture, editing, and terrain modeling; cartographic presentation; orthophoto production; project planning and management.
+### Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+Map Compilation and Processing
+- Identify the differences between digital and film aerial cameras.
+- Perform orientations in order to create a stereo model.
+- Capture planimetric and DEM data for a mapping project using a softcopy workstation.
+- Identify different mapping devices and list their advantages and disadvantages.
+- Determine the type of photography, flying height and focal length to achieve optimal efficiencies and accuracy for a given mapping project.
+- Design targets and layouts for different photo scales.
+Orthophoto Production
+- Describe different image formats used by industry.
+- Rectify an orthophoto using raw scans, ground control and a digital elevation model.
+- Describe the types of problems found in modern orthophoto production and how these problems can be overcome.
+Mapping Project Design, Planning and Management
+- Advise a client on the types of systems, techniques and products that would be most effective in achieving their mapping requirements, given a set of project specifications.
+- Design a mapping project based on achieving a set of given product and accuracy criteria.
+Identify the newest technologies that are being adopted by the photogrammetric industry
+- Collect data using terrestrial photogrammetry.
+- Define Mobile Mapping.
+- Plan an UAS mapping mission given certain criteria and process UAS imagery to generate the requested product.
+### Learning Resources
+Learning Resources:
+Instructor supplied class notes and lecture material.
+Optional reference Material.
+- Wolf PR, Dewitt BA, Wilkinson BE. Elements of Photogrammetry with Application in GIS . (4th Edition), McGraw-Hill Professional; 2013.
+- Li Z, Zhu C, Gold C. Digital Terrain Modeling, Taylor & Francis; 2004.
+- https://www.suasnews.com/wp-content/uploads/2015/08/Texas-Memorial-Day-Floods-A-White-Paper.pdf
+- https://droneanalyst.com/2016/07/19/drones-public-safety-first-responder-operations
+- https://www.mdpi.com/1999-4907/8/3/68
+- https://www.sciencedirect.com/science/article/abs/pii/S0160791X23000477
+- https://summit.sfu.ca/item/36106
+- https://www.navcanada.ca/en/flight-planning/drone-flight-planning/nav-drone-support.aspx
+- https://tc.canada.ca/en/corporate-services/acts-regulations/list-regulations/canadian-aviationregulations-sor-96-433
+- https://tc.canada.ca/en/aviation/publications/transport-canada-aeronautical-information-manual-tc-aimtp-14371
+- https://www.mdpi.com/2504-446X/7/6/398
+- https://ijees.org/index.php/ijees/article/view/47
+### Evaluation Criteria
+Criteria | % | Comments
+Lab assignments | 40 | 11 Lab assignments with equal weight
+Mid term exam | 20
+Final term exam | 40
+### Attendance Requirements
+Attendance is per the BCIT policy
+### Course Schedule and Assignments
+Week | Module | Date | Lecture | Lab assignment
+1 | Thu Jan 09, 2025 | Class Introduction
+2 | M1 | Thu Jan 16, 2025 | Aspects of Photogrammetry (1) | Assignment #1, due date: Thu Jan 23, 2025, 8:30 AM
+3 | M2 | Thu Jan 23, 2025 | Aspects of Photogrammetry (2) | Assignment #2, due date: Thu Jan 30, 2025, 8:30 AM
+4 | M3 | Thu Jan 30, 2025 | Mapping with Digital Stereo Workstation | Assignment #3, due date: Thu Feb 06, 2025, 8:30 AM
+5 | M4 | Thu Feb 06, 2025 | Terrain Surface Representation | Assignment #4, due date: Thu Feb 13, 2025, 8:30 AM
+6 | M5 | Thu Feb 13, 2025 | Airborne Orthophoto | Assignment #5, due date: Thu Feb 20, 2025, 8:30 AM
+7 | M6 | Thu Feb 20, 2025 | Drone Orthophoto | Assignment #6, due date: Thu Feb 27, 2025, 8:30 AM
+8 | M7 | Thu Feb 27, 2025 | Terrestrial Photogrammetry | Assignment #7, due date: Thu March 06, 2025, 8:30 AM
+9 | Thu Mar 06, 2025 | Mid Term Exam
+10 | Thu Mar 13, 2025 | Spring Break
+11 | M8 | Thu Mar 20, 2025 | Aerial Photo Standards & Metadata | Assignment #8, due date: Thu March 27, 2025, 8:30 AM
+12 | M9 | Thu Mar 27, 2025 | Photogrammetry Projects Planning and Cost Estimation | Assignment #9, due date: Thu Apr 03, 2025, 8:30 AM
+13 | M10 | Thu Apr 03, 2025 | Photogrammetry Applications | Assignment #10, due date: Thu April 10, 2025, 8:30 AM
+14 | M11 | Thu Apr 10, 2025 | Photogrammetry Applications | Assignment #11, due date: Thu April 17, 2025, 8:30 AM
+15 | Final Term Exam
+*Please note that modules & schedule are subject to change.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Mohamed Abdel-Salam, Instructor January 07, 2025
+I verify that this course outline has been reviewed. Mark Dailey, Program Head January 08, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 09, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

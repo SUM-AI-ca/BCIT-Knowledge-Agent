@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/microsoft-windows-server-administration-part-2-comp-3681/
+Title: Microsoft Windows Server Administration Part 2 COMP 3681
+Type: Course
+Course Code: COMP 3681
+
+================================================================================
+
+## Microsoft Windows Server Administration Part 2 COMP 3681
+Computer Systems Course
+## Course Overview
+​If you have completed COMP 3677 , you may register for COMP 3681 for the last time in February 2025. This hands-on course will be replaced by COMP 3682 Microsoft Sever Administration, as of April 2025. ​ COMP 3681 is the second part of series in Microsoft Windows Server Administration courses. Students who have successfully completed COMP 1002 or COMP 2629 and who already have an understanding data communication concepts and networking terminology, will now explore MS Windows Server Administration. This hand-on course is MS Windows server 2019 specific, so those who have taken prior versions may benefit for better migration planning to newer Windows Server versions and the Microsoft Azure environment. There will be a brief review of COMP 3677 , before in-depth exercises and labs that focus on creating, deploying, optimizing and maintaining MS Windows Server from an administrator's perspective. COMP 3681 provides a more detailed examination installing and configuring the MS Windows Server with a focus on Active Directory Domain Services and Azure Active Directory Services. Labs and exercises include how to implement and test Roaming Profiles for clients with Group and local Security Policies. Topics include: Industry standard strategies and planning for Dynamic Host Configuration Protocol (DHCP) services, Remote Desktop Services (RDS) and Virtual Private Networks (VPN). Students planning to work as Network Administrators would also benefit from COMP 3771 – MS PowerShell Scripting. Upon completion, successful students will be able to install, configure and manage MS Windows Severs, and have experience with the best practices in user account management. They will also be able to use built-in MS Windows Server troubleshooting tools, monitor performance, manage security and establish recovery plans.
+### Prerequisite(s)
+- 60% in COMP 1002 or 60% in COMP 2629 and 60% in COMP 3677
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and Configure MS Windows 2019 Server.
+- Plan, design and implement Active Directory Domain Services and Azure Active Directory Services.
+- Review how to manage users, groups, shares, and file permissions.
+- Implement and test Roaming profiles for clients.
+- Review, plan and implement Group Policies and Local Security Policies.
+- Plan and implement the following on MS Windows Server: Dynamic Host Configuration Protocol (DHCP) services; Remote Desktop Services (RDS) and Virtual Private Networks (VPN).
+- Setup Print Servers using universal print drivers or manufacturer's provided driver.
+- Explain best practices and use built-in tools for MS Windows Server: Disaster recovery; Monitoring; Performance tuning; Planning and implementing backups; Task Automation and Troubleshooting.
+Effective as of Spring/Summer 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

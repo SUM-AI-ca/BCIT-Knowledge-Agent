@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/sharepoint-foundation-development-comp-3972/
+Title: SharePoint Foundation Development COMP 3972
+Type: Course
+Course Code: COMP 3972
+
+================================================================================
+
+## SharePoint Foundation Development COMP 3972
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 2870 –ASP.NET with C# and using labs and assignments to explore SharePoint development techniques. Students who are Object-oriented programmers and familiar with ASP.NET Web Application development are introduced to development on SharePoint 2010 Foundation platform. Topics include: Introduction to IIS 7.x, Foundation’s Object Model, Web Parts, Client Object Model, LINQ to SharePoint, Lists, Features, Event Handlers, Sandbox Solutions, External Data Access via BCS, Workflow capabilities and accessing SP data from Javascript and Silverlight Clients. Office 365 -cloud based SharePoint offering from Microsoft is discussed. By the end of this course successful participants learn to build customized SharePoint 2010 Foundation solutions with SharePoint data and external data.
+### Prerequisite(s)
+- COMP 2870 -ASP.NET with C# or equivalent knowledge.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the SharePoint 2010 Development Platform.
+- Use SharePoint 2010 Developer Tools to build custom applications.
+- Build and deploy web parts as part of SharePoint 2010 solutions.
+- Develop event handlers to customize sites.
+- Develop solutions that work with SharePoint data and external data.
+- Develop solutions that leverage the Client Object Model of SharePoint 2010.
+- Understand and leverage the SharePoint 2010 security model.
+- Explore workflow capabilities as part of SharePoint 2010 solutions.
+- Develop Sandboxed solutions for SharePoint 2010.
+- Leverage LINQ to SharePoint.
+- Access SharePoint Data in Silverlight Applications.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

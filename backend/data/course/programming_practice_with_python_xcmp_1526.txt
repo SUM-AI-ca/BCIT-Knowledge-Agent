@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/programming-practice-with-python-xcmp-1526/
+Title: Programming Practice with Python XCMP 1526
+Type: Course
+Course Code: XCMP 1526
+
+================================================================================
+
+## Programming Practice with Python XCMP 1526
+Computing Microcredential Course
+## Course Overview
+Picking up where XCMP 1516 leaves off, learn to design and implement solutions to larger problems. Learn more containers, debugging tools and tricks, file input/output, pattern matching, exception handling and an introduction to object-oriented programming (the most popular paradigm).
+### Prerequisite(s)
+- 60% in XCMP 1516
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Choose the appropriate data structure for modeling a given problem.
+- Write programs that use primitive data types, variables, expressions, and command line I/O.
+- Write programs that use each of the following data structures: lists, strings, sets, and dictionaries.
+- Write programs that use file I/O to provide persistence across multiple executions.
+- Design and implement a class.
+- Utilize Regular expressions to build search patterns.
+- Apply a variety of strategies to the testing and debugging of simple programs.
+Effective as of Fall 2022
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

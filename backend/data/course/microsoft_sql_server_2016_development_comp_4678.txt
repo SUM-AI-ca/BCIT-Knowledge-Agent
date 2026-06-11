@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/microsoft-sql-server-2016-development-comp-4678/
+Title: Microsoft SQL Server 2016 Development COMP 4678
+Type: Course
+Course Code: COMP 4678
+
+================================================================================
+
+## Microsoft SQL Server 2016 Development COMP 4678
+Computer Systems Course
+## Course Overview
+COMP 4678 has been replaced with COMP 3678 ​ ​starting Winter (January) 2024. Following on from COMP 1630 , students who already understand data modeling, relational database design and SQL are provided with an in-depth understanding of designing and implementing MS SQL 2016 Server databases advanced T-SQL and scripting methods. There is an overview of BI tools (MS SQL Server Reporting Services, MS SQL Server Integration Services) and comparisons between different editions of MS SQL Server. Topics include: architecture, new SQL 2016 components, T-SQL review, new T-SQL constructs for SQL Server 2016, programmable objects, security for the database developer and performance tuning procedures. Exercises and labs help students obtain a thorough understanding of Microsoft SQL Server 2016 from a database developer perspective, with a focus on how to create views, stored procedures and triggers. Successful participants will be able use procedural code in TSQL and .NET to develop and manage the data layer for software applications. Please note: COMP 4678 will be offered for the last time in the spring (April) 2023 term.​
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+- Upon successful completion of this course, the student will be able to:
+- Use MS SQL Server 2016 tools.
+- Enumerate MS SQL Server 2016 features and components.
+- Create databases, tables, indexes using T-SQL and Management Studio.
+- Describe MS SQL Server 2016 security architecture.
+- Utilize MS SQL 2016 tools and components.
+- Create and alter database table definitions using DDL.
+- Write T-SQL queries.
+- Handle Transact-SQL runtime errors.
+- Develop functions and procedures in .NET CLR.
+- Create views, stored procedures, triggers in Transact-SQL.
+- Manipulate XML data with MS SQL 2016.
+- Use MS SQL Server 2016 Geospatial data types.
+- Integrate managed code with MS SQL Server 2016.
+- Describe performance tuning procedures in MS SQL Server 2016.
+Effective as of Fall 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

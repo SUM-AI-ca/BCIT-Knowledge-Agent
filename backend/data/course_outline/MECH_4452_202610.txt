@@ -1,0 +1,111 @@
+URL: https://www.bcit.ca/outlines/20261093169/
+Course: MECH 4452
+Field: Automation and Robotics
+Subject: Mechanical Engineering
+Term: 202610
+CRN: 93169
+
+================================================================================
+
+## Course Outline
+## MECH 4452
+## Automation and Robotics
+School | School of Energy
+Program | Mechanical Engineering Diploma - Mechanical Design option
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 60
+Total Weeks | 20
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | 50% in MECH 3330 and 50% in MECH 3356
+CRN | 93169
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Jalal Taheri Kahnamouei
+E-mail | jalal_kahnamouei@bcit.ca
+Location | SW9- 202
+Office Hours | By Appointment. Note: To ensure an accurate and timely response to your email, please use your @my.bcit.ca account, and include a signature with your full name, student number, program, and set. If you do not include this information, your inquiry may not be addressed.
+### Course Description
+​The course covers the fundamentals of automation systems and the role of automation in industry. Topics include industrial automation, digital twin, Proportional-integral-derivative (PID) control, actuator sizing, Programming Logic Controllers [PLCs], electro-hydraulic and electro-pneumatic control systems, and an introduction to robotics. It covers the basics of industrial robots and cobots as integrated in flexible manufacturing systems. Case studies are presented to demonstrate the applications of automation and robotic systems in industry.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain key elements of modern automation systems such as control technologies, flexible manufacturing systems, industry 4.0, digital twin, and smart factory. [1,2,3]
+- Explain the effect of PID control modes on a control signal in industrial process and motion control systems. [2,3,5]
+- Describe the characteristics of various types of DC and stepper motors, and basics of their position, velocity, and torque control methods. [2] Size electric motors for various transmission systems including lead screws, gear boxes, pulleys, rack and pinions, conveyor systems, and belt-driven systems. [2]
+- Create and simulate simple PLC programs with a simulation software using contacts, coils, timers, and counters. [2,5]
+- Simulate simple automation systems that include PLC, electro-hydraulic and electro-pneumatic circuits, and electric actuators. [2,5]
+- Describe common types of industrial robots and cobots and their main components and applications. [2,3]
+- Interpret a typical industrial robot specification sheet and describe robot safety and communication protocols. [2,3]​
+### Learning Resources
+1. The course text is available online.
+2. Automation, Production Systems, and Computer-Integrated Manufacturing Groover, M. P., Pearson Education.
+3. Introduction to Robotics: Mechanics and Control. Craig, J. J., Pearson Education.
+### Evaluation Criteria
+Criteria | % | Comments
+Labs/Assignments | 20
+Quizzes | 10
+Midterm Exam | 30
+Final Exam | 40
+### Course Specific Requirements
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+Makeup Tests, Exams, or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+Examinations: Only approved calculators and authorized materials are allowed. All other electronic devices, including personal music players, mobile devices (cell phones), and laptops are prohibited.
+Late Assignments: Assignments are expected to be completed and submitted by the posted due dates. Late assignments will not be accepted.
+Students are responsible for all information presented in class, regardless of whether they are present or absent
+### Other information
+Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) accredits bachelor of engineering programs across Canada. To ensure programs graduate well-rounded engineers who are prepared to enter engineering practice, the CEAB requires graduates to possess 12 specific attributes (see below for descriptions). The learning outcomes for each course have been mapped to relevant CEAB graduate attributes. The numbers in [ ] after each learning outcome indicate the graduate attribute to which the learning outcome is mapped.
+CEAB Graduate Attributes
+1. A knowledge base for engineering : Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis : An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation : An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design : An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools : An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work : An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills : An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism : An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment : An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity : An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management : An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning : An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Course Schedule and Assignments
+Week | Lecture Content
+1 | Introduction to Industrial Automation
+2 | Automation Architectures and Industry 4.0
+3 | Electric Actuators and Motion Fundamentals
+4 | Motor Sizing and Transmission Systems
+5 | PLC Fundamentals
+6 | PLC Programming and Sequencing
+7 | Midterm Test
+8 | Control Systems and PID Fundamentals
+9 | PID Applications in Industrial Systems
+Spring Break
+10 | Electro-Pneumatic Control Systems
+11 | Electro-Hydraulic Control Systems
+12 | Digital Twin and Virtual Commissioning
+13 | Industrial Robots and Cobots
+14 | Robot Safety, Communication, and Integrated Automation Systems
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Jalal Taheri Kahnamouei, Instructor January 07, 2026
+I verify that this course outline has been reviewed. Tayfun Aydin, Program Head January 07, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean January 08, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

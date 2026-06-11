@@ -1,0 +1,223 @@
+URL: https://www.bcit.ca/outlines/20251013172/
+Course: MATH 2751
+Field: Statistics for Nuclear Medicine
+Subject: Mathematics
+Term: 202510
+CRN: 13172
+
+================================================================================
+
+## Course Outline
+## MATH 2751
+## Statistics for Nuclear Medicine
+School | School of Health Sciences
+Program | Nuclear Medicine
+Course Credits | 4
+Minimum Passing Grade | 65%
+Start Date | January 06, 2025
+End Date | May 23, 2025
+Total Hours* | 80
+Total Weeks | 20
+Hours/Weeks | 4
+Delivery Type | Lecture/Lab
+Prerequisite(s) | MATH 1751
+CRN | 13172
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Stefan Lukits
+E-mail | slukits@bcit.ca
+Location | SW2 231
+Office Hours | See schedule in the Learning Hub.
+### Course Description
+Emphasizes statistical data treatment and decision making with illustrative nuclear medicine/health applications. Topics include data presentation, statistical aspects of research, concept of meta-analysis, modeling with probability distributions (Binomial, Poisson, Normal), Bayes Rule, receiver operating characteristic (ROC) analysis including both qualitative and quantitative data, statistical inference (estimation and hypothesis testing, p-values), regression and correlation. Applications include descriptive presentations, statistical quality control measures in laboratory work (CV, accuracy chi-squared test on scintillation spectrometer), predictive-value positive of tests, measurement error, using radioactive counts in estimation/testing, counting times and confidence banding.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Describe and construct a cumulative frequency distribution, ogive.
+- Determine measures of central tendency: mean, median and mode for grouped data.
+- Determine measures of dispersion, range and standard deviation for grouped data.
+- Calculate percentiles and quartiles, box and whiskers plots from cumulated data.
+- Discuss three types of measurement error (blunder, systematic, random) and their potential effects.
+- Calculate the coefficient of variation.
+- Explain the importance of the coefficient of variation in quality control work in precision studies.
+- Explain the difference between independent and dependent events, mutually exclusive and not mutually exclusive events, and the addition and multiplication rules in probability theory.
+- Formulate and solve practical problems involving a combination of probability rules.
+- Develop Bayes Rule from the conditional rule for probability.
+- Demonstrate understanding of false-positive, false-negative, sensitivity and specificity, predictive-value positive of tests.
+- Formulate and solve practical problems with Bayes Rule.
+- Create a receiver operating characteristic (ROC) curve using both qualitative and quantitative data and interpret.
+- Define a probability distribution.
+- Define and distinguish between continuous and discrete data.
+- Define the requirements for the Poisson model, its mean and standard deviation.
+- Discuss relevant applications from Nuclear Medicine using the Poisson model (e.g., percent uncertainty, counting rates, effects of background counts, CV modification).
+- Define the requirements for the Binomial model, its mean and standard deviation.
+- Demonstrate the use of the cumulative binomial tables for calculations.
+- Formulate and solve problems using the Binomial and Poisson Probability models.
+- Define z scores.
+- Demonstrate calculations using the normal curve tables.
+- Formulate and practice realistic problems using z scores.
+- Describe the astonishing results of repeated sampling and the Central Limit Theorem.
+- Define the terms sampling distribution and sampling error.
+- Define when the normal distribution is an appropriate approximation to the Binomial and Poisson Distributions.
+- Solve problems using these approximations.
+- Develop a confidence interval for a sample mean based on the results of the Central Limit Theorem.
+- Draw parallels between the sampling distribution of the sample means and three other sampling distributions (difference between means, difference between proportions and proportions) and their corresponding intervals.
+- Use the sampling error of the confidence interval for sample means and proportions to derive a formula for sample size.
+- Estimate required counting times to within a certain percentage uncertainty.
+- Define the null hypothesis, level of significance, alpha and beta errors and ramifications.
+- Apply the six steps on practical problems.
+- Define p-values as an alternative to an established level of significance.
+- Develop a confidence interval and hypothesis tests for radiological counts based on the Poisson model (e.g., differences between counting measurements, Minimum Detectable Activity [MDA]).
+- Demonstrate the relationship between a test of hypothesis and a control chart.
+- Demonstrate the use of t-tables.
+- Do tests of hypothesis for comparison such as Paired-Observation Tests vs. using Independent Random Samples.
+- Read selected journal articles and apply knowledge of hypothesis testing, confidence intervals and counting statistics.
+- Develop the procedure for testing the variance of the scintillation spectrometer from the principles of hypothesis testing (i.e., Is the machine functioning as it should?) and confidence intervals (i.e., an estimate of the way it is functioning based on the sample).
+- Demonstrate the use of the chi-squared tables based on the chi-squared probability distribution.
+- Apply the procedure using realistic data.
+- Recall the method of least squares and review applications involving linear, exponential and power functions.
+- Predict the dependent variable from the independent variable.
+- Discuss assumptions underlying the methods.
+- Discuss the sources of error in this prediction.
+- Construct a confidence band for the least squares line generated from sample data.
+- Calculate the correlation coefficient and the coefficient of determination.
+- Discuss the practical meaning of the correlation coefficient in terms of causation vs. association and for automated data reduction methods.
+- Formulate and solve practical problems using linear regression and correlation.
+- Read selected journal articles and apply knowledge of linear regression and correlation.
+### Learning Resources
+Text(s) and Equipment:
+Required :
+- MATH 2751 Lecture Notes by Kim Nishimura (available at the BCIT Bookstore). A PDF file will also be available on the Learning Hub.
+- A scientific calculator with statistical functions.
+Reference Texts :
+- Biostatistics for the Biological and Health Sciences, Triola and Triola, Pearson/Addison-Wesley, 2006.
+- Probability and Statistics, 11 th edition, Mendenhall, Beaver and Beaver, Thomson/Brooks/Cole, 2003.
+- Physics in Nuclear Medicine, James A. Sorenson and Michael E. Phelps.
+- Nuclear Medicine Technology and Techniques, 7th edition, Christian, Waterstraum-Rich, 2012.
+- For a partial list of reference articles from which example applications will be drawn, see below.
+Partial List of Reference Articles: (Subject to Additions and/or Deletions as Course Progresses)
+- Writing it Up: A Step-by-Step Guide to Publication for Beginning Investigators*, Mark A. Kliewer, Journal of Nuclear Medicine Technology, Vol. 34, No. 1, March 2006 .
+- Diagnostic Accuracy of 18 F-FDG PET in Restaging Patients with Medullary Thyroid Carcinoma and Elevated Calcitonin Levels , Ong et al, Journal of Nuclear Medicine, Vol. 48, No. 4, April 2007.
+- Diagnostic Accuracy of 11 C-Methionine PET for Differentiation of Recurrent Brain Tumors from Radiation Necrosis After Radiotherapy, Terakawa et al, Journal of Nuclear Medicine, Vol. 49, No. 5, May 2008.
+- Myeloablative 131 I-Tositumomab Radioimmunotherapy in TreatingNon-Hodgkin’s Lymphoma: Comparison of Dosimetry Based on Whole-Body Retention and Dose to Critical Organ Receiving the Highest Dose , Rajendran et al, Journal of Nuclear Medicine, Vol. 49, No. 5, May 2008.
+- 18F-FDG PET as a Routine Posttreatment Surveillance Tool in Oral and Oropharyngeal Squamous Cell Carcinoma: A Prospective Study, Krabbe et al, Journal of Nuclear Medicine, Volv. 50, No. 12, December 2009.
+- Improved Detection and Localization of Lower Gastrointestinal Hemorrhage using Subtraction Scintigraphy: Clinical Evaluation, Currie et al, Journal of Nuclear Medicine Technology, Vol. 35, No. 2, June 2007 .
+- Total Thyroidectomy and Adjuvant Radioiodine Treatment Independently Decrease Locoregional Recurrence Risk in Childhood and Adolescent Differentiated Thyroid Cancer, Handkiewicz-Junak et al, Journal of Nuclear Medicine, Vol .48, No. 6, June 2007.
+- Risk Assessment of Posthepatectomy Liver Failure Using Hepatobiliary Scintigraphy and CT Volumetry, Dinant et al, Journal of Nuclear Medicine, Vol. 48, No. 5, May 2007.
+- Comparison Between the Prognostic Value of Left Ventricular Function and Myocardial Perfusion Reserve in Patients with Ischemic Heart Disease, Tio et al, Journal of Nuclear Medicine, Vol. 50, No. 2, Feb 2009 .
+- 68 Ga-Labelled Bombesin Studies in Patients with Gastrointestinal Stromal Tumors: Comparison with 18 F_FDG, Dimitrakopoulou-Strauss et al, Journal of Nuclear Medicine, Vol 48, No. 8, August 2007.
+- Comparison of Image-Derived and Arterial Input Functions for Estimating the Rate of Glucose Metabolism in Therapy-Monitoring 18F-FDG PET Studies , Geus-Oei et al, Journal of Nuclear Medicine, Vol. 47,No. 6, June 2006.
+- Evaluation of the Accumulation of 11C-Methionine with Standardized Uptake Value in the Normal Brain, Uda et al, Journal of Nuclear Medicine, Vol. 51, No. 2, Feb. 2010.
+### Course Goals
+The goals of this course are to:
+- familiarize students with the underlying principles, concepts and terminology of descriptive and inferential statistics, and their basic applications in relevant journals (e.g., Journal of Nuclear Medicine Technology, Diagnostic Imaging, Journal of Nuclear Medicine) and lab QC.
+- learn to use basic statistical procedures aided by calculator computation to collect, summarize, analyze and interpret statistical data as it applies to nuclear medicine.
+### Evaluation Criteria
+Lab Reports | 14%
+Attendance | 6%
+Term Tests (3 @ 20%) | 60%
+Final Examination | 20%
+Total: | 100%
+Note: Minimum passing grade for this course is 65%
+### Course Specific Requirements
+Other Policies Specific to Math 2751
+Assignments: Late assignments will not be accepted for marking. Collaboration for the purpose of enhancing learning is encouraged.
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately .
+Course Outline Changes: The material or schedule specified in this course outline may be changed by the instructor. If changes are required, they will be announced in class.
+Course Credit: Students applying for credit must:
+1. Have achieved at least a B in a previous university science based statistics course.
+2. Write a test during the second week of classes and achieve at least 65% on the test. More complete information packages available on request.
+3. Submit the assignments on Bayes/ROC (early Feb) and the Chi-squared test for the scintillator counter (early May).
+### Other information
+Cheating, Fabrication, Plagiarism, and/or Dishonesty:
+First offence: Any student in the School of Health Sciences in an initial act of academic misconduct - cheating, fabrication, plagiarism , and/or dishonesty will receive a Zero (0) or Unsatisfactory (U) on the particular assignment and may receive a Zero (0) in the course, at the discretion of the Associate Dean.
+Second offence: Any student in the School of Health Sciences in a second act of academic misconduct - cheating, fabrication, plagiarism, and/or dishonesty will receive a Zero (0) or Unsatisfactory (U) on the particular assignment and may receive a Zero (0) in the course, and the Associate Dean will recommend to the BCIT Vice-President Academic and/or President, that the student be expelled from the program.
+### Course Schedule and Assignments
+## Course Schedule
+no labs in first week
+Monday, January 6
+Wednesday, January 8
+Monday, January 13
+Wednesday, January 15
+Monday, January 20
+Wednesday, January 22
+Lab Report due
+Monday, January 27
+Wednesday, January 29
+Lab Report due
+Monday, February 3
+Wednesday, February 5
+Lab Report due
+Monday, February 10
+Wednesday, February 12
+Lab Report due
+Monday, February 17
+Family Day: no class
+Wednesday, February 19
+Lab Report due
+Monday, February 24
+Wednesday, February 26
+Lab Report due
+Monday, March 3
+Term Test A
+Wednesday, March 5
+Lab Report due
+Monday, March 10
+Spring Break: no class
+Wednesday, March 12
+Spring Break: no class
+Thursday, March 13
+Spring Break: no class
+Friday, March 14
+Spring Break: no class
+Monday, March 17
+Wednesday, March 19
+Lab Report due
+Monday, March 24
+Wednesday, March 26
+Lab Report due
+Monday, March 31
+Term Test B
+Wednesday, April 2
+Lab Report due
+Monday, April 7
+Wednesday, April 9
+Lab Report due
+Monday, April 14
+Wednesday, April 16
+Lab Report due
+Monday, April 21
+Easter Monday: no class
+Wednesday, April 23
+Lab Report due
+Monday, April 28
+Term Test C
+Wednesday, April 30
+Lab Report due
+Monday, May 5
+Wednesday, May 7
+Lab Report due
+Monday, May 12
+Wednesday, May 14
+Lab Report due
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Stefan Lukits, Instructor December 20, 2024
+I verify that this course outline has been reviewed. David Holloway, Program Head December 30, 2024
+I verify that this course outline has been reviewed. Thomas Wong, Program Head December 30, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 30, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

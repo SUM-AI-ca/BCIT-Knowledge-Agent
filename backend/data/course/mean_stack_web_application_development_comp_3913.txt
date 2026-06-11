@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/mean-stack-web-application-development-comp-3913/
+Title: MEAN Stack Web Application Development COMP 3913
+Type: Course
+Course Code: COMP 3913
+
+================================================================================
+
+## MEAN Stack Web Application Development COMP 3913
+Computer Systems Course
+## Course Overview
+​MEAN is an open-source JavaScript software stack for building and deploying dynamic websites and platform independent web applications. This intensive, hands-on course follows on from COMP 2015 Introduction to JavaScript and jQuery, COMP 2909 AngularJS and COMP 2912 Node.js Fundamentals. Students for MEAN Stack Web Application Development must have completed these specific prerequisites and have solid web scripting abilities in HTML5 and CSS3. MEAN is an acronym for MongoDB, Express, Angular.js and Node.js, which all use standard JavaScript. This course starts with a review of Node.js, then students will build a website with Node.js and Express. Labs and exercises introduce MogoDB and how to access MongoDB data with Node.js. There is also a review of AngularJS then hands-on labs and assignments reinforce how to use AngularJS with Node.JS. The open source Visual Studio Code IDE will be used to facilitate coding, testing and debugging MEAN Stack web applications. MEAN Stack web applications can be written in one language for both server-side and client-side execution environments. Upon successful completion of COMP 3913 , participants will be able to develop secure data-driven business web applications. PLEASE NOTE: This course is offered for the final time in February 2019.
+### Prerequisite(s)
+- COMP 2015 and COMP 2909 and COMP 2912
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Review Node.js and introduce Express.
+- Develop a website with Node.js and Express.
+- Introduce MongoDB and how to access data with Node.js
+- Create an API with Node.js, Express & MongoDB.
+- Review Angular.JS and how it can be used to access data through a Web API.
+- Discuss how to secure a MEAN Stack web application.
+- Deploy a dynamic website and a platform independent web application.
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

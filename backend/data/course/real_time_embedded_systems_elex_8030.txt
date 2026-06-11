@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/real-time-embedded-systems-elex-8030/
+Title: Real-Time Embedded Systems ELEX 8030
+Type: Course
+Course Code: ELEX 8030
+
+================================================================================
+
+## Real-Time Embedded Systems ELEX 8030
+Electrical and Computer Engineering Course
+## Course Overview
+This course covers software and hardware design for real-time embedded systems. Topics include real-time implementation of DSP algorithms, code and hardware optimization for speed and power, real-time operating systems, reliable operation, and overall system architecture. In the laboratory, students will apply selected concepts learned in the lectures by implementing them on a development board centered around a DSP-oriented microcontroller. This course uses C as the programming language. There is some interaction with assembly code. Tutorial time early in the course is available to bring students back up to speed on selected topics such as C programming.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Select a processor or other implementation platform for the real-time embedded task at hand.
+- Design and implement hardware interfaces, including the related software.
+- Understand real-time operating system concepts including scheduling, interrupt handling, context switching, task synchronization, and resource sharing.
+- Predict and measure real-time performance.
+- Consider all aspects, including software and hardware, and technical and non-technical concepts, in the design of real-time embedded systems.
+Effective as of Winter 2015
+## Related Programs
+Real-Time Embedded Systems (ELEX 8030) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electronics Bachelor of Technology Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/practical-color-management-mdia-1144/
+Title: Practical Color Management MDIA 1144
+Type: Course
+Course Code: MDIA 1144
+
+================================================================================
+
+## Practical Color Management MDIA 1144
+Media Communications Course
+## Course Overview
+This course takes a practical approach to real world colour management implementation for common devices including iPhones, iPads, laptops, desktop monitors, and inkjet printers. You will use X-rite Display Pro’s and X-rite Color Munki devices to profile both displays and printers. You will explore the basics of colour theory, how to apply ICC Profiles to achieve colour accurate results in your workflows, and simulate a proofing or printing process on screen and on a local inkjet printer. You will use standard software, such as Photoshop, Acrobat, and InDesign on Windows or Macintosh.
+### Prerequisite(s)
+- 50% in MDIA 1170 or 50% in MDIA 1180
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, you will be able to:
+- Define the colour event that allows us to see colour.
+- Describe the role of colour management in achieving consistent appearance between proofing cycles and final printed production.
+- Calibrate computer monitors, iPhones, iPads, and other mobile devices in preparation for assigning Display Profiles, and creating a soft proofing environment to simulate printed output.
+- Analyze the four main steps to implementing colour management to achieve consistent colour reproduction.
+- Describe what an ICC profile achieves.
+- Explain how rendering intents affect desired results.
+- Differentiate between source and output profiles.
+- Describe the importance of colour gamut, and the physical limitations between RGB and CMYK.
+- Apply colour profiles in Adobe applications to soft proof and manage a local printing device.
+- Analyze device variability to determine the realistic tolerance in manufacturing and measuring variances.
+- Determine and set process control procedures, track milestones for output devices, and maintain constant repeatable operating conditions needed for successful colour management.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

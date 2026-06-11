@@ -1,0 +1,50 @@
+URL: https://www.bcit.ca/courses/advanced-cam-applications-mtec-8012/
+Title: Advanced CAM Applications MTEC 8012
+Type: Course
+Course Code: MTEC 8012
+
+================================================================================
+
+## Advanced CAM Applications MTEC 8012
+Manufacturing Course
+## Course Overview
+Furthers the student's knowledge of Computer Numerical Control (CNC) using CAM software for programming parts requiring machining in 3 dimensions. Topics include defining alternate coordinate systems to assist in complex geometry creation, surface modeling and machining, fourth axis contouring and fourth and fifth axis positioning. Some of the programs may be proved out on BCIT's CNC machine tools.
+### Prerequisite(s)
+- 50% in AICO 1010 or 50% in MANU 3312 or 50% in MANU 3318
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Formulate machining plans for 3-dimensional parts containing complex surfaces.
+- Select cutting tool geometry.
+- Estimate feed rates and depths of cut.
+- Evaluate options for machining direction.
+- Determine requirements for multi-axis machining.
+- Create CAD models using SmartCAM
+- Identify views and work planes required to define part geometry and cutter orientation.
+- Determine surface types necessary to model parts correctly.
+- Select primitives to model basic part geometry.
+- Refine geometry using surface modification and editing tools.
+- Recognize part features that may cause machining problems.
+- Create toolpath models.
+- Plan rough and finish cuts.
+- Calculate offsets for different tool types.
+- Incorporate 4th and 5th axis positioning and/or contouring where necessary.
+- Edit toolpath surfaces.
+- Develop rough tool movements for bulk material removal.
+- Generate CNC programs from toolpath models using SmartCAM code generators.
+- Verify CNC code files.
+- Inspect toolpath using Vericut software.
+- Assess the validity of the toolpath.
+- Machine a test part using CNC machine tools.
+- Automate the programming of families of parts using MACROs.
+- Explain the basic purpose of macro programming.
+- Edit existing macros to machine families of parts.
+Effective as of Fall 2003
+## Related Programs
+Advanced CAM Applications (MTEC 8012) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Manufacturing Bachelor of Technology Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

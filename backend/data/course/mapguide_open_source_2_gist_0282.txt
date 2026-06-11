@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mapguide-open-source-2-gist-0282/
+Title: MapGuide Open Source 2 GIST 0282
+Type: Course
+Course Code: GIST 0282
+
+================================================================================
+
+## MapGuide Open Source 2 GIST 0282
+Geographic Information Systems Course
+## Course Overview
+Continuing from MapGuide Open Source 1, students explore the server-side and client-side APIs that MapGuide Open Source provides. Students also learn to program with other GIS technologies, such as Google Earth, Google Maps, Oracle Spatial, and PostgreSQL PostGIS. Students should be familiar with PHP, JavaScript, and object-oriented principles.
+### Prerequisite(s)
+- GIST 0281
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the MapGuide frameset architecture.
+- Describe how MapGuide uses templates to create client-side frames.
+- Describe client-side and server-side processes for redlining and digitizing.
+- Describe the process by which applications manipulate Google Earth.
+- Describe operations using a spatial database.
+- Cause frames to interact with each other in the MapGuide frameset.
+- Use the MapGuide APIs to create and work with maps and their components.
+- Create Google Maps applications.
+- Create Google Earth applications.
+- Use Oracle Spatial and PostgreSQL PostGIS for spatial database operations.
+Effective as of Fall 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

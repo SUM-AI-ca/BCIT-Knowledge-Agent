@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-asp-net-comp-2870/
+Title: Introduction to ASP.NET COMP 2870
+Type: Course
+Course Code: COMP 2870
+
+================================================================================
+
+## Introduction to ASP.NET COMP 2870
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 3973 . This hands-on course follows on from COMP 2614 and is designed for those who are already experienced at developing software applications in Java or C#. Presented in a fast paced delivery participants are introduced to web application development using ASP.NET on the Microsoft .NET Framework. Students begin with a short review of the .NET Framework and C# before ASP.NET Web Forms and Web Pages frameworks are introduced. Topics include: Introduction to HTTP Protocol and Web Site, HTTP State management, ASP.NET Server controls, LINQ, Data Binding, Data access with ADO.NET and Data access with LINQ, Data Source Controls, Master Pages, and ASP.NET Web Pages Framework. Labs and assignments explore using AJAX, Windows Authentication and Forms Authentication. Upon successful completion students may continue on to advanced ASP.NET web application topics in COMP 3973 -Web Applications with ASP.NET MVC. COMP 2870 is a required course for the “Advanced .NET Development” associate certificate and is an elective in the CST/PTS Diploma. By the end of this course successful participants will be able to design, create and deploy commercial quality Web Applications in ASP.NET.
+### Prerequisite(s)
+- COMP 2613 or COMP 2614
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the Microsoft .NET Framework as it applies to a web application.
+- Utilize basic C# syntax including data types, operators, control structures, looping structures, inheritance, defining classes, collections, and namespaces.
+- Access a database from a web site using ADO.NET, Data Source controls and LINQ.
+- Load and create XML documents with C# and ASP.NET.
+- Develop web based applications with AJAX capabilities.
+- Build web sites with consistent layout using Master Pages.
+- Gain basic knowledge of Razor syntax using ASP.NET Web Pages framework.
+- Develop basic look and feel to websites using ASP.NET Themes.
+- Create reusable user controls.
+- Implement Forms and Windows authentication.
+- Develop web applications with Visual Studio .NET.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

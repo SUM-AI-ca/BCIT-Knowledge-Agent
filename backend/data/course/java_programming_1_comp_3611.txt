@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/java-programming-1-comp-3611/
+Title: Java Programming 1 COMP 3611
+Type: Course
+Course Code: COMP 3611
+
+================================================================================
+
+## Java Programming 1 COMP 3611
+Computer Systems Course
+## Course Overview
+This course provides a thorough introduction to the Java programming language and core application framework. Starting with an introduction to Java and the Java Programming Environment, the course moves through fundamental programming structures to cover Objects and Classes. Event Handling and Swing provide the core understanding of how to build Graphical User Interfaces. Topics include: exceptions, debugging, streams and files. JAVA 1 is not an introduction to programming and you are expected to know how to write structured code.
+### Prerequisite(s)
+- COMP 3611 is no longer offered and has been replaced by COMP 2611 Intermediate Java Programming.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Install and use the Java Developer Kit (JDK) Standard Edition to develop Java applications.
+- Develop an understanding of the fundamental classes of the Java application framework.
+- Build Java programs with proper exception handling.
+- Build Java programs with proper event handling.
+- Build Java programs that conform to the model-view-controller architecture, and demonstrate proper application of the observer-observable pattern.
+- Build programs that use the basic Swing GUI components.
+- Use the Java Collection Framework and serialization to manage and save your object data.
+- Build Java programs that conform to Sun's Java coding style, naming, and documentation conventions.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

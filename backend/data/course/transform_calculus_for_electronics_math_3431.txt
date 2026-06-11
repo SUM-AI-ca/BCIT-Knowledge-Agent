@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/transform-calculus-for-electronics-math-3431/
+Title: Transform Calculus for Electronics MATH 3431
+Type: Course
+Course Code: MATH 3431
+
+================================================================================
+
+## Transform Calculus for Electronics MATH 3431
+Mathematics Course
+## Course Overview
+Step and impulse functions. Laplace transforms of functions and mathematical operations. Partial fractions. Inverse Laplace transforms. Solutions of differential equations. Systems and stability. Solutions of applied problems appropriate to the electronics technology.
+### Prerequisite(s)
+- 50% in MATH 2431
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Use the step and impulse functions as well as shifted versions of previously studied functions to describe signals that occur in electronics technology.
+- Define the Laplace transform and use the definition to develop the transforms of basic functions and operations.
+- Use the Laplace transform table to calculate the transforms of more complicated functions.
+- Obtain the inverse Laplace transform using tables and using partial fraction decomposition involving real poles and complex poles of simple order and multiple order.
+- Use Laplace transforms to solve differential equations, including simultaneous D.E.s.
+- Use Laplace transforms to analyse circuits in the s-domain and apply transform techniques to multi-mesh analysis.
+- Determine the transfer function of a system, determine its poles and zeros and plot them in the complex plane, and assess the stability of a system from its transfer function.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

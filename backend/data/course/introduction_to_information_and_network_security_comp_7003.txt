@@ -1,0 +1,65 @@
+URL: https://www.bcit.ca/courses/introduction-to-information-and-network-security-comp-7003/
+Title: Introduction to Information and Network Security COMP 7003
+Type: Course
+Course Code: COMP 7003
+
+================================================================================
+
+## Introduction to Information and Network Security COMP 7003
+Computer Systems Course
+## Course Overview
+This course provides in-depth coverage of TCP/IP and "real-world" network traffic analysis using tools such as Wireshark and tcpdump. Students are introduced to securing servers and services as well as monitoring systems for performance and intrusion. Students will gain practical knowledge in the use of public-key encryption in securing information and implementing secure automatic logins and file transfers. This course provides coverage of perimeter protection and firewall designs, intrusion detection and IDS/IPS design and their implementation.​
+### Prerequisite(s)
+- Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$875.67
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Perform a detailed analysis of network operation and performance using tools such as tcpdump and Wireshark.
+- Manipulate the configuration files related to the setup and system initialization of networking components.
+- Secure system services using simple utilities such as super server daemons.
+- Secure data and network access using public-key encryption.
+- Configure and use system monitoring and analysis tools to monitor systems for performance as well as intrusion.
+- Describe cyber security objectives, threat actors and threat vectors.
+- Design and implement Linux firewalls, intrusion detection (IDS) and Intrusion Prevention (IPS) tools.
+- Conduct detailed and extensive tests to verify firewall and IDS/IPS functionality.
+- Use logs produced by various security tools to conduct security audits on a network.​
+Effective as of Fall 2023
+## Related Programs
+Introduction to Information and Network Security (COMP 7003) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Database Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Games Development Option) Bachelor of Science Full-time
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Applications Development Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 7003 for the Fall 2026 term.
+Sep 08 - Nov 24
+- CRN 50438
+- $875.67 Domestic fees
+Dates | Days | Times | Locations
+Sep 08 - Nov 24 | Tue | 18:00 - 21:45 | Burnaby SE12 Rm. 323
+### Duration
+12 weeks
+### Instructor
+D'Arcy Smith
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email compBSc@bcit.ca for departmental approval. Include your student number (A0#), course number (COMP__) and preferred CRN. 2. This is a BScACS course. 3. BScACS program students have up to seven (7) years to complete the Bachelor program starting from the date of their first Technical degree-level course or the date of acceptance to the Bachelor program, WHICHEVER COMES FIRST.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

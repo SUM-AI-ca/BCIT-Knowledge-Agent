@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/advanced-games-architecture-comp-8051/
+Title: Advanced Games Architecture COMP 8051
+Type: Course
+Course Code: COMP 8051
+
+================================================================================
+
+## Advanced Games Architecture COMP 8051
+Computer Systems Course
+## Course Overview
+This course provides students with an introduction to the design of a game system using cross-platform tools and frameworks commonly used in the games industry. The focus in this course is to build a number of small mobile games as well as to design and build a basic engine and game for mobile platforms. To achieve the goals of realizing playable games in a short time frame, students will also be introduced to common tools and techniques used in the game industry. Students will complete smaller assignments on an individual basis as well as a larger game as part of a team development environment. The course will cover topics including game design and architectures, game physics, and 2D and 3D graphics.
+### Prerequisite(s)
+- COMP 7051
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Develop games using cross-platform APIs for mobile devices.
+- Design simple game architectures.
+- Utilize industry-relevant game technologies such as physics engines and data exporters for rapid prototyping.
+- Perform transformations in 3D space.
+- Create 2D and 3D objects.
+- Create and implement textures.
+- Create and configure lighting and camera objects.
+- Use advanced rendering techniques.
+- Create and implement shaders.
+Effective as of Fall 2023
+## Related Programs
+Advanced Games Architecture (COMP 8051) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Games Development Option) Bachelor of Science Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

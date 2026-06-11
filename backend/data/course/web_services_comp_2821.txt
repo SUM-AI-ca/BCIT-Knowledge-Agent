@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/web-services-comp-2821/
+Title: Web Services COMP 2821
+Type: Course
+Course Code: COMP 2821
+
+================================================================================
+
+## Web Services COMP 2821
+Computer Systems Course
+## Course Overview
+In this course students will gain hands-on experience constructing and consuming XML based web services under a variety of frameworks including Microsoft .NET and Macromedia ColdFusion MX. This course will also discuss and review basic XML concepts, DTS's, Schemas, XSLT, SOAP, WSDL, XML-RPC, UDDI and DISCO.
+### Prerequisite(s)
+- COMP 1850 or COMP 1820 and COMP 2899 or XML and HTML experience.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+- Introduce students to the Web Service Architecture.
+- Identifying how Web Service architectures are a type of service-oriented architecture.
+- Describing the elements of the Web Service architecture and explaining their roles.
+- Describing the Web Service programming model.
+- Introduce students to the underlying technologies of web services.
+- Discuss and review XML concepts, including Schemas and HTTP.
+- Discuss, demonstrate and utilize SOAP.
+- Discuss, demonstrate and utilize WSDL.
+- Discuss and explain UDDI.
+- Discuss and explain DISCO.
+- Discuss and explain XML-RPC.
+- Enable students to create and consume Web Services.
+- Creating and consuming a .Net Web Services with ASP.Net.
+- Creating and consuming a ColdFusion MX Web Services.
+- Consuming an ASP.net Web service via HTTP POST and GET.
+- Consuming an ASP.net Web Services via a console application.
+- Enable students to Publish and Deploy Web Services.
+- Explaining the role of UDDI in Web Services.
+- Searching a UDDI registry to locate Web Services.
+- Explaining some of the options for modifying the default configuration of a Web Service.
+- Discuss ways of securing Web Services.
+- Identifying the differences between authentication and authorization.
+- Explaining how to use the security mechanisms provided by Microsoft Internet Information Services (IIS) and Windows for authentication.
+- Using SOAP headers for authentication in a Web Service.
+- Using role-based security and code access security for authorization in a Web Service.
+- Encrypting the communication between a Web Service consumer and a Web Service.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

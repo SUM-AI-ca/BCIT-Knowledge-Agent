@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/spatial-database-systems-2-geom-8132/
+Title: Spatial Database Systems 2 GEOM 8132
+Type: Course
+Course Code: GEOM 8132
+
+================================================================================
+
+## Spatial Database Systems 2 GEOM 8132
+Geomatics Course
+## Course Overview
+This course examines the GIS architectures implemented by today's GIS vendors. Spatial database topics such as: storage, relationships and integrity constraints, data modelling (UML and extended E-R) will be covered. The course will discuss SDLC, OLTP, OLAP, DW, data mining, data marts, universal servers, metadata standards and the OpenGIS Consortium.
+### Prerequisite(s)
+- GEOM 7132
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the major phases of formal methods such as RUP, Agile, MDA ,Waterfall, and Spiral in an Enterprise LIS context.
+- Use CASE tools to aid in the management of the PMLC, SDLC and LISLC.
+- Describe organizational and institutional issues affecting the success of SDB/LIS projects
+- Distinguish between and give examples of data concepts such as raw data vs metadata, spatial vs attribute, structured vs unstructured vs semi structured and big vs little.
+- Distinguish between and give examples of spatial data structures.
+- Distinguish between and give examples of data systems such as RDBMS, OODBMS, ORDBMS, GIS, LIS, Spatial DBMS, Graph DBMS and Big Data.
+- Compare and contrast categories of data systems: transactional, multidimensional, big and little.
+- Describe the components of a modern enterprise LIS SOA architecture.
+- Create and implement spatial database models using spatially enabled UML and CASE tools.
+- Translate CIM to PIM to PSM using FE, RE and manual techniques.
+- Create attribute and spatial queries using spatial enabled SQL.
+- Explain and suggest strategies used to tune and constrain attribute, spatial, big and little data systems.
+- Implement and follow spatial standards as specified by the OGC and TC/211.
+- Implement spatial databases using an enterprise GIS web service architecture.
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

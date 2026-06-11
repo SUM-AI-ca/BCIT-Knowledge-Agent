@@ -1,0 +1,68 @@
+URL: https://www.bcit.ca/courses/application-development-with-c-comp-3603/
+Title: Application Development with C++ COMP 3603
+Type: Course
+Course Code: COMP 3603
+
+================================================================================
+
+## Application Development with C++ COMP 3603
+Computer Systems Course
+## Course Overview
+This hands-on computer programming software application development course follows on from COMP 2511 and COMP 2601 . It assumes students have prior knowledge of both procedural programming with C and understand object-oriented programming fundamentals using Java or C#. COMP 3603 starts with a quick review of the language syntax that is common to C, Java, C# and C++. Students are then introduced to C++ classes, and how inheritance, polymorphism, abstraction and modularization all relate to the C++ language. Participants must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Labs and exercises focus on the coding style and naming conventions used to build and deploy commercial quality C++ applications. Topics include: C++ Stream Input/Output, operator overloading, templates functions and classes, exception handling, and introduction to the Standard Template Library. Multiple inheritance to model complex algorithms is also discussed. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 16 total hours each week; 3 hours of class time, a 1-hour online component and 12+ hours of homework each week. COMP 3603 is the prerequisite for COMP 4603 – Advanced C++Application Development, starting September 2022. Both courses are electives in the Applied Software Development (ASD) Associate Certificate and both are required in the CST/PTS Diploma. Upon completion, successful students will be able to build and deploy well designed, entry-level C++ applications and be prepared to move on to COMP 4603 - Advanced C++ Application Development.
+### Prerequisite(s)
+- 60% in COMP 2511 and 60% in COMP 2601
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$623.82
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain and practice C++ classes, and related class features specific to the C++ language, including inheritance, and polymorphism.
+- Practice abstraction and modularization in the terms of C++ programming.
+- Describe the C++ Stream Input/Output.
+- Demonstrate Operator Overloading.
+- Describe the Standard C++ Template Library.
+- Create Templates functions and classes.
+- Demonstrate Exception Handling with C++.
+- Practice the multiple inheritance to model complex algorithms.
+- Explain miscellaneous advanced C++ topics.
+- Describe miscellaneous features added to the C++ language from C++ v11, through to the C++ v20 standards.
+- Design, implement, debug and test intermediate to complex object-oriented programs in C++.
+- Create intermediate C++ software applications.
+- Move on to the next level, COMP 4603 - Advanced C++ Application Development.
+Effective as of Winter 2022
+## Related Programs
+Application Development with C++ (COMP 3603) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 3603 for the Fall 2026 term.
+Sep 17 - Dec 10
+- CRN 49031
+- $623.82 Domestic fees
+Dates | Days | Times | Locations
+Sep 17 - Dec 03 | Thu | 18:30 - 21:30 | Online
+Sep 17 - Dec 10 | N/A | N/A | Online
+Dec 10 | Thu | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+### Duration
+12 weeks
+### Instructor
+Bob Langelaan
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online with exams on-campus. The course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. FINAL EXAM: December 10, 1800-2100, at the Burnaby campus SE12 322. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Due to the substantial time required on labs and assignments, students are advised not to take any other programming language courses simultaneously. No class October 15.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

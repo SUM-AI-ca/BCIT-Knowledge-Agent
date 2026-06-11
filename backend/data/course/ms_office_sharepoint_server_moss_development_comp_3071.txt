@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/ms-office-sharepoint-server-moss-development-comp-3071/
+Title: MS Office SharePoint Server (MOSS) Development COMP 3071
+Type: Course
+Course Code: COMP 3071
+
+================================================================================
+
+## MS Office SharePoint Server (MOSS) Development COMP 3071
+Computer Systems Course
+## Course Overview
+This hands-on course continues on from COMP 2970 , and for those who already understand SharePoint Services (WSS) architecture, and know how to use MS Office 2007. Students must already know ASP.NET and Windows SharePoint Services (WSS) Development, in order to learn MS Office SharePoint MOSS architecture, its framework and the best practices for solution development. Topics include; MOSS portal configuration, templates, search and services, authentication, personalization services, feature definitions, and workflow activities. Lab exercises show how to enhance and customize features within templates to design custom MOSS solutions. Successful participants will be able to use the built in tools to design and deploy a significant MS SharePoint Server (MOSS) solution that integrates with MS Office 2007 applications.
+### Prerequisite(s)
+- COMP 2007 and COMP 2970
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand SharePoint MOSS architecture and components.
+- Perform basic MOSS portal configuration using shared services and central administration.
+- Create sites based on various sets of templates (Search centre, records centre etc).
+- Create new and extend existing MOSS features.
+- Configure and enhance MOSS search service, and MOSS personalization services (MySites, Links etc).
+- Create, configure and deploy MOSS workflows and activities.
+- Create custom MOSS layout pages that perform calls to web services and libraries.
+- Integrate custom authentication (including LiveID authentication) into a SharePoint portal.
+- Integrate MOSS with MS Office 2007 applications using custom office components.
+- Perform MOSS solution debugging: features, workflows, layout pages.
+- Deploy solutions using WSPBuilder and SharePoint Installer.
+Effective as of Fall 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

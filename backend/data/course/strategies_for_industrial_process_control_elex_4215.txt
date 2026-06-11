@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/strategies-for-industrial-process-control-elex-4215/
+Title: Strategies for Industrial Process Control ELEX 4215
+Type: Course
+Course Code: ELEX 4215
+
+================================================================================
+
+## Strategies for Industrial Process Control ELEX 4215
+Electrical and Computer Engineering Course
+## Course Overview
+This course examines the practical application of common control systems to industrial processes. Industrial control loop components and processes are studied and basic operating characteristics identified. Control valve sizing and operating characteristics (static and dynamic response) are studied. Control loop stability based on a first order plus dead time model is analyzed using Bode plots. Control strategies are discussed for a variety of processes including heat exchangers, boiler systems, level applications, evaporators and pH systems. These processes are used to demonstrate the application of the most common multi-input, single output (MISO) control strategies including cascade, feedforward, ratio, and relevant selective systems.
+### Prerequisite(s)
+- CHSC 3342 and MATH 3343 and ELEX 3215 and ELEX 4210 † ( † may be taken concurrently)
+- COMM 2443 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Evaluate various control valve performance characteristics and size valves for liquid service applications.
+- Evaluate common industrial control strategies and formulate appropriate controller tuning to achieve desired closed loop performance as measured against established performance criteria.
+- Examine and explain relevant control loop operating characteristics of common industrial components and processes in the time and frequency domains.
+- Analyze control systems exhibiting non-linear gains. Implement and tune single-input (SISO) and multi-input (MISO) control systems (cascade, feedforward and ratio).
+- Apply signal override, signal selection and anti-reset windup configurations as required for a given application.
+- Study and evaluate the performance criteria and interaction of multi-loop control systems.
+- Collect, assemble and analyze control system related information and present this information in an organized, concise technical report and oral presentation.
+Effective as of Winter 2019
+## Related Programs
+Strategies for Industrial Process Control (ELEX 4215) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

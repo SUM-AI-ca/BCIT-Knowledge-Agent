@@ -1,0 +1,61 @@
+URL: https://www.bcit.ca/courses/front-end-web-development-with-angular-and-vue-js-comp-2909/
+Title: Front-End Web Development with Angular and Vue.js COMP 2909
+Type: Course
+Course Code: COMP 2909
+
+================================================================================
+
+## Front-End Web Development with Angular and Vue.js COMP 2909
+Computer Systems Course
+## Course Overview
+​​This hands-on web development course follows on from COMP 2132 . It was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Angular and Vue are popular JavaScript open-source front-end application frameworks for developing modularized single-page applications and building user interfaces. Angular is a standalone front-end JavaScript framework with in-built tools and libraries to build scalable web apps. Vue provides the ability to extend web application functionality with customized modules and visual components. COMP 2909 starts with installing the latest version of Angular. Labs and exercises reinforce Angular development fundamentals to build components, modules, and services for data-driven, client-side web applications. Vue.js is then used for rapid modular web application development. Exercises also include: routing, asynchronous JSON transfer, and validation. These features are then implemented using Vue.js 3. Automated testing and redux architecture are also introduced using Angular. There is a brief introduction to using Angular with the Apache Cordova framework for platform independent mobile development for Android and iOS. Participants may also want to complete COMP 3012 -Back-End Web Development with Node.js, COMP 3013 -Front-End Web Development with React.js, and COMP 4015 ​ Advanced Web Application Development. COMP 2909 is an elective in several BCIT Computing applied associate certificate as well as the CST FLEX Diploma. Upon completion, successful students will be able to use Angular and Vue frameworks to develop data-driven and interactive single-page web applications for all mainstream browsers. This course is offered in the fall (October) and winter (February).​
+### Prerequisite(s)
+- 60% in COMP 2132 or 50% in ACIT 1620
+### Credits
+1.5
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$425.11
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Develop one-page data-driven applications with current versions of Angular and Vue.js using the component-based architecture.
+- Build custom components and services using Angular and Vue.js.
+- Obtain and use suitable tools for developing and debugging applications.
+- Select and apply common directives for two-way data binding, formatting, filtering, validation, and DOM manipulation.
+- Use Angular and Vue.js to interact with REST Services to send and receive data in JSON format.
+- Explain basic redux architecture with Angular.
+- Automate unit-testing and end-to-end testing with Angular. ​
+Effective as of Winter 2024
+## Related Programs
+Front-End Web Development with Angular and Vue.js (COMP 2909) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 2909 for the Fall 2026 term.
+Oct 23 - Nov 27
+- CRN 42148
+- $425.11 Domestic fees
+Dates | Days | Times | Locations
+Oct 23 - Nov 27 | Fri | 18:30 - 21:30 | Online
+### Duration
+6 weeks
+### Instructor
+Frederic Guo
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. The course is 18 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

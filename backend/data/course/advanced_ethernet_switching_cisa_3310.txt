@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/advanced-ethernet-switching-cisa-3310/
+Title: Advanced Ethernet Switching CISA 3310
+Type: Course
+Course Code: CISA 3310
+
+================================================================================
+
+## Advanced Ethernet Switching CISA 3310
+Computer Info Systems Admin Course
+## Course Overview
+​This course provides the theory and practice opportunities for students to plan, prepare, implement, and optimize switching technologies within an enterprise campus networks. Students will focus on best practices in integrating Virtual LANs (VLANs) for wired and wireless access, and for data, voice, and real time video applications. Secure, scalable, and highly available solutions for both IPv4 and IPv6 will be explored. This course includes hands-on activities using Cisco switching and routing gear within the classroom/lab.
+### Prerequisite(s)
+- CISA 2310 and CISA 2320
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the components of the Cisco Enterprise Campus Architecture
+- Plan for and implement switched campus networks for wired and wireless access
+- Design and implement addressing information for virtual local area networks (VLANs) – including both IPv4 and IPv6
+- Optimize switching features by utilizing the switching database manager (SDM)
+- Distribute the campus VLAN information through VLAN trunk protocol (VTP)
+- Configure physical wiring resiliency through Ether-Channeling
+- Plan and implement Per-VLAN Spanning Tree, Rapid-PVSTP, and Multiple-Instance STP
+- Optimize Layer-2 by configuring ROOT guard, LOOP guard, BPDU guard and UDLD
+- Implement routing and forwarding capabilities of switches to facilitate off-VLAN access
+- Plan, implement and optimize the use of first-hop-redundancy protocols: HSRP, VRRP, GLBP
+- Configure networking devices as DHCP server and DHCP relay agent for both IPv4 and IPv6
+- Provision network services including NTP, SNMPv3, IP SLA and Port Mirroring
+- Explain the key characteristics of Virtual Switching Systems (VSS) and StackWise
+- Implement network security features including port security, storm control, DHCP snooping, IP source guard, dynamic ARP inspection, VLAN ACLs, and port isolation with protected ports and private VLANs
+Effective as of Fall 2019
+## Related Programs
+Advanced Ethernet Switching (CISA 3310) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

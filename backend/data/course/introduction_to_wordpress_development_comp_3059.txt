@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-wordpress-development-comp-3059/
+Title: Introduction to WordPress Development COMP 3059
+Type: Course
+Course Code: COMP 3059
+
+================================================================================
+
+## Introduction to WordPress Development COMP 3059
+Computer Systems Course
+## Course Overview
+This hands-on course is aimed at existing web developers and follows on from COMP 1911 JavaScript, COMP 1920 Server-Side Web Scripting with PHP Level 1 and COMP 1950 Web Development and Design 2. WordPress is the most popular Content Management System (CMS) used on the web and offers unlimited customization options for web developers. Students learn to securely install WordPress and how to create dynamic web sites. Instructor led labs and exercises show how to enhance site functionality with plugins and widgets, customize the website look through child themes and custom page templates, properly migrate the site, use jQuery in the WordPress environment and include Search Engine Optimization and Social Media platforms into the site. Successful participants will be prepared to enter AWPD 4100 Advanced WordPress Development offered through BCIT’s High-Tech Professional Programs (HTP). By the end of this course web developers will be able to use WordPress to create customized websites with text, images and video content and optimize the site for the users and Search Engines.
+### Prerequisite(s)
+- COMP 1911 , COMP 1920 and COMP 1950 or equivalent knowledge of HTML5, CSS3, JavaScript and PHP.
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain how WordPress works.
+- Describe the main differences between a static and a dynamic website.
+- Install WordPress securely.
+- Use WordPress to configure a website, add text, image and video content.
+- Create custom Menus and add custom Widgets to the site.
+- Find and install useful plugins to enhance site functionality.
+- Create child themes by understanding the main parts of the WordPress theming system.
+- Change the look of your website by applying custom CSS styles utilizing body classes.
+- Create custom Page Templates.
+- Use jQuery in the WordPress environment.
+- Properly migrate a website.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

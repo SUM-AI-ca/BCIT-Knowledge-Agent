@@ -1,0 +1,142 @@
+URL: https://www.bcit.ca/outlines/20262068795/
+Course: COMP 3013
+Field: Front-End Web Development with React.js
+Subject: Computer Systems
+Term: 202620
+CRN: 68795
+
+================================================================================
+
+## Course Outline
+## COMP 3013
+## Front-End Web Development with React.js
+School | School of Computing and Academic Studies
+Program | Computing - Flexible Learning
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | May 05, 2026
+End Date | July 21, 2026
+Total Hours* | 45
+Total Weeks | 12
+Hours/Weeks | 3.75
+Delivery Type | Other
+Zero Textbook Cost | Yes
+Prerequisite(s) | 60% in COMP 2132 or 50% in ACIT 1620
+CRN | 68795
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Armaan Dhanji
+E-mail | Instructor to provide
+Location
+Office Hours | Instructor to provide
+### Course Description
+React.js is an open source JavaScript library widely used to create fast, modular web and mobile applications. This hands-on course follows on from COMP 2132 and was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with an introduction to React.js concepts, participants concentrate on how React works with browsers and the Document Object Model (DOM). Then students use the modern Hooks API to built clean and testable components. Instructor led labs and exercises focus on how to structure and develop single-page applications using NPM, Webpack and Babel, following current industry standards. Topics include: Routing, Server-Side Rendering, Styling, State Management, and deployment. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. ​Web developers should also consider learning multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals and COMP 3012 Back-End Web Development with Node.js. COMP 3013 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST/PTS Diploma. Upon completion successful participants will be able to use React to create and deploy dynamic web applications quickly, with more functionality and less code. This course replaces COMP 2913 as of January 2023.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React.js and it's supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Describe how React.js can be used to build both server-side rendered and client-side rendered pages through meta-frameworks like Next.js.
+- Leverage the Hooks API to build lean React components that are easy to read and reason about.
+- Explore the different ways to style your React components, including CSS-In-JS, CSS and Modules.
+- Use global state management libraries to help share common application state across several components.
+- Explore different ways to deploy your React.js applications to production, including using CDN's to cache and serve application content to users as quickly as possible.
+- Build fast, feature-rich, dynamic user interfaces with React.js modular components.​
+### Learning Resources
+All resources will be provided by instructor.
+Optional:
+https://eloquentjavascript.net/
+The book is available for free from the publisher at the link above.
+### Course Goals
+- To be able to confidently use React to build feature rich user interfaces.
+- To integrate additional libraries to extend React functionality
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 20 | The quizzes are based on a pre-class reading or online activity and or a review of the previous week's topics.
+Midterm Exam | 15 | You must average a minimum of 50% between the Midterm and the Final Exam in order to pass this course.
+Labs | 15 | You must attempt and submit each Lab in order to pass this course. Late submissions will have reduced marks or may not count toward your grades without the instructor's prior consent.
+Term Project | 25 | You must attempt and submit the Term Project in order to pass this course. Late submissions will have reduced marks or may not count toward your grades without the instructor's prior consent.
+Final Exam | 25 | You must average a minimum of 50% between the Midterm and the Final Exam in order to pass this course.
+Note: The total passing grade is 60%.
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+Plagiarism and other forms of cheating will not be tolerated.
+- Students are encouraged to work in groups to develop peer to peer communication and support. However, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+Academic misconduct includes providing solutions to other students .
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program.
+Use of Artificial Intelligence (AI):
+- The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of an assignment or an assessment of the student is prohibited and will result in an academic integrity violation.
+Academic Integrity:
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+- A violation of academic integrity may result in one or more of the following consequences: A written warning. A failing or lower grade on the work submitted. Failing the course if the violation occurs on a final exam. An academic misconduct letter being placed on the student’s record.
+A lack of familiarity with the regulations cannot be used as a defence by those found to have violated academic integrity policy.
+### Attendance Requirements
+Welcome to BCIT Computing
+Please bookmark the Computing Flexible Learning landing page.
+Be sure to read the following important information:
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+Computing Flexible Learning Attendance Policy
+- Attendance in all lectures and labs is required and recorded.
+- Regular attendance and participation are key to student success; missing classes and not participating or completing homework will affect your ability to complete the course.
+- If you are absent due to illness or unavoidable reasons (e.g., medical emergencies, family bereavement, etc.), please notify your instructor with-in 24 hours but preferably prior to the missed class.
+It is your responsibility to request access to missed materials or utilize online resources to make up your missed class and be ready for the follow-in class.
+- For absences more than one class, you must contact the Computing Flexible Learning department via email: cstflex@bcit.ca .
+Please provide a brief explanation of your absence and how you intend to make up the missed work. (e.g., request access to missed materials, and utilize online resources).
+- Please notify your instructor that you are dropping the course, plus you must complete and submit the Flexible Learning Course Withdrawal Form prior to the course withdrawal deadline detailed on your course outline.
+Note: Simply stopping attendance does not constitute a course withdrawal and will result in grade of “V” for Vanished which counts as 0% FAIL in your GPA.
+### Course Specific Requirements
+COMP 1850 and COMP 2132 or equivalent knowledge of HTML5/CSS3 and JavaScript.
+- Students require a PC with internet access, capable of running the Java Platform.
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+### Other information
+Computer Use Guidelines
+BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security .
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+### Course Schedule and Assignments
+Week | Date | Topics
+Week 1 | May 05 | React.js setup, ES6 Review, the React/ReactDOM abstraction, bundlers and transpilers.
+Week 2 | May 12 | Lab 1 Due. Transitioning to a proper dev environment with Vite, One-way data flow through props, intro to state management.
+Week 3 | May 19 | Lab 2 Due. Quiz 1 Starts. A closer look a react hooks, conditional Rendering, transitioning from JSX to TSX (Typescript).
+Week 4 | May 26 | Lab 3 Due. Quiz 2 Starts. Working with forms, validation, and global state management with tools like Zustand.
+Week 5 | Jun 02 | Lab 4 Due. Quiz 3 starts. Midterm exam preparation class, connecting React applications to a backend.
+Week 6 | Jun 09 | Midterm Exam (1.5 hours)
+Week 7 | Jun 16 | Introduction to full stack react apps and meta frameworks. (Tanstack Start, Next.js). Quiz 4 starts.
+NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the Flexible Learning Course withdrawal form before week 8 or you will receive a failing grade on your academic record.
+Week 8 | Jun 23 | Lab 5 Due. Quiz 5 starts, Project Assigned. Optimizing UX in react apps through cacheing. Building your own cache vs cacheing your applications using production grade tooling like Tanstack Query.
+Week 9 | Jun 30 | Quiz 6 starts. Server Side vs Client side rendering. Understanding isomorphic React (Running React on both the server and client).
+Week 10 | Jul 07 | Quiz 7 starts. Acheiving end-to-end type safety in React with your database as the source of truth. Automatic type generation.
+Course Evaluation: To be conducted online during Week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 11. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+Week 11 | Jul 14 | Deployment strategies for Server-Side Rendered React applications. Understanding Serverless/Edge Deployments.
+Week 12 | Jul 21 | Project Due. Final Exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Armaan Dhanji, Instructor April 26, 2026
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 27, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 27, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

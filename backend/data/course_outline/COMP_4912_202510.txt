@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20251079179/
 Course: COMP 4912
 Field: Applied Virtual Networks
-
-School: School of Computing and Academic Studies
-Program: Computing - Flexible Learning
-Course Credits: 3
-Minimum Passing Grade: 60%
-Start Date: January 11, 2025
-End Date: April 05, 2025
-Total Hours*: 36
-Total Weeks: 12
-Hours/Weeks: 3
-Delivery Type: Other
-Prerequisite(s): 60% in COMP 2629 and 60% in COMP 2767 and 60% in COMP 3704 and (60% in COMP 3700 or 60% in COMP 3677 and 60% in COMP 3680)
+Subject: Computer Systems
+Term: 202510
 CRN: 79179
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## COMP 4912
+## Applied Virtual Networks
+School | School of Computing and Academic Studies
+Program | Computing - Flexible Learning
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | January 11, 2025
+End Date | April 05, 2025
+Total Hours* | 36
+Total Weeks | 12
+Hours/Weeks | 3
+Delivery Type | Other
+Prerequisite(s) | 60% in COMP 2629 and 60% in COMP 2767 and 60% in COMP 3704 and (60% in COMP 3700 or 60% in COMP 3677 and 60% in COMP 3680)
+CRN | 79179
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Dawood Sajjadi Torshizi
-E-mail: Instructor to provide
-Location: Remote (Microsoft Teams)
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Dawood Sajjadi Torshizi
+E-mail | Instructor to provide
+Location | Remote (Microsoft Teams)
+Office Hours | Instructor to provide
+### Course Description
 ​This hands-on project course shows students how to configure, deploy and manage virtual networks. COMP 4912 builds on prerequisite courses in network design, Linux, Security, and Microsoft Windows Server administration. Students apply those technology skills for cloud-based network solutions. ​Participants must provide their own current model Windows 10+ capable PC, i7 or higher equivalent processor, 16 GB of RAM, and 500 GB minimum storage. High-speed internet access is needed for online classes and homework. Topics include organizing and documenting network components and tools; templates for cloning virtual images and machines; networking virtualization; storage virtualization; deployment automation and post provisioning; and Virtual memory and configuration considerations. Management of resource pools and Virtual I/O considerations and optimization practices for High availability (HA) considerations are also discussed. Labs and exercises include implementation, monitoring and maintenance strategies. Students are introduced to a combination of commercial and open-source tools and are e shown best practices for virtual technologies to manage enterprise networks. ​COMP 4912 is the final course in the Applied Network Administration and Design (ANAD) Associate Certificate and is an elective in the Computer Systems Technology Diploma (CST FLEX). This course is offered once a year in January.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Describe the different types of Hypervisors and Cloud technologies.
 - Determine environment load potential and the methods required to scale.
 - Describe the different technologies and protocols used for network and storage virtualization.
@@ -42,118 +45,82 @@ Upon successful completion of this course, the student will be able to:
 - Describe container management and orchestration for cloud-based network solutions.
 - Automate resource provisioning process in virtual environments.
 - Explain the Infrastructure-as-a-Code (IaaC) concept for real-world applications.
-
-## Learning Resources
+### Learning Resources
 No specific textbook is required. The Instructor will provide materials.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Quiz: 10: 8 Quizzes
-Project: 10: On a selected topic; Due date posted on the Learning Hub.
-Lab Assignments: 25: 5 assignments; Due dates posted on the Learning Hub.
-Midterm exam: 20: Online
-Final exam: 35: Online
-
+### Evaluation Criteria
+Criteria | % | Comments
+Quiz | 10 | 8 Quizzes
+Project | 10 | On a selected topic; Due date posted on the Learning Hub.
+Lab Assignments | 25 | 5 assignments; Due dates posted on the Learning Hub.
+Midterm exam | 20 | Online
+Final exam | 35 | Online
 Plagiarism and other forms of cheating will not be tolerated.
-
 - Students are encouraged to work in groups to develop peer-to-peer communication and support. However, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
-
 Academic misconduct includes providing solutions to other students.
-
 - Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
-
 Academic Integrity:
-
-- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances is prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
-
-## Attendance Requirements
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances is prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+### Attendance Requirements
 Welcome to BCIT Computing
-
 Please bookmark the Computing Flexible Learning landing page.
-
 Be sure to read the following important information:
-
 - Student Resources
 - Computing Peer Tutors
 - Frequently Asked Questions
 - Course and Program Changes
-
 Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
-
 Attendance Policy
-
 Attendance in lectures and labs is mandatory and recorded for all lessons in this course.
-
 - In case of illness or other unavoidable cause of absence, the PTS student must communicate as soon as possible with his/her Instructor indicating the reason for the absence.
-
 - Prolonged illness which causes the PTS student to miss 20% or more of the lessons will require a BCIT-approved medical certificate submitted to the department, substantiating the reason for the absence.
-
 Excessive absence of 20% or more may result in failure or forced withdrawal from this course.
-
-## Course Specific Requirements
+### Course Specific Requirements
 COMP 4912 builds on prerequisite courses in network design, Linux, Security, and Microsoft Windows Server administration, students apply those technology skills for cloud-based network solutions.
-
 - All students must provide their own current model Windows 10+ capable PC, i7 or higher equivalent processor, 16 GB of RAM, and 500 GB minimum storage. High-speed internet access is needed for online classes and homework. BCIT does not provide technical support for student’s devices.
 - Courses will be delivered in real time and may use two-way audio and video as well as group work.
 - All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
-
-## Other information
+### Other information
 Computer Use Guidelines
-
 BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
-
 - Respect others. Do not download, view, or distribute inappropriate or offensive material.
 - Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games, and software).
 - Respect our vendor software agreements. Do not download products that are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor-provided software when the course ends.
 - Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
 - Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT coursework.
-
-For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security.
-
+For more information read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security .
 Consequences of policy violation could result in loss of access to BCIT resources and/or removal from classes.
-
-## Course Schedule and Assignments
-Week: Topic: Assessment/Action
-1: Recap and Introduction: Review of computer networks, Linux, and basic concepts of Virtualization
-2: VMs and Docker Containers: Quiz #1, Introducing major Virtualization Technologies, Hypervisors and Docker Containers, Review of Assignment #1.
-3: LXC/LXD/YAML: Quiz #2, Introducing Linux Containers (LXC/LXD) and using YAML in Docker context, Review of Assignment #2.
-4: Kubernetes (K8s): Quiz #3, Introducing Container Orchestration via K8s, Review of Solution for Assignment #2.
-5: Midterm Exam: Midterm Exam (Online), Selecting Project Topics.
-6: Public Cloud (AWS): Review of Assignment #3, Introducing Amazon Web Services and VPC concepts.
-7: Automating SVC Provisioning: Quiz #4, Review of Solution for Assignment #3, Introducing Ansible/Terraform/IaC.
+### Course Schedule and Assignments
+Week | Topic | Assessment/Action
+1 | Recap and Introduction | Review of computer networks, Linux, and basic concepts of Virtualization
+2 | VMs and Docker Containers | Quiz #1, Introducing major Virtualization Technologies, Hypervisors and Docker Containers, Review of Assignment #1.
+3 | LXC/LXD/YAML | Quiz #2, Introducing Linux Containers (LXC/LXD) and using YAML in Docker context, Review of Assignment #2.
+4 | Kubernetes (K8s) | Quiz #3, Introducing Container Orchestration via K8s, Review of Solution for Assignment #2.
+5 | Midterm Exam | Midterm Exam (Online), Selecting Project Topics.
+6 | Public Cloud (AWS) | Review of Assignment #3, Introducing Amazon Web Services and VPC concepts.
+7 | Automating SVC Provisioning | Quiz #4, Review of Solution for Assignment #3, Introducing Ansible/Terraform/IaC.
 NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must also fill out and submit the Flexible Learning Course withdrawal form before week 8 or you will receive a failing grade on your academic record.
-8: Monitoring and Observability: Quiz #5, Review of Assignment #4, introducing performance metrics and monitoring tools/protocols (SNMP/Zabbix/Syslog).
-9: Backup and Disaster Recovery: Quiz #6, Review of Solution for Assignment #4, Introducing Redundancy mechanisms, High Availability and DR plans.
-10: Security and Compliance: Quiz #7, Review of Assignment #5, Introducing Best Security Practices for Cloud/Virtualized Environments.
-11: Project Presentation: Quiz #8, Review of Solution for Assignment #5, Students' presentations on selected topics.
-12: Final Exam: Final Exam (Online)
-
-## BCIT Policy
+8 | Monitoring and Observability | Quiz #5, Review of Assignment #4, introducing performance metrics and monitoring tools/protocols (SNMP/Zabbix/Syslog).
+9 | Backup and Disaster Recovery | Quiz #6, Review of Solution for Assignment #4, Introducing Redundancy mechanisms, High Availability and DR plans.
+10 | Security and Compliance | Quiz #7, Review of Assignment #5, Introducing Best Security Practices for Cloud/Virtualized Environments.
+11 | Project Presentation | Quiz #8, Review of Solution for Assignment #5, Students' presentations on selected topics.
+12 | Final Exam | Final Exam (Online)
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Computing and Academic Studies
+### Guidelines for School of Computing and Academic Studies
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Dawood Sajjadi Torshizi, Instructor December 10, 2024
-
 I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator January 02, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 03, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,59 @@
+URL: https://www.bcit.ca/courses/pc-architecture-using-c-programming-elex-3318/
+Title: PC Architecture using C Programming ELEX 3318
+Type: Course
+Course Code: ELEX 3318
+
+================================================================================
+
+## PC Architecture using C Programming ELEX 3318
+Electrical and Computer Engineering Course
+## Course Overview
+Designed as a PC-based hardware/software course. It consists of programming in the C language into a ready-made interface to activate both digital and analog I/O. The course includes: text screen setup, bit manipulation techniques, construction of code that will carry on a dialog with the user, operation of external I/O interfaces, computer design concepts, pointers, file operations, and schematic/pcb design.
+### Prerequisite(s)
+- 50% in ELEX 1110 and 50% in ELEX 2115 and 50% in ELEX 2125
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+This course is primarily designed to improve programming skills using structured programming. Students will be expected to develop an algorithm with flowcharts before implementing the solution in C code. As well, selected topics in computer design are presented and a project in schematic/pcb design is done.
+## Review of C Programming
+- Be able to write a C program to solve a problem using standard subroutines and control structures including:
+- Creating algorithms.
+- Functions: using and passing variables.
+- Data types including constants, individual variables, and arrays.
+- Logical versus bitwise operators (ie. || vs |)
+- Const and static modifiers and variable scope.
+## Multi-File Projects
+- Be able to generate efficient solutions with reusable modules including:
+- Preprocessor directives (ie. #define, #include)
+- Compiling and linking multi-file projects.
+- Using header files to share information between modules.
+## Pointers
+- To understand and use pointers and pointer operations including:
+- Pointer variable definitions and initialization.
+- Memory model of how pointers behave.
+- Pointer operators ('*' and '&').
+- Pointer expressions and pointer arithmetic.
+- Passing pointers to functions.
+- Relationship between pointers and arrays.
+## Hardware Interfacing
+- To be able to interface a PC to external hardware in order to provide analog and digital I/O.
+## Structures
+- To be able to create and use structures in order to produce efficient and readable code including:
+- Structure definitions, instantiations and initialization.
+- Accessing members of structures.
+- Using structures and pointers to structures as function parameters.
+- Use typedef for creating aliases.
+## Files
+- Store and retrieve data from files using a C program including:
+- The FILE structure.
+- Opening files in different modes (ie. for reading, writing, appending).
+- Reading and writing ASCII files and binary files.
+## Schematic and PCB Tools
+- Produce a board design as used in the electronics industry:
+- Describe a good schematic.
+- Describe a good PCB.
+- Use Altium DXP to create a good schematic.
+- Use Altium DXP to create good PCB artwork.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

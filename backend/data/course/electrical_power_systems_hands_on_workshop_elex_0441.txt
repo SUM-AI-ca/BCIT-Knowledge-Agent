@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/electrical-power-systems-hands-on-workshop-elex-0441/
+Title: Electrical Power Systems Hands-On Workshop ELEX 0441
+Type: Course
+Course Code: ELEX 0441
+
+================================================================================
+
+## Electrical Power Systems Hands-On Workshop ELEX 0441
+Electrical and Computer Engineering Course
+## Course Overview
+​This workshop is a hands-on one week fulltime course that presents a detailed understanding of electric power circuits and modern power systems design, operation and control. The main goal of the course is to review the basic principles of electric circuits and systems and then advance it towards analysis methods, developing conceptual insights, gaining experience with real power system components, and using software simulation tools through hands on laboratory exercises in a real environment. Topics include: review of fundamentals of power systems and electric circuits, power generation, transformers and electric machines. Modern concepts in smart grid and microgrid such as volt var optimization (VVO), conservation voltage reduction (CVR), power flow, generator voltage and frequency control, renewable energy, and distributed generation will also be discussed. Labs, demonstrations and tour of BCIT smart microgrid facilities are also included in the course schedule to further familiarize students with the application of topics taught in the classroom. Who should attend: The workshop is intended for those who work in different levels of the power industry or industries related to electric energy. The workshop does not delve into the mathematical formulas and detailed computation schemes. Attendees with basic familiarity with electric circuits will be able to follow the material discussed. The workshop will benefit those who work in renewable energy sector, utility companies and relevant consulting engineering firms and businesses. Check course outline for instructor details.
+### Prerequisite(s)
+- Familiarity with electric circuits and power systems.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the operation and control of an electric power system.
+- Describe how electric energy is generated from different sources including hydro, thermal, and solar and wind.
+- Analyze single phase and three phase electric power circuits.
+- Discuss different methods to improve efficiency and power factor of electrical systems and equipment.
+- Explain principles of operation of power transformers, generators and electric motors and derive equivalent circuits of these equipment.
+- Analyze a power system by combining models of power transformers, generators and distribution/transmission lines, using engineering software as applicable.
+- Perform a power flow study of an electrical power network using simulation software.
+- Predict load sharing between paralleled generators, transformers and transmission lines.
+- Explain transient behaviour of electric machines under different conditions such as switching and start-up.
+- Discuss methods to maintain power system stability and reliability such as frequency and voltage control.
+- Synchronize a generator with the grid, synchronize 2 generators connected to a load
+- Study load sharing between generators in a lab environment, load rejection, frequency and voltage control of an islanded network with loads.
+- Describe functions of main components of a smart grid and explain how a smart grid is operated and controlled.
+- Explain main components of a microgrid, distributed generation and microgrid operation and controlled.
+- Discuss how power system efficiency can be improved using volt var optimization techniques.
+- Examine motor stating issue and explain mitigation techniques
+- Explain operation of a variable frequency drive (VFD) to control an induction motor
+Effective as of Spring/Summer 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

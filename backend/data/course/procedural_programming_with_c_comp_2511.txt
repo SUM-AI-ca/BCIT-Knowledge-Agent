@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/procedural-programming-with-c-comp-2511/
+Title: Procedural Programming with C COMP 2511
+Type: Course
+Course Code: COMP 2511
+
+================================================================================
+
+## Procedural Programming with C COMP 2511
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 2501 and COMP 2601 . It assumes significant prior knowledge of programming fundamentals. Understanding C not only enhances your programming skills but also provides a solid foundation for learning Java, C#, and C++. COMP 2511 has a heavy workload with two classes per week and uses the BCIT Learning Hub for quizzes, discussion boards, labs, and assignments. Topics include language syntax, common coding styles and idioms that improve code readability and maintainability. Lectures are reinforced with practical labs and assignments to solidify your understanding. Students without strong programming skills should complete the two-part C courses, COMP 2701 - Introduction to Procedural Programming with C and followed by COMP 2801 - Application Development with C. Those two C courses are delivered at a lighter pace and with more foundational coding support. C Programming is a requirement for the Computer Systems Certificate (CSC) and serves as a prerequisite for follow-on courses in C++. Upon completion, successful students will be equipped to build and deploy modular multi-file C programs that meet industry standards. Note: COMP 2511 was replaced with COMP 2510 which is only offered once per year in the Spring (May) term. The combined COMP 2701 + COMP 2801 courses are equivalent to COMP 2510 for the CST Full-time Diploma and the BScACS.
+### Prerequisite(s)
+- 50% in COMP 1510 or 60% in COMP 2501
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss programming language concepts such as pass-by-value versus pass-by-reference, scope, storage duration, linkage & memory models.
+- Apply the functions in the standard C library in developing programs
+- Perform input/output in C.
+- Identify and use control statements in C programs.
+- Create and use functions in C programs.
+- Process arrays in C.
+- Explain pointers & their relation to arrays & strings.
+- Process strings in C.
+- Implement selected data structures & algorithms in C, including linked lists and binary trees.
+- Perform file processing in C; both sequential and random access files.
+- Manage large C programs that involve multiple files.
+- Design, implement & debug software application programs written in C.
+- Move on to C++.
+Effective as of Fall 2025
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

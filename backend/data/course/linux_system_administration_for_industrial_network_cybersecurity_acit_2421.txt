@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/linux-system-administration-for-industrial-network-cybersecurity-acit-2421/
+Title: Linux System Administration for Industrial Network Cybersecurity ACIT 2421
+Type: Course
+Course Code: ACIT 2421
+
+================================================================================
+
+## Linux System Administration for Industrial Network Cybersecurity ACIT 2421
+Computer Information Technology Course
+## Course Overview
+This course introduces the skills necessary to administrate a Linux System that is connected to an industrial network. Building on the concepts developed in the Python Scripting for Industrial Network Cybersecurity , and Introduction to Windows PC Systems Administration for Industrial Network Cybersecurity courses in term one, this course prepares students for the Industrial Networking course in the following five week term, and the Windows Server Administration for Industrial Network Cybersecurity , and Embedded Systems courses in term three. Topics include installing and configuring software; adding hardware; networking servers; configuring common server services such as DNS, DHCP, Apache and IP Tables; managing users; monitoring performance; scripting; troubleshooting; and Linux system hardening for connection to an industrial network.
+### Prerequisite(s)
+- ACIT 1421
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Access the Linux command line. (3)
+- Manage files from the Linux command line. (3)
+- Access Linux help and documentation. (3)
+- Manage text files (create, view, and edit) on a Linux system. (3)
+- Manage local users and groups on a Linux system. (3)
+- Control access to files on a Linux system. (3)
+- Manage processes (includes monitoring) on a Linux system. (3)
+- Control services and daemons on a Linux system. (3)
+- Configure OpenSSH service on a Linux system. (3)
+- Manage system logs (includes analyzing and storing) on a Linux system. (4)
+- Manage Linux networking. (3)
+- Manage files between Linux systems (archive and copy). (3)
+- Manage Linux software packages (install and update). (3)
+- Access Linux file systems. (3)
+- Implement Linux system hardening for an industrial environment. (4)
+Effective as of Winter 2020
+## Related Programs
+Linux System Administration for Industrial Network Cybersecurity (ACIT 2421) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

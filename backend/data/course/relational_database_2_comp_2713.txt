@@ -1,0 +1,17 @@
+URL: https://www.bcit.ca/courses/relational-database-2-comp-2713/
+Title: Relational Database 2 COMP 2713
+Type: Course
+Course Code: COMP 2713
+
+================================================================================
+
+## Relational Database 2 COMP 2713
+Computer Systems Course
+## Course Overview
+COMP 2712 and COMP 2713 have been replaced by one course, COMP 1630 . This new course follows on from COMP 2712 . Using MS SQL Server, this course thoroughly covers SQL (Structured Query Language). There is a focus on Data Manipulation Language (DML) which includes SELECT, INSERT UPDATE, DELETE statements plus joins, sub queries and views. Also discussed are the Data Definition Language (DDL) portion of SQL that includes creating tables, indexes and constraints. Students also learn some relational algebra, an introduction to SQL programming, working with stored procedures, triggers and transaction management. COMP 1630 in Part-Time studies is equivalent to COMP 2714 .
+### Prerequisite(s)
+- (50% in COMP 1711 or 50% in COMP 3615 ) and 50% in COMP 2712
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

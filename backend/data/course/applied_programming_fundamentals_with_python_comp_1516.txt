@@ -1,0 +1,260 @@
+URL: https://www.bcit.ca/courses/applied-programming-fundamentals-with-python-comp-1516/
+Title: Applied Programming Fundamentals with Python COMP 1516
+Type: Course
+Course Code: COMP 1516
+
+================================================================================
+
+## Applied Programming Fundamentals with Python COMP 1516
+Computer Systems Course
+## Course Overview
+​This hands-on course provides the foundation for all BCIT Computing Flexible Learning programming courses. Students with no prior programming experience are introduced to writing code with Python and how to create simple computer programs. COMP 1516 is not application development course, it is the first step in a series of two (2) applied courses that introduce programming fundamentals, before moving on to application development. Topics include data structures, data modelling, programming constructs, lists, strings, sets, and maps. Labs and exercises focus on writing code for projects, assignments, and activities. Participants will design, implement, test, and debug simple programs that incorporate variables, expressions, assignments, and I/O. They will practice how to use conditional and iterative control constructs, functions, and parameter passing. Exception handling and an introduction to classes and objects are also discussed. COMP 1516 is required for the Applied Software Development (ASD) and the Applied Computer Information (ACIS) Associate Certificates, as well as the Computer Systems Certificate (CSC). Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. Students may have an average total time commitment of 14+ hours per week; 3 hours of class time, a 1-hour online component and 10+ hours of homework each week, depending on the student. Upon completion, successful students will have a basic understanding of computer programming fundamentals and be prepared to move on to the next level COMP 2509 – Object-​Oriented Programming with Java, to complete a BCIT applied introduction to modern programming.​​
+### Prerequisite(s)
+- 60% in COMP 1002 or 50% in ACIT 1420
+### Credits
+4.0
+### Domestic fees
+$568.16 - $623.82 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and set-up Python.
+- Analyze and explain the behavior of simple programs.
+- Create simple algorithms for solving simple problems.
+- Choose the appropriate data structure for modeling a given problem.
+- Choose appropriate conditional and iteration constructs for a given programming task.
+- Apply the techniques of decomposition to break a program into smaller pieces.
+- Write programs that use primitive data types, variables, expressions, and command line I/O.
+- Write programs that use conditional and iterative control structures, functions, and parameter passing.
+- Write programs that use each of the following data structures: lists, strings, sets, and dictionaries.
+- Write programs using the standard libraries available with a chosen programming language.
+- Write programs that use file I/O to provide persistence across multiple executions.
+- Design and implement a class.
+- Utilize Regular expressions to build search patterns.
+- Apply a variety of strategies to the testing and debugging of simple programs.
+- Conduct a personal code review on a program component.
+- Practice how to work with a partner as part of a team.
+- Create doc tests to ensure functions output as expected.
+- Create automated unit tests to ensure functions work as expected.
+- Move on to COMP 2509 – Object-Oriented Programming with Java.​
+Effective as of Fall 2026
+## Related Programs
+Applied Programming Fundamentals with Python (COMP 1516) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Information Systems (ACIS) Associate Certificate Part-time
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are six offerings of COMP 1516 for the Spring/Summer 2026 term.
+Apr 07 - Jun 30
+- CRN 67131
+- $611.10 Domestic fees
+Dates | Days | Times | Locations
+Apr 07 - Jun 30 | Tue | 18:30 - 21:30 | Burnaby
+Apr 07 - Jun 30 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Course is 48 hours - 36 hours on campus and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 19.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Apr 09 - Jul 02
+- CRN 67132
+- $568.16 Domestic fees
+Dates | Days | Times | Locations
+Apr 09 - Jul 02 | Thu | 18:30 - 21:30 | Online
+Apr 09 - Jul 02 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Mathew Linder
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 28..
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 02 - Jul 25
+- CRN 66698
+- $611.10 Domestic fees
+Dates | Days | Times | Locations
+May 02 - Jul 25 | Sat | 09:00 - 12:00 | Burnaby
+May 02 - Jul 25 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Course is 48 hours - 36 hours on campus and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 16 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 07 - Jul 23
+- CRN 67128
+- $596.44 Domestic fees
+Dates | Days | Times | Locations
+May 07 - Jul 23 | Thu | 18:00 - 21:00 | Downtown DTC
+May 07 - Jul 23 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Course is 48 hours - 36 hours on campus and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 08 - Jun 17
+- CRN 67129
+- $611.10 Domestic fees
+Dates | Days | Times | Locations
+May 08 - Jun 17 | Wed, Fri | 14:30 - 17:30 | Burnaby SE12 Rm. 311
+May 08 - Jun 17 | N/A | N/A | Online
+### Duration
+6 weeks
+### Instructor
+Jason Wilder
+### Course outline
+View
+### Registration requirements
+Departmental approval is required to register for this course offering. You must have approval from the department to register. Students accepted into a program can register directly.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 36 hours on campus and 12 hours asynchronous activities/labs. The class meets twice per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Please Note: The compressed 6-week delivery requires 6 hours per week in class (2 lessons per week) covering the same material in half the time. The 6-week intensive delivery may have 12-18+ hours homework per week, depending on the student, and is best suited for those not attempting multiple courses in the same term. This is a BYOD (bring your own device) course. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. The start and end dates have been changed from May 1 – June 10 to May 8 – June 17.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 12 - Jul 28
+- CRN 67657
+- $568.16 Domestic fees
+Dates | Days | Times | Locations
+May 12 - Jul 28 | Tue | 18:00 - 21:00 | Online
+May 12 - Jul 28 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Rana Al-Sammarraie
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. The start and end dates have been changed from May 5 – July 21 to May 12 – July 28.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below are five offerings of COMP 1516 for the Fall 2026 term.
+Sep 10 - Nov 26
+- CRN 46990
+- $608.85 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:00 - 21:00 | Downtown DTC Rm. 382
+Sep 10 - Nov 26 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Rana Al-Sammarraie
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- The course is 48 hours - 36 hours on campus (in a lab with PCs provided) and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 11 - Nov 27
+- CRN 46992
+- $579.81 Domestic fees
+Dates | Days | Times | Locations
+Sep 11 - Nov 27 | Fri | 18:00 - 21:00 | Online
+Sep 11 - Nov 27 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Rana Al-Sammarraie
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- The course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 12 - Dec 12
+- CRN 46994
+- $579.81 Domestic fees
+Dates | Days | Times | Locations
+Sep 12 - Dec 12 | Sat | 09:00 - 12:00 | Online
+Sep 12 - Dec 12 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Jason Wilder
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously. No class October 10 (Thanksgiving) and October 31.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 15 - Dec 01
+- CRN 46968
+- $623.82 Domestic fees
+Dates | Days | Times | Locations
+Sep 15 - Dec 01 | Tue | 18:30 - 21:30 | Burnaby SE12 Rm. 321
+Sep 15 - Dec 01 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Mathew Linder
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- The course is 48 hours - 36 hours on campus (in a lab with PCs provided) and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours on campus and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 17 - Dec 03
+- CRN 46969
+- $579.81 Domestic fees
+Dates | Days | Times | Locations
+Sep 17 - Dec 03 | Thu | 18:30 - 21:30 | Online
+Sep 17 - Dec 03 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Mathew Linder
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- The course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students cannot attempt COMP 1516 , COMP 2501 , and COMP 2601 simultaneously.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

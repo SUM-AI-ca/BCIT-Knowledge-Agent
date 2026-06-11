@@ -1,0 +1,122 @@
+URL: https://www.bcit.ca/outlines/20261089202/
+Course: ACIT 1420
+Field: Introduction to Systems Administration
+Subject: Computer Information Technology
+Term: 202610
+CRN: 89202
+
+================================================================================
+
+## Course Outline
+## ACIT 1420
+## Introduction to Systems Administration
+School | School of Computing and Academic Studies
+Program | CIT
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 89202
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Akila Ramani
+E-mail | akila_ramani@bcit.ca
+Location | DTC 617
+Office Hours | Tuesday 11:30 am - 12:30 pm (Online - with prior appointment) Thursday 11:30 am - 12:30 pm (Online - with prior appointment)
+### Course Description
+This course introduces students to the configuration, maintenance, and administration of a Windows laptop computer. Topics include: An introduction to PC hardware, functions of an operating system (OS), Windows OS architecture, file and disk management, BIOS and UEFI, multi-boot, virtual machines, software installation/removal, performance tuning, backing up and protecting data, troubleshooting, networking, security, virus protection, and firewalls
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the purpose of different personal computer (PC) hardware components.
+- Discuss the features and services provided by a typical PC operating system.
+- Describe the architecture of the Windows operating system.
+- Customize BIOS and UEFI settings.
+- Configure a PC as a multi-boot device.
+- Explain OS virtualization.
+- Install and configure a Virtual Machine.
+- Manage partitions, files, and folders on a Windows PC.
+- Backup and restore data files on a Windows PC.
+- Use Windows System Restore capabilities to recover the Windows OS.
+- Install, update, and remove PC software.
+- Manage the PC using the Windows Control Panel.
+- Use Windows PowerShell for basic PC management operations.
+- Start, stop, and disable Windows services.
+- Performance tune a Windows computer.
+- Configure Windows PC firewall and security settings.
+### Learning Resources
+The course will utilize a blend of online readings and selected excerpts from the following textbook:
+Parsons, J. J. (2023). New Perspectives Computer Concepts Comprehensive , 21st Edition. Cengage. ( ISBN-13: 978-0357674611 )
+Recommended :
+Meyers, M., & Jernigan, S. (2021). Mike Meyers' CompTIA A+ guide to managing and troubleshooting PCs, 7th Edition (exams 220-1001 & 220-1002). New York, NY: McGraw-Hill Education. ( ISBN: 978-1264712748 )
+Schmidt, C. A. (2020). Complete A+ guide to IT hardware and software: A CompTIA A+ Core 1 (220-1001) & CompTIA A+ Core 2 (220-1002) textbook. Indianapolis, IN: Pearson IT Certification. ( ISBN: 978-0789760500 )
+Conklin, W. A., White, G. B., Cothren, C., Davis, R.,; Williams, D. (2021). Principles of computer security: CompTIA security+ and beyond, (exam SY0-501). New York, NY: McGraw-Hill Education., 6th Edition. ( ISBN-13: 978-1260474312 )
+Furthermore :
+Students must have access to a computing device that matches the CIT hardware requirements. Students must have administrative privileges on this system. Lessons and labs require the installation, configuration and management of applications on this device.
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 10 | In-person quizzes covering lectures, online discussions, and labs,
+Lab Assignments | 20 | Weekly lab assignments, on each weekly topic
+Group Presentation | 10 | One group presentation scheduled after midterm
+Participation | 10 | Participation in online and in-person discussions and group activities.
+Midterm | 20
+Final | 30 | Comprehensive
+Total | 100
+Note:
+- Passing grade for this course is 50%
+- Students must earn an average of 50% or more on the midterm and final exam to pass this course
+### Attendance Requirements
+Regular attendance in classes is critical to student success and is monitored. Unapproved absence of 2 or more classes may result withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Course Specific Requirements
+This course includes mandatory online learning activities. Failure to participate in the online components may result in failing the course.
+Course Website : This course has a dedicated website on the BCIT Learning Hub, which will be used for announcements, electronic handouts, and assignment submissions. All course-related announcements will be posted on the Learning Hub. It is the students' responsibility to check the Learning Hub regularly for updates.
+Online Participation (Learning Hub) : Weekly online activities include required readings and discussions. These activities must be completed before the start of each class. Readings will be assigned from the textbook, and handouts will be made available on the BCIT Learning Hub. To earn full participation marks, students must actively engage in all weekly online activities.
+In-Class Participation : During lab sessions, students will participate in group activities, problem-solving exercises, or work on their assignments. Students who are engaged in unrelated activities, such as checking email, browsing social media, or playing games, will be asked to leave the class.
+In-Class Activities : Homework typically includes readings, online discussions, or responses to questions assigned by the instructor, as well as pre-lab exercises. Failure to complete the pre-lab exercises before class will hinder your ability to complete the lab work.
+Quizzes : Quizzes will cover material from online learning activities, lectures, and lab practices from the previous week. Students who miss a quiz will receive a grade of zero.
+Assignments : Assignments must be completed individually unless otherwise specified by the instructor. Late assignments will not be accepted. Any instance of plagiarism will result in a zero grade for the assignment.
+Group Presentation : Each team is required to prepare a 10-15 minute presentation after the midterm. Students should form their own groups and select a team leader. Collaborate with your team members and instructor to determine an appropriate topic.
+### Course Schedule and Assignments
+Weekly quizzes are administered, and assignments are assigned during each class session.
+Week of | Week # | Topic | Details
+05-Jan | 1 | System Admin Introduction | Overview of System Administration
+12-Jan | 2 | Digital Binary Basics | Digitization, Binary Numbers, Compression theory and Compression ratio and Space Savings calculations
+19-Jan | 3 | PC Hardware | Basic PC Core components, Hardware Issues, Hardware troubleshooting tools
+26-Jan | 4 | OS Virualization | Computer history, multitasking, multithreading, user mode kernel mode, Virtualization vs Emulation, Hypervisor types
+02-Feb | 5 | Windows Basics | Windows Server types, Windows Client type comparisons. Basic Windows tasks
+09-Feb | 6 | Advanced Windows Features and File Management | Authentication and Authorization, UAC, Bitlocker and TPM, Registry
+16-Feb | 7 | BIOS, UEFI and RAID | BIOS/UEFI boot process, Secure boot/CSM Raid and file systems Review for midterm
+23-Feb | 8 | Midterm
+02-Mar | 9 | Security and Malware, Linux Intro/setup | Types of Malware, and attacks, encryption, and compression Intro to linux history, vi editor, passwd group and shadow file
+09-Mar | 10 | Working with Linux | Grep, partitioning and mounting disk, rsync and cron, Linux Processes, Top, Advanced Bash using awk and loops.
+16-Mar | 11 | Reading week
+23-Mar | 12 | Network and Firewalls | Internet, Network topology, Netowrk protocols TCP/IP UDP, OSI layers, DNS DHCP
+30-Mar | 13 | Backups and Data Protection | Backups and disaster recovery, Snapshots, Replication, cloud backups, and firewall configuration.
+06-Apr | 14 | Computer Hardening | Operating System Hardening Network Hardening Application Hardening
+13-Apr | 15 | Review for finals
+20-Apr | 16 | Finals
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Akila Ramani, Instructor January 02, 2026
+I verify that this course outline has been reviewed. Mike Mulder, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

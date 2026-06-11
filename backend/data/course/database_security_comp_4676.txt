@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/database-security-comp-4676/
+Title: Database Security COMP 4676
+Type: Course
+Course Code: COMP 4676
+
+================================================================================
+
+## Database Security COMP 4676
+Computer Systems Course
+## Course Overview
+This hands-on course shows database developers and administrators how to effectively secure online and corporate databases using defense-in-depth techniques. The focus is on how to assess the relevant threats and how to develop an effective database security strategy. Students gain experience employing database security techniques that can be used across multiple platforms.
+### Prerequisite(s)
+- COMP 2711 or COMP 2713 or 2 years industry experience managing databases.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, students will be able to:
+- Understand the types of vulnerabilities associated with various databases.
+- Evaluate threats and develop effective security strategies.
+- Understand the different threat environments associated with Internet facing versus corporate databases.
+- Design and implement access controls in standalone and distributed databases.
+- Augment database security with complementary defense-in-depth security measures.
+Effective as of Spring/Summer 2004
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

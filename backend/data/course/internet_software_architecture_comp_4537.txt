@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/internet-software-architecture-comp-4537/
+Title: Internet Software Architecture COMP 4537
+Type: Course
+Course Code: COMP 4537
+
+================================================================================
+
+## Internet Software Architecture COMP 4537
+Computer Systems Course
+## Course Overview
+​This course covers the important aspects of design, development and management of web APIs. It covers what RESTful APIs are and why they matter. It reviews how HTTP and REST APIs are related, talks about CRUD operations; explores the constraints of REST, and discusses the uses of HTTP status codes.
+### Prerequisite(s)
+- COMP 1537 and COMP 3522
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design and develop programs using REST, JSON and HTTP.
+- Design a simple web service.
+- Design and develop a RESTful API by applying the best practices and REST constraints.
+- Document and write specifications.
+- Practice implementation of CRUD operations.
+- Implement error handling, HTTP status codes, secure API.
+- Apply change management and versioning of designed APIs.
+- Secure a backend API server.
+Effective as of Fall 2020
+## Related Programs
+Internet Software Architecture (COMP 4537) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

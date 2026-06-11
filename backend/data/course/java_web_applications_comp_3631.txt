@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/java-web-applications-comp-3631/
+Title: Java Web Applications COMP 3631
+Type: Course
+Course Code: COMP 3631
+
+================================================================================
+
+## Java Web Applications COMP 3631
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 3641 -Java Web Application Development as of September 2009. This intensive hands-on course for Java Programmers continues on from COMP 3621 and addresses the design, coding and building of Java Web Applications. Student learn about Servlets, JavaServer Pages, HTTP, XML, Web servers, Web application directory structures and the deployment of Web applications. Topics include; the Servlet life cycle, web containers, deployment descriptors, handling client requests and server responses, use of session management techniques, Programmatic and Declarative security techniques, JSP Java scripting elements, JavaServer Pages Model 2 architecture, JSP custom tags, and the JSP Expression Language. Participants will configure a web server, build actual Java Web Apps and are prepared to move on to COMP 4631 , Advanced Java Web Applications.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design, code, build, and deploy Java Web Applications.
+- Configure Web Servers and Web Application modules.
+- Deploy Web applications using Servlets, JSPs, HTML, and XML.
+- Demonstrate the merits of the Model 2 design.
+- Build dynamic presentation layers through the use of JavaServer Pages and request dispatching.
+- Construct reusable components through the use of Custom Tags and Tag Handlers.
+- Incorporate user validation through programmatic and declarative techniques.
+- Create secure user environments by incorporating Secure Socket Layers (SSL).
+- Utilize the JSP Expression Language and the JSP Standard Tag Library (JSTL).
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

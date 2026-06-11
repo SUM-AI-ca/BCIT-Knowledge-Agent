@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/power-electronics-and-renewable-energy-applications-elex-4420/
+Title: Power Electronics and Renewable Energy Applications ELEX 4420
+Type: Course
+Course Code: ELEX 4420
+
+================================================================================
+
+## Power Electronics and Renewable Energy Applications ELEX 4420
+Electrical and Computer Engineering Course
+## Course Overview
+This course focuses on the use of power electronics for industrial and renewable energy applications. The material builds upon the concepts introduced in ELEX 3130 in the previous term and provides the required background to design and analyze electronics used for high power applications. The key topics covered include: printed circuit board design for power electronics; DC-DC and DC-AC (line and forced commutated) converter topologies; applications of power electronics in industry and renewable energy systems; switching harmonics; feedback control of power electronic systems; and implementation of those controllers on a digital platform. Concepts are applied in laboratories in order to realize a working prototype for a pre-defined list of projects by term end.
+### Prerequisite(s)
+- ELEX 3130 and MATH 3433 and PHYS 2143
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Discuss printed-circuit board layout techniques used for power electronic converter design with the aim of meeting safety, grounding and electromagnetic interference standards.
+- Analyze common DC-DC switch-mode power supplies.
+- Analyze commonly used line-commutated and forced-commutated DC-AC power electronic topologies for both three-phase and single phase AC connections.
+- Discuss the reasoning behind the use of different power electronic topologies in different applications such as renewable energy devices (photovoltaics, wind), VFDs, EV charging/driving, battery storage/fuel cell interfaces, lighting, and machine excitation.
+- Calculate harmonic output for different types of power supplies or switched waveforms and mitigate harmonic distortion issues with appropriate design of filters, modulation schemes, and control systems.
+- Describe the parts of a closed-loop control system and make use of Laplace-domain transfer functions to model those parts (plant, controller) in order to form a complete system model.
+- Determine system stability and other performance characteristics from a system model such as step and frequency response metrics.
+- Convert continuous time system/controller models to the discrete time domain.
+- Implement discrete time controllers on a digital platform to be used for course laboratory work.
+- Build a variety of power electronic circuits based on theoretical models and analysis.
+Effective as of Winter 2017
+## Related Programs
+Power Electronics and Renewable Energy Applications (ELEX 4420) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

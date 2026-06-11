@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/distributed-systems-principles-comp-7061/
+Title: Distributed Systems Principles COMP 7061
+Type: Course
+Course Code: COMP 7061
+
+================================================================================
+
+## Distributed Systems Principles COMP 7061
+Computer Systems Course
+## Course Overview
+This course examines the principles & paradigms underlying distributed systems. Labs are focused on concurrent & distributed programming. Distributed object-based clients and servers are developed and deployed using CORBA & Java RMI. Students develop in-depth knowledge and understanding of the principles, architectures & issues of distributed systems. Please note that COMP 7061 is offered only once a year in the Fall term.
+### Prerequisite(s)
+- COMP 2611 or COMP 2613
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Make an informed decision in choosing a distributed framework for an application.
+- Use the necessary tools to design & develop distributed applications.
+- Write multithreaded servers using Java.
+- Write distributed object-based software using CORBA with Java.
+- Write distributed object-based software using Java RMI.
+- Implement some of the algorithms used in distributed systems.
+Effective as of Fall 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

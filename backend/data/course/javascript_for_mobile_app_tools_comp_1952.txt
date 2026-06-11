@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/javascript-for-mobile-app-tools-comp-1952/
+Title: JavaScript for Mobile App Tools COMP 1952
+Type: Course
+Course Code: COMP 1952
+
+================================================================================
+
+## JavaScript for Mobile App Tools COMP 1952
+Computer Systems Course
+## Course Overview
+COMP 1952 is a special delivery of COMP 1911 designed for the Full-time Mobile App Tools Associate Certificate program. Students in this section must supply their own Mac notebook computer installed with the current OS X system and application software in order to participate. This intensive, hands-on JavaScript workshop continues on from COMP 1951 . Students with a solid understanding of HTML5 and CSS3 are introduced to client-side browser scripting with JavaScript. Labs, exercises and assignments focus on the theory behind client-side web scripting and how to manage interactive sites that use JavaScript to generate and manipulate a page's HTML and CSS. Participants learn to download and install several free, platform independent tools. Topics include: object detection, DOM manipulation, timers and animation, event handling, functions (named and anonymous), jQuery introduction, form validation, timers and simple animations. Mobile App Tools students who have also completed COMP 1951 Web Development and Design Mac 2 may move on to COMP 2051 Web Development and Design 3. Upon successful completion of COMP 1952 participants will be able to use a Mac to write browser independent scripts that meet official ECMA standards.
+### Prerequisite(s)
+- COMP 1951 or equivalent knowledge of building web pages and web sites with HTML5, CSS3, plus the ability to use a Mac with the current OS X.
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify, locate, download, and install free tools useful for client-side web scripting on a Mac.
+- Explain the theory behind client-side web scripting.
+- Write JavaScript web scripts with and without HTML content.
+- Identify, locate, and download sample JavaScript scripts and other Internet resources.
+- Validate user input from web pages.
+- Write browser sniffers, object detectors, and custom APIs useful for client-side scripting.
+- Use browser resources and abilities to change the contents of a web page dynamically.
+- Explain the jQuery Framework.
+- Use jQuery in addition to jQuery plugins to redevelop scripts in native JavaScript.
+- Use timers and intervals to create animations.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/process-control-fundamentals-elex-0265/
+Title: Process Control Fundamentals ELEX 0265
+Type: Course
+Course Code: ELEX 0265
+
+================================================================================
+
+## Process Control Fundamentals ELEX 0265
+Electrical and Computer Engineering Course
+## Course Overview
+Control is integral to the safe and efficient operation of industrial processes. This course is suitable for individuals who are interested in applied control and/or do not have an extensive mathematical background. A hands-on approach will cover the basic principles of process dynamic behaviour leading to suitable choice of control strategy. On/off, proportional, integral and derivative control strategies will be developed in class and applied in the lab. Advanced control strategies such as ratio, cascade, multivariable and feed forward systems will be introduced. Who should attend: The course is designed for Electrical Engineers, Mechanical Engineers, Chemical Engineers, Electricians, Electrical Technicians, Electrical Technologists, Plant Operators, Plant Engineers, Electrical Supervisors, and Production Staff.
+### Prerequisite(s)
+- Familiarity with processes and basic understanding of electricity.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the gains and lags primarily responsible for process dynamics.
+- Identify and describe the limitations of closed loop control.
+- Set up the closed loop configuration and select the correct controller action for an installation.
+- Describe two position (On/Off) closed loop control and assess its effectiveness as a control strategy.
+- Explain and implement the proportional control strategy and identify its limitations.
+- Investigate proportional, integral and derivative control and appreciate the advantages and limitations of each mode of control.
+- Describe a cascade, ratio and feedforward control strategy.
+- Discuss the advantages and disadvantages of advanced control when compared to single-loop control.
+Effective as of Spring/Summer 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

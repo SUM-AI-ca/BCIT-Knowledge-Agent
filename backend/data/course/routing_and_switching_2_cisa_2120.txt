@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/routing-and-switching-2-cisa-2120/
+Title: Routing and Switching 2 CISA 2120
+Type: Course
+Course Code: CISA 2120
+
+================================================================================
+
+## Routing and Switching 2 CISA 2120
+Computer Info Systems Admin Course
+## Course Overview
+Building upon skills from CISA 1220 and CISA 1120 , this course extends the student's knowledge and practical experience with routers and switches with a focus on enterprise switching and wide area networking (WAN) technologies. Topics include virtual local area networks (VLANs), spanning-tree protocol, rapid spanning-tree protocol, virtual trunking protocol, Inter-VLAN routing, network address translation, point-to-point protocol, Frame Relay, Internet Protocol version 6 (IPv6), WAN connectivity options and network troubleshooting. Students will gain hands-on experience with routers and switches in various local area networks, virtual local area networks, and wide area network topologies.
+### Prerequisite(s)
+- Successful completion of CISA Level 1 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the three-layer hierarchical campus design model.
+- Configure basic switch security on a switch that supports voice, video and data.
+- Explain segmentation of networks by bridges, switches, and routers.
+- Explain the role of redundancy in a converged network.
+- Describe and create Virtual LANs (VLANs).
+- Describe and configure spanning-tree protocol and rapid spanning-tree protocol.
+- Configure basic VLAN Trunking between switches.
+- Configure Inter-VLAN Routing between a router and switch.
+- Configure multiple routing protocols and propagate static routes between them.
+- Describe the components and basic operations of wireless LANs.
+- Configure and troubleshoot network address translation (NAT) on a gateway router.
+- Configure dynamic host configuration protocol (DHCP) services on a router.
+- Configure next generation routing information protocol (RIPng) to route IPv6 packets.
+- Configure and monitor the configuration of point-to-point protocol (PPP) on wide area links.
+- Configure and monitor the configuration of Frame-Relay on a router.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

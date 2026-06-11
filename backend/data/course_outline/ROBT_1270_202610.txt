@@ -1,0 +1,120 @@
+URL: https://www.bcit.ca/outlines/20261018714/
+Course: ROBT 1270
+Field: C Programming
+Subject: Mechatronics and Robotics
+Term: 202610
+CRN: 18714
+
+================================================================================
+
+## Course Outline
+## ROBT 1270
+## C Programming
+School | School of Energy
+Program | Mechatronics and Robotics
+Course Credits | 6.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Weeks | 20
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 18714
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Isaiah Regacho
+E-mail | iregacho@bcit.ca
+Location | SW09-202
+Office Hours | Day Start End Monday 15:30 17:30 Thursday 16:30 17:30 Friday 14:30 15:30 Also by appointment. Please email me. | Day | Start | End | Monday | 15:30 | 17:30 | Thursday | 16:30 | 17:30 | Friday | 14:30 | 15:30
+### Course Description
+Mechatronic systems are controlled by computers that require programming. This course presents structured program development in C, the prevalent programming language for mechatronic systems. Topics include programming style, constants and variables, conditional logic, loops, arrays, strings, pointers, structures, file input and output, and bit manipulation. Algorithm development is an essential component of the course and will be emphasized in lab exercises by solving problems from relevant application areas.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Develop algorithms to solve mechatronic and engineering problems.
+- Develop well documented, efficient, modular programs for control of mechatronic devices.
+- Implement algorithms using variables, conditional logic, loops, file I/O, and functions.
+- Read, parse, and manipulate string data.
+- Read and save information in files.
+- Manage related data using arrays and structures.
+- Share and manipulate data using functions and pointers.
+- Read and modify data at the bit level to manipulate data with microcontrollers.
+### Learning Resources
+Required:
+- Assignments, solutions, and reference material will be posted on the course web site on the LearningHub. I mportant announcements, messsages and related material will be communicated through the LearningHub. Make sure that you check your email and news regularly.
+Recommended:
+- Web: https://www.cprogramming.com/ https://www.mycplus.com/category/tutorials/c-programming-tutorials/ https://learn-c.org/ https://www.programiz.com/c-programming/examples
+- Reference Textbooks : Gary J. Bronson (2007). First Book of ANSI C (4th Edition), Boston, MA. Course Technology Press. Stephen Kochan (2014). Programming in C (4th Edition). Addison-Wesley Professional K. N. King (2008). C Programming: A Modern Approach (2nd Edition). W W Norton & Co Inc. Ivor Horton (2013). Beginning C (5th Edition). Apress Publishing. Richard Johnsonbaugh and Martin Kalin (1996). Applications Programming in ANSI C (3rd Edition). Pearson Publishing Deitel P & Deitel H and Associates (2013). C: How to program (seventh edition). Boston: Pearson
+### Evaluation Criteria
+Criteria | % | Comments
+Labs | 35 | Lab Component
+Quizzes | 15 | Theory Component
+Exam 1 | 20 | Theory Component
+Exam 2 | 30 | Theory Component
+The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is required for a passing grade . Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+The use of any Artificial Intelligence toward the completion of any evaluation is strictly prohibited.
+### Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend classes for the full duration of the course. Late arrivals or early departures may be considered as absences. It is the student’s responsibility to obtain missed course material in a timely manner. Absence from more than 10% of the scheduled course hours may result in the issuance of a warning. If additional scheduled sessions are missed, withdrawal or course failure may be recommended.
+### Course Specific Requirements
+Academic Performance: Students who fail courses may be required to discontinue from the program or be placed on a modified program. Depending on the number of failures in the term or the number of accumulated failures in the program, students may be required to sign a performance contract to remain in the program.
+### Other information
+Programming material for this course will be developed using two software programs:
+- Microsoft Visual Studio (2022). Students can install the community editions of this software on their personal devices (see course website on instructions on how to do this)
+- or Microsoft Visual Studio Code.
+### Course Schedule and Assignments
+Week | Date | Lecture Topic
+1 | Jan. 5 | Introduction to Programming
+2 | Jan. 12 | Variables, Constants, and Formatted I/O
+3 | Jan. 19 | Branches and Loops
+4 | Jan. 26 | Functions
+5 | Feb. 2 | Algorithms and Flowcharts
+6 | Feb. 9 | Pointers
+7 | Feb. 16 | Arrays
+8 | Feb. 23 | Strings
+9 | Mar. 2 | Midterm Exam
+10 | Mar. 9 | Spring Break
+11 | Mar. 16 | Structures
+12 | Mar. 23 | Modules
+13 | Mar. 30 | Memory Allocation
+14 | Apr. 6 | String Parsing
+15 | Apr. 13 | Processing Commands
+16 | Apr. 20 | File I/O
+17 | Apr. 27 | Arguments and the Command Prompt
+18 | May 4 | Bitwise Operations for Microcontrollers
+19 | May 11 | Review
+20 | May 18 | Final Exam
+The exact dates for Quizzes and Exams will be announced on the LearningHub.
+### Course topics
+- Introduction to computing systems and programming
+- Structured top-down programming
+- C Programming - Data storage and basic data types
+- C Programming - Compound data types (structures)
+- C Programming - Formatted I/O
+- C Programming - Program flow control (branches and loops)
+- C Programming - Functions and program partitioning
+- Structured Programming: Using C modules
+- C Programming - Arrays
+- C Programming - Characters and Strings
+- C Programming - File I/O
+- C Programming - Dynamic memory allocation
+- Introduction to microcontroller systems: HW I/O, memory and bitwise operations
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Isaiah Regacho, Instructor January 02, 2026
+I verify that this course outline has been reviewed. Greg Scutt, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,131 @@
+URL: https://www.bcit.ca/outlines/20261013160/
+Course: PHYS 1143
+Field: Physics for Electronics 1
+Subject: Physics
+Term: 202610
+CRN: 13160
+
+================================================================================
+
+## Course Outline
+## PHYS 1143
+## Physics for Electronics 1
+School | School of Computing and Academic Studies
+Program | Electrical & Computer Engineering Technology
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 84
+Total Weeks | 15
+Hours/Weeks | 5.6
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 13160
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Pam Borman
+E-mail | Pamela_Borman@bcit.ca
+Location | SW3 4085
+Office Hours | Mondays 10:30 - 11:20; Tuesdays 10:30-11:20; Wednesdays 11:30-12:20; and Fridays 10:30 - 11:20, 12:30 - 1:20
+### Course Description
+This course is a general physics course that emphasizes topics of special relevance to electronics. Topics covered include kinematics and dynamics of translational and rotational motion, conservation of energy, stress and strain of materials and simple harmonic motion. Calculus terminology and concepts will be introduced in select topics. The laboratory exercises stress measurement, data analysis, and experimental techniques as they relate to the lecture material. Technological applications are identified throughout the course.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Define (i) the variables used to describe the kinematics and dynamics of translational motion. [1]
+- Apply (iii) force vector diagrams to solve static and dynamic problems. [1, 2, 3]
+- Use (iii) the principle of conservation of energy to solve problems in work, energy, power, and efficiency. [1, 2, 3]
+- Apply (iii) the principle of conservation of momentum to solve one and two dimensional collision problems. [1,2,3]
+- Apply (iii) the concepts of kinematics, dynamics, and energy to problems in rotational motion. [1, 2, 3]
+- Define (i) the variables used to describe the properties of materials relating to stress and strain. [1]
+- Apply (iii) simple harmonic motion principles to solve problems relating to mechanical oscillators. [1, 2, 3]
+### Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+(ii) Comprehension - Students are expected to explain and understand a topic.
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+### Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Learning Resources
+optional - Physics Principles and Applications by Giancoli 7th edition
+required scientific calculator
+### Evaluation Criteria
+Criteria | % | Comments
+pop quizzes (3 @ 2% each) | 6 | not scheduled - can occur at any time
+term tests (2 @ 15% each) | 30 | weeks 6 and 12
+lab work (10 @ 1% each) | 10 | ongoing
+lab tests (2 @ 12% each) | 24 | weeks 8 and 15
+final (cumulative) | 30
+The minimum passing grade is 50%. Successful completion of both the lab component and the theory component (50% grade in each) of this course is required for a passing grade. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
+### Attendance Requirements
+Lab attendance is mandatory. If a lab is missed due to sickness or emergency, it must be made up as soon as possible. Missing 2 or more labs with no attempt to make up the work will result in a grade of Unsatisfactory
+### Course Schedule and Assignments
+week | topic(s)
+1 | measurement & uncertainty
+2 | kinematics & vectors
+3 | velocity & acceleration
+4 | freefall
+5 | kinematics in two dimensions
+6 | projectile motion: Term Test 1
+7 | forces & free body diagrams
+8 | torque
+9 | uniform circular motion
+10 | Kepler's laws
+11 | work, energy, & power
+12 | momentum; Term Test 2
+13 | rotational dynamics
+14 | review
+Lab Schedule:
+Week of: | Lab
+Jan 05 | No labs
+12 | Measurement and Uncertainties part 1
+19 | Measurement and Uncertainties part 2
+26 | Graphical Analysis and GraphIt
+Feb 02 | Graphical Analysis and the Spring Constant
+09 | Acceleration due to Gravity
+16 | Newton’s 2 nd Law of Motion
+23 | Lab Test #1
+Mar 02 | Coefficients of Friction
+09 | No Labs Spring Break
+16 | Uniform Circular Motion
+23 | Moment of Inertia
+30 | no labs due to Easter weekend
+Apr 06 | Damping and resonance of an Oscillator
+13 | Lab Test #2
+20 | ECET Exam Week
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Pam Borman, Instructor December 08, 2025
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty December 31, 2025
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 02, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

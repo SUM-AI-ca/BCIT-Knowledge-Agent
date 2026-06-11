@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/computational-methods-civl-7012/
+Title: Computational Methods CIVL 7012
+Type: Course
+Course Code: CIVL 7012
+
+================================================================================
+
+## Computational Methods CIVL 7012
+Civil Engineering Course
+## Course Overview
+This course investigates a variety of computational methods to facilitate the numerical solution of engineering problems. Emphasis is placed on problem formulation, solution algorithms and programming application. Topics include: solution of non-linear equations (root-finding) systems of linear equations, optimization, curve fitting, numerical integration, and solving ordinary differential equations.
+### Prerequisite(s)
+- MATH 7010
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Assess numerical solution strategies based on robustness, efficiency and accuracy. [1, 2, 5]
+- Numerically solve non-linear equations (root-finding) using bracketing and open methods. [1, 2, 5]
+- Solve systems of linear equations using Gaussian elimination and LU-decomposition. [1, 5]
+- Solve optimization problems involving functions of a single variable. [1, 2, 4, 5]
+- Solve simple multidimensional constrained and unconstrained optimization problems. [1, 2, 4, 5]
+- Perform curve fitting using least squares regression and interpolation. [1, 2, 5, 12]
+- Perform numerical integration. [1, 2, 5, 12]
+- Numerically solve ordinary differential equations arising in engineering applications. [1, 2, 5, 12]
+Effective as of Fall 2018
+## Related Programs
+Computational Methods (CIVL 7012) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Construction and the Environment
+- Civil Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

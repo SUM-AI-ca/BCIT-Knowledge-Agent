@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20251087539/
+URL: https://www.bcit.ca/outlines/20251087014/
 Course: EENG 7440
 Field: Environmental Impact Assessment
+Subject: Environmental Engineering
+Term: 202510
+CRN: 87014
 
-School: School of Construction and the Environment
-Program: Environmental Engineering
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: January 08, 2025
-End Date: April 23, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): 50% in COMM 7500† († may be taken concurrently) Admission to EENG program
-CRN: 87539
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## EENG 7440
+## Environmental Impact Assessment
+School | School of Construction and the Environment
+Program | Environmental Engineering
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | January 08, 2025
+End Date | April 23, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in COMM 7500 † ( † may be taken concurrently) Admission to EENG program
+CRN | 87014
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Kerly Hitchcock
-E-mail: Instructor to provide
-Location: SW02-215
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Kerly Hitchcock
+E-mail | khitchcock@bcit.ca
+Location | SW02-215
+Office Hours | Wednesdays 1:00pm to 2:00pm. Please email for an appointment.
+### Course Description
 ​The course starts off with defining the main goals of the Environmental Impact Assessment (EIA) process: gathering comprehensive information on potential projects with respect to the foreseen impacts; public, Indigenous peoples and other stakeholder engagement in the early stages of the process; and evaluating projects' compatibility with the community's sustainable development strategies. The stages of the EIA along with the tools used in the process, such as Geographic Information System (GIS), are discussed. Case studies from a variety of industrial sectors are critically analyzed in order to invoke learners' understanding primarily of common but also specific technical elements and components of various projects, and consequently the magnitude and nature of their effects on Valued Environmental Components (VECs). Examples of recent assessment projects will be presented as case studies. Applicable regulations and guidelines are also discussed.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Outline the stages of a comprehensive EIA process.
 - Effectively use Geographic Information Systems (GIS) to present quantitative data.
 - Evaluate industrial processes and activities to assess their potential environmental impacts.
@@ -37,64 +40,51 @@ Upon successful completion of this course, the student will be able to:
 - Propose strategies to minimize the adverse effects potentially caused by a proposed project.
 - Use available guidelines and regulations under the Environmental Assessment Act to prepare an outline for an EIA study.
 - Prepare a critique of an assessment report for the assigned proposed project.
-
-## Learning Resources
+### Learning Resources
 Posted on Learning Hub
-
-## Evaluation Criteria
-Item: %: Comments
-Discussions (5 @ 4%): 20: Comments: The student must achieve a minimum 50% passing grade overall in order to pass this course . *To obtain full marks for discussion students must: 1. Make at least one substantive contribution to each discussion forum within the context of the discussion, and must post at least one reply to another contribution. This will count towards 10% of the total mark. 2. Demonstrate critical thinking in the way they analyze the discussion question and structure their contribution. This will count towards 10% of the total mark.
-Quizzes (3@10%): 30
-GIS Assignment: 20
-Term Paper (written): 30
-TOTAL: 100
-
-## Course Specific Requirements
+### Evaluation Criteria
+Item | % | Comments
+Discussions (5 @ 4%) | 20 | Comments: The student must achieve a minimum 50% passing grade overall in order to pass this course     . *To obtain full marks for discussion students must: 1. Make at least one substantive contribution to each discussion forum within the context of the discussion, and must post at least one reply to another contribution. This will count towards 10% of the total mark. 2. Demonstrate critical thinking in the way they analyze the discussion question and structure their contribution. This will count towards 10% of the total mark.
+Quizzes (3@10%) | 30
+GIS Assignment | 20
+Term Paper (written) | 30
+TOTAL | 100
+### Course Specific Requirements
 Student constant work and participation is expected throughout the course. GIS in-class sessions attendance is required.
-
-## Course Schedule and Assignments
-Week # Starts Date: Module number: Material Covered: Activities: Due Dates
-1 January 8: 1: Module 1: Defining the Goals and Stages of Environmental Impact Assessment process: On-line class 2:30pm – 5:20pm Assigned readings: January 15th
-2 January 15: 1: Module 1: Defining the Goals and Stages of Environmental Impact Assessment process: Team discussion: Discussion closes January 22th
-3 January 22: 1: Module 1: Defining the Goals and Stages of Environmental Impact Assessment process: Class-wide discussion until Jan 29th Questions/Answers period preparation for quiz #1: Quiz # 1 Jan 27th to Jan. 31st access to Quiz #1 closes on Jan 31st at 11:30pm
-4 January 29: 2: Module 2: EIA pertaining legislation: Assigned readings Team discussion: Discussion closes February 5
-5 February 5: 3: Module 3: Shared and integrative methods: Assigned readings Class-wide discussion Questions/Answers period preparation for quiz # 2: Quiz # 2 Feb. 5th – Feb 12th access to Quiz #2 closes on Feb 14th at 11:30pm
-6 February 12: 4: Module 4: GIS, features, attributes, ArcMap, ArcCatalog, ArcGIS Pro, ArcOnline and ArcToolbox: In-class session NE 01- 333
-7 February 19: 4: Reading break, no classes
-February 26: Module 4: Spatial analysis, Geoprocessing and Tools for Analysis - Extracting data, Overlay Analysis and Proximity Analysis using Arcmap: In-class session NE 01- 333
-8 March 5: 4: Module 4: Data Interoperability, FME, Data types / conversion, Image Data and Image Display using ArcGIS Pro: In-class session NE 01- 333
-9 March 12: 4: Module 4: Georeferencing, Coordinate Systems/Projections/Spatial Reference, Datums using ArcGIS Pro: In-class session NE 01- 333: Assignment 1 (GIS) TBA
-10 - March 19: 5: Module 5: Concepts and Methods of identifying environmental impacts: Assigned readings Team discussion: Discussion closes March 26th
-11 March 26: 6: Module 6: Information Required (former TOR) and Environmental Impact Statement (EIS): Assigned readings Team discussion Questions/Answers period and preparation for quiz #3: Quiz # 3 March 31th – April 4rd access to Quiz #3 April 4rd at 11:30pm
-12 April 2: 7: Module 7: Critique of assigned Environmental Impact Statement (EIS) reports: Assigned readings Team discussion only
-13 April 9: 7: Module 7: Critique of assigned Environmental Impact Statement (EIS) reports: Assigned readings Team discussion only (Note: drafts should be posted the following week and to a different discussion area): Discussion closes April 16th
-14 April 16: 7: Module 7: Critique of assigned Environmental Impact Statement (EIS) reports: Preparation of the term paper (post in designated discussion section your drafts)
-15 April 23: 7: Module 7: Critique of assigned Environmental Impact Statement (EIS) reports: Finalizing term paper (implement ALL edits/suggestions from instructors, EENG 7440 and COMM 7500): Term paper due Week 15 (Wednesday): April 23th by 11:30 pm (no extension)
-
-## BCIT Policy
+### Course Schedule and Assignments
+Week # Starts Date | Module number | Material Covered | Activities | Due Dates
+1 January 8 | 1 | Module 1: Defining the Goals and Stages of Environmental Impact Assessment process | On-line class 2:30pm – 5:20pm Assigned readings | January 15 th
+2 January 15 | 1 | Module 1: Defining the Goals and Stages of Environmental Impact Assessment process | Team discussion | Discussion closes January 22 th
+3 January 22 | 1 | Module 1: Defining the Goals and Stages of Environmental Impact Assessment process | Class-wide discussion until Jan 29 th Questions/Answers period preparation for quiz #1 | Quiz # 1 Jan 27 th to Jan. 31 st access to Quiz #1 closes on Jan 31 st at 11:30pm
+4 January 29 | 2 | Module 2: EIA pertaining legislation | Assigned readings Team discussion | Discussion closes February 5
+5 February 5 | 3 | Module 3: Shared and integrative methods | Assigned readings Class-wide discussion Questions/Answers period preparation for quiz # 2 | Quiz # 2 Feb. 5 th – Feb 12 th access to Quiz #2 closes on Feb 14 th at 11:30pm
+6 February 12 | 4 | Module 4 : GIS, features, attributes, ArcMap, ArcCatalog, ArcGIS Pro, ArcOnline and ArcToolbox | In-class session NE 01- 333
+7 February 19 | 4 | Reading break, no classes
+February 26 | Module 4: Spatial analysis, Geoprocessing and Tools for Analysis - Extracting data, Overlay Analysis and Proximity Analysis using Arcmap | In-class session NE 01- 333
+8 March 5 | 4 | Module 4: Data Interoperability, FME, Data types / conversion, Image Data and Image Display using ArcGIS Pro | In-class session NE 01- 333
+9 March 12 | 4 | Module 4: Georeferencing, Coordinate Systems/Projections/Spatial Reference, Datums using ArcGIS Pro | In-class session NE 01- 333 | Assignment 1 (GIS) TBA
+10 - March 19 | 5 | Module 5: Concepts and Methods of identifying environmental impacts | Assigned readings Team discussion | Discussion closes March 26 th
+11 March 26 | 6 | Module 6: Information Required (former TOR) and Environmental Impact Statement (EIS) | Assigned readings Team discussion Questions/Answers period and preparation for quiz #3 | Quiz # 3 March 31 th – April 4 rd access to Quiz #3 April 4 rd at 11:30pm
+12 April 2 | 7 | Module 7: Critique of assigned Environmental Impact Statement (EIS) reports | Assigned readings Team discussion only
+13 April 9 | 7 | Module 7: Critique of assigned Environmental Impact Statement (EIS) reports | Assigned readings Team discussion only ( Note : drafts should be posted the following week and to a different discussion area) | Discussion closes April 16 th
+14 April 16 | 7 | Module 7: Critique of assigned Environmental Impact Statement (EIS) reports | Preparation of the term paper (post in designated discussion section your drafts)
+15 April 23 | 7 | Module 7: Critique of assigned Environmental Impact Statement (EIS) reports | Finalizing term paper (implement ALL edits/suggestions from instructors, EENG 7440 and COMM 7500) | Term paper due Week 15 (Wednesday): April 23 th by 11:30 pm (no extension)
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Kerly Hitchcock, Program Head January 10, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean January 10, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

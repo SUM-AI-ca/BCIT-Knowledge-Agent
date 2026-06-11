@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/applied-wireless-networking-comp-3660/
+Title: Applied Wireless Networking COMP 3660
+Type: Course
+Course Code: COMP 3660
+
+================================================================================
+
+## Applied Wireless Networking COMP 3660
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 3661 . This complete 12-week course covers all the concepts and technologies required to set-up wireless networking systems, from a Network Administrator's perspective. Students learn to identify and understand the hardware and software components used in wireless networks. Topics include: modulation schemes, propagation and bandwidth issues, spectrum utilization, antenna selection, 802.11 standards, 3G mobile networks and RF hardware components. There is a focus on network troubleshooting, optimization and security technologies such as WEP. Hands-on lab exercises cover the correct configurations and placement of wireless equipment. Security planning and attack solutions are also discussed. Students use tools to perform site surveys and implement a wireless network in the classroom. This course replaces COMP 2660 and COMP 2661 and helps participants to write the CWNA (Certified Wireless Network Administrator) exam. Please note that this course is only offered once a year in the Fall term.
+### Prerequisite(s)
+- COMP 2654 or ( COMP 2658 and COMP 2664 )
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Firmly grasp the background theory and technologies of modern wireless communications systems.
+- Explain the fundamental principles behind all wireless transmission systems including the nature of spectrum and bandwidth, how it is allocated, and why it is important.
+- Understand different modulation and access schemes and their relative merits in modern systems.
+- Describe first, second, and third generation mobile systems currently in service, and discuss the differences between them.
+- Discuss the current status of international 3G mobile standards and the relative merits of the competing standards.
+- Explain the essential characteristics of IEEE 802.11 wireless LAN standard and the IEEE 802.15 wireless personal area network standard, and be able to describe the relative merits of each.
+- Describe how fixed wireless systems are different from mobile systems and the circumstances in which they are superior to wireline alternatives.
+- Discuss current wireless industry business models and future trends.
+- Describe the basic attributes, purpose and functions of RF antenna types used in wireless networks.
+- Recognize each RF antenna types, radiation pattern and describe proper locations for installing antennas.
+- Describe common PoE device options, and explain the components of PoE devices that determine their compatibility.
+- Describe common wireless LAN hardware accessories and explain their functions.
+- Describe the causes of multipath fading, hidden nodes and near/far problems on a wireless LAN and how to troubleshoot for solutions.
+- Describe key sources of overhead on wireless LANs and how to increase throughput by the proper configuration and placement of wireless LANs.
+- Describe sources of wireless LAN interference and recognize tools used to check and troubleshoot RF interference.
+- Describe the three general conditions that affect the communication range of wireless LAN devices, and explain steps to control the transmission range of wireless LANs.
+- Explain basic WEP concepts and vulnerabilities and describe the appropriate use and configuration of SSID, MAC, and protocol filters.
+- Describe methods hackers use to attack wireless LANs and identify emerging security solutions for wireless networks.
+- Identify the tasks, appropriate equipment and tools involved performing a site survey before implementing a wireless network.
+Effective as of Fall 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

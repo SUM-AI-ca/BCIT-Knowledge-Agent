@@ -1,0 +1,79 @@
+URL: https://www.bcit.ca/outlines/20262065303/
+Course: ACIM 6030
+Field: Process and Distributed Control Systems
+Subject: Automated Controls Installation & Maintenance
+Term: 202620
+CRN: 65303
+
+================================================================================
+
+## Course Outline
+## ACIM 6030
+## Process and Distributed Control Systems
+School | School of Construction and the Environment
+Program | ACIM
+Course Credits | 3
+Minimum Passing Grade | 70%
+Start Date | April 25, 2026
+End Date | June 06, 2026
+Total Hours* | 45
+Total Weeks | 6
+Hours/Weeks | 7.5
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 70% in ACIM 5030 and 70% in ACIM 5040
+CRN | 65303
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Allen Song
+E-mail | Instructor to provide
+Location | Room 224, Building SE1, BCIT
+Office Hours | Instructor to provide
+### Course Description
+Graduates of the Automated Controls Installation and Maintenance program will often be sharing responsibilities for automated system maintenance with highly specialized co-workers or require the support of offsite experts. In many process control environments, classical distributed control systems (DCSs) are giving way to programmable logic controllers (rebranded as programmable automation controllers [PACs]). For contributors from diverse technical disciplines to be effective in maintaining complex systems, a common vocabulary and complementary skills are required. To achieve the course objectives, a Siemens distributed control system platform is implemented and tested. A graphical user interface designed for the control system is studied in theory, observed in operation, and modified to meet specified requirements. Also, the BCIT AFRESH house system will be studied and changes made to a portion of the controls for a simulated geothermal heat exchange process.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Install, connect, maintain, and troubleshoot process and distributed control systems.
+- Add input and output modules into a distributed control system and terminate electrical control power and twisted-pair communication cables.
+- Modify a Siemens PC-based control system to accommodate the addition of a new variable frequency drive and its associated field devices, programming, and required alarms.
+- Interpret a complex hydronic schematic diagram for the BCIT AFRESH House and relate it to Innotech Maxim FBD (function block diagram) controller programming.
+- Run Innotech Maxim controller simulations and make modifications to accommodate a mechanical retrofit of the BCIT AFRESH House.
+### Learning Resources
+Learning Hubs
+Lab equipment at Room 117
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 5
+Midterm | 20
+Simutech and Lab exam | 30
+Programming/Interface Project | 20
+Final Exam | 25
+### Course Schedule and Assignments
+## Course Schedule and Assignments
+This course is delivered over six Saturdays and includes a combination of lectures, laboratory activities, online assessments, and project-based learning. Students are expected to complete assigned readings before each class and submit assessments according to the schedule below.
+Week | Material Covered | Required Readings | Assignment / Assessment | Due Date
+Week 1 | Introduction to Distributed Control Systems (DCS); industrial network architecture; manufacturer industrial control systems; Siemens PLC hardware components; DCS system setup; PLC hardware configuration | Topic 1 learning materials posted on LMS | Quiz 1 (online) covering introductory DCS concepts and PLC hardware fundamentals | End of Week 1
+Week 2 | PLC programming using Siemens TIA Portal; ladder logic development; programming fundamentals; function blocks and troubleshooting basics | Topic 2 learning materials | Quiz 2 (online) covering PLC programming fundamentals | End of Week 2
+Week 3 | WinCC HMI interface development; HMI screen design; alarms and alarm history; remote I/O systems | Topic 3 learning materials | Quiz 3 (online) covering HMI design and remote I/O concepts | End of Week 3
+Week 4 | IO-Link communication systems; field devices; PROFINET communication; Variable Frequency Drives (VFDs) | Topic 4 learning materials | Midterm Exam (online) covering Weeks 1–4 course content; Quiz 4 | End of Week 4
+Week 5 | Course project introduction; industrial system integration; project planning; PLC/HMI interface development | Topic 5 learning materials | Quiz 5 (online); begin Programming/Interface Project | End of Week 5
+Week 6 | Project completion; system troubleshooting; project presentations/evaluation; course review | Topic 6 learning materials | Simutech Troubleshooting Assessment (online); Lab Exam (online); Programming/Interface Project submission; Final Exam (in-class) | Final class day
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Allen Song, Instructor April 23, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Michael Currie, Associate Dean April 24, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

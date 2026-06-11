@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/active-directory-infrastructure-comp-3701/
+Title: Active Directory Infrastructure COMP 3701
+Type: Course
+Course Code: COMP 3701
+
+================================================================================
+
+## Active Directory Infrastructure COMP 3701
+Computer Systems Course
+## Course Overview
+This hands-on course continues from COMP 3700 Windows Server Administration. Students learn to plan, implement and troubleshot an Active Directory Infrastructure on a PC network. Participants work in labs and focus on the directory service environment to increase efficiency and minimize administrative load. Topics include: forest, tree, domain and organization unit structure, DNS, site topology and replication, domain administration and delegation, Group Policy Object development and implementation. In addition this course helps to provide preparation for MCSE exam 70-640. Upon successful completion students will have an understanding of how to deploy a secure Windows Active Directory environment. Please register early, this course will only be offered once per year in the fall term.
+### Prerequisite(s)
+- 60% in COMP 3700
+- COMP 3700 Windows Server Administration, or equivalent knowledge.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the logical and physical components of Active Directory.
+- Plan and implement an Active Directory infrastructure that is based on a directory service design that an enterprise architect provides.
+- Create and configure a forest and domain structure by using an Active Directory infrastructure design.
+- Plan and implement the placement of domain controllers, global catalog servers, and DNS servers that are integrated with Active Directory.
+- Plan and implement an organizational unit structure.
+- Plan and implement Active Directory user, group, and computer accounts.
+- Plan and implement a Group Policy strategy to centrally manage users and computers in an enterprise.
+- Deploy, manage, and troubleshoot software that is deployed using Group Policy.
+- Implement sites to manage and monitor Active Directory replication.
+- Plan and manage operations masters.
+- Back up, restore, and maintain Active Directory.
+Effective as of Spring/Summer 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

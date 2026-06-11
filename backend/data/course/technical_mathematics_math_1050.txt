@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/technical-mathematics-math-1050/
+Title: Technical Mathematics MATH 1050
+Type: Course
+Course Code: MATH 1050
+
+================================================================================
+
+## Technical Mathematics MATH 1050
+Mathematics Course
+## Course Overview
+Emphasizes the integration of problem-solving strategies with mathematical and calculator skills in the context of relevant environmental health and biological applications. Topics include unit conversions, ratio/proportion, percentages (ppm, ppb), area/volume calculations for regular/irregular shapes and solids, linear, logarithmic and exponential functions with appropriate curve fitting (least squares), semi-log and log-log graphing, and trigonometry. Applications include pesticide mixtures, fluid/air flow, electrical networks, volumes and/or areas related to pools, toxic spills and septic fields, sound intensity and pressure, amplification and attenuation, radioactive decay, serial dilution problems, running log mean, circuit transients, frequency filtering, Nernst potential, resting membrane potential, transit/clinometer calculations, surveying problems, tomography, force diagrams, AC circuit analysis, and digital sampling.
+### Prerequisite(s)
+- Principles of Mathematics 11 with a grade of at least C or Applications of Math 12 with C+ or Principles of Math 12. Pre-requisites must have been completed within the last 5 years. Caution: Students who are entering BCIT with a grade of at least B in BC Principles of Math 12 or equivalent may not be able to get transfer credit for this course at other institutions. These students may wish to take Math 1100 (Calculus 1).
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student is expected to be able to:
+- Demonstrate unit conversions involving the Imperial System and Systeme International (SI), and percent, ppm and ppb.
+- Determine reasonable precision and accuracy in computations involving measured quantities in both scientific and fixed format.
+- Calculate perimeters, areas and volumes of regular geometric shapes, and estimate irregular areas and volumes, using numerical methods such as the Trapezoid Rule, Simpson's Rule, and Three-Eighths Rule [e.g., for pools, toxic spill sites, pesticide and toxic waste containers, and septic fields].
+- Formulate and solve mixture, flow and circuit problems in up to three unknowns [e.g., applications to include pesticide or chemical mixtures, water flow in streams and pipes, air flow in ventilation ducts, loop currents in multi-loop circuits].
+- Algebraically rearrange relevant formulae including rectification of units.
+- Formulate and solve problems using common and natural logarithms and corresponding exponential functions [e.g., applications to include pH level, radioactive decay, noise (decibels), sound intensity and sound pressure, serial dilution problems, running log mean, exponential growth, exponential growth to a limiting value, attenuation, amplification, signal-to-noise ratio, circuit transients and time constants in serial RC and RL circuits, implementation of low- and high- pass frequency filters, Nernst potential for gated ion flow across polarized membranes, resting potential for membranes permeable to multiple ionic species].
+- Formulate and solve applied problems involving ratio and proportion [e.g. applications to include unit conversions, rates, inverse square law (noise and absorbed radiation dose), areas and volumes of similar figures, map scaling].
+- Determine the equation of a curve to represent an experimental data set using the principles of linear regression (least squares) and correlation, and use the equation to appropriately interpolate and extrapolate [e.g., applications to include linear, exponential and power function relationships using Cartesian, semi-log and log-log papers].
+- Distinguish between exponential and power function relationships including transformations to linearize data sets of these types [e.g., radioactive decay versus absorbed radiation dose].
+- Formulate and solve applied problems requiring trigonometry for both right angle and non-right angle triangles [e.g. applications to include percent grade or slope, transit/clinometer readings for septic field layout, sector areas, as well as Sine and Cosine Law applications to surveying problems, tomography, resolving forces].
+- Analyze the graphs of sine and cosine functions to determine amplitude, period, frequency and phase shift, with applications to AC circuits.
+- Formulate and solve problems demonstrating an understanding of AC circuit concepts such as voltage-current phase relationships, capacitive reactance, inductive reactance, and impedance in series RLC circuits.
+- Use analytic and phasor methods to add sinusoidal waveforms of the same frequency, with applications to simple AC circuits.
+- Demonstrate an understanding of Fourier series decomposition of complex waveforms, digital sampling, the Nyquist limit, and the concept of aliasing.
+- Demonstrate calculator fluency for all relevant applications.
+Effective as of Fall 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

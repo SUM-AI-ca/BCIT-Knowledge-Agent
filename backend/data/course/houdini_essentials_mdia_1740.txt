@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/houdini-essentials-mdia-1740/
+Title: Houdini Essentials MDIA 1740
+Type: Course
+Course Code: MDIA 1740
+
+================================================================================
+
+## Houdini Essentials MDIA 1740
+Media Communications Course
+## Course Overview
+​This course introduces Houdini (industry-standard application for visual effects) to students who are familiar with the concept of 3D environments and who want to learn one of the leading applications used in the visual effects industry. Throughout this course, students develop skills and understanding related to the 3D environment and learn to navigate in the Houdini application. In addition, this course covers some of the most powerful aspects of node-based workflow, including the user interface, basic geometry manipulation, 3D modeling and animation, and surface and dynamic operators. Students explore how to create and import geometry, apply materials and manipulate UVs and practice these skills through each step of the pipeline, including modeling, animation, basic automation, dynamics, lighting and rendering to construct a shot.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Navigate through different panels, windows, and menus inside Houdini
+- Describe the node-based workflow within the Houdini application
+- Create 3D objects by using a variety of modelling tools
+- Use interactive transformation tools
+- Apply and manipulate UVs to the 3D models
+- Create basic animations with and without keyframes
+- Explain physics concepts for dynamic effects
+- Build particle systems and effects by manipulating particle attributes
+- Create rigid bodies and apply physics elements
+- Set up the camera in the 3D scene
+- Build proper lighting for the scene
+- Explain the workflow of surface and dynamic operators
+- Utilize Mantra and rendering processes in Houdini
+- Write small scripts for basic automation
+- Render 3D environments and effects
+Effective as of Winter 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/protection-systems-elex-4425/
+Title: Protection Systems ELEX 4425
+Type: Course
+Course Code: ELEX 4425
+
+================================================================================
+
+## Protection Systems ELEX 4425
+Electrical and Computer Engineering Course
+## Course Overview
+The focus of this course is on devices and systems required to protect an electrical power supply system. This course builds from concepts learned in the third term electrical equipment and design courses and the concurrent fourth term power system analysis course and gives students the required background to design a protective system for a power system. Topics include types of abnormalities, per unit system, symmetrical components, ground fault calculations, three-phase balanced and unbalanced fault calculations, instrument transformers, protective relays, fuses, circuit breakers, switchgear, grounding design, transformer protection, motor protection, generator protection, line protection, coordination of protective devices, lighting protection and arc flash calculations. Software tools will be used for modeling and simulation throughout this course.
+### Prerequisite(s)
+- ELEX 3410 and ELEX 3425
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain types of abnormalities that may occur (causes and consequences) on an electrical system such as overcurrent, fault and overvoltage.
+- Calculate system characteristics using per unit system.
+- Develop symmetrical component networks to represent characteristics of a power system.
+- Analyze short circuit currents for an electrical power system for symmetrical and unsymmetrical faults using symmetrical components.
+- Select instrument transformers for application (metering or protection) considering fault current and burden.
+- Compare protection devices such as fuses, breakers and relays (including digital) in terms of protection offered and operability.
+- Determine primary and secondary device types, ratings and settings for transformer protection.
+- Determine protective device types, ratings and settings for motors and generators and distribution lines.
+- Design appropriate protective systems to meet Canadian Electrical Code requirements, based on industry practices for coordination.
+- Design a grounding system for a power supply system based on established engineering practices.
+- Set appropriate protection devices to coordinate primary fuse, secondary breaker, and motor overload relays for an MCC.
+- Explain the danger of open circuiting a CT.
+- Connect industrial relays using IEC 61850 communication standard.
+Effective as of Winter 2017
+## Related Programs
+Protection Systems (ELEX 4425) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

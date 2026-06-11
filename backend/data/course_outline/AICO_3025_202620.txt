@@ -1,0 +1,172 @@
+URL: https://www.bcit.ca/outlines/20262061105/
+Course: AICO 3025
+Field: Revit for MEP
+Subject: Computer Aided Design & Engineering
+Term: 202620
+CRN: 61105
+
+================================================================================
+
+## Course Outline
+## AICO 3025
+## Revit for MEP
+School | School of Energy
+Program | Associate Certificate in Computer Aided Design
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | April 07, 2026
+End Date | June 23, 2026
+Total Hours* | 45
+Total Weeks | 12
+Hours/Weeks | 3.75
+Delivery Type | Other
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 61105
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Sam Bahmanoo
+E-mail | Instructor to provide
+Location
+Office Hours | Instructor to provide
+### Course Description
+Revit for MEP (mechanical, electrical and plumbing) uses 3D parametric models for both design and construction documentation. This course introduces the basic HVAC, electrical and plumbing components of the software. Architectural models are linked. The expectation is that students have current training/experience with Computer Aided Design. Students should also have exposure to building systems.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Link architectural files.
+- Create and modify views.
+- Create spaces and zones.
+- Analyze heating and cooling loads.
+- Use the HVAC module to add HVAC systems.
+- Add piping and plumbing components.
+- Add electrical circuits and conduits.
+- Create and annotate construction documents.
+### Learning Resources
+- Lecture Notes (Prepared by Instructor): Custom notes designed for each session covering Revit MEP workflows, system design, and project-based applications.
+- Class Project Files (Prepared by Instructor): A guided Revit project file for each session, aligned with lecture topics, allowing students to practice in a real-world scenario.
+- Computer Software: Autodesk Revit (MEP) – latest educational version available through Autodesk Education Community (free for students). Computer Requirements: A Windows-based laptop or desktop capable of running Revit smoothly (recommended specs: Intel i7/Ryzen 7, 16–32 GB RAM, dedicated GPU, SSD storage).
+- Analytical Lecture Notes (Prepared by Instructor): Covering background concepts such as heating and cooling load analysis, and fundamentals of building electrical systems.
+- Textbooks & Reference Works: Krygiel, E., & Nies, B. (2012). Mastering Autodesk Revit MEP 2013 . Indianapolis, IN: Wiley Publishing. (or the most recent edition available). Autodesk. (Latest edition). Autodesk Revit MEP User Guide. Autodesk, Inc. (Available free online through Autodesk Knowledge Network). American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE). ASHRAE Handbook – Fundamentals. Atlanta, GA: ASHRAE. National Fire Protection Association (NFPA). NFPA 70: National Electrical Code (NEC).
+- Internet Resources: Autodesk Knowledge Network: https://knowledge.autodesk.com/ Revit MEP Learning Path (Autodesk): https://learn.autodesk.com/ YouTube – Revit MEP tutorials (including instructor’s own tutorial channel).
+### Course Goals
+This on-line Computer-Aided Design (CAD) course at the British Columbia Institute of Technology (BCIT) introduces students to Building Information Modeling (BIM) with Autodesk Revit MEP. Students will gain hands-on skills in designing, analyzing, and documenting HVAC, plumbing, fire protection, and electrical systems, while learning to coordinate these systems within a complete building model. By combining technical Revit proficiency with essential building services concepts, this course prepares students to apply BIM workflows in real-world projects. Learning Revit MEP with BCIT will enhance your education and provide the in-demand skills needed to excel in your career in the architecture, engineering, and construction (AEC) industry.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 45% | Three assignments.
+Project | 20% | Term-long integrated project..
+Attendance | 5% | Attendance is mandatory.
+Final Practical Exam | 30% | Open book
+### Attendance Requirements
+Regular attendance and active participation in all online sessions are essential for student success and will be closely monitored. Students are expected to join sessions on time and remain present for the full duration of each class. If a session is missed, it is the student’s responsibility to promptly obtain any missed course materials, including recordings, notes, and assignments.
+### Course Specific Requirements
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes for failed assessments or for an unexcused absence from an assessment. Reasonable accommodation and allowance will be made when students are ill or otherwise have good reason to be absent in accordance with Policy 5101.
+### Course Schedule and Assignments
+Course overview & objectives
+Introduction to Building Information Modeling (BIM) and its integration with Revit MEP
+Revit GUI Overview: Refresher on Revit’s graphical user interface—Ribbon, Project Browser, Properties Palette, navigation tools and MEP-specific object types
+Revit Architecture Refresher: Review of basic architectural elements like walls, floors, and roofs to establish a solid foundation for MEP integration.
+Start a New Project (Imperial/Metric): Set up an MEP project with correct units and parameters.
+Spaces and Zones: Create Spaces for load analysis and organize them into Zones for HVAC systems.
+Heating & Cooling Loads Analysis: Perform load calculations based on building geometry and space requirements, essential for HVAC sizing.
+Draw Ducting: Use the HVAC panel in the Systems tab to design duct systems.
+Place Air Handling Unit (AHU): Add AHUs for airflow management in the HVAC system.
+Place Air Terminals: Add and configure air registers, diffusers, and grilles.
+Place Ducting Accessories: Place dampers, filters, and detectors to complete the system.
+Views: Work with 3D Views, Elevations, and Sections for comprehensive system analysis.
+View Control: Adjust visibility and graphic display settings of elements in views using Visibility/Graphics (VG) and Detail Level.
+​View Filters: Control visibility and selection in a view; use the View tab, Graphics panel, and select Filters. Create Rule-based and Selection filters to manage what is displayed.
+Assignment 1 (to be submitted before Day 5)
+Check Connections and Systems: Verify the connections and configurations of your HVAC systems.
+Ducting Systems (Manual and Automatic): Create duct systems manually or let Revit generate the layout for you.
+System Access Tools: Use the Project Browser, System Editor, and System Browser to manage systems.
+Hover and Tab Method: Use the Hover and Tab keys to select specific elements in complex models.
+Duct Sizing Tool: Use sizing tools to determine the correct size for ducts based on flow rates and pressure.
+Generate Layout Tool (Base Option): Automatically generate duct layouts based on defined parameters.
+System Inspector: Inspect the system’s integrity to ensure all components are configured properly.
+Copy and paste to multiple levels
+Tagging & Documentation: Tag components, duplicate views, create legends, and use color schemes for identification.
+Piping and Plumbing Overview: General overview of plumbing and piping systems in fire suppression.
+Piping Methodology: Techniques for designing piping systems for water-based fire suppression (e.g., sprinklers).
+Fire Suppression Systems: Set up and configure fire suppression systems using the Plumbing and Piping panel.
+Hosted and Non-hosted Component Types: Understand the difference between hosted and non-hosted components.
+Types of Fire Suppression Systems: Review various systems like wet, dry, and pre-action systems.
+Tagging & Documentation: Tag components, duplicate views, create legends, and use color schemes for identification.
+Assignment 2 (to be submitted before Day 6)
+Designing Water Supply Systems: Create the infrastructure for cold and hot water delivery in residential buildings.
+Check Plumbing Settings: Set up parameters for water flow, pipe types, and material specifications.
+Point of Connection (POC): Establish the connection between the plumbing system and external water supply.
+Pipe Sizing Tool: Use sizing tools to determine the correct pipe size based on flow rates and pressure.
+Generate Layout Tool (Base Option): Automatically generate pipe layouts based on defined parameters.
+Tagging & Documentation: Tag components, duplicate views, create legends, and use color schemes for identification.
+Assignment 3 (to be submitted before Day 8)
+Set Up the Project: Enable MEP systems and define waste and vent plumbing types.
+Design Waste Systems: Design drainage (sanitary and vent) systems for residential buildings.
+Check Plumbing Settings: Ensure correct pipe sizing, flow rates, and materials.
+Point of Connection (POC): Establish connection to the external waste or sewer system.
+Pipe Sizing & Layout: Use sizing tools and auto-generate pipe layouts based on system parameters.
+Apply Slope & Route Pipes: Apply slope to pipes for proper drainage and route them to the main stack.
+Place Fixtures & Add Components: Place plumbing fixtures and necessary fittings like cleanouts.
+Tagging & Documentation: Tag components, duplicate views, create legends, and use color schemes for identification.
+Electrical Settings: Configure electrical parameters, including load calculations, circuiting methods, and distribution panels.
+Lighting: Place and configure lighting fixtures in your model.
+Editing Commands for Lighting: Modify properties like wattage, color, and intensity for lighting fixtures.
+Place Light Switches: Use Electrical Panels to place switches and connect them to circuits.
+Lighting Systems: Organize lighting components into systems for better management and scheduling.
+Electrical Panels: Configure electrical panels and route circuits.
+Wiring (Automatic and Manual): Automatically or manually route electrical wiring in the model.
+Project Templates and Transfer Project Standards: Use project templates for consistency and transfer standards from other Revit files.
+Linking Revit Files together: Link external Revit models (architecture, structure and MEP) into a central coordination file for coordination and clash detection.
+View Templates: Save and apply consistent settings across multiple views.
+Copy/Monitor Tool: Copy elements from linked models and monitor changes to stay updated.
+Interference Tool: Detect and resolve conflicts between MEP components and other building elements (e.g., ducting clashing with pipes).
+Introduction to the Interference Tool
+Running Interference Checks
+Analyzing and Resolving Clashes
+Managing Interference Reports
+Preventing Future Clashes in Linked Models
+2D Drafting in Revit MEP; Exploring 2D drafting techniques for MEP systems to create accurate and detailed drawings.
+Detailing Tools in Revit MEP; Using Revit's detailing tools, including custom components and system-specific details, for efficient drafting.
+Creating and Managing Detailed Views; Step-by-step methods for creating, organizing, and managing 2D detail views of MEP systems.
+Annotation Techniques; Adding dimensions, tags, labels, and text to MEP components for clear and informative detail views.
+Organizing MEP Details for Documentation; Best practices for arranging 2D MEP details for easy integration onto sheets in the next session.
+Customizing 2D MEP Details; Customizing line styles, weights, and enhancing 2D MEP details for clarity and consistency.
+Finalizing MEP Detail Drawings; Reviewing and refining MEP details to ensure accuracy and completeness before the next session on sheet setup and printing.
+Creating and Managing Schedules in Revit: Types of schedules (Schedule/Quantities, Material Takeoff, Sheet List, Note Block, View List); Creating and customizing schedules with fields, filters, sorting, and formatting.
+Sheets and Printing Sheets: Place views onto sheets and set up print layouts for physical or PDF distribution.
+Final Project Consolidation Session
+Rendering Process: Create realistic renderings by adjusting lighting, materials, and camera settings.
+Editing Materials of Components: Modify materials for components to control their appearance in rendered views.
+Other Presentation Tools: Use Camera Views and Walkthroughs to create engaging visual presentations of the project.
+### Course topics
+Introduction to BIM, Revit GUI Overview, Revit MEP Interface, and Architectural Foundations for MEP Integration
+Project Setup, Spaces & Zones, Heating & Cooling Loads Analysis
+HVAC Duct Systems; Part 1
+HVAC Duct Systems; Part 2
+Fire Suppression Systems
+Domestic Plumbing: Water Supply Systems
+Domestic Plumbing: Waste Systems
+Lighting & Electrical Systems
+Managing MEP Models Centralization & Clash Detection Workflow
+Professional Documentation Workflow Annotations, Sheets, Schedules, and Printing Setup
+Rendering & Walkthroughs
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Sam Bahmanoo, Instructor March 18, 2026
+I verify that this course outline has been reviewed. Paul Morrison, Instructor - Flexible Learning March 19, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jeanie Chan, Associate Dean March 25, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

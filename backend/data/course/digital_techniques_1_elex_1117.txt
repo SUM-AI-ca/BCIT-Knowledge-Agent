@@ -1,0 +1,84 @@
+URL: https://www.bcit.ca/courses/digital-techniques-1-elex-1117/
+Title: Digital Techniques 1 ELEX 1117
+Type: Course
+Course Code: ELEX 1117
+
+================================================================================
+
+## Digital Techniques 1 ELEX 1117
+Electrical and Computer Engineering Course
+## Course Overview
+This course describes why digital logic circuits have become ubiquitous, and introduces approaches to methodical design of such circuits. Decimal, Hexadecimal, and Binary number systems are described, and techniques are introduced for converting from one system to another. Binary codes for representing numerical and alphanumerical information are discussed. Basic definitions and common elements of binary logic systems are developed. Common representations of digital logic functions and circuits are introduced, including truth tables, waveform representations, schematics, distinctive symbols and Boolean expressions. Digital logic circuits using switches, LEDs and electronic gates are discussed. Logic sources are defined and interfaced to combinational logic circuits. Steady-state design characteristics of digital Integrated Circuits (IC’s) are reviewed using data sheets and this information is used to interface to real life devices. Simulation software is introduced and used to investigate logic circuits. Programmable Logic Devices (PLDs) are discussed, and systems for programming of such devices are introduced. The lecture material is reinforced by a series of lab assignments that develop skills in designing and creating prototype circuits using common logic elements.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+### Domestic fees
+$1,132.53
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain (ii) number bases and binary coding systems (BCD, Gray Code, ASCII) and application to digital systems. [1]
+- Perform (iii) conversions between binary, decimal, and hexadecimal numbers. [1]
+- Carry out (iii) addition and subtraction of signed binary numbers using two's complement representation. [1]
+- Explain (ii) the concept of active-high and active-low for input and output signals. [1]
+- Analyze (iv) combinatorial logic circuits, determining the output expression for a given circuit. [2]
+- Apply (iii) Boolean Algebra Theorems and Karnaugh-Maps to simplify Boolean expressions. [1]
+- Design (iv) combinatorial logic circuits from truth tables using basic (AND, OR, NOT) and hybrid (NAND, NOR, XOR, XNOR) gates. [2, 5]
+- Build (iii) basic combinatorial logic circuits with up to 4 inputs and 8 outputs, using a breadboard, ICs, switches, LEDs, and 7-segment displays. [2, 4]
+- Use (iii) Medium Scale Integrated (MSI) ICs such as multiplexors and decoders to create Boolean functions. [5]
+- Analyze (iii) basic sequential logic functions including latches, flip-flops, and adders. [2]
+- Prepare (iii) simple PLD programs using HDL and schematic capture to implement combinatorial logic, IF/THEN, Switch Case statements, etc. [5]
+## Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+(ii) Comprehension - Students are expected to explain and understand a topic.
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2018
+## Related Programs
+Digital Techniques 1 (ELEX 1117) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of ELEX 1117 for the Spring/Summer 2026 term.
+Jun 08 - Jun 30
+- CRN 70592
+- $1132.53 Domestic fees
+Dates | Days | Times | Locations
+Jun 08 - Jun 12 | Mon - Fri | 09:00 - 15:00 | Burnaby
+Jun 15 - Jun 30 | Mon, Tue, Thu, Fri | 09:00 - 15:00 | Burnaby
+### Duration
+4 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- For questions about this course, please contact the Program Assistant at soepts@bcit.ca . Please include your BCIT student ID (if you have one). Note: BCIT reserves the right to cancel courses. In the event of a course cancellation, you will be notified at least two business days prior to the course start. Please ensure that your contact information is current.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

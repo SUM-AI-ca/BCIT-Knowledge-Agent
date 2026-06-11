@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/windows-application-development-in-c-net-comp-2690/
+Title: Windows Application Development in C# .NET COMP 2690
+Type: Course
+Course Code: COMP 2690
+
+================================================================================
+
+## Windows Application Development in C# .NET COMP 2690
+Computer Systems Course
+## Course Overview
+This intermediate level course was replaced by COMP 2614 and was designed for experienced OO programmers who want to learn Microsoft industry standards and best practices. Students who already know some C/C++/Java syntax are introduced to the C# language and the .NET Framework 3.5. The main focus of this course is Windows application development, building graphical user interfaces (GUIs) and designing Windows software applications with Visual Studio 2008. Topics include: Windows Forms and controls, event-driven programming and the MSDN Library for on-line help. Upon successful completion of this course, students will be prepared to learn more about C# and .NET in the follow-on courses, COMP 3614 and COMP 2870 .
+### Prerequisite(s)
+- COMP 1451
+- COMP 1451 (3 Credits).
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain Microsoft.NET and understand its' major components: Common Language Runtime (CLR) and Base Class Library (BCL).
+- Use the C# language to build Windows Form applications.
+- Design Windows GUI applications with forms, dialogs and a variety of controls.
+- Use Visual Studio 2008 and the MSDN Library for on-line help.
+- Write executable and class library Assemblies, using C#.
+- Work with multiple projects, using Visual Studio Solutions.
+- Implement exception handling to build robust applications.
+- Apply the latest .NET features including automatic properties and extension methods.
+- Perform SQL style queries on in-memory data structures using LINQ.
+Effective as of Spring/Summer 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

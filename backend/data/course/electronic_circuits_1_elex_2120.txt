@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/electronic-circuits-1-elex-2120/
+Title: Electronic Circuits 1 ELEX 2120
+Type: Course
+Course Code: ELEX 2120
+
+================================================================================
+
+## Electronic Circuits 1 ELEX 2120
+Electrical and Computer Engineering Course
+## Course Overview
+This is an introductory electronic circuit course that provides the foundation for subsequent electronics courses. The course explains how electronic circuits work and how to analyze, design, modify and combine them to perform complex functions. Laboratory work emphasizes logical circuit layout and wiring and the use of common test equipment to analyze and troubleshoot electronic circuits.
+### Prerequisite(s)
+- 50% in COMM 1143 and 50% in ELEX 1105 and 50% in MATH 1431
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Apply (iii) KVL and KCL to calculate the currents and voltages in simple circuits (max. four nodes or three loops) with passive components, independent sources, and one transistor (dependant source). [1, 2]
+- Describe (ii) the electrical characteristics of diode, BJT, and MOSFET with emphasis on different regions of operation. [1]
+- Apply (iii) large-signal model for diode, MOSFET, and BJT to calculate bias voltages and currents in simple circuits. [1, 2]
+- Use (iii) BJT and MOSFET as a switch to turn on/off a low power (max. 1W) load. [1]
+- Apply (iii) small-signal model for diode, MOSFET, and BJT to calculate input/output impedance and voltage gain of a one stage transistor amplifier. [1, 2]
+- Use (iii) the concept of Thevenin (Norton) equivalent circuit to measure voltage gain, input resistance, and output resistance of transistor based amplifier. [1, 5]
+- Apply the definition of 3dB bandwidth and use Bode plots to characterize (ii) the frequency response of an amplifier. [1]
+Effective as of Fall 2020
+## Related Programs
+Electronic Circuits 1 (ELEX 2120) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

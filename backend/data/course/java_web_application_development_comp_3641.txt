@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/java-web-application-development-comp-3641/
+Title: Java Web Application Development COMP 3641
+Type: Course
+Course Code: COMP 3641
+
+================================================================================
+
+## Java Web Application Development COMP 3641
+Computer Systems Course
+## Course Overview
+Spring 2011 is the final time COMP 3641 will be offered. COMP 3641 is being replaced by both COMP 3613 and COMP 4613 as of September 2011. Java Web students must COMP 3613 prior to starting COMP 4613 , which will be offered starting January 2012. This hands-on course replaces COMP 3621 /3631/4631, it is aimed at Java programmers and continues on from COMP 2613 . The Primary focus is on Servlet and JavaServer Page development while exploring the Model 2 Design Architecture. Servlet topics include; discussion on the Servlet life cycle, web containers, deployment descriptors, handling client requests and server responses, and the use of session management techniques. JSP topics include; the basic scripting elements and JSP actions, the Expression Language (EL), the JavaServer Page Standard Tag Library (JSTL), and JavaServer Faces (JSF). Related topics include; Encryption, Programmatic and Declarative Security, SSL, JavaBean design, Reflection, Applets, and Internationalization. Successful participants learn to design, develop and deploy Java Web Applications using Java EE API's.
+### Prerequisite(s)
+- COMP 2611 or COMP 2613
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design, code, build, and deploy Java Web Applications.
+- Configure Web Servers and Web Application modules.
+- Deploy Web applications using Servlets, JSPs, HTML, and XML.
+- Demonstrate the merits of the Model 2 design.
+- Build dynamic presentation layers through the use of JavaServer Pages and request dispatching.
+- Construct reusable components through the use of Custom Tags and Tag Handlers.
+- Incorporate user validation through programmatic and declarative techniques.
+- Create secure user environments by incorporating Secure Socket Layers (SSL).
+- Develop an in-depth understanding of JSP version 2.0.
+- Utilize the JSTL API to develop Java web applications.
+- Integrate JSF components into Java web applications.
+- Learn the benefits of and utilize the JSP Expression Language
+- Incorporate security techniques for data encryption, and user verification.
+- Realize and demonstrate the benefits and potential of JavaBean class design.
+Effective as of Spring/Summer 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

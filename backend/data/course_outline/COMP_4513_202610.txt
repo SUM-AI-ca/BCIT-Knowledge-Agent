@@ -1,0 +1,100 @@
+URL: https://www.bcit.ca/outlines/20261093016/
+Course: COMP 4513
+Field: C# and ASP.NET Web Application Development
+Subject: Computer Systems
+Term: 202610
+CRN: 93016
+
+================================================================================
+
+## Course Outline
+## COMP 4513
+## C# and ASP.NET Web Application Development
+School | School of Computing and Academic Studies
+Program | Full-Stack Web Development
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | COMP 2131 and COMP 2350 and COMP 2523 or COMP 2522
+CRN | 93016
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Yves Shema
+E-mail | yshema@bcit.ca
+Location | Will be posted on the Learning Hub
+Office Hours | Mondays: 14:00 PM - 16:00 PM Wednesdays: 9:00 AM - 12:00 PM
+### Course Description
+This hands-on course introduces students to C# programming, the .NET platform, and web application development with ASP.NET. Building on prior experience with JavaScript, relational databases, and object-oriented programming, students will design and implement secure, full-stack web applications using modern .NET tools and practices. Topics include routing, API design, data access, authentication, unit testing, and deployment to the cloud. Students will also gain familiarity with ASP.NET architectural patterns, including MVC, Razor Pages, and Minimal APIs. Assignments and labs emphasize clean code, testability, and real-world development workflows. ​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- ​Explain the .NET platform, including its major components (CLR, BCL) and modern .NET variations.
+- Build simple Console applications and reusable libraries (class libraries/DLLs) in C#.
+- Use .NET language and runtime features including LINQ, lambda expressions, extension methods, collections, and async/await.
+- Implement basic exception handling in C# applications to create robust code.
+- Read from and write to files, streams, and the filesystem in .NET applications.
+- Perform basic database operations using a .NET data access library (e.g., ADO.NET or Entity Framework).
+- Describe the structure and key architectural patterns of modern ASP.NET applications, including MVC, Razor Pages, and Web APIs.
+- Build web applications using modern ASP.NET frameworks and project structures.
+- Design and implement ASP.NET Web API endpoints.
+- Consume ASP.NET Web APIs from front-end JavaScript applications.
+- Register and resolve application services using ASP.NET’s built-in dependency injection system.
+- Apply authentication and authorization techniques to secure ASP.NET applications, as appropriate.
+- Write unit tests for managed C# code.
+- Explain when to use MVC, Razor Pages, or Minimal APIs in an ASP.NET application.
+- Deploy ASP.NET web applications to cloud platforms (e.g., Azure) using modern Continuous Integration and Deployment (CI/CD) practices.
+### Learning Resources
+Software | Latest .NET SDK Visual Studio Code
+Equipment | A BCIT BYOD compliant laptop Windows 10 or higher, preferably Pro or Education editions
+Texts and References | There is no required textbook in this course Online materials will be provided on the course site
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes* | 30 | Weekly, paper-based, closed book
+Lab assignments | 30 | Take-home programming and web development tasks due within a week or two from release date
+Midterm exam | 20 | paper-based, closed book
+Final exam | 20
+### Course Schedule and Assignments
+Week | Week starting | Topics* | Evaluation
+1 | 05-Jan-2026 | Introduction to C# Basic data types, variables, operators, compiling and running programs
+2 | 12-Jan-2026 | Flow Control and functions Exception handling
+3 | 19-Jan-2026 | User-defined types: classes, structs and records | Assignment 1
+4 | 26-Jan-2026 | Writing unit tests for C# applications
+5 | 02-Feb-2026 | Collections
+6 | 09-Feb-2026 | Working with the file system Asynchronous programming | Assignment 2
+7 | 16-Feb-2026 | Working with databases using Entity Framework core
+8 | 23-Feb-2026 | MIDTERM WEEK
+9 | 02-Mar-2026 | Querying and manipulating data using LINQ | Assignment 3
+10 | 09-Mar-2026 | Building websites with ASP.NET core | Assignment 4
+11 | 16-Mar-2026 | READING WEEK
+12 | 23-Mar-2026 | Building interactive web components using Blazor | Assignment 5
+13 | 30-Mar-2026 | Deploying ASP.NET applications to the cloud.
+14 | 06-Apr-2026 | Building APIs using ASP.NET minimal API | Assignment 6
+15 | 13-Apr-2026 | Review
+16 | 20-Apr-2026 | Final exam
+* Topics may be added, modified or removed based on class progress
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Yves Shema, Instructor January 03, 2026
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head January 04, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

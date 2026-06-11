@@ -1,138 +1,111 @@
 URL: https://www.bcit.ca/outlines/20253043410/
 Course: ELEX 7820
 Field: Real-Time Embedded Systems
-
-School: School of Energy
-Program: Electrical Engineering
-Course Credits: 4
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 60
-Total Weeks: 15
-Hours/Weeks: 4
-Delivery Type: Lecture
-Zero Textbook Cost: Yes
-Prerequisite(s): ELEX 4618
+Subject: Electrical and Computer Engineering
+Term: 202530
 CRN: 43410
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## ELEX 7820
+## Real-Time Embedded Systems
+School | School of Energy
+Program | Electrical Engineering
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | ELEX 4618
+CRN | 43410
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Ed Casas
-E-mail: Eduardo_Casas@bcit.ca
-Location: SW02-358
-Office Hours: Tuesdays 12:30-15:20 and Fridays 12:30-14:20 or by appointment
-
-## Course Description
+### Instructor Details
+Name | Ed Casas
+E-mail | Eduardo_Casas@bcit.ca
+Location | SW02-358
+Office Hours | Tuesdays 12:30-15:20 and Fridays 12:30-14:20 or by appointment
+### Course Description
 This course covers software and hardware design for real-time embedded systems. Topics include real-time implementation of DSP algorithms, code and hardware optimization for speed and power, real-time operating systems, reliable operation, and overall system architecture. In the laboratory, students will apply selected concepts learned in the lectures by implementing them on a development board centered around a DSP-oriented microcontroller. This course uses C as the programming language. There is some interaction with assembly code.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of the course, the student will be able to:
-
 - Select a processor or other implementation platform for the real-time embedded task at hand. [1,2]
 - Design and implement hardware interfaces, including the related software. [4,5]
 - Understand real-time operating system concepts including scheduling, interrupt handling, context switching, task synchronization, and resource sharing. [1,2]
 - Predict and measure real-time performance. [3]
 - Design and implement a real-time system in the lab. [2,3,4,5,6,7]
 - Consider all aspects, including software and hardware, and technical and non-technical concepts, in the design of real-time embedded systems. [4,12]
-
-## Engineering accreditation
+### Engineering accreditation
 The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
-
 1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
-
 2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
-
 3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
-
 4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
-
 5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
-
 6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
-
 7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
-
 8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
-
 9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
-
 10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
-
 11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
-
 12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
-
-## Learning Resources
+### Learning Resources
 - Raspberry Pi 2 and 2W boards will be loaned to the students for the labs and project.
 - Breadboard, wire, and some components from ELEX 1117 and 2117.
 - A small budget is available to purchase components for the course project.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Introductory Labs: 15: lab
-Midterm Exams (2): 20: theory
-Final Exam: 25: theory
-Project: 40: lab
-
+### Evaluation Criteria
+Criteria | % | Comments
+Introductory Labs | 15 | lab
+Midterm Exams (2) | 20 | theory
+Final Exam | 25 | theory
+Project | 40 | lab
 The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103‐PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade; a failing grade of U (unsatisfactory) is awarded.
-
-## Course Schedule and Assignments
-ELEX 7820: Mon: Tue: Wed: Thu: Fri
-Lectures:: 8:30: 14:30
-Labs:: 8:30: 11:30
-week: starts: lab
-1: Sep 01: holiday
-2: Sep 08: 1
-3: Sep 15: 2
-4: Sep 22: 3
-5: Sep 29: holiday: MT1
-6: Oct 06: PP
-7: Oct 13: P1: holiday
-8: Oct 20: P2
-9: Oct 27: P3
-10: Nov 03: P4: MT2: WD
-11: Nov 10: holiday
-12: Nov 17: P5
-13: Nov 24: P6
-14: Dec 01: D
-15: Dec 08: exams: exams: exams: exams: exams
+### Course Schedule and Assignments
+ELEX 7820 | Mon | Tue | Wed | Thu | Fri
+Lectures: | 8:30 | 14:30
+Labs: | 8:30 | 11:30
+week | starts | lab
+1 | Sep 01 | holiday
+2 | Sep 08 | 1
+3 | Sep 15 | 2
+4 | Sep 22 | 3
+5 | Sep 29 | holiday | MT1
+6 | Oct 06 | PP
+7 | Oct 13 | P1 | holiday
+8 | Oct 20 | P2
+9 | Oct 27 | P3
+10 | Nov 03 | P4 | MT2 | WD
+11 | Nov 10 | holiday
+12 | Nov 17 | P5
+13 | Nov 24 | P6
+14 | Dec 01 | D
+15 | Dec 08 | exams | exams | exams | exams | exams
 MTn = Midterm n, P=Project, P=Proposal, D=Demo, WD = Withdrawal Deadline.
-
 Tentative, subject to change.
-
 Weekly list of lecture topics (subject to change):
-
 1. Characteristics and Applications of Real-Time Embedded Systems 2. Raspberry Pi RP2350 Microcontroller and Pico 2/2W Boards 3. Embedded Software Development Tools and Techniques 4. ARM v8-M Architecture and Exception Handling 5. Embedded Software Design Patterns 6. Multi-Tasking and FreeRTOS 7. Task Synchronization, Race Conditions, Semaphores, Queues 8. Priority, Inversion, and Deadlock 9. Memory Management 10. Peripheral Interfaces 11. Common Sensors and Actuators 12. Networking 13. Risks, Reliability, and Security 14. Flash Memory and File Systems
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Ed Casas, Instructor September 03, 2025
-
 I verify that this course outline has been reviewed. Victor Mendez, Program Head September 17, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 22, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

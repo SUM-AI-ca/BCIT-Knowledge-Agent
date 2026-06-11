@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/n-tier-application-development-in-net-comp-3614/
+Title: N-Tier Application Development in .NET COMP 3614
+Type: Course
+Course Code: COMP 3614
+
+================================================================================
+
+## N-Tier Application Development in .NET COMP 3614
+Computer Systems Course
+## Course Overview
+This hands-on course builds upon COMP 2614 or equivalent knowledge of C# programming. Students who already understand C# gain practical skills using Microsoft Visual Studio 2010 and the .NET Framework 4 to create Enterprise level desktop and N-Tier software applications. There is a focus on Microsoft industry standards using Windows Communication Foundation (WCF) services unified model and other .NET tools to design commercial-level software applications. Topics include: Object serialization, database programming with ADO.NET, multithreading, asynchronous programming techniques, COM Interop, XML.NET document object model, XML.NET query language, XML.NET navigation, reflection, delegates and .NET services fundamentals. Upon successful completion, participants will be able to create commercial N-Tier software applications using the latest .NET technologies.
+### Prerequisite(s)
+- COMP 2614
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Serialize and de-serialize objects in .NET framework.
+- Explain simple delegates, and multi-cast delegates.
+- Design multi-threaded applications.
+- Use asynchronous programming model techniques.
+- Call legacy COM objects (COM Interop) in .NET framework.
+- Create and manage .NET components and assemblies.
+- Use the ADO.NET classes to build data-bound Windows forms.
+- Read, write, process, and search the XML Data.
+- Use reflection techniques to load an assembly.
+- Describe the programming model of a Windows service.
+- Describe the WCF programming model.
+- Identify the advantages of the WCF model.
+- Host a WCF service by using WAS or a Console Application.
+- Host a service by using the WCF-provided host.
+- Design Enterprise level software applications.
+Effective as of Winter 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

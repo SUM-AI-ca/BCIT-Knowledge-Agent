@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/differential-equations-and-numerical-methods-for-cenv-technology-math-4416/
+Title: Differential Equations and Numerical Methods for CENV Technology MATH 4416
+Type: Course
+Course Code: MATH 4416
+
+================================================================================
+
+## Differential Equations and Numerical Methods for CENV Technology MATH 4416
+Mathematics Course
+## Course Overview
+Solve elementary differential equations involving separation of variables and first and second order equations with constant coefficients. Determine solutions by numerical methods and perform system modeling with applications to mixing and dilution, heat and pressure changes. Use of computer software to solve relevant chemical sciences applications using optimization (simplex), curve fitting, systems of linear equations, algebraic and transcendental equations and numerical integration.
+### Prerequisite(s)
+- MATH 2416
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Apply the definite integral to practical chemical and environmental problems. Example applications:
+- Solve diffusion problems including carburization by using numerical methods to approximate the Gaussian Error Function (erf).
+- Approximate definite integrals using computer software (Rectangle Rule, Trapezoid Rule, Simpson's Rule).
+- Solve applied problems involving first order and second order linear differential equations. Example applications:
+- Rates of chemical reactions, fluid flow and mixing with multi tank systems.
+- Newton's Law of Cooling and radioactive decay.
+- Solve differential equations using numerical techniques, e.g., Euler's Method.
+- Solve polynomial equations. Example: Use the factor theorem and synthetic division to find the rational roots of any polynomial equation.
+- Propagate error through algebraic and transcendental formulas (calculus method). Example application:
+- General analysis of experimental data and associated calculations.
+- Demonstrate appropriate use of a scientific calculator or mathematical software (such Excel) as an aid in solving problems in chemical and environmental technology.
+- Solve general algebraic and transcendental equations, such as by the following iterative methods (by hand and computer): Bisection Method (Midpoint Method), Linear Interpolation, Secant Method and Newton-Raphson Method. Example applications:
+- Solve general equations encountered in chemistry.
+- Determine the change in concentration in equilibrium problems.
+- Understand root finding, computer solutions and associated errors.
+- Perform curve fitting:
+- Find a polynomial formula for sequence (using Gregory Newton formula).
+- Find a general interpolating polynomial passing through a set of data points (using systems of equations).
+- Solve linear programming problems (i.e., optimization problems):
+- Use the simplex method (and dual simplex algorithm) to solve linear programming problems.
+- Solve linear programming problems computationally.
+- Perform sensitivity analysis on problem solutions.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

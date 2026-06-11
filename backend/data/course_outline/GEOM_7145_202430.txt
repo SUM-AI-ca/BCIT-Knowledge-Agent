@@ -1,0 +1,118 @@
+URL: https://www.bcit.ca/outlines/20243044357/
+Course: GEOM 7145
+Field: Adv Satellite Positioning
+Subject: Geomatics
+Term: 202430
+CRN: 44357
+
+================================================================================
+
+## Course Outline
+## GEOM 7145
+## Adv Satellite Positioning
+School | School of Construction and the Environment
+Program | Geomatics Bachelor of Science
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 03, 2024
+End Date | December 13, 2024
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | GEOM 6120 and GEOM 6140
+CRN | 44357
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Mohammad Rajabi
+E-mail | mrajabi@bcit.ca
+Location | SW2-318
+Office Hours | Mondays 11:30 AM to 1:30 PM Tuesdays: 11:30 AM to 1:30 PM Fridays: 11:30 AM to 12:30 PM
+### Course Description
+This course has two components. The major part deals with problematic GPS data and troubleshooting. This includes pre-processing preparation such as selection and understanding of base station coordinates and datums, baseline and network processing parameters and techniques, detailed logfile inspection and troubleshooting. The second part is devoted to provide students with the skills to manage a satellite positioning project, including the abilities to plan, estimate the cost of and execute surveys, to meet a predefined set of survey specifications (accuracy requirements, area of interests, etc).
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the concepts and carry out GPS baseline and network processing in a controlled manner.
+- Plan the appropriate baseline processing parameters for different baseline types and lengths.
+- Evaluate and interpret GNSS processing results.
+- Relate knowledge to trouble shoot problematic GNSS data.
+- Appraise satellite positioning network adjustments.
+- Design and develop satellite positioning project management plan, including.
+- Select and establish a geodetic network for the survey.
+- Design observation strategy for the survey.
+- Estimate the cost and time of the GNSS survey.
+- Execute the survey.
+- Process the data and evaluate the results.
+- Compile the final report.
+### Learning Resources
+Required:
+- Course Notes will be provided by instructor.
+- Hofmann-Wellenhof, H., Lichtenegger, H. & Wasle, E. (2008). “GNSS Global Navigation Satellite Systems, GPS, GLONASS, Galileo & more”, Springer Wien New York. ISBN 3211730125.
+Recommended:
+Textbooks:
+1. Seeber, G. (2003). “Satellite Geodesy” 2 nd edition, Walter de Gruyter. ISBN 3-11-017549-5.
+2. Misra, P. & Enge, P. (2006). “Global Positioning System: Signals, Measurements and Performance” 2 nd edition, Ganga-Jamuna Press. ISBN 0-970-9544-1-7.
+3. Leick A., Rapoport L., Tatarnikov D. (2015). GPS Satellite Surveying, John Wiley & Sons, Inc. ISBN 978-1-118-67557-1
+4. Teunissen P.J.G., Montenbruck O. (2017). Springer Handbook of Global Navigation Satellite Systems, Springer, 978-3-319-42926-7.
+5. A Guide to the Project Managment Body of Knowledge - PMBOK Guide (2021) - 7th Edition (https://www.pmi.org/pmbok-guide-standards/foundational/pmbok).
+6. Wells, D. et. al. (1999). Guide to GPS Positioning, availabe for free downlaod from: https://www2.unb.ca/gge/Pubs/LN58.pdf.
+### Course Goals
+This course prepares students to:
+- Identify the major steps and associated concerns to design and run a GNSS survey campaign
+- Understand and follow GNSS survey standards, specifications and requirements
+- Run and manage (resources, time, and cost) a GNSS survey project
+- Process, troubleshoot, and assess the quality of GNSS baseline solutions
+- Process, troubleshoot, and assess the quality of GNSS network solutions
+- Understand and apply horizontal and vertical coordinate transformations of GNSS surveys
+- Understand and apply datum transformations of GNSS surveys
+### Evaluation Criteria
+Criteria | Weight | Comments
+Labs/Assignments | 20% | Weekly equal weight labs/assignments
+Midterm Exam | 30%
+Term Project | 10%
+Final Exam | 40%
+Total | 100%
+### Attendance Requirements
+Attendance of students are closely monitored and BCIT's Attendance Policy is followed.
+### Other information
+Assignments should be submitted to the course dropbox on the Learning Hub at 8:00am a week after they are introduced unless otherwise mentioned. Assignments submitted in other forms (hardcopy, email, ...) or after the specified due date will not be evaluated, nor receive credits twoards the course final mark.
+### Course Schedule and Assignments
+GEOM 7145 – Advanced Satellite Geodesy
+Course Schedule, Sep – Dec 2024
+Week of | Week # | Outcome/Material Covered
+Sep 02 | 1 | Monday Sep 02 – Labour Day – Closed Tuesday Sep 03 – Orientation Day - No Class
+Sep 09 | 2 | Introduction (Course Overview, Control Survey Workflow) Surveying with GNSS
+Sep 16 | 3 | Short Baseline Data Collection
+Sep 23 | 4 | Long Baseline Data Collection
+Sep 30 | 5 | Monday Sep 30 – National Day of Truth & Reconciliation – Closed Standards and Technical Specifications GNSS Project Management
+Oct 07 | 6 | GNSS Project Management (Cont’d)
+Oct 14 | 7 | Monday Oct 14 – Thanksgiving Day – Closed GNSS Project Management (Cont’d)
+Oct 21 | 8 | Midterm Exam GNSS Data Pre-Processing
+Oct 28 | 9 | GNSS Data Processing & Troubleshooting (Cont’d)
+Nov 04 | 10 | GNSS Data Processing & Troubleshooting (Cont’d)
+Nov 11 | 11 | Monday Nov 11 – Remembrance Day – Closed GNSS Data Processing & Troubleshooting (Cont’d)
+Nov 18 | 12 | GNSS Data Processing & Troubleshooting (Cont’d)
+Nov 25 | 13 | GNSS Data Processing – Coordinate Transformation
+Dec 02 | 14 | Term Project Presentation Course Review
+Dec 09 | 15 | Final Exam
+GNSS Data Processing involves Point Positioning, Baseline and Network Modes, Network Adjustment, Coordinate System transformation, Evaluation of Results and Troubleshooting for both Short and Long Baselines using the available commercial GNSS data processing software.
+The course outcomes are reinforced with weekly assignments.
+The course schedule is subject to slight changes based on the class progress.
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Mohammad Rajabi, Instructor August 23, 2024
+I verify that this course outline has been reviewed. Mark Dailey, Program Head August 23, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean August 30, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

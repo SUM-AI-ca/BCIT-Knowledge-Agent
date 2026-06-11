@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-3-csst-3175/
+Title: Network Operating Systems 3 CSST 3175
+Type: Course
+Course Code: CSST 3175
+
+================================================================================
+
+## Network Operating Systems 3 CSST 3175
+Computer Systems Service Technician Course
+## Course Overview
+This course is designed to provide students with the knowledge and skills necessary to install, configure, and administer Microsoft Windows 2003 Active Directory services. The course also focuses on implementing Group Policy and understanding the Group Policy tasks required to centrally manage users and computers. Key topics include, planning, designing and implementing the active directory domain structure, active directory sites, active directory replication, groups, policies and certificates.
+### Prerequisite(s)
+- 70% in CSST 2175
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Identify Active Directory objects, components, and logical and physical structures.
+- Explain Active Directory concepts, such as the global catalog, replication, trust relationships, and the DNS namespace.
+- Administer Active Directory using Microsoft Management Consoles and Administrative Tools.
+- Plan an Active Directory implementation, including the domain structure, domain namespace, OU structures, and site structures.
+- Install Active Directory and configure DNS for Active Directory.
+- Identify the different forest-wide and domain-wide operations master roles.
+- Understand and configure zones, site settings, and inter-site replication.
+- Create and administer various types of user accounts and groups accounts.
+- Describe the members and rights associated with different user and group accounts.
+- Administer and manage group policies.
+- Configure NTFS security and security for shared folders.
+- Backup, restore, and troubleshoot Active Directory.
+- Plan, manage, and implement group policy objects (GPOs).
+- Administer a security configuration, including various audit policies.
+- Monitor, manage and troubleshoot Active Directory performance.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

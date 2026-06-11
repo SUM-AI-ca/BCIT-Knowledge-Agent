@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/advanced-java-comp-3621/
+Title: Advanced Java COMP 3621
+Type: Course
+Course Code: COMP 3621
+
+================================================================================
+
+## Advanced Java COMP 3621
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 3641 -Java Web Application Development as of September 2009. This hands-on advanced Java Programming course continues on from COMP 2611 and addresses Java application development. Students continue with an examination of selected Swing API component models, learn application GUI design and how to write programs incorporating JDBC, Sockets, RMI, and Deployment with JAR files. Topics also include: Internationalization, Class Loaders, Encryption, Reflection and JavaBean Design, Table Models, Java and XML, and Java Web Technologies. This course also helps prepare students to challenge the Sun Certified Developer (SCJD) exam and move on to COMP 3631 Java Web Applications.
+### Prerequisite(s)
+- COMP 2611
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Examine Java threading and Thread synchronization models.
+- Build Java applications utilizing the Swing GUI API.
+- Access and manipulate database base data using Java database Connectivity.
+- Construct a remote Java application using Remote Method Invocation.
+- Study techniques for creating hard copies of application data through Printing.
+- Develop and deploy JavaBeans in application development.
+- Introduce web programming concepts through Java Servlets.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

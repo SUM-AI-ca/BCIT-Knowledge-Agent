@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/linux-fundamentals-cisa-1140/
+Title: Linux Fundamentals CISA 1140
+Type: Course
+Course Code: CISA 1140
+
+================================================================================
+
+## Linux Fundamentals CISA 1140
+Computer Info Systems Admin Course
+## Course Overview
+This course introduces students to the Linux operating system and develops core skills in configuration and installation of the operating system on an Intel-based computer. Topics include effectively using, customizing, and scripting common command line utilities. Students develop an understanding of file systems, users and groups, the Bash shell, process management, text editors, searching and organizing data, and various applications.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the central ideas behind the Linux phenomenon and the open source movement.
+- Use built-in and on-line documentation.
+- Browse the file system by identifying the locations of specific directories and navigating them from both the command line and using the graphical browser.
+- Read and set permission's on files and directories.
+- Manage information with standard I/O and Pipes.
+- Operate Text Processing Tools including grep, cut, sed, sort, diff and patch.
+- Use a text editor such as VIM.
+- Perform basic system configuration tasks using graphical and text-based configuration tools to manage networking, printing and date/time settings.
+- Investigate processes using listing, terminating and scheduling program executions.
+- Configure the Bash Shell using shell variables and scripts to customize the command-line environment.
+- Use the find command and related utilities to locate and act upon files based on specific criteria.
+- Describe the functionality and application of network clients from web browsers to email clients and diagnostic utilities.
+- Describe how user and group identities are stored, including advanced file system permission's like SetUID and SetGID.
+- Discuss the operability of the Linux File System including partitions, inodes, linking and archiving tools.
+- Operate essential system administration tools including installing Linux, managing software packages, and enhancing security.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/process-control-and-control-systems-inst-3121/
+Title: Process Control and Control Systems INST 3121
+Type: Course
+Course Code: INST 3121
+
+================================================================================
+
+## Process Control and Control Systems INST 3121
+Industrial Inst/ProcessControl Course
+## Course Overview
+This course looks at a variety of process control and control systems. Analog control concepts such as on/off, two mode control, three mode control. Pneumatic controllers, electronic controllers and manual/auto transfer are investigated. The following control strategies are also covered: duplex control, auto selector, gap action, relation, cascade, ratio and feed forward. Loop tuning techniques and hands-on experience with live processes are included. Variable Speed Controllers (VSD’s or VFD’s) are also included as they are an alternative Final Control Element (FCE) and are commonly used to improve efficient use of energy in modern control systems.
+### Prerequisite(s)
+- Successful completion of term 2 courses
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Control Systems
+- Design a variety of control systems including cascade control with appropriate variable, gap action, duplex, auto-selection and feedforward index systems.
+## Process Control
+- Explain the process thermodynamics and heat transfer.
+- Use steam tables to determine process thermodynamics and energy available for heat transfer.
+- Explain material and energy balance of an operating double effect evaporator process using ethylene glycol.
+- Explain natural gas production and processing using glycol dehydration (TEG and DEG).
+## Loop Tuning
+- Explain various degrees of process self-regulation and the interaction of controller modes.
+- Explain Ziegler Nichols, Lambda tuning techniques and tuning from manual output changes.
+- Calculate initial PID settings to tune loops on various live processes including evaporation, material blending (pressure/flow) and chemical (cascade steam heat exchangers).
+- Explain process coupling problems and the techniques for decoupling sympathetic control loops.
+## Variable Speed Controls (VFDs)
+- Explain motor/pump speed control as an alternative to a control valve.
+- Explain variety of variable speed devices.
+- Variable Pitch
+- Eddy Current Couplings
+- Variable Frequency Drives
+- Explain basics of a three phase induction motor including ratings, service applications, inrush current and its ramifications.
+- Explain methods for AC motor speed control through pulse width modulation (PWM).
+- Configure VFD for motor speed and torque control on various loads.
+Effective as of Fall 2017
+## Related Programs
+Process Control and Control Systems (INST 3121) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

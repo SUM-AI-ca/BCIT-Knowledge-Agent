@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/digital-asset-design-and-integration-mdia-3126/
+Title: Digital Asset Integration MDIA 3126
+Type: Course
+Course Code: MDIA 3126
+
+================================================================================
+
+## Digital Asset Integration MDIA 3126
+Media Communications Course
+## Course Overview
+In this advanced course students will move beyond just developing cod- based tools and applications. In this course students will be developing advanced tools and application that use graphic, animation and dynamic user interface. These applications usually acquire data from outside sources. Some or most of the critical content for the application will be provided by an external service. Such application could be a simple image gallery or navigation menu or a pipeline that puts a Flickr photos onto a Google map. Students in this course study different third-party services and a significant portion of the programming effort revolves around managing the APIs of these services. The modern developer, no matter whether they are doing their work on the client-side or server-side, needs to develop this style of development. This course will allow students to develop mobile applications using current industry mobile front-end frameworks. In addition, students will be introduced to several techniques used in the industry for designing and creating graphic assets for this type of project. At the beginning students will be introduced to and start with client-side apps in Edge Animate, Flash or plain HTML5 and single server application, then move on to more complex, multi-service mashups while going through essentials and techniques for creating optimized graphic assets for the same projects.
+### Prerequisite(s)
+- COMP 2170 and MDIA 2109
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Design and create optimized assets using graphic software.
+- Create client-side applications.
+- Integrate with a variety of server and client-side APIs like Facebook Connect, Google Maps, etc.
+- Create a server application that pushes content to be processed by a client-side application via sockets.
+- Create dynamic content by integrating a variety of media types (images, audio and video).
+- Design a work flow and wire frame.
+- Create a prototype for user interaction.
+- Build a complex interactive animation (such as a game).
+- Outline how to create applications that can be indexed and searched effectively.
+Effective as of Fall 2013
+## Related Programs
+Digital Asset Integration (MDIA 3126) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Digital Design and Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

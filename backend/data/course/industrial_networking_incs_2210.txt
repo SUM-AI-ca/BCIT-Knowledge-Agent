@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/industrial-networking-incs-2210/
+Title: Industrial Networking INCS 2210
+Type: Course
+Course Code: INCS 2210
+
+================================================================================
+
+## Industrial Networking INCS 2210
+Industrial Network Cybersecuri Course
+## Course Overview
+This course develops the skills needed to support an industrial network based on the Purdue five-layer model. Building on the concepts developed in the Advanced Networking in term two, this course prepares students to work on industrial networks. Topics include: the difference between business and industrial networks with an emphasis on the importance of business continuity and the need for real time performance and determinism in industrial systems; a history of IT/OT convergence; Wide Area Networks; Industrial Ethernet; serial interfaces; industrial protocols; and channel media.
+### Prerequisite(s)
+- INCS 2110 and ACIT 2421 and ELEX 2610 and ELEX 2620 and INCS 2610 and MATH 2601
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the importance of business continuity as it applies to industrial networks. (2)
+- Explain the difference between real-time systems and determinism and their impact on industrial networks. (2)
+- Explain IT/OT convergence as it applies to industrial networks. (2)
+- Select an appropriate channel media (wired, wireless and fiber-optic) for an industrial application and environment. (4)
+- Implement serial interfaces including TIA-232 and TIA-485. (4)
+- Select an appropriate industrial Ethernet technology based on real-time performance specifications. (4)
+- Implement industrial protocols including Modbus Serial (ASCII and RTU mode), Modbus TCP, Ethernet/IP, OPC, and PROFINET. (4)
+- Describe WAN technologies and services and their application in industrial networking. (2)
+- Describe the function of a DMZ, firewall, IPS and VPN and their application in industrial networking. (2)
+- Describe a SCADA system and how it differs from a network of PLCs. (2)
+- Implement a simple industrial network from layer 3 (based on the Purdue five-layer model) downward. (4)
+- Investigate industrial protocols including Modbus TCP, Ethernet/IP, and PROFINET using Wireshark. (4)
+- Troubleshoot common problems on an industrial network. (3)
+Effective as of Spring/Summer 2020
+## Related Programs
+Industrial Networking (INCS 2210) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

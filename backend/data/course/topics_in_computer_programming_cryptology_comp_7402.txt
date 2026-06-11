@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/topics-in-computer-programming-cryptology-comp-7402/
+Title: Topics in Computer Programming - Cryptology COMP 7402
+Type: Course
+Course Code: COMP 7402
+
+================================================================================
+
+## Topics in Computer Programming - Cryptology COMP 7402
+Computer Systems Course
+## Course Overview
+This course teaches students the art and science of securing data (information). Course components will cover Cryptography with an introduction to Cryptanalysis, with an emphasis on the practical implementation of Cryptographic algorithms and techniques. Topics in Cryptography will include substitution and transposition ciphers, including stream and block ciphers. Applications will include bit-manipulation ciphers, secret and public-key ciphers. Topics in Cryptanalysis will include traditional techniques such as Ciphertext-only, Known-plaintext, and Chosen-plaintext attacks. Students will also be introduced to more modern linear and differential cryptanalysis. Students will be permitted to choose programming languages of their choice in the implementation of algorithms during assignments and final projects.
+### Prerequisite(s)
+- Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the mathematical foundations of cryptography and the importance of pseudo-random number generators.
+- Describe cryptographic techniques with an emphasis on practical applications.
+- Implement any of the algorithms covered in the course using any programming language of choice.
+- Describe cryptographic protocols.
+- Evaluate and analyze the various cryptographic techniques such as key management algorithms, symmetric and asymmetric algorithms, hashes and signatures.
+- Apply various cryptanalysis techniques to retrieve plaintext messages from ciphertext.
+- Evaluate strong cryptographic algorithms for potential use within an organization.
+- Configure and deploy cryptographic tools for applications such as email, securing sensitive files, etc.
+Effective as of Fall 2023
+## Related Programs
+Topics in Computer Programming - Cryptology (COMP 7402) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Applications Development Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

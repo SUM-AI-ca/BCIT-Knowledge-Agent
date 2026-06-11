@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/network-security-administration-1-comp-7006/
+Title: Network Security Administration 1 COMP 7006
+Type: Course
+Course Code: COMP 7006
+
+================================================================================
+
+## Network Security Administration 1 COMP 7006
+Computer Systems Course
+## Course Overview
+Introduction to networking and cross platform file sharing using Win32 and Linux tools. Students will learn the basics of NFS, SAMBA, Apache, NIS and DHCP. In depth coverage of TCP/IP and "real world" network traffic analysis using tools such as packet sniffers and tcpdump. Introduction to intrusion detection, attacks and defences.
+### Prerequisite(s)
+- Acceptance into the Bachelor of Technology in Computer Systems Degree program.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain practical design and implementation techniques for LANs.
+- Apply the principles of the TCP/IP protocol suite in analyzing and designing a basic LAN.
+- Configure and test cross-platform networking applications such as SAMBA, NIS and NFS.
+- Configure and test DHCP and DNS.
+- Create and manage a system of user accounts and files on Linux.
+- Critically analyze the use of TCP/IP protocols in the use of applications such as sendmail, FTP, Telnet, etc.
+- Analyze network traffic using tools such as tcpdump and other packet sniffers.
+- Explain system initialization issues.
+- Manipulate the configuration files related to the setup and initialization of networking components.
+Effective as of Fall 2018
+## Related Programs
+Network Security Administration 1 (COMP 7006) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

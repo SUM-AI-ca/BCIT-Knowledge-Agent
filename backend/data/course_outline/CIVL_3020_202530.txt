@@ -1,180 +1,131 @@
 URL: https://www.bcit.ca/outlines/20253033834/
 Course: CIVL 3020
 Field: Computer Applications
-
-School: School of Construction and the Environment
-Program: Civil Engineering
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture
-Prerequisite(s): CIVL 1011 and CIVL 2025
+Subject: Civil Engineering
+Term: 202530
 CRN: 33834
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## CIVL 3020
+## Computer Applications
+School | School of Construction and the Environment
+Program | Civil Engineering
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | CIVL 1011 and CIVL 2025
+CRN | 33834
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Mahbub Rahman
-E-mail: mahbub_rahman@bcit.ca
-Location: SW3 2085
-Office Hours: Md Mahbubur Rahman, P.Eng. Office: SW03-2085 Phone: 604-412-7601 Office Hours: As posted E-mail: mahbub_rahman@bcit.ca: Md Mahbubur Rahman, P.Eng.: Office: SW03-2085: Phone: 604-412-7601: Office Hours: As posted: E-mail: mahbub_rahman@bcit.ca
-Md Mahbubur Rahman, P.Eng.: Office: SW03-2085: Phone: 604-412-7601
-Office Hours: As posted: E-mail: mahbub_rahman@bcit.ca
-
-## Course Description
+### Instructor Details
+Name | Mahbub Rahman
+E-mail | mahbub_rahman@bcit.ca
+Location | SW3 2085
+Office Hours | Md Mahbubur Rahman, P.Eng. Office: SW03-2085 Phone: 604-412-7601 Office Hours: As posted E-mail: mahbub_rahman@bcit.ca | Md Mahbubur Rahman, P.Eng. | Office: SW03-2085 | Phone: 604-412-7601 | Office Hours: As posted | E-mail: mahbub_rahman@bcit.ca
+### Course Description
 ​This course develops proficiency in computational tools critical to modern civil engineering practice, including Excel, VBA and Python. Students will learn to automate calculations, perform statistical analysis, solve engineering equations, and create technical documentation. Emphasis is placed on integrating these tools into civil engineering workflows such as structural design, project cost estimation, and data-driven decision-making. The course is delivered through lectures and hands-on computer lab sessions. A computer project is a mandatory component of the course.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Utilize spreadsheets to solve applied civil engineering problems. [5]
 - Organize quantitative experimental data into tables and produce histograms. [1, 3, 5]
 - Write user-defined functions in VBA and Python for solving science and engineering problems. [5]
 - Apply structured programming concepts such as decisions and loops to develop algorithms for solving relatively complex engineering problems. [2, 5]
 - Use symbolic computations for engineering design and problem solving. [2, 5]
 - Apply symbolic math to trigonometric functions, integrals, derivatives and plotting. [5]
-
-## Learning Resources
+### Learning Resources
 Recommended Books:
-
-- Excel Ronald W. Larsen, Engineering with Excel, 5th Edition, Pearson, 2021.
-- Ronald W. Larsen, Engineering with Excel, 5th Edition, Pearson, 2021.
-- VBA M. Alexander and D. Kusleika, Excel 2019 Power Programming with VBA. Wiley, 2019.
-- M. Alexander and D. Kusleika, Excel 2019 Power Programming with VBA. Wiley, 2019.
+- Excel Ronald W. Larsen, Engineering with Excel , 5th Edition, Pearson, 2021.
+- VBA M. Alexander and D. Kusleika , Excel 2019 Power Programming with VBA . Wiley, 2019.
 - Python Allen B. Downey, Think Python: How to Think Like a Computer Scientist (Third Edition) Available free online at Green Tea Press
-- Allen B. Downey, Think Python: How to Think Like a Computer Scientist (Third Edition) Available free online at Green Tea Press
-- Available free online at Green Tea Press
-
 Electronic recording of course material (e.g. video, image, or audio files) is prohibited in this course with the following exceptions:
-
 - Where the student has obtained prior written permission from the instructor, or
 - Where the student has obtained permission under BCIT Policy 4501, Accommodation for Students with Disabilities.
-
-## Evaluation Criteria
-Evaluation: Individual Assessment Weight: Overall Course Weight
-Participation (Tutorial): -: 5%
-Assignments (Total): -: 40%
-Assignment 1: 10%: -
-Assignment 2: 15%: -
-Assignment 3: 15%: -
-Midterm exam: -: 25%
-Final exam: -: 30%
-Total: -: 100%
-
-Important:
-
+### Evaluation Criteria
+Evaluation | Individual Assessment Weight | Overall Course Weight
+Participation (Tutorial) | - | 5%
+Assignments (Total) | - | 40%
+Assignment 1 | 10% | -
+Assignment 2 | 15% | -
+Assignment 3 | 15% | -
+Midterm exam | - | 25%
+Final exam | - | 30%
+Total | - | 100%
+Important :
 - Individual Presentations Required: Each student must present their work for every assignment.
 - Grading Criteria: Assignment grades will be based on: The quality and clarity of the student’s presentation Demonstrated ability to perform relevant functions, operations, and calculations Proficiency in programming tasks Effective use of graphical representation and visualization
-- The quality and clarity of the student’s presentation
-- Demonstrated ability to perform relevant functions, operations, and calculations
-- Proficiency in programming tasks
-- Effective use of graphical representation and visualization
-
-## Attendance Requirements
+### Attendance Requirements
 Dept. of Civil Engineering Attendance Policy
-
 Regular attendance in lectures, tutorials and labs is integral to student success; therefore, attendance in class is monitored either directly or indirectly. Attendance may be taken at any time during any class, tutorial or lab. A student not present for attendance will be marked absent. A student who leaves class for a period of time deemed excessive by the instructor may be considered absent regardless of whether they are present when attendance is taken. In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their Instructor or the Student Coordinator, indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have an approved BCIT medical certificate submitted to the department, substantiating the reason for absence. For other absences, the student should be prepared to provide appropriate supporting documentation.
-
 The instructor may assign a grade penalty of up to 10% to students with a significant number of unexcused absences. Please see Policy 5101 - Student Regulations, and accompanying procedures.
-
-## Course Specific Requirements
+### Course Specific Requirements
 No AI Use
-
 All assignments should be your own original work, created for this class.
-
 This is because it is essential to build your personal skills in brainstorming, critical thinking, analysis and communication. Your exams, assignments, and discussion posts reflect your current thinking, showcase your ability to produce work at a professional standard, highlight your strengths, and identify areas for improvement. It is important for your success that your level of understanding, ability and progress is clear. AI (artificial intelligence) tools cannot learn for you.
-
 For the reasons given above, AI tools may never be used to complete exams, assignments or discussion posts in this course. The policy on plagiarism applies to work or ideas created by tools or other people as your own.
-
-## Other information
+### Other information
 CIVL 3020 is a pre-requisite for:
-
 - CIVL 4090 Industry Project
 - COMM 4442 Communication for Civil Engineering 4
-
 Engineering Accreditation
-
 The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the BEng in Civil Engineering program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB Graduate Attributes as shown in the square brackets [] following each course learning outcome.
-
 Graduate Attributes
-
 1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
-
-2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
-
-3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
-
-4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
-
-5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
-
-6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
-
-7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
-
-8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
-
-9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
-
-10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
-
-11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
-
-12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
-
-## Course Schedule and Assignments
-Week: Lecture Topics: Tutorial Topics
-1: No Class - Labour Day
+2. Problem analysis : An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation : An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design : An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools : An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work : An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills : An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism : An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment : An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity : An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management : An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning : An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Course Schedule and Assignments
+Week | Lecture Topics | Tutorial Topics
+1 | No Class - Labour Day
 Excel
-2: Course Introduction and Excel: Managing Large Workbooks: Data Analysis and Visualization; Excel project proposal
-3: Excel: What-If Analysis and Pivot Table: Iterative Solution, Pivot Table and Pivot Chart
-4: Excel: Numerical Differentiation, Integration and Noise-Filtering: Numerical Differentiation, Integration and Noise-Filtering
+2 | Course Introduction and Excel: Managing Large Workbooks | Data Analysis and Visualization; Excel project proposal
+3 | Excel: What-If Analysis and Pivot Table | Iterative Solution, Pivot Table and Pivot Chart
+4 | Excel: Numerical Differentiation, Integration and Noise-Filtering | Numerical Differentiation, Integration and Noise-Filtering
 VBA
-5: VBA: Basics of a computer programing: Getting Started with VBA: Macros and Macro Recording; VBA project proposal; Presentation - Assignment 1
-6: VBA: Algorithms and flowcharts; Structured programming; Decisions and loops: Modules, Subs &Functions, Decisions & Loops
-7: No Class - Thanksgiving Day
-8: VBA: Structured programming; Recording macros; Excel functions: Modular Programming with VBA
-9: Midterm Exam
-10: VBA: Debugging and testing; VBA and Excel functions: Error Handling and Testing in VBA; Presentation - Assignment 2
+5 | VBA: Basics of a computer programing | Getting Started with VBA: Macros and Macro Recording; VBA project proposal; Presentation - Assignment 1
+6 | VBA: Algorithms and flowcharts; Structured programming; Decisions and loops | Modules, Subs &Functions, Decisions & Loops
+7 | No Class - Thanksgiving Day
+8 | VBA: Structured programming; Recording macros; Excel functions | Modular Programming with VBA
+9 | Midterm Exam
+10 | VBA: Debugging and testing; VBA and Excel functions | Error Handling and Testing in VBA; Presentation - Assignment 2
 Python
-11: Python Introduction: What is Python, installing, IDEs: Getting Started with Python; Python project proposal
-12: Python Variables and Data Types: Numbers, strings, lists: Variables, Data Types, and Basic Input/Output
-13: Python Functions, Python Control Flow: If statements, loops: Python Functions and Control Flow
-14: Python Simple Plotting: Introduction to Matplotlib, plotting data from a file: Python Simple Plotting; Presentation - Assignment 3
-15: Final Exam TBA
+11 | Python Introduction: What is Python, installing, IDEs | Getting Started with Python; Python project proposal
+12 | Python Variables and Data Types: Numbers, strings, lists | Variables, Data Types, and Basic Input/Output
+13 | Python Functions, Python Control Flow: If statements, loops | Python Functions and Control Flow
+14 | Python Simple Plotting: Introduction to Matplotlib, plotting data from a file | Python Simple Plotting; Presentation - Assignment 3
+15 | Final Exam TBA
 Note: A minimum of one-week advance notice will be given of any significant changes to the schedule.
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Mahbub Rahman, Instructor August 30, 2025
-
 I verify that this course outline has been reviewed. Sudip Talukdar, Program Head September 03, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean September 04, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

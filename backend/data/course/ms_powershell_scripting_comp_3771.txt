@@ -1,0 +1,89 @@
+URL: https://www.bcit.ca/courses/ms-powershell-scripting-comp-3771/
+Title: MS PowerShell Scripting COMP 3771
+Type: Course
+Course Code: COMP 3771
+
+================================================================================
+
+## MS PowerShell Scripting COMP 3771
+Computer Systems Course
+## Course Overview
+​Microsoft PowerShell is a popular task automation and configuration framework. As a scripting language, PowerShell is commonly used for automating the management of Microsoft systems and services. PowerShell includes scripting tools to automate and control systems, programs, and files to improve productivity. COMP 3771 is a hands-on lab course aimed network or database administrators and software developers. PowerShell scripts are used for systems and services administration or database automation, monitoring, and maintenance, and can also automate tasks for testing software programs and rapid application development. Starting with a basic introduction to scripting with the Command Prompt window, the course then focuses on how to use MS PowerShell with Windows. There will be a brief overview of using Azure resources in PowerShell. COMP 3771 is required course in the Applied Database Administration and Design Associate Certificate and an elective in the Applied Network Administration and Design, Associate Certificates, plus the CST FLEX Diploma. ​Successful participants will be able to automate many tasks with Microsoft PowerShell and reduce repetitive tasks by creating scripts and functions that can run interactively or automatically. This course is offered in April (spring/summer) and September (fall) terms.
+### Prerequisite(s)
+- 60% in COMP 1002 or 60% in COMP 1630
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$624.39 - $637.17 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon completion of this course, the student will be able to:
+- ​Describe MS PowerShell.
+- Create functional scripts using variables, loops, and conditional statements.
+- Manipulate files, directories and other objects using scripts.
+- Use PowerShell pipelines to retrieve, process and display objects.
+- Configure PowerShell providers to access system information.
+- Create scripts which read and update files.
+- Use scripts to run programs and invoke object methods.
+- Use functions to create tools that can be reused in scripts.
+- Use script Modules to package and distribute functions and cmdlets to make them easily be accessible and maintainable.
+- Configure scripts to run automatically at startup, shutdown, or at scheduled times.
+- Use Regular Expressions to match and extract data from text.
+- Install and use add-on components to manage other Microsoft services or third-party software and services.
+- Describe recommended practices for writing scripts.
+- Create Azure resources using Azure PowerShell.​
+Effective as of Fall 2024
+## Related Programs
+MS PowerShell Scripting (COMP 3771) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Database Administration and Design Associate Certificate Part-time
+- Applied Network Administration and Design Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of COMP 3771 for the Spring/Summer 2026 term.
+Apr 30 - Jul 16
+- CRN 58445
+- $624.39 Domestic fees
+Dates | Days | Times | Locations
+Apr 30 - Jul 16 | Thu | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Rouzbeh Keshavarz
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. The start and end dates have been changed from Apr 09 – Jun 25 to Apr 30 – Jul 16.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 3771 for the Fall 2026 term.
+Sep 10 - Nov 26
+- CRN 35621
+- $637.17 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Rouzbeh Keshavarz
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. The course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

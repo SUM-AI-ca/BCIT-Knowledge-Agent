@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/network-essentials-cisa-1310/
+Title: Network Essentials CISA 1310
+Type: Course
+Course Code: CISA 1310
+
+================================================================================
+
+## Network Essentials CISA 1310
+Computer Info Systems Admin Course
+## Course Overview
+​This course introduces basic concepts involved in the electronic transmission of data from one computer system to another utilizing data networks. The major types of network topologies, protocols, and infrastructures are discussed, and students are presented with various networking models and standards. Topics covered will include the Open Systems Interconnection (OSI) model, TCP/IP, Ethernet, network topologies, IP addressing, sub-netting, IPv6, networking components, and basic network design. Students will gain the knowledge and skills necessary to implement, administer, and troubleshoot basic network systems and hardware, including configuring devices using command line tools.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe how devices communicate in data networks and the Internet
+- Use network protocol models to explain the layers of communications in data networks
+- Describe the protocols and services provided by the application layer in the OSI model
+- Explain the operations and features of the transport layer protocols and services
+- Describe the operations of network layer protocols including concepts of packet routing
+- Convert decimal numbers to and from both binary and hexadecimal
+- Design, calculate, and apply subnet masks and IPv4 addressing plans
+- Design, calculate, and apply IPv6 addresses and prefixes to computers and router interfaces
+- Explain fundamental Ethernet concepts and build a simple Ethernet network
+- Describe structured data cabling and the differences between straight-through, crossover, and rollover patch cords
+- Use router command-line-interface (CLI) commands to perform basic configuration and verification
+- Configure static and default routes from the CLI for both IPv4 and IPv6
+Effective as of Fall 2018
+## Related Programs
+Network Essentials (CISA 1310) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

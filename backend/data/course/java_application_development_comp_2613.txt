@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/java-application-development-comp-2613/
+Title: Java Application Development COMP 2613
+Type: Course
+Course Code: COMP 2613
+
+================================================================================
+
+## Java Application Development COMP 2613
+Computer Systems Course
+## Course Overview
+​​This hands-on intermediate level Java course assumes significant prior knowledge of object oriented programming as taught in COMP 1451 and COMP 2526 . Students who have a solid introduction to programming will learn Java application development with the Java Standard Edition SDK using the Java framework core APIs and the Eclipse IDE. Topics include: packages, inner classes, file i/o, an overview of database connectivity, an introduction to concurrency, user interfaces, model-view-controller and other design patterns, and networks. Lectures and code examples are reinforced with hands-on labs, assignments, and mandatory online work outside of class using the BCIT Learning Hub. COMP 2613 is an elective in the Applied Software Development, ASD Associate Certificate and the Computer Systems Technology, CST/PTS Diploma. Successful participants will be able to use the Java standard coding style and naming conventions to build and deploy commercial quality Java applications. By the end of this course students are prepared to move on to COMP 3656 Advanced Java Application Development. PLEASE NOTE: COMP 2613 was offered for the last time in April 2021, it has been replaced in September 2021 by COMP 3601 .
+### Prerequisite(s)
+- COMP 1451 or COMP 2526
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and use the Java Software Developer Kit (SDK) Standard Edition and an Integrated Development Environment (IDE) to develop Java applications.
+- Explore the use of Eclipse as a Java IDE.
+- Debug programs using a variety of methods including breakpoints, traces, and code stepping.
+- Build Java programs that conform to Java coding style, naming, and documentation conventions.
+- Demonstrate advanced object oriented development skills through the use of design patterns.
+- Develop an understanding of the fundamental classes of the Java application framework.
+- Implement graphical user interfaces using basic Swing GUI components and listeners for event handling.
+- Understand the basics of client-server architecture through an introduction to network programming.
+- Use the Java collection framework and serialization to manage and save object data.
+- Develop an understanding Java's relationship to database using JDBC protocols.
+- Build robust code using exception handling.
+- Implement solutions using I/O streams.
+- Demonstrate Model-View-Controller design through Java desktop application design.
+- Understand the basics of concurrent programming.
+Effective as of Spring/Summer 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

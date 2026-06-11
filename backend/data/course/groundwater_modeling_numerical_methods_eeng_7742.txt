@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/groundwater-modeling-numerical-methods-eeng-7742/
+Title: Groundwater Modeling: Numerical Methods EENG 7742
+Type: Course
+Course Code: EENG 7742
+
+================================================================================
+
+## Groundwater Modeling: Numerical Methods EENG 7742
+Environmental Engineering Course
+## Course Overview
+This course introduces students to the basics of two major modeling tools used in industry: finite difference and finite element. The course explores mathematical basis of the two methods and allows students to experiment with simple models of each type, using computers. Prerequisite/Co-requisite: EENG 7741 .
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the following basic properties and their significance to aquifers:
+- Water: Mass density, weight density, viscosity, dynamic viscosity, compressibility, thermal expansion.
+- Conservation of mass in flow, nature of stress as a flow phenomenon.
+- Aquifers: Permeability, conductivity, soil compressibility, porosity.
+- Fundamental dimensions: Mass, Length and Time.
+- Hydraulic gradients.
+- Carry out the following computer applications:
+- Initiate a CAD drawing.
+- Edit existing aquifer modeling data files.
+- Create new aquifer modeling data files.
+- Explain the nature of aquifer properties and water flows in them with respect to or employing:
+- Darcy's equation.
+- Bernoulli's equation.
+- Derive La Place flow equation.
+- Accurately describe flow and equipotential lines and their relationships to each other.
+- Describe the nature of the stream function.
+- Describe the nature of boundary values.
+- Describe the nature of residuals.
+- Use a simple finite difference model, with the software provided, to show relationship between boundary values and the flow net.
+- Discuss, in simple detail, finite difference models:
+- Explain the nature of a residual.
+- Explain the mathematical foundation of relaxation.
+- Show how Taylor's theorem leads to relaxation.
+- Explain some of the relevant calculus of relaxation.
+- Discuss, in detail, the nature of an aquifer with emphasis on:
+- Internal aquifer relaxation.
+- Boundary relaxation.
+- How finite difference can be applied in relaxation to simple boundary conditions such as well extractions in horizontal confined aquifers.
+- Use CAD and supplied software to experiment with concepts of 6.3.
+- Explain the nature of finite element analysis in aquifer modeling:
+- Explain the nature of the grid in geographical terms.
+- Explain the difference between infinitesimal models and finite models.
+- Discuss the nature of continuity and its importance in FE models.
+- Illustrate the simplicity of concepts from mechanics of particles and solids and their aquifer analogues.
+- Explain necessary aspects of the use of algebra of stiffness matrices.
+- Discuss minimization of Potential Energy for stress analysis versus minimization of A Functional in the case of aquifers.
+- Describe the nature of the interpolation function with calculated examples of its application.
+- Derive the gradient function for a triangular element.
+- Use CAD and supplied software to experiment with concepts of 7.7 and section 7 in general.
+- Construct and employ triangular FE nets:
+- Describe the nature and mathematics of the triangular element in detail.
+- Describe the global stiffness matrix assembly process.
+- Discuss and compare the finite difference and finite element methods.
+- Use supplied software to practice flow net construction.
+- Explain, discuss or answer questions on the use of the FE analysis of aquifers:
+- Describe transmissivity in horizontal aquifers in contrast to permeability.
+- Show how a single element stiffness is formulated.
+- Describe the physical nature of variables that are used in the formulation of the stiffness of a single element.
+- Define the 'load' being the flow in the simple application of the method, as opposed to the 'head.'
+- Define the nature of the boundary values.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/database-backup-recovery-and-tuning-acit-4910/
+Title: Database Backup, Recovery and Tuning ACIT 4910
+Type: Course
+Course Code: ACIT 4910
+
+================================================================================
+
+## Database Backup, Recovery and Tuning ACIT 4910
+Computer Information Technology Course
+## Course Overview
+Students learn how to backup and perform recovery on a database in a fast and efficient manner and tune the database to maximize performance. Backup and recovery topics include; instance and media recovery structures, configuring the database archiving mode, user-managed backup and recovery, automatic backup and recovery, database maintenance, importing and exporting and loading data. Performance tuning topics include; sizing memory structures, SQL statement tuning and application tuning.
+### Prerequisite(s)
+- ACIT 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Monitor and maintain database systems.
+- Explain the importance of high availability services.
+- Explain the difference between database backups and replication.
+- Create fault tolerant database systems.
+- Demonstrate various techniques for maintaining highly available databases.
+- Perform database recovery.
+- Use diagnostic tools to explore complex database systems
+- Recover from database errors.
+- Deal with database corruption.
+- Use automatic management tools.
+- Recover from database replication errors.
+- Configure database replication for high availability.
+- Use automatic notification services to mitigate server downtime.
+- Automate database failover.
+- Automate tasks with the scheduler.
+Effective as of Fall 2020
+## Related Programs
+Database Backup, Recovery and Tuning (ACIT 4910) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

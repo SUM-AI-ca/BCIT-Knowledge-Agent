@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/data-communications-elex-3525/
+Title: Data Communications ELEX 3525
+Type: Course
+Course Code: ELEX 3525
+
+================================================================================
+
+## Data Communications ELEX 3525
+Electrical and Computer Engineering Course
+## Course Overview
+This course provides an introduction to data communication, concentrating on the physical and link layers. Topics covered in the course include: character codes, information theory, common transmission media, channel impairments, line codes, framing, scrambling, Nyquist rate, channel capacity, error detection and correction, ARQ, introduction to the Ethernet protocol.
+### Prerequisite(s)
+- ELEX 2117 and ELEX 2120 and ELEX 2125
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Compute message entropy and symbol, information and bit rates.
+- Solve problems involving binary symmetric and AWGN channel capacity.
+- Convert to and from serial signaling waveforms using common line codes.
+- Format packets using bit- or byte-oriented framing, padding, stuffing and escape sequences.
+- Implement PRBS generators, multiplicative scramblers/descramblers.
+- Compute the following: parity, checksum and CRCs, code rate and coding gain, Hamming distance.
+- Correct errors by exhaustive search.
+- Identify 10/100/1G Ethernet PHY data rate, cabling and line codes.
+- Use headers to encapsulate protocols.
+- Map Ethernet protocols onto the OSI protocol layer model.
+Effective as of Fall 2018
+## Related Programs
+Data Communications (ELEX 3525) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

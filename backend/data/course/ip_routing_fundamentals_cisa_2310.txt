@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/ip-routing-fundamentals-cisa-2310/
+Title: IP Routing Fundamentals CISA 2310
+Type: Course
+Course Code: CISA 2310
+
+================================================================================
+
+## IP Routing Fundamentals CISA 2310
+Computer Info Systems Admin Course
+## Course Overview
+​Building upon concepts learned in the previous term, this course expands on routing and router configuration, explores networking protocols, and applies routing concepts within a lab environment. Topics covered include Cisco IOS management, routing protocols, network security concepts, Network Address Translation (NAT) and Access Control Lists (ACLs). Routing protocols covered include Open Shortest Path First (OSPF). IPv6 operations, routing, and address assignment are also explored. Students will learn how to configure routers, interpret routing tables, and troubleshoot connectivity issues. Students are provided hands-on experience with routers and switches in a networked lab environment. The course also covers Wide Area Network (WAN) technologies and Quality of Service (QoS) mechanisms used for secure remote access along with the introduction of software-defined networking, virtualization, and automation concepts that support the digitalization of networks.
+### Prerequisite(s)
+- CISA 1310
+- CISA 2320 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Connect routers, switches, cables and PCs to form a cohesive local area network
+- Connect routers and serial cables to simulate a wide area network
+- Work with the Cisco Command Line Interface (CLI) for system analysis, configuration and repair
+- Perform the password recovery procedure on a router
+- Manage system image and device configuration files
+- Configure, verify, and troubleshoot OSPF
+- Explain Network Address Translation (NAT) and Port Address Translation (PAT)
+- Configure and troubleshoot NAT and PAT services on a gateway router
+- Describe the use of and configure Access Control Lists (ACLs)
+- Configure, verify, and troubleshoot Generic Routing Encapsulation (GRE) tunnel connectivity
+- Configure and monitor basic Simple Network Management Protocol (SNMP) services on a router
+- Explain network security terms, attack tools and best practices
+- Describe the role of cryptography in network security
+- Explain WAN concepts
+- Troubleshoot LAN and WAN networks
+- Explain the concept of cloud computing and virtualization of network devices and services
+- Describe the methods and tools used to automatically monitor, manage and configure networks
+Effective as of Winter 2021
+## Related Programs
+IP Routing Fundamentals (CISA 2310) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

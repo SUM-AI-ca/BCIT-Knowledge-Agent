@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/introduction-to-java-web-application-development-comp-3656/
+Title: Introduction to Java Web Application Development COMP 3656
+Type: Course
+Course Code: COMP 3656
+
+================================================================================
+
+## Introduction to Java Web Application Development COMP 3656
+Computer Systems Course
+## Course Overview
+​This hands-on course introduces the foundation of Java Enterprise Edition (JEE) web tier development. Continuing on from COMP 2613 this course was designed specifically for experienced Java Standard Edition (JSE) application developers. Students will receive a review of the Software Development Life Cycle (SDLC) followed by best practices and using industry standard techniques on how to build, deploy and distribute Java web applications into application servers. Topics include: Maven, Servlet and Java Server Pages (JSP). Additional topics include configuration of Java containers like Apache Tomcat or Jboss. Assignments, labs and exercises focus on design and creation of Java web apps on application servers and include a mandatory online component. Successful participants will practice how to build and deploy well designed basic Java Web applications to industry standards. Upon completion, students may register for COMP 4613 - Advanced Java Web Development offered in September. COMP 3656 has been replaced by COMP 3601 as of Fall 2021.
+### Prerequisite(s)
+- COMP 2613 – Java Application Development or equivalent knowledge of developing applications in Java Standard Edition (JSE).
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Build and Deploy Java web application in any Application Server using Maven, and Eclipse.
+- Launch and configure JBoss Application Server from command line as well as from Eclipse.
+- Create Java web applications using Servlet and JSPs.
+- Create, read, update and delete data from a database using Java web applications.
+- Examine the role of Java Servlets as web application controllers.
+- Configure and customize a simple web application server.
+- Analyze and apply web application design architecture.
+- Create and design web application deployment descriptors.
+- Use annotations to define web applications' components.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

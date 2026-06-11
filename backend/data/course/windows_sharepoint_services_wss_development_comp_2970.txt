@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/windows-sharepoint-services-wss-development-comp-2970/
+Title: Windows SharePoint Services (WSS) Development COMP 2970
+Type: Course
+Course Code: COMP 2970
+
+================================================================================
+
+## Windows SharePoint Services (WSS) Development COMP 2970
+Computer Systems Course
+## Course Overview
+This hands-on course continues on from COMP 2870 and is aimed at those who already understand ASP.NET. Students will learn learn about WSS architecture and explore development techniques to build customized solutions on the SharePoint platform. Topics include; SharePoint Object Model, Web Parts, Lists, Features, Event Handlers, SharePoint Web Services and Workflow capabilities. Successful participants will learn to use SharePoint Central Administration to configure and customize Windows SharePoint Services. They will be able to develop integrated and secure solutions and move on to COMP 3971 WSS Administration and other higher level SharePoint courses.
+### Prerequisite(s)
+- COMP 2870 or an equivalent understanding of C#, C++ or Java and ASP.NET
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand Windows SharePoint Services architecture.
+- Customize and configure Windows SharePoint Services via Central Administration tasks.
+- Build and deploy web parts.
+- Build event handlers to customize sites.
+- Develop integration solutions using Windows SharePoint Services Object Model.
+- Create and customize SharePoint Lists.
+- Understand Windows SharePoint Services security model and apply custom authentication modules.
+- Explore workflow capabilities provided by Windows SharePoint Services.
+- Develop solutions to leverage Web services exposed by Windows SharePoint Services.
+Effective as of Spring/Summer 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

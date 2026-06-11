@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/cisco-networking-level-5-citx-2063/
+Title: Cisco Networking Level 5 CITX 2063
+Type: Course
+Course Code: CITX 2063
+
+================================================================================
+
+## Cisco Networking Level 5 CITX 2063
+Computer Information Technology Electronics Course
+## Course Overview
+This course aligns with Cisco 300 -115 certification exam topics “Implementing Cisco IP Switched Networks”. The course provides exposure for students to plan, configure and verify the implementation of enterprise switching solutions using Cisco's Campus Enterprise Architecture. Content also covers secure integration of VLANs and WLANs into campus networks.
+### Prerequisite(s)
+- Valid CCNA certification.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Topics in this course align with the Cisco certification code named SWITCH. Upon successful completion, the student will have had exposure to:
+- Campus switched network design, implementation, and verification.
+- Ethernet switch operation and port configuration.
+- Configuring Virtual Local Area Networks (VLANs), DOT1q trunks, and VLAN Trunking Protocol (VTP).
+- Link aggregation techniques for improved bandwidth and redundancy.
+- Bridging loop prevention including Rapid Spanning-Tree (RSTP), Multiple Spanning-tree (MST), and Per-VLAN Spanning-Tree (PVSTP).
+- Multilayer switching and switched virtual interfaces.
+- Gateway redundancy with Hot Standby Routing Protocol (HSRP), Virtual Router Pedundancy Protocol (VRRP), and Gateway Load Balancing Protocol (GLP).
+- Network security implemented with Catalyst switching gear including DHCP snooping, IP source guard, dynamic ARP inspection, Private VLANs, and storm control.
+- Layer 2 protocols including CDP, LLDP, and UDLD.
+- Managing MAC address tables.
+- SDM templates.
+- Implementing Switch Port Analyzer (SPAN) and RSPAN.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

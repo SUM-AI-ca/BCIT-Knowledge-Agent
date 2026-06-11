@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mapguide-open-source-1-gist-0281/
+Title: MapGuide Open Source 1 GIST 0281
+Type: Course
+Course Code: GIST 0281
+
+================================================================================
+
+## MapGuide Open Source 1 GIST 0281
+Geographic Information Systems Course
+## Course Overview
+In this hands-on course, students develop Web-based spatial applications using the Autodesk MapGuide Open Source framework and Studio, Autodesk's commercial authoring tool. The course also looks at related GIS technologies such as Web Mapping Services (WMS), Feature Data Objects (FDO), Oracle Spatial, and Google Earth. This is a non-programming course.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the MapGuide Open Source Web architecture.
+- Define MapGuide Open Source concepts such as feature sources, feature classes, and features.
+- Explain the differences between the DWF and AJAX viewers.
+- Explain the role of XML in MapGuide Open Source.
+- Install and configure MapGuide Open Source.
+- Import feature sources into Studio.
+- Create and customize layers, maps, Web layouts, and print layouts.
+- Perform administration tasks such as creating users, and importing/exporting MapGuide packages.
+- Create text expressions to invoke URLs, and to create labels and tooltips.
+- Import and export Web Mapping Services in MapGuide Open Source.
+Effective as of Fall 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/introduction-to-logic-circuits-meoc-1206/
+Title: Introduction to Logic Circuits MEOC 1206
+Type: Course
+Course Code: MEOC 1206
+
+================================================================================
+
+## Introduction to Logic Circuits MEOC 1206
+Marine Engineer Officer Cadet Course
+## Course Overview
+This is an introductory course in digital logic. The course covers common logic gates and Boolean algebra applied to logic circuits. Students will build and test logic circuits using CMOS gates to implement control functions, build digital counters, shift registers, JK Flip Flop, and the 555 timer circuit. Students will use an oscilloscope to display and capture waveforms.
+### Prerequisite(s)
+- Admission to the Program.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Build AND, OR, NAND, NOR logic circuits to perform control functions.
+- Distinguish the difference between TTL and CMOS logic gates and state the operating voltage of each.
+- Build a digital counter to count shaft revolutions.
+- Build a JK Flip Flop circuit and state its control application on board a vessel.
+- Build a 555 timer to generate a variable output frequency.
+- Describe how a shift register works.
+- Display and measure waveforms on an oscilloscope.
+- Calibrate and adjust oscilloscope measuring probes.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,50 @@
+URL: https://www.bcit.ca/courses/analog-and-microprocessor-based-controllers-inst-3117/
+Title: Analog and Microprocessor-Based Controllers INST 3117
+Type: Course
+Course Code: INST 3117
+
+================================================================================
+
+## Analog and Microprocessor-Based Controllers INST 3117
+Industrial Inst/ProcessControl Course
+## Course Overview
+Students will learn the fundamentals of signal conditioning and scaling, the fundamentals of control modes and controller modes and the alignment and maintenance of pneumatic controllers. As part of course work, students will program microprocessor controllers and wire them for a given application.
+### Prerequisite(s)
+- Successful completion of term 2 courses
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Signal Conditioning and Scaling
+- Explain the application of high and low select relays, limit relays or function blocks.
+- Explain the application of signal reversing relays, amplifying and/or reducing relays, signal summing relays or function blocks.
+- Calculate totals using the scaling of signals so that they can be meaningfully computed.
+## Control Modes
+- Explain On/Off control action, single speed floating control (integral) and differential gap control applied to industrial processes.
+## Controller Modes
+- Explain the operation of proportional, integral, derivative (PID) control actions applied to industrial processes.
+- Calculate the proportional response based on various deviations, actions and various proportional bands or gain settings.
+- Calculate the P+I response given various deviations, actions; PBs and reset settings.
+- Explain derivative action including both rate applied to PV and rate applied to error responses to process variations.
+- Explain interacting and non-interacting PID algorithms.
+- Determine the correct controller actions and the appropriate modes of control for various process installations.
+## Controller Alignment and Maintenance
+- Explain the automatic and manual controller operation including bumpless, balanceless automatic/manual transfer for pneumatic, microprocessor stand-alone controllers and various DCS/PLC systems.
+- Explain the operation of remote and local set point and the application of set point tracking and output tracking.
+- Perform and test controller alignment on pneumatic field and panel mounted controllers.
+## Electronic Analog & Microprocessor Based Controllers
+- Explain the principles of microprocessor-based controllers using function block programming and/or configuration menus.
+- Configure microprocessor-based controllers for typical process applications such as single loop control, cascade control and feedforward control.
+- Create a P and ID drawing of a given process application.
+- From a P and ID drawing, build a complete control loop to include sensing element, transmitter, controller, recorder, transducer and final control element.
+Effective as of Fall 2017
+## Related Programs
+Analog and Microprocessor-Based Controllers (INST 3117) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

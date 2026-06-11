@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/ethical-hacking-and-penetration-testing-incs-3320/
+Title: Ethical Hacking and Penetration Testing INCS 3320
+Type: Course
+Course Code: INCS 3320
+
+================================================================================
+
+## Ethical Hacking and Penetration Testing INCS 3320
+Industrial Network Cybersecuri Course
+## Course Overview
+This course introduces the skills necessary to perform all phases of a penetration test on an industrial network using Kali Linux as a penetration testing platform. Building on the concepts developed in the second term Industrial Networking course, this course prepares students to use penetration testing to validate the configuration of security appliances and gather information as part of a risk analysis. The concepts being developed in this course relate closely with the concepts being developed in the concurrent third term Linux Administration and Industrial Network Security courses. Topics include: performing reconnaissance, scanning an industrial network, identifying and exploiting vulnerabilities, and maintaining post exploitation. Tools and techniques that may be used include: Google Directives, theHarvester, Whois, Host, HTTrack, Netcraft, Metagoofil, ThreatAgent, Ping, Nmap, Nessus, Wireshark, John the Ripper, Metasploit, Armitage, Medusa, Password Resetting, Netcat, Cryptcat, Metasploit Meterpreter, and the Hacker Defender rootkit. ​
+### Prerequisite(s)
+- INCS 2210
+- INCS 3310 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the steps and techniques used in planning and executing an attack on an industrial network. (2)
+- Perform reconnaissance on an industrial target to ascertain its security posture. (3)
+- Analyze reconnaissance data to develop a list of target IP addresses . (4)
+- Perform network footprinting and host profiling by scanning a target network to identify live systems, services, and running processes. (3)
+- Identify vulnerabilities to compromise a target system. (4)
+- Exploit vulnerabilities using a variety of tools and techniques. (4)
+- Maintain post exploitation using a variety of tools and techniques. (3)
+- Validate the configuration of the security appliances. (3)
+- Explain how penetration testing is employed as part of a risk analysis. (2)
+Effective as of Fall 2020
+## Related Programs
+Ethical Hacking and Penetration Testing (INCS 3320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

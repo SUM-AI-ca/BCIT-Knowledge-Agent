@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/advanced-networking-incs-2110/
+Title: Advanced Networking INCS 2110
+Type: Course
+Course Code: INCS 2110
+
+================================================================================
+
+## Advanced Networking INCS 2110
+Industrial Network Cybersecuri Course
+## Course Overview
+This course develops the skills necessary to plan, install, configure and troubleshoot devices and protocols used to implement a scalable campus LAN. Building on the concepts developed in the Networking Fundamentals course in term one, this course prepares students for the Industrial Networking course in the following five-week term. Topics include: deployment of wireless services using Wireless LAN controllers, Spanning-tree Protocol (STP), First-Hop Redundancy for hosts on subnets, port aggregation, link-state routing protocol versus distance vector routing protocol operations, device discovery tools, logging services, and switch port security. ​
+### Prerequisite(s)
+- INCS 1110
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe a campus LAN design that includes redundancy, fault tolerance, scalability, and security. (2)
+- Describe procedures for backing up, restoring, and upgrading IOS images and configuration files. (2)
+- Implement port security features on a Cisco switch. (3)
+- Activate Network Time Protocol (NTP) features along with logging services (Syslog). (3)
+- Employ device discovery protocols (Cisco Discovery Protocol and Link Layer Discovery Protocol) as a troubleshooting tool. (4)
+- Customize Spanning-Tree Protocol (STP) settings to accommodate multiple Virtual LANs. (3)
+- Configure First-Hop Redundancy on VLANs (HSRP, VRRP, and GLBP). (3)
+- Configure port aggregation to implement greater bandwidth connections (Ether-Channel). (3)
+- Configure Enhanced Interior Gateway Routing Protocol (EIGRP) as a dynamic routing protocol within the LAN. (3)
+- Configure Open Shortest Path First (OSPF) as a dynamic routing protocol within the LAN (single area). (3)
+- Describe the operations of wireless networks deployed in a campus LAN. (2)
+- Configure a WLAN controller and its associated Access Points (APs) with basic security. (3)
+Effective as of Winter 2020
+## Related Programs
+Advanced Networking (INCS 2110) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

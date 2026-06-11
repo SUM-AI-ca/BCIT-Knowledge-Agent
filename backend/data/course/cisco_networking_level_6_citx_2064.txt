@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/cisco-networking-level-6-citx-2064/
+Title: Cisco Networking Level 6 CITX 2064
+Type: Course
+Course Code: CITX 2064
+
+================================================================================
+
+## Cisco Networking Level 6 CITX 2064
+Computer Information Technology Electronics Course
+## Course Overview
+This course aligns with the Cisco 300-101 (CCNP - ROUTE) certification exam and provides training for students to use advanced IP addressing and routing in implementing scalable and secure Cisco ISR routers connected to LANs and WANs. Content also covers configuration of secure routing solutions to support branch offices and mobile workers. Students must have access to a Windows based multi-media computer.
+### Prerequisite(s)
+- Valid CCNA certification.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Topics in this course align with the Cisco certification coded ROUTE. Upon successful completion, the student will have had exposure to:
+- Network design, implementation, and verification plans.
+- Routing protocols used within an autonomous region including EIGRP, OSPF, and RIP.
+- The routing protocol used across the Internet to interconnect autonomous regions called Border Gateway Protocol (BGP).
+- Redistribution of routing information between routing protocols.
+- Policy-based routing and IP service-level agreement (IP SLA) concepts.
+- Route filtering.
+- IPv6 routing with OSPFv3.
+- IPv4 and IPv6 coexistence strategies.
+- Routing over branch Internet connections.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

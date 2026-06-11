@@ -1,0 +1,230 @@
+URL: https://www.bcit.ca/outlines/20261082221/
+Course: FSCT 7910
+Field: Research Methodology and Measurement Models
+Subject: Forensic Investigation
+Term: 202610
+CRN: 82221
+
+================================================================================
+
+## Course Outline
+## FSCT 7910
+## Research Methodology and Measurement Models
+School | School of Computing and Academic Studies
+Program | FORENSIC SCIENCE TECHNOLOGY
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | January 03, 2026
+End Date | March 28, 2026
+Total Hours* | 45
+Total Weeks | 12
+Hours/Weeks | 3.75
+Delivery Type | Other
+Prerequisite(s) | Admission to a Forensic credential program or permission of the Program Coordinator.
+CRN | 82221
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Joe Ilsever
+E-mail | Instructor to provide
+Location | N/A
+Office Hours | Instructor to provide
+### Course Description
+​This course is intended to develop the student's advanced research and analytical skills. It will focus on the theory of inquiry, the logic, reality, and structure of investigative enquiry, as well as data analysis, methodologies of measurement models and reporting of results. Emphasis will be placed on data gathering and statistical techniques. The student will be introduced to statistical analysis techniques for applications in the law enforcement and forensics fields. Various models of measurement, including quantitative, qualitative and data mining techniques with hands on data sets will be covered. Groups will be required to prepare a mini research project using all the statistical applications covered in class.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the strengths and limitations of applied investigative research and research methodologies.
+- Examine the significance of conceptualization and measurement models and analysis.
+- Identify the differences between qualitative and quantitative research, and assess the suitability of each type of research for different applications.
+- Identify the methodological issues when using public safety data.
+- Articulate research findings in the law enforcement context.
+- Apply statistical crime research methods and advanced data analysis techniques using predictive analytics.
+- Identify a suitable research topic to be explored in the capstone research project course.
+- Assess the ethical and methodological implications of using AI-driven analytics in public safety research.​
+### Learning Resources
+Text(s) and Equipment:
+Required:
+- SPSS statistical package (student version). The best price is available at:
+https://onthehub.com/download/software-discounts/spss-statistics
+Buy the following SPSS package with a big student discount:
+https://onthehub.com/products/4089c65e-9133-ed11-814e-000d3af41938
+Required Textbook: Sold at BCIT Bookstore.
+- Elliott, et.al. Quick Guide to IBM SPSS, 3 rd Edition. Statistical Analysis with
+Step-by-Step Examples
+Textbook Appendix A: A Brief Tutorial for Using IBM SPSS for Windows. This tutorial gets you started with the essential information needed to work through the examples in this book. We recommend that if your SPSS is rusty, if you have limited experience using SPSS, or if you are new to SPSS, you should go through the tutorials in this appendix before working the examples in the book. For the more adventurous, it also includes a tutorial for using the SPSS Code Language that describes how you can use it.
+Recommended Textbook (not mandatory to buy)
+- Rennison, Research Methods in Criminal Justice, and Criminology 2e (Paperback). Sage Publications.
+Other Data Analysis Sources
+Links to alternate sources of data will provide possible avenues to obtain secondary social and behavioral science data that can be analyzed with SPSS/PASW Statistics.
+- ICPSR: https://www.icpsr.umich.edu/icpsrweb/ICPSR/
+- Roper Center: https://www.ropercenter.uconn.edu/
+- Field Poll: https://www.field.com/fieldpollonline/subscribers/
+- Journal of Digital Forensics, Security & Law (Available through BCIT Library).
+Student resources (class lecture power point slides, SPSS data sets), available at the course website (The Learning Hub) under the “course content”.
+At each class, instructors will introduce peer reviewed journal articles in CIA, Digital Forensics and Forensic Sciences specialty areas for review of methodological issues and relevant key research findings, with latest knowledge findings in these specialty areas
+### Course Goals
+This course is intended to develop the students’ advanced research and analytical skills. It will focus on the theory of inquiry, the logic, reality, and structure of investigative enquiry, as well as data analysis, methodologies of measurement models and reporting of results. Emphasis will be placed on data gathering and statistical techniques. The student will be introduced to multivariate statistical analysis techniques, using SPSS for application in the law enforcement and forensics fields. Various models of measurement, including quantitative, qualitative and data mining techniques with hands on data sets will be covered.
+Groups will be required to prepare a mini research project using all the statistical applications covered in class.
+Course Learning Outcomes
+At the end of this course the student will present a report of his/her project to the advisory team, peers for critical review and a defence.
+In so doing, the student will:
+- Explain the strengths and limitations of applied investigative research and research methodologies
+- Examine the significance of conceptualization and measurement models and analysis.
+- Identify the differences between qualitative and quantitative research and assess the suitability of each type of research for different applications.
+- Identify methodological issues when using public safety data.
+- Articulate research findings in the law enforcement context
+- Apply statistical crime research methods and advanced data analysis techniques using SPSS and predictive analytics Identify a suitable research topic to be explored in the capstone research course work
+### Evaluation Criteria
+Midterm | 20% | Based on crime theory and SPSS applications and interpretation of crime data
+Mini group project | 40% | Details and evaluation criteria will be discussed in the first class. Marking guide and specific expected outcome is posted on the last page of the course outline.
+Assignments (3) | 10% | To be posted to the Learning Hub under “Assignments” folder
+30%
+Final Exam | Theory, SPSS software mastery, actual data manipulation using live forensic data, data interpretation, crime theory. This is a comprehensive exam.
+Total: | 100% | PLEASE NOTE THIS COURSE REQUIRES EXTENSIVE HANDS-ON PRACTISE IN USING SPSS. PLEASE TRY NOT TO MISS ANY CLASS.
+### Attendance Requirements
+Students should try to attend all scheduled classes as hands-on SPSS software will be used for data analysis of actual crime data.
+### Course Specific Requirements
+None
+### Safety equipment or protective clothing
+None
+### Other information
+MINI PROJECT COMPLETED IN APA FORMAT
+TOTAL ASSIGNABLE MARK = 40 % è (10 %) FOR IN CLASS PRESENTATION, (30 %) FULL WRITTEN
+- Specify the research topic / question in well-defined, clear, concise form and forensics related. Your topic should be grounded in good literature review based on è Lit review è archival approach è ideally peer reviewed journal articles and reliable sources.
+- Explain how to operate research constructs and how you will codify and measure . What scales of measurement will you use and complete VALIDITY and RELIABILITY of items, scales, and the OVERALL MEASUREMENT INSTRUMENT (survey, questionnaire, experimental protocol)? Provide evidence of reliability and validity studies (face, content, construct, and criteria validities).
+- Provide and justify the use of a particular MEASUREMENT MODEL (statistical, non-statistical, text based, interview & focus group-based measurement model) and clearly show / justify why this model was used and HOW FITTING your data is for the chosen model (model assumptions, data selection criteria, sampling frame).
+- Describe the different types of variables (operational definitions) as agreed upon by researchers, as justified in literature review and past research measurement models.
+- DV’s? Multiple outcomes (specify), consequences, clearly defined IV’s (predictor variables)?
+- Define the underlying theory behind your research question , link the theories, show they will help you to solve your research problem , show and illustrate how the researcher on this subject matter agree and disagree on their methods , key research findings, where the agreements and disagreements are, evolve the theories over an archival time frame, show any potential deficiencies theories have, show where the knowledge GAPS are and how you propose these GAPS through your design (incremental knowledge build up)
+- Formulate the various types of hypotheses and test them with results shown (Ho and Ha), stated in clear, precise, testable forms.
+- Create a visualization of a research question & study (MIND MAP: C MAP: CONTENT MAP: FLOW AND OR SYSTEM DIAGRAM è VISIOc). Prepare a flow diagram, visual map, experimental design protocol and a process diagram (if applicable). If your research is experimental that, is you will conduct a real experiment such as data extraction from factory reset cell phones, the experimental protocol (how the experiment will be conducted, is well laid out like a program diagram, outlining each step. For this, you may use the computer science convention of decision and process matrices.
+- Make sure that sub-scales, scales (Alpha scores for each sub-scale are shown and met the acceptable measurement criteria . Make sure that independent variables (IV’s) are pointing at the right DV’s (outcomes, results, consequences) and that the inter-item relationships between the IV’s are shown with a double headed arrows and multicollinearity issues (IV’s overlapping and issues of redundancy are dealt with).
+- Write the FULL MINI PROJECT by using the APA style writing and citation criteria, provide a complete set of references used. Watch for good flow, logical, cohesive, critical synthesis, good flow, watch for transitions and precise results, with supporting charts, tables, graphs.
+- Writing must be academic; all references provided in good and precise form in APA format.
+For APA format guide : https://www.apa.org/pubs
+HOW TO RUN SPSS APPLICATIONS WITH DATA SETS: VIDEOS
+URL’s FOR ONLINE SPSS APPLICATIONS
+KRIPPENDORF ALPHA RELIABILITY TESTING WITH ALL KINDS OF DATA CODING WITH KALPHA.ZIP OR KALPHA.SPS FILE ADD MACROS
+https://www.youtube.com/watch?v=NcC99TrynKQ
+MACRO SYNTAX CODE: è HOW TO CREATE DUMMY VARIABLES IN SPSS
+https://www.youtube.com/watch?v=R0qc4rzr9ik
+HOW TO CREATE COMPOSITE SCORES
+https://www.youtube.com/watch?v=gtue2c7O8VA
+HOW TO RUN A FACTOR MODEL WITH RELIABILITY TESTING
+https://www.youtube.com/watch?v=16Fbz65rTck HOW TO MEASURE VALIDITY IN SPSS Validity Analysis | Exploratory Factor Analysis (EFA)
+https://www.youtube.com/watch?v=nsfs1l2ofOE
+How to correlate between nominal and scale base variables
+https://www.bing.com/videos/riverview/relatedvideo?q=can+you+run+correlation+with+nominal+data+in+SPSS%3f&mid=77DC6D5F94F3A2C473AE77DC6D5F94F3A2C473AE&FORM=VIRE
+ORDINAL & NOMINAL DATE REGRESSION ON SPSS (THEORY BASE)
+https://www.bing.com/videos/riverview/relatedvideo?&q=can+you+run+regression+with+nominal+data+in+SPSS%3f&&mid=AD425F67C0FD89C44C9BAD425F67C0FD89C44C9B&&FORM=VRDGAR
+HOW TO RUN ORDINAL REGRESSION USING NOMINAL AND ORDINAL DATA PREDICTING A CONTINUOUS DEPENDENT VARIABLE
+https://www.bing.com/videos/riverview/relatedvideo?&q=can+you+run+regression+with+nominal+data+in+SPSS%3f&&mid=0B8B97068616F02C43130B8B97068616F02C4313&&FORM=VRDGAR
+Cronbach's Alpha (α) using SPSS Statistics
+https://statistics.laerd.com/spss-tutorials/cronbachs-alpha-using-spss-statistics.php
+HOW TO RUN ORDINAL REGRESSION ON NOMINAL AND ORDINAL VARIABLES
+https://www.youtube.com/watch?v=rPcMcW25PPA
+HOW TO RUN ONE WAY ANOVA IN SPSS WITH EFFECT SIZE AND GLM BASED ANOVA MODEL WITH ETA VALUE
+https://www.youtube.com/watch?v=_btBuD3LIsM
+HOW TO TEST SIGNIFICANT DIFFERENCES IN PERCENTAGES IN SPSS (NON PARAMETRIC) TESTING
+https://www.youtube.com/watch?v=9dIBsa92QHY
+Ridge regression theory explanation
+https://www.youtube.com/watch?v=OEU22e20tWw
+How to calculate the effect size in SPSS
+https://www.youtube.com/results?search_query=how+to+compure+the+effect+size+in+qualitative+models+in+SPSS
+How to calculate the Effect Size in SPSS
+https://www.youtube.com/watch?v=UVK1P7HthzU
+How to calculate Cohen’s D and Effect size in SPS
+https://www.youtube.com/watch?v=UVK1P7HthzU
+Thematic Analysis: A qualitative Design Method
+https://www.youtube.com/watch?v=NLelCELbwCY
+https://www.youtube.com/watch?v=UVK1P7HthzU
+How to do cluster analysis in SPSS?
+https://www.youtube.com/watch?v=YRue69W-dYU
+Logistic regression analysis in SPSS
+https://www.youtube.com/watch?v=C5268D9t9Ak
+How to merge two separate SPSS data files?
+https://www.youtube.com/watch?v=oVx-X0wq-WE
+HOW TO CREATE DUMMY VARIABLES IN SPSS?
+https://www.youtube.com/watch?v=R0qc4rzr9ik
+HOW TO CREATE COMPOSITE SCORES
+https://www.youtube.com/watch?v=gtue2c7O8VA
+HOW TO RUN A FACTOR MODEL WITH RELIABILITY TESTING
+https://www.youtube.com/watch?v=16Fbz65rTck
+HOW TO MEASURE VALIDITY IN SPSS
+Validity Analysis | Exploratory Factor Analysis (EFA)
+https://www.youtube.com/watch?v=nsfs1l2ofOE
+How to correlate between nominal and scale base variables
+https://www.bing.com/videos/riverview/relatedvideo?q=can+you+run+correlation+with+nominal+data+in+SPSS%3f&mid=77DC6D5F94F3A2C473AE77DC6D5F94F3A2C473AE&FORM=VIRE
+ORDINAL & NOMINAL DATE REGRESSION ON SPSS (THEORY BASE)
+https://www.bing.com/videos/riverview/relatedvideo?&q=can+you+run+regression+with+nominal+data+in+SPSS%3f&&mid=AD425F67C0FD89C44C9BAD425F67C0FD89C44C9B&&FORM=VRDGAR
+HOW TO RUN ORDINAL REGRESSION USING NOMINAL AND ORDINAL DATA PREDICTING A CONTINUOUS DEPENDENT VARIABLE
+https://www.bing.com/videos/riverview/relatedvideo?&q=can+you+run+regression+with+nominal+data+in+SPSS%3f&&mid=0B8B97068616F02C43130B8B97068616F02C4313&&FORM=VRDGAR
+Cronbach's Alpha (α) using SPSS Statistics
+https://statistics.laerd.com/spss-tutorials/cronbachs-alpha-using-spss-statistics.php
+HOW TO RUN ORDINAL REGRESSION ON NOMINAL AND ORDINAL VARIABLES?
+https://www.youtube.com/watch?v=rPcMcW25PPA
+HOW TO RUN ONE WAY ANOVA IN SPSS WITH EFFECT SIZE AND GLM BASED ANOVA MODEL WITH ETA VALUE?
+https://www.youtube.com/watch?v=_btBuD3LIsM
+HOW TO TEST SIGNIFICANT DIFFERENCES IN PERCENTAGES IN SPSS (NON PARAMETRIC) TESTING?
+https://www.youtube.com/watch?v=9dIBsa92QHY
+Ridge regression theory explanation
+https://www.youtube.com/watch?v=OEU22e20tWw
+How to calculate the effect size in SPSS
+https://www.youtube.com/results?search_query=how+to+compure+the+effect+size+in+qualitative+models+in+SPSS
+How to calculate the Effect Size in SPSS
+https://www.youtube.com/watch?v=UVK1P7HthzU
+How to calculate Cohen’s D and Effect size in SPS
+https://www.youtube.com/watch?v=UVK1P7HthzU
+Thematic Analysis: A qualitative Design Method
+https://www.youtube.com/watch?v=NLelCELbwCY
+https://www.youtube.com/watch?v=UVK1P7HthzU
+How to do cluster analysis in SPSS
+https://www.youtube.com/watch?v=YRue69W-dYU
+Logistic regression analysis in SPSS
+https://www.youtube.com/watch?v=C5268D9t9Ak
+How to merge two separate SPSS data files:
+https://www.youtube.com/watch?v=oVx-X0wq-WE
+### Statement for prior learning assessment
+NA
+### Course Schedule and Assignments
+Tentative Schedule
+Date/ Session | Material to be covered | Assignment/ data analysis coverage
+January 3 | Course introduction. Review of the course outline, term project (mini project) requirements and specifications. Introduction to SPSS Statistical Software, introduction to Multivariate Research Design. Elliott: Chapters 1 & 2 Introduction & Describing and Examining Data. Explain how to use descriptive statistics to understand and report information about your data Why study research methods? Science, society, and criminological research Evaluation criteria for the mini group project (groups of no more than 2 students). Mini project guidelines appended to the course outline (last page) Handout posted on the course website. Please download, including the SPSS commands needed. | All lecture notes, pptx slides, and data sets to be used are available on the Learning Hub course site. Rennison Book’s Sage web site also contains some very useful links, articles, and references. These resources will be introduced and reviewed in the first class. Homework will be assigned every week based on data sets cover in class we well as the textbook-based questions and will include SPSS data sets provided by the instructor and Wagner textbook data sets provided at the following URL: https://study.sagepub.in/jasrai_daus/student-resources STUDENTS WILL BE ENCOURAGED TO SEEK A POTENTIAL MINI PROJECT RESEARCH TOPIC WHICH CAN USE PRIMARY OR SECONDARY DATA OR BE QUALITATIVE OR EXPERIMENTAL DESIGN. STUDENTS WILL BE REQUIRED PERIODIC PROGRESSS REPORT, AS REQUIRED BY THE INSTRUCTOR. Data must be criminological
+January 10 | Conducting literature review/ research framing, choice of methodology. Elliott: Chapter 3: Creating and Using Graphs. Explain how to use the SPSS Chart Builder, Graph board Template Chooser, and Legacy graphs to describe your data. | Instructor will provide SPSS handouts that will show all the required keyboard functions and interpretation of data output, Basic SPSS functions and coding, manipulating, and transforming variables. Composite score variables Data sets to be used: Youth delinquency General Social Survey GSS 2019 + THE CODE BOOK https://gss.norc.org/ https://gss.norc.org/get-the-data/spss Code book: https://study.sagepub.com/wagner5e/student-resources/gss-cumulative-codebook-1972-2012 Item and scale reliability, validity, and Krippendorf nonnumeric data interrater reliability testing.
+January 17 | Eliott: Chapter 4: Comparing One or Two Means Using the t-Test. Explains the one-sample t-test, two-sample t-test, paired t-test, and appropriate confidence intervals. Eliott: Chapter 5: Correlation and Regression. Explain correlation and simple linear regression with a brief discussion of multiple linear regression. | Random selection, measuring of central distribution & frequency distributions. Data: Hackers Data: Cyber awareness Crypto currency
+ary 24 | Eliott: Chapter 6: Analysis of Categorical Data. Explains methods that are applicable to count or categorical data, including contingency table analysis, measures of risk (including relative risk), odds ratio, and goodness of fit. | Data: Homicide Live literature review demo on a student mini project Correlation and regression models Data: Intimate partner violence (IPV) . | Correlation and regression models Data: Intimate partner violence (IPV)
+January 31 | Eliott: Chapter 7: Analysis of Variance and Covariance. Explains several methods of comparing means, including one-way analysis of variance (ANOVA), two-way ANOVA, repeated-measures ANOVA, and analysis of covariance (ANCOVA) | Data: Safe injection sites Work life satisfaction. Student data
+February 7 | Midterm exam (covering research theory SPSS data analysis 2-5 PM no lecture
+February 14 | Eliott: Chapter 8: Nonparametric Analysis Procedures. Explains nonparametric statistical procedures, including Spearman’s correlation, sign test, the Mann-Whitney U, Kruskal-Wallis, and Friedman’s test .
+February 21 | Elliott: Chapter 9: Logistic Regression. Explains logistic regression analyses, including the cases of single or multiple independent variables, variable selection, and evaluation of the mode
+February 28 | Eliott: Chapter 9: Logistic Regression. Explains logistic regression analyses, including the cases of single or multiple independent variables, variable selection, and evaluation of the mode | Multivariate measurement models Discriminant analysis (DA) models
+March 7 | Advanced multivariate research models Elliott: Chapter 8: Non-parametric analysis procedures | Multivariate measurement models continued. Cluster analysis models
+March 14 | Advanced multivariate research models Eliott: Chapter 8: Nonparametric Analysis Procedures. Explains nonparametric statistical procedures, including Spearman’s correlation, sign test, the Mann-Whitney U, Kruskal-Wallis, and Friedman’s test. | Multivariate measurement models continued. Factor models Lecture notes and SPSS guidelines to be provided by the instructor for all the multivariate measurement models
+March 21 | Advanced multivariate research models 8 minutes pptx presentation of the Mini Project by each team (estimated 10 teams) with follow up Q&A on key data analysis findings. Please upload your completed written project and the pptx deck (with live cam and sound recording) Teams online.
+March 28 | Comprehensive online final exam covering research theory and applied SPSS data analysis on crime related issues. No lecture today
+### Course topics
+- This course is intended to develop the students’ advanced research and analytical skills.
+- It will focus on the theory of inquiry, the logic, reality, and structure of investigative enquiry, as well as data analysis, methodologies of measurement models and reporting of results.
+- Emphasis will be placed on data gathering and statistical techniques.
+- The student will be introduced to multivariate statistical analysis techniques, using SPSS for application in the law enforcement and forensics fields.
+- Various models of measurement, including quantitative, qualitative and data mining techniques with hands on data sets will be covered.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Joe Ilsever, Instructor January 06, 2026
+I verify that this course outline has been reviewed. Jason Moore, Program Head on behalf of David McKay, Program Coordinator January 06, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 06, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

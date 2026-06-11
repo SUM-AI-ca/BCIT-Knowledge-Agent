@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/coordinate-transformations-in-gps-leica-surv-1006/
+Title: Coordinate Transformations in GPS (Leica) SURV 1006
+Type: Course
+Course Code: SURV 1006
+
+================================================================================
+
+## Coordinate Transformations in GPS (Leica) SURV 1006
+Surveying Course
+## Course Overview
+This is an essential course for users already familiar with RTK and/or Post-Process GPS Positioning applications. The course provides in-depth analysis of the different methods of transforming GPS coordinates to local systems through practical case studies. The course is directed to engineers, surveyors and all related professionals within the Geomatics community.
+### Prerequisite(s)
+- GPS survey background and basic Windows and computer skills.
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Define different Geoid models and compute Geoid separations in LGO and RTK systems.
+- Convert GPS to NTV2 NAD27 coordinates in both LGO and RTK systems.
+- Convert GPS coordinates to different local and geodetic coordinate systems.
+- Select and use the proper coordinate transformation types for survey and stakeout applications.
+- Select and use the different 1-Point Localizations based on survey and stakeout applications.
+Effective as of Spring/Summer 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

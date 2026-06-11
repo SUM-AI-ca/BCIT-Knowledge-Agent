@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/web-scripting-with-php-level-2-comp-2920/
+Title: Web Scripting with PHP Level 2 COMP 2920
+Type: Course
+Course Code: COMP 2920
+
+================================================================================
+
+## Web Scripting with PHP Level 2 COMP 2920
+Computer Systems Course
+## Course Overview
+OMP 2920 has been replaced by COMP 4669 . This hands-on course continues from COMP 1920 Server-side Web Scripting with PHP Level 1 and covers how to write reusable classes and object-oriented scripts. The main focus is on object-oriented design, advanced database programming techniques, and security issues. Topics include: Open-source PHP libraries (via Composer), third party API/SDKs, and use popular frameworks to add complex functionality to web applications. Encryption, compression, templating, hashing, and multiple file format creation (.doc, .pdf, .rtf, .zip, .xls) are also discussed. Students work together in groups to build scripts and libraries for advanced, secure web applications with online database transactions. Participants learn the PHP command line interface (no Web server required). Upon successful completion students will be able to leverage open-source libraries, third party tools and current popular frameworks to quickly develop modular and secure web applications to industry standards. COMP 2920 is a required course in the “Web and Mobile Application Development” associate certificate plus it is an elective in the CST/PTS Diploma.
+### Prerequisite(s)
+- 50% in COMP 1920
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Write their own classes to generate PHP objects.
+- Use the Composer package manager to leverage third party open-source libraries.
+- Interact with MySQL via PHP objects and query builders.
+- Discuss security issues and write secure, robust code resistant to errors and attacks.
+- Generate pdf documents dynamically.
+- Install a variety of libraries to use powerful resources such as compression, encryption, password security.
+- Demonstrate the use of OOP.
+- Adopt and implement web applications that talk to other webservices through their SDK.
+- Write high-quality, high-performing web applications to industry standards.
+Effective as of Spring/Summer 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

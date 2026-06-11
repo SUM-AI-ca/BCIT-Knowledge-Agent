@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/object-oriented-analysis-and-design-comp-3711/
+Title: Object Oriented Analysis and Design COMP 3711
+Type: Course
+Course Code: COMP 3711
+
+================================================================================
+
+## Object Oriented Analysis and Design COMP 3711
+Computer Systems Course
+## Course Overview
+This course introduces the students to the concepts of object oriented analysis and design. They will get the knowledge and the hands on experience to implement all the steps of an agile, iterative and incremental analysis and design process, from the planning and project management to the release and QA of the code. Use case documents are written to capture and analyze the requirements. The students will gain proficiency using Rational Rose and UML (Unified Modeling Language) to visually document the process. Design patterns, best practices, code generation and reverse engineering are used as a base for design and implementation. The course also introduces quality assurance concepts and the students will use automated software testing to create and execute test plans and test scripts. NOTE: In Part-time Studies, this course was replaced by COMP 3831 .
+### Prerequisite(s)
+- COMP 2526
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Analysis
+- Identify and complete use cases from a system requirements document.
+- Identify classes based on use cases.
+- Identify the relationships between classes.
+## UML
+- Represent both analysis and design models using sequence, collaboration and class diagrams.
+## Design
+- Recognize and apply design patterns.
+- Refine use cases to serve as foundation for design.
+- Extend the analysis classes to represent the design use cases and identify specific object instances.
+- Add/modify relationships between classes and objects to further extend the design.
+## Implementation
+- Begin implementation when sufficient design done to guide early stages of implementation.
+- Use feedback from the implementation process to refine the design, especially with respect to the interfaces between packages and classes.
+- Add/modify relationships between classes and objects to further extend the design.
+## Testing
+- Begin testing as soon as there is code available to test.
+- Construct a software test plan.
+- Write test scripts.
+- Compile and analyze a database of test information.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,76 @@
+URL: https://www.bcit.ca/courses/mri-physics-1-mimg-1110/
+Title: MRI Physics 1 MIMG 1110
+Type: Course
+Course Code: MIMG 1110
+
+================================================================================
+
+## MRI Physics 1 MIMG 1110
+Medical Imaging Course
+## Course Overview
+This course provides detailed examination of magnetic resonance imaging (MRI) methodologies, including the fundamentals of magnetic resonance (MR) physics and discussion of pulse sequences. Physics I starts with the basic principles of MRI and atomic physics. A majority of the course will be spent on complex MRI topics such as image weighting and pulse sequences.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Perform calculations involving trigonometry concepts of importance to MRI. The following concepts, skills, and issues are used to support this Outcome:
+- the SI system of units as related to MRI
+- accuracy, precision, and significant digits
+- converting units
+- angle measurement and conversions
+- basic trigonometric functions: cosine and sine
+- angular and linear frequency
+- graphs of the trigonometric functions of importance in MRI
+- Perform calculations involving mathematical functions of importance to MRI. The following concepts, skills, and issues are used to support this Outcome:
+- exponential functions
+- exponentially decaying sinusoids
+- sinc function
+- complex numbers
+- Explain the fundamental physics principles of MRI. The following concepts, skills, and issues are used to support this Outcome:
+- fundamentals of quantum mechanics
+- definition of magnetic moment
+- spin states of hydrogen
+- fundamentals of electromagnetic waves
+- net magnetization vector (NMV)
+- calculation of spin excess
+- radio-frequency (RF) pulse
+- Discuss the major hardware components of an MRI system. The following concepts, skills, and issues are used to support this Outcome:
+- voltage, current, and resistance
+- resistor, capacitor, and inductor
+- imager coils and resonance
+- electromagnetic induction
+- Faraday and Lenz's Law
+- static magnetic field coils
+- gradient coils
+- radio-frequency (RF) coils
+- Describe the basics of image weighting and imaging concepts. The following concepts, skills, and issues are used to support this Outcome:
+- longitudinal and transverse magnetization
+- repetition time (TR), echo time (TE), and the free induction decay (FID)
+- T1 relaxation and tissue properties
+- T2 decay and T2* decay
+- T1 and T2 values in the brain
+- T1 and T2 values in the body
+- non-90 degree flip angle calculations
+- Describe the spin echo pulse sequence and its variants as used in MRI. The following concepts, skills, and issues are used to support this Outcome:
+- conventional spin echo pulse sequence
+- dual spin echo, turbo spin echo and variants
+- three dimensional (3D) spin echo pulse sequences
+- acquisition time calculations
+- Describe the gradient echo pulse sequence and its variants as used in MRI. The following concepts, skills, and issues are used to support this Outcome:
+- basic gradient echo (GRE) pulse sequence
+- effects of flip angle, TR and TE on image weighting in GRE
+- stimulated and Hahn echoes
+- coherent, incoherent, and steady state free precession
+- Describe the other common pulse sequences as used in MRI. The following concepts, skills, and issues are used to support this Outcome:
+- inversion recovery (IR) pulse sequence
+- fluid-attenuated inversion recovery (FLAIR) and short tau inversion recovery (STIR) imaging
+- echo planar imaging (EPI)
+Effective as of Winter 2023
+## Related Programs
+MRI Physics 1 (MIMG 1110) is offered as a part of the following programs:
+### School of Health Sciences
+- Magnetic Resonance Imaging Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

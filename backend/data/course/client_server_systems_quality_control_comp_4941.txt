@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/client-server-systems-quality-control-comp-4941/
+Title: Client/Server Systems Quality Control COMP 4941
+Type: Course
+Course Code: COMP 4941
+
+================================================================================
+
+## Client/Server Systems Quality Control COMP 4941
+Computer Systems Course
+## Course Overview
+This course is an extension to COMP 3940 and provides in-depth knowledge of the principles and practice of client/server & distributed systems design. The focus is on examining strategies and algorithms to achieve design goals such as performance, reliability, scalability, consistency, and security in a distributed system. Some of the topics that will be covered include: Concurrency Control, Recovery and Performance considerations in multi-user and distributed data servers; Replication, Security and Fault Tolerance in distributed systems & the design and development of client/server based database applications.
+### Prerequisite(s)
+- 50% in COMP 3940
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+At the end of this course, the student will be able to:
+- Identify and review key requirements of client/server and distributed systems.
+- Examine strategies and algorithms to achieve design goals such as performance, reliability,scalability, consistency, and security in a distributed system.
+- Evaluate various algorithms and protocols associated with transaction management, con-currency control and recovery.
+- Evaluate existing client/server based systems such as relational database management systems (RDBMS) to assess how user requirements are being met.
+- Develop client/server based and distributed database applications using these too.
+Effective as of Winter 2014
+## Related Programs
+Client/Server Systems Quality Control (COMP 4941) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

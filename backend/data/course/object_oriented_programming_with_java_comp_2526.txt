@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/object-oriented-programming-with-java-comp-2526/
+Title: Object-Oriented Programming with Java COMP 2526
+Type: Course
+Course Code: COMP 2526
+
+================================================================================
+
+## Object-Oriented Programming with Java COMP 2526
+Computer Systems Course
+## Course Overview
+​​Students continue to learn to develop applications with the Java language using the Object Oriented Paradigm. Focus is on problem solving, proper Object Oriented Programming techniques, and clear coding style. The three fundamentals of OOP are covered data abstraction and encapsulation, inheritance, and polymorphism with emphasis on the last two (inheritance and polymorphism). Data structures including Linked Lists, Queues, Stacks and Trees will be examined along with some common search and sort algorithms. Basic Java is explored including interfaces, exception handling, and user interfaces. Features of the latest Java Development Kit will also be examined. Several Java packages are examined including java.io, java.awt, swing, and others. PLEASE NOTE: COMP 2526 has been replaced by both COMP 2501 and COMP 2601 as of April 2021.
+### Prerequisite(s)
+- COMP 1510 or (PTS equivalents COMP 1409 and COMP 1451 )
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Choose the appropriate data structure or container class for modeling a given problem.
+- Implement user-defined data structures in Java including linked lists and trees.
+- Apply the techniques of decomposition to break a program into smaller pieces.
+- Design, implement, and test programs using the three main principals of Object Oriented Programming: Encapsulation & information hiding; inheritance; polymorphism.
+- Describe the concept of recursion and give examples of its use.
+- Design, code, test, and debug Graphical User Interfaces with event-driven programs that respond to user events.
+- Build robust code using exception handling.
+- Discuss the computational efficiency of the principal algorithms for sorting, searching, and hashing.
+- Demonstrate an understanding of the execution environment.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/advanced-containerization-concepts-citx-1020/
+Title: Advanced Containerization Concepts CITX 1020
+Type: Course
+Course Code: CITX 1020
+
+================================================================================
+
+## Advanced Containerization Concepts CITX 1020
+Computer Information Technology Electronics Course
+## Course Overview
+This advanced course delves deeper into the world of container orchestration, focusing on managing complex, distributed applications in a scalable manner. Participants will explore advanced topics in container orchestration, learning how to deploy, scale, and manage multi-container applications across various nodes and environments. Additional topics include managing containerized applications at scale, deploying multi-service applications in a distributed environment, monitoring and troubleshooting containerized applications and best practices for ensuring high availability and disaster recovery in containerized systems. This course is suitable for those who have completed an introductory course in containerization or have equivalent practical experience. It's aimed at IT professionals, system administrators, and DevOps engineers who are looking to deepen their understanding and skills in advanced container orchestration techniques.​
+### Prerequisite(s)
+- 50% in CITX 1010
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the concepts and architecture of an advanced container orchestration tool.
+- Deploy, configure, and manage advanced clusters, ensuring their scalability and reliability across various environments.
+- Troubleshoot advanced containerized clusters, identifying and resolving issues efficiently.
+- Configure and access the container dashboard, utilizing it for monitoring and management purposes.
+- Configure and host advanced services in containers, optimizing their performance and integration.
+- Configure and use shared storage volumes for container deployment, facilitating data persistence and exchange between containers.
+- Analyze requirements for the size and amount of container nodes, making informed decisions based on application needs and resource availability.​
+Effective as of Winter 2024
+## Related Programs
+Advanced Containerization Concepts (CITX 1020) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Fundamentals of Virtual Containers Microcredential Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

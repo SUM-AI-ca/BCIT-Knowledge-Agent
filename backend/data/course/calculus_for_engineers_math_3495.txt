@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/calculus-for-engineers-math-3495/
+Title: Calculus for Engineers MATH 3495
+Type: Course
+Course Code: MATH 3495
+
+================================================================================
+
+## Calculus for Engineers MATH 3495
+Mathematics Course
+## Course Overview
+An introduction to numerical techniques of differentiation and integration; Taylor series expansion; analytic solution of first-order separable and linear ordinary differential equations; numerical solution of initial value problems involving a single first-order differential equation, systems of first-order differential equations or a single higher-order differential equation; analytic solution of higher-order differential equations with constant coefficients; matrix methods for solving linear systems, interpolating and curve-fitting. The course will emphasize applications that are of engineering interest and will use spreadsheets to solve practical problems.
+### Prerequisite(s)
+- MATH 2491
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use matrix methods to solve systems of simultaneous linear equations, fit a polynomial curve to given data, and perform polynomial interpolations.
+- Use numerical derivatives to differentiate a given function or time-series (e.g. to calculate the velocity of an object from a time-series of its displacement).
+- Determine the best step-size to use in numerical differentiation, taking into account the effects of truncation error and round-off error.
+- Use numerical integration techniques (including the Trapezoid Rule and Simpson's Rule) to evaluate definite integrals, such as those arising in volume, centroid or moment of inertia calculations and in problems related to work done, hydrostatic force, or beam deflections.
+- Write Taylor series expansions and use them to analyze the truncation error in a numerical integration.
+- Solve separable and linear first-order differential equations such as arise in problems of practical engineering interest (e.g. motion in viscous and resistive media, mixing, drainage).
+- Solve single first-order differential equations, systems of first-order differential equations and single second-order differential equations using numerical techniques for initial value problems (including Euler's method and Heun's method).
+- Reduce higher-order differential equations to an equivalent system of first-order differential equations.
+- Solve linear second-order differential equations with constant coefficients such as arise in problems of practical engineering interest (e.g. beam deflections, mechanical vibrations, forced oscillations, resonance).
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

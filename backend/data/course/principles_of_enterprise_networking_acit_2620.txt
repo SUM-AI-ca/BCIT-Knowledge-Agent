@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/principles-of-enterprise-networking-acit-2620/
+Title: Principles of Enterprise Networking ACIT 2620
+Type: Course
+Course Code: ACIT 2620
+
+================================================================================
+
+## Principles of Enterprise Networking ACIT 2620
+Computer Information Technology Course
+## Course Overview
+This course introduces students to core networking concepts, terminologies, and their implementations. Topics are introduced and examined by implementing and configuring network services using contemporary technologies. The course includes a semester long hands-on practical networking project, as well a discussion of fundamental concepts such as network topologies, protocols, transmission media, switching techniques, access control and addressing. TCP/IP and the OSI Reference Model are used throughout the course.
+### Prerequisite(s)
+- ACIT 1420 and MATH 1310
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain fundamental concepts and terminologies related to networking.
+- Explain the techniques of switching, access control and addressing in networks.
+- Describe common networking models, and employ them in network design, troubleshooting, and error reporting.
+- Describe the operational characteristics of common network media.
+- Describe the purpose, operation, and header elements of network protocols such as ARP, DHCP, DNS, HTTP, ICMP, ICMPv6, IEEE 802.11, IEEE 802.1Q, IEEE 802.3, IPv4, IPv6, OSPF, TCP, UDP.
+- Configure network services (including domain name services, dynamic address allocation, dynamic routing, network address translation, packet filtering, static routing, switching, and web services).
+- Use industry standard tools to configure, analyze, and troubleshoot network services.
+- Analyze protocols at the physical, data link, network, transport and application layers.
+- Discuss network security and network management principles.
+Effective as of Fall 2018
+## Related Programs
+Principles of Enterprise Networking (ACIT 2620) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

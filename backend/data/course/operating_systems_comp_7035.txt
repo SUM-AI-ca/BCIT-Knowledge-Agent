@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/operating-systems-comp-7035/
+Title: Operating Systems COMP 7035
+Type: Course
+Course Code: COMP 7035
+
+================================================================================
+
+## Operating Systems COMP 7035
+Computer Systems Course
+## Course Overview
+​This course is focused on advanced concepts in operating systems: inter-process communication, inter-core synchronization, memory organization and management, virtual memory, uniprocessor and multiprocessor scheduling, input/output management, modern storage strategies, file management and security. Concepts of processes and threads, inter-process communication, concurrency and synchronization will be discussed. Students will learn about the design of operating system structures and related algorithms and policies with a focus on performance and optimization. For example: placement and replacement memory algorithms, scheduling algorithms, resident set management and load control theories. The course will include an introduction to virtualization. To illustrate the concepts, each topic will include examples of real life design choices used in modern operating systems (e.g., UNIX, Linux, Windows, and Android).​
+### Prerequisite(s)
+- Acceptance into the Bachelor of Science in Applied Computer Science (BscACS) program.
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$875.67
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Compare and contrast design strategies used for various operating systems.
+- Discuss concepts of processes, threads, concurrency and synchronization.
+- Analyze solutions for inter-process communication and inter-core synchronization for real-life concurrent problems.
+- Explain how the memory management system operates, including virtual memory, logical/physical addressing schemes, swapping, segmentation, and paging.
+- Discuss the advantages and challenges of virtual memory design.
+- Analyze page replacement algorithms (for example: FIFO, LRU, optimal, clock, working set) implemented for virtual memory management.
+- Apply frame allocation algorithms for virtual memory management (for example: equal, proportional, local, and global).
+- Analyze algorithms implemented for uniprocessor and multiprocessor scheduling (for example: FCFS, SRT, priority scheduling, multilevel queue scheduling).
+- Compare and contrast different scheduling algorithms.
+- Describe the I/O management and file management systems.
+- Analyze algorithms used for disk scheduling (for example: FCFS, SSTF, SCAN, CSCAN, FSCAN, LOOK).
+- Discuss modern storage strategies including cloud storage.
+- Describe security threats and attacks as well as various countermeasures to such attacks.
+- Describe virtual machines for virtualization and their benefits, building blocks and their life cycles.​
+Effective as of Fall 2023
+## Related Programs
+Operating Systems (COMP 7035) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Database Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Games Development Option) Bachelor of Science Full-time
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Applications Development Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 7035 for the Fall 2026 term.
+Sep 09 - Dec 09
+- CRN 50439
+- $875.67 Domestic fees
+Dates | Days | Times | Locations
+Sep 09 - Dec 09 | Wed | 18:00 - 21:45 | Burnaby SW01 Rm. 2590
+### Duration
+12 weeks
+### Instructor
+Mirela Gutica
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- No Class Sep 30 - National Day for Truth and Reconciliation and Nov 11 - Rememberance Day. 1. Please email compBSc@bcit.ca for departmental approval. Include your student number (A0#), course number (COMP__) and preferred CRN. 2. This is a BScACS course. 3. BScACS program students have up to seven (7) years to complete the Bachelor program starting from the date of their first Technical degree-level course or the date of acceptance to the Bachelor program, WHICHEVER COMES FIRST.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

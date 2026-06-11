@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/linux-unix-operating-system-fundamentals-comp-2765/
+Title: Linux/Unix Operating System Fundamentals COMP 2765
+Type: Course
+Course Code: COMP 2765
+
+================================================================================
+
+## Linux/Unix Operating System Fundamentals COMP 2765
+Computer Systems Course
+## Course Overview
+This course has been replaced with COMP 2766 . First level in a series of core Linux/Unix courses, designed to cover basic Linux/Unix concepts using the GNU/Linux operating system on the Intel platform. Topics include login procedures, the Linux/Unix shell, file and directory management, text editing, printing, e-mail, pipes and process control. Provides a solid foundation in a Linux/Unix environment.
+### Prerequisite(s)
+- 50% in COMP 1002
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Log in and out of the operating system & explain the login process.
+- Understand and explain the layers of the operating system.
+- Access the many forms of online assistance available.
+- Navigate the filesystem & manipulate files and directories.
+- Edit text files using the vi editor.
+- Use shell metacharacters to control command input and output.
+- Manage processes and be able to terminate misbehaving ones.
+- Modify and configure personal login environments.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

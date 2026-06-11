@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/spatial-database-systems-1-geom-7132/
+Title: Spatial Database Systems 1 GEOM 7132
+Type: Course
+Course Code: GEOM 7132
+
+================================================================================
+
+## Spatial Database Systems 1 GEOM 7132
+Geomatics Course
+## Course Overview
+This course is an introduction to database systems used in the Geomatics Industry. Topics will include database and GIS terminology. Database systems will be compared e.g. RDBMS, ODBMS and RDBMS. Data modelling: conceptual, logical and physical and data normalization. Finally, SQL and data integrity constraints will be covered
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Distinguish between and give examples of data concepts such as raw data vs metadata, spatial vs attribute, structured vs unstructured vs semi-structured and big vs little.
+- Distinguish between and give examples of DBMS models: RDBMS, OODBMS, ORDBMS, GIS, LIS, Spatial DBMS, Graph DBMS.
+- Compare and contrast categories of data systems: transactional, multidimensional, etc.
+- Distinguish between and give examples of spatial data structures.
+- Describe the architecture of a modern enterprise spatial DBMS.
+- Create and implement spatial database models using spatially enabled E/R tools.
+- Create attribute and spatial queries using spatial enabled SQL.
+- Explain and suggest strategies used to tune data and database systems to increase consistency and performance
+- Implement and follow spatial standards as specified by the OGC and TC/211.
+- Implement spatial databases using GIS desktop tools.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

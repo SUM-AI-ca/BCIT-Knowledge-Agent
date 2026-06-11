@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20243030327/
 Course: ELEX 2845
-Field: Electrical Equipment                                                                                
-
-School: School of Energy
-Program: Mechanical Engineering Technology
-Course Credits: 4
-Minimum Passing Grade: 50%
-Start Date: September 03, 2024
-End Date: December 13, 2024
-Total Hours*: 60
-Total Weeks: 15
-Hours/Weeks: 4
-Delivery Type: Lecture
-Prerequisite(s): PHYS 2149
+Field: Electrical Equipment
+Subject: Electrical and Computer Engineering
+Term: 202430
 CRN: 30327
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## ELEX 2845
+## Electrical Equipment
+School | School of Energy
+Program | Mechanical Engineering Technology
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | September 03, 2024
+End Date | December 13, 2024
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Prerequisite(s) | PHYS 2149
+CRN | 30327
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Ron Stewart
-E-mail: rstewart67@bcit.ca
-Location: SW2-359
-Office Hours: Mondays, 12:30-1:20Tuesdays, 10:30-12:20Wednesdays, 12:30-1:20 Thursdays, 12:30-1:20
-
-## Course Description
+### Instructor Details
+Name | Ron Stewart
+E-mail | rstewart67@bcit.ca
+Location | SW2-359
+Office Hours | Mondays, 12:30-1:20 Tuesdays, 10:30-12:20 Wednesdays, 12:30-1:20 Thursdays, 12:30-1:20
+### Course Description
 This course shall serve to introduce electrical equipment and systems found in the industrial and commercial environment to students who can expect to encounter such hardware in the course of their careers. The course will address those topics of key concern to non-electrical personnel in the mechanical and process industries. These will include: Electrical transmissions, energy rate structure and demand charges, line loss, power factor and power quality; abnormal circuit conditions and circuit protection devices; transformer operation and applications; three-phase power and its advantages; AC motors and drives; electrical controls: switches, relays and programmable logic controllers (PLCs).
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Analyze and interpret single phase and three phase AC electrical circuits. [1, 2, 3, 5, 6]
 - Analyze power factor of AC system and interpret its cause, effect and correction methods. [1, 2, 3, 4, 5, 6]
 - Analyze and interpret magnetic circuits and electromagnetic induction. [1, 2]
@@ -37,48 +40,39 @@ Upon successful completion of this course, the student will be able to:
 - Analyze and interpret AC rotating machines. [1, 2, 3, 4, 5, 6]
 - Analyze and implement electrical control system using hard wares and PLCs. [1, 2, 3, 4, 5, 6]
 - Integrate protection of electrical systems with design. [1, 2]
-
-## Learning Resources
+### Learning Resources
 Learning Hub: Digital lecture materials
-
-Textbook: There is no required textbook, but Electric Circuits and Machines by Lister and Golding, Electrical Machines, Drives and Power Systems by Wildi and Fundamentals of Electrical Engineering by Rizzoni & Kearns are good references. The Rizzoni book is particularly written for mechanical engineers.
-
-## Course Goals
+Textbook : There is no required textbook, but Electric Circuits and Machines by Lister and Golding, Electrical Machines, Drives and Power Systems by Wildi and Fundamentals of Electrical Engineering by Rizzoni & Kearns are good references. The Rizzoni book is particularly written for mechanical engineers.
+### Course Goals
 - Evaluate and troubleshoot electrical equipment and circuits using standard lab and portable test instruments.
 - Analyze and interpret single-phase and three-phase electrical systems.
 - Analyze and interpret transformer circuits.
 - Solve problems by applying mechanical technology driven by electrical technology.
 - Solve problems by applying mechanical technology controlled by electrical technology.
 - Integrate protection of electrical systems with mechanical designs.
-
-## Evaluation Criteria
-Criterion: %
-Lab performance & reports: 20
-Lab test: 10
-At-home quizzes: 5
-Midterm Exam 1: 15
-Midterm Exam 2: 20
-Final Exam: 30
-Total: 100
-
-## Attendance Requirements
+### Evaluation Criteria
+Criterion | %
+Lab performance & reports | 20
+Lab test | 10
+At-home quizzes | 5
+Midterm Exam 1 | 15
+Midterm Exam 2 | 20
+Final Exam | 30
+Total | 100
+### Attendance Requirements
 Attendance will be recorded for all lectures.
-
 Laboratory attendance is mandatory. Missing one lab session will result in a written warning and a meeting with the instructor. Missing a second session may result in an incomplete grade for the course.
-
-## Safety equipment or protective clothing
+### Safety equipment or protective clothing
 In the power lab, the following are required:
-
 - One keyed padlock per student
 - Safety glasses
 - Long hair must be tied
 - CSA-approved safety shoes
 - No loose clothing
 - No shorts and sandals
-
-## Other information
+### Other information
+## Course learning outcomes/competencies
 Upon successful completion of this course, the student will be able to:
-
 - Analyze and interpret single-phase and three-phase AC electrical circuits. [1, 2, 3, 5, 6]
 - Analyze the power factor of the AC system and interpret its cause, effect, and correction methods. [1, 2, 3, 4, 5, 6]
 - Analyze and interpret magnetic circuits and electromagnetic induction. [1, 2]
@@ -86,26 +80,24 @@ Upon successful completion of this course, the student will be able to:
 - Analyze and interpret AC rotating machines. [1, 2, 3, 4, 5, 6]
 - Analyze and implement an electrical control system using hard wares and PLCs. [1, 2, 3, 4, 5, 6]
 - Integrate protection of electrical systems with design. [1, 2]
-
-## Course Schedule and Assignments
-Week: Monday Lecture: Tuesday Lecture: Lab
-September: 1: 2: Labour Day: 3: Orientation day: No lab
-2: 9: Introduction & Phys 2149 review: 10: AC resistive circuits: Lab 1 - Intro to power lab
-3: 16: AC LRC circuits: 17: AC LRC circuits: Lab 2 - AC resistive circuits
-4: 23: Power factor & correction: 24: 3-phase power: Lab 3 - AC LRC circuits
-October: 5: 30: Day for Truth & Reconciliation: 1: 3-phase power: No lab
-6: 7: 3-phase power: 8: Mid-term review: Lab 4 - Power factor correction
-7: 14: Thanksgiving Day: 15: Mid-Term Exam 1: No lab
-8: 21: Electromagnetic induction: 22: Power transformers: Lab 5 - 3-phase power
-9: 28: AC induction machines: 29: AC induction machines: Lab 6 - Power transformers
-November: 10: 4: Magnetic circuits: 5: Mid-term review: Lab 7 - AC induction machines
-11: 11: Remembrance Day: 12: Mid-Term Exam 2: No lab
-12: 18: Hardware controls: 19: Hardware controls: Lab Test
-13: 25: PLC controls: 26: PLC controls: Lab 8 - Motor control
-December: 14: 2: Protection systems: 3: Final Exam Review: Lab 9 - PLC-based motor control
-15: 9: EXAMS
-
-## Course topics
+### Course Schedule and Assignments
+Week | Monday Lecture | Tuesday Lecture | Lab
+September | 1 | 2 | Labour Day | 3 | Orientation day | No lab
+2 | 9 | Introduction & Phys 2149 review | 10 | AC resistive circuits | Lab 1 - Intro to power lab
+3 | 16 | AC LRC circuits | 17 | AC LRC circuits | Lab 2 - AC resistive circuits
+4 | 23 | Power factor & correction | 24 | 3-phase power | Lab 3 - AC LRC circuits
+October | 5 | 30 | Day for Truth & Reconciliation | 1 | 3-phase power | No lab
+6 | 7 | 3-phase power | 8 | Mid-term review | Lab 4 - Power factor correction
+7 | 14 | Thanksgiving Day | 15 | Mid-Term Exam 1 | No lab
+8 | 21 | Electromagnetic induction | 22 | Power transformers | Lab 5 - 3-phase power
+9 | 28 | AC induction machines | 29 | AC induction machines | Lab 6 - Power transformers
+November | 10 | 4 | Magnetic circuits | 5 | Mid-term review | Lab 7 - AC induction machines
+11 | 11 | Remembrance Day | 12 | Mid-Term Exam 2 | No lab
+12 | 18 | Hardware controls | 19 | Hardware controls | Lab Test
+13 | 25 | PLC controls | 26 | PLC controls | Lab 8 - Motor control
+December | 14 | 2 | Protection systems | 3 | Final Exam Review | Lab 9 - PLC-based motor control
+15 | 9 | EXAMS
+### Course topics
 - Electrical Fundamentals: Voltage, current, resistance, circuit analysis, power, and energy.
 - AC Systems: Inductance, capacitance, impedance, real power, apparent power, reactive power, and power factor.
 - Three-phase systems: Wye and Delta configurations.
@@ -114,27 +106,20 @@ December: 14: 2: Protection systems: 3: Final Exam Review: Lab 9 - PLC-based mot
 - AC Motors: Faraday's law, Lenz's law, field, poles, speed, rotor, stator, slip, and torque.
 - Industrial controls: Ladder logic, push-buttons, relays, PLCs.
 - Protection devices: Fuses and circuit breakers.
-
-## BCIT Policy
-Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
-
 Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Ron Stewart, Instructor September 04, 2024
-
 I verify that this course outline has been reviewed. Kathy Manson, Program Head September 05, 2024
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean September 06, 2024
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

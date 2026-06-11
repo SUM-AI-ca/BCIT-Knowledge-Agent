@@ -1,0 +1,150 @@
+URL: https://www.bcit.ca/outlines/20251077594/
+Course: MATH 2403
+Field: Statistics for Building
+Subject: Mathematics
+Term: 202510
+CRN: 77594
+
+================================================================================
+
+## Course Outline
+## MATH 2403
+## Statistics for Building
+School | School of Construction and the Environment
+Program | Architectural and Building Technology
+Course Credits | 3.5
+Minimum Passing Grade | 50%
+Start Date | January 06, 2025
+End Date | April 25, 2025
+Total Hours* | 48
+Total Weeks | 16
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | Program admission
+CRN | 77594
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Paul Rozman
+E-mail | Paul_Rozman@bcit.ca
+Location | SW2-229 or Online appointment
+Office Hours | Will be posted in the Learning Hub.
+### Course Description
+Descriptive statistics, including measures of central tendency and dispersion, and graphical presentation of data. Basic probability techniques, binomial and normal probability distributions. Inferential statistics, including large and small sample estimation and hypothesis testing with an introduction to experimental design, linear correlation and regression, and acceptance sampling in an applied setting.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Prepare a complete statistical description of relevant sampled data including the calculation of appropriate measures of central tendency and variation and the construction of a histogram using both calculator functions and computer software.
+- Use the problem-solving strategies of Pareto and cause and effect (CE, fishbone) diagrams to focus process improvement efforts.
+- Compute and understand the meaning of: mean, median, range, standard deviation, variance, and standard t and z scores.
+- Solve problems requiring the basic rules of probability including the addition and multiplicative laws.
+- Distinguish between discrete and continuous probability distribution models.
+- Solve relevant problems using the binomial and normal probability distributions.
+- Estimate with confidence intervals for population parameters (means, difference between means, difference between proportions) using large (using z-scores) and small samples (using Students).
+- Specify and validate appropriate methods of sampling and experimental design (e.g., random vs. non-random sampling, paired differences testing, etc.)
+- Formulate and test hypotheses for means, proportions, differences between means and proportions, paired differences for large and small samples.
+- Construct an operating characteristic curve (OC) for a given sample size and acceptance number.
+- Distinguish between Type I and Type II errors and related ? and ?-risks in the context of hypothesis testing and acceptance sampling.
+- Apply principles of linear correlations and regression and determine correlation coefficients using experimental data.
+### Learning Resources
+Textbook: None. Notes and lab activities to be provided by the instructor
+Computer: You will need a computer with speakers (or headphones), a microphone, and a webcam for this course. (Most laptops have all of these built in.)
+Software: You will need Microsoft Excel thoughout the course for lab assignments, quizzes and exams. https://kb.bcit.ca/student/microsoft-office-365-access-information-2136/
+Calculator: Scientific calculator with 2-variable statistical functions. Sharp EL-520W
+### Course Goals
+The goals of this course are to:
+- explain the underlying principles, concepts and terminology of descriptive and inferential statistics,
+- demonstrate the application of these concepts using real data and/or referencing relevant industry publications whenever possible,
+- develop fluency with statistical calculator functions and statistical software
+- develop critical analysis and written presentation skills
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 15% | ~15 units at ~1% each
+Assignments/Labs | 15% | ~15 units at ~1% each
+Midterm Exam | 30%
+Final Exam | 40% | Final exam is comprehensive
+Total | 100% | Minimum passing grade is 50%
+### Statement for prior learning assessment
+Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Dept. taking into account all of the following:
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+### Course Schedule and Assignments
+There are weekly instructions reminding students to complete tasks such as: lab tutorials, assignments, and quizzes.
+Instructions will be posted in the course Learning Hub News Feed.
+A tentative schedule is given below that is subject to change with notice to the students.
+Week | Main Lecture Topics | Lab | Quiz
+1 | Introduction to Descriptive Statistics | Excel Tutorial on Basic Statistical Plots | No Quiz
+2 | Central Tenency, Variation | Excel Descriptive Stats, Problem Set 1 | Week 2 Quiz
+3 | Percentiles, Z-scores, Empirical Rule | Excel Histograms, Problem Set 2 | Week 3 Quiz
+4 | Abuses of Stats, Intro to Probability | Problem Sets 1 - 3 | Week 4 Quiz
+5 | Probability | Conditional Probabiity Tutorial, Problem Set 3 | Week 5 Quiz
+6 | Reliability, Discrete Distributions | Reliability Lab, Problem Set 4 | Week 6 Quiz
+7 | Binomial Distribution | Excel Binomial Distribution Lab, Problem Set 4 | Week 7 Quiz
+8 | Continuous Distributions | Excel Normal Distribution Lab, Problem Set 5 | Week 8 Quiz
+9 | Midterm Exam | Central Limit Theorem, Porblem Set 6 | No Quiz
+10 | Confidence Intervals for the Mean | Normality Lab Tutorial, Problem Set 6 | Week 10 Quiz
+11 | Spring Break
+12 | Confidence Intervals for Proportions | Excel Confidence Interval Lab, Problem Set 6 | Week 12 Quiz
+13 | Hypothesis Testing | Problem Set 7 | Week 13 Quiz
+14 | Hypothsis Testing | Hypothesis Testing in Excel Lab, Problem Set 8 | Week 14 Quiz
+15 | Linear Regression and Correlation | Regression in Excel Lab, Problem Set 9 | Week 15 Quiz
+16 | Final Exam
+### Course topics
+Unit 1: Descriptive Statistics (week 1-3)
+- Measures of central tendency
+- Measures of variation including standard deviation and CV
+- Frequency distributions
+- Chebyshev's Theorem and the Empirical Rule
+- Histograms,frequency distributions, Pareto analysis
+- Statistical functions in Excel and Calculators Applications
+Unit 2: Probability Theory (week 4 and 5)
+- Basic probability rules
+- Applications of addition and multiplication laws to sampling
+- Introduction to reliability
+Unit 3: Discrete Probability Distributions (week 6)
+- General discrete probability distributions
+- Binomial probability distribution
+- Sampling applications
+- Discrete versus continuous probability distributions
+Unit 4: Continuous Probability Distributions (week 7 and 8)
+- Continuous random variables
+- Normal probability distribution
+- t-distribution
+Unit 5: Sampling Distributions (week 9 and 10)
+- Central Limit Theorem
+- Distribution of sample means
+Unit 6-7: Inferential Statistics (week 11 - 14)
+- Point and interval estimates for single means and proportions
+- Hypothesis testing for single means and proportions
+- Confidence intervals and hypothesis tests for difference of means and difference of proportions
+Unit 8: Curve Fitting (week 15)
+- Correlation
+- Regression
+- Introduction to multiple linear regression
+Unit 9: Control Charts and Sampling Principles (week 15 or time permitting)
+- Acceptance Sampling
+- General theory of control charts
+- Variable charts (x-bar, R or s charts)
+- Attribute charts (p or c charts)
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Paul Rozman, Instructor December 14, 2024
+I verify that this course outline has been reviewed. David Holloway, Program Head December 18, 2024
+I verify that this course outline has been reviewed. Esti Jacobs, Program Head December 21, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean December 21, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

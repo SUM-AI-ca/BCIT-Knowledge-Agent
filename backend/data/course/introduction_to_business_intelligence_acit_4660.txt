@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/introduction-to-business-intelligence-acit-4660/
+Title: Introduction to Business Intelligence ACIT 4660
+Type: Course
+Course Code: ACIT 4660
+
+================================================================================
+
+## Introduction to Business Intelligence ACIT 4660
+Computer Information Technology Course
+## Course Overview
+Business analytics has become a leading source of creating competitive advantages for companies. It is important for companies to be able to understand and analyze the data they collect on their customer and competitors. Instructors would train students to use BI tools such as Microsoft SQL Server Integration Services, (SSIS) SQL Server Analysis Services (SSAS), and SQL Server Reporting Services (SSRS). This course covers the topics of data integration, data quality, data aggregation, big data, data optimization, OLAP, predicative analytics, and data visualization.
+### Prerequisite(s)
+- MATH 1350 and ACIT 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the role business intelligence plays in organizations.
+- Install and configure SQL Server Integration Services (SSIS).
+- Use SSIS development studio to develop SSIS packages.
+- Execute packages.
+- Deploy SSIS packages.
+- Run packages from SQL Server.
+- Manage heterogeneous data.
+- Use the extract, transform, and load functions of SSIS.
+- Utilize basic SSIS objects.
+- Perform data migrations.
+- Perform transforms, profiling, combining and splitting of data.
+- Design reports.
+- Sort, group, and summarize data.
+- Format data.
+- Use basic formulas and charting.
+- Export data in variety of formats.
+Effective as of Winter 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

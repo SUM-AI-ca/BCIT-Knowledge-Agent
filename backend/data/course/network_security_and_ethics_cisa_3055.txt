@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/network-security-and-ethics-cisa-3055/
+Title: Network Security and Ethics CISA 3055
+Type: Course
+Course Code: CISA 3055
+
+================================================================================
+
+## Network Security and Ethics CISA 3055
+Computer Info Systems Admin Course
+## Course Overview
+Students will learn the basic skills necessary to install, troubleshoot and monitor network devices that maintain integrity, confidentiality and availability of data and devices in a computer network. Students discuss network security policy and how it affects the operation of computer networks. Students will learn to perform basic tasks to secure a computer network using software security features available through Web-based GUIs and the command-line interface (CLI) on routers and switches. Discussions on the fundamentals of encryption and Public Key Infrastructure (PKI) provide the background for students to configure and implement secure Virtual Private Network (VPN) communications connections. Students will be introduced to key regulations in Canada and North America as they relate to enterprise information technology. Students will research current codes of ethics and apply these as an integral part of their lab assignments.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe fundamental network security concepts
+- Describe and evaluate network attack methodology
+- Develop a network security policy to counter threats against information systems security
+- Configure routers with router operating system software security features
+- Configure a zone-based firewall to perform basic security operations on a network
+- Implement AAA (Authentication, Authorization and Accounting) on routers using local router database and external access control services
+- Plan and configure site-to-site VPNs
+- Describe and activate Intrusion Prevention Systems (IPS) on network routers
+- Configure security features on switches to mitigate various Layer 2 attacks
+- Implement secure network management and reporting
+- Discuss key concepts of ethical and legal requirements as related to network security
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

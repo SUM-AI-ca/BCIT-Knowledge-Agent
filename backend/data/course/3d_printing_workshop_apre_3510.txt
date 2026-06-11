@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/3d-printing-workshop-apre-3510/
+Title: 3D Printing Workshop APRE 3510
+Type: Course
+Course Code: APRE 3510
+
+================================================================================
+
+## 3D Printing Workshop APRE 3510
+Applied Research Course
+## Course Overview
+​This course provides a hands-on opportunity to embark on a journey into the world of 3D printing. Through a structured workflow, going through pre-processing, printing and post-processing, individuals navigate the 3D printing process, beginning with the identification of key components of a printer and the understanding of its fundamental elements, such as the role of the "slicer." Central to the 3D printing workflow is the utilization of slicing software, aptly named the "slicer," which translates digital designs into printable instructions. Within this digital workspace, users adeptly navigate settings to optimize material usage and load 3D models for fabrication. This phase underscores the significance of correct positioning, orientation, and scaling, ensuring precise execution of designs. Simultaneously, users delve into the intricacies of print parameter settings, balancing factors like quality, strength, supports, and build plate adhesion to achieve desired outcomes. These meticulous adjustments culminate in the generation of G-Code, the language of 3D printing, which, when translated, orchestrates the printer's movements during fabrication. Beyond the digital realm, the post-printing process ushers in a series of refinements to transform raw prints into refined, polished final products. Armed with support removal tools, practitioners remove structural scaffolding, paving the way for smooth, visually appealing surfaces. Sanding, smoothing, and polishing techniques further refine the prints, readying them for the transformative touch of priming and painting. This holistic approach to 3D printing encapsulates not only the technical prowess required for fabrication but also the artistic finesse necessary to bring creations to life, culminating in the submission of final, meticulously crafted pieces, each a testament to the convergence of technology and creativity.​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the value and applications of 3D printed parts.
+- Identify the key components of a 3D printer and the 3D printing workflow.
+- Explain the purpose and main features of a slicer in 3D printing.
+- Compare the impact of nozzle size and layer height on print quality.
+- Select appropriate 3D printer and nozzle settings for specific projects.
+- Navigate and utilize the Bambu slicer workspace, including loading and positioning models.
+- Describe the importance and techniques for correct positioning, orientation, and scaling of 3D models.
+- Adjust print parameter settings for quality, strength, supports, and build plate adhesion.
+- Slice a 3D model, analyze slicing results, and prepare G-Code for printing.
+- Describe and apply best practices for post-processing, including support removal, sanding, smoothing, priming, and painting.​
+Effective as of Fall 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

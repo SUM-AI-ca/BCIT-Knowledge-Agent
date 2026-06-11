@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/mechatronic-control-of-pneumatic-systems-fpwr-3050/
+Title: Mechatronic Control of Pneumatic Systems FPWR 3050
+Type: Course
+Course Code: FPWR 3050
+
+================================================================================
+
+## Mechatronic Control of Pneumatic Systems FPWR 3050
+Fluid Power Course
+## Course Overview
+Introduces electronic sensors and controllers for industrial pneumatic systems. Typical proximity sensors and programmable logic controllers (PLC) are used to control and automate pneumatic circuits with electro-pneumatic and servo/proportional pneumatic valves. Examples of applications are examined and control circuits are developed, constructed and commissioned in practical exercises.
+### Prerequisite(s)
+- FPWR 2050
+### Credits
+2.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Discuss the safety considerations for typical automated industrial pneumatic systems.
+- Describe typical electronic sensors that are used in industrial pneumatic systems.
+- Select an appropriate controller for pneumatic systems by considering pneumatic only, hard-wired electrical, and electronic programmable methods.
+- Describe basic operation of a PLC and its uses in industrial control of machines and processes.
+- Program a PLC to control industrial pneumatic systems using sequencing, timers, and counters.
+- Describe the operating principles of pneumatic servo/proportional valves.
+- Develop, test, and troubleshoot selected pneumatic circuits with PLCs, solenoid valves, and servo/proportional valves.
+Effective as of Spring/Summer 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/collaboration-and-content-management-systems-administration-acit-4650/
+Title: Collaboration and Content Management Systems Administration ACIT 4650
+Type: Course
+Course Code: ACIT 4650
+
+================================================================================
+
+## Collaboration and Content Management Systems Administration ACIT 4650
+Computer Information Technology Course
+## Course Overview
+The use of content management systems has expanded in the workplace. Collaboration, workflow, and content management systems (CMS) include mainstream products, such as Microsoft SharePoint, and open-source products like DotNetNuke and Drupal. This course would focus in the design, installation and configuration of CMSs. Students would be able to leverage many of the skills acquired from ACIT 1640 (Human Computer Interaction), ACIT 1620 (Fundamental Web Technologies), and ACIT 2520 (Developing Web Applications) to create complex CMS environments for corporations.
+### Prerequisite(s)
+- ACIT 2515 and ACIT 2520 and ACIT 1640
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the purposes and uses of CMSs in the corporate environment.
+- Identify the top five CMS products in the marketplace.
+- List the advantages and disadvantages of the top five CMS products.
+- Deploy CMS systems to the Azure Cloud platform.
+- Manage Microsoft SharePoint from PowerShell scripts.
+- Install and configure DotNetNuke, Drupal, and Microsoft SharePoint.
+- Describe the underlying information architecture of a CMS.
+- Design content access structures for a CMS.
+- Understand the benefits of workflow.
+- Distinguish between Microsoft SharePoint Server-side & Client-side Object models.
+- Develop and Customize SharePoint Web Parts using C#.
+- Create and customize SharePoint Lists and Document Libraries.
+- Configure permission levels for CMS authoring.
+- Design, develop, and deploy a CMS portal for a fictitious company.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

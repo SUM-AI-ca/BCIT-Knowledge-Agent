@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/digital-electronics-bmet-2215/
+Title: Digital Electronics BMET 2215
+Type: Course
+Course Code: BMET 2215
+
+================================================================================
+
+## Digital Electronics BMET 2215
+Biomedical Engineering Course
+## Course Overview
+Introduces the principles and techniques of modern digital systems. Major topics covered include: number systems, logic elements and equations, combinational logic circuits, flip-flop circuits and sequential logic devices counters, digital arithmetic circuits, memory devices, integrated-circuit logic families and interfacing techniques. Each topic is reinforced by practical applications examined in the laboratory section of the course.
+### Prerequisite(s)
+- MATH 1781 and BMET 2200 ** (** must be taken concurrently unless prior credit is granted)
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Develop and simplify logic equations using truth tables, Boolean identities and Karnaugh Maps.
+- Implement logic equations using TTL and/or CMOS digital gates.
+- Describe, by means of truth tables, logic equations or state diagrams the operation of the following MSI circuits: flip-flops, counters, MMV’s, shift registers, adders.
+- Design logic circuits including: combinatorial logic, counters, sequencers, shift registers, half and full adders, scanners, etc.
+- Describe the construction and operation of basic semiconductor memory devices and programmable logic devices.
+- Describe the hardware organization within a typical computer including control unit, memory unit, buses and I/O devices.
+- Read and understand digital IC terminology as specified in the manufacturer's data sheet.
+- Quote and implement various considerations that need to be observed when interfacing digital circuits from different logic families.
+- Demonstrate in the laboratory the ability to assemble, test and trouble-shoot various digital circuits.
+- Use computer simulation software to design and evaluate simple digital circuits.
+Effective as of Winter 2020
+## Related Programs
+Digital Electronics (BMET 2215) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Health Sciences
+- Biomedical Engineering Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

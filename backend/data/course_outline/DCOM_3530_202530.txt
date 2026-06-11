@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20253051010/
+URL: https://www.bcit.ca/outlines/20253051004/
 Course: DCOM 3530
 Field: Navigation and Location
+Subject: Digital Comm & Wireless Tech
+Term: 202530
+CRN: 51004
 
-School: School of Energy
-Program: Digital Communications and Wireless Technologies
-Course Credits: 6
-Minimum Passing Grade: 60%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 90
-Total Weeks: 15
-Hours/Weeks: 6
-Delivery Type: Lecture/Lab
-Prerequisite(s): 60% in DCOM 2510
-CRN: 51010
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## DCOM 3530
+## Navigation and Location
+School | School of Energy
+Program | Digital Communications and Wireless Technologies
+Course Credits | 6
+Minimum Passing Grade | 60%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 90
+Total Weeks | 15
+Hours/Weeks | 6
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 60% in DCOM 2510
+CRN | 51004
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: David Hogg
-E-mail: Dave_Hogg@bcit.ca
-Location: NE25-206B
-Office Hours: 8 am-2:30 pm Mon to Fri
-
-## Course Description
+### Instructor Details
+Name | David Hogg
+E-mail | Dave_Hogg@bcit.ca
+Location | NE25-206B
+Office Hours | 8 am-2:30 pm Mon to Fri
+### Course Description
 ​In this course, students will explore microwave theory concepts and device applications. The applications of microwave communications within the navigation industry are examined. As the course focuses on the integration of basic land and marine navigation systems in use today, navigation principles , navigational terms, Global Positioning System (GPS) and associated technologies will be covered. Marine navigational information systems will be examined, including Automatic Identification System (AIS), Global Maritime Distress Safety System (GMDSS), and search and rescue (SARS) systems. Tracking and location systems such as Automatic Vehicle Location (AVL) will be investigated.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Explain how microwave devices operate and their applications.
 - Discuss the creation/propagation of microwave frequencies used in point-to-point and SATCOM RF links.
 - Explain the operating principles of waveguide, dish antennas, microwave devices and microwave transceivers.
@@ -41,66 +44,50 @@ Upon successful completion of this course, the student will be able to:
 - Explain the operations of the satellites, ground stations and subscriber units in the GPS system.
 - Explain the operation of tracking and location systems used on land and at sea.
 - Explain the operations of the maritime GDMSS emergency response system and SAR location technologies.​
-
-## Learning Resources
+### Learning Resources
 Gary Miller, Jeffery Beasley and Jonathan Hymers, Electronic Communications: A Systems Approach
-
 Lab handouts will be provided in class
-
-## Evaluation Criteria
-Criteria: %: Comments
-Exams (2): 65
-Labs: 20
-Assignments: 15
-Total: 100
-
-## Attendance Requirements
+### Evaluation Criteria
+Criteria | % | Comments
+Exams (2) | 65
+Labs | 20
+Assignments | 15
+Total | 100
+### Attendance Requirements
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-## Course Schedule and Assignments
-Week 1 DCOM 3530: Day 1: DCOM 3520 - Intro SHF and Freq bands -- Micro site basics and devices: - LNA’s - Noise Power NR & NF - Free Space Path Loss - SHF RF Path calculations - Terrestrial Link Budget lab Ex 2
-2: Statutory Holiday
-3: - SHF High Power Amps and SHF Generators - Intro to SHF Semi-conductor devices: - Intro to SHF Semi-conductor devices - Overview of Alcatel 9500-MCX & lab demo
-4: - SHF Semiconductors continued - Review point-to-point RF Link calculations: FHSS labs & Microwave labs
-5: - In-class Microwave Link Cal. Lab: FHSS labs & Microwave labs
-Week 2: Day 1: - Telecomm applications for satellites - EIRP & footprint & Az/El calculations - Sat Comm Link Budgets: Sat Comm Link Budgets FHSS labs & Microwave labs
-2: - Introduction to Radar - Principles of radar operation - Doppler radar - Return Pulse signal strength cal.: - Radar theory and calculations - FHSS labs & Microwave labs
-3: - Block Diagram Pulsed Radar - PAT radar & POT radar - Digital Radar - Weather Radar: - Weather Radar Calculations Lab - FHSS labs & Microwave labs
-4: Exam 1 Intro to Microwave, Sat Comm, & Radar Basics -Intro to GNSS and Navstar: - Intro to Navigational Terms
-5: - Overview of Aircraft Navigation Beacons and Direction Nav Aids - Intro to GPS (Navstar) basic concepts: - Part A: Space Segment. Nav Msg -GPS Atomic Time & SV’s and GPS positional accuracy
-
-Week 3: Day 1: - Nav Message and updates - RF L-Band Signals - Rx signal strength of GPS signals - Block III upgrades: - Part B Ground Segment & Sites - Part C User Segment
-2: - GPS Augmentation WAAS - Cellular Augmented GPS - Brief Intro Galileo satellite system: NEMA-0183 Nav Message Lab
-3: - Intro to Marine Navigation - Intro to Gyroscopes - Intro to AIS: - AIS Lab
-4: - GMDSS and subsystem operations - ECDIS: - Class Navigation presentations
-5: Exam 2 Navigation, AIS, GMDSS, ECDIS: - Class Navigation presentations
-
-## BCIT Policy
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+### Course Schedule and Assignments
+Week 1 DCOM 3530 | Day 1 | DCOM 3520 - Intro SHF and Freq bands -- Micro site basics and devices | - LNA’s - Noise Power NR & NF - Free Space Path Loss - SHF RF Path calculations - Terrestrial Link Budget lab Ex 2
+2 | Statutory Holiday
+3 | - SHF High Power Amps and SHF Generators - Intro to SHF Semi-conductor devices | - Intro to SHF Semi-conductor devices - Overview of Alcatel 9500-MCX & lab demo
+4 | - SHF Semiconductors continued - Review point-to-point RF Link calculations | FHSS labs & Microwave labs
+5 | - In-class Microwave Link Cal. Lab | FHSS labs & Microwave labs
+Week 2 | Day 1 | - Telecomm applications for satellites - EIRP & footprint & Az/El calculations - Sat Comm Link Budgets | Sat Comm Link Budgets FHSS labs & Microwave labs
+2 | - Introduction to Radar - Principles of radar operation - Doppler radar - Return Pulse signal strength cal. | - Radar theory and calculations - FHSS labs & Microwave labs
+3 | - Block Diagram Pulsed Radar - PAT radar & POT radar - Digital Radar - Weather Radar | - Weather Radar Calculations Lab - FHSS labs & Microwave labs
+4 | Exam 1 Intro to Microwave, Sat Comm, & Radar Basics -Intro to GNSS and Navstar | - Intro to Navigational Terms
+5 | - Overview of Aircraft Navigation Beacons and Direction Nav Aids - Intro to GPS (Navstar) basic concepts | - Part A: Space Segment. Nav Msg -GPS Atomic Time & SV’s and GPS positional accuracy
+Week 3 | Day 1 | - Nav Message and updates - RF L-Band Signals - Rx signal strength of GPS signals - Block III upgrades | - Part B Ground Segment & Sites - Part C User Segment
+2 | - GPS Augmentation WAAS - Cellular Augmented GPS - Brief Intro Galileo satellite system | NEMA-0183 Nav Message Lab
+3 | - Intro to Marine Navigation - Intro to Gyroscopes - Intro to AIS | - AIS Lab
+4 | - GMDSS and subsystem operations - ECDIS | - Class Navigation presentations
+5 | Exam 2 Navigation, AIS, GMDSS, ECDIS | - Class Navigation presentations
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. David Hogg, Department Head September 05, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 09, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

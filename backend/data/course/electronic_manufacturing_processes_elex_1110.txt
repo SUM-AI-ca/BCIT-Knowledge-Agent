@@ -1,0 +1,65 @@
+URL: https://www.bcit.ca/courses/electronic-manufacturing-processes-elex-1110/
+Title: Electronic Manufacturing Processes ELEX 1110
+Type: Course
+Course Code: ELEX 1110
+
+================================================================================
+
+## Electronic Manufacturing Processes ELEX 1110
+Electrical and Computer Engineering Course
+## Course Overview
+Through the design and manufacturing processes of building a DC Power Supply, students learn the skills required to design and fabricate single-sided printed circuit boards, perform high reliability soldering and desoldering, wire and assemble electronic components and apply sheet metal hole making techniques. Upon successful completion, the student will be able to demonstrate a good understanding of the processes used in the manufacturing of electronic equipment, including: printed circuit fabrication, panel design, metal work, electronic drafting conventions, tools and techniques used in electronic assembly, and high reliability soldering requirements.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+THE DESIGN PROCESS
+- Design and organize a project to produce a product.
+- Identify requirements and constraints on a product with respect to inputs, outputs, controls, instrumentation, by products and safety.
+- Identify and select components for the product that are readily available, giving preference to those which are available from more than one manufacturer.
+- Identify component mounting and spacing requirements.
+- Plan a product to meet all these requirements, using accepted (simplified) design principles for structural integrity, ergonomic form and function and heat dissipation.
+- Use AutoCAD to create an orthographic layout that will reflect industry accepted drafting standards.
+PRINTED-CIRCUIT DESIGN
+- The student will be introduced to the process of designing PRINTED-CIRCUIT ARTWORK using TraxMaker, a PCB (Printed Circuit Board) software package.
+- Determine conductor width and spacing based on circuit requirement and environment.
+- Explain and design one single-sided printed-circuit layout.
+- Produce a computer-generated PCB with consideration to factors of component placement and run density.
+PRINTED-CIRCUIT FABRICATION
+- The student will be shown how to operate etching equipment used in the small-scale prototype production of printed-circuit boards.
+- Be able to identify the parts and materials used to transfer the PCB image..
+- Learn the operation of the etching process and equipment.
+- Specify drill bit sizes and properly use circuit-board drilling equipment.
+- Understand the environmental and biological hazards of a printed-circuit facility and apply appropriate safe handling practices.
+PACKAGE FABRICATION
+- House the PCB based on the student's own design and a pre-selected aluminium box.
+- Apply sheet metal layout procedures.
+- Apply sheet metal drilling and punching procedures to prepare the enclosure.
+- Respect and apply safe practices in a workshop environment.
+SOLDERING PRINCIPLES AND APPLICATIONS
+- Use soldering to make effective and lasting electrical and mechanical joints between components, wires and circuit-boards.
+- Use soldering tools and materials appropriate to the electronics industry.
+- Attain the skills to produce high-reliability (Hi-Rel) soldered connections.
+- Apply de-soldering tools and techniques.
+- Perform component leads in the standard manner for printed-circuit board insertion.
+- Attain basic understanding and skill required for removal and installation of surface mount components.
+- Make a set of leads that will be used with the power supply output jacks to power-up external circuitry.
+ASSEMBLY TECHNIQUES AND WIRING PRACTICES
+- Apply fastening techniques using appropriate selections and sizes of fastening hardware.
+- Identify the various types of fastening hardware including machine screws self-tapping screws, flat-washers, lockwashers and nuts.
+- Apply wiring and harness techniques that will produce solid connections, continuous insulation and secure bundling and mounting of chassis interconnections.
+- Analyze and troubleshoot basic operational problems.
+ELECTRICAL POWER: INTRODUCTION
+- The student will be introduced to Electrical Power and the electrical components that make up a power supply.
+- Become familiar with the practical differences between AC (utility) and DC power.
+- Understand the practical need for power supplies as conversion devices.
+- Learn the fundamental electrical components, their IEEE/ANSI symbols, and labelling formats.
+THE DOCUMENTATION
+- Produce a final report containing the appropriate engineering documentation.
+- Maintain a file of up-to-date engineering documentation including schematic & wiring diagrams, chassis orthogonal-view drawing, printed-circuit trace layouts, component layouts and drill charts, bills of materials.
+- Recognize the critical need to revise promptly any documentation affected by changes.
+Effective as of Fall 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

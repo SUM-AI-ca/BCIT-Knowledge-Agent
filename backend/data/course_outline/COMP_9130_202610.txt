@@ -1,0 +1,160 @@
+URL: https://www.bcit.ca/outlines/20261093032/
+Course: COMP 9130
+Field: Applied Artificial Intelligence
+Subject: Computer Systems
+Term: 202610
+CRN: 93032
+
+================================================================================
+
+## Course Outline
+## COMP 9130
+## Applied Artificial Intelligence
+School | School of Computing and Academic Studies
+Program | Master of Science in Applied Computing
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | January 05, 2026
+End Date | April 17, 2026
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Other
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 93032
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Michal Aibin
+E-mail | maibin@bcit.ca
+Location | SW02-113 (BBY)
+Office Hours | Announced in class
+### Course Description
+​This course introduces student to concepts, topics, issues, and methodologies related to Artificial Intelligence. Students will develop the skills required to evaluate, design, develop and improve Artificial Intelligence (AI) algorithms through hands-on projects and problem solving. Participants are expected to develop a portfolio of Al projects during this course.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain representations, algorithms, and techniques used in artificial intelligence.
+- Apply/evaluate and design new AI techniques for a given computing problem.
+- Articulate the basic processes that a machine learning agent must perform – from perceiving its environment to making decisions on how to act and perform those actions.
+- Apply machine learning techniques, in particular to draw inferences from data and help automate the development of AI systems and components.
+- Design, implement and test the AI-based software.
+- Work productively as a member of a team in an applied computing setting.
+### Learning Resources
+- Google Colab (free cloud-based Jupyter environment) - https://colab.research.google.com/
+- GitHub account for version control and project hosting - https://github.com/
+- Python 3.8+ with libraries: NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow/Keras, PyTorch (optional)
+- TensorFlow Documentation - https://www.tensorflow.org/
+- Keras Documentation - https://keras.io/
+- Hugging Face Documentation - https://huggingface.co/docs
+- OpenAI Gym Documentation - https://gymnasium.farama.org/
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning . MIT Press. Available online: https://www.deeplearningbook.org/
+- Sutton, R. S., & Barto, A. G. (2018). Reinforcement Learning: An Introduction (2nd ed.). MIT Press. Available online: https://incompleteideas.net/book/the-book.html
+- Prince, S. J. D. (2023). Understanding Deep Learning . MIT Press. Available online: https://udlbook.github.io/udlbook/
+- Course-specific GitHub repository with starter code, datasets, and examples (provided by instructor)
+- Recorded class preparation videos (available on Learning Hub)
+- Weekly cheatsheets and quick reference guides
+- Curated dataset repository and project examples
+### Course Goals
+This course aims to provide students with comprehensive, hands-on experience in modern artificial intelligence techniques and their practical applications. Through a combination of weekly class preparation materials and intensive classroom activities, students will progress from foundational machine learning concepts through advanced deep learning applications.
+The course emphasizes computer vision as a primary application domain, with substantial coverage of convolutional neural networks, transfer learning, object detection, and semantic segmentation. Students will gain experience with state-of-the-art AI frameworks and tools, learning to select appropriate techniques for specific problems, implement solutions effectively, and evaluate results rigorously.
+Working consistently in pairs, students will develop collaborative skills essential for professional AI development while building a comprehensive portfolio demonstrating mastery across multiple AI domains. The capstone project provides an opportunity to integrate learned techniques in addressing a substantial real-world problem, preparing students for AI leadership roles in industry or further academic research.
+### Evaluation Criteria
+Criteria | Points | % | Comments
+Participation (Weeks 2-11) | 200 | 20%
+Weekly Quizzes (10 × 5 points) | 50 | 5% | • Administered at the beginning of class • 5 questions on the previous week's material • Individual work, 10 minutes duration • Students arriving more than 15 minutes late cannot take the quiz
+In-Class Activities (10 × 15 points) | 150 | 15% | • Three tasks per week, each worth 5 points • Completed in rotating pairs • Must demonstrate completion to the instructor • Graded on functionality and understanding
+Mini Projects (10 × 40 points) | 400 | 40% | • Completed in rotating pairs (new partner each week) • Due one week after assignment • Deliverables: GitHub repository (15 pts), README (10 pts), Learning Hub report (15 pts) • Must demonstrate appropriate AI techniques, clean code, and thorough analysis
+Final Capstone Project | 400 | 40% | • Completed in groups of 3-4 students • Groups formed in Week 7
+Proposal | 50 | 5% | • Due Week 12 • Problem definition, methodology, timeline, team roles
+Implementation | 150 | 15% | • Due Week 15 • Working code, appropriate techniques, clean repository
+Technical Report | 100 | 10% | • Due Week 15 • 6-8 pages, IEEE format, comprehensive documentation
+Presentation & Demo | 100 | 10% | • Week 15 (Apr 16) • 20 minutes: 15 min presentation + 5 min Q&A • All group members must participate
+TOTAL | 1000 | 100% | • Passing grade for the course is 50% (500 points) • Late submissions are subject to a 10% penalty per day • Active participation expected in all classroom activities
+## Detailed Point Breakdown
+- Week 2-11 : 20 points per week Quiz: 5 points (individual) Task 1: 5 points (in pairs) Task 2: 5 points (in pairs) Task 3: 5 points (in pairs)
+- 10 projects × 40 points each GitHub Repository: 15 points README.md: 10 points Learning Hub Report: 15 points
+- Proposal : 50 points
+- Implementation : 150 points
+- Technical Report : 100 points
+- Presentation & Demo : 100 points
+### Attendance Requirements
+In addition to BCIT's Student Regulations Policy 5101 – Attendance Policy, the following course-specific requirements apply:
+- Classroom Activities (Weeks 2-11): Attendance is mandatory. Each week includes three graded tasks that must be completed during the 3-hour session. Students who miss a class forfeit the opportunity to earn those participation points unless prior arrangements are made with the instructor for documented medical or emergency reasons.
+- Quiz Administration (Weeks 2-11): Weekly quizzes are administered at the beginning of each class session. Students arriving more than 15 minutes late will not be permitted to write the quiz. Make-up quizzes are not available except in cases of documented medical emergencies or other exceptional circumstances approved by the instructor.
+- Pair Programming: Since all projects are completed in pairs, students are expected to coordinate with their partners and maintain consistent collaboration. If one partner is absent, the other should still attend and continue working on the project, documenting the work independently.
+- Final Project Presentations (Week 15): Attendance is mandatory for all final project presentations. All team members must be present to deliver their presentation. Absence from the presentation session will result in a grade of zero for the presentation component unless the instructor approves it in advance.
+- Communication: Students unable to attend class must notify the instructor as early as possible via email and provide appropriate documentation for absences exceeding one class session.
+### Course Specific Requirements
+- Mini projects (Weeks 2-11) are completed in pairs that are randomly assigned at the beginning of each class
+- New pairs are formed weekly to ensure students work with diverse partners
+- Both partners are expected to contribute equally during the 3-hour session
+- Each project README must include a section documenting individual contributions
+- Students should be prepared to work effectively with any classmate
+- In cases of team conflict during a session, students should contact the instructor immediately
+- Final capstone project (Weeks 12-15) is completed in groups of 3-4 students
+- Groups will be student-selected or instructor-assigned)
+- Groups remain consistent throughout the final project period
+- All group members are expected to contribute equally
+- Final project documentation must include a detailed breakdown of individual contributions
+- Group contracts and peer evaluations may be required
+- All projects must be submitted via GitHub with public repositories
+- Repositories must include proper .gitignore, README.md, and requirements.txt files
+- For mini projects: Both partners' names must be in the README with contribution details
+- For the final project: Commit history should demonstrate contributions from all group members
+- Code must be well-commented and follow Python style guidelines (PEP 8)
+- All coding activities will utilize Google Colab for consistency and accessibility
+- Students are responsible for saving their work and managing Colab sessions
+- Projects should include instructions for running code in the Colab environment
+- All project reports must be submitted through the Learning Hub by the specified deadline
+- Reports must be in PDF format
+- Mini projects file naming: COMP9130_ProjectX_LastName1_LastName2.pdf
+- Final project file naming: COMP9130_Final_GroupName.pdf
+- Late submissions are subject to a 10% penalty per day unless prior arrangement is made
+- Students are expected to write their own code and understand all implementations
+- While AI assistants (ChatGPT, GitHub Copilot, etc.) may be used for learning, students must be able to explain every line of code they submit
+- Direct copying of code from online sources without understanding and attribution is considered academic dishonesty
+- All external code sources must be properly cited in comments and documentation
+- Reliable internet connection for accessing Google Colab and participating in class
+- A personal computer capable of running modern web browsers
+- Webcam and microphone for potential remote presentations
+- No local GPU required (Colab provides free GPU access/possible access to Pro tier via BCIT resources)
+- Primary communication via BCIT email and Learning Hub announcements
+- Response time: Instructor will respond to emails within 24-48 hours (weekdays)
+### Course Schedule and Assignments
+##
+Week | Date | Material Covered | Readings | Assignment | Due Date
+1 | Jan 8 | Course introduction, environment setup, Python AI ecosystem | Géron Ch. 1-2 | None (setup week) | N/A
+2 | Jan 15 | Supervised Learning - Regression: Linear regression, gradient descent, feature engineering | Géron Ch. 4 | Mini Project 1: Regression Challenge | Jan 22
+3 | Jan 22 | Supervised Learning - Classification: Logistic regression, decision trees, SVMs, evaluation metrics | Géron Ch. 3 | Mini Project 2: Classification System | Jan 29
+4 | Jan 29 | Unsupervised Learning: Clustering, dimensionality reduction, anomaly detection | Géron Ch. 8-9 | Mini Project 3: Unsupervised Discovery | Feb 5
+5 | Feb 5 | Neural Networks Fundamentals: Architecture, backpropagation, optimization, regularization | Chollet Ch. 2-3 | Mini Project 4: Deep Learning Classifier | Feb 12
+6 | Feb 12 | Computer Vision I: CNN architecture, convolution, pooling, data augmentation | Chollet Ch. 8, Géron Ch. 14 | Mini Project 5: CNN Image Classifier | Feb 26
+7 | Feb 19 | READING WEEK - NO CLASS | — | Final Project Groups Formed | —
+8 | Feb 26 | Computer Vision II: Transfer learning, pre-trained models, fine-tuning strategies | Chollet Ch. 9 | Mini Project 6: Transfer Learning Application | Mar 5
+9 | Mar 5 | Computer Vision III: Object detection, YOLO, Faster R-CNN, evaluation metrics | Supplemental materials | Mini Project 7: Object Detection System | Mar 12
+10 | Mar 12 | Computer Vision IV: Semantic segmentation, U-Net, medical imaging applications | Supplemental materials | Mini Project 8: Image Segmentation | Mar 19
+11 | Mar 19 | Natural Language Processing: Transformers, BERT, GPT, Hugging Face, fine-tuning | Supplemental materials | Mini Project 9: Text Intelligence | Mar 26
+12 | Mar 26 | Reinforcement Learning: Q-learning, DQN, OpenAI Gym, policy optimization | Sutton & Barto Ch. 1, 6 | Mini Project 10: RL Agent Final Project Proposal | Apr 2
+13 | Apr 2 | Final Project Development Week 1: Deployment strategies, MLOps basics | Supplemental materials | Apr 2
+14 | Apr 9 | Final Project Development Week 2: Optimization, evaluation, documentation | Supplemental materials | Apr 9
+15 | Apr 16 | Final Project Presentations | — | Complete Working Prototype of a Project Presentation & Demo | Apr 16
+Week-by-week content might be adjusted in class. Please follow announcements in class.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Michal Aibin, Program Head December 08, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Aaron Hunter, Associate Dean December 09, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

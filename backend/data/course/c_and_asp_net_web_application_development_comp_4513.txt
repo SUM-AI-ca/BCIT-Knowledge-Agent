@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/c-and-asp-net-web-application-development-comp-4513/
+Title: C# and ASP.NET Web Application Development COMP 4513
+Type: Course
+Course Code: COMP 4513
+
+================================================================================
+
+## C# and ASP.NET Web Application Development COMP 4513
+Computer Systems Course
+## Course Overview
+This hands-on course introduces students to C# programming, the .NET platform, and web application development with ASP.NET. Building on prior experience with JavaScript, relational databases, and object-oriented programming, students will design and implement secure, full-stack web applications using modern .NET tools and practices. Topics include routing, API design, data access, authentication, unit testing, and deployment to the cloud. Students will also gain familiarity with ASP.NET architectural patterns, including MVC, Razor Pages, and Minimal APIs. Assignments and labs emphasize clean code, testability, and real-world development workflows. ​
+### Prerequisite(s)
+- COMP 2131 and COMP 2350 and COMP 2523 or COMP 2522
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Explain the .NET platform, including its major components (CLR, BCL) and modern .NET variations.
+- Build simple Console applications and reusable libraries (class libraries/DLLs) in C#.
+- Use .NET language and runtime features including LINQ, lambda expressions, extension methods, collections, and async/await.
+- Implement basic exception handling in C# applications to create robust code.
+- Read from and write to files, streams, and the filesystem in .NET applications.
+- Perform basic database operations using a .NET data access library (e.g., ADO.NET or Entity Framework).
+- Describe the structure and key architectural patterns of modern ASP.NET applications, including MVC, Razor Pages, and Web APIs.
+- Build web applications using modern ASP.NET frameworks and project structures.
+- Design and implement ASP.NET Web API endpoints.
+- Consume ASP.NET Web APIs from front-end JavaScript applications.
+- Register and resolve application services using ASP.NET’s built-in dependency injection system.
+- Apply authentication and authorization techniques to secure ASP.NET applications, as appropriate.
+- Write unit tests for managed C# code.
+- Explain when to use MVC, Razor Pages, or Minimal APIs in an ASP.NET application.
+- Deploy ASP.NET web applications to cloud platforms (e.g., Azure) using modern Continuous Integration and Deployment (CI/CD) practices.
+Effective as of Fall 2025
+## Related Programs
+C# and ASP.NET Web Application Development (COMP 4513) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/autocad-programming-aico-3020/
+Title: AutoCAD Programming AICO 3020
+Type: Course
+Course Code: AICO 3020
+
+================================================================================
+
+## AutoCAD Programming AICO 3020
+Computer Aided Design & Engineering Course
+## Course Overview
+This course introduces the AutoLISP, Visual LISP, and Visual Basic for Applications (VBA) programming interfaces that can be used to customize AutoCAD. Includes programming concepts, user defined commands and drawing automation.
+### Prerequisite(s)
+- AICO 2000 ( AICO 2020 recommended).
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Write code using AutoLISP and VBA programming techniques and procedures.
+- Interpret and edit existing AutoLISP and VBA programs.
+- Use the Visual LISP and VBA editor's tools to write, debug, and edit code.
+- Create pseudocode - concise statements that translate into working code.
+- Write structured code that is easy to read and edit.
+- Create programs that handle multiple decisions, what if scenarios, and branching operations.
+- Use Truth tables and Flow charts to evaluate the outcome of a conditional or branching program.
+- Perform error checking and error proofing of code, to make programs that operate correctly.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

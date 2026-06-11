@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/computer-organization-architecture-comp-2720/
+Title: Computer Organization/Architecture COMP 2720
+Type: Course
+Course Code: COMP 2720
+
+================================================================================
+
+## Computer Organization/Architecture COMP 2720
+Computer Systems Course
+## Course Overview
+Computer organization is a fundamental topic for computer science students and for any future programmers. The course gives a good understanding of the computer hardware and how software is built on a specific hardware. The computer is regarded as a hierarchy of levels, each one performing some well-defined functions from the device level (hardware) to the problem-oriented language level. Each level is discussed and analyzed in detail.
+### Prerequisite(s)
+- 50% in COMP 1510 and 50% in COMP 1113
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the basic concepts and terminology related to Computer Architecture and Organization.
+- Discuss and compare modern machine architectures.
+- Understand computer hardware.
+- Explain and describe the characteristics of CPU architectures currently in use.
+- Understand and explain each level of computer organization: digital logic level, microarchitecture level, instruction set architecture level and assembly language level.
+- Solve problems related to the design of each level.
+- Evaluate modern computers from the point of view of performance.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

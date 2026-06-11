@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/web-development-and-design-2-for-mac-comp-1951/
+Title: Web Development and Design 2 for Mac COMP 1951
+Type: Course
+Course Code: COMP 1951
+
+================================================================================
+
+## Web Development and Design 2 for Mac COMP 1951
+Computer Systems Course
+## Course Overview
+COMP 1951 is a special delivery of COMP 1950 designed for the Full-time Mobile App Tools Associate Certificate program. Students in this section must supply their own Mac notebook computer installed with the current OS X system and application software in order to participate. This hands-on course follows on from COMP 1850 Web Development and Design 1. Students who already understand HTML and CSS will explore web development in more depth with new topics and techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 and CSS3 for mobile web sites. There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites using JavaScript frameworks such as jQuery is introduced as well as building dynamic and semantically marked-up content with Search Engine Optimized (SEO) pages. Labs and exercises follow industry standard web development methods. Students will learn to create templates for content management systems for both on desk-tops and mobile devices. Additional topics will include: leveraging Server Side Includes (SSI) for re-usable code, source control for managing code and web-based fonts for professional typography. COMP 1951 may be used in place of COMP 1950 in the BCIT Computing “Applied Web Development” and “Web and Mobile Application Development” associate certificates. By the end of this course successful students will be prepared to move on to COMP 1952 JavaScript for Mobile App Tools and COMP 1953 Android and iOS Mobile App Tools.
+### Prerequisite(s)
+- COMP 1850 or equivalent knowledge of building web pages and web sites with HTML5, CSS3, plus the ability to use a Mac with the current OS X.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand basic web development methodology.
+- Employ Web Standards when building web sites for maximum compatibility.
+- Mark up pages using latest HTML5 technologies in a Mac environment.
+- Utilize CSS3 to control page layout and presentation.
+- Add behaviour to any web page using basic JavaScript.
+- Create dynamic content using JavaScript frameworks like jQuery.
+- Understand concepts for Search Engine Optimized content (SEO).
+- Implement Server Side Includes for efficient web development.
+- Create template-driven pages for use in Content Management systems.
+- Use media queries to create Responsive designs for mobile and desktop presentation.
+- Use HTML5 technologies to present rich content such as video, audio and geolocation.
+- Create professional looking typography using web-based fonts.
+- Understand source control using GIT.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

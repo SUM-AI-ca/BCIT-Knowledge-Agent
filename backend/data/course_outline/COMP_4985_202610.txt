@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/outlines/20261015509/
+Course: COMP 4985
+Field: Selected Topics in Data Communications/Internetworking
+Subject: Computer Systems
+Term: 202610
+CRN: 15509
+
+================================================================================
+
+## Course Outline
+## COMP 4985
+## Selected Topics in Data Communications/Internetworking
+School | School of Computing and Academic Studies
+Program | Computer Systems Technology (CST) Diploma
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in COMP 3522 and 50% in COMP 3721 and 50% in COMP 3980
+CRN | 15509
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | D'Arcy Smith
+E-mail | DArcy_D_Smith@bcit.ca
+Location | SW02-323
+Office Hours | By appointment
+### Course Description
+Covers advanced Windows Systems Programming for Data Communications. Develop TCP/IP Interneworking applications using the Windows Socket API. Develop Windows client-server models using Internet Protocol Suite. Design and implement Multimedia Communication Applications using the Internet Protocol Suite. Design and implementation of Mobile Network Applications on the Android platform.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Develop Client-Server models for the Windows environment using the TCP/IP protocol suite.
+- Implement advanced communications protocols under the Windows environment.
+- Design and implement TCP/IP and UDP/IP socket applications to transfer Multimedia content in a networked environment.
+- Design and develop highly specialized communications software within a project team.
+- Design and implement TCP/IP applications for mobile devices using the Android platform.
+- Implement code to communicate with built-in sensors on a mobile device such as GPS, NFC, and audio devices.
+### Learning Resources
+Notes will be provided.
+A POSIX-based operating system is required (Linux, FreeBSD, macOS)
+Various free software will be used.
+Recommended:
+- Linux Programming Interface - A Linux and UNIX System Programming Handbook, Michael Kerrisk, no starch press
+- Advanced Programming in the UNIX Environment, 3rd edition, W. Stevens, Stephen Rago, Addison-Wesley Professional
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 10% | (one at 10%)
+Project Milestone 1 | 10%
+Project Milestone 2 | 10%
+Project Milestone 3 | 10%
+Project Milestone 4 | 10%
+Project Documentation | 40%
+Exam | 10%
+*The project component of this course is an integral part of the course, and students are expected to participate fully in all aspects of the project. This includes planning, executing, and presenting the project. Students who do not actively participate in the project may fail the course. *Students must be able to demonstrate the work that they have completed for the project.
+### Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Course Specific Requirements
+Two or more computers running a POSIX-compatible operating system
+The project must make use of version control to track student contributions.
+Expectations for the course and the SE12-323 Lab .
+### Other information
+Recording in this course: Recording is not permitted by students unless required under Policy 4501 (Accommodation for Students with Disabilities). Where an approved accommodation includes recording, Accessibility Services will notify the instructor via the IAP. Any other use or sharing of recordings is not allowed beyond the original instructional purpose. Live online sessions may be recorded for instructional purposes. Students will be notified at the start of recorded sessions and may turn off camera/microphone if they do not wish to appear. Recordings are available only to this section on BCIT-approved platforms and used only for the original instructional purpose.
+### Course Schedule and Assignments
+Week Of | Topic | Assignment
+1 - Jan 6 | Text/Binary Protocols, Protocol Design | Protocol Design
+2 - Jan 13 | Prototyping
+3 - Jan 20 | Project Requirements, Milestone 1 Planning | Milestone 1
+4 - Jan 27 | Testing
+5 - Feb 3 | Debugging
+6 - Feb 10 | Milestone 1 Demo, Retrospective, Milestone 2 Planning | Milestone 2
+7 - Feb 17 | Project Work
+Feb 23-27 | Midterm Exam Week
+8 - Mar 3 | Milestone 2 Demo, Retrospective, Milestone 3 Planning | Milestone 3
+9 - Mar 10 | Project Work ( In-class Instructional Assessments Online)
+Mar 16-20 | Computing Reading Week
+10- Mar 24 | Milestone 3 Demo, Retrospective, Milestone 4 Planning | Milestone 4
+11- Mar 31 | Project Work
+12 - Apr 7 | Project Week
+Apr 13-17 | Study/Makeup/Review/Presentation Week | Final Presentation
+Apr 20-24 | Final Exam Week
+* Subject to change
+Student Surveys (Instructional Assessments Online) - You’ll complete an online survey near the end of this course to share feedback with your instructor. Surveys are anonymous, and results are released only after all final grades are submitted.
+How to Access - Look for an email around Week 10 sent to your myBCIT email with a link to your survey. Click the link and choose the correct course from the “Active Tasks” list.
+In-class time - Your instructor may provide 15 minutes of class time for completing the survey (individually).
+Troubleshooting - If you don’t receive the link or have issues, email bcit_feedback@bcit.ca before Week 11.
+Tip - Make sure the survey you complete matches both your course CRN and your instructor.
+Professionalism - Please provide honest, specific, and constructive feedback in your comments—your voice makes a difference.
+Questions? Contact PDS Coordinator: Kirsty Barclay-Estrup .
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. D'Arcy Smith, Instructor December 31, 2025
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

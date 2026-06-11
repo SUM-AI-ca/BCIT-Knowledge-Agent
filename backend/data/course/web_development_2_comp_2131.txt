@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/web-development-2-comp-2131/
+Title: Web Development 2 COMP 2131
+Type: Course
+Course Code: COMP 2131
+
+================================================================================
+
+## Web Development 2 COMP 2131
+Computer Systems Course
+## Course Overview
+This course continues from Web Development 1 and introduces the students to client-side programming with JavaScript. Students learn how to use JavaScript to make changes to pages; style, create animations, do form validation; and connect to a web server. Topics include JQuery, AJAX, event handling, validation constraints API, local storage, and the Document Object Model (DOM).
+### Prerequisite(s)
+- COMP 1171
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze JavaScript objects, functions, and arrays, and how they differ.
+- Construct code that handles custom validation constraints and generate custom messages.
+- Create JavaScript event handler code in order to respond to various event types.
+- Analyze the DOM and how to construct HTML via JavaScript.
+- Differentiate between the various different iterative and conditional control constructs in JavaScript.
+- Evaluate JQuery and how it applies to web development.
+- Create JQuery code that performs event handling.
+- Construct JQuery code that handles validation.
+- Create JQuery code that creates animation effects within a web page.
+- Describe the HTTP protocol and how it is used to deliver web content.
+- Create simple scripts that respond to AJAX GET and POST requests.
+- Use JSON to send and receive data - both from JavaScript as well as a server-side scripting language.
+- Create JQuery code that utilizes AJAX for sending and receiving JSON data.
+- Utilize JQuery in order to manipulate the DOM.
+- Utilize HTML 5 local storage.
+- Design JavaScript code that generates both HTML 5 and CSS 3.
+Effective as of Winter 2021
+## Related Programs
+Web Development 2 (COMP 2131) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

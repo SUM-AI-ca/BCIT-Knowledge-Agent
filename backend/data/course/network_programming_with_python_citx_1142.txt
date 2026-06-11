@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/network-programming-with-python-citx-1142/
+Title: Network Programming with Python CITX 1142
+Type: Course
+Course Code: CITX 1142
+
+================================================================================
+
+## Network Programming with Python CITX 1142
+Computer Information Technology Electronics Course
+## Course Overview
+This course is an introduction to computer programming terminology and concepts. Students will learn to write basic programs using variables, scope, control flow, functions, object-oriented language features, unit testing, error handling, HTTP serving, and how to use Python to automate network devices. Practical exercises provide students the exposure to computer programming and the ability to interpret programming code.
+### Prerequisite(s)
+- To participate in this course, students should be familiar with computers and have an understanding of how to use a text editor for programming.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Install the tools required to use an object-oriented programming language to create a program
+- Code within an Integrated Development Environment
+- Describe various data types including Strings, Integers, and Floats
+- Implement code to demonstrate list, set, tuples, conditionals, loops and Exceptions
+- Implement code to demonstrate functions and Modules
+- Implement code to work with objects and classes
+- Implement code to demonstrator regular expression
+- Implement network API with Python
+- Implement code to automate network devices
+- Use Python in different firewalls and routers for automations
+Effective as of Winter 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

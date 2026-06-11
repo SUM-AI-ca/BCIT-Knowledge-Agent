@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/introduction-to-operating-systems-comp-4736/
+Title: Introduction to Operating Systems COMP 4736
+Type: Course
+Course Code: COMP 4736
+
+================================================================================
+
+## Introduction to Operating Systems COMP 4736
+Computer Systems Course
+## Course Overview
+​This course introduces basic concepts in operating systems with a focus on using concurrent programming: processes and threads, inter-process communication (IPC), synchronization and mutual exclusion, deadlock and starvation with an introduction to memory organization. Supporting theory includes overall operating system structure, operating systems services, how these services are used, and kernel architecture. To illustrate the concepts, each topic includes examples of using these services in programs using an operating system. With the concepts learnt in this course, the students will be able to analyze existing concurrent solutions and design and implement concurrent software applications.​
+### Prerequisite(s)
+- 50% in COMP 2510 and 50% in COMP 2721
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the role of an operating system.​
+- Analyze how the operating system is structured (layers and components).
+- Describe the operating system interface (system calls, shells).
+- Use POSIX system calls in C.
+- Describe synchronization concepts such as mutual exclusion, critical sections, and race conditions.
+- Solve synchronization problems using constructs such as spinlocks, mutexes, semaphores, condition variables, and monitors.
+- Compare and contrast synchronization of threads with semaphores and monitors.
+- Discuss the consequences of concurrency: deadlock, starvation and livelock.
+- Describe how to prevent, avoid, detect and recover from deadlock.
+- Design and implement concurrent applications using processes and kernel-level and user-level threads.
+- Solve IPC problems by implementing applications using methods such as signaling, messages, pipes, and shared memory.​
+Effective as of Fall 2022
+## Related Programs
+Introduction to Operating Systems (COMP 4736) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/windows-phone-development-with-silverlight-comp-3971/
+Title: Windows Phone Development with Silverlight COMP 3971
+Type: Course
+Course Code: COMP 3971
+
+================================================================================
+
+## Windows Phone Development with Silverlight COMP 3971
+Computer Systems Course
+## Course Overview
+Microsoft Silverlight is a web application framework based on the Windows Presentation foundation, WPF. This hands-on course continues from COMP 2870 and is designed for students who already understand ASP and C#.NET. Students learn to use MS Silverlight in the first half of this course. Topics include: Silverlight programming model, XAML, Expression Blend, Shapes, Brushes, Media, Hosting Silverlight, Isolated Storage, Data Binding, WCF, RIA Services, Silverlight Toolkit Controls, Data Validation and Design Patterns. After learning about Silverlight, the second half of this course focuses on Microsoft Windows Phone application development and deployment. Hands-on labs and assignments use Visual Studio with C#, Expression Blend and the device emulator to build actual Windows Phone Applications and show students how to take their apps to the Microsoft marketplace. Successful participants will learn to design and build multi-screen Windows Phone applications that support multiple languages and cultures.
+### Prerequisite(s)
+- COMP 2870 or equivalent knowledge of ASP and C#.NET
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use Expression Blend to easily build rich UI for a Silverlight application.
+- Embed multimedia elements into Silverlight.
+- Send and receive data from a remote WCF service.
+- Install a Silverlight application on the IIS web server.
+- Develop business applications that use RIA services.
+- Store and retrieve data to/from isolated storage.
+- Utilize resources in your Silverlight application.
+- Understand the MVVM design pattern.
+- Work with the various Windows Phone Input Panels.
+- Build multi-screen Windows Phone applications.
+- Produce and Consume remote data on the Windows Phone using JSON, WCF and OData technologies.
+- Render video and audio files on the Windows Phone.
+- Interact with the built-in camera, contact list, telephone, email, etc.
+- Build your Windows Phone applications to support multiple languages and cultures.
+- Deploy your Windows Phone applications to the Microsoft Marketplace.
+Effective as of Spring/Summer 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

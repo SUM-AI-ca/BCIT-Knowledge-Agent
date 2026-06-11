@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/google-web-toolkit-for-java-developers-comp-4624/
+Title: Google Web Toolkit for Java Developers COMP 4624
+Type: Course
+Course Code: COMP 4624
+
+================================================================================
+
+## Google Web Toolkit for Java Developers COMP 4624
+Computer Systems Course
+## Course Overview
+This hands-on introduction to the Google Web Toolkit, GWT follows on from COMP 3641 Java Web Application Development. Students who already understand the Java SE, Eclipse, Java Web Apps and Java Databases, will learn to use the Eclipse-GWT plug-in to construct web user interfaces (UI) with Java APIs. Topics include; decoupling the UI from the backend, sending GWT UI to a backend service and how to handle user authentication. Discussions cover comparisons to Java Swing event handling, widget reuse and common Graphic User Interface, GUI techniques. By the end of this course, successful participants will understand how to build web applications using the GWT.
+### Prerequisite(s)
+- COMP 3641 and COMP 4620 or equivalent knowledge of Java Web Programming and Java Database.
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement dynamic widgets on a web page.
+- Use GWT-RPC to facilitate client-server communication.
+- Debug GWT web applications with the Eclipse Debugger.
+- Use GWT's UIBinder to decouple skinning (CSS) from widgets.
+- Deploy a standalone GWT application.
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

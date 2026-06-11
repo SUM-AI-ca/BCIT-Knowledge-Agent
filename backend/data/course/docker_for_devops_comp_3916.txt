@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/docker-for-devops-comp-3916/
+Title: Docker for DevOps COMP 3916
+Type: Course
+Course Code: COMP 3916
+
+================================================================================
+
+## Docker for DevOps COMP 3916
+Computer Systems Course
+## Course Overview
+​ COMP 3916 was replaced by COMP 4016 - Applied DevOps with Kubernetes, ​​​​as of Februray 2023.​​​ This hands-on course was designed for experienced web application developers. Students who are able to write code in a variety of web programming environments are introduced to containerization technologies. COMP 3916 begins with a brief history of virtualization technologies, followed by a discussion of Docker architecture and how to simplify the software delivery process using containers. Students build custom images by pulling and pushing images from the Docker registry and set up automated pipelines to build custom images directly from source control systems like GitHub. Topics include: DevOps enablement by Docker, Docker Swarm orchestration engine, networking containers, and data persistence using volumes. Labs and assignments include composing applications using popular open source software like Python, Node.js, Java and .NET Core to run on containers. Enabling Microservices architecture using containers and cloud providers support for containerization technologies are also discussed. COMP 3916 is a required course in our advanced web development programs; Web and Mobile, Advanced Java, Advanced .NET Application Development, and is an elective the CST/PTS Diploma. Upon completion, successful students will be able to use Docker to package applications for accelerated development and deployment to help enable software delivery at a faster pace.​
+### Prerequisite(s)
+- (60% in COMP 2912 or 60% in COMP 3012 ) or 60% in COMP 3601 or 60% in COMP 3656 or 60% in COMP 3973
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the components of the Docker platform.
+- Install Docker.
+- Explain the concept of containers and images.
+- Run and manage containers using standard images.
+- Build custom software images; push to and pull from Docker Hub.
+- Configure, leverage and mount volumes in containers.
+- Deploy significant web applications using containers.
+- Describe differences between Docker Swarm and Kubernetes.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

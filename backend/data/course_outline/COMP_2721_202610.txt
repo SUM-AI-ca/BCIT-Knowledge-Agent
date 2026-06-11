@@ -1,0 +1,104 @@
+URL: https://www.bcit.ca/outlines/20261072574/
+Course: COMP 2721
+Field: Computer Organization/Architecture
+Subject: Computer Systems
+Term: 202610
+CRN: 72574
+
+================================================================================
+
+## Course Outline
+## COMP 2721
+## Computer Organization/Architecture
+School | School of Computing and Academic Studies
+Program | Computer Systems Technology (CST) Diploma
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Prerequisite(s) | COMP 1113 and COMP 1510
+CRN | 72574
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Jason Wilder
+E-mail | jason_wilder@bcit.ca
+Location
+Office Hours | By appointment (email Jason_Wilder@bcit.ca)
+### Course Description
+Computer organization is a fundamental topic for computer science students and for any future programmers. The course gives a good understanding of the computer hardware and how software is built on a specific hardware. The computer is regarded as a hierarchy of levels, each one performing some well-defined functions from the device level (hardware) to the problem-oriented language level. Each level is discussed and analyzed in detail.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Analyze and diagram the layered-architecture of a modern computer.
+- Explain the basic concepts and terminology related to Computer Architecture and Organization.
+- Discuss and compare modern machine architectures.
+- Apply theories related to internal functional units to the performance analysis of various machine architectures.
+- Explain and describe the characteristic of CPU architectures currently in use.
+- Explain the integration and operation I/O devices and their impact on overall machine performance.
+- Solve problems related to the performance and design of various computer architectures.
+### Learning Resources
+Required:
+Structured Computer Organization (Sixth Edition) ISBN 0-13-148521-0 Andrew S. Tanenbaum Prentice-Hall
+### Course Goals
+### Evaluation Criteria
+Weekly quizzes in the labs (about eight, total): 40%
+Group research presentation (one): 10%
+Midterm exam: 25%
+Final exam: 25%
+### Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf .
+### Other information
+Any form of plagiarism will result in a grade of ZERO for the first instance. – removed and replaced with the Academic Integrity statement.
+- Plagiarism and other forms of cheating will not be tolerated:
+Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses.
+Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+- Academic misconduct also includes providing solutions to other students:
+Students who cheat or enable other students to cheat will be documented and kept on file. Any subsequent instances of academic misconduct will meet with harsher penalties.
+Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
+- Academic Integrity:
+Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+### Course Schedule and Assignments
+Week | Topic
+1 - week of Jan 5 | Overview John von Neumann Terminology Logarithms and powers of 2 Computer architecture layers Translation Interpretation RISC vs. CISC Hardware design principles Cache overview
+2 - week of Jan 12 | Clock speed and frequency von-Neumann datapath Pipelining, bandwidth, latency Error-correcting codes Error detection Hamming code
+3 - week of Jan 19 | More Hamming code Hard-disk drives Solid-state drives
+4 - week of Jan 26 | Circuits Multiplexers Decoders Gates Truth tables SOP and POS Word problems 1-bit ALU Buses, chips, and pins
+5 - week of Feb 2 | Registers and latches Register blocks
+6 - week of Feb 9 | Synchronous-bus read timing Asynchronous
+7 - week of Feb 16 | Bus arbitration Big / little endian
+week of Feb 23 | Midterm Examination Week (No classes)
+8 - week of Mar 2 | Single-bus datapath in the CPU
+9 - week of Mar 9 | In-class Instructional Assessments Online: Student Surveys (Instructional Assessments Online) - You’ll complete an online survey near the end of this course to share feedback with your instructor. Surveys are anonymous, and results are released only after all final grades are submitted. How to Access - Look for an email around Week 10 sent to your myBCIT email with a link to your survey. Click the link and choose the correct course from the “Active Tasks” list. In-class time - Your instructor may provide 15 minutes of class time for completing the survey (individually). Troubleshooting - If you don’t receive the link or have issues, email bcit_feedback@bcit.ca before Week 11. Tip - Make sure the survey you complete matches both your course CRN and your instructor. Professionalism - Please provide honest, specific, and constructive feedback in your comments—your voice makes a difference. Questions? Contact PDS Coordinator: Kirsty Barclay-Estrup . More datapath Microcode and microprogramming Direct-mapped cache overview Logarithms
+week of Mar 16 | Computing Reading Week - Non-Instructional Week
+10 - week of Mar 23 | Direct-mapped cache Virtual addressing Main memory Where memory goes in cache
+11 - week of Mar 30 | More direct-mapped cache Cache placement Set-associative cache
+12 - week of Apr 6 | Instruction formats Expanding opcodes
+week of Apr 13 | Assembly programming presentations
+week of Apr 20 | Final Exam Week - Non-Instructional Week
+Midterm and final exams will be scheduled by the timetabler during the midterm and final exam weeks, respectively
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Jason Wilder, Instructor December 16, 2025
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

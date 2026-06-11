@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/introduction-to-systems-administration-acit-1420/
+Title: Introduction to Systems Administration ACIT 1420
+Type: Course
+Course Code: ACIT 1420
+
+================================================================================
+
+## Introduction to Systems Administration ACIT 1420
+Computer Information Technology Course
+## Course Overview
+This course introduces students to the configuration, maintenance, and administration of a Windows laptop computer. Topics include: An introduction to PC hardware, functions of an operating system (OS), Windows OS architecture, file and disk management, BIOS and UEFI, multi-boot, virtual machines, software installation/removal, performance tuning, backing up and protecting data, troubleshooting, networking, security, virus protection, and firewalls
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the purpose of different personal computer (PC) hardware components.
+- Discuss the features and services provided by a typical PC operating system.
+- Describe the architecture of the Windows operating system.
+- Customize BIOS and UEFI settings.
+- Configure a PC as a multi-boot device.
+- Explain OS virtualization.
+- Install and configure a Virtual Machine.
+- Manage partitions, files, and folders on a Windows PC.
+- Backup and restore data files on a Windows PC.
+- Use Windows System Restore capabilities to recover the Windows OS.
+- Install, update, and remove PC software.
+- Manage the PC using the Windows Control Panel.
+- Use Windows PowerShell for basic PC management operations.
+- Start, stop, and disable Windows services.
+- Performance tune a Windows computer.
+- Configure Windows PC firewall and security settings.
+Effective as of Fall 2017
+## Related Programs
+Introduction to Systems Administration (ACIT 1420) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

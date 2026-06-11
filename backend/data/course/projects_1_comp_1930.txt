@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/projects-1-comp-1930/
+Title: Projects 1 COMP 1930
+Type: Course
+Course Code: COMP 1930
+
+================================================================================
+
+## Projects 1 COMP 1930
+Computer Systems Course
+## Course Overview
+Students learn to work in a collaborative environment and complete a small-scale software project: a web app. Design and managing of implementation concepts will be introduced: User Experience Design (XSD) and Agile methodology. The course takes students through the UX design process which includes creating and administering surveys & interviews, creating personas and user stories, designing wireframes, and performing user tests with a developed implementation that is based on the UX design process. Students will use the Agile methodology to manage the software process. Software management workflow also includes using version control, version control basics, utilizing web technologies (JavaScript, CSS, HTML, data persistence via NoSQL data technologies). Some of the JavaScript topics include DOM manipulation, event handling, web storage, AJAX calls and using JQuery in order to create a rich web app.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe how to work effectively within a collaborative environment.
+- Demonstrate usage of a version control system (such as Git) at the terminal/console level to manage versions and components of an application.
+- Explain the relationship between User Experience (UX) and the Agile Software Methodology and how they complement each other
+- Demonstrate Agile methodology process such as project task breakdown, prioritization, progress tracking, and calculating velocity — within each iteration
+- Demonstrate User Centred Design (UCD), utilizing personas, conducting surveys and interviews, creating user stories, performing user testing all within the context of UX Design.
+- Design for a "mobile first" UI and utilize current UI mobile design patterns
+- Design front-end logic utilizing JavaScript and JQuery, HTML5, and CSS
+- Create our own JavaScript objects with their own properties and methods.
+- Write DOM scripting using W3C standard methods and objects such as "createElement".
+- Use the Constructor and the Prototype patterns to create objects.
+- Utilize a NoSQL data technology for data persistence (such as MongoDB).
+Effective as of Fall 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/c-programming-language-3-comp-4425/
+Title: C Programming Language 3 COMP 4425
+Type: Course
+Course Code: COMP 4425
+
+================================================================================
+
+## C Programming Language 3 COMP 4425
+Computer Systems Course
+## Course Overview
+Designed for programmers who want to learn more about advanced C programming techniques, and to write carefully constructed, readable programs, high-quality, error-free software.
+### Prerequisite(s)
+- 50% in COMP 3425
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+At the end of this course, the student will be able to do the following using the C language:
+- Write code that correctly and appropriately use the standard library functions strchr, strrchr, strtok, setjmp, longjmp, and signal.
+- Implement programs that use low level bit operation, I/O, and memory addressing.
+- Organize and build programs into structured data type modules with uniform interfaces.
+- Identify and choose structures and functions suitable for solving a specific problem.
+- Formulate and apply standard methods and patterns of solving problems for string parsing, event notification, exception handling, failure recovery, hashing, and memory management.
+- Develop generic structures and interfaces using pointers to data and functions.
+- Compose and combine data structures to support different access mechanism.
+- Evolve new functions and structures base on existing C data structures.
+- Construct programs that use event driven architectures.
+- Create generic data structures and code templates with preprocessor macros.
+- Debug programs and build error checking and exception handling into the code.
+- Manage change and customization for different target platforms using preprocessor directives.
+- Optimize programs for efficient memory usage and speed.
+- Assess the correctness, robustness, portability, maintainability, and performance of a program.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,113 @@
+URL: https://www.bcit.ca/outlines/20261085858/
+Course: CISA 2340
+Field: Linux Administration
+Subject: Computer Info Systems Admin
+Term: 202610
+CRN: 85858
+
+================================================================================
+
+## Course Outline
+## CISA 2340
+## Linux Administration
+School | School of Energy
+Program | Computer Information Systems Administration
+Course Credits | 6
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 29, 2026
+Total Hours* | 90
+Total Weeks | 20
+Hours/Weeks | 4.5
+Delivery Type | Lecture/Lab
+Prerequisite(s) | CISA 1340
+CRN | 85858
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Steven Ng
+E-mail | Steven_Ng@bcit.ca
+Location | Via email, or individual appointment on Teams
+Office Hours | Please email for an appointment.
+### Course Description
+​In this course students learn how to administer Linux operating systems. Topics include installation, boot process configuration, partitions, file systems, network settings, logging services, user account policies, and host security. Additional topics include Apache web server, scripting, and Structured Query Language (SQL). Lab exercises reinforce the theory and provide opportunities for troubleshooting.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Describe the Linux file system, operating system structure, boot process, and tools
+- Perform interactive and automated installations of Linux
+- Configure and troubleshoot the boot process
+- Configure services, networking settings, and system logging
+- Configure account policies, access control lists, and host security
+- Create and manage partitions and file systems
+- Describe the importance of system time settings
+- Manage software packages
+- Install and configure Apache web server
+- Configure advanced shell features
+- Customize the user’s shell environment
+- Use shell scripts to automate functions
+- Create SQL statements to query a database
+- Use the VI editor for editing files
+### Learning Resources
+In this course, students will be required to use the Red Hat Academy, an online collaborative service. During the account creation process, the Red Hat Academy will collect your name and other identifying information. By using the Red Hat Academy, you are consenting to the storage of this information in the United States. If you choose not to provide your consent, see the instructor to make alternate arrangements.
+Internet access to the Red Hat Academy's System Administration I and System Administration II courses, delivered through the Red Hat Academy, will be provided once classes begin.
+Students can purchase additional access to online labs, if needed. Instructions will be provided once classes begin.
+### Evaluation Criteria
+Assignments | 15 | To be done individually
+Quizzes | 40 | Skills & Learning Hub
+BCIT midterm exam | 15 | Thu, Mar 5 @ 10am
+Skills exam | 15 | Mon, May 4 @ 8:30am
+BCIT final exam | 15 | Tue, May 5 @ 10am
+### Attendance Requirements
+Regular attendance in lectures and labs is seen as integral to student success, and will be monitored. Students are expected to be punctual and attend class for the full duration. Late arrivals or early departures may be considered as absences.
+### Course Specific Requirements
+Both the final exam and the skills exam are mandatory and must be written to successfully pass the course. Unless specified otherwise, assignments are to be done invididually and answers must be your own.
+### Course Schedule and Assignments
+Session #: Set H,J,G | Reading
+#1: Jan 5,6,7 | RHA 124: Manage Networking
+#2: Jan 8,9,12 | RHA 124: Access Linux File Systems
+#3: Jan 13,14,15 | RHA 124: Install and Update Software Packages
+#4: Jan 16,19,20 | RHA 124: Edit Text Files
+#5: Jan 21,22,23 | RHA 124: Comprehensive Review
+#6: Jan 26,27,28 | RHA 134: Shell Scripting
+#7: Jan 29,30,Feb 2 | RHA 134: Shell Scripting
+#8: Feb 3,4,5 | RHA 134: Regular Expressions
+#9: Feb 6,9,10 | RHA 134: Scheduling User and System Tasks
+#10: Feb 11,12,13 | RHA 134: Analyze & Store Logs
+#11: Feb 17,18,19 | RHA 134: Archive & Transfer Files; Tune System Performance
+#12: Feb 20,23,24 | Review for Midterm Exam
+Thursday, Mar 5 | MIDTERM EXAM @ 10:00am
+#13: Feb 25,26,Mar 16 | RHA 134: Managing SELinux Security
+#14: Mar 17,18.19 | RHA 134: Managing Basic Storage
+#15: Mar 20,23,24 | RHA 134: Managing Storage with LVM
+#16: Mar 25,26,27 | RHA 134: Control and Troubleshoot the Boot Process
+#17: Mar 30,31,Apr 1 | RHA 134: Recover Superuser Access; Managing Network Security
+#18: Apr 2,7,8 | RHA 134: Access Network-Attached Storage
+#19: Apr 9,10,13 | Web Server Configuration
+#20: Apr 14,15,16 | Web Server Configuration, cont'd
+#21: Apr 17,20,21 | RHA 134: Running Containers
+#22: Apr 22,23,24 | Review for Skills Exam
+#23: Apr 27,28,29 | Review for Final Exam
+#24: Apr 30,May 1,4 | SKILLS EXAM @ 8:30am: comprehensive
+Tuesday, May 5 | FINAL EXAM @ 10:00am: comprehensive
+** THE ABOVE SCHEDULE IS SUBJECT TO CHANGE. IF A CHANGE IS REQUIRED, STUDENTS WILL BE GIVEN NOTICE **
+** REFER TO THE LEARNING HUB NEWS ITEMS FOR THE MOST CURRENT INFORMATION ON EACH CLASS SESSION **
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Steven Ng, Instructor January 02, 2026
+I verify that this course outline has been reviewed. Patrick Duffey, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology January 02, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

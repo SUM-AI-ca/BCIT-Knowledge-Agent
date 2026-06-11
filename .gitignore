@@ -11,6 +11,10 @@ backend/.env
 # Built vector store artifacts (large, regenerable)
 backend/vectorstore/
 
+# Retired corpus snapshots kept on disk for rollback
+backend/data_old_*/
+backend/data/_state/
+
 # Node
 frontend/node_modules/
 

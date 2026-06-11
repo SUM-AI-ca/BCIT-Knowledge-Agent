@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/ios-application-development-with-c-comp-3914/
+Title: iOS Application Development with C# COMP 3914
+Type: Course
+Course Code: COMP 3914
+
+================================================================================
+
+## iOS Application Development with C# COMP 3914
+Computer Systems Course
+## Course Overview
+Following on from COMP 2614 , this hands-on course introduces iOS application development to existing C# and .NET programmers. Xamarin.iOS is used to create native iPhone and iPad apps using succinct and highly productive C# language. Aside from being able to write code in C#, participants must provide their own iPhone/iPad/iTouch device, and a current Intel based MacBook or subscribe to a cloud service that provides the Mac Development environment. Each student must purchase the Xamarin.iOS student subscription. BCIT Computing students registered in this course receive academic pricing for Xamarin.iOS. Students use Xamarin Studio as the Integrated Development Environment (IDE). along with Apple’s XCode for user interface design. Xamarin Studio provides access to a wide number of reusable components (free/paid) written in C# that can be incorporated in to the iOS apps to enable rich functionality with minimum development effort. Labs and demos introduce students to the iOS platform and its application framework. Participants learn to access the iOS frameworks via C# and leverage the power of C# constructs like delegates, event handlers, lambda expressions, LINQ in the iOS apps. Topics include accessing SQL Lite database, using REST/SOAP based web services to connect to backend systems and accessing Cloud services from iOS apps. Students learn to harness the full power of C# and .NET to write shorter and more maintainable code using Xamarin. Upon successful completion, participants will be able to use C# to create and deploy amazing iOS apps for iPhone and iPad.
+### Prerequisite(s)
+- COMP 2614 or equivalent knowledge of C# and the .NET Framework, plus the ability to use a Mac with the current OS X.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explore the iOS platform and iOS application fundamentals.
+- Examine the iOS application architecture and the underlying MVC framework.
+- Use Xamarin IDE to create iOS apps.
+- Use Xamarin.iOS framework for designing and building iOS apps.
+- See how Objective-C concepts map to C# constructs and how the iOS Frameworks are exposed in C#.
+- Manage user and application settings.
+- Use SQL Lite via ADO.NET as a persistence capability in the apps.
+- Leverage external cloud service providers to provide the back end functionality for an app.
+- Use .NET threading APIs in iOS apps to build multi-threaded apps.
+- Make use of the Xamarin Components to add third party libraries in the app.
+- Develop a significant final project that can be deployed to both the device and app store.
+- Consume external REST/SOAP web services in the apps.
+- Explore and understand the platform features like MapKit, EventKit and Social Framework.
+- Discuss how Xamarin enables Cross Platform Mobile application across the three Mobile platforms – iOS, Android and Windows Phone.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,142 @@
+URL: https://www.bcit.ca/outlines/20261082158/
+Course: CIVL 2024
+Field: Graphical Communication 2
+Subject: Civil Engineering
+Term: 202610
+CRN: 82158
+
+================================================================================
+
+## Course Outline
+## CIVL 2024
+## Graphical Communication 2
+School | School of Construction and the Environment
+Program | Civil Engineering
+Course Credits | 2.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 50
+Total Weeks | 20
+Hours/Weeks | 2.5
+Delivery Type | Lecture
+Prerequisite(s) | CIVL 1024
+CRN | 82158
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Mahbub Rahman
+E-mail | mahbub_rahman@bcit.ca
+Location | SW3 2081
+Office Hours | Md Mahbubur Rahman, P.Eng. Office: SW03-2081 Phone: 604-412-7601 Office Hours: As posted E-mail: mahbub_rahman@bcit.ca | Md Mahbubur Rahman, P.Eng. | Office: SW03-2081 | Phone: 604-412-7601 | Office Hours: As posted | E-mail: mahbub_rahman@bcit.ca
+### Course Description
+Through the medium of computer-aided drafting software, students continue to reproduce graphics examples from the civil engineering field. AutoCAD and other design software will be applied as a graphical tool to perform engineering modeling, solve civil engineering design problems, and produce design drawings. Applications in various civil engineering fields (municipal, structural, etc.) will be studied and investigated.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Produce engineering drawings using computer-aided drafting software. [5]
+- Annotate drawings with more advanced text and dimensions commands. [5]
+- Apply layers, line types and colours to enhance the presentation/appearance of drawings. [7]
+- Employ knowledge of AutoCAD and Revit Structures to solve engineering design problems and perform engineering modeling. [5]
+- Use blocks, attributes and external references to manage drawing files, organize design processes and collaborate with others. [5, 7]
+- Create 3D objects and models. [5]
+- Use AutoCAD and Revit 3D models to generate plans, elevations, and sections. [5, 7]
+- Generate data (e.g. bill of materials, schedule of quantities and material takeoff) from 2D drawings and 3D models. [5]
+- Use scanned images to facilitate the design process through accurate manipulation of rasterized data. [5]
+- Transfer and exchange data between various engineering software packages. [5]
+- Apply Building Information Modeling (BIM) concepts in engineering modeling and design. [5]
+### Learning Resources
+Learning Resources:
+To ensure smooth access to all required software and maintain compatibility, students are strongly encouraged to use https://appsanywhere.bcit.ca/. This platform provides convenient access to BCIT-approved applications from any device, without the need for complex installations. If you prefer to install the software locally, please download and install the following applications using your Autodesk Student Account (Education licenses are free for students):
+- AutoCAD 2026
+- Civil 3D 2026
+- Revit 2026
+You can obtain these applications directly from the https://www.autodesk.com/education/edu-software/overview.
+Required Textbook:
+- Tickoo, S., & CADCIM Technologies. Exploring Autodesk Revit 2026 for Structure (16th ed.) . CADCIM Technologies, USA. ISBN: 978-1-64057-340-6.
+Recommended Textbooks:
+- Tickoo, S., & CADCIM Technologies. AutoCAD 2026 with Videos: A Problem-Solving Approach, Basic and Intermediate (32nd ed.) . CADCIM Technologies, USA. ISBN: 978-1-64057-325-3.
+- Tickoo, S., & CADCIM Technologies. Advanced AutoCAD 2026 with Videos: A Problem-Solving Approach, 3D and Advanced (29th ed.) . CADCIM Technologies, USA. ISBN: 978-1-64057-327-7.
+- Tickoo, S., & CADCIM Technologies. Exploring AutoCAD Civil 3D 2026 (15th ed.) . CADCIM Technologies, USA. ISBN: 978-1-64057-345-1.
+Electronic recording of course material (e.g. video, image, or audio files) is prohibited in this course with the following exceptions:
+- Where the student has obtained prior written permission from the instructor, or
+- Where the student has obtained permission under BCIT Policy 4501, Accommodation for Students with Disabilities.
+### Evaluation Criteria
+Criteria | Individual Assessment Weight | Overall Course Weight
+Quizzes | — | 8%
+Assignments | — | 12%
+- Assignment 1 (AutoCAD) | 4% | —
+- Assignment 2 (Civil 3D) | 4% | —
+- Assignment 3 (Revit) | 4% | —
+Project (Revit) | — | 10%
+Midterm Exam | — | 30%
+Final Exam | — | 40%
+Total | — | 100%
+### Attendance Requirements
+Makeup Test, Exams or Quizzes : There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks for the work missed. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT Student Medical Certificate ( https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf ). In such a case, it is the responsibility of the student to inform one of the course instructors immediately. Note that exceptions will not be made for personal events such as vacations, weddings, or travel arrangements.
+### Course Specific Requirements
+Course Specific Requirements
+(1) Makeup Test, Exams or Quizzes : There will be NO makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT “Student Medical Certificate” (available at https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf ). In such a case, it is the responsibility of the student to inform one of the course instructors immediately.
+(2) Calculators: Programmable calculators and calculators with alphabetic capability will NOT be allowed during exams. Only calculators approved by the Civil Engineering Department may be used during exams.
+(3) Students are expected to attend all lectures and labs.
+### Other information
+CIVL 2024 Graphical Communication 2 is a pre-requisite for:
+- CIVL 3052 Municipal Engineering 1
+- CIVL 3050 Road Design
+- COMM 3342 Communication for Civil Engineering 3
+Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the BEng in Civil Engineering program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB Graduate Attributes as shown in the square brackets [] following each course learning outcome.
+CEAB Graduate Attributes
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis : An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation : An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design : An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools : An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work : An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills : An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism : An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment : An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity : An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management : An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning : An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Course Schedule and Assignments
+Week | Date | Lecture Topics | Tutorial Topics
+1 | January 7, 2026 | Course Introduction | –
+2 | January 14, 2026 | AutoCAD 2D: Isometric drawing | Create Isometric drawing
+3 | January 21, 2026 | AutoCAD 2D: Blocks and Block Attributes | Creating Blocks
+4 | January 28, 2026 | AutoCAD 3D: UCS and Wire Frame Models | UCS & Wireframe Models
+5 | February 4, 2026 | AutoCAD 3D: Surface Modelling | Surface Modeling
+6 | February 11, 2026 | AutoCAD 3D: Solid Modelling | 3D Modeling
+7 | February 18, 2026 | CIVIL 3D: Points | Civil 3D Basics
+8 | February 25, 2026 | CIVIL 3D: Surface Creation | Surface Creation
+9 | March 4, 2026 | Midterm | –
+10 | March 9 – March 13 | Spring Break | –
+11 | March 18, 2026 | Revit: Setting up a Project in Revit | Levels & Grids
+12 | March 25, 2026 | Revit Arch: Create a Small Office | Walls, Doors, Windows
+13 | April 1, 2026 | Revit Str: Structural Elements | No Tutorial (Good Friday)
+14 | April 8, 2026 | Easter Monday – No lecture | Columns, Str. Walls, Foundation, Beams, Floors
+15 | April 15, 2026 | Revit Str: Editing Tools | Editing Tools
+16 | April 22, 2026 | Revit Str: Documenting | Documenting
+17 | April 29, 2026 | Revit Str: Views, Details & Schedules | Views & Schedules
+18 | May 6, 2026 | Revit Str: Rendering, Sheets, Plot and Data Exchange | Sheeting & Plotting
+19 | May 13, 2026 | Review – Final Exam | –
+20 | May 14 – May 22 | Final Exam | –
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Mahbub Rahman, Instructor January 01, 2026
+I verify that this course outline has been reviewed. Sudip Talukdar, Program Head January 05, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

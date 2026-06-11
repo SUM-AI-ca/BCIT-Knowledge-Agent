@@ -1,0 +1,59 @@
+URL: https://www.bcit.ca/courses/digital-signal-processing-elex-3545/
+Title: Digital Signal Processing ELEX 3545
+Type: Course
+Course Code: ELEX 3545
+
+================================================================================
+
+## Digital Signal Processing ELEX 3545
+Electrical and Computer Engineering Course
+## Course Overview
+Introduces the student to Digital Signal Processing techniques. Topics include: continuous and discrete time systems, z-transforms and Fast Fourier Transforms. In addition, the course includes the design and implementation of digital filters. A filter design package such as MatLab is used. The filter designed by the student on the package will be tested on a TMS320C6211 DSK board.
+### Prerequisite(s)
+- ELEX 2120 and ELEX 3305 † and MATH 3431 † ( † may be taken concurrently)
+### Credits
+3.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+## OVERVIEW
+- Review how Digital Signal Processing has impacted the Telecommunications industry.
+- Explain what is Digital Signal Processing.
+- Discuss the advantages and disadvantages of DSP over analog techniques.
+## ANALOG TO DIGITAL - DIGITAL TO ANALOG CONVERSION TECHNIQUES
+- Explain how an analog signal is transformed to the digital domain.
+- Describe the Sampling Theorem as related to Digital Signal Processing.
+- Explain the purpose and theory of a Sample and Hold.
+- Discuss real world Analog to Digital converters.
+- Explain how quantization errors affect the accuracy of DSP operations.
+- Discuss various Digital to Analog methods that are prevalent in the industry.
+## FILTERS
+- Various aspects and purposes of filters are discussed in this section.
+- Describe what is a Filter and its applications in the telecommunications field.
+- Explain and analyze the performance specifications of filters.
+- Differentiate various Filter types, both Analog and Digital.
+- Discuss the advantages and disadvantages of different filter types.
+- Implement the realization of Digital Filters using various techniques.
+- Use Matlab as a mathematical filter design and simulation tool.
+## INTRODUCTION OF Z-TRANSFORMS
+- In this section the Z-transform is discussed.
+- A basic review of Laplace is done.
+- Various manipulations of Z-transforms are implemented.
+- Both time and frequency inter-relationships are discussed.
+## PRACTICAL DIGITAL SIGNAL PROCESSING
+- The hardware which is the backbone of the DSP process is discussed here.
+- The different types of DSP hardware is explained.
+- The advantages of Fixed or Floating point processors is entertained.
+- Various other device constraints are discussed.
+- The implementation of software design and coding is done.
+## FREQUENCY AND TIME DOMAIN
+- Frequency and time domain applications of DSP are discussed here.
+- A basic review of phasors is done.
+- The Fourier transform is implemented.
+- The Discrete Fourier Transform (DFT) is explained in digital terms.
+- The advantages of the Fast Fourier Transform (FFT) over the DFT is explained.
+## OTHER DSP ASPECTS
+- Various other facets of Digital Signal Processing are entertained here.
+- Convolution as a mainstay of DSP is discussed.
+- Uses of Correlation in the telecommunications field are explained.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

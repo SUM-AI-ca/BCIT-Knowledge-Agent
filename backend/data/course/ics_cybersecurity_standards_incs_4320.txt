@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/ics-cybersecurity-standards-incs-4320/
+Title: ICS Cybersecurity Standards INCS 4320
+Type: Course
+Course Code: INCS 4320
+
+================================================================================
+
+## ICS Cybersecurity Standards INCS 4320
+Industrial Network Cybersecuri Course
+## Course Overview
+This course introduces common Industrial Control System (ICS) cybersecurity standards that INC graduates will encounter in the workplace. Building on the concepts developed in the Linux Administration, Ethical Hacking and Penetration Testing, and Industrial Network Security courses, this course prepares students to assist with implementing common ICS cyber security standards as they apply to industrial networks. Topics include: the differences between policies, standards, procedures, guidelines and frameworks ; a general overview of the steps involved in an ICS security standard; the difference between enterprise/business IT security standards and ICS security standards; a survey of ICS cybersecurity standards commonly used in both North America and Europe and their application in automation and process control; and a close look at all three phases of the ISA/IEC 62443 standard with an emphasis on risk assessment and mitigation. ICS standards and frameworks studied include ISA/IEC 62443, NIST 800-82 and NERC CIP. ​
+### Prerequisite(s)
+- INCS 3310 and INCS 3320
+- INCS 4310 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the differences between policies, standards, procedures, guidelines and frameworks. (2)
+- Describe in general the steps involved in an ICS security standard. (2)
+- Explain the main differences between enterprise/business IT security standards and ICS security standards. (2)
+- Describe the steps taken in the NIST 800-82 framework and its application in industry. (2)
+- Describe the steps taken in the NERC CIP standard and its application in industry. (2)
+- Describe the steps taken in the ISA/IEC 62443 standard and its application in industry. (2)
+- List ICS cybersecurity standards commonly used in both North America and Europe. (1)
+- Describe the typical application of ICS cybersecurity standards commonly used in both North America and Europe. (2)
+- Perform a cybersecurity vulnerability and risk assessment in accordance with the ISA/IEC 62443 standard. (4)
+- Recommend mitigating actions based on zones and conduits in accordance with the ISA/IEC 62443 standard. (4)
+Effective as of Winter 2021
+## Related Programs
+ICS Cybersecurity Standards (INCS 4320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

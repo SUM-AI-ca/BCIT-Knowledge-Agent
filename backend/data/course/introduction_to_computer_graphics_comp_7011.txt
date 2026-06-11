@@ -1,0 +1,23 @@
+URL: https://www.bcit.ca/courses/introduction-to-computer-graphics-comp-7011/
+Title: Introduction to Computer Graphics COMP 7011
+Type: Course
+Course Code: COMP 7011
+
+================================================================================
+
+## Introduction to Computer Graphics COMP 7011
+Computer Systems Course
+## Course Overview
+This course offers an introduction to the theory and practice of computer graphics. Emphasis is placed on understanding the principles underlying interactive computer graphics, as well as gaining hands-on experience in programming with OpenGL. Core topics include: Introductions to CG, CG Hardware, Intro to OpenGL, 2D algorithms, scan conversion, filling, clipping, antialiasing, 3D representations, transformations, 2D and 3D splines, Hidden surface/hidden line removal, Shading models, Ray tracing, Color, and Scene-graph languages.
+### Prerequisite(s)
+- COMP 2618
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Understand fundamental concepts in interactive computer graphics.
+- Prepare for learning more advanced computer graphics techniques.
+- Build 3D computer graphics applications.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

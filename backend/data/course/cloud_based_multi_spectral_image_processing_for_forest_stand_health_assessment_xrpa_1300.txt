@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/cloud-based-multi-spectral-image-processing-for-forest-stand-health-assessment-xrpa-1300/
+Title: Cloud-based Multi-spectral Image Processing for Forest Stand Health Assessment XRPA 1300
+Type: Course
+Course Code: XRPA 1300
+
+================================================================================
+
+## Cloud-based Multi-spectral Image Processing for Forest Stand Health Assessment XRPA 1300
+Intro to Forest Health Quantification Using RPAS Course
+## Course Overview
+​Students will learn how to convert overlapping, photogrammetric images into point-clouds and derive output geospatial data such as 3D models, digital surface and terrain models and orthomosaics. An overview of geo-spatial forest health metrics is provided followed by the basics of how those metrics are computed using raster multi-layer analysis in a GIS system. In the final module, students get practical, hands-on experience with analysing multi-spectral data for the purpose of forest health assessment using GIS.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate the ability to process multi-spectral images to create point-clouds, DSM's and orthomosaics.
+- Generate various spatial data layers suitable for the quantification of forest health.
+- Identify the different types of forest health metrics.
+- Describe which type of forest health metric is suitable for analysis using multi-spectral image analysis.
+- Understand basics of multi-layer image analysis using QGIS.
+- Demonstrate the ability to combine appropriate geo-spatial layers to create a particular forest health metric.
+- Reclassify forest health metric into a forest health index map.
+- Appraise the validity of forest health maps using ground truth data.
+- Apply techniques to generate a multi-spectral forest health index map.
+Effective as of Winter 2022
+## Related Programs
+Cloud-based Multi-spectral Image Processing for Forest Stand Health Assessment (XRPA 1300) is offered as a part of the following programs:
+### School of Construction and the Environment
+- Introduction to Forest Health Quantification with RPAS Microcredential Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

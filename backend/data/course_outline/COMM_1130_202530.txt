@@ -1,103 +1,91 @@
 URL: https://www.bcit.ca/outlines/20253045896/
 Course: COMM 1130
 Field: Technical Communications 1 for Industrial Network Cybersecurity
-
-School: School of Energy
-Program: Industrial Network Cybersecurity
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture
-Zero Textbook Cost: Yes
-Prerequisite(s): No prerequisites are required for this course.
+Subject: Communication
+Term: 202530
 CRN: 45896
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## COMM 1130
+## Technical Communications 1 for Industrial Network Cybersecurity
+School | School of Energy
+Program | Industrial Network Cybersecurity
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 45896
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Derek Jamensky
-E-mail: Derek_Jamensky@bcit.ca
-Location: SW2 - 258 (Burnaby)
-Office Hours: TBA - Will be posted on office door.
-
-## Course Description
+### Instructor Details
+Name | Derek Jamensky
+E-mail | Derek_Jamensky@bcit.ca
+Location | SW2 - 258 (Burnaby)
+Office Hours | TBA - Will be posted on office door.
+### Course Description
 This course introduces students to the basics of technical writing and develops the skills needed to write effective technical documents. The competencies developed in this course will be used throughout the INC program. Many courses from the second term forward will include some form of technical writing which will be included in the courses’ evaluations. Topics include: writing common technical documents such as progress, trip, field, laboratory, and design reports; writing effective letters and emails; writing technical descriptions and instructions; creating appropriate tables, charts, graphs and illustrations; and using proper citation. ​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Analyse the audience and define the purpose for a given communication task. (4)
 - Apply best practices for page design for readability in technical documents. (3)
 - Write technical documents that: focus on the reader; present the material logically; use concise, clear wording; use direct pattern to get to the point; provide accurate information; satisfy document specifications; and explain technical concepts to a non-technical audience. (4)
 - Write a variety of documents used in the engineering field such as: emails (with an emphasis on proper etiquette when communicating with other professionals), a short report (for example: progress field, laboratory, and design reports); technical descriptions and instructions) (4)
 - Create appropriate tables, charts, graphs and illustrations (construct and properly integrate).(4)
 - Deliver an informative presentation on an INC topic. (4)
-
-## Learning Resources
+### Learning Resources
 Optional textbook:
-
 Ewald, Thorsten. (2025). Writing in the Technical Fields. Oxford University Press. ISBN-13: 9780190164867
-
-## Evaluation Criteria
-ASSIGNMENT: PERCENTAGE
-In-class Assignment #1: Email: 10%
-In-class Assignment #2: Incident Report: 15%
-Assignment #3 : Recommendation Report: 25%
-Assignment #4: Technical Instructions and Definitions: 25%
-General Quizzes (5): 15%
-Technical Quizzes (2): 5%
-Online activity, attendance, participation, professionalism: 5%
-
-## Course Schedule and Assignments
-Week / Date: Topics: Reading: Tasks: Assignments Due
-Wk 01 Sept 2: No class this week – program orientation: Browse the Learning Hub and review content as it is posted. Please do the week 1 syllabus review quiz on The Learning Hub! It’s easy!: Notes: All material will be posted at least 3 days in advance - Please watch the weekly videos prior to your scheduled lab; All graded assignments and quizzes are . Late submissions without a documented extension will be penalized; Late submissions may receive a zero grade or other penalties.
-Wk 02 First Lecture/Lab: Sep 9: Routine correspondence and emails Audience Analysis Task Analysis Parallel Lists: Ewald, chs.1 and 4: Watch Lists video Review assignment #1 samples: Lists Quiz (3%)* *As mentioned above, all quizzes and assignments are due before 5pm on Friday. Don’t miss the quizzes!
-Wk 03 Sep 16: Routine correspondence and emails Content and wording Organizing messages Tone: Ewald, ch.2: Watch video on Positive Phrasing: Positive phrasing quiz (3%)
-Wk 04 Sep 23: Routine correspondence and emails Content and wording Organizing messages Tone: Ewald, ch.3: In-Class Assignment #1 (10%) No Quiz this week.
+### Evaluation Criteria
+ASSIGNMENT | PERCENTAGE
+In-class Assignment #1: Email | 10%
+In-class Assignment #2: Incident Report | 15%
+Assignment #3 : Recommendation Report | 25%
+Assignment #4: Technical Instructions and Definitions | 25%
+General Quizzes (5) | 15%
+Technical Quizzes (2) | 5%
+Online activity, attendance, participation, professionalism | 5%
+### Course Schedule and Assignments
+Week / Date | Topics | Reading | Tasks | Assignments Due
+Wk 01 Sept 2 | No class this week – program orientation | Browse the Learning Hub and review content as it is posted. Please do the week 1 syllabus review quiz on The Learning Hub! It’s easy! | Notes: All material will be posted at least 3 days in advance - Please watch the weekly videos prior to your scheduled lab; All graded assignments and quizzes are . Late submissions without a documented extension will be penalized; Late submissions may receive a zero grade or other penalties.
+Wk 02 First Lecture/Lab : Sep 9 | Routine correspondence and emails Audience Analysis Task Analysis Parallel Lists | Ewald, chs.1 and 4 | Watch Lists video Review assignment #1 samples | Lists Quiz (3%)* *As mentioned above, all quizzes and assignments are due before 5pm on Friday. Don’t miss the quizzes!
+Wk 03 Sep 16 | Routine correspondence and emails Content and wording Organizing messages Tone | Ewald, ch.2 | Watch video on Positive Phrasing | Positive phrasing quiz (3%)
+Wk 04 Sep 23 | Routine correspondence and emails Content and wording Organizing messages Tone | Ewald, ch.3 | In-Class Assignment #1 (10%) No Quiz this week.
 Wk 05 *** No Classes Tuesday September 30 *** *** Statutory Holiday – Truth and Reconciliation Day ***
-Wk 06 Oct 7: Short Reports: Incident Reports: Ewald, ch.6: Watch Video on Ambiguity and Precision: Ambiguity and Precision Quiz (3%)
-Wk 07 Oct 14: Short Reports: Incident Reports: Ewald, ch.6: Watch Video on Active and Passive Voice Draft Incident Reports (feedback in the labs): Active and Passive Voice Quiz (3%)
-Wk 08 Oct 21: Short Reports: Incident Reports: Ewald, ch.6: Draft Incident Reports (feedback in the labs): Assignment #2 Due (Incident Report) (15%)
-Wk 09 Oct 28: Short Reports: Recommendation Report: Ewald, ch.6: Watch Video on How to Format a Business Letter Draft Recommendation Reports: Business Letter Quiz (3%)
-Wk 10 Nov 4: Short Reports: Recommendation Report: Ewald, ch.12: Draft Recommendation Reports (feedback in the labs): Recommendation Report Due (20%)
+Wk 06 Oct 7 | Short Reports: Incident Reports | Ewald, ch.6 | Watch Video on Ambiguity and Precision | Ambiguity and Precision Quiz (3%)
+Wk 07 Oct 14 | Short Reports: Incident Reports | Ewald, ch.6 | Watch Video on Active and Passive Voice Draft Incident Reports (feedback in the labs) | Active and Passive Voice Quiz (3%)
+Wk 08 Oct 21 | Short Reports: Incident Reports | Ewald, ch.6 | Draft Incident Reports (feedback in the labs) | Assignment #2 Due (Incident Report) (15%)
+Wk 09 Oct 28 | Short Reports: Recommendation Report | Ewald, ch.6 | Watch Video on How to Format a Business Letter Draft Recommendation Reports | Business Letter Quiz (3%)
+Wk 10 Nov 4 | Short Reports: Recommendation Report | Ewald, ch.12 | Draft Recommendation Reports (feedback in the labs) | Recommendation Report Due (20%)
 Wk 11 *** No Classes Tuesday November 11 *** *** Statutory Holiday – Remembrance Day **
-Wk 12 Nov 18: Technical Definitions Technical Instructions: Ewald, ch.13: Watch Technical Definitions Video Watch technical Instructions 1 video: Technical Definitions Quiz (2%)
-Wk 13 Nov 25: Technical instructions: Ewald, ch.13 Supplemental readings: Draft Technical Instructions assignment (feedback in the labs) Watch Technical Instructions 2 video: No Quiz this week
-Wk 14 Dec 2: Technical Instructions Tables, charts, graphs and illustrations: Ewald, ch.13 Supplemental readings: Watch technical instructions 3 video Work on Technical Instructions assignment (feedback in the labs): Technical Instructions Quiz (3%) Assignment #4 Due -- Technical Instructions and Definitions (25%)
-
-## BCIT Policy
+Wk 12 Nov 18 | Technical Definitions Technical Instructions | Ewald, ch.13 | Watch Technical Definitions Video Watch technical Instructions 1 video | Technical Definitions Quiz (2%)
+Wk 13 Nov 25 | Technical instructions | Ewald, ch.13 Supplemental readings | Draft Technical Instructions assignment (feedback in the labs) Watch Technical Instructions 2 video | No Quiz this week
+Wk 14 Dec 2 | Technical Instructions Tables, charts, graphs and illustrations | Ewald, ch.13 Supplemental readings | Watch technical instructions 3 video Work on Technical Instructions assignment (feedback in the labs) | Technical Instructions Quiz (3%) Assignment #4 Due -- Technical Instructions and Definitions (25%)
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Derek Jamensky, Instructor August 28, 2025
-
 I verify that this course outline has been reviewed. Bahareh Shahabi, Program Head August 28, 2025
-
 I verify that this course outline has been reviewed. Umme Salsabil, Program Head August 28, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean August 29, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

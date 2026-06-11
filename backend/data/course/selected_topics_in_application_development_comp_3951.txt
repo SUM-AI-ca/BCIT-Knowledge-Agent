@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/selected-topics-in-application-development-comp-3951/
+Title: Selected Topics in Application Development COMP 3951
+Type: Course
+Course Code: COMP 3951
+
+================================================================================
+
+## Selected Topics in Application Development COMP 3951
+Computer Systems Course
+## Course Overview
+This course is designed to enhance the students’ programming skills and abilities and expose them to the newest tools and technologies. The course is focused on application development using as vehicle of instruction the .NET framework and the C# language. The main topics are: Microsoft .NET framework, Common Language Runtime, the .NET Framework Library, Common Language Specification, managed code, object-oriented programming in C#, graphical user interfaces with Windows forms, dynamic-linked libraries, custom and user controls, and unit testing. The students will learn the C# language, compare it with other languages (C++ and Java), and enhance their Object-Oriented skills by developing software applications.
+### Prerequisite(s)
+- Completion of first year CST and Admission into the Technical Programming Option.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the .NET Framework, the Common Language Routine and the C# programming concepts.
+- Identify the differences between code and managed code, virtual machine and CLR.
+- Explain the intermediate language and the execution of managed code.
+- Explain the particularities and the object-oriented capabilities of the C# language: garbage collection, namespaces, assemblies, classes, methods, properties, inheritance, polymorphism, interfaces, indexers, delegates and events.
+- Design and implement Windows applications in the .NET environment using C#.
+- Design and implement dynamic linked libraries, and custom and user controls.
+- Design, implement and use unit test projects.
+- Compare and evaluate different programming environments (C++, Java, and C#).
+- Improve the object-oriented programming skills.
+- Design and implement a project reflecting the above topics.
+Effective as of Fall 2015
+## Related Programs
+Selected Topics in Application Development (COMP 3951) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/ms-azure-cloud-application-development-comp-3974/
+Title: MS Azure Cloud Application Development COMP 3974
+Type: Course
+Course Code: COMP 3974
+
+================================================================================
+
+## MS Azure Cloud Application Development COMP 3974
+Computer Systems Course
+## Course Overview
+This hands-on course was retired, it continued from COMP 2614 and prepared students who are already .NET programmers (C# or VB.NET) to develop new cloud based applications with Microsoft Azure. Topics included: Windows Azure Architecture and Administration, local storage, storage emulators, deploying a service application, deploying a web application, and SQL Azure. Labs and exercises focus on Service Oriented Architecture (SOA) and how to leverage Windows Azure for cloud computing. Windows Azure Mobile Services for iOS and Android was also discussed along with the differences between SQL Azure and Azure Storage. Upon successful completion, participants were able to develop new cloud based applications or port existing applications to Windows Azure using Visual Studio. This course was an elective in the Advanced .NET Associate certficate and it last ran in January 2017.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe cloud computing.
+- Describe the architecture of Windows Azure.
+- Describe Service Oriented Architecture (SOA)Explore Azure SDK and development environment with Compute and Storage Emulator.
+- Describe Service Oriented Architecture (SOA).
+- Write and deploy a Service application to Windows Azure.
+- Write and deploy a simple web application to Windows Azure.
+- Describe Windows Azure Mobile Services (iOS and Android).
+- Create and deploy background computational applications (worker role) in Windows Azure.
+- Explore Windows Azure storage capability, including table, queue, and blob storage.
+- Describe SQL Azure, the relational database in the cloud, and how SQL Azure differs from Azure Storage.
+- Port mini Windows and Web Applications (existing solutions) to Windows Azure.
+- Develop cloud based software of applications for Windows Azure.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

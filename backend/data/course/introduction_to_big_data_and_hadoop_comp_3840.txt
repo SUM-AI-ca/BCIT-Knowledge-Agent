@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/introduction-to-big-data-and-hadoop-comp-3840/
+Title: Introduction to Big Data and Hadoop COMP 3840
+Type: Course
+Course Code: COMP 3840
+
+================================================================================
+
+## Introduction to Big Data and Hadoop COMP 3840
+Computer Systems Course
+## Course Overview
+​Apache Hadoop is the open-source framework designed to help solve some of the storage and analysis issues around Big Data. This hands-on workshop continues on from COMP1630, and assumes prior knowledge of the industry standards in data modeling, relational database design, and SQL programming. It is aimed at a broad audience including administrators, data analysts, and managers. Participants build on their existing database skills to work with larger and more complex data sets and to gain an overview of Hadoop and Big Data. Starting with the basic concepts and components of Hadoop, students will use Hive to query data stored in Hadoop with an SQL-like query language. Lectures and labs introduce the normal usage of a Hadoop system using the Cloudera Quickstart virtual machine. Homework and exercises will focus on getting data into the Hadoop Distributed File System (HDFS), basic file operations, and running queries on existing data. Upon successful completion of this course, participants will be able to define Big Data, identify the basic components of Hadoop, and run queries on Big Data using SQL on Hive. COMP 3840 is no longer offered and has been replaced by COMP 3841 as of September 2021.
+### Prerequisite(s)
+- COMP 1630
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Define Big Data.
+- Describe why Hadoop was developed.
+- Identify the basic components of a Hadoop system.
+- Describe how files are stored in the Hadoop Distributed File System (HDFS).
+- Identify the steps taken in a typical Map Reduce analysis.
+- Run queries on data using Hive.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

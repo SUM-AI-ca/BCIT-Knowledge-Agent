@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/c-programming-csst-2105/
+Title: C Programming CSST 2105
+Type: Course
+Course Code: CSST 2105
+
+================================================================================
+
+## C Programming CSST 2105
+Computer Systems Service Technician Course
+## Course Overview
+This course covers the writing, compiling and debugging of C programs. The essential elements of the language will be covered, including instruction syntax, operators, data types, program control pointers, arrays, structures and union, Input/Output and disk file processing. Lab exercises will include the use of C programs to control physical devices. Course intended for Technicians.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Use standard planning tools to develop an application.
+- Write and document an application in the C programming language.
+- Understand basic C syntax.
+- Describe and use C's variable types.
+- Describe and use loops and decisions in C.
+- Describe and use structures and pointers.
+- Utilize C to access various common hardware devices.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

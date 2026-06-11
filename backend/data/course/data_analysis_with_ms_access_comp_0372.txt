@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/data-analysis-with-ms-access-comp-0372/
+Title: Data Analysis with MS Access COMP 0372
+Type: Course
+Course Code: COMP 0372
+
+================================================================================
+
+## Data Analysis with MS Access COMP 0372
+Computer Systems Course
+## Course Overview
+Following on from COMP 0371 students who already understand how to use MS Access to create multiple tables, generate queries and reports are introduced to data analysis with MS Access. In this one-day workshop participants will gain hands-on experience using MS Access to generate advanced queries and customized reports to better manage data to produce meaningful output. Students focus on turning raw data into usable information. They practice creating complex queries such as crosstab queries, parameter queries, find duplicates, unmatched duplicates and action queries. Labs and exercises include an in-depth look at customizing reports for effective reporting with MS Access. Skill builder exercises are used throughout the day, participants will practice using raw data in MS Access and convert it into useful information for data analysis and decision making. Upon completion of both COMP 0371 and COMP 0372 successful students will be prepared to move on to COMP 2375 - Advanced Microsoft Access Development.
+### Prerequisite(s)
+- COMP 0371 - Introduction to Database Systems with MS Access, or equivalent knowledge.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create crosstab queries, parameter queries, find duplicates and find unmatched queries.
+- Describe the purposes of action queries and how to execute them.
+- Change join types from inner joins to outer joins to see its impact on data output.
+- Concatenate field information in queries.
+- Return top values in a query.
+- Describe the basics of SQL by examining the SQL View.
+- Create custom reports in Design View.
+- Add a subreport.
+- Summarize report data using built-in functions
+- Group, sort and filter report data for analysis.
+- Change report and control properties to enhance report output.
+- Apply conditional formatting in reports for decision making.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

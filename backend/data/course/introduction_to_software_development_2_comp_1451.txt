@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/introduction-to-software-development-2-comp-1451/
+Title: Introduction to Software Development 2 COMP 1451
+Type: Course
+Course Code: COMP 1451
+
+================================================================================
+
+## Introduction to Software Development 2 COMP 1451
+Computer Systems Course
+## Course Overview
+This second level hands-on intensive course continues on from and requires the introductory object-oriented programming experience covered in COMP 1409 or COMP 1516 . The language of example is Java, which is used to provide a solid foundation in current programming concepts and methodologies, with a focus on problem solving. Topics include: data abstraction, modularity, object-oriented programming concepts (encapsulation, inheritance, polymorphism), testing and debugging. COMP 1451 is required in the Applied Software Development, ASD Associate Certificate and the Computer Systems Certificate, CSC. Successful participants will be prepared to move on to higher level programming courses. PLEASE NOTE: COMP 1451 is replaced by COMP 2501 - Programming Fundamentals Part 2 and is required prior COMP 2601 - Programming Fundamentals Part 3 (Objects) beginning January 2021. Students who did not achieve 70% in COMP 1451 should consider COMP 2501 as their next course prior to COMP 2601 .
+### Prerequisite(s)
+- 70% in COMP 1409
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Demonstrate skills in problem solving.
+- Demonstrate fundamental programming skills using conditionals and iteration.
+- Demonstrate object-oriented programming skills by designing and writing Java programs that use multiple interacting classes, inheritance and polymorphism.
+- Design robust, easily-maintained programs using Java.
+- Test and debug Java programs using a variety of testing techniques.
+- Prepare program documentation.
+- Be prepared to move on to higher level OO programming languages: Java, C# and C++.
+Effective as of Spring/Summer 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

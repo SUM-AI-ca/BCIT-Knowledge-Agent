@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/systems-administration-using-linux-acit-3620/
+Title: Systems Administration using Linux ACIT 3620
+Type: Course
+Course Code: ACIT 3620
+
+================================================================================
+
+## Systems Administration using Linux ACIT 3620
+Computer Information Technology Course
+## Course Overview
+The objective of this course is to teach students basic Network Operating System administration tasks using Linux. At the end of the course the students should be able to install and configure a Linux-based network. Configuration tasks include installing the software, adding hardware, networking the servers, managing users, monitoring performance, scripting and troubleshooting. Students are also expected to configure common server services such as DNS, NHCP, Apache and IP Tables.
+### Prerequisite(s)
+- 50% in ACIT 1420
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and use X windows.
+- Install and configure hardware for Linux.
+- Define the necessary components and functions of an operating system.
+- Identify and explain the responsibilities associated with server administration and management.
+- Describe the benefits of automation management.
+- Identify the need for policies governing of IT systems.
+- Identify the need to train users on IT systems and policies.
+- Describe the similarities and differences between Windows and Unix-class systems.
+- Network using TCP/IP.
+- Create and manage users and groups.
+- Modify the configuration of an operating system.
+- Analyze the advantages and disadvantages of installing patches.
+- Install system patches.
+Effective as of Winter 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

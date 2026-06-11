@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/environmental-drone-applications-rpas-0110/
+Title: Environmental Drone Applications RPAS 0110
+Type: Course
+Course Code: RPAS 0110
+
+================================================================================
+
+## Environmental Drone Applications RPAS 0110
+Remotely Piloted Aircraft Systems Course
+## Course Overview
+​This course introduces students to Transport Canada RPAS regulations, site assessment, mission planning and a wide range of RPAS applications. Students will collect color, multi-spectral and thermal photogrammetric images and apply structure-from-motion processing to generate sparse and dense point clouds, 3D textured models, digital surface models (DSM) and rectified orthomosaics.​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon sucessful completion of this course, the student will be able to:
+- Recall main RPAS components and their function.
+- Understand RPAS history and main applications.
+- Understand and implement Transport Canada regulations to the safe operation of RPAS.
+- Recall pertinent laws and regulations relating to RPAS operations.
+- Recall normal and emergency RPAS procedures pertinent to mission planning.
+- Demonstrate the ability to perform the correct emergency procedure in the event of a specific failure and/or situation.
+- Understand how to check and adjust RPAS parameters and fail-safe settings.
+- Demonstrate on how to setup an RPAS for image acquisition.
+- Identify the main components of a site survey.
+- Use the appropriate software applications to help conduct a site survey.
+- Design a flight plan for the successful acquisition of multi-spectral imagery of a forest stand.
+- Understand electro-magnetic radiation theory as it pertains to cameras and sensors.
+- Differentiate between passive and active sensors.
+- Describe characteristics common to multi-spectral sensors.
+- Recall Air photo basics.
+- Understand how multi-spectral and thermal sensors are applied in industry for a variety of uses.
+- Differentiate between non-radiometric and radiometric thermal images
+- Recall NDVI equation and applications
+- Demonstrate the ability to correctly setup a multi-spectral and thermal sensor in preparation for image capture.
+- Configure multispectral sensor and apply mission planning techniques to capture a sample dataset.
+- Recognize the steps required to import and align drone imagery.
+- Distinguish between the various point filtering methods.
+- Explain the basics of structure from motion.
+- Articulate how depth maps and dense clouds are created.
+- Recall the steps to generate digital surface model (DSM) from depth maps or dense clouds.
+- Differentiate between digital surface and digital terrain (DTM) models.
+- List the input requirements for orthophoto generation.
+- Recall the steps required to generate a regular and true orthophoto.
+- Identify the main types of orthophoto problems and their solutions.
+- Review thermal energy, sensor, and image characteristics.
+- Describe thermal image calibration & standardization.
+- Describe thermal image calibration & standardization.
+- Differentiate between non-radiometric and radiometric thermal images.
+- Recall various thermal image applications
+- Apply techniques to generate a radiometric thermal orthomosaic.
+- Describe the main functions of a GIS.
+- Characterize different types of input into a GIS.
+- Describe the functionality of a raster calculator.
+- Contrast between the two main types of approaches to image classification.
+- Describe the process of classification validation.
+- Explain how to create a normalized difference vegetation index (NDVI) using multi-spectral orthomosaics.
+- Describe the applications of profile orthomosaics.
+- Describe image variance and its application to the assessment of point cloud accuracy.
+- Explain hill shade models and their applications.
+- Summarize the application of point cloud segmentation.
+- Recall the steps for creating and applications of textured 3D models.
+- Explain how to compute volume calculations and generate reports
+- Fundamentals of the application of RPAS to wildfire management
+- Use GIS to analyze multi-spectral orthomosai.
+- Apply the raster calculator to create an NDVI.
+Effective as of Winter 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

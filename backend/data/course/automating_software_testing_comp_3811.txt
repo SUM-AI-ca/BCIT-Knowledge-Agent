@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/automating-software-testing-comp-3811/
+Title: Automating Software Testing COMP 3811
+Type: Course
+Course Code: COMP 3811
+
+================================================================================
+
+## Automating Software Testing COMP 3811
+Computer Systems Course
+## Course Overview
+This hands-on lab course follows on from COMP 3616 -Practical Software Testing and is aimed at those who already understand the Software Development Live Cycle (SDLC) and Quality Assurance (QA) in testing. Students, or those who have recently entered the software testing field, will learn appropriate strategies for planning an evolving automated software testing system, paying particular attention to industry standards and best practices. Topics include: constructing a framework, scripting techniques, automated comparison, test architecture, pre/post-processing, test maintenance, and metrics for the specific job. Relevant case studies are used along with 'Micro Focus Silk Test' and 'AutoIT' testing tools. Successful participants will learn to conduct automated software testing and report results to industry standards. (3 Credits)
+### Prerequisite(s)
+- COMP 3616 or equivalent industry experience.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand the rationale for automated software testing.
+- Examine the advantages for automated software testing.
+- Examine the disadvantages for automated software testing.
+- Explore and choose the appropriate tools for automated software testing.
+- Write, execute and maintain automated test scripts to industry standards.
+- Develop the framework and scripts for a small automated software testing project.
+- Automate an existing manual test system (time permitting).
+- Collect measurements, analyse results and assess progress.
+- Understand industry standards for communicating software test results.
+Effective as of Fall 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

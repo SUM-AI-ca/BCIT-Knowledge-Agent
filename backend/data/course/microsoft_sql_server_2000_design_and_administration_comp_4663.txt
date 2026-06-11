@@ -1,0 +1,24 @@
+URL: https://www.bcit.ca/courses/microsoft-sql-server-2000-design-and-administration-comp-4663/
+Title: Microsoft SQL Server 2000 Design and Administration COMP 4663
+Type: Course
+Course Code: COMP 4663
+
+================================================================================
+
+## Microsoft SQL Server 2000 Design and Administration COMP 4663
+Computer Systems Course
+## Course Overview
+Continuing from COMP 1630 , students who already understand RBDMS theory, data modelling and SQL programming are provided with an in-depth understanding of designing, implementing and fine-tuning Microsoft SQL 2000 Server databases. Topics include: architecture overview, advanced queries and views, tutorial on SQL Server utilities, transactions, optimization and monitoring performance.There will be emphasis on Transact-SQL, and students will be given advanced topics and exercises on functions (both built in and user defined), cursors, stored procedures, and triggers.This course helps prepare the MS Certified Database Administrator (MCDBA) and an elective for the MCSE (Exam# 70-229). Please Note: There is also a series of MS SQL 2005 courses starting with COMP 4677 .
+### Prerequisite(s)
+- 50% in COMP 2712
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Set up and design a database using SQL Server 7.0.
+- Create tables, Manage tables.
+- Optimize performance through the use Indexes.
+- Create stored procedures and triggers.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

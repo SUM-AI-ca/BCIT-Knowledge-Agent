@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/linear-algebra-for-civil-engineering-math-4422/
+Title: Linear Algebra for Civil Engineering MATH 4422
+Type: Course
+Course Code: MATH 4422
+
+================================================================================
+
+## Linear Algebra for Civil Engineering MATH 4422
+Mathematics Course
+## Course Overview
+This course provides an introduction to linear algebra. Civil engineering applications are emphasized including: matrix analysis of trusses, equilibrium and stiffness matrix methods, stress transformations and directions of stress, and vibrational frequencies for dynamic systems. Use of computer software to perform calculations for more physically realistic problems is emphasized throughout the course.
+### Prerequisite(s)
+- MATH 2422
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate working familiarity with the basics of matrix algebra:
+- Addition and scalar multiplication.
+- Matrix multiplication.
+- Identity, transpose, adjoint, triangular and row echelon matrices.
+- Elementary row operations.
+- Similar matrices.
+- Solve independent and determinate systems of linear equations using:
+- Gauss-Jordan Elimination.
+- Inverse matrix techniques.
+- Use vector products.
+- Apply matrix algebra to investigate truss stability.
+- Apply matrix algebra to analyze simple loaded trusses.
+- Apply matrix transformations
+- Use the Stiffness Matrix method to analyse a loaded planar truss and determine the displacement of the joints under load and all internal axial forces.
+- Rotate vectors and matrices and apply this to i) rotating a stress matrix and ii) to transforming between a member local rotated coordinate system to a global coordinate system.
+- Calculate the direction of principle stress or a vibrational frequency using eigenvalues and eigenvectors.
+- Diagonalize a matrix/system of equations using a similarity transformation.
+- Use spreadsheet and other software to numerically analyze linear algebra problems.
+Effective as of Winter 2008
+## Related Programs
+Linear Algebra for Civil Engineering (MATH 4422) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Construction and the Environment
+- Civil Engineering Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

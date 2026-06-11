@@ -1,0 +1,186 @@
+URL: https://www.bcit.ca/outlines/20243030594/
+Course: MATH 1751
+Field: Technical Mathematics for Nuclear Medicine
+Subject: Mathematics
+Term: 202430
+CRN: 30594
+
+================================================================================
+
+## Course Outline
+## MATH 1751
+## Technical Mathematics for Nuclear Medicine
+School | School of Health Sciences
+Program | Nuclear Medicine
+Course Credits | 4
+Minimum Passing Grade | 65%
+Start Date | September 03, 2024
+End Date | December 13, 2024
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture/Lab
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 30594
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Kim Nishimura
+E-mail | Kim_Nishimura@bcit.ca
+Location | SW2 231
+Office Hours | Primary Instructor: Kim Nishimura, P.Eng. (Non-practising) Office: SW2 231 Phone: 604-451-7173 Office Hours: As posted E-mail: Kim_Nishimura@bcit.ca | Kim Nishimura, P.Eng. (Non-practising) | Office: SW2 231 | Phone: 604-451-7173 | Office Hours: As posted | E-mail: Kim_Nishimura@bcit.ca
+### Course Description
+Emphasizes the integration of problem solving strategies with mathematical and calculator skills in the context of relevant nuclear medicine applications. Topics include unit conversions (Ci to Bq), ratio/proportion (radiation), logarithms, exponential growth and decay (physical, effective, biological half-lives, transmission of shielded radiation), graphing techniques (logarithmic), appropriate curve fitting (least squares), curve stripping, introduction to differential and integral calculus and first order differential equations (decay formulae) and an introduction to descriptive statistics including data presentation, observational and randomized-controlled studies, paired, retrospective and prospective studies.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+### Unit 1: Review of Algebra Skills and Applications of Linear Functions, Cartesian Graphing, Least Squares.
+- Define the rules governing precision and accuracy.
+- Use significant figures correctly.
+- Manipulate literal equations.
+- Perform given algebraic operations synthesizing algebraic skills.
+- Calculate percentage from given information.
+- Formulate and solve simple word problems involving percentages.
+- Recall the theory related to fluid flow and mixture problems and the methods for formulating and solving equations for one or two unknowns.
+- Recall the rules for radicals, quadratic equations, exponents and scientific notation and apply these in algebraic expressions.
+- Review linear functions graphically and algebraically.
+- Construct two linear equations and solve them from the context of a word problem.
+- Construct a line of fit from experimental data.
+- Explain linear regression and the construction of the line of best fit.
+- Perform the necessary computations for the above with the aid of a calculator with and without double entry procedures.
+- Describe other methods of polynomial curve fitting.
+### Unit 2: Ratio and Proportion
+- Review the definitions and formulae related to ratios, direct and indirect variation, and constants of proportionality.
+- Demonstrate and explain the relationship between area and linear dimensions in similar figures.
+- Demonstrate the inverse square law in terms of intensity of light and radiation from a point source.
+- Apply the knowledge of ratios and proportions to the solution of relevant applied problems.
+### Unit 3: Review of Functions (Logarithmic and Exponential)
+- Identify the properties of common and natural logarithms and practice them to a state of mastery.
+- Discuss models of radioactive decay, formula equivalency, and physical half-lives.
+- Formulate and solve, using logarithms, word problems which require the solution of one or more variables.
+### Unit 4: Physical, Biological, and Effective Half-Lives and Half-Value Layers
+- Define external and internal dosimetry.
+- Derive the formula relating biological to physical and effective half-life.
+- Explain mean-life and intuitively develop its formula.
+- Explain the formula for exposure rate shielded and unshielded.
+- Demonstrate the parallel in formulae between intensity of radiation, and half-value thickness to those for radioactive decay.
+- Explain the difference between mass and linear attenuation coefficient formulae.
+- Apply the knowledge and construction of these formulae to typical problems involving dose, half-life, and half-value thickness calculations.
+### Unit 5: Graphical Analysis Utilizing Logarithmic Graph Papers
+- Demonstrate how exponential functions are linearized on semi-log paper.
+- Demonstrate how power functions are linearized on log-log paper.
+- Explain and practice the determination of appropriate numbers of cycles to be utilized on logarithmic paper.
+- Identify a function type and select appropriate graph paper to linearize this function.
+- Utilize a variety of graph papers and variables in determining requested information from the graph (e.g., half-lives, doses).
+- Demonstrate and practice the method of least squares by appropriately transforming the variables.
+### Unit 6: Curve Stripping
+- Relate the ideas behind tracer kinetics in terms of a steady state system and tracer methodology.
+- Graph, on semi-log paper, the activity over two compartments over time as determined by a single probe.
+- Describe and employ the method of curve stripping to resolve the information into the individual rates of change and ultimately the two exponential formulae governing the overall input.
+### Unit 7: Calculus and Its Place in Nuclear Medicine
+- Relate intuitively, the idea of a derivative, graphically in terms of instantaneous rate of change.
+- Explain and practice the product, quotient, and chain rule methods for differentiating logarithmic and exponential functions.
+- Apply these methods to rate of metabolism and illuminance.
+- Develop the application of differential calculus (instantaneous rates of change, maxima and minima) to a variety of topics including:
+- Velocity of a protein band in electrophoresis.
+- Velocity of blood in an artery (Poiseuille's Law).
+- Maximum concentration of drug in the blood stream.
+- Drug sensitivity.
+- Measuring blood flow to limb.
+- Maximum daughter nuclei.
+- Develop intuitively the ideas of integral calculus including anti-differentiation of algebraic, logarithmic, and exponential functions.
+- Apply the techniques of integral calculus to determine when a patient will be drug free given the rate of clearance of the drug.
+- Discuss first-order differential equations as they apply to the following applications:
+- Derivation of the decay formulae.
+- Model for distribution of drug in tissues.
+- Estimation of activity of waste in storage.
+- Practice solutions to simple first-order differential equations.
+- Discuss intuitively the idea of a definite integral and its relationship to curve area and mean value.
+- Show how definite integrals can be used to derive the formula for cumulated activity from an absorbed dose over time.
+### Unit 8: Introduction to Statistics
+- Define statistics, population, sample.
+- Examine random versus other types of sampling.
+- Discuss reasons for sampling.
+- Relate and discuss, using actual health care studies, the concepts and implications of: randomized controlled vs. observational studies, retrospective vs. prospective studies, placebo and placebo effect, confounding factors and double blind experiments.
+- Define and contrast descriptive and inferential statistics.
+- Identify appropriate questions to ask when initially judging the validity of a study.
+- Evaluate health care examples which encourage critical thinking.
+### Unit 9: Descriptive Statistics
+- Define and contrast the measures of central tendency: mean, median and mode.
+- Calculate each of the above for both raw and grouped data.
+- Define and contrast the measures of dispersion, range and standard deviation.
+- Calculate each of the above from raw and grouped data.
+- Describe Tchebysheff's (aka Chebyshev's) Theorem and the Empirical Rule and their importance to the practical significance of the standard deviation - calculate a weighted mean and its relationship to the mean for grouped data.
+***Any statistics topics above not covered in MATH 1751 will be covered in MATH 2751.
+### Learning Resources
+Required :
+- Lecture Notes to Accompany MATH 1751 (by Kim Nishimura)
+- A scientific calculator with statistical functions ; recommended models: Sharp EL-520X or Sharp EL-546X. TI-83Plus/TI-84Plus calculators are fine for this course and others in your program but programmable calculators are NOT permitted on the national exams.
+References :
+Material for tests, assignments, worksheets and lecture will be drawn as appropriate from issues of such periodicals as the Journal of Nuclear Medicine Technology, Diagnostic Imaging, Radiation Today and the Journal of Nuclear Medicine. Some examples follow.
+- Biodistribution and Radiation Dosimetry of the Amyloid Imaging Agent 11 C-PIB in Humans, Scheinin et al, Journal of Nuclear Medicine , Vol. 48, No. 1, Jan 2007.
+- Changes in Cerebral Blood Flow Detected by SPECT in Type 1 and Type 2 Diabetic Patients, Kaplar et al, Journal of Nuclear Medicine, Vol. 50, No. 12, Feb. 2009
+- Establishment of a National Program for Quality Control of Nuclear Medicine Instrumentation, Perez et al, Journal of Nuclear Medicine Technology , Vol. 36, No. 4, Dec 2008.
+- Essential Role of Nuclear Medicine Technology in Tositumomab and 131 I-tositumomab Therapeutic Regiment for Non-Hodgkin’s Lymphoma , Cole et al, Journal of Nuclear Medicine Technology, Vol. 34, No. 2, June 2006.
+- In Vivo Tumor Grading of Prostate Cancer Using Quantitative 111 In-Capromab Pendetide SPECT/CT, Seo et al, Journal of Nuclear Medicine, Vol. 51 No. 1, Jan 2010.
+- Arterial Wall Dosimetry for Non-Hodgkin Lymphoma Patients Treated with Radioimmunotherapy, Hobbs et al, Journal of Nuclear Medicine , Vol. 51, No. 3, March 2010.
+- Radiation Dosimetry of β-Amyloid Tracers 11 C-PiB and 18 F-BAY94-9172, O’Keefe et al, Journal of Nuclear Medicine , Vol. 50, No. 2, Feb 2009.
+- Log Normal Distribution of Cellular Uptake Radioactivity: Implications for Biologic Response to Radiopharmaceuticals, Neti et al, Journal of Nuclear Medicine, Vol. 47, No. 6. June 2006.
+### Course Goals
+The goals of this course are to:
+- integrate problem solving strategies with mathematical and calculator skills in the context of relevant nuclear medicine applications.
+- develop the problem solving/mathematical/calculator skills required for success in other courses within the Nuclear Medicine Program.
+- be able to read medical literature such as texts, reports, journals (e.g., Journal of Nuclear Medicine Technology) which involve mathematical discussions or formula derivations with increased understanding.
+- appreciate problem solutions rather than answers alone as an important communication tool.
+### Evaluation Criteria
+Criteria | % | Comments
+Final Examination | 30 | Minimum passing grade is 65%
+Term Tests (2, each worth 25%) | 50
+Assignments (6) | 20
+Total | 100
+### Course Specific Requirements
+Assignments: Late assignments will not be accepted for marking. Collaboration for the purpose of enhancing learning is encouraged. Students will be given one week to complete all assignments. If you use generative AI tools, you must acknowledge use. Undeclared use of the tool/technology is considered a violation of the academic integrity policy. You must document use and the prompts used to generate the results. You must also evaluate the output for accuracy, make the necessary corrections and add citations as required.
+Makeup Tests, Exams or Quizzes: There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for documented medical reasons or extenuating circumstances. In such a case, it is the responsibility of the student to inform the instructor immediately.
+Course Credit: To achieve course credit for Math 1751, students must have B or better in a recently-taken science based calculus course and must agree to audit and do assignments in selected applied sections of Math 1751.
+### Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist .
+### Course Schedule and Assignments
+Assignment | Material Covered | Due Date
+1 | Math Review and Linear Regression | Week of Sept 9
+2 | Proportion, Logs and Exponents | Week of Sept 23
+3 | Dosimetry | Week of Oct 7
+4 | Log Graphing and Curve Stripping | Week of Oct 28
+5 | Derivatives | Week of Nov 4
+6 | Differential Equations and Definite Integrals | Week of Nov 18
+### Course topics
+Unit (No. of Hrs) | Material Covered
+Unit 1 (4 hours) | Review of Basic Algebra Skills and Applications, Linear Functions, Cartesian Graphing, Least Squares Method Review is to be done primarily by students before they arrive using the material previously distributed. Highlights only will be reviewed in class Theory and Application of Lines of Best Fit Discussion of Polynomial Curve Fitting + Graphing Assignment 1
+Unit 2 (2 hours) | Ratios and Proportions
+Unit 3 (8 hours) | Review of Logarithmic and Exponential Functions Assignment 2
+TEST # 1 (mid October)
+Unit 4 (4 hours) | Physical, Biological, Effective Half‑Lives and Half‑Value Layers Assignment 3
+Unit 5 (5 hours) | Graphical Analysis Utilizing Logarithmic Papers
+Unit 6 (3 hours) | Curve Stripping Assignment 4
+Unit 7 (16 hours) | Calculus and its Place in Nuclear Medicine Concept of Derivative, Rates of Change, Applications Including Max, Min. Concept of Integration, First Order Differential Equations and Applications Assignments 5 and 6
+TEST #2
+Unit 8 (3 hours) | Introduction to Statistics Misuse, experimental design
+Unit 9 (5 hours) | Descriptive Statistics As time permits, to be continued in 2751
+(2 hours) | Review for Final Examination
+(2 hours) | FINAL EXAMINATION
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
+Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Kim Nishimura, Instructor July 24, 2024
+I verify that this course outline has been reviewed. David Holloway, Program Head July 29, 2024
+I verify that this course outline has been reviewed. Thomas Wong, Program Head August 07, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean August 23, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

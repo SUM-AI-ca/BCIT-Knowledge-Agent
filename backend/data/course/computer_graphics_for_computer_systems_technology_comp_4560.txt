@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/computer-graphics-for-computer-systems-technology-comp-4560/
+Title: Computer Graphics for Computer Systems Technology COMP 4560
+Type: Course
+Course Code: COMP 4560
+
+================================================================================
+
+## Computer Graphics for Computer Systems Technology COMP 4560
+Computer Systems Course
+## Course Overview
+Covers basic operations in two-and three-dimensions, including the mathematical representation of basic geometric objects, definition of coordinate systems and mappings, transformations, simple animation, and viewing. Transformations and projections are presented in a matrix formulation. The course also introduces lighting models, colour models and methods for constructing curves.
+### Prerequisite(s)
+- (50% in COMP 2510 or 50% in COMP 2526 ) and 50% in COMP 1113
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe major areas of application of computer graphics with specific examples of the role of graphic images in each case.
+- Describe and/or define basic graphical video mode features: pixels, resolution, colour capability, and their influence on memory requirements and system performance in general (as opposed to text modes); describe the general differences between various standard graphical video modes (CGA, EGA, VGA, SVGA, etc.).
+- Distinguish between notions of windows, viewports, device coordinates, object coordinates, and related ideas.
+- List and describe the sorts of functionality common to most libraries of graphics functions.
+- Describe the mathematical representation of fundamental graphical 'objects' (points, lines, polygons, circles, ellipses, general planar curves, polyhedra, general surfaces) including use of parametric representations.
+- Demonstrate the derivation of the equation of a straight line in point-intercept form in 2D; and in symmetric form and parametric form in 2D and 3D.
+- Demonstrate how to find the point of intersection between two straight lines in 2D and a straight line and a given plane in 3D.
+- Describe the application of the parametric form of the equation of a straight line (in 2D or 3D) to implementing 'tweening' or morphing of one shape into another smoothly.
+- Distinguish between ordinary 2D or 3D coordinates of a point and the corresponding homogeneous coordinate of that point; explain the value of formulating geometric transformations in terms of homogeneous coordinates, and interpret the value of the homogeneous coordinate.
+- Demonstrate the matrix formulation of the basic transformations of translation, rotation about the origin, scaling with respect to the origin, reflection with respect to a coordinate axis or plane, and shearing in 2D and 3D; and demonstrate how these basic transformations can be combined to allow rotation about any point and scaling with respect to any point in the plane (3D space) and reflection with respect to any line (parallel to a coordinate axis) or plane (parallel to a coordinate plane) in the 2D/3D, respectively.
+- Give examples of the details of more complicated sequences of transformations composed of basic transformations (e.g., rotation about an arbitrary axis in 3D, reflection with respect to an arbitrary line or plane in 2D/3D, the robot-arm problem).
+- Formulate sequences of basic matrix transformations to achieve some specific combination of relocation and modification of a specified shape in 2D/3D.
+- Describe procedures for rendering images of 3D objects on the 2D video screen, including production of wireframe representations, solid face representations (polygonal faces only), use of various projection approaches (parallel, oblique, perspective), formulating the projections as matrix transformations.
+- Distinguish between vectors and scalars and carry out basic vector operations in 2D/3D, including computation of sums/differences of vectors, angles between two vectors, lengths of vectors, normalization of vectors, the dot and cross products, resolving a vector into parallel/perpendicular components with respect to another vector.
+- Describe and implement the simple 'synthetic camera' approach to rendering images described by vertices, straight-line edges, planar faces.
+- Describe approaches to creating stereographic images.
+- Describe an implement basic approaches to hidden surface removal in the context of the synthetic camera model (removal of away-oriented faces and associated edge lines for convex shapes; use of the heedless painter algorithm).
+- Describe approaches to coding/storing information necessary to manipulate and render images of objects determined by vertices, straight (and perhaps curved) edges, planar faces.
+- Describe the basic features of a simple lighting model, including the physical principles behind the ideas of ambient, diffuse, and specular illumination components, and explain how these effects are modelled mathematically.
+- Describe various common colour models (RGB, HSV, HSL, etc.) and their use and application in computer graphics.
+- Explain the disadvantages of fitting polynomial curves through specified sequence of points as a method for producing plane or space curves.
+- Describe the principle behind de Casteljau's approach to curve generation, the generalization of this idea to simple n-point Bezier curves, the important properties of a Bezier curve that make it a useful approach for generating empirial curves/surfaces.
+- Demonstrate the construction of a simple n-point Bezier curve in a plane.
+- Define the concept of a fractal in general terms, describe methods of generating several simple fractal types (Mandelbrot/Julia sets, iterated function systems, Sierpinski triangles, Barnesley's chaos game, etc.).
+- Describe the basic ideas of constructive solid modelling and demonstrate the basic principles with a variety of simple shapes.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

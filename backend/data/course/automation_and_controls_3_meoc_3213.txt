@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/automation-and-controls-3-meoc-3213/
+Title: Automation and Controls 3 MEOC 3213
+Type: Course
+Course Code: MEOC 3213
+
+================================================================================
+
+## Automation and Controls 3 MEOC 3213
+Marine Engineer Officer Cadet Course
+## Course Overview
+This course covers Programmable Logic Controllers (PLCs) and their applications on ships. Students will develop control programs for marine applications on a PC using industrial software, connect process control sensors to PLC, transfer, test, and troubleshoot their programs on PLC. Tune a PID controller to maintain water level in a tank. Networking PLCs and protocols, alarm monitoring and interfacing, calibrating, troubleshooting and connecting process control sensors, and signal conversion analog to digital and digital to analog conversion. Testing and connecting silicone controlled rectifiers (SCRs), MOSFETS, IGBTs, and their application in power electronics.
+### Prerequisite(s)
+- Successful completion of Term 5.
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Build marine control programs on a PC and download and test the program on an industrial PLC.
+- Tune a tank level PID controller to maintain level with varying load demands.
+- Calibrate process sensors used on ships.
+- Connect process control sensors to PLC and test the sensors.
+- Describe different types of input and output modules required to interface field devices to a PLC.
+- Convert digital signals to analog and convert analog signals to digital.
+- Test a silicone controlled rectifier (SCR) and build a simple control circuit using an SCR to control a motor.
+- Connect a MOSFET to control the speed of a DC motor or the position of a linear actuator.
+- Identify and test electronic devices: SCR, MOSFET, and IGBT.
+- Connect and configure a PLC to a network in an electrical lab and control a remote PLC.
+Effective as of Winter 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

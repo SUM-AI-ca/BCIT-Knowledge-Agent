@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20261091486/
+Course: OPMT 1120
+Field: Statistics for Business
+Subject: Operations Management
+Term: 202610
+CRN: 91486
+
+================================================================================
+
+## Course Outline
+## OPMT 1120
+## Statistics for Business
+School | School of Business + Media
+Program | BMGT and HRMG
+Course Credits | 4.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 68
+Total Weeks | 15
+Hours/Weeks | 4.53
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 91486
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Sam Choo
+E-mail | sam_choo@bcit.ca
+Location | SE6-316
+Office Hours | Please refer to my office hours here
+### Course Description
+​Includes descriptive statistics, including numerical and graphical presentation of data, measures of central tendency, dispersion and elementary probabilities. Introduction to several discrete and continuous probability distributions. Introduction to inferential statistics through selected topics such as sampling, confidence limits of the mean, hypotheses testing, and the chi-squared test for independence.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Discuss the value of statistical information in a variety of business disciplines and work environments.
+- Assess statistical information portrayed in the media, work and educational environments.
+- Organize and analyze quantitative data.
+- Use MS Excel to process and analyze statistical data.
+- Calculate descriptive statistics measures such as the mean, weighted mean, median, mode, standard deviation, coefficient of variation and variance.
+- Use graphical techniques to present data in such a manner that it is understood by and meaningful to colleagues and clients.
+- Analyze data presented in frequency distributions, histograms and boxplots.
+- Apply the common rules of probability to evaluate business alternatives.
+- Analyze and calculate probabilities for Binomial, Poisson, Uniform and Exponential probability distributions.
+- Calculate expected values and standard deviations for random variables.
+- Construct and interpret a confidence interval estimate for a single population mean using both the standard normal and t distributions.
+- Establish and interpret a confidence interval estimate for a single population proportion.
+- Determine the required sample size for estimating a single population mean or proportion.
+- Carry out an appropriate hypothesis test on a single population mean or proportion.
+- Interpret the p-value of the test statistic.
+- Carry out a hypothesis test comparing two population means or proportions.
+- Construct a contingency table and perform a chi squared test of independence.​
+### Learning Resources
+- Microsoft Excel. Please bring your laptop to the lecture and lab. Mac Version is not recommended, and I cannot offer technical support.
+- Recommended textbook : Essentials of Business Statistics 1 st Canadian Edition by Ken Black, Ignacio Castillo, Amy Goldlist and Timothy Edmunds. Publisher: Wiley
+### Evaluation Criteria
+Lab Quizzes (weekly) Homework (weekly) Tests #1 Test #2 Test #3 Final Exam | 10% 5% 15% 15% 15% 40%
+TOTAL | 100%
+### Course Schedule and Assignments
+Week of | Topic
+Jan 5 | Intro to stats Lecture 1: Measures of central location: Mean, median, mode and weighted mean. Lecture 2: Measures of variation: Range, standard deviation, variance, coefficient of variation
+12 | Lecture 3: Constructing frequency distributions, histograms, percentiles, quartiles, and box plots. Shapes of distributions (skewed right, left, and symmetrical) Lecture 4: Basic probability rules: addition, multiplication. rules, union, intersection, mutually exclusive and independent events. Conditional probability
+29 | Lecture 5: Contingency tables Lecture 6: Expected values and standard deviations of random variables.
+26 | Lecture 7: Binomial probability Distribution (Discrete) Lecture 8: Poisson probability distribution (Discrete)
+Feb 2 | Test # 1 (Feb 2, Mon) Lecture 1 to 6 (worth 15%) Lecture 9: Exponential probability distribution (Continuous) Lecture 10: Uniform probability distributions. (Continuous)
+9 | Lecture 11: Z-scores and Normal probability distribution (Continuous). Applications using the normal distribution. Lecture 12: Distribution of the sample means, central limit theorem.
+16 | No class on Feb 16 (Family Day) Lecture 13: Confidence intervals: estimation for population means (σ known) and finding sample size Confidence Intervals: Estimation for population means (σ unknown), t-distribution and finding sample size.
+23 | Lecture 14: Sampling distribution of sample proportions. Confidence Intervals: Estimation of population proportions and finding sample size.
+Mar 2 | Review for Test 2 and catch up Test #2 (Mar 4, Wed) Lecture 7 to 14 (worth 15%)
+9 | Spring Break
+16 | Lecture 15 & 16: Hypothesis Testing for Single Population: -Null and alternative hypotheses. Type I, Type II errors -One and two-tailed tests about a population proportion. p-values -One and two-tailed tests about a population mean. p-values
+23 | Lecture 17: Hypothesis Testing for Two Populations means: Unpaired Means (two independent groups) Paired means
+30 | Lecture 18: Hypothesis Testing for Two Population proportions. Lecture 19: Chi-square (χ 2 ) test of independence, contingency tables
+Apr 6 | No class on Apr 6 (Easter Monday) Test # 3 (Apr 8, Wed) Lecture 15 to 19 (worth 15%)
+13 | Catch up and Review for Final Exam
+20 | FINAL EXAMINATION (TBD, Comprehensive, worth 40%)
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Sam Choo, Program Head December 13, 2025
+I verify that this course outline has been reviewed. Phil Ramer, Associate Dean December 15, 2025
+I verify that this course outline has been reviewed. Mary Ho, Program Head December 18, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Phil Ramer, Associate Dean December 19, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

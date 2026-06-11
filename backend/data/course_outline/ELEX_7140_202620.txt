@@ -1,0 +1,113 @@
+URL: https://www.bcit.ca/outlines/20262070552/
+Course: ELEX 7140
+Field: Semiconductor Theory and Applications
+Subject: Electrical and Computer Engineering
+Term: 202620
+CRN: 70552
+
+================================================================================
+
+## Course Outline
+## ELEX 7140
+## Semiconductor Theory and Applications
+School | School of Energy
+Program | Bachelor of Technology (BTech) in Electronic
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | April 20, 2026
+End Date | July 27, 2026
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in ELEX 7040
+CRN | 70552
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Shawn Sederberg
+E-mail | Instructor to provide
+Location
+Office Hours | Instructor to provide
+### Course Description
+This course is an introduction to semiconductor and electronic devices. Crystal properties of semiconductor materials will be described. After a review of the Bohr model and quantum mechanics Schrodinger equation will be solved. Energy bands and charge carriers in semiconductors will be described. Theory of forward-and reverse-biased p-n junction and transistor will be presented. Operation of field effect transistor will be explained. There will be experiments to relate theory to the electronic devices.
+### Course Learning Outcomes/Competencies
+At the completion of the course the student should be able to do the following:
+- Explain semiconductor crystal lattices and be able to build a model.
+- Describe model of an atom.
+- Describe quantum mechanics and Schrodinger wave equation.
+- Describe atomic structure, describe energy bands and charge carriers in semiconductors.
+- Explain carrier concentrations and Fermi level.
+- Explain drift and diffusion carriers.
+- Describe theory of forward and reverse biased p-n junction and transistors.
+- Explain operation of a field-effect transistor.
+### Learning Resources
+- Textbook: Semiconductor Physics and Devices: Basic Principles (4th Edition), Donald Neamen, McGraw Hill, 2011. (ISBN: 9780073529585)
+- Scientific calculator.
+- A computer with basic office software, Matlab or Python, and internet access.
+- If special circumstances make remote learning necessary, a computer with a microphone and webcam will be required.
+### Evaluation Criteria
+Criteria | % | Comments
+Attendance/Quizzes | 10
+Midterm Exam | 25
+Labs | 20 | The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is required for a passing grade.
+Homework Assignments | 15
+Final Exam | 30
+### Attendance Requirements
+Attendance at every laboratory session is required.
+### Safety equipment or protective clothing
+Safety equipment or protective clothing may be required for certain lab exercises. Specific detials will be communicated to students at least one week before each lab exercise.
+### Course Schedule and Assignments
+Tentative Lecture Schedule
+Session # | Date | Lecture Topics | Suggested Textbook Reading
+1 | April 20 | Course overview, crystallography | Chapter 1
+2 | April 27 | Intro. to quantum mechanics | Chapter 2
+3 | May 4 | Energy bands in solids, k-space diagrams, density of states | Chapter 3
+4 | May 11 | Intro. to statistical mechanics | Chapter 3
+5 | May 18 | Intrinsic and extrinsic semicondictors | Chapter 4
+6 | May 25 | Carrier drift and diffusion | Chapter 5 (5.1-5.2)
+7 | June 1 | Excess charge carriers | Chapter 6
+8 | June 8 | Midterm Exam
+9 | June 15 | pn junctions: zero bias and reverse bias | Chapter 7
+10 | June 22 | pn junctions: forward bias | Chapter 8
+11 | June 29 | Bipolar junction transistors: modes of operation, minority carrier distributions, currents | Chapter 12 (12.1-12.4)
+12 | July 6 | MOSFET: material interfaces, two-terminal MOS structure | Chapter 9, 10 (10.1-10.2)
+13 | July 13 | MOSFET: basic operation, current-voltage relationship, non-ideal effects | Chapter 10 (10.3, 10.4), Chapter 11 (11.1)
+14 | July 20 | Final Exam
+Tentative Lab Schedule
+***** Subject to change. Note that there may be an additional lab involving a site visit to a semiconductor prototyping and fabrication lab facilty. Students will be given notice. *****
+***** Lab reports will be due one week after the date of the lab exercise. *****
+Lab # | Lab Name | Location | Date | Times | Lab Instructor
+1 | Crystallography: Zinc blende model construction | TBD | May 9, 2026 | Set 1: 8:00am - 11:00am Set 2: 11:00am - 2:00pm | Hamed Sharif
+2 | Green synthesis of Ag nanoparticles | SW3-4680 | May 16, 2026 | Set 1: 8:00am - 11:00am Set 2: 11:00am - 2:00pm | Jimmy Lowe
+3 | PN junction diode characterization and theory | SW3-2955 | June 20, 2026 | Set 1: 8:00am - 11:00am Set 2: 11:00am - 2:00pm | Gary Wan
+4 | Gunn diode oscillator | SW1-3575 | June 27, 2026 | Set 1: 8:00am - 11:00am Set 2: 11:00am - 2:00pm | David Verner
+5 | MOSFET characterization and theory | SW3-2955 | July 11, 2026 | Set 1: 8:00am - 11:00am Set 2: 11:00am - 2:00pm | Gary Wan
+Tentative Assignment Schedule
+***** Assignment due dates may be adjusted to ensure better synchronization with the lecture material. *****
+Assignment # | Distribution Date | Topics Covered | Due Date
+1 | April 20, 2026 | Crystallographym quantum mechanics | May 11, 2026
+2 | May 4, 2026 | Statistical mechanics, semiconductors in equilibrium, drift and diffusion | June 1, 2026
+3 | May 25, 2026 | Excess charge carriers, pn junctions in zero and reverse bias | June 22, 2026
+4 | June 17, 2026 | PN Junctions in forward bias, BJTs | July 6, 2026
+5 | June 29, 2026 | BJTs, MOSFETs | July 17, 2026
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Shawn Sederberg, Instructor April 15, 2026
+I verify that this course outline has been reviewed. Gino Carrese, Program Head April 16, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology April 28, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

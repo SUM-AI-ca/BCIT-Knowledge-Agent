@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20253046822/
+URL: https://www.bcit.ca/outlines/20253045977/
 Course: EENG 8415
 Field: Industrial Air Pollution Prevention and Control
+Subject: Environmental Engineering
+Term: 202530
+CRN: 45977
 
-School: School of Construction and the Environment
-Program: Environmental Engineering Program
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 04, 2025
-End Date: December 11, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): 50% in EENG 7405 and 50% in EENG 7420
-CRN: 46822
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## EENG 8415
+## Industrial Air Pollution Prevention and Control
+School | School of Construction and the Environment
+Program | Environmental Engineering Program
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 04, 2025
+End Date | December 11, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in EENG 7405 and 50% in EENG 7420
+CRN | 45977
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Zahra Tooyserkani
-E-mail: ztooyserkani@bcit.ca
-Location: SW02-214 or online
-Office Hours: Thursdays 12 PM- 2 PM
-
-## Course Description
+### Instructor Details
+Name | Zahra Tooyserkani
+E-mail | Instructor to provide
+Location | SW02-214 or online
+Office Hours | Instructor to provide
+### Course Description
 ​This course provides an overview of different methods and technologies used to control the release of air pollutants from industrial sources. The different types of contaminants, including dangerous goods and hazardous wastes and the governing regulations are discussed. A particular emphasis will be given to combustion process and its material and energy balances in order to quantify emission rates. The basic design principles of the various technologies, their application and effectiveness in terms of energy consumption, multimedia impacts are discussed. Sustainable pollution prevention planning will be introduced. Cost analysis and economic considerations of the selected control techniques will be discussed through examples. The knowledge of fluid dynamics and gas laws are required for this course.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Discuss fundamental air pollution issues as they relate to industrial processes.
 - Discuss the approaches for minimization of hazardous waste and the application of techniques to reduce hazardous waste generation.
 - Carry out combustion material and energy balances.
@@ -38,66 +41,52 @@ Upon successful completion of this course, the student will be able to:
 - Evaluate industrial air pollution control options that are sustainable and effective in terms of energy consumption and multimedia impacts.
 - Justify the most appropriate strategies to enable sustainable pollution prevention planning.
 - Consider engineering cost-benefit analysis (CBA) in the selection of a control technique.
-
-## Learning Resources
+### Learning Resources
 • Detailed notes from the lectures • Course Manual • Posted material on the Learning Hub • Optional Textbook: Air PollutionControl Engineering, 2ndedition by Noel De Nevers, Mc Grow Hill
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments (3 x 10%): 30%
-Midterm Exam: 30%
-Final Exam: 40%
-Total: 100%
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments (3 x 10%) | 30%
+Midterm Exam | 30%
+Final Exam | 40%
+Total | 100%
 Students must achieve a minimum 50% of overall grade to pass this course
-
-## Other information
+### Other information
 - Students are permitted to use artificial intelligence tools, including generative AI, to gather information, review concepts. However, students are ultimately accountable for the work they submit, and any content generated or supported by an artificial intelligence tool must be cited appropriately.
 - Use of AI tools is not permitted on any assessed work or final submission for assignments or exams.
-
-## Course Schedule and Assignments
-Week/ Session: Outcome/Material Covered: Assigned Reading: Assignment Due
-1 Sep. 4: Introduction, Regulations and Trends: Course manual: Lecture #1
-2 Sep. 11: Pollution Prevention: Lecture #2 Readings
-3 Sep. 18: Combustion Processes, Material Balances: Course manual: Lecture #2
-4 Sep. 25: Combustion: Energy Balances: Course manual: Lecture #3, readings
-5 Oct. 2: Control Strategies, Options and Selection: Course manual: Lecture #4, readings: Assignment #1
-6 Oct. 9: Gravity and Cyclonic Particulate Removal: Course manual: Lecture #5, readings
-7 Oct. 16: Midterm Exam
-8 Oct. 23: Filtration and Baghouses: Course manual: Lecture #6, readings
-9 Oct. 30: Electrostatic Precipitation (ESP): Course manual: Lecture 7, readings
-10 Nov. 6: Stack sampling (A. Lanfranco Environmental Consultants): Assignment #2
-11 Nov. 13: Scrubbing – Particles and – Gaseous Pollutants Wet Scrubbers – Collection Mechanism and Types Venturi Scrubber Pressure Drop and Efficiency: Course manual: Lecture #8, readings
-12 Nov. 20: Scrubbing – Particles and – Gaseous Pollutants Advantages, Limitations and Applications Mechanism of Absorption; Packed Bed Scrubbers: Course manual: Lecture #8, readings
-13 Nov. 27: Industrial Tour: Assignment #3
-14 Dec. 4: NOx reduction Review
-15 Dec. 11: FINAL EXAM
-
-## BCIT Policy
+### Course Schedule and Assignments
+Week/ Session | Outcome/Material Covered | Assigned Reading | Assignment Due
+1 Sep. 4 | Introduction, Regulations and Trends | Course manual: Lecture #1
+2 Sep. 11 | Pollution Prevention | Lecture #2 Readings
+3 Sep. 18 | Combustion Processes, Material Balances | Course manual: Lecture #2
+4 Sep. 25 | Combustion: Energy Balances | Course manual: Lecture #3, readings
+5 Oct. 2 | Control Strategies, Options and Selection | Course manual: Lecture #4, readings | Assignment #1
+6 Oct. 9 | Gravity and Cyclonic Particulate Removal | Course manual: Lecture #5, readings
+7 Oct. 16 | Midterm Exam
+8 Oct. 23 | Filtration and Baghouses | Course manual: Lecture #6, readings
+9 Oct. 30 | Electrostatic Precipitation (ESP) | Course manual: Lecture 7, readings
+10 Nov. 6 | Stack sampling (A. Lanfranco Environmental Consultants) | Assignment #2
+11 Nov. 13 | Scrubbing – Particles and – Gaseous Pollutants Wet Scrubbers – Collection Mechanism and Types Venturi Scrubber Pressure Drop and Efficiency | Course manual: Lecture #8, readings
+12 Nov. 20 | Scrubbing – Particles and – Gaseous Pollutants Advantages, Limitations and Applications Mechanism of Absorption; Packed Bed Scrubbers | Course manual: Lecture #8, readings
+13 Nov. 27 | Industrial Tour | Assignment #3
+14 Dec. 4 | NOx reduction Review
+15 Dec. 11 | FINAL EXAM
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Zahra Tooyserkani, Instructor August 28, 2025
-
 I verify that this course outline has been reviewed. Olga Petrov, Program Head August 28, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean August 31, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

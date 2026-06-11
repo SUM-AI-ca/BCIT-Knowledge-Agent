@@ -1,0 +1,71 @@
+URL: https://www.bcit.ca/courses/statistics-for-nuclear-medicine-math-2751/
+Title: Statistics for Nuclear Medicine MATH 2751
+Type: Course
+Course Code: MATH 2751
+
+================================================================================
+
+## Statistics for Nuclear Medicine MATH 2751
+Mathematics Course
+## Course Overview
+Emphasizes statistical data treatment and decision making with illustrative nuclear medicine/health applications. Topics include data presentation, statistical aspects of research, concept of meta-analysis, modeling with probability distributions (Binomial, Poisson, Normal), Bayes Rule, receiver operating characteristic (ROC) analysis including both qualitative and quantitative data, statistical inference (estimation and hypothesis testing, p-values), regression and correlation. Applications include descriptive presentations, statistical quality control measures in laboratory work (CV, accuracy chi-squared test on scintillation spectrometer), predictive-value positive of tests, measurement error, using radioactive counts in estimation/testing, counting times and confidence banding.
+### Prerequisite(s)
+- MATH 1751
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe and construct a cumulative frequency distribution, ogive.
+- Determine measures of central tendency: mean, median and mode for grouped data.
+- Determine measures of dispersion, range and standard deviation for grouped data.
+- Calculate percentiles and quartiles, box and whiskers plots from cumulated data.
+- Discuss three types of measurement error (blunder, systematic, random) and their potential effects.
+- Calculate the coefficient of variation.
+- Explain the importance of the coefficient of variation in quality control work in precision studies.
+- Explain the difference between independent and dependent events, mutually exclusive and not mutually exclusive events, and the addition and multiplication rules in probability theory.
+- Formulate and solve practical problems involving a combination of probability rules.
+- Develop Bayes Rule from the conditional rule for probability.
+- Demonstrate understanding of false-positive, false-negative, sensitivity and specificity, predictive-value positive of tests.
+- Formulate and solve practical problems with Bayes Rule.
+- Create a receiver operating characteristic (ROC) curve using both qualitative and quantitative data and interpret.
+- Define a probability distribution.
+- Define and distinguish between continuous and discrete data.
+- Define the requirements for the Poisson model, its mean and standard deviation.
+- Discuss relevant applications from Nuclear Medicine using the Poisson model (e.g., percent uncertainty, counting rates, effects of background counts, CV modification).
+- Define the requirements for the Binomial model, its mean and standard deviation.
+- Demonstrate the use of the cumulative binomial tables for calculations.
+- Formulate and solve problems using the Binomial and Poisson Probability models.
+- Define z scores.
+- Demonstrate calculations using the normal curve tables.
+- Formulate and practice realistic problems using z scores.
+- Describe the astonishing results of repeated sampling and the Central Limit Theorem.
+- Define the terms sampling distribution and sampling error.
+- Define when the normal distribution is an appropriate approximation to the Binomial and Poisson Distributions.
+- Solve problems using these approximations.
+- Develop a confidence interval for a sample mean based on the results of the Central Limit Theorem.
+- Draw parallels between the sampling distribution of the sample means and three other sampling distributions (difference between means, difference between proportions and proportions) and their corresponding intervals.
+- Use the sampling error of the confidence interval for sample means and proportions to derive a formula for sample size.
+- Estimate required counting times to within a certain percentage uncertainty.
+- Define the null hypothesis, level of significance, alpha and beta errors and ramifications.
+- Apply the six steps on practical problems.
+- Define p-values as an alternative to an established level of significance.
+- Develop a confidence interval and hypothesis tests for radiological counts based on the Poisson model (e.g., differences between counting measurements, Minimum Detectable Activity [MDA]).
+- Demonstrate the relationship between a test of hypothesis and a control chart.
+- Demonstrate the use of t-tables.
+- Do tests of hypothesis for comparison such as Paired-Observation Tests vs. using Independent Random Samples.
+- Read selected journal articles and apply knowledge of hypothesis testing, confidence intervals and counting statistics.
+- Develop the procedure for testing the variance of the scintillation spectrometer from the principles of hypothesis testing (i.e., Is the machine functioning as it should?) and confidence intervals (i.e., an estimate of the way it is functioning based on the sample).
+- Demonstrate the use of the chi-squared tables based on the chi-squared probability distribution.
+- Apply the procedure using realistic data.
+- Recall the method of least squares and review applications involving linear, exponential and power functions.
+- Predict the dependent variable from the independent variable.
+- Discuss assumptions underlying the methods.
+- Discuss the sources of error in this prediction.
+- Construct a confidence band for the least squares line generated from sample data.
+- Calculate the correlation coefficient and the coefficient of determination.
+- Discuss the practical meaning of the correlation coefficient in terms of causation vs. association and for automated data reduction methods.
+- Formulate and solve practical problems using linear regression and correlation.
+- Read selected journal articles and apply knowledge of linear regression and correlation.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

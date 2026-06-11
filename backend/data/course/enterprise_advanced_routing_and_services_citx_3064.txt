@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/enterprise-advanced-routing-and-services-citx-3064/
+Title: Enterprise Advanced Routing and Services CITX 3064
+Type: Course
+Course Code: CITX 3064
+
+================================================================================
+
+## Enterprise Advanced Routing and Services CITX 3064
+Computer Information Technology Electronics Course
+## Course Overview
+This advanced course provides students with the in-depth knowledge to support the implementation and troubleshooting of advanced routing technologies and services in an enterprise environment. These devices and services facilitate the connection of devices, applications, and data through the internet and across other computer networks. Topics include Layer 3 VPN (Virtual Private Network) services, infrastructure security and infrastructure services used in enterprise networks as well as network performance optimization, route redistribution, and advanced tunneling technologies. Students will perform advanced configurations for routers and services to build and configure enterprise-level local area networks (LANs) and wide area networks (WANs) that use IPv4 and IPv6 advanced routing protocols such as Enhanced Interior Gateway Routing (EIGRP), Border Gateway (BGP) and Open Shortest Path First (OSPF).
+### Prerequisite(s)
+- 50% in CITX 3063
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement DHCP to operate across multiple LANs.
+- Implement EIGRP for IPv4 in a small to medium-sized business network.
+- Explain how advanced EIGRP features affect network performance.
+- Troubleshoot common EIGRP configuration issues.
+- Troubleshoot EIGRPv6 issues.
+- Explain how OSPF operates.
+- Implement multiarea OSPF for IPv4 to enable internetwork communications.
+- Troubleshoot connectivity issues in OSPFv2.
+- Implement multiarea OSPFv3.
+- Troubleshoot issues with OSPFv3 implementation.
+- Configure BGP.
+- Configure BGP with advanced features.
+- Explain the processes used by BGP for path selection.
+- Troubleshoot BGP issues.
+Effective as of Fall 2021
+## Related Programs
+Enterprise Advanced Routing and Services (CITX 3064) is offered as a part of the following programs:
+### School of Energy
+- Cisco Certified Network Professional Statement of Completion Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

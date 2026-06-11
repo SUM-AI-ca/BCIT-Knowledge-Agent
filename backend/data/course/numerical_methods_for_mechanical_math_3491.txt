@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/numerical-methods-for-mechanical-math-3491/
+Title: Numerical Methods for Mechanical MATH 3491
+Type: Course
+Course Code: MATH 3491
+
+================================================================================
+
+## Numerical Methods for Mechanical MATH 3491
+Mathematics Course
+## Course Overview
+Numerical integration with application to shear and bending moments; solution of differential equations with application to mixing and to motion in viscous and resistive media; numerical differentiation with application to signal processing; solution of non-linear equations applied to geometric problems; matrix methods applied to computer graphics. Use of spreadsheets to solve practical problems and to calculate basic descriptive statistics.
+### Prerequisite(s)
+- 50% in MATH 2491
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Use a numerical integration technique (including the Trapezoid Rule and Simpson's Rule) to evaluate a definite integral, such as in area or volume calculations and bending moment problems.
+- Use a numerical scheme to differentiate a given function or time-series; for example to calculate the velocity of an object from a time-series of its displacement.
+- Determine the best step-size to use in the various numerical methods covered, taking into account the effects of truncation error and round-off error.
+- Find the roots of a non-linear function using a numerical technique (including Newton-Raphson iteration); e.g., with application to the geometry of a three-bar mechanism.
+- Use a numerical method (including Euler's Method) to solve a first order differential equation, as required in calculations pertaining to beam loading and hydrostatic pressure.
+- Solve a system of simultaneous linear equations using matrix inversion; e.g., with application to mixing problems and computer graphics.
+- Use the statistical functions of a spreadsheet (Excel) and interpret the output.
+- Demonstrate spreadsheet fluency for all relevant applications.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

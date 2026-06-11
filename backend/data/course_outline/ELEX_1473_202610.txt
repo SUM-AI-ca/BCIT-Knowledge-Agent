@@ -1,0 +1,109 @@
+URL: https://www.bcit.ca/outlines/20261093149/
+Course: ELEX 1473
+Field: Power Systems Protection Design Applications
+Subject: Electrical and Computer Engineering
+Term: 202610
+CRN: 93149
+
+================================================================================
+
+## Course Outline
+## ELEX 1473
+## Power Systems Protection Design Applications
+School | School of Energy
+Program | Electrical and Computer Engineering Technology
+Course Credits | 1.5
+Minimum Passing Grade | 50%
+Start Date | March 31, 2026
+End Date | May 05, 2026
+Total Hours* | 22.5
+Total Weeks | 6
+Hours/Weeks | 3.75
+Delivery Type | Other
+Zero Textbook Cost | Yes
+Prerequisite(s) | 50% in ELEX 1472
+CRN | 93149
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Kathy Manson
+E-mail | Instructor to provide
+Location | SW2-355
+Office Hours | Instructor to provide
+### Course Description
+The central concept of protecting electrical systems is to apply the most effective equipment to ensure full coverage of a power system and provide backup protection where necessary. This course is intended for professionals working in the electrical industry who wish to develop skills in applying components and systems to protect the electrical system. The course is based on hands-on learning, using software to demonstrate the fundamentals of electrical protection and the different components of a protection system. Topics include digital relays, overcurrent protection systems, redundant protection systems, and differential protection systems. Labs will be based on using PSCAD and ETAP software. Instruction on using the software will be provided during the lab periods.​ The course addresses concepts in the design of power system protection equipment.​
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain how digital relays are being used to modernize the power system
+- Apply protection concepts to design basic protection systems​
+- Apply protection concepts to design more developed protection systems with redundancy
+### Learning Resources
+•Learning Hub Content
+•OneNote lecture notes
+•Optional texts
+1. Power System Protection and Switchgear – Vishwakarma, Ram, Mohanty (3rd edition)
+2. Power System Protection – Anderson, Henville, Rifaat, Johnson and Meliopoulos (2nd edition)
+### Course Goals
+•Explain why distance protection relays are needed
+•Describe distance protection relay operation
+•Explain why differential protection relays are needed
+•Describe diferential relay operation
+### Evaluation Criteria
+Criteria | % | Comments
+Attendance/professionalism | 10
+Labs | 30
+Quizzes | 40
+Project | 20
+### Attendance Requirements
+•Attendance will be taken
+•If you cannot attend, please notify your instructor
+•BCIT's Attendance Policy will be enforced
+### Course Specific Requirements
+Computer with internet access.
+### Course Schedule and Assignments
+Elex 1473 – Power System Protection Applications– Term 2026-10 (Winter 2026)
+Tuesday
+Week | Hour | Topic | Activity
+Mar 31 | 1 | Intro to course | Lecture
+2 | Distance Relays | Lecture
+3 | Lab (Etap)
+Apr 7 | 1 | Transmission Line Protection Applications | Lecture
+2 | Lecture
+3 | Lab (Etap)
+Apr 14 | 1 | Quiz – Distance Relays
+2 | Differential Relays | Lecture
+3 | Lecture
+Apr 21 | 1 | Quiz – Transmission Line Prot
+2 | Transformer Protection Applications | Lecture
+3 | Lab (Etap)
+Apr 28 | 1 | Quiz – Differential Relays
+2 | Application | Lecture
+3 | Project (Etap)
+May 5 | 1 | Quiz – Transformer Prot
+2 | Application | Student presentation
+3
+### Course topics
+1. Distance relays
+2. Transmission line protection
+3. Differential relays
+4. Transformer protection
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Kathy Manson, Program Head March 19, 2026
+I verify that this course outline has been reviewed. Ali Palizban, Flexible Learning Coordinator March 20, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology March 25, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

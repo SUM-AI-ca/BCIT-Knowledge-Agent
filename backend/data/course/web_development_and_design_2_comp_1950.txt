@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/web-development-and-design-2-comp-1950/
+Title: Web Development and Design 2 COMP 1950
+Type: Course
+Course Code: COMP 1950
+
+================================================================================
+
+## Web Development and Design 2 COMP 1950
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 1850 Applied Web Development Level 1. Students who already understand HTML and CSS will explore web development in more depth with new topics and techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 and CSS3 for developing web sites and applications. There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites using JavaScript frameworks such as jQuery is introduced. Labs and exercises focus on industry standard web development methodology. Students gain experience creating templates for content management systems and presentation. Additional topics will include: leveraging Server Side Includes (SSI) for re-usable code, source control for managing your code, and web-based fonts for professional typography. COMP 1950 is a required course for the BCIT Computing Advanced Web Technologies associate certificates in Applied Web Development, AWD and Web and Mobile Application Development, WMA, as well as an elective in the CST Diploma. By the end of this course successful students will be able to build dynamic and semantically marked-up content providing Search Engine Optimized (SEO) pages.​ PLEASE NOTE: COMP 1950 was replaced with COMP 2132 as of September 2020.​
+### Prerequisite(s)
+- COMP 1850 or equivalent HTML5 and CSS3 knowledge.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Mark up pages using latest HTML technologies, including HTML5.
+- Utilize CSS to control page layout and presentation, including CSS3.
+- Add behaviour to any web page using JavaScript.
+- Create dynamic content using JavaScript frameworks like jQuery.
+- Employ Web Standards when building web sites for maximum compatibility.
+- Understand concepts for Search Engine Optimized content (SEO).
+- Implement Server Side Includes for efficient web development.
+- Create template-driven pages for use in Content Management systems.
+- Understand basic development methodology.
+- Use media queries to create Responsive designs for mobile and desktop presentation.
+- Use HTML5 technologies to present rich content such as video, audio and geolocation.
+- Create professional looking typography using web-based fonts.
+- Understand source control using GIT.
+Effective as of Winter 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

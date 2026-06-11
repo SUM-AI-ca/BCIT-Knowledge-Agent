@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/programmable-logic-controllers-incs-2610/
+Title: Programmable Logic Controllers INCS 2610
+Type: Course
+Course Code: INCS 2610
+
+================================================================================
+
+## Programmable Logic Controllers INCS 2610
+Industrial Network Cybersecuri Course
+## Course Overview
+This course develops a working knowledge of Programmable Logic Controllers (PLCs) to provide a deep appreciation as to their application in industry and the challenges associated with the networking and network security of them. Building on the concepts learned in the Electrical Systems for Industrial Network Cybersecurity and Technical Mathematics for Industrial Network Cybersecurity courses in term one, this course prepares students for the Industrial Networking course in the following five-week term. Topics include: an overview of PLCs, their industrial applications, and a survey of the programming languages conforming to the IEC-61131-3 standard. A step-by-step approach is used to interface devices to a PLC. Lab activities include the creation of a simple sequential and ON/OFF control system and the implementation of Ethernet communications to integrate an HMI touchscreen display. ​
+### Prerequisite(s)
+- ELEX 2610 † and ELEX 2620 † ( † may be taken concurrently)
+- ELEX 2610 ‡ and ELEX 2620 ‡ ( ‡ must be taken concurrently)
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- List the industrial applications in which PLCs are employed. (1)
+- Explain the scan cycle of a PLC. (2)
+- Establish communications between a PLC and a networked PC for programming. (3)
+- Create structured text, ladder logic, Function Block Diagrams (FBDs) and Sequential Function Charts (SFCs) programs. (4)
+- Troubleshoot structured text, ladder logic, Function Block Diagrams (FBDs) and Sequential Function Charts (SFCs) programs. (3)
+- Interface devices to a PLC including switches, pushbuttons, sensors, and final control elements. (3)
+- Create a simple sequential control system. (4)
+- Create a simple ON/OFF control system. (4)
+- Establish communications between an HMI and a PLC. (3)
+- Design a basic HMI touchscreen display for control and alarms. (4)
+Effective as of Winter 2020
+## Related Programs
+Programmable Logic Controllers (INCS 2610) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

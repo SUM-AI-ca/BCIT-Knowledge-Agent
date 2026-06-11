@@ -1,0 +1,78 @@
+URL: https://www.bcit.ca/courses/pulse-techniques-elex-3310/
+Title: Pulse Techniques ELEX 3310
+Type: Course
+Course Code: ELEX 3310
+
+================================================================================
+
+## Pulse Techniques ELEX 3310
+Electrical and Computer Engineering Course
+## Course Overview
+Pulse shaping, switching, waveform generating and timing circuits and their applications. Discrete bipolar and FET transistors and CMOS ICs are used. DC to DC converters and regulation. An introduction to Amplitude, Frequency and Phase Modulation.
+### Prerequisite(s)
+- 50% in ELEX 2105 and 50% in ELEX 2115 and 50% in ELEX 2120 and 50% in MATH 2431 and 50% in MATH 3431 † ( † may be taken concurrently)
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## R-C CIRCUITS
+- Analyze the effect resistor/capacitor networks have on waveforms and design networks for specific results.
+- Calculate and measure charge and discharge times in R-C circuits using suitable oscilloscope triggering techniques.
+- Define waveform definitions such as rise and fall times, and understand how circuit components can affect them.
+- Predict waveforms associated with R-C differentiator and integrator circuits.
+## CLIPPER AND CLAMP CIRCUITS
+- Predict output waveforms for given input waveforms in Clipper and Clamp circuits and design a Clipper or Clamp circuit for a given output waveform.
+- Analyze clipper and clamp circuit operation and sketch the output waveforms.
+- Design clipper and clamp circuits for a given output waveform.
+- Build clipper and clamp circuits in the lab and observe their effect on input waveforms. Compare measured results with predictions.
+## THE TRANSISTOR SWITCH
+- Describe the factors that affect transistor switching speed and design transistor circuits to switch at maximum speed.
+- Explain saturation and recognize factors such as storage time, delay time, turn on and turn off times.
+- Describe factors effecting switching speed and speed-up techniques.
+- Identify sink and source loading configurations.
+- Sketch the output waveform of a transistor switch with a capacitive load and calculate the capacitor's effect.
+- Build and test a transistor switch circuit in the lab and observe the factors affecting its performance including the effect of a capacitive load.
+- Design transistor switching circuits to satisfy a specified load.
+- Demonstrate correct scope triggering techniques in the laboratory.
+## RAMP GENERATORS
+- Analyze and design Ramp generator circuits for a given output waveform.
+- Explain how a capacitor can charge linearly using a constant current source.
+- Design a one-transistor current source for use in a ramp generator.
+- Analyze bootstrap feedback in a linear ramp generator.
+- Understand the role of a ramp generator in an oscilloscope.
+## CMOS AND MOSFET
+- Describe how CMOS and MOSFET characteristics affect operating parameters such as switching speed and power consumption and design circuits using these components.
+- Explain FET operation and define terms such as enhancement, depletion, N channel, Drain current, etc.
+- Design, construct and test simple logic gates such as NOR, NAND, etc. using IC mosfets.
+- Explain the characteristics of CMOS including switching speed, switching thresholds, active pullup and pulldown, propagation delay and power consumption.
+## SCHMITT TRIGGERS and VOLTAGE COMPARATORS
+- Analyze and design Schmitt Trigger and voltage comparator circuits for a given set of parameters.
+- Design, analyze, build and test a two transistor Schmitt Trigger for given Upper and Lower Threshold points.
+- Design, analyze, construct and test Schmitt Trigger circuits using CMOS Buffers with feedback to create specified Hysteresis.
+- Design and build a Schmitt trigger oscillator with specified frequency and duty cycle.
+- Analyze a basic Voltage Comparator circuit using an Operational Amplifier.
+- Analyze and design Symmetrical, ASymmetrical and Window Voltage Comparator configurations for a given set of parameters.
+## MONOSTABLE MULTIVIBRATORS (MMV)
+- Analyze and design discrete and integrated Monostables for given input trigger and output pulses.
+- Explain the function and operation of a CMOS NOR gate MMV, and calculate its timing.
+- Design, analyze, construct, test and troubleshoot various monostable multivibrator circuits.
+- Use two MMVs to create a delayed pulse.
+## ASTABLE CIRCUITS (OSCILLATORS)
+- Analyze and design Astable circuits for a given output frequency and duty cycle.
+- Explain the function and operation of a CMOS gate astable and calculate the output frequency.
+- Design, analyze, construct, test and troubleshoot CMOS astables with a specified duty cycle and output frequency.
+## 555 TIMER
+- Analyze and design 555 timer circuits in a variety of applications.
+- Explain the operation of the 555 Timer internal circuitry in Monostable and Astable modes of operation.
+- Explain how the 555 Timer output frequency can be changed by the use of the Control pin.
+- Design, analyze, build and test 555 Timer circuits in various applications.
+## DC TO DC CONVERTERS
+- Design and analyze Voltage Doubler and Boost Switch Regulator circuits for a given set of parameters.
+- Analyze and construct voltage doubler and tripler circuits and predict output voltage levels.
+- Gain an understanding of Load Regulation by analyzing, building and testing a Flyback Regulator and predicting output voltage level, ripple frequency and amplitude for various load conditions.
+## MODULATION
+- Explain Amplitude Modulation, Frequency Shift Keying and Binary Phase Shift Keying modulation concepts and analyze and design FSK transmission system for a given set of parameters.
+- Analyze Amplitude Modulation, Frequency Shift Keyed Modulation and Binary Shift Keyed Modulation.
+- Design, analyze, build and test an FSK Modulator and Demodulator with the aid of a mathematical model and compare actual and theoretical results.
+Effective as of Winter 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

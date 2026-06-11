@@ -1,0 +1,66 @@
+URL: https://www.bcit.ca/courses/sql-server-development-comp-3678/
+Title: SQL Server Development COMP 3678
+Type: Course
+Course Code: COMP 3678
+
+================================================================================
+
+## SQL Server Development COMP 3678
+Computer Systems Course
+## Course Overview
+​This hands-on course has replaced COMP 4678 as of September 2023 and follows on from COMP 1630 and COMP 2364 . Students who already understand relational database design, SQL programming and MS Excel are introduced SQL Server Development. SQL Server Development begins with a brief overview cloud computing using the MS Azure ecosystem and MS SQL Server tools. There also will be a brief review of the relational database modelling, Entity Relationship Design (ERD) and normalization topics from COMP 1630 . COMP 3678 topics include SQL server data types, the use of Data Definition Language (DDL), and how to write MS SQL queries using Data Manipulation Language (DML). Labs and exercises show how to use SQL Server tools and techniques to optimize SQL queries Transact-SQL (T-SQL) runtime errors. Students will use T-SQL to develop and manage the data layer for software applications, working with relational and portable data from multiple sources in MS SQL Server. Participants will see the basic differences between on premises Database Management Systems (DBMS) and a cloud Database setup. Tasks to Extract, Transform, and Load (ETL) data, MS SQL Server Database operations will also be discussed. ​ COMP 3678 is an elective in the Applied Database Administration and Design (ADAD) Associate Certificate, the Applied Data Analytics Certificate (ADAC) and Computer Systems Technology (CST FLEX) Diploma. Successful participants will be able to: manage data from multiple sources, create scripts and database objects using T-SQL. This course will be offered starting April 2024.​
+### Prerequisite(s)
+- 60% in COMP 1630 and (60% in COMP 2364 or 60% in COMP 2362 )
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$594.66
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the features, architecture, and security fundamentals of MS SQL Server.
+- Detail various SQL server data types (Main data types, Complex data types, Object, Geospatial, etc.
+- Use Data Definition Language (DDL) to create and alter database tables and schema.
+- Write MS SQL queries using Data Manipulation Language (DML) to retrieve, filter, sort, and aggregate data from SQL Server databases.
+- Employ SQL Server tools and techniques to optimize SQL queries (Indexes, Filtering, Joins).
+- Write procedural code in Transact-SQL (T-SQL) to develop and manage the data layer for software applications.
+- Demonstrate various tools and methods to track, debug, and rectify T-SQL runtime errors (@ERROR etc.).
+- Describe high-level overview of MS SQL Server Database Administration, security, backup, and restore operations
+- Detail the basic tasks needed to Extract, Transform, and Load data (ETL).
+- Use MS SQL Server tools to import and export data portable formats (XML/CSV/JSON).
+- Discuss future trends in database development including: Big Data, Data Streaming, and real time Data Analytics.
+Effective as of Fall 2023
+## Related Programs
+SQL Server Development (COMP 3678) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Data Analytics Certificate Part-time
+- Applied Database Administration and Design Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of COMP 3678 for the Spring/Summer 2026 term.
+May 02 - Jul 25
+- CRN 69292
+- $594.66 Domestic fees
+Dates | Days | Times | Locations
+May 02 - Jul 25 | Sat | 13:00 - 16:00 | Online
+May 02 - Jul 25 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Alaa Alakari
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. Depending on the student, this course may require an average total time commitment of 13-16+ hours per week; 3 hours of synchronous class, 1-hour asynchronous time plus 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Students will be provided with a limited amount of server and data access outside of class each week for the course duration. No class May 16 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

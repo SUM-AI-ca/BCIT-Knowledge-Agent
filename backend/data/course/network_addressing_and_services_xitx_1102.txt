@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/network-addressing-and-services-xitx-1102/
+Title: Network Addressing and Services XITX 1102
+Type: Course
+Course Code: XITX 1102
+
+================================================================================
+
+## Network Addressing and Services XITX 1102
+Essentials of Data Networks Course
+## Course Overview
+In this course, students will learn about Internet Protocol (IP) and how routing works between networks. Students will create a fully connected network and will subnet an IP address. Students will learn about IP address management and how Dynamic Addressing occurs using Dynamic Host Configuration Protocol (DHCP). Finally, students will create Domain Name System (DNS) records in a Domain Name Server.
+### Prerequisite(s)
+- XITX 1101 or equivalent.
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the need for routing in large networks
+- Build a fully connected network
+- Explain IPv4 addresses and the difference between Unicast, Multicast, and Broadcast addresses
+- Configure a DHCP server to dynamically assign IPv6 address
+- Explain IPv6 addressing and features
+- Describe DNS, HTTP, FTP, Telnet, and SSH
+- Perform basic configuration of a DNS Server
+Effective as of Winter 2022
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

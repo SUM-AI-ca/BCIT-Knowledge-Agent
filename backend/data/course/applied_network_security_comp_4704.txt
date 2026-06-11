@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/applied-network-security-comp-4704/
+Title: Applied Network Security COMP 4704
+Type: Course
+Course Code: COMP 4704
+
+================================================================================
+
+## Applied Network Security COMP 4704
+Computer Systems Course
+## Course Overview
+​Network security relates to how data is accessed and protected by the underlying networks and systems infrastructure. This hand-on course is aimed at network security practitioners and follows along from COMP 3704 "Applied IT Security Fundamentals". COMP 3704 and COMP 4704 together replace COMP 3705 for more in depth coverage of topics in both IT Security and Network Security. Participants must have a prior understanding of networking as well as related protocols and technologies, Linux, Windows Server and IT Security fundamentals before registering in COMP 4704 . Guided by local industry network security practitioners, students will complete labs and exercises to gain knowledge of best practices used in network security. Topics include: monitoring and diagnosing networks, understanding network devices and infrastructure, access control, authentication, authorization, malware, vulnerabilities and threats. Protecting wireless networks and securing the cloud are also discussed. Upon successful completion of this course students will be able use best practices and current tools to analyze network traffic and study attacks, understand how to protect networks against intrusions and denial of service attacks, and design and maintain secure computer networks. This course is under review and not being offered. Please contact the department for alternatives.​
+### Prerequisite(s)
+- 60% in COMP 2629 and 60% in COMP 2766 and 60% in COMP 3700 and 60% in COMP 3704
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon succesful completion of this course, the student will be able to:
+- Describe network devices and infrastructure.
+- Explain the basic concepts behind network security.
+- Manage set-up of Firewall software or appliances.
+- Describe Virtual Private Networks (VPN) and setup basic VPN connections.
+- Utilize Intrusion Detection Systems (IDS).
+- Identify malware, vulnerabilities, and threats.
+- Monitor and diagnose networks.
+- Manage network access control, authentication, and authorization.
+- Protect wireless networks.
+- Secure Cloud networks.
+- Prevent denial-of-service attacks.
+- CompTIA Security+ preparation: many Security+ domains are covered between this course and COMP 3704, however additional self-study will be required to cover remaining areas before attempting the CompTIA exam which is independent and provided via a 3rd party at extra cost.
+Effective as of Fall 2015
+## Related Programs
+Applied Network Security (COMP 4704) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Network Administration and Design Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

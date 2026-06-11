@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mysql-for-data-driven-websites-comp-4662/
+Title: MySQL for Data Driven Websites COMP 4662
+Type: Course
+Course Code: COMP 4662
+
+================================================================================
+
+## MySQL for Data Driven Websites COMP 4662
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 3015 – Introduction to PHP. Students focus on using MySQL and phpMyAdmin as the relational database management system (RDBMS) with PHP as the web scripting language. Students with a prior knowledge of PHP will learn to design and manage MySQL databases, as well as perform requisite database related operations using SQL queries and PHP MySQL API. Fundamental concepts, such as transactional operations and SQL-related programmability are covered as well as using MySQL as the data layer for PHP-based Content Management Systems (CMS). This course offers an introduction to the use of MySQL for custom WordPress applications and plugins. Labs and exercises allow to effectively use the MySQL in PHP applications and to select appropriate approach to resolve practical data usage. Upon successful completion students will be able to use PHP with MySQL to develop data driven web applications to industry standards, and solve practical data usage problems.
+### Prerequisite(s)
+- COMP 3015 Introduction to PHP or equivalent knowledge.
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and configure MySQL RDBMS.
+- Manage PHP and MySQL configuration to enable requisite features and functionality.
+- Use phpMyAdmin RDBMS to manage MySQL databases.
+- Design basic MySQL databases.
+- Perform basic database operations using DDL and DML statements.
+- Understand and use transactions in database operations.
+- Use Joins, Subqueries and Views in MySQL, understand the specificity of each tool.
+- Use Functions and Stored Procedures, understand when to use them.
+- Understand the role of MySQL in Content Management Systems.
+- Use PHP MySQL API as implemented in WordPress CMS.
+Effective as of Spring/Summer 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

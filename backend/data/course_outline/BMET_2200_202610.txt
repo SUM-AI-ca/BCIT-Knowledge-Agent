@@ -1,0 +1,111 @@
+URL: https://www.bcit.ca/outlines/20261011941/
+Course: BMET 2200
+Field: Electronics Principles and Practice 2
+Subject: Biomedical Engineering
+Term: 202610
+CRN: 11941
+
+================================================================================
+
+## Course Outline
+## BMET 2200
+## Electronics Principles and Practice 2
+School | School of Health Sciences
+Program | Biomedical Engineering Technology
+Course Credits | 7
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 17, 2026
+Total Hours* | 105
+Total Weeks | 15
+Hours/Weeks | 7
+Delivery Type | Lecture
+Prerequisite(s) | 50% in BMET 1100 and 50% in MATH 1781 and 50% in PHYS 1178 MATH 2781 ‡ ( ‡ must be taken concurrently) BMET 1100, MATH 1781, PHYS 1178
+CRN | 11941
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Majid Shokoufi
+E-mail | mshokoufi@bcit.ca
+Location | SW1-4015
+Office Hours | Name: Majid Shokoufi Email: mshokoufi@bcit.ca Office Hours: To be announced during the first class
+### Course Description
+Provides introduction to AC excited RLC circuits and the behavior of the basic active devices and integrated circuits. Topics include frequency response, RC, RL, RLC circuits, and resonant circuits, 3 phase systems, transformers, power suppliers, semiconductor fundamentals, diodes, bipolar transistor and field-effect transistor fundamentals, BJT and FET amplifier circuits, and the operational amplifier circuits. In Laboratory session, students will build a variety of circuits to confirm the theory and use the common test equipment to analyze and troubleshoot electronic circuits. Corequisites: MATH 2781.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Analyze the frequency response of RC, RL and RLC circuits.
+- Apply the knowledge of resonance to analyze the series and parallel resonant circuits.
+- Describe the operation of transformers.
+- Examine the basic application of transformers.
+- Describe the basic of three-phase voltages and currents in phasor forms.
+- Analyze the three-phase circuits including the Wye and Delta three-phase generator and load connections.
+- Analyze the operation of diode circuits.
+- Analyze the basic DC power supply circuit.
+- Describe the operating characteristics of transistors (BJT, JFET and MOSFET).
+- Analyze DC bias circuit for transistors.
+- Analyze single-stage transistor amplifier circuits, and multi-stage transistor amplifiers.
+- Analyze the applications of operational amplifier and their operations.
+- Analyze the frequency response of active filters.
+- Use computer simulation software to simulate and test various electronic circuits.
+### Learning Resources
+- Electronic Devices (Conventional Current Version), 10 th or the latest edition, by Thomas L. Floyd – Published by Prentice Hall. ISBN – 978-0-13-4414447
+- Principles of Electric Circuits: Conventional Current Version by Thomas L. Floyd and David M. Buchla is the 10th Edition (ISBN 978-0-13-487948-2)
+- Introductory Circuit Analysis, Boylestad, 14 th Edition, ISBN-13: 9780137594177
+- BMET 2200 Laboratory Manual, from Learning Hub
+- Handouts & Instructor Notes
+- Components – as indicated in the laboratory manual
+- Tools-as required by the laboratory instructor
+### Evaluation Criteria
+Criteria | % | Comments
+Midterm Exams | 32 | Students must complete all theoretical and practical work.
+Final Exam | 28 | A pass (≥50%) must be obtained separately in the combination of laboratory exercises and the combination of the exams (mid-term and final exams)
+Homeworks | 10
+Laboratory | 30 | Laboratory work must be completed within the scheduled lab time period.
+### Attendance Requirements
+Students are expected to complete all course work and attend all classes, including laboratory sessions. Excessive absences may result in failure or withdrawal from this course.
+Laboratory work or assessments (such as lab exams, mid-term exams, or final exam) must be completed within the scheduled period, otherwise a zero mark will be assigned. Lab marks will be deducted for late lab report submissions. No make-up lab or assessment will be provided except under excused absence (such as illness or other unavoidable cause as described below).
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with the course instructor. Prolonged illness must be substantiated by a medical certificate. Absence other than illness must be supported by proper documentation. Based on the information provided, the instructor will determine if the absence is deemed to be excused.
+If a student, with excused absence, is unable to complete a lab session or an assessment at the scheduled period, the course Instructor will work with the student to determine the next step for accommodation.
+### Course Specific Requirements
+AI Tools Usage Policy
+AI-based content generation tools, or AI tools, are permitted for assignments and project work. However, they are not allowed during class assessments (e.g., in exams). Note that AI output may include incorrect or misleading information, fabricated authors/dates/publications, faked works, or may incorporate discriminatory ideas. It is your responsibility to ensure the quality, accuracy and appropriateness of the work you submit in this course.
+If you use ChatGPT (or a similar tool) to get ideas and/or partial answers for an assignment and/or to generate any text for a draft or final version of any part of an assignment, you must declare that you have used it, with a short paragraph describing the extent to which it was used, and you must save any generated text from this tool in case it is requested. You will not be penalized for using this tool, but the instructor may ask you to provide the generated text to help with grading decisions.
+Material directly copied from any source (e.g. websites, books, AI tools) must be cited. Undeclared use of AI is a violation of academic integrity as it presents work, or ideas created by tools or other people as your own. Failure to fully declare the use of this tool will be considered a violation of BCIT academic policy.
+### Course Schedule and Assignments
+The schedule of lecture topics and laboratory sessions will be posted on the course website.
+- Practical exercises are intended to be completed at home as much as possible, while scheduled lab time will be used to access, test equipment and to obtain assistance from the instructor.
+Assignments will be posted on the course website. Quizzes may be held during scheduled class time to verify completion of assignments.
+### Course topics
+BMET2200 course syllabus:
+- L1- BMET 1100 Review Course Introduction
+- L2- Resonance frequency response of series and parallel circuit, selectivity curve, bandwidth, quality factor and cut-off frequency
+- L3- Frequency response, transfer function, passive filters
+- L4- Transformers: fundamental, voltage, current and power ratio, reflected impedance and impedance matching, applications
+- L5- Semiconductor Fundamentals, pn junction, diodes
+- L6-Diode Applications, half-wave and full-wave rectifiers, clippers, clampers, special diodes
+- L7- Bipolar Junction Transistor (BJT), structure and fundamentals
+- L8- BJT amplifiers, CE, CC, CB amplifiers
+- L9- Metal Oxide Semiconductor Transistor (MOSFET), structure and fundamentals, CS, CD, CG amplifiers
+- L10- Op-Amp Fundamentals, inverting, noninverting, summing and difference amplifiers, active filters, integrators and differentiators,
+- L11- Single-phase and three-phase systems
+- L12- Course Review
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Majid Shokoufi, Instructor November 29, 2025
+I verify that this course outline has been reviewed. Anthony Chan, Faculty December 01, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Elliott, Associate Dean January 01, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,100 @@
+URL: https://www.bcit.ca/outlines/20251088031/
+Course: COMP 4514
+Field: ASP.NET Core MVC for Web Apps
+Subject: Computer Systems
+Term: 202510
+CRN: 88031
+
+================================================================================
+
+## Course Outline
+## COMP 4514
+## ASP.NET Core MVC for Web Apps
+School | School of Computing and Academic Studies
+Program | Full-Stack Web Development
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 06, 2025
+End Date | April 17, 2025
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Other
+Prerequisite(s) | COMP 2131 and COMP 3514
+CRN | 88031
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Rafi Mohammad
+E-mail | rafi_mohammad@bcit.ca
+Location | DTC01-617
+Office Hours | This will be published on the course home page.
+### Course Description
+This hands-on course builds upon COMP 3514 in the Full Stack Web Development Diploma. ASP.NET MVC (Model View Controller) allows students to build scalable and secure web applications to industry standards. Following on from COMP 2523 and COMP 3514 , web developers build on their experience with C# in the .NET Framework in this hands on course. Participants use patterns to script dynamic MVC websites in an alternate approach to ASP.NET Forms. Students learn to use both C# and Razor with the ASP.NET MVC framework to develop powerful data driven web applications with HTML5, jQuery and AJAX for full control over mark-up. Homework, exercises and labs focus on best practices in ASP.NET MVC. By the end of this course successful participants will be able to design, create and deploy sophisticated web applications with the latest ASP MVC tools.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the Model-View-Controller Architecture.
+- Use Visual Studio to build ASP.NET MVC Core applications using the latest framework.
+- Integrate ASP.NET MVC applications with popular JavaScript libraries.
+- Develop responsive ingle Page Applications (SPAs).
+- Implement Test Driven Development best practices.
+- Integrate MVC applications with a variety of data sources.
+- Secure MVC web applications.
+- Use C#, Razor and Tag Helpers for building MVC pages.
+- Deploy ASP.NET MVC applications into the cloud.
+- Leverage the ASP.NET infrastructure.
+- Explain how an ASP.NET Core application participates in the build & release processes along the CI/CD pipeline.
+- Validate user input.
+- Produce and consume API services.
+- Develop cross-platform web applications.
+### Learning Resources
+Online Course Delivery Tools:
+- BCIT Learning Hub (D2L) (instructions, links to materials, deadlines, assignment submission, quizzes, exams)
+### Evaluation Criteria
+Criteria | %
+Labs | 10
+Quizzes | 30
+Projects | 30
+Final Exam | 30
+Total | 100
+### Attendance Requirements
+Regular attendance in classes is critical to student success, and is monitored. Unapproved absence of 2 or more classes may result in withdrawal from the course or program. Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Course Specific Requirements
+This course includes mandatory online learning activities. Lack of participation in the online portion of this class may result in failure or forced withdrawal from the course.
+### Course Schedule and Assignments
+Week | Date | Topic
+Week 1 | Jan 6 | Design Patterns
+Week 2 | Jan 13 | Introduction to the Model-View-Controller Architecture
+Week 3 | Jan 20 | Controller in Model-View-Controller Architecture
+Week 4 | Jan 27 | View in Model-View-Controller Architecture
+Week 5 | Feb 3 | Integrating MVC applications with data sources
+Week 6 | Feb 10 | Integrating ASP.NET MVC applications with JavaScript libraries
+Week 7 | Feb 17 | No Class: Family Day
+Week 8 | Feb 24 | No Class: Midterm Week
+Week 9 | Mar 3 | Building ASP.NET MVC Core applications
+Week 10 | Mar 10 | Implementing Test Driven Development (TDD) best practices
+Week 11 | Mar 17 | Securing MVC web applications
+Week 12 | Mar 24 | Deploying ASP.NET MVC applications to the cloud
+Week 13 | Mar 31 | Azure Functions
+Week 14 | Apr 7 | Service-oriented architecture (SOA) and CI/CD pipeline.
+Week 15 | Apr 14 | Final Exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Rafi Mohammad, Instructor January 09, 2025
+I verify that this course outline has been reviewed. Jeremy Holman, Program Head April 07, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 08, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

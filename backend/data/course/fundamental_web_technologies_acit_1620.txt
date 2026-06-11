@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/fundamental-web-technologies-acit-1620/
+Title: Fundamental Web Technologies ACIT 1620
+Type: Course
+Course Code: ACIT 1620
+
+================================================================================
+
+## Fundamental Web Technologies ACIT 1620
+Computer Information Technology Course
+## Course Overview
+This course introduces the fundamental principles, concepts, and techniques for understanding and developing modern web sites. Topics include: underlying infrastructure and technologies that make the web works; building the structure of webpages with HTML; styling text and content with CSS; dynamically updating the content and style of pages with client-side scripting techniques. This course is intended as the foundation for more advanced web courses.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the underlying infrastructure of internet.
+- Describe client/server interactions and communications.
+- Demonstrate an in-depth understanding of how HTTP protocol works.
+- Explain anatomy of a URL and its relationship to the location of a resource.
+- Explain the processes involved in rendering websites in browsers.
+- Develop W3C compliant web pages by hand using HTML.
+- Customize layout of responsive web pages using CSS.
+- Use Document Object Model (DOM) tree structure to describe the relationship between HTML elements.
+- Utilize CSS selectors to access and interact with DOM elements.
+- Develop client-side scripting with JavaScript to handle propagating user events.
+- Diagnose errors with browser developer tools.
+- Use version control tool to track different versions of code.
+- Publish static web pages.
+Effective as of Fall 2020
+## Related Programs
+Fundamental Web Technologies (ACIT 1620) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

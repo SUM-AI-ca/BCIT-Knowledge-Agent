@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/advanced-routing-services-cisa-4310/
+Title: Advanced Routing Services CISA 4310
+Type: Course
+Course Code: CISA 4310
+
+================================================================================
+
+## Advanced Routing Services CISA 4310
+Computer Info Systems Admin Course
+## Course Overview
+​This course will provide students with the skills to plan, implement, and optimize a large, scalable routed enterprise. Students will carry out an in-depth analysis of enterprise routing protocols (EIGRP, OSPF) using both Ipv4 and Ipv6. To learn about enterprise Internet connectivity, students will study Border Gateway Protocol (BGP). As they work through the course, students will learn how to redistribute routes, implement path control, provide route filtering, and secure Cisco routers and their operations. This course incorporates hands-on activities using Cisco switching and routing gear within the classroom/lab.
+### Prerequisite(s)
+- CISA 3310
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe routing protocols, network technologies, and remote connectivity options for an enterprise network
+- Implement RIP next generation (RIPng) in an IPv6 environment
+- Describe the technologies, operations, and metrics used by EIGRP
+- Configure and optimize EIGRP in IPv4 and IPv6 environments
+- Describe Multi-area OSPF and how to optimize its database
+- Deploy OSPFv2 in IPv4 environments and OSPFv3 in IPv6 environments
+- Explain route redistribution and how it is implemented using distribute list, prefix list, and route map filtering mechanisms
+- Describe Cisco Express Forwarding (CEF) functionality for efficient Layer 3 packet forwarding
+- Implement path control using policy-based routing and IP Service Level Agreement (SLA)
+- Establish enterprise Internet connectivity for IPv4 and IPv6
+- Deploy BGP for enterprise IPv4 and IPv6 Internet connectivity
+- Secure Cisco routers according to best practices
+Effective as of Winter 2020
+## Related Programs
+Advanced Routing Services (CISA 4310) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

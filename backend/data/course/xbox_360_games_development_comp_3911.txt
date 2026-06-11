@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/xbox-360-games-development-comp-3911/
+Title: Xbox 360 Games Development COMP 3911
+Type: Course
+Course Code: COMP 3911
+
+================================================================================
+
+## Xbox 360 Games Development COMP 3911
+Computer Systems Course
+## Course Overview
+This hands-on course is designed for those who already understand an Object Oriented Programming language (Java, C++, or C#). The focus will be on best practices for developing Xbox 360 games. OO programmers will learn to use XNA and receive an introduction to the game modelling process, with common game algorithms, game graphics, audio techniques and controller input.. Topics include; image effects, shaders, game math, collision detection, animation, lighting, terrain, split screen and multi-player networked games. An Xbox 360 is not required for this course however a Windows PC is required outside of class. While not required for this course, an Xbox 360 for testing and membership to the XNA Creators Club is needed to actually publish your games. Students will be granted access to Microsoft resources for Xbox game development. Discussions include aspects of marketing and promoting games once approved by Microsoft for Xbox LIVE Marketplace. The BCIT School of Computing is a member of the Microsoft Developer Network Academic Alliance (MSDNAA). Successful participants will learn to develop and publish an individual Xbox 360 game.
+### Prerequisite(s)
+- COMP 2613 or COMP 2614 or COMP 2617 or equivalent knowledge of Java, or C++ or C#.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Build a standard game for the PC or Xbox 360 from scratch.
+- Understand the basic XNA game code architecture.
+- Handle keyboard and game controller input.
+- Select and apply suitable audio playback libraries for sound effects and background ambience.
+- Code basic shaders in high level shader language to customize graphics output.
+- Implement efficient collision detection.
+- Develop graphics effects and animation.
+- Use utilities to build horizons, models, and terrain and then load them in code.
+- Develop multi-player games that can be played locally with a split screen or in a networked environment.
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

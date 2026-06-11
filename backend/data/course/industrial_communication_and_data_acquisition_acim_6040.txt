@@ -1,0 +1,56 @@
+URL: https://www.bcit.ca/courses/industrial-communication-and-data-acquisition-acim-6040/
+Title: Industrial Communication and Data Acquisition ACIM 6040
+Type: Course
+Course Code: ACIM 6040
+
+================================================================================
+
+## Industrial Communication and Data Acquisition ACIM 6040
+Automated Controls Installation & Maintenance Course
+## Course Overview
+A significant part of the work to be performed on automated control systems includes installing and testing the associated cabling for new electric/electronic devices. In this course, students will be made aware of the characteristics of wired, fibreoptic, and wireless media and the installation requirements as per Canadian Electrical Code Section 60, Electrical Communication Systems, and CEC Section 56, Fibreoptics. Differences between industrial and business copper network cable installations, terminations, shielding, and connectorization will be demonstrated. Students will test category-type cables using a wiremap tester and a cable performance analyzer. Emerging power over Ethernet (POE) technology and the related electrical code requirements will be covered. Student lab work will include doing setups to enable the logging of data to allow analyses to be done to display trends and identify opportunities for optimizations. To demonstrate knowledge each student will be formally assessed by their peers and an instructor who will comprise a job interview panel.
+### Prerequisite(s)
+- 70% in ACIM 5030 and 70% in ACIM 6030
+### Credits
+3.0
+### Domestic fees
+$1,156.05
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Test copper twisted-pair communication cables.
+- Test legacy serial cable connections and use Ethernet and USB adapters.
+- Query intelligent devices using MODBUS protocol.
+- Set up remote monitoring using a VPN connection to a server in the cloud.
+- Configure XBee wireless communication to do simple bit monitoring and control on a remote device.
+- Use a HART loop calibrator to configure the URV (upper range value) and LRV (lower range value) of a HART-capable instrument.
+- Add new controller tags to augment an existing EVENTA supervisory control and data acquisition system and establish logical control connections between the tags using the EVENTA integrated automation engine.
+- Introduce a new automated system component which is to be monitored and maintained under a computerized maintenance management system.
+- Field questions and give explanations to a job interview panel.
+Effective as of Winter 2018
+## Related Programs
+Industrial Communication and Data Acquisition (ACIM 6040) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Construction and the Environment
+- Automated Controls Installation and Maintenance Advanced Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of ACIM 6040 for the Spring/Summer 2026 term.
+Jul 06 - Jul 10
+- CRN 65304
+- $1156.05 Domestic fees
+Dates | Days | Times | Locations
+Jul 06 - Jul 10 | Mon - Fri | 07:30 - 15:30 | Burnaby SE01 Rm. 117
+### Duration
+5 days
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- This is a condensed version of the course. Registration is processed on a FIRST-COME, FIRST-SERVED basis. Late registration is not permitted. BCIT reserves the right to cancel courses. Ensure your contact information (e.g. personal email address) is current. In the event of cancellation, student will be notified five business days prior to the course start date. For inquiries, email BCIT_ACIM@bcit.ca
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

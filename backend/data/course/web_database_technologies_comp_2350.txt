@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/web-database-technologies-comp-2350/
+Title: Web Database Technologies COMP 2350
+Type: Course
+Course Code: COMP 2350
+
+================================================================================
+
+## Web Database Technologies COMP 2350
+Computer Systems Course
+## Course Overview
+​This course introduces students to utilize database technologies to persist application data – both on the server as well as on the client. Students learn how to model data using relational, object, and hierarchical models. Students also learn to install, configure, and use relational and NoSQL databases such as MySQL and MongoDB respectively. Other topics include local versus remote storage, transactions, querying, schemas, data formats such as XML and JSON, and normalization. Students will use NoSQL data storage services such as Firebase or other Backend As A Service (cloud) stores that clients can access in real time.
+### Prerequisite(s)
+- COMP 1171
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Contrast the relational, object, and hierarchical data models, and how to utilize these models.
+- Model data for a given business context.
+- Perform data normalization with data for a given business context.
+- Install and configure databases such as MySQL and MongoDB.
+- Identify and solve security issues such as SQL injection, encryption of data, and access control.
+- Perform database queries using SQL and JSON for relational and NoSQL databases respectively.
+- Analyze concurrency control issues and resolve these issues.
+- Optimize database queries within distributed computing environments in order to minimize bandwidth.
+- Use syntax with XML.
+- Create XML documents that are valid to the DTD specification.
+- Identify when to use XML and when to use JSON for data transport within a distributed application.
+- Design data models using Entity Relationship Diagrams (ERDs) and successfully implement them in SQL, XML, or JSON.
+- Perform standard Create, Read, Update, and Delete (CRUD) operations with a given database.
+- Demonstrate database migrations and programmatic updates to existing database models.
+- Perform database backups utilizing various tools such as operating system services
+- Demonstrate database seeding.
+- Store and retrieve data in a cloud-based, BAAS, NoSQL data store such as Firebase.
+- Program database transactions.
+Effective as of Winter 2020
+## Related Programs
+Web Database Technologies (COMP 2350) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

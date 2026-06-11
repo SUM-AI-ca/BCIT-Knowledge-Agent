@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/xml-in-web-publishing-mdia-4305/
+Title: XML in Web Publishing MDIA 4305
+Type: Course
+Course Code: MDIA 4305
+
+================================================================================
+
+## XML in Web Publishing MDIA 4305
+Media Communications Course
+## Course Overview
+This is an introduction to using XML (Extensible Markup Language) to enhance Web page design and for e-commerce applications. Topics include the structuring of an XML document, transforming an XML document into XHTML using XSL (Extensible StyleSheet Language) and XPath, creating a DTD (Document Type Definition) and an XML Schema to define the elements and attributes which are valid in a XML document. The course also introduces using XML in a Web publishing environment.
+### Prerequisite(s)
+- 50% in MDIA 2205
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Identify and use syntax appropriate to well-formed XML files
+- Correctly employ XSL StyleSheets and XPath to transform an XML file into XHTML for display on a web page
+- Use routines such as sorting, filters, iterations, conditional statements, and templates appropriate to XSL StyleSheets
+- Construct a DTD, and validate an XML document against the DTD
+- Construct a Schema, and validate an XML document against the Schema
+- Use an XML editor
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

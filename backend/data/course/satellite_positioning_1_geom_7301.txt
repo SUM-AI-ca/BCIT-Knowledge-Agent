@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/satellite-positioning-1-geom-7301/
+Title: Satellite Positioning 1 GEOM 7301
+Type: Course
+Course Code: GEOM 7301
+
+================================================================================
+
+## Satellite Positioning 1 GEOM 7301
+Geomatics Course
+## Course Overview
+This course starts with a review of different GPS operation modes, which include Static, Rapid Static, Kinematic, realtime and non-realtime; and GPS data processing procedure. It will then continue with other major topics such as GPS datums and reference frames, high precision GPS positioning including inter-mixing different GPS antenna types, mixing RINEX data, using Precise Ephemeris, utilizing RTCM messages and NMEA strings. Network adjustment with emphasis on utilizing satellite technique is also discussed. Detailed GPS data processing techniques and ambiguity resolution will be studied, as well as GPS reference station networks in North America and GPS applications. The course will conclude on the study of other satellite navigation techniques such as Transit Doppler, GLONASS and Galileo.
+### Prerequisite(s)
+- 50% in SURV 3366 and 50% in SURV 3576
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Understand and execute different GPS Operation Modes, including:
+- Static, Kinematic,
+- Realtime and non-realtime.
+- Conduct GPS Data Processing Procedure.
+- Execute GPS Datums and Reference Frames.
+- Understand and execute topics on High Precision GPS Positioning:
+- Inter-mixing different GPS antenna types
+- RINEX
+- Precise Ephemeris
+- RTCM
+- NMEA.
+- Understand GPS Network Consideration and perform GPS Network Adjustment.
+- Differentiate different types of GPS Differencing Techniques
+- Understanding Carrier Phase Ambiguity Resolution
+- Differencing in GPS and their correlation: phase approach, single difference, double difference, triple difference
+- Different types of wavelength combinations, eg L3, L4 and L5.
+- Understand GPS Reference Station Networks in North America.
+- Apply GPS Applications.
+- Understand other satellite navigation techniques, including Transit Doppler, GLONASS, Galileo.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

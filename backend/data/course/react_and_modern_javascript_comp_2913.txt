@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/react-and-modern-javascript-comp-2913/
+Title: React and Modern JavaScript COMP 2913
+Type: Course
+Course Code: COMP 2913
+
+================================================================================
+
+## React and Modern JavaScript COMP 2913
+Computer Systems Course
+## Course Overview
+​ COMP 2913 was replaced by COMP 3013 as of January 2023. This challenging, hands-on course follows on from COMP 1850 and COMP 2132 and is aimed at students who already understand how to build web pages with HMTL5, CSS3 and who are proficient with JavaScript. The main goal of using React is to create fast, and modular applications. Students begin with an introduction to the basic concepts of React and how it works with the browser Document Object Model (DOM). Other topics include JavaScript ES6, JSX, and React Router. Instructor led labs and exercises focus on how to structure and develop single-page applications following current industry standards. Web students may also want to complete COMP 2909 Angular and Vue.js or COMP 3012 Back-End Web Development with Node.js. Upon completion successful participants will be able to build fast and feature-rich web applications using React and modern JavaScript.​ ​ ​
+### Prerequisite(s)
+- 60% in COMP 2132
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React and it's supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Build feature-rich, interactive user interfaces with modular components.
+- Apply fundamental Software Development concepts to architect your web application.
+Effective as of Winter 2019
+## Related Programs
+React and Modern JavaScript (COMP 2913) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

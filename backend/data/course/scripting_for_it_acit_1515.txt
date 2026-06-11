@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/scripting-for-it-acit-1515/
+Title: Scripting for IT ACIT 1515
+Type: Course
+Course Code: ACIT 1515
+
+================================================================================
+
+## Scripting for IT ACIT 1515
+Computer Information Technology Course
+## Course Overview
+The course introduces the fundamental concepts of programming for IT professionals, with a focus on scripting languages that are commonly found in the workplace. Projects, assignments, and activities are representative of tasks that IT professionals are likely to encounter in the workplace. Students taking this course will design, implement, test, and debug programs that incorporate: variables, expressions, assignments, I/O, conditional and iterative control constructs, functions, and parameter passing. The course assumes no previous programming experience
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Write simple procedural programs.
+- Review and analyze the behaviour of simple programs.
+- Apply the techniques of decomposition to break a program into functions and modules.
+- Choose appropriate data structures, conditionals and iteration constructs for a given programming task.
+- Write programs that use primitive data types, variables, strings, expressions, and command line I/O.
+- Write programs that use conditional and iterative control structures, functions, and parameter passing.
+- Write programs that use each of the following data structures: tuples, lists, sets, and dictionaries.
+- Write programs using the standard libraries available with the chosen programming language.
+- Write programs that use file I/O to provide persistence across multiple executions.
+- Test and debug simple programs.
+Effective as of Fall 2020
+## Related Programs
+Scripting for IT (ACIT 1515) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

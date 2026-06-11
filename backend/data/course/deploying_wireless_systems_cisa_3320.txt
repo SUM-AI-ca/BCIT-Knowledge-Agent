@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/deploying-wireless-systems-cisa-3320/
+Title: Deploying Wireless Systems CISA 3320
+Type: Course
+Course Code: CISA 3320
+
+================================================================================
+
+## Deploying Wireless Systems CISA 3320
+Computer Info Systems Admin Course
+## Course Overview
+​In this course, students will learn to design, install, configure, monitor, and troubleshoot wireless local area networks (WLANs) for the enterprise. The course starts with the fundamentals of wireless communications, explores the operation of stand-alone wireless access points (APs), discusses wireless security concepts, and then focuses on controller-based operations. Students will work with WLAN controllers, authentication-authorization and accounting (AAA) servers, light-weight access points, and wireless network management software to deploy a secure WLAN. The course will also cover security topics such as open and web authentication, 802.1X/EAP (extensible authentication protocol) authentication, 802.11i/WPA/WPA2 (Wi-Fi Protected Access) standards, and the underlying protocols for secure client support, including EAP-FAST, EAP-PEAP, and EAP-TLS.
+### Prerequisite(s)
+- CISA 2320
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the fundamentals of wireless communications and radio frequency principles
+- Describe wireless network topologies and utilize RF mathematics to assess coverage
+- Outline wireless security framework and its components
+- Discuss the purpose and coverage of antennae
+- Describe Spread Spectrum Technologies
+- Assess the impact of other wireless technologies on spread spectrum signals
+- Describe the wireless protocol frame and its journey
+- Configure a standalone wireless access point (AP) and upgrade to controller-based operation
+- Configure WLAN clients and adaptors
+- Configure wireless access controllers for operation in an enterprise
+- Verify and remedy problems with wireless association and authentication
+- Configure wireless roaming capabilities
+- Configure the WLAN to support 802.1X authentication
+- Work with WLAN management software to administer a wireless network
+Effective as of Fall 2019
+## Related Programs
+Deploying Wireless Systems (CISA 3320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

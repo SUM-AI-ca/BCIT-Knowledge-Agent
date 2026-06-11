@@ -1,0 +1,111 @@
+URL: https://www.bcit.ca/courses/application-development-with-c-comp-2801/
+Title: Application Development with C COMP 2801
+Type: Course
+Course Code: COMP 2801
+
+================================================================================
+
+## Application Development with C COMP 2801
+Computer Systems Course
+## Course Overview
+​Following on from COMP 2701 , students will continue their hands-on exploration of procedural programming with C and build software applications. COMP 2801 assumes students have significant prior knowledge of programming concepts with Java and procedural programming using C. After a brief review of introductory C, students move on to more advanced C concepts including scope, storage, linkage, and memory models. Topics include implementing selected data structures and algorithms in C, using linked lists, binary trees and managing large C programs with multiple files. Labs and exercises use a variety of skills to debug programs and use complex control statements, and advanced functions with pointers, arrays, and strings. Participants will practice step by step how to build commercial quality applications using the standard C library. ( COMP 2701 + COMP 2801 ) are equivalent to COMP 2511 and COMP 2510 in the CST Full-time Diploma. COMP 2801 is an elective for Applied Software Development (ASD) and required for the Computer Systems Certificate (CSC) and is a prerequisite for COMP 3603 - Application Development with C++. Upon successful completion, students will be able to build and deploy a modular multi-file C program to industry standards.
+### Prerequisite(s)
+- 60% in COMP 2701
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$588.53 - $600.80 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss programming language concepts such as scope, storage duration, linkage, and memory models.
+- Describe complex control statements in C programs.
+- Utilize advanced functions in C programs.
+- Employ complex pointer concepts in relation to arrays and strings; pointers to pointer, function pointers, pointers to struct.
+- Use pointers as function parameters to simulate pass-by-reference.
+- Develop recursive functions and compare recursion to iteration.
+- Write complex string concepts for predefined functions in standard library for strings, strings in struct, sort solution with strings, and pointers vs. strings.
+- Apply the functions in the standard C library in developing programs.
+- Process arrays in C.
+- Implement selected data structures and basic algorithms including linked lists, binary search trees, insertion sort, selection sort & binary search.
+- Perform file processing in C, with both sequential and random-access files.
+- Manage large C programs that involve multiple files.
+- Design, implement and debug software application programs written in C to industry standards.
+- Move on to COMP 3603 - Application Development with C++.
+Effective as of Winter 2026
+## Related Programs
+Application Development with C (COMP 2801) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are two offerings of COMP 2801 for the Spring/Summer 2026 term.
+May 06 - Jul 29
+- CRN 70549
+- $588.53 Domestic fees
+Dates | Days | Times | Locations
+May 06 - Jul 29 | Wed | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+### Duration
+12 weeks
+### Instructor
+Bob Langelaan
+### Course outline
+View
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours on campus. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session July 1 (Canada Day). The start and end dates have been changed from May 6 – July 22 to May 6 – July 29.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 08 - Jul 24
+- CRN 70550
+- $588.53 Domestic fees
+Dates | Days | Times | Locations
+May 08 - Jun 12 | Fri | 18:30 - 21:30 | Online
+Jun 19 | Fri | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+Jun 26 - Jul 17 | Fri | 18:30 - 21:30 | Online
+Jul 24 | Fri | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+### Duration
+12 weeks
+### Instructor
+Bob Langelaan
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online synchronously with exams on-campus. The course is 36 hours synchronous online classes. Midterm: June 19, 1830-2130, at Burnaby campus SE12 Rm 322. Final Exam: July 24, 1830-2130, at Burnaby campus SE12 Rm 322. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 2801 for the Fall 2026 term.
+Sep 15 - Dec 08
+- CRN 51984
+- $600.80 Domestic fees
+Dates | Days | Times | Locations
+Sep 15 - Oct 27 | Tue | 18:30 - 21:30 | Online
+Nov 03 | Tue | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+Nov 10 - Dec 01 | Tue | 18:30 - 21:30 | Online
+Dec 08 | Tue | 18:30 - 21:30 | Burnaby SE12 Rm. 322
+### Duration
+12 weeks
+### Instructor
+Bob Langelaan
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. This course is delivered online synchronously with exams on-campus. The course is 36 hours synchronous online classes. Midterm: November 3, 1830-2130, at Burnaby campus SE12 322. Final Exam: December 8, 1830-2130, at Burnaby campus SE12 322. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class October 13.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

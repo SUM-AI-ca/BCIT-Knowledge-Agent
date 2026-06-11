@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/applied-virtual-network-project-comp-4916/
+Title: Applied Virtual Network Project COMP 4916
+Type: Course
+Course Code: COMP 4916
+
+================================================================================
+
+## Applied Virtual Network Project COMP 4916
+Computer Systems Course
+## Course Overview
+​This hands-on project course allows students to apply their knowledge acquired in a series of foundation courses. COMP 4916 is an alternative to COMP 4912 for a capstone project to complete the Applied Network Administration and Design (ANAD) Associate Certificate. Building on top of Linux, Data Communications with TCP, Windows Server, and Security, students will provide their own hardware and follow the necessary instruction to deliver a virtual network. Participants will be self-directed after being given a predefined set of deliverables, the goal is for the student to complete this project with minimal guidance from the instructor. This project was designed to be the final component of ANAD. Upon successful completion of COMP 4916 - Applied Virtual Network Project, students will be able to design, document and deploy a working virtual network. Admission is by department approval.
+### Prerequisite(s)
+- 60% in COMP 2766 and (60% in COMP 2629 or 60% in COMP 3700 ) and 60% in COMP 4704
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create virtualized networks.
+- Create and configure a virtual firewall/router.
+- Build a virtual storage area network.
+- Deploy a working virtual network from a set of deliverables.
+- Implement DNS and DHCP infrastructure services.
+- Design and deploy an Active Directory Domain.
+- Create a Hyper-V failover cluster.
+- Create professional documentation that explains and illustrates the virtualized infrastructure.
+Effective as of Winter 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

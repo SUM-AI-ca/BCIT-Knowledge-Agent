@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/forensic-data-analysis-fsct-8490/
+Title: Forensic Data Analysis FSCT 8490
+Type: Course
+Course Code: FSCT 8490
+
+================================================================================
+
+## Forensic Data Analysis FSCT 8490
+Forensic Investigation Course
+## Course Overview
+Forensic Data Analysis involves the examination of organizational data to identify patterns that match known fraud profiles. The patterns sought may be logical (e.g. vendors having the same mailing address as employees) and/or numerical and statistical (e.g. duplications of specific digits, digit patterns and combinations, specific numbers, and round numbers) patterns in corporate data. In addition, forensic data analysis involves the use of neural-net and other data mining technologies to gain knowledge regarding databases and to develop models for fraud detection, prediction, and prevention where known fraud patterns are lacking or obscure. Upon completing this course, students will be able to develop a fraud scenario, translate this scenario into a fraud profile, and apply appropriate detective tests to a corporate database. Students will be given the opportunity to employ proprietary computer-assisted audit software and data-mining software to practice databases for the purpose of applying their learned skills.
+### Prerequisite(s)
+- 60% in FSCT 8460
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Analyze a given fact situation for the purpose of identifying appropriate data sources to accomplish specified investigative goals.
+- Develop a plan and procedures for cleaning and preprocessing required to prepare data for analysis.
+- In a given fact situation, develop and justify a plan of action to address concerns regarding the admissibility and weight of electronic-source evidence.
+- Apply ACL (R) commands to given input data definition files for the purpose of performing simple rule-based tests.
+- Determine the appropriate rule-based tests to apply to a set of data for the purpose of achieving a specified investigative goal.
+- Assess a given fact situation and determine the appropriate digital-analysis tests to apply to investigate for fraud.
+- Interpret patterns in the findings of tests conducted,00 with particular reference to indicators of fraud and misstatement.
+- Develop and justify a plan for following up on leads generated.
+- State, in simple terms, the theory behind basic techniques of bankruptcy forecasting.
+- Apply a given model bankruptcy-prediction to a simple set of financial statements.
+- Discuss basic concepts of data mining, particularly in fraud-related applications.
+- Apply data-mining concepts to a database of ATM transactions to produce a simple fraud-detection model, using Computer Associates CleverPath Predictive Analysis Server.
+Effective as of Fall 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

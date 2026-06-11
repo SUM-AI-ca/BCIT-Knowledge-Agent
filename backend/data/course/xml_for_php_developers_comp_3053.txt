@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/xml-for-php-developers-comp-3053/
+Title: XML for PHP Developers COMP 3053
+Type: Course
+Course Code: COMP 3053
+
+================================================================================
+
+## XML for PHP Developers COMP 3053
+Computer Systems Course
+## Course Overview
+This hands-on course assumes prior web development experience and is built on top of COMP 1920 – Server-Side Web Scripting with PHP Level 1, plus COMP 2053 – XML for Web Development. Students who already understand HTML and how to use both XML and PHP will explore XML from a web application developer’s context. Topics include: mapping XML to PHP data structures, programmatically validating against XML Schemas, parsing and programmatically manipulating XML using PHP in a web app setting, exploring PHPTAL as a declarative XML UI language, and transforming XSLT style sheets using PHP. Upon successful completion of this course, students will be able to utilize XML to create PHP-based web applications.
+### Prerequisite(s)
+- COMP 1920 and COMP 2053 or equivalent knowledge of PHP and XML
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Construct XML Schemas to model data.
+- Demonstrate how to parse and validate XML using PHP.
+- Explore advanced XSLT and XPath topics such as using keys and creating relational XPath queries.
+- Utilize PHP for transforming XML with XSLT stylesheets.
+- Develop PHP code that maps to XML documents.
+- Utilize a declarative XML UI framework in PHP to develop web applications.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

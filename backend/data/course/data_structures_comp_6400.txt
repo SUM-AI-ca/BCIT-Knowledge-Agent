@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/data-structures-comp-6400/
+Title: Data Structures COMP 6400
+Type: Course
+Course Code: COMP 6400
+
+================================================================================
+
+## Data Structures COMP 6400
+Computer Systems Course
+## Course Overview
+In this course, students develop object-oriented scripts with Python. The focus is on problem-solving in scripts, proper object-oriented programming (OOP) techniques, and clear coding style. The fundamental principles of OOP (data abstraction, encapsulation, inheritance, and polymorphism) are covered, with emphasis on inheritance and polymorphism. Students will examine data structures such as linked lists, queues, stacks, trees, and common search and sort algorithms. Students will also explore scripting in more depth, creating interfaces, tools, exception handling, and user interfaces in Python. ​
+### Prerequisite(s)
+- TECA 6300
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify the appropriate data structure or container class for modeling a given problem.
+- Implement user-defined data structures in Python, such as lists and trees.
+- Apply the techniques of decomposition to break a program into smaller pieces.
+- Design, implement, and test programs using the main principles of object-oriented programming: data abstraction, encapsulation, inheritance, and polymorphism.
+- Report on the concept of recursion and give examples of its use.
+- Design, code, and debug graphical user interfaces with event-driven programs that respond to user events.
+- Build robust scripts using exception handling.
+- Discuss the computational efficiency of the principal algorithms for sorting, searching, and hashing.
+- Explain the execution environment.
+Effective as of Fall 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

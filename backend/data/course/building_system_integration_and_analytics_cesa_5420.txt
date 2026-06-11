@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/building-system-integration-and-analytics-cesa-5420/
+Title: Building System Integration and Analytics CESA 5420
+Type: Course
+Course Code: CESA 5420
+
+================================================================================
+
+## Building System Integration and Analytics CESA 5420
+Centre for Energy Systems Applications Course
+## Course Overview
+This course presents an overview of building automation systems, communication protocols, system integration and data analytics as it relates to the role of energy management professionals. Topics include identifying different industry standard communication protocols and normalizing data so it can be analyzed by software. The course will cover Industry standard automation protocols and standards such as BACnet, LonWorks, Modbus Haystack and CoBe and will have students identify what role they play in today’s building automation industry. The course will cover The Internet of Things (IoT) as well as practical use cases in order to understand how this might affect the future of DDC controls. Students will learn how to integrate to various data sources, pull the data into a common platform, give the data metadata so it is meaningful to software, and then run analytics on that data to identify potential areas of optimization.
+### Prerequisite(s)
+- 50% in CESA 5320
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Navigate industry standard building control architectures, networking and communication protocols.
+- Use software to discover and integrate to a BACnet network and BACnet objects.
+- Talk knowledgeably about the Haystack data model and what its purpose is.
+- Identify how multiple building systems can be integrated.
+- Demonstrate a proficiency in multiple data structure systems.
+- Identify opportunities for DDC optimization using analytical tools.
+- Program a simple analytic rule to identify a pattern in historical data.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

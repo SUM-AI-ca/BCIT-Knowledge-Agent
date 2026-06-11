@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/fundamentals-of-electrical-system-protection-elex-0470/
+Title: Fundamentals of Electrical System Protection ELEX 0470
+Type: Course
+Course Code: ELEX 0470
+
+================================================================================
+
+## Fundamentals of Electrical System Protection ELEX 0470
+Electrical and Computer Engineering Course
+## Course Overview
+Protection of electrical systems is a balance in reliability, security, sensitivity and speed. This course is intended for professionals working in the electrical industry who wish to develop skills in the area of electrical protection. The course is based on hands-on learning, using software to demonstrate the fundamentals of electrical protection and the different components of a protection system. Topics include: ac signal sources, key drawings used in protection, protection zones, types of protective relays (current, directional, impedance/distance and differential) and their applications, fault current calculations and the per unit system. Labs will be based on using PSCAD and ETAP software. Instruction on using the software will be provided during the lab periods.
+### Prerequisite(s)
+- Familiarity with electric circuits and power systems.
+### Credits
+0.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Define power system protection and explain why it is required
+- Describe protection system components
+- List and describe ac signal sources
+- Describe protection designations and drawing types
+- Identify protection zones on a single line diagram
+- Explain how different types of protection relays operate, such as current, directioning, impedance / distance, and differential
+- Use the per unit system to represent the impedances in a power system
+- Determine the fault current at a specific bus in a power system
+Effective as of Spring/Summer 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/introduction-to-linux-unix-system-administration-comp-2770/
+Title: Introduction to Linux/Unix System Administration COMP 2770
+Type: Course
+Course Code: COMP 2770
+
+================================================================================
+
+## Introduction to Linux/Unix System Administration COMP 2770
+Computer Systems Course
+## Course Overview
+This course is the second level in a series of core Linux/Unix courses, and introduces system administration using the GNU/Linux operating system. Topics include custom installation, file system, software, service, and local account management under Linux/Unix. Fundamental system administration principles and basic security concepts are also covered.
+### Prerequisite(s)
+- 50% in COMP 2765
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Perform custom installation.
+- Understand Intel boot configuration.
+- Manage file systems.
+- Manage software packages.
+- Manage services.
+- Manage local user accounts.
+- Utilize backup tools.
+- Understand system recovery.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

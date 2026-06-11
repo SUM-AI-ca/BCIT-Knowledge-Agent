@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/network-security-fortigate-citx-2270/
+Title: Network Security: FortiGate CITX 2270
+Type: Course
+Course Code: CITX 2270
+
+================================================================================
+
+## Network Security: FortiGate CITX 2270
+Computer Information Technology Electronics Course
+## Course Overview
+​This course explores security concepts with a focus on the administration and configuration of FortiGate Firewalls. Students will learn the fundamentals of FortiGate administration and the components within FortiGate that can be enabled to extend functionality. Topics include firewall policies, security fabric, Source NAT (SNAT), Central NAT (CNAT), and Destination NAT (DNAT), user authentication, SSL VPN (Secure Socket-Level Virtual Private Network), and how to protect networks using security profiles such as IPS (Intrusion Prevention System), antivirus, application control and web filtering. This course also includes SD-WAN as a software-defined (SD) approach to managing Wide-Area Networks (WAN) as well as details about how and where FortiGate fits into the existing network architecture. Students will gain in-depth knowledge and practical experience on implementing and troubleshooting a security system using the Fortinet Networks platform. The course content will help students prepare for the NSE4 certification exam.
+### Prerequisite(s)
+- It is strongly recommended that students have a background in Networking, Linux and Windows prior to taking the course.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the need for network security
+- Discuss the integration of Fortigate into an existing network architecture
+- Implement Firewall Policies
+- Configure Source NAT, Central NAT, and Destination NAT
+- Implement firewall authentication, logging, and monitoring
+- Describe Certificate Operations
+- Configure antivirus, application control, file blocking, and web filtering to provide network protection
+- Describe the Fortiguard Intrusion Prevention Service
+- Implement SSL VPN, Site to Site VPN, and IPSEC VPN
+- Explain DLP (Data Leak Prevention)
+- Configure High Availability
+- Implement Captive Portal
+- Configure SD-WAN
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

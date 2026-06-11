@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/utilizing-data-structures-for-business-analytics-babi-1600/
+Title: Utilizing Data Structures for Business Analytics BABI 1600
+Type: Course
+Course Code: BABI 1600
+
+================================================================================
+
+## Utilizing Data Structures for Business Analytics BABI 1600
+Business Analytics & Business Intelligence Course
+## Course Overview
+A good Business Analytics professional understands not only how to manipulate data and generate reports, but also how that data is organized within a Business Intelligence system. Internal data structures determine the capabilities and limitations of an analytical model. In this course, students will learn about the entire lifecycle of data as it flows through various stages and units in an organization. The course will explore: different types of storage schemas; the difference between a transactional structure and an analytical structure; how analytical database structures are defined including what cubes are and how to use them. An integral part of the course will be a project in which students will build and demonstrate a fully integrated analytical model – from entering data into an existing RDBMS system and using ETL (Extract Transform Load) tools to get relevent data into the analytical database (cube), to running analytical queries on the cube to provide meaningful insight into the data.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Select the right database structure for the right business need.
+- Develop a simple data entry, manipulation and retrieval system for a business process.
+- Explain how analytical models are designed using the star schema.
+- Create and populate an analytics model using ETL tools to move data between systems.
+- Design a cube to store analytical data.
+- Use one or more analytics tools to query the cube data.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

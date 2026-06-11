@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/color-management-systems-mdia-2140/
+Title: Color Management Systems MDIA 2140
+Type: Course
+Course Code: MDIA 2140
+
+================================================================================
+
+## Color Management Systems MDIA 2140
+Media Communications Course
+## Course Overview
+This course is an exploration of the models and systems used to communicate colour information in graphic arts. Students will work with industry standard measuring devices and applications to create and apply colour profiles with the intent of achieving colour fidelity through the various stages of the print production process.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the role of colour management in achieving consistent appearance between proofing cycles and final printed production.
+- Explain the components of the CIE colorimetric system: specifically the LAB colour space and delta E measurements.
+- Define the relationship between the observer, the illuminant and the object in colour appearance.
+- Differentiate between Device-Specific and Device-Independent colour models.
+- Describe the application of Display, Input and Output colour profiles in the electronic prepress workflow.
+- Calibrate computer monitors in preparation for assigning Display Profiles.
+- Use a spectrophotometer to capture colour data from industry standard targets as the first step in profile creation.
+- Create source and destination ICC colour profiles for standard colour transformations.
+- Combine source and destination profiles to a single device link profile for device specific colour transformations.
+- Apply colour profiles in a variety of industry-standard applications to achieve desirable results for graphic reproduction.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

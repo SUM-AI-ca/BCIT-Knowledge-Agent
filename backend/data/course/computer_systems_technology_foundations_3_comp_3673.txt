@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/computer-systems-technology-foundations-3-comp-3673/
+Title: Computer Systems Technology Foundations 3 COMP 3673
+Type: Course
+Course Code: COMP 3673
+
+================================================================================
+
+## Computer Systems Technology Foundations 3 COMP 3673
+Computer Systems Course
+## Course Overview
+COMP 3673 is an intensive course intended for applicants to the Bachelor of Technology degree in Computer Systems. The primary focus of this course is systems analysis, design and implementation in a relational database environment. The course introduces the students to concepts and techniques used in project development lifecycles which include: (1) gathering user requirements, (2) ascertaining feasibility and practicality of projects, planning, and (3) managing and monitoring projects. These will serve as foundation to more in depth understanding of database design, modeling, implementation and maintenance. Topics to be covered will include: 1)Basic Relational Database Design concepts (Use case and use case considerations, Relational Schemas, Relational algebra, Entity (ER) and Enhanced Entity Relationship (EER) modeling, & Normalization); 2)Structured Query Language (Data Definition Language (DDL), & Data Manipulation Language (DML)); and 3)Database Maintenance (Use of views, Database security, & Concurrency Control and Transaction Management). Students will be required to use Relational Database Management Systems, such as MS SQL Server or MySQL, to complete the assignments and project.
+### Prerequisite(s)
+- 50% in COMP 2653 or 50% in COMP 3653
+### Credits
+9.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain systems development lifecycles.
+- Use techniques learned in class to gather user requirements, prepare feasibility studies, plan, design, implement, manage and monitor systems projects.
+- Describe the functions and characteristics of the relational database model.
+- Create project design documents and make recommendations to stakeholders based on a given business case.
+- Use relational algebra operations to solve relational queries.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling.
+- Functional dependencies and normalization.
+- Derivation of relations schema from EER models.
+- Apply database design techniques to implement a relational database application using SQL on a desktop RDBMS.
+- Describe common considerations, security issues and data protection techniques in a database environment.
+- Discuss implications of transaction management and concurrency controls in a relational database environment.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

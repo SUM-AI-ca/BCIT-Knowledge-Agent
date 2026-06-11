@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/signal-processing-and-power-electronics-elex-3130/
+Title: Signal Processing and Power Electronics ELEX 3130
+Type: Course
+Course Code: ELEX 3130
+
+================================================================================
+
+## Signal Processing and Power Electronics ELEX 3130
+Electrical and Computer Engineering Course
+## Course Overview
+This course focuses on electronic circuits and devices with an emphasis on those used in signal processing and power conversion. The material builds upon the electronic circuit applications and analysis techniques covered in first year. Concepts from this course build the foundation for more advanced power electronics and telecom applications. The key topics covered include: first and second-order systems; operational amplifier applications; analog and digital filtering; signal conditioning; pulse-width modulation; semiconductor devices used in power applications; losses and efficiency of power electronic circuits; auxiliary and protection circuits used in power supplies; common power electronic circuits; filters and signal generation using digital processing; and component selection for power supply design.
+### Prerequisite(s)
+- ELEX 2105 and ELEX 2117 and ELEX 2120 and MATH 3433 † ( † may be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Analyze first and second order linear systems in both the time- and frequency-domains.
+- Analyze op-amp circuits based on the assumption of an ideal op-amp in the following application categories: amplifiers, signal conditioning amplifiers, comparators, and voltage reference circuits.
+- Analyze the behavior of Class A power amplifiers and linear regulators.
+- Design filters for power supplies in order to meet frequency response characteristics and harmonic elimination requirements.
+- Generate pulse-width modulated waveforms using analog or digital components.
+- Discuss differences in behavior and performance of various semiconductor devices, e.g., MOSFETS, IGBTs, thyristors, BJTs and select appropriate devices.
+- Determine total power losses of circuits, both theoretically and in physical systems, by taking into account different factors such as loading and switching speed.
+- Mitigate common faults and other non-ideal effects associated with switched semiconductor circuits with auxiliary protection circuits and devices.
+- Analyze behaviour of common power electronic circuits such as passive rectifiers and H-bridges.
+- Discuss the effects of signal conversion between analog and digital taking into account sampling and quantization theory.
+- Implement equivalent filters and waveform generators in a digital platform.
+- Design DC-DC converter circuits (buck and boost) and Class D amplifiers to meet performance objectives, including the selection of appropriate magnetic components and heat sinks.
+Effective as of Fall 2016
+## Related Programs
+Signal Processing and Power Electronics (ELEX 3130) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

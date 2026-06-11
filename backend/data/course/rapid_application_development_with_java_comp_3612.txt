@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/rapid-application-development-with-java-comp-3612/
+Title: Rapid Application Development with Java COMP 3612
+Type: Course
+Course Code: COMP 3612
+
+================================================================================
+
+## Rapid Application Development with Java COMP 3612
+Computer Systems Course
+## Course Overview
+Following on from COMP 2613 , students who already know how to write Java programs and use Eclipse learn to use industry standard tools and methods for rapid development of Java applications. Java Swing is used though out this course as well as a central source repository. Instructor lead labs provide the middle layer of the application for students to share and use in teams. Topics include: Source Control, Logging with log4j, and Unit Testing with JUnit. Hands-on labs show how to use Eclipse to refactor code, manage enhancements and defects with Bugzilla and use Mylyn. Successful participants will also be able to use Ant and Maven for automation to compile, build, deploy and test Java applications in one step.
+### Prerequisite(s)
+- COMP 2613
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use Ant and Maven to compile, build, deploy and test an application in one step.
+- Use source control to develop software concurrently within a team.
+- Use Log4j to implement a consistent method of logging application status with an industry standard framework.
+- Organize and test a Java swing application at different abstraction layers using JUnit.
+- Combine the above tools into a working project and modify it using Rapid Application Development techniques.
+- Use Eclipse Java development features to refactor code.
+- Manage application enhancement requests and defects with Bugzilla.
+- Learn how to manage simultaneous development tasks with a Mylyn and it's integration with Bugzilla.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

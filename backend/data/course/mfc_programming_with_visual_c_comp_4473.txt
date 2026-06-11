@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/mfc-programming-with-visual-c-comp-4473/
+Title: MFC Programming with Visual C++ COMP 4473
+Type: Course
+Course Code: COMP 4473
+
+================================================================================
+
+## MFC Programming with Visual C++ COMP 4473
+Computer Systems Course
+## Course Overview
+Concentrates on the use of the Microsoft Foundation Classes (MFC) to develop Windows applications. This course starts with a "from the ground up" approach to introducing the student to the basic building blocks required for creating a Windows application using Microsoft Visual C++ and MFC. Later the student is introduced to more advanced topics such as using the AppWizard and the Document/View Architecture. Topics covered include: Event Handlers; Device Context functions; Windows Controls, Menus, Toolbars and Dialogs; bitmap graphics; sending and posting messages; and Database Processing. No previous Windows application programming experience is required for this course, however, you must be a proficient C++ programmer.
+### Prerequisite(s)
+- 50% in COMP 3475
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Skillfully utilize the MFC Utility Classes.
+- Demonstrate the serializing of objects and collections.
+- Demonstrate how to handle keyboard and mouse events, as well as other types of events.
+- Demonstrate the useful of several kinds of message boxes.
+- Demonstrate an understanding of device context attributes and functions.
+- Demonstrate additional mouse and keyboard techniques.
+- Demonstrate the use of Windows Controls.
+- Demonstrate the use of Menus and Dialogs.
+- Demonstrate an understanding of the AppWizard and the ClassWizard.
+- Demonstrate the use of advanced Menus, Toolbars and Dialogs.
+- Demonstrate sending and posting messages.
+- Demonstrate the use of the Document/View Architecture.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

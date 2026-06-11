@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/web-development-and-design-3-comp-2051/
+Title: Web Development and Design 3 COMP 2051
+Type: Course
+Course Code: COMP 2051
+
+================================================================================
+
+## Web Development and Design 3 COMP 2051
+Computer Systems Course
+## Course Overview
+This hands-on course continues on from COMP 1911 and COMP 1950 . Web developers who already know HTML, CSS, some JavaScript and jQuery will learn to create dynamic web pages using HTML5 with AJAX. Students receive an expanded exploration of HTML5, CSS3, and JavaScript prior to an introduction to AJAX and CSS preprocessors. They learn to leverage HTML5, CSS3 and JavaScript to create mobile optimized web sites. Exercises and labs will explore decision making with JavaScript control structure; statements, dynamic html, cookies, advanced CSS3 and a variety of AJAX concepts within the context of HTML5. Upon successful completion, participants will be able to use industry standard methods and tools to design and deploy significant websites and web applications using current web technologies. Students with a strong scripting background looking to build mobile and web apps may also be interested in COMP 2052 -Android and Mobile Application Development with PhoneGap.
+### Prerequisite(s)
+- COMP 1911 and COMP 1950 or equivalent knowledge of HTML, CSS, JavaScript and jQuery.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Review: Understand JavaScript variables, functions, objects and events.
+- Review: Understand the correct use of JavaScript data types and operators.
+- Use JavaScript & AJAX control structures and statements.
+- Create and populate forms using HTML, Ajax, and JavaScript.
+- Debug HTML, JavaScript & AJAX code efficiently.
+- Create & implement dynamic HTML objects.
+- Use JavaScript to populate and animate an HTML5 canvas.
+- Build dynamic web page elements.
+- Create simple AJAX widgets.
+- Use a jQuery AJAX API to send and receive data.
+- Use CSS3 Animations to create advanced web animations.
+- Implement CSS preprocessors to streamline writing CSS.
+- Create mobile optimized web sites using JavaScript.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

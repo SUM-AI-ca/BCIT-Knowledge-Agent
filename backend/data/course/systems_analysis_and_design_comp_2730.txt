@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/systems-analysis-and-design-comp-2730/
+Title: Systems Analysis and Design COMP 2730
+Type: Course
+Course Code: COMP 2730
+
+================================================================================
+
+## Systems Analysis and Design COMP 2730
+Computer Systems Course
+## Course Overview
+This course introduces the tools and techniques that are used for systems analysis and design. Both the traditional and the object-oriented approach to systems analysis and design will be used. This involves methods of analysis for assessing the information needs of an organization and determining how computer systems can provide problem solving help. Requirements modeling will include additional coverage on use cases and use case descriptions. System design involves specifying in detail how the components of systems should be implemented and should be based on an in-depth understanding of the business problem obtained from systems analysis. At all stages throughout this course an iterative approach to systems development will be emphasized.
+### Prerequisite(s)
+- COMP 1730
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the various phases of the software development life cycle.
+- Describe the key features of current trends in system development: spirial model, eXtreme Programming, the Unified Process, and Agile Modeling.
+- Develop a project schedule using PERT and GANTT charts.
+- Construct a cost benefit analysis to determine the feasibility of a project.
+- Determine system requirements using the appropriate technique(s).
+- Identify and analyze the data entities and objects needed in a system.
+- Read, interpret and develop models that can be incorporated with traditional structured analysis.
+- Develop use case diagrams and scenario descriptions.
+- Explain how the various UML diagrams work together to define the functional requirements
+- Develop interaction, sequence and collaboration diagrams.
+- Design appropriate user interface following design rules.
+- Identify the required integrity controls for inputs, outputs, data and processing.
+- Describe implementation and support activities.
+- Identify and explain the four major ERP systems and discuss several reasons for adopting ERP.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

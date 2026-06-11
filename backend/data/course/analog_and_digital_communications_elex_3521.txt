@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/analog-and-digital-communications-elex-3521/
+Title: Analog and Digital Communications ELEX 3521
+Type: Course
+Course Code: ELEX 3521
+
+================================================================================
+
+## Analog and Digital Communications ELEX 3521
+Electrical and Computer Engineering Course
+## Course Overview
+In this course, methods for sending information over long distances are explored. The general communication system is presented and its parts are considered in both the time and frequency domains. Modulation is introduced by first studying analog methods including amplitude modulation (AM) and frequency modulation (FM). Up-conversion and down-conversion topologies are covered. Digital modulation and demodulation techniques are then introduced for ASK, FSK, various forms of PSK, and QAM. More advanced concepts such as M-ary modulation, orthogonality, bandwidth efficiency, BER vs Eb/No, and selected topics in communications are also discussed. Students will analyze representative systems and equipment and gain skills in using telecommunications test equipment in a lab environment.
+### Prerequisite(s)
+- 50% in ELEX 2105 and 50% in ELEX 2117 and 50% in ELEX 2120 and 50% in ELEX 3525 † ( † may be taken concurrently)
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the general communication system and its component parts.
+- Analyze the characteristics of communication signals and noise in the time and frequency domains.
+- Analyze various analog modulation techniques (AM and FM).
+- Explain transmitter concepts and specifications such as spectral purity, frequency agility and accuracy, and power output.
+- Explain receiver concepts and specifications such as adjacent channel rejection, image rejection, and dynamic range.
+- Explain the concepts of phase lock and frequency synthesis.
+- Analyze methods for frequency conversion.
+- Analyze various digital modulation techniques in carrier-based transmitters (ASK, FSK, PSK, and QAM).
+- Analyze various clock and carrier recovery techniques in digital carrier-based receivers.
+- Explain the impact of different modulation schemes on signal performance and required bandwidth.
+- Use various test equipment such as signal generators, oscilloscopes, meters, and spectrum analyzers to observe and test telecommunications circuits and systems.
+- Explore additional selected topics in wireless digital communication systems.
+Effective as of Fall 2016
+## Related Programs
+Analog and Digital Communications (ELEX 3521) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

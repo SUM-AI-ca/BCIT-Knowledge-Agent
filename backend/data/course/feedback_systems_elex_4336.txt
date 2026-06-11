@@ -1,0 +1,101 @@
+URL: https://www.bcit.ca/courses/feedback-systems-elex-4336/
+Title: Feedback Systems ELEX 4336
+Type: Course
+Course Code: ELEX 4336
+
+================================================================================
+
+## Feedback Systems ELEX 4336
+Electrical and Computer Engineering Course
+## Course Overview
+This course starts with a study of feedback in electronic amplifiers. This is followed by a qualitative overview of general feedback systems with emphasis on the problem of stability and the need for an appropriate controller. Electromechanical systems are then examined as a specific example and the rest of the course investigates various aspects of electromechanical feedback systems. Topics include system modelling, block diagram reduction, transfer functions, derivation of time and frequency response, stability prediction, the significance of poles and zeros, root locus and Bode plots. Students design and test various continuous time feedback systems. Controllers studied include lead-lag filters, notch filters, and various PID controllers. Consideration is also given to the problems of non-linearity and overloading. Digital controllers are considered in as much detail as time allows and students design and test at least one digital control system.
+### Prerequisite(s)
+- 50% in ROBT 3341 and 50% in ROBT 3351 and 50% in ROBT 3356 and 50% in MATH 3342 and 50% in ELEX 3321
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+- Identify the parts of a feedback system.
+- Identify the forward path.
+- Identify the feedback path.
+- Identify the comparator.
+- Make a block diagram of a feedback system.
+- Given a physical description, identify the blocks.
+- Construct a block diagram of the system.
+- Reduce the block diagram to a simpler form.
+- Use reduction rules so that the standard feedback equation can be applied.
+- Reduce the block diagram to a unity feedback system.
+- Derive the transfer function for each system block.
+- Under the significance of mathematical modeling of system components.
+- Understand and use current driven permanent magnet DC motor transfer functions.
+- Understand and use voltage driven permanent magnet DC motor transfer functions.
+- Derive and apply gearbox transfer functions.
+- Derive and apply electrical network transfer functions.
+- Derive and apply the transfer function of a given simple mechanical system.
+- Derive the transfer function of the entire feedback system.
+- Derive the transfer function of the entire system.
+- Set up the system transfer function in standard form.
+- Recognize the basic stability problem and its cause.
+- Recognize there is always time delay in a feedback loop.
+- Recognize the consequences of this for system stability.
+- Compute the step response and frequency response for a second order system.
+- Use the concepts of over, under and critical damping.
+- Use the concepts of natural frequency, damped frequency, damping ratio.
+- Recognize the consequences of changing the loop gain.
+- Predict the type number of a system.
+- Estimate the steady state error for a stable closed-loop system as a result of standard inputs step, ramp or parabolic form.
+- Use control system design software to evaluate the step response of second and higher order systems.
+- Become familiar with the function and use of system modeling software such as Maple or MATLAB.
+- Recognize the significance of pole placement.
+- Recognize the significance of the location of the poles on system stability.
+- Change the position of the poles to change the system response as required.
+- Use the root-locus technique as an aid in predicting system stability.
+- Explain the principle of root locus plotting.
+- Plot first and second order root loci by hand.
+- Generate root locus plots using the software design package.
+- Use root locus plots to determine system response.
+- Construct frequency response plots.
+- Make Bode plots for first and second order transfer functions by hand given the transfer function.
+- Make use of straight line approximation techniques.
+- Use the design software to make Bode plots of second and higher order systems.
+- Recognize the implications to system stability of various Bode plot types.
+- Design analog compensators.
+- From pole placement considerations, design a simple analog compensator to achieve the required stability using frequency response methods.
+- Understand the applications and limitations of PID controllers.
+- Draw a block diagram of a PID controller.
+- Draw circuitry to implement the controller.
+- Appreciate the significance of each part of the controller.
+- Understand and apply the Ziegler Nichols tuning method.
+- Recognize practical limitations of modeling in feedback systems.
+- Appreciate the problems due to non-linear mechanical friction.
+- Appreciate the problems due to overloading of amplifiers.
+- Appreciate the significance of integrator wind-up and the use of anti-windup schemes.
+- Design and test various continuous time feedback control systems.
+- Design and test Lead-lag, Notch filter and various PID controllers.
+- Analyze and design Phase Locked motor speed controllers.
+- Recognize the phase locked loop as a feedback system.
+- Make a block diagram and derive the transfer function for phase locked speed controllers.
+- Design and test a phase locked speed controller.
+- Draw a block diagram of a basic digital control system and recognize the significance of each part.
+- Describe the action of the shaft encoder, pulse counter, system clock, digital compensator, and ADC and DAC.
+- Explain the advantages of a digital control system.
+- Recognize that compensator transfer functions can be realized in software.
+- Recognize that the parameters of a digital system are readily changed via software changes.
+- Understand the sampling process and the significance of the Nyquist limit.
+- Analyze and design systems consisting of a mixture of analog and digital components.
+- Appreciate the dilemma in analyzing systems consisting of both discrete and continuous time components and the need to perform either s-plane or z-plane analysis.
+- Design compensators using the equivalent continuous method.
+- Transform s-plane transfer functions to the z-plane using various mapping techniques.
+- Code and test digital controller for a servo system.
+- Generate a suitable s-plane controller to stabilize a motor control system.
+- Map this into the z-plane.
+- Generate DSP code to implement the controller.
+- Implement the controller using a small microcontroller chip.
+- Set up and test the entire digital control system.
+Effective as of Fall 2003
+## Related Programs
+Feedback Systems (ELEX 4336) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

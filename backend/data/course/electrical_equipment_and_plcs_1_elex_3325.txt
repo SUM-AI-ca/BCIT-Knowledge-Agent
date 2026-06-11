@@ -1,0 +1,105 @@
+URL: https://www.bcit.ca/courses/electrical-equipment-and-plcs-1-elex-3325/
+Title: Electrical Equipment and PLC's 1 ELEX 3325
+Type: Course
+Course Code: ELEX 3325
+
+================================================================================
+
+## Electrical Equipment and PLC's 1 ELEX 3325
+Electrical and Computer Engineering Course
+## Course Overview
+Students are introduced to the electrical equipment and systems found in industrial and commercial environments. The following topics are studied: electrical transmission, distribution and utilization, line losses, power factor and power quality; abnormal conditions and circuit protection devices; magnetic circuit fundamentals and transformer operation and applications; three-phase power analysis; AC, DC and stepper motor operation and analysis; electrical controls: switches, relays and programmable logic controllers (PLCs); documentation methods and standards for power and control systems: one-line and ladder diagrams.
+### Prerequisite(s)
+- (50% in ELEX 2105 or 50% in ELEX 2135 ) and 50% in MATH 2431 and 50% in PHYS 2143
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Electrical Safety
+- Understand and apply safe work practices when working with voltages above 50V.
+- Describe the factors which affect the severity of an electric shock.
+- In the lab, lock the power supply safety switch into the OFF position at all times except when making measurements.
+- Arrange wiring and connections securely and safely.
+- Make safe measurements through consistent use of the 'one-hand rule'.
+Power Factor and Power Quality
+- Analyze the power factor and the power quality of an electrical circuit.
+- Describe, measure and correct the displacement power factor of an electrical circuit.
+- Describe how non-linear loads create distortion and unwanted harmonics in electrical circuits.
+- Measure the harmonics that exist within an electrical system.
+- Describe distortion power factor and power quality.
+Three Phase Power
+- Analyze three phase circuit configurations.
+- Describe the generation of three phase power.
+- Identify characteristics of three phase power and differentiate from single phase power.
+- Analyze wye and delta connected, 3-wire circuits.
+- Analyze 4-wire circuits.
+- Analyze balanced and unbalanced loads.
+- Analyze non-linear loads and harmonics.
+- Correct the power factor of a 3 phase load.
+Protective Devices
+- Analyze and explain the operating principles of protective devices in electrical circuits.
+- Explain the operation of low voltage fuses.
+- Explain the operation of thermal and of magnetic circuit breakers.
+- Explain the inverse time characteristics of protective devices.
+- Explain the interrupt capacity of protective devices.
+- Interpret fuse and circuit breaker curve data so as to apply simple protective coordination.
+- Explain the operating principles of ground fault circuit breakers.
+Magnetic Circuits
+- Analyze and explain the properties of magnetic materials and magnetic circuits.
+- Relate magnetic circuit quantities to their electrical analogs
+- Explain the magnetization, dipole alignment and saturation of ferromagnetic cores.
+- Interpret magnetization curves and determine their electrical implications.
+- Relate hysteresis and energy loss in a magnetic circuit.
+- Relate eddy currents and energy loss in a magnetic circuit.
+- Determine the forces on a current carrying conductor in a magnetic field.
+- Determine the induced voltage in a conductor in a magnetic field.
+Transformer
+- Analyze the behaviour of transformers in electrical circuits.
+- Outline transformer construction.
+- Explain transformer principles of operation using Faraday's and Lenz's Laws.
+- Describe the magnetic flux effects of an electrical load connected to a transformer.
+- Incorporate the transformer equivalent circuit in circuit analysis.
+- Determine transformer losses.
+- Determine transformer parameters via laboratory test procedures.
+- Connect transformers to obtain specified voltage and phase shift objectives.
+- Analyze and apply autotransformer principles.
+- Analyze transformer inrush current.
+- Calculate circuit quantities on both the primary and the secondary side of transformers.
+Induction Motor
+- Analyze the behaviour of three-phase induction motors.
+- Outline induction motor construction.
+- Explain induction motor principles of operation.
+- Analyze normal load behaviour.
+- Analyze overload behaviour.
+- Analyze off-voltage and off-frequency behaviour.
+- Analyze inrush current.
+- Analyze and explain the operation of the wound rotor induction motor.
+DC Motor
+- Analyze the behaviour of DC shunt and series wound motors
+- Explain DC machine principles of operation.
+- Outline DC machine construction.
+- Explain the electro-mechanical rectification performed by commutator and brushes.
+- Analyze and explain self-excited and separately excited machines.
+- Analyze and explain shunt, series and compound excitation.
+- Analyze normal load behaviour.
+- Analyze and explain 'loss of field' and its effects on machine behaviour.
+Stepper Motor
+- Analyze the behaviour of stepper motors.
+- Outline stepper motor construction.
+- Explain stepper motor principles of operation.
+- Explain resolution, step angle, stepping frequency, step accuracy.
+- Explain step operation, half-stepping and micro-stepping.
+- Design and connect test circuits to control (via button press) the rotation of both a 2-phase and a 4-phase stepper motor.
+Motor Control with Relays
+- Analyze control circuits, explain the practices employed and apply accepted standards to the design of several control systems.
+- Explain the operation of contactors, overload relays and pilot devices.
+- Interpret and design control circuits using ladder diagrams.
+- Design and implement control circuits with relays.
+Motor Control with Programmable Logic Controllers (PLCs)
+- Design and implement control circuits with a programmable logic controller.
+- Implement PLC control programs that meet the safety requirements of the Workers Compensation Board (and other agencies).
+- Develop familiarity with a small-scale PLC via trial exercises in common logic in ladder form.
+- Analyze selected electrical control circuits of increasing complexity and redevelop these designs to each use a PLC-based approach. Refine the systems where possible to take advantage of PLC features.
+- Interpret written sequences-of-operation for proposed control systems and design and document a PLC-based system to meet each given sequence-of-operation (SO).
+Effective as of Fall 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

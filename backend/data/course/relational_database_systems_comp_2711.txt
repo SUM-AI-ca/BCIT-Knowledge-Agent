@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/relational-database-systems-comp-2711/
+Title: Relational Database Systems COMP 2711
+Type: Course
+Course Code: COMP 2711
+
+================================================================================
+
+## Relational Database Systems COMP 2711
+Computer Systems Course
+## Course Overview
+Covers relational database technology, including basic concepts, relational algebra, enhanced entity-relationship data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, security and transaction management. Students design and implement a database application using both a desktop and server RDBMS. Also covers current database trends including replication, object-relational DBMS, data warehousing and OLAP.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+- Describe the functions and characteristics of the relational database model.
+- Apply techniques of database design including:
+- Enhanced entity-relationship modeling;
+- Functional dependencies and normalization; and
+- Derivation of relations schema from EER models.
+- Apply database design process to implement a database application.
+- Design and implement a database application using a desktop RDBMS.
+- Describe security issues and data protection techniques in a database environment.
+- Use relational algebra operations to solve relational queries.
+- Use SQL to implement and query a relational database.
+- Design and implement a database application using a server RDBMS.
+- Explain the use of SQL programmatically.
+- Discuss techniques for transaction management and concurrency control.
+- Explain the use of databases in data warehousing and OLAP.
+- Identify recent developments in the area of object-relational database systems.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

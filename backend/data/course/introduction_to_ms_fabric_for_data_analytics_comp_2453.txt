@@ -1,0 +1,63 @@
+URL: https://www.bcit.ca/courses/introduction-to-ms-fabric-for-data-analytics-comp-2453/
+Title: Introduction to MS Fabric for Data Analytics COMP 2453
+Type: Course
+Course Code: COMP 2453
+
+================================================================================
+
+## Introduction to MS Fabric for Data Analytics COMP 2453
+Computer Systems Course
+## Course Overview
+​​This hands-on course builds upon COMP 1630 Relational Database Design and SQL, or equivalent experience in data modelling and data systems. COMP 2453 delivers a thorough introduction to Microsoft Fabric, covering its underlying architecture and may be taken concurrently with COMP 2456 - Microsoft PowerBI. It provides a detailed examination of OneLake, the platform's unified data storage layer that centralizes and simplifies data access. Students gain hands-on skills using cloud-native tools within the Microsoft Fabric ecosystem. Topics include building Lakehouses, which merge the strengths of data lakes and warehouses, orchestrating workflows with Data Factory and Dataflows. Managing sophisticated data pipelines for comprehensive analytics solutions, Real-time analytics through Eventstreams and KQL (Kusto Query Language) for analysing large datasets are also discussed. Labs and exercises focus on best practices for scalable data solutions, efficient real-time processing, and the use of generative AI for advanced analytical tasks. Participants utilize Power BI for high-level data visualizations and learn how Copilot integrates with Microsoft Fabric, enabling AI-powered analysis and automated insight generation. COMP 2453 is required course for the Applied Data Analytics Certificate (ADAC), an elective for the Applied Computer Information Systems (ACIS), Applied Database Administration and Design (ADAD) Associate Certificates, and the CST FLEX Diploma. Upon completion of this course, successful students will be equipped to proficiently manage the entire data lifecycle within the MS Fabric environment.
+### Prerequisite(s)
+- 60% in COMP 1630
+- or equivalent experience.
+### Credits
+1.5
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$450.00
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Microsoft Fabric and its main components.
+- Explain, create, and use OneLake-architecture.
+- Develop Lakehouses and upload data into the Lakehouse.
+- Create a basic data pipeline using Data Factory and Dataflows.
+- Set up a streaming dataset using Eventstreams and perform basic queries using KQL
+- Connect Power BI to MS Fabric.
+- Use Copilot in MS Fabric for AI-driven analytics.
+Effective as of Spring/Summer 2026
+## Related Programs
+Introduction to MS Fabric for Data Analytics (COMP 2453) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Information Systems (ACIS) Associate Certificate Part-time
+- Applied Data Analytics Certificate Part-time
+- Applied Database Administration and Design Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 2453 for the Fall 2026 term.
+Nov 02 - Dec 07
+- CRN 52739
+- $450.00 Domestic fees
+Dates | Days | Times | Locations
+Nov 02 - Dec 07 | Mon | 18:00 - 21:00 | Online
+### Duration
+6 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 18 hours synchronous online classes. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Late registration is not permitted.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/frontend-web-development-2-comp-3170/
+Title: Frontend Web Development 2 COMP 3170
+Type: Course
+Course Code: COMP 3170
+
+================================================================================
+
+## Frontend Web Development 2 COMP 3170
+Computer Systems Course
+## Course Overview
+​In this course, students will learn the principles and practices of React, one of the most prominent modern full-featured frontend JavaScript frameworks. They will learn to build modular components, and compose modular components into rich and featureful user interfaces. In this course, students build on core JavaScript development skills of Frontend Web Development with JavaScript.
+### Prerequisite(s)
+- 50% in COMP 2170
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using modern React and its supporting toolchain.
+- Manage component state using both local state and shared state.
+- Write code to transform nested serialized data into components.
+- Implement components that can evolve as they asynchronously load, by displaying states such as loading, error, and success.
+- Use third-party component libraries in their applications.
+- Use third-party libraries such as Jest or Storybook to build and test components in isolation.
+- Use a client side library to interact with HTTP APIs to send and receive data in JSON format.
+- Extend React functionality with modern React libraries such as React Router.
+- Conditionally render components using ternary and logical operators.
+- Implement good programming practices for clear communication, such as comments and formatting style.
+Effective as of Fall 2023
+## Related Programs
+Frontend Web Development 2 (COMP 3170) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Digital Design and Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

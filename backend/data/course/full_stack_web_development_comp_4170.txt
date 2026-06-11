@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/full-stack-web-development-comp-4170/
+Title: Full Stack Web Development COMP 4170
+Type: Course
+Course Code: COMP 4170
+
+================================================================================
+
+## Full Stack Web Development COMP 4170
+Computer Systems Course
+## Course Overview
+​In this course, students will learn to build and deploy a simple but complete full-stack web application, comprising a frontend, a backend, and database. Students in this course build on learning in previous courses of frontend development, supplementing that with the essentials of backend development. ​
+### Prerequisite(s)
+- 50% in COMP 3170
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Write programs in a suitable language for backend web development.
+- Integrate publicly available libraries via an appropriate package manager.
+- Create backend web applications that serve static assets.
+- Create backend endpoints that respond HTTP methods to dynamically accept and return JSON.
+- Write code to interact with a database to persist and retrieve data.
+- Explain the merits and flaws of validating user inputs on the frontend, or on the backend, or both.
+- Integrate frontend code with backend code using AJAX.
+- Write code to handle authentication and authorization.
+- Describe the risks and solutions involved in storing sensitive user information, such as passwords.
+- Deploy a full-stack web application to a hosting service, such as a PaaS or VPS.
+Effective as of Winter 2024
+## Related Programs
+Full Stack Web Development (COMP 4170) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Digital Design and Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

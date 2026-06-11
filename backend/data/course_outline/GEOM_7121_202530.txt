@@ -1,36 +1,39 @@
 URL: https://www.bcit.ca/outlines/20253051813/
 Course: GEOM 7121
 Field: Satellite Geodesy
-
-School: School of Construction and the Environment
-Program: Geomatics Engineering Technology
-Course Credits: 4
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 60
-Total Weeks: 15
-Hours/Weeks: 4
-Delivery Type: Lecture
-Zero Textbook Cost: Yes
-Prerequisite(s): GEOM 4080 and GEOM 6121 or equivalent for GEOM 4080.
+Subject: Geomatics
+Term: 202530
 CRN: 51813
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## GEOM 7121
+## Satellite Geodesy
+School | School of Construction and the Environment
+Program | Geomatics Engineering Technology
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | GEOM 4080 and GEOM 6121 or equivalent for GEOM 4080.
+CRN | 51813
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Mohammad Rajabi
-E-mail: mrajabi@bcit.ca
-Location: SW2-318
-Office Hours: Tuesdays 12:30 - 16:30Fridays 11:30 - 12:30
-
-## Course Description
+### Instructor Details
+Name | Mohammad Rajabi
+E-mail | mrajabi@bcit.ca
+Location | SW2-318
+Office Hours | Tuesdays 12:30 - 16:30 Fridays 11:30 - 12:30
+### Course Description
 ​This course provides a general review of Global Navigation Satellite System (GNSS) history, its components, associated radio signals, and satellite positioning concepts, including errors and biases involved and how to best minimize them. It also discusses various GNSS operation modes, data-processing procedures, and techniques. Through a series of lectures and assignments the course will expand to other major topics such as high-precision GNSS positioning, intermixing various GNSS antenna types, and utilizing high precision GNSS data products including precise clock and orbit. Other key topics include radio signal corrections, GNSS datums, reference frames, and coordinate transformations. The chapter on network adjustment will analyze adjustments using satellite-based baseline data and different reference station networks in North America. Finally, satellite-based augmentation systems (SBAS) and GNSS applications will be studied.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Describe the basic elements of satellite positioning, including some of the common terms.
 - Describe different segments of any GNSS in general and GPS in particular.
 - Relate GNSS measurement concepts and positioning services.
@@ -48,80 +51,58 @@ Upon successful completion of this course, the student will be able to:
 - Differentiate types of GNSS differencing techniques, including phase approach; single, double and triple difference techniques; and different types of wavelength combinations.
 - Discuss other major available satellite positioning systems besides GPS.
 - Perform high-precision data collection, processing, and results evaluation.
-
-## Learning Resources
+### Learning Resources
 Course Note will be provided by the instructor
-
 Required Textbook:
-
 Hofmann-Wellenhof B., Lichtenegger H., and Wasle E., 2008, GNSS - Global Navigation Satellite Systems: GPS, GLONASS, Galileo, and More. ISBN: 978-3-211-73012-6, SpringerWienNewYork.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 30: Equal weight weekly assignments
-Midterm Exam: 35: Modules 1 to 5 inclusive
-Final Exam: 35: Modules 6 to 10 inclusive
-
-## Attendance Requirements
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 30 | Equal weight weekly assignments
+Midterm Exam | 35 | Modules 1 to 5 inclusive
+Final Exam | 35 | Modules 6 to 10 inclusive
+### Attendance Requirements
 BCIT attendence policy is followed.
-
-## Course Specific Requirements
-Assignments are due by 8:00 AM one week after they are assigned, unless stated otherwise. All assignments must be submitted to the appropriate Dropbox on D2L before the deadline.
-
-Submissions in any other format—including email, hard copy, or other forms—will not be accepted.
-
+### Course Specific Requirements
+Assignments are due by 8:00 AM one week after they are assigned , unless stated otherwise. All assignments must be submitted to the appropriate Dropbox on D2L before the deadline.
+Submissions in any other format —including email, hard copy, or other forms— will not be accepted .
 Late submissions will be marked for feedback purposes only, but will not count toward your final grade in the course.
-
-## Course Schedule and Assignments
-This course includes 10 modules that will be delivered over a period of 15 weeks. The following schedule includes a list of the modules and the weeks you are expected to study each module.
-
-Week of: Week #: Module #: Outcome/Material Covered
-Sep 01: 1: -: Monday Sep 01 – Labour Day – Closed Tuesday Sep 02 – Orientation Day - No Class
-Sep 08: 2: 1: Introduction to Satellite Geodesy
-Sep 15: 3: 2: GPS Basics
-Sep 22: 4: 3: Reference Systems
-Sep 29: 5: -: Tuesday Sep 30 – National Day of Truth & Reconciliation – Closed
-Oct 06: 6: 4: Signal Structures & Receivers
-Oct 13: 7: 5: Monday Oct 13 – Thanksgiving Day – Closed Observables
-Oct 20: 8: 6: Errors & Biases
-Oct 27: 9: -: Midterm Exam (Modules 1 to 5 inclusive)
-Nov 03: 10: 7: Mathematical Models
-Nov 10: 11: -: Tuesday Nov 11 – Remembrance Day – Closed
-Nov 17: 12: 8: Surveying with GNSS
-Nov 24: 13: 9: Transformations
-Dec 01: 14: 10: Non-American Satellite Positioning Constellations Course Review
-Dec 8: 15: Final Exam (Modules 6 to 10 inclusive)
-
+### Course Schedule and Assignments
+This course includes 10 modules that will be delivered over a period of 15 weeks . The following schedule includes a list of the modules and the weeks you are expected to study each module.
+Week of | Week # | Module # | Outcome/Material Covered
+Sep 01 | 1 | - | Monday Sep 01 – Labour Day – Closed Tuesday Sep 02 – Orientation Day - No Class
+Sep 08 | 2 | 1 | Introduction to Satellite Geodesy
+Sep 15 | 3 | 2 | GPS Basics
+Sep 22 | 4 | 3 | Reference Systems
+Sep 29 | 5 | - | Tuesday Sep 30 – National Day of Truth & Reconciliation – Closed
+Oct 06 | 6 | 4 | Signal Structures & Receivers
+Oct 13 | 7 | 5 | Monday Oct 13 – Thanksgiving Day – Closed Observables
+Oct 20 | 8 | 6 | Errors & Biases
+Oct 27 | 9 | - | Midterm Exam (Modules 1 to 5 inclusive)
+Nov 03 | 10 | 7 | Mathematical Models
+Nov 10 | 11 | - | Tuesday Nov 11 – Remembrance Day – Closed
+Nov 17 | 12 | 8 | Surveying with GNSS
+Nov 24 | 13 | 9 | Transformations
+Dec 01 | 14 | 10 | Non-American Satellite Positioning Constellations Course Review
+Dec 8 | 15 | Final Exam (Modules 6 to 10 inclusive)
 The course outcomes/material are reinforced with weekly assignments.
-
 The course schedule is subject to slight changes based on the class progress.
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Mohammad Rajabi, Instructor August 24, 2025
-
 I verify that this course outline has been reviewed. Mark Dailey, Program Head August 25, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean August 27, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

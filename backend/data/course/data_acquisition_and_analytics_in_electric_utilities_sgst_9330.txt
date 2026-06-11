@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/data-acquisition-and-analytics-in-electric-utilities-sgst-9330/
+Title: Data Acquisition and Analytics in Electric Utilities SGST 9330
+Type: Course
+Course Code: SGST 9330
+
+================================================================================
+
+## Data Acquisition and Analytics in Electric Utilities SGST 9330
+Smart Grid Systems & Tech Course
+## Course Overview
+This course follows up on the information and communications technology in electric utilities course, now exploring in detail the operation of physical devices (sensors) used for data acquisition. This includes devices and protocols for wide-area measurement using data from phasor measurement units (PMUs or Synchrophasors) or advanced metering infrastructure (AMI). Such systems will be contrasted with local measurements within a substation, such as modern current transformers, voltage transformers and merging units utilizing sampled measured values (SMV). Applications of industrial Internet of Things (IoT) and wireless mesh networking in electric utilities will also be explored. Once the data is collected, it must be analyzed and abstracted for visualization for the purpose of short- and long-term planning or operations. Various approaches to “big data” analytics will be explored, along with an overview of methods used for visualization (abstraction) of such data. Case studies and data relating to smart metering and processing of that smart metering data within the smart microgrid at BCIT will be used to support the theoretical content introduced, along with supervised laboratory sessions. To contribute to their portfolio of work in SGST, students will work on an individual project within this course. As part of this project, students will be required to specify data acquisition hardware suitable for implementation in their smart microgrid and verify through testing. They will then implement a system for processing, abstraction and visualization of this data in a manner useful for those operating or controlling the microgrid locally.
+### Prerequisite(s)
+- 60% in SGST 9210 and 60% in SGST 9220
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Examine the use of hardware and data-exchange protocols for wide-area measurement in both legacy and modern systems, such as Phasor Measurement Units (PMUs or Synchrophasors) and smart-meters
+- Describe common applications of modern wide-area measurement hardware such fault-detection and enhancements to existing state estimation systems
+- Examine the use of hardware and data-exchange protocols for local (substation) data acquisition such as the use of conventional CTs and PTs with merging units utilizing the Sampled Measured Value (SMV) service mapping to send information digitally
+- Describe the applications of industrial Internet-of-Things (IoT) in electric utilities making use of wireless mesh-networking or modern cellular networks such as 5G
+- Outline the techniques available for handling large volumes and flow of data in a modern distribution grid or substation with increasing amounts of data acquisition hardware
+- Develop machine learning algorithms, including the use of deep-learning or artificial neural networks, for performing common data analytic tasks such as the abstraction of useful patterns from data in applications such as electricity theft detection and predictive maintenance
+- Develop useful visualizations of abstracted data for use by utility planners and operators
+- Apply principles from the NIST framework for critical infrastructure cybersecurity and NERC critical infrastructure protection standards in the development of communications and data acquisition architectures for a smart microgrid
+Effective as of Fall 2021
+## Related Programs
+Data Acquisition and Analytics in Electric Utilities (SGST 9330) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Smart Grid Systems and Technologies Master of Engineering Full-time/Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

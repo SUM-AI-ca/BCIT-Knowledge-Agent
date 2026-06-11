@@ -1,0 +1,91 @@
+URL: https://www.bcit.ca/courses/electronic-circuits-2-control-elex-3320/
+Title: Electronic Circuits 2 (Control) ELEX 3320
+Type: Course
+Course Code: ELEX 3320
+
+================================================================================
+
+## Electronic Circuits 2 (Control) ELEX 3320
+Electrical and Computer Engineering Course
+## Course Overview
+This course begins with a review of transistor AC small signal models leading to an analysis of the differential amplifier and its small signal analysis and performance. This material forms an introduction to linear integrated circuits, particularly the operational amplifier and its circuit applications. These include an introduction to various amplifier circuits including differentiators, integrators and active filters. The s-plane is introduced and transfer function techniques are used to analyze first and second order circuits. The course continues with an introduction to feedback systems. Topics include the operational amplifier as a feedback system, phase locked loops, simple position control servos and a general analysis of feedback amplifiers.
+### Prerequisite(s)
+- (50% in ELEX 2105 or 50% in ELEX 2135 ) and 50% in MATH 2431 and 50% in MATH 3431 † and 50% in ELEX 2120 ( † may be taken concurrently)
+### Credits
+7.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## SMALL SIGNAL MODELS FOR THE BIPOLAR JUNCTION TRANSISTOR
+- Draw and understand small signal equivalent circuits for bipolar junction transistors.
+- Describe qualitatively the operation of a bipolar transistor.
+- Draw the AC small signal equivalent circuit for a common emitter amplifier and hence calculate input and output resistances and voltage gain. Draw the hybrid pi equivalent circuits of a bipolar transistor.
+- Convert between hybrid pi equivalent circuits.
+## DIFFERENTIAL AMPLIFIERS
+- Design, build and test differential amplifiers.
+- Explain qualitatively the operation of a differential amplifier.
+- Given the circuit parameters, calculate differential gain, common mode gain and common mode rejection ratio using the hybrid -p p equivalent circuit.
+- Show by calculation the improvement in CMRR that results from using a current mirror for the tail current supply.
+## OPERATIONAL AMPLIFIERS - DEVICE CHARACTERISTICS
+- Design, build and test inverting and non-inverting op-amp configurations.
+- Recognize op-amp linear amplifier circuits as feedback amplifiers and apply the feedback equation.
+- Explain and define: virtual ground, input offset voltage, input offset current, input bias current, slow rate, bandwidth, rise time, gain-bandwidth product, open loop gain, closed loop gain, common mode rejection ratio, common mode range.
+- Read an apply spec sheet data.
+- Draw schematics and calculate input resistance, output resistance and gain for the inverting and non-inverting configurations.
+- Calculate bandwidth, rise time, power bandwidth, input resistance and output resistance for a given circuit.
+## OPERATIONAL AMPLIFIERS - CIRCUITS AND APPLICATIONS
+- Design, build and test various circuits such as comparators and classical absolute value circuits using op-amps.
+- Design, build and test instrumentation amplifiers.
+- Design, build and test differentiators and integrators.
+- Analyze differentiator and integrator circuits using s-plane techniques.
+- Define and explain: low-pass, high-pass, and band-pass filters.
+- Define order of a filter.
+- Design, build and test VCVS high-pass, low-pass, and band-pass filters.
+- Make frequency response graphs for a given filter function using the Bode plot approximation.
+- Design, build and test comparators, absolute value circuits and simple function generator circuits.
+## PHASE LOCKED LOOPS
+- Design, build and test phase locked loop systems.
+- Draw block diagram of phase locked loop.
+- Recognize the phase locked loop as a feedback system.
+- Define and explain Phase Detector Constant and Oscillator Constant.
+- Explain feedback action loop.
+- Perform steady state analysis of loop.
+- Perform a transient analysis of the loop with no filter.
+- Perform a frequency response analysis of the loop with no filter.
+- Explain the need for a first order loop filter.
+- Write the second order loop transfer function.
+- Design a suitable first order loop filter given the required response.
+- Design and test phase locked loop systems such as those used in FSK demodulators.
+## FEEDBACK AMPLIFIERS
+- Design, build and test feedback amplifiers.
+- Draw basic feedback amplifier circuits.
+- Distinguish between voltage and current feedback.
+- Distinguish between series and shunt feedback.
+- Calculate the gain of a given feedback amplifier.
+- Calculate the input and output impedances of a given feedback amplifier.
+- Calculate the bandwidth of a given feedback amplifier.
+## USE OF S-PLANE
+- Construct s-plane models of electrical and mechanical systems and derive system performance information for the models.
+- Develop transfer functions for elementary circuits and machines.
+- Apply s-plane analysis techniques to circuit problems.
+- Derive the steady-state sine wave response.
+- Plot frequency and step response of elementary circuits given the transfer function.
+## POSITION CONTROL SERVO SYSTEMS
+- Design, build and test position control servo systems.
+- Understand, set up and use the transfer function of a permanent magnet dc motor with an intertial load.
+- Make a block diagram of a simple position control servo system.
+- Put the appropriate transfer functions in each block.
+- Derive the s-plane system transfer function.
+- Predict the system response to various input functions.
+- Recognize the order of a feedback system.
+- For a second order system, explain the significance of and use appropriately:
+- - natural frequency
+- - damping ratio
+- - damped frequency
+- - overshoot
+- - risetime
+- - under, over, and critical damping
+- - effect of pole placement on system stability.
+- Use rate feedback to accomplish reduction in overshoot.
+- Design and test a second order position control system.
+Effective as of Winter 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/advanced-java-web-development-comp-4613/
+Title: Advanced Java Web Development COMP 4613
+Type: Course
+Course Code: COMP 4613
+
+================================================================================
+
+## Advanced Java Web Development COMP 4613
+Computer Systems Course
+## Course Overview
+PLEASE NOTE: COMP 4613 will have it's final offering in September 2022. This course follows on from COMP 3601 or COMP 3656 and assumes students capable of writing significant software applications in Java and understand how to build basic Java Web Applications. COMP 4613 continues the exploration of JEE in regard to web applications and Servlet APIs. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. High-speed internet access is needed for online sections and for homework. Labs and exercises focus on web application design, organization and deployment using industry standards to develop and deploy advanced Java web applications using build tools such as Maven. Topics include: Web tier programming with variety of Java technologies such as JSP, JSTL, JSP EL, JSP custom tags, DisplayTag and popular Java web development frameworks such as PrimeFaces. Participants will create and use data sources, then practice how to encrypt and decrypt sensitive data, while it us in rest or in transit. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 14 total hours each week; 3 hours of class time, a 1-hour online component and 10+ hours of homework. Upon successful completion students will have a better understanding of Java Web App Development and are prepared move on to COMP 4656 Java Enterprise Edition (JEE) Programming.
+### Prerequisite(s)
+- 60% in COMP 3601 or (60% in COMP 2613 and 60% in COMP 3656 )
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design, code, build, and deploy Java Web Applications.
+- Further examine the use of Servlets, HTTP Filters and web listeners as application controllers.
+- Build and deploy Java Web Applications into application servers using Maven and Ant.
+- Configure Application Servers and Web Application modules.
+- Demonstrate the merits of design and organization in a Java Web Application.
+- Build dynamic presentation layers JavaServer Pages and request dispatching.
+- Construct reusable components through the use of Custom Tags, Tag Handlers and DispalyTag.
+- Authenticate and Authorize application users with programmatic and declarative techniques.
+- Encrypt data at rest using jasypt API.
+- Encrypt data in transit using secure protocols such as HTTPs
+- Develop an in-depth understanding of Servlet 3.x, JSP and JSP Expression Language.
+- Utilize the JSTL API to develop Java web applications.
+- Integrate JSF components into Java web applications.
+- Build web application using PrimeFace web framework.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

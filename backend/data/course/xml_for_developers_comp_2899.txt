@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/xml-for-developers-comp-2899/
+Title: XML for Developers COMP 2899
+Type: Course
+Course Code: COMP 2899
+
+================================================================================
+
+## XML for Developers COMP 2899
+Computer Systems Course
+## Course Overview
+This hands-on course will introduce students to Extensible Markup Language (XML) and how to incorporate XML into web-based applications. XML is a standard for structuring, and storing web information. Topics include XML syntax, DTD and XML Schema validation, namespaces, XSLT, XPath, and web technologies such as RSS, Atom and XML-RPC. Labs cover various parser technologies, declarative XML UI languages, data-modelling with XML, and using XML in AJAX-enabled web applications. Successful completion of course includes how to develop XML formats and be able to apply XML technologies to various web based applications.
+### Prerequisite(s)
+- COMP 1950 or equivalent HTML experience.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Validate XML using DTD and XML Schema.
+- Understand XML syntax rules.
+- Demonstrate how to model objects and relational data models using XML.
+- Contrast the differences between the various facets of XML parsers (push vs. pull, tree based vs. event driven).
+- Understand how namespaces are used in XML.
+- Construct XML Schemas to model data.
+- Construct XSLT style sheets for processing HTML.
+- Construct XPath expressions for use within XSLT style sheet templates.
+- Use a declarative XML UI language to construct a web UI.
+- Utilize JavaScript to manipulate Atom and RSS within a web page.
+- Understand XML’s role in current web technology.
+- Demonstrate how XML-RPC is used within AJAX-enabled web pages.
+Effective as of Spring/Summer 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

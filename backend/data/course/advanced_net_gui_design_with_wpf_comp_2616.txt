@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/advanced-net-gui-design-with-wpf-comp-2616/
+Title: Advanced .NET GUI Design with WPF COMP 2616
+Type: Course
+Course Code: COMP 2616
+
+================================================================================
+
+## Advanced .NET GUI Design with WPF COMP 2616
+Computer Systems Course
+## Course Overview
+This intensive, hands-on workshop is for programmers who already understand how to write code in the .NET environment. Students gain practical skills using the Windows Presentation Foundation (WPF) to develop advanced graphical user interfaces (GUI). WPF is a set of libraries in .NET which allows programmers to create, display, and manipulate, 2D and 3D images, video and audio media in a Windows environment. WPF topics include: Grid, UniformGrid, StackPanel, WrapPanel, DockPanel, and Canvas. The Extensible Application Markup Language (XAML) standard is also covered. With WPF it is possible to create dynamic user interfaces and visual effects not possible with Windows Forms. Upon successful completion of this workshop, participants will understand the use of WPF and be able to create advanced user interfaces for their .NET applications.
+### Prerequisite(s)
+- COMP 2614 or COMP 2690 or equivalent knowledge of C# or VB.NET
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand the fundamentals of effective user interface design.
+- Create interface layouts using the Extensible Application Markup Language (XAML) standard.
+- Integrate a number of the powerful controls offered by the WPF environment (including Grid, UniformGrid, StackPanel, WrapPanel, DockPanel, and Canvas) into a .NET based application.
+- Bind WPF controls to data sources and create functional data-driven user interfaces.
+- Use Microsoft Expression Blend to provide full control on the look and feel of their custom interfaces.
+- Add interactive dynamic objects such as 3D objects, video, and audio, to their application.
+Effective as of Winter 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

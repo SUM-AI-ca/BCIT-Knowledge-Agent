@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/web-c-application-development-comp-3514/
+Title: Web C# Application Development COMP 3514
+Type: Course
+Course Code: COMP 3514
+
+================================================================================
+
+## Web C# Application Development COMP 3514
+Computer Systems Course
+## Course Overview
+This hands-on course builds upon COMP 2523 in the Full-Stack Web Development Diploma. Students who already understand OOP learn to build graphical user interfaces (GUIs) and design Windows application software. The focus of this course is an introduction to C# programming with Microsoft Visual Studio and the .NET Framework for Windows application development. Labs and assignments are designed to reinforce industry standards and best practices. Topics include: Windows Forms and controls, event-driven programming and effective application debugging. Students will be prepared to move on to COMP 4514 Web Application Development with MVC. Upon successful completion, participants will be able to use C# to create executable Console and Windows Form applications with the latest .NET technologies.
+### Prerequisite(s)
+- COMP 2131 and COMP 2523
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the Microsoft.NET Framework and understand its' major components: Common Language Runtime (CLR) and Base Class Library (BCL).
+- Use the C# language to build Console and Windows Form applications.
+- Design Windows GUI applications with Forms and Dialogs.
+- Use common Windows controls including Form, TextBox, Button, and Label.
+- Use advanced Windows controls including DataGridView, ListView, and Error Provider.
+- Use Visual Studio 2017 and the MSDN Library for on-line help.
+- Write executable and Class Library Assemblies, using the C# language.
+- Work with multiple projects, using Visual Studio Solutions.
+- Implement exception handling to build robust applications.
+- Work with the Input/Output (I/O) system.
+- Implement the latest .NET features including LINQ, Lambdas, and Extension Methods.
+- Work with .NET Collection classes.
+- Interact with SQL databases using Active Data Objects (ADO.NET).
+- Enhance code separation using namespaces and class libraries.
+Effective as of Winter 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/computer-applications-for-building-science-bldg-4105/
+Title: Building Performance Simulation BLDG 4105
+Type: Course
+Course Code: BLDG 4105
+
+================================================================================
+
+## Building Performance Simulation BLDG 4105
+Building Course
+## Course Overview
+​ This course is taught in conjunction with BLDG 4100 , which focuses on the performance fundamentals of environmental separators – such as the building envelope – which are critical to creating a controlled environment within a space or building. In this course, students will learn the fundamental inputs, processing, and outputs of the WUFI, THERM, and REVIT Analysis computer programs, and apply the programs to simple building envelope performance evaluation exercises. Students will be assigned graphical challenges in designing, specifying, and communicating their plans for critical elements of environmental separators in example buildings. These will include 3-D and 4-D details of environmental separator assemblies which demonstrate how four key functions of the environmental separator will be achieved: control of Heat, Moisture, Air, and Light. The REVIT Insight 360, Lighting, and Solar Analysis suite of add-ons to the REVIT Building Information Management program will be used to investigate optimum geometry and material/assembly selection for envelope thermal performance and daylighting strategies. Using the WUFI program, students will analyze the hygrothermal performance of envelope assemblies, focussing on the climate and building assemblies commonly used in the Lower Mainland of BC. The THERM program will be used to investigate 2 -dimensional heat flow and material temperature profiles in various common envelope details such as reinforced concrete floor slabs and cladding fastener connections. ​
+### Prerequisite(s)
+- BLDG 3100
+- BLDG 4100 ‡ ( ‡ must be taken concurrently)
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create appropriate input files for each of the three programs for simple buildings.
+- Run each program under appropriate conditions for weather/climate, initial conditions, and building use and occupancy.
+- Analyze the output data for appropriate accuracy and context.
+- Carry out parametric analysis on variations from the original input, for example, the effect of different materials and geometries of fasteners for reducing thermal bridging in envelope assemblies.
+Effective as of Winter 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

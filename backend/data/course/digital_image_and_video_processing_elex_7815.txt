@@ -1,0 +1,48 @@
+URL: https://www.bcit.ca/courses/digital-image-and-video-processing-elex-7815/
+Title: Digital Image and Video Processing ELEX 7815
+Type: Course
+Course Code: ELEX 7815
+
+================================================================================
+
+## Digital Image and Video Processing ELEX 7815
+Electrical and Computer Engineering Course
+## Course Overview
+This course is a design elective. It extends and expands the students’ knowledge of digital signal processing (DSP), with an emphasis on image processing. It reviews and then advances beyond prior courses that cover the classical topics of sampling, aliasing, digital filter design, and Discrete Fourier transformation. This course will introduce fundamental technologies for digital image/, compression, analysis, and processing. Students will gain understanding of algorithm, system design, analytical tools, and practical implementations of various digital image and video applications. Topics include two dimensional sampling and quantization, digital image enhancement techniques, point processing, spatial filtering, frequency domain filtering, digital image restoration, image histogram, color perception, discrete cosine transformation (DCT), image compression, multi-resolution processing and Wavelet transformation. Selected image processing methods are demonstrated and developed in laboratory activities through the relevant specialized modules of MatLab.
+### Prerequisite(s)
+- ELEX 7620
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Calculate multi-dimensional Fourier Transform [1]
+- Develop efficient and effective methods for 2-D signal sampling and quantization. [2,5]
+- Design efficient methods for Image filtering in spatial and frequency domains. [2,5]
+- Apply histogram processing including histogram equalization and matching.[2,3]
+- Analyze DCT transformation used in image and video coding. [1]
+- Gain practical experience in the design and implementation of image processing algorithms. [4,5]
+- Explain current image coding standards. [7]
+- Design multi-resolution processing including image pyramid, sub-band coding and Wavelet transformation. [2, 4]
+- Implement image restoration and reconstruction algorithm.[2,3]
+- Demonstrate familiarity with specialized extension modules for MatLab, or other software design packages available for designing digital image processing systems. [5]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2024
+## Related Programs
+Digital Image and Video Processing (ELEX 7815) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/applied-network-security-comp-3705/
+Title: Applied Network Security COMP 3705
+Type: Course
+Course Code: COMP 3705
+
+================================================================================
+
+## Applied Network Security COMP 3705
+Computer Systems Course
+## Course Overview
+This course has been replaced with COMP 3704 and COMP 4704 to provide more depth in IT Security. This hands-on course follows on from COMP 3821 and introduces network security to those who already understand LAN design and TCP/IP networks. Students work in a lab environment to learn the concepts and technologies required to design and maintain secure computer networks. Topics include: risk analysis and security policy development, network protocols, architecture security, types of attacks and hacker techniques, authentication and encryption, Viruses, Worms and Trojans, and e-commerce security. There is an overview of firewalls; plus VPNs and IDS which are covered in greater depth in COMP 4707 -Applied Intrusion Detection Systems (IDS) and COMP 4708 -Applied Virtual Private Networks (VPN). Participants will use best practises and available tools to analyse traffic, and study attacks, plus understand how to protect networks against intrusions and denial of service situations. As a side benefit, many of the Security+ domains are covered for preparation towards the CompTIA Security+ certification.
+### Prerequisite(s)
+- 50% in COMP 2765 and 50% in COMP 3700 and 50% in COMP 3821
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the basic concepts behind network security.
+- Perform risk analysis and implement a security policy.
+- Explain the functions of all the key network protocols and devices.
+- Explain basic attack techniques used by hackers/attackers attempting to gain unauthorized access to networks and systems.
+- Explain authentication, encryption and related protocols.
+- Explain the role of symmetric and asymmetric (public-key) cryptography.
+- Describe Virtual Private Networks (VPN) and setup basic VPN connections.
+- Explain e-commerce security issues.
+- Control the spread of viruses, trojan horses, and worms.
+- Utilize Intrusion Detection Systems (IDS).
+- Distinguish between different types of firewalls.
+- Define the basic concepts involved in setting up and maintaining secure server and workstations.
+- CompTIA Security+ preparation: most domains are covered by this course, however additional study will be required to cover remaining areas. CompTIA is independent testing is done via a 3rd party at extra cost.
+Effective as of Spring/Summer 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

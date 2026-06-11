@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/web-application-development-with-php-comp-3015/
+Title: Web Application Development with PHP COMP 3015
+Type: Course
+Course Code: COMP 3015
+
+================================================================================
+
+## Web Application Development with PHP COMP 3015
+Computer Systems Course
+## Course Overview
+​​​This hands-on advanced course follows COMP 2132 –Web Development with JavaScript and is aimed at students who already possess a solid understanding of web development and who have client-side programming experience. COMP 3015 begins with basic client-server concepts. Participants are then introduced to server-side programming with PHP and a variety of open-source software tools. Topics include: data encoding, regular expressions, input sanitization, dependency management with Composer, and common components to a typical web application. MySQL, password hashing, and TLS are also discussed. Labs and assignments include using: file I/O, password hashing functions, plus uploading images and other files to a server. Participants gain hands-on experience developing and deploying server-side software in an Object- Oriented Programming (OOP) approach Students practice obtaining and processing user input, basic web application security and how to mitigate the dangers of cross site scripting, session hijacking, and SQL injection. COMP 3015 is a required course in the Web and Mobile Application Development (WMA) Associate Certificate, and the CST FLEX Diploma, which have significant coding prerequisites. Note: Applied Web Development (AWD) students without Java or C# programming language experience are advised to complete COMP 3012 -Back-End Web Development with Node.js, prior to this course. Upon completion, successful students will be able to develop commercial quality web applications and move on to COMP 4669 -Advanced Web Applications with PHP​. The last offering of ​ COMP 3015 was Fall 2025. The replacement course ​​is COMP 4015 Advanced Web Application Development.​
+### Prerequisite(s)
+- 60% in COMP 2132 or 50% in ACIT 1620
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the difference between client-side and server-side software.
+- Configure and use tools to debug applications.
+- Use browser developer tools in order to debug client-server applications.
+- Use Object-Oriented Programming (OOP) to develop a simple server-side web application.
+- Write unit tests using PHPUnit.
+- Build database driven web applications using PHP 8, which are capable of obtaining, validating, and safely storing user input.
+- Describe the differences between HTTP and HTTPS.
+- Explain HTTP status codes, verbs, request/response headers, cookies, and sessions.
+- Authenticate users and persist their data across a web application using cookies and sessions.
+- Explore and defend against security vulnerabilities such as cross site scripting, SQL injection and session hijacking.
+- Describe Transport Layer Security (TLS) and Public Key Infrastructure (PKI) fundamentals.
+- Configure a web server for serving PHP applications. ​
+Effective as of Winter 2023
+## Related Programs
+Web Application Development with PHP (COMP 3015) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

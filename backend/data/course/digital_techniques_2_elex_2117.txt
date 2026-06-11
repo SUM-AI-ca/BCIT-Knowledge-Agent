@@ -1,0 +1,60 @@
+URL: https://www.bcit.ca/courses/digital-techniques-2-elex-2117/
+Title: Digital Techniques 2 ELEX 2117
+Type: Course
+Course Code: ELEX 2117
+
+================================================================================
+
+## Digital Techniques 2 ELEX 2117
+Electrical and Computer Engineering Course
+## Course Overview
+This course builds on the knowledge gained in ELEX 1117 . Specifically students will study and analyze: sequential logic devices; latches; synchronous counters; count decoders and display systems; shift registers; serial and parallel data manipulation circuits; parallel data paths; state diagrams and state machines to design sequential logic systems. An HDL programming language will be introduced and used to solve design problems. Graphical and HDL design/simulation software development tools will be used in the laboratory. Hardware development/analysis tools will consist of a PLD or FPGA development board, a prototype board (with various DIP LSI/MSI ICs), a DMM and an oscilloscope in the laboratory.
+### Prerequisite(s)
+- 50% in COMM 1143 and 50% in ELEX 1105 and 50% in ELEX 1117 and 50% in MATH 1431
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze (iv) frequency, period, pulse width, rise/fall time, duty cycle, and propagation delay associated with combinatorial and sequential logic circuits. [1, 2, 3]
+- Apply (iii) sequential logic elements (such as D flip-flops) in a variety of circuits such as mechanical switch de-bouncers, frequency dividers, binary/decade/modulo counters and simple finite state machines (FSM). [1, 2, 3, 4]
+- Measure (iii) flip-flop timing parameters such as asynchronous and synchronous propagation delays, set-up and hold time and frequency maximums as stated on industry standard data sheets. [1, 2, 3, 7]
+- Describe (ii) the difference between synchronous and asynchronous control inputs (of sequential logic elements and systems) and asynchronous versus synchronous operation (clocking) of sequential logic systems and their timing specifics. [1, 2, 3, 4]
+- Use (iii) an oscilloscope to verify correct/predicted operation of sequential logic elements/systems and confirm that they operate within their max/min voltage/time specifications. [1, 2, 3, 5]
+- Apply (iii) universal shift registers to configure PIPO/SISO/SIPO/PISO registers as well as design a simple data communications systems to transfer data from parallel to serial form and back. [1, 2, 3, 4, 5, 6, 7]
+- Utilize (iii) Open Collector/Drain and Tristate output structured devices with decoders and multiplexers to implement shared data path systems. [1, 2, 3]
+- Design (iii) PWM digital-to-analog converters and successive-approximation analog-to-digital converters. [1,4,5]
+- Use (iii) HDL constructs to describe synthesizable concurrent and structural logical systems. [1, 2, 3, 4, 5]
+- Use (iii) State Diagrams, State Tables and an industry standard CAD/EDA application package as aids for designing combinatorial/sequential logic HDL descriptions and simple finite state machines (FSM). [1, 2, 3, 4, 5]
+## Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+(ii) Comprehension - Students are expected to explain and understand a topic.
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+## Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2022
+## Related Programs
+Digital Techniques 2 (ELEX 2117) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

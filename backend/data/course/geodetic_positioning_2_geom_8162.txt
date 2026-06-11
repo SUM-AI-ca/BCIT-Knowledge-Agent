@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/geodetic-positioning-2-geom-8162/
+Title: Geodetic Positioning 2 GEOM 8162
+Type: Course
+Course Code: GEOM 8162
+
+================================================================================
+
+## Geodetic Positioning 2 GEOM 8162
+Geomatics Course
+## Course Overview
+This course starts with a review of different GPS operation modes, which include static, rapid static, stop-go, kinematic, kinematic on-the-fly, realtime and non-realtime; and GPS data processing procedure. It will then continue with other major topics such as high precision GPS positioning including inter-mixing different GPS antenna types, mixing RINEX data, using Precise Ephemeris, utilizing RTCM messages and NMEA strings; GPS datums and reference frames. The chapter on Network Adjustment will analysis network adjustment using satellite-based baseline data. Detailed GPS data processing techniques and ambiguity resolution will be studied, as well as different GPS reference station networks in North America and GPS applications. The course will conclude on the study of other satellite navigation techniques such as Transit Doppler, GLONASS and Galileo.
+### Prerequisite(s)
+- GEOM 7362
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Understand and execute different GPS Operation Modes, including:
+- Static, rapid static, stop-go, kinematic and kinematic on-the-fly.
+- Realtime and non-realtime.
+- Conduct GPS Data Processing Procedure.
+- Understand and execute topics on High Precision GPS Positioning:
+- Inter-mixing different GPS antenna types
+- RINEX
+- Precise Ephemeris
+- RTCM
+- NMEA
+- Execute GPS Datums and Reference Frames.
+- Understand GPS Reference Station Networks in North America.
+- Understand GPS Network Consideration and perform GPS Network Adjustment.
+- Differentiate different types of GPS Differencing Techniques:
+- Understanding Carrier Phase Ambiguity Resolution
+- Differencing in GPS and their correlation: Phase approach; Single difference; Double difference; Triple difference
+- Different types of wavelength combinations, eg L3, L4 and L5
+- Understand other satellite navigation techniques, including Transit Doppler, GLONASS, Galileo.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

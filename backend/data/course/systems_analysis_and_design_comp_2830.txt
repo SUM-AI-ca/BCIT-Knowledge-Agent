@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/systems-analysis-and-design-comp-2830/
+Title: Systems Analysis and Design COMP 2830
+Type: Course
+Course Code: COMP 2830
+
+================================================================================
+
+## Systems Analysis and Design COMP 2830
+Computer Systems Course
+## Course Overview
+COMP 2830 has been replaced by COMP 2831 . System Analysis and Design is the study of concepts, processes and tools that the IT profession uses to develop information systems. The focus is on best practices and industry standards, providing the foundation for all software development credentials in the BCIT School of Computing. This hands-on course follows on from COMP 1630 and teaches students how to ask implicit questions to create and document communication plans to make better decisions. Beginning with an introduction to the SDLC, Software Development Life Cycle, students work in teams to initiate the system process, analyze problems, and requirements creating a logical design, following IEEE standards. Students receive an introduction to the techniques of Agile software development. The process starts with a systems definition and progresses to implement a sustainable design, capable of changing requirements. Topics include: traditional approaches to data and process modeling, as well as an overview of Object Oriented Modeling techniques using UML, the Unified Modeling Language. RAD -Rapid Application Development, XP -eXtreme Programming, and SCRUM also discussed. COMP 2830 is required for the Applied Associate Certificates in: Software Development -ASD. Web Development -AWD, Database Administration and Design -ADAD, as well as the CST Certificate of Technology -COT, in the CST/PTS Diploma. Students provide detailed written materials and make oral presentations of their designs. This course consists of one face to face meeting each week, group work, a significant online component and home work outside of class. Successful participants will be able to analyze processes and procedures and use industry standard tools and methods, to design an interface, document and implement an information system. They will also be prepared to move on to COMP 3831 , Object Oriented Analysis and Design, OOAD.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain and use the various phases of the SLDC- software development life cycle.
+- Describe the key features of current trends in system development: eXtreme Programming, FDD- Feature.
+- Overview Agile concepts in Software Development.
+- Develop a project schedule using PERT and GANTT charts.
+- Construct a cost benefit analysis to determine the feasibility of a project.
+- Determine system requirements using the appropriate technique(s).
+- Identify and analyze the data entities and objects needed in a system.
+- Read, interpret and develop models that can be incorporated with traditional structured analysis.
+- Develop use case diagrams and scenario descriptions.
+- Explain how the various UML diagrams work together to define the functional requirements.
+- Develop interaction, sequence and collaboration diagrams.
+- Design appropriate user interface following design rules.
+- Identify the required integrity controls for inputs, outputs, data and processing.
+- Learn a basic overview of software tools for diagrams and time lines.
+- Describe implementation and support activities.
+- Learn formats for documentation and presentation skills.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

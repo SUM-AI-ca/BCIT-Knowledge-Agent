@@ -1,0 +1,72 @@
+URL: https://www.bcit.ca/courses/programming-concepts-comp-1401/
+Title: Programming Concepts COMP 1401
+Type: Course
+Course Code: COMP 1401
+
+================================================================================
+
+## Programming Concepts COMP 1401
+Computer Systems Course
+## Course Overview
+Learn the proper concepts and methods behind programming logic and structured design. This comprehensive course provides a first look at what happens in the programming cycle, before writing code in any specific language. Students are shown how to design structured programs using development tools such as hierarchy charts, flowcharts, layout forms, and programming constructs. Various problem analysis tools for developing algorithms, decision tables, Boolean operations, and truth tables are used in hands-on exercises. Topics also include: arrays, debugging and binary data storage. This course should be completed before taking any advanced systems or programming courses.
+### Prerequisite(s)
+- COMP 1002 and COMP 1200 or the ability to use a PC, plus word processing and spreadsheet applications. Please note: This is the last term that COMP 1401 will run. It is being replaced by COMP 1409 .
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Module 1
+- Define computer terms and concepts.
+- Define Networks.
+- Classify type of computers.
+- Describe major categories of computer languages.
+- Describe the program development life cycle.
+- Module 2
+- Prepare an algorithm for a given problem.
+- Use test data to test the logic of an algorithm.
+- Module 3
+- Design input and output layouts.
+- Identify data types.
+- Describe the input and output layout standards.
+- Module 4
+- Define variables and constants and their uses.
+- Define functions and their uses.
+- Identify and describe the concepts of the data definition.
+- Create the data definition for a given problem.
+- Module 5
+- Identify the common flowcharting symbols.
+- Create a simple flowchart.
+- Module 6
+- Identify the control structures.
+- Create a structured flowchart.
+- Design a hierarchy chart.
+- Module 7
+- Define pseudocode.
+- Identify the basic computer operations.
+- Identify the control structures in pseudocode.
+- Module 8
+- Define a table.
+- Identify table search methods.
+- Identify sorting methods.
+- Define organization and access.
+- Describe two file processing methods.
+- Module 9
+- Describe conditions used in programming.
+- Use compound conditions to simplify coding.
+- Use a truth table to assist with developing program logic.
+- Use a decision table to ensure all conditions are documented.
+- Module 10
+- Define a control break.
+- Define pagination.
+- Code a single-level control break.
+- Code a multi-level control break.
+- Module 11
+- Represent the common programming structures using Nassi-Schneiderman charts.
+- Effectively use Nassi-Schneiderman charts to develop structured code.
+- Module 12
+- Define systems analysis.
+- Describe the systems development life cycle.
+- Define a database management system.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/introduction-to-database-systems-with-ms-access-comp-0371/
+Title: Introduction to Database Systems with MS Access COMP 0371
+Type: Course
+Course Code: COMP 0371
+
+================================================================================
+
+## Introduction to Database Systems with MS Access COMP 0371
+Computer Systems Course
+## Course Overview
+In this one-day workshop participants will gain hands-on experience using MS Access, a relational database management system to develop a simple database with multiple table. Students must already be familiar with managing files on a Windows PC and the MS Office interface. Students focus on how to enter, store, manage and report data efficiently after an introduction to the concepts of databases. They practice designing relational tables, enforcing data integrity, creating queries and basic forms. Labs and exercises include importing data from Excel spreadsheets, creating user forms, generating reports, and extracting information through queries. Skill builder exercises are used throughout and by the end of the day successful participants will be able to use a basic relational database management system, create multiple tables and generate reports. Upon successful completion students will be prepared to move on to the next level COMP 0372 - Data Analysis with MS Access.
+### Prerequisite(s)
+- COMP 1002 and COMP 2010 or equivalent knowledge.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design a simple multi-table relational database.
+- Create tables in Design and Datasheet Views.
+- Specify data types and change field properties.
+- Enforce referential integrity between tables.
+- Create select queries using the QBE window.
+- Enter criteria and expressions in queries.
+- Create calculations in queries.
+- Group query data and perform aggregate functions on grouped records.
+- Create forms for data entry using the Form Tool and Form Wizard.
+- Navigate through form records and update information.
+- Generate reports using the Report Tool and Report Wizard.
+- Modify reports in Layout View.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

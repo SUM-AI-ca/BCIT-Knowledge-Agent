@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/content-management-with-drupal-comp-1854/
+Title: Content Management with Drupal COMP 1854
+Type: Course
+Course Code: COMP 1854
+
+================================================================================
+
+## Content Management with Drupal COMP 1854
+Computer Systems Course
+## Course Overview
+This hands-on workshop is designed for students who have completed COMP 1850 or those with some understanding of HTML. Participants learn how to keep website information up to date with Drupal, a modular content management system (CMS) for the web. Topics include: site structure, modules, security and simple customization. Lab exercises include using Drupal approval queues, and Drupal security. Drupal is a great choice for small businesses, charities and non-profit organizations who need to accommodate multiple web authors via a CMS with a simple administrative interface. Participants learn how to customise and configure their choice of over one thousand Drupal modules, for just about any application. By the end of this course, successful participants will create a live Drupal project.
+### Prerequisite(s)
+- COMP 1850 or equivalent knowledge of HTML and FTP.
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Configure custom site security levels for different modules and users.
+- Define a CMS and detail the options available to users and administrators.
+- Download, install and configure preselected modules.
+- Customize interfaces such as menus, log in and template pages.
+- Utilize online resources for beginner tasks with Drupal.
+- Understand how workflow systems operate with Drupal.
+- Integrate other open source technologies such as Blogs, Forums and RSS.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

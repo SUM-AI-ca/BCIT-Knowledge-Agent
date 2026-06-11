@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/asp-net-for-asp-web-developers-comp-2810/
+Title: ASP.NET for ASP Web Developers COMP 2810
+Type: Course
+Course Code: COMP 2810
+
+================================================================================
+
+## ASP.NET for ASP Web Developers COMP 2810
+Computer Systems Course
+## Course Overview
+This upgrade course is designed for students who already have ASP knowledge. In this hands-on course, students are provided with the skills that are needed to successfully upgrade existing Active Server Pages (ASP) and Web applications to Microsoft ASP.NET. The focus of this course is on the new features of ASP.NET and how to improve existing ASP Web applications.
+### Prerequisite(s)
+- ASP and web development experience.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, students will be able to:
+- Describe the key differences between ASP and ASP.NET.
+- Access databases in an ASP.NET Web application by using Microsoft ADO.NET.
+- Create and call a COM object from an ASP.NET Web page.
+- Explain how XML Web services is beneficial to distributed Internet computing.
+- Create client code that can create and call a remote XML Web service.
+- List server and client-side state management techniques and explain how ASP.NET improves state management.
+- Explain what approach would be the best for migrating a ASP Web application to ASP.NET, given a specific ASP Web application scenario.
+Effective as of Spring/Summer 2004
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

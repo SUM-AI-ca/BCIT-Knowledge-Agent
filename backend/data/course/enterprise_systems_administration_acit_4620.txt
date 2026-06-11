@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/enterprise-systems-administration-acit-4620/
+Title: Enterprise Systems Administration ACIT 4620
+Type: Course
+Course Code: ACIT 4620
+
+================================================================================
+
+## Enterprise Systems Administration ACIT 4620
+Computer Information Technology Course
+## Course Overview
+This course covers network management tools and techniques for Windows. The course is divided into four broad topics: hardware configuration and routing, server based TCP/IP client configuration tools, security and encryption methods, disaster recovery and remote administration. Students will implement Name Address Translation (NAT), Dynamic Host Configuration Protocol (DHCP), Domain Name System (DNS) and NetBIOS Name resolution on Windows. Student will also be expected to configure certificate services, and remote access. In addition, students will learn various security risks and how to minimize exposure and how to develop a disaster recovery strategy and implement that strategy.
+### Prerequisite(s)
+- ACIT 2620
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Plan and modify a network topology.
+- Design and configure a complex TCP/IP network.
+- Implement routing protocols on Windows.
+- Create VLANs.
+- Monitor traffic on network switch.
+- Configure DHCP.
+- Implement WINS and Samba for NetBIOS naming.
+- Understand the different DNS configuration options.
+- Use DNS to resolve local host names.
+- Monitor network traffic and trouble shoot problems using the appropriate tools.
+- Secure data transmissions over both private and public networks.
+- Implement secure access between private networks using a public network.
+- Plan and manage certificate services.
+- Create disaster recovery strategies.
+- Backup and recover network servers.
+- Access servers remotely for administrative purposes.
+- Secure servers so others do not take advantage of remote administration features.
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

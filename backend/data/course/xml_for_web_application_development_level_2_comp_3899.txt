@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/xml-for-web-application-development-level-2-comp-3899/
+Title: XML for Web Application Development Level 2 COMP 3899
+Type: Course
+Course Code: COMP 3899
+
+================================================================================
+
+## XML for Web Application Development Level 2 COMP 3899
+Computer Systems Course
+## Course Overview
+This course is a continuation of COMP 2899 and provides a more in-depth coverage of XML. Topics include expanded web services, SOAP, UDDI, WSDL, DISCO and constructing and consuming web services under Microsoft .Net and Java. Other topics include XML database illustration and integration, MS SQL server with XML and storing XML in relational databases. Students will implement XQuery, RDF, XForms, SALT and finish with discussions of XML internationalization, localization and security practices.
+### Prerequisite(s)
+- COMP 2899 or an equivalent understanding of XML.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the courses, students will be able to:
+- Expand upon knowledge of web services
+- Discuss and illustrate SOAP
+- Discuss and illustrate UDDI
+- Discuss and illustrate WSDL
+- Discuss DISCO
+- Construct and consume web services under MS .NET and Java
+- Enable students to incorporate/integrate XML and databases
+- Data-centric databases vs. Document-centric databases
+- Discuss and illustrate Integrating web services and databases
+- Discuss Microsoft SQL server and XML
+- Returning a database query as XML
+- Storing XML in Relational Databases
+- XQuery, RDF, XForms and SALT
+- Discuss and implement XQuery
+- Discuss and illustrate RDF
+- Discuss and implement XForms
+- Discuss and implement SALT
+- XML internationalization and localization
+- Character representation
+- Encoding
+- Language identification
+- Presentation and Rendering
+- Localization
+- Security and XML
+- Discuss security practices and how they relate to XML
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

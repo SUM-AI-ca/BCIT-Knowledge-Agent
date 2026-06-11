@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/java-enterprise-application-development-comp-4655/
+Title: Java Enterprise Application Development COMP 4655
+Type: Course
+Course Code: COMP 4655
+
+================================================================================
+
+## Java Enterprise Application Development COMP 4655
+Computer Systems Course
+## Course Overview
+This course has been replaced with COMP 4656 . Following on from COMP 4613 Advanced Java Web Development, students focus on best practices to develop distributed, multi-tier enterprise applications. Starting with an introduction to the Java EE application model, students progress to SOAP and RESTful web services and JEE messaging APIs to integrate multiple applications. Labs and assignments cover the use of Enterprise JavaBeans (EJB) technology to develop the business logic of Java EE applications. Topics include: Web Tier Development, Web Services, Enterprise Beans and the Java Message Service API. The Web tier technology is explored with an overview of the Display tag library for high-level web presentation patterns. By the end of this course, successful participants will know how to utilise Java web services and other Java EE technologies to design, build and deploy distributed Java EE applications. This is the final course in the Advanced Java Development Associate Certificate, it is only offered once each year in January.
+### Prerequisite(s)
+- COMP 2053 and COMP 4613 or equivalent knowledge of XML and Advanced Java Web Development.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create web tier components for developing the presentation layer of Java EE or stand-alone applications.
+- Use Display Tag Library to enhance presentation and functionality of tables in JavaServer pages ™.
+- Create a simple web service and client with JAX-WS API.
+- Map XML documents to Java classes and vice versa by employing Java API for XML Binding (JAXB).
+- Provide case based recommendation for application of Java annotations vs WSDL (Web Services Definition Language) in web services development.
+- Use EJB API to develop components used in building the business logic of Java EE applications.
+- Use Session Beans for representing a single client inside the Application Server.
+- Use Message-Driven beans to process messages asynchronously in Java EE applications.
+- Create applications that can communicate with each other using Java Message Service (JMS).
+- Provide case based recommendations for asynchronous vs synchronous messaging between application clients, EJB™ components and web components.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

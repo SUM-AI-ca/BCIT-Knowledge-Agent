@@ -1,0 +1,108 @@
+URL: https://www.bcit.ca/courses/computer-architecture-and-organization-comp-2825/
+Title: Computer Architecture and Organization COMP 2825
+Type: Course
+Course Code: COMP 2825
+
+================================================================================
+
+## Computer Architecture and Organization COMP 2825
+Computer Systems Course
+## Course Overview
+​Computer architecture and computer organization are fundamental topics for computer programmers and computer systems developers. This hands-on course follows on from Applied Mathematics for Computing and Java programming. COMP 2825 is a study of the rules and methods used to describe the functionality and implementation of computer systems. The hierarchy of computer levels and functions are discussed and analyzed in detail. Through exercises and labs students evaluate modern computer system hardware architectures. They are shown how to build performance into their software applications and computer systems. Topics include pipelining, error-correcting code in theory and in practice, performance enhancement, hard-disk drives and solid-state drives, cache and main memory, addressing, microprogramming the CPU, registers and circuits. Additional topics include the ALU and data path, logarithms, bus clocking, bus arbitration, and address decoding. COMP 2825 is required for the Computer Systems Certificate, CSC in PTS and it is equivalent to COMP 2721 in the full-time CST Diploma. Upon successful completion students will use software at the hardware level to optimize how code is managed by the datapath inside the CPU. They will have skills to evaluate and recommend the appropriate computer system architecture for specific applications. be able to optimize software for specific hardware, accounting for how code is managed inside the CPU. They will also have gained an introduction to lower-level assembly programming, in order to build better software applications in higher-level programming languages.
+### Prerequisite(s)
+- (50% in COMP 1113 or 60% in COMP 1114 ) and (50% in COMP 2522 or 50% in COMP 2526 or 60% in COMP 2601 or 60% in COMP 2613 )
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$592.18 - $648.32 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the basic concepts and terminology related to computer architecture and organization.
+- Discuss and compare modern machine architectures.
+- Explain and describe the characteristics of current CPU architectures.
+- Explain the three lowest levels of computer organization: digital logic level, microarchitecture level, and instruction set architecture level.
+- Solve problems related to the design of each level.
+- Evaluate modern computers from the point of view of performance.
+- Determine the latency, bandwidth, and important relevant features of pipelines.
+- Create codes capable of detecting and possibly correcting errors in code-words.
+- Determine whether a Hamming code word contains errors, and possibly also fix the errors.
+- Calculate the time required to read different hard-disk drives and compare them to solid-state drives.
+- Create various circuits including adders, shifters, latches, and multiplexers.
+- Determine the timing and negotiations necessary between the CPU and memory.
+- Describe how computers handle bus arbitration.
+- Describe in detail how computers fetch, decode, and execute instructions, including micropramming the datapath inside the CPU.
+- Gain an introductory theoretical and practical knowledge of assembly-level programming.
+Effective as of Winter 2022
+## Related Programs
+Computer Architecture and Organization (COMP 2825) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are two offerings of COMP 2825 for the Spring/Summer 2026 term.
+May 04 - Jul 27
+- CRN 66860
+- $620.46 Domestic fees
+Dates | Days | Times | Locations
+May 04 - Jul 27 | Mon | 18:00 - 21:30 | Downtown DTC Rm. 374
+May 04 - Jul 27 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Rahim Oraji
+### Course outline
+View
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 42 hours on campus and 6 hours asynchronous activities/labs. The class meets once per week for 3.5 hours on campus and requires an additional 0.5 hours per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3.5 hours of synchronous class, 0.5 hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class May 18 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 07 - Jul 30
+- CRN 57039
+- $592.18 Domestic fees
+Dates | Days | Times | Locations
+May 07 - Jul 30 | Thu | 18:00 - 21:30 | Online
+May 07 - Jul 30 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Jason Wilder
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 42 hours synchronous online classes and 6 hours asynchronous activities/labs. The class meets once per week for 3.5 hours online and requires an additional 0.5 hours per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3.5 hours of synchronous class, 0.5hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class June 18.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 2825 for the Fall 2026 term.
+Sep 10 - Nov 26
+- CRN 51424
+- $648.32 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:00 - 21:30 | Burnaby SE12 Rm. 320
+Sep 10 - Nov 26 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Rahim Oraji
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 42 hours on campus and 6 hours asynchronous activities/labs. The class meets once per week for 3.5 hours on campus and requires an additional 0.5 hours per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

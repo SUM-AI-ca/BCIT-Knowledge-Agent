@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/intermediate-java-comp-2611/
+Title: Intermediate Java COMP 2611
+Type: Course
+Course Code: COMP 2611
+
+================================================================================
+
+## Intermediate Java COMP 2611
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 2613 - Java Application Development as of November 2009. This intermediate level course is third in a series and assumes students already have a prior understanding of Java programming, as detailed in the course requirements. Students work in an intensive hands-on environment and continue with an examination of the Java language features introduced in Java Release 5 such as generics and enumerated types. Topics also include: packages, exceptions, interfaces and nested classes. An introduction to threads, event handling and Swing topics provide an understanding of how to build graphical user interfaces. Additional topics include: collections, file I/O and utility classes. This course helps prepare students to challenge the Sun Certified Java Programmer exam. You are advised not to take other programming languages simultaneously with this course.
+### Prerequisite(s)
+- COMP 1409 plus COMP 1451 or equivalent Java programming experience. (3 Credits)
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Install and use the Java Developer Kit (JDK) Standard Edition to develop Java applications.
+- Develop an understanding of the fundamental classes of the Java application framework.
+- Build Java programs that conform to Sun's Java coding style, naming, and documentation conventions.
+- Build programs that use the basic Swing GUI components.
+- Build Java programs with proper event handling.
+- Use the Java Collection Framework and serialization to manage and save your object data.
+- Build Java programs with proper exception handling.
+- Build Java programs basic design patterns.
+Effective as of Spring/Summer 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

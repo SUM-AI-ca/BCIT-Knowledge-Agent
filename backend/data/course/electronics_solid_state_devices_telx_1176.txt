@@ -1,0 +1,57 @@
+URL: https://www.bcit.ca/courses/electronics-solid-state-devices-telx-1176/
+Title: Electronics: Solid-State Devices TELX 1176
+Type: Course
+Course Code: TELX 1176
+
+================================================================================
+
+## Electronics: Solid-State Devices TELX 1176
+Electronics Technical Course
+## Course Overview
+This course provides the theoretical and practical knowledge necessary for the student to understand circuits which employ discrete semiconductor components. The electronic components covered are: diodes, special purpose diodes, rectifiers, bipolar junction transistors, field effect transistors, MOSFETs, and solid state switching devices. Practical circuits which employ these devices are also studied. Information sources for applications and specification of these devices are explored. Students will learn to relate schematic diagrams to their physical circuit counterparts. At all times, theory is reinforced with hands-on practice.
+### Prerequisite(s)
+- TELX 1175
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Theory
+- Describe the basic atomic structure of intrinsic and doped semiconductor materials.
+- Describe the action of forward and reverse biased pn junctions as they apply to diodes and rectifiers.
+- Explain the information carried in diode and rectifier data sheets.
+- Identify the diode/rectifier schematic symbol and physical packages.
+- Describe the operation of basic diode and rectifier circuits.
+- Describe the operation of some special purpose diodes.
+- Explain diode operation in some practical circuits.
+- Draw a schematic from a simple diode/rectifier circuit.
+- Describe BJT construction and basic operation.
+- Identify the BJT schematic symbols and physical packages.
+- Explain the information carried in BJT data sheets.
+- Identify BJT DC bias circuits.
+- Determine the DC operating point for BJT DC bias circuits.
+- Describe the operation of the BJT as an electronic switch.
+- Explain the basic AC parameters of BJTs.
+- Identify BJT amplifier configurations.
+- Compare the characteristics of BJT amplifier configurations.
+- Determine the operating parameters of BJT single-stage and multi-stage amplifiers.
+- Explain the operation of BJTs in some practical circuits.
+- Describe the construction and basic operation of FETs.
+- Identify FET schematic symbols.
+- Explain the information carried in FET data sheets.
+- Identify FET DC bias circuits.
+- Determine the DC operating point of FET DC bias circuits.
+- Identify the similarities and differences between FET and BJT amplifiers.
+- Explain the advantages and disadvantages of FET amplifiers compared to BJT amplifiers.
+- Explain the operation of FETs in some practical circuits.
+- Describe the construction and basic operation of thyristor devices.
+- Identify thyristor schematic symbols.
+- Explain the information carried in thyristor data sheets.
+- Describe the basic operation of thyristor devices.
+- Explain the operation of switching devices in some practical circuits.
+- Practice
+- Read schematics and build electronic circuits.
+- Carry out measurements of voltage, current and resistance.
+- Interpret component labelling and recognize schematic symbols.
+Effective as of Spring/Summer 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

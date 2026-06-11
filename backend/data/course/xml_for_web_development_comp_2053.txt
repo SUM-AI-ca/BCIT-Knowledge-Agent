@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/xml-for-web-development-comp-2053/
+Title: XML for Web Development COMP 2053
+Type: Course
+Course Code: COMP 2053
+
+================================================================================
+
+## XML for Web Development COMP 2053
+Computer Systems Course
+## Course Overview
+XML is a standard for structuring, and storing web information. This course is focused on XML for Web Development for those with an HTML and CSS background. Following on from COMP 1850 this hands-on course will introduce students to Extensible Markup Language (XML). Participants will learn how XML is used within the web and how to integrate XML formats into web page development. Topics include XML syntax, DTD validation, namespaces, XML data modeling, and performing transformations with XSLT and XPath. Upon successful completion of this course, students will have an understanding of the basics of XML for web development and be prepared to move on to more advanced XML courses.
+### Prerequisite(s)
+- COMP 1850 or equivalent knowledge of HTML5, and CSS3.
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe how namespaces are used in XML.
+- Follow XML syntax rules.
+- Validate XML using DTD.
+- Construct XSLT style sheets for transforming HTML.
+- Construct XPath expressions for use within XSLT style sheet templates.
+- Demonstrate how to model objects and relational data models using XML.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

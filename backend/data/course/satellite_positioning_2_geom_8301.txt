@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/satellite-positioning-2-geom-8301/
+Title: Satellite Positioning 2 GEOM 8301
+Type: Course
+Course Code: GEOM 8301
+
+================================================================================
+
+## Satellite Positioning 2 GEOM 8301
+Geomatics Course
+## Course Overview
+This course has two main components. The first part deals with problematic GPS data and troubleshooting. This includes pre-processing preparation such as base station coordinates and datums, baseline processing parameters and techniques, logfile inspection and troubleshooting. The second part is devoted to provide students with the skills to manage a satellite positioning project, including the abilities to plan, estimate the cost of and execute surveys, to meet a predefined sete of survey specifications (accuracy requirements, area of interests, etc).
+### Prerequisite(s)
+- 50% in GEOM 7301
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Understand the concepts and execute GPS baseline processing in a controlled manner.
+- Choose the appropriate baseline processing parameters for different baseline types and lengths.
+- Evaluate and inspect baseline result.
+- Apply knowledge to trouble shoot problematic GPS data.
+- Select sites for the survey:
+- Design a network of sites based on the coverage requirement of the survey.
+- Evaluate the accessibility, including safety hazards, of the sites.
+- Consider satellite, multipath and other error sources.
+- Design observation strategy for the survey:
+- Recognise the differences between satellite surveys and conventional survey methodologies.
+- Consider available personnel, equipment, transportation and communication.
+- Select observation method, occupation time and data rate based on accuracy requirements of the survey and length of baselines.
+- Design redundancy into the survey.
+- Tie inot establish control.
+- Estimate the cost of the satellite positioning survey:
+- Estimate mobilisation and demobilisation.
+- Calculate the duration of the survey based on the proposed strategy.
+- Estimate the costs of the field and office components of the survey.
+- Execute the survey:
+- Prepare equipment including receivers, communication equipment, computers, power supplied, etc.
+- Coordinate personnel throughout the survey.
+- Adjust the observation strategy to compensate for problems encountered in the field and/or as a result of feedback from postprocessing of the data.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

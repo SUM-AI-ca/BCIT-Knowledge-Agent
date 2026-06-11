@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/introduction-to-biomedical-computer-networks-bmet-0911/
+Title: Introduction to Biomedical Computer Networks BMET 0911
+Type: Course
+Course Code: BMET 0911
+
+================================================================================
+
+## Introduction to Biomedical Computer Networks BMET 0911
+Biomedical Engineering Course
+## Course Overview
+Introduce participants to the principles of data communications and network fundamentals with applications in biology and medicine. The Open System Interconnect (OSI) model is used to discuss network architectures, protocols, hardware and software. Layers one, two and three together with the Ethernet network standard (EEE802.3) and the Transmission Control Protocol/Internet Protocol (TCP/IP) will be emphasized. During the laboratory sessions networks will be designed, built and managed to enhance understanding of the key theoretical concepts and to gain hands-on experience with computer networks. The Biomedical Computer Network aspect includes theory and laboratory sessions on topics that are particularly relevant to the medical device environment such as medical device-to-network interfaces.
+### Prerequisite(s)
+- Graduated from a Biomedical Engineering Technology program or with equivalent combination of education and working experience.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe and discuss network communciation technologies within the context of biomedical engineering.
+- Descibe and discuss physical and logical network technologies and their hardware/software components.
+- Identify and characterize conductive media, fiber-optic cables and wireless transmission including their respective connectors.
+- Given a wiring task (e.g. cable, connector and patch panel), use the appropriate tools to build and test the connections.
+- Discuss the OSI model in terms of its layers and their functions.
+- Explain the TCP/IP model in terms of its applications, protocols, function and address representation.
+- Describe the Ethernet standard, applications, access methods and frame format.
+- Monitor and capture Ethernet packets using a network analyser, idenitify and decode its components.
+- Discuss the architecture and functions of the peer-to-peer and the client-server model.
+- Build, configure and test wired and wireless peer-to-peer and client-server networks.
+- Have a general understanding of the medical networks in terms of their architecture and operation.
+- Describe the wireless network technology aspects of a Telemetry Systems in terms of its architecture and operation.
+- Have a basic understanding of computer network statistics, diagnostic utilities, network multi-meters and analyzers.
+- Given a simple network troubleshooting scenario, involving hardware or software problems, identify the cause.
+- Discuss applications and operation of LAN manageable switches and configure them using either command line language or graphical user interface.
+Effective as of Spring/Summer 2004
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

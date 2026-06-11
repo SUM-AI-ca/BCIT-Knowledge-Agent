@@ -1,0 +1,70 @@
+URL: https://www.bcit.ca/courses/robust-and-trustworthy-mobile-applications-comp-8531/
+Title: Robust and Trustworthy Mobile Applications COMP 8531
+Type: Course
+Course Code: COMP 8531
+
+================================================================================
+
+## Robust and Trustworthy Mobile Applications COMP 8531
+Computer Systems Course
+## Course Overview
+This course teaches techniques to assess and assure robustness and trustworthiness of mobile applications. Testbeds composed of tools available through IDEs (Integrated development Environments) such as Android Studio as well as 3rd party are used for reliability, stress and security testing of a mobile application. Anti-patterns that can cause failures in mobile applications e.g. thread safety and memory leaks etc. are studied. Strategies to ensure correctness and integrity of data in local storage, during its processing and transport are implemented. Architectures that ensure fault-tolerance of critical functionality and high availability of critical data are incorporated in the mobile application. Causes of high battery drain in mobile apps are identified and corrective measures are experimented with. Security solutions available in network protocol stack to address privacy, authentication, authorization, message tempering and replay are incorporated in the mobile application. Cryptography libraries and access control mechanisms available on mobile platforms are utilized to develop custom solutions to address some of the identified security vulnerabilities related to mobile applications.
+### Prerequisite(s)
+- 60% in COMP 8031
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$852.98
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Model to predict reliability of a mobile application.
+- Setup testbeds to stress test a mobile application and assess its availability and recoverability.
+- Setup testbeds to test a mobile application for security vulnerabilities.
+- Conduct safety analysis of a mobile application.
+- Implement and evaluate solutions that ensure correctness and integrity of data in mobile applications.
+- Implement and evaluate solutions that prevent data loss during its transfer or processing.
+- Incorporate high availability architectures in mobile applications to ensure that critical functionality, data and sensory information is available during failures.
+- Use tools to monitor battery and incorporate strategies to minimize battery drain.
+- Leverage security solutions available through network protocol stack in the mobile application to prevent eavesdropping, masquerading, message tempering and replay attacks during its access to resources in the network.
+- Implement custom solutions to address security vulnerabilities in mobile applications utilizing cryptographic libraries and access control mechanisms available on mobile platforms.
+Effective as of Fall 2023
+## Related Programs
+Robust and Trustworthy Mobile Applications (COMP 8531) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of COMP 8531 for the Spring/Summer 2026 term.
+Apr 07 - Jun 23
+- CRN 55077
+- $852.98 Domestic fees
+Dates | Days | Times | Locations
+Apr 07 | Tue | 18:30 - 22:15 | Online
+Apr 14 | Tue | 18:30 - 22:15 | Downtown DTC Rm. 678
+Apr 21 - Apr 28 | Tue | 18:30 - 22:15 | Online
+May 05 | Tue | 18:30 - 22:15 | Downtown DTC Rm. 678
+May 12 - May 26 | Tue | 18:30 - 22:15 | Online
+Jun 02 | Tue | 18:30 - 22:15 | Downtown DTC Rm. 678
+Jun 09 - Jun 16 | Tue | 18:30 - 22:15 | Online
+Jun 23 | Tue | 18:30 - 22:15 | Downtown DTC Rm. 678
+### Duration
+12 weeks
+### Instructor
+Tejinder Randhawa
+### Course outline
+View
+### Important information
+- 1. Please email compBSc@bcit.ca for departmental approval. Include your full name, student number (A0#), course number (e.g. COMP 7000 ), and CRN #. 2. This is a BScACS course. BScACS courses are also open to non-bachelor program students, if approval is granted by the BScACS Program Head. 3. BScACS program students have up to seven (7) years to complete the program starting from the date of their first technical degree-level course or the date of acceptance to the BScACS program, whichever comes first.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

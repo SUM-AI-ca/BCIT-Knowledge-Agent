@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/wide-area-networks-elex-4550/
+Title: Wide Area Networks ELEX 4550
+Type: Course
+Course Code: ELEX 4550
+
+================================================================================
+
+## Wide Area Networks ELEX 4550
+Electrical and Computer Engineering Course
+## Course Overview
+This course explains about data transmission systems, primarily those used by service providers. Topics include: wired subscriber access technologies including PSTN, ADSL, cable modem, PON; multiplexing protocols including T1, T3, SS7 signaling systems, SONET/SDH, FTTx, PPP, FR and ATM, SNMP, TCP/IP, IP MPLS, distance vector and link state routing protocols (RIP, OSPF); network QoS, and VOIP in wide area networks.
+### Prerequisite(s)
+- 50% in ELEX 1103 and 50% in ELEX 3525 and 50% in ELEX 4540 † ( † may be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Evaluate PSTN telephony system in terms of PCM voice coding, switching centers and SS7 signaling, local loop, and multiplexing protocols including T1, T3.
+- Describe various switching schemes including circuit switching, datagram packet switching and virtual circuit switching.
+- Compare virtual circuit switching based networks (frame relay and ATM) with IP based systems.
+- Evaluate the capabilities, services and operational mechanisms of advanced wide area networking methods.
+- Analyze the operation of the TCP/IP protocol suite.
+- Discuss the advantages of IP MPLS.
+- Explain DMT-based ADSL networks in terms of high data rate capacity on the local loop.
+- Describe various PON technologies.
+- Discuss SONET technology in terms of bits rates, devices used, SONET topology (linear, ring), the concept of justification, protection and offsetting in SONET, and virtual tributaries.
+- Describe the difference between distance vector and link state strategies used in routing protocols.
+- Explain the difference between multicast routing and unicast routing.
+- Explain uni-cast routing protocols (RIP, OSPF and BGP).
+- Explain VOIP network in terms of system design, voice coding and signalling.
+- Explain the concept of QoS, its parameters and implementation in a network.
+- Configure routers to build and update routing tables, statically and dynamically.
+- Explain VOIP technology in terms of system, design and signaling.
+Effective as of Winter 2017
+## Related Programs
+Wide Area Networks (ELEX 4550) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

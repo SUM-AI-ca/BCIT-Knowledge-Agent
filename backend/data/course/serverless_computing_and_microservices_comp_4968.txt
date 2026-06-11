@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/serverless-computing-and-microservices-comp-4968/
+Title: Serverless Computing and Microservices COMP 4968
+Type: Course
+Course Code: COMP 4968
+
+================================================================================
+
+## Serverless Computing and Microservices COMP 4968
+Computer Systems Course
+## Course Overview
+In this course students learn to how design and develop software natively for cloud computing platforms. This course is tightly integrated with COMP 4964 (DevOps Engineering - Cloud). Topics include software application patterns and architectures, fundamentals of distributed processing, re-architecting (refactoring) applications for the cloud, migrating applications to the cloud, hybrid architecture development (on-premises and cloud), cloud application services, cloud development tools, containerization, container orchestration, serverless computing platforms and microservices (event-driven) architecture. Students will build their skills by participating in in-class interactive lectures, hands-on lab activities and working on comprehensive assignments.
+### Prerequisite(s)
+- COMP 2526 and COMP 3962
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful compleltion of this course, the student will be able to:
+- Articulate the differences between varieties of software application architectures using diagrams.
+- Describe how to use the various cloud-based development tools and application services available on the leading public cloud computing platforms.
+- Design, build and deploy cloud-based applications using cloud-based development tools and application services.
+- Create and deploy applications with Docker containers.
+- Configure and utilize cloud-based and third-party container management and orchestration tools.
+- Define serverless computing and the serverless computing frameworks on the leading public cloud computing platforms.
+- Design, build and deploy a variety of serverless applications, including web applications, on public cloud computing platforms.
+Effective as of Winter 2017
+## Related Programs
+Serverless Computing and Microservices (COMP 4968) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

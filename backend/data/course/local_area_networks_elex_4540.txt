@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/local-area-networks-elex-4540/
+Title: Local Area Networks ELEX 4540
+Type: Course
+Course Code: ELEX 4540
+
+================================================================================
+
+## Local Area Networks ELEX 4540
+Electrical and Computer Engineering Course
+## Course Overview
+This course builds on topics in ELEX 1103 and explains the fundamentals of modern wired and wireless data communication networks, primarily those used in local area networks. Topics include: detailed coverage of the OSI networking model, access control and error control principles, operation and management of 802.3 LAN, switching and VLANs; Spanning tree, internetworking devices, advanced TCP/IP protocols, Wireless LAN 802.11, introduction to servers and data centers, network security, and VOIP in a LAN environment.
+### Prerequisite(s)
+- 50% in ELEX 3525 and 50% in ELEX 1103
+- ELEX 4550 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Apply the concept of the OSI model in understanding the network systems, protocols and devices.
+- Compare the data link protocols used in the existing wired and wireless local area networks in terms of framing, access control and error control.
+- Explain spanning tree and virtual LAN in detail.
+- Setup spanning tree and virtual LAN on switches.
+- Analyze the operation of interface protocols associated with local area networks
+- Outline the operation and functionalities associated with internetworking devices known as switches, bridges, routers, and gateways.
+- Perform IP sub netting for a practical situation.
+- Explain the capabilities of TCP in terms of process to process delivery of data, error control, flow control and congestion control.
+- Configure internetworking devices to establish a small network.
+- Configure NAT server and DHCP server on a router.
+- Explain the concepts used in the design of data centers and cloud computing.
+Effective as of Winter 2017
+## Related Programs
+Local Area Networks (ELEX 4540) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

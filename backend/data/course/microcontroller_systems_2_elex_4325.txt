@@ -1,0 +1,116 @@
+URL: https://www.bcit.ca/courses/microcontroller-systems-2-elex-4325/
+Title: Microcontroller Systems 2 ELEX 4325
+Type: Course
+Course Code: ELEX 4325
+
+================================================================================
+
+## Microcontroller Systems 2 ELEX 4325
+Electrical and Computer Engineering Course
+## Course Overview
+This course continues the study of Motorola microcontrollers (HC11 and HC12) begun in ELEX 3305 . Interrupt sources and handling are treated in detail. The timer system is covered in depth with lab activities on pulse and waveform generation and measurement using the output compare and input capture features. The SPI and SCI data communications systems are discussed with examples of interfacing to display and real- time clock peripheral devices, for example. The bus system is treated and some attention is given to expanding the memory resources. Numerous examples develop assembly programming skills, algorithms and techniques. The fundamentals of some real-time programming concepts are illustrated. Lab activities include the use of motors, display devices, and keypads, for example.
+### Prerequisite(s)
+- 50% in ELEX 3305
+### Credits
+7.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+## SUBROUTINES
+- Design subroutines in assembler.
+- Design subroutines to modularize program structure.
+- Test subroutines as individual entities.
+- Use the monitor program CALL function to verify subroutine operation.
+- Explain the correct methods of subroutine usage.
+- Write subroutines to convert data among ASCII, HEX, and BCD.
+## INTERRUPTS AND INTERRUPT SERVICE ROUTINES
+- Design interrupt service routines.
+- Explain the concept of an interrupt.
+- Enumerate the various kinds of possible interrupts.
+- Explain the actions taken by the microcontroller when an interrupt occurs.
+- Describe the HC12's vectored interrupt system.
+- Describe the requirements of a routine to service an interrupt.
+- Describe the concept of masking of interrupts.
+- Draw a memory map to show the usage of the stack by the interrupt process and by the interrupt service routine.
+- Explain the correct methods of interrupt usage.
+- Describe the prioritization of multiple interrupts.
+- Calculate the latency time for servicing an interrupt.
+## THE HC12's REAL-TIME INTERRUPT
+- Apply the real-time interrupt to time events.
+- Explain the flag setting and flag clearing processes.
+- Explain the setting-up of the interrupt pseudovector.
+- Identify the registers and bits that control the Real-Time interrupt.
+- Design a program, including real-time interrupt to crudely keep track of and display the time of day.
+- Observe the effect on program operation of various program parameters.
+- Optimize the program operation.
+## THE HC12's SPI SYSTEM
+- Interface the HC12 to SPI peripheral chips.
+- Explain the concepts of synchronous serial data transfer.
+- Identify the registers and bits that control the operation of the HC12's synchronous peripheral interface.
+- Write and test subroutines to utilize the SPI to communicate with suitable peripheral chips.
+- Select and use peripheral chips which can be used with the HC12's SPI interface such as a display controller and a time-keeping chip.
+- Compare synchronous serial data transfer with asynchronous serial data transfer.
+## THE HC12's TIMER SYSTEM
+- Apply the timer system to generate and measure waveforms.
+- Explain the operation of the timer system.
+- Identify the registers and bits that control the operation of the timer system.
+- Describe the usage of timer functions by polling methods and by interrupt methods.
+- Utilize the timer system to generate a delay time accurately.
+- Generate an accurate square-wave using the timer system output compare feature.
+- Generate a variable duty-cycle waveform.
+- Generate a periodic very narrow pulse using two timer output compare channels.
+- Generate multiple synchronized waveforms using timer channel 7.
+- Measure the width of a pulse using the timer input capture capabilities.
+- Measure the period of a waveform using timer input capture capabilities.
+- Understand the limitations of the timer system.
+- Measure long time periods with the timer overflow.
+- Describe the use of the timer system to time and frequency measurements.
+- Use the CFORC register to control critical timing of events.
+## THE HC12's SCI SYSTEM
+- Use the SCI system to transfer information to and from a host computer.
+- Describe the principles of asynchronous data communication.
+- Identify the registers and bits that control the HC12's SCI system.
+- Differentiate between the modes of asynchronous data transfer.
+- Write a subroutine to send a character to the host.
+- Write a subroutine to receive a character from the host.
+- Write a subroutine to send a string to the host.
+- Write a subroutine to receive a string from the host.
+- Use the SCI receiver in interrupt mode.
+- Use input from the host keyboard to control duty-cycle of a pulse-width modulated waveform for motor speed control.
+- Describe the modes of operation of the SCI receiver wakeup function.
+## THE HC12's EEPROM
+- Record programs and data in the HC12's EEPROM
+- Identify the registers and bits that control the EEPROM functions
+- Understand the limitations and advantages of the EEPROM memory compared to other forms of memory.
+- Write a subroutine to erase portions of the HC12's EEPROM.
+- Write a subroutine to write to EEPROM memory.
+- Describe the block protection mechanisms for the EEPROM.
+## ARITHMETIC OPERATIONS
+- Develop numerical algorithms in assembler language for data conversion and interpretation.
+- Apply the multiply and divide instructions in number conversions and other applications.
+- Evaluate alternate algorithms for number conversions and other applications.
+- Understand and interpret binary-weighted fractions and fixed point numbers.
+- Apply the DAA instruction correctly to the handling of BCD numbers.
+## HARDWARE INTERFACING
+- Create an integrated system consisting of, for example, a keypad, a display device (e.g. LCD), and a motor.
+- Write software to debounce a mechanical switch.
+- Write subroutines to interpret the keypresses of a keyboard such as a HEX keypad.
+- Write software to provide multiple synchronized waveforms to control the operation of a stepping motor.
+- Write software to provide the pulse-width-modulated waveform to control the speed of a DC motor.
+- Write software to handle the alarm interrupt from an external chip such as a clock chip.
+- Write software to communicate data to display devices such as a liquid crystal display.
+- Describe how to interface to external memory devices.
+## COMPUTER ARCHITECTURE
+- Select appropriate applications for the HC12 microcontroller.
+- Describe the features of Von Neumann and Harvard architectures.
+- Describe the principle features of the bus structure.
+- Describe methods of address decoding and external chip selection.
+- Draw a memory map for the HC12.
+- Describe remapping of the HC12's resources within the memory map.
+## INSTRUCTION EXECUTION
+- Analyze the machine instructions of a microcontroller system.
+- Describe the addressing modes for the HC12 instruction set.
+- Describe the opcode structure for the HC12 instructions.
+- Hand assemble and disassemble instructions, including indexed address mode instructions.
+- Understand the process of instruction fetch and execution in the Motorola HC11 and HC12 microcontrollers.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

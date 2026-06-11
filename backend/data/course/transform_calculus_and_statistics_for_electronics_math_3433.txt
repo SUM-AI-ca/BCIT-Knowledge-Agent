@@ -1,0 +1,59 @@
+URL: https://www.bcit.ca/courses/transform-calculus-and-statistics-for-electronics-math-3433/
+Title: Transform Calculus and Statistics for Electronics MATH 3433
+Type: Course
+Course Code: MATH 3433
+
+================================================================================
+
+## Transform Calculus and Statistics for Electronics MATH 3433
+Mathematics Course
+## Course Overview
+This course covers basic concepts of ordinary differential equations, Laplace transforms and introductory probability and statistics. Topics covered throughout will use examples relevant to electronics technology. Ordinary differential equations topic coverage includes: first and second order ordinary linear differential equations and initial value problems. Laplace transform topic coverage includes: step and impulse functions, Laplace transforms of functions and mathematical operations, inverse Laplace transforms, solution of differential equations using Laplace transforms, circuit analysis in the s-domain, transfer functions and pole-zero plots. Probability and statistics coverage includes: descriptive statistics and data presentation, probability, probability distributions and linear regression.
+### Prerequisite(s)
+- MATH 2431
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Set up differential equations and initial value problems corresponding to various physical systems. [1]
+- Solve homogeneous linear constant coefficient differential equations using the characteristic equation method and extend to the nonhomogeneous case using the method of undetermined coefficients. [1]
+- Represent various waveforms using the unit step function and the Dirac delta function. [1]
+- Determine the Laplace transform of various functions (and operations on functions) which are commonly encountered in electronics technology. [1]
+- Determine the inverse Laplace transform using algebraic manipulation, partial fraction decomposition and tables. [1]
+- Solve ordinary, linear differential equations and systems of ordinary, linear differential equations using Laplace transforms. [1]
+- Analyse circuits in the s-domain using the concepts of transform impedance and initial condition generators. [1,2]
+- Derive the transfer function for circuits and for other physical systems. [1,2]
+- Assess the stability of a system using the concept of poles and zeros and the pole-zero plot. [1,2]
+- Compute various measures of central tendency (mean, median, mode), dispersion (range, standard deviation, variance) and rank (percentile, z score) in a set of data. [1]
+- Present data in summary form using frequency distributions, histograms, box plots and other plots. [1]
+- Perform basic probability calculations using the addition and multiplication rules. [1]
+- Define the notion of a random variable and its probability distribution. [1]
+- Solve problems involving both discrete random variables (binomial, Poisson) and continuous random variables (normal). [1,3]
+- Apply linear regression to bivariate data. [1]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2017
+## Related Programs
+Transform Calculus and Statistics for Electronics (MATH 3433) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Electrical Power and Industrial Control Option) Diploma Full-time
+- Electrical and Computer Engineering Technology (Telecommunications and Networks Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

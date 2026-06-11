@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/ios-mobile-application-development-comp-3912/
+Title: iOS Mobile Application Development COMP 3912
+Type: Course
+Course Code: COMP 3912
+
+================================================================================
+
+## iOS Mobile Application Development COMP 3912
+Computer Systems Course
+## Course Overview
+​​This hands-on application development course was designed for experienced object oriented programmers. Students must have prior experience developing a software application, they are also required to work in teams and participate in online activities. The focus of COMP 3912 is on the user interface components of current popular iOS business applications. In order to follow this course participants need to be avid users of iPhones. This is a bring your own devices (BYOD) course, students must provide their own Mac computer with OS X Catalina or higher, plus a current iOS mobile device, ideally an iPhone. Participants have access to Apple resources for the development and testing of iOS applications during this course. Students design and develop apps for the current iOS platform to Apple standards. Starting with an intensive overview of the Swift programming language, students are introduced to the iOS development platform via in class labs and exercises. Topics include; Xcode, Cocoa Touch API, Swift, SwiftUI, troubleshooting and debugging, Git source control basics, memory management, user input and gesture recognition. Additional topics include: Auto Layout, data persistence including Core Data, NSUserDefaults and Plists. Testing, networking, SpriteKit, Core Location and multi-threading are also discussed. Upon successful completion of COMP 3912 students will be able to design and build a commercial quality iOS application for iPhone. This course​​ is currently under review and not being offered.​
+### Prerequisite(s)
+- 60% in COMP 3601 or 60% in COMP 3602 or 60% in COMP 3603 or 60% in COMP 3656
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Illustrate the iOS mobile development Process.
+- Explain the basics of the Model View Controller (MVC).
+- Leverage some of the networking and multi-threading capabilities that exist in iOS.
+- Utilize the Swift programming language including properties, conditionals, instance variables, classes, strings, arrays, loops, methods and enums.
+- Employ basic Debugging and trouble shooting.
+- Create user interfaces for iOS applications with UIKit, Auto Layout, and SwiftUI.
+- Utilize Git source control.
+- Use Core Data to persist data within an iOS application.
+- Create unit and integration tests for iOS applications.
+- Utilize Core Location and MapKit for location based applications.
+- Experience working in teams on iOS related projects.
+- Design, develop, create and present a significant final iOS business application project.
+- Describe the process required to publish and submit an iOS application to the App Store.
+Effective as of Fall 2021
+## Related Programs
+iOS Mobile Application Development (COMP 3912) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

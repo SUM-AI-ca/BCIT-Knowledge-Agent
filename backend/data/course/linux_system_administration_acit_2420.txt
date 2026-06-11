@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/linux-system-administration-acit-2420/
+Title: Linux System Administration ACIT 2420
+Type: Course
+Course Code: ACIT 2420
+
+================================================================================
+
+## Linux System Administration ACIT 2420
+Computer Information Technology Course
+## Course Overview
+​This course teaches students basic system administration tasks using Linux. At the end of the course the students should be able to install and configure a Linux-based systems. Configuration tasks include installing the software, adding hardware, networking the servers, managing users, monitoring performance, scripting and troubleshooting. Students are also expected to configure common server service.
+### Prerequisite(s)
+- 50% in ACIT 1420
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Write shell scripts to make reproducible changes to a system.
+- Manage files from the command line.
+- Access help & documentation.
+- Create, view, and edit text files.
+- Manage local users and groups.
+- Control access to files.
+- Monitor and manage processes.
+- Control services and daemons
+- Configure and secure OpenSSH service.
+- Analyze and store system logs.
+- Configure a web server.
+- Archive and copy files between systems.
+- Install and update software packages.
+- Access Linux file systems.
+Effective as of Fall 2020
+## Related Programs
+Linux System Administration (ACIT 2420) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

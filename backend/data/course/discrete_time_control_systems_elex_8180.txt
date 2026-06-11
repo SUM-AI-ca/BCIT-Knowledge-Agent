@@ -1,0 +1,69 @@
+URL: https://www.bcit.ca/courses/discrete-time-control-systems-elex-8180/
+Title: Discrete-Time Control Systems ELEX 8180
+Type: Course
+Course Code: ELEX 8180
+
+================================================================================
+
+## Discrete-Time Control Systems ELEX 8180
+Electrical and Computer Engineering Course
+## Course Overview
+Model structure selection, noise and disturbance models, system identification- maximum likelihood, least squares, instrumental variables, correlation and frequency domain methods. Controller design in discrete time- z-transform, PID control, polynomial and state space methods, observers, LQR methods, cascade control, feedforward, selector control, gain scheduling, sampling, anti-aliasing and reconstruction, discrete equivalents of continuous time controllers, dead time compensation, nonlinearities, introduction to multivariable methods. Lab component includes identification and real time control of various processes, graphical user interface design and logic programming using Stateflow software.
+### Prerequisite(s)
+- 50% in ELEX 7220
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$756.02
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Select appropriate model structures and noise model structures for a control model.
+- Implement off line and real time system identification algorithms such as least squares, instrumental variable methods and maximum likelihood methods and frequency domain and correlation methods.
+- Describe various controller tuning methods.
+- Map continuous time models to the discrete domain and vice versa.
+- Describe the effect of sampling on control.
+- Implement PID, state space, frequency domain, polynomial and LQR design methods for single input, single output control systems.
+- Design continuous and discrete time deterministic state observers and Kalman filters.
+- Implement selector control to deal with limits.
+- Design a cascade control system.
+- Apply feedforward in a control design.
+- Implement dead time compensation control designs.
+- Design anti-aliasing filters and describe the effect of aliasing and folding .
+- Implement signal reconstruction algorithms.
+- Describe methods to deal with nonlinearities in a control system.
+- Describe some methods to deal with multivariable control systems.
+- Implement logic programming using state machine diagrams.
+- Use modern software to implement graphical user interfaces.
+- Implement real time control using rapid prototyping tools.
+Effective as of Winter 2007
+## Related Programs
+Discrete-Time Control Systems (ELEX 8180) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electronics Bachelor of Technology Part-time
+## Course Offerings
+- Spring/Summer 2026
+Below is one offering of ELEX 8180 for the Spring/Summer 2026 term.
+Apr 28 - Jul 28
+- CRN 63903
+- $756.02 Domestic fees
+Dates | Days | Times | Locations
+Apr 28 - Jul 28 | Tue | 18:30 - 21:30 | Burnaby SW09 Rm. 121
+### Duration
+14 weeks
+### Instructor
+Gino Carrese
+### Course outline
+View
+### Important information
+- Labs to be scheduled outside of class hours on Saturdays for a total of 18 hours, on a schedule to be determined on the first day of class. Registrants must have departmental approval. Please contact soepts@bcit.ca with the course CRN and your BCIT ID for approval, more information, or to be placed on a waitlist if the course is full. Note: BCIT reserves the right to cancel courses. In the event of a course cancellation, you will be notified at least two business days prior to the course start. Please ensure that your contact information is current in your myBCIT account.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

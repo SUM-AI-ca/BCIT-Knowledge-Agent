@@ -1,0 +1,68 @@
+URL: https://www.bcit.ca/courses/mri-physics-2-mimg-2110/
+Title: MRI Physics 2 MIMG 2110
+Type: Course
+Course Code: MIMG 2110
+
+================================================================================
+
+## MRI Physics 2 MIMG 2110
+Medical Imaging Course
+## Course Overview
+​This course provides a detailed examination of magnetic resonance imaging (MRI) methodologies, building on the outcomes introduced in PHYS1110. Outcomes covered in Physics II includes the process of image optimization, artifacts, flow phenomena and vascular imaging. Advanced concepts such as parallel imaging, MR spectroscopy (MRS) and functional imaging will also be discussed.​
+### Prerequisite(s)
+- MIMG 1110
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Calculate the effects of changing various MR parameters on the acquired image. The following concepts, skills, and issues are used to support this Outcome:
+- definition of the signal-to-noise ratio (SNR)
+- primary and secondary parameters
+- effects of changing MRI parameters on the signal-to-noise ratio (SNR)
+- effects of changing MRI parameters on the spatial resolution
+- definition of the contrast-to-noise ratio
+- rectangular field of view FOV
+- signal-to-noise ratio in 3-D acquisitions
+- Identify and compensate for the common artifacts seen in MRI. The following concepts, skills, and issues are used to support this Outcome:
+- wraparound or aliasing artifact
+- chemical shift artifact (first and second kind)
+- free induction decay (FID) artifact
+- radio frequency (RF) feedthrough artifact
+- motion artifacts
+- truncation artifacts
+- cross-excitation and cross-talk
+- magic angle artifact
+- Moire artifact
+- magnetic susceptibility artifact
+- Explain the effects of flow phenomena as related to MRI images. The following concepts, skills, and issues are used to support this Outcome:
+- types of flow
+- time-of-flight effect
+- flow related enhancement
+- intra-voxel dephasing
+- gradient moment nulling
+- even-echo rephasing
+- spatial and chemical pre-saturation
+- spatial inversion recovery (SPIR)
+- Describe the types of vascular imaging used in MRI. The following concepts, skills, and issues are used to support this Outcome:
+- digital subtraction
+- black and bright blood imaging
+- time of flight magnetic resonance angiography (TOF-MRA)
+- phase contrast magnetic resonance angiography (PC-MRA)
+- contrast enhanced MRA (CE-MRA)
+- dynamic abdomen imaging
+- Describe the concept of parallel imaging. The following concepts, skills, and issues are used to support this Outcome:
+- sensitivity encoding (SENSE) in parallel imaging
+- generalized autocalibration partially parallel acquisition (GRAPPA)
+- Explain the concepts of magnetic resonance spectroscopy (MRS) and functional imaging (fMRI) techniques. The following concepts, skills, and issues are used to support this Outcome:
+- functional imaging techniques in MRI (fMRI) - diffusion and perfusion imaging
+- magnetic resonance spectroscopy (MRS)
+- elastography
+- multinuclear MRI
+- AI developments
+Effective as of Spring/Summer 2024
+## Related Programs
+MRI Physics 2 (MIMG 2110) is offered as a part of the following programs:
+### School of Health Sciences
+- Magnetic Resonance Imaging Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

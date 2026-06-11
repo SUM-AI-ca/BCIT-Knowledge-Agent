@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/server-side-web-scripting-with-php-level-1-comp-1920/
+Title: Server-side Web Scripting with PHP Level 1 COMP 1920
+Type: Course
+Course Code: COMP 1920
+
+================================================================================
+
+## Server-side Web Scripting with PHP Level 1 COMP 1920
+Computer Systems Course
+## Course Overview
+COMP 1920 has been replaced by COMP 3015 This hands-on course follows on from COMP 1850 and introduces server-side scripting using PHP an open-source, platform-independent, web scripting language. After learning the basic PHP theory and syntax, topics include: textfile manipulation, cookies, regular expressions, sessions, graphics, and database interactions. By the end of this course, students have learned the major functions of PHP server-side scripting and how to freely obtain a wide variety of open-source software tools and code libraries. COMP 1920 is an elective in the “Applied Web Development” associate certificate plus the CST/PTS Diploma.
+### Prerequisite(s)
+- COMP 1850 or equivalent HTML5 and CSS3 experience
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify, locate, download, and install dozens of free tools useful for server-side Web scripting.
+- Explain the theory behind server-side Web scripting.
+- Write PHP Web scripts with and without HTML content.
+- Install, configure and deploy a working web server to server PHP scripts
+- Obtain, process, and store user input from Web pages.
+- Use cookies to remember users and user data.
+- Use regular expressions to find, process, and validate data.
+- Use server-side resources with their Web pages including files, databases, images, etc… located on the server.
+- Use sessions to authorize users and persist their data across multiple Web pages.
+- Learn other server-side scripting languages with relative ease.
+Effective as of Spring/Summer 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

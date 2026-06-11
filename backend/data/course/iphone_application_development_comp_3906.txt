@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/iphone-application-development-comp-3906/
+Title: iPhone Application Development COMP 3906
+Type: Course
+Course Code: COMP 3906
+
+================================================================================
+
+## iPhone Application Development COMP 3906
+Computer Systems Course
+## Course Overview
+COMP 3906 is replaced by COMP 3912 . This hands-on course is designed for experienced object oriented programmers who already know how to write code in a high level OO language (Java, C++, or C#). Working in teams each student will require their own iPhone/iTouch, plus an Intel based MacBook running OSX v10.6 or higher. BCIT students who do not currently have an Intel based MacBook are entitled to obtain one from Apple Canada at a discount. They will focus on application design for the iPhone platform, writing code on their own Intel based Mac under OSX. Starting with an intensive overview of the Objectve-c language, followed by an introduction to the iPhone platform, special attention will be placed on the user interface components of current popular iPhone apps and games. Topics include; Objectve-c,the Cocoa Touch API, memory management, user input and data persistence including Core Data, SQLite,NSUserDefaults and Plists, working with audio, video and the accelerometer. The BCIT School of Computing is a member of the Apple iPhone Developer University program, providing access to Apple resources for the development, testing, and distribution of iPhone applications. Participants will work on a number of simple applications during the course. Each student will also have the opportunity to create and present an iPhone application of their own design.
+### Prerequisite(s)
+- COMP 2613 or COMP 2614 or COMP 2617 or equivalent knowledge in Object Oriented Programming with Java, C#, or C++.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the basics of the iPhone programming Architecture.
+- Understand the basics of iPhone's capabilities and limitations.
+- Explain the application process to become an Apple iPhone Developer.
+- Illustrate the iPhone development Process and explain the basics of the Model View Controller architecture.
+- Explain and work with .h and .m files.
+- Understand and utilize NSLog, properties, conditionals, instance variables, classes, strings, arrays, loops, methods and pointers.
+- Employ basic Debugging and trouble shooting.
+- Explore and use UI Elements and drawing.
+- Apply proper memory management rules.
+- Persist data (XML, text, SQLite, User Defaults, Core Data).
+- Work with timers, audio and video and perform animations.
+- Handle Touch Events, connect to the Internet ,Web Services and track device orientation and motion using the accelerometer.
+- Utilize objective-c, Cocoa Touch, and UIKit to create iPhone/iPod Touch applications.
+- Build and Test and Optimize a simple iPhone application.
+- Explain the process required to publish and submit an iPhone application.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

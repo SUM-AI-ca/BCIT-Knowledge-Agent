@@ -1,0 +1,23 @@
+URL: https://www.bcit.ca/courses/introduction-to-internet-software-development-comp-4711/
+Title: Introduction to Internet Software Development COMP 4711
+Type: Course
+Course Code: COMP 4711
+
+================================================================================
+
+## Introduction to Internet Software Development COMP 4711
+Computer Systems Course
+## Course Overview
+This course provides the students with an opportunity to develop a software application that works across the internet. An overview of various internet software development technologies is provided. Students will learn how to build a web application using a modern webapp MVC framework and Apache server technology; and how to use XML for data representation, structure and transport.
+### Prerequisite(s)
+- COMP 2510 or COMP 2526
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Construct an MVC web application using a suitable framework.
+- Construct a valid and well-formed XML document., and constrain it with a DTD.
+- Process XML data using DOM.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

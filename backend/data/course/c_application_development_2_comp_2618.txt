@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/c-application-development-2-comp-2618/
+Title: C++ Application Development 2 COMP 2618
+Type: Course
+Course Code: COMP 2618
+
+================================================================================
+
+## C++ Application Development 2 COMP 2618
+Computer Systems Course
+## Course Overview
+​This hands-on intermediate level course assumes students have completed COMP 2617 C++ Application Development Part 1 with a minimum of 60%. Students immediately move into more advanced C++11 features. Topics include: operator overloading; template classes; exception handling; the string class and stream processing; the Standard Template Library; file processing; and namespaces. Additional miscellaneous advanced C++ topics will also be covered. Delivery is face-to face for 3 hours each week plus an online and homework component. Typical students will require about 10 hours per week to study the material and work on assignments outside of class. Upon successful completion, participants will be able to write, test and debug C++ programs to industry standards and be able to develop significant software applications. NOTE: COMP 2618 will be offered for the last time in September 2021, it will be replaced by COMP 4603 in September 2022.
+### Prerequisite(s)
+- 60% in COMP 2617
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain and use C++ Classes in conjunction with proper object-oriented programming techniques (build on skills developed in Comp 2617).
+- Explain, in terms of the C++ programming language, object-oriented programming concepts including: classes, objects, methods, encapsulation, inheritance, and polymorphism (build on skills developed in Comp 2617).
+- Explain abstraction and modularization in programming in terms of the C++ programming language (build on skills developed in Comp 2617).
+- Explain and use Operator Overloading.
+- Explain and use Templates.
+- Explain and use Exception Handling.
+- Explain Class string and String Stream Processing.
+- Explain the Standard Template Library.
+- Explain namespaces.
+- Explain miscellaneous advanced topics.
+Effective as of Spring/Summer 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

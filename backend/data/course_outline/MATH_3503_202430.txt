@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20243042093/
 Course: MATH 3503
 Field: Calculus 2 for Mining
-
-School: School of Construction and the Environment
-Program: Bachelor of Mining and Mineral Resource Engineering
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 03, 2024
-End Date: December 13, 2024
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture
-Prerequisite(s): MATH 2502
+Subject: Mathematics
+Term: 202430
 CRN: 42093
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## MATH 3503
+## Calculus 2 for Mining
+School | School of Construction and the Environment
+Program | Bachelor of Mining and Mineral Resource Engineering
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 03, 2024
+End Date | December 13, 2024
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture
+Prerequisite(s) | MATH 2502
+CRN | 42093
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Stefan Lukits
-E-mail: slukits@bcit.ca
-Location: SW2 231
-Office Hours: See schedule in the Learning Hub.
-
-## Course Description
+### Instructor Details
+Name | Stefan Lukits
+E-mail | slukits@bcit.ca
+Location | SW2 231
+Office Hours | See schedule in the Learning Hub.
+### Course Description
 This course covers the topics of: definite and indefinite integrals; integration techniques; applications of integration; Riemann sums and integrals; the Fundamental Theorem of Calculus; improper integrals; first-order differential equations; Taylor Series. Applications to the mining industry will be utilized. Problem-solving skills and solution presentation will be emphasized.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Evaluate integrals involving a diverse range of functions. [1]
 - Choose appropriate techniques and apply them to finding and evaluating definite integrals. [1]
 - Calculate areas and volumes of irregular shapes using the trapezoid rule or Simpson’s rule.[1]
@@ -40,245 +43,143 @@ Upon successful completion of this course, the student will be able to:
 - Solve first-order differential equations.[1]
 - Apply the techniques of first-order differential equations to practical problems. [1, 2]
 - Use a computer algebra system to find integrals and to do practical problems. [5]
-
-## Learning Resources
+### Learning Resources
 calculator
-
-## Evaluation Criteria
-Criteria: %: Comments
-Lab Reports: 10
-Term Test A: 20
-Differential Calculus Test: 10
-Attendance: 5
-Final Exam: 35
-Term Test B: 20
-
+### Evaluation Criteria
+Criteria | % | Comments
+Lab Reports | 10
+Term Test A | 20
+Differential Calculus Test | 10
+Attendance | 5
+Final Exam | 35
+Term Test B | 20
 Students must obtain a minimum of 50% on the cumulative results of all exams in order to pass this course. A cumulative mark below 50% on all exams will be awarded as the student's final grade and the student will have failed. Cumulative exam grades of 50% or more will be combined with the results of other class work to determine the student's final grade in this course.
-
-## Attendance Requirements
+### Attendance Requirements
 Attendance will be taken consistently and is an evaluation criterion.
-
-## Other information
+### Other information
 Engineering Accreditation
-
 The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the BEng in Civil Engineering program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB Graduate Attributes as shown in the square brackets [ ] following each course learning outcome.
-
 CEAB Graduate Attributes
-
-- A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
-- Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
-- Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
-- Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
-- Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
-- Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
-- Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
-- Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
-- Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
-- Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+- A knowledge base for engineering : Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+- Problem analysis : An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+- Investigation : An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+- Design : An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+- Use of engineering tools : An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+- Individual and team work : An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+- Communication skills : An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+- Professionalism : An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+- Impact of engineering on society and the environment : An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+- Ethics and equity : An ability to apply professional ethics, accountability, and equity.
 - Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
-- Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
-
+- Life-long learning : An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
 Early Assist
-
-“Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.”
-
-## Statement for prior learning assessment
+“Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist .”
+### Statement for prior learning assessment
 Course Credit: Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Department taking into account all of the following:
-
 - the correspondence between topics, content and level
 - recency (generally no more than 3-5 years)
 - the grade (generally at least C+ or 65%)
 - the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
+## MATH 3503 Calculus 2 for Mining
 Week 1
-
 Monday, September 2
-
 Labour Day Weekend: no class
-
 Friday, September 6
-
 Tutorial: Differential Calculus Review
-
 Week 2
-
 Monday, September 9
-
 Differential Calculus Review
-
 Friday, September 13
-
 Tutorial: Differential Calculus Review
-
 Week 3
-
 Monday, September 16
-
 Fundamental Theorem of Calculus
-
 Friday, September 20
-
 Differential Calculus Test
-
 Lab Report 1 due
-
 Week 4
-
 Monday, September 23
-
 Area and Volume
-
 Friday, September 27
-
 Tutorial
-
 Lab Report 2 due
-
 Week 5
-
 Monday, September 30
-
 Surface and Arc Length
-
 Friday, October 4
-
 Tutorial
-
 Lab Report 3 due
-
 Week 6
-
 Monday, October 7
-
 Term Test A
-
 Friday, October 11
-
 Tutorial
-
 Lab Report 4 due
-
 Week 7
-
 Monday, October 14
-
 Thanksgiving Weekend: no class
-
 Friday, October 18
-
 Tutorial
-
 Lab Report 5 due
-
 Week 8
-
 Monday, October 21
-
 Integration Methods
-
 Friday, October 25
-
 Tutorial
-
 Lab Report 6 due
-
 Week 9
-
 Monday, October 28
-
 Integral Applications
-
 Friday, November 1
-
 Tutorial
-
 Lab Report 7 due
-
 Week 10
-
 Monday, November 4
-
 Sequences and Series
-
 Friday, November 8
-
 Tutorial
-
 Lab Report 8 due
-
 Week 11
-
 Monday, November 11
-
 Remembrance Day Weekend: no class
-
 Friday, November 15
-
 Tutorial
-
 Lab Report 9 due
-
 Week 12
-
 Monday, November 18
-
 Term Test B
-
 Friday, November 22
-
 Tutorial
-
 Lab Report 10 due
-
 Week 13
-
 Monday, November 27
-
 Sequences and Series
-
 Friday, November 22
-
 Tutorial
-
 Lab Report 11 due
-
 Week 14
-
 Monday, December 2
-
 Differential Equations
-
 Friday, November 6
-
 Tutorial
-
 Lab Report 12 due
-
 Week 15 Final Exam
-
-## BCIT Policy
-Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
-
 Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Stefan Lukits, Instructor September 04, 2024
-
 I verify that this course outline has been reviewed. David Holloway, Program Head September 05, 2024
-
 I verify that this course outline has been reviewed. Shawna Waberi, Program Head September 06, 2024
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Patricia Sackville, Associate Dean September 06, 2024
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/messaging-services-1-cisa-3045/
+Title: Messaging Services 1 CISA 3045
+Type: Course
+Course Code: CISA 3045
+
+================================================================================
+
+## Messaging Services 1 CISA 3045
+Computer Info Systems Admin Course
+## Course Overview
+In this course, students learn to install and configure a Microsoft Windows Active Directory Environment in preparation for messaging services deployment. Students then learn to install, configure, and administer an enterprise messaging system that is integrated with Active Directory. Students will study the theory behind messaging systems, and through hands-on activities, they will learn to install, maintain, customize, and troubleshoot Microsoft Exchange Server and clients.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement a fully-functioning Active Directory environment
+- Plan and install messaging services using Microsoft Exchange
+- Describe and configure Exchange server roles
+- Customize the Exchange messaging services
+- Configure recipients, mail-enabled groups, resource mailboxes, and public folders
+- Implement bulk management of mail-enabled objects
+- Customize the Exchange infrastructure including connectors, transport rules, message compliance, policies, antivirus and anti-spam system, and client connectivity
+- Monitor the messaging services including mail queues, system performance, and client connectivity
+- Perform message tracking
+- Create reports on usage of messaging services
+- Discuss Disaster Recovery methodology
+- Perform system backups
+- Describe how to recover messaging data and recover server roles
+- Discuss high availability concepts and features for messaging services
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

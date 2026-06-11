@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/applied-intrusion-detection-systems-ids-comp-4707/
+Title: Applied Intrusion Detection Systems (IDS) COMP 4707
+Type: Course
+Course Code: COMP 4707
+
+================================================================================
+
+## Applied Intrusion Detection Systems (IDS) COMP 4707
+Computer Systems Course
+## Course Overview
+This intensive 2 day workshop follows on from COMP 3705 and allows students to explore Intrusion Detection Systems (IDS) and to detect attacks that get past firewalls. The focus of this hands-on workshop is to configure and install an IDS, set-up email alerts and design useful policies to deal with false-positives and ongoing maintenance. Topics will also include heuristic, anomaly, signature and misuse detection systems and how to choose the best solutions. Students will examine various intrusions and discuss how to analyze logs for patterns. The goal of this workshop is to provide network administrators with a higher level understanding of the most common IDS tools and methodolgies available for network security.
+### Prerequisite(s)
+- 50% in COMP 3705
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Assess what type of IDS is needed.
+- Decide location(s).
+- Choose the best solution.
+- Read and write signatures.
+- Configure triggers for signature scanners.
+- Establish a baseline for heuristic scanners.
+- Configure alerts.
+- Design an incident response plan.
+- Analyze logs for patterns.
+Effective as of Spring/Summer 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

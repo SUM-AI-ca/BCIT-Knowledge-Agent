@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/process-simulation-cenv-4403/
+Title: Process Simulation CENV 4403
+Type: Course
+Course Code: CENV 4403
+
+================================================================================
+
+## Process Simulation CENV 4403
+Chemical & Environmental Tech Course
+## Course Overview
+In this course the student works with computer simulations of chemical processes to develop an understanding of the impact of manipulating process variables on the products from the process. Through tutorials, the student learns how to use a dynamic process simulator to draw process flowsheets, specify process variables, create control loops and run process simulations. The student builds models of specific unit operations found in the chemical processing industries and from these, constructs models of process streams found in the pulp and paper mill and oil refinery. Using the dynamic simulator the student runs the models, tunes the control loops and investigates the impact of changing process variables and conditions. The student is challenged to interpret the results using their understanding of chemical processes gained in previous courses. The students are required to review the relevant processes prior to creating each simulation.
+### Prerequisite(s)
+- CENV 3341 and CENV 3346 and ELEX 2830
+### Credits
+3.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Build dynamic simulations of industrial chemical processes.
+- Determine the effect of changing process variables on process outcomes.
+- Analyze the response of the process in technical terms.
+- Explain the significance of the results.
+- Design, manipulate and tune process control loops.
+- Apply the concepts of set-point, gain, proportional, integral and differential control to industrial process simulations.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,104 @@
+URL: https://www.bcit.ca/outlines/20262066019/
+Course: FSCT 8560
+Field: Network Security 2
+Subject: Forensic Investigation
+Term: 202620
+CRN: 66019
+
+================================================================================
+
+## Course Outline
+## FSCT 8560
+## Network Security 2
+School | School of Computing and Academic Studies
+Program | Digital Forensics & Cybersecurity Option
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | April 20, 2026
+End Date | July 20, 2026
+Total Hours* | 45
+Total Weeks | 13
+Hours/Weeks | 3.46
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | 60% in FSCT 8540
+CRN | 66019
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | D'Arcy Smith
+E-mail | Instructor to provide
+Location | SW02-323
+Office Hours | Instructor to provide
+### Course Description
+This course covers advanced topics in network security and intrusion detection. In-depth coverage of perimeter protection and firewall designs. Advanced Intrusion Detection and IDS/IPS design and implementation. Students will be familiarized with network monitoring and security tools, and use them to perform traffic and IDS signature analysis, and network forensics. Also covered will be reverse engineering and machine code analysis techniques. These will be used to analyze malicious code and malware.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the computer security strategies related to a corporate network.
+- Describe common network-based attacks and network protection technologies used to protect the networks.
+- Describe the TCP/IP protocol suite.
+- Implement different firewall technologies according to their respective usages.
+- Implement an adequate perimeter defence strategy based on security principles and best practices.
+- Implement IDS systems as part of the network defence structure.
+- Reverse engineer machine code and detect and analyze malware.
+- Identify, assess, and mitigate security risks associated with artificial intelligence systems.​
+### Learning Resources
+Linux Firewalls , Latest Edition (strongly recommended)
+Robert Ziegler
+TCP/IP Illustrated, Volume 1 (Highly recommended)
+Richard W. Stevens
+Prentice-Hall
+### Course Goals
+Upon successful completion, the student will be able to:
+- Detect and analyze malware
+- Discover and analyze vulnerabilities
+- Perform network traffic analysis
+- Perform network forensics using captured traffic
+- Implement a virtual private network
+- Install, configure, and deploy a firewall
+- Install, configure, and deploy an Intrusion Detection/Prevention System
+### Evaluation Criteria
+Component | Weight | Comments
+Assignments | 70% | 4 (10%, 20%, 20%, 20%)
+Final Exam | 30%
+Total | 100% | Requires 60% to pass
+*Assignments/projects may be done individually or in pairs - the instructor will specify.
+### Course Specific Requirements
+Students will need access to at least one Linux computer.
+Expectations for the course and the SE12-323 Lab .
+### Course Schedule and Assignments
+Week | Topic | Assesment
+1 - April 20 | Advanced Network Security Foundations, Review, and Security Tools
+2 - April 27 | TCP/IP Analysis and Packet Crafting (hping3) | Packet Crafting
+3 - May 4 | IP Accounting, Network Monitoring, and Traffic Visibility
+4 - May 11 | Firewall Technologies and Perimeter Protection with nftables
+May 18 | No Class, Victoria Day | Firewall
+5 - May 25 | Intrusion Detection Introduction and Perimeter Defence Strategy
+6 - June 1 | Intrusion Detection Implementation with Snort 3 | IDS
+7 - June 8 | Traffic Analysis, IDS Signature Analysis, and Network Forensics
+8 - June 15 | Reverse Engineering Fundamentals and Machine Code Analysis
+9 - June 22 | Reverse Engineering and Malware Analysis | Reverse Engineering
+10 - June 29 | Advanced Malware Analysis and Reverse Engineering Techniques
+11 - July 6 | Network Attacks and Spoofing Introduction
+12 - July 13 | ARP/DNS Spoofing, Detection, and Mitigation
+13 - July 20 | Final Exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. D'Arcy Smith, Instructor April 16, 2026
+I verify that this course outline has been reviewed. Raymond Yu, Program Coordinator April 16, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean April 17, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

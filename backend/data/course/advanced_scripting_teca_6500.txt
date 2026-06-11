@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/advanced-scripting-teca-6500/
+Title: Advanced Scripting TECA 6500
+Type: Course
+Course Code: TECA 6500
+
+================================================================================
+
+## Advanced Scripting TECA 6500
+Technical Arts Course
+## Course Overview
+This course focuses on advanced object-oriented programming techniques in Python. It builds on the skills developed with scripting and data structures. Students will create and develop scripts and expressions that control node attributes within 3D applications and that connect nodes to influence one another. In addition, students will create and implement pre- and post-render scripting options to automate time-consuming processes. Students will also develop tools that provide flexibility and ease of modeling, texturing, shading, rigging, animation, and rendering processes throughout different stages of the production pipeline. ​
+### Prerequisite(s)
+- TECA 5400
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Modify an object’s attributes through expressions and scripts.
+- Connect node attributes across different objects.
+- Change attribute values of other objects from one node.
+- Write rigging scripts to enhance the animation capability of 3D characters and props.
+- Manipulate lights and camera effects based on the scene and an object’s animation.
+- Enhance effects and dynamics with expressions.
+- Create tools in 3D applications to manipulate attributes across 3D objects, curves, and shaders.
+- Develop pre- and post-rendering scripts to streamline the rendering process.
+Effective as of Fall 2019
+## Related Programs
+Advanced Scripting (TECA 6500) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Technical Arts Advanced Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

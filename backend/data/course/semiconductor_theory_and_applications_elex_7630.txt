@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/semiconductor-theory-and-applications-elex-7630/
+Title: Semiconductor Theory and Applications ELEX 7630
+Type: Course
+Course Code: ELEX 7630
+
+================================================================================
+
+## Semiconductor Theory and Applications ELEX 7630
+Electrical and Computer Engineering Course
+## Course Overview
+This course is an introduction to semiconductor physics, and to the structure and performance of electronic devices built with semiconductors. Devices are used primarily as concrete examples of semiconductor phenomena. Based on the valence bond model and the energy band model, carrier generation, recombination, injection and transport are described analytically, and are subsequently used to develop device models for bipolar and field-effect transistors, diodes, photovoltaic cells, thyristors and hybrid devices such as the insulated gate bipolar transistor. The static and dynamic behaviour of devices, as well as power and temperature considerations, are covered. Laboratory experiments reinforce theory, and provide experience with basic semiconductor instrumentation. Labs include: Silicon bandgap determination, Thermoelectric effects, Diode characteristics, BJT characteristics, MOSFET characteristics, Photovoltaic cells, and power devices.
+### Prerequisite(s)
+- CHSC 7540 and ( ELEX 3120 or ELEX 3320 ) and ELEX 7530
+### Credits
+4.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Explain and Exemplify the origin of charge carriers in semiconductor crystals.
+- Interpret the behaviour of electron and holes in semiconductors as described by solid state chemical kinetics and thermodynamics.
+- Explain and Exemplify the mathematical models of charge carrier generation, recombination and injection.
+- Explain and Exemplify the mathematical models of carrier transport by means of drift and diffusion.
+- Explain and Quantify the steady state and transient behaviour of currents and terminal voltages in representative devices such as PN junction diodes, BJTs, MOSFETs, thyristors and photovoltaic cells.
+- Simplify complicated device structures to obtain meaningful theoretical estimates of terminal behaviour.
+- Correctly Apply the laws of classical electromagnetism to inhomogeneous semiconductor devices that include metals and insulators.
+- Configure laboratory apparatus to isolate specific semiconductor parameters for investigation.
+- Measure semiconductor parameters quantitatively using laboratory instruments.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

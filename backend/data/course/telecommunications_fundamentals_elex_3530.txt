@@ -1,0 +1,82 @@
+URL: https://www.bcit.ca/courses/telecommunications-fundamentals-elex-3530/
+Title: Telecommunications Fundamentals ELEX 3530
+Type: Course
+Course Code: ELEX 3530
+
+================================================================================
+
+## Telecommunications Fundamentals ELEX 3530
+Electrical and Computer Engineering Course
+## Course Overview
+In this course, the concept of information is examined, and methods used for sending it over long distances are explored. The processes of Amplitude, Frequency, and Phase Modulations are examined in detail, together with typical circuits used for the generation, transmission, reception, and demodulation of each. Representative circuits and systems and equipment are analyzed and designed., and s Skills in building circuits in and using telecommunications test equipment are gained developed in a lab environment.
+### Prerequisite(s)
+- ELEX 2105 and ELEX 2115 and ELEX 2120
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## BASIC COMMUNICATION SYSTEMS
+- General description of signals and analyze their characteristics in time and frequency domain.
+- Describe the essential elements of a communication system.
+- Describe time-division and frequency-division multiplexing.
+- Explain the relationship between channel bandwidth, baseband bandwidth, and transmission line.
+- List the requirements for distortionless transmission, and describe some of the possible deviations from this ideal.
+- Use frequency-domain representations of signals, and convert simple signals between time and frequency domains.
+- Use a table of Fourier series to find the frequency-domain representations of common waveforms.
+## RADIO FREQUENCY CIRCUITS
+- Analyze various amplifiers, phase lock loop and frequency synthesis.
+- Explain the differences in operation and construction between circuits that operate at low frequencies and those that operate at radio frequencies.
+- Describe the characteristics of Class A, B, and C amplifiers, and decide which type is the most suitable for a given application.
+- Analyze radio-frequency amplifier circuits, both narrowband and broadband, and choose the correct configuration for a given application.
+- Describe, draw circuits for, and analyze the most common types of radio-frequency oscillator circuits, and discuss their relative stability.
+- Explain the operation of varactor-tuned voltage-controlled oscillators, and calculate the variation of frequency with tuning voltage.
+- Describe the operation of crystal-controlled oscillators, and explain their advantages and disadvantages compared with LC oscillators. Perform frequency-stability calculations for crystal oscillators.
+- Describe the function of a mixer and analyze several circuits, explaining how and where they are used, and calculating output frequencies.
+- Explain the operation of a phase-locked loop.
+- Define the lock and capture range for a phase-locked loop.
+- Draw a block diagram of a frequency synthesizer, explain its operation, and calculate output frequencies.
+## AMPLITUDE MODULATION
+- Analyze mixing of signals with a focus on amplitude modulation process.
+- Explain the need for modulation in communication systems.
+- Distinguish between baseband, carrier, and modulated signals, and give examples of each.
+- Write the equation for a modulated signal and use it to list and explain the various types of continuous-wave modulation.
+- Write the time-domain equation for an AM signal, and describe how the equation relates to the signal itself.
+- Sketch an AM signal in both the time and frequency domains.
+- Define the modulation index, calculate it, and measure it using either an oscilloscope or a spectrum analyzer.
+- Describe the effects of overmodulation, and explain why it must be avoided.
+- Sketch, and explain the operation of, simple AM modulators and demodulators.
+- Calculate the bandwidth of an AM signal, and explain why bandwidth is an important factor in a communications system.
+- Calculate power and voltage for an AM signal, and for each of its components.
+- Discuss the requirements and specifications of AM transmitters, and determine whether a given transmitter is suitable for a particular application.
+## AM TRANSMITTERS
+- Analyze transmission circuits and understand the importance of SNR, harmonics and other interfering parameters.
+- Draw block diagrams for several types of transmitters, and explain their operation.
+- Analyze the operation of transmitter circuits.
+- Perform measurements on AM transmitters. Explain the advantages of suppressed-carrier, and of single-sideband, transmission over standard AM.
+- Calculate the improvements in signal-to-noise ratio that result from the use of suppressed-carrier and single-sideband techniques.
+- Describe the operation of a balanced modulator and sketch the output in both time and frequency domains, for typical input signals.
+- Trace the signal path for transmit and receive operation, in a block diagram of a single-sideband transceiver, and determine which components are used for both.
+- Perform tests on single-sideband transmitters to measure peak envelope power and suppression of harmonics and other spurious signals.
+- Describe several practical communication systems that used suppressed-carrier and/or single-sideband techniques.
+## AM RECEIVERS
+- Analyze receiver circuits and understand the importance of specifications for various suitability needs.
+- Describe the basic superheterodyne system, and explain why it is the preferred design for most receivers.
+- Choose suitable intermediate frequencies, and calculate image rejection for a receiver.
+- Explain the requirements for each stage in a receiver, and suggest suitable types of circuits to fulfill the requirements.
+- Analyze a circuit diagram for a receiver or transceiver to find the function of each stage.
+- Describe the filter method of single-sideband generation, and calculate suitable filter and oscillator parameters to produce a given sideband at a given carrier frequency.
+- Describe the operation of communications receivers that are capable of single-sideband reception, and show how they differ from receivers designed only for full-carrier AM.
+## ANGLE MODULATION
+- Analyze angle modulation (FM and PM).
+- Describe and explain the differences between amplitude and angle modulation schemes, and the advantages and disadvantages of each.
+- Describe and explain the differences between frequency and phase modulation, and show the relationship between the two.
+- Calculate bandwidth, sideband frequencies, carrier and sideband voltage and power levels, and modulation index for frequency- and phase-modulated signals.
+- Explain the capture effect and noise threshold for FM signals.
+- Perform measurements on FM signals using a spectrum analyzer.
+- Describe the ways in which FM transmitters and receivers differ from those for AM, and explain why they differ.
+- Analyze the operation of direct modulators.
+- Calculate the carrier frequency and deviation for FM transmitters.
+- Analyze the operation of the following type of FM detector: discriminator.
+- Explain the reasons for the use of limiters in FM receivers, and describe the operation of a limiter.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

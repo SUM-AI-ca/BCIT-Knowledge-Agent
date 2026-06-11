@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/ordinary-differential-equations-and-linear-systems-for-mechanical-engineers-math-3499/
+Title: Ordinary Differential Equations and Linear Systems for Mechanical Engineers MATH 3499
+Type: Course
+Course Code: MATH 3499
+
+================================================================================
+
+## Ordinary Differential Equations and Linear Systems for Mechanical Engineers MATH 3499
+Mathematics Course
+## Course Overview
+This course is a combination of vector and matrix algebra and an introduction to ordinary differential equations. It covers the basics of vectors - vector algebra, dot product, cross product – as well as solving systems of linear equations using methods such as Gaussian elimination and matrix inversion. Matrix algebra, linear transformations, eigenvalues and eigenvectors, similarity of matrices will all be covered. For differential equations, analytic solutions of first-order differential equations and higher-order differential equations with constant coefficients are discussed. Numerical solutions of initial value problems involving a single first-order differential equation and systems of first-order differential equations will be performed using appropriate computer tools such as Excel or Maple. For all course topics an emphasis will be placed on solving engineering problems.
+### Prerequisite(s)
+- Completion of Levels 1 and 2.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Perform vector calculations in 2- and 3-D space, calculate dot and cross products, determine the norm and projection of a vector, and apply vector algebra to lines and planes in 3-space. [1, 5]
+- Use various matrix methods to solve systems of simultaneous equations, fit a polynomial curve to given data, perform polynomial interpolations, and implement linear transformations. [1, 5]
+- Determine and use eigenvalues and eigenvectors to diagonalize matrices, with applications to finding principal directions in materials. [1, 5]
+- Use numerical derivatives to differentiate a given function or time-series (e.g. to calculate the velocity of an object from a time-series of its displacement). [1, 2, 5]
+- Use numerical integration techniques (including the Trapezoid Rule and Simpson's Rule) to evaluate definite integrals, such as those arising in volume, centroid or moment of inertia calculations and in problems related to work done, hydrostatic force, or beam deflections. [1, 2, 5]
+- Write Taylor series expansions and use them to analyze the truncation error in a numerical integration. [1]
+- Solve separable and linear first-order differential equations such as arise in problems of practical engineering interest (e.g. motion in viscous and resistive media, mixing, drainage). [1, 2]
+- Solve single first-order differential equations, systems of first-order differential equations and single second-order differential equations using numerical techniques for initial value problems (including Euler's method, Heun's method and Runge-Kutta method). [1, 2, 5]
+- Reduce higher-order differential equations to an equivalent system of first-order differential equations. [1]
+Effective as of Fall 2018
+## Related Programs
+Ordinary Differential Equations and Linear Systems for Mechanical Engineers (MATH 3499) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Mechanical Engineering Bachelor of Engineering Full-time
+- Mechanical Engineering Technology (Mechanical Design Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

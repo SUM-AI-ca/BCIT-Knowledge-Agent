@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/unix-fundamentals-csst-4120/
+Title: UNIX Fundamentals CSST 4120
+Type: Course
+Course Code: CSST 4120
+
+================================================================================
+
+## UNIX Fundamentals CSST 4120
+Computer Systems Service Technician Course
+## Course Overview
+This course teaches students how to use basic UNIX operating system commands. Students will learn fundamental command-line features of UNIX, including file system navigation, file and directory manipulation, file permissions, and the vi text editor.
+### Prerequisite(s)
+- Familiarity with any operating system preferred MS-DOS.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Set up basic Unix file-system security.
+- Manage files and file security on a Unix based system.
+- Describe the contents of common Unix directories.
+- Manage processes on a Unix based system.
+- Set-up and manage Unix based (TCP/IP) networking.
+- Program basic shell scripts in both bash and csh (or tesh).
+- Manage a Unix based system from an X-windows environment.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

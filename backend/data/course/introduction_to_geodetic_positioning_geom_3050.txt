@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/introduction-to-geodetic-positioning-geom-3050/
+Title: Introduction to Geodetic Positioning GEOM 3050
+Type: Course
+Course Code: GEOM 3050
+
+================================================================================
+
+## Introduction to Geodetic Positioning GEOM 3050
+Geomatics Course
+## Course Overview
+This course covers three aspects of geodesy including geometrical geodesy, physical geodesy, and satellite geodesy. Topics will include the fundamentals of geodesy, the shape and size of the Earth and their impact on the standard surveying field procedures and computations. Also includes physical and mathematical modelling of the real Earth, ellipsoid of revolution and ellipsoidal geometry, problem and definitions of horizontal and vertical datums, deflection of vertical, convergence of meridians, height systems, various coordinate systems and their transformations, and map projection systems. It concludes with introduction to satellite geodesy and the necessary concepts related to use of survey grade Global Navigation Satellite System (GNSS) receivers to conduct different modes of positioning and data processing. It also reviews the errors and biases involved in GNSS surveys and how to cancel and/or mitigate them in different GNSS applications. Precise point positioning, baseline, and network processing using both collected and freely available GNSS data from reference station networks in North America are also discussed.
+### Prerequisite(s)
+- MATH 2511
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Describe the fundamentals of geodesy including some of the common terms.
+- Distinguish different types of models used for the real Earth.
+- Understand the basic concepts of horizontal and vertical datums and elements of the ellipsoid geometry.
+- Outline reference (coordinate and time) systems used in geodesy including transformations between different reference systems.
+- Categorize and compare different types of horizontal datums and datum transformation.
+- Discuss the fundamentals of map projection systems including some of the common terms and parameters.
+- Outline the fundamentals of the Earth’s gravity field and different height systems.
+- Understand the basic elements of satellite positioning including some of the common terms.
+- Describe different segments of any GNSS in general and GPS in particular.
+- Relate GNSS measurement concept and positioning services.
+- Outline GPS signal structure, its modernization plan, and GNSS receiver parts.
+- Discuss GNSS errors and biases and how to cancel and/or mitigate them in different applications.
+- Differentiate positioning modes and their applications.
+- Outline and relate available satellite data, correction and processing services.
+- Discuss other major available satellite positioning systems besides GPS.
+Effective as of Fall 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

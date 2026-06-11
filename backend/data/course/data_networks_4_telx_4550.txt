@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/data-networks-4-telx-4550/
+Title: Data Networks 4 TELX 4550
+Type: Course
+Course Code: TELX 4550
+
+================================================================================
+
+## Data Networks 4 TELX 4550
+Electronics Technical Course
+## Course Overview
+This course introduces and extends the student's knowledge and practical experience with Wide Area Networks (WANs) and support for computer networks in remote office locations. Topics include WAN protocols for serial links, Multi Protocol Label Switching (MPLS), Ethernet WAN, cable, Digital Subscriber Line (dsl), basic network security concepts and configuration, working with access controls lists, fundamentals of Virtual Private Networks (VPNs), and general troubleshooting. Students will develop the skills to interconnect networks which includes configuration and troubleshooting of branch office connections including quality of service, monitoring, and security. The content of Data Networks 3 and 4 prepares the students to write the Cisco CCNA Route Switch certification exam.​
+### Prerequisite(s)
+- TELX 3550
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe wide area network (WAN) technology concepts
+- Describe different methods for connecting to a WAN.
+- Describe the importance, benefits, role, impact, and components of VPN and Tunneling.
+- Describe current network security threats and implement a security policy to mitigate common threats to network devices, hosts, and applications.
+- Configure and apply ACLs based on network filtering requirements.
+- Configure and verify a basic WAN serial connection.
+- Configure and troubleshoot broadband connections
+- Identify and correct common network problems at layers 1, 2, 3, and 7 using a layered model approach.
+- Troubleshoot WAN implementation issues.
+Effective as of Winter 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

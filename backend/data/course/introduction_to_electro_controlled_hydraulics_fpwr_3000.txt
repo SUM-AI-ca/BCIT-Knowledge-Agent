@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/introduction-to-electro-controlled-hydraulics-fpwr-3000/
+Title: Introduction to Electro-Controlled Hydraulics FPWR 3000
+Type: Course
+Course Code: FPWR 3000
+
+================================================================================
+
+## Introduction to Electro-Controlled Hydraulics FPWR 3000
+Fluid Power Course
+## Course Overview
+Electronic control is becoming evermore present in hydraulic system as a means to achieve more precise control while emphasising improved productivity and energy efficiency. Electronic control comes in the form of programmable logic controllers (PLCs) interfacing with proportional (non-servo) valves, mechanical servo valves, servo-solenoid valves, and variable-speed servo pump drives. This course offers an introduction to these control methods through a hands-on approach which will allow students to develop skills in basic system configuring and setup. Students will program PLCs and configure the electronic interfaces required to operate valves and pump drives in working circuits.
+### Prerequisite(s)
+- A background in hydraulics and electronics is essential. Basic skill in math is required. Departmental approval.
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Program a PLC, using software contacts, coils, timers and counters to solve hydraulic control problems.
+- Explain the similarities and differences between on/off directional controls and proportional directional controls.
+- Explain the similarities and differences between hydraulic fixed and variable displacement pumps.
+- Describe the components and their functions of the valves and pumps covered in the course.
+- Describe feedback and feedback devices at an introductory level.
+- Explain proportional-integral-derivative (PID) control and demonstrate PID feedback response.
+- Configure electronic interface amplifiers for driving valves and variable displacement pumps.
+- Select system components using performance criteria, technical data, and sizing tools.
+- Explain the principles of typical control requirements (positioning and speed control).
+- Explain on-demand control of variable displacement pumps as a means to improve energy efficiency.
+- Select drive components.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

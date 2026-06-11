@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/physics-for-games-development-comp-8903/
+Title: Physics for Games Development COMP 8903
+Type: Course
+Course Code: COMP 8903
+
+================================================================================
+
+## Physics for Games Development COMP 8903
+Computer Systems Course
+## Course Overview
+Students will learn the laws that govern the physical world and use these laws as the basis for simulations. This course examines the basic physics and mathematics governing natural phenomena such as weight, inertia, friction momentum and thrust. Students will explore geometry and mathematics for the physical equations of motion for bodies acting under influence of forces using a calculus based approach. Since it is assumed that the student does not have any background in Calculus this course will introduce this mathematics using an applied physical approach.
+### Prerequisite(s)
+- MATH 7908
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the concepts of mass, centre of mass, moment of inertia and calculate these for a collection of masses.
+- Explain the concepts of linear and angular displacement, velocity and acceleration.
+- Explain vector forces.
+- Explain the relationship between force and acceleration.
+- Explain rigid body collision response, linear and angular impulse and friction.
+- Explain the relationship between force and torque.
+- Apply the above concepts to solve problems related to movement, acceleration, friction and collision detection related to movement simulation in computer games.
+- Calculate trajectories based on equations of force and motion.
+- Implement kinematic equations of particle motion.
+- Implement algorithms to create believable physical simulations including multi body 3D collision and kinematic modelling.
+- Explain the concepts of derivative, limit, continuity and differentiability.
+- Solve problems used to derive and express the equations of motion presented in this course.
+Effective as of Winter 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

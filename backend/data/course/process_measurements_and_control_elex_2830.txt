@@ -1,0 +1,83 @@
+URL: https://www.bcit.ca/courses/process-measurements-and-control-elex-2830/
+Title: Process Measurements and Control ELEX 2830
+Type: Course
+Course Code: ELEX 2830
+
+================================================================================
+
+## Process Measurements and Control ELEX 2830
+Electrical and Computer Engineering Course
+## Course Overview
+This is an orientation course for the Process Engineering option of the Chemical and Environmental Technology program. The course will cover the principles and practices of automatic control systems with emphasis on process measurements. The student will learn the terminology and symbology necessary to communicate with engineers and technologists specializing in this field. Operation and application of common measurement systems for pressure, strain, level and temperature are described in detail. The principles of negative feedback and closed loop control are developed and the basic control strategies of On/Off, proportional, integral and derivative are introduced.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+## INTRODUCTION TO INSTRUMENTATION
+Identify the symbols, terminology and characteristics of process control.
+- Appreciate the need for automatic control systems.
+- Describe the major elements required for a feedback control system.
+- Differentiate between open and closed loop systems.
+- Define terms used in the instrumentation and control field.
+- Interpret and apply the ISA symbology used to document simple process measurement and control systems.
+## THE ROLE OF MEASUREMENT SYSTEMS
+Calibrate a measurement system and produce a calibration report.
+- Define primary element, transducer, transmitter, span, gain, range and zero.
+- Derive a static operation equation for a given measurement system.
+- Identify the need for calibration.
+- Plot the ideal and actual static responses for a measurement system.
+- Distinguish between the different types of error(s) used to describe the accuracy of an instrument.
+- Apply standard ISA symbology to transducers commonly used in process automation applications.
+## PRESSURE MEASUREMENT
+Assess the suitability of a pressure measuring instrument for a specific application.
+- Define pressure and the units of pressure.
+- Describe pressure standards.
+- Apply the equations derived for standard manometer configurations to simple problems.
+- Describe the common mechanical pressure elements.
+- Describe the common electrical pressure transducers.
+- Calibrate an industrial differential pressure transmitter.
+- Recognize how pressure measurement can be used to determine liquid level and density.
+## STRAIN MEASUREMENT
+Assess the characteristics and limitations of strain gauges to measure strain.
+- Define units of stress and strain.
+- Define Young’s modulus of elasticity.
+- Define Poisson’s ratio.
+- Perform simple calculations to predict stress and strain.
+- Define gauge factor.
+- Calculate strain in a cantilever beam application.
+- Calculate the output voltage of a Wheatstone quarter and half bridge circuit.
+## LEVEL MEASUREMENT
+Assess the suitability of a level measuring system for a specific application.
+- Distinguish between different level measurement techniques (i.e. direct or inferential).
+- Describe common direct level measurement techniques.
+- Describe common inferential level measurement techniques.
+- Calculate the level in an open tank.
+- Calculate the level in a closed tank.
+- Describe the operation of extended and remote diaphragms, bubblers, and purge systems.
+## TEMPERATURE MEASUREMENT
+Assess the suitability of a temperature measuring instrument for a specific application.
+- Define temperature and the units of temperature.
+- Review the principles of heat transfer.
+- Plot the response of a first order temperature system to step and ramp changes.
+- Describe temperature measuring systems using the principle of volumetric expansion.
+- Describe the Seebeck effect and explain how it relates to thermocouples.
+- Define the thermocouple laws of intermediate metals, intermediate temperatures and homogenous materials.
+- Calculate the temperature using standard thermocouple tables.
+- Describe other types of temperature instruments viz. resistance temperature detectors and thermistors.
+## CLOSED LOOP CONTROL
+Appreciate the characteristics and limitations of basic closed loop control strategies.
+- Identify and describe the limitations of closed loop control. Describe the lags primarily responsible for process dynamics.
+- Describe the two position (On/Off) closed loop control and assess its effectiveness as a control strategy.
+- Explain the proportional control strategy and identify its limitations.
+- Define integral and derivative control strategies and describe how these strategies are able to improve closed loop control.
+- Investigate proportional, integral and derivative control and appreciate the advantages and limitations of each mode of control.
+Effective as of Fall 2016
+## Related Programs
+Process Measurements and Control (ELEX 2830) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Chemical and Environmental Engineering Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

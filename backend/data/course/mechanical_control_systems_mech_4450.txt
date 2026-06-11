@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mechanical-control-systems-mech-4450/
+Title: Mechanical Control Systems MECH 4450
+Type: Course
+Course Code: MECH 4450
+
+================================================================================
+
+## Mechanical Control Systems MECH 4450
+Mechanical Engineering Course
+## Course Overview
+Presents descriptions of components in a programmable logic controller (PLC). Create ladder logic diagrams and use high-level softwares for programming a PLC. Selection of hardware components such as encoders, proximity sensors and actuators. Study of DC motor characteristics and load requirements. Compares open and closed loop systems.
+### Prerequisite(s)
+- 50% in ELEX 2845
+### Credits
+2.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the essential components of an industrial control system. [2]
+- List the most common types of controllers used in industry. [2]
+- Read industrial control schematics and ladder logic diagrams. [3, 5]
+- Program a PLC, using software contacts, coils, timers and counters to solve machine control problems. [2, 3, 5]
+- Explain the difference between analog and digital signals. [2]
+- Describe the operation and list typical applications of operational amplifiers. [2]
+- Describe the operation of a closed loop position servo mechanism. [2]
+- Describe the feedback sensors often used in mechanical controls applications. [2, 3]
+- Describe the proportional, integral and derivative control modes and their influence on control signals. [2, 3, 5]
+- Discuss the operation and performance characteristics of DC and stepper motors. [2]
+Effective as of Fall 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

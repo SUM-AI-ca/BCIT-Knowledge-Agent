@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/java-databases-comp-4620/
+Title: Java Databases COMP 4620
+Type: Course
+Course Code: COMP 4620
+
+================================================================================
+
+## Java Databases COMP 4620
+Computer Systems Course
+## Course Overview
+This course is designed to provide students with a practical understanding of the dynamic delivery of database content using Java. One of the main goals of this course is to show the students how databases can be used in the Java enterprise environment. Topics include basic and advanced JDBC, transactions, concurrency control, multi-tier architecture, Object Relational Mapping (ORM) with an overview of the Hibernate framework. Also discussed are: n-tier architecture with JEE. Students will learn to design and program Java database solutions for common business problems.
+### Prerequisite(s)
+- 50% in COMP 3621
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, students will be able to:
+- Describe the JDBC architecture and API.
+- Develop an n-tier Java database application.
+- Apply advanced features of JDBC such as callable statements to create and use stored procedures in n-tire Java applications.
+- Understand transactions and concurrency control. Perform Commit/rollback transactions along with use of save points in JDBC applications.
+- Understand different DBMS isolation levels and their applications.
+- Apply n-tier architecture patterns to database application development .
+- Understand the role of JDBC in the JEE architecture.
+- Understand Object Relational Mapping (ORM) with an overview of Hibernate - Mapping Java objects to database tables and vice versa.
+Effective as of Winter 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

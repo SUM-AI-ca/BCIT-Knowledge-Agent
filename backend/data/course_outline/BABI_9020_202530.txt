@@ -1,36 +1,39 @@
 URL: https://www.bcit.ca/outlines/20253043173/
 Course: BABI 9020
 Field: Utilizing Data Structures for Business Analytics
-
-School: School of Business + Media
-Program: Graduate Certificate in Business Analytics
-Course Credits: 3
-Minimum Passing Grade: 60%
-Start Date: October 30, 2025
-End Date: December 12, 2025
-Total Hours*: 21
-Total Weeks: 7
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Zero Textbook Cost: Yes
-Prerequisite(s): BABI 9010
+Subject: Business Analytics & Business Intelligence
+Term: 202530
 CRN: 43173
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## BABI 9020
+## Utilizing Data Structures for Business Analytics
+School | School of Business + Media
+Program | Graduate Certificate in Business Analytics
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | October 30, 2025
+End Date | December 12, 2025
+Total Hours* | 21
+Total Weeks | 7
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | BABI 9010
+CRN | 43173
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Jeff Sawers
-E-mail: jeff_sawers@bcit.ca
-Location: Burnaby Campus SE06 - 360
-Office Hours: In our first class together, I will work with you to setup some options for virtual office hours. Will most likely be a one hour evening drop in session once per week online. I have an office on the Burnaby Campus if you want to schedule something in person.
-
-## Course Description
+### Instructor Details
+Name | Jeff Sawers
+E-mail | jeff_sawers@bcit.ca
+Location | Burnaby Campus SE06 - 360
+Office Hours | In our first class together, I will work with you to setup some options for virtual office hours. Will most likely be a one hour evening drop in session once per week online. I have an office on the Burnaby Campus if you want to schedule something in person.
+### Course Description
 Insight without relevance is meaningless in Business Analytics. Relevance comes from a deep understanding of the data and the methods used to store and access it. This course enables students to perform complex tasks associated with data in the business environment, from storage to access. Using current Business Analytics database technologies, students will explore the different storage systems and constructs, the use of analytics structures to define data cubes, and the tools used to perform ETL (Extract, Transform, Load) operations on existing datasets to support Business Analytics. An integral part of the course will be a project in which students will build and demonstrate a fully integrated analytical model—from entering data into an existing Relational Database Management System (RDBMS) and using ETL tools to get relevant data into the analytical database (cube), to running analytical queries on the cube to provide meaningful insight into the data.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of the course, the student will be able to:
-
 - Explain how analytical models are designed using the star schema.
 - Create and populate an analytics model using ETL tools to move data between systems.
 - Design a cube to store analytical data.
@@ -38,60 +41,45 @@ Upon successful completion of the course, the student will be able to:
 - Select and guide the development of databases and data sources to meet different business needs within the framework of data governance and ethical business standards.
 - Generate key metrics and indicators based on an analysis of available data.
 - Plan and manage the database systems needed to execute a business analytics project.
-
-## Learning Resources
+### Learning Resources
 Refer to the program requirements for the resources you will need in this class. I highly recommend a windows based laptop with enough capability to install and utilize SQL Server and PowerBI. Past students have struggled to use Mac and other devices and you will be on your own to support your technology.
-
 There is no additional textbook, software, or material you will be required to purchase as we will use Open Text BC and other open source reference materials.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Professionalism and Participatation: 10%: Individual Assesment on a weekly basis
-Case Studies x3: 30%: Combination of both individual and group assignments throughout the course modules
-Group Project: 35%: Individual and Group Components
-Final Exam: 25%: Individual Comprehensive Assessment at end of course
-
-## Course Schedule and Assignments
-Week 1 (Module 1): Overview of Data and Databases
-Week 2 (Module 2): Unstructured Data + Business Questions / Metrics
-Week 3 (Module 3): Structured Data + Querying with SQL
-Week 4 (Module 4): Data Architecture: Source System OLTP Models
-Week 5 (Module 5): Data Architecture: Analytical OLAP Models (ETL)
-Week 6 (Module 6): Project Presentations
-Week 7 (Exam): Exam
-
-## BCIT Policy
+### Evaluation Criteria
+Criteria | % | Comments
+Professionalism and Participatation | 10% | Individual Assesment on a weekly basis
+Case Studies x3 | 30% | Combination of both individual and group assignments throughout the course modules
+Group Project | 35% | Individual and Group Components
+Final Exam | 25% | Individual Comprehensive Assessment at end of course
+### Course Schedule and Assignments
+Week 1 (Module 1) | Overview of Data and Databases
+Week 2 (Module 2) | Unstructured Data + Business Questions / Metrics
+Week 3 (Module 3) | Structured Data + Querying with SQL
+Week 4 (Module 4) | Data Architecture: Source System OLTP Models
+Week 5 (Module 5) | Data Architecture: Analytical OLAP Models (ETL)
+Week 6 (Module 6) | Project Presentations
+Week 7 (Exam) | Exam
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Business + Media
-Attendance: As set out in BCIT Policy 5101 Student Regulations, regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate. For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines. Academic Integrity and Use of Artificial Intelligence: The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
-
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
 - A written warning;
 - Required resubmission of the work in question for equal or lower grade value;
 - A lower grade on the work submitted (i.e. a penalty applied);
 - A failing grade on the work submitted; or
 - An academic misconduct letter being placed on the student’s record.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Jeff Sawers, Instructor July 16, 2025
-
 I verify that this course outline has been reviewed. Leslie Major, Program Head July 17, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Phil Ramer, Associate Dean July 17, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

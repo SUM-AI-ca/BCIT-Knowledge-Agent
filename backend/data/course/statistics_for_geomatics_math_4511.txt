@@ -1,0 +1,52 @@
+URL: https://www.bcit.ca/courses/statistics-for-geomatics-math-4511/
+Title: Statistics for Geomatics MATH 4511
+Type: Course
+Course Code: MATH 4511
+
+================================================================================
+
+## Statistics for Geomatics MATH 4511
+Mathematics Course
+## Course Overview
+Data organization, estimation, hypothesis testing, propagation of measurement error, error ellipses and bivariate normally distributed data as used in least squares adjustments.
+### Prerequisite(s)
+- 50% in MATH 3511
+- MATH 3511 .
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Produce histograms and frequency polygons from raw, observed survey data.
+- Calculate the mean and median of a data set.
+- Compute the variance and standard deviation of samples of survey measurement.
+- Use Chebyshev's theorem to illustrate the relationship between the spread of the data and the standard deviation of the data.
+- Calculate the weighted mean of a data set.
+- Define the basic laws of probability.
+- Connect probability to the randomness of error in measurement.
+- Define discrete probability distributions, their means and variances.
+- Employ the definition of discrete probability distribution functions to define the binomial distribution.
+- Define continuous probability functions, their means and variances.
+- Link the definitions of pdfs to well-defined pdfs such as the normal, student's-t, chi-square and F-distributions.
+- Use the normal distribution to determine probabilities of observing defined ranges of measurement in survey projects.
+- Define, intuitively, the Central Limit Theorem.
+- Use the Central Limit Theorem and knowledge of the normal distribution to develop the ideas of confidence interval estimation.
+- Estimate confidence intervals for the mean of large and small samples.
+- Apply confidence interval estimation to engineering and cadastral surveys and the analysis of error in least-square adjustment problems.
+- Calculate confidence intervals for variances and standard deviations.
+- Apply variance interval estimation to EDM measurements.
+- Set up various hypotheses tests.
+- Recognize type I and type II errors.
+- Use hypothesis testing in analyzing the outcomes of least square adjustment problems such as determining if the variance factor is satisfactory.
+- Investigate error propagation in survey calculations.
+- Calculate propagated in geometric studies such as in triangulation problems.
+- Apply error propagation to determine the statistical error in a traverse.
+- Use error propagation as an assist to preliminary investigation in survey design given final design parameters.
+- Calculate the principal parameters of bivariate data: the correlation coefficient and covariance.
+- Relate adjustment of observations, variance-covariance matrices and correlation.
+- Test the correlation coefficient for significance.
+- Relate the ellipse of error to the bivariate normal distribution.
+- Link covariance matrices with the ellipse of error.
+- Use the ellipse of error in analysis of adjustment problems.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

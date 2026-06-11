@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/introduction-to-database-methods-surv-4478/
+Title: Introduction to Database Methods SURV 4478
+Type: Course
+Course Code: SURV 4478
+
+================================================================================
+
+## Introduction to Database Methods SURV 4478
+Surveying Course
+## Course Overview
+This course builds on the concepts and theory presented in SURV 3372 and introduces fundamental elements of database systems and architecture. Various data structures are introduced with specific focus on relational database management systems.
+### Prerequisite(s)
+- 50% in SURV 3372
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Understand database system terminology and architecture.
+- Understand how data are stored and accessed in database systems, including the advantages and disadvantages of various database access methods.
+- Identify the differences among simple data structures; and understand the uses of data definition and data manipulation languages.
+- Understand the advantages and disadvantages of different types of databases.
+- Understand the methodologies for designing efficient relational databases with security provisions.
+- Exchange data with other applications; and understand integrity constraints in relational database system.
+- Use commercial database applications, such as Microsoft Access; understand the differences between the Microsoft Access and the Microsoft Excel database packages.
+- Identify what constitutes a Database Management System (DBMS); analyze requirements for multipurpose cadastre in relation to relational database systems.
+- Design and implement a relational database for small-scale spatial data inventory.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

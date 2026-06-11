@@ -1,132 +1,106 @@
 URL: https://www.bcit.ca/outlines/20251086472/
 Course: INST 3128
 Field: Boiler Control and Foundation Fieldbus
-
-School: School of Energy
-Program: Industrial Instrumentation and Process Control Technician
-Course Credits: 6
-Minimum Passing Grade: 70%
-Start Date: January 06, 2025
-End Date: April 17, 2025
-Total Hours*: 90
-Total Weeks: 15
-Hours/Weeks: 6
-Delivery Type: Lecture/Lab
-Prerequisite(s): Successful completion of term 3 courses
+Subject: Industrial Inst/ProcessControl
+Term: 202510
 CRN: 86472
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## INST 3128
+## Boiler Control and Foundation Fieldbus
+School | School of Energy
+Program | Industrial Instrumentation and Process Control Technician
+Course Credits | 6
+Minimum Passing Grade | 70%
+Start Date | January 06, 2025
+End Date | April 17, 2025
+Total Hours* | 90
+Total Weeks | 15
+Hours/Weeks | 6
+Delivery Type | Lecture/Lab
+Prerequisite(s) | Successful completion of term 3 courses
+CRN | 86472
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Jodie Vigar
-E-mail: jvigar@bcit.ca
-Location: SE8-127
-Office Hours: Refer to schedule posted on the course Learning Hub.
-
-## Course Description
+### Instructor Details
+Name | Jodie Vigar
+E-mail | jvigar@bcit.ca
+Location | SE8-127
+Office Hours | Refer to schedule posted on the course Learning Hub.
+### Course Description
 Students will learn the fundamentals of industrial boiler control, including burner management safety. Students will gain experience tuning up a real industrial boiler control system with state of the art controls to achieve optimum performance from the boiler. Students will gain hands-on experience with a Foundation Fieldbus control system applied to a wide variety of control loops on a running boiler.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion, the student will be able to:
-
-## Safety
+### Safety
 - Demonstrate safe working practices in the lab.
-
-## Combustion Control
+### Combustion Control
 - Explain the fundamental elements of combustion, Stoichiometric combustion and the importance of the 3 Ts of combustion (time, temperature and turbulence) applied to combustion control.
 - Explain the importance, sources and methods of control of CO/NOX/SOX when applied to industrial combustion control.
 - Explain the application and operation of flue gas analyzers such as chemical cell, high temperature chemical cell (zirconium oxide), catalytic combustion, paramagnetic etc. applied to industrial boilers.
 - Calibrate a microprocessor based O2/COe analyzer applied to industrial boiler control.
-
-## Industrial Boilers
+### Industrial Boilers
 - Explain the difference between the fire tube and a water tube industrial boiler.
 - Explain the steam components found in an industrial boiler system such as steam drum, mud drum, risers, down comers, de-aerators and the combustion components such as FD fan, ID fan, burner, nozzles, airflow transmitters, gas flow transmitters, gas flow transducers, oil flow transmitters.
 - Explain the operation of a Burner Management System (BMS) to conform to ASME, NFPA and BC Safety Authority, industrial gas standards including the operation of primary interlocks and permissive such as low water cut offs, high fuel pressure cut offs, low fuel pressure cut offs, high furnace pressure cut offs, low furnace pressure cut offs, minimum air flow cut offs, low oxygen cut offs, high CO cut offs.
-
-## Industrial Boiler Control Systems
+### Industrial Boiler Control Systems
 - Explain the operation of a parallel open/closed loop, jackshaft and cross limited including excess oxygen trim combustion control systems.
 - Explain the difference between plant master and boiler master controls.
 - Explain the application of feedforward control indexing to the plant master pressure controller.
 - Explain the operation of steam temperature attemporator and conventional desuperheater control.
 - Explain the operation of balanced draft furnace pressure control using FD and ID fans.
-
-## Foundation Fieldbus Systems
+### Foundation Fieldbus Systems
 - Explain the fundamental principles of Foundation Fieldbus control compared to conventional analog or DCS control.
 - Troubleshoot control loops in a Foundation Fieldbus control system.
 - Tune an industrial boiler control system applying a hybrid DCS and Foundation Fieldbus control system.
 - Optimize industrial boiler control systems to achieve maximum efficiency and performance under significant load changes.
-
-## Gas Analyzers
+### Gas Analyzers
 - Explain the operation and application of gas analyzers such as NOX, SO2, H2S, CO and LEL (lower explosive limit) analyzers.
-
-## Learning Resources
+### Learning Resources
 Required:
-
 Course lecture and lab manuals, and other handouts provided in class
-
 Computer and internet to access course information, material, assignments, quizzes in BCIT Learning Hub
-
 Optional:
-
 Instrument Engineers Handbook, Process Control, 3rd Edition, by Bela G. Liptak (available in BCIT library and in lab)
-
-## Evaluation Criteria
-Criteria: %: Comments
-Quizzes: 5
-Weekly Tests: 30: Weight divided by number of tests
-Course Exam: 30
-Lab Activities: 25
-Participation/Attendance: 10: Participation is based on initiative, attitude, workmanship, and effective communication in classes and labs.
-
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 5
+Weekly Tests | 30 | Weight divided by number of tests
+Course Exam | 30
+Lab Activities | 25
+Participation/Attendance | 10 | Participation is based on initiative, attitude, workmanship, and effective communication in classes and labs.
 Course passing grade is 70%
-
-## Attendance Requirements
+### Attendance Requirements
 Required as per BCIT policy 5101: Student Regulations
-
 Attendance less than 90% of course time may result in course failure.
-
 No make-up tests, exams, or quizzes will be given without documented medical reasons or extenuating circumstances.
-
-## Course Specific Requirements
+### Course Specific Requirements
 Laptop / Tablet
-
 It is recommended that students have a laptop, tablet, or smart phone with a large display with them during lectures.
-
-## Safety equipment or protective clothing
+### Safety equipment or protective clothing
 Students must wear personal protective equipment during labs in the steam plant including CSA approved protective footwear and safety glasses.
-
-## Course Schedule and Assignments
-17-Mar: INST3128 Test 1
-24-Mar: INST3128 Test 2
-31-Mar: INST3128 Exam
-
+### Course Schedule and Assignments
+17-Mar | INST3128 Test 1
+24-Mar | INST3128 Test 2
+31-Mar | INST3128 Exam
 See course Learning Hub for full daily schedule.
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Jodie Vigar, Instructor January 10, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Sanja Boskovic, Associate Dean January 13, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/analytical-instruments-and-control-inst-3106/
+Title: Analytical Instruments and Control INST 3106
+Type: Course
+Course Code: INST 3106
+
+================================================================================
+
+## Analytical Instruments and Control INST 3106
+Industrial Inst/ProcessControl Course
+## Course Overview
+Students will be trained in the fundamentals and calibration of transmitters used for analytical measurement such as pH, conductivity, ORP and dissolved oxygen. Students will gain experience tuning DCS control systems using advanced control strategies to operate a chemical process to control variables such as pH and electrolytic conductivity.
+### Prerequisite(s)
+- Successful completion of term 3 courses
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Analytical Measurement and Control
+- Explain the complexity of the control of the pH measurement in industrial processes.
+- Explain various pH measurement components such as glass, reference, temperature compensation electrodes and transmitters.
+- Calibrate various pH transmitters complete with their associated electrodes.
+- Explain the difference between absolute and relative electrolytic conductivity measurement.
+- Calibrate various conductivity transmitters and their associated electrodes to include contacting and non-contacting systems.
+- Explain oxidation reduction potential (ORP) measurement and applications such as cyanide destruction, hexavalent chromium destruction, sewage treatment and pulp bleaching.
+- Calibrate dissolved oxygen and turbidity meters including the transmitters and the sensors.
+- Develop a graph from the titration of a chemical reaction to determine the breakpoints and tuning parameters for a non-linear adaptive gain control system.
+- Using the Foxboro I/A DCS system, operate and tune a chemical control process to include loops such as temperature, level, flow, pH (non-linear adaptive gain and feedforward indexed loops etc.), conductivity and dissolved oxygen.
+Effective as of Winter 2018
+## Related Programs
+Analytical Instruments and Control (INST 3106) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

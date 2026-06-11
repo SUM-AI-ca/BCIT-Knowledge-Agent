@@ -1,0 +1,76 @@
+URL: https://www.bcit.ca/courses/c-for-embedded-systems-elex-4315/
+Title: C++ for Embedded Systems ELEX 4315
+Type: Course
+Course Code: ELEX 4315
+
+================================================================================
+
+## C++ for Embedded Systems ELEX 4315
+Electrical and Computer Engineering Course
+## Course Overview
+Using networked embedded PC modules as the vehicle, this course introduces students to object-oriented programming with C++, data acquisition and signal conditioning, TCP/IP network programming, and web-based user interface design.
+### Prerequisite(s)
+- ELEX 3120 and ELEX 3305 and ELEX 3318
+### Credits
+7.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+## PROGRAMMING IN C AND C++
+Design, code, and test C++ programs of moderate complexity.
+- Implement dynamic data structures, e.g., linked lists and queues, in C using the enum and struct data types and the functions malloc (), calloc (), and free ().
+- List at least three advantages of the object-oriented approach to software design.
+- Describe and demonstrate the implementation and operation of:
+- State the meaning and describe the use of the C++ keywords private, public, and protected.
+- Describe the operation of constructor and destructor functions in C++.
+- Describe and demonstrate the use of the this pointer.
+- Explain and demonstrate the use of base class and member initializer lists in constructor functions.
+- Use the C++ new and delete operators to allocate and free memory for dynamic objects.
+- Describe and use the basic principles of hierarchy and inheritance in object-oriented programming.
+- Describe and demonstrate the relationship between base and derived class objects in terms of access to public, private, and protected members.
+- Describe and demonstrate the use of pointers to obtain access to members of base class and derived class objects in C++.
+- Describe and demonstrate the use of virtual functions in C++.
+- Use the concept of composition (the inclusion of objects of existing classes as member data in higher-level classes) in object-oriented design.
+## TRANSDUCERS AND SIGNAL CONDITIONING
+Design appropriate signal conditioning amplifier and anti-aliasing filters for a given application.
+- Determine the requirements for the interface between a given transducer and measurement system.
+- Derive the system equation, transducer equation, and signal-conditioning amplifier equation for a given transducer and measurement system.
+- Design, build, and calibrate an appropriate signal-conditioning amplifier to interface a given transducer and measurement system, taking into account transducer loading error and gain-bias interaction.
+- Define the following characteristics of real op-amps and describe their effect on signal-conditioning amplifier design:
+- Offset voltage;
+- Bias current and offset current;
+- Drift
+- Common-mode rejection ratio
+- Power-supply rejection ratio
+- Bandwidth
+- Slew rate
+- Design precision voltage references based on Zener diodes and integrated circuit references.
+- Design two- and three-op-amp instrumentation amplifiers and describe their characteristics.
+- State the Nyquist sampling theorem. Define aliasing, and describe its effect in a sampled-data system. Select or design an anti-aliasing filter appropriate to a given system.
+## NETWORKING WITH TRANSMISSION CONTROL PROTOCOL/INTERNET PROTOCOL (TCP/IP)
+Design a simple TCP/IP application using a standard socket library.
+- Define the Internet Reference Model and its relationship to the ISO-OSI seven-layer model.
+- Describe the IP addressing scheme.
+- Translate IP addresses from binary to dotted-decimal notation and vice versa.
+- Determine the network class of a given IP address.
+- Describe the purpose and use of special IP addresses.
+- This network address
+- This host address
+- Loopback address
+- Broadcast addresses
+- Non-routable addresses
+- Differentiate between IP and TCP/UDP (User Datagram Protocol) with reference to the concept of encapsulation.
+- Describe the purpose of a network router.
+- Describe the purpose of each of the following TCP/IP applications.
+- File Transfer Protocol (FTP);
+- Telnet;
+- Hypertext Transfer Protocol (HTTP).
+- Define the terms 'port' and 'socket' in the context of TCP/IP networking.
+- Implement a simple telnet interface to an embedded control system.
+## USER INTERFACE DESIGN
+Implement a graphical user interface to an embedded control/data acquisition system by means of HTML web pages.
+- Describe the basic architecture of a web browser and the interaction between browser (client) and server under Hypertext Transport Protocol (HTTP).
+- Use Hypertext Markup Language (HTML) to construct simple web pages including: headings, text, images, lists, and links to other pages.
+- Use HTML forms to implement standard graphical user interface (GUI) selection techniques, e.g. buttons, radio buttons, and check boxes.
+- Use HTML methods (GET and POST) to transfer files between client and server.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

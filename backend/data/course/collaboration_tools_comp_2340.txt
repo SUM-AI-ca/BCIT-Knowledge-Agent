@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/collaboration-tools-comp-2340/
+Title: Collaboration Tools COMP 2340
+Type: Course
+Course Code: COMP 2340
+
+================================================================================
+
+## Collaboration Tools COMP 2340
+Computer Systems Course
+## Course Overview
+​This course introduces students to collaboration tools, project-management tools, and team-management tools such as version control for both computer source code as well as digital media assets. Students learn how to install, configure, and utilize a Version Control System (VCS) such as Git, how to create, manage, and remove forks and branches, and how to successfully perform pull requests. Other topics include digital signing of commits, and analyzing project history. Communication tools will also be learned and used, including such tools as Slack, Trello, GitHub, Basecamp, or MSProject.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe how to work effectively within a collaborative environment.
+- Install, configure, and use a Version Control System (VCS).
+- Use a VCS (such as Git) at the terminal/console level to manage versions and components of an application.
+- Use forking existing projects, creating master, development, and feature branches.
+- Demonstrate industry standard workflow (e.g., Gitflow) for a team VCS.
+- Manage repository in a shared collaborative setting.
+- Integrate between the team repository and other collaborative tools (project planning, message board, etc.)
+- Use peer review techniques with a team VCS.
+- Configure and utilize encrypted authentication for commits and pull requests.
+- Analyze and determine successful VCS usage for both individual and group projects that are controlled by a VCS.
+- Construct effective chunking of both media assets as well as computer code and provide intuitive naming conventions for all digital assets.
+- Resolve merge conflicts when using a VCS.
+- Use communication and teamwork tools effectively.
+Effective as of Winter 2020
+## Related Programs
+Collaboration Tools (COMP 2340) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

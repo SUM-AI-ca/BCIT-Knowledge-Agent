@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20261077118/
+Course: ELEX 7620
+Field: Signal Processing and Filters
+Subject: Electrical and Computer Engineering
+Term: 202610
+CRN: 77118
+
+================================================================================
+
+## Course Outline
+## ELEX 7620
+## Signal Processing and Filters
+School | School of Energy
+Program | Electrical Engineering
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture
+Zero Textbook Cost | Yes
+Prerequisite(s) | ELEX 3210 and ELEX 7610 and MATH 4620
+CRN | 77118
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Chris Siu
+E-mail | Christopher_Siu@bcit.ca
+Location | SW2-360
+Office Hours | Office Hours are as posted on the office door
+### Course Description
+This course covers important topics in continuous-time signal processing and discrete-time signal processing. It includes a general treatment of analog filter types, and the transfer functions for various classical filter types. Transformations from normalized low-pass to high-pass, band-pass, band-reject are covered. Various circuits to realize the resulting transfer functions are analyzed and implemented in the laboratory. Fourier Series and the various related transformations are covered. Spectrum representation of digitized waveforms is examined. Sampling and aliasing are examined, followed by an introduction to basic analysis and design strategies for finite impulse response (FIR) filters. The Z transform is developed, followed by an examination of recursive digital filters. Various s-plane to z-plane transformations are presented, and design techniques for recursive digital filters are covered.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Discuss advantages and disadvantages of analog signal processing as compared with Digital Signal Processing (DSP) [1]
+- Identify the characteristics of various classical filters, including passband response and group delay [1]
+- Design, build, and test analog implementations of Butterworth and other filters [2,4,5]
+- Apply frequency scaling and mapping for the design of high pass and band pass filters [4]
+- Describe and analyze the effects of sampling and quantization [3]
+- Discuss anti-aliasing and reconstruction filters for discrete time systems [1]
+- Use the z-transform to study discrete time signals and systems. Describe the relationship between z-transform and Laplace transform [1,2]
+- Design, implement, and test low pass, high pass, and band pass FIR filters using various windows [2,3,4,5]
+- Design, implement, and test IIR filters using various s-plane to z-plane mapping techniques [2,3,4,5]
+- Analyze discrete time signals with the Discrete Fourier Transform (DFT). Describe the idea behind the Fast Fourier Transform (FFT) algorithm [1,2]
+- Demonstrate proficiency with design software such as MATLAB for designing filter systems [4,5]
+### Learning Resources
+Recommended Textbook: Engineering Signals and Systems by F. Ulaby and A. Yagle, University of Michigan Press
+Free download https://ss2-2e.eecs.umich.edu/
+Mandatory lab purchases (which you ought to have from prior courses)
+- Parts kit from ELEX3120
+### Evaluation Criteria
+Criteria | % | Comments
+Labs | 25
+Quizzes | 15
+Midterm Exam | 20
+Final Exam | 40
+The minimum passing grade is 50%. Successful completion of both the lab component and the theory component of this course is required for a passing grade. Section 3.4 of BCIT policy 5103‐PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade, a failing grade of U (unsatisfactory) is awarded.
+### Attendance Requirements
+Laboratories :
+Participation in all laboratory sessions is required. If an illness or emergency arises, the lab instructor must be contacted prior to the start of the lab session, otherwise a mark of zero is assigned for that session. If the absences is recurring, BCIT policies regarding medical certificates will apply. ( https://www.bcit.ca/files/healthservices/pdf/studentmedicalcertificate.pdf )
+Makeup Test, Exams or Quizzes :
+There will be no makeup tests, exams or quizzes. If you miss a test, exam or quiz, you will receive zero marks. Exceptions may be made for extenuating circumstances or for medical reasons documented by a BCIT Student Medical Certificate (BCIT Policy 5101). In such a case, it is the responsibility of the student to inform the course instructor immediately.
+### Course Schedule and Assignments
+Week | Topic
+1 | Continuous time signals - analysis techniques
+2 | Analog filter terminologies and transformations
+3 | Analog filter implementation
+4 | The sampling theorem; z-transform
+5 | Difference equations and transfer functions
+6 | Introduction to Finite Impulse Response (FIR) filters
+7 | FIR filter design by windowing
+8 | Introduction to Infinite Impulse Response (IIR) filters
+9 | IIR filter design techniques
+Spring Break
+10 | Discrete Fourier Transform (DFT)
+11 | Fast Fourier Transform (FFT)
+12 | Quantization
+13 | Multirate signal processing
+14 | Course review
+15 | Final exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Chris Siu, Instructor December 29, 2025
+I verify that this course outline has been reviewed. Victor Mendez, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology January 02, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

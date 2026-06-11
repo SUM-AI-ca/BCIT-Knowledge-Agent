@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/web-development-3-comp-3130/
+Title: Web Development 3 COMP 3130
+Type: Course
+Course Code: COMP 3130
+
+================================================================================
+
+## Web Development 3 COMP 3130
+Computer Systems Course
+## Course Overview
+​This course continues from Web Development 2 and introduces the students to server-side programming and database connectivity with a relational database. Students learn how to generate dynamic content from a server, connect & store data in a relational database, and send data from all three tiers of a web application. Topics include SQL, session handling & authentication, and sending/receiving data. (3 credits, 36 hours).
+### Prerequisite(s)
+- COMP 2130
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Create Server Side scripts that connect to a relational database such as MySQL.
+- Understand how basic data structures work and how to convert to and from JSON.
+- Differentiate between various different iterative and conditional control constructs.
+- Generate HTML from the server.
+- Utilize asynchronous error handling in order to prevent application errors.
+- Construct server-side scripts that create and destroy sessions.
+- Utilize JavaScript's session storage API for storing sessions.
+- Construct both client-side JavaScript code as well as server-side code and demonstrate successful sending and receiving of data over HTTP.
+- Understand how relational databases persist data.
+- Construct relational database tables.
+- Differentiate between 1st, 2nd, and 3rd normal forms.
+- Perform the various different SQL queries in order to perform SCRUD.
+- Outline the different technologies used in a standard three-tiered web architecture.
+- Demonstrate debugging techniques in both the browser debugging tools as well as the server-side runtime.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/bootstrap-and-css-frameworks-mdia-3211/
+Title: Bootstrap and CSS Frameworks MDIA 3211
+Type: Course
+Course Code: MDIA 3211
+
+================================================================================
+
+## Bootstrap and CSS Frameworks MDIA 3211
+Media Communications Course
+## Course Overview
+This course uses Bootstrap as a powerful responsive framework to manually code dynamic mobile websites. Students will combine Bootstrap's mobile assets with HTML and CSS to develop custom mobile websites with content that resizes, repositions, collapses, and hides for optimal delivery on any device. Students will implement Bootstrap's responsive plugins, including Carousel Galleries, Accordions, Modals, and Popovers to increase site usability and interactivity, and create dynamic animated elements with Bootstrap's integrated CSS animations. To ensure optimized web delivery, this course explores custom Bootstrap exports, which minimize Bootstrap's file size and increase site performance. The course will be delivered through a series of video notes.
+### Prerequisite(s)
+- 50% in MDIA 1205 † ( † may be taken concurrently)
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Construct web sites using Bootstrap's Responsive Framework
+- Implement Bootstrap's responsive grid system
+- Create responsive images, text, and tables
+- Design content for Mobile Devices
+- Develop collapsible menu bars and dropdown menus
+- Redefine the Bootstrap framework with custom CSS stylesheets
+- Produce image Carousels for displaying slideshows
+- Implement Popovers, Modals, Accordions, and Tool Tips for displaying content
+- Demonstrate responsive forms and video
+- Increase usability with Breadcrumbs and Pagination
+- Apply CSS transform animations to page content
+- Customize and Optimize Bootstrap components for faster delivery
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

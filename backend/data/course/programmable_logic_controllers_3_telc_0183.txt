@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/programmable-logic-controllers-3-telc-0183/
+Title: Programmable Logic Controllers 3 TELC 0183
+Type: Course
+Course Code: TELC 0183
+
+================================================================================
+
+## Programmable Logic Controllers 3 TELC 0183
+Electrical Trades Course
+## Course Overview
+Continues to explore the power of the PLC by expanding on software (e.g. complex data types, math and data manipulation routines, logical comparison instructions, and programming a PanelView, Human Machine Interface touchscreen panel) and hardware (e.g. analog input signals from sensors and analog output signals to actuators - VFD speed reference and troubleshooting on a fault simulator) and communication (e.g. Industrial Ethernet: Ethernet and subnet addressing and producing and consuming tags over Ethernet).
+### Prerequisite(s)
+- S in TELC 0182 and TELC 0186
+### Credits
+0.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Test analog sensor inputs and PAC outputs for actuators.
+- Check calibration and test ultrasonic and Temposonic position transducers.
+- Tune a simple closed loop control system.
+- Apply User Defined Data types to ladder programs.
+- Determine Ethernet subnet and host addressing.
+- Build basic graphic screens for a Human Machine Interface.
+- Troubleshoot PLC systems.
+Effective as of Fall 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

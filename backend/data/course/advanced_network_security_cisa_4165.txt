@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/advanced-network-security-cisa-4165/
+Title: Advanced Network Security CISA 4165
+Type: Course
+Course Code: CISA 4165
+
+================================================================================
+
+## Advanced Network Security CISA 4165
+Computer Info Systems Admin Course
+## Course Overview
+​This course builds on students' previous knowledge of network security and explores security concepts with a focus on firewall configuration and intrusion prevention. Students will learn about specific types of security attacks, intrusion detection and prevention, and security policy creation. Students will explore how perimeter defences work and what steps can be taken to secure a system. Students will learn how to scan, test, and secure their own systems, including the use of VPNs to secure communications. Hands-on activities include extensive use of firewall appliances in a lab environment that will provide each student in-depth knowledge and practical experience with current essential security systems.
+### Prerequisite(s)
+- Successful completion of CISA Level 3 (NSA option) with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Categorize the major classes of network and operating system attacks and identify sniffers, man-in-the-middle attacks, and denial of service.
+- Describe, install, and configure a security appliance for basic network connectivity using the command line.
+- Explain, configure, and test intrusion prevention and intrusion detection on a security appliance.
+- Describe, configure and verify routing and switching on security appliances.
+- Describe, implement, and maintain Cisco ASA firewall Network Address Translations (NAT).
+- Describe, configure, and verify operation of the Adaptive Security Device Manager (ASDM) graphical interface for ASA appliances.
+- Configure security for Web servers.
+- Explain, configure, and verify Authentication, Authorization, & Accounting services for security appliances.
+- Describe, configure, and test examples of Modular Policy Framework (MPF) Layer 3 & 4 protocol inspection and application layer inspection policies.
+- Describe basic concepts in cryptography.
+- Describe, configure, and test secure connectivity using site-to-site and remote access VPNs.
+- Describe, configure, and test Access Control with Cisco Identity Services Engine (ISE) and Active Directory.
+- Configure and test ISE to manage administrative access for ASA.
+- Explain, configure, and verify high-availability features of Cisco ASA firewalls, including failover.
+- Monitor and manage installed security appliances.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

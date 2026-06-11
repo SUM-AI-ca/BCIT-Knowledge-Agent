@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/gis-applications-in-sustainable-resource-management-srmt-4420/
+Title: GIS Applications in Sustainable Resource Management SRMT 4420
+Type: Course
+Course Code: SRMT 4420
+
+================================================================================
+
+## GIS Applications in Sustainable Resource Management SRMT 4420
+Sustainable Resource Mgt Course
+## Course Overview
+The course introduces students to the skills necessary to query, analyze and present GIS compatible data. Digital themes will be created from a combination of field data, survey monument information, GPS data, geo-reference images, and existing SRM related data found in databases and other on-line sources. Students will then be shown how to link database information to map themes to automatically produce labels, and produce thematic maps based on attribute information. They will also use basic GIS tools such as Union, Clip and Intersect to create reports about a given location or feature. Other skills include creating buffers, topologically correct map polygons, TINs for landscape modeling and design purposes, and creating or update metadata information.
+### Prerequisite(s)
+- SRMT 4410
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Obtain map and database file information from BC Government Internet sites.
+- Obtain information about survey monuments from an Internet site.
+- Describe the contents of TRIM, BTM, and VRI files.
+- Convert coordinates from different map projections and datums.
+- Add new linework to a digital map using basic digitizing rules.
+- Create neatlines that include geographic, UTM, or Albers coordinates.
+- Create maps with title blocks and legends.
+- Create topologically correct digital map polygons.
+- Create attribute data for map polygons.
+- Join database and map attribute tables for spatial analysis.
+- Use topology tools to help analyze map themes.
+- Create buffers along map features.
+- Use basic GIS tools such as union, clip and intersect to create reports about polygon or block attributes.
+- Create a metadata file.
+- Create TINs (Triangular Irregular Networks) from field data, contour information, and DEM file information.
+- Use TINs to create profiles, and contour, slope, elevation, and aspect maps.
+Effective as of Winter 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

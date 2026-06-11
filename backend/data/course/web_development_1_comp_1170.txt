@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/web-development-1-comp-1170/
+Title: Fundamental Frontend Web Technologies COMP 1170
+Type: Course
+Course Code: COMP 1170
+
+================================================================================
+
+## Fundamental Frontend Web Technologies COMP 1170
+Computer Systems Course
+## Course Overview
+In this course, students are introduced to the basics of frontend web development. Students learn to use modern HTML and CSS to create modern web pages. This course is the foundation for subsequent web development courses.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Create web pages using a broad variety of HTML elements.
+- Assess and debug syntactic correctness of HTML and CSS.
+- Use HTML elements according to semantic principles when appropriate.
+- Read and write a broad range of CSS selectors including name, class, id, attribute, pseudo-class and pseudo- attribute selectors, as well as combinators, and multi-selector rulesets.
+- Utilize CSS conflict resolution and fallback, including specificity, cascade, and inheritance.
+- Use HTML inputs and forms to add interactivity to web pages.
+- Analyze errors and messages in a current web browser debugging tool such as Firefox or Chrome.
+- Utilize various CSS techniques to develop web pages that display well at all screen sizes.
+- Construct layouts of elements using a variety of techniques, including normal flow, floats, non-static positioning, and modern flow options such as flexbox. Use template-style technologies to .dynamically create and edit DOM nodes.
+Effective as of Fall 2022
+## Related Programs
+Fundamental Frontend Web Technologies (COMP 1170) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Digital Design and Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

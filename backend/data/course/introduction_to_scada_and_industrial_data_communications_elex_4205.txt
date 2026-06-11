@@ -1,0 +1,24 @@
+URL: https://www.bcit.ca/courses/introduction-to-scada-and-industrial-data-communications-elex-4205/
+Title: Introduction to SCADA and Industrial Data Communications ELEX 4205
+Type: Course
+Course Code: ELEX 4205
+
+================================================================================
+
+## Introduction to SCADA and Industrial Data Communications ELEX 4205
+Electrical and Computer Engineering Course
+## Course Overview
+This course provides a foundation in Supervisory, Control and Data Acquisition systems through four major topics: Industrial Data Communications, I/O Interfacing, Data Acquisition and Human-Machine Interfacing. The HCS12 microcontroller is used as a vehicle for learning the above topics.
+### Prerequisite(s)
+- ELEX 3120 and ELEX 3215 † and ELEX 3305 ( † may be taken concurrently)
+### Credits
+7.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Connect, configure and troubleshoot industrial data communication system interfaces and protocols used in Supervisory, Control and Data Acquisition (SCADA) and process control systems.
+- Analyze, design, construct and test digital I/O interfaces with an emphasis on understanding protection and isolation.
+- Specify and select an appropriate data acquisition system for use in a SCADA or process control system.
+- Program a human-to-machine interface for a SCADA or process control system.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

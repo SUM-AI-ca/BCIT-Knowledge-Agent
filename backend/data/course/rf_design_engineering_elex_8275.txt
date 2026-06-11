@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/rf-design-engineering-elex-8275/
+Title: RF Design Engineering ELEX 8275
+Type: Course
+Course Code: ELEX 8275
+
+================================================================================
+
+## RF Design Engineering ELEX 8275
+Electrical and Computer Engineering Course
+## Course Overview
+This course covers the design principles for high frequency circuits, at the component and circuit level, from HF through the lower microwave range. Topics include: passive component behaviour, impedance matching networks, two-port network parameters, passive lumped and distributed filter design; stability, gain and noise considerations in amplifier design; oscillator design; detector and mixer design; control circuits. Labs require students to design, simulate, build and test various circuits applying theoretic knowledge.
+### Prerequisite(s)
+- 50% in ELEX 7230
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+Introduction
+- Describe a generic transmitter and receiver and the RF and microwave circuit design process.
+Passive Component Basics
+- Analyze the behaviour of passive components at high frequency and compare it to the low
+frequency behaviour. Analyze and design microstrip transmission lines.
+RF Impedance Matching
+- Analyze and design some typical lumped and distributed matching networks. Evaluate their behaviour using a Smith chart.
+Filter Design
+- Design lumped-element passive low pass, high pass, band pass and band stop filters of any order with Butterworth and Chebyshev responses. Design low pass Butterworth and Chebyshev distributed filters for microstrip implementation.
+Two-Port Network Parameters
+- Derive and manipulate some of the standard network parameters, such as Z, Y, h, ABCD and S for two-port networks.
+Stability Considerations in Active Networks
+- Define conditions for stability in an active circuit and apply graphical and analytical methods to determine degree of stability.
+Gain Considerations in Amplifiers
+- Compute gain of amplifiers for the general and several special cases.
+Noise Considerations in Active Networks
+- Evaluate and predict performance of an active network in terms of noise temperature and noise figure for single and cascaded amplifiers.
+RF/Microwave Small Signal Amplifier Design
+- Analyze and design small signal amplifiers to meet certain requirement using a number of specific techniques.
+RF/Microwave Large Signal Amplifier Design
+- Analyze and design large signal amplifiers taking into account non-linear effects.
+RF/Microwave Oscillator Design
+- Analyze and design oscillators using different frequency tuning methods.
+Effective as of Fall 2006
+## Related Programs
+RF Design Engineering (ELEX 8275) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electronics Bachelor of Technology Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

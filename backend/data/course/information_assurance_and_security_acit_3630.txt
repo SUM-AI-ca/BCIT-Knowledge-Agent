@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/information-assurance-and-security-acit-3630/
+Title: Information Assurance and Security ACIT 3630
+Type: Course
+Course Code: ACIT 3630
+
+================================================================================
+
+## Information Assurance and Security ACIT 3630
+Computer Information Technology Course
+## Course Overview
+This course is designed to provide students with a practical understanding of basic security issues surrounding information systems and typical networks. Topics will include understanding basic exploits and identifying security vulnerabilities. Students will learn how to use available tools to secure systems on a LAN. Auditing, hacker identification, and log file analysis tools will be presented and demonstrated in the labs.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify basic threats to information assurance and security.
+- Describe different types of security practices.
+- Describe the purpose of firewalls and gateways.
+- Identify various types of possible network attacks.
+- Use logs to assess intruder detection.
+- Identify vulnerabilities in Windows and Linux operating systems.
+- Apply patches and updates to Windows and Linux.
+- Backup and recovery procedures.
+- Program system backup routines.
+- Configure encryption to protect data.
+- Use secure tunnels to send network packets.
+- Audit network users using various tools.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

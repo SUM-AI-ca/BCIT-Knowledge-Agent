@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/microsoft-sql-server-administration-comp-4677/
+Title: Microsoft SQL Server Administration COMP 4677
+Type: Course
+Course Code: COMP 4677
+
+================================================================================
+
+## Microsoft SQL Server Administration COMP 4677
+Computer Systems Course
+## Course Overview
+​Following on from COMP 1630 , students who already understand data modeling, relational database design and SQL are provided with an in-depth understanding of designing MS SQL Server 2016 databases. This hand-on course is SQL Server 2016 specific, so those who have taken MS SQL 2000/2005/2008/2012 will also benefit and be able to better plan migration to SQL Server 2016. Topics include: architecture, installing and configuring SQL Server, physical database design, creation, maintenance, security, and high availability solutions. Exercises and labs focus on creating, deploying, optimizing and maintaining enterprise SQL Server 2016 databases to help students obtain an understanding from a database administrator perspective. Successful participants will learn to install and configure SQL Server 2016, to plan and set policies for system access, end-users, back-ups, disaster recovery, and to troubleshoot and to manage database security.​ COMP 4677 has been replaced by COMP 3677 and COMP 3680 ​.​
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use MS SQL Server 2016 graphical and command line tools.
+- Install and Configure MS SQL Server 2016.
+- Enumerate MS SQL Server 2016 new features.
+- Explain physical database design considerations.
+- Create and perform backup and recovery strategies.
+- Use high availability and disaster recovery options in MS SQL Server.
+- Explain mirroring, log shipping, high availability groups and replication.
+- Create and manage databases, transaction logs and database snapshots.
+- Implement security for logins, databases and objects.
+- Explore performance tuning strategies.
+- Enumerate steps in troubleshooting database problems.
+Effective as of Fall 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

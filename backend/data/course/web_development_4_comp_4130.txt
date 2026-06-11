@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/web-development-4-comp-4130/
+Title: Web Development 4 COMP 4130
+Type: Course
+Course Code: COMP 4130
+
+================================================================================
+
+## Web Development 4 COMP 4130
+Computer Systems Course
+## Course Overview
+This course is the final level and concludes after Web Development 3. Students utilize all of their knowledge and experience from the previous three courses and place emphasis on designing reusable, easily maintainable code, hosting options, and discussions pertaining to defensible data storage strategies. Topics include design patterns, templating, object oriented programming (OOP), representational state transfer (REST), software-as-a-service (SaaS), and security.
+### Prerequisite(s)
+- COMP 3130
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Assess the pros and cons of SaaS
+- Demonstrate useful refactoring techniques in programming both client-side as well as server-side code
+- Analyze various software design patterns and how they apply to web development
+- Construct PHP classes that follow industry standards for OOP in PHP
+- Differentiate between various OOP scopes for variables as well as methods
+- Describe encapsulation in OOP
+- Compare different hosting choices such as shared, cloud, virtual private servers (VPSs), and dedicated
+- Compare different data persistence technologies such as relational databases, and document-oriented databases
+- Discern between various different security techniques such as encryption, detection, and prevention
+- Describe what content delivery networks (CDNs) do and how they are useful
+- Support search engine optimization (SEO) techniques during web application development
+- Construct web application code that follows REST techniques
+- Compare the different techniques for sending and receiving data such as JSON and HTML
+- Create SQL queries that require the joining of data from two or more database tables
+- Demonstrate useful PHP script and class loading techniques such as class loaders
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

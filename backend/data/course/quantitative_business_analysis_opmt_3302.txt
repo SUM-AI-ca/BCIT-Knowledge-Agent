@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/quantitative-business-analysis-opmt-3302/
+Title: Quantitative Business Analysis OPMT 3302
+Type: Course
+Course Code: OPMT 3302
+
+================================================================================
+
+## Quantitative Business Analysis OPMT 3302
+Operations Management Course
+## Course Overview
+This course provides students with an introduction to an area of management science that is sometimes called quantitative methods or operations research. The objective of this course is to have students develop an appreciation of the management science approach to problem formulation and solution that is now so important in today’s business and industrial sectors. The course focuses on quantitative approaches to decision making and introduces a variety of management sciences models, methods, and procedures. The major areas of study are linear programming (LP), simulation modeling, and forecasting.
+### Prerequisite(s)
+- OPMT 1110 and OPMT 1130
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+## Linear Programming
+- Use graphical solution procedures for LP problems with only two variables to understand how LP problems are solved.
+- Understand how to setup LP problems in a spreadsheet and solve them using Excel Solver.
+- Model a wide variety of LP problems: Understand major business application areas for LP problems such as manufacturing, marketing, labour scheduling, blending, transportation, and multi-period planning.
+- Formulate Integer Programming (IP) models; setup and solve IP problems using Excel Solver.
+## Monte Carlo Simulation
+- Explain the advantages and disadvantages of simulation.
+- Tackle a variety of problems using Monte Carlo simulation, such as NPV/IRR models, expected profit models, and models for operational decisions and policies.
+- Setup and solve simulation models using Excel’s standard functions.
+## Forecasting
+- Understand and know when to use various families of forecasting models (qualitative models versus time series models).
+- Understand and know when to use various families of forecasting models (qualitative models versus time series models).
+- Develop a simple linear regression trend model. Students will be exposed to seasonality models, but they will not be covered in depth.
+Effective as of Fall 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

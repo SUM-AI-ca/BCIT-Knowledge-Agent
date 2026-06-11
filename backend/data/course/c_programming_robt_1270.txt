@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/c-programming-robt-1270/
+Title: C Programming ROBT 1270
+Type: Course
+Course Code: ROBT 1270
+
+================================================================================
+
+## C Programming ROBT 1270
+Mechatronics and Robotics Course
+## Course Overview
+Mechatronic systems are controlled by computers that require programming. This course presents structured program development in C, the prevalent programming language for mechatronic systems. Topics include programming style, constants and variables, conditional logic, loops, arrays, strings, pointers, structures, file input and output, and bit manipulation. Algorithm development is an essential component of the course and will be emphasized in lab exercises by solving problems from relevant application areas.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Develop algorithms to solve mechatronic and engineering problems.
+- Develop well documented, efficient, modular programs for control of mechatronic devices.
+- Implement algorithms using variables, conditional logic, loops, file I/O, and functions.
+- Read, parse, and manipulate string data.
+- Read and save information in files.
+- Manage related data using arrays and structures.
+- Share and manipulate data using functions and pointers.
+- Read and modify data at the bit level to manipulate data with microcontrollers.
+Effective as of Winter 2012
+## Related Programs
+C Programming (ROBT 1270) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

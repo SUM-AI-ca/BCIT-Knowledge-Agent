@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/wireless-network-design-and-administration-comp-3661/
+Title: Wireless Network Design and Administration COMP 3661
+Type: Course
+Course Code: COMP 3661
+
+================================================================================
+
+## Wireless Network Design and Administration COMP 3661
+Computer Systems Course
+## Course Overview
+This fast track, six-week course follows on from COMP 3821 and is aimed that students who already understand LAN theory, data communication, large scale network design and TCP. Participants focus on a Network Administrators perspective to design and set-up wireless networking systems. Beginning with a study of wireless LAN hardware and software components, the focus is on wireless network planning, WAN Design models, installation and management. Topics include: radio frequency (RF) technologies, spread spectrum technologies, antenna concepts, 802.11x wireless regulations, standards and organizations, 802.11x protocols and devices, network architecture and implementation. Wireless LAN security, WEP, WPA, WPA2, TKIP, FSK implementation and troubleshooting will be discussed. Successful participants will be prepared to write the Certified Wireless Network Administration (CWNA), PW0-104 Exam which is part of the CWNP, Certified Wireless Network Professional series. These exams are available through third parties for additional fees. Students learn use tools to perform site surveys and implement a wireless network design in the lab.
+### Prerequisite(s)
+- COMP 3821
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful compleltion of this course, students will be able to:
+- Understand wireless standards, organisations and applications.
+- In depth understanding of Radio Frequency and Antenna fundamentals.
+- Spread spectrum technologies and its contribution to robust wireless networks.
+- IEEE 802.11x technologies and use of FSK, OFDM, ASK, PSK technologies.
+- Describe key sources of overhead on wireless LANs and how to increase throughput by the proper configuration and placement of wireless LANs.
+- Discuss the 1G, 2G, 2.5G, 3G, 4G mobile standards and the relative merits of the competing standards.
+- WLAN design models, topologies and infrastructure.
+- Describe common PoE device options, and explain the components of PoE devices that determine their compatibility.
+- Site surveying and network planning.
+- Infrastructure and client hardware and software.
+- Security concepts, vulnerability and describe the appropriate use and configuration of SSID, MAC, and protocol filters (WEP, WPA, WPA2).
+- Describe the causes of multipath fading, hidden nodes and near/far problems on a wireless LAN and how to troubleshoot for solutions.
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

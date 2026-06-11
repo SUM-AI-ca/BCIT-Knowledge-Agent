@@ -1,0 +1,61 @@
+URL: https://www.bcit.ca/courses/industrial-control-projects-and-cad-elex-4225/
+Title: Industrial Control Projects and CAD ELEX 4225
+Type: Course
+Course Code: ELEX 4225
+
+================================================================================
+
+## Industrial Control Projects and CAD ELEX 4225
+Electrical and Computer Engineering Course
+## Course Overview
+This course examines process control system design and documentation techniques including computer-aided design. Current ISA, SAMA and ASME symbologies are used in the preparation of control system documents such as process and instrument drawings, loop diagrams, functional diagrams and specification sheets. The role of these documents in the management of instrument projects is also examined and CAD systems are used for their preparation. Hazardous area classification and system design for hazard reduction and intrinsic safety are also examined. Project work involves all aspects of control system design from concept to evaluation.
+### Prerequisite(s)
+- 50% in CHSC 3342 and 50% in ELEX 4210 † and 50% in ELEX 4215 † and 50% in ELEX 4221 † ( † may be taken concurrently)
+### Credits
+4.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+## ADVANCED TOPICS IN VALVE SIZING
+Select a control valve for gas or vapor applications.
+- Define choked flow as it applies to control valves.
+- Describe the conditions under which choked flow occurs in gas and vapor flows.
+- Predict from calculations the pressure drops at which choked flow occurs in gas and vapor flow.
+- Calculate the required flow coefficient for a valve with and without reducers and expanders for gas and vapor flow.
+## COMPUTER AIDED DESIGN (CAD) FUNDAMENTALS
+Produce instrument engineering documents to industry standards using Computer Aided Design software.
+- List the differences between manual and CAD drafting techniques.
+- List advantages of CAD for production of engineering drawings.
+- List the hardware required for CAD systems.
+- Employ drafting standards in the production of engineering drawings.
+- Manipulate objects and text in CAD environment.
+- Position objects accurately using absolute and relative measurements.
+- Employ CAD productivity aids such as snaps, grids, symbols, etc.
+- Build and maintain a library of symbols for use in drawings.
+## SIGNAL SCALING
+Derive normalized working equations for computing functions, and implement the equations in hardware scaling blocks, configurable controllers, and distributed control systems.
+- Determine operating equation for computing devices from control system operating requirements.
+- Select signal ranges for calculated signals.
+- Produce working equation in normalized form for computing functions.
+## ELECTRICAL EQUIPMENT IN HAZARDOUS LOCATIONS
+Design instrument systems for use in locations where fire or explosion are hazards.
+- Classify hazardous areas for installation of electrical equipment.
+- Describe the conditions under which fire or explosion may occur.
+- List the agencies responsible for equipment certification for hazardous area installation.
+- Discuss classification criteria for hazardous areas.
+- Discuss differences in equipment requirements for installation in Division 1 & 2 areas.
+- Assess the relative merits of explosion-proof housings, purging, and intrinsic safety as methods of hazard reduction.
+- Discuss mechanism of hazard reduction in explosion-proof housings.
+- List factors in proper installation and maintenance of explosion-proof housings.
+- Discuss mechanisms of hazard reduction in intrinsically safe systems.
+- List factors in intrinsically safe system design and installation.
+- Select commercial barriers for use in intrinsically safe systems.
+- Describe differences in application of ISA type X, Y and Z purge systems.
+## INSTRUMENT SYSTEM DOCUMENTATION
+Design and document control systems for project proposal to final design.
+- Interpret instrument engineering documents such as engineering sketches, P&IDs loop diagrams, etc.
+- Produce engineering sketches and P&IDs using correct symbology.
+- Produce instrument functional diagrams of control systems.
+- Select and specify measurement and control hardware.
+- Produce instrument loop diagrams of control systems.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

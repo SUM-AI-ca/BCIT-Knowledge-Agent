@@ -1,0 +1,26 @@
+URL: https://www.bcit.ca/courses/java-and-xml-level-2-comp-4622/
+Title: Java and XML Level 2 COMP 4622
+Type: Course
+Course Code: COMP 4622
+
+================================================================================
+
+## Java and XML Level 2 COMP 4622
+Computer Systems Course
+## Course Overview
+* COMP 4622 and COMP 4621 together have been replaced by COMP 4625 . If you have completed COMP 4621 and require COMP 4622 please contact the department for a partial fee waiver into COMP 4625 *. This hands-on course follows on from COMP 4621 and covers several of the more specialized XML topics in Java development. Labs and assignments concentrate on using various XML technologies within Web services to create applications. Topics include: XSLT transformations using XPath, XHTML, XML within the context of web services, XQuery, and XML UI declarative languages. Successful participants will be able to create a GUI, produce XSLT style sheets, and use XHTML web pages with strict validation within web applications.
+### Prerequisite(s)
+- COMP 4621
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Demonstrate how to create queries using XQuery.
+- Construct XSLT style sheets for processing XHTML.
+- Construct XPath expressions for use within XSLT style sheet templates.
+- Construct XHTML web pages that conform to the W3C's strict DTD and that utilize liquid layouts.
+- Construct a declarative XML UI document to create a GUI.
+- Describe how XML technologies can be used within web applications.
+Effective as of Spring/Summer 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

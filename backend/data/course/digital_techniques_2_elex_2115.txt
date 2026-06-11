@@ -1,0 +1,96 @@
+URL: https://www.bcit.ca/courses/digital-techniques-2-elex-2115/
+Title: Digital Techniques 2 ELEX 2115
+Type: Course
+Course Code: ELEX 2115
+
+================================================================================
+
+## Digital Techniques 2 ELEX 2115
+Electrical and Computer Engineering Course
+## Course Overview
+Builds on the knowledge gained in ELEX 1115 . Specifically to study and analyze: the utilization of logic gates in complex combinatorial circuits; magnitude comparators; combinatorial arithmetic hardware; MUX/DMUX/Encoder/Decoder logic; sequential logic devices (Latches,D, J-K, and T flip-flops); asynchronous and synchronous counters; count decoders and display systems; shift registers; serial and parallel data manipulation circuits; electrical specifications from data books (noise margin, propagation delay and loading considerations); interfacing logic to discrete devices; parallel digital data multiplexing; and bus structures. Graphical and VHDL design/simulation software (utilizing ALTERA’S QUARTUS II and CircuitMaker 2000) development tools will be used in the laboratory. Hardware development/analysis tools will consist of a CPLD development board (Altera UP-2) a prototype board (with various DIP LSI/MSI ICs), a DMM and a Tektronix Digital Oscilloscope in the laboratory.
+### Prerequisite(s)
+- ELEX 1105 , ELEX 1115 , COMM 1143 , MATH 1431 , ELEX 2120 * (recommended to be taken concurrently).
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## DIGITAL WAVEFORMS LOGIC CIRCUIT TIMING and PLD introduction
+- Analyze and understand digital circuit functionality by waveform/ timing analysis and introduction to Programmable Logic Devices.
+- Course requisites from ELEX-1115.
+- Truth tables and digital waveforms.
+- Define, analyze and measure level, pulse width, frequency, period, duty cycle and rise/fall time of digital waveforms.
+- Define, analyze and measure combinatorial logic circuit propagation delays.
+- Introduction to Programmable Logic Devices (PLD).
+- Introduce graphic logic design and simulation using QUARTUS II.
+- Introduce VHDL file structure and concurrent signal assignment to produce QUARTUS II simulation waveforms.
+## COMPLEX COMBINATORIAL CIRCUITS
+- Analyze design and implement decoders, encoders, MUX/DMUX, magnitude comparators and adder circuits.
+- Analyze design and implement decoder and encoder circuits.
+- Analyze design and implement multiplexer (MUX) and demultiplexer (DMUX) circuits.
+- Practical decoder, encoder, MUX and DMUX circuits.
+- Introduce VHDL selected signal assignment.
+- Analyze design and implement n-bit binary magnitude comparator circuits.
+- Perform unsigned and signed (2’s complement) binary addition.
+- Analyze half-adder and full-adder hardware.
+- Analyze design and implement n-bit full-adder circuits.
+## SEQUENTIAL LOGIC (LATCHES AND FLIP-FLOPS)
+- Analyze and understand latches and flip-flops in sequential logic circuits.
+- Analyze the construction and operation of the NAND gate S-R latch.
+- S-R NAND gate latch as a switch de-bouncer.
+- Analyze and understand latches, gated latches and clocked flip-flops.
+- Examine and understand asynchronous and synchronous operation of flip-flops.
+- Analyze, understand and utilize real D & J-K clocked flip-flops.
+- Implement T flip-flops using J-K or D flip-flops.
+- Cascade toggle flip-flops together (simple counters).
+- Generate timing diagrams, state tables and state diagrams for latches and flip-flop circuits.
+- Analyze and understand flip-flop timing, define set-up and hold time, and discuss digital logic circuit noise suppression (de-coupling).
+## COUNTERS
+- Analyze, design and use asynchronous/synchronous, binary/decade, up/down, and modulo-N counters.
+- Analyze, design and implement, asynchronous binary up/down counters.
+- Analyze, design and implement modulo-N asynchronous counters.
+- Cascade (MSI) asynchronous counters together to produce large modulo-N counters.
+- Generate timing diagrams, state tables and state diagrams for counters.
+- Calculate propagation delays and analyze timing in asynchronous counter circuits.
+- Analyze, design and implement synchronous counters.
+- Understand and utilize programmable, up/down synchronous counters.
+- Analyze, design and implement counter state decoders and display systems.
+- Analyze, design and implement decade counting assemblies.
+## REAL WORLD COUNTER SYSTEMS
+- Top-down design for two sequential logic systems.
+- Design a Real Time Clock System.
+- Design a Multi-Digit Frequency Counter System.
+## SHIFT REGISTERS
+- Analyze, design and use various registers such as PIPO, SIPO, PISO and SISO.
+- Define data storage (PIPO) and manipulation registers.
+- Analyze, design and implement, N bit shift register circuits such as SISO, SIPO and PISO using discrete flip-flops.
+- Generate timing diagrams, state tables and state diagrams for shift registers.
+- Analyze L/R shift and pre-load register control logic for universal shift registers.
+- Analyze and design ring counter and Johnson counter circuits.
+- Analyze and implement SISO, SIPO, and PISO shift registers for real applications.
+## ELECTRONIC CHARACTERISTICS AND SPECIFICATIONS OF TTL/HCMOS FAMILIES
+- Understand and use detailed specifications for digital ICs from the logic component data book.
+- Analyze TTL/HCMOS input and output characteristics.
+- Define and analyze TTL/HCMOS voltage parameters and noise margin.
+- Analyze TTL/HCMOS current parameters, loading, fanout, power dissipation and speed power product.
+- Investigate TTL/HCMOS input and output structures. Analyze totempole, open collector/drain and tristate outputs.
+- Introduce other digital logic families (FAST, ECL, and other CMOS variations) and compare parameters.
+- Investigate Altera CPLD internal structures.
+## LOGIC CIRCUIT INTERFACING
+- Interface TTL/HCMOS logic to such devices as transistors, opto-isolators, relays, and other "real world" devices.
+- Utilize Low-voltage Logic to control High-voltage Loads.
+- Analyze and implement the transistor as a switch.
+- Interface TTL/HCMOS to opto-isolators/triacs and small signal/power transistors.
+- Interface TTL/HCMOS to electromagnetic relays.
+- Interface LSTTL devices to high speed CMOS devices.
+## PARALLEL DATA PATHS (AKA BUSES)
+- Analyze decoders, tristate devices and common data paths.
+- Analyze bi-directional parallel data paths.
+- Analyze multiple, bi-directional, parallel data paths (buses).
+- Combine multiplexing and buses for display circuits.
+- Analyze simple address/data bus systems.
+- Analyze partial/full address decoding.
+- Examine a Microprocessor Address/Data Bus System
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

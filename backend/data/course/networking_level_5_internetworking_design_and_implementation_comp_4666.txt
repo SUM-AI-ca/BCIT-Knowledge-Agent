@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/networking-level-5-internetworking-design-and-implementation-comp-4666/
+Title: Networking Level 5 - Internetworking Design & Implementation COMP 4666
+Type: Course
+Course Code: COMP 4666
+
+================================================================================
+
+## Networking Level 5 - Internetworking Design & Implementation COMP 4666
+Computer Systems Course
+## Course Overview
+Learn how to set up and manage computer networks connecting multiple network operating systems such as Windows 2000, Netware and Unix servers via TCP/IP protocol. Integration with network services such as DNS, DHCP, WINS and Samba will be discussed. Students will learn how to take advantage of different operating systems for enterprise network planning. Strategies on implementing different directory services will be highlighted.
+### Prerequisite(s)
+- COMP 2665 and COMP 2765 and ( COMP 2630 or experience with Novell Netware).
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Understand internetworking terminology.
+- Understand and discuss issues related to internetworking.
+- Understand the different components of the TCP/IP protocol suite.
+- Be able to connect Windows, Unix/Linux and Novell NetWare server using TCP/IP.
+- Understand the concept of subnetting and its practical application.
+- Know how to configure and implement DHCP, DNS, WINS, and Samba services.
+- Know to configure and find tune Unix/Linux server and workstations.
+- Know how to integrate file systems in the network environment.
+- Familiar with the concept of different directory services.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

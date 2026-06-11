@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/information-and-communication-technology-in-electric-utilities-sgst-9220/
+Title: Information & Communication Technology in Electric Utilities SGST 9220
+Type: Course
+Course Code: SGST 9220
+
+================================================================================
+
+## Information & Communication Technology in Electric Utilities SGST 9220
+Smart Grid Systems & Tech Course
+## Course Overview
+This course follows from the introductory smart grid courses to offer an in depth look at information sources and communications architectures seen in supervisory control and data acquisition (SCADA) or distributed communications systems. Students will gain an understanding of the hardware, software and communications protocols involved in modern electric utility applications. The course will also identify and address issues relating cybersecurity and propose solutions for mitigating these challenges. An overview of the sections of IEC61850 relating to communications will be provided, and students will have a chance to apply these standards to their work. The theory presented in this course will be supported by real-world case studies and a significant hands-on laboratory component. Students will contribute to their portfolio of work in this course by participating in a team-based project which will involve the design of a communications system architecture and a selection of hardware for the smart microgrid being considered throughout the program. The design should enable interaction between individual elements within the smart microgrid as well as communication with the utility and will be required to demonstrate compliance with the appropriate sections of the IEC 61850 standard. Students should also make use of the NIST framework for improving critical infrastructure cybersecurity as well as the NERC CIP standard to ensure that their smart microgrid system will not be vulnerable to common issues.
+### Prerequisite(s)
+- 60% in SGST 9110
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Provide an overview of legacy, current and emerging information and communication systems and technologies and their application in electrical utility sector
+- Demonstrate knowledge of the core components of a SCADA system and their applications in operation, control, monitoring and protection of smart grid
+- Select hardware and software components, such: as remote terminal units (RTUs) and merging units, to form modern SCADA systems for large- and small- scale electric utility applications
+- Provide a detailed overview of IEC 61850 and its applications in electric utility systems for automation, communications and interoperability
+- Design communications architectures for electric utility substations as well as wide-area communications based on appropriate sections of the IEC 61850, IEC 61970 or other standards introduced in the course
+- Incorporate the use of service mappings such as Generic Object-Oriented Substation Event (GOOSE), Manufactured Message Specification (MMS) and Sampled Measured Values (SMV)
+- Describe the applications and requirements for inter-substation communication, including software, hardware, and communications protocols
+- Identify and mitigate issues relating to cybersecurity in substations and distribution systems by incorporating appropriate policies and standards into the design and implementation of communications architectures
+- Describe common vulnerabilities that the electric utility faces with respect to cybersecurity such as false data injection and load altering attacks
+- Develop leadership and collaboration skills
+Effective as of Fall 2021
+## Related Programs
+Information & Communication Technology in Electric Utilities (SGST 9220) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Smart Grid Systems and Technologies Master of Engineering Full-time/Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

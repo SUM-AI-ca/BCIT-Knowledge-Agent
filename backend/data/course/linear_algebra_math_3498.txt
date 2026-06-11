@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/linear-algebra-math-3498/
+Title: Linear Algebra MATH 3498
+Type: Course
+Course Code: MATH 3498
+
+================================================================================
+
+## Linear Algebra MATH 3498
+Mathematics Course
+## Course Overview
+This course covers the basics of vectors including vector algebra, the dot product, the cross product and applications. It also covers systems of linear equations, their solution by methods such as Gaussian elimination and matrix inversion, and applications. It covers matrix algebra, linear transformations, eigenvalues and eigenvectors, similarity of matrices and applications. It introduces such concepts as vector spaces, inner product spaces, and symmetric and orthogonal matrices.
+### Prerequisite(s)
+- MATH 2491
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+- Illustrate the use of vectors in 2- and 3-D space including the associated algebra of vectors including the norm of a vector, vector arithmetic and the dot/cross products with applications of vectors to lines and planes in 3-space.
+- Demonstrate the use of matrices and matrix algebra operations in solving systems of equations using various matrix techniques.
+- Diagonalize matrices and find principle directions in materials using eigenvalues and eigenvectors.
+- Introduce the concept of general vector spaces - including real vector spaces (Rn) - as well as the concepts of subspaces, linear independence, rank and basis.
+- Discuss linear transformations between vector spaces (Rn to Rm and others) and their representation by matrices.
+- Demonstrate the use and meaning of inner product spaces and their characteristics such as angle and orthogonality, orthonormal bases for these spaces.
+- Evaluate the numerical methods and techniques used computationally with matrices.
+- Assess computational methods used to solve linear algebra problems for accuracy, numerical stability and computation time.
+- Program computer simulation programs and symbolic computing software to solve linear algebra problems such as the solution of a set of simultaneous linear equations.
+Effective as of Fall 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/programming-windows-comp-3770/
+Title: Programming Windows COMP 3770
+Type: Course
+Course Code: COMP 3770
+
+================================================================================
+
+## Programming Windows COMP 3770
+Computer Systems Course
+## Course Overview
+Students learn to develop windows applications with the Win32 API and C and later integrate Win32 calls into C# creating unmanaged C#. Topics include windows messaging, input from keyboard and mouse, timers, menus and resources, dialog boxes, clipboard, graphics, threading, accessing the microphone and speakers, and dynamic link libraries.
+### Prerequisite(s)
+- 50% in COMP 2510
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain how messages are processed in Win32.
+- Configure a window to draw using logical coordinates that are different from device coordinates.
+- Understand device contexts, clipping window, brushes, etc. for standard graphics.
+- Capture keyboard, mouse, and timer events.
+- Add menus, buttons, and other child windows.
+- Create dialog boxes using the Visual Studio editor and use these dialog boxes in an application.
+- Work with device independent and dependent bitmaps.
+- Develop Multiple Document Interfaced applications
+- Demonstrate the basics of concurrent programming under windows O/S with common synchronization methods.
+- Debug programs using a variety of methods including break points, traces, and code stepping.
+- Integrate Win32 and C# creating unmanaged C# code.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/industrial-network-security-incs-3310/
+Title: Industrial Network Security INCS 3310
+Type: Course
+Course Code: INCS 3310
+
+================================================================================
+
+## Industrial Network Security INCS 3310
+Industrial Network Cybersecuri Course
+## Course Overview
+This course introduces the security principles and technologies used to secure an industrial network. Building on the concepts developed in the Industrial Networking course in term two, this course prepares students for the Cyber Operations course in term four. The concepts being developed in this course are closely related to the concepts being developed concurrently in the Ethical Hacking and Penetration Testing, Windows Server Administration for Industrial Network Cybersecurity, Process Measurement and Control Fundamentals for Industrial Network Cybersecurity, and Embedded Systems courses. Topics include: vulnerabilities with operating systems; methods of attacks; defense-in-depth strategies; security appliances including firewalls, IDS and IPS; IPSec and VPNs; Authentication, Authorization and Accounting (AAA); security monitoring; evasion methods; and interpreting log data to identify events in Windows and Linux systems. ​
+### Prerequisite(s)
+- INCS 2210
+- ACIT 3421 ‡ and ELEX 3610 ‡ and INCS 3320 ‡ and INCS 3610 ‡ ( ‡ must be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the functions of network security devices and software deployed on hosts, and networks including firewalls, intrusion prevention, intrusion detection, web & e-mail security, malware detection, and access control. (2)
+- Describe defense-in-depth strategies including access-control models, risk assessment and reduction, asset management, agentless versus agent-based protections, reverse engineering, and chain of custody. (2)
+- Perform host-based security analysis on Windows and Linux based machines. (4)
+- Deploy security monitoring concepts and technologies to identify security breaches and events. (4)
+- Employ packet capturing and analysis to investigate traffic flows and abnormalities. (4)
+- Describe the complexities of security monitoring with Network Address Translation (NAT), tunneling, load balancing, multiple channel applications, encapsulation, encryptions, and dual-stack. (4)
+- Explain common attack methods including denial-of-service, man-in-the-middle, SQL injection, command injections, cross-site scripting, phishing, buffer overflows, malware, port scanning, and host profiling. (2)
+- Describe evasion methods including encryption, tunneling, resource exhaustion, traffic fragmentation, protocol misinterpretation, and traffic substitution. (2)
+- Explain IPSec and its associated protocols. (2)
+- Implement site-to-site VPNs. (4)
+- Implement common security appliances including firewalls, IDS and IPS. (4)
+- Implement Authentication, Authorization and Accounting (AAA) on routers using a local router database and external access control services. (4)
+- Implement network and host telemetry solutions while addressing the challenges of security monitoring. (4)
+Effective as of Fall 2020
+## Related Programs
+Industrial Network Security (INCS 3310) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

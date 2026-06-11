@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/sensors-and-signal-conditioning-elex-4650/
+Title: Sensors and Signal Conditioning ELEX 4650
+Type: Course
+Course Code: ELEX 4650
+
+================================================================================
+
+## Sensors and Signal Conditioning ELEX 4650
+Electrical and Computer Engineering Course
+## Course Overview
+The course builds on knowledge from electronic circuits and engineering materials to study various types of sensors and transducers and the signal conditioning required to produce useful output signals. The course introduces important concepts of metrology, common measurement errors and error minimization. A selection of sensors used to measure position, acceleration, force, pressure, temperature, flow, light and magnetic field strength will be investigated with an emphasis on evaluating practical suitability and limitations of the devices for given applications. Signal conditioning and compensation circuits will be designed and filtering circuits applied to selected sensors. Data acquisition issues of sampling and resolution will also be considered. Signal integrity, linearization and noise reduction design methodologies will be incorporated throughout the course.
+### Prerequisite(s)
+- ELEX 3320 or ELEX 3120
+### Credits
+4.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Explain the principles of metrology and data acquisition and evaluate measurement errors.
+- Evaluate the physical properties of various sensors used to measure stress, force, acceleration, temperature, pressure, flow, light or magnetic fields.
+- Describe the static and dynamic behaviour of sensor and signal conditioning systems.
+- Design and build signal conditioning circuits for various sensors and incorporate compensations systems to improve signal quality and integrity as necessary.
+- Assess the integrity of signals obtained from various sensor types including their sensitivity to other variables.
+- Investigate digital conversion issues and their impact on measurement accuracy.
+- Design and employ noise reduction strategies to improve signal quality.
+- Select the best type of sensor to measure stress, force, acceleration, position, pressure, flow, temperature, light or magnetic field strength for a given application.
+Effective as of Winter 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

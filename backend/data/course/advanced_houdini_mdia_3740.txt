@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/advanced-houdini-mdia-3740/
+Title: Advanced Houdini MDIA 3740
+Type: Course
+Course Code: MDIA 3740
+
+================================================================================
+
+## Advanced Houdini MDIA 3740
+Media Communications Course
+## Course Overview
+​In this advanced-level Houdini course, students explore a variety of industry-standard techniques and methodologies for procedural modeling to produce effects such as hair and fur, fluid, and destruction, and for scripting using the Houdini surface and dynamic operators. With an emphasis on project based learning, students experiment with procedural modeling techniques in Houdini and create 3D environments such as cities or forests. In addition, utilizing VEX scripting in Houdini, students create small tools and functions inside Houdini that enhance the production process. This course also covers creating advanced visual effects such as hair, fur and crowds.
+### Prerequisite(s)
+- MDIA 2740
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the logic of procedural modeling
+- Create a proper plan for producing a VFX sequence
+- Design a plan for a procedural environment such as a city, forest, desert
+- Work with a variety of solvers in surface and dynamic operators
+- Produce fur effects for organic models
+- Create hair effects for human models
+- Develop fluid effects such as liquid and gas volume
+- Create cloth and fabric effects
+- Design and create a guided destruction sequence
+- Apply proper physics logic for realistic dynamic effects
+- Implement appropriate collision logic for rigid bodies, cloth and particles
+- Setup camera and lights for the effects shots
+- Finalize and optimize VFX shots for rendering
+- Render realistic procedural visual effects shots
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

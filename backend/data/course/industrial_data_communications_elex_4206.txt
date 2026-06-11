@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/industrial-data-communications-elex-4206/
+Title: Industrial Data Communications ELEX 4206
+Type: Course
+Course Code: ELEX 4206
+
+================================================================================
+
+## Industrial Data Communications ELEX 4206
+Electrical and Computer Engineering Course
+## Course Overview
+​This course provides a foundation in industrial data communications as it relates to industrial control systems (ICS). The first half of this course builds on outcomes in ELEX 1103 for TCP/IP over Ethernet and is based on the concepts, media and topologies, and installation and configuration domains of industrial networks. The second half of this course studies specific industrial networks and fieldbuses with an emphasis on their application in ICS and supervisory control and data acquisition (SCADA) systems.
+### Prerequisite(s)
+- ELEX 1103 and ELEX 2117 and ELEX 3215 † ( † may be taken concurrently)
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Describe the difference between LANs, WANs and the Internet.
+- Contrast the OSI and TCP/IP models.
+- Describe the characteristics of wired, fiber-optic and wireless media.
+- Explain Ethernet technology and the address resolution protocol (ARP).
+- Explain the TCP/IP internet layer protocol used for routing.
+- Compare IPv4 and IPv6 packets and addressing.
+- Subnet a simple IPv4 network.
+- Contrast the TCP and UDP transport layer protocols.
+- Explain common TCP/IP application layer protocols and services.
+- Configure a Cisco IOS device.
+- Explain the differences between ICS and Business networks.
+- Describe the differences between commercial and industrial Ethernet networking equipment and applications.
+- Integrate common serial interfaces and industrial network communication protocols into industrial networks.
+Effective as of Winter 2017
+## Related Programs
+Industrial Data Communications (ELEX 4206) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs with a co-op option.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical and Computer Engineering Technology (Automation and Instrumentation Option) Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

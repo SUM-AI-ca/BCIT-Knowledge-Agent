@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/deploying-cloud-services-cisa-4350/
+Title: Deploying Cloud Services CISA 4350
+Type: Course
+Course Code: CISA 4350
+
+================================================================================
+
+## Deploying Cloud Services CISA 4350
+Computer Info Systems Admin Course
+## Course Overview
+​​This course introduces and provides opportunities for students to build a variety of Cloud infrastructures, services and security employed by small to medium size businesses through a guided, hands-on approach. Students learn how to design systems that are secure, reliable, high-performing, and cost efficient. Students will configure, implement, test, troubleshoot, optimize, and document mainstream Cloud services. Topics include networks, storage, database, analytics, security, accounts, and automation as well as design for high availability, fault tolerance, and scalability to meet current industry benchmarks. The content of this course is supported by the AWS (Amazon Web Services) Learning Academy.
+### Prerequisite(s)
+- CISA 3330
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Private, Public, community and hybrid Cloud computing Frameworks
+- Create and manage virtual networks across multiple physical nodes
+- Implement cloud storage allowing volumes to be created locally or served remotely
+- Manage compute, network, and storage resources in the data center and allocate those resources to users using mainstream Cloud platforms
+- Describe enterprise Cloud computing building blocks
+- Install and configure Cloud software, tools & Services
+- Design systems that are scalable, fault tolerant and have high reliability
+- Describe the skill set required to meet business needs with modern Cloud computing and challenges associated with the adoption of the Cloud.
+- Deploy Cloud management, analytic and monitoring services
+- Describe how to leverage the capabilities of the Cloud to support automation
+- Create, manage, and provision load balancing, auto scaling and serverless applications
+Effective as of Winter 2021
+## Related Programs
+Deploying Cloud Services (CISA 4350) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

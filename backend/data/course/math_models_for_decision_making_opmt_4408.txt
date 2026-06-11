@@ -1,0 +1,40 @@
+URL: https://www.bcit.ca/courses/math-models-for-decision-making-opmt-4408/
+Title: Math Models for Decision Making OPMT 4408
+Type: Course
+Course Code: OPMT 4408
+
+================================================================================
+
+## Math Models for Decision Making OPMT 4408
+Operations Management Course
+## Course Overview
+This course builds on concepts from OPMT 3301 and delves into additional topics within the field of management science. The objective of this course is to have students develop a further appreciation of the management science approach to problem formulation and solution that is now so important in today’s business and industrial sectors. The course focuses on quantitative approaches to decision making and introduces a variety of management sciences models, methods, and procedures. The major areas of study are queuing theory, operations simulation modeling using Excel, and complex systems simulation using SIMUL8, which is an advanced discrete-event simulation software package.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+Queuing Theory
+- Discuss the trade-off curves for cost of waiting time and cost of service.
+- Understand the three parts of a queuing system: the arrival population and statistical distribution, the queue, and the service process and statistical distribution.
+- Understand the Poisson and Exponential distributions and their application to queuing systems.
+- Describe basic queuing system configurations and calculate performance measures.
+- Understand the limitations of queuing system formulas.
+Monte Carlo Simulation
+- Tackle a variety of operational problems using Monte Carlo simulation, such as queuing models, inventory models, and models for operational decisions and policies. This outcome is a continuation of topics covered in OPMT 3301.
+- Setup and solve simulation models using Excel's standard functions.
+Simulation using SIMUL8
+- Understand potential uses for advanced simulation in operations environments.
+- Create a real-world simulation of a complex operation using SIMUL8, which is an advanced discrete-event simulation software package.
+- Apply statistical distributions to arrival and service processes. The most common being Normal, Poisson, Exponential and Fixed.
+- Assess potential improvements to a simulated operation using cost-benefit analysis.
+Effective as of Winter 2022
+## Related Programs
+Math Models for Decision Making (OPMT 4408) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Business + Media
+- Operations & Management Engineering Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

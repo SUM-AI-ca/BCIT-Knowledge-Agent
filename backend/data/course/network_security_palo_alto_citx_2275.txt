@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/network-security-palo-alto-citx-2275/
+Title: Network Security: Palo Alto CITX 2275
+Type: Course
+Course Code: CITX 2275
+
+================================================================================
+
+## Network Security: Palo Alto CITX 2275
+Computer Information Technology Electronics Course
+## Course Overview
+​This course explores security concepts with a focus on the configuration of Palo Alto Firewalls and FortiSIEM. Students will learn what is new in Next-Gen FireWall (NGFW), how to manage and monitor logs, connect and forward logs from different devices, collect performance information, aggregate the logs, and create a custom dashboard in SIEM. Topics include firewall policies, NAT (Network Address Translation), user authentication, SSL VPN (Secure Socket-Level Virtual Private Network), and how to protect networks using security profiles such as antivirus, DoS (Denial of Service) protection, data filtering, web filtering, file blocking, and application control. Hands-on activities include working with Palo Alto features and implementing VPN in different scenarios within a lab environment. Students will gain in-depth knowledge and practical experience on implementing high availability between two firewalls and troubleshooting a security system using the Palo Alto Networks platform. The course content will help students prepare for the PCNSE certification exam.
+### Prerequisite(s)
+- It is strongly recommended that students have a background in Networking, Linux and Windows prior to taking the course.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement Firewall Policies
+- Configure Source NAT (SNAT) and Destination NAT (DNAT)
+- Implement firewall authentication, logging, and monitoring
+- Describe Certificate Operations
+- Configure antivirus, application control, file blocking, and web filtering to provide network protection
+- Implement SSL VPN, Site to Site VPN, and IPSEC VPN
+- Explain Data Leak Prevention
+- Configure High Availability
+- Implement Captive Portal
+- Configure WildFire, data filtering, and DoS profiles
+- Describe how FortiSIEM receives and collects logs
+- Explain the process of normalization in FortiSIEM
+- Connect different devices to FortiSIEM
+- Create custom dashboards in FortiSIEM to analyze logs
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20253045227/
+URL: https://www.bcit.ca/outlines/20253045215/
 Course: CISA 1330
 Field: Windows Server Essentials
+Subject: Computer Info Systems Admin
+Term: 202530
+CRN: 45215
 
-School: School of Energy
-Program: cisa
-Course Credits: 5
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 75
-Total Weeks: 15
-Hours/Weeks: 5
-Delivery Type: Lecture/Lab
-Prerequisite(s): No prerequisites are required for this course.
-CRN: 45227
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## CISA 1330
+## Windows Server Essentials
+School | School of Energy
+Program | cisa
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture/Lab
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 45215
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Tracy Willcock
-E-mail: Tracy_Willcock@bcit.ca
-Location: SW1 135
-Office Hours: Please e-mail for an appointment. Tracy_Willcock@bcit.ca
-
-## Course Description
+### Instructor Details
+Name | Tracy Willcock
+E-mail | Tracy_Willcock@bcit.ca
+Location | SW1 135
+Office Hours | Please e-mail for an appointment. Tracy_Willcock@bcit.ca
+### Course Description
 This course introduces students to Windows Servers and includes configuration and management of components relating to Installation, Storage systems, Networking including DHCP and DNS, HyperV, Domain Controllers, Active Directory, Permissions, Securing Servers, and other items supporting a large enterprise environment. ​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Install and configure servers and domain controllers.
 - Configure Windows server licensing and activation.
 - Manage Windows servers remotely.
@@ -53,88 +56,63 @@ Upon successful completion of this course, the student will be able to:
 - Configure and manage Active Directory in a complex enterprise environment using Active Directory sites and services.
 - Configure and manage Active Directory replication.
 - Use PowerShell to install, configure, and manage many of the components learned in this course.​
-
-## Learning Resources
+### Learning Resources
 - Required:
-
 - Waypoint Windows Server Essentials, eBook
 - Xtreme Labs Online – Server 2022 Purchasing these items will be discussed on the first day of class. You will need a credit card to purchase the items above.
-- Purchasing these items will be discussed on the first day of class.
-- You will need a credit card to purchase the items above.
 - External SSD - In order to setup your own Server, practice with adding enterprise technologies, etc, you will need your own SSD. Portable external SSD - 1TB storage with USB TypeC connector. With a USB typeC connector you will have superfast data transfer speeds and 1TB storage should be enough to use one SSD for multiple courses. However, be sure to check with your other instructors in case they have different SSD requirements. The following SSDs were found to be very fast in our labs last yr (2024): SanDisk 1TB Extreme Portable SSD (up to 1000MB/per second) Samsung T7 1TB USB 3.2 Gen 2 External Solid State Drive (up to 1000MB/per second) Samsung T9 1TB USB 3.2 Gen 2x2 (20Gbps) External Solid State Drive (up to 2000MB/per second) – This one is the fastest at double the speed of the two above.
-- Portable external SSD - 1TB storage with USB TypeC connector. With a USB typeC connector you will have superfast data transfer speeds and 1TB storage should be enough to use one SSD for multiple courses. However, be sure to check with your other instructors in case they have different SSD requirements.
-- With a USB typeC connector you will have superfast data transfer speeds and 1TB storage should be enough to use one SSD for multiple courses. However, be sure to check with your other instructors in case they have different SSD requirements.
-- The following SSDs were found to be very fast in our labs last yr (2024): SanDisk 1TB Extreme Portable SSD (up to 1000MB/per second) Samsung T7 1TB USB 3.2 Gen 2 External Solid State Drive (up to 1000MB/per second) Samsung T9 1TB USB 3.2 Gen 2x2 (20Gbps) External Solid State Drive (up to 2000MB/per second) – This one is the fastest at double the speed of the two above.
-- SanDisk 1TB Extreme Portable SSD (up to 1000MB/per second)
-- Samsung T7 1TB USB 3.2 Gen 2 External Solid State Drive (up to 1000MB/per second)
-- Samsung T9 1TB USB 3.2 Gen 2x2 (20Gbps) External Solid State Drive (up to 2000MB/per second) – This one is the fastest at double the speed of the two above.
-
 Note – if you are sharing an SSD between courses you will need to setup a separate partition where you can store the HyperV images that we will use. Be sure your other course instructor knows this if you are sharing an SSD between courses. Keep a min of 250GB on the SSD for our course. Below are some USB standards for your review so you can see the difference in speeds.
-
-## Evaluation Criteria
-Criteria**: %: Comments
-Lab component - Assignments/labs/lab quizzes etc: 25: A passing grade of 50% in both the theory and the lab component is required to satisfactorily complete this course.**
-Lab component – Mini Skills/Skills Integration Assessment(s): 20
-Theory component - Quizzes: 15
-Theory component - Midterm Assessment: 20
-Theory component - Final Assessment: 20
-TOTAL: 100%
-
+### Evaluation Criteria
+Criteria** | % | Comments
+Lab component - Assignments/labs/lab quizzes etc | 25 | A passing grade of 50% in both the theory and the lab component is required to satisfactorily complete this course.**
+Lab component – Mini Skills/Skills Integration Assessment(s) | 20
+Theory component - Quizzes | 15
+Theory component - Midterm Assessment | 20
+Theory component - Final Assessment | 20
+TOTAL | 100%
 *All items are compulsory and must be completed to pass this course
-
 **Students are expected to pass both the theory component and the lab component of the course with a minimum of 50% each. Students with an overall grade of 50% or greater in one component, but with below 50% in the other component, will receive a failure grade of “U” (unsuccessful).
-
-## Course Schedule and Assignments
-Day:: CISA 1330 Course Schedule Outcome/Material Covered (Note schedule is subject to change)
-Day 1: Course Introduction & Overview, Module 1: Introducing Windows Server
-Day 2: Module 2: Windows Server Installation and Initial Configuration
-Day 3: Module 3: Configuring drives and storage for Windows Server
-Day 4: Module 4: Configuring file permissions, sharing, and auditing
-Day 5: Module 5: Hyper-V Overview
-Day 6: Module 6: Implementing and Managing DHCP in Windows Sever
-Day 7: Module 7: Implementing and managing DNS in Windows Server
-Day 8: Module 8: Implementing VPN in Windows Server
-Day 9: Module 9: Deploying AD DS in Windows Server
-Day 10: Mini Skills, Catch up on Labs
-Oct 17-21, 2025: Midterm Exam Ch 1-7, Fri Oct 17th, 2025 at 12pm
-Day 11: Module 10: Managing AD DS Objects
-Day 12: Module 11: Advanced AD DS Deployments
-Day 13: Module 12: AD DS Sites and Replication
-Day 14: Module 13: Securing AD DS (time permitting)
-Day 15: Module 14: Monitoring, Managing, and Recovering AD DS (time permitting)
-Day 16: Mini Skills, Catch up on Labs
-Day 17: Skills Integration Assignment
-Day 18: Skills Integration Assignment
-Day 19: Skills Integration Assignment
-Day 20: Skills Integration Assignment
-Dec 4-11, 2025: Final Exam Ch 1-14 – Thurs Dec 11th, 2025 at 10am
-
-## BCIT Policy
+### Course Schedule and Assignments
+Day: | CISA 1330 Course Schedule Outcome/Material Covered (Note schedule is subject to change)
+Day 1 | Course Introduction & Overview, Module 1: Introducing Windows Server
+Day 2 | Module 2: Windows Server Installation and Initial Configuration
+Day 3 | Module 3: Configuring drives and storage for Windows Server
+Day 4 | Module 4: Configuring file permissions, sharing, and auditing
+Day 5 | Module 5: Hyper-V Overview
+Day 6 | Module 6: Implementing and Managing DHCP in Windows Sever
+Day 7 | Module 7: Implementing and managing DNS in Windows Server
+Day 8 | Module 8: Implementing VPN in Windows Server
+Day 9 | Module 9: Deploying AD DS in Windows Server
+Day 10 | Mini Skills, Catch up on Labs
+Oct 17-21, 2025 | Midterm Exam Ch 1-7, Fri Oct 17 th , 2025 at 12pm
+Day 11 | Module 10: Managing AD DS Objects
+Day 12 | Module 11: Advanced AD DS Deployments
+Day 13 | Module 12: AD DS Sites and Replication
+Day 14 | Module 13: Securing AD DS (time permitting)
+Day 15 | Module 14: Monitoring, Managing, and Recovering AD DS (time permitting)
+Day 16 | Mini Skills, Catch up on Labs
+Day 17 | Skills Integration Assignment
+Day 18 | Skills Integration Assignment
+Day 19 | Skills Integration Assignment
+Day 20 | Skills Integration Assignment
+Dec 4-11, 2025 | Final Exam Ch 1-14 – Thurs Dec 11 th , 2025 at 10am
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Tracy Willcock, Instructor October 16, 2025
-
 I verify that this course outline has been reviewed. Patrick Duffey, Program Head October 17, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology October 24, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

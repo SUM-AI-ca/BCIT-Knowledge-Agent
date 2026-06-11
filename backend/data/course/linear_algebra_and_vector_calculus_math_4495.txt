@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/linear-algebra-and-vector-calculus-math-4495/
+Title: Linear Algebra and Vector Calculus MATH 4495
+Type: Course
+Course Code: MATH 4495
+
+================================================================================
+
+## Linear Algebra and Vector Calculus MATH 4495
+Mathematics Course
+## Course Overview
+This course covers the basics of vectors and matrix algebra operations. Applications of linear algebraic equations and eigenvalues/eigenvector problems are covered, as well as systems of linear ordinary differential equations. Vector functions and their associated operations are introduced starting with differential operations and then integral operations. The emphasis of the material is on its use in areas such as fluid flow and mechanics of solids. The laboratory component of the course emphasizes engineering applications in mechanical vibrations, control systems, robotics, fluid dynamics, material mechanics and system modelling with an emphasis on using numerical methods for the solution. A computing tool such as MAPLE or MATLAB is used throughout.
+### Prerequisite(s)
+- MATH 3495
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate the use of matrices and matrix algebra operations in solving systems of equations.
+- Illustrate the use of vectors in 2- and 3-D space including the associated algebra of vectors.
+- Diagonalize matrices and find principle directions in materials using eigenvalues and eigenvectors.
+- Introduce the concept of general vector spaces - including real vector spaces (Rn) - as well as the concepts of
+subspaces, linear independence, rank and basis.
+- Evaluate the numerical methods and techniques used computationally with matrices. (This topic covered furthering
+MECH 8172 Finite Element Analysis).
+- Apply vector differential and integral operations, to vector fields (i.e. fluid flow, solid mechanics and electric fields)
+and to scalar fields (i.e. fluid density). (This topic covered furthering MECH 7225 Fluid Mechanics)
+- Interpret the physical meaning of curl and divergence operations when applied to the dynamics of fluid
+flow.
+- Distinguish between conservative and non-conservative fields and their implication for calculations.
+- Use vector theorems - Gauss' Divergence, Greens and Stokes theorems - to transform between different
+vector calculus calculations.
+- Demonstrate proficiency with the mathematics for fluid dynamics and mechanics of solids.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

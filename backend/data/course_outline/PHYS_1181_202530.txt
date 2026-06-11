@@ -1,160 +1,103 @@
 URL: https://www.bcit.ca/outlines/20253037069/
 Course: PHYS 1181
 Field: Physics for Chemical and Environmental Technology 1
-
-School: School of Computing and Academic Studies
-Program: Chemical and Environmental Technology
-Course Credits: 5
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 75
-Total Weeks: 15
-Hours/Weeks: 5
-Delivery Type: Lecture
-Prerequisite(s): No prerequisites are required for this course.
+Subject: Physics
+Term: 202530
 CRN: 37069
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## PHYS 1181
+## Physics for Chemical and Environmental Technology 1
+School | School of Computing and Academic Studies
+Program | Chemical and Environmental Technology
+Course Credits | 5
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 75
+Total Weeks | 15
+Hours/Weeks | 5
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 37069
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Alex Khramov
-E-mail: akhramov@bcit.ca
-Location: SW3-4083
-Office Hours: In my office (SW3-4083): M 12:30 T 10:30, 11:30, Th 11:30 14:30 F 11:30 Online: upon request
-
-## Course Description
+### Instructor Details
+Name | Alex Khramov
+E-mail | akhramov@bcit.ca
+Location | SW3-4083
+Office Hours | In my office (SW3-4083): M 12:30 T 10:30, 11:30, Th 11:30 14:30 F 11:30 Online: upon request
+### Course Description
 This is the first of a pair of one-term calculus-based physics courses designed to acquaint the student with fundamental concepts in physics relating to chemical and environmental technology. PHYS 1181 deals mostly with concepts in classical mechanics, such as linear and rotational kinematics and dynamics, energy and power, wave motion and fluid statics and dynamics. The laboratory component which accompanies the lectures is designed to illustrate specific scientific concepts as well as teach proper laboratory technique and methods of data acquisition and analysis.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion, the student will be able to:
-
 - Define basic terms relating to the concepts covered in the course.
 - Correctly choose, manipulate and apply formulae to the solution of typical physics problems.
 - Apply a logical problem-solving technique to arrive at correct solutions to single and double concept physics problems.
 - Demonstrate correct measurement and data acquisition skills in a laboratory environment.
 - Write a laboratory report in accordance with commonly accepted formats.
-
-## Learning Resources
+### Learning Resources
 - Giancoli, Physics for Scientists and Engineers, 5 ed. (available from the BCIT bookstore or from Pearson). Old editions OK.
 - Lab manual modules for PHYS 1181 (will be made available via Learning Hub)
 - Scientific Calculator (must have logarithmic, exponential, trigonometric functions)
 - A computer which is able to run MS Excel
 - A computer with reliable internet connection
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 10: 8 online quizzes, equally weighted (5%) and 5 tutorial homeworks, equally weighted (5%)
-Lab Writeups: 10: 7 labs, equally weighted
-Lab Exam: 10: Scheduled date: Nov 25
-Midterm Exams (2): 30: 2 tests equally weighted. Scheduled dates: Oct. 7, Nov. 4
-Final Exam: 40: Final exam is cumulative
-
-## Course Schedule and Assignments
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 10 | 8 online quizzes, equally weighted (5%) and 5 tutorial homeworks, equally weighted (5%)
+Lab Writeups | 10 | 7 labs, equally weighted
+Lab Exam | 10 | Scheduled date: Nov 25
+Midterm Exams (2) | 30 | 2 tests equally weighted. Scheduled dates: Oct. 7, Nov. 4
+Final Exam | 40 | Final exam is cumulative
+### Course Schedule and Assignments
 Course schedule is provisional and subject to change Assignments consist of 9 online quizzes (Q) and 5 tutorial homeworks (TH). Reading references are to sections in Gaincoli textbook
-
-Week: Topics: Reference: Assignments: Lab Activity
-1: Th: Intro/Measurement F: Units: Th: 1-3, F: 1-4 to 1-6: F: Q1 given: None
-2: M: Displacement and velocity Th: Acceleration F: Tutorial 1: M: 2-1 to 2-2 Th: 2-3 to 2-4 F: -: F: TH1 given F: Q1 due: Lab 1: Intro to measurement
-3: M: 1D kinematics Th: Vectors F: Vector arithmetic and kinematics: M: 2-5 to 2-7 Th: 3-1 to 3-3 F: 3-4 to 3-6: M: Q2 given F: TH1 due: Lab 2: Data analysis
-4: M: Projectile motion Th: Tutorial 2 F: Forces: M: 3-7 to 3-9 Th: - F: 4-1 to 4-3: M: Q2 due M: Q3 given Th: TH2 given: Lab 3: Gravitational acceleration
-5: M: Newton's 2nd Law Th: Newton's 3rd Law F: Force problems: M: 4-4, 4-6 Th: 4-5 F: 4-7 to 4-9: M: Q3 due Th: TH2 due: No lab (holiday)
-6: M: Midterm 1 Review Th: Friction F: Tutorial 3: M: - Th: 5-1 F: -: Th: Q4 given F: TH3 given: Midterm 1
-7: M: (Holiday) Th: Uniform Circular Motion F: UCM Examples: M: - Th: 5-2 to 5-4 F: -: Th: Q4 due F: TH3 due F: Q5 given: Lab 4: Newton's 2nd Law
-8: M: Work Th: Mechanical energy F: Energy conservation: M: 7-1 to 7-3 Th: 7-4, 8-1 to 8-3 F: 8-4 to 8-5: F: Q5 due F: Q6 given: Lab 5: Friction
-9: M: Tutorial 4 Th: Dissipation and power F: Linear momentum: M: - Th: 8-6, 8-8 F: 9-1 to 9-4: M: TH4 given F: Q6 due: Lab 6: UCM
-10: M: Midterm 2 Review Th: Collisions F: Rotational kinematics: M: - Th: 9-5 to 9-7 F: 5-5, 10-1 to 10-2: M: TH4 due Th: Q7 given: Midterm 2
-11: M: Torque Th: Rotational dynamics problems F: Vector product, angular momentum: M: 10-3 to 10-5 Th: 10-6 to 10-9 F: 11-1 to 11-4: Th: Q7 due: No lab (holiday)
-12: M: Tutorial 5 Th: Equilibrium F: Statics: M: - Th: 8-9, 12-1 F: 12-2 to 12-3: M: TH5 given F: Q8 given: Lab 7: Stress and strain
-13: M: Stress and Strain Th: Modulus F: Tutorial 6: M: 12-5 Th: 12-5 to 12-6 F: -: M: TH5 due F: Q8 due: Lab Exam
-14: M: Universal gravitation Th: Review F: Review: M: 6-1 to 6-5 Th: - F: -: Final exam preview
-15: Exam Week: -: -: -
-
-## Course topics
+Week | Topics | Reference | Assignments | Lab Activity
+1 | Th: Intro/Measurement F: Units | Th: 1-3, F: 1-4 to 1-6 | F: Q1 given | None
+2 | M: Displacement and velocity Th: Acceleration F: Tutorial 1 | M: 2-1 to 2-2 Th: 2-3 to 2-4 F: - | F: TH1 given F: Q1 due | Lab 1: Intro to measurement
+3 | M: 1D kinematics Th: Vectors F: Vector arithmetic and kinematics | M: 2-5 to 2-7 Th: 3-1 to 3-3 F: 3-4 to 3-6 | M: Q2 given F: TH1 due | Lab 2: Data analysis
+4 | M: Projectile motion Th: Tutorial 2 F: Forces | M: 3-7 to 3-9 Th: - F: 4-1 to 4-3 | M: Q2 due M: Q3 given Th: TH2 given | Lab 3: Gravitational acceleration
+5 | M: Newton's 2nd Law Th: Newton's 3rd Law F: Force problems | M: 4-4, 4-6 Th: 4-5 F: 4-7 to 4-9 | M: Q3 due Th: TH2 due | No lab (holiday)
+6 | M: Midterm 1 Review Th: Friction F: Tutorial 3 | M: - Th: 5-1 F: - | Th: Q4 given F: TH3 given | Midterm 1
+7 | M: (Holiday) Th: Uniform Circular Motion F: UCM Examples | M: - Th: 5-2 to 5-4 F: - | Th: Q4 due F: TH3 due F: Q5 given | Lab 4: Newton's 2nd Law
+8 | M: Work Th: Mechanical energy F: Energy conservation | M: 7-1 to 7-3 Th: 7-4, 8-1 to 8-3 F: 8-4 to 8-5 | F: Q5 due F: Q6 given | Lab 5: Friction
+9 | M: Tutorial 4 Th: Dissipation and power F: Linear momentum | M: - Th: 8-6, 8-8 F: 9-1 to 9-4 | M: TH4 given F: Q6 due | Lab 6: UCM
+10 | M: Midterm 2 Review Th: Collisions F: Rotational kinematics | M: - Th: 9-5 to 9-7 F: 5-5, 10-1 to 10-2 | M: TH4 due Th: Q7 given | Midterm 2
+11 | M: Torque Th: Rotational dynamics problems F: Vector product, angular momentum | M: 10-3 to 10-5 Th: 10-6 to 10-9 F: 11-1 to 11-4 | Th: Q7 due | No lab (holiday)
+12 | M: Tutorial 5 Th: Equilibrium F: Statics | M: - Th: 8-9, 12-1 F: 12-2 to 12-3 | M: TH5 given F: Q8 given | Lab 7: Stress and strain
+13 | M: Stress and Strain Th: Modulus F: Tutorial 6 | M: 12-5 Th: 12-5 to 12-6 F: - | M: TH5 due F: Q8 due | Lab Exam
+14 | M: Universal gravitation Th: Review F: Review | M: 6-1 to 6-5 Th: - F: - | Final exam preview
+15 | Exam Week | - | - | -
+### Course topics
 The topics of the course are intended to help the student develop the following skills:
-
 - Units and Measurement Convert between units given conversion factors Describe and differentiate random/systematic uncertainties Calculate discrepancy and uncertainty, and propagate uncertainties through a calculation Draw a 1D comparison graph
-- Convert between units given conversion factors
-- Describe and differentiate random/systematic uncertainties
-- Calculate discrepancy and uncertainty, and propagate uncertainties through a calculation
-- Draw a 1D comparison graph
 - Graphical and Equation Analysis Make a graph from a set of data Read graphs to determine value, slope, and area Use a model fit to a set of data and assess appropriateness of a particular fit Manipulate equations to solve for a desired parameter / relationship
-- Make a graph from a set of data
-- Read graphs to determine value, slope, and area
-- Use a model fit to a set of data and assess appropriateness of a particular fit
-- Manipulate equations to solve for a desired parameter / relationship
 - Vectors Decompose a vector, or convert x-y components into length and direction Add vectors graphically and algebraically Calculate the dot product of two vectors Give the cross product of two vectors lying in the x-y plane, including using the right hand rule
-- Decompose a vector, or convert x-y components into length and direction
-- Add vectors graphically and algebraically
-- Calculate the dot product of two vectors
-- Give the cross product of two vectors lying in the x-y plane, including using the right hand rule
 - Kinematics Given one of {x, v, a} vs. t plots, estimate the other two Given an x(t) function, differentiate to find v(t) and a(t) functions Solve for x, v, a, or t using kinematics equations in a 1D problem Solve a projectile motion problem
-- Given one of {x, v, a} vs. t plots, estimate the other two
-- Given an x(t) function, differentiate to find v(t) and a(t) functions
-- Solve for x, v, a, or t using kinematics equations in a 1D problem
-- Solve a projectile motion problem
-- Forces and Dynamics Draw a free body diagram for an object or group of objects Use Newton’s 2nd Law to find net force or acceleration in a problem Characterize force types and calculate values for specific force types, including gravity and frction Distinguish Newton’s 3rd Law force pairs Calculate parameters for an object undergoing uniform circular motion Define sources of centripetal and centrifugal force
-- Draw a free body diagram for an object or group of objects
-- Use Newton’s 2nd Law to find net force or acceleration in a problem
-- Characterize force types and calculate values for specific force types, including gravity and frction
-- Distinguish Newton’s 3rd Law force pairs
-- Calculate parameters for an object undergoing uniform circular motion
-- Define sources of centripetal and centrifugal force
+- Forces and Dynamics Draw a free body diagram for an object or group of objects Use Newton’s 2 nd Law to find net force or acceleration in a problem Characterize force types and calculate values for specific force types, including gravity and frction Distinguish Newton’s 3 rd Law force pairs Calculate parameters for an object undergoing uniform circular motion Define sources of centripetal and centrifugal force
 - Statics Define equilibrium, and use equilibrium conditions to solve statics problem Describe and define stress and strain, and distinguish different types Calculate the stress and strain due to a force on an object Calculate the modulus of an object under stress
-- Define equilibrium, and use equilibrium conditions to solve statics problem
-- Describe and define stress and strain, and distinguish different types
-- Calculate the stress and strain due to a force on an object
-- Calculate the modulus of an object under stress
 - Work, Energy, Power Calculate work done by a force on an object Explain dissipation, and describe where energy conservation does/doesn’t apply Characterize energy types and calculate values for specific energy types Explain system choice and convert between two systems for studying same problem Explain connection between energy and power and calculate power for a process
-- Calculate work done by a force on an object
-- Explain dissipation, and describe where energy conservation does/doesn’t apply
-- Characterize energy types and calculate values for specific energy types
-- Explain system choice and convert between two systems for studying same problem
-- Explain connection between energy and power and calculate power for a process
 - Momentum Define and calculate linear momentum, and explain when momentum conservation applies Classify and describe collision types Solve 1D collision problems using momentum conservation Solve 2D collision problems using momentum conservation and additional info
-- Define and calculate linear momentum, and explain when momentum conservation applies
-- Classify and describe collision types
-- Solve 1D collision problems using momentum conservation
-- Solve 2D collision problems using momentum conservation and additional info
-- Rotation Explain the meaning of torque and calculate its value by a force about an axis Draw an extended free body diagram Define and use angular kinematics variables Explain connection between torque and rotation and use rotational analogue of 2nd Law Describe moment of inertia (MoI) and calculate rotation parameters using MoI values Define angular momentum, and calculate angular momentum given motion description Use conservation of angular momentum to solve rotational motion problems Describe rolling motion
-- Explain the meaning of torque and calculate its value by a force about an axis
-- Draw an extended free body diagram
-- Define and use angular kinematics variables
-- Explain connection between torque and rotation and use rotational analogue of 2nd Law
-- Describe moment of inertia (MoI) and calculate rotation parameters using MoI values
-- Define angular momentum, and calculate angular momentum given motion description
-- Use conservation of angular momentum to solve rotational motion problems
-- Describe rolling motion
-
-## BCIT Policy
+- Rotation Explain the meaning of torque and calculate its value by a force about an axis Draw an extended free body diagram Define and use angular kinematics variables Explain connection between torque and rotation and use rotational analogue of 2 nd Law Describe moment of inertia (MoI) and calculate rotation parameters using MoI values Define angular momentum, and calculate angular momentum given motion description Use conservation of angular momentum to solve rotational motion problems Describe rolling motion
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Computing and Academic Studies
+### Guidelines for School of Computing and Academic Studies
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Alex Khramov, Instructor August 25, 2025
-
 I verify that this course outline has been reviewed. Kevin Dunphy, Faculty September 03, 2025
-
 I verify that this course outline has been reviewed. Lynn Erickson, Program Head September 05, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean September 08, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

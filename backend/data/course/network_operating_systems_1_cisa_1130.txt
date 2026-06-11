@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/network-operating-systems-1-cisa-1130/
+Title: Network Operating Systems 1 CISA 1130
+Type: Course
+Course Code: CISA 1130
+
+================================================================================
+
+## Network Operating Systems 1 CISA 1130
+Computer Info Systems Admin Course
+## Course Overview
+This course introduces students to installing, configuring, managing, and supporting a network infrastructure using the most current Microsoft server platform. This course includes topics such as: installing and configuring Domain Name Service (DNS), Dynamic Host Configuration Protocol (DHCP), network security, Certificate Services, Internet Protocol Security (IPSec), Software Update Services, Routing and Remote Access, File Services, Print Services, and network maintenance.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate the use of command line utilities.
+- Explain the purpose of device drivers.
+- Describe the difference between manual and automatic configuration of TCP/IP.
+- Describe the four phases of DHCP client configuration.
+- Install, configure, and troubleshoot DHCP servers and clients.
+- Describe how DNS is used to resolve names and IP addresses.
+- Estimate the number of DNS name servers, domains and zones needed for a network.
+- Install, administer, monitor, and troubleshoot a DNS server.
+- Configure file services including Distributed File System (DFS).
+- Implement IPSec to secure network traffic.
+- Configure Certificate Services.
+- Configure routing and remote access service.
+- Describe the purpose of the Network Policy Server (NPS).
+- Install and manage disk quotas.
+- Configure a Server Backup and Restore routine.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/introduction-to-games-programming-comp-1441/
+Title: Introduction to Games Programming COMP 1441
+Type: Course
+Course Code: COMP 1441
+
+================================================================================
+
+## Introduction to Games Programming COMP 1441
+Computer Systems Course
+## Course Overview
+Learn to build 2D and 3D games for the Xbox 360 and the mobile Zune, using C# and XNA. This hands-on course is aimed at students who already know how to write code in an object oriented programming language (Java, C++, or C#). Beginning with an overview of the .NET programming environment for the PC, Xbox 360, and Zune, students are then provided with common game algorithms, graphic and audio techniques. There is an introduction to the modeling process, however this course is aimed at programmers who want build Xbox games, for general interest. An Xbox 360 and Zune are not required, however a PC running; Windows XP, Vista, or 7.0 is required outside of class for homework and assignments which re-enforce the steps required to build Xbox games. Successful participants are expected to complete an individual game of their own design and learn how to publish XNA games on Xbox Live through Microsoft.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement essential structures and effects that are found in most 2D and 3D games such as: drawing shapes, creating animations, adding textures and other image effects.
+- Describe collision detection, and ballistics.
+- Understand the use of terrain, drawing models, and drawing fonts.
+- Designing and handling user input.
+- Create a complete 2D and 3D games that runs on the Xbox 360, PC, or Zune (Zune is 2D only).
+- Use the XNA code library to create 3D graphics and audio effect.
+- Publish Xbox 360 games at Xbox live.
+Effective as of Spring/Summer 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/houdini-for-visual-effects-and-dynamics-mdia-2740/
+Title: Houdini for Visual Effects and Dynamics MDIA 2740
+Type: Course
+Course Code: MDIA 2740
+
+================================================================================
+
+## Houdini for Visual Effects and Dynamics MDIA 2740
+Media Communications Course
+## Course Overview
+​This course covers the concept of creating visual effects using Houdini, including particles, fire and smoke, fluids and rigid bodies. Students learn the concept of particle operators and physics elements, while focusing on the industry-standard workflow for creating visual effects and dynamics. Students also work with forces such as gravity, drag, and wind to create great-looking particle effects inside the 3D scene. In addition, while utilizing VEX expressions, the course covers the logic of working with rigid bodies and collisions, and the interaction between 3D objects and dynamic elements. For the final project in this course, students create a scene that includes effects such as fire, rain, smoke and object destruction.
+### Prerequisite(s)
+- MDIA 1740
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Navigate the shelves and panels related to Houdini dynamics
+- Create and setup particle operators in a 3D scene
+- Modify particle attributes like frequency, life span, size and velocity
+- Create particle sprites
+- Build and setup rigid bodies in the 3D scene for object interactions
+- Create dynamic animations based on physics elements, particles and rigid bodies
+- Build fire and smoke like effects
+- Combine different dynamic effects such as particles and objects inside a scene
+- Write VEX expressions for dynamic effects
+- Produce and render a short effects clip
+Effective as of Spring/Summer 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

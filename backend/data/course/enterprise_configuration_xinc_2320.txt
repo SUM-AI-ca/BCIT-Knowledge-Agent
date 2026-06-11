@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/enterprise-configuration-xinc-2320/
+Title: Enterprise Configuration XINC 2320
+Type: Course
+Course Code: XINC 2320
+
+================================================================================
+
+## Enterprise Configuration XINC 2320
+Cybersecurity Professionals Microcredentials Course
+## Course Overview
+​ Students taking Enterprise Configuration will learn how to configure a routed networking using Single Area Open Shortest Path First (OSPF) as a routing protocol for both IPv4 and IPv6 networks. Students will configure routers with OSPF to allow communication of routes between Networks and allow Wide Area Network communication. Students will build packet filtering firewalls using Access Control Lists (ACLs) to limit traffic between the Local Area Networks to only those devices and protocols that are defined by organizational policy. Network Address Translation will also be presented as a method used to mitigate IPv4 Address depletion by using private IPv4 addresses to conserve public IPv4 addresses.​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Configure single-area OSPFv2 in both point-to-point and multiaccess networks.
+- Explain how to mitigate threats and enhance network security using access control lists and security best practices.
+- Implement standard IPv4 ACLs to filter traffic and secure administrative access.
+- Configure NAT services on the edge router to provide IPv4 address scalability.​
+Effective as of Fall 2023
+## Related Programs
+Enterprise Configuration (XINC 2320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Advanced Topics in Networking Microcredential Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

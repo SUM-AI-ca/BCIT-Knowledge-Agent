@@ -1,0 +1,100 @@
+URL: https://www.bcit.ca/courses/dc-circuit-analysis-for-robotics-elex-1205/
+Title: DC Circuit Analysis for Robotics ELEX 1205
+Type: Course
+Course Code: ELEX 1205
+
+================================================================================
+
+## DC Circuit Analysis for Robotics ELEX 1205
+Electrical and Computer Engineering Course
+## Course Overview
+This course teaches the principles and methods of analysis related to DC circuits. Topics include SI units and terminology, voltage, current, work, energy, power and resistance. Series, parallel and series-parallel circuits are analyzed and designed. Methods of analysis for more complex circuits include superposition, mesh, nodal, Thevenin, Norton, and wye to delta conversion. RMS values for sinewaves are calculated. Labs are synchronized with lectures so that theory is studied and confirmed by application.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course the student will be able to:
+## QUANTITIES, UNITS AND SYMBOLS
+- Use quantities, units and symbols in the correct context.
+- Define the terms 'variable' and 'parameter'.
+- Convert between scientific and engineering notation.
+- Calculate values using standard SI prefixes.
+- List the relationships between charge, time, current, voltage, energy, power and efficiency.
+- Calculate values using charge, time, current, voltage, energy, power and efficiency.
+- Produce graphs of charge versus time and current versus time.
+## OHM'S LAW
+- Apply Ohm's Law to circuit design, analysis and testing.
+- Describe the relationships between voltage, current, resistance and power.
+- Calculate voltage, current, resistance and power using Ohm's Law.
+- Identify resistor values by power rating and colour code.
+- Set up circuits according to schematic diagrams.
+- Operate a DC power supply.
+- Measure voltage, current and resistance using analog and digital meters.
+- Plot current versus voltage for non-linear devices and calculate static and dynamic resistance.
+## SERIES CIRCUITS
+- Analyze, design and test series circuits.
+- List the three basic characteristics of series circuits.
+- Describe the purpose of switches, fuses and circuit breakers.
+- Analyze resistive circuits using Ohm’s Law and Kirchoff’s Voltage Law.
+- Define the anode, cathode, biasing and forward voltage drop of a silicon diode and a light emitting diode.
+- Identify the anode and cathode of a silicon diode using an ohmmeter.
+- Analyze circuits with resistors and a diodes in series.
+- Calculate voltages using the voltage divider rule.
+- Define and calculate relative potential.
+- Analyze series circuits with multiple voltage sources.
+- Analyze series circuits with sources that have internal resistance.
+- Analyze series circuits that have significant conductor resistance.
+- Design a multi-range voltmeter.
+## PARALLEL CIRCUITS
+- Analyze, design and test parallel circuits.
+- Identify parallel components in schematic diagrams.
+- List the three basic characteristics of parallel circuits.
+- Analyze resistive parallel circuits using Ohm's Law and Kirchoff’s Current Law.
+- Calculate currents using the current divider rule.
+- Compare the characteristics of ideal and practical current sources.
+- Convert between current sources and voltage sources.
+- Analyze parallel circuits with current sources.
+- Analyze parallel circuits with both voltage and current sources.
+- Design a multi-range ammeter.
+- SERIES-PARALLEL CIRCUITS
+- Analyze, design and test series-parallel circuits by comparing, contrasting and combining series and parallel circuits.
+- Identify series and parallel parts of circuits.
+- Calculate voltage, current and power for series-parallel circuits using series and parallel methods.
+- Design loaded voltage-divider circuits.
+- Measure voltage and current in a loaded voltage-divider circuit.
+- Calculate resistance values for a balanced Wheatstone bridge.
+- Calculate line currents in a 3-wire power distribution circuit.
+- Design and test an ammeter and a voltmeter based on an analog meter movement.
+- Determine the internal resistance of sources from voltage and current measurements.
+- Calculate the effects of voltmeter and ammeter loading.
+## CIRCUIT ANALYSIS METHODS FOR NETWORKS
+- Analyze circuits using various network analysis methods.
+- Analyze networks using the current assumption method.
+- Analyze networks using the superposition theorem.
+- Analyze networks using mesh analysis.
+- Analyze networks using nodal analysis.
+- Measure currents in a 3-wire distribution circuit.
+## EQUIVALENT CIRCUIT METHODS FOR NETWORKS
+- Solve and test for specific parameters in a DC circuit network using alternate equivalent techniques.
+- Simplify a network into series-parallel form using wye-delta conversion.
+- Reduce a network to its Thevenin equivalent circuit.
+- Calculate the value of a load resistor to obtain maximum power transfer.
+- Reduce a network to its Norton equivalent circuit.
+- Reduce network by alternately applying Thevenin and Norton methods.
+- Design a T-pad attenuator to obtain desired attenuation and resistance matching.
+- Calculate values using the reciprocity theorem.
+- Measure bridge current in balanced and unbalanced bridges.
+- Measure voltage and current in equivalent wye, delta and Thevenin circuits to confirm equivalency.
+## ANALYZE WAVEFORMS
+- Analyze AC and DC waveforms.
+- Define DC, AC, peak, peak-to-peak, cycle, period, frequency and wavelength for any periodic waveform.
+- Calculate the RMS value of a sinusoidal waveform.
+Effective as of Fall 2013
+## Related Programs
+DC Circuit Analysis for Robotics (ELEX 1205) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/data-warehouse-foundations-for-business-intelligence-comp-3838/
+Title: Data Warehouse Foundations for Business Intelligence COMP 3838
+Type: Course
+Course Code: COMP 3838
+
+================================================================================
+
+## Data Warehouse Foundations for Business Intelligence COMP 3838
+Computer Systems Course
+## Course Overview
+​Continuing on from COMP 1630 this workshop is a primer on business intelligence, data warehouse and data analytics for those moving on to higher level courses. Students must already understand industry standards in data modeling, relational database design and creating reports with SQL. This weekend workshop provides an overview of data warehouse planning and design for those moving on to the specific Business Intelligence Analytic tools covered in: COMP 4679 , COMP 4680 and COMP 4681 . Topics include: an overview of business intelligence the role of Extract, Transform and Load (ETL) in the data warehouse, the typical data warehouse lifecycle, plus an introduction to dimensional modeling for data warehousing. Labs focus on ETL, data quality considerations, and dimensional modeling concepts including the star and snowflake schemas. Successful participants will have an understanding of Business Intelligence concepts and industry standards in data design for data structures for information systems. COMP 3838 is no longer offered and has been replaced by COMP 3841 in the Applied Data Analytics Certificate and the CST/PTS Diploma as of September 2021.
+### Prerequisite(s)
+- COMP 1630 or equivalent knowledge of data modeling and SQL.
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Differentiate between relational database and data warehouse modeling concepts.
+- Identify requirements and components for a data warehousing project.
+- Describe the typical data warehouse lifecycle.
+- Explain the role of ETL.
+- Determine ETL and Data Quality considerations.
+- Describe dimensional modeling concepts, including star and snowflake schemas.
+- Relate current trends in data warehousing.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

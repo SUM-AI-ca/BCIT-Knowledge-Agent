@@ -1,0 +1,134 @@
+URL: https://www.bcit.ca/outlines/20261013151/
+Course: MATH 1431
+Field: Technical Mathematics for Electronics
+Subject: Mathematics
+Term: 202610
+CRN: 13151
+
+================================================================================
+
+## Course Outline
+## MATH 1431
+## Technical Mathematics for Electronics
+School | School of Energy
+Program | Electrical and Computer Engineering Technology
+Course Credits | 6
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 90
+Total Weeks | 15
+Hours/Weeks | 6
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 13151
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Maryam Dehghani Estarki
+E-mail | mdehghani1@bcit.ca
+Location | SW02 216
+Office Hours | Office Location: Physical office: SW02 216 Virtual office: https://bit.ly/MaralOffice Office Hours: By Appointment (In-person or via Zoom) Monday: 12:30 to 13:20, 3:30 to 4:30 Tuesday: 12:30 to 13:20 Friday: 11:30 to 13:20 | Office Location: Physical office: SW02 216 Virtual office: https://bit.ly/MaralOffice | Office Hours: By Appointment (In-person or via Zoom) Monday: 12:30 to 13:20, 3:30 to 4:30 Tuesday: 12:30 to 13:20 Friday: 11:30 to 13:20
+### Course Description
+This course covers methods for solving systems of linear equations with application to DC networks. Logarithmic and exponential functions and their application to electric transients, decibels and linearization of power and exponential relationships are discussed. Students will learn about trigonometric functions, circular motion, graphing sinusoidal functions and addition of sinusoids. In addition, students will carry out the representation and arithmetic of complex numbers with application to AC circuit analysis.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Solve (iii) a system of linear equations involving two or three variables with substitution, unstructured/structured elimination and determinants. [1]
+- Use (iii) loop analysis and nodal analysis to set up a system of linear equations for a DC network comprised of resistors and independent voltage and current sources. [1, 2]
+- Solve (iii) logarithmic and exponential equations, primarily involving base ‘e’ and base ‘10’. [1]
+- Calculate (iii) the power gain (in dB) and power ratio for single and multi-stage power amplifier arrangements. [1, 2]
+- Prepare (iii) generalized exponential decay equations (in terms of initial value, final value and time constant) for voltage and current transients in RL and RC circuits subjected to DC (or “step-type”) input voltages. [1, 2]
+- Use (iii) plotting on ordinary, semi-logarithmic and full-logarithmic graph paper as a means of verifying simple linear, exponential and power law relationships and determining the constants in the appropriate relationship. [1, 2]
+- Apply (iii) trigonometric functions in situations involving right-angled and oblique-angled triangles. [1]
+- Identify (iii) the amplitude, period, frequency, DC offset and time-displacement of a sinusoidal waveform from either an equation or a graph of the waveform. [1]
+- Prepare (iii) voltage and impedance triangles for simple AC circuits (i.e. series RLC). [1]
+- Represent (iii) a complex number in its various forms (rectangular, polar, exponential and trigonometric). [1]
+- Perform (iii) addition, subtraction, multiplication and division of complex numbers both manually and with a recommended calculator. [1]
+- Apply (iii) the concepts of phasors, complex impedance and complex admittance to single-source AC circuits. [1, 2]
+- Calculate (iii) the simplest equivalent circuits (both series and parallel) for a given AC network and operating frequency. [1, 2]
+### Learning Outcome Taxonomy
+Based on the BCIT Learning and Teaching Centre publication “Writing Learning Outcomes”, the ECET department has defined four levels describing the depth of learning for each outcome. These are:
+(i) Knowledge – Topics are mentioned, but not covered much beyond introduction or awareness.
+(ii) Comprehension - Students are expected to explain and understand a topic.
+(iii) Application - Students are expected to apply the information in new, but similar, situations.
+(iv) Analysis, Evaluation, Synthesis - A thorough covering of a topic such that students can analyze and design new solutions.
+### Engineering Accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+### Learning Resources
+Required Text :
+· Mathematics for Electrical Technology (Book 1), Eric Hiob
+Recommended Texts:
+· Technical Mathematics with Calculus , P. Calter, Prentice-Hall Publ.
+· Basic Technical Mathematics with Calculus , A. J. Washington, Benjamin Publ.
+· Basic Technical Mathematics with Calculus , P. Kuhfittig, Brooks/Cole Publ.
+Required Equipment:
+Calculator: A good scientific calculator which is capable of performing rectangular/polar conversions and complex number arithmetic. Recommended: Sharp 516 WriteView. Acceptable alternatives include the Sharp 520, Sharp 546 and Casio 991. Please note that some calculators are not allowed to be used during exams and quizzes, such as TI 89, TI 92, TI 95, HP 49, Casio Alg. FX as well as any other calculator possessing a symbolic operating system or computer algebra system (CAS).
+Learning Hub (D2L): Lecture notes (in pdf), homework assignments, quizzes, tests and solutions, midterm and final practice problems and all the course materials will be posted on Learning Hub.
+### Evaluation Criteria
+Video Introduction | 1%
+Quizzes | 19 % | weekly quizzes, starting from week 2
+Midterm Exam 1 | 20% | second or third week of February
+Midterm Exam 2 | 20% | second or third week of March
+Homework and Participation | 5% | weekly problems sets, and participation
+Final Exam | 35% | cumulative
+TOTAL | 100 %
+### Other information
+Early Assist : Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist .
+### Statement for prior learning assessment
+Students who wish to apply for course credit may do so by completing a Course Credit/Exemption form which may be obtained from BCIT Student Records. All applications for course credit must be submitted to Student Records within approximately 2 weeks of the beginning of the term (see the BCIT calendar for more information). Until students know that they have been granted course credit, they should continue to attend all classes and do the assigned work.
+Applications for course credit or course exemption on the basis of previously completed mathematics courses are assessed on a case-by-case basis by the BCIT Mathematics Department taking into account all of the following:
+- the correspondence between topics, content and level
+- recency (generally no more than 3–5 years)
+- the grade (generally at least a C+ or 65%)
+- the context (course taken as part of a university or college science or engineering program, rather than, for example, an arts or social science program).
+### Course Schedule and Assignments
+Homework Sets
+The details and due dates for any homework will be communicated to you in class and/or by email. You need to finish your homework before your tutorial. You may consult with your classmates to get a clear idea of the homework, but each student is expected to complete their own homework.
+Extra Problem Sets
+Extra Problem Sets will be uploaded in Learning Hub. These Problem Sets will provide practice both with theoretical foundations and with many electronics, physics and engineering related applications. Problem Sets may be assigned as part of a homework.
+### Course topics
+# of Lectures | Topics | Reference
+3 | Algebra Review | Chapter 1
+15 | Systems of Linear Equations and DC Networks | Chapter 2
+6 | Exponents and Logarithms | Chapter 4
+6 | Exponential Growth and Decay Functions | Chapter 4
+4 | Semi-log and Log-log Graphs | Chapter 4
+7 | Trigonometric and Inverse Trigonometric Functions | Chapter 5
+8 | Vectors, Phasors and Introduction to AC Circuits | Chapter 6
+4 | Complex Numbers | Chapter 7
+8 | Phasors and AC Circuits | Chapter 8
+3 | Midterm Exams
+Final Exam
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Energy
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Maryam Dehghani Estarki, Instructor January 05, 2026
+I verify that this course outline has been reviewed. David Holloway, Program Head January 07, 2026
+I verify that this course outline has been reviewed. Kulwinderjeet Sivia, Student Advisor January 08, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean January 11, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

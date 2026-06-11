@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/java-user-interfaces-comp-3619/
+Title: Java User Interfaces COMP 3619
+Type: Course
+Course Code: COMP 3619
+
+================================================================================
+
+## Java User Interfaces COMP 3619
+Computer Systems Course
+## Course Overview
+This hands-on course is for Java Programmers and builds on top of COMP 2611 . Participants learn advanced Java user interface (UI) design and how to implement applications with enhanced usability and richness. Topics and labs include: Look & feel; Threading issues; Model-View-Controller at the component level; Customer renderers; Advanced layout managers; The clipboard; Basic printing; Drag & drop; Undo/Redo (if time permits). Upon completion, participants will better understand how to create clean, well-designed UIs. Students are required to have prior experience with the eclipse IDE for assignments.
+### Prerequisite(s)
+- 50% in COMP 2611
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+- Use custom Swing Look & Feel implementations to provide a 'native' look to their application.
+- Understand the problems associated with using a UI layer in a single-threaded program.
+- Understand the correct way to use Swing with threads.
+- Design programs that correctly implement the Model-View-Controller design pattern.
+- Implement custom view elements and renderers.
+- Understand the basics of implementing primitive 2D graphics.
+- Make use of advanced layout managers to provide clean, well-designed UIs.
+- Design programs that permit the easy transfer of data between applications.
+- Enhance their applications with multiple levels of undo and redo of actions.
+Effective as of Winter 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

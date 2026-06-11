@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/sap-crystal-reports-advanced-comp-2253/
+Title: SAP Crystal Reports Advanced COMP 2253
+Type: Course
+Course Code: COMP 2253
+
+================================================================================
+
+## SAP Crystal Reports Advanced COMP 2253
+Computer Systems Course
+## Course Overview
+This hands-on workshop continues on from COMP 2252 and explores the advanced features of Crystal Reports. Students who already know how to use Crystal Reports formulas learn advanced functions and industry reporting standards. Report Optimization techniques will be discussed along with topics such as Custom Functions, Shared Variables, Arrays, Ranges, Repository Items, SQL Commands, Mapping and Advanced Charting. Discussions continued from Comp 2252 focus on how to present data for efficient and effective decision making. By the end of this course, successful participants will know how to use SAP Crystal Reports to write advanced formulas with functions, variables and looping structures, pass variables from sub-reports to main reports and write SQL expressions that talk directly to databases. COMP 2252 and COMP 2253 are both electives in the Applied Computer Applications Associate Certificate, ACA, and the Applied Data Analytics Certificate, ADAC. COMP 2253 will be offered one last time starting Dec. 2, 2017.
+### Prerequisite(s)
+- COMP 2252
+### Credits
+1.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use programming variables to write advanced formulas.
+- Design multi-pass reports and use evaluation time and print state functions.
+- Create a manual running total using variables for report optimization.
+- Populate an array dynamically as a report optimization technique to eliminate a subreport.
+- Speed report processing by pushing the processing to the server for speed.
+- Share data between a subreport and main report using shared variables.
+- Use various table linking and join types for accurate record selection
+- Configure numerous data sources and understand advanced data connectivity.
+- Update reports after database changes.
+- Build complex formulas with loop control structures.
+- Use custom functions.
+- Represent data visually with advanced charts and maps.
+- Export report to Adobe Format (PDF), HTML 4.0, MS Excel, CSV, and XML.
+- Build advanced crosstab reports.
+- Add flash objects to a report.
+- Understand the available options for report distribution.
+Effective as of Spring/Summer 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

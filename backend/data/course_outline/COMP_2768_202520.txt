@@ -1,180 +1,130 @@
 URL: https://www.bcit.ca/outlines/20252069900/
 Course: COMP 2768
 Field: Introduction to Linux Part 2 (Administration)
-
-School: School of Computing and Academic Studies
-Program: Computing - Flexible Learning
-Course Credits: 1
-Minimum Passing Grade: 60%
-Start Date: July 18, 2025
-End Date: August 07, 2025
-Total Hours*: 3
-Total Weeks: 3
-Hours/Weeks: 1
-Delivery Type: Other
-Zero Textbook Cost: Yes
-Prerequisite(s): 60% in COMP 2766
+Subject: Computer Systems
+Term: 202520
 CRN: 69900
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## COMP 2768
+## Introduction to Linux Part 2 (Administration)
+School | School of Computing and Academic Studies
+Program | Computing - Flexible Learning
+Course Credits | 1
+Minimum Passing Grade | 60%
+Start Date | July 18, 2025
+End Date | August 07, 2025
+Total Hours* | 3
+Total Weeks | 3
+Hours/Weeks | 1
+Delivery Type | Other
+Zero Textbook Cost | Yes
+Prerequisite(s) | 60% in COMP 2766
+CRN | 69900
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Steven Ng
-E-mail: Instructor to provide
-Location: Via email, or individual appointment on Teams
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Steven Ng
+E-mail | Instructor to provide
+Location | Via email, or individual appointment on Teams
+Office Hours | Instructor to provide
+### Course Description
 This course follows from COMP 2766 and is designed for students who already have a solid foundation in command-line Linux. Through hands-on exercises and labs, students will monitor the system, automate common administrative tasks, secure and maintain the entire system. Topics include archiving and transferring files between systems, web server administration, scheduling, logging, and basic troubleshooting for Linux Administrators. Participants will configure a web server, schedule future tasks, write Bash shell scripts, configure a server firewall, log kernel messages, archive and transfer files. COMP 2766 and COMP 2768 are electives in the CST FLEX Diploma and together are equivalent to ACIT 2420 in the CIT Diploma. Upon successful completion of this course, students will be aware of best practices in Linux Administration. Note: COMP 2768 has replaced COMP 2767 and is offered in the summer term directly after COMP 2766.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Write Linux scripts for common administrative tasks.
 - Archive and transfer files between Linux systems.
 - Configure and analyze system Linux log files.
 - Manage a Linux server firewall.
 - Configure a Linux web server.
 - Schedule Linux administrative tasks.
-
-## Learning Resources
+### Learning Resources
 REQUIRED TEXTBOOK
-
 The Linux Command Line (6th Internet edition) is available for free downloaded in PDF format from https://linuxcommand.org/tlcl.php. Access to the Red Hat Academy will also be provided with instructions to be posted on Learning Hub.
-
 SOFTWARE
-
 Free access to a Linux VM (virtual machine) in the cloud will be provided. For those wishing to create their own VM, use CentOS 9 Stream (open source; freely available from https://centos.org/download/). Instructions will be provided to help create your own VM.
-
 Q&A SESSIONS
-
 There are real-time virtual Q&A sessions available via MS Teams for 1 hour each week of the course on Mondays @ 7pm; July 21, July 28 and August 4.
-
 All times are Pacific Standard Time (UTC/GMT -8)
-
-## Course Goals
+### Course Goals
 - To gain an overview of Linux Administration best practices.
 - To write shell scripts.
 - To complete a hands-on Linux Administration Project.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 36: 3 assignments equally weighted; 1 per week; to be done individually. You must attempt and submit every every Assignment, and achieve a minimum 50% average between the Assignments and Knowledge Checks to pass this course.
-Knowledge Checks: 36: 6x Timed Knowledge Checks, Open Book on Learning Hub. 2 per week equally weighted. You must attempt and submit every Knowledge Check, and achieve a minimum 50% average between the Knowledge Checks and Assignments to pass this course.
-Project: 28: A comprehensive hands-on project, to be done individually, not with another student.
-
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 36 | 3 assignments equally weighted; 1 per week; to be done individually. You must attempt and submit every every Assignment, and achieve a minimum 50% average between the Assignments and Knowledge Checks to pass this course.
+Knowledge Checks | 36 | 6x Timed Knowledge Checks, Open Book on Learning Hub. 2 per week equally weighted. You must attempt and submit every Knowledge Check, and achieve a minimum 50% average between the Knowledge Checks and Assignments to pass this course.
+Project | 28 | A comprehensive hands-on project, to be done individually, not with another student.
 Course passing Grade 60%.
-
 Late assignments may be accepted, subject to the instructor's discretion and a penalty of 25% for each day (or part, thereof) late.
-
 Participation in the BCIT Learning Hub online is mandatory in order to pass this course.
-
 A functioning webcam and microphone on your computer are required.
-
 Plagiarism and other forms of cheating will not be tolerated.
-
 - Students are encouraged to work in groups to develop peer to peer communication and support. However each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
-
 Academic misconduct includes providing solutions to other students.
-
 - Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program
-
 Academic Integrity:
-
-- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals, and accompanying procedures.
-
-## Attendance Requirements
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+### Attendance Requirements
 Be sure to read the following important information:
-
 - Student Resources
 - Computing Peer Tutors
 - Frequently Asked Questions
 - Course and Program Changes
-
 Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
-
 This is an asynchronous course, aside from the 1-hour Q&A sessions each week.
-
 Participation is mandatory and recorded for all weeks in this course..
-
 - In case of illness or other unavoidable cause of absence, the Flex Learning student must communicate as soon as possible with thier instructor indicating the reason for the absence and to request extensions for late submisisons.
-
 - Prolonged illness which causes the Flex Learning student to miss one (1) of the weeks (33%) in this 3-week course will impact the student's abiility to pass this course, and require prior approval for late submissons.
-
-## Course Specific Requirements
+### Course Specific Requirements
 - A Personal Computer with Internet access to participate in the BCIIT Learning Hub is required to complete this course.
 - All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for students' devices.
 - This course is delivered entirely online asynchronously. There are no scheduled class lecture or lab times.
 - There are real-time virtual Q&A sessions each week via MS Teams; Monday, July 21 @ 7pm Monday, July 28 @ 7pm Monday, August 4 @ 7pm. All times are Pacific Standard Time (UTC/GMT -8)
-
-## Other information
+### Other information
+## Computer Use Guidelines
 BCIT Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
-
 - Respect others. Do not download, view, or distribute inappropriate or offensive material.
-
 - Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
-
 - Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
-
 - Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
-
 - Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
-
-For more information read BCIT policies 3501 Acceptable Use of Information Technology1 and 3502 Information Security2.
-
+For more information read BCIT policies 3501 Acceptable Use of Information Technology 1 and 3502 Information Security 2 .
 Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 This online, asynchronous course is 3 weeks, with the equivalent of 4 contact hours per week.
-
 There is a 1-hour real-time Q&A via MS Class for Teams on Mondays at 7PM.
-
 Depending on the student, this course may require an average total time commitment of 12-16+ hours per week..
-
-Week: Topic(s): Readings: Assignments: Knowledge Checks
-1: Scheduling and Logging: RHA Chapter 2 & 3: Assignment #1 distributed; due 6:00 pm, Friday, July 25: Knowledge Check #1 due 11:59pm, Sunday, July 20 Real time virtual Q&A session on MS Teams for 1 hour Monday, July 21 @ 7pm (PST) Knowledge Check #2 due 11:59pm, Wednesday, July 23
+Week | Topic(s) | Readings | Assignments | Knowledge Checks
+1 | Scheduling and Logging | RHA Chapter 2 & 3 | Assignment #1 distributed; due 6:00 pm, Friday, July 25 | Knowledge Check #1 due 11:59pm, Sunday, July 20 Real time virtual Q&A session on MS Teams for 1 hour Monday, July 21 @ 7pm (PST) Knowledge Check #2 due 11:59pm, Wednesday, July 23
 NOTE: Course Withdrawal Deadline Please inform your instructor that you are dropping this course. You must fill out and submit the Request to Withdraw form before week 3 or you will receive a failing grade on your academic record.
-2: Archiving & Transferring Files; Configuring a Web Server: RHA Chapter 4; Handout: Assignment #2 distributed; due 6:00 pm, Friday, August 1: Knowledge Check #3 due 11:59pm, Sunday, July 27 Real time virtual Q&A session on MS Teams for 1 hour Monday, July 28 @ 7pm (PST) Knowledge Check #4 due 11:59pm, Wednesday, July 30
+2 | Archiving & Transferring Files; Configuring a Web Server | RHA Chapter 4; Handout | Assignment #2 distributed; due 6:00 pm, Friday, August 1 | Knowledge Check #3 due 11:59pm, Sunday, July 27 Real time virtual Q&A session on MS Teams for 1 hour Monday, July 28 @ 7pm (PST) Knowledge Check #4 due 11:59pm, Wednesday, July 30
 Course Evaluation: To be conducted online during the Q&A session in Week 3. Students will have previously received a link to the survey via their myBCIT email. Those who do not have the link in their myBCIT email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before the Q&A session in Week 3. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
-3: Scripting & Managing a Firewall: RHA Chapter 1 & 11. TLCL Part 4; Handout: Assignment #3 distributed; due 6:00 pm, Friday, August 8 Project distributed; due by 11:59pm, Thu, August 14: Knowledge Check #5 due 11:59pm, Sunday August 3 Real time virtual Q&A session on MS Teams for 1 hour Monday, August 4 @ 7pm (PST) Knowledge Check #6 due 11:59pm, Wednesday, August 6
-
+3 | Scripting & Managing a Firewall | RHA Chapter 1 & 11. TLCL Part 4; Handout | Assignment #3 distributed; due 6:00 pm, Friday, August 8 Project distributed; due by 11:59pm, Thu, August 14 | Knowledge Check #5 due 11:59pm, Sunday August 3 Real time virtual Q&A session on MS Teams for 1 hour Monday, August 4 @ 7pm (PST) Knowledge Check #6 due 11:59pm, Wednesday, August 6
 Students are encouraged to work in groups to develop peer to peer communication and support.
-
 However, each student must complete and submit their own individual work (not copies of the same assignment or portions thereof) and not material found online or recycled from other courses.
-
 Assignments and project are to be completed by each student, individually, unless stated otherwise. Late assignments may be accepted, subject to the instructor's discretion and a penalty of 25% for each day (or part, thereof) late.
-
 This course is 12 hours and is delivered entirely online asynchronously. There are no scheduled class lecture or lab times. Students will have access to a real time virtual Q&A session on MS Teams for 1 hour each week on these dates: Monday, July 21 @ 7pm Monday, July 28 @ 7pm Monday, August 4 @ 7pm. All times are Pacific Standard Time (UTC/GMT -8)
-
 The material for each week will be posted on Learning Hub by 12:00am on the Friday at the start of each week.
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Computing and Academic Studies
+### Guidelines for School of Computing and Academic Studies
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Steven Ng, Instructor July 15, 2025
-
 I verify that this course outline has been reviewed. Kevin Cudihee, Program Head July 17, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean July 17, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

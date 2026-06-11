@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Paths
-DATA_DIR = Path("./data")
-DOCUMENTS_PICKLE = Path("./vectorstore/documents.pkl")
+# Paths (env-overridable so a fresh corpus can be indexed side by side)
+DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
+DOCUMENTS_PICKLE = Path(os.getenv("DOCUMENTS_PICKLE", "./vectorstore/documents.pkl"))
 
 # Embeddings (Vertex AI / Gemini Enterprise Agent Platform, ADC auth)
 EMBEDDING_MODEL = "gemini-embedding-001"
@@ -18,7 +18,9 @@ PG_CONNECTION = os.getenv(
     "PG_CONNECTION",
     "postgresql+psycopg://raguser:raguser@127.0.0.1:5432/ragdb"
 )
-PG_COLLECTION = "bcit_docs"
+# Collection is versioned: build a new one, then flip this default and redeploy
+# (blue-green — the live server keeps serving the old collection during a build)
+PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606")
 
 GEMINI_MODEL = "gemini-3.5-flash"
 GEMINI_PROJECT = "wine-agent-jh-2026"

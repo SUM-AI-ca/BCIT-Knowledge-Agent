@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/python-fundamentals-for-data-analysis-comp-2454/
+Title: Python Fundamentals for Data Analysis COMP 2454
+Type: Course
+Course Code: COMP 2454
+
+================================================================================
+
+## Python Fundamentals for Data Analysis COMP 2454
+Computer Systems Course
+## Course Overview
+​This hands-on course follows on from COMP 1630 and was designed to introduce Python as a tool for data analytics. Students must have prior database systems and Structured Query Language (SQL) programming, plus have basic Excel spreadsheets skills before registering for this course. Participants must provide their own current model PC with a minimum of an i5 or equivalent processor, 8 GB of RAM and 256 GB storage capable of running Windows 10 or above. High-speed internet access is needed for online sections and homework. BCIT does not provide technical support for student's hardware or operating systems. Starting with an overview of the Python IDE, participants will explore foundational Python programming concepts. Participants are introduced to Variables, Conditions, Operators, Loops, Functions, Arrays, Dictionaries and DataFrames. Exercises and labs explore data analysis using simple statistics with Python. Students are also introduced to string manipulation, Regression, Aggregation, and object-oriented structures with Python used in data analysis. Students are shown how to use Python for basic graphing. COMP 2454 is a required course in the Applied Data Analytics Certificate, ADAC from BCIT Computing. Upon completion successful students will use Python to perform exploratory data analysis and as preparation for data modeling.​ COMP 2454 has been replaced by COMP 2853 ​ as of September 2024.
+### Prerequisite(s)
+- 60% in COMP 1630
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and set-up Python IDEs.
+- Describe fundamental programming concepts using Python.
+- Explain how to use and choose appropriate Python data structures.
+- Implement fundamental code structures and logic for data analysis using Python.
+- Use Python to load, manipulate and prepare structured and unstructured data for modeling.
+- Perform exploratory data analysis using Python.
+- Report on data using text based and visual statistical summaries using Python.
+Effective as of Fall 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

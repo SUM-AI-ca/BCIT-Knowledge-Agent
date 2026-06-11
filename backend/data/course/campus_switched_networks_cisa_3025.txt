@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/campus-switched-networks-cisa-3025/
+Title: Campus Switched Networks CISA 3025
+Type: Course
+Course Code: CISA 3025
+
+================================================================================
+
+## Campus Switched Networks CISA 3025
+Computer Info Systems Admin Course
+## Course Overview
+This course covers how to plan, configure, and verify the implementation of complex enterprise switching solutions using campus enterprise architecture with a focus on secure integration of VLANs, WLANs, voice, and video into campus networks. The course focuses on the selection and implementation of the appropriate services to build reliable, scalable multilayer-switched Local Area Networks (LANs). Students will study Campus network design; Virtual Local Area Networks (VLANs), the Spanning Tree Protocol and the evolutions and improvements of it, routing design for inter-VLAN communication, design and implementation issues ensuring high availability in a switched campus environment, VoIP support and traffic optimization. This course is designed as a hands-on, lab-oriented course that stresses the design, implementation, operation, and troubleshooting of campus switched networks.
+### Prerequisite(s)
+- Successful completion of CISA Level 2 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the role of the Enterprise Composite Network Model (ECNM) in campus network design
+- Describe the Campus Infrastructure Module of the Enterprise Composite Network Model (ECNM)
+- Describe the Intelligent Information Network and Service-Oriented Architecture
+- Explain the benefits of VLANs in an Enterprise Campus Network
+- Implement industry best practices for VLAN topology design
+- Explain the procedure for configuring both 802.1Q and ISL trunking between two switches so that VLANs that span the switches can connect
+- Describe how VLAN configuration of switches in a single management domain can be automated with the Cisco proprietary VTP
+- Explain the Spanning Tree Protocol, Rapid Spanning Tree Protocol, and the Multiple Spanning Tree Protocol operation
+- Optimize Spanning-tree for most efficient operation
+- Describe Inter-VLAN routing issues within a Campus Switched Network
+- Implement industry best practices for Inter-VLAN routing designs within a Campus Switched Network
+- Implement high availability technologies and techniques within switches in a campus environment, including VRRP, Cisco’s HSRP, and Cisco’s GLBP
+- Activate basic VoIP features and optimize VoIP traffic
+Effective as of Fall 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

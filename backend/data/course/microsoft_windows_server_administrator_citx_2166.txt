@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/microsoft-windows-server-administrator-citx-2166/
+Title: Microsoft Windows Server Administrator CITX 2166
+Type: Course
+Course Code: CITX 2166
+
+================================================================================
+
+## Microsoft Windows Server Administrator CITX 2166
+Computer Information Technology Electronics Course
+## Course Overview
+A server administrator is responsible for the operations and day-to-day management of an infrastructure of servers for an enterprise organization. A server administrator's primary tasks include managing the server operating system, file and directory services, software distribution and updates, profiling and monitoring assigned servers, and troubleshooting. This course provides an introduction to these duties using the most current server operating system platform. The course has a focus on planning server deployment, planning server management, planning application and software deployment, along with monitoring and maintaining the server.
+### Prerequisite(s)
+- CITX 2162 and CITX 2163
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, students will be able to:
+- Discuss the processes required to deploy servers and clients.
+- Plan infrastructure services.
+- Design a Group Policy strategy.
+- Assign multiple roles to servers.
+- Deploy file servers and services.
+- Plan server storage.
+- Plan for application resilience.
+- Explain the use of offline files.
+- Plan for data availability.
+- Activate and use Remote Desktop features.
+- Delegate administration tasks.
+- Provide automated and manual updates to servers.
+- Use the Reliability and Performance console.
+- Configure and implement auditing.
+- Backup and restore Group Policy objects.
+- Plan and implement a backup strategy.
+Effective as of Winter 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

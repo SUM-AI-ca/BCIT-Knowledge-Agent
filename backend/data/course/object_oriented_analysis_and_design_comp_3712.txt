@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/object-oriented-analysis-and-design-comp-3712/
+Title: Object Oriented Analysis and Design COMP 3712
+Type: Course
+Course Code: COMP 3712
+
+================================================================================
+
+## Object Oriented Analysis and Design COMP 3712
+Computer Systems Course
+## Course Overview
+This course introduces students to the concepts of object oriented analysis and design in software development based on modeling objects from the real world and using the model for language independent design organized around those objects. The Object Oriented approach helps students to capture better understanding of user requirements and design. It introduces students to a way of thinking abstractly about a problem using real-world concepts. Graphical modeling language such as UML (Unified Modeling Language) will be explored and students will gain knowledge and hands on experience accompanied by selected Integrated Development Environment (IDE) tool with code generation and reverse engineering capabilities. Students will learn to apply the modeling technique through the analysis and design phases of software development process framework, with a strong emphasis on iterative approach and agile process favoured by the Object Oriented community. Basic GRASP (General Responsibility Assignment Software Principles) design principles including Responsibility Driven Design (RDD) will be discussed.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify and complete use cases for requirement analysis.
+- Identify objects and their responsibilities from the real-world in the use case.
+- Identify messages interacting between objects to construct interaction diagrams.
+- Construct conceptual class diagram.
+- Identify state changes of objects caused by message-interactions.
+- Refine use cases to serve as foundation for design.
+- Apply basic GRASP design principles to construct design class diagram.
+- Reference appropriate design patterns to refine design.
+- Apply all of the above applicable to appropriate development process.
+Effective as of Fall 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

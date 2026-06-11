@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/introduction-to-software-development-comp-1320/
+Title: Introduction to Software Development COMP 1320
+Type: Course
+Course Code: COMP 1320
+
+================================================================================
+
+## Introduction to Software Development COMP 1320
+Computer Systems Course
+## Course Overview
+​This course introduces the fundamental concepts of programming and problem solving. Students taking this course will design, implement, test, and debug programs that incorporate: variables, expressions, assignments, I/O, conditional and iterative control constructs, functions, and parameter passing. The course assumes no previous programming experience. Students will be assessed through quizzes, assignments, and exams.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement problem-solving strategies that employ the four pillars of computational thinking: decomposition, pattern matching and data representation, abstraction and generalization, algorithms and automation.
+- Design, implement, test, and debug simple programs in a modern high-level programming language.
+- Write programs using good software development processes including design before implementation, iterative development, responsibility-driven design, and encapsulation/information hiding.
+- Apply the techniques of abstraction and functional decomposition to implement a program using small modules with well-defined interfaces.
+- Use variables, IO, and fundamental control structures including sequence, selection, repetition, and indirection to write code that is modular and re-usable.
+- Use error handling to manage exceptional circumstances.
+- Write unit tests to verify the correctness of their code.
+- Explain the representation and use of primitive data types and built-in data structures such as strings, lists (arrays), and associative arrays (maps/dictionaries).
+- Analyze and explain the behaviour of simple programs that employ fundamental programming idioms and constructs.
+- Explain the value of using existing application programming interfaces (APIs) in software development.
+- Generate API documentation for their code.
+- Gain experience using code quality and style checkers, build scripts.
+Effective as of Fall 2021
+## Related Programs
+Introduction to Software Development (COMP 1320) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

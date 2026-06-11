@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/linux-unix-scripts-and-shell-programming-comp-2771/
+Title: Linux/Unix Scripts and Shell Programming COMP 2771
+Type: Course
+Course Code: COMP 2771
+
+================================================================================
+
+## Linux/Unix Scripts and Shell Programming COMP 2771
+Computer Systems Course
+## Course Overview
+This course is the third level in a series of core Linux/Unix courses, which builds on the fundamentals covered in the previous courses to automate tasks and develop administrative tools using shell scripts. Shells covered include Bourne, Korn, and C shells, with emphasis on the Bourne shell. Topics include structured shell scripts, and an overview of sed, awk, and Perl. Please note: *This course will be offered once each year in the fall term.*
+### Prerequisite(s)
+- 50% in COMP 2770
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Demonstrate structured coding techniques.
+- Explain the various uses for shell scripts.
+- Understand the programming constructs and syntax of the Bourne shell.
+- Create simple shell scripts to automate administrative tasks.
+- Use awk and sed to enhance shell script functionality.
+- Discuss how perl is both similar and different to shell scripting.
+- Create simple perl scripts using conditionals and looping constructs.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

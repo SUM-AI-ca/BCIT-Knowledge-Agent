@@ -1,0 +1,39 @@
+URL: https://www.bcit.ca/courses/matrix-methods-and-statistics-for-geomatics-math-3512/
+Title: Matrix Methods and Statistics for Geomatics MATH 3512
+Type: Course
+Course Code: MATH 3512
+
+================================================================================
+
+## Matrix Methods and Statistics for Geomatics MATH 3512
+Mathematics Course
+## Course Overview
+This course lays the mathematical foundations for Adjustments of Survey Calculation ( GEOM 4090 ) course covering the topic areas of matrix algebra and statistics. The first section of the course covers operations of matrices, solving of linear systems of equations and calculating eigenvalues and eigenvectors with application to error ellipses. The second section covers both descriptive and inferential statistics. Particular attention is paid to least squares and variance-covariance matrices and their application to measurement adjustment in Geomatics.
+### Prerequisite(s)
+- MATH 2511
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Carry out matrix algebra operations.
+- Solve systems of linear equations using Cramers’, Gauss-Jordan and inversion of matrices.
+- Use matrix differentiation to linearize matrices of functions for position estimates.
+- Illustrate the use of Lagrange multipliers in math, for example with least squares adjustments.
+- Solve vector problems involving distance and direction in 2- and 3- space.
+- Calculate eigenvalues and eigenvectors and use them to find the magnitude and directions of the semi-major and semi-minor axes of error ellipses.
+- Calculate quadratic forms and apply them.
+- Describe Vector spaces, real and complex and look at projections from one space to another.
+- Produce histograms and other statistical plots from raw, observed survey data.
+- Calculate measures of central tendency and variation such as mean, median, variance and standard deviation from geomatics measurement data.
+- Define the basic laws of probability.
+- Connect probability to the randomness of error in measurement.
+- Define continuous and discrete probability distributions, such as the normal, binomial, student's-t, chi-square and F-distribution, and calculate their mean and variance.
+- Use the normal distribution to determine probabilities of observing defined ranges of measurement in geomatics projects.
+- Estimate confidence intervals for of large and small samples and apply to engineering and cadastral surveys and the analysis of error in least squares adjustments.
+- Conduct various hypothesis tests - mean, variance, correlation - and recognize the associated Type I and II errors.
+- Investigate error propagation in geomatics calculations.
+- Calculate the principal parameters of bivariate data: the correlation coefficient and variance-covariance matrices, and relate to adjustment of parameters.
+- Relate the ellipse of error to the bivariate normal distribution and link to the covariance matrix.
+Effective as of Fall 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

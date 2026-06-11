@@ -1,0 +1,114 @@
+URL: https://www.bcit.ca/outlines/20262068507/
+Course: MDAA 3040
+Field: Game Design Pipeline 1
+Subject: 3D Modelling, Art & Animation’
+Term: 202620
+CRN: 68507
+
+================================================================================
+
+## Course Outline
+## MDAA 3040
+## Game Design Pipeline 1
+School | School of Business + Media
+Program | 3D Modeling, Art & Animation
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | May 04, 2026
+End Date | August 14, 2026
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | All courses from term 2 must be successfully completed.
+CRN | 68507
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Bob Kreut
+E-mail | bob_kreut@bcit.ca
+Location | CARI 2027
+Office Hours | In Person Mondays 1:30-3:30 Thursdays 11:30-12:30 Online Tuesdays 10:00-12:00 Please email bob_kreut@bcit.ca to schedule a meeting outside of these times.
+### Course Description
+In this course, students are introduced to many aspects of a game engine editor. This includes importing models, creating master materials, lighting scenes, assigning animations, controlling characters, creating landscapes, using the foliage tool, and using the blueprinting system. Throughout the course, individual projects will be created through the help of in-class demonstrations. Each student will use both marketplace assets, as well as their own viewpoint, therefore only minimal blueprint coding will be required. Students will learn the technical constraints of modeling, texturing, lighting, and animating for games and how to overcome those challenges. Optimization techniques will be discussed to ensure high frame rates are maintained.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Optimize 3D models based on the game engine requirements.
+- Create animation state machines for game characters.
+- Optimize textures based on game engine requirements.
+- Create master materials that have useful controls for materials instances.
+- Import 3D props and models into the engine and setup an environment.
+- Use the landscape and foliage tools to create open world environments.
+- Create atmosphere and mood for the game with lights and effects.
+- Apply basic physics and dynamics to characters and props.
+### Learning Resources
+The online documentation for Unreal Engine is excellent and will be referenced often.
+Course information will be provided through the Learning Hub.
+Epic Games Learning Portal: https://dev.epicgames.com/community/unreal-engine/learning
+Sample Projects and Assets: https://www.unrealengine.com/marketplace/en-US/content-cat/assets/onlinelearning
+### Course Goals
+The goal of this course is to introduce students to all aspects of the Unreal Engine Editor. The focus of this course is to tackle using the engine from an Artist's viewpoint, therefore coding will be done through Unreal's Blueprinting system.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignment 1: Project Creation | 4
+Assignment 2: Exporting\Importing Assets | 7
+Assignment 3: Material Creation | 7
+Assignment 4: Exporting\Importing Animations | 7
+Assignment 5: Landscape Environment | 9
+Assignment 6: Player Character Setup | 5
+Assignment 7: Collectible Blueprint | 7
+Assignment 8: Timelines | 7
+Assignment 9: Parent\Child Blueprints | 7
+Assignment 10: Enemy Setup | 7
+Assignment 11: Damage and HUD | 7
+Assignment 12: Respawning and Check Points | 7
+Final Project | 19
+Total | 100
+### Course Specific Requirements
+Students should sign up for an Epic Games account. If you already have one, you do not need to create a new one. The free monthly asset packs and games will remain in your account forever, so it is a good idea to sign up with an email address or account that you will be able to access after the course ends.
+For some assignments, you will be required to create a recording of your project. OBS is a screen recording software that is available on AppsAnywhere or to download for free that you can use. You may use any software you like to capture your screen, but files must be an .mp4 file using the h.264 codec. The instructions for what I will want captured will be clearly put into the Assignments page so if your capture does not allow for me to see what was requested, you will not get marks for it.
+### Other information
+All submissions are due by 10:00pm the day before class. Late submissions will not be accepted without prior communication with the instructor.
+### Course Schedule and Assignments
+Week | Topics Covered | Assignments
+1 - May 7 | Course Expectations Unreal Setup and Project Management Epic Games Launcher and Free Resources Overview of Static Meshes, Materials, Textures, Blueprints | Assignment 1: Project Creation
+2 - May 14 | Static Meshes, Colliders, Nanite (intro) Modular Assets Exporting models from Maya Importing models into Unreal, Static Mesh Setup | Assignment 2: Exporting\Importing Assets
+3 - May 21 | Setting up Materials and UVs for Unreal Creating a Master Material for a Substance ORM Export Preset | Assignment 3: Master Materials
+4 - May 28 | Animations Exporting Skeletal Meshes from Maya Exporting Character and Rigged Prop Animations from Maya Importing Animations into Unreal | Assignment 4: Exporting\Importing Animations
+5 - June 4 | Landscapes, Landscape Sculpting Landscape Materials Megascans Level Manager Foliage | Assignment 5: Landscape Environment
+6 - June 11 | Nanite Tesselation Procedural Content Generation (PCG) Understanding Foliage Growth and Rock Breakdown
+7 - June 18 | Sequencer Render Settings and Output Lab
+8 - June 25 | Pawn, Character, Player Controller Blueprints Game Mode Blueprints Input Events | Assignment 6: Player Character Setup
+9 - July 2 | Actor Blueprints Introduction to Events Introduction to Variables References | Assignment 7: Collectible Blueprint
+10 - July 9 | Lerps Timelines Functions and Encapsulation Custom Events | Assignment 8: Moving Platforms
+11 - July 16 | Child/Parent Blueprints Macro Library Creating Children Gates: Automatic Gate, Gate Opens when Condition Met, External Actor Affects Gate | Assignment 9: Child\Parent Blueprints
+12 - July 23 | Enemy Pawns Path Finding Enemy AI Animation Blueprints | Assignment 10: Enemy Setup
+13 - July 30 | Health System Damage System Widgets HUD | Assignment 11: HUD and Damage Setup
+14 - Aug 6 | Game Instance Blueprints Respawn Area Timers Decals | Assignment 12: Respawning and Checkpoints
+15 - Aug 13 | Brainstorming for Game Design Pipeline 2 Tips for working collaboratively | Final Project
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Bob Kreut, Program Head April 30, 2026
+I verify that this course outline has been reviewed. Aldrich Chung, Program Head May 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Morgan Westcott, Associate Dean May 04, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

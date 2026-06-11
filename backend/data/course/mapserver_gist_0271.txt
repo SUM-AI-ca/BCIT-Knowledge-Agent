@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/mapserver-gist-0271/
+Title: MapServer GIST 0271
+Type: Course
+Course Code: GIST 0271
+
+================================================================================
+
+## MapServer GIST 0271
+Geographic Information Systems Course
+## Course Overview
+MapServer is a very popular GIS web mapping application. Students will use the BCIT GIS Open Source web server and MapServer software, create Map and template files and write PHP scripts for a custom MapServer application using shapefiles or PostGIS/PostgreSQL database tables.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Draw a diagram showing the MapServer components.
+- Create a MAP file that use shapefile data sets.
+- Use the CLASS and EXPRESSION objects.
+- Display and interact with a map image within a template HTML file.
+- Customize a template with JavaScript.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

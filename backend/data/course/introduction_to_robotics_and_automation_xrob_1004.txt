@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/introduction-to-robotics-and-automation-xrob-1004/
+Title: Introduction to Robotics and Automation XROB 1004
+Type: Course
+Course Code: XROB 1004
+
+================================================================================
+
+## Introduction to Robotics and Automation XROB 1004
+Robotics Microcredential Course
+## Course Overview
+​​This course covers fundamental aspects and components of modern automation and industrial robotic systems at the system level. Topics include overview of modern automation system (control technologies, flexible automation, industry 4.0, digital twin, and smart factory), sensors, actuators, robot programming, Programmable Logic Controller (PLC), DC and AC motors, stepper motors, and electro-pneumatic/electro-hydraulic systems. Robot safety and automation communication protocols are also presented at an introductory level. This course is recommended for those who want to understand the modern automation and robotic systems and related technologies/components at the system level.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe key elements of modern automation system such as control technologies, flexible automation, industry 4.0, digital twin, and smart factory.
+- Describe the operation and key characteristics of digital and analog sensors used in modern automation systems such as proximity switches, position sensors, velocity sensors, and force sensors.
+- Program a PLC using software contacts, coils, timers, and counters to automate a simple assembly line.
+- Explain the operation and key characteristics of a range of actuators used in modern automation systems such as DC brushed, DC brushless, DC steppers, AC motors and hydraulic and pneumatic valves/cylinders.
+- Simulate simple automation systems that include PLC, actuators, and sensors
+- Discuss and list most common types of robot and cobot applications.
+- Identify the main components of a robotic system.
+- Explain on-line and off-line robot programming and their applications.
+- Simulate an industrial robot using CAD software and off-line robot programming software.
+- Read and understand a typical industrial robot specification sheet, robot safety and communication protocols.
+Effective as of Winter 2021
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

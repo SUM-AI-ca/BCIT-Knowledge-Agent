@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/controllogix-plc-programming-robt-3050/
+Title: ControlLogix PLC Programming ROBT 3050
+Type: Course
+Course Code: ROBT 3050
+
+================================================================================
+
+## ControlLogix PLC Programming ROBT 3050
+Mechatronics and Robotics Course
+## Course Overview
+This course will provide a comprehensive introduction to programming a programmable logic controller (PLC) using CompactLogix PLCs and RSLogix 5000 software. Topics include description of the basic components of a PLC system, the fundamentals of ladder diagrams, PLC instructions (timers and counters, data manipulation, control instructions, math functions), tag organization and PLC programming methods. Please note that this course is intended for electrical and mechanical technologists and engineers.
+### Prerequisite(s)
+- Familiarity with structured programming.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Describe the architecture of a programmable logic controller (PLC).
+- Describe the operating cycle (scanning sequence and input/output updating) of a PLC.
+- Use tags to address inputs, outputs and memory locations.
+- Write PLC programs using the most commonly used instructions.
+- Implement solutions to possible errors due to the asynchronous updating of the inputs and outputs.
+- Describe the Allen Bradley ControlLogix project structure.
+- Analyze a process to determine if it is sequential or non-sequential.
+- Use modular programming techniques based on state diagrams to write PLC programs.
+- Write PLC programs using sequencing instructions in ladder logic.
+Effective as of Spring/Summer 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

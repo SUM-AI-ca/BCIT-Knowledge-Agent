@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/visual-analytics-with-tableau-comp-2255/
+Title: Visual Analytics with Tableau COMP 2255
+Type: Course
+Course Code: COMP 2255
+
+================================================================================
+
+## Visual Analytics with Tableau COMP 2255
+Computer Systems Course
+## Course Overview
+COMP 2255 has been replaced by COMP 2256 . This hands-on course is designed for anyone looking to quickly visualize, explore and analyze data for Business Intelligence. Tableau Software is a data visualization application software tool designed to work with data sets from a variety of sources. Students who already understand using a Windows PC and MS Excel are introduced to the Tableau Desktop. They learn to build simple to complex and interactive dashboards via in-class exercises and projects. School of Computing students who are registered in this course will receive a student license for Tableau software. This software is for only use on the student’s home machines for the duration of the course. Participants work with data from a wide variety of sources, participants gain experience with effective visualization techniques. They explore Tableau resources for continued learning and learn performance considerations working with Tableau Dashboards. Tableau users include: database professionals, data analysts, business analysts, managers and executives. By the end of this course, successful students will be able to produce highly interactive graphs, reports and dashboards to visualize data. They will understand how to navigate the Tableau environment to access data from a multitude of sources.
+### Prerequisite(s)
+- COMP 1002 or equivalent knowledge managing files in a Windows 7 environment, plus working knowledge of MS Excel.
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify and use different Tableau Desktop Interface components (shelves, cards, Show Me, etc).
+- Learn different ways of connecting and integrating data in Tableau Desktop.
+- Understand different Tableau concepts (extracts, discrete vs continuous, measure names vs measure values etc).
+- Create and understand different visualizations possible in Tableau (histograms, heat maps, scatter plots, bar charts, bullet charts etc).
+- Create interactive dashboards from multiple worksheets.
+- Incorporate geospatial visualization in dashboards.
+- Use basic and advanced calculations.
+- Incorporate filters and parameters for interactivity.
+- Publish dashboards to Tableau Public.
+Effective as of Spring/Summer 2013
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

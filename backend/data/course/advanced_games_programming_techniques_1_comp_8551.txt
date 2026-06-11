@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/advanced-games-programming-techniques-1-comp-8551/
+Title: Advanced Games Programming Techniques 1 COMP 8551
+Type: Course
+Course Code: COMP 8551
+
+================================================================================
+
+## Advanced Games Programming Techniques 1 COMP 8551
+Computer Systems Course
+## Course Overview
+This course will provide the student with an introduction to more advanced computing methods. The course will focus on materials not covered in other programming courses and will include topics on advanced programming, optimization, multi-threading, real-time programming considerations, hardware interfaces and mobile devices. Students will be exposed to different technologies and programming environments.
+### Prerequisite(s)
+- COMP 7051
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Optimize code to take into account speed and size constraints.
+- Create programs for real-time environments.
+- Create a threaded program.
+- Design and implement multi-threaded code.
+- Solve problems related to synchronization across threads and processes.
+- Adapt and optimize code to different underlying hardware architectures.
+- Follow assembly language code.
+- Implement basic assembly language optimizations.
+Effective as of Fall 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

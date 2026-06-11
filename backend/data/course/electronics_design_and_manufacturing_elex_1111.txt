@@ -1,0 +1,74 @@
+URL: https://www.bcit.ca/courses/electronics-design-and-manufacturing-elex-1111/
+Title: Electronics Design and Manufacturing ELEX 1111
+Type: Course
+Course Code: ELEX 1111
+
+================================================================================
+
+## Electronics Design and Manufacturing ELEX 1111
+Electrical and Computer Engineering Course
+## Course Overview
+This is a project-oriented course, with intensive hands-on work. Students will develop and fabricate an electronic product. In the course of this, they will learn the fundamentals of electronic components and their selection, and the preparation of engineering documentation such as schematic diagrams, orthographic projections, 3D exploded views, pattern drawings, and printed-circuit layouts. The course is CAD/CAE-intensive; all work shall be conducted using appropriate computer-aided design software. A working introduction to AutoCAD will be provided through the use of a specialised template. Students will also have an opportunity to develop skills in: component heat analysis and heat sink selection, basic and high-reliability soldering, and printed-circuit repair and rework.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+UNDERSTANDING COMPONENTS and SCHEMATICS
+- Identify, apply and document to standard basic electrical and electronic components.
+- Define and explain in practical terms the functions and applications for fundamental passive components.
+- Specify the values of such components, using appropriate units and engineering multipliers.
+- Draw to IEEE/ANSI Y32.2 standard these components and label them using reference designators and optional values in readable and unambiguous format.
+- Organise and draw components together into a circuit schematic, using accepted rules of flow and structure.
+- Using the CircuitMaker or other CAD system, produce a schematic of YOUR version of the project, using the provided schematic of the no-frills power supply as a guide. Drawing guidelines for optional extras will be provided, for incorporation in your drawing for any extra features you may choose to include.
+- Edit the "packages" (PCB footprints) for each component to suit the printed-circuit board library that will be used in the printed-circuit design phase (section 3) and produce a NETLIST from the schematic,
+- (NOTE: Optional Features will NOT be subject to evaluation, other than for the same quality of installation and wiring for extra parts as for basic parts. Put in the parts only because you want them, and why not take advantage of the opportunity to put them in the first time. You will be living with this creation after the course, after all!)
+PRODUCT DESIGN
+- Design and organize a project to produce a prototype (one-off) of a product, along with its design documentation.
+- Define and identify requirements and constraints on a product with respect to inputs, outputs, controls, instrumentation, by-product management and electrical safety.
+- Identify and select components for the product that are readily available, giving preference to those which are available from more than one manufacturer (multiple sourcing).
+- Plan a product using accepted fundamental design principles for ergonic form and function and structural integrity.
+- Determine component mounting and spacing requirements.
+- Analyse heat dissipation requirements and select appropriate commercial heatsinks from catalogue information. Alternatively, consider the use of a custom-built "thermal bridge" to carry regulator heat to the chassis from which it can be radiated. Limited amounts of aluminum stock will be available to fabricate these. (Heatsink selection will be the topic of a lecture and a set of practice exercises.)
+- Develop the product to meet all these requirements, using 2D and 3D CAD views to render its visualisation.
+- Use accepted drafting/CAD standards to produce Orthographic and exploded 3D views, along with a Pattern Layout that will facilitate fabrication of the prototype's sheet metal - in this case, a single flat control panel.
+PRINTED-CIRCUIT DESIGN
+- Design low-density printed-circuit artwork, single-sided and two-sided.
+- Use IPC guidelines and literature to determine required copper weight and trace width to meet ampacity requirements, trace spacing and conformal coating to meet voltage constraints, and exercise some common choices of substrate material suitable for the end-use environment, for given printed-circuit board applications.
+- Apply selected guidelines to spacing grid and track selection to suit circuit requirement for a given board.
+- Design to accepted Design Rules one single-sided printed-circuit layout, using the netlist generated from the schematic diagram, edited if and as required, to guide manual placement of components, and for the purpose of limited introductory autorouting of traces, subject to correction by the student as needed.
+- Consider two-sided and multi-layer design in regards to their providing more connection options, separating circuit functions, facilitating more uniform trace density, and allowing more compact circuit boards..
+- Design to acceptable standard one balanced double-sided printed-circuit layout file.
+PRINTED-CIRCUIT FABRICATION
+- Time permitting: Fabricate and assemble a one-off circuit board, using a photographic image ("tool") of the layout, and the contact printing and etching equipment in the BCIT prototype circuit board lab. Most years, this process is carried out by the instructor between class sessions, to allow more time for design and assembly work.
+- Describe the process, from photographing of the trace layout, to the processing of the negative tool, to the contact printing onto the circuit-board blank, to the processing of the photo resist on the blank, to the etching of (removal of unwanted copper from) the board. Compare in basic terms this contact printing method to the Gerber photo tool process.
+- Select an appropriate size of blank laminate for given circuit trace etc.
+- Operate the etching equipment to produce single prototype PCB.
+- Finish PCB edges and, optionally, clean and tin PCB.
+- Specify appropriate drill bit sizes and properly and safely use circuit-board drilling equipment.
+- Read and understand the WHMIS literature and apply appropriate safe handling practices.
+PACKAGE FABRICATION for PROTOTYPES
+- Fabricate a prototype faceplate / control panel, along with any associated bracket hardware, based on Pattern Layout.
+- Select an aluminum blank sizable enough to meet the layout requirement, including bend allowance, but not so sizable as to unduly waste material. (Inasmuch as the blank for the main faceplate is supplied as part of kit, this step will apply solely to any small extra metal blanks used in the fabrication of brackets, thermal bridges, etc.)
+- Transfer the Pattern Layout to the aluminum using acceptable prototype layout techniques.
+- Apply safely sheet metal cutting, forming, drilling and punching procedures to produce the prototype faceplate, along with related brackets, if any.
+- Do all work with care and respect and apply SAFE PRACTICES in all processes carried out in the prototype shop.
+- Describe how a production manufacturing process for one's product would differ from the techniques used to build this prototype.
+SOLDERING PRINCIPLES AND APPLICATIONS
+- Use soldering to make effective, lasting and RELIABLE electrical and mechanical connections between components, wires and circuit-board pads.
+- Attain the skills to produce acceptable "high-reliability" soldered connections, using hand soldering tools and materials appropriate to the electronics repair and prototype assembly.
+- Preform component leads as required, and mount components to circuit boards in a manner of accepted practice that addresses and avoids problems caused by heat, possible electrical arc-over, and mechanical vibration.
+- Attain the skills to apply desoldering tools and techniques to produce clean removals of components without damaging circuit boards.
+- Attain basic understanding of common circuit-board flaws and failures, and apply appropriate repair techniques.
+ASSEMBLY TECHNIQUES AND WIRING PRACTICES
+- Assemble the electronic package using fasteners appropriate to the packaging material, intended environment and economics, and using wiring practices that are safe and according to applicable codes and standards.
+- Identify and specify the various types of fastening hardware including machine screws, nuts, nut inserts, locknuts, lockwashers, self-tapping screws and pop rivets.
+- Apply wiring and harnessing techniques that will produce solid connections, continuous insulation and secure bundling and mounting of chassis interconnections.
+- Test the product and, if necessary, analyze and correct circuit problems. (Keep the smoke in!)
+THE PRODUCTION PACKAGE
+- For each project, produce a production package containing the appropriate engineering documentation.
+- Maintain a file of up-to-date engineering/manufacturing documentation on each product, which shall include schematic and wiring diagrams, orthographic and (optionally) assembly views, pattern drawings for metalwork, printed-circuit component and trace layouts, drill charts, and bills of material.
+- Recognize the critical need to revise promptly any documentation affected by design changes.
+Effective as of Spring/Summer 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

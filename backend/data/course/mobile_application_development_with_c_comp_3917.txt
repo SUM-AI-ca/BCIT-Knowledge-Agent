@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/mobile-application-development-with-c-comp-3917/
+Title: Mobile Application Development with C# COMP 3917
+Type: Course
+Course Code: COMP 3917
+
+================================================================================
+
+## Mobile Application Development with C# COMP 3917
+Computer Systems Course
+## Course Overview
+This course replaces COMP 3914 and follows on from COMP 2614 . Students who are already C# and .NET programmers are introduced to mobile application development with Xamarin from Microsoft. This open source platform used to create native mobile applications using the C# language across all major mobile platforms. Starting with a brief overview of platform specific Xamarin capabilities using Xamarin.iOS and Xamarin.Android, students then focus on Xamarin.Forms cross platform capabilities. Visual Studio is used with Android emulators as the Integrated Development Environment (IDE). Visual Studio provides a development environment with graphical designers to implement native mobile apps for iOS, Android and Windows platforms. Labs and demos introduce students to the Xamarin native platforms and Forms platform. Participants learn to access the capabilities of Xamarin.Forms platform via C# and leverage lambda expressions, async/await, constructs and LINQ in native mobile applications deployable to each platform. Topics include accessing SQL Lite database, connecting to REST based web services and accessing Cloud services from mobile apps. Upon successful completion, students will be able to use C# and. NET to write cross platform application code using Xamarin to create and deploy mobile applications to various App Stores.
+### Prerequisite(s)
+- COMP 2614 or equivalent knowledge of C# and the .NET Framework
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Explore Xamarin.iOS platform and iOS application fundamentals.
+- Explore Xamarin.Android platform and Android application fundamentals.
+- Explore Xamarin Forms architecture to build cross platform applications.
+- Understand XAML as it applies to Xamarin Forms.
+- Use databinding capabilities in Xamarin Forms.
+- Use Visual Studio IDE to design and create apps for major mobile platforms.
+- Access SQLite database via ADO.NET to provide persistence capability.
+- Use .NET threading and task constructs to build multi-threaded applications.
+- Consume external web services in the apps.
+- Access platform specific features on iOS, Android and Windows.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

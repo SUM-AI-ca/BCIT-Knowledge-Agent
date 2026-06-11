@@ -1,0 +1,85 @@
+URL: https://www.bcit.ca/courses/security-information-and-event-management-siem-security-orchestration-automation-and-response-soar-xcsa-1103/
+Title: Security Information and Event Management (SIEM)/Security Orchestration Automation & Response (SOAR) XCSA 1103
+Type: Course
+Course Code: XCSA 1103
+
+================================================================================
+
+## Security Information and Event Management (SIEM)/Security Orchestration Automation & Response (SOAR) XCSA 1103
+Cybersecurity Network Admin Course
+## Course Overview
+In this course, you will learn about FortiSIEM initial configurations, architecture, and the discovery of devices on the network and SOAR products in the industry. You will also learn how to collect performance information and aggregate it with Syslog data to enrich the overall view of the health of your environment, how to use the configuration database to greatly facilitate compliance audits, and how to integrate FortiSIEM into your network awareness infrastructure.
+### Prerequisite(s)
+- Network Defense Essential (FortiGate) , Basic knowledge of networking, routing, and switching and OS.
+### Credits
+1.0
+### Domestic fees
+$222.30 - $226.83 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify business drivers for using SIEM tools
+- Describe key features of FortiSIEM
+- Understand how collectors, workers, and supervisors work together
+- Create new users
+- Describe and enable devices for discovery
+- Configure users when to use agents
+- Perform real-time, historic structured searches
+- Group and aggregate search results
+- Create custom incident rules
+- Edit existing, or create new, reports
+- Configure and customize the dashboards
+- Identify Windows agent components
+- Describe the purpose of Windows agents
+- Understand how the Windows agent manager works in various deployment models
+- Identify reports that relate to Windows agents
+- Understand the FortiSIEM Linux file monitoring agent
+- Understand agent registration
+- Monitor agent communications after deployment
+- Describe SOAR
+Effective as of Winter 2022
+## Related Programs
+Security Information and Event Management (SIEM)/Security Orchestration Automation & Response (SOAR) (XCSA 1103) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Cybersecurity Analysis for Network Administrators Microcredential Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of XCSA 1103 for the Spring/Summer 2026 term.
+May 18 - Jul 24
+- CRN 68166
+- $222.30 Domestic fees
+Dates | Days | Times | Locations
+May 18 - Jul 24 | N/A | N/A | Online
+### Duration
+10 weeks
+### Instructor
+Hamidreza Talebi
+### Course outline
+View
+### Important information
+- For questions about this course, please contact the Program Assistant at soepts@bcit.ca . Please include your BCIT student ID (if you have one). Note: BCIT reserves the right to cancel courses. In the event of a course cancellation, you will be notified at least two business days prior to the course start. Please ensure that your contact information is current in your myBCIT.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of XCSA 1103 for the Fall 2026 term.
+Oct 13 - Dec 18
+- CRN 49699
+- $226.83 Domestic fees
+Dates | Days | Times | Locations
+Oct 13 - Dec 18 | N/A | N/A | Online
+### Duration
+10 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- This is a Distance & Online Learning course
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

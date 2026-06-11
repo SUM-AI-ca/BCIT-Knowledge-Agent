@@ -1,0 +1,60 @@
+URL: https://www.bcit.ca/courses/network-and-security-applications-development-comp-8005/
+Title: Network and Security Applications Development COMP 8005
+Type: Course
+Course Code: COMP 8005
+
+================================================================================
+
+## Network and Security Applications Development COMP 8005
+Computer Systems Course
+## Course Overview
+This course is designed to provide students with a solid set of practical skills in the area of network and system-level programming on the Linux platform. The design and implementation of IPv4/IPv6 tools is covered in-depth. Issues such as modularity and efficiency in the implementation of protocols will be covered. The emphasis will be very much the design and implementation of robust, and useful network tools. Security and private data transmission techniques over public networks are covered. Networking tools are designed and implemented using the Secure Sockets Layer (SSL) API. An in-depth coverage of techniques used to design and develop secure code and robust applications will be provided. Students will also be familiarized with the Bluetooth software development techniques.
+### Prerequisite(s)
+- 60% in COMP 7003 and 60% in COMP 7005 and 60% in COMP 8800 † ( † may be taken concurrently)
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$875.67
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement advanced communications protocols on a multi-processing, multitasking environment.
+- Use the IPV4 and IPv6 socket API calls in the design and implementation of tools.
+- Use the Berkeley Sockets API proficiently, including multicasting and raw sockets.
+- Explain public-key encryption.
+- Design and implement secure applications using SSL.
+- Design and implement basic Client/Server applications for Bluetooth devices.
+Effective as of Fall 2023
+## Related Programs
+Network and Security Applications Development (COMP 8005) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Administration Option) Bachelor of Science Part-time
+- Applied Computer Science (Network Security Applications Development Option) Bachelor of Science Full-time/Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+## Course Offerings
+- Fall 2026
+Below is one offering of COMP 8005 for the Fall 2026 term.
+Sep 11 - Nov 27
+- CRN 51107
+- $875.67 Domestic fees
+Dates | Days | Times | Locations
+Sep 11 - Nov 27 | Fri | 18:00 - 21:45 | Burnaby SE12 Rm. 323
+### Duration
+12 weeks
+### Instructor
+D'Arcy Smith
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- 1. Please email compBSc@bcit.ca for departmental approval. Include your full name, student number (A0#), course number (e.g. COMP 7000 ), and CRN #. 2. This is a BScACS course. BScACS courses are also open to non-bachelor program students, if approval is granted by the BScACS Program Head. 3. BScACS program students have up to seven (7) years to complete the program starting from the date of their first technical degree-level course or the date of acceptance to the BScACS program, whichever comes first.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

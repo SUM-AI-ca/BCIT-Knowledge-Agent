@@ -1,0 +1,48 @@
+URL: https://www.bcit.ca/courses/software-systems-comp-7855/
+Title: Software Systems COMP 7855
+Type: Course
+Course Code: COMP 7855
+
+================================================================================
+
+## Software Systems COMP 7855
+Computer Systems Course
+## Course Overview
+The course views software from a systems perspective. Software modules are viewed as components in a system. Software development methodology is reinforced in the context of an overall system design, including requirements analysis and specifications, implementation, testing, inspection, and debugging techniques. The integration of independent modules (including modules developed in different languages) is explored. Issues in distributing software functionality and data access across a network are explored. Common methods and modules for distributing system management and other functions over the Internet are discussed. Security issues related to distributed software-based systems are discussed. Students are exposed to TCP/IP network programming, and web-based user interface design.
+### Prerequisite(s)
+- ELEX 4618
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the steps of methodical design of a multifaceted system involving multiple distributed software modules and data stores over a network. [4,5,7]
+- Describe the challenges of complexity management for large distributed software systems. [2,7]
+- Analyze, design and document distributed software systems. [2,3,5,7]
+- Create a comprehensive test plan for a distributed software system. [3,5]
+- Integrate independent software modules developed in different programming languages. [4,6]
+- Identify and use the common modules and protocols implemented on the Internet for distributed system management. [2,4,5]
+- Identify the major security issues related to distributed software systems. [2,3,5]
+- Design and implement a distributed software application using standard libraries. [4,5,6]
+- Analyze, design and implement a web-based user interface for distributed software. [2,3,4,5,6]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+- 7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2017
+## Related Programs
+Software Systems (COMP 7855) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

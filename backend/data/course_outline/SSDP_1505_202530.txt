@@ -1,36 +1,39 @@
 URL: https://www.bcit.ca/outlines/20253049973/
 Course: SSDP 1505
 Field: Software Systems Relational Database Development
-
-School: School of Computing and Academic Studies
-Program: SSDP - Software System Developer Program
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 08, 2025
-End Date: May 08, 2026
-Total Hours*: 42
-Total Weeks: 6
-Hours/Weeks: 7
-Delivery Type: Lecture/Lab
-Zero Textbook Cost: Yes
-Prerequisite(s): No prerequisites are required for this course.
+Subject: Software Systems Development
+Term: 202530
 CRN: 49973
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## SSDP 1505
+## Software Systems Relational Database Development
+School | School of Computing and Academic Studies
+Program | SSDP - Software System Developer Program
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 08, 2025
+End Date | May 08, 2026
+Total Hours* | 42
+Total Weeks | 6
+Hours/Weeks | 7
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 49973
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Craig Watson
-E-mail: craig_watson@bcit.ca
-Location: BCIT Down Town Campus room 320
-Office Hours: Monday to Friday 9:00 am – 12:00 pm 1:00 pm – 4:00 pm Excluding public holidays At times I may be in class or working from home, so please email first to confirm availability.
-
-## Course Description
+### Instructor Details
+Name | Craig Watson
+E-mail | craig_watson@bcit.ca
+Location | BCIT Down Town Campus room 320
+Office Hours | Monday to Friday 9:00 am – 12:00 pm 1:00 pm – 4:00 pm Excluding public holidays At times I may be in class or working from home, so please email first to confirm availability.
+### Course Description
 ​In SSDP 1505, students learn and apply industry-standard development structures and methods for relational database design and development. The course first emphasizes structure and schema creation to ensure data accuracy and integrity. Then implementation of relational structures and management are examined through extensive coverage of Structured Query Language (SQL) for creating, reading, updating, and deleting data. A wide range of queries for joining, grouping, and aggregating data are practiced. Database objects studied also include stored procedures, views, functions, triggers, and cursors. Permissions and access management through the users and roles are examined. Common concurrency configurations are also studied. Upon successful completion, participants are able to design and build complete databases which can be integrated into other software systems.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Select appropriate database solutions for software systems.
 - Design databases that preserve data integrity.
 - Create and interpret entity relationship and Unified Modelling Language (UML) database schema diagrams.
@@ -39,79 +42,52 @@ Upon successful completion of this course, the student will be able to:
 - Apply the database-design process to implement a database application.
 - Implement complex queries for joining, grouping, and summarizing data.
 - Describe common features of concurrency control and explain why it is used.​
-
-## Learning Resources
+### Learning Resources
 All required learning materials are provided at no cost to students through the BCIT Learning Hub or in class.
-
 Online documentation and tools:
-
 - SQL Server Documentation: https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver17
 - W3Schools SQL Tutorial: https://www.w3schools.com/sql/
-
-## Course Goals
+### Course Goals
 This course provides a comprehensive foundation in relational database theory and practice. Students gain hands-on experience in schema design, data integrity enforcement, structured querying (SQL), and user access control.
-
 By the end of the course, students will be able to construct robust, normalized databases, write complex queries, and integrate database systems into broader software solutions.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Lab Exercises: 34: In-class labs using SQL Server and other tools. Graded on completion and accuracy.
-Quizzes: 30: 7 quizzes on SQL syntax, constraints, joins, and stored procedures.
-Assignment 1: 18: Schema design and ER diagram submission.
-Assignment 2: 18: Implementation of a full database system, including table creation, stored procedures, and data seeding.
-Total: 100
-
-## Attendance Requirements
+### Evaluation Criteria
+Criteria | % | Comments
+Lab Exercises | 34 | In-class labs using SQL Server and other tools. Graded on completion and accuracy.
+Quizzes | 30 | 7 quizzes on SQL syntax, constraints, joins, and stored procedures.
+Assignment 1 | 18 | Schema design and ER diagram submission.
+Assignment 2 | 18 | Implementation of a full database system, including table creation, stored procedures, and data seeding.
+Total | 100
+### Attendance Requirements
 Students are expected to attend in class and participate in all lectures and labs. Regular attendance is essential for success in this course due to the cumulative nature of the technical material and practical exercises.
-
 Missing more than 2 labs without prior notice or valid documentation may result in difficulty completing the course successfully.
-
-## Course Specific Requirements
+### Course Specific Requirements
 Students must have access to a personal laptop capable of running Windows and SQL Server.
-
-## Safety equipment or protective clothing
+### Safety equipment or protective clothing
 Not applicable. No special safety equipment is required for this course.
-
-## Other information
+### Other information
 Students are expected to bring a laptop capable of running Windows and SQL Server. Regular backups of database files and scripts are recommended.
-
-## Statement for prior learning assessment
+### Statement for prior learning assessment
 Not applicable.
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 Day 1 – Exercises 25, Quiz 15
-
 - Intro to RDBMS, ERDs, keys, conventions, requirements, relationships
-
 Day 2 – Exercises 25, Quiz 15
-
 - SQL Server, SQL syntax, data types, constraints
-
 Day 3 – Exercises 25, Quiz 15
-
 - Altering tables, operators, filtering, aggregates, joins, sub-queries, merges
-
 Day 4 – Quiz 15
-
 - Temp tables, stored procedures, dynamic SQL
 - Assignment 1 released – ERD (18 marks), due Day 7
-
 Day 5 – Quiz 15
-
 - Variables, IF–ELSE, CASE, WHILE
 - Assignment 2 released – Database Implementation and seeding (18 marks), due Day 7
-
 Day 6 – Exercises 25, Quiz 15
-
 - Advanced SQL programming (variables, control flow)
-
 Day 7 – Exercises 25, Quiz 15
-
 - Joins, views, cascading updates/delete
 - Assignment 2 due – Full implementation incl. data seeding (18 marks)
 - Assignment 2 due – Full implementation incl. data seeding (18 marks)
-
-## Course topics
+### Course topics
 - Relational database fundamentals, conventions, and business requirements
 - Entity-Relationship modeling (entities, attributes, cardinality, bridge tables, strong/weak relationships)
 - SQL Server tools and SQL syntax
@@ -121,31 +97,22 @@ Day 7 – Exercises 25, Quiz 15
 - Variables and control flow (IF–ELSE, CASE, WHILE)
 - Views, cascading updates, and deletes
 - Implementation best practices and database seeding
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Computing and Academic Studies
+### Guidelines for School of Computing and Academic Studies
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Craig Watson, Instructor September 03, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Aaron Hunter, Associate Dean September 03, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

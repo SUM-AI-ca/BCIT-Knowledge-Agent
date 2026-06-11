@@ -1,0 +1,25 @@
+URL: https://www.bcit.ca/courses/applied-virtual-private-networks-vpn-comp-4708/
+Title: Applied Virtual Private Networks (VPN) COMP 4708
+Type: Course
+Course Code: COMP 4708
+
+================================================================================
+
+## Applied Virtual Private Networks (VPN) COMP 4708
+Computer Systems Course
+## Course Overview
+This intensive 2 day workshop follows on from COMP 3705 and allows students to explore Virtual Private Networks (VPN) as another measure to provide network security. The focus of this hands-on workshop is to design, implement and maintain a VPN. Topics will also include L2TP, PPTP and IPSec. Students will examine various tunneling protocols, authentication and encryption mechanisms. There is a group project setting up site-to site as well as remote access, providing network administrators with a functional understanding of the role of VPNs in network security.
+### Prerequisite(s)
+- 50% in COMP 3705
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Specify the requirements and building blocks of a VPN.
+- Name and explain the common VPN protocols.
+- Design and implement a VPN using Windows.
+- Address VPN related security issues.
+- Manage and troubleshoot VPNs.
+Effective as of Spring/Summer 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

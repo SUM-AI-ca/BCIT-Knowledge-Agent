@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/introduction-to-amazon-web-services-comp-4913/
+Title: Introduction to Amazon Web Services COMP 4913
+Type: Course
+Course Code: COMP 4913
+
+================================================================================
+
+## Introduction to Amazon Web Services COMP 4913
+Computer Systems Course
+## Course Overview
+COMP 4913 has been replaced by COMP 3215 . This hands-on lab course is designed to provide students with the skills and knowledge to utilize a wide variety of Amazon Web Services (AWS) platform services. Participants must have a solid, prior knowledge of networking theory, data communication, Ethernet, switching, TCP/IP and using Linux and Windows Server. Students are shown how to deploy both Windows and Linux virtual machines (instances), create virtual private clouds (VPCs) with different network topologies, and manage storage capabilities They are also introduced to website and database hosting in an AWS environment. Topics include: AWS security model, configure and deploy multi-stack fault tolerant web applications, Monitoring Discussions will also cover how to evaluate the use of various AWS platform services and compare them to on premise resources. Please note: As part of this course students are required to have a valid credit card to set up an AWS account as well as purchase a domain name from a provider. Students in this course may be hosting their virtual resources outside of Canada and will be required to sign a Student Consent Statement acknowledging this fact. By the end of this course, successful participants will be able to utilize both auto-scaling and load balancing to build and deploy a multi-tier cloud web application.
+### Prerequisite(s)
+- COMP 2766 , COMP 2629 and COMP 3700 or equivalent knowledge of data communication, TCP, networking, familiarity with both Linux and Windows OS.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Deploy Elastic Cloud Compute (EC2) Amazon Machine Instances (AMIs).
+- Create EC2 security groups.
+- Create AMI volumes, snapshots configurations.
+- Create users, groups and policies using Identity Access Management (IAM).
+- Design and deploy Virtual Private Clouds (VPCs).
+- Deploy and configure Amazon Relational Database Service (RDS) databases.
+- Create and utilize Simple Storage Service (S3) buckets.
+- Create and deploy a basic NodeJS and MySQL based application
+- Implement auto-scaling and Elastic Load Balancers (ELBs).
+- Implement Route 53, DNS, and Elastic IP (EIP) addressing.
+- Utilize the AWS Command Line Interface (CLI) for Windows and Linux.
+- Explore and utilize other AWS services including Lambda, CloudWatch and Simple Notification Service (SNS), etc.
+Effective as of Spring/Summer 2017
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

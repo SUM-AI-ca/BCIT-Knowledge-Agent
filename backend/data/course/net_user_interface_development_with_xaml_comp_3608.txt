@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/net-user-interface-development-with-xaml-comp-3608/
+Title: .NET User Interface Development with XAML COMP 3608
+Type: Course
+Course Code: COMP 3608
+
+================================================================================
+
+## .NET User Interface Development with XAML COMP 3608
+Computer Systems Course
+## Course Overview
+​ COMP 3608 was replaced by COMP 3609 as of March 2019. This hands on course follows on from COMP 2614 and is aimed at .NET programmers who already understand how to write code in the .NET environment. Students gain practical skills using both Microsoft Visual Studio to develop XAML code and to build Windows Presentation Foundation (WPF) applications. Participants will learn how to best utilize WPF for porting existing Windows Forms, MFC or traditional Win32 application over to this new platform. They will be prepared to move onto COMP 3618 - Advanced .NET Application Development. Upon successful completion of this course, students will be able to quickly develop and design dynamic .NET user interfaces (UI) by prototyping applications with XAML. This course will only be offered once per year in the April term.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+2.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Understand the fundamentals of effective user interface design.
+- Understand the WPF framework architecture and design concepts.
+- Read and write the Extensible Application Markup Language (XAML) declarative language.
+- Create interface layouts using standard XAML.
+- Integrate a number of the powerful controls offered by WPF into a .NET based application.
+- Learn to build custom user controls.
+- Work with Resources, Styles, Control Templates, and Behaviours.
+- Provide themes and styles to applications by restyling controls.
+- Bind WPF controls to data sources and create functional data-driven user interfaces.
+- Work with animation and graphical rendering.
+- Add interactive dynamic objects such as 3D objects, video, and audio, to their application.
+- Implement WPF interoperability with Win32 and Windows Forms controls.
+- Inject Model-View-ViewModel "MVVM" design pattern into an existing WPF application.
+Effective as of Winter 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/database-systems-acit-1630/
+Title: Database Systems ACIT 1630
+Type: Course
+Course Code: ACIT 1630
+
+================================================================================
+
+## Database Systems ACIT 1630
+Computer Information Technology Course
+## Course Overview
+This course covers relational and NoSQL database technologies, including basic concepts, relational algebra, enhanced entity-relationship and NoSQL data modeling, functional dependencies and normalization, design methodology, SQL query language (DDL and DML), views, security and transaction management.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze database requirements.
+- Apply database design techniques including:
+- Enhanced Entity Relationship Modeling.
+- Derivation of relation schema from EER models.
+- Modeling for NoSQL databases.
+- Identification of functional dependencies.
+- Table normalization.
+- Create database and database objects using a desktop RDBMS.
+- Use SQL to implement and query a relational database.
+- Identify security issues and propose data protection techniques for databases.
+- Identify and diagnose issues related to transaction management and concurrency control.
+- Use relational algebra operations to solve relational queries.
+Effective as of Fall 2020
+## Related Programs
+Database Systems (ACIT 1630) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

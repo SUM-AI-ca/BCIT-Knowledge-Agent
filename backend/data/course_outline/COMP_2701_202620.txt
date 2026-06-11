@@ -1,0 +1,146 @@
+URL: https://www.bcit.ca/outlines/20262069898/
+Course: COMP 2701
+Field: Introduction to Procedural Programming with C
+Subject: Computer Systems
+Term: 202620
+CRN: 69898
+
+================================================================================
+
+## Course Outline
+## COMP 2701
+## Introduction to Procedural Programming with C
+School | School of Computing and Academic Studies
+Program | Computing - Flexible Learning
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | May 05, 2026
+End Date | July 21, 2026
+Total Hours* | 45
+Total Weeks | 12
+Hours/Weeks | 3.75
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 60% in COMP 2601 or 80% in COMP 2501 Students are advised to complete COMP 2601 prior to COMP 2701, unless they are very strong programmers with a higher grade in COMP 2501.
+CRN | 69898
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Bob Langelaan
+E-mail | Instructor to provide
+Location | n/a
+Office Hours | Instructor to provide
+### Course Description
+This hands-on programming course follows on from COMP 2501 and is designed for students who already know how to write code in Java. COMP 2701 introduces the C language which is one of the principal foundations of computer software and the basis for C++. Students are introduced to procedural programming and best practices for writing introductory-level C programs. Concepts taught in this course make it easier to understand other programming languages. Topics include introduction to pointers and string basics. Participants will be shown how to access and use LeetCode to gain experience solving coding problems. COMP 2701 is an elective for Applied Software Development (ASD) and required for the Computer Systems Certificate (CSC). Students will practice developing a simple C program to industry standards and gain a basic understanding of procedural programming. Upon successful completion of COMP 2701, students are prepared to move on to COMP 2801 Application Development with C.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Discuss programming language concepts such as pass-by-value versus pass-by-reference, scope, storage duration, linkage & memory models.
+- Apply the functions in the standard C library in developing programs.
+- Perform input/output in C.
+- Identify and use control statements in C programs.
+- Create and use functions in C programs.
+- Process arrays in C.
+- Explain pointers & their relation to arrays & strings.
+- Process strings in C using C library functions.
+- Access and use LeetCode to improve programming skills.
+- Be prepared to move on to C Part 2, COMP 2801- Application Development with C.
+### Learning Resources
+Required Text:
+C How To Program, Authors: Deitel & Deitel , 9th Edition ( Note : It must NOT be the international version )
+- ISBN-13: 9780137454372
+- Here is a link to the text where you can rent it for a year: https://www.pearson.com/store/p/c-how-to-program-with-case-studies-introducing-applications-and-systems-programming/P100003054045/9780137454372
+- More information about the text from the publisher: https://deitel.com/c-how-to-program-9-e/
+Learning Hub (Was formerly D2L) BCIT online portal.
+### Course Goals
+- To understand how to use an imperative programming language (C).
+- To complete the first of two courses which works towards the ability to build a significant C software application to industry standards.
+### Evaluation Criteria
+Criteria | % | Comments
+3 Quizzes | 20 | Beginning of class weeks 3, 5 and 10 on the Learning Hub.
+10 Labs | 20 | You must attempt and submit all Labs in order to pass this course. Labs must be submitted before midnight on Friday.
+4 Assignments | 20 | You must attempt and submit all 4 required assignments in order to pass the course. Assignments due dates are posted weeks in advance and in the course outline. Late Assignments will not count for marks unless written consent was given at least 5 days prior to the due date..
+Midterm Exam on Week 7 | 20 | Part 1 -30 minute multiple choice exam 8%, open book. Part 2 - 60 minute paper exam 12%, closed book. NOTE: The Midterm and Final exams will be written on the Burnaby campus in person and not online. Students must have an average of 50% or better between the Quizzes, Midterm and Final exams combined to pass.
+Final Exam on Week 12 | 20 | Part 1 -30 minute multiple choice exam 8%, open book. Part 2 -90 minute paper exam 12%, closed book. NOTE: The Midterm and Final exams will be written on the Burnaby campus in person and not online. Students must have an average of 50% or better between the Quizzes, Midterm and Final exams combined to pass.
+NOTE: The total passing grade for this course is 60%. | NOTE: The total passing grade for this course is 60%.
+Academic Integrity and the use of Artificial Intelligence
+NOTE: By attending this course students agree to read this entire outline and understand that they have been made aware of the following:
+Plagiarism and other forms of cheating will not be tolerated.
+- Students are encouraged to work in groups to develop peer to peer communication and support. However, each student must complete and submit their own individual work (not copies of the same assignment) and not material found online or recycled from other courses. Assignments and labs are to be completed by each student on an individual basis unless stated otherwise.
+Academic misconduct includes providing solutions to other students .
+- Students who cheat or enable other students to cheat will be documented. Any subsequent instances of academic misconduct will meet with harsher penalties. Penalties include being dropped with no refund and failing the course and/or being indefinitely removed from the program.
+Use of Artificial Intelligence (AI):
+- The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of an assignment or an assessment of the student is prohibited and will result in an academic integrity violation.
+Academic Integrity:
+- Violation of academic integrity, including plagiarism, dishonesty in assignments, examinations, or other academic performances are prohibited and will be handled in accordance with Policy 5104 - Academic Integrity and Appeals , and accompanying procedures.
+- A violation of academic integrity may result in one or more of the following consequences: A written warning. A failing or lower grade on the work submitted. Failing the course if the violation occurs on a final exam. An academic misconduct letter being placed on the student’s record.
+A lack of familiarity with the regulations cannot be used as a defence by those found to have violated academic integrity policy.
+### Attendance Requirements
+Welcome to BCIT Computing
+Please bookmark the Computing Flexible Learning landing page.
+Be sure to read the following important information:
+- Student Resources
+- Computing Peer Tutors
+- Frequently Asked Questions
+- Course and Program Changes
+Note: By attending this course you agree to read the Computing Flexible Learning Student Guide in order to be aware of workload expectations, our department policies, and who to contact.
+Computing Flexible Learning Attendance Policy
+- Attendance in all lectures and labs is required and recorded.
+- Regular attendance and participation are key to student success; missing classes and not participating or completing homework will affect your ability to complete the course.
+- If you are absent due to illness or unavoidable reasons (e.g., medical emergencies, family bereavement, etc.), please notify your instructor with-in 24 hours but preferably prior to the missed class.
+It is your responsibility to request access to missed materials or utilize online resources to make up your missed class and be ready for the follow-in class.
+- For absences more than one class, you must contact the Computing Flexible Learning department via email: cstflex@bcit.ca .
+Please provide a brief explanation of your absence and how you intend to make up the missed work. (e.g., request access to missed materials, and utilize online resources).
+- Simply stopping attendance does not constitute a course withdrawal.
+Please notify your instructor that you are dropping the course, plus you must complete and submit the Flexible Learning Course Withdrawal Form prior to the course withdrawal deadline detailed on your course outline.
+Note: Simply stopping attendance does not constitute a course withdrawal and will result in grade of “V” for Vanished which counts as 0% FAIL in your GPA.
+### Course Specific Requirements
+- All students must provide their own current model PC desktop or laptop with a web cam, a microphone and have high speed internet access. BCIT does not provide technical support for student’s devices.
+- Courses will be delivered in real time and may use two-way audio and video as well as group work.
+- All students must be computer literate and be able to log in during regular scheduled class hours in order to participate and complete this course.
+### Other information
+BCIT Computer Use Guidelines
+School of Computing students are expected to use BCIT resources in both a professional and ethical manner. When using BCIT computer resources, some specific expectations include:
+- Respect others. Do not download, view, or distribute inappropriate or offensive material.
+- Respect copyright. Do not download or share any unauthorized materials (e.g. music, movies, games and software).
+- Respect our vendor software agreements. Do not download products which are not used in your specific courses (we have tracking mechanisms in place). It is each student's responsibility to remove vendor provided software when the course ends.
+- Respect confidentiality. Do not attempt to gain unauthorized access to any account, system, or data. Do not attempt to bypass any protective mechanism or attempt unauthorized access or alteration of BCIT data.
+- Respect availability. Do not engage in any denial of service activity or take actions that will degrade the use of BCIT or other resources. Only use BCIT resources for your BCIT course work.
+Please read BCIT policies 3501 Acceptable Use of Information Technology and 3502 Information Security .
+Consequences of policy violation could result in loss of access to BCIT resources and / or removal from classes.
+### Course Schedule and Assignments
+Late Assignments will not count for marks unless written consent was given at least 5 days prior to the due date.
+### Course topics
+Week of / Number | Outcome/Material Covered | Assignment | Due Date
+1/12 | Introduction ( Chapter 2 of the text )
+2/12 | Review of control structures ( Chapters 3 and 4 of the text ) A brief introduction to Leetcode.com | Practice assignment 1. | Week 3
+3/12 | Functions - part 1 ( Chapter 5 of the text ) - Includes introduction to random number generation | Specified 2 optional Leetcode exercises. Assignment 1 | Week 4 Week 5
+4/12 | Functions - part 2 ( Chapter 5 of the text ) - Complete the introduction to random number generation - Introduction to storage classes | Specified 2 optional Leetcode exercises. | Week 5
+5/12 | Arrays - part 1 ( Chapter 6 of the text ) - Introduction to 1D numeric arrays | Specified 2 optional Leetcode exercises. Assignment 2 | Week 6 Week 8
+6/12 | Arrays - part 2 ( Chapter 6 of the text ) - Introduction to 2D arrays and char arrays (used to represent strings) | Students should be reviewing labs and assignments to prepare for next weeks's midterm exams.
+7/12 | Introduction to dynamic memory allocation using functions malloc() and free() (Chapter 12 of the text) - Look at a Leetcode exercise that requires use of the malloc() function Midterm Examination (on campus) | Specified 2 optional Leetcode exercises. | Week 8
+NOTE: Course Withdrawal Deadline. Please inform your instructor that you are dropping this course. You must also fill out and submit the ' Flexible Learning Course Withdrawal form ', before week 8 or you will receive a failing grade on your academic record.
+8/12 | Pointers - part 1 ( Chapter 7 of the text ) | Assign 3 | Week 10
+9/12 | Pointers (part 2) ( Chapter 7 of the text ) | Specified 2 optional Leetcode exercises. | Week 9
+10/12 | C library char and string functions - part 1 ( Chapter 8 ) | Assign 4 | Week 12
+Course evaluation: To be conducted online during week 11 prior to the class break. Students will have previously received a link to the survey via their preferred email. Those who do not have the link in their preferred email cannot complete this online evaluation. If you did not receive the link please email: BCIT_Feedback@bcit.ca at least 48 hours before week 9. Your instructor will leave the room for 15 minutes while each student logs in and completes this anonymous course evaluation.
+11/12 | C library char and string functions - part 2 ( Chapter 8 ) | Review labs and assignments to prepare for the final exams the following week.
+12/12 | Final Examination (on campus)
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Bob Langelaan, Instructor April 22, 2026
+I verify that this course outline has been reviewed. Joanne Atha, PTS Coordinator April 24, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean April 24, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

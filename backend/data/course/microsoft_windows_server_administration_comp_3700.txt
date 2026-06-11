@@ -1,0 +1,38 @@
+URL: https://www.bcit.ca/courses/microsoft-windows-server-administration-comp-3700/
+Title: Microsoft Windows Server Administration COMP 3700
+Type: Course
+Course Code: COMP 3700
+
+================================================================================
+
+## Microsoft Windows Server Administration COMP 3700
+Computer Systems Course
+## Course Overview
+​​This hands-on course follows on from COMP 1002 and COMP 2629 . Students, who already understand how to use MS Windows, network data communication, and TCP will work in teams to plan, install and administer Microsoft Windows Server 2019. COMP 3700 is delivered in a virtual environment using VMWARE. Students are required to provide their own SSD drive with 120 GB capacity for back-up each week. Participants will gain experience and best practices of administration used in a client /server network environment. Topics include: Design and Implement Active Directory, create and maintain users and groups, roaming profiles, DHCP, VPN, RDS management, storage solutions using RAID, print servers. Group policies, backup management, and disaster recovery are also discussed. There is an overview of troubleshooting, performance monitoring and fine-tuning MS Windows Server for optimal performance. Participants will be prepared to continue to Applied Network Security. Upon completion, successful students will be able to use built-in troubleshooting tools, monitor performance, and implement a security and recovery plan for Windows Server 2019. Please note: COMP 3700 has been replaced by COMP 3677 ​ and COMP 3681 ​.
+### Prerequisite(s)
+- 60% in COMP 2629
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Plan and implement a Microsoft Windows Server v2019.
+- Plan, design and implement Active Directory Domain Services.
+- Create and manage users, groups, shares, and file permissions.
+- Implement and test Roaming profiles for clients.
+- Plan and implement Group Policies and Local Security Policies.
+- Implement and configure Print Servers using universal print drivers or manufacture provided drivers.
+- Plan and implement Dynamic Host Configuration Protocol (DHCP) services.
+- Plan and implement a Virtual Private Network (VPN).
+- Plan and Implement Remote Desktop Services (RDS).
+- Strategy for backup management and implement it using Windows backup built-in tool
+- Plan and implement a disaster recovery plan for a MS Windows Server environment.
+- Troubleshoot a MS Windows Server using built-in troubleshooting tools.
+- Fine tune and monitor performance on a MS Windows Server.
+- Move on to COMP 4704 -Applied Network Security.
+Effective as of Spring/Summer 2021
+## Related Programs
+Microsoft Windows Server Administration (COMP 3700) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Network Administration and Design Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

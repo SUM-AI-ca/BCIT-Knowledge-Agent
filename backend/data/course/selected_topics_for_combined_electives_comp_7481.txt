@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/selected-topics-for-combined-electives-comp-7481/
+Title: Selected Topics for Combined Electives COMP 7481
+Type: Course
+Course Code: COMP 7481
+
+================================================================================
+
+## Selected Topics for Combined Electives COMP 7481
+Computer Systems Course
+## Course Overview
+This course exposes students to selected technology topics relevant to network architecture and design. The course begins by an introduction to assembly language programming, covering types of instructions, data storage, registers, addressing modes, stack operations, and branching. The course applies assembly language to the task of malware analysis. The second half of this course covers cryptology, the study of cryptography (encrypting secret messages), and cryptanalysis (deciphering secret messages). The course will look at the history of cryptology starting from classic ciphers, to modern symmetric systems (DES, AES), asymmetric systems (RSA), and hashes. Students will look at the various applications of modern cryptography in network analysis and design. This is a lab based course accompanied with short lectures and workshop discussions and presentations. This course will culminate with a final project.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify and explain the addressing modes used in an assembly program.
+- Explain the functionality of the stack during function calls.
+- Explain how data of various types are declared in assembly language and stored in memory.
+- Develop programs and functions in assembly language.
+- Apply knowledge of assembly language to the task of malware analysis.
+- Explain the history and evolution of cryptography and cryptanalysis.
+- Evaluate the general the operation of modern ciphers and hashes.
+- Differentiate between symmetric and asymmetric cryptographic systems.
+- Incorporate cryptographic solutions into network analysis and design.
+Effective as of Winter 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

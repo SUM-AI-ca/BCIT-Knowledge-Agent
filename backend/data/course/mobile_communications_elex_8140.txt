@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/mobile-communications-elex-8140/
+Title: Mobile Communications ELEX 8140
+Type: Course
+Course Code: ELEX 8140
+
+================================================================================
+
+## Mobile Communications ELEX 8140
+Electrical and Computer Engineering Course
+## Course Overview
+This course covers an introduction to past and modern wireless communication systems (2G, 3G and Bluetooth). The cellular concept and system design fundamentals are presented. Discussion of mobile radio propagation for large-scale path loss is followed by small-scale fading and multi-path. A summary of various modulation techniques is given. Finally, multiple access techniques for wireless communication are described. There will be two or more labs. and a team project regarding coverage prediction and frequency re-use for a region of North America.
+### Prerequisite(s)
+- 50% in ELEX 7230
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain wireless communication systems.
+- Tell difference between 2G, 2.5G, TDMA, CDMA , 3G systems, WLANS and Bluetooth systems.
+- Describe the cellular concept, frequency reuse, interference, and power control.
+- Calculate GOS, trunking, cell splitting and sectoring.
+- Derive free-space propagation reflection., and two-ray model equations.
+- Differentiate diffraction and scattering.
+- Prepare a link budget using various outdoor path loss models.
+- Perform an experiment on two ray measurements.
+- Compare indoor propagation models, and calculate signal penetration into building.
+- Calculate small-scale multipath propagation equations.
+- Solve impulse response of a mutipath channel problems.
+- Solve time dispersion, coherence bandwidth and Doppler shift problems.
+- Make measurements and analyze data.
+- Differentiate flat and frequency selective fading.
+- Solve fast and slow fading problems.
+- Derive Rayleigh and Rician distributions.
+- Compare AM, SSB, and FM.
+- Describe pulse shaping techniques.
+- Compare linear modem techniques (BPSK, DPSK, and QPSK).
+- Compare nonlinear modem techniques (FSK, MSK, and GMSK).
+- Describe spread spectrum modulation (DS-SS, FH-SS).
+- Describe multiple access techniques (FDMA, TDMA, FHMA, CDMA and SDMA).
+- Solve packet radio protocols (ALOHA, CSMA and PRMA) problems.
+Effective as of Fall 2006
+## Related Programs
+Mobile Communications (ELEX 8140) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electronics Bachelor of Technology Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

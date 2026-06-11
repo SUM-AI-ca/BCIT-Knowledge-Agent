@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/control-elex-0371/
+Title: Control ELEX 0371
+Type: Course
+Course Code: ELEX 0371
+
+================================================================================
+
+## Control ELEX 0371
+Electrical and Computer Engineering Course
+## Course Overview
+This is a refresher course in control systems and it consists of tutorials and examinations to prepare candidates for the National Examinations 98-Elec-A2 Control. This course begins with an introduction to models, transfer functions, poles and zeros and system response. System block diagrams and their manipulations are then covered. First order, second order and higher order systems are then described. Design tools such as the root locus, Bode diagrams, and Nyquist plots are described in detail. The course culminates in coverage of controller design via frequency domain techniques and pole placement.
+### Prerequisite(s)
+- 50% in ELEX 7220
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Manipulate models and transfer functions of dynamic systems.
+- Manipulate block diagrams of dynamic systems.
+- Design pole placement controllers.
+- Draw a root locus.
+- Employ the root locus to design a controller.
+- Interpret the frequency of a system, the Nyquist diagram, and the Bode plot.
+- Design a compensator in the frequency domain.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

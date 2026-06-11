@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/cryptography-fsct-8581/
+Title: Cryptography FSCT 8581
+Type: Course
+Course Code: FSCT 8581
+
+================================================================================
+
+## Cryptography FSCT 8581
+Forensic Investigation Course
+## Course Overview
+This course teaches students the art and science of securing data in the presence of an adversary, namely cryptography. The course begins with the mathematical foundations of cryptography, including pseudo-random number generation, and hence proceeds with a coverage of secret key algorithms and public key algorithms. The students learn the principles of operation of such cryptographic techniques, along with representative algorithms from both fields. The students also learn attack techniques that apply to secret key algorithms and public key algorithms. The course teaches students the design and use of stream ciphers as well. The students learn various schemes to securely manage and exchange cryptographic keys. The students also learn applications of one-way functions to compute and verify hashes and digital signatures. The course also teaches students the principal identification schemes currently in use. Throughout the course, the students also learn the use of various cryptographic tools.
+### Prerequisite(s)
+- 60% in FSCT 7511
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss the mathematical foundations of cryptography.
+- Analyze pseudo-random number generators.
+- Outline, design, use, and cryptanalyze a symmetric cryptographic algorithm.
+- Outline, design, use, and cryptanalyze an asymmetric cryptographic algorithm.
+- Discuss the inner workings of a stream cipher.
+- Justify and implement key management schemes.
+- Justify and implement key exchange algorithms.
+- Calculate and verify hashes and digital signatures.
+- Apply identification schemes.
+- Apply identification schemes.
+Effective as of Winter 2018
+## Related Programs
+Cryptography (FSCT 8581) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Forensic Investigation (Digital Forensics and Cybersecurity Option) Advanced Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

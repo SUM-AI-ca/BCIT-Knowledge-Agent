@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/design-and-create-apps-for-the-iphone-and-ipad-mdia-2652/
+Title: Design and Create Apps for the iPhone and iPad MDIA 2652
+Type: Course
+Course Code: MDIA 2652
+
+================================================================================
+
+## Design and Create Apps for the iPhone and iPad MDIA 2652
+Media Communications Course
+## Course Overview
+This course is designed for the enthusiastic software developer who wants to learn to build native applications and games for the Apple iPhone, iPad and iPod Touch. The course begins by introducing the tools, language and concepts to allow beginners to the platform to get started, and it quickly ramps up to present information that would satisfy even the most experienced developers. The issues presented are ranging from generic good design and programming principles, to specific Objective C and Cocoa Touch programming patterns, tips and tricks, along with Apple?s guidelines for application development and design. Recognizing that high quality code increases productivity and reduces costs, this course emphasizes a good understanding of memory management issues, debugging, use of performance instruments, and use of unit testing in an environment specific to Objective C and Cocoa Touch. Development process in a team setting is also highly emphasized.
+### Prerequisite(s)
+- COMP 2613 or COMP 2614 or COMP 2617 or equivalent knowledge in Object Oriented Programming with Java, C#, C++ or Python.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Develop the skills necessary to write Objective-C and Cocoa Touch applications.
+- Develop the skills necessary to create mobile applications for the iPhone and iPod Touch.
+- Gain experience with the XCode development environment on the Macintosh.
+- Gain the skills necessary to debug, profile and optimize their application.
+- Explain the principles of the Model View Controller design pattern.
+- Design the interface of a mobile application that conforms to Apple's Human Interface Guidelines.
+- Analyse the performance implications of developing applications on a constrained device.
+- Illustrate the principles behind location awareness.
+- Understand the multi-touch interface model.
+- Develop the skills necessary to create rich multimedia applications.
+Effective as of Winter 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

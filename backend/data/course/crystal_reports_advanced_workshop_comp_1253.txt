@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/crystal-reports-advanced-workshop-comp-1253/
+Title: Crystal Reports Advanced Workshop COMP 1253
+Type: Course
+Course Code: COMP 1253
+
+================================================================================
+
+## Crystal Reports Advanced Workshop COMP 1253
+Computer Systems Course
+## Course Overview
+COMP 1253 has been replaced by COMP 2253 . This hands-on workshop continues on from COMP 1250 /1251 and explores the advanced features of Crystal Reports v2011. Students who already know how to use Crystal Reports formulas learn advanced functions and industry reporting standards.Topics include: Custom Functions, Shared Variables, Arrays, Ranges, Repository Items, SQL Commands, and Mapping.Time saving techniques and understanding the best practices for Crystal Reports are also discussed. By the end of this course, successful participants will know how to write SQL expressions that talk directly to databases, to make advanced reports.
+### Prerequisite(s)
+- COMP 1251
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Design multi-pass reports, use evaluation time functions.
+- Create a manual running total.
+- Use a dynamic array.
+- Create unlinked and linked subreports.
+- Create an on-demand subreport, use shared variables with subreports.
+- Build complex formulas, use loop control structures with arrays.
+- Use custom functions.
+Effective as of Spring/Summer 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

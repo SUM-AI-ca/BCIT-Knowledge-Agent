@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/encryption-fsct-8580/
+Title: Encryption FSCT 8580
+Type: Course
+Course Code: FSCT 8580
+
+================================================================================
+
+## Encryption FSCT 8580
+Forensic Investigation Course
+## Course Overview
+This course will focus on the concepts and applications of cryptography, covering topics on symmetric and asymmetric cryptography; secret key and key exchange; stream and block ciphers; message digests; public and private keys; digital signatures, digital certificates and Public Key Infrastructure (PKI); SSL, IPSec VPN's, S/MIME, PGP and WEP/WPA; cryptographic and non-cryptographic attacks; randomness and primality; cryptographic algorithms (DES, 3DES, AES, Blowfish, RSA, DSA, DH, El Gamal, ECC, MD5, SHA, RC4, etc.); and authentication, confidentiality, integrity and non-repudiation. Introduction to real-world use and applications will be included.
+### Prerequisite(s)
+- Admission to a Forensic credential program or permission of the Program Coordinator.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss the major trends in cryptographic evolution, including legal and ethical issues.
+- Compare the strengths and weaknesses of symmetric and asymmetric algorithms, of message digest implementations, and of various cipher modes.
+- Design a simple public key algorithm.
+- Assess the strengths and weaknesses of cryptographic algorithms, such as DES, 3DES, AES, RSA, DSS, ECC, DH, RC4, etc.
+- Discuss secure implementations of practical real-world cryptographic systems such as EFS, Entrust Client, Wireless, S/MIME, SSL, PGP, VPN's, Smartcards and SSH.
+- Assess public and secret key algorithms to determine their vulnerability to common methods of attack.
+- Critically evaluate cryptographic solutions in terms of the cryptographic assurances they provide, the method of implementation, their adherence to standards, and their potential weaknesses.
+- Use cryptographic tools and solutions, including S/MIME, OpenSSL, PGP and PKI.
+- Explain the need for secure key exchange and management, and the various techniques available.
+- Compare the strengths and weaknesses of network-based (PGP) and hierarchical PKI systems (X509).
+Effective as of Fall 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

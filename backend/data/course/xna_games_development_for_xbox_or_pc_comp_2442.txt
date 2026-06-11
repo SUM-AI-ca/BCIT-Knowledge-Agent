@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/xna-games-development-for-xbox-or-pc-comp-2442/
+Title: XNA Games Development for Xbox or PC COMP 2442
+Type: Course
+Course Code: COMP 2442
+
+================================================================================
+
+## XNA Games Development for Xbox or PC COMP 2442
+Computer Systems Course
+## Course Overview
+Do you want to learn to program complete 3D games that run both on the PC or Xbox 360? This course introduces XNA, a set of freeware tools and a run-time environment using C# from Microsoft for non-commercial games development. Students learn to create a game engine, add gaming graphics and audio effects. Homework and assignments re-enforce the learning outcomes and teach students to create their own personal 3D game. Participants are encouraged have an Xbox 360 console but it is not required for this course. Students programming on the Xbox 360 must also be a member of Microsoft's XNA Creator's Club. A Windows PC running XP or Vista, with a accelerated graphics video card that supports shader model 2.0 is required.
+### Prerequisite(s)
+- 50% in COMP 1441 or 50% in COMP 1451
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Implement lighting, display fonts, animate objects.
+- Write and implement shaders.
+- Create and implement 3D models.
+- Develop image and texturing effects.
+- Build a graphics engine from scratch.
+- Code input for keyboard, mouse, and Xbox 360 game controller.
+- Implement collision detection.
+- Apply vector and matrix math.
+- Create a complete 3D game that runs either on the Xbox 360 or PC.
+Effective as of Spring/Summer 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

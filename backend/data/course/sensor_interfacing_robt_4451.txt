@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/sensor-interfacing-robt-4451/
+Title: Sensor Interfacing ROBT 4451
+Type: Course
+Course Code: ROBT 4451
+
+================================================================================
+
+## Sensor Interfacing ROBT 4451
+Mechatronics and Robotics Course
+## Course Overview
+This course covers interfacing microcontrollers to the digital and analog sub-systems found in mechatronic systems, robots, and industrial manufacturing systems. Topics include digital serial communications (SPI, I2C, UART), digital-to-analog (DAC) and analog-to-digital (ADC) converters, representing signals in the frequency domain (signal spectra, sampling and aliasing), sensor devices (optical encoders, potentiometers, resolvers, accelerometers), isolation, interconnect and power distribution techniques used in sensor/actuator systems, and MOSFET and SCR based drivers.
+### Prerequisite(s)
+- 50% in ELEX 3321 and 50% in ROBT 3351 and 50% in ROBT 3356
+### Credits
+8.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the common digital serial sub-systems used in microcontroller systems.
+- Use digital serial sub-systems of a microcontroller to communicate with digital peripherals and sensors.
+- Describe various ADC and DAC techniques, applications and their specifications.
+- Apply various types of ADC and DAC converters to data acquisition and control applications.
+- Build ADC, DAC and signal-conditioning circuits.
+- Describe a variety of robotic sensory devices such as potentiometers, resolvers and optical encoders.
+- Build the interfacing hardware/software needed for direction, position and velocity control using optical encoders.
+- Use the ADC sub-system of a microcontroller to read analog signals.
+- Use frequency domain techniques to understand signal spectra, sampling and aliasing in analog and sampled data systems.
+- Build transistor and SCR based drivers.
+- Use interconnect, isolation and power distribution techniques to minimize noise in analog data acquisition systems.
+- Apply design and troubleshooting skills to create functional mechatronic systems.
+Effective as of Winter 2017
+## Related Programs
+Sensor Interfacing (ROBT 4451) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/website-optimization-with-google-analytics-comp-2251/
+Title: Website Optimization with Google Analytics COMP 2251
+Type: Course
+Course Code: COMP 2251
+
+================================================================================
+
+## Website Optimization with Google Analytics COMP 2251
+Computer Systems Course
+## Course Overview
+This hands-on course follows on from COMP 1850 and COMP 2015 or those who already understand scripting with HTML, CSS, JavaScript and jQuery. Students are shown how to use web analytics software such as Google Analytics and Google Optimize to gain a better understanding of users' journey across a website and connected digital properties. Google Tag Manager is used to collect clean and reliable web data in Google Analytics. Participants generate various analytics reports and dashboards in Google Analytics and Google Data Studio to analyze web data to improve user experience and website usability. Labs and exercises are designed to reinforce best practices for digital data collection through real case-studies in complex web ecosystems. Topics include: Develop and implement web data collection procedures in Google Analytics using Google Tag Manager, testing and experients using Google Optimize, survey and Heatmap tools, data analysis tools and techniques using dashboards, custom reports and segmentation. Students will examine opportunities for continued website improvement and learn how to optimize web pages for better traffic acquisition. By the end of this course successful participants will be able to collect reliable and actionable web data in Google Analytics using Google Tag Manager for continuous website usability improvement. COMP 2251 will be offered once a year in the fall term.
+### Prerequisite(s)
+- COMP 1850 and COMP 2015 or equivalent knowledge of HTML5, CSS3, JavaScript and jQuery.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completi9on of this course, the student will be able to:
+- Describe Web and Digital Analytics fundamentals and data collection methods.
+- Explain Google Analytics data model and tracking libraries.
+- Setup and configure Google Tag Manager and Google Analytics.
+- Install, debug, and implement Google Analytics data collection using Google Tag Manager.
+- Implement advanced Google Analytics data collection techniques including Event Tracking, Custom Dimensions, and Custom Metrics using Google Tag Manager.
+- Assess web data quality and improve data collection to acquire clean and high-quality data .
+- Explain users' journey on a website using Google Analytics built-in and custom reports and make suggestions to improve website usability.
+- Setup and run A/B/N Testing experiments and Heatmap Tracking and use them to improve website user experience.
+- Implement web data collection on an E-Commerce website using Google Analytics and Google Tag Manager.
+- Evaluate sales funnel on an E-Commerce website, and use web data to improve the funnel performance.
+Effective as of Spring/Summer 2018
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,42 @@
+URL: https://www.bcit.ca/courses/enterprise-network-design-comp-3521/
+Title: Enterprise Network Design COMP 3521
+Type: Course
+Course Code: COMP 3521
+
+================================================================================
+
+## Enterprise Network Design COMP 3521
+Computer Systems Course
+## Course Overview
+This course has been replaced with COMP 2629 . Following on from COMP 1002 students are introduced to the basic concepts and terminology related to data communications and network design. COMP 3521 replaces both COMP 2654 and COMP 3821 in the ANAD -Applied Network Administration and Design Associate Certificate. It will also be an elective in the CST/PTS Diploma as it is required for several other networking related electives. The basics of designing, implementing and managing computer networks are introduced. Students will investigate communications systems, business networking requirements, LAN cabling issues, addressing, and connectivity options and wireless design needs. Topics: include network topologies, protocols, transmission media, switching techniques, access control and addressing. The OSI hierarchical model as well as the TCP/IP protocol suite will be used throughout the course to demonstrate concepts and implementation. Participants will examine how network communication and addressing relate to network design and network administration. Assignments and exercises will demonstrate how communication theory models help improve design and troubleshooting processes within TCP/IP networks. There is a focus on Ethernet and TCP/IP protocols to examine how computers exchange data over local area networks and wide area networks via the Internet. Upon successful completion students will be familiar with the issues involved in designing a large scale, multi-location enterprise network and be prepared to start COMP 3700 MS Windows Server Administration.
+### Prerequisite(s)
+- COMP 1002 or equivalent knowledge.
+### Credits
+5.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain basic data communication concepts and terminology related to networking.
+- Apply basic data communication theory to the analysis of networks.
+- Describe the characteristics of various transmission media.
+- Recognize characteristics of different types of information used on computer networks.
+- Describe the use of network architectures in implementing data networks.
+- Discuss and compare network protocol implementation using a layered approach.
+- Recognize the differences and similarities in protocols at the physical, data-link, network, transport and application layers.
+- Explain the characteristics of different transmission media used in network communications.
+- Have an in-depth knowledge of Ethernet technologies and the implementation of them.
+- Explain the methods Ethernet uses for signal transmission and data link control.
+- Describe Ethernet Switching, including Vlan technology, the Spanning Tree Protocol, and other related issues surrounding the Ethernet Switching arena.
+- Be aware of the implications of extending the Ethernet Switched network beyond the LAN.
+- Describe wireless technologies features and address wireless design needs.
+- Discuss the difference between a private network and public network, such as the Internet.
+- Describe the role and function of bridges, switches and routers when used to interconnect LANs.
+- Explain the OSI and TCP/IP models.
+- Describe IP addressing, design schemes and address deployment.
+- Be familiar with the issues involved in designing a large scale, multi-location enterprise network.
+Effective as of Winter 2016
+## Related Programs
+Enterprise Network Design (COMP 3521) is offered as a part of the following programs:
+### School of Computing and Academic Studies
+- Applied Network Administration and Design Associate Certificate Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

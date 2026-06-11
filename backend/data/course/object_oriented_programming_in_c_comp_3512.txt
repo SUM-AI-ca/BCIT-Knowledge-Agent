@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/object-oriented-programming-in-c-comp-3512/
+Title: Object Oriented Programming in C++ COMP 3512
+Type: Course
+Course Code: COMP 3512
+
+================================================================================
+
+## Object Oriented Programming in C++ COMP 3512
+Computer Systems Course
+## Course Overview
+This course covers a paradigm in programming which deals with classes and objects. A number of features of the C++ language will be covered including inheritance, polymorphism, templates, exceptions and the Standard Template Library.
+### Prerequisite(s)
+- 50% in COMP 2510
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+By the end of this course, the student will be able to:
+- Design and code basic C++ programs.
+- Understand abstract data types as represented in C++ code.
+- Design and code good C++ classes.
+- Understand and use common algorithms expressed in C++.
+- Use inheritance to capture and reuse common behavior.
+- Use polymorphism to create easily extensible systems.
+- Use templates to create reusable containers and iterators.
+- Use multiple inheritance to model complex abstractions.
+- Use exception handling to catch errors and properly release resources.
+- Use simple persistence strategies for preserving objects between program invocations and/or share objects between programs.
+- Use the standard C++ library.
+Effective as of Fall 2003
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

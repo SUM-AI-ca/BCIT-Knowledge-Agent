@@ -1,0 +1,44 @@
+URL: https://www.bcit.ca/courses/electrical-technology-3-meoc-3302/
+Title: Electrical Technology 3 MEOC 3302
+Type: Course
+Course Code: MEOC 3302
+
+================================================================================
+
+## Electrical Technology 3 MEOC 3302
+Marine Engineer Officer Cadet Course
+## Course Overview
+This course introduces students to both passive and active electronic components – op amps, 555 timer, TTL, CMOS digital circuits, and rectifiers. Basic analog and digital circuits, as well as theory of operation, are covered with emphasis on marine applications. Students will study and solve problems in single-phase and three-phase alternating current systems and circuits; these circuits contain resistors, inductors, and capacitors. Students will also solve circuit calculations to determine: Power Factor and the concept of Reactive or Wattless Power, Real Power, and Apparent Power in single and three-phase circuits. Single and three-phase transformer connections, instrument transformers, current and potential transformers, and Wattmeter connections are also covered. A section of this course will cover the characteristics, applications, and maintenance of DC motors and generators. Students will study switchboard protective devices, fuses, circuit breakers, reverse power and overcurrent trips, IR monitoring, high voltage safety, permits to work, and high voltage IR testing motors, generators, and cables. Diesel electric propulsion and battery hybrid propulsion has become increasingly important in recent years, and these topics will also be covered. The labs in this course are designed to enable students to master, safely connect and test various electrical machines, both AC and DC. Students will use test instruments, build electronic circuits, and troubleshoot. These labs reinforce circuit and theory concepts with a hands on approach, allowing students to gain significant experience working with electrical equipment and instrumentation.
+### Prerequisite(s)
+- MEOC 2302
+### Credits
+10.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Build and test digital logic circuits both TTL and CMOS.
+- Build and test bipolar junction transistor (BJT), comparators, oscillators, and op amp circuits.
+- Build and test single-phase and three-phase rectifiers.
+- Calculate the power and power factor in single and three-phase AC circuits.
+- Draw phasor diagrams showing the relationship between current and voltage in single and three-phase circuits containing RLC components.
+- Calculate the capacitance to be added to correct the power factor.
+- Sketch a single-phase and a three-phase transformer, and perform open-circuit and short-circuit tests.
+- Calculate the line voltage and current, and the phase voltage and current in Star-Star, Star-Delta, Delta-Delta, Delta-Star, and open Delta transformers supplying a three-phase load.
+- Sketch a current transformer, and state what precautions must be taken if measuring ammeter is removed from the circuit.
+- Perform the no-load and full-test transformer tests.
+- Calculate the torque developed by DC series, shunt, and compound motors.
+- Describe the entire procedure, in proper sequence, for installing and seating new brushes in a DC machine.
+- State the procedure for starting a DC motor with a manually-operated starter.
+- Describe how to parallel DC shunt, and compound generators.
+- Describe characteristics of three-phase asynchronous and synchronous machines.
+- Parallel ship's three-phase AC generators.
+- Complete a Permit to Work (PTW) for electrical work on < 1000V and =>1000V system.
+- State marine High Voltage is 1000V or higher and a PTW is required before any work can be carried out.
+- Sketch a function block diagram of Diesel Electric and Hybrid Electrical propulsion systems.
+Effective as of Fall 2021
+## Related Programs
+Electrical Technology 3 (MEOC 3302) is offered as a part of the following programs:
+- Indicates programs with a co-op option.
+### School of Transportation
+- Marine Engineering Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

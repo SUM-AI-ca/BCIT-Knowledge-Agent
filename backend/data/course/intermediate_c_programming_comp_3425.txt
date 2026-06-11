@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/intermediate-c-programming-comp-3425/
+Title: Intermediate C Programming COMP 3425
+Type: Course
+Course Code: COMP 3425
+
+================================================================================
+
+## Intermediate C Programming COMP 3425
+Computer Systems Course
+## Course Overview
+This course has been replaced by COMP 2717 - C Programming 2 as of November 2, 2009. This hands-on lab course is only for those who already understand the basics of the C programming language, continuing on from COMP 2617 or prior C courses. Students learn to write intermediate level C programs, understand the build process, create multi-file projects, access data files and use data structures. Topics include; link lists, pointers and how to create a modular program design. Participants will gain a solid understanding of procedural programming in C, the foundation for all modern programming languages.
+### Prerequisite(s)
+- COMP 2617
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Develop medium size C programs.
+- Use the C language in a disciplined manner.
+- Take advantage of C's pre-processor capabilities.
+- Do input and output the 'C' way (printf(), scanf(), etc.).
+- Use the intermediate and advanced features of the C language including:
+- C structs, unions, enumerated types and do bit manipulation.
+- Explain the key differences between programming in C and C++.
+- Use the C language dynamic memory allocation (malloc, calloc, realloc and free).
+- Implement data structures in C, such as linked lists, stacks, queues and binary trees).
+- Create real world software applications using the C language as a tool to solve problems.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

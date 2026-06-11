@@ -1,0 +1,261 @@
+URL: https://www.bcit.ca/courses/relational-database-design-and-sql-comp-1630/
+Title: Relational Database Design and SQL COMP 1630
+Type: Course
+Course Code: COMP 1630
+
+================================================================================
+
+## Relational Database Design and SQL COMP 1630
+Computer Systems Course
+## Course Overview
+​This intensive, hands-on course is the prerequisite for follow-on database courses in several BCIT Computing programs. Students are introduced to relational database design concepts and industry standards. COMP 1630 starts with tools and processes for data modeling in Relational Database Management Systems (RDBMS). Labs and exercises take place in a Windows 11 PC environment. There is also a heavy focus on the Structured Query Language (SQL) to define and manipulate data. Topics include functional dependencies, normalization, database design methodologies, entity relationship modeling and the use of UML as a diagramming notation. Advanced topics include: an introduction to SQL, DDL- data definition language and DML- data manipulation language, views, security, transaction management, triggers and stored procedures. Current trends in database such as Replication, Data Warehousing, Online Analytical Processing (OLAP), using databases on the web and in the cloud are discussed. Students in are required to participate in group work, there is significant reading and assignments required outside of class. Online activities via the BCIT Learning Hub are mandatory. COMP 1630 is a required course for the Applied Database Administration and Design (ADAD) Associate Certificate; the Applied Data Analytics Certificate (ADAC) and the Computer Systems Certificate (CSC). It is also equivalent to the Full-time COMP 2714 and ACIT 1630 database courses. Upon successful completion, participants will be able to design and implement a database application and be prepared to move on to higher level database courses including: COMP 3677 Introduction to MS Server Administration Part 1, COMP 3678 SQL Server Development; COMP 3679 Business Intelligence (BI) Tools, and COMP 3839 Data Quality Improvement.
+### Prerequisite(s)
+- 60% in COMP 1002 or 50% in ACIT 1420
+### Credits
+5.0
+### Domestic fees
+$755.20 - $814.60 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the database approach, its environment, and database application life cycle.
+- Explain the functions and characteristics of the relational model.
+- Describe and work through the normalization process.
+- Apply UML techniques of database design including:
+- Enhanced entity-relationship modeling using UML
+- Functional dependencies
+- Derivation of relations schema from EER model.
+- Use Crow's foot notation to represent relationship among entities in a database system.
+- Apply database design process to implement a database application.
+- Describe security issues, improve query performance, and data protection techniques in a database environment.
+- Explain the use of databases in data warehousing and OLAP.
+- Use SQL - DDL to implement a relational database.
+- Use SQL for data manipulation with the basic statements: INSERT, UPDATE, DELETE and SELECT.
+- Use SQL for advanced manipulation such as Group BY, Having, Correlated subqueries.
+- Create stored procedures and triggers.
+- Discuss techniques for transaction management and concurrency control.
+- Discuss provisioning a Relational Database Management System (RDBMS) in the Cloud.
+Effective as of Fall 2023
+## Related Programs
+Relational Database Design and SQL (COMP 1630) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Agile Development Associate Certificate Part-time
+- Applied Computer Information Systems (ACIS) Associate Certificate Part-time
+- Applied Data Analytics Certificate Part-time
+- Applied Database Administration and Design Associate Certificate Part-time
+- Applied Web Development Associate Certificate Part-time
+- Computer Systems Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below are five offerings of COMP 1630 for the Spring/Summer 2026 term.
+Apr 14 - Jun 30
+- CRN 57596
+- $755.20 Domestic fees
+Dates | Days | Times | Locations
+Apr 14 - Jun 30 | Tue | 18:30 - 21:30 | Online
+Apr 14 - Jun 30 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Alexander Volkov
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Apr 25 - Jul 11
+- CRN 57600
+- $755.20 Domestic fees
+Dates | Days | Times | Locations
+Apr 25 - Jul 11 | Sat | 09:00 - 12:00 | Online
+Apr 25 - Jul 11 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session May 16 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 04 - Jul 20
+- CRN 69829
+- $755.20 Domestic fees
+Dates | Days | Times | Locations
+May 04 - Jul 20 | Mon | 18:30 - 21:30 | Online
+May 04 - Jul 20 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Frederic Guo
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session May 18 (Victoria Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 06 - Jul 29
+- CRN 68021
+- $798.14 Domestic fees
+Dates | Days | Times | Locations
+May 06 - Jul 29 | Wed | 18:30 - 21:30 | Burnaby SE12 Rm. 320
+May 06 - Jul 29 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Ashok Pamu
+### Course outline
+View
+### Important information
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours on campus and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours on campus and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class July 1 (Canada Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+May 07 - Jul 30
+- CRN 68170
+- $755.20 Domestic fees
+Dates | Days | Times | Locations
+May 07 - Jul 30 | Thu | 18:30 - 21:30 | Online
+May 07 - Jul 30 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class July 2.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below are six offerings of COMP 1630 for the Fall 2026 term.
+Sep 08 - Nov 24
+- CRN 48318
+- $770.59 Domestic fees
+Dates | Days | Times | Locations
+Sep 08 - Nov 24 | Tue | 18:30 - 21:30 | Online
+Sep 08 - Nov 24 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Frederic Guo
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 09 - Nov 25
+- CRN 48596
+- $814.60 Domestic fees
+Dates | Days | Times | Locations
+Sep 09 - Nov 25 | Wed | 18:30 - 21:30 | Burnaby SE12 Rm. 320
+Sep 09 - Nov 25 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Ashok Pamu
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours on campus and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours on campus and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session September 30 (Truth & Reconciliation) and November 11 (Remembrance Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 10 - Nov 26
+- CRN 49052
+- $770.59 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:30 - 21:30 | Online
+Sep 10 - Nov 26 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Ashok Pamu
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 10 - Nov 26
+- CRN 50633
+- $799.63 Domestic fees
+Dates | Days | Times | Locations
+Sep 10 - Nov 26 | Thu | 18:00 - 21:00 | Downtown DTC Rm. 370
+Sep 10 - Nov 26 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Patrick Guichon
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours on campus and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours on campus and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 12 - Nov 28
+- CRN 47506
+- $770.59 Domestic fees
+Dates | Days | Times | Locations
+Sep 12 - Nov 28 | Sat | 09:00 - 12:00 | Online
+Sep 12 - Nov 28 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Alexander Volkov
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session October 10 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Sep 14 - Nov 30
+- CRN 35596
+- $770.59 Domestic fees
+Dates | Days | Times | Locations
+Sep 14 - Nov 30 | Mon | 18:30 - 21:30 | Online
+Sep 14 - Nov 30 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Alexander Volkov
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- This course is 5.0 credits and has the workload of two courses. Course is 60 contact hours - 36 hours synchronous online classes and 24 hours asynchronous activities/labs. This class meets once per week for 3 hours online and requires an additional 2 hours per week online asynchronously for 5 contact hours per week. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 15+ hours per week. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC with microphone and video camera. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Class in session October 12 (Thanksgiving).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

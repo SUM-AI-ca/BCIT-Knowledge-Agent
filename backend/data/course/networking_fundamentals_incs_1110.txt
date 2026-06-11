@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/networking-fundamentals-incs-1110/
+Title: Networking Fundamentals INCS 1110
+Type: Course
+Course Code: INCS 1110
+
+================================================================================
+
+## Networking Fundamentals INCS 1110
+Industrial Network Cybersecuri Course
+## Course Overview
+This course provides a foundation in computer networking with an emphasis on how networks exchange information via routers and switches. The concepts developed in this course prepares students for the Advanced Networking course in term two. Topics include Ethernet technologies, the TCP/IP protocol stack, IPv4 and IPv6 addressing, VLANs and VLAN trunking, static and dynamic routing, access control lists, and network address translation. Students will learn to connect to Cisco devices and using a command-line interface be able to configure basic settings in the lab. ​
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Ethernet, the media-access control (MAC) mechanism, the Logical Link Control (LLC) functions, and the physical layer. (2)
+- Describe the functionality of Ethernet switching, auto negotiation, and auto MDI. (2)
+- Describe the TCP/IP protocol suite of protocols and operations. (2)
+- Develop strategies to accommodate IPv4 addressing requirements including variable length subnetting, network summarization, and dynamic address assignment (DHCP). (4)
+- Describe the IPv6 protocol and addressing scheme including link-local, global, and multicast addressing. (2)
+- Apply IPv6 addressing statically, via Stateless Address Auto-configuration (SLAAC), and via DHCPv6 (Stateless & Stateful). (3)
+- Configure a Cisco device using the command line interface through its console port or remote access via Telnet and SSH. (3)
+- Apply static and dynamic routing (RIPv2 for IPv4 and RIPng for IPv6) to create a small routed environment. (3)
+- Configure Virtual LANs on a Cisco switch and activate IEEE Dot1Q links (trunks). (3)
+- Configure Virtual Trunking Protocol (VTP) parameters. (3)
+- Configure Access Control Lists (ACLs) and Network Address Translation (NAT) on a Cisco router. (3)
+Effective as of Fall 2019
+## Related Programs
+Networking Fundamentals (INCS 1110) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Network Cybersecurity Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

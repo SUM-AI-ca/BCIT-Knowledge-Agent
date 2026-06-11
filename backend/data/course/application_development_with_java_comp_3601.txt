@@ -1,0 +1,91 @@
+URL: https://www.bcit.ca/courses/application-development-with-java-comp-3601/
+Title: Application Development with Java COMP 3601
+Type: Course
+Course Code: COMP 3601
+
+================================================================================
+
+## Application Development with Java COMP 3601
+Computer Systems Course
+## Course Overview
+​This forth-level programming course follows on from COMP 2601 and assumes students have significant prior knowledge of object-oriented programming using Java. COMP 3601 starts with using Java core APIs and the Eclipse IDE with industry standard coding styles and naming conventions. Students practice how to build and deploy commercial quality Java applications with Event Driven Architecture. Labs and exercises use a variety of skills to debug programs and use design patterns to develop advanced applications in Java. Topics include: packages, inner classes, file I/O, an overview of database connectivity, user interfaces, model-view-controller (MVC) and other design patterns for standalone Java applications as well as Java web applications. Participants develop database enabled web applications and are introduced to Java web tier development. There is a focus on the design and how to build, deploy and distribute Java web applications into application servers. They configure and customize a simple web application server with Java Database Connectivity (JDBC) to create and edit data from Java Web Applications. Maven is used with Java Servlets as web application controllers and Java Server Pages (JSP) to build and deploy Java web apps on JEE containers, implemented by a WildFly application server. COMP 3601 is part of three BCIT Computing Associate Certificates; Applied Software Development (ASD), Advanced Java Application Development (AJD), a prerequisite for Web and Mobile Applications (WMA) and a recommended elective in the CST FLEX Diploma. Upon completion, successful students will be able to build and deploy well designed basic Java Web applications and be prepared to move on to COMP 4601 - Advanced Java Web App Development. ​COMP3601 will be offered in the Spring (April) and Fall (September) terms.​
+### Prerequisite(s)
+- 60% in COMP 2601
+### Credits
+4.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$611.04 - $623.55 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- ​Demonstrate Model-View-Controller design through Java application, and other advanced object-oriented development design patterns.
+- Implement Event Driven Architecture applications.
+- Use Java Collection framework and serialization to manage and save object data.
+- Explain Java's relationship to database using JDBC protocols in standalone Java applications as well as Java web applications.
+- Create relation object mapping between Java objects and database tables.
+- Develop database enabled web applications.
+- Create dynamic HTML tables using JDBC ResultSet metadata and Database Metadata.
+- Build and deploy Java web application in any Application Server using Maven.
+- Launch and configure WildFly Application Server from command line as well as from Eclipse.
+- Create secure Data Sources in WildFly Application Server and connect to them via DataSource interface.
+- Create Java web applications using Servlet, JSPs, Expression Language and JSTLs.
+- Create, read, update and delete data from a database using Java web applications.
+- Describe the role of Java Servlets as web application controllers.
+- Configure and customize a simple web application server.
+Effective as of Winter 2023
+## Related Programs
+Application Development with Java (COMP 3601) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Software Development (ASD) Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of COMP 3601 for the Spring/Summer 2026 term.
+Apr 08 - Jun 24
+- CRN 68027
+- $611.04 Domestic fees
+Dates | Days | Times | Locations
+Apr 08 - Jun 24 | Wed | 18:00 - 21:00 | Online
+Apr 08 - Jun 24 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+TBD
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- !--CSR: DO NOT register students in this course if the approval has expired. Questions, email cstflex@bcit.ca-- > Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 3601 for the Fall 2026 term.
+Sep 09 - Dec 09
+- CRN 50629
+- $623.55 Domestic fees
+Dates | Days | Times | Locations
+Sep 09 - Dec 09 | Wed | 18:00 - 21:00 | Online
+Sep 09 - Dec 09 | N/A | N/A | Online
+### Duration
+12 weeks
+### Instructor
+Arash Ghavami
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. The course is 48 hours - 36 hours synchronous online classes and 12 hours asynchronous activities/labs. The class meets once per week for 3 hours online and requires an additional 1 hour per week asynchronously. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 13-16+ hours per week. 3 hours of synchronous class, 1-hour asynchronous class time and 9-12+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. Due to the substantial time required on labs and assignments, students are advised not to take any other programming language courses simultaneously. No class September 30 (Truth & Reconciliation Day) and November 11 (Remembrance Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

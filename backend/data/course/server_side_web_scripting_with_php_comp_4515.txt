@@ -1,0 +1,43 @@
+URL: https://www.bcit.ca/courses/server-side-web-scripting-with-php-comp-4515/
+Title: Server-Side Web Scripting with PHP COMP 4515
+Type: Course
+Course Code: COMP 4515
+
+================================================================================
+
+## Server-Side Web Scripting with PHP COMP 4515
+Computer Systems Course
+## Course Overview
+This hands-on course builds upon COMP 4514 in the Full Stack Web Development Diploma. Students are introduced to server-side scripting using PHP: a platform-independent, server-side web scripting language. Topics include: PHP theory and syntax, textfile manipulation, cookies, regular expressions, sessions, graphics, and database interactions. Labs and exercises focus on the major functions of PHP server-side scripting using a wide variety of open-source software tools and code libraries. Students practice how to write reusable classes and object-oriented scripts and use PHP frameworks such as Laravel in addition to unit-testing frameworks such as PHPUnit. Secure sessions, hashing and encryption techniques, and the use the PHP command line interface are also covered. By the end of this course successful participants will be able to create a back-end PHP service to power advanced web applications.
+### Prerequisite(s)
+- COMP 2131 and COMP 2523
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the theory behind server-side Web scripting.
+- Write PHP Web scripts with and without HTML content.
+- Identify, locate, download, and install free server-side Web scripting tools.
+- Identify, locate, and download sample PHP scripts and resources relevant to PHP scripting.
+- Install libraries that enable the use of resources such as compression, encryption, password security.
+- Obtain, process, and store user input from Web pages.
+- Develop PHP scripts that use cookies to remember users and user data.
+- Develop PHP scripts that use regular expressions to find, process, and validate data.
+- Develop PHP scripts that use server-side resources with their Web pages including files, databases, and images that are located on the server.
+- Develop PHP scripts that use sessions to authorize users and keep session data persistent across multiple Web pages.
+- Implement custom classes that generate PHP objects.
+- Discuss advanced database issues that are relevant to utilizing databases with PHP.
+- Discuss security issues that are relevant to PHP website construction.
+- Write secure and robust PHP code that is resistant to errors and attacks.
+- Use PHP to generate pdf documents dynamically.
+- Use Object Oriented Programming techniques in authoring PHP scripts.
+- Use PHP frameworks and templating engines such as Laravel blade or Smarty.
+- Use unit-testing frameworks such as PHPUnit.
+Effective as of Winter 2020
+## Related Programs
+Server-Side Web Scripting with PHP (COMP 4515) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Computing and Academic Studies
+- Full-Stack Web Development Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

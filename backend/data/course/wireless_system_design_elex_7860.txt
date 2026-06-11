@@ -1,0 +1,49 @@
+URL: https://www.bcit.ca/courses/wireless-system-design-elex-7860/
+Title: Wireless System Design ELEX 7860
+Type: Course
+Course Code: ELEX 7860
+
+================================================================================
+
+## Wireless System Design ELEX 7860
+Electrical and Computer Engineering Course
+## Course Overview
+This design elective builds on the prerequisite core courses to explore important technical topics in modern wireless communications systems. The evolution of cellular systems from is discussed, and other contemporary standards such as wireless local area networks (LAN) and personal area networks (PAN) are reviewed. Mathematical representation of the wireless channel is presented, and effects such as multipath, fading, and shadowing are discussed. The performance of various digital modulation schemes in the presence of noise is evaluated. Contemporary radio transceivers are presented and evaluated, including radio architecture, radio components, and performance measures. System design concepts such as link budget are used to engineer basic wireless systems.
+### Prerequisite(s)
+- ELEX 7530 and ELEX 7640 and MATH 7510
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Outline the evolution of cellular systems. Describe and contrast common standards used in cellular communication, wireless LAN, and wireless PAN. [1]
+- Describe the loss mechanisms in the wireless channel, and effects such as multipath fading and shadowing. Calculate and predict losses using mathematical models of the wireless channel. [1,2,3,5]
+- Calculate link budgets and estimate fade margin requirements. [1,2,4,5]
+- Assess the merits, disadvantages and noise performance of various digital modulation schemes. [1,2,3]
+- Describe the benefits of contemporary techniques such as OFDM and MIMO [1,2]
+- Describe and contrast various multiple access schemes such as FDMA, TDMA, and CDMA. [1]
+- Describe the key aspects of various radio architectures such as super-heterodyne, low-IF, and direct conversion. Explain the advantages and disadvantages of each scheme. [1,2]
+- Describe the key blocks within a modern radio transceiver. Explain the important specifications associated with each block, such as noise figure (NF) and third-order intercept point. [1,2,3,5]
+- Calculate radio performance using cascaded noise figure and IP3 analysis. [1,2]
+- Design wireless systems adhering to a given specification, such as the IEEE 802.15 standards [2,3,4,5,6]
+## Engineering accreditation
+The Canadian Engineering Accreditation Board (CEAB) oversees the accreditation of engineering programs across Canada. To measure the effectiveness of an engineering program the CEAB has identified twelve specific attributes that the graduate is expected to possess and use as the foundation to developing and advancing an engineering career. To ensure that the overall curriculum of the Bachelor of Engineering in Electrical program covers these attributes sufficiently, the learning outcomes for each course have been mapped to applicable CEAB graduate attributes.
+1. A knowledge base for engineering: Demonstrated competence in university level mathematics, natural sciences, engineering fundamentals, and specialized engineering knowledge appropriate to the program.
+2. Problem analysis: An ability to use appropriate knowledge and skills to identify, formulate, analyze, and solve complex engineering problems in order to reach substantiated conclusions.
+3. Investigation: An ability to conduct investigations of complex problems by methods that include appropriate experiments, analysis and interpretation of data, and synthesis of information in order to reach valid conclusions.
+4. Design: An ability to design solutions for complex, open-ended engineering problems and to design systems, components or processes that meet specified needs with appropriate attention to health and safety risks, applicable standards, and economic, environmental, cultural and societal considerations.
+5. Use of engineering tools: An ability to create, select, apply, adapt, and extend appropriate techniques, resources, and modern engineering tools to a range of engineering activities, from simple to complex, with an understanding of the associated limitations.
+6. Individual and team work: An ability to work effectively as a member and leader in teams, preferably in a multi-disciplinary setting.
+7. Communication skills: An ability to communicate complex engineering concepts within the profession and with society at large. Such ability includes reading, writing, speaking and listening, and the ability to comprehend and write effective reports and design documentation, and to give and effectively respond to clear instructions.
+8. Professionalism: An understanding of the roles and responsibilities of the professional engineer in society, especially the primary role of protection of the public and the public interest.
+9. Impact of engineering on society and the environment: An ability to analyze social and environmental aspects of engineering activities. Such ability includes an understanding of the interactions that engineering has with the economic, social, health, safety, legal, and cultural aspects of society, the uncertainties in the prediction of such interactions; and the concepts of sustainable design and development and environmental stewardship.
+10. Ethics and equity: An ability to apply professional ethics, accountability, and equity.
+11. Economics and project management: An ability to appropriately incorporate economics and business practices including project, risk, and change management into the practice of engineering and to understand their limitations.
+12. Life-long learning: An ability to identify and to address their own educational needs in a changing world in ways sufficient to maintain their competence and to allow them to contribute to the advancement of knowledge.
+Effective as of Fall 2017
+## Related Programs
+Wireless System Design (ELEX 7860) is offered as a part of the following programs:
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Electrical Engineering Bachelor of Engineering Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

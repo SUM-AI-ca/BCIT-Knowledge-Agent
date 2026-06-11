@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/utilizing-data-structures-for-business-analytics-babi9020/
+Title: Utilizing Data Structures for Business Analytics BABI 9020
+Type: Course
+
+================================================================================
+
+## Utilizing Data Structures for Business Analytics BABI 9020
+Business Analytics & Business Intelligence Course
+## Course Overview
+Insight without relevance is meaningless in Business Analytics. Relevance comes from a deep understanding of the data and the methods used to store and access it. This course enables students to perform complex tasks associated with data in the business environment, from storage to access. Using current Business Analytics database technologies, students will explore the different storage systems and constructs, the use of analytics structures to define data cubes, and the tools used to perform ETL (Extract, Transform, Load) operations on existing datasets to support Business Analytics. An integral part of the course will be a project in which students will build and demonstrate a fully integrated analytical model—from entering data into an existing Relational Database Management System (RDBMS) and using ETL tools to get relevant data into the analytical database (cube), to running analytical queries on the cube to provide meaningful insight into the data.
+### Prerequisite(s)
+- BABI 9010
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Explain how analytical models are designed using the star schema.
+- Create and populate an analytics model using ETL tools to move data between systems.
+- Design a cube to store analytical data.
+- Use one or more analytics tools to query the cube data.
+- Select and guide the development of databases and data sources to meet different business needs within the framework of data governance and ethical business standards.
+- Generate key metrics and indicators based on an analysis of available data.
+- Plan and manage the database systems needed to execute a business analytics project.
+Effective as of Fall 2016
+## Related Programs
+Utilizing Data Structures for Business Analytics (BABI 9020) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Business + Media
+- Business Analytics Graduate Certificate Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

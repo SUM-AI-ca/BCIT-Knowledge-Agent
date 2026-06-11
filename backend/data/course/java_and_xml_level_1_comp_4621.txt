@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/java-and-xml-level-1-comp-4621/
+Title: Java and XML Level 1 COMP 4621
+Type: Course
+Course Code: COMP 4621
+
+================================================================================
+
+## Java and XML Level 1 COMP 4621
+Computer Systems Course
+## Course Overview
+This hands-on course is an introduction to XML for Java programmers, the focus is on XML related technologies in Java. It replaces COMP 2899 in the Java credential and is aimed at those who already understand how to develop Java Web Applications. Topics include; well-formedness, validation using DTD and XML Schema technology, XML data modelling, and XML parsing APIs in Java. Discussions also include event driven parsers, document driven parsers and push versus pull parsers. Successful participants learn to produce and deploy Java Web Applications, using well-formed and valid XML documents, XML DTDs and XML Schemas.
+### Prerequisite(s)
+- COMP 3631 or COMP 3641
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Contrast the differences between the various types of parsers (push, pull, event, tree).
+- Create a custom Document Object Model (DOM) using Java and XML.
+- Create DTDs that model different types of data models (relational and object model).
+- Create XML Schemas that model different types of data models (relational and object model).
+- Define XML syntax rules and demonstrate proper use of well-formed XML.
+- Demonstrate the use of event driven XML parsers and document driven parsers in Java.
+- Design XML file formats based on a given set of requirements.
+- Differentiate between elements, attributes and entities.
+- Produce well-formed and valid XML documents.
+- Understand the different types of data types in XML Schema (primitive types, simple types, complex types with simple content model, complex types with complex content models).
+Effective as of Fall 2009
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

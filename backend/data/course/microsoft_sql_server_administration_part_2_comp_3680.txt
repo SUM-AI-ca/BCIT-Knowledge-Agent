@@ -1,0 +1,30 @@
+URL: https://www.bcit.ca/courses/microsoft-sql-server-administration-part-2-comp-3680/
+Title: Microsoft SQL Server Administration Part 2 COMP 3680
+Type: Course
+Course Code: COMP 3680
+
+================================================================================
+
+## Microsoft SQL Server Administration Part 2 COMP 3680
+Computer Systems Course
+## Course Overview
+​This hands-on course was replaced by COMP 3682 Microsoft Server Administration as of April 2025. Students who have successfully completed COMP 1630 and already have an understanding data modeling, relational database design and SQL, will focus on designing and administering MS SQL Server databases. In-depth exercises and labs focus on creating, deploying, optimizing, and maintaining MS SQL Server databases from an administrator's perspective. COMP 3680 provides a more detailed examination of database architecture, installing and configuring MS SQL Server. There will be discussions of physical database design and creation, Role Based Access Control (RBAC) plus best practise in maintenance and security for high availability database solutions. COMP 3680 topics include how to plan and implement Group and local Security Policies; industry standard strategies and planning for server back-ups, troubleshooting, monitoring, and managing a server with Microsoft's built-in tools. Server security and recovery plans with compliance strategies for a Microsoft Server will be discussed. There is also a related course that would benefit server administrators; COMP 3771 –MS PowerShell Scripting. Upon completion, successful students will be able to create and manage MS SQL databases and user accounts, use built-in troubleshooting tools, monitor performance. Please note: COMP 3682 has replaced three smaller courses COMP 3677 , COMP 3680 and COMP 3681 .
+### Prerequisite(s)
+- 60% in COMP 1630 and 60% in COMP 3677
+### Credits
+1.5
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install and Configure MS SQL Server.
+- Use MS SQL Server graphical and command line tools.
+- Explain the role of MS SQL Server in application design and the enterprise.
+- Describe different implementations of MS SQL Server on Microsoft Azure.
+- Explain physical database design considerations.
+- Explain mirroring, log shipping, high availability groups and replication.
+- Create and manage databases, transaction logs and database snapshots.
+- Implement security for logins, databases and objects.
+- Plan, create and perform backup and recovery strategies for high availability.
+- Explain MS SQL Server Best Practices for: Data Classification and Security, Optimizing Query Performance, Monitoring SQL Server performance, Task Automation and Troubleshooting.​
+Effective as of Spring/Summer 2024
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

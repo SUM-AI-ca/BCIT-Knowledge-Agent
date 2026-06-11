@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/c-programming-2-comp-2717/
+Title: C Programming 2 COMP 2717
+Type: Course
+Course Code: COMP 2717
+
+================================================================================
+
+## C Programming 2 COMP 2717
+Computer Systems Course
+## Course Overview
+The C programming language is the foundation for all modern programming languages. This hands-on lab course replaces COMP 3425 , continuing on from COMP 2617 . It is only for those programmers who already understand programming and the basics of the C language. Students will understand how to develop applications with the C language at an intermediate level. They gain experience with the build process, and learn to create multi-file projects, access data files and use data structures. Topics include; link lists, pointers and how to create a modular program design. Learning to use the C language properly will improve application development skills in many programming language and scripting environments. It is still widely used in low-level hardware applications for device drivers. Successful participants will not gain knowledge of procedural programming, but be able to build applications in the C language. This course is no longer offered, students may complete COMP 2510 or COMP 2511 .
+### Prerequisite(s)
+- COMP 2617
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Develop medium size C program.
+- Use the C language in a disciplined manner.
+- Take advantage of C's pre-processor capabilities.
+- Do input and output the "C" way (printf(), scanf(), etc.).
+- Use Command Line Arguments and IO Redirection.
+- Use the intermediate and advanced features of the C language including: structs, unions, enumerated types and bit manipulations.
+- Perform complex string manipulations.
+- Utilize the C Standard Library.
+- Understand the key differences between programming in C and C++.
+- Use the C language dynamic memory allocation (malloc, calloc, realloc and free).
+- Implement data structures in C, such as linked lists, stacks, queues and binary trees.
+- Create real world software applications using the C language as a tool to solve problems.
+Effective as of Winter 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

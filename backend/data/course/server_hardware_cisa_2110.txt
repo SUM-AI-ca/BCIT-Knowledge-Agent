@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/server-hardware-cisa-2110/
+Title: Server Hardware CISA 2110
+Type: Course
+Course Code: CISA 2110
+
+================================================================================
+
+## Server Hardware CISA 2110
+Computer Info Systems Admin Course
+## Course Overview
+Building upon theory from CISA 1110 and CISA 1210 , this course provides an understanding of the physical operation of the enterprise server. Students will explore the basic architecture of the server and the components of that architecture. The server data storage technologies of Redundant Array of Independent Disks (RAID) and Small Computer System Interface (SCSI) will be presented. There will be a review of the elements of effective Disaster Recovery. Industry standard methods of service performance monitoring will be explored. Instruction will be supplemented with hands-on lab exercises. The course will also examine recent advances in server I/O subsystems, CPU architecture and memory. These advances and others will be used to understand the concepts involved in improved data centre performance, reliability, simplicity and flexibility. The course will place emphasis on the advantages of designing a data centre as a unified computing system. There will be an examination of the impact of the data centre on the electrical grid. This will include comparisons of the electrical impacts of cooling methodology. Students will research energy reduction technologies offered by both server and component manufacturers.
+### Prerequisite(s)
+- Successful completion of CISA Level 1 with minimum 60% grade point average.
+### Credits
+6.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe the roles of the server sub-systems.
+- Use industry standard performance monitoring tools to confirm server sub-system operation.
+- Describe the various types of server applications.
+- Describe the components and roles of the Disaster Recovery Plan.
+- Create a basic Disaster Recovery Plan.
+- Explain the roles of multi-socket CPU configurations in a server.
+- Explain and use Hot Swap drives, PCI agents and other components.
+- Install and use various server backup technologies.
+- Install and configure a RAID controller and multiple levels of RAID in a server.
+- Implement a network using a dedicated network server.
+- Explain the advantages to industry of using a data centre designed as a unified computing system.
+- Explain the process of implementing the unified computing system.
+- Describe key factors that affect the energy efficiency of a data centre.
+- Describe methodology used in the design of an energy efficient data centre.
+Effective as of Fall 2011
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

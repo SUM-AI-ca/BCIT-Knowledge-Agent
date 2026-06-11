@@ -1,35 +1,38 @@
-URL: https://www.bcit.ca/outlines/20243045981/
+URL: https://www.bcit.ca/outlines/20243045747/
 Course: EENG 7415
 Field: Soil Mechanics and Contaminant Hydrogeology
+Subject: Environmental Engineering
+Term: 202430
+CRN: 45747
 
-School: School of Construction and the Environment
-Program: Environmental Engineering
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 05, 2024
-End Date: December 12, 2024
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): 50% in EENG 7405† and 50% in EENG 7410† († may be taken concurrently)
-CRN: 45981
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## EENG 7415
+## Soil Mechanics and Contaminant Hydrogeology
+School | School of Construction and the Environment
+Program | Environmental Engineering
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 05, 2024
+End Date | December 12, 2024
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in EENG 7405 † and 50% in EENG 7410 † ( † may be taken concurrently)
+CRN | 45747
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Diane Grady
-E-mail: Instructor to provide
-Location: SW3 2081
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Diane Grady
+E-mail | Diane_Grady@bcit.ca
+Location | SW3 2081
+Office Hours | Diane Grady, PhD Office: SW3 2081 Phone: 604-454-2224 Office Hours: As posted E-mail: diane_grady@bcit.ca | Diane Grady, PhD | Office: SW3 2081 | Phone: 604-454-2224 | Office Hours: As posted | E-mail: diane_grady@bcit.ca
+### Course Description
 ​An introduction to soil mechanics including soil origins, types and classifications, phase relationships, compaction and soil strength, Darcy's law, flow nets. The hydrogeology section focuses on the occurrence and movement of groundwater in a variety of geologic settings and explains the effect of human activity on that movement. Topics include types of aquifers, properties of porous media, groundwater flow, and pump testing of aquifers. The contaminant hydrogeology portion of the course examines the major sources of ground water contaminants and their flow in ground water, and presents the processes by which contaminants are transported through the subsurface as free phase products or dissolved aqueous constituents. Topics include terminology, water quality, chemical constituents of ground water, LNAPLs and DNAPLs, transport mechanisms.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Discuss the origin of soils and the relationship to host material.
 - Solve basic soil mechanics problems to determine volume, density, mass, saturation/retention and buoyancy measures using mathematical relationships.
 - Analyze groundwater problems based on the fundamentals of groundwater movement in soil using Darcy's law in relation to the movement of fluids in a porous environment, taking into consideration groundwater movement in unsaturated and saturated porous media.
@@ -40,74 +43,51 @@ Upon successful completion of this course, the student will be able to:
 - Explain ground water flow and mass transport mechanisms and calculate contaminant plume hydraulic parameters.
 - Explain the nature and characteristic of non-aqueous phase liquids (NAPL) and be able to determine.
 - Describe basic NAPL movement in the subsurface.
-
-## Learning Resources
+### Learning Resources
 Required
-
 •Lecture handouts
-
 Recommended
-
 •Essentials of Soil Mechanics and Foundations (6th edition). McCarthy, D.F., Prentice Hall, 2002
-
 •Applied Hydrogeology (4th edition). Fetter, C.W., Prentice Hall, 2000
-
 •Groundwater (1st edition). Freeze & Cherry, Prentice Hall, 1979
-
-## Evaluation Criteria
-Criteria: %: Comments
-Grade % Comments Assignments 30 •12 assignments (equal value each) •Due 1 week after posting •Hand-written or typed •Submit in Learning Hub or on paper Mid-term 35 Soil mechanics portion Final 35 Contaminant hydrogeology portion Grade 100: Grade %: Comments: Assignments: 30: •12 assignments (equal value each) •Due 1 week after posting •Hand-written or typed •Submit in Learning Hub or on paper: Mid-term: 35: Soil mechanics portion: Final: 35: Contaminant hydrogeology portion: Grade: 100
-Grade %: Comments
-Assignments: 30: •12 assignments (equal value each) •Due 1 week after posting •Hand-written or typed •Submit in Learning Hub or on paper
-Mid-term: 35: Soil mechanics portion
-Final: 35: Contaminant hydrogeology portion
-Grade: 100
-
-## Other information
+### Evaluation Criteria
+Criteria | % | Comments
+Grade % Comments Assignments 30 •12 assignments (equal value each) •Due 1 week after posting •Hand-written or typed •Submit in Learning Hub or on paper Mid-term 35 Soil mechanics portion Final 35 Contaminant hydrogeology portion Grade 100 | Grade % | Comments | Assignments | 30 | •12 assignments (equal value each) •Due 1 week after posting •Hand-written or typed •Submit in Learning Hub or on paper | Mid-term | 35 | Soil mechanics portion | Final | 35 | Contaminant hydrogeology portion | Grade | 100
+### Other information
 Use of Generative AI Tools (AI)
-
 1. You are discouraged from using AI tools UNLESS under direct instruction from your instructor to do so. Please contact your instructor if you are unsure or have questions BEFORE using AI for any assignment.
-
 2. If AI is permitted, you must acknowledge use. Undeclared use of the tool/technology are considered a violation of the academic integrity policy. You must document use and the prompts used to generate the results. You must also evaluate the output for accuracy, make the necessary corrections and add citations as required. No more than 25% of an assignment should be created with AI if the instructor gives permission for its use.
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 Schedule subject to change as course progresses
-Week #: Week of: Lectures: Quiz/Assigment
-1: 02-Sep: Intro, soil origins and classification: Assign 1
-2: 09-Sep: Soil composition: Assign 2
-3: 16-Sep: Basic hydrogeology: Assign 3
-4: 23-Sep: Basic hydrogeology: Assign 4
-5: 30-Sep: Darcy's Law: Assign 5
-6: 07-Oct: Hydraulic tests: Assign 6
-7: 14-Oct: MIDTERM TEST: Quiz
-8: 21-Oct: Aqueous chemistry: Assign 7
-9: 28-Oct: Organic compounds and behaviours: Assign 8
-10: 04-Nov: Transport of contaminants: Assign 9
-11: 11-Nov: LNAPLs: Assign 10
-12: 18-Nov: DNAPLs: Assign 11
-13: 25-Nov: Multiphase flow: Assign 12
-15: 09-Dec: FINAL EXAM (TBA): Quiz
-
-## BCIT Policy
-Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
+Week # | Week of | Lectures | Quiz/Assigment
+1 | 02-Sep | Intro, soil origins and classification | Assign 1
+2 | 09-Sep | Soil composition | Assign 2
+3 | 16-Sep | Basic hydrogeology | Assign 3
+4 | 23-Sep | Basic hydrogeology | Assign 4
+5 | 30-Sep | Darcy's Law | Assign 5
+6 | 07-Oct | Hydraulic tests | Assign 6
+7 | 14-Oct | MIDTERM TEST | Quiz
+8 | 21-Oct | Aqueous chemistry | Assign 7
+9 | 28-Oct | Organic compounds and behaviours | Assign 8
+10 | 04-Nov | Transport of contaminants | Assign 9
+11 | 11-Nov | LNAPLs | Assign 10
+12 | 18-Nov | DNAPLs | Assign 11
+13 | 25-Nov | Multiphase flow | Assign 12
+15 | 09-Dec | FINAL EXAM (TBA) | Quiz
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
-
 Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
-I verify that the content of this course outline is current. Diane Grady, Instructor September 03, 2024
-
-I verify that this course outline has been reviewed. Olga Petrov, Program Head September 03, 2024
-
-I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean September 04, 2024
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+### Approved
+I verify that the content of this course outline is current. Diane Grady, Instructor September 25, 2024
+I verify that this course outline has been reviewed. Olga Petrov, Program Head September 25, 2024
+I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean September 25, 2024
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/advanced-control-systems-elex-0372/
+Title: Advanced Control Systems ELEX 0372
+Type: Course
+Course Code: ELEX 0372
+
+================================================================================
+
+## Advanced Control Systems ELEX 0372
+Electrical and Computer Engineering Course
+## Course Overview
+​This is a refresher course in advanced control systems and it consists of tutorials and examinations to prepare candidates for the National Examinations 98-Elec-B2 Advanced Control Systems. This course covers advanced mathematical Modelling and state space representations, the solution of the state equations, observability and controllability. The state space pole placement design methods are covered as well. The course then deals with discrete time control systems, systems with delay, and systems contaminated with noise. A brief introduction to system identification methods is also included.
+### Prerequisite(s)
+- 50% in ELEX 7220
+### Credits
+0.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Derive the state space description of a dynamic system.
+- Linearize state space models.
+- Solve the state space equations.
+- Design a state space controller.
+- Check for system observability and controllability.
+- Design a state observer.
+- Develop a discrete time model for a sampled system.
+- Design a discrete time controller.
+- Write simple process identification algorithms based on least squares identification.
+- t squares identification
+Describe the effect of noise on a control system.
+Effective as of Fall 2006
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

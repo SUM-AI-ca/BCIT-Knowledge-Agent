@@ -1,0 +1,29 @@
+URL: https://www.bcit.ca/courses/c-application-development-1-comp-2617/
+Title: C++ Application Development 1 COMP 2617
+Type: Course
+Course Code: COMP 2617
+
+================================================================================
+
+## C++ Application Development 1 COMP 2617
+Computer Systems Course
+## Course Overview
+​​C++ is one of the most popular programming languages used in industry today to create professional application software and video games. C++ continually evolves and is designed to work along side other programming languages. This hands-on intermediate level course assumes a prior knowledge of object-oriented programming and follows on from COMP 1451 . Students must already understand object-oriented programming (OOP) before starting this course. Participants start their examination of C++ by comparing previously learned OOP characteristics and mapping these to C++. This course will cover C++11 features as they apply to the learning outcomes. Topics include: Classes, Control Statements, Arrays, Pointers, Stream I/O and the C++ string class. Since the C language is a subset of C++, students will be also earning some first level C programming which is continued in COMP 2717 . Delivery is face-to face for 3 hours each week plus an online and homework component. Typical students will require about 10 hours per week to study the material and work on assignments outside of class. Upon successful completion, participants will be able to continue to learn C++ programming with the second half of this material in COMP 2618 . PLEASE NOTE: COMP 2617 was offered for the last time in April 2021, it has been replaced by COMP 3603 , Application Development with C++.
+### Prerequisite(s)
+- COMP 1451 with 60% or better, or equivalent understanding of object-oriented programming.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain and use C++ Classes in conjunction with proper object-oriented programming techniques.
+- Explain, in terms of the C++ programming language, object-oriented programming concepts including: classes, objects, methods and encapsulation.
+- Explain abstraction and modularization in programming in terms of the C++ programming language.
+- Identify and use Control Statements in C++ programs.
+- Identify and use Global Functions.
+- Identify and use Arrays.
+- Identify and use Pointers and Strings.
+- Explain and use C++ Stream Input/Output.
+- Test and debug C++ programs.
+Effective as of Spring/Summer 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

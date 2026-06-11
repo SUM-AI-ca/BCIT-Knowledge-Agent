@@ -1,0 +1,119 @@
+URL: https://www.bcit.ca/outlines/20261085072/
+Course: GEOM 4080
+Field: Geodetic Positioning and Map Projections
+Subject: Geomatics
+Term: 202610
+CRN: 85072
+
+================================================================================
+
+## Course Outline
+## GEOM 4080
+## Geodetic Positioning and Map Projections
+School | School of Construction and the Environment
+Program | Geomatics Eng. Technology
+Course Credits | 5.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 80
+Total Weeks | 20
+Hours/Weeks | 4
+Delivery Type | Lecture
+Prerequisite(s) | (GEOM 3051 and MATH 3513 and GEOM 3025)
+CRN | 85072
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Mohammad Rajabi
+E-mail | mrajabi@bcit.ca
+Location | SW2-318
+Office Hours | Tuesdays 08:30 - 12:30 Fridays 08:30 - 09:30
+### Course Description
+This course covers the geometrical aspects of geodesy and consists of three components: datum and reference systems in geodesy, geodetic position computations, and mathematical cartography (map projections). The reference system components include the concepts of time, the natural coordinate system, terrestrial reference systems and reference frames, celestial reference systems, and the orbital coordinate system. Geodetic positioning computations consist of corrections and reductions of conventional geodetic measurements, as well as forward and inverse computations. The map projections component covers the concepts and properties of map projections and their classifications, the theory of distortions, and cylindrical, conic, and planar projections. The course also covers the reduction of conventional geodetic measurements from the surface of the earth to the map projection systems and coordinate computations.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Explain the properties of different coordinate systems used in geodesy, including natural, terrestrial, celestial, and orbital coordinate systems.
+- Interpret and apply time systems, such as universal, sidereal, atomic, and coordinate time systems.
+- Distinguish among the different reference systems and frames used in geomatics, such as the Canadian Spatial Reference System (CSRS) and Frame, the International Celestial Reference System and Frame, orbital systems, and so on.
+- Apply corrections and reductions to conventional geodetic measurements.
+- Compute geodetic positions on the reference ellipsoid in different coordinate reference systems used in geomatics.
+- Relate different reference coordinate systems used in geomatics with each other.
+- Explain the problems of map projections.
+- Describe the properties of surfaces used in map projections and the fundamental equations of those surfaces.
+- Discuss the elements of map projection distortions (conformality, equivalency, equidistancy) and how those elements are represented mathematically.
+- Evaluate distortions of maps using basic computational and graphical procedures.
+- Classify map projections using different bases, such as the traditional bases of map projections classification.
+- Choose a suitable map projection for a region.
+- Illustrate the graticule appearance of different map projections used in geomatics, such as Mercator, TM, UTM, LTM, Stereographic (including double projection), and Lambert conformal conic.
+- Discuss the properties, advantages and disadvantages of certain map projections, such as Lambert conic projection, Mercator conformal cylindrical projection, Gaussian conformal projection of the ellipsoid, UTM, 3TM, stereographic double projections.
+- Reduce geodetic measurements from ground to map projection systems and vice versa.
+- Transform coordinates calculated in one system to equivalent ones in the other.
+### Learning Resources
+Required:
+- Course Notes will be provided by the instructor.
+- Torge W., Muller J. (2012); Geodesy, 4th Ed., ISBN:978-3-11-025000-8, Walter de Gruyter GMbH & Co.
+- Ogundare J.O (2024); Coordinate Sytems & Map Projections for Geomatics Professionals. BCIT Lecture Notes for GEOM 4080. Available at BCIT Bookstore, Burnaby Campus.
+Recomended:
+- Vanicek P., Krakiwsky E. (1986); Geodesy the Concepts, 2nd Ed., ISBN: 0-444-87777-0, Elsevier Science B.V., Amesterdam, The Netherland.
+- Krakiwsky E. and Wells D.E. (1971); Coordinate Systems in Geodesy , Lecture Notes No. 16, Dept. of Geodesy and Geomatics Eng., University of New Brunswick.
+- Krakiwsky E. and Thompson D.B. (1974); Geodetic Position Computations , Lecture Notes No. 39, Dept. of Geodesy and Geomatics Eng., University of New Brunswick.
+- Thompson D.B. (1981); Introduction to Geodetic Astronomy , Lecture Notes No. 49, Dept. of Geodesy and Geomatics Eng., University of New Brunswick.
+- Krakiwsky E. (1973); Conformal Map Projections in Geodesy , Lecture Notes No. 37, Dept. of Geodesy and Geomatics Eng., University of New Brunswick.
+- Snyder J.P. (1987); Map Projections: A Working Manual , U.S. Government Printing Office (DOI: 10.3133/pp1395).
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 30 | Weekly equal weight
+Midterm Exam | 35 | Mar 03, 2026
+Final Exam | 35
+Total | 100
+### Attendance Requirements
+BCIT attendance policy is followed.
+### Other information
+Assignments submitted after their corresponding due dates will be marked but will have no contribution towards the course final grade.
+BCIT's Academic Integrity Policies are stritcly enforced.
+### Course Schedule and Assignments
+Week # | Week of | Outcome/Material Covered
+1 | Jan 05 | Introduction to Geodetic Positioning
+2 | Jan 12 | Geometry of the Earth
+3 | Jan 19 | Terrestrial Reference Systems & Frames
+4 | Jan 26 | Terrestrial Reference Systems & Frames (Cont’d)
+5 | Feb 02 | Geodetic Position Computations on Reference Ellipsoid
+6 | Feb 09 | Celestial Reference Systems & Frames Time Reference Systems
+7 | Feb 16 | Monday Feb 16 th Family Day – Closed Geodetic Astronomy
+8 | Feb 23 | Geodetic Astronomy (Cont’d) Orbital Reference Systems
+9 | Mar 02 | Midterm Exam
+Mar 09 | Spring Break – Closed
+10 | Mar 16 | Introduction to Map Projections
+11 | Mar 23 | Theory of Surfaces
+12 | Mar 30 | Theory of Distortions Friday Apr 03 rd Good Friday – Closed
+13 | Apr 06 | Monday Apr 06 th Easter Monday – Closed Classification of Map Projections
+14 | Apr 13 | Cylindrical Map Projections
+15 | Apr 20 | Reduction of Measurements & Computations on Map Projections
+16 | Apr 27 | Conic Map Projections
+17 | May 04 | Stereographic Map Projections
+18 | May 11 | Course Review Final Exams Begin
+19 | May 18 | May 18 th Victoria Day – Closed Final Exams Week
+The course material is reinforced with equal weight weekly labs/assignments.
+The due date for each lab/assignment is 8:00 AM one week after they are introduced unless otherwise mentioned.
+The course schedule is subject to change based on the class progress.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Mohammad Rajabi, Instructor December 29, 2025
+I verify that this course outline has been reviewed. Mark Dailey, Program Head January 05, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

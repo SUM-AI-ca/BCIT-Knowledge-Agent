@@ -1,0 +1,32 @@
+URL: https://www.bcit.ca/courses/node-js-fundamentals-comp-2912/
+Title: Node.js Fundamentals COMP 2912
+Type: Course
+Course Code: COMP 2912
+
+================================================================================
+
+## Node.js Fundamentals COMP 2912
+Computer Systems Course
+## Course Overview
+COMP 2912 was replaced by COMP 3012 as of September 2021.​ This hands-on course follows on from COMP 2132 . It is designed for students who already understand how to build web pages with HMTL5, CSS3 and who also have significant JavaScript experience. Node.js uses an event driven, asynchronous I/O programing model to build web applications using JavaScript. Participants learn the Node.js programming model via labs and exercises. Topics include: Node's asynchronous programming model, Express web framework, accessing MongoDB, using Node Package Manager to install and manage node modules. Web developers should understand multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals or COMP 2913 -React and Modern JavaScript. COMP 2912 is an elective in BCIT Computing's Applied Web Development (AWD) and the associate certificates; Web and Mobile, Advanced Java, and Advanced .NET Application Development, as well as the CST FLEX Diploma. Upon on completion, successful students will be able to use Node.js to build scalable, data intensive JavaScript web applications.
+### Prerequisite(s)
+- COMP 2015 or COMP 2132
+### Credits
+1.5
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain Node.js.
+- Create node modules.
+- Install and make use node modules to extend the capabilities of the Node.js platform.
+- Use Express web framework to build web applications.
+- Make use of 3rd party middleware to add capabilities to web applications
+- Build a RESTful API.
+- Consume RESTful API from client-side JavaScript
+- Connect and retrieve data from MongoDB.
+- Access the file system to read and write files.
+- Write command line programs.
+- Explore npmjs.com to research and use revelant node modules.
+- Gain an understanding of how Node fits into the MEAN and MERN stacks to build scale-able web apps.
+Effective as of Fall 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

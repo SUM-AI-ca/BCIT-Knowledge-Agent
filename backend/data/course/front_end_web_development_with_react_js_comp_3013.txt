@@ -1,0 +1,85 @@
+URL: https://www.bcit.ca/courses/front-end-web-development-with-react-js-comp-3013/
+Title: Front-End Web Development with React.js COMP 3013
+Type: Course
+Course Code: COMP 3013
+
+================================================================================
+
+## Front-End Web Development with React.js COMP 3013
+Computer Systems Course
+## Course Overview
+React.js is an open source JavaScript library widely used to create fast, modular web and mobile applications. This hands-on course follows on from COMP 2132 and was designed for students with prior experience developing web pages using HTML5, CSS3 and JavaScript. Students must provide their own current model PC, i5 or higher equivalent processor, 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Starting with an introduction to React.js concepts, participants concentrate on how React works with browsers and the Document Object Model (DOM). Then students use the modern Hooks API to built clean and testable components. Instructor led labs and exercises focus on how to structure and develop single-page applications using NPM, Webpack and Babel, following current industry standards. Topics include: Routing, Server-Side Rendering, Styling, State Management, and deployment. Please Note: Attendance, participation in class and the BCIT Learning Hub are required. Students may have an average total time commitment of 11 hours each week; with 3 hours of class time, and 8 hours of homework. ​Web developers should also consider learning multiple advanced JavaScript tools including: COMP 2909 -Angular and Vue.js Fundamentals and COMP 3012 Back-End Web Development with Node.js. COMP 3013 is an elective in several BCIT Computing applied associate certificates; Web Development (AWD), Web and Mobile Application Development (WMA), Advanced Java Development (AJD) and Advanced .NET Development; as well as the CST/PTS Diploma. Upon completion successful participants will be able to use React to create and deploy dynamic web applications quickly, with more functionality and less code. This course replaces COMP 2913 as of January 2023.
+### Prerequisite(s)
+- 60% in COMP 2132 or 50% in ACIT 1620
+### Credits
+3.0
+### Registration requirements
+Departmental approval is required to register for this course. You must have approval from the department to register. Students accepted into a program can register directly.
+### Domestic fees
+$568.44 - $580.10 See individual course offerings below for actual costs.
+International fees are typically 3.4 times the domestic tuition. Exact cost will be calculated upon completion of registration.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain the basic concepts of the React Library, and how it interacts with the browser.
+- Construct single-page applications using React.js and it's supporting toolchain, including NPM, Webpack and Babel.
+- Use features introduced with ECMAScript 6.
+- Describe how React.js can be used to build both server-side rendered and client-side rendered pages through meta-frameworks like Next.js.
+- Leverage the Hooks API to build lean React components that are easy to read and reason about.
+- Explore the different ways to style your React components, including CSS-In-JS, CSS and Modules.
+- Use global state management libraries to help share common application state across several components.
+- Explore different ways to deploy your React.js applications to production, including using CDN's to cache and serve application content to users as quickly as possible.
+- Build fast, feature-rich, dynamic user interfaces with React.js modular components.​
+Effective as of Fall 2022
+## Related Programs
+Front-End Web Development with React.js (COMP 3013) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Web Development Associate Certificate Part-time
+- Computer Systems Diploma Part-time
+- Introduction to Full-Stack Web Development Microcredential Part-time
+- Web and Mobile Application Development Associate Certificate Part-time
+## Course Offerings
+- Spring/Summer 2026
+- Fall 2026
+Below is one offering of COMP 3013 for the Spring/Summer 2026 term.
+May 05 - Jul 21
+- CRN 68795
+- $568.44 Domestic fees
+Dates | Days | Times | Locations
+May 05 - Jul 21 | Tue | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Armaan Dhanji
+### Course outline
+View
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. Course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows.
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Below is one offering of COMP 3013 for the Fall 2026 term.
+Sep 09 - Dec 09
+- CRN 50547
+- $580.10 Domestic fees
+Dates | Days | Times | Locations
+Sep 09 - Dec 09 | Wed | 18:00 - 21:00 | Online
+### Duration
+12 weeks
+### Instructor
+Armaan Dhanji
+### Course outline
+Course outline TBD — see Learning Outcomes in the interim.
+### Important information
+- Important course information will be sent to you prior to your course start date. Check your myBCIT email account to access this information.
+- Please email cstflex@bcit.ca for Departmental approval. Include your Student number (A0#) and COMP__ and preferred CRN __ and Program Declaration____. The course is 36 hours synchronous online classes. Please Note: Attendance, participation in class and the BCIT Learning Hub are mandatory. You should prepare to spend 2-3 hours on homework for every 1 hour of class time. This course may require an average total time commitment of 9-12+ hours per week. 3 hours of synchronous class time and 6-9+ hours per week for homework. Late registration is not permitted. BCIT Computing is primarily a Microsoft Windows environment. Students must provide their own current model Windows-compatible PC. i5 or higher equivalent processor, with 8 GB of RAM minimum, and 256 GB minimum storage. Highspeed internet access is needed for online sections and for homework. Mac users must have the ability to manage and support their iOS computer. They may need to create a virtual Windows environment using Parallels or VMWare Fusion. COMP instructors may not be able to assist Mac users with software compatibility issues. BCIT does not provide access to Parallels or support for students to use a Mac to run Windows. No class September 30 (Truth & Reconciliation Day) and November 11 (Remembrance Day).
+### Confirmation
+To proceed with registration and add this course to the cart, please confirm:
+I have received departmental approval. No approval yet? Request approval You must have approval from the department to register. Students accepted into a program can register directly.
+I have read and understand the important information above.
+If you have any questions about this course, please contact us .
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

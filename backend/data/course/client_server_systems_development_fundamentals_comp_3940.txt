@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/client-server-systems-development-fundamentals-comp-3940/
+Title: Client/Server Systems Development Fundamentals COMP 3940
+Type: Course
+Course Code: COMP 3940
+
+================================================================================
+
+## Client/Server Systems Development Fundamentals COMP 3940
+Computer Systems Course
+## Course Overview
+This course provides in-depth understanding of developing and analyzing distributed systems. The focus is on developing distributed systems on desktop as well as mobile environments and analyzing the impact of networking technologies on their performance, reliability, scalability, consistency and security. Students will develop distributed applications using sockets / datagrams / multicast sockets, processes/threads/pipes/FIFOs; middleware that may include COM/DCOM or RPC; and web technologies.
+### Prerequisite(s)
+- Completion of first year CST and Admission into the Client Server Option.
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Analyze requirements and design goals for client server and distributed system.
+- Evaluate impact of Networking and Internetworking on the client/server and distributed systems.
+- Identify structural and modeling issues.
+- Analyze development methodologies for client/server based applications.
+- Build GUI based client server systems using sockets, datagrams, multicasting, multithreading, multiprocessing; middleware that may include COM/DCOM, ODBC and web technologies.
+Effective as of Fall 2015
+## Related Programs
+Client/Server Systems Development Fundamentals (COMP 3940) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

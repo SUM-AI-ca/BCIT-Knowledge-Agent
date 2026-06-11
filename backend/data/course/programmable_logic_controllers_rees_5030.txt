@@ -1,0 +1,23 @@
+URL: https://www.bcit.ca/courses/programmable-logic-controllers-rees-5030/
+Title: Programmable Logic Controllers REES 5030
+Type: Course
+Course Code: REES 5030
+
+================================================================================
+
+## Programmable Logic Controllers REES 5030
+Renewable Energy Electrical Systems Course
+## Course Overview
+The Programmable Logic Controllers (PLCs) course will build on principles that were introduced in the Programmable Relays and Analog Devices course. PLCs are most commonly encountered in fluid-driven and fuel cell Renewable Energy Systems. Topics covered include installation, interfacing, communications, monitoring, troubleshooting and testing, and safety. Students will make power, signal, and communication connections for the PLC, and interpret and write programs.
+### Prerequisite(s)
+- REES 5010
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Install, connect, maintain and troubleshoot PLC’s in renewable energy systems.
+- Create ladder logic programs for interaction between lab input and output devices.
+- Set up Ethernet communication between a PLC and a PC locally and over the Internet.
+Effective as of Fall 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

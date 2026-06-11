@@ -1,0 +1,181 @@
+URL: https://www.bcit.ca/courses/data-communication-elex-4340/
+Title: Data Communication ELEX 4340
+Type: Course
+Course Code: ELEX 4340
+
+================================================================================
+
+## Data Communication ELEX 4340
+Electrical and Computer Engineering Course
+## Course Overview
+ELEX 4340 gives an overview of the digital data communications field oriented towards the need of the Control Option graduate. Using the ISO/OSI seven-layer model as a basis, the course covers topics ranging from RS-232 and modems to Local Area Networks and the internet. Emphasis is placed on the role and function of communications protocols, particularly at the physical and data-link layers. Students will design and implement a local area network in the lab.
+### Prerequisite(s)
+- 50% in ELEX 3305 and 50% in ELEX 3310 and 50% in ELEX 3320 and 50% in ELEX 3318
+### Credits
+7.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+## INTRODUCTION
+- Define and describe seven element data circuit and seven layer OSI model.
+- History
+- Definitions
+- Data communications
+- Protocol
+- Serial/parallel
+- Synchronous/asynchronous
+- Protocol functions and the OSI model
+- Physical layer
+- Data-link layer and sublayers
+- Network layer
+- Transport layer
+- Session layer
+- Presentation layer
+- Application layer
+## RS-232 STANDARD
+- Analyze, design and test data communication signals and circuits.
+- Electrical Characteristics
+- Voltage levels
+- Impedance
+- Slew rate
+- Signals and cabling
+- Signals:
+- grounds
+- data (TD, RD)
+- control (RTS, CTS, DTR, DST, CD, RI)
+- timing (TX and RX clocks)
+- test
+- secondary channel signals
+- cable configurations
+- straight through (DTE-DCE)
+- null modem (DTE-DTE or DCE-DCE)
+- PC loopback
+- synchronous DCE and/or DTE
+- Transmission line characteristics
+- Primary line constants and characteristic impedance
+- Propagation velocity
+- Attenuation and phase delay
+- Bias distortion
+- Effects on communications distance and data rate
+## BAUD, BAUD RATE, KBPS, AND FREQUENCY OF DATA
+- Use test equipment to measure data communication signals and waveforms.
+- **** DATA COMPRESSION INTERSYMBOL INTERFERENCE, NYQUEST, SHANNON, SIGNAL TO NOISE, ENVELOPE DELAY, TRANSMISSION LINES, PHASE DELAY, PROPAGATION CO-EFFICIENT.
+## UNIVERSAL ASYNCHRONOUS RECEIVER/TRANSMITTER
+- Program and test data terminal equipment.
+- UART functions in general
+- 16550- the basic PC UART
+- Data and status registers
+- Initialization
+- bit rate
+- character format
+- Character transmission and reception - polled mode
+- 16550 Interrupt control and identification registers
+- PC hardware interrupts - the 8259 PIC
+- - PC interrupt mechanism
+- - Programming the 8259
+- Communications programming
+- Data structures: the circular buffer
+- Potential problems
+- Flow control: hardware; software.
+- - hardware
+- - software
+## ALTERNATIVES TO THE RS-232 INTERFACE
+- Analyze two-wire data circuits.
+- Current loop (digital)
+- Current loop (analog)
+- Balanced line interface
+- RS-422
+- RS-485
+- Universal Serial Bus, IEEE 1394, Firewire
+## CHANNELS AND CIRCUITS
+- Calculate and predict data circuit parameters and behaviour.
+- Channel types
+- Simplex
+- Half-duplex
+- Full duplex
+- Echoplex
+- Channel capacity
+- Shannon's Limit
+- Shannon-Hartley theorem
+- Circuit types
+- Switched (analog and digital)
+- Leased (analog and digital)
+- Multiplexed (TDM and FDM)
+- ATM
+- Bit error rate (BER)
+- Data Compression (relative encoding, run-length encoding, algorithmic encoding).
+## ERROR CONTROL
+- Describe and perform standard error control procedures.
+- Vertical redundancy check (VRC)
+- Longitudinal redundancy check (LRC)
+- Cyclic redundancy check (CRC)
+- Automatic request for repeat (ARQ)
+- Forward error control (FEC)
+## MODEMS
+- Configure and test data communication equipment.
+- Baseband vs broadband transmission
+- Modulation
+- FSK: wide-shift, narrow-shift, MSK
+- FSK: standards (Bell 103, 202, etc.)
+- PSK: binary, differential, coherent
+- PSK: standards (Bell 212)
+- Multilevel:
+- QPSK and QAM
+- digital modulation - ROM/DAC and DSP/DAC
+- Trellis coded
+- Encoding
+- Manchester
+- NRZ & RZ codes, AMI
+- B8ZS
+- Synchronous Codes
+- Using and programming a modem
+- RS-232 signals
+- Hayes command set
+- Error correction
+- Line conditioning
+- Training
+## PROTOCOLS
+- Analyze and describe data packet protocols.
+- XMODEM
+- Data links
+- Synchronous communications
+- Character-oriented protocols - BSC
+- BSC frame format
+- Transparency
+- Bit-oriented protocols - HDLC
+- Transparency and the flag
+- Bit stuffing
+- HDLC frame format
+- Packet sequence example
+- Channel access
+- Polled
+- CSMA and Aloha
+- Token bus
+## LOCAL AREA NETWORKS
+- Analyze and describe LAN topologies and operating system procedures.
+- Introduction
+- Configuration: star; bus; ring
+- Protocol layers
+- Token ring
+- Ethernet
+- Physical layer
+- Data-link layer
+- CSMA/CD operation
+- Netware
+- Protocol layers revisited
+- IPX frame format
+- Netware operation
+## WIDE AREA NETWORKS
+- Describe the organization of interconnected data communication systems.
+- Introduction and definition
+- X.25 packet switched network, SMDS, frame relay
+- TCP/IP protocol
+- Bridges, routers, and gateways
+## SELECTED TOPICS IN DATA COMMUNICATIONS
+- These may include any of the following topic or topics suggested during the term:
+- Describe contemporary and emerging data communication systems.
+- ATM
+- FDDI
+- SONET
+- DIGITAL CELLULAR
+Effective as of Winter 2005
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

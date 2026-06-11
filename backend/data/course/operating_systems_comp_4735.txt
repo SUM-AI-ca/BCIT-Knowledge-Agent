@@ -1,0 +1,33 @@
+URL: https://www.bcit.ca/courses/operating-systems-comp-4735/
+Title: Operating Systems COMP 4735
+Type: Course
+Course Code: COMP 4735
+
+================================================================================
+
+## Operating Systems COMP 4735
+Computer Systems Course
+## Course Overview
+This course is focused on basic concepts in operating systems: structure, operating systems services, how these services are used and implemented, processor management, processes and threads, kernel architecture, inter-process communication, synchronization and mutual exclusion, deadlock and starvation, memory organization and management, virtual memory, processor scheduling, input/output management, disk scheduling, and file management. To illustrate the concepts, each topic includes examples of real life design choices used in modern operating systems (e.g., UNIX, Linux, Windows, and Android).
+### Prerequisite(s)
+- COMP 2721 and COMP 2510
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Describe the role of an operating system.
+- Analyze how the operating system is structured (layers and components).
+- Describe the operating system interface (system calls, shells).
+- Decide what functions should be implemented for a typical operating system and explain how these functions are implemented in modern operating systems.
+- Describe process management concepts such as processes, threads, CPU scheduling, process synchronization, deadlock, and starvation.
+- Implement synchronization solutions for real-life concurrent problems.
+- Explain how the memory management system operates, including logical/physical addressing schemes, swapping, segmentation, paging and virtual memory.
+- Trace the result of the various algorithms implemented for virtual memory management.
+- Analyze the algorithms implemented for processor scheduling.
+- Discuss and compare different scheduling algorithms.
+- Describe I/O management.
+- Analyze the algorithms used for disk scheduling.
+- Describe the file management system.
+Effective as of Fall 2015
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

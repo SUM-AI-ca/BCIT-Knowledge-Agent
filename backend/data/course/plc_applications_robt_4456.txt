@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/plc-applications-robt-4456/
+Title: PLC Applications ROBT 4456
+Type: Course
+Course Code: ROBT 4456
+
+================================================================================
+
+## PLC Applications ROBT 4456
+Mechatronics and Robotics Course
+## Course Overview
+Covers the application and programming of a programmable logic controllers (PLC). Topics include a description of the basic components of a PLC system, the fundamentals of ladder diagrams, PLC timers and counters, data manipulation, control and math functions, sequences, human machine interfaces (HMIs), and PLC programming methods. Throughout the course various industrial control examples are used for demonstrating the use of the PLC instructions.
+### Prerequisite(s)
+- ROBT 3356
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of the course, the student will be able to:
+- Describe the architecture of a programmable logic controller (PLC).
+- Describe the scanning sequence and input/output updating.
+- Describe the Allen Bradley ControlLogix project structure.
+- Use tags to address inputs, outputs and memory locations.
+- Interpret schematics that use relay ladder logic.
+- Analyze a process to determine if it is sequential or nonsequential.
+- Write PLC programs using sequencing instructions in ladder logic.
+- Write PLC programs using modular programming techniques based on state diagrams.
+- Implement diagnostic and fault detection techniques.
+- Create human machine interfaces (HMIs) for PLC applications.
+- Connect automation components using various network protocols.
+- Write PLC programs using Sequential Function Charts (SFCs).
+Effective as of Winter 2013
+## Related Programs
+PLC Applications (ROBT 4456) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

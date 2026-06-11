@@ -1,0 +1,163 @@
+URL: https://www.bcit.ca/outlines/20261079749/
+Course: MDIA 2003
+Field: Project 1
+Subject: Media Communications
+Term: 202610
+CRN: 79749
+
+================================================================================
+
+## Course Outline
+## MDIA 2003
+## Project 1
+School | School of Business + Media
+Program | Digital Design and Development
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 60
+Total Weeks | 20
+Hours/Weeks | 3
+Delivery Type | Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 79749
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Wim Teuling
+E-mail | wim_teuling@bcit.ca
+Location | SE14 122
+Office Hours | BCIT Burnaby Campus Hours Tuesdays 16:30 – 17:30 SE14, room 120 Fridays 12:30 – 13:15 SE14, room 122 16:30 – 17:30 SE14, room 124 Online Contact Hours Weekly hours vary on Mondays, Wednesdays, and Thursdays: 15:00 – 17:00 (contact instructor in advance to set up appointment during these hours). Hours are variable for online meetings throughout the week. Online meetings should be setup in advance. If none are scheduled an email or Discord message during those times can lead to an impromptu online meeting if and when the instructor is available. Online meetings are conducted via Microsoft Teams. Email wim_teuling@bcit.ca Learning Resources Instructor notes and resources provided in the MDIA 2003 Learning Hub workspace.
+### Course Description
+​Students in this course focus on content management system design and development. Students will develop either a Drupal or WordPress site that meets specific business requirements. Requirements of this project include site navigation (which must be well defined and usable), site theme (must be associated with the business needs), vertical or horizontal sidebars, and implementation of CSS style sheets to complete the project, students will focus on design and functionality. Students must incorporate all of their development skills to successfully complete this project.
+### Course Learning Outcomes/Competencies
+Upon successful completion of the course, the student will be able to:
+- Apply the principles of design within a CMS platform.
+- Create a website using a CMS platform.
+- Develop a fully functional website with either WordPress or Drupal.
+- Assess website messaging so that it meets client's needs.
+- Design and implement a practical and fully functional interface design.
+- Capture and optimize all assets and contents.
+- Develop a strong written message with enticing story content through the designed CMS website.
+- Identify the responsibilities of a project manager.
+- Prepare a budget and estimated timeline for the completion of the project.
+- Prepare a written contract for the project.
+### Learning Resources
+Instructor notes and resources provided in the MDIA 2003 Learning Hub workspace.
+### Evaluation Criteria
+Criteria | %
+LAB Assignments | LAB-01 Install Localhost | 1
+LAB-02a html structure & Git | 2
+LAB-02b Responsive Layout & Git | 4
+LAB-03 Get Hosting | 2
+LAB-04 WP Minisite Ideation | 1
+LAB-05 WP Minisite Assignment | 9
+total | 19
+%
+Professionalism & Participation | Introduce Yourself | 1
+Join Discord | 1
+Project Team Peer Reviews | 3
+Project Meetings | 4
+Project Presentation | 2
+total | 11
+From week 5 onward students will work in teams of 5-6 on a larger project. Each team will choose to work on 1 project type only!
+%
+Team project: Website | PROJ-01 Ideation | 2
+PROJ-02 Competitive Analysis | 3.5
+PROJ-03 User Research | 7
+PROJ-04 User Personas & Scenarios | 3.5
+PROJ-05 Content Inventory | 5
+PROJ-11 Sitemap | 3
+PROJ-06 User Story Mapping | 3
+PROJ-07A LoFi Prototype | 5
+PROJ-07B LFP Usability Testing | 3.5
+PROJ-09 Style Tiles / Mockup and Branding / Specs | 4
+PROJ-08A HiFi Prototype | 7
+PROJ-08B HFP Usability Testing | 3.5
+PROJ-10A Website Development | 14
+PROJ-10B Usability Testing | 3
+PROJ-11 Web Promotional Video | 3
+total | 70
+Team project: Mobile App | IDSP-01 ideation | 2
+IDSP-02 Competitive Analysis | 3.5
+IDSP-03 User Research | 7
+PROJ-04 User Personas & Scenarios | 3.5
+IDSP-05 Asset Inventory / Asset design & creation | 5
+PROJ-06 User Story Mapping | 3
+IDSP-07A Low Fidelity Prototype | 5
+IDSP-07B LFP Usability Testing | 3.5
+IDSP-09A UI Style Guide/Specs and Branding Design | 7
+PROJ-9B Dev Specs | 2.5
+IDSP-08A HiFi Prototype | 7
+IDSP-08B HFP Usability Testing | 3.5
+IDSP-12 Frontend Development | 8
+IDSP-10 App Marketing Website | 3.5
+IDSP-11 App Promotional Video | 3
+IDSP-13 Usability Testing | 3
+total | 70
+Team project: Game | IDSP-01 ideation | 2
+IDSP-02 Competitive Analysis | 3.5
+IDSP-03 Player Research | 7
+IDSP-12 Game Design Document / Notes / Wiki / Specs | 7
+IDSP-04 Player Personas | 3.5
+IDSP-05 Game Asset Inventory & Asset Creation | 12
+PROJ-06 User (Player) Story Mapping | 3
+IDSP-07A LoFi Prototype | 5
+IDSP-07B LFP Gameplay Testing | 3.5
+IDSP-09 Game GUI and screens mockups. Branding Design | 3.5
+IDSP-08A HiFi Prototyping | 7
+IDSP-08B HFP Gameplay Testing | 3.5
+IDSP-10 Game Marketing Website | 3.5
+IDSP-11 Game Promotional Video | 3
+IDSP-13 Gameplay Testing | 3
+Total | 70
+Total all components | 100
+### Course Schedule and Assignments
+Week | Topics | Assignments
+1 | Course introduction Course timeline Overview tools & software -- Intro webservers LAMP stacks and MEAN stacks Setting up localhost Localhost and web projects: workflow | LAB-01
+2 | Git, Github, Gitlab Git clients Git and teams Html structure and naming conventions revisited Web hosting | LAB-02A LAB-02B
+3 | Code review -- Git Workflows Git Feature branch workflow Responsive layouts & CSS Grids Optimizing images & file formats Preparing images for responsive layouts
+4 | Code review -- Dealing with Git issues WordPress Introduction Installing WordPress About ideation | LAB-03 LAB-04 PROJ-01
+5 | Project Kick Offs Team charter Project management tools Competitive analysis User research techniques I | PROJ-00 PROJ-02 PROJ-03
+6 | User research techniques II GDDs -- Extending WordPress WordPress layout builders | LAB-05 PROJ-12 [GAME]
+7 | Interpreting, understanding, and implementing user research results User Personas revisited User Scenarios and other tools -- WordPress content structure | PROJ-04
+8 | Low Fidelity Prototyping Prototyping software and tools Sitemaps Content/Asset Inventory/Matrix User Story Mapping & Backlog Tasks -- Customizing WordPress WordPress Theme CSS | PROJ-05 PROJ-06A
+9 | Usability testing -- Customizing Wordpress 2: Theme structure WordPress security | PROJ-7A PROJ-07B PROJ-11 [WEB]
+10 | Spring Break Project Reviews
+11 | Visual Style & branding deliverables Working with clients -- WordPress: WooCommerce – building a webstore or patreonship system | PROJ-09
+12 | High Fidelity Prototyping Units and screen design -- WordPress: User Management, Access WordPress: custom login | PROJ-06B
+13 | Usability testing II Visual Design testing and review -- Wordpress: custom post types WordPress: create a theme from scratch I | PROJ-08A PROJ-08B PROJ-10 [WEB]
+14 | Style guides, design systems, and development specifications -- WordPress: create a theme from scratch II | PROJ-12 [APP] PROJ-14 [GAME]
+15 | Handover communication between designers and developers About marketing your project -- WordPress: Content Inventory Models & Databases WordPress: Custom data with Pods | PROJ-09 [APP/GAME] PROJ-10 [APP/GAME]
+16 | Development time -- WordPress: Tips & tricks | PROJ-11
+17 | Development time -- IDSP FSWD Development Start (4 weeks)
+18 | Development time & Testing | PROJ-13
+19 | Publishing and release Presentations D3 Post project reviews and discussions -- No class / Exam week | LAB-04 End
+20 | Presentations IDSP/FSWD -- No class / Exam week | Team Project polishing and publishing
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Wim Teuling, Instructor January 01, 2026
+I verify that this course outline has been reviewed. Henry Leung, Program Head January 04, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Morgan Westcott, Associate Dean January 04, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

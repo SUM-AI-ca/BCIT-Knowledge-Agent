@@ -1,0 +1,100 @@
+URL: https://www.bcit.ca/outlines/20262068495/
+Course: MDAA 2542
+Field: Lighting and Rendering 2
+Subject: 3D Modelling, Art & Animation’
+Term: 202620
+CRN: 68495
+
+================================================================================
+
+## Course Outline
+## MDAA 2542
+## Lighting and Rendering 2
+School | School of Business + Media
+Course Credits | 3
+Minimum Passing Grade | 60%
+Start Date | May 04, 2026
+End Date | August 14, 2026
+Total Weeks | 15
+Delivery Type | Lab
+Prerequisite(s) | All courses from term 1 must be successfully completed.
+CRN | 68495
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Craig Shiells
+E-mail | craig_shiells@bcit.ca
+Location | Online
+Office Hours | Office hours: 10am-11pm Saturday If you require my assistance, please e-mail me at craig_shiells@bcit.ca to arrange a meeting.
+### Course Description
+​Students will examine the effects of lights, cameras, and surface interactions. Students will setup cameras and camera effects and create a shading network for a high quality 3D scene that is optimized for efficient rendering. Both offline and real time renderers will be explored and the benefits to both will be examined. Students will be able to render their shots in passes, and composite them together in an editing package. Focusing on industry standard presentation techniques, camera moves, pacing, and framing will be explored so students can showcase their work effectively.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Analyze how cameras work in a 3D environment.
+- Assign appropriate shaders to 3D models.
+- Create high quality shading network for multiple purposes.
+- Apply camera effects such as motion blur and depth of field for better and more realistic appearance.
+- Render scenes in offline renderers and real time renderers.
+- Render in passes and composite shots back together.
+- Showcase renders in an effective, industry standard format.
+### Learning Resources
+Attached to the Course Content in the Learning Hub as applicable to the class.
+### Course Goals
+The goal of this course is to expand upon the foundation of Lighting 1 and provide a thorough education on the Lighting, Rendering and Compositing process. Students will be introduced to advanced lighting techniques as well as industry used compositing practices.
+### Evaluation Criteria
+Criteria | % | Comments
+Time Of Day | 15
+Bedroom Natural | 15
+Bedroom Artificial | 15
+AOV Comp | 5
+Bathroom | 15
+Render Layer Comp | 5
+Integration | 5
+Animated Sequence | 25
+Total | 100%
+### Attendance Requirements
+Attendance will be taken at the start of class and can be taken again in middle of the class. Students who have not made previous arrangements with their instructors and are not present during attendance check will be given an unexcused absence mark. The instructor also hold the right to give students an unexcused absence mark, if the student fails to meet certain requirements such as bringing required assignment progress, or required equipment for the day.
+Students who arrive 15 minutes after the start of class will be marked as late, and 2 late marks will be equivalent to 1 unexcused absence.
+Students who have informed their instructors of their absence will be given an excused absence mark, at the discretion of the instructor.
+All this is implemented for this class on top of the BCIT Attendance Policy detailed at the end of this course outline.
+### Course Schedule and Assignments
+May 6 | Week 1 - Intro to Lighting 2 Introduction to myself and the curriculum. Discuss the role of a Production Lighting Artist. We will get to work producing various exterior lighting solutions that match selected reference material. In doing so, we will refresh students on: Analyzing reference material (camera basics) and what makes good reference content Various light types and controlling their attributes The principles of illumination Constraints and Rigging Image types and formats Rendering and render settings Sampling and quality control settings Naming convention and submission guidelines Some Photoshop painting Assignment: Light and render a sphere on a plane, recreating two lighting conditions from selected reference of naturally occurring scenarios. Choose reference examples that represent times of day and/or weather conditions that are unique to each other. Do not choose reference that contains artificial light sources or a digital reproduction.
+May 13 | Week 2 - Interior Lighting Natural There will be a lecture on THE ILLUSION OF SHAPE before we get working on lighting an interior space through natural sources of illumination (sun/sky). Through this, students will learn about: Analyzing reference material and what makes good reference content Cameras and Composition (Staging) Global Illumination methods (strengths and weaknesses) Dome vs Environment Light Light placement (three-point lighting for environments) Contribution Scales and Render Stats Shaders and materials Depth of Field (camera) Redshift Post FX Assignment: Produce a lighting solution for the Bedroom Asset that matches the selected reference material. Choose reference material of naturally occurring lighting conditions and of a suitable environment.
+May 20 | Week 3 - Interior Lighting Artificial Using the same interior asset as last week, we will gather reference material and produce a lighting solution for a space which is illuminated by artificial light sources. There will be a lecture on SETTING THE MOOD. We will cover: Various options for creating artificial sources Emissive materials Global Illumination limitations and techniques to resolve Render Optimization Assignment: Produce a lighting solution for the Bedroom Asset that matches the selected reference material. Choose reference material of artificial light sources or environments.
+May 27 | Week 4 - Intro to Compositing This class, students will be introduced to Nuke. We will review the interface and a variety of nodes before seeing how we can use post-processing to improve the results of our Bedroom renders. We will render some AOV’s and use them to improve our result in comp. We will cover: Basic Nuke interface Introduction to Node Based Compositing Read, Write, Grade, Color Correct Rendering and compositing Ambient Occlusion, Depth, Crytomatte
+June 3 | Week 5 - Evaluation/Feedback/Review The main purpose of this class is to provide feedback on the assignment submissions and giving time for students to address the notes and improve their results. Students can request I re-explain or re-demonstrate any subject or topic that has previously been presented. There will be a lecture on GETTING ATTENTION.
+June 10 | Week 6 - Linear Workflow and AOV’s I will present a lecture on LINEAR WORKFLOW / COLOR MANAGEMENT before we head into Maya and explore rendering and compositing AOV’s. Students will gain knowledge on: Light Physics History of display devices sRGB colorspace versus ACES workflow Application practice and setup (Nuke, Maya, Substance…etc.) Rendering and Compositing AOV’s (basic/advanced) Assignment: Demonstrate your understanding of Nuke and AOV’s by successfully rendering and composting them (Instructor led exercise).
+June 17 | Week 7 - Light Effects This class, students will learn to produce a variety of light effects observed in the natural world, as well as, how to fake various light effects. We will cover: Caustics, Volumetrics, Photometric Gobo’s, Caustics, Volume, Smoke, Fire
+June 24 | Week 8 - Lighting Analysis – Matching Reference Today’s lesson is back to practicing lighting. I will lead students through the process of lighting the Bathroom asset, in an attempt to match the reference it was produced from. New topics of discussion will be: Trace depth settings Materials and Shaders Importance of modeling to scale Assignment: Produce a lighting solution for The Bathroom Asset that closely matches the reference image it was created from.
+July 1 - No Class | Canada Day
+July 8 | Week 9 - Render Layers – Beach Bug I will deliver a lecture on LIGHTING CARL & ELLIE’S STORY demonstrating how to properly utilize Render Layers for compositing purposes. By the end of the lessons, students will be able to: Properly analyze a composition and evaluate how to separate it into layers Sufficiently name and produce a variety of render layers Produce a variety of render layer overrides Composite render layers in Nuke Assignment: Demonstrate your understanding of compositing Render Layers by successfully rendering and composting them (Instructor led exercise).
+July 15 | Week 11 - Lighting Integration Students will be given a lecture on LIGHTING INTEGRATION that uses Johannas Vermeer’s technique. We will then put it to practice by attempting our own integration and producing a working lighting solution. Students will learn: How to approach integrating CG elements with live action Image planes and backplates Matteshadowcatcher Assignment: Using Vermeer’s Technique for matching reference, reproduce a lighting solution that matches the reference image provided. No not use comp or post-effects. How to compose your final submission will be demonstrated in class.
+July 22 | Week 12 - Lighting and rendering an animated sequence (1 of 4) This is the first lesson in a series of classes where we will learn to light and render an animated sequence. In this lesson, we will familiarize students with: Alembic file animation How to approach shot lighting GI limitations what what’s best left for comp Assignment: Students will light and render two animated shots that combine to make a sequence. Continuity, as well as demonstration of shape, mood, and visual interest, will be evaluated.
+July 29 | Week 13 - Lighting and rendering an animated sequence (2 of 4) Building of our scenes from last week, this class will focus on setting up our scenes for rendering and creating render layers before batch rendering. We will cover: Render Setup/Render Layers File formats and compression settings Unified Sampling and render optimization Batch rendering
+Aug 5 | Week 14 - Lighting and rendering an animated sequence (3 of 4) For the final class on rendering animation, we will take our renders into Nuke and build a comp tree to assemble our shots. We will review: How to produce a rack focus in Nuke How to produce glow and bloom effect in Nuke
+Aug 12 | Week 15 - Lighting and rendering an animated sequence (4 of 4) The main purpose of this class is to provide feedback on the assignment submissions and giving time for students to address the notes and improve their results. Students can request I re-explain or re-demonstrate any subject or topic that has previously been presented.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Business + Media
+Attendance: As set out in BCIT Policy 5101 Student Regulations , regular attendance in lectures and labs is integral to student success. Therefore, attendance in class is monitored. Students are responsible for communicating with instructors proactively about both potentially approved and unexcused absences. It is the student’s responsibility to work with their instructor to find an effective means to complete work missed due to both approved and unexcused absences. Students who are seeking accommodation for a medical absence must have a BCIT-approved medical certificate . For other absences, students must be prepared to provide appropriate supporting documentation. If absences are the result of a medical or other accommodation, notification from Accessibility Services personnel will be accepted in lieu of a doctor’s note, on an interim basis. Additionally, attendance for certain assignments, tests, projects, team or group work, safety or equipment training or other course activities such as work integrated learning, as well as participation in discussion groups or other online activities may be deemed mandatory by instructors and may be evaluated as a component of a course in categories such as participation or professionalism.. A student who has ceased to attend a course without explanation before the withdrawal deadline (two-thirds of the way through the course) will receive a Vanished (V) grade. The V grade is calculated into the GPA as a 0 (zero). These requirements are set out in accordance with both BCIT Policy 5101 Student Regulations and BCIT Policy 5103 Student Evaluation More information regarding withdrawal deadlines is available at Academic Dates & Deadlines . Academic Integrity and Use of Artificial Intelligence : The unauthorized use of Artificial Intelligence tools (such as ChatGPT) for any part of student work in this course is prohibited, and, when identified by your instructor, will result in an academic integrity violation. See BCIT Policy 5104 Student Code of Academic Integrity. A violation of academic integrity may result in one or more of the following consequences:
+- A written warning;
+- Required resubmission of the work in question for equal or lower grade value;
+- A lower grade on the work submitted (i.e. a penalty applied);
+- A failing grade on the work submitted; or
+- An academic misconduct letter being placed on the student’s record.
+### Approved
+I verify that the content of this course outline is current. Craig Shiells, Instructor May 02, 2026
+I verify that this course outline has been reviewed. Aldrich Chung, Program Head May 04, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Morgan Westcott, Associate Dean May 04, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

@@ -1,0 +1,28 @@
+URL: https://www.bcit.ca/courses/data-networks-3-telx-3550/
+Title: Data Networks 3 TELX 3550
+Type: Course
+Course Code: TELX 3550
+
+================================================================================
+
+## Data Networks 3 TELX 3550
+Electronics Technical Course
+## Course Overview
+This course introduces technologies that allow networks to scale, it describes the architecture, components, and operations of routers and switches in a large and complex networks. A review of switching technologies including VLANs, and inter-VLAN routing provides the foundation to explore spanning-tree and link-aggregation. A review of IPv4 and IPv6 routing fundamentals provides the foundation to explore Enhanced Interior Gateway Routing (EIGRP) and Open Shortest Path First (OSPF) routing protocols. By the end of this course, students will be able to configure and troubleshoot routers and switches and resolve common issues with OSPF, EIGRP, STP, and VTP in both IPv4 and IPv6 Networks. Included is a review of managing IOS images, configuration files and licensing.​
+### Prerequisite(s)
+- TELX 2550
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe technologies used to provide scalability in campus and enterprise networks
+- Describe the operations and benefits of the Spanning Tree Protocol (STP)
+- Describe and create EtherChannels to facilitate link aggregation
+- Implement, configure and troubleshoot EIGRP in an enterprise system
+- Implement OSPF in an enterprise system
+- Provide scalability in the routing domain by implementing Multi-Area OSPF
+- Configure and troubleshoot operations of routers in a complex routed network for IPv4 and IPv6
+- Manage IOS images, configuration files and licensing for routers and switches
+Effective as of Fall 2019
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

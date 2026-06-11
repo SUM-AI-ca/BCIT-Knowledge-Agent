@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/mysql-database-server-design-and-administration-comp-4661/
+Title: MySQL Database Server Design and Administration COMP 4661
+Type: Course
+Course Code: COMP 4661
+
+================================================================================
+
+## MySQL Database Server Design and Administration COMP 4661
+Computer Systems Course
+## Course Overview
+COMP 4661 has been replaced by COMP 4662 The MySQL database server is the world's most popular open source database product. This high level hands-on course is focused on the current version of MySQL Server and its administration, continuing on from COMP 1630 . It is designed for those who already understand relational database design, data modeling, normalization and SQL programming. This course provides an in-depth understanding of designing and implementing configuring the current version of MySQL. It also helps to prepare for some of the MySQL certifications. Topics include: MySQL architecture, storage engines, client programs, DDL and DML for MySQL (CREATE, SELECT, INSERT, UPDATE, JOIN etc), importing/exporting data, replication and optimization. Students learn to write and optimize complex MySQL queries, perform backups and restore databases. Upon successful completion, participants will be able to install, design and create multiple databases and user accounts with permissions on a MySQL Server. This course is offered once a year in the summer term.
+### Prerequisite(s)
+- COMP 1630 or equivalent knowledge of data modeling, normalization and SQL programming.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, students will be able to:
+- Explain the difference between MySQL and MySQL AB.
+- Describe and use MySQL client programs.
+- Describe and use MySQL client programs.
+- Install and configure MySQL on different platforms.
+- Create, alter and manage database objects with consideration to different MySQL storage engine and table types.
+- Use built in functions to describe database structure.
+- Use SQL statements to perform simple and complex MySQL queries.
+- Import and export data.
+- Discuss security issues involved in administering MySQL databases.
+- Describe how to optimize queries in MySQL.
+- Discuss transactions in MySQL.
+- Explain replication strategies in MySQL.
+- Helps to prepare for the challenge of 3 industry certification exams, which are not included;
+- CMA (Certified MySQL Associate).
+- CMDEV (Certified MySQL Developer).
+- Introduces some topics for CMDBA (Certified MySQL DBA).
+Effective as of Spring/Summer 2008
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

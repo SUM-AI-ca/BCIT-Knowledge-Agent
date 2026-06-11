@@ -1,0 +1,35 @@
+URL: https://www.bcit.ca/courses/manufacturing-control-systems-mtec-7054/
+Title: Manufacturing Control Systems MTEC 7054
+Type: Course
+Course Code: MTEC 7054
+
+================================================================================
+
+## Manufacturing Control Systems MTEC 7054
+Manufacturing Course
+## Course Overview
+Covers control systems related to manufacturing operations. Topics include determining the system block diagram, control algorithms such as ON/OFF, three point and PID control, determining the transfer function for a system using the Laplace transform, stability of systems based on the Bode diagram, interfacing production sensors and actuators to Programmable Logic Controllers (PLCs), using logic and sequence programming and introduction to simulation software.
+### Prerequisite(s)
+- MECH 1210 and MECH 4450 , or equivalent.
+### Credits
+3.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Discuss safety and environmental issues associated with manufacturing control systems.
+- Select an appropriate control and power drive methods based on the performance requirements of a given control system.
+- Develop the system block diagram based on a description of a control system.
+- Explain the correlation between capacitance, resistance and inductance (potential energy, friction and kinetic energy) in mechanical, electrical, fluid and thermal control systems.
+- Describe how ON/OFF, three point and PID controls are implemented.
+- Explain the effect of changing PID process parameters on the response of a control system.
+- Determine the transfer function and the response of a simple system using Laplace Transforms.
+- Estimate the performance characteristics of a control components and systems using the Bode plots.
+- Develop and test a PLC program to perform a sequence of operations on a machine.
+- Test computer models of selected control systems using simulation software.
+Effective as of Winter 2012
+## Related Programs
+Manufacturing Control Systems (MTEC 7054) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Manufacturing Bachelor of Technology Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

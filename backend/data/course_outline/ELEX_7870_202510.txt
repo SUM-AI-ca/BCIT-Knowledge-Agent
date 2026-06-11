@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20251084036/
 Course: ELEX 7870
 Field: Industrial Control Systems
-
-School: School of Energy
-Program: Electrical Engineering
-Course Credits: 4
-Minimum Passing Grade: 50%
-Start Date: January 06, 2025
-End Date: April 25, 2025
-Total Hours*: 60
-Total Weeks: 15
-Hours/Weeks: 4
-Delivery Type: Lecture
-Prerequisite(s): ELEX 3210 and ELEX 7720† and MECH 4640 († may be taken concurrently)
+Subject: Electrical and Computer Engineering
+Term: 202510
 CRN: 84036
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## ELEX 7870
+## Industrial Control Systems
+School | School of Energy
+Program | Electrical Engineering
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 06, 2025
+End Date | April 25, 2025
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture
+Prerequisite(s) | ELEX 3210 and ELEX 7720 † and MECH 4640 ( † may be taken concurrently)
+CRN | 84036
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Younes Rashidi
-E-mail: younes_rashidi@bcit.ca
-Location: SW3-2065
-Office Hours: Refer to the schedule posted on the course Learning Hub.
-
-## Course Description
+### Instructor Details
+Name | Younes Rashidi
+E-mail | younes_rashidi@bcit.ca
+Location | SW3-2065
+Office Hours | Refer to the schedule posted on the course Learning Hub.
+### Course Description
 ​This course explores the practical application of measurement and automatic control theory to industrial processes. Application and appropriate selection of flow measurement systems, control strategies and final control elements (control valves, variable frequency drives) to common industrial processes is investigated. Students will evaluate single input (SISO) and multi-input, single output (MISO) control strategies including cascade, feedforward, ratio, selective and adaptive systems commonly found in industrial processes. Control system stability is analyzed based on a first order plus dead time model of processes using Bode plots. Industrial control computers, specifically a distributed control system (DCS), will be investigated and used to create models and controls that simulate an industrial process (heat exchanger). The configuration and simulation will be implemented in a DCS laboratory after investigating, parameterizing and optimizing the control of a heat exchanger process in the laboratory.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Describe common industrial control strategies, their requirements and objectives, recommend under what conditions an approach is suitable, and determine performance criteria for these strategies [1,2].
 - Design a control system to meet objectives for closed loop performance as measured against established performance criteria and evaluate using frequency response analysis [4].
 - Design multi-input control systems (cascade, feedforward and ratio) and document using industry-accepted standards (ISA S5.1, SAMA). Implement and optimize a cascade and/or feedforward strategy(ies) [4].
@@ -39,101 +42,71 @@ Upon successful completion of this course, the student will be able to:
 - Design, document and implement regulatory control (and interlock / sequence control as time permits) of a simulated process on an industrial distributed control system (DCS) using IEC-61131-3 compliant programming [4,5,7].
 - Create mathematical and empirical models to simulate an industrial process [1,2].
 - Design the graphical user interfaces required for complete testing of a simulated system [4,5].
-
-## Learning Resources
+### Learning Resources
 Required:
-
 Process Control, Designing Processes and Control Systems for Dynamic Performance, 2nd Edition by Thomas Marlin​ (Available as a free download from: URL https://pc-textbook.mcmaster.ca/)
-
 Control Valve Handbook (5th ed.) by Fisher Controls (Free electronic copy available at: URL https://www.emerson.com/documents/automation/control-valve-handbook-en-3661206.pdf)
-
 Recommended:
-
 - Control Systems Technology, Curtis Johnson, Heidar Malki. Prentice Hall 2002 ISBN 0-13-081530-6
 - Any articles and publications written by Gregory McMillan, James Beall, Mark Coughran, Michel Ruel, Terry Blevins, Greg Shinskey or EnTech (Emerson)
-
 Optional:
-
 Instrument Engineers Handbook, Process Control, 3rd Edition, by Bela G. Liptak (available in BCIT library and in lab)
-
 See the Book List on the Learning Hub for other recommended textbooks.
-
-## Course Goals
+### Course Goals
 Refer to the course Learning Outcomes
-
-## Evaluation Criteria
-Criteria: %: Comments
-Labs: 35: Lab attendance is considered in lab assessments.
-Assignments: 10: Includes project proposal & preliminary design
-Quizzes: 10
-Midterm Exam: 15
-Final Exam: 30
-
+### Evaluation Criteria
+Criteria | % | Comments
+Labs | 35 | Lab attendance is considered in lab assessments.
+Assignments | 10 | Includes project proposal & preliminary design
+Quizzes | 10
+Midterm Exam | 15
+Final Exam | 30
 Successful completion of both the Lab component and Theory component of this course is required for a passing grade. The minimum passing grade for both the Lab and Theory components is 50%. Section 3.4 of BCIT policy 5103-PR1 states that when one component is successfully completed and the other is not, but the average mark of the two components is a passing grade, a failing grade of U (Unsatisfactory) is awarded.
-
-## Attendance Requirements
+### Attendance Requirements
 Attendance and full participation in all laboratory sessions is mandatory. Lecture classes may be missed but the instructor must be notified of the student's choice to do so. Nonetheless, the sole responsibility for any and all missed course material, quizzes, assignments, notifications or announcements due to lack of attendance lies entirely with the student.
-
-## Course Specific Requirements
+### Course Specific Requirements
 Laptop / Tablet
-
 It is recommended that students have a laptop, tablet or smart phone with a large display with them during lectures. Classes and notes will be presented using Microsoft OneNote. Students are not required to have Microsoft OneNote installed on their device; a hyperlink is available for web browsers. Course materials will also be available on the Learning Hub.
-
 Safety Equipment / Protective Clothing
-
 Labs in the Unit Operations facility (SW1-1450) requires appropriate dress wear (long pants and, ideally, long sleeve shirts), appropriate footwear (no open-toed or high-heeled shoes or any unsafe footwear) and safety equipment (safety glasses). Students are expected to come to the lab prepared to meet the above safety requirements.
-
-## Safety equipment or protective clothing
+### Safety equipment or protective clothing
 Labs conducted in SW1-1450 (Unit Ops) requires appropriate personal protection equipment. Specifically, students must come to the lab with appropriate footwear (ideally, safety shoes; absolutely no open-toed or high-heeled shoes), long pants and (ideally) long sleeved shirts and safety glasses. Hard hats and safety glasses are also required but will be provided as needed.
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 Tentative Schedule
-
-Week No.: Lecture Topic(s) (planned)
-1: Intro / Documentation
-2: Instrumentation Signals (P&ID)
-3: Measurement Systems/Flow Measurement
-4: Control Valves /Control Valves sizing
-5: Control Loop Performance / PID Controller Review
-6: Tuning/ Cascade
-7: Feedforward / Ratio / Gain Scheduling
-8: Midterm
-9: Electrical Controls
-10: Spring Break
-11: Intro to DCS / DCS Hardware/DCS Configuration
-12: Alarming
-13: Intro to Functional Safety IEC61510 / SIS Systems
-14: Process Hazard Analysis
-15: Final Exam
-
-## BCIT Policy
+Week No. | Lecture Topic(s) (planned)
+1 | Intro / Documentation
+2 | Instrumentation Signals (P&ID)
+3 | Measurement Systems/Flow Measurement
+4 | Control Valves /Control Valves sizing
+5 | Control Loop Performance / PID Controller Review
+6 | Tuning/ Cascade
+7 | Feedforward / Ratio / Gain Scheduling
+8 | Midterm
+9 | Electrical Controls
+10 | Spring Break
+11 | Intro to DCS / DCS Hardware/DCS Configuration
+12 | Alarming
+13 | Intro to Functional Safety IEC61510 / SIS Systems
+14 | Process Hazard Analysis
+15 | Final Exam
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Younes Rashidi, Instructor January 27, 2025
-
 I verify that this course outline has been reviewed. Remya Sreenath, Program Head January 29, 2025
-
 I verify that this course outline has been reviewed. Victor Mendez, Program Head January 31, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Roger Gale, Associate Dean February 06, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

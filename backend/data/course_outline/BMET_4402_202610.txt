@@ -1,0 +1,115 @@
+URL: https://www.bcit.ca/outlines/20261011961/
+Course: BMET 4402
+Field: Biomedical Engineering Technology Project
+Subject: Biomedical Engineering
+Term: 202610
+CRN: 11961
+
+================================================================================
+
+## Course Outline
+## BMET 4402
+## Biomedical Engineering Technology Project
+School | School of Health Sciences
+Program | Biomedical Engineering Technology
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 17, 2026
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Other
+Zero Textbook Cost | Yes
+Prerequisite(s) | COMM 3478 ‡ ( ‡ must be taken concurrently) BMET 3300 and BMET 3301 and BMET 3302 and BMET 3305 and BMET 3315 and COMM 3478** (** must be taken concurrently unless prior credit is granted)
+CRN | 11961
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Jochen Boehm
+E-mail | Jochen_Boehm@bcit.ca
+Location | SW01-4015
+Office Hours | Monday: 1:30 - 2:20 pm, Wednesday: 2:30 - 3:20 pm, Thursday: 12:30 - 1:20 pm, or by appointment.
+### Course Description
+During the course, students will undertake and complete a biomedical engineering project. From the concept developed during BMET 3302, students will develop detailed specifications, a project plan and schedule of the project. The project will be carried out with design methodologies that are consistent with ISO 13485 and QSR (21CFR820.30). Following detailed planning, students will participate in the design and development of the project, and will complete the project independently. These tasks may include circuit design, parts acquisition, printed circuit board layout, circuit building, package design and fabrication, wiring, troubleshooting and final testing. Students will maintain a detailed design history file, a logbook of their work throughout the course, and will prepare a technical report at the completion of their project. The process of design, prototyping, verification, validation and documentation will be introduced at different stages of the course. Guidance documents will specify the criteria for expectations with respect to various aspects of design control, risk management, project management, and documentation.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Prepare a project proposal that meets specified criteria.
+- Prepare a detailed project plan that meets specified criteria.
+- Prepare high level design documents that meet specified criteria, including:
+- Requirement specifications that define objective pass fail criteria for their project.
+- Architectural design.
+- Initial hazard analysis.
+- Carry out detailed design as required to meet the requirement specifications.
+- Fabricate a working prototype.
+- Verify that the prototype meets established requirements.
+- Explain important aspects of the project experience to first year students.
+- Prepare a technical report that meets specified criteria.
+### Learning Resources
+Required :
+- Students will be responsible to acquire all materials and supplies required for completing the project. The cost of materials and supplies is estimated at $150.
+- Internet access is available through BCIT, providing access to standards and component specification.
+### Course Goals
+- To design, fabricate, verify and document a simple biomedical or assistive device. Devices typically consist of commercial parts (sensors, actuators, circuit boards, etc.) with custom interfaces (electrical and mechanical), along with appropriate software, wiring, enclosure and labeling etc., as required to produce a functional prototype.
+- To apply design control, risk management and project management methods during the development of the prototype device.
+- Optional: to use advanced prototyping techniques (e.g., 2D/3D cutting, 3D printing, PCB fabrication) during the fabrication of the prototype device.
+### Evaluation Criteria
+Criteria | % | Comments
+Design Documents | 20 | The passing grade is 50%. Members of a team will be assigned the same mark, adjusted to reflect the relative contribution of each team member. Relative contribution on common assignments will be judged based on self-reporting by students, confirmed via observation throughout the term, and reviews of individual log books, if required. Throughout the course, student teams are required to hand in design control documents for review and feedback. These documents will form the basis for the Technical Report. Students who fail to make use of formal feedback may be deducted up to 25% of that assignment. All work will be assessed in terms of the student’s understanding of the design methodology, the hardware and software design and implementation, and the student’s documentation and presentations.
+Technical Report | 20
+Presentation | 10
+Prototype | 50
+TOTAL | 100
+### Attendance Requirements
+Students are expected to complete all course work, and attend all classes and laboratory sessions. Excessive absences may result in failure or withdrawal from this course.
+In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with the course instructor. Prolonged illness must be substantiated by a medical certificate. Absences other than illness must be supported by proper documentation. Based on the information provided, the instructor will determine if the absence is deemed to be excused.
+This course requires significant effort by each student outside of regularly scheduled lab sessions. After-hour access to the project room (NW4-4035) is provided for project related activities.
+### Course Specific Requirements
+AI-based content generation tools, or AI tools, are permitted for assignments and project work. However, they are not allowed during class assessments (e.g., in exams). Note that AI output may include incorrect or misleading information, fabricated authors/dates/publications, faked works, or may incorporate discriminatory ideas. It is your responsibility to ensure the quality, accuracy and appropriateness of the work you submit in this course.
+If you use ChatGPT (or a similar tool) to get ideas and/or partial answers for an assignment and/or to generate any text for a draft or final version of any part of an assignment, you must declare that you have used it, with a short paragraph describing the extent to which it was used, and you must save any generated text from this tool in case it is requested. You will not be penalized for using this tool, but the instructor may ask you to provide the generated text to help with grading decisions.
+Material directly copied from any source (e.g. websites, books, AI tools) must be cited. Undeclared use of AI is a violation of academic integrity as it presents work, or ideas created by tools or other people as your own. Failure to fully declare the use of this tool will be considered a violation of BCIT academic policy.
+### Course Schedule and Assignments
+The detailed course schedule is subject to change and will be posted on the course website.
+Students will work in teams of 2 to 5 (depending on class size). Each team will submit the following documents:
+Design Documents:
+- Concept : a high level description of the project, including initial requirements (user needs, key performance characteristics) and key technologies that make the project feasible.
+- Project plan : a record of agreement between team members that assigns responsibilities to each team member, provides a risk management plan, and identifies key milestone dates.
+- Requirement specifications : a list of verifiable features and characteristics that define what it means when we say it works.
+- Hazard analysis : a systematic and comprehensive review of the device to ensure that the device is safe and/or to identify risk control features that need to be added to the requirement specifications.
+- Architectural design : a high level design document that identifies all commercial modules and custom parts (e.g., interface electronics, enclosures, labeling) and provides the constraints for all detailed design.
+Design documents are due according to the schedule that will be posted on the Learning Hub. Each document will be reviewed by the instructor for review and feedback. Students may revise these documents throuout the term and are expected to incorporate all feedback in their final version, which is due one weel before the final presentation. Only the final versions will be graded.
+Technical Report :
+The final technical report provides a summary overview of all project activities, presents the results and provides a critical review and self-assessment. The content of this report forms the basis for the final presentation. Any feedback received during the presentation may be reflected in the final submission of this report.
+Guidance documents for all deliverables will be posted on the course website. Concurrently with BMET4402, students are expected to take COMM3478, Technical Communication 3 for BMET, which supports students throughout the term in writing these documents.
+### Course topics
+Proposals for student projects must be pre-approved by the instructor prior to commencement of the course. Students may choose between the following options: ​
+- Structured design project: The instructor will define project objectives and constraints. Focus will be on design quality and craftsmanship.
+- Innovative design project : Students will define their own product concept and initial requirements, with input from instructors and relevant stakeholders. Focus will be on innovation and suitability for clinical use.
+- Improvement design project: Students may build on previous students' work to solve specific problems. Focus will be on quality and suitablity for clinical use.
+During the course, students will follow the following process:
+- Design Concept: In the second week of the course, each team will submit a document outlining the design concept as the basis for project planning.
+- Planning: Each team will define the plan for managing their own project. The plan will include an equitable breakdown of each student's contribution, which will form the basis for final evaluations.
+- Risk Management: As part of the high-level design, students will carry out and document an initial hazard analysis to identify safety related requirements. Risk management according to ISO14971 will be applied throughout the project as appropriate.
+- Design Process: A structured design process will be applied, similar to quality managment system requirements (ISO13485, 21CFR 820). Design Input: As part of the high-level design, each team will define and document the requirement specifications that will be subject to verification. Design : As part of the high-level design, each team will document the architectural design, prior to completing the detailed hardware and software design. Design Review: Each team will be subjected to a formal design review by the rest of the class, based on their documented architectural design. Implementation : Each team will fabricate a functioning prototype. Verification: Each team will verify their prototype against their documented requirement specifications. Validation: If appropriate, each team will work with a client to carry out initial validation of the device.
+- Documentation : Each team will document important steps of the design process to facilitate review and input from others. Each team will submit a formal report, which will document the design of the finished prototype and which will provide a thoughtful analysis of the team's own performance during the project.
+- Final Presentation : Each team will demonstrate and explain their finished prototype to students in next year's class, program instructors and invited guests. Students will explain their individual contributions to the project and answer questions.
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Health Sciences
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Jochen Boehm, Instructor November 26, 2025
+I verify that this course outline has been reviewed. Anthony Chan, Faculty November 28, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Elliott, Associate Dean January 01, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

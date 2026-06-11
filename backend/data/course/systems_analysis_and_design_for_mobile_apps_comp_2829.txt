@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/systems-analysis-and-design-for-mobile-apps-comp-2829/
+Title: Systems Analysis and Design for Mobile Apps COMP 2829
+Type: Course
+Course Code: COMP 2829
+
+================================================================================
+
+## Systems Analysis and Design for Mobile Apps COMP 2829
+Computer Systems Course
+## Course Overview
+Systems Analysis and Design for Mobile Apps is tailored to the Mobile App Tools Associate Certificate. Students in this face to face section must supply their own MacBook Pro with current OS in order to participate. The focus is on best practices in Business Analysis and Systems Design; the concepts, processes and tools used to plan and develop mobile information systems to industry standards. Participants learn how to ask implicit questions, to create and document communication plans and to make better decisions prior to creating an information system. They learn to work in groups to provide detailed written materials and make verbal presentations of their mobile application designs. Beginning with an introduction to the SDLC, Software Development Life Cycle, students work in teams to initiate the system process, analyze problems, discover requirements and create a logical design. The process starts with a definition of the business opportunity and progresses to implement a sustainable and scalable mobile design that can adapt to changing requirements. Topics include: techniques used in the discovery of business requirements, traditional approaches to data and process modelling. There is an overview of Object Oriented Modelling techniques using the Unified Modelling Language (UML) as well as an introduction to Project Management. Agile frameworks including XP, Extreme Programming, and SCRUM are also introduced. By the end of this course, successful participants will be able to use industry standard tools and methods to discover requirements, design an interface and create documentation that acts as a blueprint to implement a mobile device information system
+### Prerequisite(s)
+- COMP 1951 and COMP 1952 or equivalent knowledge.
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Explain and use the various phases of the SLDC, Software Development Life Cycle for Mobile Apps.
+- Describe some of the key features in current trends in system development: RAD, RUP, Agile & BPM, Business Process Management.
+- Explain the term "Agile Development".
+- Discover and define system requirements using the appropriate technique(s).
+- Locate and download open source diagramming tools for Mac.
+- Develop use case diagrams and scenario descriptions for Mobile Apps.
+- Read, interpret and develop models that can be incorporated with Business Process Management.
+- Explain how Use Case Modelling and WorkFlow Analysis work together to define functional system requirements.
+- Develop a project schedule using PERT and GANTT charts.
+- Construct a cost benefit analysis to determine the feasibility of a project.
+- Identify and analyze the data entities and objects needed in a system using both Information Engineering and OO techniques with UML.
+- Design a technical architecture Mobile App system "blueprint".
+- Design appropriate Mobile App user interfaces following Human Engineering design principles.
+- Identify the required integrity controls for inputs, outputs, data and processing.
+- Describe implementation and support activities.
+- Understand appropriate formats for system documentation.
+- Prepare and present a system proposal in a team environment.
+Effective as of Fall 2014
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

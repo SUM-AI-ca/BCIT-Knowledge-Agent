@@ -1,0 +1,34 @@
+URL: https://www.bcit.ca/courses/applied-natural-language-processing-comp-8510/
+Title: Applied Natural Language Processing COMP 8510
+Type: Course
+Course Code: COMP 8510
+
+================================================================================
+
+## Applied Natural Language Processing COMP 8510
+Computer Systems Course
+## Course Overview
+​Natural Language Processing (NLP) is a subfield of artificial intelligence enabling computers to understand and generate language. This course is designed to provide students with an applied understanding of both classic and modern NLP tasks, along with the most effective modelling techniques for each task. Leveraging a hands-on approach, students will explore neural language modelling-based techniques for real-world NLP tasks such as text classification, machine translation, question answering, and information extraction. The course introduces students to classical n-gram language models, word embeddings, early RNN (Recurrent Neural Network) language models, modern Transformer-based language models, and (generative) pre-training, in-context learning and large language models. Through weekly exercises, students will learn to evaluate and apply NLP theory, tools, and libraries to gain experience in developing software applications for real-world tasks.
+### Prerequisite(s)
+- 60% in COMP 8085
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify classical and modern advancements in NLP.
+- Evaluate information extraction methodologies with a focus on extracting structured information from unstructured text, contributing to enhanced data understanding.
+- Critically analyze (and experiment with) various language models, including n-gram, RNNs, and transformers, to understand their underlying mechanisms and practical applications in NLP.
+- Evaluate sequence-to-sequence models for NLP tasks, exemplified by machine translation.
+- Discuss ethical considerations ,biases, and social implications, including strategies for mitigation.
+- Apply neural language modelling-based techniques in real-world NLP software applications.
+- Design, implement, and test software applications that will apply and demonstrate the knowledge acquired in this course.​
+Effective as of Winter 2025
+## Related Programs
+Applied Natural Language Processing (COMP 8510) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Applied Computer Science (Human Computer Interface Option) Bachelor of Science Part-time
+- Applied Computer Science (Wireless and Mobile Applications Development Option) Bachelor of Science Part-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

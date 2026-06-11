@@ -1,0 +1,36 @@
+URL: https://www.bcit.ca/courses/xml-for-java-developers-comp-4625/
+Title: XML for Java Developers COMP 4625
+Type: Course
+Course Code: COMP 4625
+
+================================================================================
+
+## XML for Java Developers COMP 4625
+Computer Systems Course
+## Course Overview
+This hands-on course is aimed at Java programmers who have not completed COMP 2899 , which has similar topics. Those who have completed COMP 2899 are not required to complete this entire course, please contact the department for more details. On top of the face to face lessons each week, there is a mandatory online component in D2L specifically for Java programmers. This course starts with an introduction to the Extensible Markup Language (XML) and how to incorporate XML into Java web-based applications. Topics include XML syntax, DTD and XML Schema validation, namespaces, XSLT, XPath, and web technologies such as RSS, Java XML parser & validation APIs, Java transforming APIs, Atom and XML-RPC. Labs cover various parser technologies, declarative XML UI languages, data-modelling with XML, and using XML in AJAX-enabled web applications. Successful participants in this course will be able to develop XML formats and be able to apply XML technologies to various web based applications.
+### Prerequisite(s)
+- COMP 1850 and COMP 4613 , or equivalent HTML and Java Web programming language experience.
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Validate XML using DTD and XML Schema.
+- Describe XML syntax rules.
+- Demonstrate how to model objects and relational data models using XML.
+- Contrast the differences between the various facets of XML parsers (push vs. pull, tree based vs. event driven).
+- Describe how namespaces are used in XML.
+- Construct XML Schemas to model data.
+- Construct XSLT style sheets for processing HTML.
+- Construct XPath expressions for use within XSLT style sheet templates.
+- Use a declarative XML UI language to construct a rich web application front-end.
+- Utilize JavaScript to manipulate Atom and RSS within a web page.
+- Describe XML’s role in current web technology.
+- Demonstrate how current XML formats such as SOAP, RSS, and Atom are used within web applications.
+- Demonstrate how to parse and validate XML using different Java XML parser APIs.
+- Utilize Java APIs for transforming XML with XSLT stylesheets.
+- Generate XML feeds within a Java web app using XML parsing APIs.
+- Construct Java code that marshals and unmarshals XML documents.
+Effective as of Winter 2012
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/programming-for-performance-comp-3773/
+Title: Programming for Performance COMP 3773
+Type: Course
+Course Code: COMP 3773
+
+================================================================================
+
+## Programming for Performance COMP 3773
+Computer Systems Course
+## Course Overview
+This course examines techniques to improve the performance of multimedia applications outside of algorithmic performance. Students will learn how to build applications tying high level and lower level languages and APIs, to maximize performance without the expense of dramatically increasing development time.
+### Prerequisite(s)
+- COMP 2510
+### Credits
+4.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful compleltion of this course, the strudent will be able to:
+- Develop applications using a low-level API for advanced accessibility and performance.
+- Add assembly code inline.
+- Apply SIMD extensions to maximize calculations in assembly code.
+- Apply concurrent techniques for improving parallelism.
+- Protect shared resources in threaded code.
+- Mix high level and lower level APIs for better performance and accessibility.
+- Build parallel functions to add the power of GPU cores to increase computations.
+Effective as of Fall 2020
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

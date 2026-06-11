@@ -1,94 +1,85 @@
-URL: https://www.bcit.ca/outlines/20243050385/
+URL: https://www.bcit.ca/outlines/20243050375/
 Course: RENR 7010
 Field: Geospatial Application in Natural Resource Management
+Subject: Renewable Resources
+Term: 202430
+CRN: 50375
 
-School: School of Construction and the Environment
-Program: Ecological Restoration
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 03, 2024
-End Date: December 10, 2024
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): Acceptance into the Ecological Restoration degree program or by departmental approval.
-CRN: 50385
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## RENR 7010
+## Geospatial Application in Natural Resource Management
+School | School of Construction and the Environment
+Program | Ecological Restoration
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 03, 2024
+End Date | December 10, 2024
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | Acceptance into the Ecological Restoration degree program or by departmental approval.
+CRN | 50375
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Chris Colton
-E-mail: Instructor to provide
-Location: Online or SE04 - 105B
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | Chris Colton
+E-mail | ccolton3@my.bcit.ca
+Location | Online or SE04 - 105B
+Office Hours | Tuesdays after class or by appointment.
+### Course Description
 This course reviews technologies and tools commonly used to survey, map, and analyze geospatial data in applications of natural resource management. Students will use a range of geospatial and digital field survey tools and applications to: (i) design, access, create, translate, and edit digital data files; (ii) collect, process, and export field observations using a range of field techniques including GNSS and remote sensing technology; (iii) interpret and analyze data; and (iv) prepare and present data in technical reports and presentations. This course will support students that are new to geospatial concepts as well as review and further develop concepts and skills introduced in diploma-level geospatial courses in the Renewable Resources Department. The course will support learning of students with a range of geospatial experience using techniques such as asynchronous modules offered through the Geospatial Hub, optional supplemental in-person labs and consulting, and peer-to-peer learning. Assignments and lessons will introduce students to tools and processes that will assist them in desktop analyses and use of field observations in other courses within the Ecological Restoration BSc Program.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Identify and use a range of digital survey tools and applications (e.g., GNSS, remote sensing, cloud applications) common to environmental site assessments.
 - Access and translate digital data from a variety of natural resource management sources for use in a range of industry standard applications and devices.
 - Develop data management and workflow plans that are tailored to specific projects and clients.
 - Prepare digital field and survey forms to meet specific study objectives.
 - Transfer, process, and prepare field observation data for use in a range of applications/tools/processes.
 - Identify and perform appropriate geospatial data analyses to meet project objectives and effectively communicate the process and results of these analyses. ​
-
-## Learning Resources
-All materials will be provided by the instructor.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 40: 6 Assignments (2 weighted 2%, 1 weighted 4%, 2 weighted 10%, 1 weighted 12%)
-Discussions: 20: 4 Discussions (3 weighted 4%, one weighted 8%)
-Quizzes: 20: 3 Quizzes (2 weighted 5%, 1 weighted 10%)
-Final Project: 20
-
-## Attendance Requirements
-Attendance/Illness (BCIT policy): In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with her/his instructor or Program Head, indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT approved medical certificate submitted to the program, substantiating the reason for absence. For other absences, the student should be prepared to provide appropriate supporting documentation. Unapproved absence in excess of the prescribed regulations within this document may result in failure or forced withdrawal from the course or program. Please see Policy 5101 - Student Regulations.
-
-Attendance/Illness (RENR guidelines): If you need to miss class, please (1) notify instructors with as much advanced notice as possible and (2) arrange for a classmate to provide you with all missed handouts/notes/instructions. To categorize an absence or late arrival as excused, medical documentation or approval by the instructor is required. Instructors may allocate course marks to attendance, with marks deductions made for unexcused absences and late arrivals. To pass a course, unexcused absences cannot exceed 10% of class meetings (typically 1.5 class meetings). For unexcused absences/late arrivals, course activities cannot be made up. For excused absences, instructors may assign alternative work as make up (especially for course components that are challenging to replicate such as guest lectures or labs).
-
-## Course Schedule and Assignments
-Week: Topic
-1: Introduction & set-up
-2: GPS data planning
-3: GPS data collection
-4: Data processing
-5: Data sourcing
-6: Projections
-7: Spatial data models
-8: Remote sensing
-9: Data integration
-10: Data query
-11: Overlay analysis
-12: Final Project
-13: Final Project
-14: Final Project
-
-## BCIT Policy
-Attempts: As stated in Policy 5103, Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
+### Learning Resources
+All resources are provided by the instructor.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 40 | 6 Assignments (2 weighted 2%, 1 weighted 4%, 2 weighted 10%, 1 weighted 12%)
+Discussions | 20 | 4 Discussions (3 weighted 4%, one weighted 8%)
+Quizzes | 20 | 3 Quizzes (2 weighted 5%, 1 weighted 10%)
+Final Project | 20
+### Attendance Requirements
+Attendance/Illness (BCIT policy): In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with her/his instructor or Program Head, indicating the reason for the absence. Students who are seeking accommodation for a medical absence must have a BCIT approved medical certificate submitted to the program, substantiating the reason for absence. For other absences, the student should be prepared to provide appropriate supporting documentation. Unapproved absence in excess of the prescribed regulations within this document may result in failure or forced withdrawal from the course or program. Please see Policy 5101 - Student Regulations .
+Attendance/Illness (RENR guidelines) : If you need to miss class , please (1) notify instructors with as much advanced notice as possible and (2) arrange for a classmate to provide you with all missed handouts/notes/instructions. To categorize an absence or late arrival as excused, medical documentation or approval by the instructor is required. Instructors may allocate course marks to attendance, with marks deductions made for unexcused absences and late arrivals . To pass a course, unexcused absences cannot exceed 10% of class meetings (typically 1.5 class meetings). For unexcused absences/late arrivals, course activities cannot be made up. For excused absences, instructors may assign alternative work as make up (especially for course components that are challenging to replicate such as guest lectures or labs).
+### Course Schedule and Assignments
+Week | Topic
+1 | Introduction & set-up
+2 | GPS data planning
+3 | GPS data collection
+4 | Data processing
+5 | Data sourcing
+6 | Projections
+7 | Spatial data models
+8 | Remote sensing
+9 | Data integration
+10 | Data query
+11 | Overlay analysis
+12 | Final Project
+13 | Final Project
+14 | Final Project
+### BCIT Policy
+Attempts: As stated in Policy 5103 , Evaluation of Students, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination: The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed.
-
 Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Chris Colton, Instructor September 16, 2024
-
 I verify that this course outline has been reviewed. Dave Harper, Program Head September 24, 2024
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean September 24, 2024
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

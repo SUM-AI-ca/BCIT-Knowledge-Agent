@@ -1,0 +1,116 @@
+URL: https://www.bcit.ca/courses/digital-techniques-1-for-robotics-elex-1215/
+Title: Digital Techniques 1 for Robotics ELEX 1215
+Type: Course
+Course Code: ELEX 1215
+
+================================================================================
+
+## Digital Techniques 1 for Robotics ELEX 1215
+Electrical and Computer Engineering Course
+## Course Overview
+This course teaches digital numbering systems and the design of combinational and simple sequential logic circuits. Numbering systems include: binary, octal, hexadecimal, BCD and Gray Code. Addition and subtraction of 2's complement numbers are covered, as well as ASCII codes and parity. Truth tables and Boolean algebra are used in the design of circuits and to minimize component counts. Electronic logic gates are investigated for function and specifications. Techniques for designing and building logic circuits using only NAND gates (or only NOR gates) are covered. Proper DeMorgan's equivalent logic symbols are used when preparing schematic diagrams. Encoders, decoders, latches and flipflops are introduced. Labs follow lectures so that theory is studied and confirmed by application.
+### Prerequisite(s)
+- No prerequisites are required for this course.
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## BINARY NUMBER SYSTEM
+- Perform number system conversions between binary and decimal numbers.
+- Describe differences between analog and digital.
+- Describe fundamental theory of number systems.
+- Convert between binary and decimal numbers.
+## SWITCHES AND LOGIC SOURCES
+- Design logic sources for use with electronic logic.
+- Describe SPST, SPDT, DPST, and DPDT switches.
+- Identify switch types (push button, slide, toggle, DIP, rotary).
+- Define a convention for switch handles and contacts.
+- Use an ohmmeter to evaluate switch contact configurations.
+- Demonstrate the need for electronic logic and the required voltage level inputs.
+- Define logic levels.
+- Generate a logic variable using a single throw switch and a pullup (or pulldown) resistor.
+- Generate a logic variable and its complement using a double throw switch and two pullup (or pulldown) resistors.
+- Build, test, measure and troubleshoot logic sources.
+## BOOLEAN EQUATIONS AND TRUTH TABLES
+- Use AND, OR, and NOT in Boolean equations.
+- Define AND, OR, and NOT as logical operators.
+- Define Boolean equations, operators and precedence of operation.
+- Use one (1) to represent TRUE and zero (0) to represent FALSE.
+- Derive Boolean expressions from English language statements.
+- Define and construct truth tables using the binary number system
+- Generate truth tables from Boolean equations.
+## LOGIC SYMBOLS FOR AND, OR, INVERTER
+- Use AND, OR, and INVERTER symbols to represent logic circuits.
+- Define the AND, OR, and INVERTER logic symbols and the corresponding truth tables.
+- Generate logic symbol diagrams from Boolean equations.
+- Generate Boolean equations from logic symbol diagrams.
+- Generate truth tables from logic symbol diagrams.
+## ELECTRONIC LOGIC GATES
+- Design circuits using logic symbols. Use NAND and NOR gates to implement logic circuits.
+- Define the NAND and NOR electronic logic gates.
+- Develop the Boolean equations and the truth tables for the NAND and NOR gates.
+- Define the input characteristics of electronic gates.
+- Define the output characteristics (sink, source) of the electronic gates.
+- Define allowable voltage ranges for inputs and outputs of CMOS gates.
+- Analyze the effects of open inputs for CMOS gates.
+- Analyze loading and fanout capabilities of CMOS gates.
+- Calculate noise margins and power dissipation for CMOS gates.
+- Interface LEDs to electronic gates.
+## DESIGN WITH LOGIC GATES
+- Develop the alternate symbols for logic gates.
+- Follow “bubble-to-bubble” rules to draw logic diagrams.
+- Develop Boolean equations from logic diagrams.
+- Define Sum of Products and Product of Sums forms of Boolean expressions.
+- Design circuit diagrams using only two input NANDs (or two input NORS).
+- Design circuit diagrams that minimize the number of chips and gates using multiple-input NAND, NOR, and/or INVERTERS from equations.
+- Use the XOR gate as a conditional inverter.
+- Use the XNOR gate as a comparator.
+- Design, build, test, measure and troubleshoot circuits using electronic gates interfaced to LEDs.
+## DE MORGAN'S THEOREMS
+- Use De Morgan's theorems to minimize equations.
+- Develop De Morgan's theorems from the duality of gates.
+- Use De Morgan's theorems to minimize complex equations.
+## LOGIC CIRCUIT SIMPLIFICATION
+- Simplify Boolean equations to produce more cost effective circuits.
+- Confirm Boolean identities using switch logic, truth tables and other identities.
+- Simplify equations using Boolean identities, theorems and rules.
+- Simplify equations using Karnaugh Maps.
+## DIGITAL NUMBER SYSTEMS
+- Express numbers in industry standard forms.
+- Define the Octal number system.
+- Define the Hexadecimal number system.
+- Define the Binary Coded Decimal (BCD) system.
+- Define the Gray code system.
+- Define the ASCII system.
+- Define parity.
+- Convert between Binary, Octal, Hex, Decimal, and BCD.
+## BINARY NUMBER REPRESENTATION, ADDITION AND SUBTRACTION
+- Represent unsigned binary numbers within registers of various sizes.
+- Represent signed binary numbers (two’s complement method) within registers of various sizes.
+- Change the sign of a signed binary number.
+- Perform binary addition with signed and unsigned numbers.
+- Perform binary subtraction with signed and unsigned numbers.
+- Build and test a 4-bit adder/subtractor circuit.
+## DECODERS AND ENCODERS
+- Describe the use of decoders and encoders.
+- Define the decoder function.
+- Develop equations for decoders.
+- Investigate the 2-to-4 and 3-to-8 decoders.
+- Define the encoder function.
+- Develop equations for encoders.
+- Develop expressions for a binary to 7-segment display decoder/driver.
+## LATCHES AND FLIP-FLOPS
+- Analyze and implement latches and flip-flops.
+- Define level, pulse, leading/trailing edge, transition.
+- Analyze and design S-R and D latches using NOR/NAND gates.
+- Implement a switch debouncer using a latch.
+- Differentiate between latches and flip-flops.
+- Analyze and utilize the following flip-flops: D, J-K.
+Effective as of Fall 2013
+## Related Programs
+Digital Techniques 1 for Robotics (ELEX 1215) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+### School of Energy
+- Mechatronics and Robotics Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

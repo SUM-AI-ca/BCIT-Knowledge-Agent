@@ -1,0 +1,106 @@
+URL: https://www.bcit.ca/outlines/20251082754/
+Course: FNAM 2111
+Field: Introduction to GIS and Digital Field Data Collection
+Subject: Forest & Natural Areas Mgt
+Term: 202510
+CRN: 82754
+
+================================================================================
+
+## Course Outline
+## FNAM 2111
+## Introduction to GIS and Digital Field Data Collection
+School | School of Construction and the Environment
+Program | Forest and Natural Areas Management
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | January 06, 2025
+End Date | May 02, 2025
+Total Hours* | 52
+Total Weeks | 13
+Hours/Weeks | 4
+Delivery Type | Lab
+Prerequisite(s) | RENR 1105 and RENR 1118
+CRN | 82754
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Moe Saeedbakht
+E-mail | moe_saeedbakht@bcit.ca
+Location | SW01-2059
+Office Hours | Thursdays 11:30 to 13:30 by appointment.
+### Course Description
+FNAM 2111 introduces students to important field data collection tasks they will be typically be expected to complete during summer field employment, and incorporate into course projects during the second year of the program. Data collected in the field using a combination of equipment such as field data loggers or tablets, GIS grade GNSS equipment, and laser range finders will be imported into various software tools, and imported into GIS software to produce maps. Project planning tasks and common mapping strategies will be discussed before students are sent out in the field to collect data. Data will be collected in various vegetation and terrain conditions so students have experience in determining which combination of field equipment is most suitable for different project objectives. The course includes a mapping project that incorporates the skills introduced throughout the term.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Use existing information to review the site characteristics for a given work site or project area
+- Create a data collection and mapping plan based on matching equipment and methodology to project objectives and site characteristics
+- Complete equipment calibration routines
+- Adjust equipment settings to match project objectives
+- Transfer necessary maps, images, attribute tables, and GNSS data dictionaries to digital field equipment
+- Input field observations and data in industry standard note or form formats
+- Produce digital plots and maps based on traverse field data collected with both traditional and digital field equipment
+- Use planning software to determine the most appropriate times for field data collection with GNSS equipment
+- Capture point, line and polygon features with corresponding attribute information using GIS grade GNSS equipment
+- Collect carrier phase data for important field ties or features
+- Describe the process for collecting real time differentially corrected data
+- Post process GNSS data
+- Create a geodatabase with feature datasets and feature classes for field data
+- Set map projection, datum, and coordinate systems
+- Create and edit point, line and polygon feature
+- Create maps that include information such as scale, legends, north arrow information, coordinate grid ticks and labels
+### Learning Resources
+Personal computer with a Windows operating system.
+Field gear including DBH tape, compass, clino, and field notebook.
+No specific textbooks required.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 35 | Eleven (11) evenly weighted unless specified otherwise.*
+Quizzes | 15 | Three (3) evenly weighted unless specified otherwise.*
+Final/Practical | 20 | Exam: Includes a written (10%) and a practical component (10%)
+Final Project | 20 | Project: Data collection, compilation, and report. *
+Instructor Assessment | 10 | Field Preparedness, Professionalism, & Punctuality: Individuals are permitted one instance of unexplained absence, lateness, or lack of field safety preparedness or professionalism. Thereafter, 2.5% deducted for each instance.
+### Safety equipment or protective clothing
+Hard Hat
+Cruiser Vest
+Caulk Boots
+Rain Gear
+Suitable clothing and footwear for weather conditions
+### Course Schedule and Assignments
+Week | Topic | Deliverable
+Module 1 Jan 6 BCIT | Introduction to GIS Computer setup | Exercise | Find a web-based GIS Exercise | Coordinates, projection, and datum review Exercise | ArcGIS Pro: Creating a georeferenced file
+Module 2 Jan 13 BCIT | ArcGIS Pro: Digital Data & Management Sourcing Digital Data and Resources | M2 A1 | ArcGIS Pro: Custom Layout Template M2 A2 | ArcGIS Pro: Importing & Exporting data
+Module 3 Jan 20 BCIT | Cartography ArcGIS Pro: Labeling & Symbology | M3 A1 | ArcGIS Pro: Labeling & Symbology M3 Q1 | Data types, Labeling, & Symbology
+Module 4 Jan 27 BCIT | ArcGIS Pro: Attributes & Editing Tools | M4 A1 | ArcGIS Pro: Editing Data
+Module 5 Feb 3 BCIT | Attributes & Tables ArcGIS Pro: Geoprocessing Tools | M5 A1 | ArcGIS Pro: Sampling Tools
+Module 6 Feb 10 BCIT | Global Navigation Satellite System (GNSS) Introduction to GNSS Avenza Review | Exercise | GNSS Accuracy M6 A1 | Avenza & ArcGIS Pro
+Family Day Feb 17 | No Classes
+Module 7 Feb 24 BCIT | Digital hardware, software, and data GPS Pathfinder Office Survey Forms | Exercise | Survey Design M7 A1 | Creating a Data Dictionary M7 Q1 | GNSS
+Module 8 Mar 3 BCIT | Digital Tools for Traversing Laser Range Finder | Introduction to the TruPulse Laser Laser Range Finder | Settings & Calibration Routines | M8 A1 | Traverse with Laser Range Finder & RoadEng Survey
+Reading break Mar 10 to 14 | No Classes
+Module 9 Mar 17 BCIT | GNSS Data Collection & Data Processing Precision vs. Accuracy GNSS Equipment Settings | M9 A1 | BCIT South Forest Survey
+Module 10 Mar 24 | Stream Surveys | M10 Q1 | Digital Equipment
+Module 11 Mar 31 | Final Project: TBD | M12 A1 | Communication Plan & Field Maps
+Module 12 Apr 7 BCIT | GNSS Planning GNSS | Sources of Error & Augmentation GNSS | Other Factors to Consider Course Review | M15 A1 | GNSS Planning
+Module 13 Apr 14 | Final Exam ArcGIS Field Maps
+Good Friday & Easter Monday Apr 19 & 21 | No Classes
+Exams | Exams Start Apr 24th
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Construction and the Environment
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Moe Saeedbakht, Instructor January 03, 2025
+I verify that this course outline has been reviewed and complies with BCIT policy. Steve Finn, Associate Dean January 03, 2025
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

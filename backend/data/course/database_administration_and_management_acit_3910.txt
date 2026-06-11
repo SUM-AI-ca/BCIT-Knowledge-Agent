@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/database-administration-and-management-acit-3910/
+Title: Database Administration and Management ACIT 3910
+Type: Course
+Course Code: ACIT 3910
+
+================================================================================
+
+## Database Administration and Management ACIT 3910
+Computer Information Technology Course
+## Course Overview
+In this course students will install, create database and learn how to perform basic administration. Students will learn to configure the database to support different applications, perform tasks such as create users and schema objects, apply constraints, setup access control, assign memory, define storage structures and manipulate data. Since database administration does not end after the database is created, students will learn the importance of backup and recovery strategy. A good understanding of the DBMS architecture, performance monitoring and concurrency control are essential to ensure the database operates smoothly to support transaction processing.
+### Prerequisite(s)
+- ACIT 1630
+### Credits
+4.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Create database, configure and set initialization parameters
+- Start and stop the database in different modes
+- Connect clients to database instance
+- Describe a basic database management system architecture
+- Manage and use the DBMS’s process, memory and storage
+- Apply database access control and administer user accounts, roles and privileges
+- List and describe the different types of database objects
+- Apply various types of table constraints using SQL DDL with some advanced features
+- Access and manipulate data using SQL DML with some advanced features
+- Explain performance monitoring with basic analysis
+- Describe database transaction processing based on ACID property adherence
+- Explain recovery concepts of using redo and undo of transaction data
+- Describe concurrency control, locks application and resolution of lock conflicts
+- Identify potential key causes of database failures
+- Assess and evaluate suitable type of database for selected problem domain
+Effective as of Fall 2018
+## Related Programs
+Database Administration and Management (ACIT 3910) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Information Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

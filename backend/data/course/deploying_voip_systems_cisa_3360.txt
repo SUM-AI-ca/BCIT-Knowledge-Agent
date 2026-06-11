@@ -1,0 +1,46 @@
+URL: https://www.bcit.ca/courses/deploying-voip-systems-cisa-3360/
+Title: Deploying VoIP Systems CISA 3360
+Type: Course
+Course Code: CISA 3360
+
+================================================================================
+
+## Deploying VoIP Systems CISA 3360
+Computer Info Systems Admin Course
+## Course Overview
+This course focuses on providing the skills and knowledge necessary to implement Cisco Collaboration and Unified Communication solutions. This course first explores the traditional telephone system, voice communications, codecs, and voice technology. Next, it moves to the fundamental of Voice over IP (VoIP), Cisco Unified Communications Manager (CUCME), as well as external communication with the Cisco Unified Communications Manager (CUCM) Express. This course describes telephony features supported in CUCME and CUCM, also covers the class of restriction, call handling features and quality of service. Other topics that are covered include phone restriction, device configuration, and user access to CUCM. Students will learn about the Cisco Unity Connection, Cisco Unified Presence, and troubleshooting. This course includes practical labs relating to the day to day administration using the Cisco Collaboration solution to complete the common tasks.
+### Prerequisite(s)
+- CISA 2310 and CISA 2320
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Describe Voice Technology & Communications
+- Describe VoIP Terms And Technologies
+- Describe Voice Codecs Technologies
+- Identify the Basics Of Voice Ports
+- Identify Network Requirements For VoIP
+- Configure Cisco Unified Communications Manager Express (CUCME) Basic Configuration
+- Configure Dial-Peer in CUCME
+- Configure Class Of Restriction In CUCME
+- Implement Call Handling Features In CUCME
+- Describe Quality Of Service Models And Mechanisms
+- Register Phones in Cisco Unified Communications Manager(CUCM)
+- Configure DHCP For Device Registration in CUCM
+- Register Devices In CUCM
+- Configure LDAP Synchronization With CUCM
+- Manage CUCM Dial Plan Administration
+- Configure Telephony Features In CUCM
+- Configure CUCM Connection To Cisco Unity Connection (CUC)
+- Configure CUCM For Cisco Unified Presence (CUP)
+- Troubleshooting Phone Registration Issues
+- Troubleshooting Call Routing Issues
+Effective as of Fall 2020
+## Related Programs
+Deploying VoIP Systems (CISA 3360) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Computer Information Systems Administration Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

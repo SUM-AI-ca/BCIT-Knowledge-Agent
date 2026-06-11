@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20253034846/
 Course: ELEX 7250
 Field: Communication Theory and Applications
-
-School: School of Energy
-Program: Bachelor of Technology in Electronics
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 04, 2025
-End Date: December 04, 2025
-Total Hours*: 75
-Total Weeks: 14
-Hours/Weeks: 5.36
-Delivery Type: Lecture/Lab
-Prerequisite(s): 50% in ELEX 7110
+Subject: Electrical and Computer Engineering
+Term: 202530
 CRN: 34846
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## ELEX 7250
+## Communication Theory and Applications
+School | School of Energy
+Program | Bachelor of Technology in Electronics
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 04, 2025
+End Date | December 04, 2025
+Total Hours* | 75
+Total Weeks | 14
+Hours/Weeks | 5.36
+Delivery Type | Lecture/Lab
+Prerequisite(s) | 50% in ELEX 7110
+CRN | 34846
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: George Lipski
-E-mail: Instructor to provide
-Location: SW03-3730
-Office Hours: Instructor to provide
-
-## Course Description
+### Instructor Details
+Name | George Lipski
+E-mail | Instructor to provide
+Location | SW03-3730
+Office Hours | Instructor to provide
+### Course Description
 The course covers an introduction to the analysis of signals, amplitude (SSB, DSB, QAM) and angle (FM, PM) modulations as well as sampling and pulse code modulation (PCM) techniques. Also covered are the principles of digital data communications, probability theory, random processes, and performance of analog and digital systems in the presence of noise. The course includes an introduction to information theory and error correction techniques.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Calculate the SNR, channel bandwidth and the rate of communication modulation.
 - Classify signals, describe the unit impulse function and represent signals by an orthogonal set.
 - Solve problems on amplitude modulation (AM, DSB, QAM, SSB and VSB), angle modulation, QAM and PCM.
@@ -39,66 +42,44 @@ Upon successful completion of this course, the student will be able to:
 - Describe the behavior of analog and digital communication systems in the presence of noise and calculate performance.
 - Calculate channel capacity, BER, and use error detection and correction codes.
 - Perform five lab experiments involving analog and digital signals, AM, FM, QAM modulation, and AWGN – BER relationships.
-
-## Learning Resources
+### Learning Resources
 Modern Digital and Analog Communication Systems, B. P. Lathi, Zhi Ding, Oxford University Press Inc, latest edition as of Aug 2022, 5th Edition, 2018.
-
-## Evaluation Criteria
-Criteria: %: Comments
-Quizzes: 10%: 10 weekly tests
-Lab Projects: 25%: 5 labs and one make-up lab
-Midterm Exam: 25%
-Final Exam: 40%
-Grand Total: 100%
-
-## Course Specific Requirements
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 10% | 10 weekly tests
+Lab Projects | 25% | 5 labs and one make-up lab
+Midterm Exam | 25%
+Final Exam | 40%
+Grand Total | 100%
+### Course Specific Requirements
 Total contact hours:
-
 (13 lectures)*(3 hours/lecture)= 39 hours
-
 Final exam = 3 hours
-
 Per set:
-
 (6 labs) *3 (hour/lab)=18 hours
-
 (5 tutorials)* (3 hours/tutoria) = 15 hours
-
-## Course Schedule and Assignments
+### Course Schedule and Assignments
 Lectures 1 - 13: Weekly Thursdays, 6:30 PM to 9:30 PM starting 4th of September 2025
-
 Final Exam: 4th of December 2024
-
 Labs: 4th, 11th, 18th of October, 8th, 22th, 29th (make up lab) of November 2025
-
 Tutorials: 20th, 27th of September, 25th of October, 1st (Midterm Exam), 15th of November 2025
-
-## BCIT Policy
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Energy
+### Guidelines for School of Energy
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. George Lipski, Instructor August 31, 2025
-
 I verify that this course outline has been reviewed. Muhammad Ahmed, Program Head August 31, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Viktoriia Kovalova, Associate Dean, Electrical Engineering and Technology September 04, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

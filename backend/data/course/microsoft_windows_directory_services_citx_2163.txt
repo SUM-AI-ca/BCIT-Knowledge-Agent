@@ -1,0 +1,37 @@
+URL: https://www.bcit.ca/courses/microsoft-windows-directory-services-citx-2163/
+Title: Microsoft Windows Directory Services CITX 2163
+Type: Course
+Course Code: CITX 2163
+
+================================================================================
+
+## Microsoft Windows Directory Services CITX 2163
+Computer Information Technology Electronics Course
+## Course Overview
+Active Directory provides the directory services within a Microsoft network and is deployed on Microsoft servers in a redundant and fault tolerant configuration. This course introduces Active Directory based on the most current server platform. Topics include DNS, logical structure of Active Directory (Forest, Domains, Organizational Units, and Sites), Domain Controllers, operation masters and server roles within Active Directory, replication services, back-up and recovery, and certificate services, students create and configure Active Directory objects using various tools to provide support for users and groups.
+### Prerequisite(s)
+- CITX 2165 or experience with Microsoft server platforms.
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Identify active directory in the Windows server architecture.
+- Understand active directory concepts, such as the global catalogue, replication, trust relationships and the DNS namespace.Identify active directory objects, components, and logical and physical structures.
+- Administer active directory using Microsoft management consoles and administrative tools.
+- Plan an active directory implementation, including the domain structure, domain namespace, OU structures and site structures.
+- Install active directory and configure DNS for active directory.
+- Identify the different forest-wide and domain-wide operations master roles.
+- Understand and configure zones, site settings and inter-site replication.
+- Monitor and troubleshoot DNS for active directory.
+- Create and administer various types of user accounts and group accounts.
+- Administer and manage group policies.
+- Configure NTFS security and security for shared folders.
+- Create Dfs roots and links.
+- Backup, restore and troubleshoot active directory.
+- Plan, manage and implement group policy objects (GPOs).
+- Administer a security configuration, including various audit policies.
+- Monitor and manage active directory performance.
+- Configure and implement Windows server using Remote Installation Services (RIS).
+Effective as of Fall 2010
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

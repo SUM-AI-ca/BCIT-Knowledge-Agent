@@ -1,0 +1,45 @@
+URL: https://www.bcit.ca/courses/server-side-web-scripting-comp-3975/
+Title: Server-Side Web Scripting COMP 3975
+Type: Course
+Course Code: COMP 3975
+
+================================================================================
+
+## Server-Side Web Scripting COMP 3975
+Computer Systems Course
+## Course Overview
+This hands-on course introduces server-side scripting using PHP (PHP: Hypertext Preprocessor) an open-source, platform-independent, server-side web scripting language. Topics include: PHP theory and syntax, textfile manipulation, cookies, regular expressions, sessions, graphics, and database interactions. By the end of this course, students have learned the major functions of PHP server-side scripting and how to freely obtain a wide variety of open-source software tools and code libraries. Students also learn how to write reusable classes and object-oriented scripts. Students will use popular PHP frameworks such as Laravel and/or Yii in addition to unit-testing frameworks such as SimpleTest or PHPUnit. Students also learn how to create secure sessions, apply hashing and encryption techniques, and use the PHP command line interface.
+### Prerequisite(s)
+- Completion of first year CST and Admission into the Combined (Web/Mobile) Option
+### Credits
+5.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+- Explain the theory behind server-side Web scripting.
+- Write PHP Web scripts with and without HTML content.
+- Identify, locate, download, and install free server-side Web scripting tools.
+- Identify, locate, and download sample PHP scripts and resources relevant to PHP scripting.
+- Install libraries that enable the use of resources such as compression, encryption, password security.
+- Obtain, process, and store user input from Web pages.
+- Develop PHP scripts that use cookies to remember users and user data.
+- Develop PHP scripts that use regular expressions to find, process, and validate data.
+- Develop PHP scripts that use server-side resources with their Web pages including files, databases, and images that are located on the server.
+- Develop PHP scripts that use sessions to authorize users and keep session data persistent across multiple Web pages.
+- Implement custom classes that generate PHP objects.
+- Use PEAR or other open-source classes to generate ready-made objects.
+- Discuss advanced database issues that are relevant to utilizing non-mySQL databases with PHP.
+- Discuss security issues that are relevant to PHP website construction.
+- Write secure and robust PHP code that is resistant to errors and attacks.
+- Use PHP to generate pdf documents dynamically.
+- Use Object Oriented Programming techniques in authoring PHP scripts.
+- Use PHP frameworks and templating engines such as Yii, Laravel, and Smarty.
+- Use unit-testing frameworks such as SimpleTest or PHPUnit.
+Effective as of Fall 2014
+## Related Programs
+Server-Side Web Scripting (COMP 3975) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Computing and Academic Studies
+- Computer Systems Technology Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

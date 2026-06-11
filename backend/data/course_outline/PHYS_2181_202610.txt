@@ -1,0 +1,102 @@
+URL: https://www.bcit.ca/outlines/20261078014/
+Course: PHYS 2181
+Field: Physics for Chemical and Environmental Technology 2
+Subject: Physics
+Term: 202610
+CRN: 78014
+
+================================================================================
+
+## Course Outline
+## PHYS 2181
+## Physics for Chemical and Environmental Technology 2
+School | School of Computing and Academic Studies
+Program | Chemical and Environmental Technology
+Course Credits | 6.5
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | May 22, 2026
+Total Hours* | 100
+Total Weeks | 20
+Hours/Weeks | 5
+Delivery Type | Lecture
+Prerequisite(s) | PHYS 1181
+CRN | 78014
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Alex Khramov
+E-mail | akhramov@bcit.ca
+Location | SW3-4083
+Office Hours | In my office (SW3-4083): M 11:30 T 11:30, 12:30, W 13:30 Th 11:30, 12:30 Online: upon request
+### Course Description
+This is the second of a pair of one-term algebra-based physics courses designed to acquaint the student with fundamental concepts in physics relating to chemical and environmental technology. PHYS 2181 deals with concepts in thermal physics, electromagnetism and waves. The laboratory component which accompanies the lectures is designed to illustrate specific scientific concepts as well as teach proper laboratory technique and methods of data acquisition and analysis.
+### Course Learning Outcomes/Competencies
+Upon successful completion, the student will be able to:
+- Define basic terms relating to the concepts covered in the course.
+- Correctly choose, manipulate and apply formulae to the solution of typical physics problems.
+- Apply a logical problem-solving technique to arrive at correct solutions to single and double concept physics problems.
+- Demonstrate correct measurement and data acquisition skills in a laboratory environment.
+- Write a laboratory report in accordance with commonly accepted formats.
+### Learning Resources
+- Giancoli, Physics for Scientists and Engineers, 5 ed. (available from the BCIT bookstore or from Pearson). Old editions OK.
+- Lab manual modules for PHYS 2181 (available via Learning Hub)
+- Scientific Calculator (must have logarithmic, exponential, trigonometric functions)
+- A computer which is able to run MS Excel
+- A computer with reliable internet connection
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 5 | 5 tutorial homeworks, equally weighted
+Lab Writeups | 10 | 11 lab writeups, equally weighted
+Lab Exams (2, equally weighted) | 15 | Scheduled dates: Feb 19/23, Apr 23/27
+Midterms (3, equally weighted) | 30 | Scheduled dates: Feb 2, Mar 2, Apr 13
+Final Exam | 40 | Final exam is cumulative
+### Course Schedule and Assignments
+Course schedule is provisional and subject to change Assignments are marked as tutorial homeworks (TH). Reading references are to chapter sections in Giancoli
+Week | Topics | Reference | Assignments | Lab Activity
+1 | M: Intro/Temperature T: Thermal Expansion W: Kinetic Theory of Gases | 17-1 to 17-9, 18-1 to 18-2 | - | -
+2 | M: Phase Diagrams T: Tutorial 1 W: Heat | 18-3 to 18-6, 19-1 to 19-3 | T: TH1 given | Lab 1: Thermal Expansion
+3 | M: Calorimetry T: 1st Law of Thermodynamics W: Heat Transfer | 19-4 to 19-10 | T: TH1 due | Lab 2: Calorimetry
+4 | M: Heat Engines T: Tutorial 2 W: Entropy | 20-1 to 20-6 | T: TH2 given | Lab 3: Conductivity of Glass
+5 | M: Electric Charge T: Electric Forces W: Midterm 1 | 21-1 to 21-5 | T: TH2 due | Lab 4: Electron Deflection
+6 | M: Electric Fields T: Tutorial 3 W: Gauss' Law | 21-6 to 21-11, 22-1 to 22-2 | T: TH3 given | Lab 5: Gauss' Law
+7 | M: (Holiday) T: Electric Potential W: Electric Potential Energy | 23-1 to 23-8 | T: TH3 due | None
+8 | M: Capacitors T: Tutorial 4 W: Current | 24-1 to 24-4, 25-1-25-2 | T: TH4 given | Lab Exam 1
+9 | M: Resistivity T: DC Circuits W: Midterm 2 | 25-3 to 25-5, 26-2 | T: TH4 due | Lab 6: Resistivity
+10 | Spring Break | - | None
+11 | M: Kirchhoff's Laws T: Tutorial 5 W: Magnets | 26-3, 26-6, 27-1 | T: TH5 given | None
+12 | M: Lorentz Force T: B from Current W: Ampere's Law | 27-7 to 27-7, 28-1 to 28-5 | T: TH5 due | Lab 7: Magnetic Field of a Solenoid
+13 | M: Faraday's Law T: Tutorial 6 W: Simple Harmonic Motion | 29-2 to 29-4, 14-2 to 14-4 | T: TH6 given | Lab 8: Standing Waves
+14 | M: (Holiday) T: Resonance W: Waves Basics | 14-8, 15-1 to 15-2 | T: TH6 due | -
+15 | M: Midterm 3 T: Representing Waves W: The Wave Equation | 15-3 to 15-7 | Lab 9: Snell's Law
+16 | M: Standing Waves T: Interference, Refraction W: Ray Optics | 15-8 to 15-11, 32-1 | Lab 10: Converging Lenses
+17 | M: Mirrors T: Tutorial 7 W: Snell's Law | 32-2 to 32-9 | T: TH7 given | Lab Exam 2
+18 | M: Lenses T: Optical Instruments W: Spectra | 33-1 to 33-9, 35-8 to 35-10 | T: TH7 due | Lab 11: The Balmer Series
+19 | M: Atomic Physics T: Tutorial 8 W: Review | 37-2, 37-10 | None
+20 | Exam week continues
+### Course topics
+Heat and Thermal Physics - temperature and heat, including calorimetry - thermal expansion and the gas laws - the 3 laws of thermodynamics - heat transfer
+Electricity and Magnetism - static electric forces and fields - Gauss' Law - electric potential - capacitors and storing electrical energy - DC circuit analysis - Magnetic forces and fields - Electromagnetic induction
+Waves and Oscillations - Simple harmonic motion - general properties of waves - resonance - the wave equation - refraction, diffraction, interference
+Optics and Atomic Physics - electromagnetic spectrum - index of refraction - geometric optics (mirrors and thin lenses) - introduction to atomic spectra
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Alex Khramov, Instructor December 16, 2025
+I verify that this course outline has been reviewed. Kevin Dunphy, Faculty December 19, 2025
+I verify that this course outline has been reviewed. Lynn Erickson, Program Head January 04, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Jennifer Talman, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

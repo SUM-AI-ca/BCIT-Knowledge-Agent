@@ -1,0 +1,31 @@
+URL: https://www.bcit.ca/courses/wordpress-and-cms-mdia-3209/
+Title: WordPress and CMS MDIA 3209
+Type: Course
+Course Code: MDIA 3209
+
+================================================================================
+
+## WordPress and CMS MDIA 3209
+Media Communications Course
+## Course Overview
+In this course students use the WordPress dashboard to install and customize existing WordPress themes, add and activate plug-ins, and modify widgets to quickly and efficiently develop template driven websites. Students will convert HTML websites into WordPress templates and integrate WordPress with custom websites as a Content Management System. Students will install WordPress on a local host and migrate content between local and hosted servers; and look behind the scenes of a functioning website to examine concepts such as cPanel, database creation, and phpMyAdmin to set up and manage their own hosted WordPress website. The course will be delivered through a series of video notes.
+### Prerequisite(s)
+- 50% in MDIA 1205 † ( † may be taken concurrently)
+### Credits
+3.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Demonstrate use of the WordPress interface
+- Modify existing WordPress templates with the WordPress Dashboard
+- Add and Edit Pages, Posts, menus and media on your website
+- Run WordPress offline, using Bitnami WordPress Stack
+- Use cPanel to create a database and install WordPress on your own server
+- Enable WordPress Multi-site, to run multiple unique websites off of a single WordPress installation
+- Install themes and plugins to enhance your content
+- Migrate WordPress sites from your local host to your server, using phpMyAdmin
+- Modify existing themes with custom CSS styles
+- Set up WordPress as a Content Management System
+- Create custom WordPress templates with Content Management System Components
+Effective as of Winter 2016
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

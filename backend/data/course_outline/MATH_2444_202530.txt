@@ -1,35 +1,38 @@
 URL: https://www.bcit.ca/outlines/20253032570/
 Course: MATH 2444
 Field: Basic Statistics and Information Technology for Biotechnology
-
-School: School of Health Sciences
-Program: Bachelor of Science in Biotechnology
-Course Credits: 3
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 45
-Total Weeks: 15
-Hours/Weeks: 3
-Delivery Type: Lecture/Lab
-Prerequisite(s): No prerequisites are required for this course.
+Subject: Mathematics
+Term: 202530
 CRN: 32570
 
-## Acknowledgement of Territories
+================================================================================
+
+## Course Outline
+## MATH 2444
+## Basic Statistics and Information Technology for Biotechnology
+School | School of Health Sciences
+Program | Bachelor of Science in Biotechnology
+Course Credits | 3
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 45
+Total Weeks | 15
+Hours/Weeks | 3
+Delivery Type | Lecture/Lab
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 32570
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Seyyed Hosseini
-E-mail: seyyed_hosseini@bcit.ca
-Location: SW2 217
-Office Hours: TBA
-
-## Course Description
+### Instructor Details
+Name | Seyyed Hosseini
+E-mail | seyyed_hosseini@bcit.ca
+Location | SW2 217
+Office Hours | TBA
+### Course Description
 (UBC BIOT 241) This is an introductory course on basic descriptive statistics and probability, and the application of computers and information technology in the field of biotechnology. The course covers the use of spreadsheets as tools for the manipulation, basic statistical analysis and presentation of biological data. The use of appropriate computer tools for more advanced analysis of data and to access biological databases is introduced in the latter half of the course.
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion, the student will be able to:
-
 - Use software to create spreadsheets which analyze and present experimental data and values based on mathematical models of biological systems.
 - Use statistical software for the presentation of biological data.
 - Access biological databases and use biological database analysis tools, using R and/or Python.
@@ -38,75 +41,53 @@ Upon successful completion, the student will be able to:
 - Compute measures of variation (standard deviation, range, interquartile range), explain the advantages and disadvantages of each.
 - Compute five-number summaries and construct boxplots.
 - Use regression and correlation to estimate trends in data.
-
-## Learning Resources
-1. Biostatistics for the Biological and Health Sciences, 3nd edition, 2023. Triola, Triola, and Roy. MyStatLab with Pearson eText. ISBN-10: 0137864102
-
+### Learning Resources
+1. Biostatistics for the Biological and Health Sciences, 3nd edition, 2023. Triola, Triola, and Roy. MyStatLab with Pearson eText . ISBN-10: 0137864102
 2. Scientific calculator with statistical functions (mean, standard deviation, regression and correlation).
-
-## Course Goals
+### Course Goals
 The course consists of statistical concepts and data analysis. Software tools for data analysis and bioinformatics applications are introduced, including Excel, Minitab, R, and the Python programming language. A series of assignments is designed to give the student experience with spreadsheets, statistical data analysis and programming for biological database access. The technical content of the assignments will vary. Software issues emphasized include
-
 Spreadsheets:
-
 - use of formulas, replication through copy/paste operations, built-in functions
 - plotting
 - programming in Excel
-
 Programming with R and/or Python to acquiring and analyzing scientific data, R for bioinformatic searches (e.g. NCBI)
-
-## Evaluation Criteria
-Criteria: %: Comments
-Assignments: 80: 8 Assignments
-Quizzes: 20: 2 Quizzes
-
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 80 | 8 Assignments
+Quizzes | 20 | 2 Quizzes
 50% passing grade
-
-## Attendance Requirements
+### Attendance Requirements
 There will be 3 class sessions per week. Attendance is expected. Notify the instructor if an absence is anticipated. Classes will be a mixture of short lectures and computer work. Late assignments will lose 10% of their total mark per day late. Announcements will be made in-class and posted to the course's Learning Hub home page.
-
-## Other information
-Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist.
-
-## Course Schedule and Assignments
-Assignment: Assignment: Week
-1: basic layout and functionality of MS Excel using formulas in Excel: 1,2
-2: Introduction to programming in Excel: 3,4
-3: Summary statistics in Excel, Minitab and R: 4,5
-4: importing data Plotting in Excel, Minitab and R xy-charts, histograms: 5,6
-5: Line fitting in Excel, Minitab, R regression application to bacterial growth, selecting data: 7,8
-6: Programming and analyzing DNA sequences with R: 9,10
-7: Data handling, BLAST and species diversity in R: 11,12
-8: Python programming: 12,13
-
-## BCIT Policy
+### Other information
+Our faculty do their best to support your success. If concerns arise about your academic progress or wellbeing, your instructor might refer you to the Early Assist program. Early Assist can connect you with support services that can help you get back on track. Any concerns identified are treated confidentially. Information sent to Early Assist is in no way associated with a student’s academic record or with decisions related to student funding or academic progress. For more information, visit the Early Assist website: www.bcit.ca/earlyassist .
+### Course Schedule and Assignments
+Assignment | Assignment | Week
+1 | basic layout and functionality of MS Excel using formulas in Excel | 1,2
+2 | Introduction to programming in Excel | 3,4
+3 | Summary statistics in Excel, Minitab and R | 4,5
+4 | importing data Plotting in Excel, Minitab and R xy-charts, histograms | 5,6
+5 | Line fitting in Excel, Minitab, R regression application to bacterial growth, selecting data | 7,8
+6 | Programming and analyzing DNA sequences with R | 9,10
+7 | Data handling, BLAST and species diversity in R | 11,12
+8 | Python programming | 12,13
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Health Sciences
+### Guidelines for School of Health Sciences
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Seyyed Hosseini, Faculty August 19, 2025
-
 I verify that this course outline has been reviewed. Andrew McConnell, Faculty August 22, 2025
-
 I verify that this course outline has been reviewed. Sarah McLeod, Faculty August 25, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Winona Cordua-von Specht, Associate Dean August 25, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

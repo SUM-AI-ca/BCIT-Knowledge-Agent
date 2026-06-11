@@ -1,0 +1,101 @@
+URL: https://www.bcit.ca/outlines/20261048058/
+Course: COMP 1510
+Field: Programming Methods
+Subject: Computer Systems
+Term: 202610
+CRN: 48058
+
+================================================================================
+
+## Course Outline
+## COMP 1510
+## Programming Methods
+School | School of Computing and Academic Studies
+Program | Computer Systems Technology (CST) Diploma
+Course Credits | 6
+Minimum Passing Grade | 50%
+Start Date | January 05, 2026
+End Date | April 24, 2026
+Total Hours* | 90
+Total Weeks | 15
+Hours/Weeks | 6
+Delivery Type | Lecture
+Prerequisite(s) | No prerequisites are required for this course.
+CRN | 48058
+### Acknowledgement of Territories
+The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
+### Instructor Details
+Name | Bruce Link
+E-mail | Bruce_Link@bcit.ca
+Location | SW2-365
+Office Hours | See Learning Hub welcome message, by appointment (email instructor).
+### Course Description
+This hands-on course is the foundation for all future programming courses and complements COMP 1537 and COMP 1800. This course introduces the fundamental concepts of programming including design, development, testing, debugging simple programs, as well as error-handling, and problem solving.
+### Course Learning Outcomes/Competencies
+Upon successful completion of this course, the student will be able to:
+- Design, implement, debug and test simple object-oriented programs in a modern high-level programming language.
+- Write programs using good software development processes including design before implementation, encapsulation, information hiding, message passing, decomposition and testing.
+- Analyze and explain behaviour of simple programs involving fundamental programming constructs.
+- Apply the techniques of decomposition to break a program into smaller modules with well-defined interfaces
+- Write automated tests to verify the correctness of their code.
+- Explain the representation and use of primitive data types and built-in data structures, including arrays and strings.
+- Explain the value of application programming interfaces (APIs) in software development.
+- Use variables, control statements, and input/output.
+- Use error handling to deal with exceptional circumstances.
+### Learning Resources
+Java Software Solutions: Foundations of Program Design , Lewis and Loftus, Ninth Edition, Addison-Wesley, 2017, ISBN-13 9780134462028. Later editions are also acceptable.
+### Evaluation Criteria
+Criteria | % | Comments
+Assignments | 15 | 3 assignments
+Lab quizzes/assignments | 15 | Lab quiz and assignment for each week, around 11 total
+Midterm Exam | 25 | Covers chapters 1-5, notes
+Final Exam | 40 | Comprehensive, chapters 1-8 plus debug and test
+Participation | 5
+The student must pass the weighted combination of the midterm and final to pass the course.
+### Attendance Requirements
+Regular attendance in lectures, seminars, and labs is seen as critical to student success, and may be monitored by faculty.
+Unapproved absence of 2 or more classes may result in failure or forced withdrawal from the course or program.
+Please see Policy 5101 - Student Regulations: https://www.bcit.ca/files/pdf/policies/5101.pdf
+### Other information
+No student recording (except accommodations)
+Recording in this course: Recording is not permitted by students unless required under Policy 4501 (Accommodation for Students with Disabilities). Where an approved accommodation includes recording, Accessibility Services will notify the instructor via the IAP. Any other use or sharing of recordings is not allowed beyond the original instructional purpose.
+### Course Schedule and Assignments
+Schedule
+This schedule is subject to change at the discretion of the instructor and the pace of the class. You should be prepared for class by thoroughly reading the text prior to the lecture according to the following schedule:
+Week Number | Dates | Topics | Reading Assignment for this week
+1 | Jan. 5 | Introduction, Java programming | Chapter 1.1 - 1.6
+2 | Jan. 12 | Strings, Variables, Assignment, Primitive Types and Expressions, Data Conversion, I/O | Chapter 2.1 - 2.6
+3 | Jan. 19 | Creating objects, String class, Packages, Random, Math, Formatting, Enumerated types, Wrapper Classes | Chapter 3.1 - 3.8
+4 | Jan. 26 | Writing Classes, Encapsulation, Methods, Constructors | Chapter 4.1 - 4.5
+5 | Feb. 2 | Boolean Expressions, if Statements, Comparing Data, while Statements | Chapter 5.1-5.4
+6 | Feb. 9 | Loop Examples, Iterators, ArrayLists | Chapter 5.5 - 5.6, notes
+7 | Feb. 16 | Debugging, Automated Testing, Switch, Conditional Operator | Notes, Chapter 6.1, 6.2
+8 | Feb. 23 | Midterm Exam Week – Non-Instructional Week | Chapter 1-5, notes
+9 | Mar. 2 | do Statements, for Statements, Finding Classes, Exceptions, Static | Chapter 6.3 – 7.3
+10 | Mar. 9 | Relationships, Interfaces, Enumeration, Method Design In-class Instructional Assessments Online | Chapter 7.4 – 7.7
+11 | Mar. 16 | Computing Reading Week – Non-Instructional Week
+12 | Mar. 23 | Overloading, Arrays, Arrays of objects, command line arguments | Chapter 7.7, 8.1 - 8.5
+13 | Mar. 30 | Variable Parameter Lists, 2D arrays | Chapter 8.5 - 8.7,
+14 | Apr. 6 | Sorting, Searching, Examples | Notes
+15 | Apr.15 | Study/Makeup/Review/Presentation Week | Chapter 1-8, notes
+16 | Apr. 20 | Final Exam Week – Non-Instructional Week | Chapter 1-8, notes
+### BCIT Policy
+The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
+Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
+Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
+Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
+### Guidelines for School of Computing and Academic Studies
+No school specific policies, please refer to main BCIT Policy.
+### Approved
+I verify that the content of this course outline is current. Bruce Link, Faculty December 30, 2025
+I verify that this course outline has been reviewed. Chi En Huang, Program Head January 02, 2026
+I verify that this course outline has been reviewed and complies with BCIT policy. Donna Turner, Associate Dean January 05, 2026
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning

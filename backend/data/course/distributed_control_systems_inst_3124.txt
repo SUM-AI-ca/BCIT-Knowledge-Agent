@@ -1,0 +1,41 @@
+URL: https://www.bcit.ca/courses/distributed-control-systems-inst-3124/
+Title: Distributed Control Systems INST 3124
+Type: Course
+Course Code: INST 3124
+
+================================================================================
+
+## Distributed Control Systems INST 3124
+Industrial Inst/ProcessControl Course
+## Course Overview
+This course investigates the different types of DCS and microprocessor controllers such as generic computer control systems. A Foxboro I/A DCS system is investigated and programmed. Students will also gain experience configuring and troubleshooting a PLC using FBD programming. A PC-based HMI (Human Machine Interface) system is also included in this course.
+### Prerequisite(s)
+- Successful completion of term 3 courses
+### Credits
+6.0
+Not offered this term: This course is not offered this term. Notify me to receive email notifications when the course opens for registration next term.
+## Learning Outcomes
+Upon successful completion, the student will be able to:
+## Safety
+- Demonstrate safe working practices in the lab.
+## Distributed Control Systems
+- Explain a typical Foxboro I/A system configuration.
+- Explain the Foxboro LAN communication protocols.
+- Explain typical hardware components such as AW, WP, CP and associated FBMs.
+- Configure various control loops using software tools to program the various components of the Foxboro I/A systems.
+- Use System Manager to troubleshoot Foxboro I/A DCS hardware system.
+- Troubleshoot a cascade control system complete with operator interface graphics for Foxboro I/A DCS.
+- Configure motor control systems using ladder logic in PLB blocks and their associated FBMs.
+## Functional Block Diagrams
+- Explain programming techniques to conform to the IEC 1131 Standards, including Ladder Diagram (LD), Sequential Function Chart (SFC), Function Block Diagram (FBD), Structured Text (ST) and Instruction List (SL).
+- Using the FBD programming technique, configure a cascade control system complete with associated motor control applied to a Modicon Quantum PLC.
+- Using the SFC programming technique, configure a batch process control system complete with associated motor control applied to a Modicon Quantum PLC.
+- Using HMI software interface, troubleshoot the above PLC control system.
+Effective as of Winter 2018
+## Related Programs
+Distributed Control Systems (INST 3124) is offered as a part of the following programs:
+- Indicates programs accepting international students.
+- Indicates programs eligible for students to apply for Post-graduation Work Permit (PGWP).
+### School of Energy
+- Industrial Instrumentation and Process Control Technician Diploma Full-time
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

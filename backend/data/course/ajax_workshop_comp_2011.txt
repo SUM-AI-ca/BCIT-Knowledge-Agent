@@ -1,0 +1,27 @@
+URL: https://www.bcit.ca/courses/ajax-workshop-comp-2011/
+Title: AJAX Workshop COMP 2011
+Type: Course
+Course Code: COMP 2011
+
+================================================================================
+
+## AJAX Workshop COMP 2011
+Computer Systems Course
+## Course Overview
+COMP 2011 has been replaced by COMP 2051 ; AJAX (Asynchronous JavaScript And XML) is a combination of existing technologies that allows Web pages to work seamlessly with server-side scripts and data. This intensive, hands-on workshop continues on from COMP 1911 1 and introduces AJAX. Students learn to use AJAX to asynchronously load portions of a Web page instead of submitting forms. The end result is quicker, lower-bandwidth-usage, and more seamless interaction with the user. AJAX uses JavaScript, HTML, CSS, DOM and a server-side scripting language such as PHP. Upon successful completion, participants will have learned to make JavaScript and DOM methods interact with server resources including text files, XML, and PHP and be better prepared to move on to COMP 1920 2, Server-side Web Scripting with PHP and COMP 2899 3, XML for Web Designers.
+### Prerequisite(s)
+- COMP 1911 or equivalent knowledge of JavaScript.
+### Credits
+1.0
+Retired: This course has been retired and is no longer offered. Find other Flexible Learning courses that may interest you.
+## Learning Outcomes
+Upon successful completion of this course, the student will be able to:
+- Use JavaScript's XMLHttpRequest object (Firefox, Safari, Opera, Konqueror, and IE browsers) and ActiveXObject (older IE browsers) to 'secretly' make calls to server-side scripting languages such as PHP.
+- Write dynamic Web pages that allow the user to seamlessly interact with a Web server; targeted sections can be updated with server data without refreshing the entire page.
+- Write pages that will work regardless of the browser's brand, version, JavaScript settings, and cookie settings.
+- Write our own AJAX API to allow JavaScript to send and receive data to/from a server.
+- Write scripts that dynamically load forms, perform auto-complete, and auto-refresh.
+- Learn the ins and outs of Firefox's developer tools.
+- Learn important AJAX techniques to advise the user of newly-refreshed data and of in-progress activity.
+Effective as of Winter 2007
+Programs and courses are subject to change without notice. Find out more about BCIT course cancellations .

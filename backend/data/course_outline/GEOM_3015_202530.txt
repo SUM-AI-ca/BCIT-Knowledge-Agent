@@ -1,36 +1,39 @@
-URL: https://www.bcit.ca/outlines/20253051805/
+URL: https://www.bcit.ca/outlines/20253051273/
 Course: GEOM 3015
 Field: Laser Scanning and Reality Capture Technologies
+Subject: Geomatics
+Term: 202530
+CRN: 51273
 
-School: School of Construction and the Environment
-Program: Geomatics
-Course Credits: 4
-Minimum Passing Grade: 50%
-Start Date: September 02, 2025
-End Date: December 12, 2025
-Total Hours*: 60
-Total Weeks: 15
-Hours/Weeks: 4
-Delivery Type: Lecture/Lab
-Zero Textbook Cost: Yes
-Prerequisite(s): GEOM 2021 Co-requisite with GEOM 3010 Field Surveying 3
-CRN: 51805
+================================================================================
 
-## Acknowledgement of Territories
+## Course Outline
+## GEOM 3015
+## Laser Scanning and Reality Capture Technologies
+School | School of Construction and the Environment
+Program | Geomatics
+Course Credits | 4
+Minimum Passing Grade | 50%
+Start Date | September 02, 2025
+End Date | December 12, 2025
+Total Hours* | 60
+Total Weeks | 15
+Hours/Weeks | 4
+Delivery Type | Lecture/Lab
+Zero Textbook Cost | Yes
+Prerequisite(s) | GEOM 2021 Co-requisite with GEOM 3010 Field Surveying 3
+CRN | 51273
+### Acknowledgement of Territories
 The British Columbia Institute of Technology acknowledges that our campuses are located on the unceded traditional territories of the Coast Salish Nations of Sḵwx̱wú7mesh (Squamish), səl̓ilwətaɁɬ (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam).
-
-## Instructor Details
-Name: Sean Galway
-E-mail: sgalway@bcit.ca
-Location: SW02-316
-Office Hours: Sean Galway: As posted on Course HomePage in LearningHubTentative:Mon: 9:30am-12:30pm Tues: 9:30am-12:30pm Thurs: 1:30pm-2:30pm
-
-## Course Description
+### Instructor Details
+Name | Sean Galway
+E-mail | sgalway@bcit.ca
+Location | SW02-316
+Office Hours | Sean Galway: As posted on Course HomePage in LearningHub Tentative: Mon: 9:30am-12:30pm Tues: 9:30am-12:30pm Thurs: 1:30pm-2:30pm
+### Course Description
 ​This course presents the fundamentals of laser-scanning and reality capture technologies, introduces proper planning and data collection methods, and explores a variety of products and deliverables created from massive point cloud datasets collected by laser-scanning technology. Students are exposed to industry-standard hardware and software solutions employed by the geomatics industry to collect, process, and model point cloud datasets.​
-
-## Course Learning Outcomes/Competencies
+### Course Learning Outcomes/Competencies
 Upon successful completion of this course, the student will be able to:
-
 - Explain the concepts of laser-scanning and reality-capture technology and their application in geomatics.
 - Differentiate among the various laser-scanning methods.
 - Identify the purpose and required deliverables of a particular laser-scanning project.
@@ -39,85 +42,62 @@ Upon successful completion of this course, the student will be able to:
 - Transfer and review collected data for quality-control purposes using industry software tools.
 - Perform registration, such as visual alignment, cloud-to-cloud alignment and cloud-to-target alignment techniques, using industry software tools.
 - Generate derived product deliverables, such as topography plans, analysis for the quality of BIM/ REVIT models, and 3D visualizations of point cloud data.​
-
-## Learning Resources
+### Learning Resources
 - Instructor supplied notes and materials
-
 Web Resources:
-
-- Introduction to Airborne Topographic LiDAR - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. (www.online-pdh.com)
-- Principles & Applications for LiDAR 3D Scanning - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. (www.online-pdh.com)
-- Surveying with Terrestrial 3D Laser Scanners - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. (www.online-pdh.com)
-
-## Evaluation Criteria
-Criteria: %: Comments
-Quizzes: 5
-Assignments: 25: Lab assignments for this segment will be equally weighted. If a lab assignment is dropped (not given), then the weighting for that assignment will be equally re-distributed amongst all of the completed lab assignments. Late assignments will be given a mark of ZERO. Assignment Due Dates: Typically, assignments will be due 7 days after being assigned. Late assignments will NOT be accepted, as per published Dept. Policy/Student Handbook.
-Midterm Exam: 20
-Term Project: 10
-Final Exam: 40
-Total: 100
-
-Assignment Due Dates: Typically, assignments will be due 7 days after being assigned. Set D: Will be Due on Wednesday @11:59pm Set E: Will be Due on Thursdays @11:59pm Change in Due Dates: Due dates are always subject to change, depending how class progresses thru the material. Any changes in due dates/schedule will always be discussed by instructor with students, with at least 7 days advanced notice. Term Project: Term Project will begin Late-October and continue thru November.
-
-## Attendance Requirements
+- Introduction to Airborne Topographic LiDAR - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. ( www.online-pdh.com )
+- Principles & Applications for LiDAR 3D Scanning - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. ( www.online-pdh.com )
+- Surveying with Terrestrial 3D Laser Scanners - A Continuing Education for Professional Engineers Publication, available for free download from Online-PDH website. ( www.online-pdh.com )
+### Evaluation Criteria
+Criteria | % | Comments
+Quizzes | 5
+Assignments | 25 | Lab assignments for this segment will be equally weighted. If a lab assignment is dropped (not given), then the weighting for that assignment will be equally re-distributed amongst all of the completed lab assignments. Late assignments will be given a mark of ZERO . Assignment Due Dates: Typically, assignments will be due 7 days after being assigned. Late assignments will NOT be accepted, as per published Dept. Policy/Student Handbook.
+Midterm Exam | 20
+Term Project | 10
+Final Exam | 40
+Total | 100
+Assignment Due Dates: Typically, assignments will be due 7 days after being assigned. Change in Due Dates: Due dates are always subject to change, depending how class progresses thru the material. Any changes in due dates/schedule will always be discussed by instructor with students, with at least 7 days advanced notice. Term Project: Term Project will begin Late-October and continue thru November.
+### Attendance Requirements
 Your success in the program will depend on your level of engagement. This includes attending weekly lectures, following guidelines and instructions, and submitting your work on time.
-
 Assignments and weekly labs are often performed in teams or as groups. Failing to attend without prior notice puts your team members in a difficult position and may prevent them from completing their work on time. You are expected to inform team members as well as your instructor in advance if you are unable to attend.
-
 It is the policy of the BCIT Geomatics program to not accept late assignments. Students failing to submit weekly labs or assignments on time will receive a mark of zero for the missed labs or assignments.
-
-## Other information
+### Other information
 Note: schedule dates and topics are subject to change. Prior notification will be given for any changes. Any changes in due dates/schedule will always be discussed by instructor with students, with at least 7 days advanced notice.
-
-## Course Schedule and Assignments
-Week: Monday Date: Topic: Lab Exercise: Lab Due Dates: typically 1 week after being assigned:
-Wed Class will be Due Wed @ 11:59pm
-Thurs Class will be Due Thurs @ 11:59pm
-Week1: 01-Sep: [Labour Day]: Statutory Holiday: Class Scheduled: Course Introduction (Please Attend): No Assigned Activities/ Not Applicable.
-Week2: 08-Sep: Introduction to Laser Scanning Technologies: Exploring BCIT Campus LiDAR Dataset: Set Specific: Wed. 17 / Thurs 18 by 11:59pm
-Week3: 15-Sep: Calibration and Sensor Integration: Calibrating a LiDAR Payload: Set Specific: Wed. 24 / Thurs 25 by 11:59pm
-Week4: 22-Sep: UAV LiDAR/StereoLidar: Working with Visualization LiDARgrammetry Exercise: Set Specific: Wed. 01 / Thurs 02 by 11:59pm
-Week5: 29-Sep: HDS-TLS – Intro to Terrestrial Laser Scanning: PDH/DOT - What is TLS Online Certificate: Set Specific: Wed. 8 / Thurs 9 by 11:59pm
-Week6: 06-Oct: HDS-TLS – Field Collection Procedures: Field Data Capture - Best Practices: Set Specific: Wed. 15 / Thurs 16 by 11:59pm
-Week7: 13-Oct: Midterm Week: No Lab: Set Specific: Wed. 22 / Thurs 23 by 11:59pm
-Week8: 20-Oct: Introduction to BLK360 – Registration: Registration Lab#1 - Visual Alignment: Set Specific: Wed. 29 / Thurs 30 by 11:59pm
-Week9: 27-Oct: Introduction to RTC360 – VIS Alignment: Registration Lab#2 - Cloud 2 Cloud Alignment: Set Specific: Wed. 5 / Thurs 6 by 11:59pm
-Week10: 03-Nov: Industry Guest Lecture: Participation/Q&A/Engagement Exercise: Set Specific: Wed. 12 / Thurs 13 by 11:59pm
-Week11: 10-Nov: Data Validation Techniques: Data Quality/QAQC Lab: Set Specific: Wed. 19 / Thurs 20 by 11:59pm
-Week12: 17-Nov: Point Cloud Modelling/C3D/Cloudworxs: Modelling Point Clouds Lab: Set Specific: Wed. 26 / Thurs 27 by 11:59pm
-Week13: 24-Nov: Derived Product Creation/3DR/Visualization: Derived Product Creation Lab: Set Specific: Wed. 3 / Thurs 4 by 11:59pm
-Week14: 01-Dec: Digital Twinning & Revit BIM Modelling: Term Project Work (Due Friday Dec 5th, 11:59pm)
-Week15: 08-Dec: Final Exam Week
-
-Assignment Due Dates: Typically, assignments will be due 7 days after being assigned, by midnight. Wed Class (Set D) will be Due Wed @ 11:59pm Thurs Class (Set E) will be Due Thurs @ 11:59pm Change in Due Dates: Due dates are always subject to change, depending how class progresses thru the material. *Any changes in due dates/schedule will always be discussed by instructor with students, with at least 7 days advanced notice. Term Project: Activity will begin Mid-October and continue thru November, with Final Due date being Friday Dec 5th at 11:59pm.
-
-## BCIT Policy
+### Course Schedule and Assignments
+Week | Monday Date | Topic | Lab Exercise | Lab Due Dates : typically 1 week after being assigned: Wed Class will be Due Wed @ 11:59pm Thurs Class will be Due Thurs @ 11:59pm
+Week1 | 01-Sep | [Labour Day]: Statutory Holiday | Please Attend Scheduled Class: Course Introduction | No Assigned Activities/ Not Applicable.
+Week2 | 08-Sep | Introduction to Laser Scanning Technologies | Exploring BCIT Campus LiDAR Dataset | Set Specific: Wed. 17 / Thurs 18 by 11:59pm
+Week3 | 15-Sep | Calibration and Sensor Integration | Calibrating a LiDAR Payload | Set Specific: Wed. 24 / Thurs 25 by 11:59pm
+Week4 | 22-Sep | UAV LiDAR/StereoLidar | Working with Visualization LiDARgrammetry Exercise | Set Specific: Wed. 01 / Thurs 02 by 11:59pm
+Week5 | 29-Sep | HDS-TLS – Intro to Terrestrial Laser Scanning | PDH/DOT - What is TLS Online Certificate | Set Specific: Wed. 8 / Thurs 9 by 11:59pm
+Week6 | 06-Oct | HDS-TLS – Field Collection Procedures | Field Data Capture - Best Practices | Set Specific: Wed. 15 / Thurs 16 by 11:59pm
+Week7 | 13-Oct | Midterm Week | No Lab | Set Specific: Wed. 22 / Thurs 23 by 11:59pm
+Week8 | 20-Oct | Introduction to BLK360 – Registration | Registration Lab#1 - Visual Alignment | Set Specific: Wed. 29 / Thurs 30 by 11:59pm
+Week9 | 27-Oct | Introduction to RTC360 – VIS Alignment | Registration Lab#2 - Cloud 2 Cloud Alignment | Set Specific: Wed. 5 / Thurs 6 by 11:59pm
+Week10 | 03-Nov | Industry Guest Lecture | Participation/Q&A/Engagement Exercise | Set Specific: Wed. 12 / Thurs 13 by 11:59pm
+Week11 | 10-Nov | Data Validation Techniques | Data Quality/QAQC Lab | Set Specific: Wed. 19 / Thurs 20 by 11:59pm
+Week12 | 17-Nov | Point Cloud Modelling/C3D/Cloudworxs | Modelling Point Clouds Lab | Set Specific: Wed. 26 / Thurs 27 by 11:59pm
+Week13 | 24-Nov | Derived Product Creation/3DR/Visualization | Derived Product Creation Lab | Set Specific: Wed. 3 / Thurs 4 by 11:59pm
+Week14 | 01-Dec | Digital Twinning & Revit BIM Modelling | Term Project Work (Due Friday Dec 5th, 11:59pm)
+Week15 | 08-Dec | Final Exam Week
+Assignment Due Dates : Typically, assignments will be due 7 days after being assigned, by midnight. Change in Due Dates : Due dates are always subject to change, depending how class progresses thru the material. Any changes in due dates/schedule will always be discussed by instructor with students, with at least 7 days advanced notice. Term Project: Term Project will begin Mid-October and continue thru November, with Final Due date being the last Friday of the Semester (Dec 6th) at 11:59pm.
+### BCIT Policy
 The following statements are in accordance with the BCIT Policies 5101, 4501, 5103, 5104, and 7507, and their accompanying procedures. To review these policies and procedures please click on the links below.
-
-Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations, and accompanying procedures, for more information.
-
-Attempts As stated in BCIT Policy 5103 - Student Evaluation, students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
-
-Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity, and accompanying procedures.
-
-Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities, and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
-
+Attendance In case of illness or other unavoidable cause of absence, the student must communicate as soon as possible with their instructor or Program/Department Head, stating the reason for the absence. When absences result in missed safety requirements, exams, or other deadlines, an instructor or Program/Department Head may request appropriate supporting documentation, including a medical note. For all other absences, the student is responsible to ensure they seek out missed information, preferably from a classmate or recording (when available). Please see BCIT Policy 5101 - Student Regulations , and accompanying procedures, for more information.
+Attempts As stated in BCIT Policy 5103 - Student Evaluation , students must successfully complete a course within a maximum of three (3) attempts at the course. Students with two attempts in a single course will be allowed to repeat the course only upon permission from the Associate Dean. Students who have not successfully completed a course within three attempts will not be eligible to graduate from their respective program. For those courses or programs that have Education Council approval, the number of attempts as stated in the evaluation section of the course outline shall apply.
+Academic Integrity It is the responsibility of all students to be familiar with the Student Code of Academic Integrity. Violations of the Code, including plagiarism, cheating, misrepresentation, and academic advantage, are prohibited and will be handled in accordance with BCIT Policy 5104 – Student Code of Academic Integrity , and accompanying procedures.
+Accommodation Any student who may require accommodation from BCIT because of a physical or mental disability should refer to BCIT's Policy 4501 - Accommodation for Students with Disabilities , and contact BCIT's Accessibility Services (SW1 2360, 604-451-6963) at the earliest possible time. Requests for accommodation must be made to Accessibility Services, and should not be made to a course instructor or Program area.
 Any student who needs special assistance in the event of a medical emergency or building evacuation (either because of a disability or for any other reason) should promptly inform their course instructor(s) and Accessibility Services of their personal circumstances.
-
 Human Rights, Harassment and Discrimination The BCIT community is made up of individuals from every ability, background, experience and identity, each contributing uniquely to the richness and diversity of the BCIT community as a whole. In recognition of this, and the intrinsic value of our diversity, BCIT seeks to foster a climate of collaboration, understanding and mutual respect between all members of the community and ensure an inclusive accessible working and learning environment where everyone can succeed. Respect, Diversity, and Inclusion is a supportive resource for both students and employees of BCIT, to foster a respectful learning and working environment. Any student who feels that they are experiencing discrimination or harassment (personal or human rights-related) can confidentially access this resource for advice and support. Please see BCIT Policy 7507 – Harassment and Discrimination and accompanying procedure.
-
 Students should make themselves aware of additional Education, Administration, Safety and other BCIT policies listed at https://www.bcit.ca/about/administration/policies.shtml
-
-## Guidelines for School of Construction and the Environment
+### Guidelines for School of Construction and the Environment
 No school specific policies, please refer to main BCIT Policy.
-
-## Approved
+### Approved
 I verify that the content of this course outline is current. Sean Galway, Instructor September 05, 2025
-
 I verify that this course outline has been reviewed. James Cowan, Program Coordinator September 05, 2025
-
 I verify that this course outline has been reviewed and complies with BCIT policy. Steven Kuan, Associate Dean September 08, 2025
-
-Notice:
-Note: Students will be given reasonable notice if changes are required to the content of this course outline. *Course hours and credits are calculated per Policy 5012 and the associated procedure. Total hours – Example of 3 credit lecture/lab course: Full-time course: 45 hours of scheduled learning Flexible Learning course: 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
+Note: Students will be given reasonable notice if changes are required to the content of this course outline.
+*Course hours and credits are calculated per Policy 5012 and the associated procedure .
+Total hours – Example of 3 credit lecture/lab course:
+- Full-time course : 45 hours of scheduled learning
+- Flexible Learning course : 36 hours of scheduled learning plus 9 hours of independent (non-scheduled, non-instructional) learning
