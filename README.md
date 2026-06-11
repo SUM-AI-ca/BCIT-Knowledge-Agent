@@ -292,8 +292,12 @@ Everything deployed/configured outside this repo, in one place:
 | Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed |
 | Rollback assets | `backend/data_old_202409/` (old corpus, gitignored), VM `vectorstore/documents_old.pkl` |
 
-Pending niceties: `www` CNAME is not set up; "Always Use HTTPS" is off
-(http://bcitai.ca serves without redirect).
+`www` CNAME added 2026-06-11 (`www` → `bcitai.ca`, proxied) — verified:
+`https://www.bcitai.ca/health` and `/chat` both 200 through the same Origin
+Rule; `server.py` CORS already allowlists the `www` origin.
+
+Pending niceties: "Always Use HTTPS" is off (http://bcitai.ca serves without
+redirect).
 
 ---
 
