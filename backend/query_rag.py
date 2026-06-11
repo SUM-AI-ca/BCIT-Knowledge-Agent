@@ -6,6 +6,7 @@ warnings.filterwarnings('ignore')
 import hashlib
 import json
 import logging
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor
 from typing import List, Optional, Set
@@ -78,6 +79,8 @@ from config import (
     MQ_POOL_CAP,
     MQ_MIN_CHUNKS_PER_SUBQUERY,
     RERANK_MODE,
+    STRIP_SOURCES_FROM_HISTORY,
+    HISTORY_MAX_ANSWER_CHARS,
 )
 
 logger = logging.getLogger("bcit.rag")
@@ -275,6 +278,22 @@ class BCITChatbot:
         self.rewrite_decompose_prompt = ChatPromptTemplate.from_template(
             REWRITE_DECOMPOSE_TEMPLATE
         ).partial(max_sub_queries=str(MAX_SUB_QUERIES))
+
+    def _history_view(self, answer: str) -> str:
+        """What gets saved to memory — and re-sent in every later prompt.
+
+        The Sources section is citation plumbing the follow-up rewriter never
+        needs, and uncapped answers compound across the k-turn window.
+        """
+        text = answer
+        if STRIP_SOURCES_FROM_HISTORY:
+            text = re.sub(
+                r"\n[ \t*#]*Sources[ \t*#]*:?.*\Z", "", text,
+                flags=re.IGNORECASE | re.DOTALL,
+            ).rstrip()
+        if len(text) > HISTORY_MAX_ANSWER_CHARS:
+            text = text[:HISTORY_MAX_ANSWER_CHARS].rstrip() + " ..."
+        return text or answer[:HISTORY_MAX_ANSWER_CHARS]
 
     def _format_chat_history(self, memory: ConversationBufferWindowMemory) -> str:
         # buffer_as_messages applies the k-window; chat_memory.messages is the
@@ -668,10 +687,18 @@ class BCITChatbot:
             context = self._format_docs_full(docs)
             context_stats = {"context_chars": len(context)}
 
+        question_parts = ""
+        if len(sub_queries) > 1:
+            question_parts = (
+                "\n\nThe question has multiple parts; answer each one:\n"
+                + "\n".join(f"  {i}) {q}" for i, q in enumerate(sub_queries, 1))
+            )
+
         t0 = time.perf_counter()
         prompt_value = self.prompt.invoke({
             "context": context,
             "question": question,
+            "question_parts": question_parts,
             "chat_history": chat_history
         })
         msg = self.llm.invoke(prompt_value)
@@ -684,7 +711,7 @@ class BCITChatbot:
             logger.warning("answer truncated (finish_reason=MAX_TOKENS) — Sources section likely lost")
 
         memory.chat_memory.add_user_message(question)
-        memory.chat_memory.add_ai_message(answer)
+        memory.chat_memory.add_ai_message(self._history_view(answer))
 
         input_tokens = usage.get("input_tokens", 0)
         output_tokens = usage.get("output_tokens", 0)

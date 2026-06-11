@@ -61,11 +61,17 @@ GEMINI_MODEL = "gemini-3.5-flash"
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
-GEMINI_MAX_OUTPUT_TOKENS = _env_int("GEMINI_MAX_OUTPUT_TOKENS", 7700)
+GEMINI_MAX_OUTPUT_TOKENS = _env_int("GEMINI_MAX_OUTPUT_TOKENS", 2048)
 
 # Single source of truth for conversation window (was k=5 in server.py and
 # k=3 in query_rag.py, neither actually applied due to the window bug).
 MEMORY_WINDOW_K = _env_int("MEMORY_WINDOW_K", 5)
+
+# What gets SAVED into history (and therefore re-sent every later turn):
+# Sources lists add no value to follow-up resolution, and unbounded answers
+# compound across the window.
+STRIP_SOURCES_FROM_HISTORY = _env_bool("STRIP_SOURCES_FROM_HISTORY", True)
+HISTORY_MAX_ANSWER_CHARS = _env_int("HISTORY_MAX_ANSWER_CHARS", 1500)
 
 # Per-million-token prices for the generation model, used only for the
 # estimated-cost field in logs/eval. 0 disables the estimate.
@@ -130,25 +136,21 @@ MQ_MIN_CHUNKS_PER_SUBQUERY = _env_int("MQ_MIN_CHUNKS_PER_SUBQUERY", 2)
 RERANK_MODE = _env_str("RERANK_MODE", "pooled")
 REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 512)
 REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
-# None = model default. Evaluated against 0 in the eval sweeps before deploy.
-GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", None)
+# Thinking tokens are billed as output AND count against max_output_tokens —
+# with the model default (~2k thinking) a 2048 cap truncates every answer
+# (observed: finish=MAX_TOKENS with 80 visible tokens). 0 pairs with the 2048
+# cap; the eval sweep compares None (+4096 cap) for answer quality.
+GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
 
+# Static instructions come FIRST and the variable inputs (context, history,
+# question) LAST: Gemini's implicit caching can only reuse a shared prompt
+# prefix, and anything after the first changed byte is a cache miss.
 RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
 
 Your role:
 - Answer the student's question using ONLY the provided BCIT documents and recent conversation history for any BCIT specific facts.
 - You may use your general world knowledge only for non BCIT background explanations.
 - Always respond in ENGLISH.
-
-Inputs:
-- Conversation history:
-{chat_history}
-
-- Retrieved BCIT context:
-{context}
-
-- Student's question:
-{question}
 
 INSTRUCTIONS:
 
@@ -165,8 +167,8 @@ INSTRUCTIONS:
 3. USE OF BCIT DOCUMENTS
    - For any BCIT specific facts (dates, URLs, admission requirements, program
      details, course outlines, policies, schedules, tuition, and similar content), rely ONLY on
-     information that appears explicitly in the context above.
-   - Treat any BCIT information that is not present in the context as unknown.
+     information that appears explicitly in the retrieved BCIT context below.
+   - Treat any BCIT information that is not present in that context as unknown.
    - Do not invent or guess BCIT specific facts.
 
 4. PROGRAM PRIORITY
@@ -174,7 +176,7 @@ INSTRUCTIONS:
    - If only flexible learning information is present, answer using that and briefly clarify that only flexible learning details were available.
 
 5. MISSING OR INCOMPLETE INFORMATION
-   - If the student asks for BCIT specific information that is not present in the context:
+   - If the student asks for BCIT specific information that is not present in the retrieved text:
        "This specific information is not in the available documents."
    - You may then suggest how the student could find the information, for example
      by checking the official BCIT website, but do not fabricate URLs, dates,
@@ -182,25 +184,38 @@ INSTRUCTIONS:
 
 6. ANALYSIS AND ADVISING
    - When comparing programs or courses, or making a recommendation, base your
-     reasoning only on the context, including prerequisites, credits, course level,
+     reasoning only on the retrieved text, including prerequisites, credits, course level,
      workload hints, and descriptions.
    - Be practical and student focused. Explain your reasoning briefly and clearly.
 
 7. ANSWER FORMAT
    - Start with a short, direct summary that answers the question.
    - Then provide a concise explanation using short paragraphs or bullet points.
+   - Keep the whole answer under roughly 350 words, unless the question has
+     multiple distinct parts that each need their own answer.
    - Do not copy long paragraphs verbatim from the documents. Paraphrase in
      your own words.
    - Do not mention the words "context", "documents", or "prompt" in your answer.
 
 8. SOURCES (BCIT URLs)
    - At the end of your answer, add a section titled "Sources".
-   - Under "Sources", list only the BCIT URLs that appear in the context and that
+   - Under "Sources", list only the BCIT URLs that appear in the retrieved text and that
      you actually used.
    - Copy each URL exactly as it appears, for example in lines like
      "Document 1 [URL: https://...]".
    - If you used information that has no URL in the provided documents, write:
        Sources: No BCIT URL available in the provided documents.
+
+Inputs:
+
+- Retrieved BCIT context:
+{context}
+
+- Conversation history:
+{chat_history}
+
+- Student's question:
+{question}{question_parts}
 
 Answer:"""
 
