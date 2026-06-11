@@ -1,4 +1,4 @@
-import { MessageSquare, ArrowRight, Database, Layers, Cpu, GitMerge, Server } from "lucide-react";
+import { MessageSquare, ArrowRight, Database, Layers, Cpu, GitMerge, Server, Search, Zap, FileText } from "lucide-react";
 import "./Blog.css";
 
 export default function Blog() {
@@ -16,9 +16,10 @@ export default function Blog() {
         <p className="blog-kicker">Engineering Deep Dive</p>
         <h1>Building a Production RAG Chatbot for BCIT</h1>
         <p className="blog-subtitle">
-          How hybrid retrieval, a managed reranker, and Gemini turn 5,000+ pages of
-          BCIT program and course documentation into an academic advisor that
-          answers in seconds — on a CPU-only VM.
+          How query decomposition, hybrid retrieval, a managed reranker, and Gemini
+          turn 11,000+ pages of BCIT program and course documentation into an
+          academic advisor that answers in ~5 seconds on a CPU-only VM — at 87%
+          less LLM cost than the first production version.
         </p>
         <a href="/chat" className="blog-hero-cta">
           Try the live chatbot <ArrowRight size={18} />
@@ -43,31 +44,38 @@ export default function Blog() {
           <h2>Architecture at a glance</h2>
           <div className="arch-diagram">
             <div className="arch-step">
+              <div className="arch-icon"><Search size={20} /></div>
+              <div>
+                <strong>1 · Rewrite & decompose</strong>
+                <p>One schema-constrained JSON call resolves pronouns from history and splits multipart questions into up to 4 self-contained sub-queries</p>
+              </div>
+            </div>
+            <div className="arch-step">
               <div className="arch-icon"><Layers size={20} /></div>
               <div>
-                <strong>1 · Embed the question</strong>
-                <p>Vertex AI <code>gemini-embedding-001</code> — 1536-dim vectors</p>
+                <strong>2 · Embed</strong>
+                <p>Vertex AI <code>gemini-embedding-001</code> — 1536-dim vectors, per sub-query</p>
               </div>
             </div>
             <div className="arch-step">
               <div className="arch-icon"><Database size={20} /></div>
               <div>
-                <strong>2 · Hybrid retrieval</strong>
-                <p>pgvector HNSW (dense) + BM25 (sparse), fused with Reciprocal Rank Fusion</p>
+                <strong>3 · Hybrid retrieval</strong>
+                <p>pgvector HNSW (dense) + BM25 (sparse) fused with Reciprocal Rank Fusion — multipart questions fan out in parallel threads</p>
               </div>
             </div>
             <div className="arch-step">
               <div className="arch-icon"><GitMerge size={20} /></div>
               <div>
-                <strong>3 · Rerank</strong>
-                <p>Vertex AI Ranking API <code>semantic-ranker-default-004</code> → top 10</p>
+                <strong>4 · Pooled rerank</strong>
+                <p>ONE Vertex AI Ranking API call scores the merged pool; a coverage quota guarantees every sub-question keeps its best evidence → top 10</p>
               </div>
             </div>
             <div className="arch-step">
               <div className="arch-icon"><Cpu size={20} /></div>
               <div>
-                <strong>4 · Generate</strong>
-                <p><code>gemini-3.5-flash</code> via ChatVertexAI, grounded in retrieved chunks</p>
+                <strong>5 · Assemble & generate</strong>
+                <p>Selected chunks + their document neighbors (small-to-big) go to <code>gemini-3.5-flash</code> — ~6k input tokens instead of whole source files</p>
               </div>
             </div>
           </div>
@@ -80,9 +88,16 @@ export default function Blog() {
             "program fees") but weak on exact identifiers like <strong>COMP 1510</strong>.
             BM25 is the opposite. So the retriever runs both in parallel and merges
             them with <strong>Reciprocal Rank Fusion</strong>: each document scores{" "}
-            <code>1 / (60 + rank)</code> in each list, weighted 50/50 between the
+            <code>1 / (60 + rank)</code> in each list, weighted between the
             two retrievers. RRF only looks at <em>ranks</em>, so there's no need to
             normalize incompatible similarity scores against BM25 scores.
+          </p>
+          <p>
+            Multipart questions get special treatment: <em>"admission requirements,
+            tuition, AND housing?"</em> decomposes into three self-contained
+            sub-queries that retrieve <strong>in parallel</strong> on a shared thread
+            pool, then merge into one deduplicated candidate pool. Single questions
+            skip the fan-out and keep the full-width single retrieval.
           </p>
           <p>
             The dense side lives in <strong>Cloud SQL PostgreSQL with pgvector</strong>,
@@ -103,14 +118,75 @@ export default function Blog() {
         <section>
           <h2>Reranking: the cheap accuracy win</h2>
           <p>
-            Hybrid retrieval pulls a generous candidate pool (13 chunks), then the{" "}
+            Hybrid retrieval pulls a generous candidate pool (25 chunks for single
+            questions, up to 40 pooled across sub-queries), then the{" "}
             <strong>Vertex AI Ranking API</strong> (<code>semantic-ranker-default-004</code>)
             re-scores each candidate against the query with a cross-encoder and keeps
             the top 10. Cross-encoders read the query and the document <em>together</em>,
             so they catch relevance that bi-encoder embeddings miss — at a price that's
-            only paid on a handful of candidates, not the whole corpus. Using the managed
-            API means no GPU, no model weights, no serving stack: the whole pipeline
-            stays CPU-only.
+            only paid on a handful of candidates, not the whole corpus.
+          </p>
+          <p>
+            The API bills <em>per query</em>, so the pipeline makes exactly{" "}
+            <strong>one ranking call per turn</strong> no matter how many sub-queries
+            fan out: all candidates are scored in a single pooled request, and a
+            per-sub-query <strong>coverage quota</strong> swaps each sub-question's
+            best evidence back in if the global top-10 squeezed it out. Using the
+            managed API means no GPU, no model weights, no serving stack: the whole
+            pipeline stays CPU-only.
+          </p>
+        </section>
+
+        <section>
+          <h2>Cutting LLM cost 87% — measured, not vibes</h2>
+          <p>
+            The first production version injected <em>entire source documents</em> into
+            the prompt (whichever files the top chunks came from) — safe for answer
+            completeness, but ~44,000 input tokens per query. The June 2026 overhaul
+            replaced that with the retrieved chunks themselves plus their{" "}
+            <strong>document neighbors</strong> (±2 adjacent chunks, resolved from an
+            in-process index — no DB migration), deduplicating the chunk overlaps as
+            runs merge. A 40-case golden set with retrieval hit-rate, key-fact recall,
+            citation precision, token, and latency metrics gated every change:
+          </p>
+          <div className="arch-diagram">
+            <div className="arch-step">
+              <div className="arch-icon"><Zap size={20} /></div>
+              <div>
+                <strong>−87% input tokens</strong>
+                <p>44,322 → 5,884 per query (mean), thinking tokens 896 → 0</p>
+              </div>
+            </div>
+            <div className="arch-step">
+              <div className="arch-icon"><Search size={20} /></div>
+              <div>
+                <strong>Accuracy went up</strong>
+                <p>Retrieval hit-rate 0.892 → 0.963 · key-fact recall 0.848 → 0.885</p>
+              </div>
+            </div>
+            <div className="arch-step">
+              <div className="arch-icon"><Cpu size={20} /></div>
+              <div>
+                <strong>2× faster</strong>
+                <p>p95 latency 10.8s → 5.2s (p50 4.1s), zero truncated answers</p>
+              </div>
+            </div>
+            <div className="arch-step">
+              <div className="arch-icon"><FileText size={20} /></div>
+              <div>
+                <strong>Fully reversible</strong>
+                <p>The legacy pipeline is one env flag away — every change ships behind a switch</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            Two findings the eval surfaced that intuition wouldn't have: Gemini's
+            thinking tokens count <em>against</em> <code>max_output_tokens</code> (the
+            default thinking budget silently truncated every capped answer — and for
+            this extract-and-summarize workload, disabling thinking measured{" "}
+            <em>better</em> on recall and halved latency); and precise chunks beat
+            9,000-token document dumps on factual recall — more context was actively
+            hurting retrieval-grounded answers.
           </p>
         </section>
 
@@ -118,13 +194,17 @@ export default function Blog() {
           <h2>Generation and conversation memory</h2>
           <p>
             The final answer comes from <code>gemini-3.5-flash</code> through
-            LangChain's <code>ChatVertexAI</code>, with the reranked chunks injected as
-            grounding context. Each browser session gets its own
-            five-turn conversation window, so follow-ups like{" "}
-            <em>"and what about the part-time option?"</em> resolve correctly. Sessions
-            expire after 30 minutes of inactivity. Auth is handled by Application
-            Default Credentials end to end — there is not a single API key in the
-            codebase or the environment.
+            LangChain's <code>ChatVertexAI</code>, grounded in the assembled chunk
+            context. The prompt puts the static instructions first and the variable
+            inputs last, so Gemini's implicit caching can reuse the shared prefix;
+            multipart questions get their sub-questions enumerated so every part is
+            answered. Each browser session gets its own five-turn conversation
+            window — saved history is stripped of citation lists and capped, since
+            it is re-sent on every turn. Follow-ups like{" "}
+            <em>"and what about the part-time option?"</em> resolve correctly.
+            Sessions expire after 30 minutes of inactivity. Auth is handled by
+            Application Default Credentials end to end — there is not a single API
+            key in the codebase or the environment.
           </p>
         </section>
 

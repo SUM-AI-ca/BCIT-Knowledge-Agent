@@ -97,13 +97,45 @@ the same corpus and models — only the pipeline changed:
 | Latency p50 / p95 | 7.6 s / 10.8 s | **4.1 s / 5.2 s** |
 | Truncated answers / decompose fallbacks | 0 / 0 | 0 / 0 |
 
-Reproduce: `eval/run_eval.py --label <name>` (flags via env, set BEFORE
-launch — config reads env at import), compare with `--compare A.json B.json`.
 The legacy pipeline stays one env away:
 `CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13`.
 Sweep notes: `NEIGHBOR_RADIUS=2` beat 1 (outline recall +0.04 for +5.6%
 tokens); `RERANKER_TOP_K=13`, `RERANK_SCORE_THRESHOLD=0.2`, and model-default
 thinking all measured worse (see `config.py` comments for why).
+
+### The eval harness
+
+`backend/eval/golden_set.jsonl` — 40 cases written against the actual corpus
+(every expected URL and key fact verified in the source documents): 12
+course-outline facts, 10 program/admission, 6 student life, 6 multipart, 6
+follow-up pairs (scored on the second turn, exercising the rewrite).
+`expected_urls` and `key_facts` are lists of alternative-groups — a group
+counts when ANY alternative matches, so "$500 to $800" / "$500–$800" phrasing
+differences don't punish correct answers. Facts match with word-boundary
+normalization ("75" ≠ "175", "$6,000" = "$6000").
+
+```bash
+cd backend
+export PG_CONNECTION=$(grep '^PG_CONNECTION=' .env | cut -d= -f2- | sed 's/:5432/:5433/')  # WSL
+
+# measure a configuration (env flags BEFORE launch — config reads env at import)
+.venv/bin/python eval/run_eval.py --label after
+CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13 \
+  .venv/bin/python eval/run_eval.py --label before
+
+# compare two runs: aggregate deltas + per-case regressions
+.venv/bin/python eval/run_eval.py --compare eval/results/before.json eval/results/after.json
+
+# subsets while iterating
+.venv/bin/python eval/run_eval.py --label quick --category multipart --limit 3
+```
+
+Each run writes per-case records (retrieved URLs, missed facts, token usage,
+stage timings, answer excerpt) plus aggregates to `eval/results/<label>.json`
+(gitignored — measurements are per-machine). Metrics: URL hit-rate (groups of
+acceptable sources), key-fact recall, citation precision (cited URLs ⊆
+retrieved context), input/output/reasoning/cache-read tokens, p50/p95
+latency, MAX_TOKENS truncations, decompose fallbacks.
 
 ---
 
