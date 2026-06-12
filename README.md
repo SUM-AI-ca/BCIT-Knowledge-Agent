@@ -135,7 +135,7 @@ Round 2 (`eval/benchmarks/202606_retrieval_cost_experiments/`, 8 experiments
   rerank-skip rate enough to refund part of its own cost). The flag stays
   available for clean-traffic cost pressure.
 
-Shipped result: **v1 set hit 0.975 / recall 0.931 / $0.00315 (−18%)**;
+Round-2 shipped result: **v1 set hit 0.975 / recall 0.931 / $0.00315 (−18%)**;
 v2 messy set hit 0.940 / recall 0.937 (reproduced twice), p50 −0.3 s.
 Rejected with evidence: bigger
 rerank pools (sibling-chunk dilution), cheaper rewriters (2.5-flash hit 0.929
@@ -144,34 +144,51 @@ twice — rewrite quality is load-bearing), keyword/HyDE rewriter extensions
 all fusion-parameter moves (alpha 0.48 / rrf_k 60 / MMR λ 0.87 confirmed
 optimal).
 
-### Current production configuration (June 2026, after round 2)
+A Tier-2 follow-up then gave the **dense arm** the same page identity the
+BM25 arm got in round 2: the corpus was re-embedded with
+`"title (category). "` prefixed to the *embedded* text only
+(`build_pgvector.py` `EMBED_IDENTITY_PREFIX` + `REUSE_PICKLE` — stored
+chunks verified byte-identical corpus-wide, new blue-green collection
+`bcit_docs_202606da`, ~$4 / 85 min). A dense-only probe improved 5/5
+identity queries (a BMET query's own-page chunks in top-20: 6 → 20/20);
+the full pipeline took the **v2 messy set to hit 1.000 / recall 0.950**
+(×2 identical) and fixed the long-stuck v2 follow_up category
+(0.750 → 1.000), with the clean set at parity. One interaction surfaced:
+identity vectors concentrate dense results, inflating arm consensus enough
+that the round-2 rerank-skip began firing on multi-page questions and
+losing facts — so the skip was retired (`RERANK_SKIP_CONSENSUS=0.0`; its
+saving was real only for identity-blind vectors). Net cost ~$0.0039/query.
+
+### Current production configuration (June 2026, after the dense-identity rebuild)
 
 The complete live setup, with every value env-overridable for rollback:
 
 | Stage | Setting | Value |
 |---|---|---|
 | Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.5-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
+| Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
-| Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.6` | one `semantic-ranker-default-004` call per turn over the merged pool (≤100 records = 1 billed query), skipped when ≥60% of the fusion top-10 came from both arms; per-sub-query coverage quota ≥2; rewrite-skipped turns (if ever enabled) always rerank |
+| Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
 | Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
 
 Measured quality (both benchmark sets in `eval/`, all runs archived in
-`eval/benchmarks/202606_retrieval_cost_experiments/`):
+`eval/benchmarks/202606_retrieval_cost_experiments/`; every number below
+reproduced in two identical runs):
 
 | Metric | v1 set (40 clean cases) | v2 set (25 incl. messy) |
 |---|---|---|
-| URL hit rate | 0.975 | 0.940 (×2 identical) |
-| Key-fact recall | 0.931 | 0.937 (×2 identical) |
+| URL hit rate | 0.975 | **1.000** |
+| Key-fact recall | 0.925 | 0.950 |
 | Citation precision | 1.000 | 1.000 |
-| Cost / query | $0.00315 | $0.00345 |
-| Latency p50 | ~3.3 s | ~3.7 s |
+| Cost / query | $0.00385 | $0.00392 |
+| Latency p50 | ~3.6 s | ~4.2 s |
 
 Cost anatomy at these settings: generation input ≈ $0.0015, generation
-output ≈ $0.0009, rewriter ≈ $0.0006, reranker ≈ $0.0004 effective
-($0.001 × ~45% of turns after consensus skips), embedding ≈ $0.00001.
+output ≈ $0.0009, rewriter ≈ $0.0006, reranker $0.001 (every turn),
+embedding ≈ $0.00001 — still −69% vs the pre-optimization $0.0126.
 
 ### The eval harness
 
@@ -564,7 +581,10 @@ PG_CONNECTION=<...5433...> PG_COLLECTION=bcit_docs_<version> \
 
 # 3. Smoke-test against the new collection (same env vars + query_rag), then
 #    flip BOTH defaults in config.py: PG_COLLECTION and DOCUMENTS_PICKLE
-#    (they version together — dense and BM25 must serve the same crawl)
+#    (they version together — dense and BM25 must serve the same crawl).
+#    Documented exception: an embeddings-only rebuild (REUSE_PICKLE=true
+#    EMBED_IDENTITY_PREFIX=true) reuses the serving pickle by design — the
+#    chunks are byte-identical, so only PG_COLLECTION flips (e.g. 202606da)
 
 # 4. Deploy config + pickle (keep the versioned filename — it matches the
 #    config default and leaves the previous pickle in place for rollback)

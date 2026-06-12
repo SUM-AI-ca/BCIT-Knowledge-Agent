@@ -84,8 +84,8 @@ export default function Blog() {
                   Quality is tracked with two hand-verified test sets — one of
                   clean questions, one of messy real-world phrasing (typos,
                   acronyms, other languages). Current results: the right page is
-                  retrieved 94–98% of the time, and 93%+ of expected key facts
-                  appear in answers.
+                  retrieved 97–100% of the time across the two benchmarks, and
+                  92–95% of expected key facts appear in answers.
                 </p>
               </div>
             </div>
@@ -94,8 +94,8 @@ export default function Blog() {
               <div>
                 <strong>Transparent cost</strong>
                 <p>
-                  Every reply shows its own token usage and price — about a third
-                  of a cent per question — so the economics of running this at
+                  Every reply shows its own token usage and price — well under
+                  half a cent per question — so the economics of running this at
                   student-services scale are visible in the product itself.
                 </p>
               </div>
@@ -133,7 +133,8 @@ export default function Blog() {
                   Every sub-query runs a semantic vector search (meaning-based,
                   great at paraphrase) and a keyword search (exact codes like
                   "COMP 1510") in parallel over 100,000+ passages, fused by rank.
-                  Each passage is indexed with its page identity, so "entrance
+                  Both indexes carry each passage's page identity — the keyword
+                  index and the meaning vectors alike — so "entrance
                   requirements" for one program doesn't drown in the same section
                   from 528 sibling program pages.
                 </p>
@@ -142,13 +143,12 @@ export default function Blog() {
             <div className="arch-step">
               <div className="arch-icon"><GitMerge size={20} /></div>
               <div>
-                <strong>3 · Agree — or verify</strong>
+                <strong>3 · Verify with a second opinion</strong>
                 <p>
-                  When the two searches independently agree on the top evidence,
-                  that consensus stands. When they don't, a dedicated semantic
-                  ranking model re-scores the pooled candidates in a single call,
-                  and a coverage rule guarantees every part of a multi-part
-                  question keeps its best evidence.
+                  A dedicated semantic ranking model re-scores the pooled
+                  candidates against the question in a single call, and a
+                  coverage rule guarantees every part of a multi-part question
+                  keeps its best evidence in the final selection.
                 </p>
               </div>
             </div>
@@ -186,20 +186,19 @@ export default function Blog() {
             fuses dense vectors (PostgreSQL + pgvector, HNSW index) with an
             in-process BM25 index using <strong>Reciprocal Rank Fusion</strong> —
             rank-based fusion sidesteps normalizing incompatible score scales.
-            The BM25 index is fit on <em>title-augmented</em> text (page title,
-            category, and URL slug prepended to each passage) while the served
-            passages stay byte-identical; this one change took multi-part
-            retrieval accuracy to 1.000 on the benchmark by giving deep chunks
-            their page identity.
+            Both arms are <em>identity-aware</em>: the BM25 index is fit on
+            title-augmented text, and the corpus is embedded with each passage's
+            page title and category prefixed to the embedded text — while the
+            served passages stay byte-identical. Giving deep chunks their page
+            identity took multi-part retrieval to 1.000 on the clean benchmark
+            and the messy-query benchmark to a perfect page hit rate.
           </p>
           <p>
             The semantic reranker is called <strong>once per question</strong> on
-            the merged candidate pool, and skipped entirely when the dense and
-            keyword searches already agree on the top slice — about half of all
-            questions — with a guard ensuring every question passes at least one
-            semantic stage. Multi-part questions retrieve their sub-queries in
-            parallel threads, and a per-sub-query quota prevents any one part
-            from monopolizing the context.
+            the merged candidate pool — one billed call regardless of how many
+            sub-queries fanned out. Multi-part questions retrieve their
+            sub-queries in parallel threads, and a per-sub-query quota prevents
+            any one part from monopolizing the context.
           </p>
           <p>
             Every change to this pipeline ships behind a configuration flag and
@@ -207,15 +206,15 @@ export default function Blog() {
             key-fact recall, citation precision, cost, and latency, measured on
             both test sets and archived with the code. Several intuitive
             "improvements" — bigger candidate pools, cheaper rewrite models,
-            query-expansion tricks — measured worse and were rejected; the
-            numbers, not the vibes, decide.
+            query-expansion tricks, a rerank-skipping shortcut — measured worse
+            and were rejected; the numbers, not the vibes, decide.
           </p>
         </section>
 
         <section>
           <h2>What it costs to run</h2>
           <p>
-            About <strong>$0.003 per question</strong> — roughly $3 per thousand
+            About <strong>$0.004 per question</strong> — roughly $4 per thousand
             student questions — with answers typically arriving in 3–5 seconds.
             Everything runs on a single small CPU-only virtual machine: the
             heavyweight AI stages (embeddings, ranking, generation) are managed
