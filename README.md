@@ -144,6 +144,35 @@ twice — rewrite quality is load-bearing), keyword/HyDE rewriter extensions
 all fusion-parameter moves (alpha 0.48 / rrf_k 60 / MMR λ 0.87 confirmed
 optimal).
 
+### Current production configuration (June 2026, after round 2)
+
+The complete live setup, with every value env-overridable for rollback:
+
+| Stage | Setting | Value |
+|---|---|---|
+| Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.5-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
+| Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
+| BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
+| Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.6` | one `semantic-ranker-default-004` call per turn over the merged pool (≤100 records = 1 billed query), skipped when ≥60% of the fusion top-10 came from both arms; per-sub-query coverage quota ≥2; rewrite-skipped turns (if ever enabled) always rerank |
+| Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
+| Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
+| Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
+
+Measured quality (both benchmark sets in `eval/`, all runs archived in
+`eval/benchmarks/202606_retrieval_cost_experiments/`):
+
+| Metric | v1 set (40 clean cases) | v2 set (25 incl. messy) |
+|---|---|---|
+| URL hit rate | 0.975 | 0.940 (×2 identical) |
+| Key-fact recall | 0.931 | 0.937 (×2 identical) |
+| Citation precision | 1.000 | 1.000 |
+| Cost / query | $0.00315 | $0.00345 |
+| Latency p50 | ~3.3 s | ~3.7 s |
+
+Cost anatomy at these settings: generation input ≈ $0.0015, generation
+output ≈ $0.0009, rewriter ≈ $0.0006, reranker ≈ $0.0004 effective
+($0.001 × ~45% of turns after consensus skips), embedding ≈ $0.00001.
+
 ### The eval harness
 
 `backend/eval/golden_set.jsonl` — 40 cases written against the actual corpus
