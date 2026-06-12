@@ -94,24 +94,42 @@ function formatMessage(text) {
   return elements;
 }
 
-// Format inline elements (bold, links)
+// Format inline elements (markdown links, bold, bare URLs).
+// Markdown links must be matched before bare URLs, or the URL inside
+// [label](url) gets auto-linked with the closing ")" glued to the href.
 function formatInline(text) {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
-  return parts.map((part, i) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return <strong key={i}>{part.slice(2, -2)}</strong>;
+  const tokenRe = /(\[[^\]]+\]\(https?:\/\/[^\s)]+\))|(\*\*[^*]+\*\*)|(https?:\/\/[^\s]+)/g;
+  const elements = [];
+  let last = 0;
+  let key = 0;
+  let m;
+  while ((m = tokenRe.exec(text)) !== null) {
+    if (m.index > last) {
+      elements.push(text.slice(last, m.index));
     }
-    if (part.match(/https?:\/\/[^\s]+/)) {
-      const urlParts = part.split(/(https?:\/\/[^\s]+)/g);
-      return urlParts.map((p, j) => {
-        if (p.match(/^https?:\/\//)) {
-          return <a key={`${i}-${j}`} href={p} target="_blank" rel="noopener noreferrer">{p}</a>;
-        }
-        return p;
-      });
+    if (m[1]) {
+      const link = m[1].match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
+      elements.push(
+        <a key={key++} href={link[2]} target="_blank" rel="noopener noreferrer">{link[1]}</a>
+      );
+    } else if (m[2]) {
+      elements.push(<strong key={key++}>{m[2].slice(2, -2)}</strong>);
+    } else {
+      const url = m[3].replace(/[).,;:!?\]]+$/, '');
+      elements.push(
+        <a key={key++} href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+      );
+      const trail = m[3].slice(url.length);
+      if (trail) {
+        elements.push(trail);
+      }
     }
-    return part;
-  });
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) {
+    elements.push(text.slice(last));
+  }
+  return elements;
 }
 
 export default function App() {
