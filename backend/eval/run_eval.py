@@ -60,6 +60,10 @@ SNAPSHOT_KEYS = [
     "PRICE_GEN_INPUT_PER_M", "PRICE_GEN_OUTPUT_PER_M",
     "PRICE_REWRITE_INPUT_PER_M", "PRICE_REWRITE_OUTPUT_PER_M",
     "PRICE_RERANK_PER_CALL", "PRICE_EMBED_PER_QUERY",
+    "RRF_K", "MMR_LAMBDA", "RETRIEVAL_FETCH_K",
+    "BM25_INDEX_AUG", "RERANK_SKIP_CONSENSUS",
+    "MQ_BM25_KEYWORDS", "HYDE_MODE",
+    "REWRITE_SKIP_SIMPLE", "REWRITE_SKIP_MAX_WORDS",
 ]
 
 # Optional per-query meta keys added by later optimization steps; copied into
@@ -68,6 +72,8 @@ EXTRA_META_KEYS = [
     "n_subqueries", "sub_queries", "decompose_fallback",
     "context_mode", "context_chars", "n_context_sources",
     "n_chunks_kept", "neighbor_misses",
+    "n_rerank_calls", "rerank_skipped", "pool_consensus",
+    "rewrite_skipped", "retrieval_mode", "n_candidates",
 ]
 
 ANSWER_EXCERPT_CHARS = 1500
@@ -223,6 +229,9 @@ def aggregate(cases):
         "max_tokens_truncations": sum(1 for c in scored if c.get("finish_reason") == "MAX_TOKENS"),
         "decompose_fallbacks": sum(1 for c in scored if c.get("decompose_fallback")),
         "n_context_docs_mean": _mean([c.get("n_context_docs") for c in scored]),
+        "rerank_skip_rate": _mean([1.0 if c.get("rerank_skipped") else 0.0 for c in scored]),
+        "rewrite_skip_rate": _mean([1.0 if c.get("rewrite_skipped") else 0.0 for c in scored]),
+        "rerank_calls_mean": _mean([c.get("n_rerank_calls") for c in scored]),
     }
 
 

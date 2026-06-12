@@ -94,14 +94,23 @@ CHUNK_OVERLAP = 130
 
 USE_HYBRID_SEARCH = _env_bool("USE_HYBRID_SEARCH", True)
 
-HYBRID_ALPHA = 0.48
+HYBRID_ALPHA = _env_float("HYBRID_ALPHA", 0.48)
+RRF_K = _env_int("RRF_K", 60)
+
+# Fit the BM25 index on title/category/URL-slug-augmented text (the served
+# documents are untouched). Deep chunks of the 529 program pages never mention
+# their own program, so section queries ("entrance requirements") flood the
+# pool with sibling programs; this gives every chunk its page identity.
+# Default since round 2 (eval/benchmarks/202606_retrieval_cost_experiments):
+# multipart hit 0.917 -> 1.000, recall +0.048, outline untouched.
+BM25_INDEX_AUG = _env_bool("BM25_INDEX_AUG", True)
 
 RETRIEVAL_TOP_K = 10
 RETRIEVAL_DENSE_K = 23
 RETRIEVAL_BM25_K = 23
 
-RETRIEVAL_FETCH_K = 50
-MMR_LAMBDA = 0.87
+RETRIEVAL_FETCH_K = _env_int("RETRIEVAL_FETCH_K", 50)
+MMR_LAMBDA = _env_float("MMR_LAMBDA", 0.87)
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
 
 USE_RERANKING = _env_bool("USE_RERANKING", True)
@@ -146,6 +155,27 @@ MQ_MIN_CHUNKS_PER_SUBQUERY = _env_int("MQ_MIN_CHUNKS_PER_SUBQUERY", 2)
 # "pooled": ONE Ranking API call per turn over the merged candidate pool
 # (the API bills per query). "per_subquery": one call per sub-query.
 RERANK_MODE = _env_str("RERANK_MODE", "pooled")
+# Skip the (pooled/single) Ranking API call when the retrieval arms already
+# agree: if at least this fraction of the fusion-ordered top slice was
+# surfaced by BOTH dense and BM25 (or by 2+ sub-queries), trust fusion order
+# and save the per-call fee. 0 disables (always rerank). Default 0.6 since
+# round 2: ~45-60% of calls skipped at flat quality (rewrite-skipped turns
+# always rerank — see query_rag.py's defense-in-depth guard).
+RERANK_SKIP_CONSENSUS = _env_float("RERANK_SKIP_CONSENSUS", 0.6)
+# Ask the rewriter for extra retrieval signals in the SAME JSON call (a few
+# output tokens, no extra request): exact keyword terms for the BM25 arm,
+# and/or a hypothetical answer sentence (HyDE) for the dense arm.
+# HYDE_MODE: "off" | "extra" (additional dense arm) | "replace" (single-turn
+# dense query becomes the hypothetical sentence).
+MQ_BM25_KEYWORDS = _env_bool("MQ_BM25_KEYWORDS", False)
+HYDE_MODE = _env_str("HYDE_MODE", "off")
+# Skip the rewrite/decompose LLM call for first-turn questions that are short
+# and single-clause — the rewriter returns those unchanged, so the call is
+# pure cost/latency. Follow-ups (history present) and multipart questions
+# (separators) never skip. Default since round 2: 25% of golden-set turns
+# skip at flat quality, -$0.0002/query and -0.3s p50.
+REWRITE_SKIP_SIMPLE = _env_bool("REWRITE_SKIP_SIMPLE", True)
+REWRITE_SKIP_MAX_WORDS = _env_int("REWRITE_SKIP_MAX_WORDS", 12)
 REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 512)
 REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
 # Thinking tokens are billed as output AND count against max_output_tokens —
@@ -263,6 +293,31 @@ Conversation history:
 
 Student's latest message:
 {question}"""
+
+# Optional rewriter outputs (experiment-gated). Conditional so that with the
+# flags off the schema and template are byte-identical to the originals —
+# zero drift in the rewriter's behavior or its prompt-cache prefix.
+_extra_field_idx = 3
+if MQ_BM25_KEYWORDS:
+    REWRITE_DECOMPOSE_SCHEMA["properties"]["bm25_keywords"] = {
+        "type": "ARRAY", "items": {"type": "STRING"},
+    }
+    REWRITE_DECOMPOSE_TEMPLATE = REWRITE_DECOMPOSE_TEMPLATE.replace(
+        "\nRules:",
+        f'\n{_extra_field_idx}. "bm25_keywords": 3 to 8 exact keyword-search terms for the question:'
+        "\n   program/course codes, acronym expansions (e.g. CST -> computer systems technology),"
+        "\n   and close synonyms. Return [] if none apply.\n\nRules:",
+        1,
+    )
+    _extra_field_idx += 1
+if HYDE_MODE != "off":
+    REWRITE_DECOMPOSE_SCHEMA["properties"]["hyde_passage"] = {"type": "STRING"}
+    REWRITE_DECOMPOSE_TEMPLATE = REWRITE_DECOMPOSE_TEMPLATE.replace(
+        "\nRules:",
+        f'\n{_extra_field_idx}. "hyde_passage": one short factual sentence that a BCIT web page answering'
+        "\n   the question would plausibly contain. Name the concrete program or course.\n\nRules:",
+        1,
+    )
 
 # Legacy query rewriting prompt (used when MULTI_QUERY_ENABLED=false)
 QUERY_REWRITE_TEMPLATE = """You are helping a BCIT academic advisor chatbot with retrieval.

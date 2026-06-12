@@ -45,6 +45,8 @@ from config import (
     GEMINI_MAX_OUTPUT_TOKENS,
     USE_HYBRID_SEARCH,
     HYBRID_ALPHA,
+    RRF_K,
+    BM25_INDEX_AUG,
     RETRIEVAL_TOP_K,
     RETRIEVAL_DENSE_K,
     RETRIEVAL_BM25_K,
@@ -84,11 +86,29 @@ from config import (
     MQ_POOL_CAP,
     MQ_MIN_CHUNKS_PER_SUBQUERY,
     RERANK_MODE,
+    RERANK_SKIP_CONSENSUS,
+    MQ_BM25_KEYWORDS,
+    HYDE_MODE,
+    REWRITE_SKIP_SIMPLE,
+    REWRITE_SKIP_MAX_WORDS,
     STRIP_SOURCES_FROM_HISTORY,
     HISTORY_MAX_ANSWER_CHARS,
 )
 
 logger = logging.getLogger("bcit.rag")
+
+
+def _is_simple_query(question: str) -> bool:
+    """First-turn questions the rewriter would return unchanged: short,
+    single-clause, no multipart separators. Conservative on purpose — a miss
+    just means one ordinary rewrite call."""
+    q = question.strip().lower()
+    if len(q.split()) >= REWRITE_SKIP_MAX_WORDS:
+        return False
+    if q.count("?") > 1:
+        return False
+    return not any(sep in q for sep in (",", ";", " and ", " or ", " vs ", " versus "))
+
 
 EASTER_EGGS = {
     "WHO IS THE BEST INSTRUCTOR AT BCIT": "Chi En Huang",
@@ -258,7 +278,9 @@ class BCITChatbot:
                 bm25_k=RETRIEVAL_BM25_K,
                 dense_search_type="mmr",
                 dense_fetch_k=RETRIEVAL_FETCH_K,
-                dense_lambda=MMR_LAMBDA
+                dense_lambda=MMR_LAMBDA,
+                rrf_k=RRF_K,
+                bm25_index_aug=BM25_INDEX_AUG
             )
             # Shared fan-out pool for sub-query retrieval: 2 concurrent
             # requests x 4 sub-queries fits SQLAlchemy's default pool (5+10).
@@ -338,7 +360,9 @@ class BCITChatbot:
         """One JSON call: standalone rewrite + sub-query decomposition.
 
         Runs every turn (a first-turn multipart question still needs
-        decomposing). Returns (standalone, sub_queries, usage, fallback).
+        decomposing). Returns (standalone, sub_queries, usage, fallback,
+        extras) — extras carries the optional experiment-gated fields
+        (bm25_keywords, hyde_passage) from the same call.
         """
         try:
             prompt_value = self.rewrite_decompose_prompt.invoke({
@@ -354,15 +378,24 @@ class BCITChatbot:
                 if isinstance(q, str) and q.strip()
             ][:MAX_SUB_QUERIES] or [standalone]
 
+            extras = {}
+            if MQ_BM25_KEYWORDS:
+                extras["bm25_keywords"] = [
+                    k.strip() for k in (data.get("bm25_keywords") or [])
+                    if isinstance(k, str) and k.strip()
+                ][:8]
+            if HYDE_MODE != "off":
+                extras["hyde_passage"] = (data.get("hyde_passage") or "").strip()
+
             if standalone != question.strip():
                 logger.info("query rewritten: %r -> %r", question, standalone)
             if len(sub_queries) > 1:
                 logger.info("decomposed into %d sub-queries: %s", len(sub_queries), sub_queries)
 
-            return standalone, sub_queries, dict(msg.usage_metadata or {}), False
+            return standalone, sub_queries, dict(msg.usage_metadata or {}), False, extras
         except Exception:
             logger.warning("rewrite+decompose failed, using raw question", exc_info=True)
-            return question, [question], {}, True
+            return question, [question], {}, True, {}
 
     def _load_full_document(self, source_path):
         try:
@@ -522,25 +555,53 @@ class BCITChatbot:
         }
         return context, stats
 
-    def _multi_query_retrieve(self, standalone_question: str, sub_queries: List[str]) -> tuple:
+    def _multi_query_retrieve(self, standalone_question: str, sub_queries: List[str], extras: dict = None) -> tuple:
         """Fan out retrieval per sub-query, merge into one deduped pool, then
         rerank once. Returns (docs, stats)."""
+        extras = extras or {}
+        keywords = extras.get("bm25_keywords") or [] if MQ_BM25_KEYWORDS else []
+        kw_suffix = (" " + " ".join(keywords)) if keywords else ""
+
+        # A genuinely single-question turn only lands here for the HyDE-extra
+        # arm — keep its real query at full single-turn width.
+        single = len(sub_queries) == 1
+        dense_k = RETRIEVAL_DENSE_K if single else MQ_DENSE_K
+        bm25_k = RETRIEVAL_BM25_K if single else MQ_BM25_K
+        per_query_cap = RERANKER_CANDIDATES if single else MQ_CANDIDATES_PER_SUBQUERY
+
         t0 = time.perf_counter()
         futures = [
             self._retrieval_pool.submit(
                 self.base_retriever.search,
                 q,
-                dense_k=MQ_DENSE_K,
-                bm25_k=MQ_BM25_K,
-                top_k=MQ_CANDIDATES_PER_SUBQUERY,
+                dense_k=dense_k,
+                bm25_k=bm25_k,
+                top_k=per_query_cap,
+                bm25_query=(q + kw_suffix) if kw_suffix else None,
             )
             for q in sub_queries
         ]
         per_sub = [f.result() for f in futures]
 
+        # HyDE "extra": one additional dense-only arm queried with the
+        # hypothetical answer sentence. Its origin index (len(sub_queries))
+        # is outside every quota loop, so it contributes candidates without
+        # claiming coverage.
+        hyde_passage = (extras.get("hyde_passage") or "") if HYDE_MODE == "extra" else ""
+        if hyde_passage:
+            try:
+                hyde_hits = self.base_retriever._dense_search(hyde_passage, dense_k=MQ_DENSE_K)
+                per_sub.append([
+                    Document(page_content=d.page_content, metadata=dict(d.metadata))
+                    for d in hyde_hits[:MQ_CANDIDATES_PER_SUBQUERY]
+                ])
+            except Exception:
+                logger.warning("hyde retrieval failed, continuing without it", exc_info=True)
+
         # Interleave by rank so the pool cap cuts fairly across sub-queries.
         # Dedupe keeps the first copy and records every sub-query that
-        # surfaced the chunk (for the coverage quota below).
+        # surfaced the chunk (for the coverage quota below); duplicates also
+        # accumulate a cross-sub-query fusion score (RRF scores share scale).
         pooled: List[Document] = []
         by_key = {}
         origins = {}  # id(doc) -> set of sub-query indices
@@ -551,7 +612,13 @@ class BCITChatbot:
                 doc = docs_i[rank]
                 key = f"{doc.metadata.get('source', 'unknown')}::{doc.page_content[:200]}"
                 if key in by_key:
-                    origins[id(by_key[key])].add(si)
+                    kept = by_key[key]
+                    origins[id(kept)].add(si)
+                    kept.metadata["pool_fusion_score"] = (
+                        kept.metadata.get("pool_fusion_score",
+                                          kept.metadata.get("fusion_score", 0.0))
+                        + doc.metadata.get("fusion_score", 0.0)
+                    )
                 elif len(pooled) < MQ_POOL_CAP:
                     by_key[key] = doc
                     origins[id(doc)] = {si}
@@ -559,53 +626,40 @@ class BCITChatbot:
         t_retrieve = time.perf_counter() - t0
 
         t0 = time.perf_counter()
-        docs = self._select_from_pool(standalone_question, sub_queries, pooled, origins)
+        docs, sel_info = self._select_from_pool(standalone_question, sub_queries, pooled, origins)
         t_rerank = time.perf_counter() - t0
 
         return docs, {
             "retrieve_s": t_retrieve,
             "rerank_s": t_rerank,
             "n_candidates": len(pooled),
+            **sel_info,
         }
 
-    def _select_from_pool(
-            self,
-            question: str,
-            sub_queries: List[str],
-            pooled: List[Document],
-            origins: dict,
-    ) -> List[Document]:
-        if not (USE_RERANKING and self.reranker):
-            return pooled[:RERANKER_TOP_K]  # interleaved order ≈ even coverage
+    @staticmethod
+    def _consensus(docs: List[Document], origins: dict = None) -> float:
+        """Fraction of docs both retrieval arms agree on (surfaced by dense
+        AND BM25, or by 2+ sub-queries)."""
+        if not docs:
+            return 0.0
+        agreed = 0
+        for d in docs:
+            both_arms = (
+                d.metadata.get("dense_rank") is not None
+                and d.metadata.get("bm25_rank") is not None
+            )
+            multi_origin = origins is not None and len(origins.get(id(d), ())) >= 2
+            if both_arms or multi_origin:
+                agreed += 1
+        return agreed / len(docs)
 
-        if RERANK_MODE == "per_subquery":
-            # One Ranking API call per sub-query (costs n_subqueries x the
-            # pooled mode's fixed per-query fee).
-            per_share = max(MQ_MIN_CHUNKS_PER_SUBQUERY, -(-RERANKER_TOP_K // len(sub_queries)))
-            selected, seen = [], set()
-            for si, sub_query in enumerate(sub_queries):
-                candidates = [d for d in pooled if si in origins[id(d)]]
-                for doc in self.reranker.rerank(sub_query, candidates, top_k=per_share):
-                    if id(doc) not in seen:
-                        seen.add(id(doc))
-                        selected.append(doc)
-            selected.sort(key=lambda d: d.metadata.get("rerank_score", 0.0), reverse=True)
-            return selected[:max(RERANKER_TOP_K, MQ_MIN_CHUNKS_PER_SUBQUERY * len(sub_queries))]
-
-        # Default "pooled": ONE Ranking API call scoring the whole pool.
-        scored = self.reranker.rerank(question, pooled, top_k=RERANKER_TOP_K, return_all=True)
-        if any("rerank_score" not in d.metadata for d in scored):
-            return scored[:RERANKER_TOP_K]  # API fallback: interleaved order
-
-        selected = scored[:RERANKER_TOP_K]
-        rest = scored[RERANKER_TOP_K:]
-
+    def _apply_coverage_quota(self, selected, rest, sub_queries, origins, sort_key):
+        """Coverage quota: every sub-query keeps >= MQ_MIN_CHUNKS_PER_SUBQUERY
+        of its own candidates; swap in its best leftovers, evicting the
+        lowest-scored doc whose sub-queries all stay above quota."""
         def covered(si, sel):
             return sum(1 for d in sel if si in origins[id(d)])
 
-        # Coverage quota: every sub-query keeps >= MQ_MIN_CHUNKS_PER_SUBQUERY
-        # of its own candidates; swap in its best leftovers, evicting the
-        # lowest-scored doc whose sub-queries all stay above quota.
         for si in range(len(sub_queries)):
             deficit = MQ_MIN_CHUNKS_PER_SUBQUERY - covered(si, selected)
             if deficit <= 0:
@@ -622,8 +676,64 @@ class BCITChatbot:
                 selected.append(candidate)
                 rest.remove(candidate)
 
-        selected.sort(key=lambda d: d.metadata.get("rerank_score", 0.0), reverse=True)
+        selected.sort(key=sort_key, reverse=True)
         return selected
+
+    def _select_from_pool(
+            self,
+            question: str,
+            sub_queries: List[str],
+            pooled: List[Document],
+            origins: dict,
+    ) -> tuple:
+        """Returns (docs, sel_info) — sel_info reports whether the Ranking
+        API call was consensus-skipped and the measured consensus."""
+        sel_info = {"rerank_skipped": False, "pool_consensus": None}
+
+        if not (USE_RERANKING and self.reranker):
+            return pooled[:RERANKER_TOP_K], sel_info  # interleaved order ≈ even coverage
+
+        if RERANK_MODE == "per_subquery":
+            # One Ranking API call per sub-query (costs n_subqueries x the
+            # pooled mode's fixed per-query fee).
+            per_share = max(MQ_MIN_CHUNKS_PER_SUBQUERY, -(-RERANKER_TOP_K // len(sub_queries)))
+            selected, seen = [], set()
+            for si, sub_query in enumerate(sub_queries):
+                candidates = [d for d in pooled if si in origins[id(d)]]
+                for doc in self.reranker.rerank(sub_query, candidates, top_k=per_share):
+                    if id(doc) not in seen:
+                        seen.add(id(doc))
+                        selected.append(doc)
+            selected.sort(key=lambda d: d.metadata.get("rerank_score", 0.0), reverse=True)
+            return selected[:max(RERANKER_TOP_K, MQ_MIN_CHUNKS_PER_SUBQUERY * len(sub_queries))], sel_info
+
+        # Rerank-skip: when both retrieval arms already agree on the
+        # fusion-ordered top slice, trust that order and save the API call.
+        if RERANK_SKIP_CONSENSUS > 0:
+            fusion_key = lambda d: d.metadata.get(
+                "pool_fusion_score", d.metadata.get("fusion_score", 0.0))
+            tentative = sorted(pooled, key=fusion_key, reverse=True)
+            sel = self._apply_coverage_quota(
+                tentative[:RERANKER_TOP_K], tentative[RERANKER_TOP_K:],
+                sub_queries, origins, fusion_key,
+            )
+            consensus = self._consensus(sel, origins)
+            sel_info["pool_consensus"] = round(consensus, 3)
+            if consensus >= RERANK_SKIP_CONSENSUS:
+                sel_info["rerank_skipped"] = True
+                return sel, sel_info
+
+        # Default "pooled": ONE Ranking API call scoring the whole pool.
+        scored = self.reranker.rerank(question, pooled, top_k=RERANKER_TOP_K, return_all=True)
+        if any("rerank_score" not in d.metadata for d in scored):
+            return scored[:RERANKER_TOP_K], sel_info  # API fallback: interleaved order
+
+        selected = self._apply_coverage_quota(
+            scored[:RERANKER_TOP_K], scored[RERANKER_TOP_K:],
+            sub_queries, origins,
+            lambda d: d.metadata.get("rerank_score", 0.0),
+        )
+        return selected, sel_info
 
     @traceable(name="bcit_query")
     def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
@@ -650,8 +760,20 @@ class BCITChatbot:
         chat_history = self._format_chat_history(memory)
 
         t0 = time.perf_counter()
-        if MULTI_QUERY_ENABLED:
+        rewrite_skipped = False
+        extras = {}
+        if (
+            REWRITE_SKIP_SIMPLE
+            and chat_history == "No previous conversation."
+            and _is_simple_query(question)
+        ):
+            # The rewriter would return this unchanged — skip its cost/latency.
             standalone_question, sub_queries, rewrite_usage, decompose_fallback = (
+                question, [question], {}, False
+            )
+            rewrite_skipped = True
+        elif MULTI_QUERY_ENABLED:
+            standalone_question, sub_queries, rewrite_usage, decompose_fallback, extras = (
                 self._rewrite_and_decompose(question, chat_history)
             )
         else:
@@ -660,35 +782,62 @@ class BCITChatbot:
         t_rewrite = time.perf_counter() - t0
 
         # Single-question turns keep the full-width legacy retrieval; only
-        # genuinely multipart turns fan out per sub-query.
+        # genuinely multipart turns fan out per sub-query (or single turns
+        # carrying a HyDE-extra arm, which need the pooled path too).
+        hyde_extra = bool(extras.get("hyde_passage")) and HYDE_MODE == "extra"
         use_fanout = (
-            len(sub_queries) > 1
+            (len(sub_queries) > 1 or hyde_extra)
             and self._retrieval_pool is not None
             and hasattr(self.base_retriever, "search")
         )
+        rerank_skipped = False
+        pool_consensus = None
         if use_fanout:
-            docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries)
+            docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries, extras)
             t_retrieve = mq_stats["retrieve_s"]
             t_rerank = mq_stats["rerank_s"]
             n_candidates = mq_stats["n_candidates"]
+            rerank_skipped = mq_stats.get("rerank_skipped", False)
+            pool_consensus = mq_stats.get("pool_consensus")
             n_rerank_calls = 0
-            if USE_RERANKING and self.reranker:
+            if USE_RERANKING and self.reranker and not rerank_skipped:
                 n_rerank_calls = len(sub_queries) if RERANK_MODE == "per_subquery" else 1
         else:
             t0 = time.perf_counter()
-            docs = self.base_retriever.invoke(standalone_question)
+            keywords = extras.get("bm25_keywords") or [] if MQ_BM25_KEYWORDS else []
+            hyde_replace = (extras.get("hyde_passage") or "") if HYDE_MODE == "replace" else ""
+            if (keywords or hyde_replace) and hasattr(self.base_retriever, "search"):
+                docs = self.base_retriever.search(
+                    standalone_question,
+                    bm25_query=(standalone_question + " " + " ".join(keywords)) if keywords else None,
+                    dense_query=hyde_replace or None,
+                )
+            else:
+                docs = self.base_retriever.invoke(standalone_question)
             t_retrieve = time.perf_counter() - t0
 
             t0 = time.perf_counter()
             n_candidates = len(docs)
             n_rerank_calls = 0
             if USE_RERANKING and self.reranker:
-                docs = self.reranker.rerank(
-                    query=standalone_question,
-                    documents=docs,
-                    top_k=RERANKER_TOP_K
-                )
-                n_rerank_calls = 1
+                # Defense in depth: a turn that already skipped the rewriter
+                # keeps the rerank, so every query passes at least one
+                # semantic stage. The round-2 eval showed no regression from
+                # double-skips on the golden set, but raw user queries (typos,
+                # bare acronyms) have no such safety net at ~0.1% query cost.
+                if RERANK_SKIP_CONSENSUS > 0 and not rewrite_skipped:
+                    head = docs[:RERANKER_TOP_K]
+                    pool_consensus = round(self._consensus(head), 3)
+                    rerank_skipped = pool_consensus >= RERANK_SKIP_CONSENSUS
+                if rerank_skipped:
+                    docs = docs[:RERANKER_TOP_K]  # fusion order stands
+                else:
+                    docs = self.reranker.rerank(
+                        query=standalone_question,
+                        documents=docs,
+                        top_k=RERANKER_TOP_K
+                    )
+                    n_rerank_calls = 1
             t_rerank = time.perf_counter() - t0
 
         if CONTEXT_MODE == "chunks":
@@ -771,6 +920,9 @@ class BCITChatbot:
             "n_subqueries": len(sub_queries),
             "sub_queries": sub_queries,
             "decompose_fallback": decompose_fallback,
+            "rewrite_skipped": rewrite_skipped,
+            "rerank_skipped": rerank_skipped,
+            "pool_consensus": pool_consensus,
             "retrieval_mode": "fanout" if use_fanout else "single",
             "n_candidates": n_candidates,
             **context_stats,

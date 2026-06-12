@@ -113,6 +113,30 @@ with the rewriter kept on `gemini-3.5-flash` — $0.0126 → $0.0039/query
 of any run (0.890). At lite-class generation prices the Ranking API's fixed
 $0.001/query is now the largest cost component.
 
+Round 2 (`eval/benchmarks/202606_retrieval_cost_experiments/`, 8 experiments
+/ 26 gated runs) attacked exactly that and the section-flooding weakness:
+
+- **BM25 title-aware indexing** (`BM25_INDEX_AUG`) — the BM25 vectorizer now
+  indexes `title + category + URL-slug + chunk text` while serving unchanged
+  documents (no re-embed, no pickle rebuild). Deep program-page chunks carry
+  their page identity, so "X program entrance requirements" no longer floods
+  with sibling programs: multipart hit 0.917 → **1.000**.
+- **Consensus rerank-skip** (`RERANK_SKIP_CONSENSUS=0.6`) — when ≥60% of the
+  fusion top slice was surfaced by both retrieval arms, fusion order stands
+  and the Ranking API call is skipped (~half of all queries). Guard: a turn
+  that skipped the rewriter always reranks — every query keeps at least one
+  semantic stage.
+- **Simple-query rewrite skip** (`REWRITE_SKIP_SIMPLE`) — short single-clause
+  first-turn questions bypass the rewrite LLM call entirely (25% of turns).
+
+Shipped result (best-of-round, reproduced twice): **hit 0.975 / recall 0.919
+/ $0.00305 per query (−21%)**, p50 −0.3 s. Rejected with evidence: bigger
+rerank pools (sibling-chunk dilution), cheaper rewriters (2.5-flash hit 0.929
+twice — rewrite quality is load-bearing), keyword/HyDE rewriter extensions
+(no gain once BM25 is title-aware, +$0.0005 in 3.5-flash output tokens), and
+all fusion-parameter moves (alpha 0.48 / rrf_k 60 / MMR λ 0.87 confirmed
+optimal).
+
 ### The eval harness
 
 `backend/eval/golden_set.jsonl` — 40 cases written against the actual corpus
