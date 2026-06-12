@@ -106,23 +106,47 @@ Per-category highlights (url_hit / fact_recall):
 Carried forward from round 1: RERANKER_TOP_K=13, RERANK_SCORE_THRESHOLD=0.2,
 thinking budget >0, pure 2.5-flash-lite — all still rejected.
 
+## V2 messy-query eval — E7 adoption REVERSED
+
+The original golden set is clean English prose, which the round-1 report
+flagged as under-measuring the rewrite-skip risk. A second, disjoint golden
+set (`eval/golden_set_v2.jsonl`, 25 cases, every URL corpus-verified) was
+built from sources the v1 set never touches (CIT, BMET, BSN Nursing, EE
+degree, transfer credit, refunds, ACIT outlines) plus a new **messy**
+category: acronyms ("cit entrance reqs?"), typos ("biomedicl enginering"),
+informal phrasing, a Korean-language question, and a cross-program
+comparison.
+
+| config (×2 each) | hit | recall | $/query | messy hit/recall |
+|---|---|---|---|---|
+| stack with REWRITE_SKIP_SIMPLE=true | 0.900 / 0.900 | 0.837 / 0.817 | 0.00322 | 0.833/0.583 · 0.833/0.500 |
+| stack with REWRITE_SKIP_SIMPLE=false | **0.940 / 0.940** | **0.937 / 0.937** | 0.00345 | **1.000/1.000 · 1.000/1.000** |
+
+Every other category was byte-identical between the configs; the messy
+category was the entire difference. Skipping the rewrite is safe on clean
+English questions (outline/program_admission stayed 1.000/1.000 while
+skipped) but collapses on raw real-world queries, where the rewriter
+normalizes acronyms, fixes typos, and translates. The rewriter also raises
+the rerank-skip rate (0.36 → 0.44 — rewritten queries produce stronger
+fusion consensus), refunding part of its own cost: the true saving from
+skip-on was only ~$0.0002/query. **E7 default reverted to false**; the code
+path stays for cost-pressure scenarios with clean traffic.
+
 ## Production recommendation (adopted)
 
-Three defaults flipped in `config.py` (env overrides remain as rollback):
-`BM25_INDEX_AUG=true`, `RERANK_SKIP_CONSENSUS=0.6`, `REWRITE_SKIP_SIMPLE=true`,
-plus the double-skip guard (rewrite-skipped turns always rerank).
+Two defaults flipped in `config.py` (env overrides remain as rollback):
+`BM25_INDEX_AUG=true`, `RERANK_SKIP_CONSENSUS=0.6` (with the double-skip
+guard; `REWRITE_SKIP_SIMPLE` stays false after the v2 eval above).
 
-The guarded stack is the only configuration in either round to beat the
-baseline hit rate in two consecutive runs: **hit 0.975 / recall 0.919 (both
-runs identical) at $0.00305/query (−21%)**, multipart 1.000/0.958, outline at
-baseline, p50 −0.3s. The unguarded stack reached $0.00292 (−24%) at hit
-0.950; the guard buys +0.025 hit for +$0.00013 — adopted for quality.
-At 1k queries/month: $3.87 → $3.05, with hit +0.012 and recall +0.042.
+Measured for this exact stack: **v1 set hit 0.975 / recall 0.931 /
+$0.00315 (exp4_skip60_aug)**; **v2 set hit 0.940 / recall 0.937 / $0.00345
+(twice, identical)**. Vs the round-1 production config: hit +0.012, recall
++0.054, multipart 1.000, cost −18% ($3.87 → $3.15 per 1k on the v1 mix).
 
-Note: exp9 a/b's outline dip traced to `ol-11` (the known flaky case, failed
-with NO skips active and consensus 0.1) — not a double-skip regression; the
-guard is kept as defense in depth for raw production queries, not because the
-golden set required it.
+Notes: exp9 a/b's outline dip traced to `ol-11` (the known flaky case,
+failed with NO skips active, consensus 0.1) — noise, not a double-skip
+regression. The v2 set is harder by construction (its follow_up category
+holds at 0.750 in every config — corpus-side, config-independent).
 
 ## Future work
 

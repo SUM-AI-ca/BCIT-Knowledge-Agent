@@ -126,11 +126,18 @@ Round 2 (`eval/benchmarks/202606_retrieval_cost_experiments/`, 8 experiments
   and the Ranking API call is skipped (~half of all queries). Guard: a turn
   that skipped the rewriter always reranks — every query keeps at least one
   semantic stage.
-- **Simple-query rewrite skip** (`REWRITE_SKIP_SIMPLE`) — short single-clause
-  first-turn questions bypass the rewrite LLM call entirely (25% of turns).
+- **Simple-query rewrite skip** (`REWRITE_SKIP_SIMPLE`) — implemented and
+  initially adopted, then **reverted by a second 25-case eval set**
+  (`eval/golden_set_v2.jsonl`) built around messy real-world queries:
+  acronyms, typos, and a Korean-language question. Skipping is free on clean
+  English prose but messy recall collapsed 1.000 → 0.50-0.58 without the
+  rewriter (which normalizes, corrects, and translates — and raises the
+  rerank-skip rate enough to refund part of its own cost). The flag stays
+  available for clean-traffic cost pressure.
 
-Shipped result (best-of-round, reproduced twice): **hit 0.975 / recall 0.919
-/ $0.00305 per query (−21%)**, p50 −0.3 s. Rejected with evidence: bigger
+Shipped result: **v1 set hit 0.975 / recall 0.931 / $0.00315 (−18%)**;
+v2 messy set hit 0.940 / recall 0.937 (reproduced twice), p50 −0.3 s.
+Rejected with evidence: bigger
 rerank pools (sibling-chunk dilution), cheaper rewriters (2.5-flash hit 0.929
 twice — rewrite quality is load-bearing), keyword/HyDE rewriter extensions
 (no gain once BM25 is title-aware, +$0.0005 in 3.5-flash output tokens), and

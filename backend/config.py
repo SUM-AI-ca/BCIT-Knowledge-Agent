@@ -170,11 +170,12 @@ RERANK_SKIP_CONSENSUS = _env_float("RERANK_SKIP_CONSENSUS", 0.6)
 MQ_BM25_KEYWORDS = _env_bool("MQ_BM25_KEYWORDS", False)
 HYDE_MODE = _env_str("HYDE_MODE", "off")
 # Skip the rewrite/decompose LLM call for first-turn questions that are short
-# and single-clause — the rewriter returns those unchanged, so the call is
-# pure cost/latency. Follow-ups (history present) and multipart questions
-# (separators) never skip. Default since round 2: 25% of golden-set turns
-# skip at flat quality, -$0.0002/query and -0.3s p50.
-REWRITE_SKIP_SIMPLE = _env_bool("REWRITE_SKIP_SIMPLE", True)
+# and single-clause. Default OFF: safe on clean English questions, but the
+# v2 messy-query eval (acronyms, typos, non-English — golden_set_v2.jsonl)
+# showed raw queries lose hard without the rewrite (messy recall 1.000 ->
+# 0.50-0.58), and the rewriter partly pays for itself by raising the
+# rerank-skip consensus rate. Net saving when on is only ~$0.0002/query.
+REWRITE_SKIP_SIMPLE = _env_bool("REWRITE_SKIP_SIMPLE", False)
 REWRITE_SKIP_MAX_WORDS = _env_int("REWRITE_SKIP_MAX_WORDS", 12)
 REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 512)
 REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
