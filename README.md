@@ -488,7 +488,7 @@ Everything deployed/configured outside this repo, in one place:
 | Production URL | https://bcitai.ca (chat at `/chat`) |
 | GitHub | `SUM-AI-ca/bcit-RAG-chatbot` (private; moved from `jp-ml/`) |
 | GCP project | `wine-agent-jh-2026` |
-| VM | `bcit-rag-vm`, us-west1-b, e2-standard-2, 34.19.21.7, firewall: tcp:8000 only (tag `bcit-rag`) |
+| VM | `bcit-rag-vm`, us-west1-b, e2-standard-2, 34.19.21.7, firewall: tcp:8000 from **Cloudflare IPv4 ranges only** (rule `allow-bcit-chat`, tag `bcit-rag`, locked down 2026-06-12 — debug via `gcloud compute ssh` + `curl localhost:8000`, direct IP times out) |
 | Cloud SQL | `bcit-rag-pg` (us-west1), db `ragdb`, user `raguser`, pgvector |
 | Live collection | `bcit_docs_202606` — 100,515 chunks from 11,129 docs (June 2026 crawl) |
 | Cloudflare | zone `bcitai.ca`: A `@` → 34.19.21.7 (proxied), Origin Rule port→8000, SSL Flexible |
@@ -500,26 +500,24 @@ Everything deployed/configured outside this repo, in one place:
 `https://www.bcitai.ca/health` and `/chat` both 200 through the same Origin
 Rule; `server.py` CORS already allowlists the `www` origin.
 
-### Pending hardening (console/gcloud — not yet applied)
+### Edge/origin hardening state (2026-06-12)
 
-- **"Always Use HTTPS" is off** (http://bcitai.ca serves without redirect) —
-  Cloudflare → SSL/TLS → Edge Certificates.
-- **The origin bypasses Cloudflare**: the GCP firewall allows tcp:8000 from
-  0.0.0.0/0, so `http://34.19.21.7:8000` reaches uvicorn directly — past any
-  Cloudflare rate limit. Restrict the rule to Cloudflare's ranges (find it
-  with `gcloud compute firewall-rules list --filter=targetTags:bcit-rag`):
+- ✅ **"Always Use HTTPS" on** — `http://bcitai.ca` 301s to https (verified).
+- ✅ **Origin locked to Cloudflare** — `allow-bcit-chat` (tcp:8000) source
+  ranges replaced with Cloudflare's published IPv4 list
+  (www.cloudflare.com/ips-v4, 15 CIDRs); direct `34.19.21.7:8000` access
+  verified blocked. Debugging goes through `gcloud compute ssh bcit-rag-vm`
+  + `curl localhost:8000`. If Cloudflare expands its ranges, rerun:
 
   ```bash
-  gcloud compute firewall-rules update <rule-name> \
+  gcloud compute firewall-rules update allow-bcit-chat \
     --source-ranges="$(curl -s https://www.cloudflare.com/ips-v4 | tr '\n' ',' | sed 's/,$//')"
   ```
 
-  Caveat: direct-IP debugging (`curl 34.19.21.7:8000/health`) stops working
-  afterwards — use `gcloud compute ssh` + `curl localhost:8000` instead.
-- **No rate limit on `POST /chat`** (~$0.004/query makes floods cheap to
-  inflict): Cloudflare → Security → WAF → Rate limiting rules, e.g.
-  10 req/min per IP on `bcitai.ca/chat*` methods POST. In-app guardrails
-  (input cap, timeout, worker pool) bound the damage but not the bill.
+- ⏸ **Rate limiting deferred** — Cloudflare rate-limiting rules require a
+  paid add-on on this plan. In-app guardrails (input cap, 90 s deadline,
+  worker pool) bound the damage but not the bill (~$4/1k queries); accepted
+  for now — revisit if `/metrics` shows abnormal volume.
 
 ---
 
