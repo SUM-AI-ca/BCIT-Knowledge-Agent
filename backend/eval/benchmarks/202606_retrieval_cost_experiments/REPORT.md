@@ -148,6 +148,48 @@ failed with NO skips active, consensus 0.1) — noise, not a double-skip
 regression. The v2 set is harder by construction (its follow_up category
 holds at 0.750 in every config — corpus-side, config-independent).
 
+## Dense-side page identity (Tier-2 follow-up) — ADOPTED, and it retired the rerank-skip
+
+E3 gave the BM25 arm page identity; the dense arm still embedded raw chunk
+text, so deep chunks of the 529 program pages stayed near-identical vectors
+across programs. Follow-up experiment: re-embed the SAME chunks with an
+identity prefix on the *embedded* text only (`build_pgvector.py
+EMBED_IDENTITY_PREFIX` + `REUSE_PICKLE`, new blue-green collection
+`bcit_docs_202606da`, ~$4 / 85 min). Stored text verified byte-identical
+corpus-wide (md5 multiset diff = 0 across 100,515 rows); vectors verified
+changed.
+
+Dense-only probe (similarity top-20, expected-page rank/hits): improved on
+5/5 identity queries — e.g. BMET entrance requirements went from 6/20
+own-page chunks to **20/20**, nursing chemistry from rank 2 with 1 hit to
+rank 1 with 8.
+
+Full-pipeline evals (all reproduced ×2 with identical numbers):
+
+| config | v1 hit/recall | v2 hit/recall | $/query |
+|---|---|---|---|
+| prod (identity-blind vectors, skip 0.6) | 0.975 / 0.931 | 0.940 / 0.937 | 0.00315 / 0.00346 |
+| dense-id, skip 0.6 | 0.967 / 0.906 | 1.000 / 0.950 | 0.00309 / 0.00329 |
+| dense-id, skip 0.9 | 0.950 / 0.881 | 1.000 / 0.950 | mid — dominated |
+| **dense-id, skip OFF (adopted)** | **0.975 / 0.925** | **1.000 / 0.950** | 0.00385 / 0.00392 |
+
+Key interaction finding: identity vectors concentrate dense results, which
+**inflates arm consensus** (skip rate 60% → 65%+) — the rerank-skip then
+fires on multi-page questions where pure fusion order loses secondary pages
+(every v1 regression under skip 0.6 was a `rerank_skipped` case; mp-05
+skipped at consensus 0.8 that used to rerank at 0.3). The 0.6 threshold was
+calibrated for identity-blind vectors. With the reranker always on, v1
+returns to parity and v2 reaches **hit 1.000 with the long-stuck follow_up
+category fixed (0.750 → 1.000)** and messy still perfect.
+
+Adopted defaults: `PG_COLLECTION=bcit_docs_202606da`,
+`RERANK_SKIP_CONSENSUS=0.0` (flag retained for cost-pressure rollback;
+`DOCUMENTS_PICKLE` unchanged — chunks byte-identical, documented exception
+to the flip-together rule). Net vs pre-experiment prod: v2 hit +0.060,
+recall +0.013, v1 flat, cost +~$0.0006 (the E4 saving was real but only for
+identity-blind vectors — better retrieval made the reranker worth paying
+for again on the cases that matter).
+
 ## Future work
 
 - E8 (local cross-encoder) is NOT warranted: the consensus skip already

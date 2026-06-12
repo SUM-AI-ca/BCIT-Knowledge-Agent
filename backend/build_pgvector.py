@@ -1,3 +1,4 @@
+import os
 import re
 import pickle
 import uuid
@@ -28,6 +29,19 @@ from config import (
 
 EMBED_WORKERS = 24
 INSERT_BATCH = 500
+
+
+def _env_flag(name: str) -> bool:
+    return os.getenv(name, "").strip().lower() in ("1", "true", "yes", "on")
+
+
+# Embeddings-only rebuild mode: load the exact serving chunks from the pickle
+# (never rewrite it) and embed into whatever PG_COLLECTION says — used for
+# blue-green experiments where only the vectors change.
+REUSE_PICKLE = _env_flag("REUSE_PICKLE")
+# Embed identity-prefixed text while STORING the original page_content
+# byte-identically (neighbor-index md5 keys and pool dedup depend on it).
+EMBED_IDENTITY_PREFIX = _env_flag("EMBED_IDENTITY_PREFIX")
 
 
 def parse_filename(filename: str) -> Dict:
@@ -300,6 +314,21 @@ def embed_batch(embeddings: VertexGeminiEmbeddings, texts: List[str]) -> List[Li
     return [vec for slice_vecs in results for vec in slice_vecs]
 
 
+def embed_augment_text(chunk: Document) -> str:
+    """Identity prefix for the EMBEDDED text only. Deep chunks of the 529
+    program pages never mention their own program, so their vectors are
+    near-identical across programs; the prefix disambiguates them the same way
+    BM25_INDEX_AUG does for the sparse arm. Natural-language prefix only —
+    semantic encoders want prose, so unlike the BM25 variant this skips
+    slug/keyword codes."""
+    md = chunk.metadata
+    title = md.get("title") or ""
+    category = (md.get("category") or "").replace("_", " ")
+    if not (title or category):
+        return chunk.page_content
+    return f"{title} ({category}). {chunk.page_content}"
+
+
 def build_vectorstore(chunks: List[Document]):
     embeddings = VertexGeminiEmbeddings(
         model_name=EMBEDDING_MODEL,
@@ -329,10 +358,14 @@ def build_vectorstore(chunks: List[Document]):
     for start in range(0, len(todo), INSERT_BATCH):
         batch = todo[start:start + INSERT_BATCH]
         batch_ids = [i for i, _ in batch]
-        texts = [c.page_content for _, c in batch]
+        texts = [c.page_content for _, c in batch]  # stored text — never augmented
         metadatas = [c.metadata for _, c in batch]
 
-        vectors = embed_batch(embeddings, texts)
+        embed_texts = (
+            [embed_augment_text(c) for _, c in batch]
+            if EMBED_IDENTITY_PREFIX else texts
+        )
+        vectors = embed_batch(embeddings, embed_texts)
 
         store.add_embeddings(
             texts=texts,
@@ -360,19 +393,31 @@ def create_hnsw_index(engine):
 
 
 def main():
-    if not DATA_DIR.exists():
-        print(f"Error: Data directory not found: {DATA_DIR}")
-        return
+    if REUSE_PICKLE:
+        # Single-variable experiment path: same chunks as production, new
+        # vectors only. The pickle is read, never rewritten.
+        print(f"Loading existing chunks from {DOCUMENTS_PICKLE}")
+        with open(DOCUMENTS_PICKLE, "rb") as f:
+            chunks = pickle.load(f)
+        print(f"Chunks: {len(chunks):,} (pickle reuse; crawl/chunk/save skipped)")
+    else:
+        if not DATA_DIR.exists():
+            print(f"Error: Data directory not found: {DATA_DIR}")
+            return
 
-    documents = load_documents()
-    chunks = chunk_documents(documents)
+        documents = load_documents()
+        chunks = chunk_documents(documents)
 
-    save_documents(chunks)
+        save_documents(chunks)
+        print(f"Documents: {len(documents):,}")
+
+    if EMBED_IDENTITY_PREFIX:
+        print("EMBED_IDENTITY_PREFIX on: embedding title-prefixed text (stored text unchanged)")
+    print(f"Target collection: {PG_COLLECTION}")
 
     engine = build_vectorstore(chunks)
     create_hnsw_index(engine)
 
-    print(f"Documents: {len(documents):,}")
     print(f"Chunks: {len(chunks):,}")
 
 

@@ -54,8 +54,12 @@ PG_CONNECTION = os.getenv(
     "postgresql+psycopg://raguser:raguser@127.0.0.1:5432/ragdb"
 )
 # Collection is versioned: build a new one, then flip this default and redeploy
-# (blue-green — the live server keeps serving the old collection during a build)
-PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606")
+# (blue-green — the live server keeps serving the old collection during a build).
+# 202606da = same chunks as 202606 with identity-prefixed EMBEDDINGS
+# (build_pgvector.py EMBED_IDENTITY_PREFIX): documented exception to the
+# "flip PG_COLLECTION and DOCUMENTS_PICKLE together" rule — the pickle is
+# shared because the stored chunks are byte-identical (verified corpus-wide).
+PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606da")
 
 # Mixed-model setup (June 2026 benchmark, eval/benchmarks/202606_model_comparison):
 # generation on flash-lite cut cost 69% at equal-or-better quality, but ONLY
@@ -158,10 +162,14 @@ RERANK_MODE = _env_str("RERANK_MODE", "pooled")
 # Skip the (pooled/single) Ranking API call when the retrieval arms already
 # agree: if at least this fraction of the fusion-ordered top slice was
 # surfaced by BOTH dense and BM25 (or by 2+ sub-queries), trust fusion order
-# and save the per-call fee. 0 disables (always rerank). Default 0.6 since
-# round 2: ~45-60% of calls skipped at flat quality (rewrite-skipped turns
-# always rerank — see query_rag.py's defense-in-depth guard).
-RERANK_SKIP_CONSENSUS = _env_float("RERANK_SKIP_CONSENSUS", 0.6)
+# and save the per-call fee. 0 disables (always rerank).
+# Default back to 0 since the identity-embedded collection (202606da): the
+# prefix concentrates dense results so arm consensus inflates (skip rate
+# 60% -> 65%+) and fires on multi-page questions where fusion order alone
+# measurably loses facts (dense_id_v1 vs _noskip in the round-2 benchmark).
+# The 0.6 skip was calibrated for — and only earns its keep with —
+# identity-blind vectors; the flag stays for cost-pressure rollback.
+RERANK_SKIP_CONSENSUS = _env_float("RERANK_SKIP_CONSENSUS", 0.0)
 # Ask the rewriter for extra retrieval signals in the SAME JSON call (a few
 # output tokens, no extra request): exact keyword terms for the BM25 arm,
 # and/or a hypothetical answer sentence (HyDE) for the dense arm.
