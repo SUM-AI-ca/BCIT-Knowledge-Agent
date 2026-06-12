@@ -218,9 +218,10 @@ export default function Blog() {
             student questions — with answers typically arriving in 3–5 seconds.
             Everything runs on a single small CPU-only virtual machine: the
             heavyweight AI stages (embeddings, ranking, generation) are managed
-            Google Cloud Vertex AI services, authenticated end-to-end with
-            workload identity. There is not a single API key in the codebase or
-            the environment.
+            services on Google Cloud's Gemini Enterprise Agent Platform
+            (formerly Vertex AI), authenticated end-to-end with workload
+            identity. There is not a single API key in the codebase or the
+            environment.
           </p>
           <div className="infra-card">
             <div className="infra-icon"><Server size={20} /></div>
@@ -254,8 +255,8 @@ export default function Blog() {
       <footer className="blog-footer">
         <p>
           BCIT AI Advisor · Retrieval-augmented chatbot built on Google Cloud
-          (Vertex AI, Cloud SQL pgvector) · Not affiliated with the British
-          Columbia Institute of Technology
+          (Gemini Enterprise Agent Platform, Cloud SQL pgvector) · Not
+          affiliated with the British Columbia Institute of Technology
         </p>
         <p>
           Made by{" "}
