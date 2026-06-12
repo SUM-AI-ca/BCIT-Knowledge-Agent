@@ -235,6 +235,21 @@
   color: #9ca3af;
 }
 
+.blog-footer p + p {
+  margin-top: 0.35rem;
+}
+
+.blog-footer a {
+  color: #6b7280;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blog-footer a:hover {
+  color: #003c71;
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .blog-hero {
     padding: 3rem 1.25rem 3.5rem;

@@ -258,6 +258,12 @@ export default function Blog() {
           (Vertex AI, Cloud SQL pgvector) · Not affiliated with the British
           Columbia Institute of Technology
         </p>
+        <p>
+          Made by{" "}
+          <a href="https://sumai.ca" target="_blank" rel="noopener noreferrer">
+            SUM AI
+          </a>
+        </p>
       </footer>
     </div>
   );
