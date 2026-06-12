@@ -191,6 +191,76 @@
   text-decoration: underline;
 }
 
+/* Suggested starter questions (shown while the chat is empty) */
+.chat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chat-chip {
+  background: white;
+  border: 1px solid #c5d2e0;
+  color: #003c71;
+  border-radius: 1.2rem;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.88rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.chat-chip:hover {
+  background: #eef3f8;
+  border-color: #003c71;
+}
+
+/* Thumbs up/down under a completed answer */
+.msg-feedback {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.45rem;
+}
+
+.feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  background: white;
+  color: #8a8f98;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+.feedback-btn:not(:disabled):hover {
+  color: #003c71;
+  border-color: #003c71;
+}
+
+.feedback-btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.feedback-btn.selected,
+.feedback-btn.selected:disabled {
+  color: #003c71;
+  border-color: #003c71;
+  background: #eef3f8;
+  opacity: 1;
+}
+
+.feedback-thanks {
+  font-size: 0.8rem;
+  color: #8a8f98;
+  margin-left: 0.2rem;
+}
+
 /* Typing Animation */
 .typing-bubble {
   opacity: 0.8;

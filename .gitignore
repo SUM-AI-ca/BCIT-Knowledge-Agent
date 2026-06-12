@@ -18,6 +18,13 @@ backend/data/_state/
 # Eval run outputs (per-machine measurements, not source)
 backend/eval/results/
 
+# Scratch scripts/checks from working sessions (never source)
+_tmp_*
+
+# Mined golden-set candidates (working artifacts — promote curated cases
+# into golden_set_v3.jsonl instead of committing the raw dump)
+backend/eval/candidates_*.jsonl
+
 # Node
 frontend/node_modules/
 

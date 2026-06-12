@@ -67,6 +67,10 @@ PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606da")
 # (pure lite: hit 0.929; mix: hit 0.963 / recall 0.890, best of all runs).
 GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.1-flash-lite")
 REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.5-flash")
+# Offline eval only (run_eval.py --judge): scores answer faithfulness and
+# completeness against the retrieved context. Same class as the rewriter —
+# judging is a reading task that lite models measurably do worse.
+JUDGE_MODEL = _env_str("JUDGE_MODEL", "gemini-3.5-flash")
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
@@ -75,6 +79,17 @@ GEMINI_MAX_OUTPUT_TOKENS = _env_int("GEMINI_MAX_OUTPUT_TOKENS", 2048)
 # Single source of truth for conversation window (was k=5 in server.py and
 # k=3 in query_rag.py, neither actually applied due to the window bug).
 MEMORY_WINDOW_K = _env_int("MEMORY_WINDOW_K", 5)
+
+# Server guardrails. The chat executor has no other deadline — a wedged
+# Vertex gRPC call was once observed holding a worker thread ~8 minutes.
+# The timeout 504s the client; the underlying thread cannot be cancelled
+# and runs to completion, which is why WORKER_THREADS stays above 2 (the
+# pipeline is API-bound, so threads > vCPUs is fine on the e2-standard-2).
+CHAT_TIMEOUT_S = _env_int("CHAT_TIMEOUT_S", 90)
+WORKER_THREADS = _env_int("WORKER_THREADS", 4)
+# Longest real question in the eval sets is ~200 chars; 2000 leaves room for
+# pasted context while keeping a flood from inflating rewriter input tokens.
+MAX_MESSAGE_CHARS = _env_int("MAX_MESSAGE_CHARS", 2000)
 
 # What gets SAVED into history (and therefore re-sent every later turn):
 # Sources lists add no value to follow-up resolution, and unbounded answers

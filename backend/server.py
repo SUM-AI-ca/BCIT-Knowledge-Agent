@@ -1,10 +1,14 @@
 import os
+import json
 import logging
+import threading
+import time
 import warnings
 import uuid
+from collections import deque
 from typing import Dict, Optional
 from contextlib import asynccontextmanager
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 os.environ['USE_TF'] = '0'
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
@@ -20,13 +24,18 @@ logger = logging.getLogger("bcit.server")
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from pydantic import BaseModel
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 from query_rag import BCITChatbot
-from config import MEMORY_WINDOW_K
+from config import (
+    MEMORY_WINDOW_K,
+    CHAT_TIMEOUT_S,
+    WORKER_THREADS,
+    MAX_MESSAGE_CHARS,
+)
 from langchain.memory import ConversationBufferWindowMemory
 
 class ChatRequest(BaseModel):
@@ -53,18 +62,24 @@ class ChatResponse(BaseModel):
 
 chatbot: Optional[BCITChatbot] = None
 sessions: Dict[str, dict] = {}
-executor = ThreadPoolExecutor(max_workers=2)
+executor = ThreadPoolExecutor(max_workers=WORKER_THREADS)
 
 SESSION_TIMEOUT_MINUTES = 30
+# Backstop between the 5-minute cleanup ticks: a burst of fresh session ids
+# (each ~a few KB of memory) triggers an inline sweep instead of growing
+# unbounded until the next tick.
+MAX_SESSIONS_BEFORE_SWEEP = 5000
 
 
 def get_or_create_session(session_id: Optional[str]) -> tuple[str, ConversationBufferWindowMemory]:
     if not session_id:
         session_id = str(uuid.uuid4())
-    
+
     now = datetime.now()
-    
+
     if session_id not in sessions:
+        if len(sessions) >= MAX_SESSIONS_BEFORE_SWEEP:
+            cleanup_expired_sessions()
         sessions[session_id] = {
             "memory": ConversationBufferWindowMemory(
                 k=MEMORY_WINDOW_K,
@@ -100,6 +115,44 @@ def get_session_stats():
         "active_sessions": len(sessions),
         "timeout_minutes": SESSION_TIMEOUT_MINUTES
     }
+
+
+# Lightweight in-process metrics for GET /metrics: totals since boot plus a
+# ring buffer for last-hour percentiles. Deliberately not persisted — the
+# durable signals live in the query_usage log lines and LangSmith traces.
+SERVER_STARTED = datetime.now(timezone.utc)
+_metrics_lock = threading.Lock()
+_recent_queries = deque(maxlen=2000)
+_metrics_totals = {
+    "queries": 0, "errors": 0, "timeouts": 0,
+    "input_tokens": 0, "output_tokens": 0, "cost_usd": 0.0,
+}
+
+
+def record_query_metric(meta: Optional[dict] = None, *, error: bool = False, timeout: bool = False):
+    usage = (meta or {}).get("usage") or {}
+    entry = {
+        "ts": time.time(),
+        "latency_s": ((meta or {}).get("timings") or {}).get("total_s"),
+        "cost_usd": (meta or {}).get("est_cost_usd") or 0.0,
+        "error": error,
+    }
+    with _metrics_lock:
+        _recent_queries.append(entry)
+        _metrics_totals["queries"] += 1
+        if error:
+            _metrics_totals["errors"] += 1
+        if timeout:
+            _metrics_totals["timeouts"] += 1
+        _metrics_totals["input_tokens"] += (
+            (usage.get("input_tokens") or 0) + (usage.get("rewrite_input_tokens") or 0)
+        )
+        _metrics_totals["output_tokens"] += (
+            (usage.get("output_tokens") or 0)
+            + (usage.get("reasoning_tokens") or 0)
+            + (usage.get("rewrite_output_tokens") or 0)
+        )
+        _metrics_totals["cost_usd"] += entry["cost_usd"]
 
 
 def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> dict:
@@ -196,26 +249,70 @@ async def health_check():
     }
 
 
-@app.post("/chat", response_model=ChatResponse)
-async def chat(request: ChatRequest):
-    global chatbot
+@app.get("/metrics")
+async def metrics():
+    """Aggregate usage since boot + last-hour latency percentiles. Public on
+    purpose: nothing here is sensitive (no questions, no session contents)."""
+    cutoff = time.time() - 3600
+    with _metrics_lock:
+        totals = dict(_metrics_totals)
+        recent = [e for e in _recent_queries if e["ts"] >= cutoff]
 
+    latencies = sorted(e["latency_s"] for e in recent if e.get("latency_s") is not None)
+
+    def pct(q):
+        if not latencies:
+            return None
+        return round(latencies[int(round(q * (len(latencies) - 1)))], 3)
+
+    return {
+        "started_at": SERVER_STARTED.isoformat(),
+        "totals": {**totals, "cost_usd": round(totals["cost_usd"], 4)},
+        "last_hour": {
+            "queries": len(recent),
+            "errors": sum(1 for e in recent if e["error"]),
+            "latency_p50_s": pct(0.5),
+            "latency_p95_s": pct(0.95),
+            "cost_usd": round(sum(e["cost_usd"] for e in recent), 4),
+        },
+        **get_session_stats(),
+    }
+
+
+def validate_chat_request(request: ChatRequest):
     if chatbot is None:
         raise HTTPException(status_code=503, detail="Chatbot not initialized")
-    
+
     if not request.message.strip():
         raise HTTPException(status_code=400, detail="Message cannot be empty")
-    
+
+    if len(request.message) > MAX_MESSAGE_CHARS:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Message too long (max {MAX_MESSAGE_CHARS} characters)",
+        )
+
+
+@app.post("/chat", response_model=ChatResponse)
+async def chat(request: ChatRequest):
+    validate_chat_request(request)
+
     # Get or create session
     session_id, memory = get_or_create_session(request.session_id)
-    
+
     try:
         logger.info("[Query] Session %s...: %s", session_id[:8], request.message[:80])
 
-        # Query chatbot (async to avoid blocking)
-        meta = await query_chatbot_async(request.message, memory)
+        # Query chatbot (async to avoid blocking). The timeout only releases
+        # the REQUEST — the worker thread is uncancellable and runs on, which
+        # is why WORKER_THREADS keeps headroom over expected concurrency.
+        meta = await asyncio.wait_for(
+            query_chatbot_async(request.message, memory),
+            timeout=CHAT_TIMEOUT_S,
+        )
 
         logger.debug("[Reply] %s...", meta["answer"][:100])
+        record_query_metric(meta)
 
         return ChatResponse(
             reply=meta["answer"],
@@ -223,9 +320,116 @@ async def chat(request: ChatRequest):
             stats=build_stats(meta),
         )
 
+    except asyncio.TimeoutError:
+        logger.error("[Timeout] chat request exceeded %ss", CHAT_TIMEOUT_S)
+        record_query_metric(timeout=True)
+        raise HTTPException(
+            status_code=504,
+            detail="The advisor took too long to answer — please try again.",
+        )
     except Exception as e:
         logger.exception("[Error] chat request failed")
+        record_query_metric(error=True)
         raise HTTPException(status_code=500, detail=str(e))
+
+
+def sse_event(event: str, data: dict) -> str:
+    return f"event: {event}\ndata: {json.dumps(data, ensure_ascii=False)}\n\n"
+
+
+def _stats_dict(meta: dict) -> dict:
+    stats = build_stats(meta)
+    return stats.model_dump() if hasattr(stats, "model_dump") else stats.dict()
+
+
+@app.post("/chat/stream")
+async def chat_stream(request: ChatRequest):
+    """SSE variant of POST /chat: `session` (id) → `delta` (text fragments)
+    → `done` (the same stats footer /chat returns), or `error`. The plain
+    /chat endpoint stays for the eval harness and as the frontend fallback."""
+    validate_chat_request(request)
+
+    session_id, memory = get_or_create_session(request.session_id)
+    loop = asyncio.get_event_loop()
+    queue: asyncio.Queue = asyncio.Queue()
+
+    def produce():
+        # Runs query_stream to completion regardless of the consumer: memory
+        # and the query_usage log are written even if the client disconnects
+        # or the request times out (the queue items just go unread).
+        try:
+            for item in chatbot.query_stream(request.message, memory=memory):
+                if item[0] == "done":
+                    record_query_metric(item[1])
+                loop.call_soon_threadsafe(queue.put_nowait, item)
+        except Exception as e:
+            logger.exception("[Error] stream request failed")
+            record_query_metric(error=True)
+            loop.call_soon_threadsafe(queue.put_nowait, ("error", str(e)))
+        finally:
+            loop.call_soon_threadsafe(queue.put_nowait, ("end", None))
+
+    async def event_source():
+        logger.info("[Query] Session %s... (stream): %s", session_id[:8], request.message[:80])
+        yield sse_event("session", {"session_id": session_id})
+        loop.run_in_executor(executor, produce)
+        deadline = loop.time() + CHAT_TIMEOUT_S
+        try:
+            while True:
+                remaining = deadline - loop.time()
+                if remaining <= 0:
+                    raise asyncio.TimeoutError
+                kind, payload = await asyncio.wait_for(queue.get(), timeout=remaining)
+                if kind == "delta":
+                    yield sse_event("delta", {"text": payload})
+                elif kind == "done":
+                    yield sse_event("done", {"stats": _stats_dict(payload)})
+                elif kind == "error":
+                    yield sse_event("error", {"detail": payload})
+                elif kind == "end":
+                    break
+        except asyncio.TimeoutError:
+            logger.error("[Timeout] stream request exceeded %ss", CHAT_TIMEOUT_S)
+            # Only bump the timeout counter — the producer thread still runs
+            # to completion and records the query itself when it finishes.
+            with _metrics_lock:
+                _metrics_totals["timeouts"] += 1
+            yield sse_event(
+                "error",
+                {"detail": "The advisor took too long to answer — please try again."},
+            )
+
+    return StreamingResponse(
+        event_source(),
+        media_type="text/event-stream",
+        # no-cache + no-transform keeps Cloudflare from buffering the stream;
+        # X-Accel-Buffering covers any nginx-style proxy in between.
+        headers={"Cache-Control": "no-cache, no-transform", "X-Accel-Buffering": "no"},
+    )
+
+
+class FeedbackRequest(BaseModel):
+    session_id: Optional[str] = None
+    verdict: str
+    question: Optional[str] = None
+    answer_excerpt: Optional[str] = None
+
+
+@app.post("/feedback")
+async def feedback(request: FeedbackRequest):
+    """Thumbs up/down from the chat UI. Sink is a structured log line
+    (journald) — eval/mine_langsmith.py picks `down` verdicts up as golden-set
+    candidates. No DB on purpose: feedback volume is tiny at demo scale."""
+    if request.verdict not in ("up", "down"):
+        raise HTTPException(status_code=422, detail="verdict must be 'up' or 'down'")
+    logger.info("feedback_log %s", json.dumps({
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "session_id": (request.session_id or "")[:36],
+        "verdict": request.verdict,
+        "question": (request.question or "")[:500],
+        "answer_excerpt": (request.answer_excerpt or "")[:1000],
+    }, ensure_ascii=False))
+    return {"status": "ok"}
 
 
 @app.post("/reset")

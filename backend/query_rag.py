@@ -128,6 +128,16 @@ def _message_text(msg) -> str:
     return str(content)
 
 
+def _reduce_stream_outputs(outputs):
+    """LangSmith trace output for query_stream: collapse the yielded
+    ("delta", ...) / ("done", meta) tuples into the final meta (sans docs)
+    so the trace looks like query_with_meta's instead of a token list."""
+    for kind, payload in reversed(outputs or []):
+        if kind == "done":
+            return {k: v for k, v in payload.items() if k != "docs"}
+    return {"answer": "".join(p for k, p in (outputs or []) if k == "delta")}
+
+
 class BCITChatbot:
 
     def __init__(self):
@@ -735,17 +745,20 @@ class BCITChatbot:
         )
         return selected, sel_info
 
-    @traceable(name="bcit_query")
-    def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
-        if memory is None:
-            memory = self.memory
+    def _prepare_turn(self, question: str, memory: ConversationBufferWindowMemory) -> dict:
+        """Everything before generation: easter-egg short-circuit, history
+        formatting, rewrite+decompose, (fan-out) retrieval, rerank, context
+        assembly, prompt construction. Shared by query_with_meta (blocking)
+        and query_stream (token streaming) so the two paths cannot drift.
 
+        Returns {"easter_meta": <complete meta>} for the short-circuit
+        (memory already written), else the state _finalize_turn consumes."""
         normalized = question.strip().upper()
         if normalized in EASTER_EGGS:
             answer = EASTER_EGGS[normalized]
             memory.chat_memory.add_user_message(question)
             memory.chat_memory.add_ai_message(answer)
-            return {
+            return {"easter_meta": {
                 "answer": answer,
                 "docs": [],
                 "standalone_question": question,
@@ -754,7 +767,7 @@ class BCITChatbot:
                 "est_cost_usd": 0.0,
                 "timings": {},
                 "n_context_docs": 0,
-            }
+            }}
 
         t_start = time.perf_counter()
         chat_history = self._format_chat_history(memory)
@@ -853,23 +866,49 @@ class BCITChatbot:
                 + "\n".join(f"  {i}) {q}" for i, q in enumerate(sub_queries, 1))
             )
 
-        t0 = time.perf_counter()
         prompt_value = self.prompt.invoke({
             "context": context,
             "question": question,
             "question_parts": question_parts,
             "chat_history": chat_history
         })
-        msg = self.llm.invoke(prompt_value)
-        t_generate = time.perf_counter() - t0
 
-        answer = _message_text(msg)
-        usage = dict(msg.usage_metadata or {})
-        finish_reason = str((msg.response_metadata or {}).get("finish_reason", ""))
+        return {
+            "t_start": t_start,
+            "question": question,
+            "prompt_value": prompt_value,
+            "docs": docs,
+            "standalone_question": standalone_question,
+            "sub_queries": sub_queries,
+            "rewrite_usage": rewrite_usage,
+            "decompose_fallback": decompose_fallback,
+            "rewrite_skipped": rewrite_skipped,
+            "rerank_skipped": rerank_skipped,
+            "pool_consensus": pool_consensus,
+            "use_fanout": use_fanout,
+            "n_candidates": n_candidates,
+            "n_rerank_calls": n_rerank_calls,
+            "context_stats": context_stats,
+            "t_rewrite": t_rewrite,
+            "t_retrieve": t_retrieve,
+            "t_rerank": t_rerank,
+        }
+
+    def _finalize_turn(
+            self,
+            prep: dict,
+            memory: ConversationBufferWindowMemory,
+            answer: str,
+            usage: dict,
+            finish_reason: str,
+            t_generate: float,
+    ) -> dict:
+        """Post-generation bookkeeping shared by both generation paths:
+        memory write, cost estimate, meta assembly, query_usage log."""
         if finish_reason == "MAX_TOKENS":
             logger.warning("answer truncated (finish_reason=MAX_TOKENS) — Sources section likely lost")
 
-        memory.chat_memory.add_user_message(question)
+        memory.chat_memory.add_user_message(prep["question"])
         memory.chat_memory.add_ai_message(self._history_view(answer))
 
         input_tokens = usage.get("input_tokens", 0)
@@ -877,8 +916,8 @@ class BCITChatbot:
         details_in = usage.get("input_token_details") or {}
         details_out = usage.get("output_token_details") or {}
         reasoning_tokens = details_out.get("reasoning", 0)
-        rw_in = rewrite_usage.get("input_tokens", 0)
-        rw_out = rewrite_usage.get("output_tokens", 0)
+        rw_in = prep["rewrite_usage"].get("input_tokens", 0)
+        rw_out = prep["rewrite_usage"].get("output_tokens", 0)
 
         # Generation and rewrite run on different models (and prices); thinking
         # tokens bill as output. Rerank is per-call, embedding ~flat.
@@ -887,15 +926,15 @@ class BCITChatbot:
             + (output_tokens + reasoning_tokens) / 1e6 * PRICE_GEN_OUTPUT_PER_M
             + rw_in / 1e6 * PRICE_REWRITE_INPUT_PER_M
             + rw_out / 1e6 * PRICE_REWRITE_OUTPUT_PER_M
-            + n_rerank_calls * PRICE_RERANK_PER_CALL
+            + prep["n_rerank_calls"] * PRICE_RERANK_PER_CALL
             + PRICE_EMBED_PER_QUERY,
             6
         )
 
         meta = {
             "answer": answer,
-            "docs": docs,
-            "standalone_question": standalone_question,
+            "docs": prep["docs"],
+            "standalone_question": prep["standalone_question"],
             "finish_reason": finish_reason,
             "usage": {
                 "input_tokens": input_tokens,
@@ -905,33 +944,103 @@ class BCITChatbot:
                 "rewrite_input_tokens": rw_in,
                 "rewrite_output_tokens": rw_out,
             },
-            "n_rerank_calls": n_rerank_calls,
+            "n_rerank_calls": prep["n_rerank_calls"],
             "models": {"generation": GEMINI_MODEL, "rewriter": REWRITER_MODEL},
             "est_cost_usd": est_cost,
             "timings": {
-                "rewrite_s": round(t_rewrite, 3),
-                "retrieve_s": round(t_retrieve, 3),
-                "rerank_s": round(t_rerank, 3),
+                "rewrite_s": round(prep["t_rewrite"], 3),
+                "retrieve_s": round(prep["t_retrieve"], 3),
+                "rerank_s": round(prep["t_rerank"], 3),
                 "generate_s": round(t_generate, 3),
-                "total_s": round(time.perf_counter() - t_start, 3),
+                "total_s": round(time.perf_counter() - prep["t_start"], 3),
             },
-            "n_context_docs": len(docs),
+            "n_context_docs": len(prep["docs"]),
             "context_mode": CONTEXT_MODE,
-            "n_subqueries": len(sub_queries),
-            "sub_queries": sub_queries,
-            "decompose_fallback": decompose_fallback,
-            "rewrite_skipped": rewrite_skipped,
-            "rerank_skipped": rerank_skipped,
-            "pool_consensus": pool_consensus,
-            "retrieval_mode": "fanout" if use_fanout else "single",
-            "n_candidates": n_candidates,
-            **context_stats,
+            "n_subqueries": len(prep["sub_queries"]),
+            "sub_queries": prep["sub_queries"],
+            "decompose_fallback": prep["decompose_fallback"],
+            "rewrite_skipped": prep["rewrite_skipped"],
+            "rerank_skipped": prep["rerank_skipped"],
+            "pool_consensus": prep["pool_consensus"],
+            "retrieval_mode": "fanout" if prep["use_fanout"] else "single",
+            "n_candidates": prep["n_candidates"],
+            **prep["context_stats"],
         }
 
         log_entry = {k: v for k, v in meta.items() if k not in ("answer", "docs")}
         logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
 
         return meta
+
+    @traceable(name="bcit_query")
+    def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
+        if memory is None:
+            memory = self.memory
+
+        prep = self._prepare_turn(question, memory)
+        if "easter_meta" in prep:
+            return prep["easter_meta"]
+
+        t0 = time.perf_counter()
+        msg = self.llm.invoke(prep["prompt_value"])
+        t_generate = time.perf_counter() - t0
+
+        return self._finalize_turn(
+            prep,
+            memory,
+            answer=_message_text(msg),
+            usage=dict(msg.usage_metadata or {}),
+            finish_reason=str((msg.response_metadata or {}).get("finish_reason", "")),
+            t_generate=t_generate,
+        )
+
+    @traceable(name="bcit_query", reduce_fn=_reduce_stream_outputs)
+    def query_stream(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None):
+        """Streaming twin of query_with_meta: yields ("delta", text) as
+        tokens arrive, then ("done", meta) where meta is exactly what the
+        blocking path returns (memory write + query_usage log included).
+
+        Callers must drain the generator to completion — the server does so
+        on a worker thread, so a disconnected client still leaves consistent
+        session history and a query_usage log line."""
+        if memory is None:
+            memory = self.memory
+
+        prep = self._prepare_turn(question, memory)
+        if "easter_meta" in prep:
+            yield ("delta", prep["easter_meta"]["answer"])
+            yield ("done", prep["easter_meta"])
+            return
+
+        t0 = time.perf_counter()
+        parts: List[str] = []
+        usage: dict = {}
+        finish_reason = ""
+        for chunk in self.llm.stream(prep["prompt_value"]):
+            text = _message_text(chunk)
+            if text:
+                parts.append(text)
+                yield ("delta", text)
+            # Vertex reports usage/finish_reason on the final stream chunk;
+            # keep the last non-empty values seen (missing usage degrades to
+            # zero token counts, never a crash).
+            if getattr(chunk, "usage_metadata", None):
+                usage = dict(chunk.usage_metadata)
+            chunk_finish = str(
+                (getattr(chunk, "response_metadata", None) or {}).get("finish_reason", "")
+            )
+            if chunk_finish:
+                finish_reason = chunk_finish
+        t_generate = time.perf_counter() - t0
+
+        yield ("done", self._finalize_turn(
+            prep,
+            memory,
+            answer="".join(parts),
+            usage=usage,
+            finish_reason=finish_reason,
+            t_generate=t_generate,
+        ))
 
     def query(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> str:
         return self.query_with_meta(question, memory=memory)["answer"]

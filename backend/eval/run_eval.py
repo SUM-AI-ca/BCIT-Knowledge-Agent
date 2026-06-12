@@ -45,7 +45,7 @@ RESULTS_DIR = EVAL_DIR / "results"
 # Tunables snapshotted into the results file. Names that config.py does not
 # define (yet) are skipped, so this list can stay ahead of the code.
 SNAPSHOT_KEYS = [
-    "GEMINI_MODEL", "REWRITER_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
+    "GEMINI_MODEL", "REWRITER_MODEL", "JUDGE_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
     "GEMINI_THINKING_BUDGET", "MEMORY_WINDOW_K",
     "USE_HYBRID_SEARCH", "HYBRID_ALPHA", "USE_RERANKING",
     "RERANKER_CANDIDATES", "RERANKER_TOP_K", "RERANK_SCORE_THRESHOLD",
@@ -160,7 +160,99 @@ def score_case(case, result):
     }
 
 
-def run_case(bot, case, make_memory):
+# --- LLM judge (--judge) ---------------------------------------------------
+# One extra schema-constrained call per case, grading the answer against the
+# retrieved passages only. Complements (does not replace) the substring
+# metrics: fact_recall undercounts paraphrases, and nothing else measures
+# whether the answer invented claims the context never contained.
+
+JUDGE_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "faithfulness": {"type": "NUMBER"},
+        "completeness": {"type": "NUMBER"},
+        "unsupported_claims": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "notes": {"type": "STRING"},
+    },
+    "required": ["faithfulness", "completeness", "unsupported_claims"],
+}
+
+JUDGE_TEMPLATE = """You are grading an answer from a BCIT academic-advisor RAG chatbot.
+
+You get the student's question, the retrieved source passages the bot was
+given, and the bot's answer. Grade ONLY against the provided passages —
+your own knowledge must never rescue an unsupported claim.
+
+Return JSON:
+1. "faithfulness" (0.0-1.0): the fraction of the answer's factual claims that
+   are directly supported by the passages. URLs in the Sources section are
+   not claims. 1.0 = every claim supported.
+2. "unsupported_claims": every factual claim NOT supported by the passages,
+   quoted or closely paraphrased. Empty list if none.
+3. "completeness" (0.0-1.0): how fully the answer addresses every part of the
+   question using information that IS present in the passages. An answer that
+   correctly says the information is unavailable counts as complete.
+4. "notes": one short sentence, only if something needs explaining.
+
+Question:
+{question}
+
+Retrieved passages:
+{context}
+
+Answer:
+{answer}"""
+
+
+def _judge_context(docs, per_doc_chars=1500, max_total_chars=30000):
+    blocks = []
+    total = 0
+    for i, doc in enumerate(docs or [], 1):
+        label = doc.metadata.get("url") or doc.metadata.get("title") or ""
+        block = f"[Passage {i}] {label}\n{doc.page_content[:per_doc_chars]}"
+        total += len(block)
+        if total > max_total_chars:
+            break
+        blocks.append(block)
+    return "\n\n".join(blocks) or "(no passages retrieved)"
+
+
+def judge_case(judge_llm, question, result):
+    prompt = JUDGE_TEMPLATE.format(
+        question=question,
+        context=_judge_context(result.get("docs")),
+        answer=(result.get("answer") or "")[:6000],
+    )
+    msg = judge_llm.invoke(prompt)
+    content = msg.content if isinstance(msg.content, str) else str(msg.content)
+    data = json.loads(content)
+    faith = data.get("faithfulness")
+    comp = data.get("completeness")
+    return {
+        "judge_faithfulness": float(faith) if faith is not None else None,
+        "judge_completeness": float(comp) if comp is not None else None,
+        "judge_unsupported_claims": [
+            c for c in (data.get("unsupported_claims") or []) if isinstance(c, str)
+        ][:10],
+        "judge_notes": (data.get("notes") or "")[:300],
+    }
+
+
+def make_judge(config):
+    from langchain_google_vertexai import ChatVertexAI
+    return ChatVertexAI(
+        model=config.JUDGE_MODEL,
+        project=config.GEMINI_PROJECT,
+        location=config.GEMINI_LOCATION,
+        temperature=0.0,
+        max_output_tokens=1024,
+        thinking_budget=0,
+        response_mime_type="application/json",
+        response_schema=JUDGE_SCHEMA,
+    )
+
+
+def run_case(bot, case, make_memory, judge_llm=None):
     memory = make_memory()
     turns = []
 
@@ -196,6 +288,11 @@ def run_case(bot, case, make_memory):
         if key in result:
             record[key] = result[key]
     record.update(score_case(case, result))
+    if judge_llm is not None:
+        try:
+            record.update(judge_case(judge_llm, final_question, result))
+        except Exception as exc:  # a judge failure must not sink the case
+            record["judge_error"] = f"{type(exc).__name__}: {exc}"
     return record
 
 
@@ -228,6 +325,10 @@ def aggregate(cases):
         "latency_p95_s": _percentile(latencies, 0.95),
         "max_tokens_truncations": sum(1 for c in scored if c.get("finish_reason") == "MAX_TOKENS"),
         "decompose_fallbacks": sum(1 for c in scored if c.get("decompose_fallback")),
+        "judge_faithfulness_mean": _mean([c.get("judge_faithfulness") for c in scored]),
+        "judge_completeness_mean": _mean([c.get("judge_completeness") for c in scored]),
+        "judge_flagged_cases": sum(1 for c in scored if c.get("judge_unsupported_claims")),
+        "judge_errors": sum(1 for c in scored if c.get("judge_error")),
         "n_context_docs_mean": _mean([c.get("n_context_docs") for c in scored]),
         "rerank_skip_rate": _mean([1.0 if c.get("rerank_skipped") else 0.0 for c in scored]),
         "rewrite_skip_rate": _mean([1.0 if c.get("rewrite_skipped") else 0.0 for c in scored]),
@@ -326,7 +427,11 @@ def main():
     parser.add_argument("--limit", type=int)
     parser.add_argument("--out", help="override output path")
     parser.add_argument("--compare", nargs=2, metavar=("A.json", "B.json"))
-    parser.add_argument("--judge", action="store_true", help="(reserved) LLM faithfulness judge")
+    parser.add_argument(
+        "--judge", action="store_true",
+        help="LLM judge: grade faithfulness/completeness against the retrieved "
+             "passages (one extra JUDGE_MODEL call per case, ~$0.002 each)",
+    )
     args = parser.parse_args()
 
     if args.compare:
@@ -335,8 +440,6 @@ def main():
 
     if not args.label:
         parser.error("--label is required for an eval run (or use --compare)")
-    if args.judge:
-        print("note: --judge is not implemented yet; ignoring", file=sys.stderr)
 
     cases = load_golden(args.golden, only=args.only, category=args.category, limit=args.limit)
     if not cases:
@@ -359,14 +462,17 @@ def main():
         k=config.MEMORY_WINDOW_K, memory_key="chat_history", return_messages=True
     )
 
+    judge_llm = make_judge(config) if args.judge else None
+
     bot = BCITChatbot()
-    print(f"\nRunning {len(cases)} cases (label={args.label})\n")
+    print(f"\nRunning {len(cases)} cases (label={args.label}"
+          f"{', judge=' + config.JUDGE_MODEL if judge_llm else ''})\n")
 
     records = []
     started = time.perf_counter()
     for i, case in enumerate(cases, 1):
         try:
-            record = run_case(bot, case, make_memory)
+            record = run_case(bot, case, make_memory, judge_llm)
         except Exception as exc:  # keep going; the failure is data too
             record = {
                 "id": case["id"],
@@ -379,12 +485,20 @@ def main():
             print(f"[{i}/{len(cases)}] {case['id']:8s} ERROR {record['error']}")
         else:
             usage = record.get("usage", {})
+            judge_part = ""
+            if record.get("judge_faithfulness") is not None:
+                judge_part = (
+                    f" judge={record['judge_faithfulness']:.2f}"
+                    f"/{record.get('judge_completeness', 0) or 0:.2f}"
+                )
+            elif record.get("judge_error"):
+                judge_part = " judge=ERR"
             print(
                 f"[{i}/{len(cases)}] {case['id']:8s} ok "
                 f"urls={_fmt(record.get('url_hit_fraction'))} "
                 f"facts={_fmt(record.get('fact_recall'))} "
                 f"in={usage.get('input_tokens')} out={usage.get('output_tokens')} "
-                f"t={record.get('timings', {}).get('total_s')}s"
+                f"t={record.get('timings', {}).get('total_s')}s{judge_part}"
             )
         sys.stdout.flush()
 

@@ -21,8 +21,8 @@ export default function Blog() {
         <p className="blog-subtitle">
           Ask about programs, admission requirements, courses, tuition, or campus
           life — in your own words. Every answer is built from 11,000+ official
-          BCIT web pages retrieved at question time, cites its sources, and shows
-          exactly what it cost to produce.
+          BCIT web pages retrieved at question time, streams in as it's written,
+          cites its sources, and shows exactly what it cost to produce.
         </p>
         <a href="/chat" className="blog-hero-cta">
           Try the live chatbot <ArrowRight size={18} />
@@ -85,7 +85,10 @@ export default function Blog() {
                   clean questions, one of messy real-world phrasing (typos,
                   acronyms, other languages). Current results: the right page is
                   retrieved 97–100% of the time across the two benchmarks, and
-                  92–95% of expected key facts appear in answers.
+                  92–95% of expected key facts appear in answers. An LLM judge
+                  additionally audits benchmark answers for any claim the
+                  retrieved evidence doesn't support, and the thumbs buttons
+                  under live answers feed real questions back into the test sets.
                 </p>
               </div>
             </div>
@@ -171,8 +174,10 @@ export default function Blog() {
                 <p>
                   A language model composes the reply from that evidence only,
                   enumerating each part of multi-part questions, and appends the
-                  source links. Each browser session keeps a private five-turn
-                  conversation memory so follow-ups resolve naturally.
+                  source links. The answer streams to your screen as it's
+                  written — first words about two seconds after you ask. Each
+                  browser session keeps a private five-turn conversation memory
+                  so follow-ups resolve naturally.
                 </p>
               </div>
             </div>
@@ -209,14 +214,30 @@ export default function Blog() {
             query-expansion tricks, a rerank-skipping shortcut — measured worse
             and were rejected; the numbers, not the vibes, decide.
           </p>
+          <p>
+            The serving layer gets the same discipline. Answers stream over
+            server-sent events, with the original blocking endpoint kept as an
+            automatic fallback (and as the evaluation harness's entry point —
+            both paths share one pipeline, so they cannot drift). Every request
+            carries a hard deadline and an input cap: a wedged upstream call
+            once parked a worker thread for eight minutes, and since threads
+            are uncancellable, the pool also keeps headroom. A{" "}
+            <code>/metrics</code> endpoint exposes live latency percentiles,
+            token totals, and cost. And measurement now goes beyond substring
+            checks: an LLM judge grades each benchmark answer's faithfulness
+            and completeness against the retrieved passages, while production
+            traces — thumbs-down feedback first — are mined into candidates for
+            the next benchmark set.
+          </p>
         </section>
 
         <section>
           <h2>What it costs to run</h2>
           <p>
             About <strong>$0.004 per question</strong> — roughly $4 per thousand
-            student questions — with answers typically arriving in 3–5 seconds.
-            Everything runs on a single small CPU-only virtual machine: the
+            student questions — with the first words on screen in about two
+            seconds and the full answer streamed in 3–5. Everything runs on a
+            single small CPU-only virtual machine: the
             heavyweight AI stages (embeddings, ranking, generation) are managed
             services on Google Cloud's Gemini Enterprise Agent Platform
             (formerly Vertex AI), authenticated end-to-end with workload
@@ -244,7 +265,8 @@ export default function Blog() {
           <p>
             Ask about admissions, program requirements, tuition, or campus life —
             then ask a follow-up, try an abbreviation, or ask in another language.
-            Check the sources and the cost line under every reply.
+            Watch the reply stream in, check the sources and the cost line under
+            it, and leave a thumbs up or down.
           </p>
           <a href="/chat" className="blog-hero-cta">
             Open the chatbot <ArrowRight size={18} />

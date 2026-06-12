@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Send, ArrowLeft } from "lucide-react";
+import { Send, ArrowLeft, ThumbsUp, ThumbsDown } from "lucide-react";
 import Blog from "./Blog";
 import "./App.css";
 
@@ -140,19 +140,62 @@ export default function App() {
   return <Blog />;
 }
 
-function Chat() {
-  const [messages, setMessages] = useState([
-    {
-      id: "1",
-      text: "Hello! I'm the BCIT AI Advisor. Ask me about programs, courses, admissions, or campus life.",
-      sender: "assistant",
-      timestamp: new Date()
-    }
-  ]);
+const MAX_MESSAGE_CHARS = 2000;   // matches the backend cap (config.MAX_MESSAGE_CHARS)
+const CLIENT_TIMEOUT_MS = 110000; // a beat above the server's CHAT_TIMEOUT_S
+const STORAGE_KEY = "bcit-chat-v1";
 
+const GREETING = {
+  id: "1",
+  text: "Hello! I'm the BCIT AI Advisor. Ask me about programs, courses, admissions, or campus life.",
+  sender: "assistant"
+};
+
+const STARTER_QUESTIONS = [
+  "What are the entrance requirements for Computer Systems Technology?",
+  "How much is tuition for international students?",
+  "What housing options does BCIT offer on the Burnaby campus?"
+];
+
+// Tab-scoped restore so a refresh doesn't wipe the conversation. Server
+// sessions expire after 30 min; sending an expired id is safe — the backend
+// re-adopts it as a fresh empty session.
+function loadSavedChat() {
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(STORAGE_KEY));
+    if (!Array.isArray(saved?.messages) || saved.messages.length === 0) return {};
+    return saved;
+  } catch {
+    return {};
+  }
+}
+
+// Pull complete SSE frames out of the buffer; returns [events, remainder].
+function parseSSEBuffer(buffer) {
+  const events = [];
+  const frames = buffer.split("\n\n");
+  const remainder = frames.pop();
+  for (const frame of frames) {
+    let event = "message";
+    const dataLines = [];
+    for (const line of frame.split("\n")) {
+      if (line.startsWith("event:")) event = line.slice(6).trim();
+      else if (line.startsWith("data:")) dataLines.push(line.slice(5).trim());
+    }
+    if (!dataLines.length) continue;
+    try {
+      events.push({ event, data: JSON.parse(dataLines.join("\n")) });
+    } catch {
+      // malformed frame — skip it
+    }
+  }
+  return [events, remainder];
+}
+
+function Chat() {
+  const [messages, setMessages] = useState(() => loadSavedChat().messages || [GREETING]);
+  const [sessionId, setSessionId] = useState(() => loadSavedChat().sessionId || null);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [sessionId, setSessionId] = useState(null);
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
@@ -161,66 +204,192 @@ function Chat() {
     }
   }, [messages]);
 
-  async function handleSend() {
-    if (!input.trim()) return;
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({ sessionId, messages: messages.slice(-40) })
+      );
+    } catch {
+      // storage unavailable/full — chat still works, just not across refresh
+    }
+  }, [messages, sessionId]);
 
-    const userMessage = {
-      id: Date.now().toString(),
-      text: input,
-      sender: "user",
-      timestamp: new Date()
-    };
+  // Append-or-update the assistant message for the in-flight turn, so
+  // streaming deltas, the stats footer, and error text all land in one bubble.
+  function upsertAssistant(id, updater) {
+    setMessages(prev => {
+      const idx = prev.findIndex(m => m.id === id);
+      if (idx === -1) {
+        return [...prev, updater({ id, text: "", sender: "assistant" })];
+      }
+      const next = [...prev];
+      next[idx] = updater(next[idx]);
+      return next;
+    });
+  }
 
-    setMessages(prev => [...prev, userMessage]);
-    setInput("");
-    setIsLoading(true);
+  // Returns {handled: false} when the streaming endpoint is unavailable and
+  // the caller should retry via plain POST /chat; throws on real errors.
+  async function sendStreaming(text, assistantId) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), CLIENT_TIMEOUT_MS);
+    let res;
+    try {
+      res = await fetch("/chat/stream", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text, session_id: sessionId }),
+        signal: controller.signal
+      });
+    } catch (err) {
+      clearTimeout(timer);
+      if (err?.name === "AbortError") throw err;
+      return { handled: false }; // network-level failure — try /chat once
+    }
 
+    const contentType = res.headers.get("content-type") || "";
+    if (!res.ok || !res.body || !contentType.includes("text/event-stream")) {
+      clearTimeout(timer);
+      if (res.status === 404 || res.status === 405) return { handled: false }; // backend without /chat/stream
+      let detail = "";
+      try { detail = (await res.json()).detail || ""; } catch { /* not JSON */ }
+      throw new Error(detail || `Request failed (${res.status})`);
+    }
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+    let streamedAny = false;
+    let errorDetail = null;
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        const [events, remainder] = parseSSEBuffer(buffer);
+        buffer = remainder;
+        for (const ev of events) {
+          if (ev.event === "session" && ev.data.session_id) {
+            setSessionId(ev.data.session_id);
+          } else if (ev.event === "delta") {
+            streamedAny = true;
+            upsertAssistant(assistantId, m => ({ ...m, text: m.text + ev.data.text }));
+          } else if (ev.event === "done") {
+            upsertAssistant(assistantId, m => ({ ...m, stats: ev.data.stats || null }));
+          } else if (ev.event === "error") {
+            errorDetail = ev.data.detail || "The request failed.";
+          }
+        }
+      }
+    } catch (err) {
+      if (streamedAny) {
+        upsertAssistant(assistantId, m => ({
+          ...m,
+          text: m.text + "\n\n(The answer was interrupted — please ask again.)"
+        }));
+        return { handled: true };
+      }
+      throw err;
+    } finally {
+      clearTimeout(timer);
+    }
+
+    if (errorDetail) {
+      if (!streamedAny) throw new Error(errorDetail);
+      upsertAssistant(assistantId, m => ({
+        ...m,
+        text: m.text + "\n\n(The answer was interrupted — please ask again.)"
+      }));
+    } else if (!streamedAny) {
+      return { handled: false }; // stream produced nothing — fall back once
+    }
+    return { handled: true };
+  }
+
+  async function sendBlocking(text, assistantId) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), CLIENT_TIMEOUT_MS);
     try {
       const res = await fetch("/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          message: userMessage.text,
-          session_id: sessionId
-        })
+        body: JSON.stringify({ message: text, session_id: sessionId }),
+        signal: controller.signal
       });
-
-      const data = await res.json();
-
-      if (data.session_id) {
-        setSessionId(data.session_id);
+      if (!res.ok) {
+        let detail = "";
+        try { detail = (await res.json()).detail || ""; } catch { /* not JSON */ }
+        throw new Error(detail || `Request failed (${res.status})`);
       }
-
-      const assistantMessage = {
-        id: (Date.now() + 1).toString(),
-        text: data.reply,
-        sender: "assistant",
-        stats: data.stats || null,
-        timestamp: new Date()
-      };
-
-      setMessages(prev => [...prev, assistantMessage]);
-    } catch (err) {
-      setMessages(prev => [
-        ...prev,
-        {
-          id: (Date.now() + 2).toString(),
-          text: "Something went wrong. Please make sure the backend server is running on port 8000.",
-          sender: "assistant",
-          timestamp: new Date()
-        }
-      ]);
+      const data = await res.json();
+      if (data.session_id) setSessionId(data.session_id);
+      upsertAssistant(assistantId, m => ({ ...m, text: data.reply, stats: data.stats || null }));
+    } finally {
+      clearTimeout(timer);
     }
+  }
 
+  async function handleSend(textOverride) {
+    const text = (textOverride ?? input).trim();
+    if (!text || isLoading) return;
+
+    const now = Date.now();
+    setMessages(prev => [...prev, { id: String(now), text, sender: "user" }]);
+    if (textOverride === undefined) setInput("");
+    setIsLoading(true);
+
+    const assistantId = String(now + 1);
+    try {
+      const { handled } = await sendStreaming(text, assistantId);
+      if (!handled) await sendBlocking(text, assistantId);
+    } catch (err) {
+      const aborted = err?.name === "AbortError";
+      const fallbackText = aborted
+        ? "The answer took too long — please try again."
+        : err?.message && !err.message.startsWith("Request failed")
+          ? err.message
+          : "Sorry — something went wrong while answering. Please try again in a moment.";
+      upsertAssistant(assistantId, m => ({ ...m, text: m.text || fallbackText }));
+    }
     setIsLoading(false);
   }
 
-  function handleKeyPress(e) {
+  function questionFor(assistantId) {
+    const idx = messages.findIndex(m => m.id === assistantId);
+    for (let i = idx - 1; i >= 0; i--) {
+      if (messages[i].sender === "user") return messages[i].text;
+    }
+    return "";
+  }
+
+  async function sendFeedback(message, verdict) {
+    setMessages(prev => prev.map(m => (m.id === message.id ? { ...m, feedback: verdict } : m)));
+    try {
+      await fetch("/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          session_id: sessionId,
+          verdict,
+          question: questionFor(message.id),
+          answer_excerpt: (message.text || "").slice(0, 1000)
+        })
+      });
+    } catch {
+      // feedback is best-effort
+    }
+  }
+
+  function handleKeyDown(e) {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSend();
     }
   }
+
+  const awaitingFirstDelta =
+    isLoading && messages[messages.length - 1]?.sender === "user";
 
   return (
     <main id="chat-container">
@@ -235,7 +404,7 @@ function Chat() {
         </a>
       </header>
 
-      <div className="chat-messages">
+      <div className="chat-messages" aria-live="polite">
         {messages.map(m => (
           <div
             key={m.id}
@@ -255,11 +424,44 @@ function Chat() {
                   <span>{m.stats.latency_s.toFixed(1)}s</span>
                 </div>
               )}
+              {m.sender === "assistant" && m.stats && (
+                <div className="msg-feedback">
+                  <button
+                    className={m.feedback === "up" ? "feedback-btn selected" : "feedback-btn"}
+                    onClick={() => sendFeedback(m, "up")}
+                    disabled={!!m.feedback}
+                    aria-label="Helpful answer"
+                    title="Helpful"
+                  >
+                    <ThumbsUp size={14} />
+                  </button>
+                  <button
+                    className={m.feedback === "down" ? "feedback-btn selected" : "feedback-btn"}
+                    onClick={() => sendFeedback(m, "down")}
+                    disabled={!!m.feedback}
+                    aria-label="Unhelpful answer"
+                    title="Not helpful"
+                  >
+                    <ThumbsDown size={14} />
+                  </button>
+                  {m.feedback && <span className="feedback-thanks">Thanks!</span>}
+                </div>
+              )}
             </div>
           </div>
         ))}
 
-        {isLoading && (
+        {messages.length === 1 && !isLoading && (
+          <div className="chat-chips" aria-label="Suggested questions">
+            {STARTER_QUESTIONS.map(q => (
+              <button key={q} className="chat-chip" onClick={() => handleSend(q)}>
+                {q}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {awaitingFirstDelta && (
           <div className="msg-row assistant-row">
             <div className="msg-bubble assistant-bubble typing-bubble">
               <span className="typing-dots">
@@ -277,13 +479,13 @@ function Chat() {
           className="chat-input"
           value={input}
           onChange={e => setInput(e.target.value)}
-          onKeyPress={handleKeyPress}
+          onKeyDown={handleKeyDown}
           placeholder="Ask about programs, admissions, campus life..."
-          disabled={isLoading}
+          maxLength={MAX_MESSAGE_CHARS}
         />
         <button
           className="chat-send"
-          onClick={handleSend}
+          onClick={() => handleSend()}
           disabled={isLoading || !input.trim()}
         >
           <Send size={20} />

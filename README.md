@@ -75,6 +75,17 @@ answers are stripped of their Sources section and capped at 1,500 chars —
 history is re-sent every turn, so it pays to keep it lean. Chat requests run
 in a thread pool so the FastAPI event loop never blocks.
 
+Answers stream: the UI talks to `POST /chat/stream` (SSE), which sends
+tokens as generation produces them — first token lands right after the
+rewrite/retrieve/rerank stages (~1.5–2 s) instead of after the full answer
+(3.6–6.7 s). The blocking `POST /chat` stays for the eval harness and as the
+UI's automatic fallback; both paths share the exact same pipeline
+(`_prepare_turn`/`_finalize_turn` in `query_rag.py`), so memory, cost
+accounting, and the `query_usage` log line are identical. Guardrails:
+`CHAT_TIMEOUT_S=90` (504 — the underlying worker thread is uncancellable,
+which is why `WORKER_THREADS=4` keeps headroom over expected concurrency)
+and `MAX_MESSAGE_CHARS=2000` (422).
+
 Every query produces one LangSmith trace (project `bcit-chatbot`) rooted at
 `bcit_query`, with a dedicated `vertex_rerank` retriever span; one
 structured `query_usage` JSON log line per query records tokens
@@ -209,6 +220,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
 | Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
+| Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
 
 Measured quality (both benchmark sets in `eval/`, all runs archived in
 `eval/benchmarks/202606_retrieval_cost_experiments/`; every number below
@@ -251,7 +263,29 @@ CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13 \
 
 # subsets while iterating
 .venv/bin/python eval/run_eval.py --label quick --category multipart --limit 3
+
+# LLM judge: faithfulness + completeness graded against the retrieved
+# passages (one extra JUDGE_MODEL call per case, ~$0.002 each)
+.venv/bin/python eval/run_eval.py --label after_judged --judge
+
+# golden-set candidates mined from production LangSmith traces; thumbs-down
+# feedback (journalctl dump) floats problem cases to the top
+.venv/bin/python eval/mine_langsmith.py --days 30 --feedback-log /tmp/feedback.log
 ```
+
+`--judge` adds `judge_faithfulness` / `judge_completeness` /
+`judge_unsupported_claims` per case and the corresponding means to the
+aggregate (`JUDGE_MODEL=gemini-3.5-flash`, schema-constrained JSON, graded
+strictly against the retrieved passages). Substring fact recall stays the
+headline metric — the judge complements it by catching paraphrases the
+substring match misses and by flagging claims the context never contained.
+A judge failure never sinks a case (`judge_error` + count instead).
+
+`eval/mine_langsmith.py` closes the data loop: it pulls root `bcit_query`
+runs, drops questions already in the golden sets (eval traffic), dedupes,
+and writes `eval/candidates_<date>.jsonl` with answer excerpts and
+sub-queries for triage. Curation stays manual on purpose — golden-set facts
+must be verified against the corpus before a candidate is promoted.
 
 Each run writes per-case records (retrieved URLs, missed facts, token usage,
 stage timings, answer excerpt) plus aggregates to `eval/results/<label>.json`
@@ -427,6 +461,21 @@ Environment quirks that cost time once — don't rediscover them:
 - **`config.py` reads env at import.** Anything that should affect a run
   (eval flags, `PG_CONNECTION` port rewrite) must be exported before Python
   starts; `load_dotenv()` does not override already-exported variables.
+- **Local uvicorn + LangSmith cold init can stall queries for minutes.** On
+  the WSL box, the first traced calls after a local server start sometimes
+  block while the LangSmith client initializes over a slow network path
+  (observed 2026-06-12: an easter-egg query — zero GCP calls — took 6 s in a
+  plain script and stalled minutes under uvicorn while requests piled up;
+  identical code with `LANGSMITH_TRACING=false` answered instantly, and a
+  later tracing-on run was also fine). Production on GCE is unaffected.
+  Run local smoke tests with `LANGSMITH_TRACING=false` first; only add
+  tracing once the no-tracing path is green.
+- **A restarted Cloud SQL proxy must postdate ADC reauth.** The proxy caches
+  credentials from launch: after `gcloud auth application-default login`,
+  an already-running proxy keeps failing (`server closed the connection
+  unexpectedly` on 5433) until you kill and restart it. And mind `pkill -f
+  cloud-sql-proxy` from a `bash -c` one-liner — the pattern matches the
+  shell's own command line and kills it (exit 15); use the saved pidfile.
 
 ---
 
@@ -451,8 +500,26 @@ Everything deployed/configured outside this repo, in one place:
 `https://www.bcitai.ca/health` and `/chat` both 200 through the same Origin
 Rule; `server.py` CORS already allowlists the `www` origin.
 
-Pending niceties: "Always Use HTTPS" is off (http://bcitai.ca serves without
-redirect).
+### Pending hardening (console/gcloud — not yet applied)
+
+- **"Always Use HTTPS" is off** (http://bcitai.ca serves without redirect) —
+  Cloudflare → SSL/TLS → Edge Certificates.
+- **The origin bypasses Cloudflare**: the GCP firewall allows tcp:8000 from
+  0.0.0.0/0, so `http://34.19.21.7:8000` reaches uvicorn directly — past any
+  Cloudflare rate limit. Restrict the rule to Cloudflare's ranges (find it
+  with `gcloud compute firewall-rules list --filter=targetTags:bcit-rag`):
+
+  ```bash
+  gcloud compute firewall-rules update <rule-name> \
+    --source-ranges="$(curl -s https://www.cloudflare.com/ips-v4 | tr '\n' ',' | sed 's/,$//')"
+  ```
+
+  Caveat: direct-IP debugging (`curl 34.19.21.7:8000/health`) stops working
+  afterwards — use `gcloud compute ssh` + `curl localhost:8000` instead.
+- **No rate limit on `POST /chat`** (~$0.004/query makes floods cheap to
+  inflict): Cloudflare → Security → WAF → Rate limiting rules, e.g.
+  10 req/min per IP on `bcitai.ca/chat*` methods POST. In-app guardrails
+  (input cap, timeout, worker pool) bound the damage but not the bill.
 
 ---
 
@@ -473,25 +540,27 @@ Ideas that fit the current architecture, with their natural hook points:
   cases in `eval/results/`). Hook: section-aware metadata at build time
   (`chunk_index` is already stamped), or a BM25 field boost on the
   program/course code.
-- **LLM-judge eval** — `run_eval.py --judge` is reserved but unimplemented;
-  key-fact recall is substring-based today. Hook: `score_case()`.
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
-- **Request timeout in the chat executor** — `/chat` has no deadline: a
-  Vertex call that wedges (observed once locally — a gRPC call sat ~8 min
-  before completing) parks one of the two worker threads the whole time.
-  Two wedged requests would freeze the service. Hook: `asyncio.wait_for`
-  around `query_chatbot_async` + a 504 response.
-- **Streaming responses** — `ChatVertexAI` supports streaming; `/chat` returns
-  a single JSON blob today. Needs SSE endpoint + frontend incremental render.
-- **Citations UI** — answers already end with a `Sources` section (prompt-enforced);
-  the frontend renders it as plain text. Parse and render as cards/links.
-- **Observability** — LangSmith traces (with a dedicated rerank span) and a
-  structured `query_usage` JSON log line per query exist; remaining: ship
-  the log line somewhere queryable and add a `/metrics` endpoint.
+- **golden_set_v3 from real traffic** — `eval/mine_langsmith.py` already
+  produces curated candidates from production traces + thumbs-down feedback;
+  the remaining step is human: verify facts against the corpus and promote
+  cases. Do this once enough real queries accumulate.
+- **Citations UI cards** — the Sources section renders as clickable links
+  today; richer cards (page titles, categories) need a structured
+  `sources: [{url, title}]` array in the chat response (metadata is already
+  on the retrieved docs server-side).
+- **Ship logs somewhere queryable** — `/metrics` (in-process aggregates),
+  LangSmith traces, and `query_usage`/`feedback_log` JSON lines exist;
+  remaining: a Cloud Logging sink or BigQuery export so log lines survive
+  restarts and can be queried historically.
 - **Frontend dist in CI** — `frontend/dist` is gitignored and deployed by scp;
   a GitHub Action building + deploying on push would remove the manual step.
+
+Shipped from this list in June 2026: SSE streaming (+ `/chat` fallback),
+request timeout + worker headroom, input caps, `run_eval.py --judge`,
+`/metrics`, per-answer feedback buttons + `/feedback`, trace mining.
 
 ## Repository layout
 
@@ -507,7 +576,9 @@ backend/
   build_pgvector.py        Indexing job (resumable, collection-versioned)
   drop_old_collection.sh   One-off: drop a retired collection via proxy
   eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
-  eval/run_eval.py         Offline eval harness (--label runs, --compare)
+  eval/golden_set_v2.jsonl 25-case messy-query set (acronyms, typos, Korean)
+  eval/run_eval.py         Offline eval harness (--label, --compare, --judge)
+  eval/mine_langsmith.py   Production traces -> golden-set candidate JSONL
   eval/results/            Per-run metrics JSON (gitignored)
   data/                    Crawled corpus (11,129 txt docs, 16 categories)
   vectorstore/             documents_<version>.pkl — BM25 source (generated, not committed)
@@ -524,10 +595,15 @@ frontend/
 | `GET /` | Blog landing page (also serves any non-API path as SPA fallback) |
 | `GET /chat` | Chatbot UI |
 | `POST /chat` | `{message, session_id?}` → `{reply, session_id, stats}` — `stats` = per-reply `{input_tokens, output_tokens, total_tokens, cost_usd, latency_s, model}` (rendered as the footer under each answer; cost = role-priced LLM tokens + Ranking API call + embedding, prices in `config.py`) |
+| `POST /chat/stream` | Same request body, SSE response: `session` ({session_id}) → `delta` ({text} fragments) → `done` ({stats}), or `error` ({detail}). The UI uses this and falls back to `POST /chat` if unavailable |
+| `POST /feedback` | `{session_id?, verdict: "up"/"down", question?, answer_excerpt?}` from the per-answer thumbs buttons → one structured `feedback_log` JSON log line (journald); `eval/mine_langsmith.py --feedback-log` floats the downs to the top of the golden-set candidates |
 | `POST /reset` | Clear a session's conversation history |
 | `GET /health` | Status + active session count |
+| `GET /metrics` | Aggregates since boot (queries, errors, timeouts, tokens, cost) + last-hour p50/p95 latency. Public — contains no question/session contents |
 
-No authentication — the chatbot is public.
+No authentication — the chatbot is public. Input is capped at
+`MAX_MESSAGE_CHARS` (2000 → 422) and every request carries a
+`CHAT_TIMEOUT_S` (90 s → 504) deadline.
 
 ---
 
