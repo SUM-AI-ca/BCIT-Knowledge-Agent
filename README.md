@@ -159,6 +159,42 @@ that the round-2 rerank-skip began firing on multi-page questions and
 losing facts — so the skip was retired (`RERANK_SKIP_CONSENSUS=0.0`; its
 saving was real only for identity-blind vectors). Net cost ~$0.0039/query.
 
+### The full metric history (June 2026, every stage archived)
+
+How the production numbers moved across the four optimization passes — all
+rows are archived eval runs on the same 40-case clean set
+(`eval/benchmarks/202606_model_comparison/` and
+`…/202606_retrieval_cost_experiments/`):
+
+| Stage | What changed | hit | recall | in_tok | $/query | p50 / p95 |
+|---|---|---|---|---|---|---|
+| 0. Baseline | whole-document context, no decomposition, all `gemini-3.5-flash` + default thinking (896 tok/answer) | 0.892 | 0.848 | 44,410 | ~$0.078¹ | 7.6 / 10.8 s |
+| 1. Chunk pipeline | decompose → parallel hybrid fan-out → pooled rerank + quota → neighbor expansion ±2, thinking 0 | 0.963 | 0.885 | 6,263 (−86%) | $0.0126 | 4.1 / 5.2 s |
+| 2. Model mix | generation → `3.1-flash-lite`, rewriter kept on `3.5-flash` | 0.963 | 0.890 | 6,274 | $0.0039 (−69%) | 3.6 / 4.8 s |
+| 3. Round 2 | BM25 title-aware index + consensus rerank-skip @0.6 | 0.975 | 0.931 | 5,877 | $0.00315 | 3.4 / 6.4 s |
+| 4. **Current** | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
+
+¹ Pre-dates the cost instrumentation: estimated from the measured tokens at
+the prices in effect (all 3.5-flash + Ranking API).
+
+The v2 messy-query set (acronyms, typos, Korean — created in round 2) tells
+the second half of the story:
+
+| Stage | hit | recall | messy cat. | follow_up cat. |
+|---|---|---|---|---|
+| Round-2 config | 0.940 | 0.937 | 1.000/1.000 | 0.750 (stuck in every config) |
+| + rewrite-skip on | 0.900 | 0.817 | **0.583 — reverted** | 0.750 |
+| **Current** | **1.000** | **0.950** | 1.000/1.000 | **1.000 — fixed** |
+
+Net: cost ~$0.078 → $0.0039 (−95%; −69% from the first instrumented
+figure), hit 0.892 → 0.975 clean / 1.000 messy, recall 0.848 → 0.925–0.950,
+input tokens −86%, thinking tokens 896 → 0, p50 −53%, citation precision
+1.000 throughout. The path was not monotonic: 45+ gated runs rejected ~15
+configurations outright and **reversed two adopted ones** (the simple-query
+rewrite skip, caught by the v2 set; the consensus rerank-skip, invalidated
+by identity embeddings) — and the final step deliberately spent +$0.0007
+per query to buy quality back.
+
 ### Current production configuration (June 2026, after the dense-identity rebuild)
 
 The complete live setup, with every value env-overridable for rollback:
