@@ -1,5 +1,52 @@
+:root {
+  /* Preserved brand navy */
+  --navy: #003c71;
+  --navy-deep: #00284d;
+  --navy-hover: #002f5c;
+
+  /* Dark canvas */
+  --bg-base: #001626;     /* deepest page background */
+  --bg-elev: #00213b;     /* slightly elevated surface */
+
+  /* Preserved light-blue accent */
+  --accent: #8db8e0;
+  --accent-strong: #bcd6f0;
+  --link: #9ecbff;        /* link on dark (lightened #0066cc family) */
+
+  /* Glass — slightly brightened */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-bg-hover: rgba(255, 255, 255, 0.13);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-highlight: rgba(255, 255, 255, 0.26);
+
+  /* Text on dark */
+  --text: rgba(255, 255, 255, 0.92);
+  --text-dim: rgba(255, 255, 255, 0.66);
+  --text-muted: rgba(255, 255, 255, 0.45);
+
+  /* Glow / shape — glow strengthened */
+  --glow-accent: rgba(141, 184, 224, 0.46);
+  --radius: 14px;
+  --radius-lg: 20px;
+  --shadow-glass: 0 10px 34px rgba(0, 0, 0, 0.40);
+  --glow: 0 0 58px rgba(141, 184, 224, 0.32);
+
+  /* Shared dark canvas: light-blue glow over a deep-navy gradient. Kept on
+     html/body so the backdrop-filter on glass surfaces always has something
+     to blur, and so there's no white flash before React mounts. */
+  --canvas:
+    radial-gradient(1100px 620px at 50% -8%, rgba(141, 184, 224, 0.26), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(0, 60, 113, 0.45), transparent 55%),
+    linear-gradient(180deg, var(--navy-deep) 0%, var(--bg-base) 60%);
+}
+
 html, body, #root {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+html, body {
+  background-color: var(--bg-base);
+  color: var(--text);
 }

@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Send, ArrowLeft, ThumbsUp, ThumbsDown } from "lucide-react";
+import { ArrowUp, ArrowLeft, ThumbsUp, ThumbsDown, Sparkles } from "lucide-react";
 import Blog from "./Blog";
 import "./App.css";
 
@@ -408,9 +408,14 @@ function Chat() {
         {messages.map(m => (
           <div
             key={m.id}
-            className={m.sender === "user" ? "msg-row user-row" : "msg-row assistant-row"}
+            className={m.sender === "user" ? "msg msg-user" : "msg msg-advisor"}
           >
-            <div className={m.sender === "user" ? "msg-bubble user-bubble" : "msg-bubble assistant-bubble"}>
+            <div className="msg-role">
+              {m.sender === "user"
+                ? "You"
+                : <><Sparkles size={13} /> Advisor</>}
+            </div>
+            <div className="msg-content">
               {m.sender === "assistant" ? formatMessage(m.text) : m.text}
               {m.stats && (
                 <div
@@ -462,8 +467,9 @@ function Chat() {
         )}
 
         {awaitingFirstDelta && (
-          <div className="msg-row assistant-row">
-            <div className="msg-bubble assistant-bubble typing-bubble">
+          <div className="msg msg-advisor">
+            <div className="msg-role"><Sparkles size={13} /> Advisor</div>
+            <div className="msg-content typing-content">
               <span className="typing-dots">
                 <span>.</span><span>.</span><span>.</span>
               </span>
@@ -488,7 +494,7 @@ function Chat() {
           onClick={() => handleSend()}
           disabled={isLoading || !input.trim()}
         >
-          <Send size={20} />
+          <ArrowUp size={22} />
         </button>
       </footer>
     </main>
