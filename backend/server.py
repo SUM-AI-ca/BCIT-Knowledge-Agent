@@ -275,6 +275,10 @@ async def metrics():
             "latency_p95_s": pct(0.95),
             "cost_usd": round(sum(e["cost_usd"] for e in recent), 4),
         },
+        "response_cache": (
+            chatbot.response_cache.stats()
+            if chatbot and getattr(chatbot, "response_cache", None) else None
+        ),
         **get_session_stats(),
     }
 

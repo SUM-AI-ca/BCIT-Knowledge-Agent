@@ -20,7 +20,7 @@ Credentials end to end). Every query is traced in LangSmith.
 | LLM | `gemini-3.1-flash-lite` (generation) + `gemini-3.5-flash` (query rewriter) via LangChain `ChatVertexAI` |
 | Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
-| Hosting | GCE `e2-standard-2` VM + Cloudflare (DNS, TLS, port routing) |
+| Hosting | GCE `e2-medium` VM + Cloudflare (DNS, TLS, port routing) |
 | Observability | LangSmith tracing (project `bcit-chatbot`) |
 
 ---
@@ -64,10 +64,21 @@ Credentials end to end). Every query is traced in LangSmith.
    (`Document N: [URL: …]`) are identical to the legacy format — the
    Sources-section prompt instructions depend on them.
 6. **Generate** — `GEMINI_MODEL=gemini-3.1-flash-lite`, static instructions
-   first / variable inputs last (implicit-cache-friendly),
+   first / variable inputs last (cache-friendly ordering, though the ~1k-token
+   prefix sits below Gemini's 2,048-token implicit-cache minimum, so the cache
+   stays inert today — verified `cache_read_tokens=0`; per-query cost is cut by
+   the first-turn response cache instead),
    `{question_parts}` enumerating multipart sub-questions,
    `max_output_tokens=2048` with `thinking_budget=0` (see gotchas — thinking
    counts against the cap).
+
+First-turn cache: before step 1, a question with **no conversation history**
+is looked up in an in-process TTL/LRU keyed on its normalized text — an exact
+repeat returns the stored answer in <100 ms at zero API cost and skips the
+whole pipeline (rewrite → retrieve → rerank → generate). Only no-history turns
+are cached (follow-ups depend on session state); the cache clears on restart,
+so it never serves an answer from a retired corpus. Exact-match only — no
+semantic similarity, so a near-miss can never return the wrong answer.
 
 Conversation state: each browser session holds a 5-turn
 `ConversationBufferWindowMemory`; sessions expire after 30 minutes. Saved
@@ -221,6 +232,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
+| Response cache | `RESPONSE_CACHE_ENABLED=true` | first-turn (no-history) questions key an in-process TTL/LRU on the normalized text (`RESPONSE_CACHE_MAX=1000`, `RESPONSE_CACHE_TTL_S=86400`); an exact repeat returns in <100 ms at $0. Exact-match only (no semantic similarity → never a wrong answer); follow-ups never cached; cleared on restart so it never outlives a corpus rebuild |
 
 Measured quality (both benchmark sets in `eval/`, all runs archived in
 `eval/benchmarks/202606_retrieval_cost_experiments/`; every number below
@@ -488,10 +500,10 @@ Everything deployed/configured outside this repo, in one place:
 | Production URL | https://bcitai.ca (chat at `/chat`) |
 | GitHub | `SUM-AI-ca/bcit-RAG-chatbot` (private; moved from `jp-ml/`) |
 | GCP project | `wine-agent-jh-2026` |
-| VM | `bcit-rag-vm`, us-west1-b, e2-standard-2, 34.19.21.7, firewall: tcp:8000 from **Cloudflare IPv4 ranges only** (rule `allow-bcit-chat`, tag `bcit-rag`, locked down 2026-06-12 — debug via `gcloud compute ssh` + `curl localhost:8000`, direct IP times out) |
+| VM | `bcit-rag-vm`, us-west1-b, **e2-medium** (resized from e2-standard-2 2026-06-18), **34.187.152.133 (static, reservation `bcit-rag-ip`)**, firewall: tcp:8000 from **Cloudflare IPv4 ranges only** (rule `allow-bcit-chat`, tag `bcit-rag`, locked down 2026-06-12 — debug via `gcloud compute ssh` + `curl localhost:8000`, direct IP times out) |
 | Cloud SQL | `bcit-rag-pg` (us-west1), db `ragdb`, user `raguser`, pgvector |
 | Live collection | `bcit_docs_202606` — 100,515 chunks from 11,129 docs (June 2026 crawl) |
-| Cloudflare | zone `bcitai.ca`: A `@` → 34.19.21.7 (proxied), Origin Rule port→8000, SSL Flexible |
+| Cloudflare | zone `bcitai.ca`: A `@` → 34.187.152.133 (proxied), Origin Rule port→8000, SSL Flexible |
 | LangSmith | project `bcit-chatbot` ([smith.langchain.com](https://smith.langchain.com)) — tracing on since 2026-06-10, enabled purely via env vars |
 | Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed |
 | Rollback assets | `backend/data_old_202409/` (old corpus, gitignored), VM `vectorstore/documents_old.pkl` |
@@ -505,7 +517,7 @@ Rule; `server.py` CORS already allowlists the `www` origin.
 - ✅ **"Always Use HTTPS" on** — `http://bcitai.ca` 301s to https (verified).
 - ✅ **Origin locked to Cloudflare** — `allow-bcit-chat` (tcp:8000) source
   ranges replaced with Cloudflare's published IPv4 list
-  (www.cloudflare.com/ips-v4, 15 CIDRs); direct `34.19.21.7:8000` access
+  (www.cloudflare.com/ips-v4, 15 CIDRs); direct `34.187.152.133:8000` access
   verified blocked. Debugging goes through `gcloud compute ssh bcit-rag-vm`
   + `curl localhost:8000`. If Cloudflare expands its ranges, rerun:
 
@@ -558,7 +570,9 @@ Ideas that fit the current architecture, with their natural hook points:
 
 Shipped from this list in June 2026: SSE streaming (+ `/chat` fallback),
 request timeout + worker headroom, input caps, `run_eval.py --judge`,
-`/metrics`, per-answer feedback buttons + `/feedback`, trace mining.
+`/metrics`, per-answer feedback buttons + `/feedback`, trace mining,
+first-turn response cache, route-split frontend bundle, VM right-sized to
+`e2-medium` (≈ half the prior monthly cost at the same quality).
 
 ## Repository layout
 
@@ -570,6 +584,7 @@ backend/
   reranker.py              Vertex AI Ranking API client
   embeddings.py            Vertex AI embedding wrapper
   config.py                All tunables (models, top-k, chunking, collection)
+  response_cache.py        First-turn exact-match answer cache (in-process TTL/LRU)
   crawl_bcit.py            Corpus crawler (sitemaps + outlines API)
   build_pgvector.py        Indexing job (resumable, collection-versioned)
   drop_old_collection.sh   One-off: drop a retired collection via proxy
@@ -581,9 +596,10 @@ backend/
   data/                    Crawled corpus (11,129 txt docs, 16 categories)
   vectorstore/             documents_<version>.pkl — BM25 source (generated, not committed)
 frontend/
-  src/App.jsx              Pathname routing: "/" → Blog, "/chat" → Chat
+  src/App.jsx              Pathname routing; lazy-loads Blog/Chat as separate chunks
+  src/Chat.jsx             Chat UI (own lazy chunk: SSE streaming + stats footer)
   src/Blog.jsx             Tech blog landing page (architecture deep dive)
-  vite.config.js           Dev proxy: POST /chat → backend; GET /chat → SPA
+  vite.config.js           Dev proxy + manualChunks vendor split (react, lucide)
 ```
 
 ## API
@@ -597,7 +613,7 @@ frontend/
 | `POST /feedback` | `{session_id?, verdict: "up"/"down", question?, answer_excerpt?}` from the per-answer thumbs buttons → one structured `feedback_log` JSON log line (journald); `eval/mine_langsmith.py --feedback-log` floats the downs to the top of the golden-set candidates |
 | `POST /reset` | Clear a session's conversation history |
 | `GET /health` | Status + active session count |
-| `GET /metrics` | Aggregates since boot (queries, errors, timeouts, tokens, cost) + last-hour p50/p95 latency. Public — contains no question/session contents |
+| `GET /metrics` | Aggregates since boot (queries, errors, timeouts, tokens, cost) + last-hour p50/p95 latency + response-cache hit/miss. Public — contains no question/session contents |
 
 No authentication — the chatbot is public. Input is capped at
 `MAX_MESSAGE_CHARS` (2000 → 422) and every request carries a
@@ -653,7 +669,7 @@ npm run build
 Browser ──HTTPS──▶ Cloudflare (proxied DNS, TLS termination, edge cache)
                       │  Origin Rule: destination port → 8000
                       ▼ HTTP :8000
-              GCE bcit-rag-vm (us-west1-b, e2-standard-2)
+              GCE bcit-rag-vm (us-west1-b, e2-medium)
                       │  systemd: bcit-chatbot.service (uvicorn :8000)
                       │  systemd: cloud-sql-proxy.service
                       ▼

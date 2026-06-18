@@ -84,7 +84,7 @@ MEMORY_WINDOW_K = _env_int("MEMORY_WINDOW_K", 5)
 # Vertex gRPC call was once observed holding a worker thread ~8 minutes.
 # The timeout 504s the client; the underlying thread cannot be cancelled
 # and runs to completion, which is why WORKER_THREADS stays above 2 (the
-# pipeline is API-bound, so threads > vCPUs is fine on the e2-standard-2).
+# pipeline is API-bound, so threads > vCPUs is fine on the e2-medium).
 CHAT_TIMEOUT_S = _env_int("CHAT_TIMEOUT_S", 90)
 WORKER_THREADS = _env_int("WORKER_THREADS", 4)
 # Longest real question in the eval sets is ~200 chars; 2000 leaves room for
@@ -96,6 +96,16 @@ MAX_MESSAGE_CHARS = _env_int("MAX_MESSAGE_CHARS", 2000)
 # compound across the window.
 STRIP_SOURCES_FROM_HISTORY = _env_bool("STRIP_SOURCES_FROM_HISTORY", True)
 HISTORY_MAX_ANSWER_CHARS = _env_int("HISTORY_MAX_ANSWER_CHARS", 1500)
+
+# First-turn response cache (exact-match, in-process). Only first-turn (no
+# history) questions are cached — follow-ups depend on session history, and
+# the answer to a no-history question is a pure function of the question +
+# corpus. Exact normalized match (no semantic similarity) so a near-miss can
+# never serve a wrong answer. In-process: a restart (every deploy / blue-green
+# corpus cutover) clears it, so a cached answer never outlives its corpus.
+RESPONSE_CACHE_ENABLED = _env_bool("RESPONSE_CACHE_ENABLED", True)
+RESPONSE_CACHE_MAX = _env_int("RESPONSE_CACHE_MAX", 1000)
+RESPONSE_CACHE_TTL_S = _env_int("RESPONSE_CACHE_TTL_S", 86400)
 
 # Per-call prices for the cost estimate shown to users and logged per query.
 # List prices as of 2026-06 (ai.google.dev/gemini-api/docs/pricing and the
@@ -211,6 +221,11 @@ GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
 # Static instructions come FIRST and the variable inputs (context, history,
 # question) LAST: Gemini's implicit caching can only reuse a shared prompt
 # prefix, and anything after the first changed byte is a cache miss.
+# NOTE (verified 2026-06-18: 47/47 query_usage lines had cache_read_tokens=0):
+# this static prefix is only ~1k tokens — below Gemini's 2,048-token implicit-
+# cache minimum — so the cache never actually engages today. The ordering is
+# kept as harmless future-proofing (it pays off only if the prefix ever grows
+# past 2,048 tokens). Per-query cost is instead cut by the response cache.
 RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
 
 Your role:

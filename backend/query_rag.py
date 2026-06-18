@@ -29,6 +29,7 @@ except ImportError:
 from embeddings import VertexGeminiEmbeddings
 from reranker import VertexRanker
 from hybrid_retriever import create_hybrid_retriever
+from response_cache import ResponseCache, normalize_question
 from config import (
     DOCUMENTS_PICKLE,
     EMBEDDING_MODEL,
@@ -93,6 +94,9 @@ from config import (
     REWRITE_SKIP_MAX_WORDS,
     STRIP_SOURCES_FROM_HISTORY,
     HISTORY_MAX_ANSWER_CHARS,
+    RESPONSE_CACHE_ENABLED,
+    RESPONSE_CACHE_MAX,
+    RESPONSE_CACHE_TTL_S,
 )
 
 logger = logging.getLogger("bcit.rag")
@@ -152,6 +156,7 @@ class BCITChatbot:
         self._initialize_reranker()
         self._setup_retriever()
         self._create_prompts()
+        self._initialize_cache()
 
         print("\nCommands: 'quit', 'exit', 'q' to exit\n")
 
@@ -266,6 +271,13 @@ class BCITChatbot:
             print("Reranker initialized")
         else:
             self.reranker = None
+
+    def _initialize_cache(self):
+        self.response_cache = (
+            ResponseCache(maxsize=RESPONSE_CACHE_MAX, ttl_s=RESPONSE_CACHE_TTL_S)
+            if RESPONSE_CACHE_ENABLED else None
+        )
+        print(f"Response cache: {'on' if self.response_cache else 'off'}")
 
     def _setup_retriever(self):
         if USE_HYBRID_SEARCH and self.documents:
@@ -745,20 +757,60 @@ class BCITChatbot:
         )
         return selected, sel_info
 
+    def _cached_turn(self, question, memory, answer, turn_start) -> dict:
+        """Build the meta for a first-turn cache hit. Mirrors _finalize_turn's
+        shape (so server stats/metrics and the query_usage log line are
+        identical) but zeroes usage/cost — a cache hit spends no API tokens —
+        and writes the same memory + log a generated turn would."""
+        memory.chat_memory.add_user_message(question)
+        memory.chat_memory.add_ai_message(self._history_view(answer))
+
+        meta = {
+            "answer": answer,
+            "docs": [],
+            "standalone_question": question,
+            "finish_reason": "",
+            "usage": {
+                "input_tokens": 0, "output_tokens": 0, "reasoning_tokens": 0,
+                "cache_read_tokens": 0,
+                "rewrite_input_tokens": 0, "rewrite_output_tokens": 0,
+            },
+            "n_rerank_calls": 0,
+            "models": {"generation": GEMINI_MODEL, "rewriter": REWRITER_MODEL},
+            "est_cost_usd": 0.0,
+            "timings": {"total_s": round(time.perf_counter() - turn_start, 3)},
+            "n_context_docs": 0,
+            "context_mode": CONTEXT_MODE,
+            "n_subqueries": 0,
+            "sub_queries": [],
+            "decompose_fallback": False,
+            "rewrite_skipped": False,
+            "rerank_skipped": False,
+            "pool_consensus": None,
+            "retrieval_mode": "cached",
+            "n_candidates": 0,
+            "cached": True,
+        }
+        log_entry = {k: v for k, v in meta.items() if k not in ("answer", "docs")}
+        logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
+        return meta
+
     def _prepare_turn(self, question: str, memory: ConversationBufferWindowMemory) -> dict:
         """Everything before generation: easter-egg short-circuit, history
         formatting, rewrite+decompose, (fan-out) retrieval, rerank, context
         assembly, prompt construction. Shared by query_with_meta (blocking)
         and query_stream (token streaming) so the two paths cannot drift.
 
-        Returns {"easter_meta": <complete meta>} for the short-circuit
-        (memory already written), else the state _finalize_turn consumes."""
+        Returns {"short_circuit": <complete meta>} for the easter-egg or
+        response-cache fast paths (memory already written), else the state
+        _finalize_turn consumes."""
+        turn_start = time.perf_counter()
         normalized = question.strip().upper()
         if normalized in EASTER_EGGS:
             answer = EASTER_EGGS[normalized]
             memory.chat_memory.add_user_message(question)
             memory.chat_memory.add_ai_message(answer)
-            return {"easter_meta": {
+            return {"short_circuit": {
                 "answer": answer,
                 "docs": [],
                 "standalone_question": question,
@@ -771,6 +823,21 @@ class BCITChatbot:
 
         t_start = time.perf_counter()
         chat_history = self._format_chat_history(memory)
+
+        # First-turn exact-match cache: a no-history question's answer is a
+        # pure function of the question + corpus, so identical first questions
+        # share an answer and skip the whole pipeline. Follow-ups are never
+        # cached (they depend on session history). _finalize_turn stores on a
+        # miss; `cacheable` flows through prep so it knows whether to.
+        first_turn = (
+            self.response_cache is not None
+            and chat_history == "No previous conversation."
+        )
+        if first_turn:
+            cached_answer = self.response_cache.get(normalize_question(question))
+            if cached_answer is not None:
+                return {"short_circuit": self._cached_turn(
+                    question, memory, cached_answer, turn_start)}
 
         t0 = time.perf_counter()
         rewrite_skipped = False
@@ -876,6 +943,7 @@ class BCITChatbot:
         return {
             "t_start": t_start,
             "question": question,
+            "cacheable": first_turn,
             "prompt_value": prompt_value,
             "docs": docs,
             "standalone_question": standalone_question,
@@ -964,11 +1032,19 @@ class BCITChatbot:
             "pool_consensus": prep["pool_consensus"],
             "retrieval_mode": "fanout" if prep["use_fanout"] else "single",
             "n_candidates": prep["n_candidates"],
+            "cached": False,
             **prep["context_stats"],
         }
 
         log_entry = {k: v for k, v in meta.items() if k not in ("answer", "docs")}
         logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
+
+        # Cache first-turn answers for exact-match reuse. Skip truncated ones —
+        # a MAX_TOKENS answer likely lost its Sources section. Follow-ups carry
+        # cacheable=False (set in _prepare_turn), so only no-history turns land.
+        if (prep.get("cacheable") and self.response_cache is not None
+                and finish_reason != "MAX_TOKENS"):
+            self.response_cache.set(normalize_question(prep["question"]), answer)
 
         return meta
 
@@ -978,8 +1054,8 @@ class BCITChatbot:
             memory = self.memory
 
         prep = self._prepare_turn(question, memory)
-        if "easter_meta" in prep:
-            return prep["easter_meta"]
+        if "short_circuit" in prep:
+            return prep["short_circuit"]
 
         t0 = time.perf_counter()
         msg = self.llm.invoke(prep["prompt_value"])
@@ -1007,9 +1083,10 @@ class BCITChatbot:
             memory = self.memory
 
         prep = self._prepare_turn(question, memory)
-        if "easter_meta" in prep:
-            yield ("delta", prep["easter_meta"]["answer"])
-            yield ("done", prep["easter_meta"])
+        if "short_circuit" in prep:
+            sc = prep["short_circuit"]
+            yield ("delta", sc["answer"])
+            yield ("done", sc)
             return
 
         t0 = time.perf_counter()
