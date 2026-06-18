@@ -72,6 +72,15 @@ Credentials end to end). Every query is traced in LangSmith.
    `max_output_tokens=2048` with `thinking_budget=0` (see gotchas — thinking
    counts against the cap).
 
+Answer language: retrieval and the rewrite always run in **English** (the
+corpus is English), but generation replies in the **language of the student's
+question** (`RESPONSE_LANGUAGE=match`; set `en` to force English). The original
+question — not the English rewrite — is what the generation prompt carries, so
+the model knows which language to use; facts are translated from the English
+context while program/course names, codes, URLs, and the literal "Sources"
+heading stay verbatim. Verified live in English, Korean, Spanish, French, and
+Japanese, including follow-ups and multipart questions.
+
 First-turn cache: before step 1, a question with **no conversation history**
 is looked up in an in-process TTL/LRU keyed on its normalized text — an exact
 repeat returns the stored answer in <100 ms at zero API cost and skips the
@@ -230,6 +239,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
 | Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
+| Response language | `RESPONSE_LANGUAGE=match` | generation replies in the **student's** language while retrieval + rewrite stay English (the corpus is English; the rewriter's translation is load-bearing). Facts are translated from the English context, but program/course names, codes, URLs, and the literal "Sources" heading are kept as-is. `en` forces English (legacy) |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
 | Response cache | `RESPONSE_CACHE_ENABLED=true` | first-turn (no-history) questions key an in-process TTL/LRU on the normalized text (`RESPONSE_CACHE_MAX=1000`, `RESPONSE_CACHE_TTL_S=86400`); an exact repeat returns in <100 ms at $0. Exact-match only (no semantic similarity → never a wrong answer); follow-ups never cached; cleared on restart so it never outlives a corpus rebuild |

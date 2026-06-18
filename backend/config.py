@@ -218,6 +218,24 @@ REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
 # cap; the eval sweep compares None (+4096 cap) for answer quality.
 GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
 
+# Response language. "match": answer in the language of the student's latest
+# question (retrieval + rewriter stay English — the corpus is English, and the
+# v2 eval showed the rewriter's translation is load-bearing); "en": always
+# English (legacy). Env-overridable for instant rollback.
+RESPONSE_LANGUAGE = _env_str("RESPONSE_LANGUAGE", "match")
+_LANGUAGE_RULES = {
+    "match": (
+        "   - Reply in the SAME language the student used in their latest question\n"
+        "     below. If the question mixes languages, is only a course/program code,\n"
+        "     or is otherwise ambiguous, default to English.\n"
+        "   - The retrieved BCIT documents are in English: translate the facts you\n"
+        "     use into the student's language, but keep program/course names, codes,\n"
+        "     and all URLs exactly as written."
+    ),
+    "en": "   - Always respond in English only.",
+}
+_LANGUAGE_RULE = _LANGUAGE_RULES.get(RESPONSE_LANGUAGE, _LANGUAGE_RULES["match"])
+
 # Static instructions come FIRST and the variable inputs (context, history,
 # question) LAST: Gemini's implicit caching can only reuse a shared prompt
 # prefix, and anything after the first changed byte is a cache miss.
@@ -231,12 +249,12 @@ RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technolog
 Your role:
 - Answer the student's question using ONLY the provided BCIT documents and recent conversation history for any BCIT specific facts.
 - You may use your general world knowledge only for non BCIT background explanations.
-- Always respond in ENGLISH.
+- Answer in the language set by the LANGUAGE rule in the instructions below.
 
 INSTRUCTIONS:
 
 1. LANGUAGE
-   - Always respond in English only.
+__LANGUAGE_RULE__
    - Do not use hedging phrases such as "I think", "I would say", or "maybe",
      unless you are explicitly describing uncertainty in the documents.
 
@@ -257,8 +275,9 @@ INSTRUCTIONS:
    - If only flexible learning information is present, answer using that and briefly clarify that only flexible learning details were available.
 
 5. MISSING OR INCOMPLETE INFORMATION
-   - If the student asks for BCIT specific information that is not present in the retrieved text:
-       "This specific information is not in the available documents."
+   - If the student asks for BCIT specific information that is not present in the
+     retrieved text, tell them that this specific information is not in the
+     available documents (phrased in the same language as the rest of your answer).
    - You may then suggest how the student could find the information, for example
      by checking the official BCIT website, but do not fabricate URLs, dates,
      or numeric values.
@@ -279,7 +298,9 @@ INSTRUCTIONS:
    - Do not mention the words "context", "documents", or "prompt" in your answer.
 
 8. SOURCES (BCIT URLs)
-   - At the end of your answer, add a section titled "Sources".
+   - At the end of your answer, add a section whose heading is the exact word
+     "Sources" — keep that heading in English even when the rest of the answer
+     is written in another language.
    - Under "Sources", list only the BCIT URLs that appear in the retrieved text and that
      you actually used, one per line, each formatted exactly as:
        - https://...
@@ -300,6 +321,10 @@ Inputs:
 {question}{question_parts}
 
 Answer:"""
+
+# Inject the configured language rule. A non-brace sentinel keeps it out of the
+# ChatPromptTemplate {var} namespace (which owns {context}/{chat_history}/etc).
+RAG_PROMPT_TEMPLATE = RAG_PROMPT_TEMPLATE.replace("__LANGUAGE_RULE__", _LANGUAGE_RULE)
 
 # Combined rewrite + decompose (one JSON call per turn, replaces the legacy
 # rewrite when MULTI_QUERY_ENABLED). The schema is enforced server-side via
