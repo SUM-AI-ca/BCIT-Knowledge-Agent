@@ -383,8 +383,14 @@ A decision record for future development — each of these was deliberate:
    local cross-encoder; it was migrated to Vertex AI + Cloud SQL pgvector so a
    2-vCPU VM can serve everything. Embeddings, reranking, and generation are
    all API calls; the VM only does BM25 + orchestration.
-2. **1536-dim MRL truncation.** pgvector's HNSW index supports ≤ 2000 dims, so
-   `gemini-embedding-001` (3072 native) is truncated to 1536 via MRL.
+2. **`gemini-embedding-001` at 1536-dim MRL truncation.** pgvector's HNSW index
+   supports ≤ 2000 dims, so `gemini-embedding-001` (3072 native) is truncated to
+   1536 via MRL. `gemini-embedding-2` (multimodal, GA 2026-04) was A/B-tested
+   2026-06 and **regressed** retrieval on both golden sets (v1 URL-hit
+   0.975→0.950, fact recall 0.912→0.900; v2 URL full-hit 1.000→0.960, fact
+   recall 0.930→0.897) at no cost win — its value is multimodal, irrelevant to
+   this text-only corpus, and it needs the `google-genai` SDK at
+   `location="global"` (the legacy `VertexAIEmbeddings` path rejects it). 001 stays.
 3. **RRF over score normalization.** Dense cosine scores and BM25 scores are
    incomparable; fusing by rank position avoids calibration entirely.
 4. **`ef_search=100`.** pgvector's default of 40 silently caps how many
@@ -577,6 +583,13 @@ Ideas that fit the current architecture, with their natural hook points:
   restarts and can be queried historically.
 - **Frontend dist in CI** — `frontend/dist` is gitignored and deployed by scp;
   a GitHub Action building + deploying on push would remove the manual step.
+- **Migrate the embedding SDK off the deprecated path** — `embeddings.py` uses
+  `langchain_google_vertexai.VertexAIEmbeddings` (the legacy
+  `vertexai.language_models` path, removal scheduled ~2026-06-24). The 2026-06
+  emb2 trial confirmed the already-installed `google-genai` SDK
+  (`genai.Client(vertexai=True).models.embed_content`) is retrieval-equivalent
+  for 001 — swap to it (also unlocks newer models, e.g. emb2 at
+  `location="global"`). Hook: `backend/embeddings.py`.
 
 Shipped from this list in June 2026: SSE streaming (+ `/chat` fallback),
 request timeout + worker headroom, input caps, `run_eval.py --judge`,
