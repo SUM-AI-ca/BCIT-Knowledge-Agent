@@ -17,7 +17,7 @@ Credentials end to end). Every query is traced in LangSmith.
 | Sparse retrieval | In-process BM25 (`rank_bm25`) |
 | Rank fusion | Reciprocal Rank Fusion (alpha 0.48, k=60) |
 | Reranker | Vertex AI Ranking API (`semantic-ranker-default-004`) |
-| LLM | `gemini-3.1-flash-lite` (generation) + `gemini-3.5-flash` (query rewriter) via LangChain `ChatVertexAI` |
+| LLM | `gemini-3.5-flash-lite` (generation) + `gemini-3.6-flash` (query rewriter) via LangChain `ChatVertexAI` |
 | Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
 | Hosting | GCE `e2-medium` VM + Cloudflare (DNS, TLS, port routing) |
@@ -28,7 +28,7 @@ Credentials end to end). Every query is traced in LangSmith.
 ## How a query flows
 
 1. **Rewrite + decompose** — one schema-constrained JSON call per turn
-   (`REWRITER_MODEL=gemini-3.5-flash`, temperature 0, thinking 0, ~430
+   (`REWRITER_MODEL=gemini-3.6-flash`, temperature 0, thinking 0, ~430
    tokens) returns a standalone question (pronouns resolved from history)
    plus 1–4 self-contained sub-queries. The rewriter deliberately runs on a
    stronger model than generation: sub-query quality drives retrieval
@@ -63,7 +63,7 @@ Credentials end to end). Every query is traced in LangSmith.
    lowest-ranked sources first). Citation headers
    (`Document N: [URL: …]`) are identical to the legacy format — the
    Sources-section prompt instructions depend on them.
-6. **Generate** — `GEMINI_MODEL=gemini-3.1-flash-lite`, static instructions
+6. **Generate** — `GEMINI_MODEL=gemini-3.5-flash-lite`, static instructions
    first / variable inputs last (cache-friendly ordering, though the ~1k-token
    prefix sits below Gemini's 2,048-token implicit-cache minimum, so the cache
    stays inert today — verified `cache_read_tokens=0`; per-query cost is cut by
@@ -208,6 +208,17 @@ rows are archived eval runs on the same 40-case clean set
 ¹ Pre-dates the cost instrumentation: estimated from the measured tokens at
 the prices in effect (all 3.5-flash + Ranking API).
 
+> **These rows are archived runs, not the shipping configuration.** Every row
+> above — including the one labelled *Current* — was measured on the previous
+> model pair (`gemini-3.1-flash-lite` generation + `gemini-3.5-flash` rewriter).
+> In August 2026 both moved to their successors (`gemini-3.5-flash-lite` /
+> `gemini-3.6-flash`), which has **not** been re-benchmarked, so the numbers are
+> left as measured rather than restated for models that never ran. The quality
+> columns should carry over closely; the `$/query` column will not — flash-lite
+> output went $1.50 → $2.50/M while the rewriter went $9.00 → $7.50/M. The cost
+> shown live under each answer is computed from `config.py`'s current prices and
+> is accurate; these figures are historical. Re-run `eval/run_eval.py` to refresh.
+
 The v2 messy-query set (acronyms, typos, Korean — created in round 2) tells
 the second half of the story:
 
@@ -232,13 +243,13 @@ The complete live setup, with every value env-overridable for rollback:
 
 | Stage | Setting | Value |
 |---|---|---|
-| Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.5-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
+| Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.6-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
 | Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
-| Generation | `GEMINI_MODEL` | `gemini-3.1-flash-lite`, temp 0.05, max 2048, thinking 0 |
+| Generation | `GEMINI_MODEL` | `gemini-3.5-flash-lite`, temp 0.05, max 2048, thinking 0 |
 | Response language | `RESPONSE_LANGUAGE=match` | generation replies in the **student's** language while retrieval + rewrite stay English (the corpus is English; the rewriter's translation is load-bearing). Facts are translated from the English context, but program/course names, codes, URLs, and the literal "Sources" heading are kept as-is. `en` forces English (legacy) |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
@@ -297,7 +308,7 @@ CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13 \
 
 `--judge` adds `judge_faithfulness` / `judge_completeness` /
 `judge_unsupported_claims` per case and the corresponding means to the
-aggregate (`JUDGE_MODEL=gemini-3.5-flash`, schema-constrained JSON, graded
+aggregate (`JUDGE_MODEL=gemini-3.6-flash`, schema-constrained JSON, graded
 strictly against the retrieved passages). Substring fact recall stays the
 headline metric — the judge complements it by catching paraphrases the
 substring match misses and by flagging claims the context never contained.
@@ -776,3 +787,39 @@ sudo systemctl status bcit-chatbot
 sudo journalctl -u bcit-chatbot -f
 curl -s https://bcitai.ca/health
 ```
+
+---
+
+## License & attribution
+
+Full statement in [`NOTICE`](NOTICE); the short version:
+
+**Corpus.** The 11,129 text files in `backend/data/` are copies of pages from
+BCIT's public website — **© British Columbia Institute of Technology**. BCIT's
+website terms allow copying and distributing that content for informational,
+non-commercial purposes, unmodified, and only if the copyright notice travels
+with it. That notice is carried in [`NOTICE`](NOTICE), in
+[`backend/data/README.md`](backend/data/README.md) next to the files, and in the
+footer of both web pages. BCIT may revoke the permission at any time; on written
+notice this content comes down.
+
+**Not official.** This project is **not affiliated with, endorsed by, or
+sponsored by** BCIT. "BCIT" and "British Columbia Institute of Technology" are
+BCIT's registered trade marks, used here only to identify what the chatbot
+answers questions about. No BCIT logo is reproduced. **bcit.ca is always the
+authoritative source** — the corpus is a point-in-time snapshot and goes stale.
+
+**Answers are generated, not quoted.** The model paraphrases retrieved page text
+(`config.py`: *"Do not copy long paragraphs verbatim from the documents"*), so
+answers are summaries rather than BCIT content, and can be wrong or out of date.
+They are not official BCIT information or advice.
+
+**Non-commercial.** A personal engineering project. Nothing is sold, no ads, no
+referral or affiliate revenue.
+
+**No warranty.** Provided "as is", without warranty of any kind, express or
+implied, including the implied warranties of merchantability, fitness for a
+particular purpose, and non-infringement.
+
+The project's own source code carries no license grant — all rights reserved
+unless a `LICENSE` file is added.

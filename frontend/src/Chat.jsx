@@ -387,7 +387,7 @@ export default function Chat() {
       <header className="chat-header">
         <div>
           <h1>BCIT AI Advisor</h1>
-          <p>Ask me about anything in BCIT</p>
+          <p>An independent AI guide to BCIT&apos;s public web pages</p>
         </div>
         <a href="/" className="chat-home-link">
           <ArrowLeft size={16} />
@@ -488,6 +488,19 @@ export default function Chat() {
           <ArrowUp size={22} />
         </button>
       </footer>
+
+      {/* This is the page that actually serves BCIT-derived content, so the
+          attribution and the accuracy warning belong here rather than only on
+          the About page. Kept to one line so it stays out of the way. */}
+      <p className="chat-disclaimer">
+        Independent project — not affiliated with, endorsed by, or sponsored by
+        BCIT &middot; AI-generated answers can be wrong or out of date; confirm
+        anything that matters on{" "}
+        <a href="https://www.bcit.ca" target="_blank" rel="noopener noreferrer">
+          bcit.ca
+        </a>{" "}
+        &middot; Source content &copy; British Columbia Institute of Technology
+      </p>
     </main>
   );
 }

@@ -65,12 +65,17 @@ PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606da")
 # generation on flash-lite cut cost 69% at equal-or-better quality, but ONLY
 # with the rewriter kept on 3.5-flash — sub-query quality drives retrieval
 # (pure lite: hit 0.929; mix: hit 0.963 / recall 0.890, best of all runs).
-GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.1-flash-lite")
-REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.5-flash")
+# August 2026: both models moved to their successors (3.1-flash-lite →
+# 3.5-flash-lite, 3.5-flash → 3.6-flash). The *shape* of the finding is what
+# carries over — a lite generator paired with a full-size rewriter — not the
+# specific scores above, which were measured on the older pair and are left
+# as-is in eval/benchmarks/ rather than being restated for models never run.
+GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.5-flash-lite")
+REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.6-flash")
 # Offline eval only (run_eval.py --judge): scores answer faithfulness and
 # completeness against the retrieved context. Same class as the rewriter —
 # judging is a reading task that lite models measurably do worse.
-JUDGE_MODEL = _env_str("JUDGE_MODEL", "gemini-3.5-flash")
+JUDGE_MODEL = _env_str("JUDGE_MODEL", "gemini-3.6-flash")
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
@@ -108,13 +113,18 @@ RESPONSE_CACHE_MAX = _env_int("RESPONSE_CACHE_MAX", 1000)
 RESPONSE_CACHE_TTL_S = _env_int("RESPONSE_CACHE_TTL_S", 86400)
 
 # Per-call prices for the cost estimate shown to users and logged per query.
-# List prices as of 2026-06 (ai.google.dev/gemini-api/docs/pricing and the
+# List prices as of 2026-08 (ai.google.dev/gemini-api/docs/pricing and the
 # Ranking API pricing page) — UPDATE THESE when models or prices change; all
 # env-overridable. Output prices include thinking tokens.
-PRICE_GEN_INPUT_PER_M = _env_float("PRICE_GEN_INPUT_PER_M", 0.25)      # gemini-3.1-flash-lite
-PRICE_GEN_OUTPUT_PER_M = _env_float("PRICE_GEN_OUTPUT_PER_M", 1.50)
-PRICE_REWRITE_INPUT_PER_M = _env_float("PRICE_REWRITE_INPUT_PER_M", 1.50)   # gemini-3.5-flash
-PRICE_REWRITE_OUTPUT_PER_M = _env_float("PRICE_REWRITE_OUTPUT_PER_M", 9.00)
+#
+# These MUST be changed together with GEMINI_MODEL / REWRITER_MODEL above: the
+# number they produce is rendered under every answer, so a model swap without a
+# price swap quotes the user a figure for a model that did not run. The 2026-08
+# move to 3.5-flash-lite / 3.6-flash pushes generation up and rewriting down.
+PRICE_GEN_INPUT_PER_M = _env_float("PRICE_GEN_INPUT_PER_M", 0.30)      # gemini-3.5-flash-lite
+PRICE_GEN_OUTPUT_PER_M = _env_float("PRICE_GEN_OUTPUT_PER_M", 2.50)
+PRICE_REWRITE_INPUT_PER_M = _env_float("PRICE_REWRITE_INPUT_PER_M", 1.50)   # gemini-3.6-flash
+PRICE_REWRITE_OUTPUT_PER_M = _env_float("PRICE_REWRITE_OUTPUT_PER_M", 7.50)
 PRICE_RERANK_PER_CALL = _env_float("PRICE_RERANK_PER_CALL", 0.001)     # Ranking API $1/1k queries
 PRICE_EMBED_PER_QUERY = _env_float("PRICE_EMBED_PER_QUERY", 0.00001)   # $0.15/M x ~60 tokens
 

@@ -97,9 +97,10 @@ export default function Blog() {
               <div>
                 <strong>Transparent cost</strong>
                 <p>
-                  Every reply shows its own token usage and price — well under
-                  half a cent per question — so the economics of running this at
-                  student-services scale are visible in the product itself.
+                  Every reply shows its own token usage and price, computed from
+                  the live per-token rates rather than a quoted average, so the
+                  economics of running this at student-services scale are
+                  visible in the product itself.
                 </p>
               </div>
             </div>
@@ -234,9 +235,9 @@ export default function Blog() {
         <section>
           <h2>What it costs to run</h2>
           <p>
-            About <strong>$0.004 per question</strong> — roughly $4 per thousand
-            student questions — with the first words on screen in about two
-            seconds and the full answer streamed in 3–5. Everything runs on a
+            A fraction of a cent per question — the exact figure is measured and
+            shown under every answer — with the first words on screen in about
+            two seconds and the full answer streamed in 3–5. Everything runs on a
             single small CPU-only virtual machine: the
             heavyweight AI stages (embeddings, ranking, generation) are managed
             services on Google Cloud's Gemini Enterprise Agent Platform
@@ -278,7 +279,19 @@ export default function Blog() {
         <p>
           BCIT AI Advisor · Retrieval-augmented chatbot built on Google Cloud
           (Gemini Enterprise Agent Platform, Cloud SQL pgvector) · Not
-          affiliated with the British Columbia Institute of Technology
+          affiliated with, endorsed by, or sponsored by the British Columbia
+          Institute of Technology
+        </p>
+        <p>
+          Answers are AI-generated and may be wrong or out of date — confirm
+          anything that matters on{" "}
+          <a href="https://www.bcit.ca" target="_blank" rel="noopener noreferrer">
+            bcit.ca
+          </a>
+          . Source content © British Columbia Institute of Technology, used for
+          informational, non-commercial purposes. &ldquo;BCIT&rdquo; and
+          &ldquo;British Columbia Institute of Technology&rdquo; are registered
+          trade marks of BCIT.
         </p>
         <p>
           Made by{" "}
