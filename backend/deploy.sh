@@ -58,8 +58,18 @@ echo "About to deploy to $VM ($ZONE, $PROJECT):"
 printf '  %s\n' "${FILES[@]}"
 echo
 echo "Local HEAD: $(git log --oneline -1)"
-read -r -p "Continue? [y/N] " ok
-[ "$ok" = "y" ] || { echo "aborted"; exit 1; }
+
+# The prompt is there to catch an interactive mistake. When stdin is not a
+# terminal there is nobody to answer it, and `read` returning EOF under
+# `set -e` would kill the script silently — no output, no deploy, no clue why.
+# Running this command with an explicit file list IS the confirmation.
+if [ -t 0 ]; then
+  ok=""
+  read -r -p "Continue? [y/N] " ok || true
+  [ "$ok" = "y" ] || { echo "aborted"; exit 1; }
+else
+  echo "(stdin is not a terminal — proceeding without the prompt)"
+fi
 
 SRC=()
 for f in "${FILES[@]}"; do
