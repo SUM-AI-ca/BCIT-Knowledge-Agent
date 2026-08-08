@@ -680,10 +680,10 @@ Everything deployed/configured outside this repo, in one place:
 | GCP project | `wine-agent-jh-2026` |
 | VM | `bcit-rag-vm`, us-west1-b, **e2-medium** (resized from e2-standard-2 2026-06-18), **34.187.152.133 (static, reservation `bcit-rag-ip`)**, firewall: tcp:8000 from **Cloudflare IPv4 ranges only** (rule `allow-bcit-chat`, tag `bcit-rag`, locked down 2026-06-12 — debug via `gcloud compute ssh` + `curl localhost:8000`, direct IP times out) |
 | Cloud SQL | `bcit-rag-pg` (us-west1), db `ragdb`, user `raguser`, pgvector |
-| Live collection | `bcit_docs_202606` — 100,515 chunks from 11,129 docs (June 2026 crawl) |
+| Live collection | `bcit_docs_202606da` — 100,515 chunks from 11,129 docs (June 2026 crawl, identity-prefixed embeddings). `bcit_docs_202606` is the identity-blind predecessor, retained for rollback; both hold byte-identical chunk text and share `documents_202606.pkl` |
 | Cloudflare | zone `bcitai.ca`: A `@` → 34.187.152.133 (proxied), Origin Rule port→8000, SSL Flexible |
 | LangSmith | project `bcit-chatbot` ([smith.langchain.com](https://smith.langchain.com)) — tracing on since 2026-06-10, enabled purely via env vars |
-| Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed |
+| Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed. Google Cloud access is ADC only (VM service account in production), so there is no Google Cloud key in this file |
 | Rollback assets | `backend/data_old_202409/` (old corpus, gitignored), VM `vectorstore/documents_old.pkl` |
 
 `www` CNAME added 2026-06-11 (`www` → `bcitai.ca`, proxied) — verified:

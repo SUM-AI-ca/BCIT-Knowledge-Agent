@@ -9,6 +9,27 @@ the primary quality target.
 Every experiment is a config flag that defaults to the previous behavior;
 adoption required passing per-experiment gates against a fresh baseline.
 
+> **Retro-note (2026-08) — two corrections to this document.**
+>
+> 1. **Every `recall` figure below is under-reported by ~0.036.** The key-fact
+>    matcher had three bugs (ordinal dates, hyphenated compounds, and a
+>    Unicode `\w` that treated a Korean particle as a word continuation).
+>    `eval/rescore.py` re-scores these archived runs from their stored
+>    `answer_excerpt` — the corrected numbers for this round are
+>    `exp4_skip60_aug` 0.931 → 0.963 and `dense-id, skip OFF` 0.925 → 0.956.
+>    Re-scoring all 49 archived runs moved every one up by +0.025…+0.070 and
+>    inverted **0 of 816** pairwise config comparisons, so none of the
+>    ADOPT/REJECT decisions in this document change. `url_hit` and `cite`
+>    are unaffected.
+> 2. **The `ol-04` hypothesis below is wrong.** It is not a golden-set or
+>    corpus gap — the fact is in the corpus at `COMP_1510_202610.txt:52`
+>    (`Final Exam | 40`), and `ol-11` is the same bug rather than a flaky
+>    case. Both were fixed in August 2026; see
+>    `../202608_adaptive_rag_prep/REPORT.md` §2 and §4.
+>
+> The rest of this document is left exactly as measured.
+
+
 ## Method
 
 - Harness: `eval/run_eval.py`, 40-case golden set, env set before launch.
@@ -192,13 +213,21 @@ for again on the cases that matter).
 
 ## Future work
 
-- E8 (local cross-encoder) is NOT warranted: the consensus skip already
+- E8 (self-hosted cross-encoder) is NOT warranted: the consensus skip already
   removes 57-60% of Ranking API calls; remaining spend ~$0.0004/query.
-- `/chat` request timeout (carried from round 1, still open).
-- `ol-04` fails in every configuration — likely a golden-set or corpus gap,
-  not a retrieval bug; investigate separately.
+  *(Still true, and the August round strengthened it — the reranker gained page
+  identity for free via the Ranking API's `title` field.)*
+- ~~`/chat` request timeout~~ — **shipped** June 2026 (`CHAT_TIMEOUT_S=90`
+  plus `WORKER_THREADS` headroom, since the worker thread is uncancellable).
+- ~~`ol-04` fails in every configuration — likely a golden-set or corpus gap~~
+  — **wrong, and resolved.** It is a retrieval bug, it shares a root cause with
+  `ol-11`, and both were fixed in August 2026 by entity-scoped retrieval plus
+  reranker identity. See `../202608_adaptive_rag_prep/REPORT.md`.
 - BM25 aug at corpus-build time (bake augmented text into the pickle) would
   shave server startup BM25Okapi fit; runtime fit chosen for zero-rebuild.
+  *(Still open. The August round added a second startup cost — the entity
+  index — but it builds from metadata already in the pickle, in well under a
+  second.)*
 
 ## Files
 

@@ -6,6 +6,19 @@ use. This benchmark compares generation models on the 40-case golden set with
 identical settings (temperature 0.05 generation / 0.0 rewriter,
 thinking_budget 0, NEIGHBOR_RADIUS 2, RERANKER_TOP_K 10, chunks context).
 
+
+> **Retro-note (2026-08).** The `recall` column below was measured with a
+> key-fact matcher since found to have three bugs (ordinal dates, hyphenated
+> compounds, and a Unicode `\w` that read a Korean particle as a word
+> continuation); it under-reports by ~0.036. `eval/rescore.py` re-scores these
+> archived runs offline — re-scoring all 49 moved every run up by
+> +0.025…+0.070 and inverted 0 of 816 pairwise comparisons, so the model
+> ranking and the ADOPT decision here are unchanged. `hit` and `cite` are
+> unaffected. The models compared here have also since been succeeded
+> (`3.1-flash-lite` → `3.5-flash-lite`, `3.5-flash` → `3.6-flash`); what
+> carries over is the *shape* of the finding — a lite generator paired with a
+> full-size rewriter — not the absolute numbers.
+
 ## Method
 
 - `eval/run_eval.py --label model_<name>` with `GEMINI_MODEL=<model>`;
