@@ -208,6 +208,20 @@ rows are archived eval runs on the same 40-case clean set
 ¹ Pre-dates the cost instrumentation: estimated from the measured tokens at
 the prices in effect (all 3.5-flash + Ranking API).
 
+> **The `recall` column above is under-reported by ≈0.036.** The key-fact
+> matcher had three systematic bugs (2026-08): a fact ending in a digit never
+> matched its ordinal form, so every `"July 2"` answer written as "July 2nd"
+> scored as a miss; hyphenated compounds (`"4.0-credit"`) missed their spaced
+> alternative; and `\w` is Unicode-aware, so a Korean particle glued to a token
+> (`"english studies 12에서"`) read as a word continuation — which silently
+> penalised every non-English answer, i.e. exactly what `RESPONSE_LANGUAGE=match`
+> produces. `eval/rescore.py` re-scored all 49 archived runs from their stored
+> `answer_excerpt` (no DB, no API): **every run moved up by +0.025 to +0.070
+> (mean +0.036) and 0 of 816 pairwise config rankings inverted**, so no past
+> ADOPT/REJECT decision changes. Corrected current figures: **v1 recall 0.925 →
+> 0.956, v2 recall 0.950 → 1.000**. `eval/test_matcher.py` locks all three bugs
+> and their guards.
+
 > **These rows are archived runs, not the shipping configuration.** Every row
 > above — including the one labelled *Current* — was measured on the previous
 > model pair (`gemini-3.1-flash-lite` generation + `gemini-3.5-flash` rewriter).
@@ -313,6 +327,36 @@ strictly against the retrieved passages). Substring fact recall stays the
 headline metric — the judge complements it by catching paraphrases the
 substring match misses and by flagging claims the context never contained.
 A judge failure never sinks a case (`judge_error` + count instead).
+
+`eval/golden_set_v3.jsonl` — 21 cases covering what v1/v2 do not measure, built
+2026-08 to make an adaptive/corrective-retrieval decision testable. Every fact
+verified against the corpus, every URL taken from the crawled documents:
+
+| Category | n | What it isolates |
+|---|---|---|
+| `scoped_fact` | 5 | a boilerplate outline section (exam weights, hours/weeks, term dates) of a **named** course — the `ol-04`/`ol-11` failure class, on five different courses |
+| `multi_hop` | 5 | a second retrieval target only knowable after reading the first result (prerequisites-of-prerequisites, reverse "what requires X") — the parallel rewrite+decompose call structurally cannot name it up front |
+| `unanswerable` | 3 | facts verified **absent** from the corpus; correct behaviour is to say so, and the failure mode is a confident invented number |
+| `out_of_scope` | 3 | not BCIT, or not advising at all — today they pay for the full pipeline |
+| `chitchat` | 3 | greetings/thanks — same |
+| `exploratory` | 2 | the shape real traffic actually takes (topic search, person lookup), taken verbatim from LangSmith |
+
+New scoring field `must_not_contain` (same alternative-group shape as
+`key_facts`) reports `avoidance` — the only way to score a case whose correct
+answer is a refusal, since a recall-shaped metric returns `None` there.
+
+```bash
+# re-score archived runs after a scorer or golden-set change (no DB, no API,
+# no regeneration — every run stores answer_excerpt + retrieved_urls)
+.venv/bin/python eval/rescore.py eval/benchmarks/*/*.json --verbose
+
+# matcher regression tests (three real bugs + their guards)
+.venv/bin/python eval/test_matcher.py
+```
+
+`rescore.py` recomputes the URL metrics too, purely as a self-check: they do not
+depend on the fact matcher, so if `url_hit_rate` ever moves the *tool* is wrong,
+not the run. It prints `MISMATCH` if that happens.
 
 `eval/mine_langsmith.py` closes the data loop: it pulls root `bcit_query`
 runs, drops questions already in the golden sets (eval traffic), dedupes,
@@ -577,13 +621,24 @@ Ideas that fit the current architecture, with their natural hook points:
   cases in `eval/results/`). Hook: section-aware metadata at build time
   (`chunk_index` is already stamped), or a BM25 field boost on the
   program/course code.
+- **Entity-scoped retrieval — the highest-value open item.** `ol-04` (COMP 1510
+  final-exam weight) and `ol-11` (COMP 1510 hours/weeks) were filed separately
+  as "probably a corpus gap" and "flaky"; they are one systematic bug, and the
+  facts are in the corpus (`COMP_1510_202610.txt:52`, `Final Exam | 40`). The
+  answer-bearing chunk starts `"Midterm Exam | 25 / Final Exam | 40 …"` — its
+  body names no course, and 1,772 chunks share the `"Final Exam |"` wording
+  (3,038 share `"Total Hours |"`). `BM25_INDEX_AUG` prepends page identity, but
+  it lifts all 3,262 sibling outlines equally, so the chunk never reaches the
+  BM25 top-25 under any phrasing (measured offline against the corpus pickle);
+  identity-prefixed embeddings have the same problem, since the *content* is
+  near-duplicate across the corpus. Restricting the search to the named
+  course's own 13 chunks puts both answers at **rank 1**. Hook: a metadata
+  filter on `filename_keywords` / `source` when the rewriter names a concrete
+  course or program code. No query reformulation fixes this class — the target
+  is not out-ranked, it is indistinguishable.
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
-- **golden_set_v3 from real traffic** — `eval/mine_langsmith.py` already
-  produces curated candidates from production traces + thumbs-down feedback;
-  the remaining step is human: verify facts against the corpus and promote
-  cases. Do this once enough real queries accumulate.
 - **Citations UI cards** — the Sources section renders as clickable links
   today; richer cards (page titles, categories) need a structured
   `sources: [{url, title}]` array in the chat response (metadata is already
@@ -624,7 +679,11 @@ backend/
   drop_old_collection.sh   One-off: drop a retired collection via proxy
   eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
   eval/golden_set_v2.jsonl 25-case messy-query set (acronyms, typos, Korean)
+  eval/golden_set_v3.jsonl 21-case set: scoped facts, multi-hop, unanswerable,
+                           out-of-scope, chitchat, exploratory
   eval/run_eval.py         Offline eval harness (--label, --compare, --judge)
+  eval/rescore.py          Re-score archived runs offline after a scorer change
+  eval/test_matcher.py     Key-fact matcher regression tests
   eval/mine_langsmith.py   Production traces -> golden-set candidate JSONL
   eval/results/            Per-run metrics JSON (gitignored)
   data/                    Crawled corpus (11,129 txt docs, 16 categories)

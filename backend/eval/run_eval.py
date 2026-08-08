@@ -84,6 +84,11 @@ def _normalize(text):
     for dash in ("–", "—", "‑"):
         text = text.replace(dash, "-")
     text = text.replace(",", "")  # "6,000" -> "6000"
+    # "4.0-credit course" -> "4.0 credit course": models hyphenate compound
+    # modifiers freely, and enumerating both forms in every key_facts group
+    # is the kind of upkeep that silently rots. Applied to BOTH sides, so it
+    # can never make a group match something it did not already say.
+    text = re.sub(r"(?<=\d)-(?=[a-z])", " ", text)
     return re.sub(r"\s+", " ", text)
 
 
@@ -94,9 +99,20 @@ def _groups(raw):
 
 def _fact_hit(alternatives, normalized_answer):
     for alt in alternatives:
-        pattern = re.escape(_normalize(alt))
-        # Word-ish boundaries so "75" does not match "175" but "$500" works.
-        if re.search(r"(?<!\w)" + pattern + r"(?!\w)", normalized_answer):
+        needle = _normalize(alt)
+        pattern = re.escape(needle)
+        # A date/number fact also counts in its ordinal form: the corpus says
+        # "July 2" and every model writes "July 2nd". Only for digit-final
+        # alternatives, so this can never widen a word-shaped fact.
+        if needle and needle[-1].isdigit():
+            pattern += r"(?:st|nd|rd|th)?"
+        # ASCII-only boundaries so "75" still does not match "175" or "1510".
+        # NOT \w: it is Unicode-aware, so a Korean particle glued to the token
+        # ("english studies 12에서") read as a word continuation and scored a
+        # correct non-English answer as a miss — systematically, since
+        # RESPONSE_LANGUAGE=match means answers come back in the asker's
+        # language while key_facts stay English.
+        if re.search(r"(?<![a-z0-9])" + pattern + r"(?![a-z0-9])", normalized_answer):
             return True
     return False
 
@@ -145,6 +161,14 @@ def score_case(case, result):
     fact_groups = _groups(case.get("key_facts", []))
     fact_hits = [_fact_hit(group, normalized_answer) for group in fact_groups]
 
+    # `must_not_contain`: same alternative-group shape as key_facts, but the
+    # answer is supposed to say NONE of it. This is the only way to score a
+    # case whose correct answer is a refusal — an out-of-scope or
+    # not-in-the-corpus question has no key fact to recall, so every
+    # recall-shaped metric returns None and the case measures nothing.
+    forbidden_groups = _groups(case.get("must_not_contain", []))
+    forbidden_hits = [_fact_hit(group, normalized_answer) for group in forbidden_groups]
+
     cited = _cited_urls(answer)
     cited_in_context = [u for u in cited if u in retrieved]
 
@@ -155,6 +179,12 @@ def score_case(case, result):
         "urls_missed": [g[0] for g, hit in zip(url_groups, url_hits) if not hit],
         "fact_recall": (sum(fact_hits) / len(fact_hits)) if fact_hits else None,
         "facts_missed": [g[0] for g, hit in zip(fact_groups, fact_hits) if not hit],
+        "avoidance": (
+            1.0 - sum(forbidden_hits) / len(forbidden_hits) if forbidden_groups else None
+        ),
+        "forbidden_present": [
+            g[0] for g, hit in zip(forbidden_groups, forbidden_hits) if hit
+        ],
         "n_cited": len(cited),
         "citation_precision": (len(cited_in_context) / len(cited)) if cited else None,
     }
@@ -311,6 +341,8 @@ def aggregate(cases):
         "url_hit_rate": _mean([c["url_hit_fraction"] for c in scored]),
         "url_full_hit_rate": _mean([1.0 if c["url_full_hit"] else 0.0 for c in scored if c["url_full_hit"] is not None]),
         "fact_recall": _mean([c["fact_recall"] for c in scored]),
+        "avoidance": _mean([c.get("avoidance") for c in scored]),
+        "n_cases_with_forbidden": sum(1 for c in scored if c.get("forbidden_present")),
         "citation_precision": _mean(citation),
         "n_answers_without_citation": sum(1 for c in scored if c.get("n_cited") == 0),
         "input_tokens_mean": _mean(usage("input_tokens")),
