@@ -28,7 +28,7 @@ except ImportError:
 
 from embeddings import VertexGeminiEmbeddings
 from reranker import VertexRanker
-from hybrid_retriever import create_hybrid_retriever
+from hybrid_retriever import create_hybrid_retriever, doc_key
 from response_cache import ResponseCache, normalize_question
 from config import (
     DOCUMENTS_PICKLE,
@@ -60,6 +60,7 @@ from config import (
     RANKING_LOCATION,
     RANKING_CONFIG,
     RERANKER_CANDIDATES,
+    RERANK_IDENTITY,
     RERANKER_TOP_K,
     MEMORY_WINDOW_K,
     PRICE_GEN_INPUT_PER_M,
@@ -97,6 +98,11 @@ from config import (
     RESPONSE_CACHE_ENABLED,
     RESPONSE_CACHE_MAX,
     RESPONSE_CACHE_TTL_S,
+    BM25_STOPWORD_DF,
+    DEDUP_FULL_CONTENT,
+    ENTITY_SCOPED_RETRIEVAL,
+    ENTITY_SCOPED_K,
+    ENTITY_SCOPED_MAX_ENTITIES,
 )
 
 logger = logging.getLogger("bcit.rag")
@@ -112,6 +118,21 @@ def _is_simple_query(question: str) -> bool:
     if q.count("?") > 1:
         return False
     return not any(sep in q for sep in (",", ";", " and ", " or ", " vs ", " versus "))
+
+
+# A BCIT course/program code as it appears in questions: 2-4 letters then a
+# 4-5 char number-led code (apprenticeship codes like "AATE 1GAP" exist — the
+# same shape build_pgvector.py parses out of outline filenames).
+COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})\s*-?\s*(\d[A-Za-z0-9]{3,4})\b")
+# Words too generic to identify a program on their own.
+_PROGRAM_STOPWORDS = frozenset(
+    "the a an and or of for in at to bcit program programs diploma degree "
+    "certificate full time part flexible learning studies option options".split()
+)
+
+
+def _norm_tokens(text: str) -> Set[str]:
+    return set(re.sub(r"[^a-z0-9]+", " ", text.lower()).split())
 
 
 EASTER_EGGS = {
@@ -202,6 +223,92 @@ class BCITChatbot:
         self._neighbor_index = (
             self._build_neighbor_index(self.documents) if self.documents else None
         )
+        self._entity_index = (
+            self._build_entity_index(self.documents)
+            if (self.documents and ENTITY_SCOPED_RETRIEVAL) else None
+        )
+        if self._entity_index:
+            print(f"Entity index: {len(self._entity_index['codes']):,} course codes, "
+                  f"{len(self._entity_index['programs']):,} programs\n")
+
+    @staticmethod
+    def _build_entity_index(documents) -> dict:
+        """course code / program title -> the source files that ARE that entity.
+
+        Built from filenames and titles, which build_pgvector.py already
+        guarantees the shape of (`DEPT_NUM_TERM.txt` for outlines, a
+        `..._dept_num.txt` suffix for course pages). Used two ways: to scope a
+        retrieval arm to one entity's own chunks, and — just as important — to
+        answer "does this entity exist in the corpus at all", so a future
+        corrective loop never retries a question the corpus cannot answer.
+        """
+        codes = {}
+        programs = []
+        seen_sources = set()
+        for doc in documents:
+            source = doc.metadata.get("source")
+            if not source or source in seen_sources:
+                continue
+            seen_sources.add(source)
+            metadata = doc.metadata
+            filename = metadata.get("filename") or ""
+            category = metadata.get("category")
+
+            match = None
+            if category == "course_outline":
+                match = re.match(r"^([A-Za-z]{2,4})_(\d[A-Za-z0-9]{3,4})_\d{6}\.txt$", filename)
+            elif category == "course":
+                match = re.search(r"_([a-z]{2,4})_(\d[a-z0-9]{3,4})\.txt$", filename)
+            if match:
+                key = f"{match.group(1).upper()} {match.group(2).upper()}"
+                codes.setdefault(key, []).append(source)
+                continue
+
+            if category == "program":
+                title = metadata.get("title") or ""
+                tokens = _norm_tokens(title) - _PROGRAM_STOPWORDS
+                # 2+ distinctive tokens, else the match would be a coin flip.
+                if len(tokens) >= 2:
+                    programs.append((frozenset(tokens), source))
+        return {"codes": codes, "programs": programs}
+
+    def _detect_entities(self, text: str) -> List[tuple]:
+        """(label, [sources]) for every corpus entity this text names.
+
+        A regex hit that is not in the index is simply dropped, so false
+        positives ("Category 1", "top 1000") cost nothing.
+        """
+        index = self._entity_index
+        if not index:
+            return []
+        found, seen = [], set()
+
+        for dept, num in COURSE_CODE_RE.findall(text):
+            key = f"{dept.upper()} {num.upper()}"
+            if key in index["codes"] and key not in seen:
+                seen.add(key)
+                found.append((key, index["codes"][key]))
+
+        tokens = _norm_tokens(text)
+        for title_tokens, source in index["programs"]:
+            if title_tokens <= tokens:
+                label = " ".join(sorted(title_tokens))
+                if label not in seen:
+                    seen.add(label)
+                    found.append((label, [source]))
+        return found[:ENTITY_SCOPED_MAX_ENTITIES]
+
+    def _scoped_candidates(self, query: str) -> List[Document]:
+        """Entity-scoped hits for one query, in entity order."""
+        if not (self._entity_index and hasattr(self.base_retriever, "scoped_search")):
+            return []
+        out = []
+        for label, sources in self._detect_entities(query):
+            hits = self.base_retriever.scoped_search(query, sources, ENTITY_SCOPED_K)
+            for doc in hits:
+                doc.metadata["scoped_entity"] = label
+            out.extend(hits)
+        return out
 
     @staticmethod
     def _chunk_key(source: str, page_content: str) -> tuple:
@@ -266,7 +373,8 @@ class BCITChatbot:
                 project=GEMINI_PROJECT,
                 model=RERANKER_MODEL,
                 location=RANKING_LOCATION,
-                ranking_config=RANKING_CONFIG
+                ranking_config=RANKING_CONFIG,
+                identity=RERANK_IDENTITY,
             )
             print("Reranker initialized")
         else:
@@ -302,7 +410,10 @@ class BCITChatbot:
                 dense_fetch_k=RETRIEVAL_FETCH_K,
                 dense_lambda=MMR_LAMBDA,
                 rrf_k=RRF_K,
-                bm25_index_aug=BM25_INDEX_AUG
+                bm25_index_aug=BM25_INDEX_AUG,
+                stopword_df=BM25_STOPWORD_DF,
+                scoped=ENTITY_SCOPED_RETRIEVAL,
+                dedup_full=DEDUP_FULL_CONTENT,
             )
             # Shared fan-out pool for sub-query retrieval: 2 concurrent
             # requests x 4 sub-queries fits SQLAlchemy's default pool (5+10).
@@ -605,6 +716,21 @@ class BCITChatbot:
         ]
         per_sub = [f.result() for f in futures]
 
+        # Entity-scoped arm: prepend each sub-query's scoped hits to its OWN
+        # candidate list, so the rank-interleave below picks them first and the
+        # coverage quota protects them. Global search cannot rank a chunk whose
+        # body has no entity identity; this is the only path that can.
+        n_scoped = 0
+        if self._entity_index:
+            for si, sub_query in enumerate(sub_queries):
+                scoped = self._scoped_candidates(sub_query)
+                if not scoped:
+                    continue
+                have = {doc_key(d, DEDUP_FULL_CONTENT) for d in per_sub[si]}
+                fresh = [d for d in scoped if doc_key(d, DEDUP_FULL_CONTENT) not in have]
+                per_sub[si] = fresh + per_sub[si]
+                n_scoped += len(fresh)
+
         # HyDE "extra": one additional dense-only arm queried with the
         # hypothetical answer sentence. Its origin index (len(sub_queries))
         # is outside every quota loop, so it contributes candidates without
@@ -632,7 +758,7 @@ class BCITChatbot:
                 if rank >= len(docs_i):
                     continue
                 doc = docs_i[rank]
-                key = f"{doc.metadata.get('source', 'unknown')}::{doc.page_content[:200]}"
+                key = doc_key(doc, DEDUP_FULL_CONTENT)
                 if key in by_key:
                     kept = by_key[key]
                     origins[id(kept)].add(si)
@@ -655,6 +781,7 @@ class BCITChatbot:
             "retrieve_s": t_retrieve,
             "rerank_s": t_rerank,
             "n_candidates": len(pooled),
+            "n_scoped_candidates": n_scoped,
             **sel_info,
         }
 
@@ -872,11 +999,13 @@ class BCITChatbot:
         )
         rerank_skipped = False
         pool_consensus = None
+        n_scoped_candidates = 0
         if use_fanout:
             docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries, extras)
             t_retrieve = mq_stats["retrieve_s"]
             t_rerank = mq_stats["rerank_s"]
             n_candidates = mq_stats["n_candidates"]
+            n_scoped_candidates = mq_stats.get("n_scoped_candidates", 0)
             rerank_skipped = mq_stats.get("rerank_skipped", False)
             pool_consensus = mq_stats.get("pool_consensus")
             n_rerank_calls = 0
@@ -894,6 +1023,14 @@ class BCITChatbot:
                 )
             else:
                 docs = self.base_retriever.invoke(standalone_question)
+            if self._entity_index:
+                have = {doc_key(d, DEDUP_FULL_CONTENT) for d in docs}
+                fresh = [
+                    d for d in self._scoped_candidates(standalone_question)
+                    if doc_key(d, DEDUP_FULL_CONTENT) not in have
+                ]
+                n_scoped_candidates = len(fresh)
+                docs = fresh + docs  # ahead of fusion order; the rerank decides
             t_retrieve = time.perf_counter() - t0
 
             t0 = time.perf_counter()
@@ -955,6 +1092,7 @@ class BCITChatbot:
             "pool_consensus": pool_consensus,
             "use_fanout": use_fanout,
             "n_candidates": n_candidates,
+            "n_scoped_candidates": n_scoped_candidates,
             "n_rerank_calls": n_rerank_calls,
             "context_stats": context_stats,
             "t_rewrite": t_rewrite,
@@ -1032,6 +1170,7 @@ class BCITChatbot:
             "pool_consensus": prep["pool_consensus"],
             "retrieval_mode": "fanout" if prep["use_fanout"] else "single",
             "n_candidates": prep["n_candidates"],
+            "n_scoped_candidates": prep["n_scoped_candidates"],
             "cached": False,
             **prep["context_stats"],
         }

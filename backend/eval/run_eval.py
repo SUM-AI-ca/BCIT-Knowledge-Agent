@@ -74,6 +74,7 @@ EXTRA_META_KEYS = [
     "n_chunks_kept", "neighbor_misses",
     "n_rerank_calls", "rerank_skipped", "pool_consensus",
     "rewrite_skipped", "retrieval_mode", "n_candidates",
+    "n_scoped_candidates",
 ]
 
 ANSWER_EXCERPT_CHARS = 1500

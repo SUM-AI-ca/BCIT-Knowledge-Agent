@@ -148,6 +148,45 @@ RETRIEVAL_TOP_K = 10
 RETRIEVAL_DENSE_K = 23
 RETRIEVAL_BM25_K = 23
 
+# Drop query tokens this common from the BM25 arm (document frequency in the
+# augmented index, 0 disables). BM25_INDEX_AUG stamps title/category/filename
+# keywords onto every chunk, so a rewritten sub-query carrying generic corpus
+# vocabulary matches 40-60% of the corpus with a small positive weight and
+# reorders the tail. Measured on mh3-02 ("BCIT courses with ACIT 1515 as a
+# prerequisite"): leave-one-out says `bcit` (df 55.9%), `a` (60.1%), `with`
+# (45.1%), `courses` (41.8%) are the pollutants, and the target chunk moves
+# from BM25 rank 161 to 22 without them — in vs out of RETRIEVAL_BM25_K=23.
+# A df threshold rather than a stopword list: it is derived from this corpus
+# and needs no upkeep when the crawl changes. 0.35 drops exactly those four
+# and leaves ol-02/ol-04/pa-01/sf3-05/ex3-01 ranks byte-identical.
+BM25_STOPWORD_DF = _env_float("BM25_STOPWORD_DF", 0.0)
+
+# Entity-scoped retrieval: when a sub-query names a concrete course code or
+# program, add a retrieval arm restricted to that entity's OWN chunks.
+# Targets the "boilerplate section" failure class — a chunk whose body carries
+# no entity identity and whose wording is shared corpus-wide (1,772 chunks say
+# "Final Exam |", 3,038 say "Total Hours |"). Such a chunk cannot be ranked
+# globally by any phrasing: ol-04's answer chunk is outside the BM25 top-25
+# under all three phrasings tried and is rank 1 once scoped; same for ol-11,
+# sf3-05 and mp-01's entrance-requirements/costs sections.
+# Candidates join the existing pool, so the Ranking API call count is unchanged
+# (it bills per query for up to 100 records).
+# Chunk identity for pool dedup and RRF fusion. The historical key is
+# source + the chunk's first 200 chars; measured on this corpus it collides on
+# 418 keys covering 715 chunks (0.71%) — two DIFFERENT chunks of the same page
+# that open identically (repeated tables in course pages, the English-language
+# proficiency assessment table that pa-07/pa-08 depend on) merge, and the
+# loser's content never reaches the context. `true` keys on an md5 of the whole
+# chunk. Off by default: it slightly enlarges the candidate pool, and round 2
+# (exp1_pool56) showed undifferentiated pool growth dilutes the pooled rerank —
+# so it is an experiment with a gate, not a free correctness win.
+DEDUP_FULL_CONTENT = _env_bool("DEDUP_FULL_CONTENT", False)
+
+ENTITY_SCOPED_RETRIEVAL = _env_bool("ENTITY_SCOPED_RETRIEVAL", False)
+ENTITY_SCOPED_K = _env_int("ENTITY_SCOPED_K", 8)
+# Cap per turn: each entity costs one extra BM25 scoring pass over the corpus.
+ENTITY_SCOPED_MAX_ENTITIES = _env_int("ENTITY_SCOPED_MAX_ENTITIES", 3)
+
 RETRIEVAL_FETCH_K = _env_int("RETRIEVAL_FETCH_K", 50)
 MMR_LAMBDA = _env_float("MMR_LAMBDA", 0.87)
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
@@ -156,6 +195,13 @@ USE_RERANKING = _env_bool("USE_RERANKING", True)
 RERANKER_MODEL = "semantic-ranker-default-004"  # Vertex AI Ranking API
 RANKING_LOCATION = "global"
 RANKING_CONFIG = "default_ranking_config"
+# Send each candidate's page identity (title + filename keywords + category)
+# in the Ranking API's `title` field. Without it the ranker scores raw chunk
+# text, so a boilerplate section is indistinguishable from the same section of
+# any sibling page — the identical blindness BM25_INDEX_AUG and the
+# identity-prefixed embeddings already fixed for the two retrieval arms.
+# No extra call and no extra billed query; `title` rides on the same record.
+RERANK_IDENTITY = _env_bool("RERANK_IDENTITY", False)
 RERANKER_CANDIDATES = _env_int("RERANKER_CANDIDATES", 25)
 RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 10)
 

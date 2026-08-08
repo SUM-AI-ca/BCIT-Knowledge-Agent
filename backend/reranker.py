@@ -12,6 +12,24 @@ except ImportError:
         return decorator
 
 
+def record_title(doc: Document) -> str:
+    """Page identity for the Ranking API's `title` field.
+
+    The reranker is the one stage that still scores identity-blind text. BM25
+    got page identity in round 2 (BM25_INDEX_AUG) and the dense arm got it in
+    the identity-prefixed rebuild (bcit_docs_202606da), but records here are
+    built from `page_content` alone — and the chunks that matter most carry no
+    identity in their body. Measured on sf3-05: asked about ACIT 2515's exam
+    weights, the ranker scored COMP 4870's and COMP 7402's evaluation tables
+    0.859 / 0.709 against 0.258 for ACIT 2515's own chunks. Those tables ARE
+    what the question describes; only the course name distinguishes them, and
+    the ranker never saw it.
+    """
+    md = doc.metadata
+    parts = [md.get("title") or "", md.get("filename_keywords") or "", md.get("category") or ""]
+    return " ".join(p for p in parts if p and p != "None")[:200]
+
+
 class VertexRanker:
 
     def __init__(
@@ -20,15 +38,17 @@ class VertexRanker:
             model: str = "semantic-ranker-default-004",
             location: str = "global",
             ranking_config: str = "default_ranking_config",
+            identity: bool = False,
     ):
         self.model = model
+        self.identity = identity
         self.client = discoveryengine.RankServiceClient()
         self.ranking_config = self.client.ranking_config_path(
             project=project,
             location=location,
             ranking_config=ranking_config,
         )
-        print(f"Reranker loaded: {model}")
+        print(f"Reranker loaded: {model}{' (identity titles)' if identity else ''}")
 
     @traceable(run_type="retriever", name="vertex_rerank")
     def rerank(
@@ -47,7 +67,8 @@ class VertexRanker:
         records = [
             discoveryengine.RankingRecord(
                 id=str(i),
-                content=doc.page_content[:1024]
+                content=doc.page_content[:1024],
+                **({"title": record_title(doc)} if self.identity else {}),
             )
             for i, doc in enumerate(documents)
         ]

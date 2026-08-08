@@ -1,3 +1,4 @@
+import hashlib
 import re
 from typing import List, Dict, Any
 from langchain_core.documents import Document
@@ -12,6 +13,27 @@ def preprocess_func(text: str) -> List[str]:
     text = re.sub(r'[^a-z0-9\s]', ' ', text)
     tokens = [token for token in text.split() if token]
     return tokens
+
+
+def doc_key(doc: Document, full: bool = False) -> str:
+    """THE identity of a chunk for deduplication and RRF fusion.
+
+    One helper because three call sites used to build this string
+    independently (the fusion map, the sub-query pool, and now the scoped
+    arm); if they ever disagree, a chunk gets merged by one and kept by
+    another, and which copy survives depends on call order.
+
+    `full=False` is the historical key: source + the first 200 chars. It
+    collides on this corpus for 418 keys covering 715 chunks (0.71%) — two
+    DIFFERENT chunks of the same page that open identically (repeated tables in
+    course pages, the English-proficiency assessment table) merge, and the
+    loser's content never reaches the context. `full=True` keys on the whole
+    chunk and cannot do that.
+    """
+    source = doc.metadata.get("source", "unknown")
+    if full:
+        return f"{source}::{hashlib.md5(doc.page_content.encode('utf-8')).hexdigest()}"
+    return f"{source}::{doc.page_content[:200]}"
 
 
 def bm25_augment_text(doc: Document) -> str:
@@ -39,6 +61,15 @@ class HybridRetriever(BaseRetriever):
     alpha: float = 0.5
     top_k: int = 5
     rrf_k: int = 60
+    # Document frequency per token in the (augmented) BM25 index, used to drop
+    # corpus-generic tokens from a query. Empty dict = feature off.
+    token_df: dict = {}
+    n_docs: int = 0
+    stopword_df: float = 0.0
+    # source path -> the indices its chunks occupy in bm25_retriever.docs,
+    # for entity-scoped scoring.
+    source_indices: dict = {}
+    dedup_full: bool = False
 
     class Config:
         arbitrary_types_allowed = True
@@ -61,10 +92,87 @@ class HybridRetriever(BaseRetriever):
             **kwargs
         )
 
+    def _filter_query_tokens(self, tokens: List[str]) -> List[str]:
+        """Drop tokens this corpus says carry no discrimination.
+
+        BM25_INDEX_AUG stamps title/category/filename keywords onto every
+        chunk, so a rewritten sub-query carrying generic corpus vocabulary
+        ("BCIT courses with ...") matches 40-60% of the index with a small
+        positive weight and reorders the tail. Never returns empty — an
+        all-generic query keeps its original tokens.
+        """
+        if not (self.stopword_df > 0 and self.token_df and self.n_docs):
+            return tokens
+        cutoff = self.stopword_df * self.n_docs
+        kept = [t for t in tokens if self.token_df.get(t, 0) < cutoff]
+        return kept or tokens
+
+    def scoped_search(self, query: str, sources, k: int) -> List[Document]:
+        """BM25 over ONE entity's own chunks, using the global IDF.
+
+        For a chunk whose body carries no entity identity and whose wording is
+        shared corpus-wide (outline evaluation tables, program page sections),
+        no global ranking can surface it — it is not out-ranked, it is
+        indistinguishable from thousands of siblings. Restricted to the named
+        entity's own chunks it is trivially top-ranked.
+
+        Scores the subset directly rather than calling get_scores() over the
+        whole index (128 ms per call here, and this runs once per entity).
+        """
+        bm = self.bm25_retriever.vectorizer
+        docs = self.bm25_retriever.docs
+        per_source = [
+            (s, self.source_indices.get(s, ()))
+            for s in sources if self.source_indices.get(s)
+        ]
+        if not per_source:
+            return []
+        # Deliberately NOT _filter_query_tokens: that filter exists to stop a
+        # query from matching 40-60% of the INDEX, which cannot happen when the
+        # candidate set is one document. Inside those chunks the "generic"
+        # words are the discriminating ones — filtering them made every chunk
+        # of the entity tie on its own name (the augmented text repeats the
+        # code on every chunk) and sf3-05 regressed from 1.00 to 0.00.
+        tokens = self.bm25_retriever.preprocess_func(query)
+
+        def score_one(i):
+            freqs = bm.doc_freqs[i]
+            norm = bm.k1 * (1 - bm.b + bm.b * bm.doc_len[i] / bm.avgdl)
+            total = 0.0
+            for t in tokens:
+                f = freqs.get(t, 0)
+                if f:
+                    total += bm.idf.get(t, 0.0) * f * (bm.k1 + 1) / (f + norm)
+            return total
+
+        # k is per SOURCE, not per entity. A course entity resolves to two
+        # sources (its outline and its catalogue page) and the short catalogue
+        # page wins BM25 length normalisation on every chunk, so a shared
+        # budget spent all of it there: ACIT 2515's evaluation table sits at
+        # combined rank 12 (cut at k=8) but rank 5 within its own outline.
+        ranked_per_source = []
+        for _, indices in per_source:
+            scored = sorted(((score_one(i), i) for i in indices), key=lambda x: -x[0])
+            ranked_per_source.append(scored[:k])
+
+        # Round-robin so every source of the entity contributes its best first.
+        out = []
+        for depth in range(k):
+            for scored in ranked_per_source:
+                if depth >= len(scored):
+                    continue
+                score, i = scored[depth]
+                doc = docs[i]
+                copy = Document(page_content=doc.page_content, metadata=dict(doc.metadata))
+                copy.metadata["scoped_rank"] = len(out) + 1
+                copy.metadata["scoped_score"] = score
+                # Same RRF scale as the fused arms, so the pool can order it.
+                copy.metadata["fusion_score"] = self._rrf_score(len(out) + 1)
+                out.append(copy)
+        return out
+
     def _create_doc_id(self, doc: Document) -> str:
-        source = doc.metadata.get("source", "unknown")
-        content_snippet = doc.page_content[:200]
-        return f"{source}::{content_snippet}"
+        return doc_key(doc, self.dedup_full)
 
     def _rrf_score(self, rank: int) -> float:
         return 1.0 / (self.rrf_k + rank)
@@ -81,11 +189,12 @@ class HybridRetriever(BaseRetriever):
         )
 
     def _bm25_search(self, query: str, bm25_k: int = None) -> List[Document]:
-        if bm25_k is None:
+        if bm25_k is None and not self.stopword_df:
             return self.bm25_retriever.invoke(query)
+        bm25_k = bm25_k if bm25_k is not None else self.bm25_retriever.k
         # Per-call k: score directly against the (read-only, thread-safe)
         # BM25 index instead of mutating the shared retriever's k.
-        tokens = self.bm25_retriever.preprocess_func(query)
+        tokens = self._filter_query_tokens(self.bm25_retriever.preprocess_func(query))
         scores = self.bm25_retriever.vectorizer.get_scores(tokens)
         if len(scores) <= bm25_k:
             top = range(len(scores))
@@ -172,7 +281,10 @@ def create_hybrid_retriever(
         dense_fetch_k: int = 50,
         dense_lambda: float = 0.75,
         rrf_k: int = 60,
-        bm25_index_aug: bool = False
+        bm25_index_aug: bool = False,
+        stopword_df: float = 0.0,
+        scoped: bool = False,
+        dedup_full: bool = False,
 ) -> HybridRetriever:
     if dense_search_type == "mmr":
         dense_retriever = vectorstore.as_retriever(
@@ -189,6 +301,7 @@ def create_hybrid_retriever(
             search_kwargs={"k": dense_k}
         )
 
+    corpus = None
     if bm25_index_aug:
         # Fit the index on augmented text while serving the ORIGINAL
         # documents: scores come from title-aware tokens, but everything
@@ -208,12 +321,37 @@ def create_hybrid_retriever(
         )
     bm25_retriever.k = bm25_k
 
+    # Document frequency over the SAME text the index was fit on (augmented if
+    # BM25_INDEX_AUG, raw otherwise) — a stopword list derived from the corpus
+    # instead of maintained by hand.
+    token_df = {}
+    if stopword_df > 0:
+        if corpus is None:
+            corpus = [preprocess_func(d.page_content) for d in documents]
+        for tokens in corpus:
+            for token in set(tokens):
+                token_df[token] = token_df.get(token, 0) + 1
+
+    # source -> chunk positions, for entity-scoped scoring. Positions index
+    # bm25_retriever.docs, which is `documents` in order.
+    source_indices = {}
+    if scoped:
+        for i, doc in enumerate(documents):
+            source = doc.metadata.get("source")
+            if source:
+                source_indices.setdefault(source, []).append(i)
+
     hybrid_retriever = HybridRetriever(
         dense_retriever=dense_retriever,
         bm25_retriever=bm25_retriever,
         alpha=alpha,
         top_k=top_k,
-        rrf_k=rrf_k
+        rrf_k=rrf_k,
+        token_df=token_df,
+        n_docs=len(documents),
+        stopword_df=stopword_df,
+        source_indices=source_indices,
+        dedup_full=dedup_full,
     )
 
     return hybrid_retriever

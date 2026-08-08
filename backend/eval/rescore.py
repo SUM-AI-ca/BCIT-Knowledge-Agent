@@ -167,9 +167,21 @@ def main():
     if args.write:
         if len(rows) != 1:
             parser.error("--write takes exactly one input file")
-        rows[0]["run"]["rescored_from"] = rows[0]["path"]
+        run = rows[0]["run"]
+        run["rescored_from"] = rows[0]["path"]
+        # The per-case scores were corrected in place; the file's own summary
+        # blocks have to follow or the written file disagrees with itself and
+        # anyone reading `aggregate` gets the pre-rescore numbers.
+        run["aggregate"] = rows[0]["after"]
+        if "per_category" in run:
+            names = {c.get("category", "uncategorized") for c in run["cases"]}
+            run["per_category"] = {
+                name: aggregate([c for c in run["cases"]
+                                 if c.get("category", "uncategorized") == name])
+                for name in names
+            }
         with open(args.write, "w", encoding="utf-8") as f:
-            json.dump(rows[0]["run"], f, indent=2, ensure_ascii=False)
+            json.dump(run, f, indent=2, ensure_ascii=False)
         print(f"wrote {args.write}")
 
     print(f"\n{'run':46s} {'facts':>15s} {'url_hit':>9s} {'±cases':>7s}")
