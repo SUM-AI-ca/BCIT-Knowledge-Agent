@@ -9,6 +9,7 @@ import logging
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
+from collections import Counter
 from typing import List, Optional, Set
 
 from langchain_postgres import PGVector
@@ -100,6 +101,9 @@ from config import (
     RESPONSE_CACHE_TTL_S,
     BM25_STOPWORD_DF,
     DEDUP_FULL_CONTENT,
+    SIGNATURE_DEMOTE,
+    FANIN_RETAIN,
+    FANIN_RETAIN_N,
     ENTITY_SCOPED_RETRIEVAL,
     ENTITY_SCOPED_K,
     ENTITY_SCOPED_MAX_ENTITIES,
@@ -124,6 +128,37 @@ def _is_simple_query(question: str) -> bool:
 # 4-5 char number-led code (apprenticeship codes like "AATE 1GAP" exist — the
 # same shape build_pgvector.py parses out of outline filenames).
 COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})\s*-?\s*(\d[A-Za-z0-9]{3,4})\b")
+
+# Capitalised runs that are not the thing a question is fanning out over.
+_FANIN_NOISE = frozenset(
+    "bcit what which who whose when where how does do did is are the a an "
+    "and or of for in at to i he she they teach teaches taught course courses "
+    "class classes instructor instructors program programs".split()
+)
+_PROPER_RUN_RE = re.compile(r"\b([A-Z][a-z]+(?:\s+[A-Z][a-z]*\.?){0,3})")
+
+
+def _fanin_key(question: str) -> Optional[str]:
+    """The literal a fan-in question is spread over: a course code if the
+    question names one (mh3-02's "ACIT 1515"), else the longest capitalised
+    proper-noun run that is not a question word (a person's name).
+
+    Deliberately literal: the retention rule swaps a chunk in only when the
+    chunk *contains* this string, so a loose key would retain noise. A
+    question with neither shape returns None and retention is a no-op — which
+    is most traffic.
+    """
+    m = COURSE_CODE_RE.search(question)
+    if m:
+        return f"{m.group(1).upper()} {m.group(2).upper()}"
+    runs = []
+    for r in _PROPER_RUN_RE.findall(question):
+        words = [w for w in r.split() if w.lower().strip(".") not in _FANIN_NOISE]
+        if len(words) >= 2:
+            runs.append(" ".join(words))
+    return max(runs, key=len) if runs else None
+
+
 # Words too generic to identify a program on their own.
 _PROGRAM_STOPWORDS = frozenset(
     "the a an and or of for in at to bcit program programs diploma degree "
@@ -414,6 +449,7 @@ class BCITChatbot:
                 stopword_df=BM25_STOPWORD_DF,
                 scoped=ENTITY_SCOPED_RETRIEVAL,
                 dedup_full=DEDUP_FULL_CONTENT,
+                signature_demote=SIGNATURE_DEMOTE,
             )
             # Shared fan-out pool for sub-query retrieval: 2 concurrent
             # requests x 4 sub-queries fits SQLAlchemy's default pool (5+10).
@@ -828,6 +864,54 @@ class BCITChatbot:
         selected.sort(key=sort_key, reverse=True)
         return selected
 
+    def _apply_fanin_retention(self, question, selected, rest, sort_key):
+        """Fan-in retention: a question whose answer is spread across N sibling
+        pages ("which courses require ACIT 1515?", "what does X teach?") has N
+        correct sources, and the pooled rerank hands the context budget to
+        whichever chunks score best globally — often several from one page, or
+        pages unrelated to the named entity.
+
+        Rule: for the literal the question names, guarantee up to
+        FANIN_RETAIN_N *distinct sources* whose chunk text actually contains
+        that literal. Swap each in against the lowest-scored selected chunk
+        that neither mentions the literal nor is its source's only
+        representative, so this can only redistribute slots, never shrink
+        coverage of a source already held.
+
+        Returns the number of swaps, for the meta line.
+        """
+        key = _fanin_key(question)
+        if not key:
+            return selected, 0
+        held = {d.metadata.get("source") for d in selected}
+        mentions = lambda d: key.lower() in d.page_content.lower()
+        n_key_sources = len({d.metadata.get("source") for d in selected if mentions(d)})
+        swaps = 0
+        for cand in [d for d in rest if mentions(d)]:
+            if n_key_sources >= FANIN_RETAIN_N:
+                break
+            src = cand.metadata.get("source")
+            if src in held:
+                continue
+            counts = Counter(d.metadata.get("source") for d in selected)
+            evict = next(
+                (d for d in sorted(selected, key=sort_key)
+                 if not mentions(d) and counts[d.metadata.get("source")] > 1),
+                None,
+            )
+            if evict is None:
+                evict = next((d for d in sorted(selected, key=sort_key) if not mentions(d)), None)
+            if evict is None:
+                break
+            selected.remove(evict)
+            selected.append(cand)
+            held.discard(evict.metadata.get("source"))
+            held.add(src)
+            n_key_sources += 1
+            swaps += 1
+        selected.sort(key=sort_key, reverse=True)
+        return selected, swaps
+
     def _select_from_pool(
             self,
             question: str,
@@ -877,11 +961,14 @@ class BCITChatbot:
         if any("rerank_score" not in d.metadata for d in scored):
             return scored[:RERANKER_TOP_K], sel_info  # API fallback: interleaved order
 
+        score_key = lambda d: d.metadata.get("rerank_score", 0.0)
+        rest = scored[RERANKER_TOP_K:]
         selected = self._apply_coverage_quota(
-            scored[:RERANKER_TOP_K], scored[RERANKER_TOP_K:],
-            sub_queries, origins,
-            lambda d: d.metadata.get("rerank_score", 0.0),
+            scored[:RERANKER_TOP_K], rest, sub_queries, origins, score_key,
         )
+        if FANIN_RETAIN:
+            selected, swaps = self._apply_fanin_retention(question, selected, rest, score_key)
+            sel_info["fanin_swaps"] = swaps
         return selected, sel_info
 
     def _cached_turn(self, question, memory, answer, turn_start) -> dict:
@@ -1000,6 +1087,7 @@ class BCITChatbot:
         rerank_skipped = False
         pool_consensus = None
         n_scoped_candidates = 0
+        fanin_swaps = 0
         if use_fanout:
             docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries, extras)
             t_retrieve = mq_stats["retrieve_s"]
@@ -1008,6 +1096,7 @@ class BCITChatbot:
             n_scoped_candidates = mq_stats.get("n_scoped_candidates", 0)
             rerank_skipped = mq_stats.get("rerank_skipped", False)
             pool_consensus = mq_stats.get("pool_consensus")
+            fanin_swaps = mq_stats.get("fanin_swaps", 0)
             n_rerank_calls = 0
             if USE_RERANKING and self.reranker and not rerank_skipped:
                 n_rerank_calls = len(sub_queries) if RERANK_MODE == "per_subquery" else 1
@@ -1093,6 +1182,7 @@ class BCITChatbot:
             "use_fanout": use_fanout,
             "n_candidates": n_candidates,
             "n_scoped_candidates": n_scoped_candidates,
+            "fanin_swaps": fanin_swaps,
             "n_rerank_calls": n_rerank_calls,
             "context_stats": context_stats,
             "t_rewrite": t_rewrite,
@@ -1171,6 +1261,7 @@ class BCITChatbot:
             "retrieval_mode": "fanout" if prep["use_fanout"] else "single",
             "n_candidates": prep["n_candidates"],
             "n_scoped_candidates": prep["n_scoped_candidates"],
+            "fanin_swaps": prep["fanin_swaps"],
             "cached": False,
             **prep["context_stats"],
         }

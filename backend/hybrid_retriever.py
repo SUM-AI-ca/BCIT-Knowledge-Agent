@@ -36,6 +36,31 @@ def doc_key(doc: Document, full: bool = False) -> str:
     return f"{source}::{doc.page_content[:200]}"
 
 
+# The approval block every course outline ends with. Three fixed sentences,
+# 3,279 chunks corpus-wide (3.3%), and the only content in them that is not
+# boilerplate is a staff name in a role — Program Head / Associate Dean — that
+# is NOT the course's instructor. It is the dominant flood source for person
+# queries: "Chi En Huang" appears in 62 signature chunks against 4 that list
+# him under Instructor Details, so a name query is outvoted 15:1 by chunks
+# that answer a different question about the same person.
+SIGNATURE_LINE_RE = re.compile(
+    r"^I verify that .*?(?:Program Head|Associate Dean|Faculty|Dean)\s+"
+    r"[A-Z][a-z]+ \d{1,2}, \d{4}\s*$",
+    re.M,
+)
+
+
+def strip_signature_block(text: str) -> str:
+    """Drop the outline approval signatures from BM25 index-time text.
+
+    Same contract as bm25_augment_text: the index is fit on this, the stored
+    document is served untouched, so "who is the program head of X" still has
+    the text in context once the chunk is retrieved for another reason. Only
+    the sparse arm's view changes — no re-embed, no pickle rebuild.
+    """
+    return SIGNATURE_LINE_RE.sub("", text)
+
+
 def bm25_augment_text(doc: Document) -> str:
     """Index-time text for BM25_INDEX_AUG: prepend the parent page's identity
     (title, category, filename keywords, URL slug) so deep chunks — section
@@ -285,6 +310,7 @@ def create_hybrid_retriever(
         stopword_df: float = 0.0,
         scoped: bool = False,
         dedup_full: bool = False,
+        signature_demote: bool = False,
 ) -> HybridRetriever:
     if dense_search_type == "mmr":
         dense_retriever = vectorstore.as_retriever(
@@ -302,13 +328,17 @@ def create_hybrid_retriever(
         )
 
     corpus = None
-    if bm25_index_aug:
+    if bm25_index_aug or signature_demote:
         # Fit the index on augmented text while serving the ORIGINAL
         # documents: scores come from title-aware tokens, but everything
         # downstream (dedup keys, neighbor lookups, context) sees the same
         # page_content as before. BM25Retriever's own from_texts ends with
         # exactly this constructor call.
-        corpus = [preprocess_func(bm25_augment_text(d)) for d in documents]
+        def index_text(d):
+            t = bm25_augment_text(d) if bm25_index_aug else d.page_content
+            return strip_signature_block(t) if signature_demote else t
+
+        corpus = [preprocess_func(index_text(d)) for d in documents]
         bm25_retriever = BM25Retriever(
             vectorizer=BM25Okapi(corpus),
             docs=list(documents),
