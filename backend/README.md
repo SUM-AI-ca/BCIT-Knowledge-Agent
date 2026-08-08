@@ -14,6 +14,8 @@ runbooks live in the [repository README](../README.md).
 | `response_cache.py` | First-turn exact-match answer cache |
 | `crawl_bcit.py` | Corpus crawler (sitemaps + outlines API) |
 | `build_pgvector.py` | Indexing job (resumable, collection-versioned) |
+| `deploy.sh` | Deploy backend modules to the production VM — use this rather than ad-hoc `gcloud` commands |
+| `drop_old_collection.sh` | One-off: drop a retired pgvector collection through the proxy |
 | `eval/` | Golden sets, offline harness, re-scorer, archived benchmarks |
 
 Setup, credentials, and the Cloud SQL proxy are covered under

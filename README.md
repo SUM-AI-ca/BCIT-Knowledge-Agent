@@ -59,9 +59,10 @@ that architecture pushed back. See
      concrete course code or program, a third arm scores only that entity's own
      chunks and joins the pool. This is the only path that can surface a
      templated section — an outline's evaluation table names no course and
-     3,000-odd sibling chunks share its wording, so global ranking cannot
+     1,772–3,038 sibling chunks share its wording, so global ranking cannot
      separate them. Sub-millisecond (it scores the entity's chunks directly,
-     not the whole index) and costs no extra billed call.
+     not the whole index) and costs no extra billed call. At most
+     `ENTITY_SCOPED_MAX_ENTITIES=3` entities per turn.
 4. **Rerank** — ONE Vertex AI Ranking API call per turn regardless of
    sub-query count (the API bills per query): the pooled candidates are
    scored against the standalone question (`semantic-ranker-default-004`),
@@ -82,10 +83,10 @@ that architecture pushed back. See
    (`Document N: [URL: …]`) are identical to the legacy format — the
    Sources-section prompt instructions depend on them.
 6. **Generate** — `GEMINI_MODEL=gemini-3.5-flash-lite`, static instructions
-   first / variable inputs last (cache-friendly ordering, though the ~1k-token
-   prefix sits below Gemini's 2,048-token implicit-cache minimum, so the cache
-   stays inert today — verified `cache_read_tokens=0`; per-query cost is cut by
-   the first-turn response cache instead),
+   first / variable inputs last (cache-friendly ordering, though Gemini's
+   implicit cache is not a lever you can plan around here — see
+   [Implicit prompt caching](#implicit-prompt-caching-what-was-actually-observed);
+   per-query cost is cut by the first-turn response cache instead),
    `{question_parts}` enumerating multipart sub-questions,
    `max_output_tokens=2048` with `thinking_budget=0` (see gotchas — thinking
    counts against the cap).
@@ -143,7 +144,7 @@ table — the columns below compare pipeline shape, not price:
 
 | Metric | Before (full-doc context) | After (chunks + decompose) |
 |---|---|---|
-| Input tokens / query (mean) | 44,322 | **5,884 (−87%)** |
+| Input tokens / query (mean, generation only) | 44,322 | **5,884 (−87%)** |
 | Input tokens / query (p50) | 36,471 | 5,936 (−84%) |
 | Output tokens (incl. thinking) | 210 + 896 thinking | **175 + 0** |
 | Retrieval URL hit-rate | 0.892 | **0.963** |
@@ -211,21 +212,21 @@ that the round-2 rerank-skip began firing on multi-page questions and
 losing facts — so the skip was retired (`RERANK_SKIP_CONSENSUS=0.0`; its
 saving was real only for identity-blind vectors). Net cost ~$0.0039/query.
 
-### The full metric history (June 2026, every stage archived)
+### The full metric history (June – August 2026, every stage archived)
 
-How the production numbers moved across the four optimization passes — all
+How the production numbers moved across the five optimization passes — all
 rows are archived eval runs on the same 40-case clean set
-(`eval/benchmarks/202606_model_comparison/` and
-`…/202606_retrieval_cost_experiments/`):
+(`eval/benchmarks/202606_model_comparison/`,
+`…/202606_retrieval_cost_experiments/` and `…/202608_adaptive_rag_prep/`):
 
-| Stage | What changed | hit | recall | in_tok | $/query | p50 / p95 |
+| Stage | What changed | hit | recall | in_tok³ | $/query | p50 / p95 |
 |---|---|---|---|---|---|---|
 | 0. Baseline | whole-document context, no decomposition, `gemini-3.1-pro` + default thinking (896 tok/answer) | 0.892 | 0.848 | 44,410 | not comparable¹ | 7.6 / 10.8 s |
 | 1. Chunk pipeline | decompose → parallel hybrid fan-out → pooled rerank + quota → neighbor expansion ±2, thinking 0 | 0.963 | 0.885 | 6,263 (−86%) | $0.0126 | 4.1 / 5.2 s |
 | 2. Model mix | generation → `3.1-flash-lite`, rewriter kept on `3.5-flash` | 0.963 | 0.890 | 6,274 | $0.0039 (−69%) | 3.6 / 4.8 s |
 | 3. Round 2 | BM25 title-aware index + consensus rerank-skip @0.6 | 0.975 | 0.931 | 5,877 | $0.00315 | 3.4 / 6.4 s |
 | 4. Round 2 end | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
-| 5. **Current** (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,526 | $0.00405 | see note² |
+| 5. **Current** (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,893 | $0.00405 | see note² |
 
 ¹ The baseline predates any cost work. It ran `gemini-3.1-pro` because the
 goal at that stage was to get the pipeline correct, not cheap — there was no
@@ -246,6 +247,12 @@ not quoted — the runs were measured from WSL through a cold Cloud SQL proxy to
 us-west1, which is environment-dominated. Reproduced twice with identical
 quality numbers (`eval/benchmarks/202608_adaptive_rag_prep/`).
 
+³ `in_tok` here is `input_tokens_with_rewrite_mean` — generation input **plus**
+the rewriter call — so the column stays comparable down its whole length. The
+before/after table above it counts generation input only, which is why the same
+two runs read 44,322 → 5,884 there and 44,410 → 6,263 here. Row 5's
+generation-only figure is 5,526.
+
 > **The `recall` column above is under-reported by ≈0.036.** The key-fact
 > matcher had three systematic bugs (2026-08): a fact ending in a digit never
 > matched its ordinal form, so every `"July 2"` answer written as "July 2nd"
@@ -260,16 +267,17 @@ quality numbers (`eval/benchmarks/202608_adaptive_rag_prep/`).
 > 0.956, v2 recall 0.950 → 1.000**. `eval/test_matcher.py` locks all three bugs
 > and their guards.
 
-> **These rows are archived runs, not the shipping configuration.** Every row
-> above — including the one labelled *Current* — was measured on the previous
-> model pair (`gemini-3.1-flash-lite` generation + `gemini-3.5-flash` rewriter).
-> In August 2026 both moved to their successors (`gemini-3.5-flash-lite` /
-> `gemini-3.6-flash`), which has **not** been re-benchmarked, so the numbers are
-> left as measured rather than restated for models that never ran. The quality
-> columns should carry over closely; the `$/query` column will not — flash-lite
-> output went $1.50 → $2.50/M while the rewriter went $9.00 → $7.50/M. The cost
-> shown live under each answer is computed from `config.py`'s current prices and
-> is accurate; these figures are historical. Re-run `eval/run_eval.py` to refresh.
+> **Rows 0-4 are archived runs on models that no longer serve.** They were
+> measured on the previous pair (`gemini-3.1-flash-lite` generation +
+> `gemini-3.5-flash` rewriter), which moved to `gemini-3.5-flash-lite` /
+> `gemini-3.6-flash` in August 2026 and was never re-benchmarked on the old
+> configuration. They are left as measured rather than restated for models that
+> never ran. The quality columns should carry over closely; the `$/query` column
+> does not — flash-lite output went $1.50 → $2.50/M while the rewriter went
+> $9.00 → $7.50/M. Only **row 5 is the shipping configuration**, measured on the
+> current pair with the corrected scorer. The cost shown live under each answer
+> is computed from `config.py`'s current prices and is accurate; rows 0-4 are
+> historical. Re-run `eval/run_eval.py --sleep 2 --retries 2` to refresh.
 
 The v2 messy-query set (acronyms, typos, Korean — created in round 2) tells
 the second half of the story:
@@ -278,18 +286,24 @@ the second half of the story:
 |---|---|---|---|---|
 | Round-2 config | 0.940 | 0.937 | 1.000/1.000 | 0.750 (stuck in every config) |
 | + rewrite-skip on | 0.900 | 0.817 | **0.583 — reverted** | 0.750 |
-| **Current** | **1.000** | **0.950** | 1.000/1.000 | **1.000 — fixed** |
+| Round-2 end (old model pair) | 1.000 | 0.950 | 1.000/1.000 | **1.000 — fixed** |
+| **Current** (2026-08, corrected scorer) | **1.000** | **1.000** | 1.000/1.000 | 1.000 |
 
-Net: cost $0.0126 → $0.0039 (−69% from the first instrumented figure; the
+The last two rows are the same quality: re-scoring the round-2-end run with the
+fixed matcher also gives recall 1.000. v2 has had no headroom since identity
+embeddings landed, which is why the August work had to be judged on v1 and v3.
+
+Net: cost $0.0126 → $0.0041 (−68% from the first instrumented figure; the
 `gemini-3.1-pro` baseline before it was never cost-instrumented, so the true
 reduction from the starting point is larger and is not quoted), hit 0.892 →
-0.975 clean / 1.000 messy, recall 0.848 → 0.925–0.950,
-input tokens −86%, thinking tokens 896 → 0, p50 −53%, citation precision
-1.000 throughout. The path was not monotonic: 45+ gated runs rejected ~15
+0.991 clean / 1.000 messy, recall 0.848 → 0.991 clean / 1.000 messy,
+input tokens −87%, thinking tokens 896 → 0, p50 −53%, citation precision
+1.000 throughout. The path was not monotonic: 60+ gated runs rejected ~18
 configurations outright and **reversed two adopted ones** (the simple-query
 rewrite skip, caught by the v2 set; the consensus rerank-skip, invalidated
-by identity embeddings) — and the final step deliberately spent +$0.0007
-per query to buy quality back.
+by identity embeddings) — and two of the steps deliberately spent money to buy
+quality back (+$0.0007/query retiring the rerank-skip, and the August pair,
+which turned out to be cheaper anyway).
 
 ### Current production configuration (August 2026, after entity-scoped retrieval + reranker identity)
 
@@ -301,7 +315,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
-| Entity-scoped retrieval | `ENTITY_SCOPED_RETRIEVAL=true`, `ENTITY_SCOPED_K=8` | when a sub-query names a concrete course code or program, a BM25 arm restricted to that entity's own chunks joins the pool (k is per **source** — a course resolves to its outline plus its catalogue page). Closes the boilerplate-section class: a chunk whose body carries no entity identity and whose wording is shared by 1,772-3,038 siblings cannot be ranked globally by any phrasing, and is rank 1 once scoped. Sub-millisecond; no extra billed call |
+| Entity-scoped retrieval | `ENTITY_SCOPED_RETRIEVAL=true`, `ENTITY_SCOPED_K=8`, `ENTITY_SCOPED_MAX_ENTITIES=3` | when a sub-query names a concrete course code or program, a BM25 arm restricted to that entity's own chunks joins the pool (k is per **source** — a course resolves to its outline plus its catalogue page, merged round-robin so the shorter page cannot eat the budget). Closes the boilerplate-section class: a chunk whose body carries no entity identity and whose wording is shared by 1,772-3,038 siblings cannot be ranked globally by any phrasing, and is rank 1 once scoped. Sub-millisecond; no extra billed call |
 | Rerank identity | `RERANK_IDENTITY=true` | page identity (title + filename keywords + category) rides in the Ranking API's `title` field. Without it the ranker scores identity-blind text and prefers a *sibling* course's identical section — it ranked COMP 4870's evaluation table 0.859 against 0.258 for the asked-about course's own chunks. Ships as a pair with the row above: **neither flag alone fixes anything the other does not** |
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
@@ -311,21 +325,50 @@ The complete live setup, with every value env-overridable for rollback:
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
 | Response cache | `RESPONSE_CACHE_ENABLED=true` | first-turn (no-history) questions key an in-process TTL/LRU on the normalized text (`RESPONSE_CACHE_MAX=1000`, `RESPONSE_CACHE_TTL_S=86400`); an exact repeat returns in <100 ms at $0. Exact-match only (no semantic similarity → never a wrong answer); follow-ups never cached; cleared on restart so it never outlives a corpus rebuild |
 
-Measured quality (both benchmark sets in `eval/`, all runs archived in
-`eval/benchmarks/202606_retrieval_cost_experiments/`; every number below
-reproduced in two identical runs):
+Measured quality of exactly this configuration, on all three sets
+(`eval/benchmarks/202608_adaptive_rag_prep/v{1,2,3}_l1id.json`, current model
+pair, scored with the corrected matcher; v1 reproduced in two runs that matched
+on all 39 stable cases):
 
-| Metric | v1 set (40 clean cases) | v2 set (25 incl. messy) |
-|---|---|---|
-| URL hit rate | 0.975 | **1.000** |
-| Key-fact recall | 0.925 | 0.950 |
-| Citation precision | 1.000 | 1.000 |
-| Cost / query | $0.00385 | $0.00392 |
-| Latency p50 | ~3.6 s | ~4.2 s |
+| Metric | v1 (40 clean, `fu-04` excluded → n=39) | v2 (25 incl. messy) | v3 (21 targeted) |
+|---|---|---|---|
+| URL hit rate | **0.991** | **1.000** | 0.833 |
+| Key-fact recall | **0.991** | **1.000** | 0.911 |
+| Citation precision | 1.000 | 1.000 | 1.000 |
+| Avoidance (refusal cases) | – | – | 1.000 |
+| Cost / query | $0.00405 | $0.00414 | $0.00392 |
 
-Cost anatomy at these settings: generation input ≈ $0.0015, generation
-output ≈ $0.0009, rewriter ≈ $0.0006, reranker $0.001 (every turn),
-embedding ≈ $0.00001 — still −69% vs the pre-optimization $0.0126.
+Every remaining miss is accounted for: v1 has exactly one (`mp-05`, the Tall
+Timber corpus gap it shares with `fu-04`), and v3's three are precisely the
+`multi_hop` cases — `mh3-01`, `mh3-02`, `mh3-04` — which are the open roadmap
+items, not regressions. Latency is not quoted: these runs were measured from
+WSL through a cold Cloud SQL proxy, so their p50/p95 describe the network path,
+not the pipeline. The June figures for the *previous* configuration (v1
+0.975/0.925, v2 1.000/0.950, $0.00385) are in the metric-history table above.
+
+Cost anatomy at these settings, from the adopted v1 run: generation input
+$0.00166 (5,526 tok), generation output $0.00038 (154 tok), rewriter input
+$0.00055 (367 tok) + output $0.00044 (59 tok), reranker $0.001 (every turn),
+embedding $0.00001 — **$0.00405** total, still −68% vs the pre-optimization
+$0.0126. It is also cheaper than the identical run with both flags off
+($0.00415), despite adding a retrieval arm: identity concentrates the context
+instead of spending the budget on lookalike chunks, so generation input falls
+6.4% (5,902 → 5,526 tokens) while quality rises.
+
+#### Implicit prompt caching: what was actually observed
+
+The prompt puts static instructions first so a shared prefix *could* be cached,
+but this is not a lever the cost model leans on. Across 47 production
+`query_usage` lines (2026-06-18) and the v2/v3 August runs, `cache_read_tokens`
+was **0 everywhere**. It is not structurally impossible, though: three cases in
+the August v1 runs (`pa-05`, `sl-01`, `fu-04`) each read **4,073 cached
+tokens** — far more than the ~1k static prefix, so what got reused was the
+prefix plus the head of a preceding request's context. It fires rarely, on
+whichever consecutive queries happen to share a long prefix, and cannot be
+planned for. The cost model prices every input token at full rate, so those
+three cases are reported slightly *above* what they billed — the error is in the
+conservative direction. Per-query cost is cut by the first-turn response cache
+instead, which is deterministic.
 
 ### The eval harness
 
@@ -343,15 +386,16 @@ cd backend
 export PG_CONNECTION=$(grep '^PG_CONNECTION=' .env | cut -d= -f2- | sed 's/:5432/:5433/')  # WSL
 
 # measure a configuration (env flags BEFORE launch — config reads env at import)
-.venv/bin/python eval/run_eval.py --label after
+.venv/bin/python eval/run_eval.py --label after --sleep 2 --retries 2
 CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13 \
-  .venv/bin/python eval/run_eval.py --label before
+  .venv/bin/python eval/run_eval.py --label before --sleep 2 --retries 2
 
 # compare two runs: aggregate deltas + per-case regressions
 .venv/bin/python eval/run_eval.py --compare eval/results/before.json eval/results/after.json
 
 # subsets while iterating
 .venv/bin/python eval/run_eval.py --label quick --category multipart --limit 3
+.venv/bin/python eval/run_eval.py --label quick --only mh3-   # substring on case id
 
 # LLM judge: faithfulness + completeness graded against the retrieved
 # passages (one extra JUDGE_MODEL call per case, ~$0.002 each)
@@ -361,6 +405,13 @@ CONTEXT_MODE=full_doc MULTI_QUERY_ENABLED=false RERANKER_TOP_K=13 \
 # feedback (journalctl dump) floats problem cases to the top
 .venv/bin/python eval/mine_langsmith.py --days 30 --feedback-log /tmp/feedback.log
 ```
+
+**Always pass `--sleep`/`--retries` on a full set.** Without them a
+`gemini-embedding` 429 turns into an errored case, and an errored case is
+dropped from the aggregate rather than scored — so two configs quietly end up
+averaging over *different* case sets and every delta between them is an
+artifact. One August sweep lost 5 of 21 cases this way, each in a different
+config, and had to be rerun in full.
 
 `--judge` adds `judge_faithfulness` / `judge_completeness` /
 `judge_unsupported_claims` per case and the corresponding means to the
@@ -721,13 +772,6 @@ Ideas that fit the current architecture, with their natural hook points:
   `existing_ids()` / `deterministic_ids()`.
 - **Scheduled term refresh** — the whole refresh is two commands (runbook
   below); wire into cron/GitHub Actions once credentials story is decided.
-- **Program-page section flooding** — the one retrieval weakness the eval
-  left open: section headings like "Entrance requirements" exist on all 529
-  program pages, so BM25 floods the pool with sibling programs' chunks and
-  the asked-about program's section chunk sometimes loses (multipart CST
-  cases in `eval/results/`). Hook: section-aware metadata at build time
-  (`chunk_index` is already stamped), or a BM25 field boost on the
-  program/course code.
 - **Fan-in retention** — "which courses require ACIT 1515 as a prerequisite?"
   has three correct answers on three sibling outlines, and `RERANKER_TOP_K=10`
   keeps one of them. The candidates are reachable (all three sit in the BM25
@@ -748,6 +792,17 @@ Ideas that fit the current architecture, with their natural hook points:
   Student Housing" or leaves it generic (then it retrieves the 1978 Maquinna
   residence). Roughly 50/50 across four runs, independent of retrieval config;
   `mp-05` misses the same Tall Timber content in every configuration.
+- **The 200-char dedup key collides** — pool dedup and RRF fusion key a chunk on
+  `source + page_content[:200]`, which on this corpus collides on 418 keys
+  covering 715 chunks (0.71%): two *different* chunks of the same page that open
+  identically — repeated tables in course pages, the English-proficiency
+  assessment table `pa-07`/`pa-08` depend on — merge, and the loser never
+  reaches the context. `DEDUP_FULL_CONTENT=true` keys on an md5 of the whole
+  chunk and is implemented; it is off because it enlarges the candidate pool and
+  round 2 measured undifferentiated pool growth diluting the pooled rerank
+  (`exp1_pool56`). It needs a gated run of its own, not a default flip. Hook:
+  `doc_key()` in `hybrid_retriever.py`, the single helper all three call sites
+  now share.
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
@@ -775,7 +830,19 @@ bug, not two — the answer chunk carries no course identity and 1,772 chunks
 share its wording, so no global ranking reaches it); `golden_set_v3.jsonl`
 (scoped facts, multi-hop, unanswerable, out-of-scope, chit-chat, exploratory);
 `eval/rescore.py` + `eval/test_matcher.py` after three matcher bugs were found
-to be under-reporting every archived run by ~0.036.
+to be under-reporting every archived run by ~0.036; and `backend/deploy.sh`,
+after four consecutive deploy attempts each failed on a different documented
+gotcha.
+
+Also closed, and previously listed here as the last open retrieval weakness:
+**program-page section flooding**. Section headings like "Entrance requirements"
+sit on 370 of 529 program pages, and the asked-about program's own section chunk
+used to lose to its siblings. `BM25_INDEX_AUG` (round 2) took multipart hit
+0.917 → 1.000, identity-prefixed embeddings fixed the dense arm's version of the
+same problem, and the August pair took the last case (`mp-01`, CST entrance
+requirements) from 0.500 to 1.000. The v1 set now has exactly one imperfect case
+(`mp-05`) and it is a corpus gap, not a ranking failure. The general lesson is
+recorded as design decision 15.
 
 Shipped from this list in June 2026: SSE streaming (+ `/chat` fallback),
 request timeout + worker headroom, input caps, `run_eval.py --judge`,
@@ -796,6 +863,7 @@ backend/
   response_cache.py        First-turn exact-match answer cache (in-process TTL/LRU)
   crawl_bcit.py            Corpus crawler (sitemaps + outlines API)
   build_pgvector.py        Indexing job (resumable, collection-versioned)
+  deploy.sh                Deploy backend modules to the VM (see Production)
   drop_old_collection.sh   One-off: drop a retired collection via proxy
   eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
   eval/golden_set_v2.jsonl 25-case messy-query set (acronyms, typos, Korean)
@@ -805,6 +873,7 @@ backend/
   eval/rescore.py          Re-score archived runs offline after a scorer change
   eval/test_matcher.py     Key-fact matcher regression tests
   eval/mine_langsmith.py   Production traces -> golden-set candidate JSONL
+  eval/benchmarks/         Archived rounds: every run JSON + its REPORT.md
   eval/results/            Per-run metrics JSON (gitignored)
   data/                    Crawled corpus (11,129 txt docs, 16 categories)
   vectorstore/             documents_<version>.pkl — BM25 source (generated, not committed)
@@ -813,6 +882,7 @@ frontend/
   src/Chat.jsx             Chat UI (own lazy chunk: SSE streaming + stats footer)
   src/Blog.jsx             Tech blog landing page (architecture deep dive)
   vite.config.js           Dev proxy + manualChunks vendor split (react, lucide)
+NOTICE                     BCIT copyright notice + attribution for the corpus
 ```
 
 ## API
@@ -860,8 +930,12 @@ uv sync
 #   LANGSMITH_API_KEY=<key>
 #   LANGSMITH_PROJECT=bcit-chatbot
 
-# 3. Database tunnel (separate terminal; 5433 + matching PG_CONNECTION on WSL)
+# 3. Database tunnel (separate terminal)
 cloud-sql-proxy --port 5432 wine-agent-jh-2026:us-west1:bcit-rag-pg
+#    On WSL a local PostgreSQL already owns 5432 — run the proxy on 5433 and
+#    export a rewritten PG_CONNECTION (the .env value stays 5432; see the eval
+#    harness snippet and Operational gotchas):
+#      cloud-sql-proxy --port 5433 wine-agent-jh-2026:us-west1:bcit-rag-pg
 
 # 4. Run
 uv run uvicorn server:app --host 0.0.0.0 --port 8000

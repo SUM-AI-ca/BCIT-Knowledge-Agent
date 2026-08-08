@@ -39,9 +39,13 @@ adoption required passing per-experiment gates against a fresh baseline.
   cases is the 2nd-slowest case and swings up to +28% between identical runs.
 - The second baseline run executed the new flag-gated code with all flags
   off and matched run 1 within noise — flag-off behavioral identity check.
-- `cache_read_tokens_mean = 0` in every run: Gemini implicit caching never
-  fires for this workload (static prefix ~800 tokens < 1,024 minimum), so
-  prompt-cache engineering was dropped as a lever.
+- `cache_read_tokens_mean = 0` in every run, so prompt-cache engineering was
+  dropped as a lever. (The parenthetical reason given here at the time —
+  "static prefix ~800 tokens < 1,024 minimum" — should not be relied on: the
+  threshold quoted in `config.py` and the README is 2,048, and August 2026 runs
+  on the current model pair recorded non-zero `cache_read_tokens` on three
+  cases, ~4,073 each. The measurement stands; the explanation for it does not.
+  See the README's *Implicit prompt caching* note.)
 - Ranking API billing verified: $1/1k queries, 1 query = up to 100 records —
   pool size changes below 100 records do not change rerank cost.
 

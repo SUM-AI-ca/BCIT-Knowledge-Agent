@@ -134,7 +134,7 @@ reproduced the pre-change baseline on 21/21 cases.
 | Fact recall | 0.940 | 0.953 | 0.953 | **0.991** | **0.991** |
 | Citation precision | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
 | $/query | 0.00415 | 0.00419 | 0.00407 | **0.00405** | 0.00407 |
-| Input tokens | 5,902 | 5,892 | 5,663 | **5,526** | 5,561 |
+| Input tokens (generation only) | 5,902 | 5,892 | 5,663 | **5,526** | 5,561 |
 
 | case | base | scoped | identity | both |
 |---|---|---|---|---|
@@ -176,15 +176,25 @@ nothing.
 
 | | base | stopword-df | both |
 |---|---|---|---|
-| URL hit | 0.818 | 0.818 | 0.818 |
-| Fact recall | 0.833 | 0.833 | **0.905** |
+| URL hit | 0.833 | 0.818 | 0.833 |
+| Fact recall | 0.844 | 0.833 | **0.911** |
 | Avoidance | 1.000 | 1.000 | 1.000 |
-| $/query | 0.00404 | 0.00403 | **0.00394** |
-| Input tokens | 5,984 | 5,828 | **5,582** |
+| $/query | 0.00404 | 0.00403 | **0.00392** |
+| Input tokens | 5,989 | 5,828 | **5,502** |
 
 One case changed: `sf3-05` 0.000 → 1.000. `scoped_fact` as a category goes
 0.800 → 1.000. `multi_hop` is untouched at 0.600 / 0.733 — as expected, it is
 a different failure and needs the second retrieval round, not this.
+
+> **Corrected 2026-08 (post-deploy audit).** This table originally read
+> 0.818/0.833/0.905 across the row. Those figures predate the final
+> `eval/rescore.py` pass — the one recorded under *Files* below, which gave the
+> `multi_hop` groups their course-page URL alternatives — and the "base" column
+> had additionally been filled from `v3_l2.json` rather than `v3_base.json`. The
+> numbers above are what the archived runs hold today and what a fresh
+> `rescore.py` reproduces (`0 moved`, URL self-check exact). The finding is
+> unchanged: one case flips, `sf3-05`, worth +0.067 on a 15-case fact
+> denominator. §3's baseline table was always correct.
 
 ### Adopted
 
@@ -265,10 +275,11 @@ question, `mh3-01`'s is in the first answer.
 
 ## Next, in order
 
-1. ~~Entity-scoped retrieval behind a flag, no graph, no loop.~~ **DONE and
-   adopted** (§4), together with reranker identity, which the gate did not
-   anticipate needing. v1 0.966/0.940 → 0.991/0.991 (×2), v2 unchanged at
-   1.000/1.000, v3 fact 0.833 → 0.905, cheaper on all three.
+1. ~~Entity-scoped retrieval behind a flag, no graph, no loop.~~ **DONE,
+   adopted and deployed** (§4 and *Shipped* below), together with reranker
+   identity, which the gate did not anticipate needing. v1 0.966/0.940 →
+   0.991/0.991 (×2), v2 unchanged at 1.000/1.000, v3 fact 0.844 → 0.911,
+   cheaper on all three.
 2. **Fan-in retention** (`mh3-02`: "which courses require ACIT 1515?"). Three
    sibling outlines all deserve a context slot and `RERANKER_TOP_K=10` keeps
    one. Not a hop and not a graph — a retention rule for candidates that share
@@ -303,6 +314,42 @@ questions do say something, though — they are person lookups ("who is michal?"
 topic searches ("which course can I learn how to use terraform?") and browsing
 ("ai related programs?"), a shape v1/v2 contain **zero** of. Two were promoted
 into v3 as `exploratory`; both pass.
+
+## Shipped — production verification (2026-08-08)
+
+Deployed to `bcit-rag-vm` and verified live at https://bcitai.ca. The startup
+log confirms which code is actually serving:
+
+```
+Loaded 100,515 documents
+Entity index: 7,623 course codes, 498 programs
+Reranker loaded: semantic-ranker-default-004 (identity titles)
+```
+
+Four questions were put to production, chosen because the pre-August
+configuration answers each one wrongly — a restart on old code cannot fake them:
+
+| case | production answer |
+|---|---|
+| `ol-04` COMP 1510 final-exam weight | "worth 40% of the final grade" (previously: not in the documents) |
+| `ol-12` COMP 3522 passing condition | 50%, **and** a weighted average of ≥50% across midterm and final (previously: second condition dropped) |
+| `sf3-05` ACIT 2515 exam weights | midterm 23%, final 34% (previously: not in the documents) |
+| follow-up "How many credits is it?" | resolved to COMP 3522, 5.0 credits — session memory intact |
+
+SSE streaming re-checked on the deployed build (`session` → 5×`delta` → `done`);
+both request paths share `_prepare_turn`/`_finalize_turn`, so this also covers
+the blocking `/chat` the eval harness uses.
+
+Rollback needs no deploy: `ENTITY_SCOPED_RETRIEVAL=false RERANK_IDENTITY=false`
+in the VM's `.env` plus a restart returns the pre-August behaviour, and the
+flag-off run in §4 is the evidence that it returns to it exactly.
+
+The deploy itself took four attempts, each failing on a *different* documented
+gotcha (runbook copied only `server.py`; a wrapped one-liner made bash try to
+execute `config.py`; `gcloud auth login` left the active project pointing away
+from the VM's; a `read` prompt killed the script under `set -e` when stdin was
+not a terminal). All four are now handled by `backend/deploy.sh`, which
+pre-checks VM reachability before uploading anything.
 
 ## Files
 

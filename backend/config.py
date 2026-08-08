@@ -166,16 +166,6 @@ RETRIEVAL_BM25_K = 23
 # candidate set is the binding constraint.
 BM25_STOPWORD_DF = _env_float("BM25_STOPWORD_DF", 0.0)
 
-# Entity-scoped retrieval: when a sub-query names a concrete course code or
-# program, add a retrieval arm restricted to that entity's OWN chunks.
-# Targets the "boilerplate section" failure class — a chunk whose body carries
-# no entity identity and whose wording is shared corpus-wide (1,772 chunks say
-# "Final Exam |", 3,038 say "Total Hours |"). Such a chunk cannot be ranked
-# globally by any phrasing: ol-04's answer chunk is outside the BM25 top-25
-# under all three phrasings tried and is rank 1 once scoped; same for ol-11,
-# sf3-05 and mp-01's entrance-requirements/costs sections.
-# Candidates join the existing pool, so the Ranking API call count is unchanged
-# (it bills per query for up to 100 records).
 # Chunk identity for pool dedup and RRF fusion. The historical key is
 # source + the chunk's first 200 chars; measured on this corpus it collides on
 # 418 keys covering 715 chunks (0.71%) — two DIFFERENT chunks of the same page
@@ -187,6 +177,17 @@ BM25_STOPWORD_DF = _env_float("BM25_STOPWORD_DF", 0.0)
 # so it is an experiment with a gate, not a free correctness win.
 DEDUP_FULL_CONTENT = _env_bool("DEDUP_FULL_CONTENT", False)
 
+# Entity-scoped retrieval: when a sub-query names a concrete course code or
+# program, add a retrieval arm restricted to that entity's OWN chunks.
+# Targets the "boilerplate section" failure class — a chunk whose body carries
+# no entity identity and whose wording is shared corpus-wide (1,772 chunks say
+# "Final Exam |", 3,038 say "Total Hours |"). Such a chunk cannot be ranked
+# globally by any phrasing: ol-04's answer chunk is outside the BM25 top-25
+# under all three phrasings tried and is rank 1 once scoped; same for ol-11,
+# sf3-05 and mp-01's entrance-requirements/costs sections.
+# Candidates join the existing pool, so the Ranking API call count is unchanged
+# (it bills per query for up to 100 records).
+#
 # ADOPTED 2026-08 together with RERANK_IDENTITY — neither is worth adopting
 # alone. Measured on v1 (n=39, ×2 identical runs): each flag ALONE fixes the
 # same single case (mp-01) and nothing else; together they also fix ol-04 and
@@ -195,8 +196,13 @@ DEDUP_FULL_CONTENT = _env_bool("DEDUP_FULL_CONTENT", False)
 # the ranker drops them for sibling outlines whose identical section is what
 # the question literally describes.
 ENTITY_SCOPED_RETRIEVAL = _env_bool("ENTITY_SCOPED_RETRIEVAL", True)
+# Per SOURCE, not per entity: a course resolves to its outline AND its
+# catalogue page, and the shorter page wins BM25 length normalisation on every
+# chunk, so a shared budget let it evict the outline rows that hold the answer.
 ENTITY_SCOPED_K = _env_int("ENTITY_SCOPED_K", 8)
-# Cap per turn: each entity costs one extra BM25 scoring pass over the corpus.
+# Cap per turn. Each entity is scored over its own chunks only (~0.1-0.3 ms,
+# not the 128 ms a full-index get_scores() pass costs), so the cap is about
+# bounding how much of the rerank pool one turn's entities may claim, not CPU.
 ENTITY_SCOPED_MAX_ENTITIES = _env_int("ENTITY_SCOPED_MAX_ENTITIES", 3)
 
 RETRIEVAL_FETCH_K = _env_int("RETRIEVAL_FETCH_K", 50)
@@ -308,11 +314,16 @@ _LANGUAGE_RULE = _LANGUAGE_RULES.get(RESPONSE_LANGUAGE, _LANGUAGE_RULES["match"]
 # Static instructions come FIRST and the variable inputs (context, history,
 # question) LAST: Gemini's implicit caching can only reuse a shared prompt
 # prefix, and anything after the first changed byte is a cache miss.
-# NOTE (verified 2026-06-18: 47/47 query_usage lines had cache_read_tokens=0):
-# this static prefix is only ~1k tokens — below Gemini's 2,048-token implicit-
-# cache minimum — so the cache never actually engages today. The ordering is
-# kept as harmless future-proofing (it pays off only if the prefix ever grows
-# past 2,048 tokens). Per-query cost is instead cut by the response cache.
+# NOTE: this static prefix is only ~1k tokens, below the 2,048-token implicit-
+# cache minimum, and it shows: 47/47 production query_usage lines (2026-06-18)
+# and every v2/v3 eval run report cache_read_tokens=0. It is not dead, though —
+# three cases in the August 2026 v1 runs (pa-05, sl-01, fu-04) each read 4,073
+# cached tokens, i.e. the prefix PLUS the head of a preceding request's
+# context, which only happens when consecutive queries share a long prefix.
+# So the ordering is kept and the cache is treated as an occasional windfall,
+# never a planned saving. Cost accounting prices every input token at full
+# rate, which errs high on those cases. Per-query cost is instead cut by the
+# response cache, which is deterministic.
 RAG_PROMPT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
 
 Your role:
