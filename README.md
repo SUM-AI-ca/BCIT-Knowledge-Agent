@@ -203,10 +203,20 @@ rows are archived eval runs on the same 40-case clean set
 | 1. Chunk pipeline | decompose → parallel hybrid fan-out → pooled rerank + quota → neighbor expansion ±2, thinking 0 | 0.963 | 0.885 | 6,263 (−86%) | $0.0126 | 4.1 / 5.2 s |
 | 2. Model mix | generation → `3.1-flash-lite`, rewriter kept on `3.5-flash` | 0.963 | 0.890 | 6,274 | $0.0039 (−69%) | 3.6 / 4.8 s |
 | 3. Round 2 | BM25 title-aware index + consensus rerank-skip @0.6 | 0.975 | 0.931 | 5,877 | $0.00315 | 3.4 / 6.4 s |
-| 4. **Current** | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
+| 4. Round 2 end | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
+| 5. **Current** (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,526 | $0.00405 | see note² |
 
 ¹ Pre-dates the cost instrumentation: estimated from the measured tokens at
 the prices in effect (all 3.5-flash + Ranking API).
+
+² Row 5 is the first benchmark on the current model pair and the first run of
+the corrected scorer; rows 0-4 are the older pair. Its `fu-04` is excluded
+(n=39): that case scores 1.000 or 0.000 depending on whether the rewriter
+resolves "the newest residence" to "Tall Timber", independent of
+configuration, and it flipped between two otherwise identical runs. Latency is
+not quoted — the runs were measured from WSL through a cold Cloud SQL proxy to
+us-west1, which is environment-dominated. Reproduced twice with identical
+quality numbers (`eval/benchmarks/202608_adaptive_rag_prep/`).
 
 > **The `recall` column above is under-reported by ≈0.036.** The key-fact
 > matcher had three systematic bugs (2026-08): a fact ending in a digit never
@@ -261,6 +271,8 @@ The complete live setup, with every value env-overridable for rollback:
 | Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
+| Entity-scoped retrieval | `ENTITY_SCOPED_RETRIEVAL=true`, `ENTITY_SCOPED_K=8` | when a sub-query names a concrete course code or program, a BM25 arm restricted to that entity's own chunks joins the pool (k is per **source** — a course resolves to its outline plus its catalogue page). Closes the boilerplate-section class: a chunk whose body carries no entity identity and whose wording is shared by 1,772-3,038 siblings cannot be ranked globally by any phrasing, and is rank 1 once scoped. Sub-millisecond; no extra billed call |
+| Rerank identity | `RERANK_IDENTITY=true` | page identity (title + filename keywords + category) rides in the Ranking API's `title` field. Without it the ranker scores identity-blind text and prefers a *sibling* course's identical section — it ranked COMP 4870's evaluation table 0.859 against 0.258 for the asked-about course's own chunks. Ships as a pair with the row above: **neither flag alone fixes anything the other does not** |
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
 | Generation | `GEMINI_MODEL` | `gemini-3.5-flash-lite`, temp 0.05, max 2048, thinking 0 |
@@ -621,21 +633,26 @@ Ideas that fit the current architecture, with their natural hook points:
   cases in `eval/results/`). Hook: section-aware metadata at build time
   (`chunk_index` is already stamped), or a BM25 field boost on the
   program/course code.
-- **Entity-scoped retrieval — the highest-value open item.** `ol-04` (COMP 1510
-  final-exam weight) and `ol-11` (COMP 1510 hours/weeks) were filed separately
-  as "probably a corpus gap" and "flaky"; they are one systematic bug, and the
-  facts are in the corpus (`COMP_1510_202610.txt:52`, `Final Exam | 40`). The
-  answer-bearing chunk starts `"Midterm Exam | 25 / Final Exam | 40 …"` — its
-  body names no course, and 1,772 chunks share the `"Final Exam |"` wording
-  (3,038 share `"Total Hours |"`). `BM25_INDEX_AUG` prepends page identity, but
-  it lifts all 3,262 sibling outlines equally, so the chunk never reaches the
-  BM25 top-25 under any phrasing (measured offline against the corpus pickle);
-  identity-prefixed embeddings have the same problem, since the *content* is
-  near-duplicate across the corpus. Restricting the search to the named
-  course's own 13 chunks puts both answers at **rank 1**. Hook: a metadata
-  filter on `filename_keywords` / `source` when the rewriter names a concrete
-  course or program code. No query reformulation fixes this class — the target
-  is not out-ranked, it is indistinguishable.
+- **Fan-in retention** — "which courses require ACIT 1515 as a prerequisite?"
+  has three correct answers on three sibling outlines, and `RERANKER_TOP_K=10`
+  keeps one of them. The candidates are reachable (all three sit in the BM25
+  top-25 for a terse query) but the pooled rerank spreads the context budget
+  across unrelated sources. Needs a retention rule for candidates sharing a
+  relation to the named entity — not another retrieval hop. `BM25_STOPWORD_DF`
+  is implemented and rejected for the candidate-set half of it.
+- **Second-hop retrieval** — "what are the prerequisites of COMP 4537's
+  prerequisites?" The model reads hop 1, names COMP 1537 and COMP 3522 itself,
+  then says it cannot reach their details: the decomposer emits sub-queries in
+  parallel, so it cannot name a target that is only knowable after the first
+  result. This is the one place a cycle is warranted (`eval/benchmarks/
+  202608_adaptive_rag_prep/REPORT.md` §6). Guard: the loop must never fire on a
+  question the corpus genuinely cannot answer — the in-process entity index
+  answers "does this entity exist at all" for free.
+- **Follow-up referent resolution** — `fu-04` scores 1.000 or 0.000 depending
+  on whether the rewriter turns "the newest residence" into "Tall Timber
+  Student Housing" or leaves it generic (then it retrieves the 1978 Maquinna
+  residence). Roughly 50/50 across four runs, independent of retrieval config;
+  `mp-05` misses the same Tall Timber content in every configuration.
 - **Term-aware retrieval** — outline chunks carry `term_code` metadata already;
   boosting newer terms (or filtering expired ones at query time) is a metadata
   filter away.
@@ -656,6 +673,14 @@ Ideas that fit the current architecture, with their natural hook points:
   (`genai.Client(vertexai=True).models.embed_content`) is retrieval-equivalent
   for 001 — swap to it (also unlocks newer models, e.g. emb2 at
   `location="global"`). Hook: `backend/embeddings.py`.
+
+Shipped from this list in August 2026: **entity-scoped retrieval + reranker
+identity**, which closed the long-open `ol-04`/`ol-11` failure (they were one
+bug, not two — the answer chunk carries no course identity and 1,772 chunks
+share its wording, so no global ranking reaches it); `golden_set_v3.jsonl`
+(scoped facts, multi-hop, unanswerable, out-of-scope, chit-chat, exploratory);
+`eval/rescore.py` + `eval/test_matcher.py` after three matcher bugs were found
+to be under-reporting every archived run by ~0.036.
 
 Shipped from this list in June 2026: SSE streaming (+ `/chat` fallback),
 request timeout + worker headroom, input caps, `run_eval.py --judge`,

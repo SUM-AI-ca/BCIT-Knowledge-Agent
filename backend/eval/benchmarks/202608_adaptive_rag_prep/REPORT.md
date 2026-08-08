@@ -118,6 +118,139 @@ approximately zero quality risk.
 weights) retrieved the outline URL but not the evaluation chunk: the section-2
 bug again, at ~40% incidence across the seven cases of this class in v1+v3.
 
+## 4. What actually fixed the class — measured
+
+Two flags, adopted together. `ENTITY_SCOPED_RETRIEVAL` adds a BM25 arm
+restricted to the chunks of the course or program a sub-query names.
+`RERANK_IDENTITY` sends that page identity in the Ranking API's `title` field.
+Every other run below defaults to the previous behaviour; the flag-off run
+reproduced the pre-change baseline on 21/21 cases.
+
+### v1 (40 cases, `fu-04` excluded — see the noise note)
+
+| | base | scoped only | identity only | **both** | **both, run 2** |
+|---|---|---|---|---|---|
+| URL hit | 0.966 | 0.966 | 0.966 | **0.991** | **0.991** |
+| Fact recall | 0.940 | 0.953 | 0.953 | **0.991** | **0.991** |
+| Citation precision | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 |
+| $/query | 0.00415 | 0.00419 | 0.00407 | **0.00405** | 0.00407 |
+| Input tokens | 5,902 | 5,892 | 5,663 | **5,526** | 5,561 |
+
+| case | base | scoped | identity | both |
+|---|---|---|---|---|
+| `ol-04` COMP 1510 final-exam weight | 0.000 | 0.000 | 0.000 | **1.000** |
+| `ol-12` COMP 3522 passing condition | 0.500 | 0.500 | 0.500 | **1.000** |
+| `mp-01` CST entrance requirements | 0.500 | 1.000 | 1.000 | 1.000 |
+
+**The two flags interact.** Each one alone fixes exactly the same single case
+(`mp-01`, a program page that was already being retrieved) and nothing more.
+`ol-04` and `ol-12` need both, and the mechanism says why:
+
+- Without the scoped arm, COMP 1510's outline never enters the pool at all —
+  the final context is ten *other* courses' outlines.
+- With it but without identity, the scoped chunks enter the pool (12 of them)
+  and the ranker still drops every one: it scored COMP 4870's and COMP 7402's
+  evaluation tables 0.859 / 0.709 against 0.258 for ACIT 2515's own chunks on
+  the equivalent v3 case. Those tables *are* what the question describes.
+  Only the course name separates them, and the ranker had never been shown it.
+- With both, the asked-about course lands at context position 1 and the
+  context *concentrates*: sources 10 → 8 on `ol-04`, 10 → 6 on `ol-12`.
+
+That concentration is why the adopted config is also the cheapest measured:
+identity stops the context budget being spent on lookalikes, so input tokens
+fall 6.4% and cost 2.4% while quality rises.
+
+### v2 (25 cases) — no regression
+
+| | base | scoped | both |
+|---|---|---|---|
+| URL hit / fact recall | 1.000 / 1.000 | 1.000 / 1.000 | 1.000 / 1.000 |
+| Input tokens | 5,547 | 5,628 | **5,389** |
+
+25/25 cases scored identically to baseline in both configs. v2 has no headroom
+on the current models, so this set only had to show the scoped arm does not
+displace correct results — it injects 4.6 candidates per case and changes
+nothing.
+
+### v3 (21 cases)
+
+| | base | stopword-df | both |
+|---|---|---|---|
+| URL hit | 0.818 | 0.818 | 0.818 |
+| Fact recall | 0.833 | 0.833 | **0.905** |
+| Avoidance | 1.000 | 1.000 | 1.000 |
+| $/query | 0.00404 | 0.00403 | **0.00394** |
+| Input tokens | 5,984 | 5,828 | **5,582** |
+
+One case changed: `sf3-05` 0.000 → 1.000. `scoped_fact` as a category goes
+0.800 → 1.000. `multi_hop` is untouched at 0.600 / 0.733 — as expected, it is
+a different failure and needs the second retrieval round, not this.
+
+### Adopted
+
+`ENTITY_SCOPED_RETRIEVAL=true` + `RERANK_IDENTITY=true`, as a pair. Quality up
+on every set that had headroom, no regression on any, citation precision 1.000
+throughout, and cheaper on all three. Both remain env-overridable.
+
+### Rejected
+
+- **`BM25_STOPWORD_DF=0.35`** — 0 cases changed on any set. The offline effect
+  is real (leave-one-out names `bcit` df 55.9%, `a` 60.1%, `with` 45.1%,
+  `courses` 41.8% as pollutants; the `mh3-02` target moves from BM25 rank 161
+  to 22, i.e. outside vs inside `RETRIEVAL_BM25_K=23`) but the pooled rerank
+  re-orders the candidates afterwards, so a better candidate set did not become
+  a better context. The flag stays for the fan-in query shape, where the
+  candidate set is the binding constraint.
+- **`RERANKER_TOP_K=14`** — 0 cases, +2% cost.
+- **Either adopted flag on its own** — see the interaction above.
+- **Applying the stopword filter inside the scoped arm** — regressed `sf3-05`
+  from 1.000 to 0.000. Within one document the "generic" words are the
+  discriminating ones, and the augmented text repeats the course code on every
+  chunk, so filtering made all 13 chunks tie on the entity's own name.
+
+## 5. Measurement notes that cost time
+
+- **`fu-04` is a coin flip, not a signal.** It scored 1.000 / 0.000 / 1.000 /
+  0.000 across four runs *independent of config*: the rewriter resolves "the
+  newest residence" to "Tall Timber Student Housing" about half the time, and
+  retrieves the 1978 Maquinna residence when it does not. It is excluded from
+  the v1 aggregate above and is the only case that moves between the two
+  identical `both` runs. `mp-05` misses the same Tall Timber content in every
+  configuration — one corpus-side weak spot, two cases.
+- **Single-case A/B is not usable here.** The rewriter emits different
+  sub-queries for the same question across runs (`'ACIT 2515 midterm exam
+  percentage weight'` vs `'…grade percentage'`), which changes retrieval. Full
+  sets are stable: two identical v3 runs matched on 21/21, and the two `both`
+  runs on v1 matched on all 39 stable cases.
+- **A 429 used to delete a case from the run**, silently changing which cases
+  the aggregate averages over; in one sweep 5 of 21 cases errored, each in a
+  different config, and every apparent delta was that artifact.
+  `run_eval.py --sleep/--retries` now paces and retries instead.
+- **Three golden-set paraphrase gaps surfaced while comparing configs**
+  (`ol-07` "optional", `ol2-01` "does not require any prerequisites",
+  and the ordinal/hyphen/Unicode matcher bugs in §1). Each was verified by
+  reading the answer, then applied to *all* arms via `eval/rescore.py` — a
+  golden-set edit that lands on one arm of a comparison is how a config gets
+  credited for a scoring change.
+
+## 6. What this changes about the original question
+
+The `scoped_fact` class is closed without a graph, a loop, or an extra LLM
+call. That shrinks what a corrective/adaptive layer would be for:
+
+| failure class | status |
+|---|---|
+| boilerplate section of a named entity (`ol-04`, `ol-12`, `mp-01`, `sf3-05`) | **fixed here** |
+| fan-in breadth (`mh3-02`) | open; needs candidate-set retention, not a hop |
+| true 2-hop (`mh3-01`, `mh3-04`) | open; the only case for a cycle |
+| chit-chat / out-of-scope cost | open; the A-branch, worth ~83% on those queries |
+| generator dishonesty | does not exist (avoidance 1.000, citation 1.000) |
+
+So the LangGraph case now rests on **two cases** in v3's `multi_hop`, not on
+the retrieval quality story. That is a much smaller mandate than it looked
+like before this round, and it should be sized against real traffic — which
+remains unmeasurable (12 root runs in LangSmith retention).
+
 ## Verdict
 
 | technique | verdict | why |
@@ -132,16 +265,38 @@ question, `mh3-01`'s is in the first answer.
 
 ## Next, in order
 
-1. **Entity-scoped retrieval behind a flag, no graph, no loop.** Gate on v3
-   `scoped_fact` = 1.000 and v1 `ol-04`/`ol-11`, with v1/v2 not regressing.
-2. **Coverage gate + one hop-2 re-retrieval.** This is where LangGraph earns its
-   place — the first cycle in the pipeline. Gate on v3 `multi_hop`
-   fact ≥ 0.90 / url ≥ 0.85, cost +10% max, p95 (measured on the VM) +1 s max.
-3. **`route` field in the existing rewriter JSON schema** (A-branch). No extra
-   API call — the same conditional-schema pattern as `MQ_BM25_KEYWORDS`.
-   Gate on zero mis-routes across all three sets.
+1. ~~Entity-scoped retrieval behind a flag, no graph, no loop.~~ **DONE and
+   adopted** (§4), together with reranker identity, which the gate did not
+   anticipate needing. v1 0.966/0.940 → 0.991/0.991 (×2), v2 unchanged at
+   1.000/1.000, v3 fact 0.833 → 0.905, cheaper on all three.
+2. **Fan-in retention** (`mh3-02`: "which courses require ACIT 1515?"). Three
+   sibling outlines all deserve a context slot and `RERANKER_TOP_K=10` keeps
+   one. Not a hop and not a graph — a retention rule for candidates that share
+   a relation to the named entity. `BM25_STOPWORD_DF` is the ready-made lever
+   for the candidate-set half of it and is already implemented, rejected only
+   because the rerank re-orders afterwards.
+3. **Coverage gate + one hop-2 re-retrieval** (`mh3-01`, `mh3-04`). Still the
+   only place a cycle is warranted, and now the *whole* case for LangGraph:
+   two cases. Gate on v3 `multi_hop` fact ≥ 0.90 / url ≥ 0.85, `unanswerable`
+   holding at 1.000 (the loop must never fire on a question the corpus cannot
+   answer — the in-process entity index answers "does this exist at all" for
+   free), cost +10% max, p95 measured **on the VM** +1 s max.
+4. **`route` field in the existing rewriter JSON schema** (A-branch). No extra
+   API call — the same conditional-schema pattern as `MQ_BM25_KEYWORDS`. Gate
+   on zero mis-routes across all three sets.
 
-Traffic mix, needed to size step 3, is currently **unmeasurable**: LangSmith
+Two findings that fall out of this round and belong to neither step:
+
+- **Follow-up referent resolution is ~50/50 on `fu-04`.** The rewriter turns
+  "the newest residence" into "Tall Timber Student Housing" in half the runs
+  and into a generic phrase in the other half, which retrieves the 1978
+  Maquinna residence instead. `mp-05` misses the same content in every
+  configuration. One corpus/rewriter weak spot, two cases, config-independent.
+- **The substring fact matcher under-counts paraphrase often enough to matter
+  in a config comparison.** Three gaps surfaced in this round alone. Consider
+  running `--judge` alongside the substring metric for adoption decisions.
+
+Traffic mix, needed to size step 4, is currently **unmeasurable**: LangSmith
 retention holds only 12 root runs (2026-07-27 → 08-08), one of them chitchat.
 The open README item "ship logs somewhere queryable" is the blocker. Those 12
 questions do say something, though — they are person lookups ("who is michal?"),
@@ -151,7 +306,13 @@ into v3 as `exploratory`; both pass.
 
 ## Files
 
-`v3_baseline.json` — the run above, re-scored through `eval/rescore.py` after
+`v1_{base,l1,id,l1id,l1id_b}.json`, `v2_{base,l1,l1id}.json`,
+`v3_{base,l2,l1l2k,l1id}.json` — the runs in §4. `l1` = entity-scoped only,
+`id` = reranker identity only, `l1id` = both (the adopted config), `l1id_b` =
+its reproduction. All re-scored through `eval/rescore.py` so every run is
+measured against the same golden sets.
+
+`v3_baseline.json` — the §3 baseline, re-scored through `eval/rescore.py` after
 `multi_hop` groups gained their course-page URL alternatives (a course page is a
 legitimate source for prerequisite facts; v1/v2 already treat the two as
 alternatives, v3 initially did not, which scored `mh3-03` as a URL miss for an

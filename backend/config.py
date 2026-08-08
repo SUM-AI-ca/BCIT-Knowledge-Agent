@@ -159,6 +159,11 @@ RETRIEVAL_BM25_K = 23
 # A df threshold rather than a stopword list: it is derived from this corpus
 # and needs no upkeep when the crawl changes. 0.35 drops exactly those four
 # and leaves ol-02/ol-04/pa-01/sf3-05/ex3-01 ranks byte-identical.
+# REJECTED 2026-08: 0 cases changed on any of the three sets. The offline
+# ranking effect is real (the target chunk moves from BM25 rank 161 to 22) but
+# the pooled rerank re-orders the candidates anyway, so a better candidate set
+# did not become a better context. Kept for the fan-in query shape, where the
+# candidate set is the binding constraint.
 BM25_STOPWORD_DF = _env_float("BM25_STOPWORD_DF", 0.0)
 
 # Entity-scoped retrieval: when a sub-query names a concrete course code or
@@ -182,7 +187,14 @@ BM25_STOPWORD_DF = _env_float("BM25_STOPWORD_DF", 0.0)
 # so it is an experiment with a gate, not a free correctness win.
 DEDUP_FULL_CONTENT = _env_bool("DEDUP_FULL_CONTENT", False)
 
-ENTITY_SCOPED_RETRIEVAL = _env_bool("ENTITY_SCOPED_RETRIEVAL", False)
+# ADOPTED 2026-08 together with RERANK_IDENTITY — neither is worth adopting
+# alone. Measured on v1 (n=39, ×2 identical runs): each flag ALONE fixes the
+# same single case (mp-01) and nothing else; together they also fix ol-04 and
+# ol-12, because the two halves of the failure need each other — without the
+# scoped arm the course's chunks never enter the pool, and without identity
+# the ranker drops them for sibling outlines whose identical section is what
+# the question literally describes.
+ENTITY_SCOPED_RETRIEVAL = _env_bool("ENTITY_SCOPED_RETRIEVAL", True)
 ENTITY_SCOPED_K = _env_int("ENTITY_SCOPED_K", 8)
 # Cap per turn: each entity costs one extra BM25 scoring pass over the corpus.
 ENTITY_SCOPED_MAX_ENTITIES = _env_int("ENTITY_SCOPED_MAX_ENTITIES", 3)
@@ -201,7 +213,8 @@ RANKING_CONFIG = "default_ranking_config"
 # any sibling page — the identical blindness BM25_INDEX_AUG and the
 # identity-prefixed embeddings already fixed for the two retrieval arms.
 # No extra call and no extra billed query; `title` rides on the same record.
-RERANK_IDENTITY = _env_bool("RERANK_IDENTITY", False)
+# ADOPTED 2026-08 (see ENTITY_SCOPED_RETRIEVAL — they ship as a pair).
+RERANK_IDENTITY = _env_bool("RERANK_IDENTITY", True)
 RERANKER_CANDIDATES = _env_int("RERANKER_CANDIDATES", 25)
 RERANKER_TOP_K = _env_int("RERANKER_TOP_K", 10)
 
