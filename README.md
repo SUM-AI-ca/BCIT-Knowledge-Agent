@@ -891,19 +891,62 @@ Browser ──HTTPS──▶ Cloudflare (proxied DNS, TLS termination, edge cach
 
 ### Deploying a code update
 
-```bash
-cd frontend && npm run build
+**Deploy every backend module you changed, not just `server.py`.** The pipeline
+lives in `query_rag.py`, `hybrid_retriever.py`, `reranker.py` and `config.py`,
+and a change can easily touch none of `server.py` — the August 2026 retrieval
+work touched four modules and left `server.py` untouched, so a `server.py`-only
+deploy would have shipped nothing. Let git tell you the list:
 
-gcloud compute scp backend/server.py bcit-rag-vm:/tmp/server.py --zone=us-west1-b
+```bash
+# what actually needs to go up (compare against the last deployed commit)
+git diff --name-only <last-deployed-sha>..HEAD -- 'backend/*.py' | grep -v '^backend/eval/'
+git diff --name-only <last-deployed-sha>..HEAD -- frontend | head   # empty ⇒ skip the build
+```
+
+`backend/eval/` is not used in production and does not need deploying. The
+frontend only needs rebuilding when something under `frontend/src` changed.
+
+```bash
+cd frontend && npm run build          # only if frontend/ changed
+
+# backend modules — list the ones git reported
+gcloud compute scp backend/config.py backend/query_rag.py \
+    backend/hybrid_retriever.py backend/reranker.py backend/server.py \
+    bcit-rag-vm:/tmp/ --zone=us-west1-b
+
+# frontend, only if rebuilt
 gcloud compute scp --recurse frontend/dist bcit-rag-vm:/tmp/dist-new --zone=us-west1-b
 
 gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
-  sudo cp /tmp/server.py /opt/bcit-rag/backend/server.py &&
-  sudo rm -rf /opt/bcit-rag/frontend/dist &&
-  sudo mv /tmp/dist-new /opt/bcit-rag/frontend/dist &&
+  for f in config.py query_rag.py hybrid_retriever.py reranker.py server.py; do
+    [ -f /tmp/$f ] && sudo cp /tmp/$f /opt/bcit-rag/backend/$f
+  done
+  [ -d /tmp/dist-new ] && sudo rm -rf /opt/bcit-rag/frontend/dist &&
+    sudo mv /tmp/dist-new /opt/bcit-rag/frontend/dist
   sudo systemctl daemon-reload && sudo systemctl restart bcit-chatbot &&
-  sleep 30 && curl -s localhost:8000/health'
+  sleep 45 && curl -s localhost:8000/health'
 ```
+
+Startup takes ~30-45 s: the service loads the 100,515-chunk pickle, fits the
+BM25 index and builds the entity index before `/health` reports
+`chatbot_loaded: true`. Verify the log lines that prove the retrieval flags are
+live, then send one real question:
+
+```bash
+gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
+  journalctl -u bcit-chatbot -n 40 --no-pager | grep -E "Entity index|Reranker loaded|Loaded"'
+# expect: "Entity index: 7,623 course codes, 498 programs"
+#         "Reranker loaded: semantic-ranker-default-004 (identity titles)"
+
+curl -s -X POST https://bcitai.ca/chat -H 'Content-Type: application/json' \
+  -d '"'"'{"message":"In COMP 1510, what percentage of the final grade is the final exam worth?"}'"'"' \
+  | python3 -c 'import json,sys; print(json.load(sys.stdin)["reply"][:200])'
+# expect the answer to contain 40% — this case fails on the pre-August config
+```
+
+Rollback is `git checkout <previous-sha> -- backend/` plus the same scp/restart,
+or flip the flags without a deploy: `ENTITY_SCOPED_RETRIEVAL=false
+RERANK_IDENTITY=false` in `/opt/bcit-rag/backend/.env` and restart.
 
 ### Refreshing the corpus (per-term runbook)
 
