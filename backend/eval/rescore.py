@@ -15,8 +15,10 @@ Two caveats, both reported rather than hidden:
   cap, a fact "miss" may just be text that was cut off, so those cases are
   counted separately and never claimed as a scorer fix.
 - URL metrics do not depend on the fact matcher at all. They are recomputed
-  anyway as a self-check: if `url_hit_rate` moves, this tool is wrong, not the
-  run. Any such case is printed as a MISMATCH.
+  anyway as a self-check and any movement is printed as a MISMATCH. After a
+  pure SCORER change that means this tool is wrong. After a GOLDEN-SET change
+  that touched `expected_urls` it is the expected result — read the listed
+  cases and confirm each one is the edit you made.
 """
 
 import argparse
