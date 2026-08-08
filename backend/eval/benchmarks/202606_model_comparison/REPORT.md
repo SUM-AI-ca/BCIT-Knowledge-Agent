@@ -61,3 +61,9 @@ Raw eval outputs for every run in this directory (copied from the gitignored
 `eval/results/` scratch dir). The optimization-era baselines (`before*`,
 `after`, `sweep_*`) are included for the full June 2026 story: full-doc
 pipeline → chunk pipeline → model selection.
+
+Note on what came before this benchmark: the original full-document pipeline
+ran `gemini-3.1-pro`. That build was about getting retrieval and grounding
+correct — there was no per-query cost instrumentation, no model comparison and
+no token budget, so its cost was never measured and is not quoted anywhere.
+Cost work starts with the chunk pipeline and this document.

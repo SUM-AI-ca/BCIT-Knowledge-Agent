@@ -4,10 +4,17 @@
 
 A retrieval-augmented generation (RAG) chatbot that answers questions about BCIT
 programs, courses, admissions, and campus life, grounded in **11,129 documents
-crawled from the live BCIT website** (September 2024 intake onwards). The entire
-pipeline is **CPU-only**: embeddings, vector search, reranking, and the LLM all
-run on GCP managed services — no GPU, no GCP API keys (Application Default
-Credentials end to end). Every query is traced in LangSmith.
+crawled from the live BCIT website** (September 2024 intake onwards).
+Embeddings, vector search, reranking, and generation are all managed services
+(Vertex AI + Cloud SQL). Every Google Cloud call authenticates through
+Application Default Credentials — the VM's attached service account in
+production — so no Google Cloud API key exists to leak, rotate, or commit.
+Every query emits a LangSmith trace and a structured cost/latency log line.
+
+The retrieval configuration is not a generic RAG recipe: every value below was
+selected against BCIT's specific information architecture and re-measured when
+that architecture pushed back. See
+[Why these hyperparameters are BCIT-specific](#why-these-hyperparameters-are-bcit-specific).
 
 | Component | Service |
 |---|---|
@@ -48,12 +55,23 @@ Credentials end to end). Every query is traced in LangSmith.
      shared thread pool, then rank-interleave into one deduped pool
      (cap 40). Retrieval returns metadata copies — BM25 documents alias the
      shared corpus pickle, and annotating them in place would corrupt it.
+   - *Entity-scoped arm* (`ENTITY_SCOPED_RETRIEVAL`): when a sub-query names a
+     concrete course code or program, a third arm scores only that entity's own
+     chunks and joins the pool. This is the only path that can surface a
+     templated section — an outline's evaluation table names no course and
+     3,000-odd sibling chunks share its wording, so global ranking cannot
+     separate them. Sub-millisecond (it scores the entity's chunks directly,
+     not the whole index) and costs no extra billed call.
 4. **Rerank** — ONE Vertex AI Ranking API call per turn regardless of
    sub-query count (the API bills per query): the pooled candidates are
    scored against the standalone question (`semantic-ranker-default-004`),
    the top `RERANKER_TOP_K=10` are kept, and a coverage quota guarantees
    every sub-query keeps ≥ 2 of its own chunks (its best leftovers swap in,
-   evicting only above-quota docs).
+   evicting only above-quota docs). Each record carries its page identity in
+   the API's `title` field (`RERANK_IDENTITY`); without it the ranker scores
+   identity-blind text and prefers a sibling page's identical section. It
+   ships as a pair with the entity-scoped arm — neither fixes on its own what
+   the two fix together.
 5. **Assemble context from chunks** — the selected chunks themselves go into
    the prompt (not their whole source files, which is what the pre-June-2026
    pipeline did at ~44k input tokens/query). Each chunk pulls in ±2
@@ -114,11 +132,14 @@ context size, and fallback flags.
 
 ---
 
-## Cost & accuracy optimization (June 2026)
+## Cost & accuracy optimization (June – August 2026)
 
 Measured on a 40-case golden set (`backend/eval/golden_set.jsonl`: outline
 facts, program/admission, student life, multipart, follow-up pairs) against
-the same corpus and models — only the pipeline changed:
+the same corpus. The "before" column is the original implementation-focused
+build: whole documents in the prompt, no decomposition, `gemini-3.1-pro`, and
+no cost instrumentation of any kind. Cost optimization begins *after* this
+table — the columns below compare pipeline shape, not price:
 
 | Metric | Before (full-doc context) | After (chunks + decompose) |
 |---|---|---|
@@ -199,15 +220,22 @@ rows are archived eval runs on the same 40-case clean set
 
 | Stage | What changed | hit | recall | in_tok | $/query | p50 / p95 |
 |---|---|---|---|---|---|---|
-| 0. Baseline | whole-document context, no decomposition, all `gemini-3.5-flash` + default thinking (896 tok/answer) | 0.892 | 0.848 | 44,410 | ~$0.078¹ | 7.6 / 10.8 s |
+| 0. Baseline | whole-document context, no decomposition, `gemini-3.1-pro` + default thinking (896 tok/answer) | 0.892 | 0.848 | 44,410 | not comparable¹ | 7.6 / 10.8 s |
 | 1. Chunk pipeline | decompose → parallel hybrid fan-out → pooled rerank + quota → neighbor expansion ±2, thinking 0 | 0.963 | 0.885 | 6,263 (−86%) | $0.0126 | 4.1 / 5.2 s |
 | 2. Model mix | generation → `3.1-flash-lite`, rewriter kept on `3.5-flash` | 0.963 | 0.890 | 6,274 | $0.0039 (−69%) | 3.6 / 4.8 s |
 | 3. Round 2 | BM25 title-aware index + consensus rerank-skip @0.6 | 0.975 | 0.931 | 5,877 | $0.00315 | 3.4 / 6.4 s |
 | 4. Round 2 end | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
 | 5. **Current** (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,526 | $0.00405 | see note² |
 
-¹ Pre-dates the cost instrumentation: estimated from the measured tokens at
-the prices in effect (all 3.5-flash + Ranking API).
+¹ The baseline predates any cost work. It ran `gemini-3.1-pro` because the
+goal at that stage was to get the pipeline correct, not cheap — there was no
+per-query cost instrumentation, no model comparison, and no token budget. A
+figure of ~$0.078/query has been quoted for this row in the past; that was an
+after-the-fact estimate computed at *flash* prices from the measured 44,410
+input tokens, so it understates what a Pro model at that token volume actually
+cost. Rather than restate a number that was never measured, the row is left
+without one. What the row is evidence for is the token and quality baseline
+(44,410 input tokens, hit 0.892, recall 0.848), all of which were measured.
 
 ² Row 5 is the first benchmark on the current model pair and the first run of
 the corrected scorer; rows 0-4 are the older pair. Its `fu-04` is excluded
@@ -252,8 +280,10 @@ the second half of the story:
 | + rewrite-skip on | 0.900 | 0.817 | **0.583 — reverted** | 0.750 |
 | **Current** | **1.000** | **0.950** | 1.000/1.000 | **1.000 — fixed** |
 
-Net: cost ~$0.078 → $0.0039 (−95%; −69% from the first instrumented
-figure), hit 0.892 → 0.975 clean / 1.000 messy, recall 0.848 → 0.925–0.950,
+Net: cost $0.0126 → $0.0039 (−69% from the first instrumented figure; the
+`gemini-3.1-pro` baseline before it was never cost-instrumented, so the true
+reduction from the starting point is larger and is not quoted), hit 0.892 →
+0.975 clean / 1.000 messy, recall 0.848 → 0.925–0.950,
 input tokens −86%, thinking tokens 896 → 0, p50 −53%, citation precision
 1.000 throughout. The path was not monotonic: 45+ gated runs rejected ~15
 configurations outright and **reversed two adopted ones** (the simple-query
@@ -261,7 +291,7 @@ rewrite skip, caught by the v2 set; the consensus rerank-skip, invalidated
 by identity embeddings) — and the final step deliberately spent +$0.0007
 per query to buy quality back.
 
-### Current production configuration (June 2026, after the dense-identity rebuild)
+### Current production configuration (August 2026, after entity-scoped retrieval + reranker identity)
 
 The complete live setup, with every value env-overridable for rollback:
 
@@ -385,6 +415,54 @@ latency, MAX_TOKENS truncations, decompose fallbacks.
 
 ---
 
+## Why these hyperparameters are BCIT-specific
+
+None of the values above are defaults, and none of them generalise for free.
+Each one was chosen because a measurable property of BCIT's site broke the
+generic behaviour, and each was re-measured against the golden sets rather than
+argued from first principles. The corpus is templated: 7,060 course pages,
+3,262 course outlines and 529 program pages, all machine-generated from the
+same CMS, which means the discriminating signal is almost never in the prose.
+
+| BCIT structural property | Measured | Parameter it forced |
+|---|---|---|
+| The outline template repeats verbatim across every course | **3,258** chunks contain `Prerequisite(s) \|`, **3,038** contain `Total Hours \|`, **2,980** contain `Minimum Passing Grade \|`, **1,772** contain `Final Exam \|` — and the chunk carrying those rows names no course | `ENTITY_SCOPED_RETRIEVAL` + `RERANK_IDENTITY` (2026-08). Global ranking cannot separate 3,000 near-duplicates; restricted to the named course's own chunks the answer is rank 1 |
+| Program pages share section headings | `Entrance requirements` on **370** of 529 pages, `Costs & Supplies` on **435** | `BM25_INDEX_AUG=true` — the sparse index is fit on `title + category + filename keywords + URL slug + text` so deep chunks carry page identity. Multipart hit 0.917 → 1.000 |
+| Deep program chunks are near-identical *in vector space* too | BMET entrance-requirement probe: own-page chunks in the dense top-20 went **6/20 → 20/20** after prefixing the embedded text with page identity | `EMBED_IDENTITY_PREFIX`, collection `bcit_docs_202606da`. v2 URL hit 0.940 → 1.000, and it retired the round-2 rerank-skip, which had been calibrated for identity-blind vectors |
+| Students ask with exact identifiers (`COMP 1510`, `ACIT 2515`) that embeddings blur | `HYBRID_ALPHA=0.56` (more dense weight) collapses hit-rate to 0.854; 0.40 and 0.48 hold ~0.95+ | `HYBRID_ALPHA=0.48` — BM25's 0.52 share is load-bearing, the opposite of the dense-heavy default most RAG stacks ship |
+| Course codes are a closed, regex-matchable vocabulary | **7,623** codes indexed; the filename convention parses **3,259 / 3,262** outlines and **7,049 / 7,060** course pages | the entity index behind `ENTITY_SCOPED_RETRIEVAL`, and `build_pgvector.py` deriving outline metadata from filenames rather than page scraping |
+| Facts live in tables that straddle chunk boundaries | `NEIGHBOR_RADIUS=2` beat 1 on outline fact recall (+0.04) for +5.6% tokens | `CHUNK_SIZE=1024`, `CHUNK_OVERLAP=130`, `NEIGHBOR_RADIUS=2` with overlap-aware merging |
+| The same course is published for up to 6 terms | retrieval surfaced stale instructors and dates alongside current ones | latest-term-per-course outline policy at crawl time — removes the contradiction class instead of ranking around it |
+| Sitemap `lastmod` is unusable as a freshness signal | **78%** of course pages carry a 2022 CMS-migration timestamp; filtering on `lastmod ≥ 2024-09` would have dropped **89%** of courses | live crawl every refresh, no `lastmod` filter |
+| Answers must cite BCIT URLs and nothing else | citation precision **1.000** across every archived run | corpus-only prompt invariant; a web-search fallback is rejected on these grounds, not on cost |
+
+Two further parameters were confirmed rather than chosen: `RRF_K=60` and
+`MMR_LAMBDA=0.87` were swept (40/80 and 0.80/0.95 respectively) and both
+alternatives scored at or below centre, so the defaults stand *because they
+were tested here*, not because they are the library defaults.
+
+**How much testing sits behind this.** Across the June 2026 rounds and the
+August 2026 round, **60+ gated evaluation runs** on three golden sets (40
+clean, 25 messy/multilingual, 21 targeted) rejected roughly eighteen
+configurations, and **reversed two that had already been adopted** — the
+simple-query rewrite skip (caught by the messy set, where raw acronym/typo/
+non-English queries collapsed 1.000 → 0.583) and the consensus rerank-skip
+(invalidated once identity-prefixed embeddings changed what "the arms agree"
+means). Two more adopted values were later found to be *interacting* rather
+than independent: entity-scoped retrieval and reranker identity each fix
+exactly one case alone and three together.
+
+**The honest caveat.** This configuration is fitted to one institution's site.
+Porting it to another catalogue would keep the *method* — measure the corpus's
+duplication structure, then decide where identity has to be injected — but not
+the numbers. `HYBRID_ALPHA`, `NEIGHBOR_RADIUS`, the identity prefixes and the
+entity index all assume templated pages with stable code conventions and a
+sparse arm that carries real weight. On a corpus of prose without repeated
+scaffolding, most of these knobs would be doing nothing, and the ones that
+matter here (identity injection at all three stages) would be unnecessary.
+
+---
+
 ## The corpus
 
 Everything is crawled from the live site, so catalog content is current by
@@ -446,10 +524,14 @@ and ensures the HNSW index. Three properties worth knowing:
 
 A decision record for future development — each of these was deliberate:
 
-1. **Managed services over local models.** The first version ran FAISS + a
-   local cross-encoder; it was migrated to Vertex AI + Cloud SQL pgvector so a
-   2-vCPU VM can serve everything. Embeddings, reranking, and generation are
-   all API calls; the VM only does BM25 + orchestration.
+1. **Managed services over self-hosted models.** The first version ran FAISS
+   with a locally hosted cross-encoder. It was migrated to Vertex AI + Cloud SQL
+   pgvector: embeddings, reranking, and generation became API calls, leaving the
+   application host responsible only for BM25 and orchestration. That removed
+   model-serving from the deployment surface (no weights to ship, no serving
+   runtime to patch, no capacity planning per model swap) and made the
+   `3.1-flash-lite → 3.5-flash-lite` and `3.5-flash → 3.6-flash` moves
+   configuration changes rather than migrations.
 2. **`gemini-embedding-001` at 1536-dim MRL truncation.** pgvector's HNSW index
    supports ≤ 2000 dims, so `gemini-embedding-001` (3072 native) is truncated to
    1536 via MRL. `gemini-embedding-2` (multimodal, GA 2026-04) was A/B-tested
@@ -501,7 +583,20 @@ A decision record for future development — each of these was deliberate:
     missing first-turn multipart questions. The merged rewrite+decompose
     call is ~430 tokens with thinking 0 — cheap enough to always run, and
     single questions short-circuit back to full-width legacy retrieval.
-15. **Thinking off for generation.** This is an extraction-and-summarize
+15. **Page identity has to be injected at all three ranking stages.** The
+    corpus is templated, so a chunk's body is often not enough to tell which
+    page it belongs to. Each stage needed the identity added separately and
+    each was found the same way — by a case that failed for no other reason:
+    the sparse arm in round 2 (`BM25_INDEX_AUG`, fit on title + category +
+    filename keywords + URL slug), the dense arm in the identity-prefixed
+    rebuild (`EMBED_IDENTITY_PREFIX`, collection `bcit_docs_202606da`), and the
+    reranker in August 2026 (`RERANK_IDENTITY`, page identity in the Ranking
+    API's `title` field). Fixing two of the three is not enough: asked about
+    one course's exam weights the ranker scored two *other* courses' evaluation
+    tables 0.859 / 0.709 against 0.258 for the right course, because those
+    tables are exactly what the question describes and only the course name
+    separates them.
+16. **Thinking off for generation.** This is an extraction-and-summarize
     workload over provided context: eval measured model-default thinking as
     strictly worse (recall 0.852 vs 0.877, p95 2.2×, ~900 thinking tokens
     billed per query).
