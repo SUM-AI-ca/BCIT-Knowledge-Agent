@@ -891,62 +891,58 @@ Browser ──HTTPS──▶ Cloudflare (proxied DNS, TLS termination, edge cach
 
 ### Deploying a code update
 
-**Deploy every backend module you changed, not just `server.py`.** The pipeline
-lives in `query_rag.py`, `hybrid_retriever.py`, `reranker.py` and `config.py`,
-and a change can easily touch none of `server.py` — the August 2026 retrieval
-work touched four modules and left `server.py` untouched, so a `server.py`-only
-deploy would have shipped nothing. Let git tell you the list:
-
 ```bash
-# what actually needs to go up (compare against the last deployed commit)
-git diff --name-only <last-deployed-sha>..HEAD -- 'backend/*.py' | grep -v '^backend/eval/'
-git diff --name-only <last-deployed-sha>..HEAD -- frontend | head   # empty ⇒ skip the build
+gcloud auth login                        # separate from ADC — see gotchas
+bash backend/deploy.sh                   # deploys what the last commit changed
+bash backend/deploy.sh query_rag.py ...  # or name the modules explicitly
 ```
 
-`backend/eval/` is not used in production and does not need deploying. The
-frontend only needs rebuilding when something under `frontend/src` changed.
+`backend/deploy.sh` exists because both ways this deploy goes wrong are
+documented gotchas that a pasted one-liner walks straight into: long commands
+lose spaces at terminal wrap points (bash then tries to *execute* `config.py`),
+and `gcloud compute ssh` needs its own `gcloud auth login`, which is not the
+same session as the ADC credentials `run_eval.py` uses.
+
+The script prints the file list and the local HEAD, asks for confirmation, then
+stages through `/tmp` (`/opt/bcit-rag` is root-owned), restarts the service,
+polls `/health` until `chatbot_loaded: true`, prints the startup log lines that
+prove which retrieval flags are live, and finally sends one real question to
+production.
+
+**It refuses to deploy an empty file list.** The pipeline lives in
+`query_rag.py`, `hybrid_retriever.py`, `reranker.py` and `config.py`, so a
+change can touch none of `server.py` — the August 2026 retrieval work changed
+exactly those four and left `server.py` alone. The older runbook copied only
+`server.py`, which would have restarted the service on old code and reported
+success. `backend/eval/` is not used in production and is never deployed.
+
+The frontend is deployed separately and only when `frontend/src` changed:
 
 ```bash
-cd frontend && npm run build          # only if frontend/ changed
-
-# backend modules — list the ones git reported
-gcloud compute scp backend/config.py backend/query_rag.py \
-    backend/hybrid_retriever.py backend/reranker.py backend/server.py \
-    bcit-rag-vm:/tmp/ --zone=us-west1-b
-
-# frontend, only if rebuilt
+cd frontend && npm run build
 gcloud compute scp --recurse frontend/dist bcit-rag-vm:/tmp/dist-new --zone=us-west1-b
-
 gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
-  for f in config.py query_rag.py hybrid_retriever.py reranker.py server.py; do
-    [ -f /tmp/$f ] && sudo cp /tmp/$f /opt/bcit-rag/backend/$f
-  done
-  [ -d /tmp/dist-new ] && sudo rm -rf /opt/bcit-rag/frontend/dist &&
-    sudo mv /tmp/dist-new /opt/bcit-rag/frontend/dist
-  sudo systemctl daemon-reload && sudo systemctl restart bcit-chatbot &&
-  sleep 45 && curl -s localhost:8000/health'
+  sudo rm -rf /opt/bcit-rag/frontend/dist &&
+  sudo mv /tmp/dist-new /opt/bcit-rag/frontend/dist'
 ```
 
-Startup takes ~30-45 s: the service loads the 100,515-chunk pickle, fits the
-BM25 index and builds the entity index before `/health` reports
-`chatbot_loaded: true`. Verify the log lines that prove the retrieval flags are
-live, then send one real question:
+Startup takes ~30-45 s (pickle load, BM25 fit, entity index), which is why the
+script polls rather than sleeping a fixed interval. Expect these lines:
 
-```bash
-gcloud compute ssh bcit-rag-vm --zone=us-west1-b --command='
-  journalctl -u bcit-chatbot -n 40 --no-pager | grep -E "Entity index|Reranker loaded|Loaded"'
-# expect: "Entity index: 7,623 course codes, 498 programs"
-#         "Reranker loaded: semantic-ranker-default-004 (identity titles)"
-
-curl -s -X POST https://bcitai.ca/chat -H 'Content-Type: application/json' \
-  -d '"'"'{"message":"In COMP 1510, what percentage of the final grade is the final exam worth?"}'"'"' \
-  | python3 -c 'import json,sys; print(json.load(sys.stdin)["reply"][:200])'
-# expect the answer to contain 40% — this case fails on the pre-August config
+```
+Loaded 100,515 documents
+Entity index: 7,623 course codes, 498 programs
+Reranker loaded: semantic-ranker-default-004 (identity titles)
 ```
 
-Rollback is `git checkout <previous-sha> -- backend/` plus the same scp/restart,
-or flip the flags without a deploy: `ENTITY_SCOPED_RETRIEVAL=false
-RERANK_IDENTITY=false` in `/opt/bcit-rag/backend/.env` and restart.
+and the COMP 1510 question to answer **40%** — that case is answered wrongly by
+the pre-August configuration, so it distinguishes a real deploy from a restart
+on old code.
+
+Two rollback paths: `git checkout <previous-sha> -- backend/` then redeploy, or
+flip the retrieval flags off with no deploy at all —
+`ENTITY_SCOPED_RETRIEVAL=false RERANK_IDENTITY=false` in the VM's
+`/opt/bcit-rag/backend/.env`, then `sudo systemctl restart bcit-chatbot`.
 
 ### Refreshing the corpus (per-term runbook)
 
