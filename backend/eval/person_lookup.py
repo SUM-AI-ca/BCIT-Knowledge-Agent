@@ -133,7 +133,10 @@ def run(label, sleep):
     out = []
     for c in cases:
         t0 = time.time()
-        meta = bot.query_with_meta(c["question"], session_id=f"pl_{label}_{c['id']}")
+        # memory=None -> every case is a first turn, as in the reported
+        # conversation. The response cache is disabled by the runner env so a
+        # repeat inside an arm cannot short-circuit the pipeline.
+        meta = bot.query_with_meta(c["question"])
         answer = meta["answer"]
         docs = meta.get("docs") or []
         roles = [classify_chunk(d.page_content, c["person"]) for d in docs]

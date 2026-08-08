@@ -1,0 +1,270 @@
+{
+  "aggregate": {
+    "label": "sig",
+    "flags": {
+      "SIGNATURE_DEMOTE": true,
+      "FANIN_RETAIN": false,
+      "FANIN_RETAIN_N": 6,
+      "RERANKER_TOP_K": 10
+    },
+    "n": 6,
+    "n_errors": 0,
+    "recall": 0.8016,
+    "precision": 0.9667,
+    "f1": 0.8295,
+    "ctx_instr": 4.6667,
+    "ctx_sig": 2.1667,
+    "ctx_sources": 8.0,
+    "input_tokens": 7088.6667,
+    "cost_usd": 0.0054,
+    "exact_sets": 4
+  },
+  "cases": [
+    {
+      "id": "pl-01",
+      "person": "Chi En Huang",
+      "question": "What courses does Chi En Huang teach at BCIT?",
+      "truth": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_taught": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 6,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6382,
+      "cost_usd": 0.004681,
+      "latency_s": 20.33,
+      "answer_excerpt": "Dr. Chi En Huang teaches the following courses at BCIT:\n\n* **COMP 4983 (Machine Learning)**: A 5-credit course covering machine learning concepts, models, and techniques.\n* **COMP 3981 (Introduction to Artificial Intelligence)**: A 5-credit course providing an introduction to various artificial intelligence topics.\n* **COMP 4989 (Selected Topics in Artificial Intelligence and Machine Learning)**: A 5-credit course (listed with corequisite COMP 4983 and prerequisites COMP 3981 and COMP 3760).\n* **COMP 3725 (Data Communications for CST)**: A 5-credit flexible learning course focusing on data communications and networking.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/outlines/20253044906/\n- https://www.bcit.ca/outlines/20261085360/\n- https://www.bcit.ca/courses/data-communications-for-cst-comp-3725/\n- https://www.bcit.ca/outlines/20253044907/\n- https://www.bcit.ca/outlines/20262064129/\n- https://www.bcit.ca/programs/applied-computing-master-of-science-full-time-m600msc/",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-02",
+      "person": "Juan Azmitia",
+      "question": "What courses does Juan Azmitia teach at BCIT?",
+      "truth": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701",
+        "GLBL 9020"
+      ],
+      "said_taught": [
+        "GLBL 9020"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "GLBL 9020"
+      ],
+      "missed": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701"
+      ],
+      "wrong": [],
+      "recall": 0.14285714285714285,
+      "precision": 1.0,
+      "ctx_instr": 1,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6278,
+      "cost_usd": 0.004498,
+      "latency_s": 14.04,
+      "answer_excerpt": "Juan Azmitia does not appear to be listed as an instructor for any courses in the available documents. \n\nWhile he is mentioned multiple times in the records, his roles at BCIT are administrative rather than instructional:\n- Flexible Learning Coordinator – Operations Management\n- Course instructor for GLBL 9020 (Leading Global Teams) is listed as Juan Azmitia in the provided course outline document.\n\n*(Note: Although GLBL 9020 lists Juan Azmitia as the instructor in its course outline, the provided documents do not specify a separate teaching faculty profile for him beyond his coordinator role and course outline listing.)*\n\nSources:\n- https://www.bcit.ca/outlines/20243048406/\n- https://www.bcit.ca/programs/operations-management-management-engineering-option-certificate-part-time-690bmcert/",
+      "f1": 0.25
+    },
+    {
+      "id": "pl-03",
+      "person": "Lynn Erickson",
+      "question": "What courses does Lynn Erickson teach at BCIT?",
+      "truth": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_taught": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 4,
+      "ctx_sig": 5,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6947,
+      "cost_usd": 0.005075,
+      "latency_s": 7.32,
+      "answer_excerpt": "Lynn Erickson is listed as an instructor for several courses at BCIT:\n\n* **CENV 2203 (Materials Science and Technology)**: A 6.5-credit full-time course covering the mechanical properties of materials, processing variables, and environmental effects.\n* **CHSC 7147 (Materials Engineering)**: A 3-credit full-time course focusing on materials selection, manufacturing issues, and failure analysis.\n* **CENV 0460 (Ethics for Technologists)**: A 2-week seminar-based course covering the ASTTBC Code of Ethics and professional conduct.\n\nAdditionally, Lynn Erickson serves as the Program Head for the Chemical & Environmental Technology program.\n\nSources:\n- https://www.bcit.ca/outlines/20261078002/\n- https://www.bcit.ca/outlines/20253034941/\n- https://www.bcit.ca/outlines/20261085828/\n- https://www.bcit.ca/programs/chemical-and-environmental-technology-analytical-science-option-diploma-full-time-537adiplt/",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-04",
+      "person": "Julia Alards-Tomalin",
+      "question": "What courses does Julia Alards-Tomalin teach at BCIT?",
+      "truth": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_taught": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 4,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 7,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7270,
+      "cost_usd": 0.005582,
+      "latency_s": 5.35,
+      "answer_excerpt": "Julia Alards-Tomalin is listed as an instructor or program head associated with several courses at BCIT:\n\n* **FNAM 4450 (Principles of Urban Forestry and Arboriculture)**: A 3-credit full-time course covering introductory arboriculture topics such as tree biology, health, pruning, and safety.\n* **FNAM 2800 (Land Management Principles)**: A 3-credit full-time course exploring sustainable land management through Indigenous knowledge and Western science.\n* **RENR 1125 (Plant Identification and Perspectives)**: A 4-credit full-time course focusing on plant observational skills, identification tools, and both Western and Indigenous ways of knowing plants.\n* **FNAM 1125 (Plant Identification)**: A 4-credit full-time course.\n\nAdditionally, Julia Alards-Tomalin serves as the Program Head for the Forest and Natural Areas Management diploma program.\n\nSources:\n- https://www.bcit.ca/outlines/20261083889/\n- https://www.bcit.ca/outlines/20261093010/\n- https://www.bcit.ca/outlines/20253035725/\n- https://www.bcit.ca/programs/forest-and-natural-areas-management-diploma-full-time-7485dipma/\n- https://www.bcit.ca/outlines/20243045240/",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-05",
+      "person": "Victor Mendez",
+      "question": "What courses does Victor Mendez teach at BCIT?",
+      "truth": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_taught": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 6,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 8,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 8154,
+      "cost_usd": 0.006294,
+      "latency_s": 9.69,
+      "answer_excerpt": "Victor Mendez is listed as an instructor for several courses at BCIT:\n\n* **ELEX 7720 (Feedback Control)**: A 4.5-credit full-time course covering linear control systems theory, time and frequency domain system properties, and PID control.\n* **XINC 3110 (Industrial Control Systems (ICS) Design)**: A 1-credit full-time course introducing industrial control system architecture, the Purdue reference model, and control loop components.\n* **ELEX 4610 (Distributed Control and Safety Instrumented Systems for Industrial Network Cybersecurity)**: A 4-credit full-time course developing working knowledge of distributed control and safety instrumented systems.\n* **XINC 3120 (Fieldbus Networks)**: A 1-credit full-time course providing an overview of networks used for distributed control and communication protocols.\n* **ELEX 2610 (Industrial Systems and Safety for Industrial Network Cybersecurity)**: A 4-credit full-time course covering industrial systems and safety.\n\nAdditionally, Victor Mendez serves as the Program Head for the Bachelor of Engineering in Electrical program.\n\nSources:\n- https://www.bcit.ca/outlines/20253037081/\n- https://www.bcit.ca/outlines/20252068447/\n- https://www.bcit.ca/ou",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-06",
+      "person": "Jason Young",
+      "question": "What courses does Jason Young teach at BCIT?",
+      "truth": [
+        "OPMT 1103",
+        "OPMT 1710",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341",
+        "TDMT 4410"
+      ],
+      "said_taught": [
+        "BUSA 4950",
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "missed": [
+        "OPMT 1710",
+        "TDMT 4410"
+      ],
+      "wrong": [
+        "BUSA 4950"
+      ],
+      "recall": 0.6666666666666666,
+      "precision": 0.8,
+      "ctx_instr": 7,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 6,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7501,
+      "cost_usd": 0.006501,
+      "latency_s": 8.4,
+      "answer_excerpt": "Jason Young teaches several courses at BCIT across operations management and project management:\n\n* **OPMT 1103 (Introduction to Operations Management)**: A 4-credit full-time course covering operations strategy, quality management, supply chain management, and process planning.\n* **OPMT 2175 (Process Improvement for Operations Management)**: A 2.5-credit full-time course focusing on continuous process improvement, systematic problem-solving models, and teamwork skills.\n* **OPMT 4341 (Theory of Constraints)**: A 2-credit full-time course exploring the Theory of Constraints body of knowledge, throughput accounting, and drum-buffer-rope synchronization.\n* **OPMT 2510 (Project Quality and Risk Management)**: A 3-credit flexible learning course offered in classroom formats.\n* **BUSA 4950**: Involved as an instructor and faculty advisor for Business Consulting Projects.\n\nAdditionally, Jason Young serves as the Program Head for Operations & Management Engineering.\n\nSources:\n- https://www.bcit.ca/outlines/20253032458/\n- https://www.bcit.ca/outlines/20261073808/\n- https://www.bcit.ca/outlines/20261084930/\n- https://www.bcit.ca/programs/operations-and-management-engineering-diploma-full-tim",
+      "f1": 0.7273
+    }
+  ]
+}

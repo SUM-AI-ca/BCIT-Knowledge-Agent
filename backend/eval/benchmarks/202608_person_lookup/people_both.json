@@ -1,0 +1,270 @@
+{
+  "aggregate": {
+    "label": "both",
+    "flags": {
+      "SIGNATURE_DEMOTE": true,
+      "FANIN_RETAIN": true,
+      "FANIN_RETAIN_N": 6,
+      "RERANKER_TOP_K": 10
+    },
+    "n": 6,
+    "n_errors": 0,
+    "recall": 0.7599,
+    "precision": 0.9667,
+    "f1": 0.7993,
+    "ctx_instr": 4.6667,
+    "ctx_sig": 2.1667,
+    "ctx_sources": 8.0,
+    "input_tokens": 7063.5,
+    "cost_usd": 0.0052,
+    "exact_sets": 2
+  },
+  "cases": [
+    {
+      "id": "pl-01",
+      "person": "Chi En Huang",
+      "question": "What courses does Chi En Huang teach at BCIT?",
+      "truth": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_taught": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983"
+      ],
+      "missed": [
+        "COMP 4989"
+      ],
+      "wrong": [],
+      "recall": 0.75,
+      "precision": 1.0,
+      "ctx_instr": 6,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6382,
+      "cost_usd": 0.004251,
+      "latency_s": 11.93,
+      "answer_excerpt": "Dr. Chi En Huang teaches Machine Learning (COMP 4983), Introduction to Artificial Intelligence (COMP 3981), and Data Communications for CST (COMP 3725) at BCIT.\n\n* **Machine Learning (COMP 4983):** Covers core concepts and models in machine learning such as regression, classification, clustering, dimensionality reduction, and kernel methods.\n* **Introduction to Artificial Intelligence (COMP 3981):** Introduces search techniques, games, constraint satisfaction problems, knowledge and reasoning, and learning.\n* **Data Communications for CST (COMP 3725):** Focuses on basic data communications, networking terminology, and the TCP/IP protocol suite.\n\nSources:\n- https://www.bcit.ca/outlines/20253044906/\n- https://www.bcit.ca/outlines/20261085360/\n- https://www.bcit.ca/courses/data-communications-for-cst-comp-3725/",
+      "f1": 0.8571
+    },
+    {
+      "id": "pl-02",
+      "person": "Juan Azmitia",
+      "question": "What courses does Juan Azmitia teach at BCIT?",
+      "truth": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701",
+        "GLBL 9020"
+      ],
+      "said_taught": [
+        "GLBL 9020"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "GLBL 9020"
+      ],
+      "missed": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701"
+      ],
+      "wrong": [],
+      "recall": 0.14285714285714285,
+      "precision": 1.0,
+      "ctx_instr": 1,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6270,
+      "cost_usd": 0.004181,
+      "latency_s": 31.18,
+      "answer_excerpt": "Juan Azmitia teaches the course **GLBL 9020** (Leading Global Teams) at BCIT. \n\n* **Leading Global Teams (GLBL 9020):** This 3-credit course is part of the Graduate Certificate in Global Leadership. It explores the role of leadership in developing effective global teams, focusing on cultural dimensions, communication styles, and strategies to mitigate cross-cultural challenges.\n\nSources:\n- https://www.bcit.ca/outlines/20243048406/",
+      "f1": 0.25
+    },
+    {
+      "id": "pl-03",
+      "person": "Lynn Erickson",
+      "question": "What courses does Lynn Erickson teach at BCIT?",
+      "truth": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_taught": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 4,
+      "ctx_sig": 5,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6895,
+      "cost_usd": 0.004854,
+      "latency_s": 6.82,
+      "answer_excerpt": "Lynn Erickson teaches several courses at BCIT across different terms and subject areas:\n\n* **Materials Science and Technology (CENV 2203):** A 6.5-credit full-time course covering mechanical properties of materials, material processing, life cycle analysis, and service failures.\n* **Materials Engineering (CHSC 7147):** A 3-credit full-time course focusing on material selection, property measurement, failure analysis, and industrial applications.\n* **Ethics for Technologists (CENV 0460):** A 4-hour mandatory graduation seminar course introducing the ASTTBC Code of Ethics & Practice Guidelines.\n\nSources:\n- https://www.bcit.ca/outlines/20261078002/\n- https://www.bcit.ca/outlines/20253034941/\n- https://www.bcit.ca/outlines/20261085828/",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-04",
+      "person": "Julia Alards-Tomalin",
+      "question": "What courses does Julia Alards-Tomalin teach at BCIT?",
+      "truth": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_taught": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4231",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "missed": [],
+      "wrong": [
+        "FNAM 4231"
+      ],
+      "recall": 1.0,
+      "precision": 0.8,
+      "ctx_instr": 4,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 7,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7207,
+      "cost_usd": 0.005654,
+      "latency_s": 10.92,
+      "answer_excerpt": "Julia Alards-Tomalin teaches several courses at BCIT within the Forest and Natural Areas Management and Renewable Resources programs:\n\n* **Principles of Urban Forestry and Arboriculture (FNAM 4450):** A 3-credit full-time course covering introductory arboriculture topics such as tree biology, health, soils, pruning, safety, risk assessment, and sustainable management of greenbelt and interface forests.\n* **Land Management Principles (FNAM 2800):** A 3-credit full-time course exploring sustainable land management principles, practices, and history by integrating Indigenous knowledge and Western science through classroom learning, field experiences, and case studies.\n* **Plant Identification and Perspectives (RENR 1125):** A 4-credit full-time course that builds observational skills for plant identification, braiding Western and Indigenous ways of knowing plants to examine our relationships with the natural world.\n* **Plant Identification (FNAM 1125):** A 4-credit full-time course with no prerequisites.\n* **Technical Projects 2 (FNAM 4231):** Involves applied research projects in renewable resources (shared instructor details).\n\nSources:\n- https://www.bcit.ca/outlines/20261083889/\n- ",
+      "f1": 0.8889
+    },
+    {
+      "id": "pl-05",
+      "person": "Victor Mendez",
+      "question": "What courses does Victor Mendez teach at BCIT?",
+      "truth": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_taught": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 6,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 8,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 8139,
+      "cost_usd": 0.006145,
+      "latency_s": 5.41,
+      "answer_excerpt": "Victor Mendez teaches several courses at BCIT across different programs:\n\n* **Feedback Control (ELEX 7720):** A 4.5-credit full-time course covering linear control systems theory, time and frequency domain system properties, PID control, and simulation tools.\n* **Industrial Control Systems (ICS) Design (XINC 3110):** A 1-credit full-time course introducing basic ICS architecture, components, and the Purdue reference model.\n* **Distributed Control and Safety Instrumented Systems for Industrial Network Cybersecurity (ELEX 4610):** A 4-credit full-time course developing a working knowledge of distributed control and safety instrumented systems, including programming languages conforming to IEC-61131-3.\n* **Fieldbus Networks (XINC 3120):** A 1-credit full-time course providing an overview of different network types, topologies, and communication protocols used for distributed control.\n* **Industrial Systems and Safety for Industrial Network Cybersecurity (ELEX 2610):** A 4-credit full-time course offered within the Industrial Network Cybersecurity program.\n\nSources:\n- https://www.bcit.ca/outlines/20253037081/\n- https://www.bcit.ca/outlines/20252068447/\n- https://www.bcit.ca/outlines/20",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-06",
+      "person": "Jason Young",
+      "question": "What courses does Jason Young teach at BCIT?",
+      "truth": [
+        "OPMT 1103",
+        "OPMT 1710",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341",
+        "TDMT 4410"
+      ],
+      "said_taught": [
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "missed": [
+        "OPMT 1710",
+        "TDMT 4410"
+      ],
+      "wrong": [],
+      "recall": 0.6666666666666666,
+      "precision": 1.0,
+      "ctx_instr": 7,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 6,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7488,
+      "cost_usd": 0.006177,
+      "latency_s": 4.87,
+      "answer_excerpt": "Jason Young teaches several courses at BCIT across operations management and project management:\n\n* **Introduction to Operations Management (OPMT 1103):** A 4-credit full-time course covering operations strategy, quality management, supply chain management, and process planning.\n* **Process Improvement for Operations Management (OPMT 2175):** A 2.5-credit full-time course focusing on continuous improvement, teamwork skills, and systematic problem-solving models like the PDCA cycle.\n* **Theory of Constraints (OPMT 4341):** A 2-credit full-time course exploring the Theory of Constraints body of knowledge, throughput accounting, and drum-buffer-rope scheduling using computer simulations.\n* **Project Quality and Risk Management (OPMT 2510):** A 12-week course offered in classroom formats (e.g., Burnaby campus) during Spring/Summer and Fall terms.\n\nSources:\n- https://www.bcit.ca/outlines/20253032458/\n- https://www.bcit.ca/outlines/20261073808/\n- https://www.bcit.ca/outlines/20261084930/\n- https://www.bcit.ca/courses/project-quality-and-risk-management-opmt-2510/",
+      "f1": 0.8
+    }
+  ]
+}
