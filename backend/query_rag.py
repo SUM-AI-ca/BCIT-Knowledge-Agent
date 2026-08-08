@@ -138,7 +138,11 @@ _FANIN_NOISE = frozenset(
     "and or of for in at to i he she they teach teaches taught course courses "
     "class classes instructor instructors program programs".split()
 )
-_PROPER_RUN_RE = re.compile(r"\b([A-Z][a-z]+(?:\s+[A-Z][a-z]*\.?){0,3})")
+# Hyphens and apostrophes are part of the word: without them "Julia
+# Alards-Tomalin" truncates to "Julia Alards" and "Sean O'Brien" to "Sean O",
+# neither of which is in any index — measured as a silent miss on pl-04.
+_NAME_WORD = r"[A-Z][a-z]*\.?(?:[-'’][A-Za-z]+)*"
+_PROPER_RUN_RE = re.compile(rf"\b([A-Z][a-z]+(?:[-'’][A-Za-z]+)*(?:\s+{_NAME_WORD}){{0,3}})")
 
 # The two ways the corpus states "this person instructs this course": the
 # outline template's Instructor Details table and the course page's Instructor
