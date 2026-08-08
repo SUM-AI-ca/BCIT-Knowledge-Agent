@@ -104,6 +104,9 @@ from config import (
     SIGNATURE_DEMOTE,
     FANIN_RETAIN,
     FANIN_RETAIN_N,
+    PERSON_SCOPED_RETRIEVAL,
+    PERSON_SCOPED_K,
+    PERSON_SCOPED_MAX_SOURCES,
     ENTITY_SCOPED_RETRIEVAL,
     ENTITY_SCOPED_K,
     ENTITY_SCOPED_MAX_ENTITIES,
@@ -136,6 +139,20 @@ _FANIN_NOISE = frozenset(
     "class classes instructor instructors program programs".split()
 )
 _PROPER_RUN_RE = re.compile(r"\b([A-Z][a-z]+(?:\s+[A-Z][a-z]*\.?){0,3})")
+
+# The two ways the corpus states "this person instructs this course": the
+# outline template's Instructor Details table and the course page's Instructor
+# heading. Approval signatures and program-page coordinator lists deliberately
+# do NOT match — they are other relations about the same person.
+INSTRUCTOR_NAME_RE = re.compile(
+    r"(?:### Instructor Details\s*\nName \|\s*([^\n|]+)"
+    r"|### Instructor\s*\n([^\n]+))"
+)
+
+
+def _instructor_names(text: str):
+    for m in INSTRUCTOR_NAME_RE.finditer(text):
+        yield (m.group(1) or m.group(2) or "").strip()
 
 
 def _fanin_key(question: str) -> Optional[str]:
@@ -260,11 +277,12 @@ class BCITChatbot:
         )
         self._entity_index = (
             self._build_entity_index(self.documents)
-            if (self.documents and ENTITY_SCOPED_RETRIEVAL) else None
+            if (self.documents and (ENTITY_SCOPED_RETRIEVAL or PERSON_SCOPED_RETRIEVAL)) else None
         )
         if self._entity_index:
             print(f"Entity index: {len(self._entity_index['codes']):,} course codes, "
-                  f"{len(self._entity_index['programs']):,} programs\n")
+                  f"{len(self._entity_index['programs']):,} programs, "
+                  f"{len(self._entity_index.get('people') or {}):,} instructors\n")
 
     @staticmethod
     def _build_entity_index(documents) -> dict:
@@ -305,7 +323,41 @@ class BCITChatbot:
                 # 2+ distinctive tokens, else the match would be a coin flip.
                 if len(tokens) >= 2:
                     programs.append((frozenset(tokens), source))
-        return {"codes": codes, "programs": programs}
+
+        people = BCITChatbot._build_person_index(documents) if PERSON_SCOPED_RETRIEVAL else {}
+        return {"codes": codes, "programs": programs, "people": people}
+
+    @staticmethod
+    def _build_person_index(documents) -> dict:
+        """instructor name -> the sources that name them AS THE INSTRUCTOR.
+
+        The same trick as `codes`, on the one relation the corpus states
+        structurally: outlines carry `### Instructor Details / Name | X` and
+        course pages carry `### Instructor\\nX`. Nothing else counts — a person
+        also appears in approval signatures (62 chunks for one name against 4
+        instructor chunks) and in program-page coordinator lists, and those are
+        *different relations* about the same person. Indexing only the
+        instructor relation is what makes "what does X teach" answerable
+        without the ranker having to infer role from boilerplate.
+
+        Names come from the corpus, so a query naming someone who instructs
+        nothing simply misses the index and the arm stays off.
+        """
+        people = {}
+        for doc in documents:
+            source = doc.metadata.get("source")
+            if not source:
+                continue
+            for name in _instructor_names(doc.page_content):
+                # Two-to-four capitalised words: a name, not "Instructor to
+                # provide" or an email line the template also puts here.
+                words = name.split()
+                if not 2 <= len(words) <= 4 or not all(w[:1].isupper() for w in words):
+                    continue
+                people.setdefault(name.lower(), {"name": name, "sources": []})
+                if source not in people[name.lower()]["sources"]:
+                    people[name.lower()]["sources"].append(source)
+        return people
 
     def _detect_entities(self, text: str) -> List[tuple]:
         """(label, [sources]) for every corpus entity this text names.
@@ -324,6 +376,20 @@ class BCITChatbot:
                 seen.add(key)
                 found.append((key, index["codes"][key]))
 
+        # A person named in the question, matched against instructors the
+        # corpus actually has. Checked before programs: "what does Lynn
+        # Erickson teach" should scope to her courses, not to a program page
+        # whose title happens to share two tokens with the question.
+        for name_run in _PROPER_RUN_RE.findall(text):
+            words = [w for w in name_run.split() if w.lower().strip(".") not in _FANIN_NOISE]
+            for n in range(len(words), 1, -1):
+                cand = " ".join(words[:n]).lower()
+                entry = index.get("people", {}).get(cand)
+                if entry and cand not in seen:
+                    seen.add(cand)
+                    found.append((entry["name"], entry["sources"]))
+                    break
+
         tokens = _norm_tokens(text)
         for title_tokens, source in index["programs"]:
             if title_tokens <= tokens:
@@ -337,9 +403,20 @@ class BCITChatbot:
         """Entity-scoped hits for one query, in entity order."""
         if not (self._entity_index and hasattr(self.base_retriever, "scoped_search")):
             return []
+        people = self._entity_index.get("people") or {}
         out = []
         for label, sources in self._detect_entities(query):
-            hits = self.base_retriever.scoped_search(query, sources, ENTITY_SCOPED_K)
+            if label.lower() in people:
+                # A person is one entity spread over many sources, the mirror
+                # of a course (one entity, two sources). Breadth over depth:
+                # take the best PERSON_SCOPED_K chunks from each of up to
+                # PERSON_SCOPED_MAX_SOURCES sources, so a 7-course instructor
+                # contributes 7 pages instead of 8 chunks of one page.
+                sources = sources[:PERSON_SCOPED_MAX_SOURCES]
+                k = PERSON_SCOPED_K
+            else:
+                k = ENTITY_SCOPED_K
+            hits = self.base_retriever.scoped_search(query, sources, k)
             for doc in hits:
                 doc.metadata["scoped_entity"] = label
             out.extend(hits)

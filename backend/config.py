@@ -222,6 +222,19 @@ SIGNATURE_DEMOTE = _env_bool("SIGNATURE_DEMOTE", False)
 FANIN_RETAIN = _env_bool("FANIN_RETAIN", False)
 FANIN_RETAIN_N = _env_int("FANIN_RETAIN_N", 6)
 
+# Person-scoped retrieval: index instructor names -> the sources that name
+# them AS THE INSTRUCTOR, and scope a retrieval arm to those when a question
+# names one. The corpus states this relation structurally (outline
+# "Instructor Details / Name |", course page "### Instructor"), the same kind
+# of convention the course-code index is built on. Only the instructor
+# relation is indexed — approval signatures and program-page coordinator
+# lists name the same people in relations that answer a different question.
+PERSON_SCOPED_RETRIEVAL = _env_bool("PERSON_SCOPED_RETRIEVAL", False)
+# Breadth over depth, the mirror of ENTITY_SCOPED_K: a person is one entity
+# spread over many pages, so take few chunks from each of many sources.
+PERSON_SCOPED_K = _env_int("PERSON_SCOPED_K", 2)
+PERSON_SCOPED_MAX_SOURCES = _env_int("PERSON_SCOPED_MAX_SOURCES", 12)
+
 RETRIEVAL_FETCH_K = _env_int("RETRIEVAL_FETCH_K", 50)
 MMR_LAMBDA = _env_float("MMR_LAMBDA", 0.87)
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
