@@ -455,6 +455,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--label", help="name for this run; results land in eval/results/<label>.json")
     parser.add_argument("--golden", default=str(EVAL_DIR / "golden_set.jsonl"))
+    parser.add_argument("--sleep", type=float, default=0.0,
+                        help="seconds to pause between cases (eases the embedding quota)")
+    parser.add_argument("--retries", type=int, default=2,
+                        help="retries for a case that fails with a 429 (default 2)")
     parser.add_argument("--only", help="substring filter on case id (e.g. 'mp-')")
     parser.add_argument("--category", help="exact category filter")
     parser.add_argument("--limit", type=int)
@@ -504,15 +508,33 @@ def main():
     records = []
     started = time.perf_counter()
     for i, case in enumerate(cases, 1):
-        try:
-            record = run_case(bot, case, make_memory, judge_llm)
-        except Exception as exc:  # keep going; the failure is data too
-            record = {
-                "id": case["id"],
-                "category": case.get("category", "uncategorized"),
-                "question": case["question"],
-                "error": f"{type(exc).__name__}: {exc}",
-            }
+        if args.sleep and i > 1:
+            time.sleep(args.sleep)
+        record = None
+        # gemini-embedding has a per-minute per-base-model quota, and a turn
+        # fans out one embedding per sub-query. Back-to-back config sweeps hit
+        # it; a 429 used to drop the case from the run, which silently changes
+        # which cases the aggregate averages over and makes two configs
+        # incomparable. Retry the whole case instead.
+        for attempt in range(args.retries + 1):
+            try:
+                record = run_case(bot, case, make_memory, judge_llm)
+                break
+            except Exception as exc:
+                err = f"{type(exc).__name__}: {exc}"
+                retryable = "429" in err or "ResourceExhausted" in err
+                if attempt < args.retries and retryable:
+                    wait = 20 * (attempt + 1)
+                    print(f"[{i}/{len(cases)}] {case['id']:8s} {err[:60]} — retry in {wait}s")
+                    time.sleep(wait)
+                    continue
+                record = {
+                    "id": case["id"],
+                    "category": case.get("category", "uncategorized"),
+                    "question": case["question"],
+                    "error": err,
+                }
+                break
         records.append(record)
         if record.get("error"):
             print(f"[{i}/{len(cases)}] {case['id']:8s} ERROR {record['error']}")
