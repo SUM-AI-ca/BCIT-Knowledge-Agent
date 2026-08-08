@@ -18,6 +18,11 @@ cd "$(dirname "$0")/.."
 
 VM=bcit-rag-vm
 ZONE=us-west1-b
+# Passed explicitly on every call: `gcloud auth login` leaves the active
+# project at whatever the account defaults to (info@sumai.ca lands on
+# sumai-web-2026), and the VM lives elsewhere. Relying on ambient config means
+# the deploy fails with "instance not found" after the upload has already run.
+PROJECT=wine-agent-jh-2026
 REMOTE=/opt/bcit-rag/backend
 DEPLOYABLE=(config.py query_rag.py hybrid_retriever.py reranker.py server.py embeddings.py response_cache.py)
 
@@ -40,7 +45,16 @@ if [ ${#FILES[@]} -eq 0 ]; then
   exit 1
 fi
 
-echo "About to deploy to $VM ($ZONE):"
+echo "==> checking the VM is reachable in $PROJECT before uploading anything"
+gcloud compute instances describe "$VM" --zone="$ZONE" --project="$PROJECT" \
+  --format='value(name,status)' || {
+  echo
+  echo "Cannot see $VM in $PROJECT as $(gcloud config get-value account 2>/dev/null)."
+  echo "Check the logged-in account has access to $PROJECT."
+  exit 1
+}
+echo
+echo "About to deploy to $VM ($ZONE, $PROJECT):"
 printf '  %s\n' "${FILES[@]}"
 echo
 echo "Local HEAD: $(git log --oneline -1)"
@@ -54,11 +68,11 @@ for f in "${FILES[@]}"; do
 done
 
 echo "==> uploading"
-gcloud compute scp "${SRC[@]}" "$VM:/tmp/" --zone="$ZONE"
+gcloud compute scp "${SRC[@]}" "$VM:/tmp/" --zone="$ZONE" --project="$PROJECT"
 
 echo "==> installing and restarting"
 # /opt/bcit-rag is root-owned, hence the staged copy through /tmp.
-gcloud compute ssh "$VM" --zone="$ZONE" --command="
+gcloud compute ssh "$VM" --zone="$ZONE" --project="$PROJECT" --command="
   set -e
   for f in ${FILES[*]}; do sudo cp /tmp/\$f $REMOTE/\$f; done
   sudo systemctl restart bcit-chatbot

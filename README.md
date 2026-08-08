@@ -897,11 +897,15 @@ bash backend/deploy.sh                   # deploys what the last commit changed
 bash backend/deploy.sh query_rag.py ...  # or name the modules explicitly
 ```
 
-`backend/deploy.sh` exists because both ways this deploy goes wrong are
-documented gotchas that a pasted one-liner walks straight into: long commands
-lose spaces at terminal wrap points (bash then tries to *execute* `config.py`),
-and `gcloud compute ssh` needs its own `gcloud auth login`, which is not the
-same session as the ADC credentials `run_eval.py` uses.
+`backend/deploy.sh` exists because every way this deploy goes wrong is a
+documented gotcha that a pasted one-liner walks straight into: long commands
+lose spaces at terminal wrap points (bash then tries to *execute* `config.py`);
+`gcloud compute ssh` needs its own `gcloud auth login`, which is not the same
+session as the ADC credentials `run_eval.py` uses; and that login leaves the
+active project wherever the account defaults to, which is not
+`wine-agent-jh-2026`. The script passes `--project` explicitly on every call and
+confirms the VM is visible *before* uploading anything, so a wrong-project
+session fails in a second instead of half-way through.
 
 The script prints the file list and the local HEAD, asks for confirmation, then
 stages through `/tmp` (`/opt/bcit-rag` is root-owned), restarts the service,
