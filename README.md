@@ -63,6 +63,12 @@ that architecture pushed back. See
      separate them. Sub-millisecond (it scores the entity's chunks directly,
      not the whole index) and costs no extra billed call. At most
      `ENTITY_SCOPED_MAX_ENTITIES=3` entities per turn.
+   - *Person-scoped arm* (`PERSON_SCOPED_RETRIEVAL`): the same idea on the one
+     other relation the corpus states structurally — instructor names. A
+     question naming an indexed instructor scopes to the pages that name them
+     **as the instructor**, not to every page their name appears on. It fires
+     only when a question names one of the 1,291 indexed instructors, so it is
+     a no-op on all other traffic (measured: 0 of 86 regression questions).
 4. **Rerank** — ONE Vertex AI Ranking API call per turn regardless of
    sub-query count (the API bills per query): the pooled candidates are
    scored against the standalone question (`semantic-ranker-default-004`),
@@ -293,6 +299,17 @@ The last two rows are the same quality: re-scoring the round-2-end run with the
 fixed matcher also gives recall 1.000. v2 has had no headroom since identity
 embeddings landed, which is why the August work had to be judged on v1 and v3.
 
+> **v2 is not a stable 1.000, and a single v2 run gates nothing.** It was
+> recorded as "1.000/1.000, reproduced twice" and treated as saturated. Run
+> **six** times on the current model pair with no config change at all, the
+> baseline scores 1.000, 1.000, 1.000, 0.980, 0.960, 1.000 — **2 of 6 runs lose
+> a case**, and a different case each time (`ol2-01`, `ol2-03`, `ms2-05`). The
+> movers are the multilingual and follow-up cases: the answer language varies,
+> and the rewriter sometimes fails to resolve a pronoun. Its true run-to-run
+> band is **recall 0.960-1.000**, so a candidate must clear ±0.04 on this set
+> before the delta means anything. Two clean baseline samples are what made a
+> later candidate look like a regression when it was not.
+
 Net: cost $0.0126 → $0.0041 (−68% from the first instrumented figure; the
 `gemini-3.1-pro` baseline before it was never cost-instrumented, so the true
 reduction from the starting point is larger and is not quoted), hit 0.892 →
@@ -316,6 +333,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
 | Entity-scoped retrieval | `ENTITY_SCOPED_RETRIEVAL=true`, `ENTITY_SCOPED_K=8`, `ENTITY_SCOPED_MAX_ENTITIES=3` | when a sub-query names a concrete course code or program, a BM25 arm restricted to that entity's own chunks joins the pool (k is per **source** — a course resolves to its outline plus its catalogue page, merged round-robin so the shorter page cannot eat the budget). Closes the boilerplate-section class: a chunk whose body carries no entity identity and whose wording is shared by 1,772-3,038 siblings cannot be ranked globally by any phrasing, and is rank 1 once scoped. Sub-millisecond; no extra billed call |
+| Person-scoped retrieval | `PERSON_SCOPED_RETRIEVAL=true`, `PERSON_SCOPED_K=2`, `PERSON_SCOPED_MAX_SOURCES=12` | instructor name → the sources that name them **as the instructor** (1,291 indexed from the outline `Instructor Details` table and the course page `### Instructor` heading). Approval signatures and program-page coordinator lists are excluded on purpose: they name the same people in a *different relation*, and they outnumber the instructor mentions 15:1, which is why "what does X teach" used to answer with the reviewing role. Breadth over depth (k is per source across many sources — the mirror of the course case, which is one entity over two sources). Adds +0.07 s to startup |
 | Rerank identity | `RERANK_IDENTITY=true` | page identity (title + filename keywords + category) rides in the Ranking API's `title` field. Without it the ranker scores identity-blind text and prefers a *sibling* course's identical section — it ranked COMP 4870's evaluation table 0.859 against 0.258 for the asked-about course's own chunks. Ships as a pair with the row above: **neither flag alone fixes anything the other does not** |
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
@@ -330,13 +348,21 @@ Measured quality of exactly this configuration, on all three sets
 pair, scored with the corrected matcher; v1 reproduced in two runs that matched
 on all 39 stable cases):
 
-| Metric | v1 (40 clean, `fu-04` excluded → n=39) | v2 (25 incl. messy) | v3 (21 targeted) |
+| Metric | v1 (40 clean, `fu-04` excluded → n=39) | v2 (25 incl. messy) | v3 (24 targeted) |
 |---|---|---|---|
-| URL hit rate | **0.991** | **1.000** | 0.833 |
-| Key-fact recall | **0.991** | **1.000** | 0.911 |
+| URL hit rate | **0.991** | 0.987 (band 0.960–1.000) | **0.867** |
+| Key-fact recall | **0.991** | 0.987 (band 0.960–1.000) | **0.911** |
 | Citation precision | 1.000 | 1.000 | 1.000 |
 | Avoidance (refusal cases) | – | – | 1.000 |
-| Cost / query | $0.00405 | $0.00414 | $0.00392 |
+| Cost / query | $0.00405 | $0.00413 | $0.00403 |
+
+v3 grew to 24 cases in August when the `person_lookup` class was promoted into
+it. On those three cases the pre-person configuration scores **0.00 / 0.00 /
+0.14** and the shipping one **0.80 / 1.00 / 1.00**; the 21 older cases score
+0.8333 / 0.9111 in *all four* runs of both configurations, so the set-level
+delta (url 0.676 → 0.867) is entirely the new class and nothing regressed to pay
+for it. v2's figures are means over three runs — see the stability note above,
+it is not a 1.000 set.
 
 Every remaining miss is accounted for: v1 has exactly one (`mp-05`, the Tall
 Timber corpus gap it shares with `fu-04`), and v3's three are precisely the
@@ -421,7 +447,7 @@ headline metric — the judge complements it by catching paraphrases the
 substring match misses and by flagging claims the context never contained.
 A judge failure never sinks a case (`judge_error` + count instead).
 
-`eval/golden_set_v3.jsonl` — 21 cases covering what v1/v2 do not measure, built
+`eval/golden_set_v3.jsonl` — 24 cases covering what v1/v2 do not measure, built
 2026-08 to make an adaptive/corrective-retrieval decision testable. Every fact
 verified against the corpus, every URL taken from the crawled documents:
 
@@ -433,10 +459,20 @@ verified against the corpus, every URL taken from the crawled documents:
 | `out_of_scope` | 3 | not BCIT, or not advising at all — today they pay for the full pipeline |
 | `chitchat` | 3 | greetings/thanks — same |
 | `exploratory` | 2 | the shape real traffic actually takes (topic search, person lookup), taken verbatim from LangSmith |
+| `person_lookup` | 3 | "what courses does X teach?" — three instructors chosen so a plain substring matcher can still separate a right answer from a wrong one (see below), covering the signature flood, a held-out name, and the program-page coordinator flood |
 
 New scoring field `must_not_contain` (same alternative-group shape as
 `key_facts`) reports `avoidance` — the only way to score a case whose correct
 answer is a refusal, since a recall-shaped metric returns `None` there.
+
+**The person-lookup class needs its own harness**, `eval/person_lookup.py` over
+`golden_set_people.jsonl` + `golden_set_people_guard.jsonl` (15 cases). Its
+failure mode is *role misattribution* — an answer that names exactly the right
+course codes while calling them "reviewed as Program Head" rather than taught —
+and substring fact matching scores that a hit. The harness instead extracts the
+set of courses an answer claims the person **teaches** and compares sets. Only
+the three cases where the two configurations differ on plain substrings were
+promoted into v3; the rest would score 1.000 for a wrong answer.
 
 ```bash
 # re-score archived runs after a scorer or golden-set change (no DB, no API,
@@ -482,6 +518,7 @@ same CMS, which means the discriminating signal is almost never in the prose.
 | Deep program chunks are near-identical *in vector space* too | BMET entrance-requirement probe: own-page chunks in the dense top-20 went **6/20 → 20/20** after prefixing the embedded text with page identity | `EMBED_IDENTITY_PREFIX`, collection `bcit_docs_202606da`. v2 URL hit 0.940 → 1.000, and it retired the round-2 rerank-skip, which had been calibrated for identity-blind vectors |
 | Students ask with exact identifiers (`COMP 1510`, `ACIT 2515`) that embeddings blur | `HYBRID_ALPHA=0.56` (more dense weight) collapses hit-rate to 0.854; 0.40 and 0.48 hold ~0.95+ | `HYBRID_ALPHA=0.48` — BM25's 0.52 share is load-bearing, the opposite of the dense-heavy default most RAG stacks ship |
 | Course codes are a closed, regex-matchable vocabulary | **7,623** codes indexed; the filename convention parses **3,259 / 3,262** outlines and **7,049 / 7,060** course pages | the entity index behind `ENTITY_SCOPED_RETRIEVAL`, and `build_pgvector.py` deriving outline metadata from filenames rather than page scraping |
+| The same person appears in several *relations*, and the wrong one dominates | every outline ends with an approval block (**3,279** chunks, 3.3% of the corpus) naming a Program Head who is usually **not** the instructor. For one name: **62** signature chunks against **4** that list them under `Instructor Details` — a 15:1 majority answering a different question | `PERSON_SCOPED_RETRIEVAL`, which indexes *only* the instructor relation. Ranking cannot fix this — the right chunks were already candidates at BM25 ranks 9-12 and lost the top-10 selection to 15 signature chunks |
 | Facts live in tables that straddle chunk boundaries | `NEIGHBOR_RADIUS=2` beat 1 on outline fact recall (+0.04) for +5.6% tokens | `CHUNK_SIZE=1024`, `CHUNK_OVERLAP=130`, `NEIGHBOR_RADIUS=2` with overlap-aware merging |
 | The same course is published for up to 6 terms | retrieval surfaced stale instructors and dates alongside current ones | latest-term-per-course outline policy at crawl time — removes the contradiction class instead of ranking around it |
 | Sitemap `lastmod` is unusable as a freshness signal | **78%** of course pages carry a 2022 CMS-migration timestamp; filtering on `lastmod ≥ 2024-09` would have dropped **89%** of courses | live crawl every refresh, no `lastmod` filter |
@@ -775,10 +812,19 @@ Ideas that fit the current architecture, with their natural hook points:
 - **Fan-in retention** — "which courses require ACIT 1515 as a prerequisite?"
   has three correct answers on three sibling outlines, and `RERANKER_TOP_K=10`
   keeps one of them. The candidates are reachable (all three sit in the BM25
-  top-25 for a terse query) but the pooled rerank spreads the context budget
-  across unrelated sources. Needs a retention rule for candidates sharing a
-  relation to the named entity — not another retrieval hop. `BM25_STOPWORD_DF`
-  is implemented and rejected for the candidate-set half of it.
+  top-25 for a terse query). **The obvious retention rule was built and
+  measured, and it cannot work**: `FANIN_RETAIN` guarantees N distinct sources
+  whose text contains the entity the question names, and it fired **0 times in
+  12 runs**. This item used to say the pooled rerank "spreads the budget across
+  unrelated sources"; that stopped being true when `RERANK_IDENTITY` and
+  entity-scoped retrieval landed. Measured on the actual queries, *all ten*
+  context chunks already mention the entity — for `mh3-02` itself as well as
+  for person lookups. The slots are held by chunks naming the entity in the
+  **wrong relation**, so a rule keyed on "mentions the entity" has its quota
+  satisfied by exactly the chunks it was meant to evict. Any retry must be
+  **relation-aware**; the working example is `PERSON_SCOPED_RETRIEVAL`, which
+  indexes one relation and ignores the others. `BM25_STOPWORD_DF` is
+  implemented and rejected for the candidate-set half of it.
 - **Second-hop retrieval** — "what are the prerequisites of COMP 4537's
   prerequisites?" The model reads hop 1, names COMP 1537 and COMP 3522 itself,
   then says it cannot reach their details: the decomposer emits sub-queries in
@@ -834,6 +880,12 @@ to be under-reporting every archived run by ~0.036; and `backend/deploy.sh`,
 after four consecutive deploy attempts each failed on a different documented
 gotcha.
 
+Also shipped in August 2026: **person-scoped retrieval**, after a production
+conversation answered "what courses does X teach?" with the person's *reviewing*
+role and only produced the teaching answer when asked a leading follow-up. The
+round is written up in `eval/benchmarks/202608_person_lookup/REPORT.md`; it also
+retired the fan-in retention item above and re-measured v2's stability.
+
 Also closed, and previously listed here as the last open retrieval weakness:
 **program-page section flooding**. Section headings like "Entrance requirements"
 sit on 370 of 529 program pages, and the asked-about program's own section chunk
@@ -867,11 +919,15 @@ backend/
   drop_old_collection.sh   One-off: drop a retired collection via proxy
   eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
   eval/golden_set_v2.jsonl 25-case messy-query set (acronyms, typos, Korean)
-  eval/golden_set_v3.jsonl 21-case set: scoped facts, multi-hop, unanswerable,
-                           out-of-scope, chitchat, exploratory
+  eval/golden_set_v3.jsonl 24-case set: scoped facts, multi-hop, unanswerable,
+                           out-of-scope, chitchat, exploratory, person lookup
+  eval/golden_set_people*.jsonl  15-case person-lookup set (+ held-out and
+                           adversarial guard cases) for eval/person_lookup.py
   eval/run_eval.py         Offline eval harness (--label, --compare, --judge)
   eval/rescore.py          Re-score archived runs offline after a scorer change
   eval/test_matcher.py     Key-fact matcher regression tests
+  eval/person_lookup.py    "what does X teach?" harness — grades by comparing
+                           the SET of courses an answer claims are taught
   eval/mine_langsmith.py   Production traces -> golden-set candidate JSONL
   eval/benchmarks/         Archived rounds: every run JSON + its REPORT.md
   eval/results/            Per-run metrics JSON (gitignored)

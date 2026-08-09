@@ -169,7 +169,45 @@ exact), per the rule that a golden-set edit lands on every arm or none.
 pair its true run-to-run band is **recall 0.960-1.000**, so a single v2 run
 cannot gate anything at the 0.04 level.
 
-## 7. Verdict
+## 7. Promoted into v3, and re-measured on the enlarged set
+
+Three cases went into `golden_set_v3.jsonl` (21 → 24), chosen from the ten
+teaching cases as the only ones where a **plain substring matcher still
+separates a right answer from a wrong one** — for the other seven the baseline
+names the correct course codes while attributing them to the reviewing role,
+which `_fact_hit` scores as a hit. They cover three different flood sources:
+`pl3-01` Victor Mendez (signature block), `pl3-02` Esti Jacobs (held-out name),
+`pl3-03` Juan Azmitia (program-page coordinator listings).
+
+Both arms were re-run on the 24-case set, twice each, because the archived v3
+runs are scored on the 21-case version and are not comparable:
+
+| run | url | recall | citation |
+|---|---|---|---|
+| base r1 / r2 | 0.6762 / 0.6762 | 0.7672 / 0.7593 | 1.000 / 1.000 |
+| person r1 / r2 | **0.8667 / 0.8667** | **0.9148 / 0.9069** | 0.914¹ / 1.000 |
+
+| new case | base r1 / r2 | person r1 / r2 |
+|---|---|---|
+| `pl3-01` Victor Mendez (5 courses) | 0.00 / 0.00 | 0.80 / 0.80 |
+| `pl3-02` Esti Jacobs (3) | 0.00 / 0.00 | 1.00 / 1.00 |
+| `pl3-03` Juan Azmitia (7) | 0.14 / 0.00 | 1.00 / 0.86 |
+
+The **21 pre-existing cases score 0.8333 / 0.9111 in all four runs** — identical
+across both configurations and both reproductions, and identical to the archived
+production baseline. The set-level gain is entirely the new class.
+
+¹ The one sub-1.000 citation score did not reproduce. Two cases caused it:
+`os3-02`, a refusal that cited `https://www.bcit.ca` (the site root, not a
+retrieved URL — and in the baseline run that answer cited *nothing*, so the case
+was excluded from the mean entirely rather than scored), and `ex3-02`, where the
+model rewrote outline URLs to an `aws.bcit.ca` subdomain that **does not exist
+anywhere in the corpus**. Neither involved the person arm — `n_scoped_candidates`
+was 0 in both configurations for both cases, and the runs differ only in the
+rewriter's sub-query. The URL mangling is a real generation defect worth its own
+issue; it is not a property of this change.
+
+## 8. Verdict
 
 **Adopt `PERSON_SCOPED_RETRIEVAL`. Do not adopt `SIGNATURE_DEMOTE` yet. Reject
 `FANIN_RETAIN`.**
