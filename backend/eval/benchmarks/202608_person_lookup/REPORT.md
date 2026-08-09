@@ -125,9 +125,9 @@ Useful side effect: the two inert arms put the noise band on this metric at
 
 Citation precision 1.000 everywhere, 0 errors everywhere, cost within $0.00006.
 
-v2 is the one set where every candidate run lost exactly one case while both
-baseline runs were clean. A different case each time, and each traced to a
-mechanism upstream of both flags:
+v2 looked like a problem at first: every candidate run lost exactly one case
+while both baseline runs were clean. A different case each time, and each
+traced to a mechanism upstream of both flags:
 
 | run | case | cause |
 |---|---|---|
@@ -138,6 +138,36 @@ mechanism upstream of both flags:
 None involves the person index firing. Across all three regression sets the
 person arm fired on **0 of 86** questions — it is a literal no-op unless a
 question names an indexed instructor.
+
+### The v2 tiebreak — v2 is not a stable 1.000 set
+
+The candidate looked worse on v2 only because the baseline had been sampled
+twice and both samples were clean. Run six times, the baseline wobbles too:
+
+| | runs | recall | url | runs with an imperfect case |
+|---|---|---|---|---|
+| baseline | 6 | 1.000, 1.000, 1.000, 0.980, 0.960, 1.000 (mean **0.990**) | 1.000 ×6 | **2 / 6** |
+| person only | 3 | 1.000, 0.960, 1.000 (mean **0.987**) | 0.960, 1.000, 1.000 | **2 / 3** |
+
+The candidate's range sits inside the baseline's. Six different cases are
+involved across the nine runs — `ol2-01`, `ol2-03`, `ms2-05`, `fu2-02`,
+`pa2-06`, and `ms2-05` again — and `ms2-05` fails on **both** sides, which is
+the direct proof that the instability is not config-borne. Two further checks
+close it: the person index matched **0 times** across every standalone question
+and every sub-query of all three person runs, and with zero matches
+`_detect_entities` returns the same list and `_scoped_candidates` takes the same
+branch, so the two configurations are behaviourally identical on this set.
+
+`pa2-06` was not a failure at all but a golden-set paraphrase gap: the answer
+said "does **not reduce** your program tuition" against an alternative list that
+only had "not be reduced". Fixed in `golden_set_v2.jsonl` and re-scored across
+**all ten** archived v2 runs (1 moved, 0 other case-deltas, URL self-check
+exact), per the rule that a golden-set edit lands on every arm or none.
+
+**This retires a claim the previous round made.** v2 was recorded as
+"1.000/1.000, reproduced twice" and treated as saturated. On the current model
+pair its true run-to-run band is **recall 0.960-1.000**, so a single v2 run
+cannot gate anything at the 0.04 level.
 
 ## 7. Verdict
 
@@ -155,8 +185,9 @@ question names an indexed instructor.
 
 ### Before shipping
 
-1. One more v2 pair (baseline + candidate) to settle §6's wobble. Every mover
-   has an explanation, but the baseline is 2/2 clean and the candidate 3/3 not.
+1. ~~One more v2 pair to settle §6's wobble.~~ **Done** — see the tiebreak
+   above. v2's own band is recall 0.960-1.000 over six baseline runs and the
+   candidate sits inside it.
 2. `pl-05` sits at 0.89 in both person arms against 1.00 in sig-only — one
    residual case, worth a look but not a blocker.
 3. Promote 2-3 of these cases into `golden_set_v3.jsonl` so the class stays
