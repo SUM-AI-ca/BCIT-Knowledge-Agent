@@ -335,10 +335,13 @@ question, `mh3-01`'s is in the first answer.
    both was simpler than two. The gate this item asked for was met exactly:
    **zero mis-routes across all four sets** (v1 40, v2 25, v3 24, rough 16).
 
-   The cheap form proposed here is still unbuilt and is now the main cost
-   lever: `GRAPH_ROUTER_MODE=inline` folds the route onto the rewriter's
-   existing JSON call and would remove one round trip per turn (~0.9 s,
-   ~$0.0002), which is most of what the adopted design overspends.
+   The cheap form proposed here — folding the route onto the rewriter's
+   existing JSON call — was costed out afterwards and **rejected**. It saves
+   one 815-token controller call ($0.00035) on retrieve turns but makes
+   `direct`/`refuse` turns pay for a rewriter call they currently skip
+   ($0.00088), nets 0-6% depending on the set, and would move routing to the
+   model tier that measured *worse* at it. The "no extra API call" framing was
+   right about the call and wrong about the cost.
 
 Two findings that fall out of this round and belong to neither step:
 

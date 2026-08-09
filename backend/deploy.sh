@@ -91,7 +91,7 @@ for f in "${FILES[@]}"; do
 done
 
 echo "==> uploading"
-[ "$DEPS" = 1 ] && SRC+=("backend/requirements.txt")
+[ "$DEPS" = 1 ] && SRC+=("backend/requirements.txt" "backend/.python-version")
 gcloud compute scp "${SRC[@]}" "$VM:/tmp/" --zone="$ZONE" --project="$PROJECT"
 
 if [ "$DEPS" = 1 ]; then
@@ -104,19 +104,25 @@ if [ "$DEPS" = 1 ]; then
   gcloud compute ssh "$VM" --zone="$ZONE" --project="$PROJECT" --command="
     set -e
     UV=/home/park/.local/bin/uv
-    PY310=/home/park/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
-    test -x \$UV && test -x \$PY310
+    test -x \$UV
+    # Version comes from pyproject's requires-python, not from a path pinned
+    # here: this line was hard-coded to 3.10 once and had to be edited during
+    # the 3.13 upgrade, which is exactly the kind of edit that gets forgotten.
+    # uv downloads the interpreter if the VM does not have it.
+    PYVER=\$(tr -d '[:space:]' < $REMOTE/.python-version 2>/dev/null || true)
+    PYVER=\${PYVER:-3.13}
     cd $REMOTE
     df -h /opt | tail -1
     sudo cp /tmp/requirements.txt $REMOTE/requirements.txt
+    sudo cp /tmp/.python-version $REMOTE/.python-version
     # The modules have to be in place before the smoke, or it imports the
     # code that is being replaced — and a brand new module like graph.py is
     # not there at all, so the smoke would fail for the wrong reason.
     for f in ${FILES[*]}; do sudo cp /tmp/\$f $REMOTE/\$f; done
     sudo rm -rf .venv-new
-    # uv, not python3 -m venv: the VM's default python3 is 3.12 with no
-    # ensurepip, and this project is pinned to 3.10 anyway — the live venv is
-    # a uv-managed 3.10.20 and the new one has to match it, not the system.
+    # uv, not python3 -m venv: the VM's system python3 has no ensurepip, and
+    # the interpreter this project runs on is whatever uv manages, not
+    # whatever the distro ships.
     #
     # --relocatable is load-bearing. Without it uv writes each console script
     # with a shebang naming its build path (#!/opt/bcit-rag/backend/.venv-new/
@@ -126,7 +132,7 @@ if [ "$DEPS" = 1 ]; then
     # though uvicorn is installed, and the service crash-loops. Learned the
     # hard way on 2026-08-09; --relocatable emits a /bin/sh wrapper that
     # resolves the interpreter relative to the script instead.
-    sudo \$UV venv --relocatable --python \$PY310 .venv-new
+    sudo \$UV venv --relocatable --python \$PYVER .venv-new
     sudo \$UV pip install -q --python .venv-new/bin/python -r requirements.txt
     test -x .venv-new/bin/uvicorn
     sudo .venv-new/bin/python -c 'import query_rag, graph, session_memory; print(\"import smoke OK\")'

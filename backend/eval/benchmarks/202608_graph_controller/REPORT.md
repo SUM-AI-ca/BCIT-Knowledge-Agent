@@ -145,13 +145,19 @@ The two untouched cases take **no hop** — the controller judges one pass
 sufficient, and it is right that nothing is *missing by name*: `mh3-02`'s
 COMP 2501 and `pl3-01`'s ELEX 2610 lose on rank within a single pass. Those
 are ranking problems, one layer below anything a controller can reach.
-`mh3-04` splits into two problems. Its **URL** score depends on whether the
-controller takes one hop or two — measured six times across the adopted
-configuration: 1.00 four times, 0.50 twice, and the 0.50 runs are exactly the
-one-hop ones. Its **fact** score is 0.50 in all six: the digest shows
-`Course Credits | 4`, the context carries both prerequisite outlines, and the
-answer still does not state the two credit values. That half is a generation
-miss and no retrieval change reaches it.
+`mh3-04` splits into two problems. Its **URL** score is a direct function of
+how many hops the controller takes — 8 samples of the adopted configuration
+(across Python 3.10 and 3.13): hops 0 -> url 0.00, hops 1 -> 0.50 or 1.00,
+hops 2 -> 1.00, giving 1.00 five times, 0.50 twice, 0.00 once. Its **fact**
+score is 0.50 in seven of the eight: the digest shows `Course Credits | 4`,
+the context carries both prerequisite outlines, and the answer still does not
+state the two credit values. The single 1.00 came on a two-hop run, so the
+generation half is not hopeless — just unreliable, and not something a
+retrieval change reaches.
+
+This case is also the whole reason the set-level url figure moves between
+otherwise identical runs (0.9111 to 0.9778 observed): it is 1 of the 15
+url-scored cases, so one step of its score is 0.033 of the set.
 
 ## 6. Gates
 

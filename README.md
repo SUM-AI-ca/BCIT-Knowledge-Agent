@@ -405,11 +405,13 @@ dependency stack with `USE_GRAPH=false`
 
 `multi_hop`, the class the controller was built for, went url **0.600 →
 0.933** and fact 0.733 → 0.833. `mh3-01` ("prerequisites of COMP 4537's own
-prerequisites") goes 0.33/0.50 → **1.00/1.00** in two hops. `mh3-04` is the
-unstable one: its URL score tracks whether the controller takes one hop or two
-(measured six times — 1.00 four times, 0.50 twice), and its fact recall is 0.50
-in all six because the answer never states the two credit values even when both
-outlines are in context. The person guard set is untouched (F1 0.9861,
+prerequisites") goes 0.33/0.50 → **1.00/1.00** in two hops. `mh3-04` is the one unstable case in the set, and the instability is the
+controller's hop count, not the retrieval. Across **8 samples** of the adopted
+configuration (spanning Python 3.10 and 3.13): url 1.00 five times, 0.50
+twice, 0.00 once, tracking hops of 2, 1 and 0 respectively; fact recall is 0.50
+in seven and 1.00 in one. Even at two hops the answer usually names both
+prerequisite outlines without stating their credit values, which is a
+generation miss the digest cannot fix — it already shows `Course Credits | 4`. The person guard set is untouched (F1 0.9861,
 `name_hit` 1.000, 0 inventions), as is `unanswerable` recall at 1.000.
 
 **The rough set is the one to read.** Its 16 cases are the same question
@@ -453,8 +455,8 @@ input the other way (5,507 → 6,118 and 5,385 → 6,014).
 **The +10% cost gate failed and was accepted, not met.** It was written before
 the size of the quality delta was known; the trade being bought is url +0.11 on
 v3, +0.50 on the rough set, and an out-of-scope leak closed, for $1.30 per
-thousand queries. The unbuilt lever if that needs to come down is
-`GRAPH_ROUTER_MODE=inline` (below). Against the pre-optimization baseline the
+thousand queries. `GRAPH_ROUTER_MODE=inline` was the obvious lever and does not work — see
+Future work; it moves cost by 0–6%, not by the 13–51% that would matter. Against the pre-optimization baseline the
 per-query cost is still −58% ($0.0126 → $0.0053).
 
 #### Implicit prompt caching: what was actually observed
@@ -962,13 +964,18 @@ Ideas that fit the current architecture, with their natural hook points:
   not the hop — closing an out-of-scope leak and cutting retrieval on 25% of
   turns — and that two guards would have to be deterministic backstops rather
   than prompt rules.
-- **`GRAPH_ROUTER_MODE=inline`** — the config knob exists and the code does
-  not. Folding the route decision into the rewriter's existing JSON call
-  removes one controller round trip from every turn: ~0.9 s and ~$0.0002. It
-  is the obvious lever if the accepted cost overrun (+13–51%) or the added
-  latency (+0.8–2.2 s p50) needs to come down. Measure it against
-  `node` mode on all four sets — the decisions must not change, only their
-  price.
+- **`GRAPH_ROUTER_MODE=inline` — measured and dropped.** The knob is still in
+  `config.py`; the code behind it was never written, and the arithmetic says it
+  should not be. Removing the router call saves exactly one iteration-0
+  controller call: **815 in / 41 out tokens = $0.00035, ~0.8 s**. But inline
+  puts routing on the rewriter's call, so `direct` and `refuse` turns — which
+  today skip the rewriter entirely — would start paying for it: 336 in / ~50
+  out on `gemini-3.6-flash` = **$0.00088**, i.e. $0.00053 *worse* on exactly
+  the turns the route was supposed to make cheap. Net: **−6% cost on v1, −2.9%
+  on v3, ≈0% on the rough set**, against a +13–51% overrun. It would also move
+  routing from the lite tier back to 3.6-flash, which measured *worse* at
+  routing on rough phrasings (url 0.633 vs 0.733). The latency saving (~0.8 s
+  on retrieve turns) is real; it is not worth the other three things.
 - **`mh3-02` and `pl3-01` are ranking, not control flow** — both take **zero**
   hops under the controller, and it is right: nothing is missing *by name*.
   COMP 2501 (of three courses listing ACIT 1515 as a prerequisite) and ELEX
@@ -1080,6 +1087,8 @@ backend/
                            adversarial guard cases) for eval/person_lookup.py
   eval/golden_set_graph.jsonl    16-case set in untidy phrasing, with
                            expected_route per case (routing is scored)
+  .python-version          Interpreter version — read by uv locally AND by
+                           deploy.sh --deps when it builds the VM venv
   eval/run_eval.py         Offline eval harness (--label, --compare, --judge)
   eval/rescore.py          Re-score archived runs offline after a scorer change
   eval/test_matcher.py     Key-fact matcher regression tests
@@ -1121,7 +1130,7 @@ No authentication — the chatbot is public. Input is capped at
 
 ### Requirements
 
-- Python 3.10 via [uv](https://docs.astral.sh/uv/)
+- Python 3.13 via [uv](https://docs.astral.sh/uv/) (`backend/.python-version`)
 - Node.js 20+
 - GCP project with `aiplatform`, `discoveryengine`, `sqladmin` APIs enabled
 - Cloud SQL Auth Proxy v2
@@ -1143,12 +1152,15 @@ both silently rather than loudly, and both are worth knowing about:
   query-time embedding kept working. The one-per-request contract now lives in
   `embeddings.py`, where it is version-independent.
 
-**Python stays at 3.10 for now**, deliberately. Nothing here needs 3.11+ — p50
-is almost entirely network wait, so interpreter speed is irrelevant — and
-`deploy.sh` ships modules into an existing venv, so a Python bump is a VM venv
-rebuild rather than a code change. It is not indefinite: `google.api_core` now
-warns that 3.10 support ends **2026-10-04**, so the upgrade wants its own round
-with its own smoke test before then.
+**Python is 3.13**, moved off 3.10 in August 2026 once `google.api_core`
+started warning that it stops shipping updates for 3.10 after its EOL on
+**2026-10-04**. `requires-python` is `>=3.12` (the floor, so the VM's system
+interpreter stays a valid fallback) while the venvs are built on 3.13 by uv,
+pinned in `backend/.python-version` — the same file uv reads locally and
+`deploy.sh --deps` reads to build the production venv, so the two cannot
+drift. The upgrade was run as its own change and verified behaviour-neutral on
+v3 before shipping; the performance argument for it was always weak (p50 is
+almost entirely network wait), the support deadline was the reason.
 
 ### Setup
 

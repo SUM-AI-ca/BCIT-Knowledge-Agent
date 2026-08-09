@@ -1,7 +1,11 @@
 [project]
 name = "bcit-rag-chatbot"
 version = "5.0.0"
-requires-python = ">=3.10,<3.11"
+# Moved off 3.10 in August 2026: google.api_core warns that it stops shipping
+# updates for 3.10 after its EOL on 2026-10-04. The floor is 3.12 rather than
+# 3.13 so the VM's system interpreter stays a valid fallback; the venvs (local
+# and production) are built on 3.13 by uv.
+requires-python = ">=3.12"
 dependencies = [
     "fastapi==0.141.1",
     "uvicorn[standard]==0.52.1",

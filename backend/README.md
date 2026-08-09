@@ -16,7 +16,8 @@ runbooks live in the [repository README](../README.md).
 | `response_cache.py` | First-turn exact-match answer cache |
 | `crawl_bcit.py` | Corpus crawler (sitemaps + outlines API) |
 | `build_pgvector.py` | Indexing job (resumable, collection-versioned) |
-| `deploy.sh` | Deploy backend modules to the production VM — use this rather than ad-hoc `gcloud` commands |
+| `deploy.sh` | Deploy backend modules to the production VM — use this rather than ad-hoc `gcloud` commands. `--deps` also rebuilds the VM venv, and is required whenever `requirements.txt` or `.python-version` changed |
+| `.python-version` | Interpreter version (3.13). Read by uv locally and by `deploy.sh --deps` on the VM, so the two cannot drift |
 | `drop_old_collection.sh` | One-off: drop a retired pgvector collection through the proxy |
 | `eval/` | Golden sets, offline harness, re-scorer, archived benchmarks |
 | `eval/person_lookup.py` | "what courses does X teach?" harness — set comparison, because substring matching cannot see role misattribution |
@@ -27,5 +28,6 @@ Setup, credentials, and the Cloud SQL proxy are covered under
 `pyproject.toml` / `requirements.txt` and installed with `uv`. Embeddings,
 reranking and generation are all managed-service calls, so almost everything in
 there is a client library; the exception is **langgraph**, which runs the
-controller graph in-process. A `requirements.txt` change means the VM venv must
-be rebuilt — deploy with `bash deploy.sh --deps ...`, never a plain deploy.
+controller graph in-process. A change to `requirements.txt` or `.python-version`
+means the VM venv must be rebuilt — deploy with `bash deploy.sh --deps ...`,
+never a plain deploy.
