@@ -29,20 +29,20 @@ class VertexGeminiEmbeddings(Embeddings):
         norms[norms == 0] = 1.0
         return arr / norms
 
-    def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        vectors = self._client.embed(
-            texts,
-            batch_size=1,  # gemini-embedding-001 allows 1 instance per request
-            embeddings_task_type="RETRIEVAL_DOCUMENT",
+    def _embed_one(self, text: str, task_type: str) -> List[float]:
+        # gemini-embedding-001 accepts exactly 1 instance per request. This
+        # used to be expressed as batch_size=1, which langchain-google-vertexai
+        # 3.x dropped — its embed() now sends the whole list in one request, so
+        # the limit has to be enforced here or a multi-text call 400s.
+        return self._client.embed(
+            [text],
+            embeddings_task_type=task_type,
             dimensions=self.dimensions,
-        )
+        )[0]
+
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        vectors = [self._embed_one(t, "RETRIEVAL_DOCUMENT") for t in texts]
         return self._normalize(vectors).tolist()
 
     def embed_query(self, text: str) -> List[float]:
-        vectors = self._client.embed(
-            [text],
-            batch_size=1,
-            embeddings_task_type="RETRIEVAL_QUERY",
-            dimensions=self.dimensions,
-        )
-        return self._normalize(vectors)[0].tolist()
+        return self._normalize([self._embed_one(text, "RETRIEVAL_QUERY")])[0].tolist()

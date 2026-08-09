@@ -17,7 +17,7 @@ from langchain_google_vertexai import ChatVertexAI
 from sqlalchemy import create_engine
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
-from langchain.memory import ConversationBufferWindowMemory
+from session_memory import SessionMemory
 
 try:
     from langsmith import traceable
@@ -498,7 +498,7 @@ class BCITChatbot:
         print("LLM initialized\n")
 
     def _initialize_memory(self):
-        self.memory = ConversationBufferWindowMemory(
+        self.memory = SessionMemory(
             k=MEMORY_WINDOW_K,
             memory_key="chat_history",
             return_messages=True
@@ -594,7 +594,7 @@ class BCITChatbot:
             text = text[:HISTORY_MAX_ANSWER_CHARS].rstrip() + " ..."
         return text or answer[:HISTORY_MAX_ANSWER_CHARS]
 
-    def _format_chat_history(self, memory: ConversationBufferWindowMemory) -> str:
+    def _format_chat_history(self, memory: SessionMemory) -> str:
         # buffer_as_messages applies the k-window; chat_memory.messages is the
         # raw unbounded list and must not be used here.
         messages = memory.buffer_as_messages
@@ -1112,7 +1112,7 @@ class BCITChatbot:
         logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
         return meta
 
-    def _prepare_turn(self, question: str, memory: ConversationBufferWindowMemory) -> dict:
+    def _prepare_turn(self, question: str, memory: SessionMemory) -> dict:
         """Everything before generation: easter-egg short-circuit, history
         formatting, rewrite+decompose, (fan-out) retrieval, rerank, context
         assembly, prompt construction. Shared by query_with_meta (blocking)
@@ -1296,7 +1296,7 @@ class BCITChatbot:
     def _finalize_turn(
             self,
             prep: dict,
-            memory: ConversationBufferWindowMemory,
+            memory: SessionMemory,
             answer: str,
             usage: dict,
             finish_reason: str,
@@ -1382,7 +1382,7 @@ class BCITChatbot:
         return meta
 
     @traceable(name="bcit_query")
-    def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
+    def query_with_meta(self, question: str, memory: Optional[SessionMemory] = None) -> dict:
         if memory is None:
             memory = self.memory
 
@@ -1404,7 +1404,7 @@ class BCITChatbot:
         )
 
     @traceable(name="bcit_query", reduce_fn=_reduce_stream_outputs)
-    def query_stream(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None):
+    def query_stream(self, question: str, memory: Optional[SessionMemory] = None):
         """Streaming twin of query_with_meta: yields ("delta", text) as
         tokens arrive, then ("done", meta) where meta is exactly what the
         blocking path returns (memory write + query_usage log included).
@@ -1452,7 +1452,7 @@ class BCITChatbot:
             t_generate=t_generate,
         ))
 
-    def query(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> str:
+    def query(self, question: str, memory: Optional[SessionMemory] = None) -> str:
         return self.query_with_meta(question, memory=memory)["answer"]
 
     def chat(self):

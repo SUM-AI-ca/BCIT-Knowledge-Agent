@@ -487,7 +487,7 @@ def main():
     sys.path.insert(0, str(BACKEND_DIR))
     import config
     from query_rag import BCITChatbot
-    from langchain.memory import ConversationBufferWindowMemory
+    from session_memory import SessionMemory
 
     snapshot = {}
     for key in SNAPSHOT_KEYS:
@@ -495,7 +495,7 @@ def main():
             value = getattr(config, key)
             snapshot[key] = value if isinstance(value, (int, float, bool, str, type(None))) else str(value)
 
-    make_memory = lambda: ConversationBufferWindowMemory(
+    make_memory = lambda: SessionMemory(
         k=config.MEMORY_WINDOW_K, memory_key="chat_history", return_messages=True
     )
 

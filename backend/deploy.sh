@@ -24,7 +24,7 @@ ZONE=us-west1-b
 # the deploy fails with "instance not found" after the upload has already run.
 PROJECT=wine-agent-jh-2026
 REMOTE=/opt/bcit-rag/backend
-DEPLOYABLE=(config.py query_rag.py hybrid_retriever.py reranker.py server.py embeddings.py response_cache.py)
+DEPLOYABLE=(config.py query_rag.py hybrid_retriever.py reranker.py server.py embeddings.py response_cache.py session_memory.py)
 
 if [ $# -gt 0 ]; then
   FILES=("$@")

@@ -36,7 +36,7 @@ from config import (
     WORKER_THREADS,
     MAX_MESSAGE_CHARS,
 )
-from langchain.memory import ConversationBufferWindowMemory
+from session_memory import SessionMemory
 
 class ChatRequest(BaseModel):
     message: str
@@ -71,7 +71,7 @@ SESSION_TIMEOUT_MINUTES = 30
 MAX_SESSIONS_BEFORE_SWEEP = 5000
 
 
-def get_or_create_session(session_id: Optional[str]) -> tuple[str, ConversationBufferWindowMemory]:
+def get_or_create_session(session_id: Optional[str]) -> tuple[str, SessionMemory]:
     if not session_id:
         session_id = str(uuid.uuid4())
 
@@ -81,7 +81,7 @@ def get_or_create_session(session_id: Optional[str]) -> tuple[str, ConversationB
         if len(sessions) >= MAX_SESSIONS_BEFORE_SWEEP:
             cleanup_expired_sessions()
         sessions[session_id] = {
-            "memory": ConversationBufferWindowMemory(
+            "memory": SessionMemory(
                 k=MEMORY_WINDOW_K,
                 memory_key="chat_history",
                 return_messages=True
@@ -155,13 +155,13 @@ def record_query_metric(meta: Optional[dict] = None, *, error: bool = False, tim
         _metrics_totals["cost_usd"] += entry["cost_usd"]
 
 
-def query_chatbot_sync(question: str, memory: ConversationBufferWindowMemory) -> dict:
+def query_chatbot_sync(question: str, memory: SessionMemory) -> dict:
     # Memory is passed per request — never swap chatbot.memory globally,
     # concurrent requests would leak history across sessions.
     return chatbot.query_with_meta(question, memory=memory)
 
 
-async def query_chatbot_async(question: str, memory: ConversationBufferWindowMemory) -> dict:
+async def query_chatbot_async(question: str, memory: SessionMemory) -> dict:
     loop = asyncio.get_event_loop()
     return await loop.run_in_executor(executor, query_chatbot_sync, question, memory)
 
