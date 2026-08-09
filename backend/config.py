@@ -337,13 +337,36 @@ GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
 # answer is still produced by a single uninterrupted llm.stream() call and
 # query_stream/_finalize_turn/server.py are untouched — the reason Self-RAG
 # was rejected in 202608_adaptive_rag_prep does not apply here.
-# Default OFF: with the flag off nothing imports langgraph and the turn takes
-# exactly today's path.
-USE_GRAPH = _env_bool("USE_GRAPH", False)
-# Controller model. The dominant cost variable in the whole design: the
-# reasoning tier is ~5x the lite tier per call, and the controller fires on
-# every turn. Both are measured on the same sets before adoption.
-GRAPH_MODEL = _env_str("GRAPH_MODEL", "gemini-3.6-flash")
+# ADOPTED 2026-08 (eval/benchmarks/202608_graph_controller). Measured against
+# the same dependency stack with the flag off, controller on the lite tier:
+#
+#   set          url_hit            fact_recall        mis-routes  $/query
+#   v1 (40)      0.9667 -> 0.9750   0.9917 -> 1.0000   0           0.0040 -> 0.0058
+#   v2 (25)      1.0000 -> 1.0000   1.0000 -> 0.9800   0           0.0041 -> 0.0062
+#   v3 (24)      0.8667 -> 0.9778   0.9148 -> 0.9426   0           0.0040 -> 0.0045
+#   rough (16)   0.3333 -> 0.8333   0.6944 -> 0.9444   0           0.0039 -> 0.0047
+#
+# v3 multi_hop, the class this was built for: url 0.600 -> 0.933, fact
+# 0.733 -> 0.833. out_of_scope avoidance 0.750 -> 1.000 on rough phrasings
+# (production was explaining CSS flexbox to people who asked). unanswerable
+# recall and the person guard set are unchanged.
+#
+# TWO GATES FAILED and were accepted on the evidence, not met:
+#   - cost +13% (v3) to +51% (v2) against a +10% gate; ~$0.0053/query mean,
+#     i.e. +$1.30 per 1,000 queries
+#   - v3 multi_hop fact 0.833 against 0.90. The shortfall is mh3-02 (single-pass
+#     ranking) and mh3-04's credits (generation) — neither is control flow, and
+#     no controller change moves them.
+#
+# Turning it off is the rollback and needs no redeploy: with the flag off
+# nothing imports langgraph and the turn takes exactly the pre-graph path.
+USE_GRAPH = _env_bool("USE_GRAPH", True)
+# Controller model. The dominant cost variable in the design: the reasoning
+# tier is ~5x the lite tier per call and the controller fires on every turn.
+# Both were measured on the same sets. 3.6-flash bought url 0.9917 on v1 (vs
+# 0.9750) for +133% cost, and LOST to lite on the rough set (0.633 vs 0.733) —
+# so the cheap tier is not a compromise here, it is also the better router.
+GRAPH_MODEL = _env_str("GRAPH_MODEL", "gemini-3.5-flash-lite")
 GRAPH_TEMPERATURE = _env_float("GRAPH_TEMPERATURE", 0.0)
 # 512 truncated a hop-2 decision mid-JSON (unterminated string at char 1452),
 # which the parse then rejected and the graph fail-opened on. A controller that
@@ -382,9 +405,10 @@ GRAPH_ROUTER_MODE = _env_str("GRAPH_ROUTER_MODE", "node")
 # Priced separately because the controller can run on a different model than
 # either generation or rewriting. Same rule as the pair above: these MUST move
 # with GRAPH_MODEL or the per-query cost shown to users quotes a model that
-# did not run. Defaults are gemini-3.6-flash list prices.
-PRICE_GRAPH_INPUT_PER_M = _env_float("PRICE_GRAPH_INPUT_PER_M", 1.50)
-PRICE_GRAPH_OUTPUT_PER_M = _env_float("PRICE_GRAPH_OUTPUT_PER_M", 7.50)
+# did not run. Defaults are gemini-3.5-flash-lite list prices, matching the
+# adopted GRAPH_MODEL above; the 3.6-flash pair is 1.50 / 7.50.
+PRICE_GRAPH_INPUT_PER_M = _env_float("PRICE_GRAPH_INPUT_PER_M", 0.30)
+PRICE_GRAPH_OUTPUT_PER_M = _env_float("PRICE_GRAPH_OUTPUT_PER_M", 2.50)
 
 # Response language. "match": answer in the language of the student's latest
 # question (retrieval + rewriter stay English — the corpus is English, and the

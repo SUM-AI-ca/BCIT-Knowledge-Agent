@@ -3,6 +3,16 @@
 #
 #   bash backend/deploy.sh                 # deploy what changed vs the VM's commit
 #   bash backend/deploy.sh config.py ...   # or name the files explicitly
+#   bash backend/deploy.sh --deps ...      # ALSO rebuild the VM venv first
+#
+# --deps is required whenever requirements.txt changed. This script otherwise
+# copies .py files into the venv that is already there and restarts, so a
+# dependency change deploys code against libraries it was never tested with —
+# in the August 2026 graph round that would have been langchain 1.x code
+# running on 0.3.x, plus an ImportError on langgraph, which is not installed.
+# It builds .venv-new alongside the live one, import-smokes it, and only then
+# swaps: the service keeps serving from the old venv until the last moment,
+# and rollback is `mv .venv .venv-bad && mv .venv-old .venv`.
 #
 # Exists because the two ways this deploy goes wrong are both documented
 # gotchas that a one-liner walks straight into: a long pasted command loses
@@ -24,7 +34,10 @@ ZONE=us-west1-b
 # the deploy fails with "instance not found" after the upload has already run.
 PROJECT=wine-agent-jh-2026
 REMOTE=/opt/bcit-rag/backend
-DEPLOYABLE=(config.py query_rag.py hybrid_retriever.py reranker.py server.py embeddings.py response_cache.py session_memory.py)
+DEPLOYABLE=(config.py query_rag.py hybrid_retriever.py reranker.py server.py embeddings.py response_cache.py session_memory.py graph.py)
+
+DEPS=0
+if [ "${1:-}" = "--deps" ]; then DEPS=1; shift; fi
 
 if [ $# -gt 0 ]; then
   FILES=("$@")
@@ -78,7 +91,35 @@ for f in "${FILES[@]}"; do
 done
 
 echo "==> uploading"
+[ "$DEPS" = 1 ] && SRC+=("backend/requirements.txt")
 gcloud compute scp "${SRC[@]}" "$VM:/tmp/" --zone="$ZONE" --project="$PROJECT"
+
+if [ "$DEPS" = 1 ]; then
+  echo
+  echo "==> rebuilding the venv alongside the live one (service keeps serving)"
+  # Built fresh rather than upgraded in place: a pip failure half-way through
+  # an in-place upgrade leaves a venv that neither starts nor rolls back
+  # cleanly. Here the running service is untouched until the mv, and the
+  # import smoke runs against the NEW venv before anything is switched.
+  gcloud compute ssh "$VM" --zone="$ZONE" --project="$PROJECT" --command="
+    set -e
+    cd $REMOTE
+    df -h /opt | tail -1
+    sudo cp /tmp/requirements.txt $REMOTE/requirements.txt
+    # The modules have to be in place before the smoke, or it imports the
+    # code that is being replaced — and a brand new module like graph.py is
+    # not there at all, so the smoke would fail for the wrong reason.
+    for f in ${FILES[*]}; do sudo cp /tmp/\$f $REMOTE/\$f; done
+    sudo rm -rf .venv-new
+    sudo python3 -m venv .venv-new
+    sudo .venv-new/bin/pip install -q --upgrade pip
+    sudo .venv-new/bin/pip install -q -r requirements.txt
+    sudo .venv-new/bin/python -c 'import query_rag, graph, session_memory; print(\"import smoke OK\")'
+    sudo rm -rf .venv-old
+    sudo mv .venv .venv-old && sudo mv .venv-new .venv
+    echo 'venv swapped; previous one kept at .venv-old'
+  "
+fi
 
 echo "==> installing and restarting"
 # /opt/bcit-rag is root-owned, hence the staged copy through /tmp.

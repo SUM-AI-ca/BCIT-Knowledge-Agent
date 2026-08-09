@@ -4,8 +4,8 @@ Question on the table: replace the deterministic route/gate prototype with an
 LLM controller that makes every control decision — whether the corpus is
 needed, whether what was retrieved is enough, and what to fetch next.
 
-Status: **measurement in progress.** Sections 1-4 record findings that are
-settled and reproduced; section 5 onward is filled from the gate runs.
+Status: **complete. Adopted and deployed 2026-08** on
+`gemini-3.5-flash-lite`, with two gates failed and accepted (§6, §7).
 
 ## 0. Why this round exists
 
@@ -134,7 +134,7 @@ fact 0.733 -> 0.833.
 | case | base | flash | lite | note |
 |---|---|---|---|---|
 | `mh3-01` | 0.33/0.50 | 0.67/1.00 (2 hops) | **1.00/1.00** (2 hops) | fixed |
-| `mh3-04` | 0.00/0.50 | 1.00/0.50 (2 hops) | **1.00**/0.50 (2 hops) | URLs fixed, credits still missing |
+| `mh3-04` | 0.00/0.50 | 1.00/0.50 (2 hops) | 1.00 or 0.50 / 0.50 | hop-count dependent; see below |
 | `mh3-02` | 0.67/0.67 | 0.67/0.67 (0 hops) | 0.67/0.67 (0 hops) | untouched |
 | `pl3-01` | 1.00/0.80 | 1.00/0.80 (0 hops) | 1.00/0.80 (0 hops) | untouched |
 
@@ -142,9 +142,13 @@ The two untouched cases take **no hop** — the controller judges one pass
 sufficient, and it is right that nothing is *missing by name*: `mh3-02`'s
 COMP 2501 and `pl3-01`'s ELEX 2610 lose on rank within a single pass. Those
 are ranking problems, one layer below anything a controller can reach.
-`mh3-04` is now a generation miss, not a retrieval one: the digest shows
-`Course Credits | 4` and the context carries both outlines, and the answer
-still does not state the two credit values.
+`mh3-04` splits into two problems. Its **URL** score depends on whether the
+controller takes one hop or two — measured six times across the adopted
+configuration: 1.00 four times, 0.50 twice, and the 0.50 runs are exactly the
+one-hop ones. Its **fact** score is 0.50 in all six: the digest shows
+`Course Credits | 4`, the context carries both prerequisite outlines, and the
+answer still does not state the two credit values. That half is a generation
+miss and no retrieval change reaches it.
 
 ## 6. Gates
 

@@ -34,6 +34,16 @@ that architecture pushed back. See
 
 ## How a query flows
 
+0. **Route** (`USE_GRAPH`) — one schema-constrained JSON call
+   (`GRAPH_MODEL=gemini-3.5-flash-lite`) decides whether this turn needs the
+   BCIT corpus at all. `direct` answers greetings and capability questions,
+   `refuse` declines anything outside BCIT, and both skip steps 1–6 entirely —
+   no rewrite, no retrieval, no rerank, no billed Ranking API call. Measured on
+   v3, 6 of 24 turns route away from retrieval. The same LLM node runs again
+   after each retrieval as the **coverage gate** (step 5), so one prompt and
+   one contract cover routing, gating and orchestration; iteration 0 has no
+   evidence and the decision is the route, later iterations see the evidence
+   digest and the decision is the gate.
 1. **Rewrite + decompose** — one schema-constrained JSON call per turn
    (`REWRITER_MODEL=gemini-3.6-flash`, temperature 0, thinking 0, ~430
    tokens) returns a standalone question (pronouns resolved from history)
@@ -79,7 +89,22 @@ that architecture pushed back. See
    identity-blind text and prefers a sibling page's identical section. It
    ships as a pair with the entity-scoped arm — neither fixes on its own what
    the two fix together.
-5. **Assemble context from chunks** — the selected chunks themselves go into
+5. **Coverage gate and hop** (`USE_GRAPH`) — the controller is called again,
+   reading a compact **evidence digest** rather than the assembled context:
+   page identity plus the structured `Label | value` lines BCIT outlines carry
+   (`Prerequisite(s) | COMP 1537 and COMP 3522`, `Course Credits | 4`), which
+   is where the answers to hop-shaped questions actually live. Showing it the
+   real context would cost more per gate call than the whole query does. If
+   something concrete is still missing it names the follow-up queries and
+   retrieval runs again, **merging** into what earlier passes found rather than
+   replacing it. Hops are capped at `GRAPH_MAX_HOPS=3` on the graph edge, and a
+   `retrieve` whose `missing` names nothing concrete is downgraded to `answer` —
+   both guards live in code, not in the prompt, because they are what stops a
+   question the corpus cannot answer from looping. Measured hop rate: 8% on v3,
+   18–28% on v1/v2. Hop turns get a wider context budget
+   (`GRAPH_HOP_TOP_K=20`, `GRAPH_HOP_CONTEXT_MAX_CHARS=48000`); turns that
+   route straight through pay nothing extra.
+6. **Assemble context from chunks** — the selected chunks themselves go into
    the prompt (not their whole source files, which is what the pre-June-2026
    pipeline did at ~44k input tokens/query). Each chunk pulls in ±2
    neighbors from an in-process ordinal index built off the BM25 pickle at
@@ -88,7 +113,7 @@ that architecture pushed back. See
    lowest-ranked sources first). Citation headers
    (`Document N: [URL: …]`) are identical to the legacy format — the
    Sources-section prompt instructions depend on them.
-6. **Generate** — `GEMINI_MODEL=gemini-3.5-flash-lite`, static instructions
+7. **Generate** — `GEMINI_MODEL=gemini-3.5-flash-lite`, static instructions
    first / variable inputs last (cache-friendly ordering, though Gemini's
    implicit cache is not a lever you can plan around here — see
    [Implicit prompt caching](#implicit-prompt-caching-what-was-actually-observed);
@@ -114,8 +139,14 @@ are cached (follow-ups depend on session state); the cache clears on restart,
 so it never serves an answer from a retired corpus. Exact-match only — no
 semantic similarity, so a near-miss can never return the wrong answer.
 
+The whole controller loop runs **before** generation, inside `_prepare_turn`.
+By the time a token is streamed the routing and hops have settled, so
+`query_stream`, `_finalize_turn` and `server.py` never learn the graph exists —
+which is why a retrieval loop is compatible with streaming here when the
+August analysis rejected Self-RAG for not being.
+
 Conversation state: each browser session holds a 5-turn
-`ConversationBufferWindowMemory`; sessions expire after 30 minutes. Saved
+`session_memory.SessionMemory`; sessions expire after 30 minutes. Saved
 answers are stripped of their Sources section and capped at 1,500 chars —
 history is re-sent every turn, so it pays to keep it lean. Chat requests run
 in a thread pool so the FastAPI event loop never blocks.
@@ -232,7 +263,8 @@ rows are archived eval runs on the same 40-case clean set
 | 2. Model mix | generation → `3.1-flash-lite`, rewriter kept on `3.5-flash` | 0.963 | 0.890 | 6,274 | $0.0039 (−69%) | 3.6 / 4.8 s |
 | 3. Round 2 | BM25 title-aware index + consensus rerank-skip @0.6 | 0.975 | 0.931 | 5,877 | $0.00315 | 3.4 / 6.4 s |
 | 4. Round 2 end | identity-prefixed embeddings; rerank-skip retired (quality over the $0.0007) | 0.975 | 0.925 | 6,259 | $0.00385 | 3.6 / 6.7 s |
-| 5. **Current** (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,893 | $0.00405 | see note² |
+| 5. Entity + person scoping (2026-08) | entity-scoped retrieval + reranker identity, on the 3.5-flash-lite / 3.6-flash pair | **0.991** | **0.991** | 5,893 | $0.00405 | see note² |
+| 6. **Current** (2026-08) | dependency stack to latest (langchain 1.x, numpy 2.x) + LLM controller graph on `3.5-flash-lite` | 0.975 | **1.000** | 6,487 | $0.00583 | see note⁴ |
 
 ¹ The baseline predates any cost work. It ran `gemini-3.1-pro` because the
 goal at that stage was to get the pipeline correct, not cheap — there was no
@@ -257,7 +289,18 @@ quality numbers (`eval/benchmarks/202608_adaptive_rag_prep/`).
 the rewriter call — so the column stays comparable down its whole length. The
 before/after table above it counts generation input only, which is why the same
 two runs read 44,322 → 5,884 there and 44,410 → 6,263 here. Row 5's
-generation-only figure is 5,526.
+generation-only figure is 5,526; row 6's is 6,118.
+
+⁴ Row 6 is the full 40-case v1 set (`eval/results/v1_lite2.json`) against the
+same set on the same dependency stack with the controller off
+(`deps_v1.json`: 0.9667 / 0.9917 / 5,882 tok / $0.00404), so the delta is the
+graph and nothing else — the dependency upgrade was measured separately and
+found behaviour-neutral first. Rows 0–5 quote v1 with `fu-04` excluded; row 6
+includes it, which is why `hit` reads lower than row 5 despite `recall`
+reaching 1.000. The cost rise is the controller plus the hops it buys (17.5% of
+v1 turns); the +10% gate failed and was accepted. Latency is still not quoted
+for the same reason as row 5, compounded here by embedding-quota backoff (see
+gotchas).
 
 > **The `recall` column above is under-reported by ≈0.036.** The key-fact
 > matcher had three systematic bugs (2026-08): a fact ending in a digit never
@@ -322,12 +365,15 @@ by identity embeddings) — and two of the steps deliberately spent money to buy
 quality back (+$0.0007/query retiring the rerank-skip, and the August pair,
 which turned out to be cheaper anyway).
 
-### Current production configuration (August 2026, after entity-scoped retrieval + reranker identity)
+### Current production configuration (August 2026, after the controller graph)
 
 The complete live setup, with every value env-overridable for rollback:
 
 | Stage | Setting | Value |
 |---|---|---|
+| Controller graph | `USE_GRAPH=true`, `GRAPH_MODEL=gemini-3.5-flash-lite`, `GRAPH_MAX_HOPS=3`, `GRAPH_ROUTER_MODE=node` | one LangGraph node, one JSON contract, serving route + coverage gate + orchestration. Fires ~1.9 times per turn (2,552 in / 134 out tokens mean on v3). The lite tier is not a cost compromise: 3.6-flash bought v1 url 0.9917 vs 0.9750 for +133% cost and **lost** on rough phrasings (0.633 vs 0.733). Two guards live in code rather than the prompt — a hop needs a concretely-named `missing`, and the cap is enforced on the graph edge — because a prompt states a preference and only code states a requirement |
+| Evidence digest | `GRAPH_DIGEST_CHARS=400` | what the gate reads instead of the context: page identity plus the outline `Label \| value` fields (`Prerequisite(s)` on 3,258 of 3,262 outlines, `Course Credits` on 3,171). Without those lines the controller re-requested prerequisites it had already retrieved and hit the hop cap — the digest's head-of-chunk excerpt did not happen to contain the answering line |
+| Hop context budget | `GRAPH_HOP_TOP_K=20`, `GRAPH_HOP_CONTEXT_MAX_CHARS=48000` | applied only on turns that took a hop. The chunk count alone would be a **no-op**: measured `context_chars` is p50 22,276 / max 23,900 against the 24,000 cap, so the assembler is already dropping neighbor expansion to fit. The char cap is what binds |
 | Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.6-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
 | Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
@@ -343,43 +389,73 @@ The complete live setup, with every value env-overridable for rollback:
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
 | Response cache | `RESPONSE_CACHE_ENABLED=true` | first-turn (no-history) questions key an in-process TTL/LRU on the normalized text (`RESPONSE_CACHE_MAX=1000`, `RESPONSE_CACHE_TTL_S=86400`); an exact repeat returns in <100 ms at $0. Exact-match only (no semantic similarity → never a wrong answer); follow-ups never cached; cleared on restart so it never outlives a corpus rebuild |
 
-Measured quality of exactly this configuration, on all three sets
-(`eval/benchmarks/202608_adaptive_rag_prep/v{1,2,3}_l1id.json`, current model
-pair, scored with the corrected matcher; v1 reproduced in two runs that matched
-on all 39 stable cases):
+Measured quality of exactly this configuration, on all four sets
+(`eval/results/{v1,v2,v3}_lite2.json`, `gr_lite2.json`), against the identical
+dependency stack with `USE_GRAPH=false`
+(`deps_v{1,2,3}.json`, `gr_base.json`):
 
-| Metric | v1 (40 clean, `fu-04` excluded → n=39) | v2 (25 incl. messy) | v3 (24 targeted) |
-|---|---|---|---|
-| URL hit rate | **0.991** | 0.987 (band 0.960–1.000) | **0.867** |
-| Key-fact recall | **0.991** | 0.987 (band 0.960–1.000) | **0.911** |
-| Citation precision | 1.000 | 1.000 | 1.000 |
-| Avoidance (refusal cases) | – | – | 1.000 |
-| Cost / query | $0.00405 | $0.00413 | $0.00403 |
+| Metric | v1 (40) | v2 (25 incl. messy) | v3 (24 targeted) | rough (16 untidy) |
+|---|---|---|---|---|
+| URL hit rate | 0.9667 → **0.9750** | 1.0000 → **1.0000** | 0.8667 → **0.9778** | 0.3333 → **0.8333** |
+| Key-fact recall | 0.9917 → **1.0000** | 1.0000 → 0.9800 | 0.9148 → **0.9426** | 0.6944 → **0.9444** |
+| Citation precision | 1.000 → 1.000 | 1.000 → 1.000 | 0.975 → **1.000** | 1.000 → 0.980 |
+| Avoidance (refusal cases) | – | – | 1.000 → **1.000** | 0.750 → **1.000** |
+| Mis-routes | – → **0** | 0 → **0** | – → **0** | 0 → **0** |
+| Cost / query | $0.0040 → $0.0058 | $0.0041 → $0.0062 | $0.0040 → $0.0045 | $0.0039 → $0.0047 |
 
-v3 grew to 24 cases in August when the `person_lookup` class was promoted into
-it. On those three cases the pre-person configuration scores **0.00 / 0.00 /
-0.14** and the shipping one **0.80 / 1.00 / 1.00**; the 21 older cases score
-0.8333 / 0.9111 in *all four* runs of both configurations, so the set-level
-delta (url 0.676 → 0.867) is entirely the new class and nothing regressed to pay
-for it. v2's figures are means over three runs — see the stability note above,
-it is not a 1.000 set.
+`multi_hop`, the class the controller was built for, went url **0.600 →
+0.933** and fact 0.733 → 0.833. `mh3-01` ("prerequisites of COMP 4537's own
+prerequisites") goes 0.33/0.50 → **1.00/1.00** in two hops. `mh3-04` is the
+unstable one: its URL score tracks whether the controller takes one hop or two
+(measured six times — 1.00 four times, 0.50 twice), and its fact recall is 0.50
+in all six because the answer never states the two credit values even when both
+outlines are in context. The person guard set is untouched (F1 0.9861,
+`name_hit` 1.000, 0 inventions), as is `unanswerable` recall at 1.000.
 
-Every remaining miss is accounted for: v1 has exactly one (`mp-05`, the Tall
-Timber corpus gap it shares with `fu-04`), and v3's three are precisely the
-`multi_hop` cases — `mh3-01`, `mh3-02`, `mh3-04` — which are the open roadmap
-items, not regressions. Latency is not quoted: these runs were measured from
-WSL through a cold Cloud SQL proxy, so their p50/p95 describe the network path,
-not the pipeline. The June figures for the *previous* configuration (v1
-0.975/0.925, v2 1.000/0.950, $0.00385) are in the metric-history table above.
+**The rough set is the one to read.** Its 16 cases are the same question
+classes written the way people actually type — `"comp 4537 prereqs of
+prereqs?"`, `"thx!!"`, `"how do i center a div in css"` — and on the shipped
+pre-graph configuration it scored url 0.333 and **avoidance 0.750**: production
+was answering a CSS question with flexbox instructions. The tidy v3
+out_of_scope cases score 1.000 on that same configuration, so the leak was
+invisible until the phrasing changed. This is the second round in a row where a
+guard set built from tidy phrasings of the right class turned out to be an
+overfitting instrument.
 
-Cost anatomy at these settings, from the adopted v1 run: generation input
-$0.00166 (5,526 tok), generation output $0.00038 (154 tok), rewriter input
-$0.00055 (367 tok) + output $0.00044 (59 tok), reranker $0.001 (every turn),
-embedding $0.00001 — **$0.00405** total, still −68% vs the pre-optimization
-$0.0126. It is also cheaper than the identical run with both flags off
-($0.00415), despite adding a retrieval arm: identity concentrates the context
-instead of spending the budget on lookalike chunks, so generation input falls
-6.4% (5,902 → 5,526 tokens) while quality rises.
+Two remaining v3 misses, both outside what a controller can reach: `mh3-02`
+and `pl3-01` take **no hop** — nothing is missing *by name*, and COMP 2501 /
+ELEX 2610 lose on rank inside a single pass. `mh3-04` is now a **generation**
+miss rather than a retrieval one: the digest shows `Course Credits | 4`, the
+context carries both outlines, and the answer still omits the two values. v1's
+`fu-04` remains a ~1-in-5 rewriter coin flip (measured 5 times this round),
+unrelated to the graph.
+
+Latency, with quota-backoff cases excluded (see gotchas — the raw figures are
+meaningless): p50 4.90 → 6.29 s (v1), 4.87 → 6.69 (v2), 4.19 → 6.39 (v3),
+5.08 → 5.85 (rough). The controller costs ~0.9 s per call and fires twice on a
+retrieve turn; `direct`/`refuse` turns are **faster** than baseline because
+they skip retrieval and rerank entirely.
+
+Cost anatomy: the controller is a **third priced model**, alongside generation
+and the rewriter, which is why `PRICE_GRAPH_INPUT_PER_M` / `_OUTPUT_PER_M`
+exist and must move whenever `GRAPH_MODEL` does — the figure they produce is
+rendered under every answer, so a model swap without a price swap quotes the
+user a number for a model that did not run.
+
+Per-query mean across the four sets is **$0.0040 → ~$0.0053**, i.e. **+$1.30
+per 1,000 queries**. The spread is wide and tracks hop rate, not set size: v3
++13% (8% of turns hop) against v2 +51% (28% hop). On v3 the controller's own
+tokens (2,552 in / 134 out at lite prices) are partly paid for by routing 6 of
+24 turns away from retrieval, which drops generation input from 5,692 to 4,829
+tokens and skips their $0.001 Ranking API call. On v1 and v2 the hops push
+input the other way (5,507 → 6,118 and 5,385 → 6,014).
+
+**The +10% cost gate failed and was accepted, not met.** It was written before
+the size of the quality delta was known; the trade being bought is url +0.11 on
+v3, +0.50 on the rough set, and an out-of-scope leak closed, for $1.30 per
+thousand queries. The unbuilt lever if that needs to come down is
+`GRAPH_ROUTER_MODE=inline` (below). Against the pre-optimization baseline the
+per-query cost is still −58% ($0.0126 → $0.0053).
 
 #### Implicit prompt caching: what was actually observed
 
@@ -406,6 +482,24 @@ follow-up pairs (scored on the second turn, exercising the rewrite).
 counts when ANY alternative matches, so "$500 to $800" / "$500–$800" phrasing
 differences don't punish correct answers. Facts match with word-boundary
 normalization ("75" ≠ "175", "$6,000" = "$6000").
+
+`backend/eval/golden_set_graph.jsonl` — 16 cases in deliberately **untidy**
+phrasing (`"comp 4537 prereqs of prereqs?"`, `"finished acit 1515 already,
+which courses want it"`, `"thx!!"`, `"밴쿠버 날씨"`), covering the same classes
+the tidy sets cover. It exists because the previous round shipped a bug that a
+passing guard set had missed: every case there asked `What courses does <Full
+Name> teach at BCIT?` while the user had typed `what courses chi en teach?`.
+The rough set immediately earned its place by catching an out-of-scope leak
+(avoidance 0.750) that the tidy v3 cases score 1.000 on.
+
+Routing is scored, not inferred. Any case may declare `expected_route`
+(`retrieve` / `direct` / `refuse`); `run_eval.py` records `route_ok` per case
+and `route_mismatches`, `route_counts` and `hop_rate` in the aggregate.
+**All 65 v1 and v2 cases carry `expected_route: retrieve`** — they are all
+BCIT-fact questions. Their earlier absence is exactly how a four-case citation
+loss reported as `route_mismatches: 0`: the metric was averaging over zero
+eligible cases. `route_ok` is only computed when a route was produced, so a
+`USE_GRAPH=false` baseline reads N/A rather than all-mismatched.
 
 ```bash
 cd backend
@@ -700,7 +794,29 @@ Environment quirks that cost time once — don't rediscover them:
   `drop_old_collection.sh` for the pattern).
 - **ADC reauth is separate from gcloud reauth.** `gcloud compute ssh` working
   does not mean ADC works — `invalid_rapt` errors need
-  `gcloud auth application-default login` (interactive, user-run).
+  `gcloud auth application-default login` (interactive, user-run). ADC can also
+  expire *mid-run*: an August 2026 eval died at case 13 of 40 with
+  `RefreshError`, and a partial run cannot be compared against a full baseline,
+  so the whole set has to be re-run.
+- **`gcloud auth application-default login` attaches the wrong quota project.**
+  It sets `quota_project_id` to whatever the account defaults to
+  (`sumai-web-2026`), not `wine-agent-jh-2026` where the resources and their
+  quota live. Fix immediately after every re-login:
+  `gcloud auth application-default set-quota-project wine-agent-jh-2026`.
+- **A running Cloud SQL proxy holds the OLD credentials.** After re-login the
+  proxy keeps its stale token: the port stays open, `ss -ltn` looks healthy,
+  and every single connection is closed by the server. It cost a v2 run and
+  eight repeat runs before it was diagnosed. Restart the proxy after any ADC
+  re-login. It also needs to outlive the shell that starts it.
+- **Embedding quota is the ceiling this project actually hits.**
+  `online_prediction_requests_per_base_model` for `gemini-embedding` 429s under
+  eval load, and the controller graph makes it worse — every hop adds a
+  retrieval pass and so a query embedding. `embeddings.py` waits it out with
+  jittered backoff (only 429; a 400 or 403 still fails fast), which keeps
+  production serving but **destroys latency measurements**: observed
+  `retrieve_s` of 80.7 s and 84.0 s is the retry sleeping, not the pipeline
+  working. **On this project a latency or error-rate number means nothing until
+  you have looked at the `retrieve_s` distribution and `n_errors` first.**
 - **Terminal paste mangles long commands**: one-liners lose spaces at wrap
   points and heredocs gain indentation (breaking the `EOF` terminator and
   Python). For anything non-trivial, write a script file and hand over a
@@ -825,19 +941,45 @@ Ideas that fit the current architecture, with their natural hook points:
   **relation-aware**; the working example is `PERSON_SCOPED_RETRIEVAL`, which
   indexes one relation and ignores the others. `BM25_STOPWORD_DF` is
   implemented and rejected for the candidate-set half of it.
-- **Second-hop retrieval** — "what are the prerequisites of COMP 4537's
-  prerequisites?" The model reads hop 1, names COMP 1537 and COMP 3522 itself,
-  then says it cannot reach their details: the decomposer emits sub-queries in
-  parallel, so it cannot name a target that is only knowable after the first
-  result. This is the one place a cycle is warranted (`eval/benchmarks/
-  202608_adaptive_rag_prep/REPORT.md` §6). Guard: the loop must never fire on a
-  question the corpus genuinely cannot answer — the in-process entity index
-  answers "does this entity exist at all" for free.
+- ~~**Second-hop retrieval**~~ — **DONE, adopted 2026-08** as the controller
+  graph (`eval/benchmarks/202608_graph_controller/REPORT.md`). `mh3-01` goes
+  0.33/0.50 → **1.00/1.00** in two hops and `mh3-04` recovers both prerequisite
+  URLs; v3 `multi_hop` url 0.600 → 0.933. The guard the item asked for is
+  there but is **not** the entity index: an LLM gate has no structural
+  guarantee, so `graph.is_concrete()` rejects a hop whose `missing` names
+  nothing concrete, and the cap is enforced on the graph edge. What that item
+  did not anticipate is that most of the measured value came from the *route*,
+  not the hop — closing an out-of-scope leak and cutting retrieval on 25% of
+  turns — and that two guards would have to be deterministic backstops rather
+  than prompt rules.
+- **`GRAPH_ROUTER_MODE=inline`** — the config knob exists and the code does
+  not. Folding the route decision into the rewriter's existing JSON call
+  removes one controller round trip from every turn: ~0.9 s and ~$0.0002. It
+  is the obvious lever if the accepted cost overrun (+13–51%) or the added
+  latency (+0.8–2.2 s p50) needs to come down. Measure it against
+  `node` mode on all four sets — the decisions must not change, only their
+  price.
+- **`mh3-02` and `pl3-01` are ranking, not control flow** — both take **zero**
+  hops under the controller, and it is right: nothing is missing *by name*.
+  COMP 2501 (of three courses listing ACIT 1515 as a prerequisite) and ELEX
+  2610 (of five courses Victor Mendez teaches) lose on rank inside a single
+  pass, one layer below anything a controller can reach. A reverse grep of
+  `Prerequisite(s) | …ACIT 1515` returns all three courses, so a
+  **prerequisite-relation index** built like the instructor index would close
+  `mh3-02` deterministically; `pl3-01` looks like a per-source quota problem
+  (5 owning courses × `PERSON_SCOPED_K=2` = exactly the 10-doc budget, before
+  the hybrid arm competes).
+- **`mh3-04` is now a generation miss** — the digest shows
+  `Course Credits | 4`, the context carries both prerequisite outlines, url is
+  1.000, and the answer still does not state the two credit values. Nothing in
+  retrieval will fix this one.
 - **Follow-up referent resolution** — `fu-04` scores 1.000 or 0.000 depending
   on whether the rewriter turns "the newest residence" into "Tall Timber
   Student Housing" or leaves it generic (then it retrieves the 1978 Maquinna
-  residence). Roughly 50/50 across four runs, independent of retrieval config;
-  `mp-05` misses the same Tall Timber content in every configuration.
+  residence). Measured 5 times in August 2026 on the current stack: **1 of 5**
+  resolved it, so the older "roughly 50/50" reading was optimistic. Independent
+  of retrieval config and of the controller graph; `mp-05` misses the same Tall
+  Timber content in every configuration.
 - **The 200-char dedup key collides** — pool dedup and RRF fusion key a chunk on
   `source + page_content[:200]`, which on this corpus collides on 418 keys
   covering 715 chunks (0.71%): two *different* chunks of the same page that open
@@ -908,6 +1050,9 @@ first-turn response cache, route-split frontend bundle, VM right-sized to
 backend/
   server.py                FastAPI app: /chat API + serves the built frontend
   query_rag.py             BCITChatbot — retrieval pipeline + LLM chain
+  graph.py                 LangGraph controller: route, coverage gate, hops
+  session_memory.py        Windowed conversation memory (replaces the class
+                           langchain 1.x removed)
   hybrid_retriever.py      BM25 + pgvector with RRF fusion
   reranker.py              Vertex AI Ranking API client
   embeddings.py            Vertex AI embedding wrapper
@@ -923,6 +1068,8 @@ backend/
                            out-of-scope, chitchat, exploratory, person lookup
   eval/golden_set_people*.jsonl  15-case person-lookup set (+ held-out and
                            adversarial guard cases) for eval/person_lookup.py
+  eval/golden_set_graph.jsonl    16-case set in untidy phrasing, with
+                           expected_route per case (routing is scored)
   eval/run_eval.py         Offline eval harness (--label, --compare, --judge)
   eval/rescore.py          Re-score archived runs offline after a scorer change
   eval/test_matcher.py     Key-fact matcher regression tests
@@ -968,6 +1115,30 @@ No authentication — the chatbot is public. Input is capped at
 - Node.js 20+
 - GCP project with `aiplatform`, `discoveryengine`, `sqladmin` APIs enabled
 - Cloud SQL Auth Proxy v2
+
+The August 2026 dependency pass moved the whole stack to latest — langchain
+0.3.27 → **1.3.14**, langchain-core → 1.5.3, langchain-google-vertexai 2.1.2 →
+**3.2.4**, numpy 1.26.4 → **2.2.6**, protobuf → 6.33.6, fastapi/starlette/
+uvicorn, plus **langgraph 1.2.10** for the controller graph. Two things broke,
+both silently rather than loudly, and both are worth knowing about:
+
+- `langchain.memory` does not exist in 1.x. Only three of its API points were
+  ever used, so `session_memory.SessionMemory` carries them locally. Its window
+  is in **turns**, not messages (`chat_memory.messages[-k*2:]`), reproduced
+  deliberately — drift there changes what every follow-up sees and moves
+  v1/v2/v3 without retrieval changing. `_tmp_memory_parity.py` pins it.
+- `VertexAIEmbeddings.embed()` dropped `batch_size`, and 3.x sends the whole
+  list in one request. `gemini-embedding-001` accepts one instance per request,
+  so `embed_documents` would have started failing at *index* time while
+  query-time embedding kept working. The one-per-request contract now lives in
+  `embeddings.py`, where it is version-independent.
+
+**Python stays at 3.10 for now**, deliberately. Nothing here needs 3.11+ — p50
+is almost entirely network wait, so interpreter speed is irrelevant — and
+`deploy.sh` ships modules into an existing venv, so a Python bump is a VM venv
+rebuild rather than a code change. It is not indefinite: `google.api_core` now
+warns that 3.10 support ends **2026-10-04**, so the upgrade wants its own round
+with its own smoke test before then.
 
 ### Setup
 
@@ -1019,13 +1190,39 @@ Browser ──HTTPS──▶ Cloudflare (proxied DNS, TLS termination, edge cach
               Cloud SQL PostgreSQL + pgvector  ·  Vertex AI APIs
 ```
 
+Two rollback surfaces, in increasing order of effort. `USE_GRAPH=false` in the
+VM `.env` plus a restart turns the controller graph off with **no redeploy** —
+the flag is the enable surface in `config.py` and the disable surface in
+`.env`. One level below that, `/opt/bcit-rag/backend/.venv-old` is the previous
+dependency set, left in place by the last `--deps` deploy.
+
 ### Deploying a code update
 
 ```bash
 gcloud auth login                        # separate from ADC — see gotchas
 bash backend/deploy.sh                   # deploys what the last commit changed
 bash backend/deploy.sh query_rag.py ...  # or name the modules explicitly
+bash backend/deploy.sh --deps ...        # ALSO rebuild the venv (see below)
 ```
+
+**`--deps` is mandatory whenever `requirements.txt` changed.** Without it the
+script copies `.py` files into the venv that is already on the VM and restarts,
+so new code runs against libraries it was never tested with. In the August 2026
+round that would have been langchain 1.x code on 0.3.x plus an `ImportError` on
+langgraph, which was not installed — and the failure would have arrived at
+restart, in production, not during the deploy.
+
+`--deps` builds `.venv-new` alongside the live one, import-smokes it
+(`import query_rag, graph, session_memory`) **after** staging the new modules
+so the smoke tests what will actually run, and only then swaps. The service
+serves from the old venv the whole time. Rollback:
+
+```bash
+sudo mv .venv .venv-bad && sudo mv .venv-old .venv && sudo systemctl restart bcit-chatbot
+```
+
+`.venv-old` is kept until the next `--deps` deploy, so it is available for as
+long as it is useful.
 
 `backend/deploy.sh` exists because every way this deploy goes wrong is a
 documented gotcha that a pasted one-liner walks straight into: long commands
