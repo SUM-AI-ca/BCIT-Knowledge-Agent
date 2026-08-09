@@ -825,6 +825,16 @@ Environment quirks that cost time once — don't rediscover them:
   `sudo cp/mv`. Upload and install in quick succession (a staged file in `/tmp`
   vanished once between commands). After unit-file edits systemd warns until
   `daemon-reload`.
+- **A renamed venv breaks every console script.** Python entry points hard-code
+  the interpreter path in their shebang, so `mv .venv-new .venv` silently
+  invalidates all of them; systemd then reports the *script* as missing when it
+  is the interpreter that moved. Build with `uv venv --relocatable`, which
+  emits a `/bin/sh` wrapper resolving the interpreter relative to the script.
+- **A code deploy can leave production degraded without failing.** The `--deps`
+  block stages the new modules *before* building the venv, so if the venv step
+  aborts, the VM is left with new code on old libraries. It stays up on the
+  running process and dies at the next restart — `chatbot_loaded:false` with
+  `/health` still returning 200. Check `chatbot_loaded`, not liveness.
 - **VM facts**: SSH user `park`, app at `/opt/bcit-rag/`, services
   `bcit-chatbot.service` (uvicorn :8000, `User=park`,
   `ExecStart=/opt/bcit-rag/backend/.venv/bin/uvicorn server:app`) and
@@ -1212,9 +1222,20 @@ round that would have been langchain 1.x code on 0.3.x plus an `ImportError` on
 langgraph, which was not installed — and the failure would have arrived at
 restart, in production, not during the deploy.
 
-`--deps` builds `.venv-new` alongside the live one, import-smokes it
-(`import query_rag, graph, session_memory`) **after** staging the new modules
-so the smoke tests what will actually run, and only then swaps. The service
+`--deps` builds `.venv-new` alongside the live one **with `uv venv
+--relocatable`**, import-smokes it (`import query_rag, graph,
+session_memory`) after staging the new modules so the smoke tests what will
+actually run, and only then swaps.
+
+`--relocatable` is not optional, and getting it wrong took production down for
+six minutes on 2026-08-09. Without it uv writes every console script with a
+shebang naming its build path — `#!/opt/bcit-rag/backend/.venv-new/bin/python`
+— so renaming `.venv-new` to `.venv` leaves every entry point pointing at a
+directory that no longer exists. systemd reports it as `Failed to execute
+.../uvicorn: No such file or directory` **even though uvicorn is installed**,
+and the unit crash-loops on `status=203/EXEC`. The venv is also built with
+**uv on Python 3.10**, not `python3 -m venv`: the VM's system python3 is 3.12
+with no `ensurepip`, and the pin is 3.10 regardless. The service
 serves from the old venv the whole time. Rollback:
 
 ```bash

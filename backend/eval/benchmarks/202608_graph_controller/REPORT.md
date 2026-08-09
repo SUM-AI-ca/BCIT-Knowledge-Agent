@@ -196,3 +196,48 @@ Recommendation: **adopt on the lite tier**, accepting the cost gate as
 overtaken by evidence, and treat the `multi_hop` fact gate as satisfied in
 substance — its two residual cases were never in the controller's reach and
 are recorded as ranking/generation work. `USE_GRAPH` stays the rollback.
+
+## 8. Production
+
+Deployed 2026-08-09. Startup log:
+
+```
+Loaded 100,515 documents
+Entity index: 7,623 course codes, 498 programs, 1,291 instructors (76 aliases)
+Reranker loaded: semantic-ranker-default-004 (identity titles)
+Controller graph: on (gemini-3.5-flash-lite, <=3 hops)
+```
+
+Five live checks, one per behaviour this round changed — all pass:
+
+| question | result |
+|---|---|
+| `What are the prerequisites of COMP 4537's own prerequisites?` | names **COMP 2510** and **COMP 2526 or COMP 2522**, with COMP 1537 correctly reported as having none — the 2-hop case, live |
+| `how do i center a div in css` | *"I can only help with BCIT topics… I cannot assist with general programming or homework help"* — no flexbox instructions. The leak the rough set found is closed |
+| CST diploma → `What are its entrance requirements?` | answers with English Studies 12 / Pre-Calculus 12 **and a Sources section** — the citation loss the follow-up guard fixed |
+| `what courses chi en teach?` | COMP 4983, COMP 3981, … — unchanged from the person round |
+| `What is the graduation rate of the CST diploma?` | retrieves, then *"The available documents do not contain the specific graduation rate"* — the loop guard holds in production |
+
+### The deploy itself failed twice first
+
+Both failures were in `deploy.sh --deps`, which this round introduced, and
+both are now fixed in it. Worth recording because neither is specific to this
+project:
+
+1. **`python3 -m venv` on the VM builds the wrong Python.** The system
+   interpreter is 3.12 without `ensurepip`; the live venv is a uv-managed
+   3.10.20. Building with the system python would have been an unmeasured
+   runtime change even if it had succeeded.
+2. **A renamed venv breaks every console script.** uv writes shebangs naming
+   the build path, so `mv .venv-new .venv` left
+   `#!/opt/bcit-rag/backend/.venv-new/bin/python` on every entry point.
+   systemd reported `Failed to execute .../uvicorn: No such file or directory`
+   — with uvicorn present and installed — and crash-looped on 203/EXEC.
+   `uv venv --relocatable` writes a `/bin/sh` wrapper instead.
+
+Between them production was down or degraded for about six minutes. The
+rollback path worked as designed (`mv .venv .venv-bad && mv .venv-old .venv`),
+but it restored a venv without langgraph while `config.py` had `USE_GRAPH=true`
+— so the service came back up with `chatbot_loaded:false` and `/health` still
+returning 200. **Liveness is not readiness here**; the deploy script polls
+`chatbot_loaded`, and any manual check should too.

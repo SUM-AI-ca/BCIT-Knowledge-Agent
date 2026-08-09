@@ -103,6 +103,9 @@ if [ "$DEPS" = 1 ]; then
   # import smoke runs against the NEW venv before anything is switched.
   gcloud compute ssh "$VM" --zone="$ZONE" --project="$PROJECT" --command="
     set -e
+    UV=/home/park/.local/bin/uv
+    PY310=/home/park/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/bin/python3.10
+    test -x \$UV && test -x \$PY310
     cd $REMOTE
     df -h /opt | tail -1
     sudo cp /tmp/requirements.txt $REMOTE/requirements.txt
@@ -111,9 +114,21 @@ if [ "$DEPS" = 1 ]; then
     # not there at all, so the smoke would fail for the wrong reason.
     for f in ${FILES[*]}; do sudo cp /tmp/\$f $REMOTE/\$f; done
     sudo rm -rf .venv-new
-    sudo python3 -m venv .venv-new
-    sudo .venv-new/bin/pip install -q --upgrade pip
-    sudo .venv-new/bin/pip install -q -r requirements.txt
+    # uv, not python3 -m venv: the VM's default python3 is 3.12 with no
+    # ensurepip, and this project is pinned to 3.10 anyway — the live venv is
+    # a uv-managed 3.10.20 and the new one has to match it, not the system.
+    #
+    # --relocatable is load-bearing. Without it uv writes each console script
+    # with a shebang naming its build path (#!/opt/bcit-rag/backend/.venv-new/
+    # bin/python), so the moment .venv-new is renamed to .venv every entry
+    # point points at a directory that no longer exists. systemd reports that
+    # as 'Failed to execute .../uvicorn: No such file or directory' even
+    # though uvicorn is installed, and the service crash-loops. Learned the
+    # hard way on 2026-08-09; --relocatable emits a /bin/sh wrapper that
+    # resolves the interpreter relative to the script instead.
+    sudo \$UV venv --relocatable --python \$PY310 .venv-new
+    sudo \$UV pip install -q --python .venv-new/bin/python -r requirements.txt
+    test -x .venv-new/bin/uvicorn
     sudo .venv-new/bin/python -c 'import query_rag, graph, session_memory; print(\"import smoke OK\")'
     sudo rm -rf .venv-old
     sudo mv .venv .venv-old && sudo mv .venv-new .venv
@@ -134,7 +149,7 @@ gcloud compute ssh "$VM" --zone="$ZONE" --project="$PROJECT" --command="
   done
   curl -s localhost:8000/health; echo
   journalctl -u bcit-chatbot -n 60 --no-pager \
-    | grep -E 'Entity index|Reranker loaded|Loaded .* documents|Response cache' || true
+    | grep -E 'Controller graph|Entity index|Reranker loaded|Loaded .* documents|Response cache' || true
 "
 
 echo
