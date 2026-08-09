@@ -284,9 +284,12 @@ class BCITChatbot:
             if (self.documents and (ENTITY_SCOPED_RETRIEVAL or PERSON_SCOPED_RETRIEVAL)) else None
         )
         if self._entity_index:
+            people = self._entity_index.get("people") or {}
+            # people holds partial-name aliases too; count the canonical keys.
+            n_people = sum(1 for k, v in people.items() if k == v["name"].lower())
             print(f"Entity index: {len(self._entity_index['codes']):,} course codes, "
                   f"{len(self._entity_index['programs']):,} programs, "
-                  f"{len(self._entity_index.get('people') or {}):,} instructors\n")
+                  f"{n_people:,} instructors ({len(people) - n_people} aliases)\n")
 
     @staticmethod
     def _build_entity_index(documents) -> dict:
@@ -361,6 +364,25 @@ class BCITChatbot:
                 people.setdefault(name.lower(), {"name": name, "sources": []})
                 if source not in people[name.lower()]["sources"]:
                     people[name.lower()]["sources"].append(source)
+
+        # Partial-name aliases. Students type "chi en", not "Chi En Huang", and
+        # the rewriter completes the name only ~4 times in 5 — measured on the
+        # question that opened this round, where the one run in five that left
+        # it partial is exactly the failure that was reported. Two words
+        # minimum (a lone first name is not evidence of anything) and only when
+        # the alias resolves to ONE instructor and is not itself somebody's
+        # full name: 76 aliases over 1,291 instructors, 0 ambiguous, 0 clashes.
+        owners = {}
+        for key, entry in people.items():
+            w = entry["name"].split()
+            if len(w) < 3:
+                continue
+            for alias in {f"{w[0]} {w[-1]}".lower(), " ".join(w[:2]).lower()}:
+                if alias != key:
+                    owners.setdefault(alias, set()).add(key)
+        for alias, keys in owners.items():
+            if len(keys) == 1 and alias not in people:
+                people[alias] = people[next(iter(keys))]
         return people
 
     def _detect_entities(self, text: str) -> List[tuple]:

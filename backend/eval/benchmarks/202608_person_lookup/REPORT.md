@@ -207,7 +207,30 @@ was 0 in both configurations for both cases, and the runs differ only in the
 rewriter's sub-query. The URL mangling is a real generation defect worth its own
 issue; it is not a property of this change.
 
-## 8. Verdict
+## 8. The deploy caught what the guard set had missed
+
+Deployed, the held-out case answered perfectly — and **the question that opened
+this round still failed in production**. The reason is the wording. Every case
+in the dev and guard sets asks `What courses does <Full Name> teach at BCIT?`;
+the user typed `what courses chi en teach?` — lowercase, partial name,
+ungrammatical. The index is keyed on full names and detection needs a
+capitalised run, so it depended on the rewriter completing "chi en" to "Chi En
+Huang". Measured five times on that exact string, the rewriter completes it
+**4 times in 5**; the fifth is the reported failure.
+
+A guard set built from tidy phrasings of the right *class* is still an
+overfitting instrument. Fixed by indexing unambiguous partial-name aliases
+(first+last and first-two-words, 2 words minimum, only where the alias resolves
+to one instructor and is not itself somebody's full name — 76 aliases over
+1,291 instructors, 0 ambiguous, 0 clashes). Detection then fires **5/5** on the
+user's exact string, and `lc-01` / `lc-02` were added to the guard set so the
+phrasing itself stays measured.
+
+Re-verified with aliases on: guard F1 **0.972** (was 0.968), all three
+adversarial program-head cases still pass, no-teach still 1.000, and v3
+unchanged at url 0.8667 / recall 0.9148 with **no case worse**.
+
+## 9. Verdict
 
 **Adopt `PERSON_SCOPED_RETRIEVAL`. Do not adopt `SIGNATURE_DEMOTE` yet. Reject
 `FANIN_RETAIN`.**
