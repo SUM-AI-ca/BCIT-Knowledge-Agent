@@ -141,10 +141,13 @@ const GREETING = {
   sender: "assistant"
 };
 
+// One straightforward lookup, one multi-part question, and one that needs a
+// second retrieval pass — between them the chips exercise the three paths a
+// question can take through the pipeline.
 const STARTER_QUESTIONS = [
   "What are the entrance requirements for Computer Systems Technology?",
-  "How much is tuition for international students?",
-  "What housing options does BCIT offer on the Burnaby campus?"
+  "How much is tuition for international students, and is there on-campus housing?",
+  "What are the prerequisites of COMP 4537's own prerequisites?"
 ];
 
 // Tab-scoped restore so a refresh doesn't wipe the conversation. Server

@@ -153,6 +153,60 @@
   transform: translateY(-2px);
 }
 
+/* Benchmark table — the only tabular block on the page. Wrapped in an
+   overflow-x container so the three columns scroll rather than squeeze the
+   article out of its own width on a narrow screen. */
+.metrics-table-wrap {
+  overflow-x: auto;
+  margin: 0 0 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.metrics-table {
+  width: 100%;
+  min-width: 26rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.metrics-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text);
+  padding: 0.6rem 0.9rem 0.6rem 0;
+  border-bottom: 1px solid var(--glass-border);
+  white-space: nowrap;
+}
+
+.metrics-table td {
+  padding: 0.6rem 0.9rem 0.6rem 0;
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-dim);
+}
+
+.metrics-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* The two metric columns: right-aligned and tabular so digits line up. */
+.metrics-table th:not(:first-child),
+.metrics-table td:not(:first-child) {
+  text-align: right;
+  padding-right: 0;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.metrics-table td:first-child span {
+  color: var(--text-dim);
+  opacity: 0.7;
+}
+
+.metrics-note {
+  font-size: 0.92rem !important;
+  opacity: 0.85;
+}
+
 /* Article body */
 .blog-article {
   max-width: 720px;
@@ -319,6 +373,16 @@
 }
 
 @media (max-width: 600px) {
+  .metrics-table {
+    font-size: 0.88rem;
+    min-width: 22rem;
+  }
+
+  .metrics-table th,
+  .metrics-table td {
+    padding: 0.5rem 0.6rem 0.5rem 0;
+  }
+
   .blog-hero {
     padding: 3.5rem 1.25rem 4rem;
   }
