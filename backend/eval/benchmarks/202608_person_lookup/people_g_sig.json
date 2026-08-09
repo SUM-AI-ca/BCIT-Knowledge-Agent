@@ -1,0 +1,557 @@
+{
+  "aggregate": {
+    "label": "g_sig",
+    "flags": {
+      "SIGNATURE_DEMOTE": true,
+      "PERSON_SCOPED_RETRIEVAL": false,
+      "FANIN_RETAIN": false,
+      "RERANKER_TOP_K": 10
+    },
+    "n": 15,
+    "n_errors": 0,
+    "recall": 0.856,
+    "precision": 0.95,
+    "f1": 0.8843,
+    "name_hit": 1.0,
+    "n_name_cases": 3,
+    "named_instructor_instead": 0,
+    "invented": 3,
+    "ctx_instr": 3.8333,
+    "ctx_sig": 2.1667,
+    "ctx_sources": 8.8333,
+    "input_tokens": 7219.6667,
+    "cost_usd": 0.006,
+    "exact_sets": 7,
+    "n_teach_cases": 12
+  },
+  "cases": [
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-01",
+      "person": "Chi En Huang",
+      "question": "What courses does Chi En Huang teach at BCIT?",
+      "truth": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_taught": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 6,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6382,
+      "cost_usd": 0.004696,
+      "latency_s": 18.04,
+      "answer_excerpt": "Chi En Huang teaches several courses within the Computer Systems Technology (CST) and related computing programs at BCIT:\n\n* **COMP 4983 (Machine Learning)**: A 5-credit course covering machine learning concepts, models, and application to datasets.\n* **COMP 3981 (Introduction to Artificial Intelligence)**: A 5-credit course introducing topics such as search, games, constraint satisfaction, and learning.\n* **COMP 4989 (Selected Topics in Artificial Intelligence and Machine Learning)**: A 5-credit course focusing on advanced topics in AI and machine learning.\n* **COMP 3725 (Data Communications for CST)**: A 5-credit flexible learning course covering networking fundamentals, protocols, and the TCP/IP suite.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/outlines/20253044906/\n- https://www.bcit.ca/outlines/20261085360/\n- https://www.bcit.ca/courses/data-communications-for-cst-comp-3725/\n- https://www.bcit.ca/outlines/20253044907/\n- https://www.bcit.ca/outlines/20262064129/\n- https://www.bcit.ca/programs/applied-computing-master-of-science-full-time-m600msc/",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-02",
+      "person": "Juan Azmitia",
+      "question": "What courses does Juan Azmitia teach at BCIT?",
+      "truth": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701",
+        "GLBL 9020"
+      ],
+      "said_taught": [
+        "GLBL 9020"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "GLBL 9020"
+      ],
+      "missed": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701"
+      ],
+      "wrong": [],
+      "recall": 0.14285714285714285,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 1,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6284,
+      "cost_usd": 0.004537,
+      "latency_s": 5.18,
+      "answer_excerpt": "Based on the available documents, Juan Azmitia teaches **GLBL 9020 (Leading Global Teams)**. \n\nHere are additional details regarding his role and contact information based on the provided records:\n* **Role:** He serves as the Flexible Learning Coordinator for Operations Management.\n* **Course Details:** GLBL 9020 is a 3-credit course offered under the Graduate Certificate in Global Leadership program.\n* **Contact:** You can reach him at Juan_Azmitia@bcit.ca or by phone at 604-453-4005 for inquiries related to operations management flexible learning, course outlines, or prerequisite waivers.\n\nSources:\n- https://www.bcit.ca/outlines/20243048406/\n- https://www.bcit.ca/programs/operations-management-management-engineering-option-certificate-part-time-690bmcert/",
+      "f1": 0.25
+    },
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-03",
+      "person": "Lynn Erickson",
+      "question": "What courses does Lynn Erickson teach at BCIT?",
+      "truth": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_taught": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 4,
+      "ctx_sig": 5,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6964,
+      "cost_usd": 0.005013,
+      "latency_s": 5.7,
+      "answer_excerpt": "Lynn Erickson teaches several courses and holds the role of Program Head for Chemical and Environmental Technology at BCIT. Based on the available documents, the courses associated with her include:\n\n* **CENV 2203 (Materials Science and Technology):** A 6.5-credit full-time course introducing mechanical properties of materials, processing variables, and environmental effects.\n* **CHSC 7147 (Materials Engineering):** A 3-credit full-time course focusing on material selection, design concepts, and failure analysis.\n* **CENV 0460 (Ethics for Technologists):** A 4-hour seminar course covering the ASTTBC Code of Ethics and professional conduct, which is required for graduation.\n\nSources:\n- https://www.bcit.ca/outlines/20261078002/\n- https://www.bcit.ca/outlines/20253034941/\n- https://www.bcit.ca/outlines/20261085828/\n- https://www.bcit.ca/programs/chemical-and-environmental-technology-analytical-science-option-diploma-full-time-537adiplt/",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-04",
+      "person": "Julia Alards-Tomalin",
+      "question": "What courses does Julia Alards-Tomalin teach at BCIT?",
+      "truth": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_taught": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4231",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "missed": [],
+      "wrong": [
+        "FNAM 4231"
+      ],
+      "recall": 1.0,
+      "precision": 0.8,
+      "invented": 1,
+      "ctx_instr": 4,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 7,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7292,
+      "cost_usd": 0.005977,
+      "latency_s": 18.69,
+      "answer_excerpt": "Julia Alards-Tomalin is the Program Head for the Forest and Natural Areas Management (FNAM) program at BCIT and teaches several courses related to forestry, arboriculture, and plant identification:\n\n* **FNAM 4450 (Principles of Urban Forestry and Arboriculture):** A 3-credit full-time course covering introductory arboriculture topics such as tree biology, health, pruning, risk assessment, and sustainable management.\n* **FNAM 2800 (Land Management Principles):** A 3-credit full-time course exploring sustainable land management principles, practices, and history by integrating Indigenous knowledge and Western science.\n* **RENR 1125 (Plant Identification and Perspectives):** A 4-credit full-time course focused on developing observational plant identification skills, using identification tools, and braiding Western and Indigenous ways of knowing plants.\n* **FNAM 1125 (Plant Identification):** A 4-credit full-time course covering plant identification.\n* **FNAM 4231 (Technical Projects 2):** A course involving applied research projects in renewable resources, where she is listed as a contact alongside other faculty.\n\nSources:\n- https://www.bcit.ca/outlines/20261083889/\n- https://www.bcit",
+      "f1": 0.8889
+    },
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-05",
+      "person": "Victor Mendez",
+      "question": "What courses does Victor Mendez teach at BCIT?",
+      "truth": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_taught": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 6,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 8,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 8224,
+      "cost_usd": 0.006375,
+      "latency_s": 5.38,
+      "answer_excerpt": "Victor Mendez teaches several courses within the Electrical and Computer Engineering and Industrial Network Cybersecurity areas at BCIT:\n\n* **ELEX 7720 (Feedback Control):** A 4.5-credit full-time course covering linear control systems theory, time and frequency domain analysis, and PID control.\n* **XINC 3110 (Industrial Control Systems (ICS) Design):** A 1-credit full-time course providing an overview of ICS architecture and the Purdue reference model.\n* **ELEX 4610 (Distributed Control and Safety Instrumented Systems for Industrial Network Cybersecurity):** A 4-credit full-time course focusing on distributed control systems (DeltaV) and safety instrumented systems.\n* **XINC 3120 (Fieldbus Networks):** A 1-credit full-time course covering network connections, serial communication standards (RS232/RS485), and communication protocols used for distributed control.\n* **ELEX 2610 (Industrial Systems and Safety for Industrial Network Cybersecurity):** A 4-credit full-time course covering industrial systems and safety.\n\nSources:\n- https://www.bcit.ca/outlines/20253037081/\n- https://www.bcit.ca/outlines/20252068447/\n- https://www.bcit.ca/outlines/20261088016/\n- https://www.bcit.ca/outline",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_lookup",
+      "id": "pl-06",
+      "person": "Jason Young",
+      "question": "What courses does Jason Young teach at BCIT?",
+      "truth": [
+        "OPMT 1103",
+        "OPMT 1710",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341",
+        "TDMT 4410"
+      ],
+      "said_taught": [
+        "BUSA 4950",
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341"
+      ],
+      "missed": [
+        "OPMT 1710",
+        "TDMT 4410"
+      ],
+      "wrong": [
+        "BUSA 4950"
+      ],
+      "recall": 0.6666666666666666,
+      "precision": 0.8,
+      "invented": 1,
+      "ctx_instr": 7,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 6,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7569,
+      "cost_usd": 0.006671,
+      "latency_s": 11.91,
+      "answer_excerpt": "Jason Young teaches several courses at BCIT, primarily within Operations Management and related areas:\n\n* **OPMT 1103 (Introduction to Operations Management):** A 4-credit full-time course covering the design, operation, and improvement of systems that create products and services.\n* **OPMT 2175 (Process Improvement for Operations Management):** A 2.5-credit full-time course focusing on a systematic approach to process and productivity improvement within a continuous process improvement context.\n* **OPMT 4341 (Theory of Constraints):** A 2-credit full-time course exploring the Theory of Constraints Body of Knowledge, synchronization of business operations, and computer simulations.\n* **OPMT 2510 (Project, Quality, and Risk Management):** A 12-week course offered in flexible learning (both online and classroom formats).\n* **BUSA 4950:** A course involving Business Consulting Projects (BCP), where he serves as an advisor and instructor alongside other faculty members.\n\nAdditionally, he serves as the Program Head for Operations & Management Engineering.\n\nSources:\n- https://www.bcit.ca/outlines/20253032458/\n- https://www.bcit.ca/outlines/20261073808/\n- https://www.bcit.ca/outlines/2026",
+      "f1": 0.7273
+    },
+    {
+      "type": "teaches",
+      "category": "person_heldout",
+      "id": "ho-01",
+      "person": "Mike Mulder",
+      "question": "What courses does Mike Mulder teach at BCIT?",
+      "truth": [
+        "ACIT 2911",
+        "ACIT 4850",
+        "COMP 3841",
+        "COMP 8082"
+      ],
+      "said_taught": [
+        "ACIT 2911",
+        "ACIT 4850",
+        "COMP 3841",
+        "COMP 4016",
+        "COMP 8082"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "ACIT 2911",
+        "ACIT 4850",
+        "COMP 3841",
+        "COMP 8082"
+      ],
+      "missed": [],
+      "wrong": [
+        "COMP 4016"
+      ],
+      "recall": 1.0,
+      "precision": 0.8,
+      "invented": 1,
+      "ctx_instr": 6,
+      "ctx_sig": 4,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7659,
+      "cost_usd": 0.006875,
+      "latency_s": 8.06,
+      "answer_excerpt": "Mike Mulder teaches several courses at BCIT across computing, project management, and information technology programs, and serves as the Program Head for the Computer Information Technology (CIT) Diploma. Based on the available records, the courses associated with him include:\n\n* **COMP 8082 (Project Management):** A 3-credit course covering software requirements evaluation, agile project management, roles in IT teams, and risk assessment.\n* **COMP 4016 (Applied DevOps with Kubernetes):** A 3-credit course focusing on Docker, Kubernetes containers, clusters, deployments, and automated DevOps operations.\n* **ACIT 4850 (Enterprise System Integration):** A 4-credit full-time course covering enterprise software development processes, systems integration, schemas, and CI/CD pipelines.\n* **ACIT 2911 (Agile Development Project):** A 4-credit full-time course providing hands-on experience in developing application software using Agile methodologies like Scrum.\n* **COMP 3841 (Introduction to Data Warehouses with Big Data):** A 1.5-credit flexible learning course.\n\nSources:\n- https://www.bcit.ca/courses/project-management-comp-8082/\n- https://www.bcit.ca/courses/applied-devops-with-kubernete",
+      "f1": 0.8889
+    },
+    {
+      "type": "teaches",
+      "category": "person_heldout",
+      "id": "ho-02",
+      "person": "Esti Jacobs",
+      "question": "What courses does Esti Jacobs teach at BCIT?",
+      "truth": [
+        "BLDG 2305",
+        "BLDG 3305",
+        "BLDT 2091"
+      ],
+      "said_taught": [
+        "BLDG 2305",
+        "BLDG 3305",
+        "BLDT 2091"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "BLDG 2305",
+        "BLDG 3305",
+        "BLDT 2091"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 3,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 10,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7654,
+      "cost_usd": 0.006799,
+      "latency_s": 23.41,
+      "answer_excerpt": "Esti Jacobs teaches construction estimating and supervision courses at BCIT, and she also serves as the Program Head for the Architectural and Building Technology program. Based on the available documents, the courses associated with her include:\n\n* **BLDG 2305 (Construction Estimating 1):** A 4.5-credit full-time course covering general theories of measurement for construction work, quantity take-offs, and estimating procedures for concrete, earthwork, masonry, structural steel, and wood frame items.\n* **BLDT 2091 (Construction Estimating 2):** A 3-credit certificate course focusing on multi-family residential and light commercial estimation, quantity take-offs for division 3, 4, 5, 6, and 31 items, and pricing concepts for material, labour, and equipment.\n* **BLDG 3305 (Construction Estimating 2):** A 4-credit full-time course continuing the study of construction estimating, manual preparation of contractor-oriented bids, bidding procedures, and estimating summaries.\n\nSources:\n- https://www.bcit.ca/outlines/20261078904/\n- https://www.bcit.ca/outlines/20252056108/\n- https://www.bcit.ca/outlines/20253039218/\n- https://www.bcit.ca/programs/architectural-and-building-technology-diplo",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_heldout",
+      "id": "ho-03",
+      "person": "Shauna Begley",
+      "question": "What courses does Shauna Begley teach at BCIT?",
+      "truth": [
+        "BABI 3005",
+        "BABI 7800",
+        "BABI 8900",
+        "OPMT 7750"
+      ],
+      "said_taught": [
+        "BABI 3005",
+        "BABI 8900",
+        "OPMT 7750"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "BABI 3005",
+        "BABI 8900",
+        "OPMT 7750"
+      ],
+      "missed": [
+        "BABI 7800"
+      ],
+      "wrong": [],
+      "recall": 0.75,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 3,
+      "ctx_sig": 6,
+      "ctx_docs": 10,
+      "ctx_sources": 10,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7652,
+      "cost_usd": 0.006773,
+      "latency_s": 23.69,
+      "answer_excerpt": "Shauna Begley teaches several courses at BCIT relating to business analytics, data governance, business intelligence, and operations management, and she also serves as the Program Head for Business Information Technology Management. Based on the available documents, the courses associated with her include:\n\n* **BABI 8900 (Performance Metrics and Value Management):** A 15-week flexible learning course covering strategic agility, performance dashboards, and the development of performance management systems using Microsoft Excel and Power BI.\n* **BABI 3005 (Data Governance for Business Analytics):** A 3-credit full-time course exploring data governance frameworks, data quality, privacy regulations, compliance, and data profiling tools.\n* **OPMT 7750 (Data Modelling and Business Intelligence):** A 4-credit full-time course focusing on data modelling using Excel's PowerPivot and PowerBI, big data analysis, data visualization, and custom dashboard creation.\n\nSources:\n- https://www.bcit.ca/courses/performance-metrics-and-value-management-babi-8900/\n- https://www.bcit.ca/outlines/20253050990/\n- https://www.bcit.ca/outlines/20251089537/",
+      "f1": 0.8571
+    },
+    {
+      "type": "teaches",
+      "category": "person_heldout",
+      "id": "ho-04",
+      "person": "Mary Ho",
+      "question": "What courses does Mary Ho teach at BCIT?",
+      "truth": [
+        "BSUS 7200",
+        "BUSA 3900",
+        "OPMT 5310",
+        "ORGB 8700"
+      ],
+      "said_taught": [
+        "BSUS 7200",
+        "BUSA 3900",
+        "OPMT 5310",
+        "ORGB 8700"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "BSUS 7200",
+        "BUSA 3900",
+        "OPMT 5310",
+        "ORGB 8700"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 6,
+      "ctx_sig": 2,
+      "ctx_docs": 10,
+      "ctx_sources": 10,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7646,
+      "cost_usd": 0.007081,
+      "latency_s": 5.81,
+      "answer_excerpt": "Mary Ho teaches several courses at BCIT across business administration, operations management, and organizational behaviour:\n\n* **OPMT 5310 (Sustainability Management Systems for Business Leaders):** A 3-credit course covering the requirements of sustainability management systems, standardization approaches, implementation elements, and ISO and BCorp standards.\n* **BUSA 3900 (Ethics and Sustainable Business Practices):** A 3-credit introductory course exploring business ethics, ethical decision-making, moral development, and social and environmental sustainability.\n* **BSUS 7200 (Social Purpose Business: Uniting Strategy, Communications, and Impact):** A 3-credit course introducing social purpose business, marketing's role in driving change, and aligning strategy with the United Nations Sustainable Development Goals (SDGs).\n* **ORGB 8700 (Implementing Organizational Change—Stakeholders, Timing and Evaluation):** A course (offered as 4 credits) focusing on behavioural models in strategic change, ethical and sustainable management styles, and the TOPS model.\n\nAdditionally, Mary Ho serves as a Program Head for Business Management.\n\nSources:\n- https://www.bcit.ca/courses/sustainability",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_no_teach",
+      "id": "nt-01",
+      "person": "David Holloway",
+      "question": "What courses does David Holloway teach at BCIT?",
+      "truth": [],
+      "said_taught": [],
+      "said_reviewed": [],
+      "correct": [],
+      "missed": [],
+      "wrong": [],
+      "recall": null,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 0,
+      "ctx_sig": 0,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6571,
+      "cost_usd": 0.005956,
+      "latency_s": 4.74,
+      "answer_excerpt": "David Holloway teaches courses related to physical chemistry and mathematical modeling at BCIT. Based on the available records, his expertise and research involve developing, coding, and testing mathematical models in biology, parameter fitting, machine learning for solution sets, gene network representations, and image analysis. However, specific course codes and titles are not listed in the available documents.\n\nThis specific course information is not in the available documents. You can check the official BCIT website or contact the relevant department for more details.\n\nSources:\n- https://www.bcit.ca/programs/applied-computing-master-of-science-full-time-m600msc/",
+      "f1": 1.0
+    },
+    {
+      "type": "teaches",
+      "category": "person_no_teach",
+      "id": "nt-02",
+      "person": "Bahareh Shahabi",
+      "question": "What courses does Bahareh Shahabi teach at BCIT?",
+      "truth": [],
+      "said_taught": [],
+      "said_reviewed": [],
+      "correct": [],
+      "missed": [],
+      "wrong": [],
+      "recall": null,
+      "precision": 1.0,
+      "invented": 0,
+      "ctx_instr": 0,
+      "ctx_sig": 0,
+      "ctx_docs": 10,
+      "ctx_sources": 10,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6739,
+      "cost_usd": 0.005818,
+      "latency_s": 4.53,
+      "answer_excerpt": "Bahareh Shahabi is listed as one of the co-authors/contributors of the e-text *Technical Communication*, Ninth Canadian Edition, used for the BCIT course COMM 1169, but specific courses taught by her are not in the available documents.\n\n* Specific course teaching assignments for Bahareh Shahabi are not mentioned in the provided records.\n* You can check the official BCIT website for more details regarding faculty teaching assignments.\n\nSources:\n- https://www.bcit.ca/outlines/20253032691/",
+      "f1": 1.0
+    },
+    {
+      "id": "ph-01",
+      "category": "program_head",
+      "question": "Who is the Program Head that reviewed the ACIT 2515 course outline?",
+      "expect_name": "Mike Mulder",
+      "name_hit": 1,
+      "named_the_instructor_instead": 0,
+      "url_hit": 1,
+      "ctx_docs": 10,
+      "input_tokens": 7159,
+      "cost_usd": 0.005798,
+      "answer_excerpt": "Mike Mulder is one of the Program Heads who reviewed the ACIT 2515 course outline.\n\n* **ACIT 2515 Outline Review:** The course outline for ACIT 2515 (Object Oriented Programming) was reviewed by Program Head Mike Mulder on January 04, 2026.\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/"
+    },
+    {
+      "id": "ph-02",
+      "category": "program_head",
+      "question": "Who is the Program Head that reviewed the COMP 3940 course outline?",
+      "expect_name": "Chi En Huang",
+      "name_hit": 1,
+      "named_the_instructor_instead": 0,
+      "url_hit": 1,
+      "ctx_docs": 10,
+      "input_tokens": 6937,
+      "cost_usd": 0.005388,
+      "answer_excerpt": "Chi En Huang is the Program Head who reviewed the COMP 3940 course outline.\n\n* **COMP 3940 Outline Review:** The course outline for COMP 3940 (Client/Server Systems Development Fundamentals) was reviewed by Program Head Chi En Huang on August 30, 2025.\n\nSources:\n- https://www.bcit.ca/outlines/20253031249/"
+    },
+    {
+      "id": "ph-03",
+      "category": "program_head",
+      "question": "Who is the Program Head that reviewed the BUSA 4950 course outline?",
+      "expect_name": "Ken Eng",
+      "name_hit": 1,
+      "named_the_instructor_instead": 0,
+      "url_hit": 1,
+      "ctx_docs": 10,
+      "input_tokens": 6699,
+      "cost_usd": 0.005247,
+      "answer_excerpt": "Izelde van Jaarsveld and Ken Eng are the Program Heads who verified or reviewed the BUSA 4950 course outline.\n\n* **BUSA 4950 Outline Review:** The course outline was verified as current by Program Head Izelde van Jaarsveld and reviewed by Program Head Ken Eng on November 24, 2025 (along with Associate Dean Ike Hall).\n\nSources:\n- https://www.bcit.ca/outlines/20261084646/"
+    }
+  ]
+}
