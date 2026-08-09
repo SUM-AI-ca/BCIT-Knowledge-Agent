@@ -229,7 +229,14 @@ FANIN_RETAIN_N = _env_int("FANIN_RETAIN_N", 6)
 # of convention the course-code index is built on. Only the instructor
 # relation is indexed — approval signatures and program-page coordinator
 # lists name the same people in relations that answer a different question.
-PERSON_SCOPED_RETRIEVAL = _env_bool("PERSON_SCOPED_RETRIEVAL", False)
+# ADOPTED 2026-08. Guard set (15 cases incl. held-out instructors and
+# adversarial "who is the Program Head" lookups): F1 0.576 -> 0.968, two
+# held-out complete failures fixed, 0 inventions, adversarial cases intact.
+# v3 (24 cases) url 0.676 -> 0.867 x2 with the 21 older cases byte-identical;
+# v1 (n=39) and the v2 band unchanged. Fires only when a question names one of
+# the indexed instructors - 0 of 86 regression questions - so it is a no-op on
+# everything else.
+PERSON_SCOPED_RETRIEVAL = _env_bool("PERSON_SCOPED_RETRIEVAL", True)
 # Breadth over depth, the mirror of ENTITY_SCOPED_K: a person is one entity
 # spread over many pages, so take few chunks from each of many sources.
 PERSON_SCOPED_K = _env_int("PERSON_SCOPED_K", 2)
