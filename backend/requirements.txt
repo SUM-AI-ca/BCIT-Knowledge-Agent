@@ -1,19 +1,22 @@
 # FastAPI Server
-fastapi==0.115.6
-uvicorn[standard]==0.32.1
-python-multipart==0.0.12
+fastapi==0.141.1
+uvicorn[standard]==0.52.1
+python-multipart==0.0.32
 
 # Environment
-python-dotenv==1.1.1
+python-dotenv==1.2.2
 
 # LangChain & RAG
-langchain==0.3.27
-langchain-community==0.3.31
-langchain-core==0.3.78
+langchain==1.3.14
+langchain-community==0.4.2
+langchain-core==1.5.3
+# Controller graph (USE_GRAPH). Installed unconditionally so flipping the
+# flag on the VM never needs a dependency change.
+langgraph==1.2.10
 
 # Google Cloud (Vertex AI / Gemini Enterprise Agent Platform, ADC auth)
-langchain-google-vertexai==2.1.2
-google-cloud-discoveryengine==0.20.0
+langchain-google-vertexai==3.2.4
+google-cloud-discoveryengine==0.20.2
 
 # Vector Store (Cloud SQL PostgreSQL + pgvector)
 langchain-postgres==0.0.17
@@ -23,9 +26,9 @@ psycopg[binary]>=3.2,<4
 rank-bm25==0.2.2
 
 # Core
-numpy==1.26.4
+numpy==2.2.6
 
 # Utilities
-tqdm==4.67.1
-pydantic==2.11.9
-pydantic-settings==2.11.0
+tqdm==4.70.0
+pydantic==2.13.4
+pydantic-settings==2.15.0

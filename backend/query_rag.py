@@ -17,7 +17,7 @@ from langchain_google_vertexai import ChatVertexAI
 from sqlalchemy import create_engine
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
-from langchain.memory import ConversationBufferWindowMemory
+from session_memory import SessionMemory
 
 try:
     from langsmith import traceable
@@ -88,6 +88,19 @@ from config import (
     MQ_CANDIDATES_PER_SUBQUERY,
     MQ_POOL_CAP,
     MQ_MIN_CHUNKS_PER_SUBQUERY,
+    USE_GRAPH,
+    GRAPH_MODEL,
+    GRAPH_TEMPERATURE,
+    GRAPH_MAX_OUTPUT_TOKENS,
+    GRAPH_THINKING_BUDGET,
+    GRAPH_MAX_HOPS,
+    GRAPH_HOP_TOP_K,
+    GRAPH_HOP_CONTEXT_MAX_CHARS,
+    GRAPH_CONTROLLER_SCHEMA,
+    GRAPH_CONTROLLER_TEMPLATE,
+    GRAPH_DIRECT_TEMPLATE,
+    PRICE_GRAPH_INPUT_PER_M,
+    PRICE_GRAPH_OUTPUT_PER_M,
     RERANK_MODE,
     RERANK_SKIP_CONSENSUS,
     MQ_BM25_KEYWORDS,
@@ -234,6 +247,7 @@ class BCITChatbot:
         self._setup_retriever()
         self._create_prompts()
         self._initialize_cache()
+        self._initialize_graph()
 
         print("\nCommands: 'quit', 'exit', 'q' to exit\n")
 
@@ -498,7 +512,7 @@ class BCITChatbot:
         print("LLM initialized\n")
 
     def _initialize_memory(self):
-        self.memory = ConversationBufferWindowMemory(
+        self.memory = SessionMemory(
             k=MEMORY_WINDOW_K,
             memory_key="chat_history",
             return_messages=True
@@ -594,7 +608,7 @@ class BCITChatbot:
             text = text[:HISTORY_MAX_ANSWER_CHARS].rstrip() + " ..."
         return text or answer[:HISTORY_MAX_ANSWER_CHARS]
 
-    def _format_chat_history(self, memory: ConversationBufferWindowMemory) -> str:
+    def _format_chat_history(self, memory: SessionMemory) -> str:
         # buffer_as_messages applies the k-window; chat_memory.messages is the
         # raw unbounded list and must not be used here.
         messages = memory.buffer_as_messages
@@ -764,7 +778,13 @@ class BCITChatbot:
         texts.extend(entry["loose"])
         return "\n[...]\n".join(texts)
 
-    def _expand_and_format_chunks(self, docs: List[Document]) -> tuple:
+    def _expand_and_format_chunks(self, docs: List[Document], max_chars: int = None) -> tuple:
+        # max_chars overrides CONTEXT_MAX_CHARS for a single call. Only the
+        # controller graph passes it, on turns that actually took a hop:
+        # the cap is what binds (measured context_chars p50 22,276 against
+        # a 24,000 cap), so raising the chunk count without it does nothing.
+        if max_chars is None:
+            max_chars = CONTEXT_MAX_CHARS
         docs = self._apply_score_threshold(docs)
         index = self._neighbor_index or {"chunks": {}, "ordinals": {}}
 
@@ -808,14 +828,14 @@ class BCITChatbot:
         context = render(radii, sources)
         # Over budget: first strip neighbor expansion from the lowest-ranked
         # sources, then drop trailing sources entirely.
-        while len(context) > CONTEXT_MAX_CHARS:
+        while len(context) > max_chars:
             shrinkable = [s for s in reversed(sources) if radii[s] > 0]
             if shrinkable:
                 radii[shrinkable[0]] = 0
             elif len(sources) > 1:
                 sources.pop()
             else:
-                context = context[:CONTEXT_MAX_CHARS]
+                context = context[:max_chars]
                 break
             context = render(radii, sources)
 
@@ -1112,72 +1132,14 @@ class BCITChatbot:
         logger.info("query_usage %s", json.dumps(log_entry, ensure_ascii=False))
         return meta
 
-    def _prepare_turn(self, question: str, memory: ConversationBufferWindowMemory) -> dict:
-        """Everything before generation: easter-egg short-circuit, history
-        formatting, rewrite+decompose, (fan-out) retrieval, rerank, context
-        assembly, prompt construction. Shared by query_with_meta (blocking)
-        and query_stream (token streaming) so the two paths cannot drift.
-
-        Returns {"short_circuit": <complete meta>} for the easter-egg or
-        response-cache fast paths (memory already written), else the state
-        _finalize_turn consumes."""
-        turn_start = time.perf_counter()
-        normalized = question.strip().upper()
-        if normalized in EASTER_EGGS:
-            answer = EASTER_EGGS[normalized]
-            memory.chat_memory.add_user_message(question)
-            memory.chat_memory.add_ai_message(answer)
-            return {"short_circuit": {
-                "answer": answer,
-                "docs": [],
-                "standalone_question": question,
-                "finish_reason": "",
-                "usage": {},
-                "est_cost_usd": 0.0,
-                "timings": {},
-                "n_context_docs": 0,
-            }}
-
-        t_start = time.perf_counter()
-        chat_history = self._format_chat_history(memory)
-
-        # First-turn exact-match cache: a no-history question's answer is a
-        # pure function of the question + corpus, so identical first questions
-        # share an answer and skip the whole pipeline. Follow-ups are never
-        # cached (they depend on session history). _finalize_turn stores on a
-        # miss; `cacheable` flows through prep so it knows whether to.
-        first_turn = (
-            self.response_cache is not None
-            and chat_history == "No previous conversation."
-        )
-        if first_turn:
-            cached_answer = self.response_cache.get(normalize_question(question))
-            if cached_answer is not None:
-                return {"short_circuit": self._cached_turn(
-                    question, memory, cached_answer, turn_start)}
-
-        t0 = time.perf_counter()
-        rewrite_skipped = False
-        extras = {}
-        if (
-            REWRITE_SKIP_SIMPLE
-            and chat_history == "No previous conversation."
-            and _is_simple_query(question)
-        ):
-            # The rewriter would return this unchanged — skip its cost/latency.
-            standalone_question, sub_queries, rewrite_usage, decompose_fallback = (
-                question, [question], {}, False
-            )
-            rewrite_skipped = True
-        elif MULTI_QUERY_ENABLED:
-            standalone_question, sub_queries, rewrite_usage, decompose_fallback, extras = (
-                self._rewrite_and_decompose(question, chat_history)
-            )
-        else:
-            standalone_question, rewrite_usage = self._rewrite_query(question, chat_history)
-            sub_queries, decompose_fallback = [standalone_question], False
-        t_rewrite = time.perf_counter() - t0
-
+    def _retrieve_and_rerank(self, standalone_question: str, sub_queries: List[str],
+                             extras: dict, rewrite_skipped: bool) -> dict:
+        """Retrieval + rerank for one pass: fan-out or full-width, scoped
+        arms, then the Ranking API call. Lifted verbatim out of
+        _prepare_turn so the controller graph can use it as its first hop
+        without reimplementing the pipeline — the statements and their
+        order are unchanged, only the surrounding function is new.
+        """
         # Single-question turns keep the full-width legacy retrieval; only
         # genuinely multipart turns fan out per sub-query (or single turns
         # carrying a HyDE-extra arm, which need the pooled path too).
@@ -1249,6 +1211,321 @@ class BCITChatbot:
                     n_rerank_calls = 1
             t_rerank = time.perf_counter() - t0
 
+        return {
+            "docs": docs,
+            "use_fanout": use_fanout,
+            "n_candidates": n_candidates,
+            "n_scoped_candidates": n_scoped_candidates,
+            "rerank_skipped": rerank_skipped,
+            "pool_consensus": pool_consensus,
+            "fanin_swaps": fanin_swaps,
+            "n_rerank_calls": n_rerank_calls,
+            "t_retrieve": t_retrieve,
+            "t_rerank": t_rerank,
+            "sub_queries": sub_queries,
+        }
+
+    def _initialize_graph(self):
+        """Controller graph wiring. Nothing here runs — and langgraph is not
+        even imported — unless USE_GRAPH is on."""
+        self.controller_llm = None
+        self.controller_prompt = None
+        self.direct_prompt = None
+        self._controller_graph_cls = None
+        if not USE_GRAPH:
+            return
+
+        from graph import ControllerGraph
+
+        self._controller_graph_cls = ControllerGraph
+        # Same shape as the rewriter: deterministic, schema-constrained JSON,
+        # no thinking budget. It runs at least once on every turn, so its
+        # per-call cost is the design's dominant cost variable.
+        self.controller_llm = ChatVertexAI(
+            model=GRAPH_MODEL,
+            project=GEMINI_PROJECT,
+            location=GEMINI_LOCATION,
+            temperature=GRAPH_TEMPERATURE,
+            max_output_tokens=GRAPH_MAX_OUTPUT_TOKENS,
+            thinking_budget=GRAPH_THINKING_BUDGET,
+            response_mime_type="application/json",
+            response_schema=GRAPH_CONTROLLER_SCHEMA,
+        )
+        self.controller_prompt = ChatPromptTemplate.from_template(GRAPH_CONTROLLER_TEMPLATE)
+        self.direct_prompt = ChatPromptTemplate.from_template(GRAPH_DIRECT_TEMPLATE)
+        print(f"Controller graph: on ({GRAPH_MODEL}, <={GRAPH_MAX_HOPS} hops)")
+
+    def _controller_call(self, question, chat_history, evidence, hop, max_hops):
+        """One controller decision. Raises on failure — graph.py owns the
+        fail-open policy so there is exactly one place that decides what a
+        controller outage degrades to."""
+        prompt_value = self.controller_prompt.invoke({
+            "question": question,
+            "chat_history": chat_history,
+            "evidence": evidence,
+            "hop": hop,
+            "max_hops": max_hops,
+        })
+        msg = self.controller_llm.invoke(prompt_value)
+        return json.loads(_message_text(msg)), dict(msg.usage_metadata or {})
+
+    def _graph_hop_retrieve(self, queries, docs_so_far, standalone_question):
+        """A follow-up retrieval pass, merged into what the earlier passes found.
+
+        Merging rather than replacing is the point: hop-1 documents answer the
+        first half of a 2-hop question, so evicting them to make room for hop-2
+        would trade one missing fact for another. The August fan-in experiment
+        failed precisely because it could not tell those apart; here the
+        controller has named what is missing, so the merge is relation-aware.
+        """
+        # With one query, retrieve on it directly — passing the original
+        # standalone question would re-run the pass that already happened and
+        # return the same documents.
+        hop_question = queries[0] if len(queries) == 1 else standalone_question
+        result = self._retrieve_and_rerank(hop_question, queries, {}, False)
+
+        seen = {doc_key(d, DEDUP_FULL_CONTENT) for d in docs_so_far}
+        merged = list(docs_so_far)
+        for doc in result["docs"]:
+            key = doc_key(doc, DEDUP_FULL_CONTENT)
+            if key not in seen:
+                seen.add(key)
+                merged.append(doc)
+        result["docs"] = merged[:GRAPH_HOP_TOP_K]
+        return result
+
+    def _prepare_turn_graph(self, question: str, chat_history: str,
+                            first_turn: bool, t_start: float) -> dict:
+        """USE_GRAPH twin of _prepare_turn's body, from the rewrite onward.
+
+        A separate method rather than branches threaded through _prepare_turn:
+        with the flag off, the shipped path is then not merely equivalent to
+        today's but literally the same statements, which is the only way the
+        "no regression when off" claim needs no measurement to believe.
+
+        Returns the same prep dict _finalize_turn consumes, plus route/hop
+        bookkeeping.
+        """
+        # The rewrite lives inside the first retrieval so a directly-routed
+        # turn skips it — that saving is most of what the route buys.
+        acc = {
+            "standalone": question,
+            "sub_queries": [question],
+            "rewrite_usage": {},
+            "decompose_fallback": False,
+            "rewrite_skipped": False,
+            "t_rewrite": 0.0,
+            "t_retrieve": 0.0,
+            "t_rerank": 0.0,
+            "n_candidates": 0,
+            "n_scoped_candidates": 0,
+            "n_rerank_calls": 0,
+            "fanin_swaps": 0,
+            "use_fanout": False,
+            "rerank_skipped": False,
+            "pool_consensus": None,
+            "passes": 0,
+        }
+
+        def absorb(result):
+            acc["t_retrieve"] += result["t_retrieve"]
+            acc["t_rerank"] += result["t_rerank"]
+            acc["n_candidates"] += result["n_candidates"]
+            acc["n_scoped_candidates"] += result["n_scoped_candidates"]
+            acc["n_rerank_calls"] += result["n_rerank_calls"]
+            acc["fanin_swaps"] += result["fanin_swaps"]
+            acc["use_fanout"] = result["use_fanout"]
+            acc["rerank_skipped"] = result["rerank_skipped"]
+            acc["pool_consensus"] = result["pool_consensus"]
+            acc["passes"] += 1
+            return result
+
+        def initial_retrieve():
+            t0 = time.perf_counter()
+            extras = {}
+            if (REWRITE_SKIP_SIMPLE
+                    and chat_history == "No previous conversation."
+                    and _is_simple_query(question)):
+                standalone, sub_queries = question, [question]
+                acc["rewrite_skipped"] = True
+            elif MULTI_QUERY_ENABLED:
+                (standalone, sub_queries, acc["rewrite_usage"],
+                 acc["decompose_fallback"], extras) = self._rewrite_and_decompose(
+                    question, chat_history)
+            else:
+                standalone, acc["rewrite_usage"] = self._rewrite_query(question, chat_history)
+                sub_queries = [standalone]
+            acc["t_rewrite"] = time.perf_counter() - t0
+            acc["standalone"], acc["sub_queries"] = standalone, sub_queries
+            return absorb(self._retrieve_and_rerank(
+                standalone, sub_queries, extras, acc["rewrite_skipped"]))
+
+        def hop_retrieve(queries, docs_so_far):
+            return absorb(self._graph_hop_retrieve(queries, docs_so_far, acc["standalone"]))
+
+        graph = self._controller_graph_cls(
+            self._controller_call, initial_retrieve, hop_retrieve)
+        final = graph.run(question, chat_history,
+                          has_history=chat_history != "No previous conversation.")
+
+        docs = final.get("docs") or []
+        action = final.get("action", "answer")
+        retrieved = acc["passes"] > 0
+        route = "retrieve" if retrieved else ("refuse" if action == "refuse" else "direct")
+
+        if not retrieved:
+            # No lookup happened, so there is no context and no Sources
+            # section. The scope policy lives in the direct prompt, which is
+            # why "no retrieval" does not become "answer BCIT questions from
+            # memory" — the behaviour the out_of_scope cases measure.
+            prompt_value = self.direct_prompt.invoke({
+                "question": question,
+                "chat_history": chat_history,
+            })
+            # context_chars is 0, not the prompt length: no BCIT context was
+            # assembled, and reporting the prompt here would make a directly
+            # routed turn look like it had retrieved something.
+            context_stats = {"context_chars": 0, "n_chunks_kept": 0,
+                             "n_context_sources": 0, "neighbor_misses": 0}
+        else:
+            # Hop turns get the wider budget; single-pass turns are billed
+            # exactly as they are today.
+            hop_budget = acc["passes"] > 1
+            if CONTEXT_MODE == "chunks":
+                context, context_stats = self._expand_and_format_chunks(
+                    docs,
+                    max_chars=GRAPH_HOP_CONTEXT_MAX_CHARS if hop_budget else None)
+            else:
+                context = self._format_docs_full(docs)
+                context_stats = {"context_chars": len(context)}
+
+            question_parts = ""
+            if len(acc["sub_queries"]) > 1:
+                question_parts = (
+                    "\n\nThe question has multiple parts; answer each one:\n"
+                    + "\n".join(f"  {i}) {q}"
+                                for i, q in enumerate(acc["sub_queries"], 1))
+                )
+            prompt_value = self.prompt.invoke({
+                "context": context,
+                "question": question,
+                "question_parts": question_parts,
+                "chat_history": chat_history,
+            })
+
+        logger.info("graph route=%s passes=%d docs=%d trace=%s",
+                    route, acc["passes"], len(docs), final.get("trace"))
+
+        return {
+            "t_start": t_start,
+            "question": question,
+            "cacheable": first_turn,
+            "prompt_value": prompt_value,
+            "docs": docs,
+            "standalone_question": acc["standalone"],
+            "sub_queries": acc["sub_queries"],
+            "rewrite_usage": acc["rewrite_usage"],
+            "decompose_fallback": acc["decompose_fallback"],
+            "rewrite_skipped": acc["rewrite_skipped"],
+            "rerank_skipped": acc["rerank_skipped"],
+            "pool_consensus": acc["pool_consensus"],
+            "use_fanout": acc["use_fanout"],
+            "n_candidates": acc["n_candidates"],
+            "n_scoped_candidates": acc["n_scoped_candidates"],
+            "fanin_swaps": acc["fanin_swaps"],
+            "n_rerank_calls": acc["n_rerank_calls"],
+            "context_stats": context_stats,
+            "t_rewrite": acc["t_rewrite"],
+            "t_retrieve": acc["t_retrieve"],
+            "t_rerank": acc["t_rerank"],
+            "route": route,
+            "graph_hops": max(acc["passes"] - 1, 0),
+            "graph_trace": final.get("trace"),
+            "graph_usage": final.get("usage"),
+        }
+
+    def _prepare_turn(self, question: str, memory: SessionMemory) -> dict:
+        """Everything before generation: easter-egg short-circuit, history
+        formatting, rewrite+decompose, (fan-out) retrieval, rerank, context
+        assembly, prompt construction. Shared by query_with_meta (blocking)
+        and query_stream (token streaming) so the two paths cannot drift.
+
+        Returns {"short_circuit": <complete meta>} for the easter-egg or
+        response-cache fast paths (memory already written), else the state
+        _finalize_turn consumes."""
+        turn_start = time.perf_counter()
+        normalized = question.strip().upper()
+        if normalized in EASTER_EGGS:
+            answer = EASTER_EGGS[normalized]
+            memory.chat_memory.add_user_message(question)
+            memory.chat_memory.add_ai_message(answer)
+            return {"short_circuit": {
+                "answer": answer,
+                "docs": [],
+                "standalone_question": question,
+                "finish_reason": "",
+                "usage": {},
+                "est_cost_usd": 0.0,
+                "timings": {},
+                "n_context_docs": 0,
+            }}
+
+        t_start = time.perf_counter()
+        chat_history = self._format_chat_history(memory)
+
+        # First-turn exact-match cache: a no-history question's answer is a
+        # pure function of the question + corpus, so identical first questions
+        # share an answer and skip the whole pipeline. Follow-ups are never
+        # cached (they depend on session history). _finalize_turn stores on a
+        # miss; `cacheable` flows through prep so it knows whether to.
+        first_turn = (
+            self.response_cache is not None
+            and chat_history == "No previous conversation."
+        )
+        if first_turn:
+            cached_answer = self.response_cache.get(normalize_question(question))
+            if cached_answer is not None:
+                return {"short_circuit": self._cached_turn(
+                    question, memory, cached_answer, turn_start)}
+
+        if USE_GRAPH:
+            return self._prepare_turn_graph(question, chat_history, first_turn, t_start)
+
+        t0 = time.perf_counter()
+        rewrite_skipped = False
+        extras = {}
+        if (
+            REWRITE_SKIP_SIMPLE
+            and chat_history == "No previous conversation."
+            and _is_simple_query(question)
+        ):
+            # The rewriter would return this unchanged — skip its cost/latency.
+            standalone_question, sub_queries, rewrite_usage, decompose_fallback = (
+                question, [question], {}, False
+            )
+            rewrite_skipped = True
+        elif MULTI_QUERY_ENABLED:
+            standalone_question, sub_queries, rewrite_usage, decompose_fallback, extras = (
+                self._rewrite_and_decompose(question, chat_history)
+            )
+        else:
+            standalone_question, rewrite_usage = self._rewrite_query(question, chat_history)
+            sub_queries, decompose_fallback = [standalone_question], False
+        t_rewrite = time.perf_counter() - t0
+
+        retrieval = self._retrieve_and_rerank(
+            standalone_question, sub_queries, extras, rewrite_skipped)
+        docs = retrieval["docs"]
+        use_fanout = retrieval["use_fanout"]
+        n_candidates = retrieval["n_candidates"]
+        n_scoped_candidates = retrieval["n_scoped_candidates"]
+        rerank_skipped = retrieval["rerank_skipped"]
+        pool_consensus = retrieval["pool_consensus"]
+        fanin_swaps = retrieval["fanin_swaps"]
+        n_rerank_calls = retrieval["n_rerank_calls"]
+        t_retrieve = retrieval["t_retrieve"]
+        t_rerank = retrieval["t_rerank"]
+
         if CONTEXT_MODE == "chunks":
             context, context_stats = self._expand_and_format_chunks(docs)
         else:
@@ -1296,7 +1573,7 @@ class BCITChatbot:
     def _finalize_turn(
             self,
             prep: dict,
-            memory: ConversationBufferWindowMemory,
+            memory: SessionMemory,
             answer: str,
             usage: dict,
             finish_reason: str,
@@ -1317,6 +1594,9 @@ class BCITChatbot:
         reasoning_tokens = details_out.get("reasoning", 0)
         rw_in = prep["rewrite_usage"].get("input_tokens", 0)
         rw_out = prep["rewrite_usage"].get("output_tokens", 0)
+        graph_usage = prep.get("graph_usage") or {}
+        g_in = graph_usage.get("input_tokens", 0)
+        g_out = graph_usage.get("output_tokens", 0)
 
         # Generation and rewrite run on different models (and prices); thinking
         # tokens bill as output. Rerank is per-call, embedding ~flat.
@@ -1325,6 +1605,8 @@ class BCITChatbot:
             + (output_tokens + reasoning_tokens) / 1e6 * PRICE_GEN_OUTPUT_PER_M
             + rw_in / 1e6 * PRICE_REWRITE_INPUT_PER_M
             + rw_out / 1e6 * PRICE_REWRITE_OUTPUT_PER_M
+            + g_in / 1e6 * PRICE_GRAPH_INPUT_PER_M
+            + g_out / 1e6 * PRICE_GRAPH_OUTPUT_PER_M
             + prep["n_rerank_calls"] * PRICE_RERANK_PER_CALL
             + PRICE_EMBED_PER_QUERY,
             6
@@ -1342,9 +1624,16 @@ class BCITChatbot:
                 "cache_read_tokens": details_in.get("cache_read", 0),
                 "rewrite_input_tokens": rw_in,
                 "rewrite_output_tokens": rw_out,
+                "graph_input_tokens": g_in,
+                "graph_output_tokens": g_out,
+                "graph_calls": graph_usage.get("calls", 0),
             },
             "n_rerank_calls": prep["n_rerank_calls"],
-            "models": {"generation": GEMINI_MODEL, "rewriter": REWRITER_MODEL},
+            "models": {
+                "generation": GEMINI_MODEL,
+                "rewriter": REWRITER_MODEL,
+                **({"controller": GRAPH_MODEL} if USE_GRAPH else {}),
+            },
             "est_cost_usd": est_cost,
             "timings": {
                 "rewrite_s": round(prep["t_rewrite"], 3),
@@ -1365,6 +1654,9 @@ class BCITChatbot:
             "n_candidates": prep["n_candidates"],
             "n_scoped_candidates": prep["n_scoped_candidates"],
             "fanin_swaps": prep["fanin_swaps"],
+            "route": prep.get("route"),
+            "graph_hops": prep.get("graph_hops", 0),
+            "graph_trace": prep.get("graph_trace"),
             "cached": False,
             **prep["context_stats"],
         }
@@ -1382,7 +1674,7 @@ class BCITChatbot:
         return meta
 
     @traceable(name="bcit_query")
-    def query_with_meta(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> dict:
+    def query_with_meta(self, question: str, memory: Optional[SessionMemory] = None) -> dict:
         if memory is None:
             memory = self.memory
 
@@ -1404,7 +1696,7 @@ class BCITChatbot:
         )
 
     @traceable(name="bcit_query", reduce_fn=_reduce_stream_outputs)
-    def query_stream(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None):
+    def query_stream(self, question: str, memory: Optional[SessionMemory] = None):
         """Streaming twin of query_with_meta: yields ("delta", text) as
         tokens arrive, then ("done", meta) where meta is exactly what the
         blocking path returns (memory write + query_usage log included).
@@ -1452,7 +1744,7 @@ class BCITChatbot:
             t_generate=t_generate,
         ))
 
-    def query(self, question: str, memory: Optional[ConversationBufferWindowMemory] = None) -> str:
+    def query(self, question: str, memory: Optional[SessionMemory] = None) -> str:
         return self.query_with_meta(question, memory=memory)["answer"]
 
     def chat(self):

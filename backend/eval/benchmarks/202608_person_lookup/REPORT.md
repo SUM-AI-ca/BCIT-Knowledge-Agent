@@ -263,3 +263,24 @@ The `_b` person arms postdate the fix for hyphenated names ("Julia
 Alards-Tomalin" truncated to "Julia Alards" and missed the index; `pl-04` scored
 0.00 on the person-only arm for that reason alone).
 `reg_{v1,v2,v3}_{person,sigperson}.json`, `reg_v2_baseline_b.json` — §6.
+
+## Postscript — re-measured under the controller graph (2026-08)
+
+The person work is unchanged by the graph adopted in
+`../202608_graph_controller/`: guard set F1 **0.9861**, `name_hit` **1.000**,
+0 inventions, `recall` 1.000 — identical to the figures above, on the upgraded
+dependency stack and with `USE_GRAPH=true`.
+
+One case needed re-measuring rather than reading. A single graph run had
+`ph-03` ("who is the Program Head that reviewed the BUSA 4950 outline?") naming
+Izelde van Jaarsveld and omitting Ken Eng, scoring `name_hit=0` where the
+non-graph run scored 1. Four runs per arm settled it: **4/4 on both**. The
+single sample was generation variance, not a regression.
+
+It is a fair case to be unstable on. BUSA 4950's approval block signs two
+Program Heads on adjacent lines — *"I verify that the content of this course
+outline is current. Izelde van Jaarsveld, Program Head"* and *"I verify that
+this course outline has been reviewed. Ken Eng, Program Head"* — and Izelde van
+Jaarsveld is also the course's instructor. This is a finer-grained role
+distinction than the one this round fixed: not instructor versus Program Head,
+but *which* Program Head statement the question asks about.

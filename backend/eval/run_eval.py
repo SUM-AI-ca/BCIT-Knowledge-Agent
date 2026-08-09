@@ -64,6 +64,10 @@ SNAPSHOT_KEYS = [
     "BM25_INDEX_AUG", "RERANK_SKIP_CONSENSUS",
     "MQ_BM25_KEYWORDS", "HYDE_MODE",
     "REWRITE_SKIP_SIMPLE", "REWRITE_SKIP_MAX_WORDS",
+    "SIGNATURE_DEMOTE", "FANIN_RETAIN", "PERSON_SCOPED_RETRIEVAL",
+    "USE_GRAPH", "GRAPH_MODEL", "GRAPH_MAX_HOPS", "GRAPH_DIGEST_CHARS",
+    "GRAPH_HOP_TOP_K", "GRAPH_HOP_CONTEXT_MAX_CHARS", "GRAPH_ROUTER_MODE",
+    "PRICE_GRAPH_INPUT_PER_M", "PRICE_GRAPH_OUTPUT_PER_M",
 ]
 
 # Optional per-query meta keys added by later optimization steps; copied into
@@ -75,6 +79,10 @@ EXTRA_META_KEYS = [
     "n_rerank_calls", "rerank_skipped", "pool_consensus",
     "rewrite_skipped", "retrieval_mode", "n_candidates",
     "n_scoped_candidates", "fanin_swaps",
+    # Controller graph (USE_GRAPH). route is the audit field: a BCIT
+    # question that comes back "direct" is a mis-route, which is a
+    # different and worse failure than a low score.
+    "route", "graph_hops", "graph_trace",
 ]
 
 ANSWER_EXCERPT_CHARS = 1500
@@ -318,6 +326,16 @@ def run_case(bot, case, make_memory, judge_llm=None):
     for key in EXTRA_META_KEYS:
         if key in result:
             record[key] = result[key]
+    # A case may declare the route it must take. Scoring well by the wrong
+    # route is still a failure: a BCIT question answered "direct" got there
+    # without the corpus, which is luck, not retrieval.
+    if case.get("expected_route"):
+        record["expected_route"] = case["expected_route"]
+        # Only comparable when a route was actually produced. With USE_GRAPH
+        # off there is no routing stage, and scoring every case as a mismatch
+        # would report the baseline as 16/16 mis-routed rather than N/A.
+        if result.get("route"):
+            record["route_ok"] = (result["route"] == case["expected_route"])
     record.update(score_case(case, result))
     if judge_llm is not None:
         try:
@@ -325,6 +343,17 @@ def run_case(bot, case, make_memory, judge_llm=None):
         except Exception as exc:  # a judge failure must not sink the case
             record["judge_error"] = f"{type(exc).__name__}: {exc}"
     return record
+
+
+def _route_counts(scored):
+    """How many turns took each route. The adoption gate is on mis-routes, so
+    this has to be visible per run, not reconstructed from per-case files."""
+    counts = {}
+    for case in scored:
+        route = case.get("route")
+        if route:
+            counts[route] = counts.get(route, 0) + 1
+    return counts or None
 
 
 def aggregate(cases):
@@ -366,6 +395,16 @@ def aggregate(cases):
         "rerank_skip_rate": _mean([1.0 if c.get("rerank_skipped") else 0.0 for c in scored]),
         "rewrite_skip_rate": _mean([1.0 if c.get("rewrite_skipped") else 0.0 for c in scored]),
         "rerank_calls_mean": _mean([c.get("n_rerank_calls") for c in scored]),
+        # Controller-graph observability. All None/0 when USE_GRAPH is off.
+        "route_counts": _route_counts(scored),
+        "hop_rate": _mean([1.0 if (c.get("graph_hops") or 0) > 0 else 0.0
+                           for c in scored if c.get("route")]),
+        "graph_hops_mean": _mean([c.get("graph_hops") for c in scored if c.get("route")]),
+        "graph_calls_mean": _mean(usage("graph_calls")),
+        "graph_input_tokens_mean": _mean(usage("graph_input_tokens")),
+        "graph_output_tokens_mean": _mean(usage("graph_output_tokens")),
+        "route_mismatches": sum(1 for c in scored if c.get("route_ok") is False),
+        "n_cases_with_expected_route": sum(1 for c in scored if c.get("route_ok") is not None),
     }
 
 
@@ -487,7 +526,7 @@ def main():
     sys.path.insert(0, str(BACKEND_DIR))
     import config
     from query_rag import BCITChatbot
-    from langchain.memory import ConversationBufferWindowMemory
+    from session_memory import SessionMemory
 
     snapshot = {}
     for key in SNAPSHOT_KEYS:
@@ -495,7 +534,7 @@ def main():
             value = getattr(config, key)
             snapshot[key] = value if isinstance(value, (int, float, bool, str, type(None))) else str(value)
 
-    make_memory = lambda: ConversationBufferWindowMemory(
+    make_memory = lambda: SessionMemory(
         k=config.MEMORY_WINDOW_K, memory_key="chat_history", return_messages=True
     )
 

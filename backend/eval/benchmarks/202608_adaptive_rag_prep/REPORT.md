@@ -257,7 +257,15 @@ call. That shrinks what a corrective/adaptive layer would be for:
 | generator dishonesty | does not exist (avoidance 1.000, citation 1.000) |
 
 So the LangGraph case now rests on **two cases** in v3's `multi_hop`, not on
-the retrieval quality story. That is a much smaller mandate than it looked
+the retrieval quality story.
+
+> **Measured afterwards (2026-08, `../202608_graph_controller/`): the two cases
+> were real, and they were not the point.** The controller fixed `mh3-01` and
+> `mh3-04`'s URLs as predicted, and it also took out_of_scope avoidance from
+> 0.750 to 1.000 and citation precision from 0.975 to 1.000 — neither of which
+> this table anticipated, because both failures only surface under phrasings
+> none of these sets contain. The `chit-chat / out-of-scope cost` row turned
+> out to be a *quality* row, not a cost row. That is a much smaller mandate than it looked
 like before this round, and it should be sized against real traffic — which
 remains unmeasurable (12 root runs in LangSmith retention).
 
@@ -290,15 +298,47 @@ question, `mh3-01`'s is in the first answer.
    the entity in the wrong *relation*. A working retry must be relation-aware.
    `BM25_STOPWORD_DF` remains implemented and rejected for the candidate-set
    half of it.
-3. **Coverage gate + one hop-2 re-retrieval** (`mh3-01`, `mh3-04`). Still the
-   only place a cycle is warranted, and now the *whole* case for LangGraph:
-   two cases. Gate on v3 `multi_hop` fact ≥ 0.90 / url ≥ 0.85, `unanswerable`
+3. ~~**Coverage gate + one hop-2 re-retrieval**~~ — **DONE, adopted and
+   deployed** as an LLM controller graph; see
+   `../202608_graph_controller/REPORT.md`. `mh3-01` 0.33/0.50 -> **1.00/1.00**
+   in two hops, `mh3-04` recovers both prerequisite URLs, v3 `multi_hop` url
+   0.600 -> 0.933. Every gate below was met except cost.
+
+   Two things this analysis got wrong, both worth keeping:
+
+   - **It sized the mandate at two cases, and the two cases were not where
+     most of the value was.** The *route* half — which this section treated as
+     a separate, lower-priority cost optimization (step 4) — closed an
+     out-of-scope leak worth avoidance 0.750 -> 1.000 and cut retrieval on 25%
+     of turns. That leak was invisible to every set here because all of them
+     phrase out-of-scope questions tidily; it only appears under
+     `"how do i center a div in css"`.
+   - **The guard proposed here ("the in-process entity index answers 'does
+     this exist at all' for free") is not the guard that was needed.** With an
+     LLM gate the risk is not a missing entity, it is a controller that keeps
+     asking for something vague, or one that answers a follow-up from
+     conversation history and drops the citation. Both needed deterministic
+     backstops in code (`graph.is_concrete`, and the has-history rule); two
+     rounds of prompt revision got the second from five cases to two, not to
+     zero. A prompt states a preference; only code states a requirement.
+
+   Original text of this item, for the record: *Still the
+   only place a cycle is warranted, and now the whole case for LangGraph:
+   two cases.* Gate on v3 `multi_hop` fact ≥ 0.90 / url ≥ 0.85, `unanswerable`
    holding at 1.000 (the loop must never fire on a question the corpus cannot
    answer — the in-process entity index answers "does this exist at all" for
    free), cost +10% max, p95 measured **on the VM** +1 s max.
-4. **`route` field in the existing rewriter JSON schema** (A-branch). No extra
-   API call — the same conditional-schema pattern as `MQ_BM25_KEYWORDS`. Gate
-   on zero mis-routes across all three sets.
+4. ~~**`route` field in the existing rewriter JSON schema**~~ (A-branch) —
+   **DONE in substance, differently in form.** Routing shipped as the
+   controller's first call (`GRAPH_ROUTER_MODE=node`), not as a rewriter field,
+   because the same node also serves the coverage gate and one contract for
+   both was simpler than two. The gate this item asked for was met exactly:
+   **zero mis-routes across all four sets** (v1 40, v2 25, v3 24, rough 16).
+
+   The cheap form proposed here is still unbuilt and is now the main cost
+   lever: `GRAPH_ROUTER_MODE=inline` folds the route onto the rewriter's
+   existing JSON call and would remove one round trip per turn (~0.9 s,
+   ~$0.0002), which is most of what the adopted design overspends.
 
 Two findings that fall out of this round and belong to neither step:
 
