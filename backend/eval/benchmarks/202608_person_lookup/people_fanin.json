@@ -1,0 +1,283 @@
+{
+  "aggregate": {
+    "label": "fanin",
+    "flags": {
+      "SIGNATURE_DEMOTE": false,
+      "FANIN_RETAIN": true,
+      "FANIN_RETAIN_N": 6,
+      "RERANKER_TOP_K": 10
+    },
+    "n": 6,
+    "n_errors": 0,
+    "recall": 0.4821,
+    "precision": 0.7917,
+    "f1": 0.5417,
+    "ctx_instr": 2.6667,
+    "ctx_sig": 5.6667,
+    "ctx_sources": 8.3333,
+    "input_tokens": 6760.5,
+    "cost_usd": 0.0056,
+    "exact_sets": 2
+  },
+  "cases": [
+    {
+      "id": "pl-01",
+      "person": "Chi En Huang",
+      "question": "What courses does Chi En Huang teach at BCIT?",
+      "truth": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_taught": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "said_reviewed": [
+        "COMP 2800",
+        "COMP 4911",
+        "COMP 4959"
+      ],
+      "correct": [
+        "COMP 3725",
+        "COMP 3981",
+        "COMP 4983",
+        "COMP 4989"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 4,
+      "ctx_sig": 6,
+      "ctx_docs": 10,
+      "ctx_sources": 7,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 5853,
+      "cost_usd": 0.004752,
+      "latency_s": 16.34,
+      "answer_excerpt": "Chi En Huang teaches several computing courses at BCIT across different terms and delivery formats. \n\nHere are the courses taught by Chi En Huang:\n- **COMP 4983 (Machine Learning)**: A 5-credit full-time course running from September 2, 2025 to December 12, 2025.\n- **COMP 3981 (Introduction to Artificial Intelligence)**: A 5-credit full-time course running from January 5, 2026 to April 24, 2026.\n- **COMP 3725 (Data Communications for CST)**: A 5-credit part-time flexible learning course offered in Spring/Summer 2026.\n- **COMP 4989 (Selected Topics in Artificial Intelligence and Machine Learning)**: A 5-credit full-time course running from September 2, 2025 to December 12, 2025.\n\nAdditionally, Chi En Huang is listed as the Program Head who reviewed and approved outlines for several other courses in the Computer Systems Technology program, such as COMP 4911, COMP 2800, and COMP 4959.\n\nSources:\n- https://www.bcit.ca/outlines/20253044906/\n- https://www.bcit.ca/outlines/20261085360/\n- https://www.bcit.ca/courses/data-communications-for-cst-comp-3725/\n- https://www.bcit.ca/outlines/20253044907/\n- https://www.bcit.ca/outlines/20261019461/\n- https://www.bcit.ca/outlines/20261087576/\n- http",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-02",
+      "person": "Juan Azmitia",
+      "question": "What courses does Juan Azmitia teach at BCIT?",
+      "truth": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701",
+        "GLBL 9020"
+      ],
+      "said_taught": [
+        "GLBL 9020"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "GLBL 9020"
+      ],
+      "missed": [
+        "ACCG 5150",
+        "BSYS 1001",
+        "BSYS 2000",
+        "BUSA 8100",
+        "CREA 7030",
+        "FMGT 2701"
+      ],
+      "wrong": [],
+      "recall": 0.14285714285714285,
+      "precision": 1.0,
+      "ctx_instr": 1,
+      "ctx_sig": 1,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6385,
+      "cost_usd": 0.004603,
+      "latency_s": 4.24,
+      "answer_excerpt": "Juan Azmitia teaches the course **GLBL 9020 (Leading Global Teams)** at BCIT. \n\nHere are the details for that course based on the available documents:\n- **Course Details:** GLBL 9020 is a 3-credit full-time course running from September 3, 2024 to December 13, 2024, as part of the Graduate Certificate in Global Leadership program.\n- **Role at BCIT:** Aside from teaching, Juan Azmitia also serves as the Flexible Learning Coordinator for Operations Management, where he can be contacted regarding program advising, course waivers, and approvals.\n\nSources:\n- https://www.bcit.ca/outlines/20243048406/\n- https://www.bcit.ca/programs/operations-management-management-engineering-option-certificate-part-time-690bmcert/",
+      "f1": 0.25
+    },
+    {
+      "id": "pl-03",
+      "person": "Lynn Erickson",
+      "question": "What courses does Lynn Erickson teach at BCIT?",
+      "truth": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_taught": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "said_reviewed": [
+        "CENV 1101",
+        "CENV 4419"
+      ],
+      "correct": [
+        "CENV 0460",
+        "CENV 2203",
+        "CHSC 7147"
+      ],
+      "missed": [],
+      "wrong": [],
+      "recall": 1.0,
+      "precision": 1.0,
+      "ctx_instr": 4,
+      "ctx_sig": 6,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7032,
+      "cost_usd": 0.005621,
+      "latency_s": 4.92,
+      "answer_excerpt": "Lynn Erickson teaches several courses at BCIT within the School of Energy, primarily related to the Chemical & Environmental Technology and Mechanical Engineering programs. \n\nHere are the courses taught by Lynn Erickson based on the available documents:\n- **CENV 2203 (Materials Science and Technology)**: A 6.5-credit full-time course running from January 5, 2026 to May 22, 2026.\n- **CHSC 7147 (Materials Engineering)**: A 3-credit full-time course running from September 2, 2025 to December 12, 2025.\n- **CENV 0460 (Ethics for Technologists)**: A 4-hour full-time seminar and test course running from February 2, 2026 to February 13, 2026.\n\nAdditionally, Lynn Erickson serves as the Program Head who reviewed and approved outlines for other courses, such as CENV 1101 and CENV 4419, and is listed as a contact person for attendance and medical notifications in courses like CHEM 3409.\n\nSources:\n- https://www.bcit.ca/outlines/20261078002/\n- https://www.bcit.ca/outlines/20253034941/\n- https://www.bcit.ca/outlines/20261085828/\n- https://www.bcit.ca/outlines/20253037875/\n- https://www.bcit.ca/outlines/20253037058/\n- https://www.bcit.ca/outlines/20261078973/\n- https://www.bcit.ca/programs/chemica",
+      "f1": 1.0
+    },
+    {
+      "id": "pl-04",
+      "person": "Julia Alards-Tomalin",
+      "question": "What courses does Julia Alards-Tomalin teach at BCIT?",
+      "truth": [
+        "FNAM 1125",
+        "FNAM 2800",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "said_taught": [
+        "FNAM 2800"
+      ],
+      "said_reviewed": [
+        "FNAM 1135",
+        "FNAM 2100",
+        "FNAM 2400",
+        "FNAM 2700"
+      ],
+      "correct": [
+        "FNAM 2800"
+      ],
+      "missed": [
+        "FNAM 1125",
+        "FNAM 4450",
+        "RENR 1125"
+      ],
+      "wrong": [],
+      "recall": 0.25,
+      "precision": 1.0,
+      "ctx_instr": 1,
+      "ctx_sig": 8,
+      "ctx_docs": 10,
+      "ctx_sources": 9,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7095,
+      "cost_usd": 0.005847,
+      "latency_s": 10.68,
+      "answer_excerpt": "Julia Alards-Tomalin teaches or oversees courses at BCIT within the Forest and Natural Areas Management program. \n\nHere are the details for courses associated with Julia Alards-Tomalin:\n- **FNAM 2800 (Land Management Principles)**: A 3-credit full-time course running from January 05, 2026 to April 24, 2026, where she is listed as the course instructor.\n- **Program Head Approvals**: As the Program Head for Forest and Natural Areas Management, she has also reviewed and approved course outlines for other courses such as FNAM 1135, FNAM 2100, FNAM 2700, and FNAM 2400.\n\nSources:\n- https://www.bcit.ca/outlines/20261093010/\n- https://www.bcit.ca/programs/forest-and-natural-areas-management-diploma-full-time-7485dipma/\n- https://www.bcit.ca/outlines/20243042377/\n- https://www.bcit.ca/outlines/20251082749/\n- https://www.bcit.ca/outlines/20261093009/\n- https://www.bcit.ca/outlines/20261093007/",
+      "f1": 0.4
+    },
+    {
+      "id": "pl-05",
+      "person": "Victor Mendez",
+      "question": "What courses does Victor Mendez teach at BCIT?",
+      "truth": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "said_taught": [],
+      "said_reviewed": [
+        "ELEX 4618",
+        "ELEX 4651",
+        "ELEX 4653",
+        "ELEX 4699",
+        "ELEX 7345",
+        "ELEX 7350",
+        "ELEX 7520",
+        "ELEX 7660",
+        "ELEX 7820"
+      ],
+      "correct": [],
+      "missed": [
+        "ELEX 2610",
+        "ELEX 4610",
+        "ELEX 7720",
+        "XINC 3110",
+        "XINC 3120"
+      ],
+      "wrong": [],
+      "recall": 0.0,
+      "precision": 0.0,
+      "ctx_instr": 0,
+      "ctx_sig": 10,
+      "ctx_docs": 10,
+      "ctx_sources": 10,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 6985,
+      "cost_usd": 0.006371,
+      "latency_s": 13.79,
+      "answer_excerpt": "Based on the available documents, Victor Mendez is listed as a Program Head who has reviewed and approved course outlines for the Electrical Engineering program rather than serving as the primary classroom instructor. \n\nHere are the details associated with Victor Mendez in the provided records:\n- **Program Head Role:** He is the Program Head for the Bachelor of Engineering in Electrical Engineering full-time program.\n- **Course Outlines Approved:** He has reviewed and approved course outlines for several electrical engineering courses, including ELEX 4651, ELEX 7345, ELEX 4699, ELEX 7660, ELEX 4618, ELEX 7820, ELEX 7350, ELEX 7520, and ELEX 4653. \n\nSources:\n- https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng/\n- https://www.bcit.ca/outlines/20261084011/\n- https://www.bcit.ca/outlines/20261073779/\n- https://www.bcit.ca/outlines/20261084028/\n- https://www.bcit.ca/outlines/20261084033/\n- https://www.bcit.ca/outlines/20261074825/\n- https://www.bcit.ca/outlines/20253043410/\n- https://www.bcit.ca/outlines/20261082582/\n- https://www.bcit.ca/outlines/20253036276/\n- https://www.bcit.ca/outlines/20261084023/",
+      "f1": 0.0
+    },
+    {
+      "id": "pl-06",
+      "person": "Jason Young",
+      "question": "What courses does Jason Young teach at BCIT?",
+      "truth": [
+        "OPMT 1103",
+        "OPMT 1710",
+        "OPMT 2175",
+        "OPMT 2510",
+        "OPMT 4341",
+        "TDMT 4410"
+      ],
+      "said_taught": [
+        "BUSA 4950",
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 4341"
+      ],
+      "said_reviewed": [],
+      "correct": [
+        "OPMT 1103",
+        "OPMT 2175",
+        "OPMT 4341"
+      ],
+      "missed": [
+        "OPMT 1710",
+        "OPMT 2510",
+        "TDMT 4410"
+      ],
+      "wrong": [
+        "BUSA 4950"
+      ],
+      "recall": 0.5,
+      "precision": 0.75,
+      "ctx_instr": 6,
+      "ctx_sig": 3,
+      "ctx_docs": 10,
+      "ctx_sources": 6,
+      "fanin_swaps": 0,
+      "n_subqueries": 1,
+      "input_tokens": 7213,
+      "cost_usd": 0.006616,
+      "latency_s": 12.12,
+      "answer_excerpt": "Jason Young teaches several courses at BCIT related to Operations Management, along with serving in administrative and coordinating roles.\n\nHere are the courses taught or instructed by Jason Young based on the available documents:\n- **OPMT 1103 (Introduction to Operations Management)**: A 4-credit full-time course running from September 2, 2025 to December 12, 2025.\n- **OPMT 2175 (Process Improvement for Operations Management)**: A 2.5-credit full-time course running from January 5, 2026 to March 6, 2026.\n- **OPMT 4341 (Theory of Constraints)**: A 2-credit full-time course running from January 5, 2026 to March 6, 2026.\n\nAdditionally, Jason Young is involved with **BUSA 4950 (Business Consulting Projects)** as an instructor and advisor, and serves as the Program Head for Operations & Management Engineering, approving various course outlines and reviewing student projects.\n\nSources:\n- https://www.bcit.ca/outlines/20253032458/\n- https://www.bcit.ca/outlines/20261073808/\n- https://www.bcit.ca/outlines/20261084930/\n- https://www.bcit.ca/programs/operations-and-management-engineering-diploma-full-time-6915dipma/\n- https://www.bcit.ca/outlines/20261084646/\n- https://www.bcit.ca/outlines/2",
+      "f1": 0.6
+    }
+  ]
+}

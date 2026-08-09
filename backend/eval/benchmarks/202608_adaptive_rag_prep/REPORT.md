@@ -280,12 +280,16 @@ question, `mh3-01`'s is in the first answer.
    identity, which the gate did not anticipate needing. v1 0.966/0.940 →
    0.991/0.991 (×2), v2 unchanged at 1.000/1.000, v3 fact 0.844 → 0.911,
    cheaper on all three.
-2. **Fan-in retention** (`mh3-02`: "which courses require ACIT 1515?"). Three
-   sibling outlines all deserve a context slot and `RERANKER_TOP_K=10` keeps
-   one. Not a hop and not a graph — a retention rule for candidates that share
-   a relation to the named entity. `BM25_STOPWORD_DF` is the ready-made lever
-   for the candidate-set half of it and is already implemented, rejected only
-   because the rerank re-orders afterwards.
+2. ~~**Fan-in retention**~~ — **built and rejected**; see
+   `../202608_person_lookup/REPORT.md` §5. The premise stated here, that the
+   pooled rerank "spreads the context budget across unrelated sources", was
+   already false when this was written: §4's own adoptions made the context
+   fully on-entity, and measurement shows all ten context chunks mention the
+   entity for `mh3-02` itself. `FANIN_RETAIN` fired 0 times in 12 runs because
+   its quota is satisfied by the very chunks it was meant to evict — they name
+   the entity in the wrong *relation*. A working retry must be relation-aware.
+   `BM25_STOPWORD_DF` remains implemented and rejected for the candidate-set
+   half of it.
 3. **Coverage gate + one hop-2 re-retrieval** (`mh3-01`, `mh3-04`). Still the
    only place a cycle is warranted, and now the *whole* case for LangGraph:
    two cases. Gate on v3 `multi_hop` fact ≥ 0.90 / url ≥ 0.85, `unanswerable`

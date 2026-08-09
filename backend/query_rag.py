@@ -9,6 +9,7 @@ import logging
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
+from collections import Counter
 from typing import List, Optional, Set
 
 from langchain_postgres import PGVector
@@ -100,6 +101,12 @@ from config import (
     RESPONSE_CACHE_TTL_S,
     BM25_STOPWORD_DF,
     DEDUP_FULL_CONTENT,
+    SIGNATURE_DEMOTE,
+    FANIN_RETAIN,
+    FANIN_RETAIN_N,
+    PERSON_SCOPED_RETRIEVAL,
+    PERSON_SCOPED_K,
+    PERSON_SCOPED_MAX_SOURCES,
     ENTITY_SCOPED_RETRIEVAL,
     ENTITY_SCOPED_K,
     ENTITY_SCOPED_MAX_ENTITIES,
@@ -124,6 +131,55 @@ def _is_simple_query(question: str) -> bool:
 # 4-5 char number-led code (apprenticeship codes like "AATE 1GAP" exist — the
 # same shape build_pgvector.py parses out of outline filenames).
 COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})\s*-?\s*(\d[A-Za-z0-9]{3,4})\b")
+
+# Capitalised runs that are not the thing a question is fanning out over.
+_FANIN_NOISE = frozenset(
+    "bcit what which who whose when where how does do did is are the a an "
+    "and or of for in at to i he she they teach teaches taught course courses "
+    "class classes instructor instructors program programs".split()
+)
+# Hyphens and apostrophes are part of the word: without them "Julia
+# Alards-Tomalin" truncates to "Julia Alards" and "Sean O'Brien" to "Sean O",
+# neither of which is in any index — measured as a silent miss on pl-04.
+_NAME_WORD = r"[A-Z][a-z]*\.?(?:[-'’][A-Za-z]+)*"
+_PROPER_RUN_RE = re.compile(rf"\b([A-Z][a-z]+(?:[-'’][A-Za-z]+)*(?:\s+{_NAME_WORD}){{0,3}})")
+
+# The two ways the corpus states "this person instructs this course": the
+# outline template's Instructor Details table and the course page's Instructor
+# heading. Approval signatures and program-page coordinator lists deliberately
+# do NOT match — they are other relations about the same person.
+INSTRUCTOR_NAME_RE = re.compile(
+    r"(?:### Instructor Details\s*\nName \|\s*([^\n|]+)"
+    r"|### Instructor\s*\n([^\n]+))"
+)
+
+
+def _instructor_names(text: str):
+    for m in INSTRUCTOR_NAME_RE.finditer(text):
+        yield (m.group(1) or m.group(2) or "").strip()
+
+
+def _fanin_key(question: str) -> Optional[str]:
+    """The literal a fan-in question is spread over: a course code if the
+    question names one (mh3-02's "ACIT 1515"), else the longest capitalised
+    proper-noun run that is not a question word (a person's name).
+
+    Deliberately literal: the retention rule swaps a chunk in only when the
+    chunk *contains* this string, so a loose key would retain noise. A
+    question with neither shape returns None and retention is a no-op — which
+    is most traffic.
+    """
+    m = COURSE_CODE_RE.search(question)
+    if m:
+        return f"{m.group(1).upper()} {m.group(2).upper()}"
+    runs = []
+    for r in _PROPER_RUN_RE.findall(question):
+        words = [w for w in r.split() if w.lower().strip(".") not in _FANIN_NOISE]
+        if len(words) >= 2:
+            runs.append(" ".join(words))
+    return max(runs, key=len) if runs else None
+
+
 # Words too generic to identify a program on their own.
 _PROGRAM_STOPWORDS = frozenset(
     "the a an and or of for in at to bcit program programs diploma degree "
@@ -225,11 +281,12 @@ class BCITChatbot:
         )
         self._entity_index = (
             self._build_entity_index(self.documents)
-            if (self.documents and ENTITY_SCOPED_RETRIEVAL) else None
+            if (self.documents and (ENTITY_SCOPED_RETRIEVAL or PERSON_SCOPED_RETRIEVAL)) else None
         )
         if self._entity_index:
             print(f"Entity index: {len(self._entity_index['codes']):,} course codes, "
-                  f"{len(self._entity_index['programs']):,} programs\n")
+                  f"{len(self._entity_index['programs']):,} programs, "
+                  f"{len(self._entity_index.get('people') or {}):,} instructors\n")
 
     @staticmethod
     def _build_entity_index(documents) -> dict:
@@ -270,7 +327,41 @@ class BCITChatbot:
                 # 2+ distinctive tokens, else the match would be a coin flip.
                 if len(tokens) >= 2:
                     programs.append((frozenset(tokens), source))
-        return {"codes": codes, "programs": programs}
+
+        people = BCITChatbot._build_person_index(documents) if PERSON_SCOPED_RETRIEVAL else {}
+        return {"codes": codes, "programs": programs, "people": people}
+
+    @staticmethod
+    def _build_person_index(documents) -> dict:
+        """instructor name -> the sources that name them AS THE INSTRUCTOR.
+
+        The same trick as `codes`, on the one relation the corpus states
+        structurally: outlines carry `### Instructor Details / Name | X` and
+        course pages carry `### Instructor\\nX`. Nothing else counts — a person
+        also appears in approval signatures (62 chunks for one name against 4
+        instructor chunks) and in program-page coordinator lists, and those are
+        *different relations* about the same person. Indexing only the
+        instructor relation is what makes "what does X teach" answerable
+        without the ranker having to infer role from boilerplate.
+
+        Names come from the corpus, so a query naming someone who instructs
+        nothing simply misses the index and the arm stays off.
+        """
+        people = {}
+        for doc in documents:
+            source = doc.metadata.get("source")
+            if not source:
+                continue
+            for name in _instructor_names(doc.page_content):
+                # Two-to-four capitalised words: a name, not "Instructor to
+                # provide" or an email line the template also puts here.
+                words = name.split()
+                if not 2 <= len(words) <= 4 or not all(w[:1].isupper() for w in words):
+                    continue
+                people.setdefault(name.lower(), {"name": name, "sources": []})
+                if source not in people[name.lower()]["sources"]:
+                    people[name.lower()]["sources"].append(source)
+        return people
 
     def _detect_entities(self, text: str) -> List[tuple]:
         """(label, [sources]) for every corpus entity this text names.
@@ -289,6 +380,20 @@ class BCITChatbot:
                 seen.add(key)
                 found.append((key, index["codes"][key]))
 
+        # A person named in the question, matched against instructors the
+        # corpus actually has. Checked before programs: "what does Lynn
+        # Erickson teach" should scope to her courses, not to a program page
+        # whose title happens to share two tokens with the question.
+        for name_run in _PROPER_RUN_RE.findall(text):
+            words = [w for w in name_run.split() if w.lower().strip(".") not in _FANIN_NOISE]
+            for n in range(len(words), 1, -1):
+                cand = " ".join(words[:n]).lower()
+                entry = index.get("people", {}).get(cand)
+                if entry and cand not in seen:
+                    seen.add(cand)
+                    found.append((entry["name"], entry["sources"]))
+                    break
+
         tokens = _norm_tokens(text)
         for title_tokens, source in index["programs"]:
             if title_tokens <= tokens:
@@ -302,9 +407,20 @@ class BCITChatbot:
         """Entity-scoped hits for one query, in entity order."""
         if not (self._entity_index and hasattr(self.base_retriever, "scoped_search")):
             return []
+        people = self._entity_index.get("people") or {}
         out = []
         for label, sources in self._detect_entities(query):
-            hits = self.base_retriever.scoped_search(query, sources, ENTITY_SCOPED_K)
+            if label.lower() in people:
+                # A person is one entity spread over many sources, the mirror
+                # of a course (one entity, two sources). Breadth over depth:
+                # take the best PERSON_SCOPED_K chunks from each of up to
+                # PERSON_SCOPED_MAX_SOURCES sources, so a 7-course instructor
+                # contributes 7 pages instead of 8 chunks of one page.
+                sources = sources[:PERSON_SCOPED_MAX_SOURCES]
+                k = PERSON_SCOPED_K
+            else:
+                k = ENTITY_SCOPED_K
+            hits = self.base_retriever.scoped_search(query, sources, k)
             for doc in hits:
                 doc.metadata["scoped_entity"] = label
             out.extend(hits)
@@ -414,6 +530,7 @@ class BCITChatbot:
                 stopword_df=BM25_STOPWORD_DF,
                 scoped=ENTITY_SCOPED_RETRIEVAL,
                 dedup_full=DEDUP_FULL_CONTENT,
+                signature_demote=SIGNATURE_DEMOTE,
             )
             # Shared fan-out pool for sub-query retrieval: 2 concurrent
             # requests x 4 sub-queries fits SQLAlchemy's default pool (5+10).
@@ -828,6 +945,54 @@ class BCITChatbot:
         selected.sort(key=sort_key, reverse=True)
         return selected
 
+    def _apply_fanin_retention(self, question, selected, rest, sort_key):
+        """Fan-in retention: a question whose answer is spread across N sibling
+        pages ("which courses require ACIT 1515?", "what does X teach?") has N
+        correct sources, and the pooled rerank hands the context budget to
+        whichever chunks score best globally — often several from one page, or
+        pages unrelated to the named entity.
+
+        Rule: for the literal the question names, guarantee up to
+        FANIN_RETAIN_N *distinct sources* whose chunk text actually contains
+        that literal. Swap each in against the lowest-scored selected chunk
+        that neither mentions the literal nor is its source's only
+        representative, so this can only redistribute slots, never shrink
+        coverage of a source already held.
+
+        Returns the number of swaps, for the meta line.
+        """
+        key = _fanin_key(question)
+        if not key:
+            return selected, 0
+        held = {d.metadata.get("source") for d in selected}
+        mentions = lambda d: key.lower() in d.page_content.lower()
+        n_key_sources = len({d.metadata.get("source") for d in selected if mentions(d)})
+        swaps = 0
+        for cand in [d for d in rest if mentions(d)]:
+            if n_key_sources >= FANIN_RETAIN_N:
+                break
+            src = cand.metadata.get("source")
+            if src in held:
+                continue
+            counts = Counter(d.metadata.get("source") for d in selected)
+            evict = next(
+                (d for d in sorted(selected, key=sort_key)
+                 if not mentions(d) and counts[d.metadata.get("source")] > 1),
+                None,
+            )
+            if evict is None:
+                evict = next((d for d in sorted(selected, key=sort_key) if not mentions(d)), None)
+            if evict is None:
+                break
+            selected.remove(evict)
+            selected.append(cand)
+            held.discard(evict.metadata.get("source"))
+            held.add(src)
+            n_key_sources += 1
+            swaps += 1
+        selected.sort(key=sort_key, reverse=True)
+        return selected, swaps
+
     def _select_from_pool(
             self,
             question: str,
@@ -877,11 +1042,14 @@ class BCITChatbot:
         if any("rerank_score" not in d.metadata for d in scored):
             return scored[:RERANKER_TOP_K], sel_info  # API fallback: interleaved order
 
+        score_key = lambda d: d.metadata.get("rerank_score", 0.0)
+        rest = scored[RERANKER_TOP_K:]
         selected = self._apply_coverage_quota(
-            scored[:RERANKER_TOP_K], scored[RERANKER_TOP_K:],
-            sub_queries, origins,
-            lambda d: d.metadata.get("rerank_score", 0.0),
+            scored[:RERANKER_TOP_K], rest, sub_queries, origins, score_key,
         )
+        if FANIN_RETAIN:
+            selected, swaps = self._apply_fanin_retention(question, selected, rest, score_key)
+            sel_info["fanin_swaps"] = swaps
         return selected, sel_info
 
     def _cached_turn(self, question, memory, answer, turn_start) -> dict:
@@ -1000,6 +1168,7 @@ class BCITChatbot:
         rerank_skipped = False
         pool_consensus = None
         n_scoped_candidates = 0
+        fanin_swaps = 0
         if use_fanout:
             docs, mq_stats = self._multi_query_retrieve(standalone_question, sub_queries, extras)
             t_retrieve = mq_stats["retrieve_s"]
@@ -1008,6 +1177,7 @@ class BCITChatbot:
             n_scoped_candidates = mq_stats.get("n_scoped_candidates", 0)
             rerank_skipped = mq_stats.get("rerank_skipped", False)
             pool_consensus = mq_stats.get("pool_consensus")
+            fanin_swaps = mq_stats.get("fanin_swaps", 0)
             n_rerank_calls = 0
             if USE_RERANKING and self.reranker and not rerank_skipped:
                 n_rerank_calls = len(sub_queries) if RERANK_MODE == "per_subquery" else 1
@@ -1093,6 +1263,7 @@ class BCITChatbot:
             "use_fanout": use_fanout,
             "n_candidates": n_candidates,
             "n_scoped_candidates": n_scoped_candidates,
+            "fanin_swaps": fanin_swaps,
             "n_rerank_calls": n_rerank_calls,
             "context_stats": context_stats,
             "t_rewrite": t_rewrite,
@@ -1171,6 +1342,7 @@ class BCITChatbot:
             "retrieval_mode": "fanout" if prep["use_fanout"] else "single",
             "n_candidates": prep["n_candidates"],
             "n_scoped_candidates": prep["n_scoped_candidates"],
+            "fanin_swaps": prep["fanin_swaps"],
             "cached": False,
             **prep["context_stats"],
         }

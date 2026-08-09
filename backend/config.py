@@ -205,6 +205,43 @@ ENTITY_SCOPED_K = _env_int("ENTITY_SCOPED_K", 8)
 # bounding how much of the rerank pool one turn's entities may claim, not CPU.
 ENTITY_SCOPED_MAX_ENTITIES = _env_int("ENTITY_SCOPED_MAX_ENTITIES", 3)
 
+# Drop the outline approval-signature lines from the text the BM25 index is
+# fit on (documents are served untouched, as with BM25_INDEX_AUG — no
+# re-embed). The block is 3,279 chunks / 3.3% of the corpus and its only
+# non-boilerplate content is a staff name in a role that is NOT the course's
+# instructor, so it hijacks person queries: "Chi En Huang" occurs in 62
+# signature chunks against 4 Instructor Details chunks, and a "what does X
+# teach" query is outvoted 15:1 by chunks about a different relation.
+SIGNATURE_DEMOTE = _env_bool("SIGNATURE_DEMOTE", False)
+
+# Fan-in retention: guarantee up to N DISTINCT sources whose text contains the
+# literal the question names (course code, or a person's name). Targets the
+# query shape whose answer is spread over N sibling pages, where the pooled
+# rerank otherwise spends the budget globally — mh3-02 ("which courses require
+# ACIT 1515?", 3 correct outlines, 1 kept) and person lookups.
+FANIN_RETAIN = _env_bool("FANIN_RETAIN", False)
+FANIN_RETAIN_N = _env_int("FANIN_RETAIN_N", 6)
+
+# Person-scoped retrieval: index instructor names -> the sources that name
+# them AS THE INSTRUCTOR, and scope a retrieval arm to those when a question
+# names one. The corpus states this relation structurally (outline
+# "Instructor Details / Name |", course page "### Instructor"), the same kind
+# of convention the course-code index is built on. Only the instructor
+# relation is indexed — approval signatures and program-page coordinator
+# lists name the same people in relations that answer a different question.
+# ADOPTED 2026-08. Guard set (15 cases incl. held-out instructors and
+# adversarial "who is the Program Head" lookups): F1 0.576 -> 0.968, two
+# held-out complete failures fixed, 0 inventions, adversarial cases intact.
+# v3 (24 cases) url 0.676 -> 0.867 x2 with the 21 older cases byte-identical;
+# v1 (n=39) and the v2 band unchanged. Fires only when a question names one of
+# the indexed instructors - 0 of 86 regression questions - so it is a no-op on
+# everything else.
+PERSON_SCOPED_RETRIEVAL = _env_bool("PERSON_SCOPED_RETRIEVAL", True)
+# Breadth over depth, the mirror of ENTITY_SCOPED_K: a person is one entity
+# spread over many pages, so take few chunks from each of many sources.
+PERSON_SCOPED_K = _env_int("PERSON_SCOPED_K", 2)
+PERSON_SCOPED_MAX_SOURCES = _env_int("PERSON_SCOPED_MAX_SOURCES", 12)
+
 RETRIEVAL_FETCH_K = _env_int("RETRIEVAL_FETCH_K", 50)
 MMR_LAMBDA = _env_float("MMR_LAMBDA", 0.87)
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50

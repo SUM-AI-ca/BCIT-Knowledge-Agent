@@ -17,6 +17,7 @@ runbooks live in the [repository README](../README.md).
 | `deploy.sh` | Deploy backend modules to the production VM — use this rather than ad-hoc `gcloud` commands |
 | `drop_old_collection.sh` | One-off: drop a retired pgvector collection through the proxy |
 | `eval/` | Golden sets, offline harness, re-scorer, archived benchmarks |
+| `eval/person_lookup.py` | "what courses does X teach?" harness — set comparison, because substring matching cannot see role misattribution |
 
 Setup, credentials, and the Cloud SQL proxy are covered under
 [Local development](../README.md#local-development). Dependencies are pinned in
