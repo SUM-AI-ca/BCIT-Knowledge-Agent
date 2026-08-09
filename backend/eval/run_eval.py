@@ -331,7 +331,11 @@ def run_case(bot, case, make_memory, judge_llm=None):
     # without the corpus, which is luck, not retrieval.
     if case.get("expected_route"):
         record["expected_route"] = case["expected_route"]
-        record["route_ok"] = (result.get("route") == case["expected_route"])
+        # Only comparable when a route was actually produced. With USE_GRAPH
+        # off there is no routing stage, and scoring every case as a mismatch
+        # would report the baseline as 16/16 mis-routed rather than N/A.
+        if result.get("route"):
+            record["route_ok"] = (result["route"] == case["expected_route"])
     record.update(score_case(case, result))
     if judge_llm is not None:
         try:

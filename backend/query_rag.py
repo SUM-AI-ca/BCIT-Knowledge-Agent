@@ -1365,7 +1365,8 @@ class BCITChatbot:
 
         graph = self._controller_graph_cls(
             self._controller_call, initial_retrieve, hop_retrieve)
-        final = graph.run(question, chat_history)
+        final = graph.run(question, chat_history,
+                          has_history=chat_history != "No previous conversation.")
 
         docs = final.get("docs") or []
         action = final.get("action", "answer")

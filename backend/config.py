@@ -601,6 +601,12 @@ Rules:
   "answer" on iteration 0 is for greetings, thanks, and questions about what
   you can do. "refuse" on iteration 0 is for questions that are not about BCIT
   at all.
+- THE CONVERSATION HISTORY IS NOT A SOURCE. If the history already contains the
+  fact the student is asking about, the answer is still "retrieve". Every BCIT
+  fact in an answer has to be backed by a cited BCIT page, and a turn that
+  skipped retrieval has nothing to cite. Follow-up questions - "what are its
+  entrance requirements?", "how much does it cost?", "what about the
+  prerequisites?" - are retrieve, always.
 - FROM ITERATION 1 ONWARD, if the evidence shows the corpus does not hold the
   answer, choose "answer". The answer will say the information is unavailable.
   Searching again will not produce something the corpus does not contain.

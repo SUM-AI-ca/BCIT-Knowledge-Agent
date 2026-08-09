@@ -53,6 +53,7 @@ class TurnState(TypedDict, total=False):
     """State threaded through the graph. `docs` is the accumulator."""
     question: str
     chat_history: str
+    has_history: bool
     hop: int
     action: str
     reason: str
@@ -219,6 +220,22 @@ class ControllerGraph:
         # Guard 1: a hop must name a target. Guard 2: a hop must have somewhere
         # to search. Either failing means the honest move is to answer with
         # what is already in hand.
+        # Guard 0: a follow-up turn may not answer from conversation history.
+        # Measured: four v1 follow-ups and one v2 follow-up routed `direct`
+        # because the history already held the fact, and every one of them lost
+        # its Sources section (url_hit 1.000 -> 0.000) — `fu-06` also lost the
+        # fact itself, replying "I need to look that up" about something it had
+        # just been told. Two prompt revisions cut this from five cases to two
+        # but not to zero, and the model's reasoning is not wrong on its own
+        # terms ("the history explicitly states COMP 1712"): it simply does not
+        # own the requirement that every BCIT fact carries a citation. That
+        # requirement is ours, so it is enforced here. A social follow-up
+        # ("thanks!") now pays one retrieval; a factual one keeps its sources.
+        if action == "answer" and hop == 0 and state.get("has_history"):
+            logger.info("follow-up turn: `answer` upgraded to `retrieve` "
+                        "(history is not a citable source)")
+            action = "retrieve"
+
         if action == "retrieve" and hop > 0:
             if not is_concrete(missing):
                 logger.info("hop %d downgraded to answer: missing=%r not concrete", hop, missing)
@@ -288,7 +305,8 @@ class ControllerGraph:
 
     # -- entry point ---------------------------------------------------------
 
-    def run(self, question: str, chat_history: str) -> TurnState:
+    def run(self, question: str, chat_history: str,
+            has_history: bool = False) -> TurnState:
         """Returns the settled state. `action` is the verdict the caller acts
         on: "retrieve" can never survive to here — the edge turns an exhausted
         loop into END, and the caller reads `docs` for whatever was gathered.
@@ -297,6 +315,7 @@ class ControllerGraph:
             {
                 "question": question,
                 "chat_history": chat_history,
+                "has_history": has_history,
                 "hop": 0,
                 "docs": [],
                 "sub_queries": [],
