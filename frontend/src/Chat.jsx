@@ -137,7 +137,7 @@ const STORAGE_KEY = "bcit-chat-v1";
 
 const GREETING = {
   id: "1",
-  text: "Hello! I'm the BCIT AI Advisor. Ask me about programs, courses, admissions, or campus life.",
+  text: "Hello! I'm the BCIT Knowledge Agent. Ask me about programs, courses, admissions, or campus life.",
   sender: "assistant"
 };
 
@@ -389,7 +389,7 @@ export default function Chat() {
     <main id="chat-container">
       <header className="chat-header">
         <div>
-          <h1>BCIT AI Advisor</h1>
+          <h1>BCIT Knowledge Agent</h1>
           <p>An independent AI guide to BCIT&apos;s public web pages</p>
         </div>
         <a href="/" className="chat-home-link">

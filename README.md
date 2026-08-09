@@ -1,4 +1,4 @@
-# BCIT AI Advisor — RAG Chatbot
+# BCIT Knowledge Agent — RAG Chatbot
 
 **Live: [https://bcitai.ca](https://bcitai.ca)** — tech blog landing page at `/`, chatbot at [`/chat`](https://bcitai.ca/chat).
 

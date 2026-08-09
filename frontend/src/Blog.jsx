@@ -8,7 +8,7 @@ export default function Blog() {
   return (
     <div className="blog-page">
       <nav className="blog-nav">
-        <span className="blog-nav-brand">BCIT AI Advisor</span>
+        <span className="blog-nav-brand">BCIT Knowledge Agent</span>
         <a href="/chat" className="blog-nav-cta">
           <MessageSquare size={17} />
           <span>Open Chatbot</span>
@@ -371,7 +371,7 @@ export default function Blog() {
 
       <footer className="blog-footer">
         <p>
-          BCIT AI Advisor · Retrieval-augmented chatbot built on Google Cloud
+          BCIT Knowledge Agent · Retrieval-augmented chatbot built on Google Cloud
           (Gemini Enterprise Agent Platform, Cloud SQL pgvector) · Not
           affiliated with, endorsed by, or sponsored by the British Columbia
           Institute of Technology
