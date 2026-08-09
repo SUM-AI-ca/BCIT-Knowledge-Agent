@@ -126,7 +126,10 @@ the same upgraded dependency stack with `USE_GRAPH=false`.
 | v2 (25) | 1.0000 -> **1.0000** | 1.0000 -> 0.9800 | - | 1.000 -> 1.000 | **0** | 0.0041 -> 0.0062 |
 | v3 (24) | 0.8667 -> **0.9778** | 0.9148 -> **0.9426** | 1.000 -> **1.000** | 0.975 -> **1.000** | **0** | 0.0040 -> 0.0045 |
 | rough (16) | 0.3333 -> **0.8333** | 0.6944 -> **0.9444** | 0.750 -> **1.000** | 1.000 -> 0.980 | **0** | 0.0039 -> 0.0047 |
-| person guard (11) | F1 0.9861 -> **0.9861**, name_hit 1.000, invented 1 — unchanged |
+
+The person guard set (11 cases) is unchanged: F1 **0.9861**, `name_hit`
+1.000, 0 named-the-instructor-instead, 1 invention — identical to the figures
+the person round shipped.
 
 `multi_hop`, the class this round existed for: url **0.600 -> 0.933**,
 fact 0.733 -> 0.833.
