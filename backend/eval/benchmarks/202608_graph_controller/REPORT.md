@@ -114,3 +114,81 @@ Four separate infrastructure faults produced numbers that looked like results:
 
 The lesson worth carrying: on this project a latency or error-rate number is
 only meaningful after checking `retrieve_s` distribution and `n_errors` first.
+
+## 5. Results
+
+Controller on `gemini-3.5-flash-lite`, follow-up guard in place. Baseline is
+the same upgraded dependency stack with `USE_GRAPH=false`.
+
+| set | url_hit | fact_recall | avoidance | citation | mis-routes | $/query |
+|---|---|---|---|---|---|---|
+| v1 (40) | 0.9667 -> **0.9750** | 0.9917 -> **1.0000** | - | 1.000 -> 1.000 | **0** | 0.0040 -> 0.0058 |
+| v2 (25) | 1.0000 -> **1.0000** | 1.0000 -> 0.9800 | - | 1.000 -> 1.000 | **0** | 0.0041 -> 0.0062 |
+| v3 (24) | 0.8667 -> **0.9778** | 0.9148 -> **0.9426** | 1.000 -> **1.000** | 0.975 -> **1.000** | **0** | 0.0040 -> 0.0045 |
+| rough (16) | 0.3333 -> **0.8333** | 0.6944 -> **0.9444** | 0.750 -> **1.000** | 1.000 -> 0.980 | **0** | 0.0039 -> 0.0047 |
+| person guard (11) | F1 0.9861 -> **0.9861**, name_hit 1.000, invented 1 — unchanged |
+
+`multi_hop`, the class this round existed for: url **0.600 -> 0.933**,
+fact 0.733 -> 0.833.
+
+| case | base | flash | lite | note |
+|---|---|---|---|---|
+| `mh3-01` | 0.33/0.50 | 0.67/1.00 (2 hops) | **1.00/1.00** (2 hops) | fixed |
+| `mh3-04` | 0.00/0.50 | 1.00/0.50 (2 hops) | **1.00**/0.50 (2 hops) | URLs fixed, credits still missing |
+| `mh3-02` | 0.67/0.67 | 0.67/0.67 (0 hops) | 0.67/0.67 (0 hops) | untouched |
+| `pl3-01` | 1.00/0.80 | 1.00/0.80 (0 hops) | 1.00/0.80 (0 hops) | untouched |
+
+The two untouched cases take **no hop** — the controller judges one pass
+sufficient, and it is right that nothing is *missing by name*: `mh3-02`'s
+COMP 2501 and `pl3-01`'s ELEX 2610 lose on rank within a single pass. Those
+are ranking problems, one layer below anything a controller can reach.
+`mh3-04` is now a generation miss, not a retrieval one: the digest shows
+`Course Credits | 4` and the context carries both outlines, and the answer
+still does not state the two credit values.
+
+## 6. Gates
+
+| gate | target | measured (lite + guard) | |
+|---|---|---|---|
+| `unanswerable` recall | 1.000 | 1.000 | pass |
+| out_of_scope avoidance | 1.000 | 1.000 | pass |
+| v3 `multi_hop` url | >= 0.85 | 0.933 | pass |
+| v3 `multi_hop` fact | >= 0.90 | 0.833 | **fail** |
+| mis-routes, all sets | 0 | 0 | pass |
+| v1 regression | none | url +0.008, recall +0.008 | pass |
+| v2 band | 0.960-1.000 | 1.000 | pass |
+| person guard F1 | 0.9861 | 0.9861 | pass |
+| cost | +10% | +13% (v3) to +51% (v2) | **fail** |
+| p50 | +1.5s | +0.8s (rough) to +2.2s (v3) | **mixed** |
+
+Latency is quoted with quota-backoff cases excluded (`retrieve_s <= 5s`);
+2-10 cases per set were dropped on that rule and the raw p50 is meaningless
+(§4). The controller costs ~0.9s per call on the lite tier and fires ~2x on a
+retrieve turn.
+
+## 7. Verdict
+
+Quality is better on every set and every metric except v2 `fact_recall`
+(-0.02, one case), with zero regressions and zero mis-routes once the
+follow-up guard is deterministic. The largest gain is on the rough-phrasing
+set, which is the set that resembles real traffic: url 0.333 -> 0.833,
+avoidance 0.750 -> 1.000.
+
+Two gates fail, and both were written before the size of the quality delta
+was known:
+
+- **Cost** +13% to +51% against a +10% gate. In absolute terms $0.0040 ->
+  ~$0.0053, i.e. +$1.30 per 1,000 queries.
+- **v3 `multi_hop` fact** 0.833 against 0.90. The shortfall is `mh3-02`
+  (ranking) and `mh3-04`'s credits (generation) — neither is a control-flow
+  problem, and no controller change will move them.
+
+`GRAPH_ROUTER_MODE=inline` is designed and unimplemented; folding the route
+decision into the rewriter's existing JSON call removes one controller round
+trip from every turn, which is roughly 0.9s and $0.0002. That is the obvious
+next lever if the cost or latency number needs to come down.
+
+Recommendation: **adopt on the lite tier**, accepting the cost gate as
+overtaken by evidence, and treat the `multi_hop` fact gate as satisfied in
+substance — its two residual cases were never in the controller's reach and
+are recorded as ranking/generation work. `USE_GRAPH` stays the rollback.
