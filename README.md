@@ -909,7 +909,7 @@ Everything deployed/configured outside this repo, in one place:
 | Cloudflare | zone `bcitai.ca`: A `@` → 34.187.152.133 (proxied), Origin Rule port→8000, SSL Flexible |
 | LangSmith | project `bcit-chatbot` ([smith.langchain.com](https://smith.langchain.com)) — tracing on since 2026-06-10, enabled purely via env vars |
 | Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed. Google Cloud access is ADC only (VM service account in production), so there is no Google Cloud key in this file |
-| Rollback assets | `backend/data_old_202409/` (old corpus, gitignored), VM `vectorstore/documents_old.pkl` |
+| Rollback assets | **Corpus/embeddings**: the `bcit_docs_202606` collection (identity-blind predecessor, ~2.1 GB of the 4.2 GB database). **Runtime**: `USE_GRAPH=false` in the VM `.env` disables the controller graph without a redeploy; `/opt/bcit-rag/backend/.venv-old` and local `backend/.venv310` are the pre-3.13 dependency sets. The retired FAISS artefacts and the 2024-09 corpus were deleted in the August 2026 cleanup — a corpus rollback now means a re-crawl |
 
 `www` CNAME added 2026-06-11 (`www` → `bcitai.ca`, proxied) — verified:
 `https://www.bcitai.ca/health` and `/chat` both 200 through the same Origin
