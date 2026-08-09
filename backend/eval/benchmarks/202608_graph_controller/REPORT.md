@@ -244,6 +244,15 @@ project:
    — with uvicorn present and installed — and crash-looped on 203/EXEC.
    `uv venv --relocatable` writes a `/bin/sh` wrapper instead.
 
+3. **`sudo uv venv --python 3.13` puts the interpreter under `/root`.** This
+   one bit during the Python 3.13 upgrade that followed. The venv built, and
+   the import smoke passed *because it ran under sudo* — root can read what
+   the service account cannot. systemd then failed with `Permission denied`
+   on `.venv/bin/python`. The fix is to install the interpreter as the
+   ordinary user, hand uv its explicit path, and run the smoke as the service
+   account; `deploy.sh` now does all three and refuses a `/root` interpreter
+   outright.
+
 Between them production was down or degraded for about six minutes. The
 rollback path worked as designed (`mv .venv .venv-bad && mv .venv-old .venv`),
 but it restored a venv without langgraph while `config.py` had `USE_GRAPH=true`

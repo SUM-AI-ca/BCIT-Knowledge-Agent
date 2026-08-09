@@ -91,7 +91,7 @@ for f in "${FILES[@]}"; do
 done
 
 echo "==> uploading"
-[ "$DEPS" = 1 ] && SRC+=("backend/requirements.txt" "backend/.python-version")
+[ "$DEPS" = 1 ] && SRC+=("backend/requirements.txt" "backend/.python-version" "backend/pyproject.toml")
 gcloud compute scp "${SRC[@]}" "$VM:/tmp/" --zone="$ZONE" --project="$PROJECT"
 
 if [ "$DEPS" = 1 ]; then
@@ -109,12 +109,28 @@ if [ "$DEPS" = 1 ]; then
     # here: this line was hard-coded to 3.10 once and had to be edited during
     # the 3.13 upgrade, which is exactly the kind of edit that gets forgotten.
     # uv downloads the interpreter if the VM does not have it.
-    PYVER=\$(tr -d '[:space:]' < $REMOTE/.python-version 2>/dev/null || true)
-    PYVER=\${PYVER:-3.13}
     cd $REMOTE
     df -h /opt | tail -1
     sudo cp /tmp/requirements.txt $REMOTE/requirements.txt
     sudo cp /tmp/.python-version $REMOTE/.python-version
+    sudo cp /tmp/pyproject.toml $REMOTE/pyproject.toml
+    # Read AFTER the copy above, not before: the first version of this block
+    # read the file it had not shipped yet, silently fell back to the default,
+    # and only worked because the default happened to match.
+    PYVER=\$(tr -d '[:space:]' < $REMOTE/.python-version)
+    test -n \$PYVER
+    # Install the interpreter as the invoking user, then hand uv its explicit
+    # path. `sudo uv venv --python 3.13` instead downloads it into ROOT's uv
+    # store, and the resulting venv records
+    # home = /root/.local/share/uv/python/... — which the service account
+    # cannot traverse. The venv builds, the import smoke passes under sudo,
+    # and systemd then dies with 'Permission denied' on the interpreter.
+    # Took production down on 2026-08-09; the guard below is the check that
+    # would have caught it before the swap.
+    \$UV python install \$PYVER >/dev/null 2>&1 || true
+    PYBIN=\$(\$UV python find \$PYVER)
+    case \"\$PYBIN\" in /root/*) echo \"interpreter under /root: \$PYBIN\"; exit 1;; esac
+    test -r \"\$PYBIN\"
     # The modules have to be in place before the smoke, or it imports the
     # code that is being replaced — and a brand new module like graph.py is
     # not there at all, so the smoke would fail for the wrong reason.
@@ -132,10 +148,13 @@ if [ "$DEPS" = 1 ]; then
     # though uvicorn is installed, and the service crash-loops. Learned the
     # hard way on 2026-08-09; --relocatable emits a /bin/sh wrapper that
     # resolves the interpreter relative to the script instead.
-    sudo \$UV venv --relocatable --python \$PYVER .venv-new
+    sudo \$UV venv --relocatable --python \"\$PYBIN\" .venv-new
     sudo \$UV pip install -q --python .venv-new/bin/python -r requirements.txt
     test -x .venv-new/bin/uvicorn
-    sudo .venv-new/bin/python -c 'import query_rag, graph, session_memory; print(\"import smoke OK\")'
+    # As the service account, not root: root can read interpreters the
+    # service cannot, which is exactly how the /root interpreter slipped past.
+    sudo -u \$(stat -c %U $REMOTE/server.py) .venv-new/bin/python -c 'import query_rag, graph, session_memory; print(\"import smoke OK\")'
+    sudo -u \$(stat -c %U $REMOTE/server.py) .venv-new/bin/uvicorn --version
     sudo rm -rf .venv-old
     sudo mv .venv .venv-old && sudo mv .venv-new .venv
     echo 'venv swapped; previous one kept at .venv-old'

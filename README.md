@@ -827,6 +827,14 @@ Environment quirks that cost time once — don't rediscover them:
   `sudo cp/mv`. Upload and install in quick succession (a staged file in `/tmp`
   vanished once between commands). After unit-file edits systemd warns until
   `daemon-reload`.
+- **`sudo uv venv --python <version>` builds an interpreter the service cannot
+  execute.** uv downloads it into *root's* store, and the venv records
+  `home = /root/.local/share/uv/python/...`, which the service account cannot
+  traverse. Everything looks fine — the venv builds, and an import smoke run
+  under `sudo` passes, because root *can* read it — and then systemd fails with
+  `Permission denied` on the interpreter. Install the interpreter as the
+  ordinary user first (`uv python install 3.13`), pass `uv venv` its explicit
+  path, and run the smoke as the service account, not as root.
 - **A renamed venv breaks every console script.** Python entry points hard-code
   the interpreter path in their shebang, so `mv .venv-new .venv` silently
   invalidates all of them; systemd then reports the *script* as missing when it
