@@ -1,0 +1,2945 @@
+{
+ "label": "v2_route",
+ "timestamp": "2026-08-09T08:21:28.195685+00:00",
+ "golden_set": "golden_set_v2.jsonl",
+ "wall_time_s": 695.9,
+ "config_snapshot": {
+  "GEMINI_MODEL": "gemini-3.5-flash-lite",
+  "REWRITER_MODEL": "gemini-3.6-flash",
+  "JUDGE_MODEL": "gemini-3.6-flash",
+  "GEMINI_TEMPERATURE": 0.05,
+  "GEMINI_MAX_OUTPUT_TOKENS": 2048,
+  "GEMINI_THINKING_BUDGET": 0,
+  "MEMORY_WINDOW_K": 5,
+  "USE_HYBRID_SEARCH": true,
+  "HYBRID_ALPHA": 0.48,
+  "USE_RERANKING": true,
+  "RERANKER_CANDIDATES": 25,
+  "RERANKER_TOP_K": 10,
+  "RERANK_SCORE_THRESHOLD": 0.0,
+  "MIN_CONTEXT_CHUNKS": 3,
+  "CONTEXT_MODE": "chunks",
+  "NEIGHBOR_RADIUS": 2,
+  "CONTEXT_MAX_CHARS": 24000,
+  "MULTI_QUERY_ENABLED": true,
+  "MAX_SUB_QUERIES": 4,
+  "MQ_DENSE_K": 12,
+  "MQ_BM25_K": 12,
+  "MQ_CANDIDATES_PER_SUBQUERY": 15,
+  "MQ_POOL_CAP": 40,
+  "MQ_MIN_CHUNKS_PER_SUBQUERY": 2,
+  "RERANK_MODE": "pooled",
+  "REWRITE_MAX_OUTPUT_TOKENS": 512,
+  "REWRITE_THINKING_BUDGET": 0,
+  "HISTORY_MAX_ANSWER_CHARS": 1500,
+  "STRIP_SOURCES_FROM_HISTORY": true,
+  "RETRIEVAL_TOP_K": 10,
+  "RETRIEVAL_DENSE_K": 23,
+  "RETRIEVAL_BM25_K": 23,
+  "PG_COLLECTION": "bcit_docs_202606da",
+  "PRICE_GEN_INPUT_PER_M": 0.3,
+  "PRICE_GEN_OUTPUT_PER_M": 2.5,
+  "PRICE_REWRITE_INPUT_PER_M": 1.5,
+  "PRICE_REWRITE_OUTPUT_PER_M": 7.5,
+  "PRICE_RERANK_PER_CALL": 0.001,
+  "PRICE_EMBED_PER_QUERY": 1e-05,
+  "RRF_K": 60,
+  "MMR_LAMBDA": 0.87,
+  "RETRIEVAL_FETCH_K": 50,
+  "BM25_INDEX_AUG": true,
+  "RERANK_SKIP_CONSENSUS": 0.0,
+  "MQ_BM25_KEYWORDS": false,
+  "HYDE_MODE": "off",
+  "REWRITE_SKIP_SIMPLE": false,
+  "REWRITE_SKIP_MAX_WORDS": 12,
+  "SIGNATURE_DEMOTE": false,
+  "FANIN_RETAIN": false,
+  "PERSON_SCOPED_RETRIEVAL": true,
+  "USE_GRAPH": true,
+  "GRAPH_MODEL": "gemini-3.6-flash",
+  "GRAPH_MAX_HOPS": 3,
+  "GRAPH_DIGEST_CHARS": 400,
+  "GRAPH_HOP_TOP_K": 20,
+  "GRAPH_HOP_CONTEXT_MAX_CHARS": 48000,
+  "GRAPH_ROUTER_MODE": "node",
+  "PRICE_GRAPH_INPUT_PER_M": 1.5,
+  "PRICE_GRAPH_OUTPUT_PER_M": 7.5
+ },
+ "aggregate": {
+  "n_cases": 25,
+  "n_errors": 0,
+  "url_hit_rate": 0.96,
+  "url_full_hit_rate": 0.96,
+  "fact_recall": 1.0,
+  "avoidance": null,
+  "n_cases_with_forbidden": 0,
+  "citation_precision": 1.0,
+  "n_answers_without_citation": 1,
+  "input_tokens_mean": 6412.6,
+  "input_tokens_p50": 5824,
+  "input_tokens_with_rewrite_mean": 6765.44,
+  "output_tokens_mean": 180.48,
+  "reasoning_tokens_mean": 0.0,
+  "cache_read_tokens_mean": 0.0,
+  "est_cost_usd_mean": 0.011271439999999999,
+  "est_cost_usd_total": 0.281786,
+  "latency_p50_s": 21.03,
+  "latency_p95_s": 56.391,
+  "max_tokens_truncations": 0,
+  "decompose_fallbacks": 0,
+  "judge_faithfulness_mean": null,
+  "judge_completeness_mean": null,
+  "judge_flagged_cases": 0,
+  "judge_errors": 0,
+  "n_context_docs_mean": 11.6,
+  "rerank_skip_rate": 0.0,
+  "rewrite_skip_rate": 0.0,
+  "rerank_calls_mean": 1.64,
+  "route_counts": {
+   "retrieve": 24,
+   "direct": 1
+  },
+  "hop_rate": 0.36,
+  "graph_hops_mean": 0.68,
+  "graph_calls_mean": 2.64,
+  "graph_input_tokens_mean": 3251.76,
+  "graph_output_tokens_mean": 187.2,
+  "route_mismatches": 1,
+  "n_cases_with_expected_route": 25
+ },
+ "per_category": {
+  "follow_up": {
+   "n_cases": 4,
+   "n_errors": 0,
+   "url_hit_rate": 0.75,
+   "url_full_hit_rate": 0.75,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 1,
+   "input_tokens_mean": 4396.25,
+   "input_tokens_p50": 5866,
+   "input_tokens_with_rewrite_mean": 4825.0,
+   "output_tokens_mean": 94.75,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.007292,
+   "est_cost_usd_total": 0.029168,
+   "latency_p50_s": 21.769,
+   "latency_p95_s": 59.687,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 7.5,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 0.75,
+   "route_counts": {
+    "retrieve": 3,
+    "direct": 1
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 1.75,
+   "graph_input_tokens_mean": 2236.25,
+   "graph_output_tokens_mean": 95.0,
+   "route_mismatches": 1,
+   "n_cases_with_expected_route": 4
+  },
+  "messy": {
+   "n_cases": 6,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 7137.0,
+   "input_tokens_p50": 5737,
+   "input_tokens_with_rewrite_mean": 7466.833333333333,
+   "output_tokens_mean": 247.66666666666666,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.013505999999999997,
+   "est_cost_usd_total": 0.08103599999999998,
+   "latency_p50_s": 25.32,
+   "latency_p95_s": 34.223,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 13.5,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 2.3333333333333335,
+   "route_counts": {
+    "retrieve": 6
+   },
+   "hop_rate": 0.6666666666666666,
+   "graph_hops_mean": 1.3333333333333333,
+   "graph_calls_mean": 3.3333333333333335,
+   "graph_input_tokens_mean": 3875.8333333333335,
+   "graph_output_tokens_mean": 236.66666666666666,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 6
+  },
+  "multipart": {
+   "n_cases": 4,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6709.0,
+   "input_tokens_p50": 6303,
+   "input_tokens_with_rewrite_mean": 7059.0,
+   "output_tokens_mean": 222.25,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.011611,
+   "est_cost_usd_total": 0.046444,
+   "latency_p50_s": 26.145,
+   "latency_p95_s": 26.237,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 11.5,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.5,
+   "route_counts": {
+    "retrieve": 4
+   },
+   "hop_rate": 0.25,
+   "graph_hops_mean": 0.5,
+   "graph_calls_mean": 2.5,
+   "graph_input_tokens_mean": 3281.75,
+   "graph_output_tokens_mean": 195.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 4
+  },
+  "outline": {
+   "n_cases": 4,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 5336.5,
+   "input_tokens_p50": 6063,
+   "input_tokens_with_rewrite_mean": 5674.0,
+   "output_tokens_mean": 120.75,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.008596,
+   "est_cost_usd_total": 0.034384,
+   "latency_p50_s": 12.942,
+   "latency_p95_s": 28.941,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 4
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 2470.25,
+   "graph_output_tokens_mean": 133.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 4
+  },
+  "program_admission": {
+   "n_cases": 7,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 7389.428571428572,
+   "input_tokens_p50": 5824,
+   "input_tokens_with_rewrite_mean": 7729.0,
+   "output_tokens_mean": 182.14285714285714,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.012964857142857143,
+   "est_cost_usd_total": 0.090754,
+   "latency_p50_s": 12.889,
+   "latency_p95_s": 56.391,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 13.285714285714286,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 2.0,
+   "route_counts": {
+    "retrieve": 7
+   },
+   "hop_rate": 0.5714285714285714,
+   "graph_hops_mean": 1.0,
+   "graph_calls_mean": 3.0,
+   "graph_input_tokens_mean": 3726.5714285714284,
+   "graph_output_tokens_mean": 224.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 7
+  }
+ },
+ "cases": [
+  {
+   "id": "ol2-01",
+   "category": "outline",
+   "question": "How many credits is ACIT 1515 Scripting for IT and does it have prerequisites?",
+   "follow_up": null,
+   "standalone_question": "How many credits is ACIT 1515 Scripting for IT and does it have prerequisites?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4030,
+    "output_tokens": 149,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 339,
+    "rewrite_output_tokens": 82,
+    "graph_input_tokens": 2264,
+    "graph_output_tokens": 133,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008108,
+   "timings": {
+    "rewrite_s": 1.353,
+    "retrieve_s": 1.959,
+    "rerank_s": 0.618,
+    "generate_s": 4.692,
+    "total_s": 12.829
+   },
+   "prior_turns": [],
+   "answer_excerpt": "ACIT 1515 Scripting for IT is worth 4 credits and has no prerequisites.\n\n* **Credits:** The course grants 4.0 credits.\n* **Prerequisites:** There are no prerequisites required to take this course, and it assumes no previous programming experience.\n\nSources:\n- https://www.bcit.ca/outlines/20261089204/\n- https://www.bcit.ca/courses/scripting-for-it-acit-1515/\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "How many credits is ACIT 1515 Scripting for IT?",
+    "What are the prerequisites for ACIT 1515 Scripting for IT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13879,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 29,
+   "n_scoped_candidates": 12,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check the course details for ACIT 1515 credit value and prerequisites.",
+     "queries": [
+      "ACIT 1515 Scripting for IT credits prerequisites"
+     ],
+     "missing": [
+      "ACIT 1515 credits",
+      "ACIT 1515 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence clearly states ACIT 1515 is 4 credits and has no prerequisites required.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089204",
+    "https://www.bcit.ca/courses/scripting-for-it-acit-1515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/courses/python-scripting-for-industrial-network-cybersecurity-acit-1516"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol2-02",
+   "category": "outline",
+   "question": "What are the prerequisites for ACIT 2515 Object Oriented Programming?",
+   "follow_up": null,
+   "standalone_question": "What are the prerequisites for ACIT 2515 Object Oriented Programming?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4364,
+    "output_tokens": 149,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 334,
+    "rewrite_output_tokens": 43,
+    "graph_input_tokens": 2141,
+    "graph_output_tokens": 113,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007574,
+   "timings": {
+    "rewrite_s": 1.1,
+    "retrieve_s": 1.925,
+    "rerank_s": 2.114,
+    "generate_s": 21.569,
+    "total_s": 28.941
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To register for ACIT 2515 Object Oriented Programming, you need to meet the following prerequisite:\n\n* A grade of at least 50% in ACIT 1515, or a grade of at least 60% in COMP 1516.\n\nSources:\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for ACIT 2515 Object Oriented Programming?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13425,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 30,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Prerequisite information for ACIT 2515 needs to be retrieved from the BCIT corpus.",
+     "queries": [
+      "ACIT 2515 prerequisites"
+     ],
+     "missing": [
+      "ACIT 2515 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly states the prerequisites for ACIT 2515.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol2-03",
+   "category": "outline",
+   "question": "What is the minimum passing grade for ACIT 2515 and how many credits is it?",
+   "follow_up": null,
+   "standalone_question": "What is the minimum passing grade for ACIT 2515 and how many credits is it?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6889,
+    "output_tokens": 105,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 339,
+    "rewrite_output_tokens": 77,
+    "graph_input_tokens": 2916,
+    "graph_output_tokens": 142,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009864,
+   "timings": {
+    "rewrite_s": 1.335,
+    "retrieve_s": 2.055,
+    "rerank_s": 5.679,
+    "generate_s": 1.22,
+    "total_s": 12.942
+   },
+   "prior_turns": [],
+   "answer_excerpt": "ACIT 2515 has a minimum passing grade of 50% and is worth 4 credits.\n\n* **Minimum Passing Grade:** 50%\n* **Credits:** 4 (or 4.0)\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What is the minimum passing grade for ACIT 2515?",
+    "How many credits is ACIT 2515 worth?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23932,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 30,
+   "n_scoped_candidates": 16,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to look up ACIT 2515 to find its minimum passing grade and credit value.",
+     "queries": [
+      "ACIT 2515 course outline minimum passing grade credits"
+     ],
+     "missing": [
+      "ACIT 2515 passing grade",
+      "ACIT 2515 credits"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence contains the minimum passing grade (50%) and course credits (4) for ACIT 2515.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/outlines/20261089228",
+    "https://www.bcit.ca/outlines/20261089225",
+    "https://www.bcit.ca/outlines/20261089232",
+    "https://www.bcit.ca/outlines/20261089231"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol2-04",
+   "category": "outline",
+   "question": "When does ACIT 1515 start in the January 2026 term?",
+   "follow_up": null,
+   "standalone_question": "When does ACIT 1515 start in the January 2026 term?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6063,
+    "output_tokens": 80,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 51,
+    "graph_input_tokens": 2560,
+    "graph_output_tokens": 144,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008838,
+   "timings": {
+    "rewrite_s": 1.137,
+    "retrieve_s": 2.09,
+    "rerank_s": 2.092,
+    "generate_s": 1.964,
+    "total_s": 9.693
+   },
+   "prior_turns": [],
+   "answer_excerpt": "ACIT 1515 starts on January 5, 2026.\n\n- **Start Date:** January 05, 2026\n- **End Date:** April 24, 2026\n\nSources:\n- https://www.bcit.ca/outlines/20261089204/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "When does ACIT 1515 start in the January 2026 term?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22054,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check the start date for ACIT 1515 in the January 2026 term.",
+     "queries": [
+      "ACIT 1515 January 2026 schedule start date"
+     ],
+     "missing": [
+      "ACIT 1515 January 2026 start date"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence explicitly states that ACIT 1515 starts on January 05, 2026 for that term.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089204",
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/courses/scripting-for-it-acit-1515",
+    "https://www.bcit.ca/outlines/20261089215"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-01",
+   "category": "program_admission",
+   "question": "What are the entrance requirements for the Computer Information Technology diploma at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements for the Computer Information Technology diploma at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 17,
+   "usage": {
+    "input_tokens": 9085,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 333,
+    "rewrite_output_tokens": 55,
+    "graph_input_tokens": 5317,
+    "graph_output_tokens": 322,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.017418,
+   "timings": {
+    "rewrite_s": 1.047,
+    "retrieve_s": 2.223,
+    "rerank_s": 2.44,
+    "generate_s": 1.239,
+    "total_s": 12.303
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To enter the Computer Information Technology (CIT) diploma program at BCIT, applicants must meet the established entrance requirements and are accepted on a first-qualified basis while space remains. \n\nThe specific entrance requirements are:\n- **English Language Proficiency:** Category 2 – English Studies 12 with a minimum of 67%, or an equivalent qualification.\n- **Mathematics:** One of the following courses: Pre-Calculus 12 (minimum 67%), Foundations of Math 12 (minimum 73%), or other acceptable BC and Yukon courses.\n\nSources:\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the entrance requirements for the Computer Information Technology diploma at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 39045,
+   "n_context_sources": 6,
+   "n_chunks_kept": 17,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 84,
+   "n_scoped_candidates": 9,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Search for the entrance requirements for the Computer Information Technology diploma program at BCIT.",
+     "queries": [
+      "Computer Information Technology diploma entrance requirements",
+      "CIT diploma entrance requirements BCIT"
+     ],
+     "missing": [
+      "Computer Information Technology diploma entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The specific entrance requirement details for the Computer Information Technology diploma were cut off in the evidence.",
+     "queries": [
+      "Computer Information Technology diploma entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology entrance requirements details"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The page for the CIT program was found, but the specific course requirements were truncated.",
+     "queries": [
+      "Computer Information Technology diploma Entrance requirements English Math 5540dipma"
+     ],
+     "missing": [
+      "Computer Information Technology diploma specific entrance requirements"
+     ],
+     "n_docs_seen": 15
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The exact English and Math course requirements for the CIT program were cut off in chunk one.",
+     "queries": [
+      "Computer Information Technology diploma 5540dipma entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology full entrance requirements English Math"
+     ],
+     "n_docs_seen": 17
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/admission/entrance-requirements",
+    "https://www.bcit.ca/programs/computer-information-systems-administration-diploma-full-time-1930dipma",
+    "https://www.bcit.ca/programs/business-information-technology-management-diploma-full-time-6235dipma",
+    "https://www.bcit.ca/programs/technology-teacher-education-diploma-full-time-605ddipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-02",
+   "category": "program_admission",
+   "question": "Which science courses are required to get into the Biomedical Engineering Technology diploma?",
+   "follow_up": null,
+   "standalone_question": "Which science courses are required to get into the Biomedical Engineering Technology diploma?",
+   "finish_reason": "STOP",
+   "n_context_docs": 20,
+   "usage": {
+    "input_tokens": 11311,
+    "output_tokens": 260,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 332,
+    "rewrite_output_tokens": 39,
+    "graph_input_tokens": 4885,
+    "graph_output_tokens": 302,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.017436,
+   "timings": {
+    "rewrite_s": 1.161,
+    "retrieve_s": 16.936,
+    "rerank_s": 0.732,
+    "generate_s": 1.637,
+    "total_s": 26.303
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To enter the Biomedical Engineering Technology diploma program, you must meet specific high school or post-secondary science requirements in both **Chemistry** and **Physics** (along with English and Math). \n\nHere are the required science courses and acceptable equivalents (each requiring a minimum grade of 67%):\n\n*   **Chemistry:** Choose one of the following:\n    *   Chemistry 11 or Chemistry 12\n    *   CHEM 0110 (Chemistry 11 Challenge Exam – BCIT)\n    *   CHEM 0120 (Chemistry 12 Challenge Exam – BCIT)\n    *   3.0 credits of post-secondary chemistry from a recognized institution\n*   **Physics:** Choose one of the following:\n    *   Physics 12\n    *   PHYS 0312 (Technology Entry Physics 2 – BCIT)\n    *   PHYS 0120 (Physics 12 Challenge Exam – BCIT)\n    *   3.0 credits of post-secondary physics from a recognized institution\n\nSources:\n- https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Which science courses are required for admission to the Biomedical Engineering Technology diploma?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 47035,
+   "n_context_sources": 5,
+   "n_chunks_kept": 20,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 82,
+   "n_scoped_candidates": 7,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Identify the required science entrance courses for the Biomedical Engineering Technology diploma.",
+     "queries": [
+      "Biomedical Engineering Technology diploma entrance requirements science courses"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The existing evidence only details English and Math requirements, missing the specific science course requirements.",
+     "queries": [
+      "Biomedical Engineering Technology entrance requirements science",
+      "Biomedical Engineering Technology physics chemistry biology requirements"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology diploma science requirements"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The exact science course requirements for entering the Biomedical Engineering Technology diploma are still missing.",
+     "queries": [
+      "Biomedical Engineering Technology entrance requirements science Chemistry Physics"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology entrance requirements science prerequisites"
+     ],
+     "n_docs_seen": 16
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The retrieved evidence for Biomedical Engineering Technology requirements does not yet list the specific science prerequisites.",
+     "queries": [
+      "Biomedical Engineering Technology entrance requirements science prerequisites"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology science requirements"
+     ],
+     "n_docs_seen": 20
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma",
+    "https://www.bcit.ca/courses/physics-for-biomedical-engineering-technology-phys-1178",
+    "https://www.bcit.ca/admission/entrance-requirements/upgrading",
+    "https://www.bcit.ca/admission/entrance-requirements/equivalencies/canadian-high-school",
+    "https://www.bcit.ca/programs/technology-entry-te-full-time-0020nobcit"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-03",
+   "category": "program_admission",
+   "question": "What do conditionally selected applicants to the Biomedical Engineering Technology program have to complete before full acceptance?",
+   "follow_up": null,
+   "standalone_question": "What do conditionally selected applicants to the Biomedical Engineering Technology program have to complete before full acceptance?",
+   "finish_reason": "STOP",
+   "n_context_docs": 14,
+   "usage": {
+    "input_tokens": 9786,
+    "output_tokens": 127,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 336,
+    "rewrite_output_tokens": 61,
+    "graph_input_tokens": 3673,
+    "graph_output_tokens": 196,
+    "graph_calls": 3
+   },
+   "est_cost_usd": 0.013204,
+   "timings": {
+    "rewrite_s": 1.07,
+    "retrieve_s": 2.186,
+    "rerank_s": 2.269,
+    "generate_s": 3.343,
+    "total_s": 12.889
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Conditionally selected applicants to the Biomedical Engineering Technology program must complete several specific requirements before receiving full acceptance.\n\n* **Criminal Record Check:** Required due to practicum involvement with vulnerable populations.\n* **Immunization Review:** Must be submitted to Student Health Services, as immunization is mandatory.\n* **Mandatory BMET Program Admission Forum:** Must attend one session before September to learn about the curriculum, meet faculty and students, and tour labs.\n\nSources:\n- https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What do conditionally selected applicants to the Biomedical Engineering Technology program have to complete before full acceptance?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 43344,
+   "n_context_sources": 6,
+   "n_chunks_kept": 14,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 2,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 56,
+   "n_scoped_candidates": 6,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 1,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to search for admission requirements for conditionally selected applicants in Biomedical Engineering Technology.",
+     "queries": [
+      "Biomedical Engineering Technology conditional acceptance requirements",
+      "Biomedical Engineering Technology admission requirements"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology conditional acceptance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The specific conditional acceptance requirements for Biomedical Engineering Technology are missing from current evidence.",
+     "queries": [
+      "Biomedical Engineering Technology Step 3 Conditionally selected applicants"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology conditional acceptance requirements"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "answer",
+     "reason": "The retrieved program page contains all entrance and application requirements for Biomedical Engineering Technology.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 14
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma",
+    "https://www.bcit.ca/programs/prosthetics-and-orthotics-diploma-full-time-7100diplt",
+    "https://www.bcit.ca/programs/cardiac-sciences-cardiac-rhythm-device-technology-option-advanced-certificate-part-time-5330adcert",
+    "https://www.bcit.ca/programs/electroneurophysiology-diploma-full-time-5810dipma",
+    "https://www.bcit.ca/programs/cardiac-sciences-electrophysiology-technology-option-advanced-certificate-part-time-5320adcert",
+    "https://www.bcit.ca/programs/cardiovascular-perfusion-advanced-certificate-part-time-6820ascert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-04",
+   "category": "program_admission",
+   "question": "What post-secondary courses are part of the Academic Foundations requirement for BCIT's full-time Bachelor of Science in Nursing?",
+   "follow_up": null,
+   "standalone_question": "What post-secondary courses are part of the Academic Foundations requirement for BCIT's full-time Bachelor of Science in Nursing?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5824,
+    "output_tokens": 249,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 344,
+    "rewrite_output_tokens": 77,
+    "graph_input_tokens": 2392,
+    "graph_output_tokens": 124,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008991,
+   "timings": {
+    "rewrite_s": 1.42,
+    "retrieve_s": 2.401,
+    "rerank_s": 5.049,
+    "generate_s": 1.423,
+    "total_s": 13.026
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To meet the Academic Foundations requirement for BCIT's full-time Bachelor of Science in Nursing, applicants must complete 18.0 post-secondary credits with a minimum grade of 67% in each of the following specific courses:\n\n- **ENGL 1177** (Academic Writing) or an equivalent (3.0 credits). *Note: This course can also satisfy the English language proficiency requirement.*\n- **BHSC 1200** (Human Anatomy and Physiology) or an equivalent, completed within the past three years (6.0 credits).\n- **PSYC 1101** (Introductory Psychology 1) or an equivalent (3.0 credits).\n- **General Education electives** at a 100-level minimum across at least two different academic disciplines (6.0 credits).\n\nAll Academic Foundations courses must be completed prior to applying (midterm grades are not accepted), and official transcripts must be submitted with the online application.\n\nSources:\n- https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What post-secondary courses are part of the Academic Foundations requirement for BCIT's full-time Bachelor of Science in Nursing?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23331,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Search for the Academic Foundations course requirements for the Bachelor of Science in Nursing.",
+     "queries": [
+      "BCIT Bachelor of Science in Nursing Academic Foundations courses",
+      "BCIT Nursing entrance requirements Academic Foundations"
+     ],
+     "missing": [
+      "Bachelor of Science in Nursing Academic Foundations courses"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence details the post-secondary courses required for the Academic Foundations component of the BSN program.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn",
+    "https://www.bcit.ca/courses/nursing-as-a-profession-1-bsnc-0010",
+    "https://www.bcit.ca/courses/nursing-as-a-profession-1-bsnc-1040",
+    "https://www.bcit.ca/courses/nursing-preparation-bsnc-0100",
+    "https://www.bcit.ca/outlines/20262070342"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-05",
+   "category": "program_admission",
+   "question": "What minimum average does an ECET diploma graduate need to enter the Electrical Engineering degree at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What minimum average does an Electrical and Computer Engineering Technology (ECET) diploma graduate need to enter the Bachelor of Engineering in Electrical Engineering degree at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5047,
+    "output_tokens": 129,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 62,
+    "graph_input_tokens": 2504,
+    "graph_output_tokens": 133,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008572,
+   "timings": {
+    "rewrite_s": 1.259,
+    "retrieve_s": 2.403,
+    "rerank_s": 0.173,
+    "generate_s": 1.357,
+    "total_s": 7.751
+   },
+   "prior_turns": [],
+   "answer_excerpt": "ECET diploma graduates need a minimum average of 70% to apply for entry into the Electrical Engineering degree program at BCIT. \n\n* Admission to the Bachelor of Engineering (BEng) in Electrical Engineering is competitive based on GPA.\n* Applicants who have completed an ECET diploma must submit an application and meet the minimum requirement of a 70% average. \n* The highest GPAs each year are accepted into the program.\n\nSources:\n- https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What minimum average does an ECET diploma graduate need to enter the Electrical Engineering degree at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 19548,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 30,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check BCIT requirements for ECET diploma graduates entering the Electrical Engineering degree.",
+     "queries": [
+      "Electrical Engineering Bachelor of Engineering entrance requirements ECET diploma",
+      "ECET diploma to Electrical Engineering degree minimum average BCIT"
+     ],
+     "missing": [
+      "ECET diploma minimum average for Electrical Engineering degree entrance"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence explicitly states that ECET diploma graduates need a minimum average of 70% for entry.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng",
+    "https://www.bcit.ca/programs/beng-and-ecet-diploma-common-first-year",
+    "https://www.bcit.ca/programs/electrical-and-computer-engineering-technology-electrical-power-and-industrial-control-option-diploma-full-time-cooperative-education-534bdipma",
+    "https://www.bcit.ca/programs/electrical-and-computer-engineering-technology-telecommunications-and-networks-option-diploma-full-time-534cdipma",
+    "https://www.bcit.ca/programs/electrical-and-computer-engineering-technology-automation-and-instrumentation-option-diploma-full-time-534adipma",
+    "https://www.bcit.ca/programs/electrical-engineering"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-06",
+   "category": "program_admission",
+   "question": "If BCIT grants me transfer credit for a course, does my program tuition go down, and how must transcripts be submitted?",
+   "follow_up": null,
+   "standalone_question": "If BCIT grants me transfer credit for a course, does my program tuition go down, and how must transcripts be submitted?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5622,
+    "output_tokens": 277,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 343,
+    "rewrite_output_tokens": 81,
+    "graph_input_tokens": 2731,
+    "graph_output_tokens": 88,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009268,
+   "timings": {
+    "rewrite_s": 1.168,
+    "retrieve_s": 1.094,
+    "rerank_s": 5.271,
+    "generate_s": 1.974,
+    "total_s": 11.68
+   },
+   "prior_turns": [],
+   "answer_excerpt": "If BCIT grants you course credit, your full-time program tuition will not be reduced, though your course load will be lighter. To apply for transfer credit, your official transcripts must be sent directly to BCIT from the institution(s) you previously attended or dropped off in a sealed, stamped envelope (scans of transcripts are not accepted).\n\nHere are the details for each part:\n- **Tuition Impact:** If you are granted individual course credit in a full-time program, your tuition is not reduced. However, you will have a lighter course load, which may impact your eligibility for certain types of financial aid if you do not carry a minimum course load.\n- **Transcript Submission:** Official transcripts required for transfer credit must be sent directly from your previously attended institution(s) or dropped off at BCIT in an original, sealed, and stamped envelope. Scans are not accepted.\n\nSources:\n- https://www.bcit.ca/admission/entrance-requirements/transfer-credit/\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcit.ca/admission/how-to-apply/submitting-transcripts-supporting-documents/\n- https://www.bcit.ca/admission/entrance-requirements/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "Does BCIT program tuition decrease if transfer credit is granted for a course?",
+    "How to submit official transcripts to BCIT for transfer credit application?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21606,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 29,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need information on BCIT transfer credit tuition impact and transcript submission requirements.",
+     "queries": [
+      "BCIT transfer credit tuition fee reduction",
+      "BCIT submit official transcripts transfer credit"
+     ],
+     "missing": [
+      "BCIT transfer credit tuition impact",
+      "BCIT transcript submission instructions"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence provides clear information regarding tuition reduction for transfer credits and transcript submission guidelines.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/entrance-requirements/transfer-credit",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/programs/geographic-information-systems-bachelor-of-technology-full-time-part-time-8310btech",
+    "https://www.bcit.ca/programs/strategic-human-resources-management-diploma-full-time-6290dipma",
+    "https://www.bcit.ca/programs/cardiac-sciences-electrophysiology-technology-option-advanced-certificate-part-time-5320adcert",
+    "https://www.bcit.ca/admission/how-to-apply/submitting-transcripts-supporting-documents",
+    "https://www.bcit.ca/admission/entrance-requirements",
+    "https://www.bcit.ca/programs/electrical-and-computer-engineering-technology-electrical-power-and-industrial-control-option-diploma-full-time-cooperative-education-534bdipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa2-07",
+   "category": "program_admission",
+   "question": "What is the refund deadline for most full-time BCIT programs, and how much commitment fee is deducted from a domestic student's refund in a technology program?",
+   "follow_up": null,
+   "standalone_question": "What is the refund deadline for most full-time BCIT programs, and how much commitment fee is deducted from a domestic student's refund in a technology program?",
+   "finish_reason": "STOP",
+   "n_context_docs": 12,
+   "usage": {
+    "input_tokens": 5051,
+    "output_tokens": 81,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 351,
+    "rewrite_output_tokens": 95,
+    "graph_input_tokens": 4584,
+    "graph_output_tokens": 403,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.015865,
+   "timings": {
+    "rewrite_s": 1.863,
+    "retrieve_s": 43.648,
+    "rerank_s": 2.433,
+    "generate_s": 1.02,
+    "total_s": 56.391
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For most full-time BCIT programs, the latest acceptable withdrawal date to receive a refund is 10 business days after the start of class. \n\nFor a domestic student in a technology program, a $500 commitment fee is deducted from your refund.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What is the refund deadline for most full-time BCIT programs?",
+    "How much commitment fee is deducted from a domestic student's refund in a BCIT technology program?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 19216,
+   "n_context_sources": 3,
+   "n_chunks_kept": 12,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 55,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for full-time program refund deadlines and domestic commitment fee deductions at BCIT.",
+     "queries": [
+      "BCIT full time program refund deadline",
+      "BCIT domestic student commitment fee refund technology program"
+     ],
+     "missing": [
+      "full-time program refund deadline",
+      "domestic student commitment fee refund deduction"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The evidence contains partial information for trades but is truncated for full-time technology program refund details.",
+     "queries": [
+      "Refunds Withdrawals full-time technology program refund deadline",
+      "Refunds Withdrawals technology commitment fee deducted domestic students"
+     ],
+     "missing": [
+      "refund deadline for full-time technology programs",
+      "commitment fee deducted for domestic technology program students"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The evidence missing details on refund deadlines and technology program commitment fee deductions for full-time domestic students.",
+     "queries": [
+      "Refunds Withdrawals full-time technology commitment fee domestic",
+      "Refunds Withdrawals technology refund deadline"
+     ],
+     "missing": [
+      "technology program refund deadline",
+      "technology program domestic student commitment fee deduction"
+     ],
+     "n_docs_seen": 12
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The exact commitment fee and refund deadline for full-time technology programs are still missing from the evidence.",
+     "queries": [
+      "Refunds Withdrawals full time technology commitment fee domestic",
+      "Refunds Withdrawals full time technology refund deadline"
+     ],
+     "missing": [
+      "technology program commitment fee domestic",
+      "technology program refund deadline"
+     ],
+     "n_docs_seen": 12
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-01",
+   "category": "messy",
+   "question": "cit entrance reqs?",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements for the Computer Information Technology (CIT) program at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 14,
+   "usage": {
+    "input_tokens": 8240,
+    "output_tokens": 157,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 323,
+    "rewrite_output_tokens": 35,
+    "graph_input_tokens": 5400,
+    "graph_output_tokens": 280,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.016821,
+   "timings": {
+    "rewrite_s": 1.521,
+    "retrieve_s": 3.552,
+    "rerank_s": 0.567,
+    "generate_s": 1.418,
+    "total_s": 14.001
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To be admitted to the full-time Computer Information Technology (CIT) diploma program, applicants must meet the following entrance requirements:\n\n* **English Language Proficiency:** Category 2 – English Studies 12 with a minimum of 67%, or an equivalent qualification.\n* **Mathematics:** One of the following high school math courses: Pre-Calculus 12 (minimum 67%), Foundations of Math 12 (minimum 73%), or other acceptable BC and Yukon courses.\n\nApplicants are accepted on a first-qualified basis as long as space remains available in the program.\n\nSources:\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT CIT program entrance requirements"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 35051,
+   "n_context_sources": 6,
+   "n_chunks_kept": 14,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 89,
+   "n_scoped_candidates": 14,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The student is asking for the entrance requirements for the CIT program at BCIT.",
+     "queries": [
+      "BCIT CIT Computer Information Technology entrance requirements",
+      "BCIT CIT admission requirements"
+     ],
+     "missing": [
+      "CIT entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The retrieved evidence truncated the specific entrance requirement details for the CIT program.",
+     "queries": [
+      "Computer Information Technology diploma entrance requirements English Math"
+     ],
+     "missing": [
+      "CIT program specific entrance requirements"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The exact English and Math courses for Computer Information Technology diploma entrance requirements are missing from current results.",
+     "queries": [
+      "Computer Information Technology diploma full-time entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology diploma entrance requirements specific courses"
+     ],
+     "n_docs_seen": 14
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The CIT entrance requirements details were cut off in chunk 1, so specific course grades are missing.",
+     "queries": [
+      "Computer Information Technology diploma full-time entrance requirements Math English"
+     ],
+     "missing": [
+      "CIT diploma entrance requirements"
+     ],
+     "n_docs_seen": 14
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/computer-information-systems-administration-diploma-full-time-1930dipma",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/admission/entrance-requirements",
+    "https://www.bcit.ca/programs/business-information-technology-management-diploma-full-time-6235dipma",
+    "https://www.bcit.ca/programs/technology-teacher-education-diploma-full-time-605ddipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-02",
+   "category": "messy",
+   "question": "biomedicl enginering tech entrance requirments",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements for the Biomedical Engineering Technology program?",
+   "finish_reason": "STOP",
+   "n_context_docs": 17,
+   "usage": {
+    "input_tokens": 7853,
+    "output_tokens": 331,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 329,
+    "rewrite_output_tokens": 45,
+    "graph_input_tokens": 3990,
+    "graph_output_tokens": 259,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.014952,
+   "timings": {
+    "rewrite_s": 0.909,
+    "retrieve_s": 19.904,
+    "rerank_s": 3.302,
+    "generate_s": 1.756,
+    "total_s": 34.223
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To enter the full-time Biomedical Engineering Technology diploma program, applicants must meet specific English, math, science, and application form requirements.\n\n* **English Language Proficiency:** Category 2 – English Studies 12 (67%) or equivalent.\n* **Math:** Pre-Calculus 12 (67%), or an approved BCIT math course like MATH 0001 or MATH 0120 (67%), or 3.0 credits of post-secondary math (linear algebra, pre-calculus, or calculus) at the 100 level or higher (67%). Foundations of Mathematics 12 is not accepted.\n* **Chemistry:** Chemistry 11 (67%), Chemistry 12 (67%), a BCIT chemistry challenge exam (67%), or 3.0 credits of post-secondary chemistry (67%).\n* **Physics:** Physics 12 (67%), BCIT's PHYS 0312 (67%), a physics challenge exam (67%), or 3.0 credits of post-secondary physics (67%).\n* **Required Forms:** You must complete and submit a Physical Requirements Form and a Mandatory Applicant Questionnaire with your online application.\n* **Conditional Selection Requirements:** If conditionally selected, you must complete a Criminal Record Check, an Immunization Review, and attend a Mandatory BMET Program Admission Forum before September.\n\nSources\n- https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Biomedical Engineering Technology entrance requirements"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 31317,
+   "n_context_sources": 3,
+   "n_chunks_kept": 17,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 79,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Looking up the entrance requirements for the Biomedical Engineering Technology program.",
+     "queries": [
+      "Biomedical Engineering Technology entrance requirements",
+      "Biomedical Engineering Technology admission requirements"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The current chunk cuts off right before listing the entrance requirements for Biomedical Engineering Technology.",
+     "queries": [
+      "Biomedical Engineering Technology Diploma entrance requirements BCIT"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology entrance requirements details"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The entrance requirement details for Biomedical Engineering Technology were cut off and need to be fully retrieved.",
+     "queries": [
+      "Biomedical Engineering Technology Diploma entrance requirements English Math Physics"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology Diploma full entrance requirements"
+     ],
+     "n_docs_seen": 13
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "Specific high school subject and grade requirements for Biomedical Engineering Technology are missing from current evidence.",
+     "queries": [
+      "Biomedical Engineering Technology Diploma Entrance requirements prerequisite courses grades"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology detailed entrance requirements"
+     ],
+     "n_docs_seen": 17
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma",
+    "https://www.bcit.ca/admission/entrance-requirements/upgrading",
+    "https://www.bcit.ca/admission/entrance-requirements/equivalencies/canadian-high-school"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-03",
+   "category": "messy",
+   "question": "whats the prereq for acit 2515",
+   "follow_up": null,
+   "standalone_question": "What are the prerequisites for ACIT 2515 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4892,
+    "output_tokens": 145,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 43,
+    "graph_input_tokens": 2259,
+    "graph_output_tokens": 137,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008074,
+   "timings": {
+    "rewrite_s": 2.082,
+    "retrieve_s": 1.837,
+    "rerank_s": 0.18,
+    "generate_s": 9.975,
+    "total_s": 18.058
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The prerequisite for ACIT 2515 is achieving a minimum grade of 50% in ACIT 1515 or 60% in COMP 1516.\n\n- **Course:** ACIT 2515 (Object Oriented Programming)\n- **Prerequisite Details:** 50% in ACIT 1515 OR 60% in COMP 1516\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for ACIT 2515 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 17053,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Prerequisites for ACIT 2515 are required to answer the student's question.",
+     "queries": [
+      "ACIT 2515 prerequisites"
+     ],
+     "missing": [
+      "ACIT 2515 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly states the prerequisites for ACIT 2515 are 50% in ACIT 1515 or 60% in COMP 1516.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/outlines/20253032491"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-04",
+   "category": "messy",
+   "question": "money back if i withdraw after classes start?",
+   "follow_up": null,
+   "standalone_question": "What is the refund policy if I withdraw from a course or program at BCIT after classes start?",
+   "finish_reason": "STOP",
+   "n_context_docs": 11,
+   "usage": {
+    "input_tokens": 5467,
+    "output_tokens": 218,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 327,
+    "rewrite_output_tokens": 40,
+    "graph_input_tokens": 4289,
+    "graph_output_tokens": 279,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.014512,
+   "timings": {
+    "rewrite_s": 1.219,
+    "retrieve_s": 16.819,
+    "rerank_s": 4.05,
+    "generate_s": 1.513,
+    "total_s": 30.475
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Whether you can get a refund after classes start depends on your specific program or course type:\n\n* **Full-Time Programs:** For most full-time programs, the latest acceptable withdrawal date to receive a refund is **10 business days after the start of class**. All commitment fees are non-refundable. \n* **Flexible Learning Courses:** Refund eligibility varies based on course length and delivery format (e.g., classroom-based or distance learning). For instance, courses longer than four weeks that are classroom-based, blended, or synchronous offer an 85% tuition refund if you withdraw **prior to the second class**. \n* **Apprenticeship Programs:** You can receive a partial refund if you withdraw up to 20 to 41 days prior to the start of class, but **no refund is issued** for withdrawals made nine days or less before the start of class, or after the third day of class.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT refund policy for withdrawal after classes start"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21488,
+   "n_context_sources": 3,
+   "n_chunks_kept": 11,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 63,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The student is asking about BCIT refund policies for post-start course withdrawals.",
+     "queries": [
+      "BCIT course withdrawal refund policy"
+     ],
+     "missing": [
+      "BCIT withdrawal refund policy"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "We need specific refund deadline details and refund percentages for full-time and part-time course withdrawals.",
+     "queries": [
+      "BCIT refund deadline full time program withdrawal",
+      "BCIT part time flexible learning refund policy"
+     ],
+     "missing": [
+      "BCIT withdrawal refund deadlines and policy details"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "We need specific refund deadline windows and conditions for withdrawing after classes start.",
+     "queries": [
+      "BCIT refund policy deadlines after classes start",
+      "BCIT full time program refund schedule"
+     ],
+     "missing": [
+      "BCIT refund deadline rules after class start date"
+     ],
+     "n_docs_seen": 11
+    },
+    {
+     "hop": 3,
+     "action": "answer",
+     "reason": "The evidence outlines the refund and withdrawal policy details and deadlines for BCIT students.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 11
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals",
+    "https://www.bcit.ca/admission/tuition-fees/sponsorship",
+    "https://www.bcit.ca/programs/english-for-professional-and-academic-success-full-time-0130nobcit"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-05",
+   "category": "messy",
+   "question": "BCIT 간호 프로그램 입학하려면 뭐가 필요해?",
+   "follow_up": null,
+   "standalone_question": "What are the admission requirements for the BCIT Nursing program?",
+   "finish_reason": "STOP",
+   "n_context_docs": 19,
+   "usage": {
+    "input_tokens": 10633,
+    "output_tokens": 464,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 44,
+    "graph_input_tokens": 4639,
+    "graph_output_tokens": 317,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.017521,
+   "timings": {
+    "rewrite_s": 1.151,
+    "retrieve_s": 8.574,
+    "rerank_s": 11.096,
+    "generate_s": 2.354,
+    "total_s": 30.411
+   },
+   "prior_turns": [],
+   "answer_excerpt": "BCIT 간호 프로그램(Bachelor of Science in Nursing, BSN) 입학을 위해서는 경쟁 선발 과정의 첫 번째 단계로 영어, 수학, 화학 및 학업 기초 과목의 입학 요건을 충족하고 필수 양식을 제출해야 합니다.\n\n* **영어 실력:** Category 2 – English Studies 12 (67%) 또는 동등한 수준\n* **수학:** Pre-Calculus 11 (73%) 또는 12 (67%), Foundations of Math 11 (73%) 또는 12 (73%), 또는 기타 허용되는 BC 및 Yukon 과목 또는 MATH 0007 (73%) 중 하나\n* **화학:** Chemistry 11 (73%)\n* **학업 기초 (Academic Foundations):** 다음 각 과목에서 최소 67%의 성적으로 18.0 학점의 이수 필요 (모든 과목은 지원 전 완료 필수)\n  * ENGL 1177 – Academic Writing 또는 동등한 과목 (3.0 학점)\n  * BHSC 1200 – Human Anatomy and Physiology 또는 동등한 과목 (최근 3년 이내 완료, 6.0 학점)\n  * PSYC 1101 – Introductory Psychology 1 또는 동등한 과목 (3.0 학점)\n  * 최소 두 개 이상의 서로 다른 학문 분야의 100레벨 일반 교양(General Education) 선택과목 (6.0 학점)\n* **추가 서류:** 온라인 지원 시 'Mandatory Applicant Questionnaire' 양식을 작성하여 함께 제출해야 합니다.\n\n1단계 입학 요건을 충족하여 조건부 합격(Conditionally accepted) 통보를 받은 지원자는 범죄 경력 조회(Criminal Record Check)와 예방 접종 기록(Immunization Records) 등의 추가 조건을 충족해야 최종 합격 처리를 받을 수 있습니다.\n\nSources:\n- https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT Nursing program admission requirements"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 47813,
+   "n_context_sources": 4,
+   "n_chunks_kept": 19,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 78,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The user is asking about the entrance requirements for the BCIT Nursing program.",
+     "queries": [
+      "BCIT Nursing program entrance requirements",
+      "BCIT Nursing prerequisites admission"
+     ],
+     "missing": [
+      "BCIT Nursing program entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The retrieved chunks only showed application deadlines and clinical requirements, missing academic entrance requirements.",
+     "queries": [
+      "Nursing Bachelor of Science in Nursing entrance requirements",
+      "Nursing program prerequisites admissions BCIT"
+     ],
+     "missing": [
+      "BCIT Nursing academic entrance requirements",
+      "BCIT Nursing prerequisite courses"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "Specific academic prerequisite details for the BSN program entrance requirements are still missing.",
+     "queries": [
+      "Nursing Bachelor of Science in Nursing entrance requirements prerequisite courses"
+     ],
+     "missing": [
+      "Nursing Bachelor of Science in Nursing academic entrance requirements"
+     ],
+     "n_docs_seen": 14
+    },
+    {
+     "hop": 3,
+     "action": "answer",
+     "reason": "The previous search results only contained application deadlines and general contact information, missing specific Nursing entrance requirements.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 19
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn",
+    "https://www.bcit.ca/programs/specialty-nursing-high-acuity-bachelor-of-science-in-nursing-part-time-810mbsn",
+    "https://www.bcit.ca/programs/bachelor-of-science-specialty-nursing-degree",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ms2-06",
+   "category": "messy",
+   "question": "which one has no prereqs, acit 1515 or comp 1510?",
+   "follow_up": null,
+   "standalone_question": "Which course has no prerequisites, ACIT 1515 or COMP 1510?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5737,
+    "output_tokens": 171,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 340,
+    "rewrite_output_tokens": 48,
+    "graph_input_tokens": 2678,
+    "graph_output_tokens": 148,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009156,
+   "timings": {
+    "rewrite_s": 1.343,
+    "retrieve_s": 14.339,
+    "rerank_s": 1.064,
+    "generate_s": 5.159,
+    "total_s": 25.32
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Both ACIT 1515 and COMP 1510 have no prerequisites. \n\n- **ACIT 1515 (Scripting for IT):** Requires no prerequisites to enroll.\n- **COMP 1510 (Programming Methods):** Also requires no prerequisites to enroll.\n\nSources:\n- https://www.bcit.ca/outlines/20261089204/\n- https://www.bcit.ca/courses/scripting-for-it-acit-1515/\n- https://www.bcit.ca/outlines/20261048058/\n- https://www.bcit.ca/courses/programming-methods-comp-1510/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "ACIT 1515 prerequisites",
+    "COMP 1510 prerequisites"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 20561,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 12,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Prerequisites for ACIT 1515 and COMP 1510 need to be retrieved from the BCIT corpus.",
+     "queries": [
+      "ACIT 1515 prerequisites",
+      "COMP 1510 prerequisites"
+     ],
+     "missing": [
+      "ACIT 1515 prerequisites",
+      "COMP 1510 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence confirms that neither ACIT 1515 nor COMP 1510 requires prerequisites.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089204",
+    "https://www.bcit.ca/courses/scripting-for-it-acit-1515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510",
+    "https://www.bcit.ca/courses/introduction-to-c-programming-comp-1515",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp2-01",
+   "category": "multipart",
+   "question": "For the Computer Information Technology diploma: what are the entrance requirements, which intakes does it have, and when is the September application deadline for international students?",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements, available intakes, and September application deadline for international students for the BCIT Computer Information Technology diploma?",
+   "finish_reason": "STOP",
+   "n_context_docs": 16,
+   "usage": {
+    "input_tokens": 10362,
+    "output_tokens": 162,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 348,
+    "rewrite_output_tokens": 86,
+    "graph_input_tokens": 6170,
+    "graph_output_tokens": 309,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.019263,
+   "timings": {
+    "rewrite_s": 1.575,
+    "retrieve_s": 3.674,
+    "rerank_s": 10.18,
+    "generate_s": 1.461,
+    "total_s": 24.496
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Here is a summary of the details for the Computer Information Technology diploma program:\n\n- **Entrance Requirements:** Applicants must meet English language proficiency (Category 2 – English Studies 12 at 67% or equivalent) and math requirements (one of Pre-Calculus 12 at 67%, Foundations of Math 12 at 73%, or other acceptable BC and Yukon courses).\n- **Intakes:** The program has two intakes per year: September and January.\n- **September Application Deadline for International Students:** The deadline for international students applying for the September intake is July 2nd.\n\nSources:\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "BCIT Computer Information Technology diploma entrance requirements",
+    "BCIT Computer Information Technology diploma intakes",
+    "BCIT Computer Information Technology diploma September application deadline for international students"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 44673,
+   "n_context_sources": 8,
+   "n_chunks_kept": 16,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 103,
+   "n_scoped_candidates": 22,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Search is required to find CIT diploma entrance requirements, intakes, and international deadlines.",
+     "queries": [
+      "Computer Information Technology diploma entrance requirements",
+      "Computer Information Technology diploma intakes deadline international"
+     ],
+     "missing": [
+      "Computer Information Technology diploma entrance requirements",
+      "Computer Information Technology diploma intakes",
+      "Computer Information Technology diploma September international application deadline"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The full list of entrance requirements for the Computer Information Technology diploma is missing from the retrieved evidence.",
+     "queries": [
+      "Computer Information Technology diploma full-time entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology diploma entrance requirements"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "The retrieved evidence provides application deadlines and intakes but lacks specific entrance requirement course details for CIT.",
+     "queries": [
+      "Computer Information Technology diploma full-time entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology diploma entrance requirements details"
+     ],
+     "n_docs_seen": 16
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The specific entrance requirements for the Computer Information Technology diploma are still missing from the retrieved evidence.",
+     "queries": [
+      "Computer Information Technology diploma entrance requirements English Math"
+     ],
+     "missing": [
+      "Computer Information Technology diploma specific entrance requirements"
+     ],
+     "n_docs_seen": 16
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/admission/program-availability/when-to-apply",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/digital-design-and-development-diploma-full-time-6515dipma",
+    "https://www.bcit.ca/programs/computer-information-systems-administration-diploma-full-time-1930dipma",
+    "https://www.bcit.ca/programs/business-information-technology-management-diploma-full-time-6235dipma",
+    "https://www.bcit.ca/programs/technology-teacher-education-diploma-full-time-605ddipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp2-02",
+   "category": "multipart",
+   "question": "How many credits is ACIT 1515, what is the prerequisite for ACIT 2515, and what is the minimum passing grade for ACIT 2515?",
+   "follow_up": null,
+   "standalone_question": "How many credits is ACIT 1515, what is the prerequisite for ACIT 2515, and what is the minimum passing grade for ACIT 2515?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6303,
+    "output_tokens": 293,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 359,
+    "rewrite_output_tokens": 94,
+    "graph_input_tokens": 2525,
+    "graph_output_tokens": 169,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009932,
+   "timings": {
+    "rewrite_s": 6.008,
+    "retrieve_s": 13.779,
+    "rerank_s": 0.196,
+    "generate_s": 1.613,
+    "total_s": 26.145
+   },
+   "prior_turns": [],
+   "answer_excerpt": "ACIT 1515 is worth 4.0 credits, the prerequisite for ACIT 2515 is 50% in ACIT 1515 or 60% in COMP 1516, and the minimum passing grade for ACIT 2515 is 50%.\n\n- **ACIT 1515 Credits:** ACIT 1515 carries 4.0 course credits.\n- **ACIT 2515 Prerequisite:** To take ACIT 2515, you need a minimum grade of 50% in ACIT 1515 or 60% in COMP 1516.\n- **ACIT 2515 Minimum Passing Grade:** The minimum passing grade required to pass ACIT 2515 is 50%.\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/\n- https://www.bcit.ca/outlines/20261089204/\n- https://www.bcit.ca/courses/scripting-for-it-acit-1515/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "How many credits is ACIT 1515?",
+    "What is the prerequisite for ACIT 2515?",
+    "What is the minimum passing grade for ACIT 2515?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22197,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 23,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "BCIT course credits, prerequisites, and passing grades require specific information retrieved from the BCIT corpus.",
+     "queries": [
+      "ACIT 1515 course credits",
+      "ACIT 2515 course prerequisites passing grade"
+     ],
+     "missing": [
+      "ACIT 1515 credits",
+      "ACIT 2515 prerequisites",
+      "ACIT 2515 minimum passing grade"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence fully answers the credits for ACIT 1515, prerequisites for ACIT 2515, and passing grade.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/outlines/20261089204",
+    "https://www.bcit.ca/courses/scripting-for-it-acit-1515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp2-03",
+   "category": "multipart",
+   "question": "Is the BCIT commitment fee refundable, what is deducted from a domestic technology student's refund, and what is the withdrawal deadline to get a refund?",
+   "follow_up": null,
+   "standalone_question": "Is the BCIT commitment fee refundable, what is deducted from a domestic technology student's refund, and what is the withdrawal deadline to get a refund?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5822,
+    "output_tokens": 252,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 349,
+    "rewrite_output_tokens": 78,
+    "graph_input_tokens": 2211,
+    "graph_output_tokens": 162,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009027,
+   "timings": {
+    "rewrite_s": 1.609,
+    "retrieve_s": 2.458,
+    "rerank_s": 0.186,
+    "generate_s": 1.371,
+    "total_s": 26.237
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The commitment fee is non-refundable, a domestic technology student has a $500 commitment fee deducted from their refund, and the standard refund deadline is 10 business days after the start of class for most full-time programs.\n\n- **Commitment fee refundability:** Commitment fees are non-refundable and non-transferable (though they are applied to your tuition upon registration). If you decline the offer or do not register for any course in your start term, the commitment fee is forfeited and retained by BCIT.\n- **Domestic technology student deduction:** For technology programs, a commitment fee of $500 is deducted from a domestic student's refund.\n- **Withdrawal deadline:** For most full-time programs, your latest acceptable withdrawal date to receive a refund is 10 business days after the start of class. \n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/\n- https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions/\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "Is the BCIT commitment fee refundable?",
+    "What is deducted from a BCIT domestic technology student's refund?",
+    "What is the BCIT withdrawal deadline to get a refund?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22734,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 32,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for BCIT commitment fee refundability, domestic student refund deductions, and withdrawal deadlines for refunds.",
+     "queries": [
+      "BCIT commitment fee refund domestic student",
+      "BCIT domestic technology refund deduction deadline",
+      "BCIT withdrawal deadline refund"
+     ],
+     "missing": [
+      "BCIT commitment fee refund policy",
+      "domestic technology student refund deductions",
+      "withdrawal deadline for refund"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides information on commitment fees, deductions, and withdrawal refund deadlines for domestic technology students.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/admission/tuition-fees/sponsorship"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp2-04",
+   "category": "multipart",
+   "question": "What chemistry does the full-time Nursing degree require, and can a Biomedical Engineering Technology diploma grad get into the Electrical Engineering degree?",
+   "follow_up": null,
+   "standalone_question": "What chemistry course does the full-time Nursing degree require at BCIT, and can a Biomedical Engineering Technology diploma graduate get into the Electrical Engineering degree?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4349,
+    "output_tokens": 182,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 344,
+    "rewrite_output_tokens": 74,
+    "graph_input_tokens": 2221,
+    "graph_output_tokens": 140,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008222,
+   "timings": {
+    "rewrite_s": 1.263,
+    "retrieve_s": 14.598,
+    "rerank_s": 0.397,
+    "generate_s": 1.313,
+    "total_s": 21.03
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For the full-time Nursing degree, Chemistry 11 with a minimum grade of 73% is required for admission. \n\nBiomedical Engineering Technology diploma graduates can enter the Electrical Engineering degree, provided they meet specific conditions:\n- They must have completed the diploma within the last five years with a minimum average of 70%.\n- They must submit an application and pass a department assessment.\n- They require an additional physics course that must be pre-approved by the Bachelor of Engineering program area.\n\nSources:\n- https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn/\n- https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What chemistry course is required for the full-time Nursing degree at BCIT?",
+    "Can a Biomedical Engineering Technology diploma graduate transfer into the BCIT Electrical Engineering degree?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 16118,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 38,
+   "n_scoped_candidates": 8,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need admission requirements for full-time Nursing chemistry and Electrical Engineering entry from Biomedical Engineering Technology.",
+     "queries": [
+      "Nursing Bachelor of Science in Nursing chemistry entry requirements",
+      "Electrical Engineering Bachelor of Engineering entrance Biomedical Engineering Technology diploma"
+     ],
+     "missing": [
+      "Nursing full-time degree chemistry prerequisites",
+      "Electrical Engineering degree entry requirements for Biomedical Engineering Technology graduates"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence contains the prerequisite chemistry requirement for Nursing and transfer rules for Electrical Engineering.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/nursing-bachelor-of-science-in-nursing-full-time-8875bsn",
+    "https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma",
+    "https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng",
+    "https://www.bcit.ca/programs/electrical-engineering"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu2-01",
+   "category": "follow_up",
+   "question": "Tell me about the Computer Information Technology diploma at BCIT.",
+   "follow_up": "When is its application deadline for international students applying for September?",
+   "standalone_question": "When is the application deadline for international students applying for the September intake of the Computer Information Technology diploma program at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5878,
+    "output_tokens": 103,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 660,
+    "rewrite_output_tokens": 62,
+    "graph_input_tokens": 2933,
+    "graph_output_tokens": 110,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.00971,
+   "timings": {
+    "rewrite_s": 1.169,
+    "retrieve_s": 2.122,
+    "rerank_s": 9.67,
+    "generate_s": 1.117,
+    "total_s": 21.769
+   },
+   "prior_turns": [
+    {
+     "question": "Tell me about the Computer Information Technology diploma at BCIT.",
+     "usage": {
+      "input_tokens": 5629,
+      "output_tokens": 380,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 330,
+      "rewrite_output_tokens": 35,
+      "graph_input_tokens": 1918,
+      "graph_output_tokens": 127,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.008236,
+     "timings": {
+      "rewrite_s": 1.372,
+      "retrieve_s": 0.942,
+      "rerank_s": 10.123,
+      "generate_s": 2.383,
+      "total_s": 25.643
+     }
+    }
+   ],
+   "answer_excerpt": "The application deadline for international students applying for the September intake of the Computer Information Technology diploma is July 2nd*.\n\n- Applications open on October 1st* prior to the September start.\n- All supporting documents must be submitted by the deadline.\n- Intakes may fill before the deadline, so early application is recommended.\n\nSources:\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT Computer Information Technology diploma international student application deadline September intake"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21752,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The international application deadline for the September intake of the CIT diploma needs to be searched.",
+     "queries": [
+      "BCIT Computer Information Technology international application deadline September"
+     ],
+     "missing": [
+      "Computer Information Technology international application deadline September intake"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly provides the September intake application deadline for international students in CIT.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/admission/program-availability/when-to-apply",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/agile-development-associate-certificate-part-time-5530acert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu2-02",
+   "category": "follow_up",
+   "question": "What is ACIT 2515 at BCIT?",
+   "follow_up": "What are its prerequisites?",
+   "standalone_question": "What are the prerequisites for ACIT 2515 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5076,
+    "output_tokens": 101,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 514,
+    "rewrite_output_tokens": 43,
+    "graph_input_tokens": 2627,
+    "graph_output_tokens": 111,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008652,
+   "timings": {
+    "rewrite_s": 1.258,
+    "retrieve_s": 2.039,
+    "rerank_s": 0.243,
+    "generate_s": 1.009,
+    "total_s": 59.687
+   },
+   "prior_turns": [
+    {
+     "question": "What is ACIT 2515 at BCIT?",
+     "usage": {
+      "input_tokens": 3936,
+      "output_tokens": 266,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 331,
+      "rewrite_output_tokens": 51,
+      "graph_input_tokens": 2132,
+      "graph_output_tokens": 122,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.007848,
+     "timings": {
+      "rewrite_s": 1.462,
+      "retrieve_s": 1.789,
+      "rerank_s": 7.033,
+      "generate_s": 1.422,
+      "total_s": 14.869
+     }
+    }
+   ],
+   "answer_excerpt": "The prerequisite for ACIT 2515 (Object Oriented Programming) is a minimum grade of 50% in ACIT 1515 or 60% in COMP 1516.\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for ACIT 2515 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 17053,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Follow-up questions about course prerequisites require retrieving evidence from the BCIT corpus to cite.",
+     "queries": [
+      "ACIT 2515 prerequisites"
+     ],
+     "missing": [
+      "ACIT 2515 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence already explicitly states the prerequisites for ACIT 2515.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/outlines/20253032491"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu2-03",
+   "category": "follow_up",
+   "question": "Tell me about BCIT's refund policy for full-time programs.",
+   "follow_up": "How many business days after the start of class do I have to withdraw to get a refund?",
+   "standalone_question": "How many business days after the start of class do I have to withdraw to get a refund?",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 765,
+    "output_tokens": 31,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 1127,
+    "graph_output_tokens": 39,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.0023,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 1.485,
+    "total_s": 2.713
+   },
+   "prior_turns": [
+    {
+     "question": "Tell me about BCIT's refund policy for full-time programs.",
+     "usage": {
+      "input_tokens": 5936,
+      "output_tokens": 309,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 333,
+      "rewrite_output_tokens": 53,
+      "graph_input_tokens": 4773,
+      "graph_output_tokens": 311,
+      "graph_calls": 4
+     },
+     "est_cost_usd": 0.015952,
+     "timings": {
+      "rewrite_s": 2.003,
+      "retrieve_s": 3.262,
+      "rerank_s": 1.548,
+      "generate_s": 2.716,
+      "total_s": 21.964
+     }
+    }
+   ],
+   "answer_excerpt": "For most full-time programs at BCIT, you have 10 business days after the start of class to withdraw and be eligible for a refund.",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How many business days after the start of class do I have to withdraw to get a refund?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "direct",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "answer",
+     "reason": "The conversation history already contains the exact evidence showing students have 10 business days to withdraw for a refund.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": false,
+   "retrieved_urls": [],
+   "url_hit_fraction": 0.0,
+   "url_full_hit": false,
+   "urls_missed": [
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/"
+   ],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "fu2-04",
+   "category": "follow_up",
+   "question": "Tell me about the Biomedical Engineering Technology diploma.",
+   "follow_up": "Do I need chemistry to get in?",
+   "standalone_question": "Are there Chemistry prerequisites for admission into the Biomedical Engineering Technology diploma program at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5866,
+    "output_tokens": 144,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 541,
+    "rewrite_output_tokens": 37,
+    "graph_input_tokens": 2258,
+    "graph_output_tokens": 120,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008506,
+   "timings": {
+    "rewrite_s": 1.125,
+    "retrieve_s": 1.393,
+    "rerank_s": 0.167,
+    "generate_s": 1.222,
+    "total_s": 6.536
+   },
+   "prior_turns": [
+    {
+     "question": "Tell me about the Biomedical Engineering Technology diploma.",
+     "usage": {
+      "input_tokens": 4199,
+      "output_tokens": 243,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 327,
+      "rewrite_output_tokens": 29,
+      "graph_input_tokens": 1769,
+      "graph_output_tokens": 84,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.006869,
+     "timings": {
+      "rewrite_s": 1.016,
+      "retrieve_s": 2.048,
+      "rerank_s": 0.938,
+      "generate_s": 1.553,
+      "total_s": 7.818
+     }
+    }
+   ],
+   "answer_excerpt": "Yes, chemistry is required for admission into the Biomedical Engineering Technology diploma program. \n\n* Applicants must satisfy the chemistry entrance requirement by presenting one of the following (or equivalent with a minimum grade of 67%): Chemistry 11, Chemistry 12, BCIT's CHEM 0110 (Chemistry 11 Challenge Exam), BCIT's CHEM 0120 (Chemistry 12 Challenge Exam), or 3.0 credits of post-secondary chemistry from a recognized institution.\n\nSources:\n- https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Biomedical Engineering Technology admission requirements Chemistry prerequisite"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23362,
+   "n_context_sources": 1,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to check the admission requirements for the Biomedical Engineering Technology diploma regarding chemistry.",
+     "queries": [
+      "Biomedical Engineering Technology entrance requirements chemistry",
+      "Biomedical Engineering Technology admission prerequisites"
+     ],
+     "missing": [
+      "Biomedical Engineering Technology entrance requirements chemistry"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides all official admission prerequisites, confirming Chemistry is not required for entry.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/biomedical-engineering-technology-diploma-full-time-5063dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  }
+ ]
+}

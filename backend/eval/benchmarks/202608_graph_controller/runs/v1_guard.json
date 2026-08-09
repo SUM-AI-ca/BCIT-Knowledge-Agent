@@ -1,0 +1,4250 @@
+{
+ "label": "v1_guard",
+ "timestamp": "2026-08-09T10:09:52.013232+00:00",
+ "golden_set": "golden_set.jsonl",
+ "wall_time_s": 859.9,
+ "config_snapshot": {
+  "GEMINI_MODEL": "gemini-3.5-flash-lite",
+  "REWRITER_MODEL": "gemini-3.6-flash",
+  "JUDGE_MODEL": "gemini-3.6-flash",
+  "GEMINI_TEMPERATURE": 0.05,
+  "GEMINI_MAX_OUTPUT_TOKENS": 2048,
+  "GEMINI_THINKING_BUDGET": 0,
+  "MEMORY_WINDOW_K": 5,
+  "USE_HYBRID_SEARCH": true,
+  "HYBRID_ALPHA": 0.48,
+  "USE_RERANKING": true,
+  "RERANKER_CANDIDATES": 25,
+  "RERANKER_TOP_K": 10,
+  "RERANK_SCORE_THRESHOLD": 0.0,
+  "MIN_CONTEXT_CHUNKS": 3,
+  "CONTEXT_MODE": "chunks",
+  "NEIGHBOR_RADIUS": 2,
+  "CONTEXT_MAX_CHARS": 24000,
+  "MULTI_QUERY_ENABLED": true,
+  "MAX_SUB_QUERIES": 4,
+  "MQ_DENSE_K": 12,
+  "MQ_BM25_K": 12,
+  "MQ_CANDIDATES_PER_SUBQUERY": 15,
+  "MQ_POOL_CAP": 40,
+  "MQ_MIN_CHUNKS_PER_SUBQUERY": 2,
+  "RERANK_MODE": "pooled",
+  "REWRITE_MAX_OUTPUT_TOKENS": 512,
+  "REWRITE_THINKING_BUDGET": 0,
+  "HISTORY_MAX_ANSWER_CHARS": 1500,
+  "STRIP_SOURCES_FROM_HISTORY": true,
+  "RETRIEVAL_TOP_K": 10,
+  "RETRIEVAL_DENSE_K": 23,
+  "RETRIEVAL_BM25_K": 23,
+  "PG_COLLECTION": "bcit_docs_202606da",
+  "PRICE_GEN_INPUT_PER_M": 0.3,
+  "PRICE_GEN_OUTPUT_PER_M": 2.5,
+  "PRICE_REWRITE_INPUT_PER_M": 1.5,
+  "PRICE_REWRITE_OUTPUT_PER_M": 7.5,
+  "PRICE_RERANK_PER_CALL": 0.001,
+  "PRICE_EMBED_PER_QUERY": 1e-05,
+  "RRF_K": 60,
+  "MMR_LAMBDA": 0.87,
+  "RETRIEVAL_FETCH_K": 50,
+  "BM25_INDEX_AUG": true,
+  "RERANK_SKIP_CONSENSUS": 0.0,
+  "MQ_BM25_KEYWORDS": false,
+  "HYDE_MODE": "off",
+  "REWRITE_SKIP_SIMPLE": false,
+  "REWRITE_SKIP_MAX_WORDS": 12,
+  "SIGNATURE_DEMOTE": false,
+  "FANIN_RETAIN": false,
+  "PERSON_SCOPED_RETRIEVAL": true,
+  "USE_GRAPH": true,
+  "GRAPH_MODEL": "gemini-3.6-flash",
+  "GRAPH_MAX_HOPS": 3,
+  "GRAPH_DIGEST_CHARS": 400,
+  "GRAPH_HOP_TOP_K": 20,
+  "GRAPH_HOP_CONTEXT_MAX_CHARS": 48000,
+  "GRAPH_ROUTER_MODE": "node",
+  "PRICE_GRAPH_INPUT_PER_M": 1.5,
+  "PRICE_GRAPH_OUTPUT_PER_M": 7.5
+ },
+ "aggregate": {
+  "n_cases": 40,
+  "n_errors": 0,
+  "url_hit_rate": 0.9916666666666666,
+  "url_full_hit_rate": 0.975,
+  "fact_recall": 0.9916666666666666,
+  "avoidance": null,
+  "n_cases_with_forbidden": 0,
+  "citation_precision": 1.0,
+  "n_answers_without_citation": 0,
+  "input_tokens_mean": 5767.65,
+  "input_tokens_p50": 5812,
+  "input_tokens_with_rewrite_mean": 6134.025,
+  "output_tokens_mean": 157.1,
+  "reasoning_tokens_mean": 0.0,
+  "cache_read_tokens_mean": 0.0,
+  "est_cost_usd_mean": 0.0093152,
+  "est_cost_usd_total": 0.37260799999999994,
+  "latency_p50_s": 8.234,
+  "latency_p95_s": 41.836,
+  "max_tokens_truncations": 0,
+  "decompose_fallbacks": 0,
+  "judge_faithfulness_mean": null,
+  "judge_completeness_mean": null,
+  "judge_flagged_cases": 0,
+  "judge_errors": 0,
+  "n_context_docs_mean": 10.275,
+  "rerank_skip_rate": 0.0,
+  "rewrite_skip_rate": 0.0,
+  "rerank_calls_mean": 1.125,
+  "route_counts": {
+   "retrieve": 40
+  },
+  "hop_rate": 0.1,
+  "graph_hops_mean": 0.125,
+  "graph_calls_mean": 2.125,
+  "graph_input_tokens_mean": 2681.075,
+  "graph_output_tokens_mean": 136.0,
+  "route_mismatches": 0,
+  "n_cases_with_expected_route": 40
+ },
+ "per_category": {
+  "follow_up": {
+   "n_cases": 6,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6135.333333333333,
+   "input_tokens_p50": 5470,
+   "input_tokens_with_rewrite_mean": 6665.333333333333,
+   "output_tokens_mean": 140.83333333333334,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.009997666666666667,
+   "est_cost_usd_total": 0.059986,
+   "latency_p50_s": 13.394,
+   "latency_p95_s": 41.814,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.666666666666666,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.1666666666666667,
+   "route_counts": {
+    "retrieve": 6
+   },
+   "hop_rate": 0.16666666666666666,
+   "graph_hops_mean": 0.16666666666666666,
+   "graph_calls_mean": 2.1666666666666665,
+   "graph_input_tokens_mean": 3030.5,
+   "graph_output_tokens_mean": 120.16666666666667,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 6
+  },
+  "multipart": {
+   "n_cases": 6,
+   "n_errors": 0,
+   "url_hit_rate": 0.9444444444444445,
+   "url_full_hit_rate": 0.8333333333333334,
+   "fact_recall": 0.9444444444444445,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6481.5,
+   "input_tokens_p50": 5812,
+   "input_tokens_with_rewrite_mean": 6827.666666666667,
+   "output_tokens_mean": 220.83333333333334,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.011165333333333333,
+   "est_cost_usd_total": 0.066992,
+   "latency_p50_s": 8.279,
+   "latency_p95_s": 42.378,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.5,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.3333333333333333,
+   "route_counts": {
+    "retrieve": 6
+   },
+   "hop_rate": 0.16666666666666666,
+   "graph_hops_mean": 0.3333333333333333,
+   "graph_calls_mean": 2.3333333333333335,
+   "graph_input_tokens_mean": 3173.3333333333335,
+   "graph_output_tokens_mean": 191.5,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 6
+  },
+  "outline": {
+   "n_cases": 12,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 4949.0,
+   "input_tokens_p50": 4619,
+   "input_tokens_with_rewrite_mean": 5284.75,
+   "output_tokens_mean": 128.83333333333334,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.00821475,
+   "est_cost_usd_total": 0.098577,
+   "latency_p50_s": 5.891,
+   "latency_p95_s": 18.948,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 12
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 2318.75,
+   "graph_output_tokens_mean": 126.5,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 12
+  },
+  "program_admission": {
+   "n_cases": 10,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 5823.8,
+   "input_tokens_p50": 5936,
+   "input_tokens_with_rewrite_mean": 6160.2,
+   "output_tokens_mean": 176.5,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.0088739,
+   "est_cost_usd_total": 0.088739,
+   "latency_p50_s": 7.256,
+   "latency_p95_s": 33.782,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.1,
+   "route_counts": {
+    "retrieve": 10
+   },
+   "hop_rate": 0.1,
+   "graph_hops_mean": 0.1,
+   "graph_calls_mean": 2.1,
+   "graph_input_tokens_mean": 2450.5,
+   "graph_output_tokens_mean": 125.5,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 10
+  },
+  "student_life": {
+   "n_cases": 6,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6229.833333333333,
+   "input_tokens_p50": 5593,
+   "input_tokens_with_rewrite_mean": 6564.0,
+   "output_tokens_mean": 133.83333333333334,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.009718999999999998,
+   "est_cost_usd_total": 0.05831399999999999,
+   "latency_p50_s": 14.545,
+   "latency_p95_s": 45.777,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.666666666666666,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.1666666666666667,
+   "route_counts": {
+    "retrieve": 6
+   },
+   "hop_rate": 0.16666666666666666,
+   "graph_hops_mean": 0.16666666666666666,
+   "graph_calls_mean": 2.1666666666666665,
+   "graph_input_tokens_mean": 2948.3333333333335,
+   "graph_output_tokens_mean": 132.83333333333334,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 6
+  }
+ },
+ "cases": [
+  {
+   "id": "ol-01",
+   "category": "outline",
+   "question": "How many credits is COMP 1510 and does it have any prerequisites?",
+   "follow_up": null,
+   "standalone_question": "How many credits is COMP 1510 and does COMP 1510 have any prerequisites?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5155,
+    "output_tokens": 136,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 335,
+    "rewrite_output_tokens": 73,
+    "graph_input_tokens": 2274,
+    "graph_output_tokens": 140,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008407,
+   "timings": {
+    "rewrite_s": 1.178,
+    "retrieve_s": 1.758,
+    "rerank_s": 0.557,
+    "generate_s": 2.996,
+    "total_s": 10.583
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 1510 is a 6-credit course and has no prerequisites.\n\n- COMP 1510 (Programming Methods) is worth 6.0 credits.\n- There are no prerequisites required to take this course.\n\nSources:\n- https://www.bcit.ca/outlines/20261048058/\n- https://www.bcit.ca/courses/programming-methods-comp-1510/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "How many credits is COMP 1510?",
+    "What are the prerequisites for COMP 1510?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 19461,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 34,
+   "n_scoped_candidates": 15,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Information about COMP 1510 credits and prerequisites needs to be retrieved from the BCIT corpus.",
+     "queries": [
+      "COMP 1510 credits prerequisites",
+      "COMP 1510 course outline"
+     ],
+     "missing": [
+      "COMP 1510 credits",
+      "COMP 1510 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly states COMP 1510 is worth 6 credits and requires no prerequisites.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/climate-change-storytelling-for-social-change-bcst-1510"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-02",
+   "category": "outline",
+   "question": "What are the prerequisites for COMP 3522 Object Oriented Programming 2?",
+   "follow_up": null,
+   "standalone_question": "What are the prerequisites for COMP 3522 Object Oriented Programming 2?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4091,
+    "output_tokens": 127,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 335,
+    "rewrite_output_tokens": 45,
+    "graph_input_tokens": 2156,
+    "graph_output_tokens": 134,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007634,
+   "timings": {
+    "rewrite_s": 1.018,
+    "retrieve_s": 1.096,
+    "rerank_s": 0.169,
+    "generate_s": 1.127,
+    "total_s": 5.616
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The prerequisites for COMP 3522 Object Oriented Programming 2 are COMP 2510 and COMP 2526, or COMP 2522.\n\nSources:\n- https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522/\n- https://www.bcit.ca/outlines/20261087231/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for COMP 3522 Object Oriented Programming 2?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13645,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 30,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to check the prerequisites for COMP 3522 Object Oriented Programming 2.",
+     "queries": [
+      "COMP 3522 prerequisites Object Oriented Programming 2"
+     ],
+     "missing": [
+      "COMP 3522 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly states the prerequisites for COMP 3522 are COMP 2510 and COMP 2526 or COMP 2522.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522",
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-03",
+   "category": "outline",
+   "question": "How many total hours of instruction is COMP 3522?",
+   "follow_up": null,
+   "standalone_question": "How many total hours of instruction is COMP 3522 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4316,
+    "output_tokens": 103,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 332,
+    "rewrite_output_tokens": 59,
+    "graph_input_tokens": 2346,
+    "graph_output_tokens": 120,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007922,
+   "timings": {
+    "rewrite_s": 0.959,
+    "retrieve_s": 1.145,
+    "rerank_s": 0.231,
+    "generate_s": 0.975,
+    "total_s": 5.557
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 3522 provides a total of 75 hours of instruction over 15 weeks. \n\n* The course is worth 5 credits.\n* It involves 5 hours per week of scheduled learning.\n\nSources:\n- https://www.bcit.ca/outlines/20261087231/\n- https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How many total hours of instruction is COMP 3522 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 14153,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 30,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Total instruction hours for COMP 3522 need to be retrieved from the BCIT corpus.",
+     "queries": [
+      "COMP 3522 course outline instruction hours"
+     ],
+     "missing": [
+      "COMP 3522 total instruction hours"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The course outline for COMP 3522 explicitly states the total instruction hours as 75.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522",
+    "https://www.bcit.ca/outlines/20253048345",
+    "https://www.bcit.ca/outlines/20261089233"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-04",
+   "category": "outline",
+   "question": "In COMP 1510, what percentage of the final grade is the final exam worth?",
+   "follow_up": null,
+   "standalone_question": "In COMP 1510, what percentage of the final grade is the final exam worth?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6551,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 65,
+    "graph_input_tokens": 2970,
+    "graph_output_tokens": 119,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009605,
+   "timings": {
+    "rewrite_s": 1.072,
+    "retrieve_s": 1.108,
+    "rerank_s": 0.204,
+    "generate_s": 0.977,
+    "total_s": 5.462
+   },
+   "prior_turns": [],
+   "answer_excerpt": "In COMP 1510, the final exam is worth 40% of the final grade.\n\n- The evaluation criteria for the course include assignments (15%), lab quizzes/assignments (15%), a midterm exam (25%), a final exam (40%), and participation (5%).\n- To pass the course, students must achieve a passing grade on the weighted combination of the midterm and final exams.\n\nSources\n- https://www.bcit.ca/outlines/20261048058/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "In COMP 1510, what percentage of the final grade is the final exam worth?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22519,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 37,
+   "n_scoped_candidates": 12,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for the grading breakdown and final exam weight for COMP 1510.",
+     "queries": [
+      "COMP 1510 course outline final exam percentage"
+     ],
+     "missing": [
+      "COMP 1510 final exam weight"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The COMP 1510 course outline explicitly shows that the final exam is worth 40 percent.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/outlines/20253045800",
+    "https://www.bcit.ca/outlines/20243047014",
+    "https://www.bcit.ca/outlines/20262066092",
+    "https://www.bcit.ca/outlines/20262029765",
+    "https://www.bcit.ca/outlines/20253042968",
+    "https://www.bcit.ca/outlines/20251082951",
+    "https://www.bcit.ca/outlines/20261092248"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-05",
+   "category": "outline",
+   "question": "What textbook is used in COMP 1510 Programming Methods?",
+   "follow_up": null,
+   "standalone_question": "What textbook is used in COMP 1510 Programming Methods?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 3952,
+    "output_tokens": 98,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 332,
+    "rewrite_output_tokens": 53,
+    "graph_input_tokens": 2081,
+    "graph_output_tokens": 115,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.00732,
+   "timings": {
+    "rewrite_s": 0.988,
+    "retrieve_s": 2.024,
+    "rerank_s": 0.188,
+    "generate_s": 0.981,
+    "total_s": 6.646
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 1510 Programming Methods uses the textbook *Java Software Solutions: Foundations of Program Design* (Ninth Edition, 2017) by Lewis and Loftus, published by Addison-Wesley (ISBN-13 9780134462028). Later editions are also acceptable.\n\nSources:\n- https://www.bcit.ca/outlines/20261048058/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What textbook is used in COMP 1510 Programming Methods?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13131,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Checking the BCIT course details for the required textbook in COMP 1510.",
+     "queries": [
+      "COMP 1510 textbook Programming Methods"
+     ],
+     "missing": [
+      "COMP 1510 required textbook"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved course outlines and course details do not specify a textbook for COMP 1510.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-06",
+   "category": "outline",
+   "question": "What is the prerequisite for COMP 2714 Relational Database Systems?",
+   "follow_up": null,
+   "standalone_question": "What is the prerequisite for COMP 2714 Relational Database Systems?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5865,
+    "output_tokens": 93,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 334,
+    "rewrite_output_tokens": 43,
+    "graph_input_tokens": 2647,
+    "graph_output_tokens": 128,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008756,
+   "timings": {
+    "rewrite_s": 1.005,
+    "retrieve_s": 1.103,
+    "rerank_s": 0.211,
+    "generate_s": 1.039,
+    "total_s": 5.748
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The prerequisite for COMP 2714 Relational Database Systems is COMP 1712.\n\n- You must complete COMP 1712 before taking this course.\n\nSources:\n- https://www.bcit.ca/courses/relational-database-systems-comp-2714/\n- https://www.bcit.ca/outlines/20261077186/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What is the prerequisite for COMP 2714 Relational Database Systems?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21434,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 31,
+   "n_scoped_candidates": 6,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Looking up the prerequisite requirements for COMP 2714 Relational Database Systems.",
+     "queries": [
+      "COMP 2714 Relational Database Systems prerequisites",
+      "COMP 2714 prerequisites"
+     ],
+     "missing": [
+      "COMP 2714 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence clearly indicates that COMP 1712 is the prerequisite for COMP 2714.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2714",
+    "https://www.bcit.ca/outlines/20261077186",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/relational-database-1-comp-2712",
+    "https://www.bcit.ca/courses/relational-database-2-comp-2713",
+    "https://www.bcit.ca/courses/relational-database-design-and-sql-comp-1630",
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2711"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-07",
+   "category": "outline",
+   "question": "How many credits is COMP 2714 and do I need to buy a textbook for it?",
+   "follow_up": null,
+   "standalone_question": "How many credits is COMP 2714 and do I need to buy a textbook for it?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4380,
+    "output_tokens": 136,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 339,
+    "rewrite_output_tokens": 73,
+    "graph_input_tokens": 2135,
+    "graph_output_tokens": 124,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007853,
+   "timings": {
+    "rewrite_s": 1.29,
+    "retrieve_s": 13.931,
+    "rerank_s": 0.23,
+    "generate_s": 1.218,
+    "total_s": 18.948
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 2714 is worth 4 credits, and the main textbooks are optional rather than required.\n\n* **Credits:** The course carries 4.0 credits.\n* **Textbook:** There is a Zero Textbook Cost designation, and the main and supplementary textbooks listed are optional. Free open educational resources, such as the *Database Design* OER textbook, are also available.\n\nSources:\n- https://www.bcit.ca/outlines/20261077186/\n- https://www.bcit.ca/courses/relational-database-systems-comp-2714/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "How many credits is COMP 2714?",
+    "Is a required textbook needed for COMP 2714?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 14889,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 31,
+   "n_scoped_candidates": 11,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check credit value and required textbook details for COMP 2714.",
+     "queries": [
+      "COMP 2714 credits textbook"
+     ],
+     "missing": [
+      "COMP 2714 credits",
+      "COMP 2714 textbook requirement"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence clearly states COMP 2714 is 4 credits and has Zero Textbook Cost.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261077186",
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2714",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-08",
+   "category": "outline",
+   "question": "What courses do I need to complete before taking COMP 4537?",
+   "follow_up": null,
+   "standalone_question": "What courses do I need to complete before taking COMP 4537 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5916,
+    "output_tokens": 92,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 334,
+    "rewrite_output_tokens": 59,
+    "graph_input_tokens": 2327,
+    "graph_output_tokens": 131,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008431,
+   "timings": {
+    "rewrite_s": 1.153,
+    "retrieve_s": 0.909,
+    "rerank_s": 0.172,
+    "generate_s": 1.02,
+    "total_s": 5.516
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To take COMP 4537 (Internet Software Architecture), you must complete the following prerequisite courses:\n\n- COMP 1537\n- COMP 3522\n\nSources:\n- https://www.bcit.ca/outlines/20261088086/\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisite courses for BCIT COMP 4537?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21827,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 32,
+   "n_scoped_candidates": 7,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to search for the prerequisite courses required before taking COMP 4537.",
+     "queries": [
+      "COMP 4537 prerequisites",
+      "COMP 4537 course details"
+     ],
+     "missing": [
+      "COMP 4537 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence clearly lists COMP 1537 and COMP 3522 as prerequisites for COMP 4537.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261088086",
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537",
+    "https://www.bcit.ca/outlines/20262068044",
+    "https://www.bcit.ca/programs/applied-software-development-asd-associate-certificate-part-time-6958acert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-09",
+   "category": "outline",
+   "question": "What is COMP 4537 Internet Software Architecture about?",
+   "follow_up": null,
+   "standalone_question": "What is COMP 4537 Internet Software Architecture about?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4619,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 331,
+    "rewrite_output_tokens": 51,
+    "graph_input_tokens": 2140,
+    "graph_output_tokens": 120,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007862,
+   "timings": {
+    "rewrite_s": 1.072,
+    "retrieve_s": 0.996,
+    "rerank_s": 0.233,
+    "generate_s": 1.223,
+    "total_s": 5.891
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 4537 Internet Software Architecture is a 3-credit computer systems course focused on the design, development, and management of web APIs. \n\nKey topics covered in the course include:\n- Understanding RESTful APIs, how HTTP and REST APIs relate, and REST constraints.\n- Implementing CRUD operations, error handling, and HTTP status codes.\n- Designing and developing programs using REST, JSON, and HTTP.\n- Securing backend API servers and implementing API change management and versioning.\n\nSources:\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/outlines/20261088086/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What is COMP 4537 Internet Software Architecture about?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 16450,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 29,
+   "n_scoped_candidates": 4,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The course description and topic details for COMP 4537 need to be retrieved from BCIT.",
+     "queries": [
+      "COMP 4537 course outline Internet Software Architecture"
+     ],
+     "missing": [
+      "COMP 4537 course description"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence provides a detailed overview of the COMP 4537 course content and objectives.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/outlines/20261088086"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-10",
+   "category": "outline",
+   "question": "What are the three main topic areas covered in COMP 1113 Applied Mathematics?",
+   "follow_up": null,
+   "standalone_question": "What are the three main topic areas covered in COMP 1113 Applied Mathematics?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4249,
+    "output_tokens": 241,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 336,
+    "rewrite_output_tokens": 61,
+    "graph_input_tokens": 2102,
+    "graph_output_tokens": 118,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007887,
+   "timings": {
+    "rewrite_s": 1.06,
+    "retrieve_s": 2.006,
+    "rerank_s": 0.212,
+    "generate_s": 1.589,
+    "total_s": 6.981
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 1113 Applied Mathematics covers three main topic areas designed to build a foundation for future technical and programming courses:\n\n*   **Boolean algebra and logic circuit design:** Covers TRUE/FALSE values, operators, algebraic laws, truth tables, canonical forms, Karnaugh maps, and designing logic circuits like adders, comparators, and decoders.\n*   **Number systems and data representation:** Explores positional number systems, how numbers, text, and graphics are represented in computers, arithmetic operations across different bases, and alternative representations such as complements, Excess, BCD, and floating-point.\n*   **Functions, linear equations, vectors, and matrices:** Focuses on solving systems of linear equations, performing matrix operations, and finding inverses.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/courses/applied-mathematics-comp-1113/\n- https://www.bcit.ca/outlines/20261048068/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the three main topic areas covered in COMP 1113 Applied Mathematics?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 15097,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 30,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check the course outline for COMP 1113 to find its main topic areas.",
+     "queries": [
+      "COMP 1113 Applied Mathematics course outline topics"
+     ],
+     "missing": [
+      "COMP 1113 topic areas"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence explicitly lists the three main topic areas covered in COMP 1113.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/applied-mathematics-comp-1113",
+    "https://www.bcit.ca/outlines/20261048068"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-11",
+   "category": "outline",
+   "question": "How many total hours is COMP 1510 and over how many weeks does it run?",
+   "follow_up": null,
+   "standalone_question": "How many total hours is COMP 1510 and over how many weeks does COMP 1510 run?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 3933,
+    "output_tokens": 79,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 72,
+    "graph_input_tokens": 2008,
+    "graph_output_tokens": 132,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007436,
+   "timings": {
+    "rewrite_s": 1.097,
+    "retrieve_s": 1.105,
+    "rerank_s": 0.283,
+    "generate_s": 0.976,
+    "total_s": 5.718
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 1510 consists of a total of 90 hours and runs over 15 weeks.\n\n* **Total Hours:** 90 hours\n* **Duration:** 15 weeks (with 6 hours per week)\n\nSources:\n- https://www.bcit.ca/outlines/20261048058/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "COMP 1510 total hours",
+    "COMP 1510 duration in weeks"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 12789,
+   "n_context_sources": 2,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 30,
+   "n_scoped_candidates": 13,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need course details for COMP 1510 to determine total hours and duration in weeks.",
+     "queries": [
+      "COMP 1510 course hours duration weeks"
+     ],
+     "missing": [
+      "COMP 1510 total hours",
+      "COMP 1510 duration in weeks"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The provided evidence states COMP 1510 is 90 total hours over 15 weeks.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ol-12",
+   "category": "outline",
+   "question": "What is the minimum passing grade for COMP 3522, and what else do I need to pass besides the overall grade?",
+   "follow_up": null,
+   "standalone_question": "What is the minimum passing grade for COMP 3522, and what else do I need to pass besides the overall grade?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6361,
+    "output_tokens": 135,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 345,
+    "rewrite_output_tokens": 94,
+    "graph_input_tokens": 2639,
+    "graph_output_tokens": 137,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009464,
+   "timings": {
+    "rewrite_s": 1.398,
+    "retrieve_s": 14.64,
+    "rerank_s": 0.189,
+    "generate_s": 1.169,
+    "total_s": 19.835
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The minimum overall passing grade for COMP 3522 at BCIT is 50%, and students must also achieve a weighted average of at least 50% on their midterm and final exams combined.\n\n- **Minimum Overall Grade:** The course has a minimum passing grade of 50%.\n- **Exam Requirement:** You must pass the midterm and final exams on average. Specifically, if the weighted average of your tests is less than 50%, you will fail the course regardless of your overall grade.\n\nSources:\n- https://www.bcit.ca/outlines/20261087231/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What is the minimum overall passing grade for COMP 3522 at BCIT?",
+    "What are the additional passing requirements besides the overall grade for COMP 3522 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22858,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 33,
+   "n_scoped_candidates": 20,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to look up the minimum passing grade and passing requirements for COMP 3522.",
+     "queries": [
+      "COMP 3522 minimum passing grade requirements"
+     ],
+     "missing": [
+      "COMP 3522 passing grade",
+      "COMP 3522 passing requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence shows the course-specific passing requirements for COMP 3522 and prerequisite grades confirming a 50% minimum.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/outlines/20262066013",
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522",
+    "https://www.bcit.ca/outlines/20261015509",
+    "https://www.bcit.ca/outlines/20261089233"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-01",
+   "category": "program_admission",
+   "question": "What are the entrance requirements for the Computer Systems Technology diploma?",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements for the Computer Systems Technology diploma?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5397,
+    "output_tokens": 134,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 44,
+    "graph_input_tokens": 2028,
+    "graph_output_tokens": 111,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007664,
+   "timings": {
+    "rewrite_s": 1.117,
+    "retrieve_s": 1.064,
+    "rerank_s": 0.187,
+    "generate_s": 1.131,
+    "total_s": 5.605
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To apply for the full-time Computer Systems Technology (CST) Diploma, you must meet the following entrance requirements:\n\n*   **English Language Proficiency:** Category 2, which requires English Studies 12 (67%) or an equivalent.\n*   **Math:** One of the following: Pre-Calculus 12 (67%) or other acceptable BC and Yukon courses.\n\nApplicants are accepted on a first-qualified basis as long as space remains. \n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Computer Systems Technology diploma entrance requirements"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21307,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 32,
+   "n_scoped_candidates": 7,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to retrieve entrance requirements for the Computer Systems Technology diploma program.",
+     "queries": [
+      "Computer Systems Technology CST diploma entrance requirements",
+      "Computer Systems Technology admission requirements BCIT"
+     ],
+     "missing": [
+      "Computer Systems Technology diploma entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides the entrance requirements for the Computer Systems Technology diploma.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-02",
+   "category": "program_admission",
+   "question": "When is the application deadline for international students applying to the CST diploma for the September intake?",
+   "follow_up": null,
+   "standalone_question": "When is the application deadline for international students applying to the Computer Systems Technology (CST) diploma for the September intake?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6085,
+    "output_tokens": 81,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 336,
+    "rewrite_output_tokens": 67,
+    "graph_input_tokens": 2463,
+    "graph_output_tokens": 106,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008534,
+   "timings": {
+    "rewrite_s": 1.133,
+    "retrieve_s": 1.236,
+    "rerank_s": 0.259,
+    "generate_s": 1.067,
+    "total_s": 6.021
+   },
+   "prior_turns": [],
+   "answer_excerpt": "International application deadline for the Fall (September) intake\n\nFor the full-time Computer Systems Technology (CST) diploma program, the international student application deadline for the Fall (September) intake is July 2nd*. \n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "When is the application deadline for international students applying to the CST diploma for the September intake?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23891,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 35,
+   "n_scoped_candidates": 10,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to check the international application deadlines for the CST diploma September intake.",
+     "queries": [
+      "Computer Systems Technology diploma international application deadline September"
+     ],
+     "missing": [
+      "CST diploma international application deadline for September intake"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence provides international student application deadlines and dates for the September intake.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/admission/program-availability/when-to-apply",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/applied-computer-science-network-security-applications-development-option-bachelor-of-science-full-time-part-time-867bbsc"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-03",
+   "category": "program_admission",
+   "question": "How much should I budget for books per term in the CST program, and do I need my own laptop?",
+   "follow_up": null,
+   "standalone_question": "How much should I budget for books per term in the CST program, and do I need my own laptop?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5922,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 340,
+    "rewrite_output_tokens": 66,
+    "graph_input_tokens": 833,
+    "graph_output_tokens": 90,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.006141,
+   "timings": {
+    "rewrite_s": 1.131,
+    "retrieve_s": 2.0,
+    "rerank_s": 0.17,
+    "generate_s": 1.419,
+    "total_s": 11.025
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Students in the full-time Computer Systems Technology (CST) program should expect textbooks to cost between $500 and $800 per term. Additionally, students must have their own Windows-compatible laptop for use in the program, with expected costs ranging from approximately $1,000 to $2,000 depending on the chosen configuration.\n\n* **Textbooks and Supplies:** Books are estimated at $500 to $800 per term (this is a general estimate subject to change).\n* **Laptop Requirement:** A Windows-compatible laptop is mandatory for coursework and labs. Accepted applicants will receive specific required hardware specifications.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "BCIT CST program textbook costs per term",
+    "BCIT CST program laptop requirement"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23100,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 28,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need BCIT CST program details regarding book costs per term and laptop requirements.",
+     "queries": [
+      "Computer Systems Technology CST book costs per term",
+      "Computer Systems Technology CST laptop requirements"
+     ],
+     "missing": [
+      "CST program book costs",
+      "CST program laptop requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "controller error; fell back",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-information-systems-administration-diploma-full-time-1930dipma",
+    "https://www.bcit.ca/programs/aircraft-maintenance-engineer-category-e-electronics-diploma-full-time-1165dipma",
+    "https://www.bcit.ca/programs/chief-mate-certificate-part-time-2020certts",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/courses/data-communications-for-cst-comp-3725"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-04",
+   "category": "program_admission",
+   "question": "How much is the commitment fee for domestic students admitted to a full-time BCIT program?",
+   "follow_up": null,
+   "standalone_question": "How much is the commitment fee for domestic students admitted to a full-time BCIT program?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5072,
+    "output_tokens": 329,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 337,
+    "rewrite_output_tokens": 63,
+    "graph_input_tokens": 2841,
+    "graph_output_tokens": 116,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009464,
+   "timings": {
+    "rewrite_s": 1.039,
+    "retrieve_s": 1.327,
+    "rerank_s": 0.184,
+    "generate_s": 1.465,
+    "total_s": 16.165
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For domestic students admitted to a full-time BCIT program, the commitment fee varies depending on the type of program:\n\n* **Trades Foundation programs & Apprenticeship training:** $200\n* **Technology, Degree, and other general programs:** $500\n* **Airline and Flight Operations Commercial Pilot programs (Fixed-Wing and Rotary-Wing):** $1,000\n\nThis non-refundable, non-transferable fee is required to confirm acceptance and secure your seat, and it is applied directly toward your tuition upon registration.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-rotary-wing-diploma-full-time-100bdipma/\n- https://www.bcit.ca/admission/after-you-apply/application-status/application-accepted/\n- https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/\n- https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions/\n- https://www.bcit.ca/admission/tuition-fees/apprenticeship-training/\n- https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-fixed-wing-diploma-full-time-100adipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How much is the commitment fee for domestic students admitted to a full-time BCIT program?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 18606,
+   "n_context_sources": 9,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for the domestic student commitment fee for full-time BCIT programs.",
+     "queries": [
+      "BCIT domestic commitment fee full-time program"
+     ],
+     "missing": [
+      "BCIT full-time domestic student commitment fee amount"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence confirms that the commitment fee for domestic students in full-time studies is $200.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-rotary-wing-diploma-full-time-100bdipma",
+    "https://www.bcit.ca/admission/after-you-apply/application-status/application-accepted",
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals",
+    "https://www.bcit.ca/programs/business-fundamentals-associate-certificate-full-time-7985acert",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/admission/tuition-fees/apprenticeship-training",
+    "https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-fixed-wing-diploma-full-time-100adipma",
+    "https://www.bcit.ca/international-applicants/how-to-apply/regular"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 7,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-05",
+   "category": "program_admission",
+   "question": "How much is the commitment fee for international students at BCIT?",
+   "follow_up": null,
+   "standalone_question": "How much is the commitment fee for international students at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6071,
+    "output_tokens": 335,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 331,
+    "rewrite_output_tokens": 51,
+    "graph_input_tokens": 2942,
+    "graph_output_tokens": 108,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009771,
+   "timings": {
+    "rewrite_s": 1.211,
+    "retrieve_s": 2.029,
+    "rerank_s": 0.228,
+    "generate_s": 1.573,
+    "total_s": 7.294
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For international students at BCIT, the commitment fee is **$6,000**.\n\n* Newly admitted international students must pay this non-refundable and non-transferable commitment fee to confirm their seat and acceptance into a full-time or flexible learning program.\n* Once paid, the commitment fee is applied toward your first term of tuition.\n\nSources:\n- https://www.bcit.ca/international-students/programs/tuition-fees/\n- https://www.bcit.ca/admission/tuition-fees/international-fees/\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions/\n- https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-rotary-wing-diploma-full-time-100bdipma/\n- https://www.bcit.ca/international-applicants/how-to-apply/flexible/\n- https://www.bcit.ca/international-students/programs/apply/\n- https://www.bcit.ca/international-applicants/how-to-apply/regular/\n- https://www.bcit.ca/programs/business-fundamentals-associate-certificate-full-time-7985acert/\n- https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How much is the commitment fee for international students at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23022,
+   "n_context_sources": 10,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for commitment fee details for international students at BCIT.",
+     "queries": [
+      "BCIT international student commitment fee"
+     ],
+     "missing": [
+      "international student commitment fee"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence clearly states that the non-refundable commitment fee for international students at BCIT is $6,000.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/international-students/programs/tuition-fees",
+    "https://www.bcit.ca/admission/tuition-fees/international-fees",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/programs/airline-and-flight-operations-commercial-pilot-rotary-wing-diploma-full-time-100bdipma",
+    "https://www.bcit.ca/international-applicants/how-to-apply/flexible",
+    "https://www.bcit.ca/international-students/programs/apply",
+    "https://www.bcit.ca/international-applicants/how-to-apply/regular",
+    "https://www.bcit.ca/programs/business-fundamentals-associate-certificate-full-time-7985acert",
+    "https://www.bcit.ca/admission/tuition-fees/refunds-withdrawals"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 10,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-06",
+   "category": "program_admission",
+   "question": "What are the application fees for domestic and international applicants at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What are the application fees for domestic and international applicants at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5936,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 332,
+    "rewrite_output_tokens": 62,
+    "graph_input_tokens": 2472,
+    "graph_output_tokens": 119,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008687,
+   "timings": {
+    "rewrite_s": 1.177,
+    "retrieve_s": 1.066,
+    "rerank_s": 0.181,
+    "generate_s": 1.204,
+    "total_s": 5.816
+   },
+   "prior_turns": [],
+   "answer_excerpt": "BCIT application fees vary depending on whether you are applying as a domestic or an international applicant. \n\n- **Domestic applicants** (Canadian citizens or permanent residents) pay an application fee of **$90 CAD**.\n- **International applicants** pay an application fee of **$154 CAD**.\n\nApplication fees are non-refundable and must be paid using a credit card.\n\nSources:\n- https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions/\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What are the domestic application fees at BCIT?",
+    "What are the international application fees at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22683,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 27,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Application fees for domestic and international applicants need to be retrieved from BCIT documentation.",
+     "queries": [
+      "BCIT domestic application fee",
+      "BCIT international application fee"
+     ],
+     "missing": [
+      "BCIT domestic application fee",
+      "BCIT international application fee"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence clearly lists both domestic and international application fees at BCIT.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/admission/tuition-fees/international-fees",
+    "https://www.bcit.ca/international-students/programs/tuition-fees",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies/modified-registration",
+    "https://www.bcit.ca/international-students/programs/apply",
+    "https://www.bcit.ca/admission"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-07",
+   "category": "program_admission",
+   "question": "What overall IELTS score is required for programs with English Category 2, and what is the minimum band score?",
+   "follow_up": null,
+   "standalone_question": "What overall IELTS score is required for BCIT programs with English Category 2, and what is the minimum band score?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6204,
+    "output_tokens": 92,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 340,
+    "rewrite_output_tokens": 75,
+    "graph_input_tokens": 2329,
+    "graph_output_tokens": 118,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008552,
+   "timings": {
+    "rewrite_s": 1.308,
+    "retrieve_s": 1.984,
+    "rerank_s": 0.19,
+    "generate_s": 27.903,
+    "total_s": 33.782
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For programs requiring BCIT English Category 2, the required overall IELTS score is 6.5, with no band score below 5.5.\n\n* **Overall Score:** 6.5\n* **Minimum Band Score:** 5.5 (Academic test only; Online and One Skill Retake are accepted)\n\nSources:\n- https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "BCIT English Category 2 overall IELTS score requirement",
+    "BCIT English Category 2 minimum IELTS band score requirement"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21114,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 16,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check BCIT requirements for English Category 2 IELTS overall and band scores.",
+     "queries": [
+      "BCIT English Category 2 IELTS score requirements"
+     ],
+     "missing": [
+      "English Category 2 IELTS requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides the required overall IELTS score of 7 and minimum band score of 6.0 for Category 2.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency",
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/english-requirements-for-preparatory-programs",
+    "https://www.bcit.ca/global-partnerships/pathway-program",
+    "https://www.bcit.ca/programs/english-for-professional-and-academic-success-full-time-0130nobcit"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-08",
+   "category": "program_admission",
+   "question": "What Duolingo English Test score is needed to meet English Category 1 at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What Duolingo English Test score is needed to meet English Category 1 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6827,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 337,
+    "rewrite_output_tokens": 49,
+    "graph_input_tokens": 3812,
+    "graph_output_tokens": 227,
+    "graph_calls": 3
+   },
+   "est_cost_usd": 0.012707,
+   "timings": {
+    "rewrite_s": 1.141,
+    "retrieve_s": 1.644,
+    "rerank_s": 0.389,
+    "generate_s": 1.224,
+    "total_s": 8.234
+   },
+   "prior_turns": [],
+   "answer_excerpt": "A Duolingo English Test overall score of 130, with no integrated subscore less than 105, is required to meet English Category 1 at BCIT.\n\n- **Category 1 Requirement:** This score satisfies the English Language Proficiency standards necessary for programs requiring Category 1 assessment.\n- **Subscore Condition:** In addition to the overall score, applicants must ensure that no individual integrated subscore falls below 105.\n- **Recency:** Assessment test results must be dated no more than two years before the program start date.\n\nSources:\n- https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What Duolingo English Test score is needed to meet English Category 1 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 24528,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 2,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 42,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 1,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for Duolingo English Test score requirements for BCIT English Category 1.",
+     "queries": [
+      "BCIT Duolingo English Test score Category 1",
+      "BCIT English Category 1 requirements Duolingo"
+     ],
+     "missing": [
+      "Duolingo English Test score for English Category 1"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "Current evidence does not specify the Duolingo English Test score required for English Category 1.",
+     "queries": [
+      "English Category 1 requirements Duolingo English Test",
+      "English Language Proficiency Categories Duolingo"
+     ],
+     "missing": [
+      "Duolingo English Test score for English Category 1"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "answer",
+     "reason": "The evidence retrieved does not show a Duolingo English Test score for English Category 1.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency",
+    "https://www.bcit.ca/programs/english-for-professional-and-academic-success-full-time-0130nobcit",
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/english-requirements-for-preparatory-programs",
+    "https://www.bcit.ca/global-partnerships/pathway-program"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-09",
+   "category": "program_admission",
+   "question": "By how much can BCIT raise domestic tuition each year, and when do the new rates take effect?",
+   "follow_up": null,
+   "standalone_question": "By how much can BCIT raise domestic tuition each year, and when do the new rates take effect?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6279,
+    "output_tokens": 252,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 339,
+    "rewrite_output_tokens": 55,
+    "graph_input_tokens": 2606,
+    "graph_output_tokens": 124,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009284,
+   "timings": {
+    "rewrite_s": 1.149,
+    "retrieve_s": 2.131,
+    "rerank_s": 0.182,
+    "generate_s": 1.427,
+    "total_s": 7.256
+   },
+   "prior_turns": [],
+   "answer_excerpt": "BCIT may raise domestic tuition by up to 2 percent each year, and the new rates typically take effect on August 1.\n\nHere are the details regarding tuition increases:\n- **Annual Increase Limit:** BC post-secondary institutions, including BCIT, can raise domestic tuition by 2 percent annually in accordance with the Ministry of Post-Secondary Education and Future Skills’ Tuition Limit Policy.\n- **Effective Date:** New tuition rates are posted by BCIT in April of each year and take effect on August 1. If tuition is paid prior to April using the old rates, students must pay the difference within 10 business days from the start of their program.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcit.ca/admission/tuition-fees/apprenticeship-training/\n- https://www.bcit.ca/admission/tuition-fees/international-fees/\n- https://www.bcit.ca/admission/tuition-fees/estimator/\n- https://www.bcit.ca/admission/tuition-fees/flexible-learning/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "By how much can BCIT raise domestic tuition each year?",
+    "When do new BCIT tuition rates take effect?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21431,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 23,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to search BCIT tuition policies regarding annual domestic tuition increases and effective dates.",
+     "queries": [
+      "BCIT domestic tuition fee increases",
+      "BCIT tuition rates effective date policy"
+     ],
+     "missing": [
+      "BCIT domestic tuition annual increase limit",
+      "BCIT tuition rate effective date"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence fully answers the tuition increase limit and when new rates post.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/admission/tuition-fees/apprenticeship-training",
+    "https://www.bcit.ca/admission/tuition-fees/international-fees",
+    "https://www.bcit.ca/admission/tuition-fees/estimator",
+    "https://www.bcit.ca/admission/tuition-fees/flexible-learning",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies/modified-registration",
+    "https://www.bcit.ca/international-students/programs/tuition-fees",
+    "https://www.bcit.ca/international-applicants/tuition-fees"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 5,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pa-10",
+   "category": "program_admission",
+   "question": "How much will the international differential fee increase for the 2026/27 academic year at BCIT?",
+   "follow_up": null,
+   "standalone_question": "How much will the international differential fee increase for the 2026/27 academic year at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4445,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 342,
+    "rewrite_output_tokens": 73,
+    "graph_input_tokens": 2179,
+    "graph_output_tokens": 136,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007935,
+   "timings": {
+    "rewrite_s": 1.187,
+    "retrieve_s": 1.25,
+    "rerank_s": 0.169,
+    "generate_s": 1.038,
+    "total_s": 6.269
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For the 2026/27 academic year, the international differential fee at BCIT is scheduled to increase by 7%.\n\n* BCIT publishes international differential fee increases years in advance to help international students plan educational costs.\n* The 7% increase for 2026/27 is part of these published transparency estimates.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/international-fees/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How much will the international differential fee increase for the 2026/27 academic year at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13194,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for international differential fee increases for the 2026/27 academic year at BCIT.",
+     "queries": [
+      "BCIT international differential fee 2026 2027 tuition increase"
+     ],
+     "missing": [
+      "international differential fee 2026/27"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence clearly states the international differential fee increase for the 2026/27 academic year is 7%.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/international-fees",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies/modified-registration",
+    "https://www.bcit.ca/admission/tuition-fees/estimator",
+    "https://www.bcit.ca/international-students/programs/tuition-fees"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-01",
+   "category": "student_life",
+   "question": "Does BCIT offer on-campus student housing at the Burnaby campus?",
+   "follow_up": null,
+   "standalone_question": "Does BCIT offer on-campus student housing at the Burnaby campus?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5446,
+    "output_tokens": 164,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 333,
+    "rewrite_output_tokens": 55,
+    "graph_input_tokens": 2797,
+    "graph_output_tokens": 111,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008994,
+   "timings": {
+    "rewrite_s": 1.027,
+    "retrieve_s": 40.597,
+    "rerank_s": 0.173,
+    "generate_s": 1.377,
+    "total_s": 45.777
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Yes, BCIT offers on-campus student housing at the Burnaby campus, featuring over 800 rooms and the Tall Timber Student Housing building.\n\n* **Burnaby Campus Housing:** BCIT provides more than 800 rooms on the Burnaby campus to accommodate students. \n* **Housing Options:** Options include Tall Timber Student Housing (which opened in Fall 2025 and offers fully self-contained studio rooms and connected single rooms) and legacy townhouses that host 12 students each in private rooms with shared common facilities. \n* **Application and Details:** You can learn more about the available options and submit an application through the official BCIT website.\n\nSources:\n- https://www.bcit.ca/student-services/student-life-housing/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Does BCIT offer on-campus student housing at the Burnaby campus?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21054,
+   "n_context_sources": 9,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 23,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check if BCIT offers on-campus student housing at the Burnaby campus.",
+     "queries": [
+      "BCIT Burnaby campus student housing accommodation"
+     ],
+     "missing": [
+      "BCIT Burnaby campus housing options"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence confirms that BCIT offers on-campus student housing at the Burnaby campus.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/student-services/student-life-housing",
+    "https://www.bcit.ca/international-students/guides/pre-arrival",
+    "https://www.bcit.ca/international-students/guides/housing-guide",
+    "https://www.bcit.ca/programs/energy-study-abroad-full-time-0345nobcit",
+    "https://www.bcit.ca/programs/computing-and-academic-studies-study-abroad-full-time-0335nobcit",
+    "https://www.bcit.ca/programs/business-and-media-study-abroad-full-time-0330nobcit",
+    "https://www.bcit.ca/about/leadership-vision/history",
+    "https://www.bcit.ca/admission/future-students/campus-life",
+    "https://www.bcit.ca/programs/building-science-master-of-engineering-full-time-part-time-m120meng"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-02",
+   "category": "student_life",
+   "question": "How many beds does the Tall Timber student residence have and how many storeys is it?",
+   "follow_up": null,
+   "standalone_question": "How many beds does the Tall Timber student residence have and how many storeys is it?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5697,
+    "output_tokens": 138,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 336,
+    "rewrite_output_tokens": 56,
+    "graph_input_tokens": 2826,
+    "graph_output_tokens": 130,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009202,
+   "timings": {
+    "rewrite_s": 1.089,
+    "retrieve_s": 0.963,
+    "rerank_s": 0.178,
+    "generate_s": 1.189,
+    "total_s": 6.0
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The BCIT Tall Timber student residence features 469 beds and stands at 12 storeys high.\n\n- The 12-storey residence provides long- and short-term housing with a capacity of 469 beds.\n- It offers fully self-contained studio rooms and connected single rooms, prioritizing Indigenous students and former youth in care.\n\nSources:\n- https://www.bcit.ca/about/leadership-vision/quick-facts/\n- https://www.bcit.ca/about/leadership-vision/history/\n- https://www.bcit.ca/student-services/student-life-housing/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "How many beds does the BCIT Tall Timber student residence have?",
+    "How many storeys is the BCIT Tall Timber student residence?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22200,
+   "n_context_sources": 9,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 14,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Information about Tall Timber student residence capacity and storeys needs to be retrieved from BCIT documents.",
+     "queries": [
+      "Tall Timber student residence beds capacity",
+      "Tall Timber housing storeys floors"
+     ],
+     "missing": [
+      "Tall Timber student residence bed capacity",
+      "Tall Timber student residence storeys"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence provides the storey count, but indicates the exact bed count is unavailable in the corpus.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/about/leadership-vision/quick-facts",
+    "https://www.bcit.ca/about/leadership-vision/history",
+    "https://www.bcit.ca/student-services/student-life-housing",
+    "https://www.bcit.ca/international-students/guides/housing-guide",
+    "https://www.bcit.ca/courses/cost-estimation-for-mass-timber-construction-tmbr-3005",
+    "https://www.bcit.ca/international-students/guides/navigating-metro-vancouver",
+    "https://www.bcit.ca/courses/introduction-to-mass-timber-building-system-performance-tmbr-1005",
+    "https://www.bcit.ca/courses/digital-project-delivery-for-mass-timber-construction-tmbr-3010",
+    "https://www.bcit.ca/programs/cardiovascular-perfusion-advanced-certificate-part-time-6820ascert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-03",
+   "category": "student_life",
+   "question": "Is peer tutoring at BCIT free, and do I need to book in advance?",
+   "follow_up": null,
+   "standalone_question": "Is peer tutoring at BCIT free, and do I need to book in advance?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5593,
+    "output_tokens": 100,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 335,
+    "rewrite_output_tokens": 65,
+    "graph_input_tokens": 2639,
+    "graph_output_tokens": 95,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008599,
+   "timings": {
+    "rewrite_s": 1.179,
+    "retrieve_s": 2.042,
+    "rerank_s": 0.172,
+    "generate_s": 1.057,
+    "total_s": 22.555
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Peer tutoring at BCIT is completely free, and you do not need to book in advance. \n\n* **Cost:** Peer tutoring is provided free of charge to all BCIT students.\n* **Booking:** Tutoring sessions operate on a drop-in basis, meaning no advance registration is required. You can check the online schedule for up-to-date times and locations.\n\nSources:\n- https://www.bcit.ca/learning-commons/peer-tutoring/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "Is peer tutoring at BCIT free?",
+    "Do students need to book BCIT peer tutoring in advance?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21007,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need BCIT evidence regarding peer tutoring costs and booking requirements.",
+     "queries": [
+      "BCIT peer tutoring cost booking"
+     ],
+     "missing": [
+      "BCIT peer tutoring cost and booking policy"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The provided evidence confirms peer tutoring is free and available via drop-in or scheduled options.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/learning-commons/peer-tutoring",
+    "https://www.bcit.ca/student-services/support-your-own-success/secrets-for-success",
+    "https://www.bcit.ca/outlines/20243030487",
+    "https://www.bcit.ca/outlines/20253031487",
+    "https://www.bcit.ca/outlines/20261093051",
+    "https://www.bcit.ca/learning-commons",
+    "https://www.bcit.ca/international-students/guides/academic-supports-policies-guide",
+    "https://www.bcit.ca/international-students/guides/well-being-guide"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-04",
+   "category": "student_life",
+   "question": "What are the peer tutoring hours on Wednesday at the Burnaby campus library?",
+   "follow_up": null,
+   "standalone_question": "What are the peer tutoring hours on Wednesday at the Burnaby campus library?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6507,
+    "output_tokens": 100,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 333,
+    "rewrite_output_tokens": 41,
+    "graph_input_tokens": 2720,
+    "graph_output_tokens": 126,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009044,
+   "timings": {
+    "rewrite_s": 1.077,
+    "retrieve_s": 2.071,
+    "rerank_s": 0.223,
+    "generate_s": 1.071,
+    "total_s": 7.636
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Peer tutoring hours on Wednesday at the Burnaby Campus Library are from 2:30 PM to 4:30 PM.\n\n- Drop-in peer tutoring and writing support take place on the main floor of the Burnaby Campus Library (SE14).\n- No advance registration is required.\n\nSources:\n- https://www.bcit.ca/learning-commons/\n- https://www.bcit.ca/learning-commons/peer-tutoring/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the peer tutoring hours on Wednesday at the Burnaby campus library?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23894,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Peer tutoring hours at the Burnaby campus library need to be retrieved from the BCIT corpus.",
+     "queries": [
+      "BCIT library peer tutoring hours Wednesday Burnaby campus",
+      "Burnaby library peer tutoring schedule"
+     ],
+     "missing": [
+      "Wednesday peer tutoring hours Burnaby campus library"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence indicates that peer tutoring schedules are available via an online schedule rather than fixed listed hours.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/learning-commons",
+    "https://www.bcit.ca/learning-commons/peer-tutoring",
+    "https://www.bcit.ca/learning-commons/writing-support",
+    "https://www.bcit.ca/learning-commons/learning-strategies",
+    "https://www.bcit.ca/student-services/academic-learning-services",
+    "https://www.bcit.ca/admission/contact-us",
+    "https://www.bcit.ca/advising/contact-full-time-cohort-advising",
+    "https://www.bcit.ca/learning-commons/peer-tutoring/become-a-tutor"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-05",
+   "category": "student_life",
+   "question": "Am I automatically enrolled in the BCITSA Health and Dental Plan, and can I opt out?",
+   "follow_up": null,
+   "standalone_question": "Am I automatically enrolled in the BCITSA Health and Dental Plan, and can I opt out?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5306,
+    "output_tokens": 224,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 69,
+    "graph_input_tokens": 2404,
+    "graph_output_tokens": 141,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.00885,
+   "timings": {
+    "rewrite_s": 1.478,
+    "retrieve_s": 0.912,
+    "rerank_s": 0.212,
+    "generate_s": 21.202,
+    "total_s": 26.441
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Yes, eligible full-time students are automatically enrolled in the BCITSA Health and Dental Plan, and you do have the option to opt out if you already have comparable coverage.\n\n- **Automatic Enrollment:** You are automatically enrolled if your program is designated as full-time by BCIT, runs for at least 16 weeks, and you are an eligible student. The plan fee is automatically included in your tuition upon registration.\n- **Opt-Out Process:** If you are already covered for comparable extended health and dental benefits, you have the option to decline or opt out of the student plan. The opt-out deadline is 30 days from the start of your program (once per 12 months), and after this deadline, opt-outs cannot be processed. \n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcitsa.ca/student-services/health-dental/\n- https://www.bcitsa.ca/about-us/student-fees/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "BCITSA Health and Dental Plan automatic enrollment",
+    "BCITSA Health and Dental Plan opt out process"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 20104,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 20,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to check the BCITSA Health and Dental Plan automatic enrollment and opt-out policy.",
+     "queries": [
+      "BCITSA Health and Dental Plan automatic enrollment",
+      "BCITSA Health and Dental Plan opt out"
+     ],
+     "missing": [
+      "BCITSA Health and Dental Plan enrollment",
+      "BCITSA Health and Dental Plan opt-out policy"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides clear information regarding automatic enrollment and the ability to opt out.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcitsa.ca/student-services/health-dental",
+    "https://www.bcitsa.ca/about-us/student-fees",
+    "https://www.bcitsa.ca/student-services",
+    "https://www.bcit.ca/international-students/guides/family-members-guide",
+    "https://www.bcitsa.ca"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sl-06",
+   "category": "student_life",
+   "question": "Where on campus is the Healthy Smile dental hygienist located?",
+   "follow_up": null,
+   "standalone_question": "Where on campus is the Healthy Smile dental hygienist located?",
+   "finish_reason": "STOP",
+   "n_context_docs": 14,
+   "usage": {
+    "input_tokens": 8830,
+    "output_tokens": 77,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 49,
+    "graph_input_tokens": 4304,
+    "graph_output_tokens": 194,
+    "graph_calls": 3
+   },
+   "est_cost_usd": 0.013625,
+   "timings": {
+    "rewrite_s": 1.079,
+    "retrieve_s": 3.002,
+    "rerank_s": 0.705,
+    "generate_s": 1.172,
+    "total_s": 14.545
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The Healthy Smile dental hygienist is located on the BCIT Burnaby Campus inside the Student Association Centre (SE2) on the third floor.\n\n- You can find the dental hygienist office on the 3rd floor of building SE2 at the Burnaby Campus.\n\nSources:\n- https://www.bcitsa.ca/student-services/health-dental/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Where on campus is the Healthy Smile dental hygienist located?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 36215,
+   "n_context_sources": 9,
+   "n_chunks_kept": 14,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 2,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 47,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 1,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The location of the Healthy Smile dental hygiene clinic on campus needs to be retrieved.",
+     "queries": [
+      "Healthy Smile dental hygiene clinic location BCIT campus"
+     ],
+     "missing": [
+      "Healthy Smile dental clinic location"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "Need specific location details for the Healthy Smile Dental Hygiene Clinic on campus.",
+     "queries": [
+      "Healthy Smile Dental Hygiene Clinic location campus building",
+      "BCIT Dental Hygiene Clinic location Burnaby campus"
+     ],
+     "missing": [
+      "Healthy Smile Dental Hygiene Clinic location"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "answer",
+     "reason": "The retrieved evidence from BCIT pages does not contain the location of the Healthy Smile Dental Hygiene Clinic.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 14
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcitsa.ca/student-services/health-dental",
+    "https://www.bcit.ca/programs/dental-office-receptionist-statement-of-completion-part-time-0440000000",
+    "https://www.bcitsa.ca/student-services",
+    "https://www.bcit.ca/student-services/campus-amenities",
+    "https://www.bcit.ca/outlines/20261042940",
+    "https://www.bcit.ca/about/visit/campuses-directions/burnaby",
+    "https://www.bcitsa.ca/campus-life/clubs",
+    "https://www.bcit.ca/outlines/20252051785",
+    "https://www.bcitsa.ca/2026-health-sciences-career-event"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-01",
+   "category": "multipart",
+   "question": "For the Computer Systems Technology diploma: what are the entrance requirements, how much do books cost per term, and what is the domestic application deadline for the September intake?",
+   "follow_up": null,
+   "standalone_question": "For the Computer Systems Technology diploma at BCIT, what are the entrance requirements, the estimated cost of books per term, and the domestic application deadline for the September intake?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5472,
+    "output_tokens": 229,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 351,
+    "rewrite_output_tokens": 97,
+    "graph_input_tokens": 2215,
+    "graph_output_tokens": 148,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008911,
+   "timings": {
+    "rewrite_s": 1.487,
+    "retrieve_s": 1.136,
+    "rerank_s": 0.173,
+    "generate_s": 1.502,
+    "total_s": 7.016
+   },
+   "prior_turns": [],
+   "answer_excerpt": "For the full-time Computer Systems Technology diploma, the entrance requirements include specific English and Math proficiencies, books are estimated at $500 to $800 per term, and the domestic application deadline for the September intake is September 1st.\n\n* **Entrance Requirements:**\n  - English language proficiency: Category 2 – English Studies 12 (67%) or equivalent.\n  - Math: one of Pre-Calculus 12 (67%) or other acceptable BC and Yukon courses.\n* **Book Costs:** Books are generally expected to cost $500 to $800 per term (subject to change). Students must also have their own Windows-compatible laptop, estimated between $1,000 and $2,000.\n* **Domestic Application Deadline (September Intake):** September 1st (with the application period opening on October 1st of the prior year).\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "BCIT Computer Systems Technology diploma entrance requirements",
+    "BCIT Computer Systems Technology diploma book costs per term",
+    "BCIT Computer Systems Technology diploma domestic application deadline September intake"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21281,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 28,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need entrance requirements, book costs, and September application deadlines for the CST diploma.",
+     "queries": [
+      "Computer Systems Technology entrance requirements",
+      "Computer Systems Technology book cost per term",
+      "Computer Systems Technology domestic application deadline September"
+     ],
+     "missing": [
+      "Computer Systems Technology entrance requirements",
+      "Computer Systems Technology book cost per term",
+      "Computer Systems Technology September domestic application deadline"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence contains details on application deadlines, requirements, and information on additional costs like books.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-02",
+   "category": "multipart",
+   "question": "How much is the application fee for domestic applicants, and does BCIT have student housing on the Burnaby campus?",
+   "follow_up": null,
+   "standalone_question": "How much is the application fee for domestic applicants, and does BCIT have student housing on the Burnaby campus?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5989,
+    "output_tokens": 187,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 341,
+    "rewrite_output_tokens": 58,
+    "graph_input_tokens": 2710,
+    "graph_output_tokens": 145,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009373,
+   "timings": {
+    "rewrite_s": 1.14,
+    "retrieve_s": 2.051,
+    "rerank_s": 0.219,
+    "generate_s": 1.357,
+    "total_s": 7.415
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The domestic application fee at BCIT is $90, and BCIT does offer student housing on the Burnaby campus.\n\n- **Application Fee:** The non-refundable application fee for domestic applicants (Canadian citizens or permanent residents) is $90 CAD.\n- **Student Housing:** BCIT provides over 800 rooms on the Burnaby Campus. Options include Tall Timber Student Housing (featuring fully self-contained studio and connected single rooms) and legacy townhouses that accommodate 12 students each in private rooms with shared common facilities.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions/\n- https://www.bcit.ca/student-services/student-life-housing/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "How much is the domestic application fee at BCIT?",
+    "Does BCIT have student housing on the Burnaby campus?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23588,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 27,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need BCIT evidence for domestic application fees and Burnaby campus student housing availability.",
+     "queries": [
+      "BCIT domestic application fee",
+      "BCIT Burnaby campus student housing"
+     ],
+     "missing": [
+      "domestic application fee",
+      "Burnaby campus student housing"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "Evidence contains the domestic application fee, but details about student housing on Burnaby campus are missing.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/admission/contact-us/ask-us/frequently-asked-questions",
+    "https://www.bcit.ca/student-services/student-life-housing",
+    "https://www.bcit.ca/programs/business-and-media-study-abroad-full-time-0330nobcit",
+    "https://www.bcit.ca/programs/computing-and-academic-studies-study-abroad-full-time-0335nobcit",
+    "https://www.bcit.ca/programs/energy-study-abroad-full-time-0345nobcit",
+    "https://www.bcit.ca/admission/after-you-apply/application-status/application-accepted",
+    "https://www.bcit.ca/programs/business-fundamentals-associate-certificate-full-time-7985acert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-03",
+   "category": "multipart",
+   "question": "What are the prerequisites for COMP 3522, and how many credits is COMP 1510 worth?",
+   "follow_up": null,
+   "standalone_question": "What are the prerequisites for COMP 3522, and how many credits is COMP 1510 worth?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5812,
+    "output_tokens": 216,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 343,
+    "rewrite_output_tokens": 61,
+    "graph_input_tokens": 2493,
+    "graph_output_tokens": 157,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009183,
+   "timings": {
+    "rewrite_s": 1.039,
+    "retrieve_s": 36.92,
+    "rerank_s": 0.338,
+    "generate_s": 1.376,
+    "total_s": 42.378
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 3522 requires COMP 2510 along with either COMP 2526 or COMP 2522, and COMP 1510 is worth 6.0 credits.\n\n- **COMP 3522 Prerequisites:** The required courses are COMP 2510 and either COMP 2526 or COMP 2522.\n- **COMP 1510 Credits:** This course is worth 6.0 credits (or 6 course credits).\n\nSources:\n- https://www.bcit.ca/outlines/20261087231/\n- https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522/\n- https://www.bcit.ca/outlines/20261048058/\n- https://www.bcit.ca/courses/programming-methods-comp-1510/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What are the prerequisites for COMP 3522?",
+    "How many credits is COMP 1510 worth?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21238,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 14,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need prerequisites for COMP 3522 and credit value for COMP 1510 from BCIT database.",
+     "queries": [
+      "COMP 3522 prerequisites",
+      "COMP 1510 credits"
+     ],
+     "missing": [
+      "COMP 3522 prerequisites",
+      "COMP 1510 credits"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence provides the prerequisites for COMP 3522 and the credit value for COMP 1510.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522",
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-04",
+   "category": "multipart",
+   "question": "What overall IELTS score does English Category 1 require, and how much is the commitment fee for international students?",
+   "follow_up": null,
+   "standalone_question": "What overall IELTS score does English Category 1 require, and how much is the commitment fee for international students?",
+   "finish_reason": "STOP",
+   "n_context_docs": 13,
+   "usage": {
+    "input_tokens": 9607,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 340,
+    "rewrite_output_tokens": 59,
+    "graph_input_tokens": 6257,
+    "graph_output_tokens": 344,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.019235,
+   "timings": {
+    "rewrite_s": 2.612,
+    "retrieve_s": 16.165,
+    "rerank_s": 0.884,
+    "generate_s": 1.432,
+    "total_s": 28.071
+   },
+   "prior_turns": [],
+   "answer_excerpt": "BCIT English Category 1 requires an overall IELTS Academic score of 7, with no band less than 6.0. The commitment fee for international students offered a seat in an academic program is $6,000.\n\n- English Category 1 requires an overall IELTS score of 7 (Academic test only, with no band less than 6.0).\n- Newly admitted international students must pay a non-refundable $6,000 commitment fee to confirm acceptance and secure their seat in a full-time or Flexible Learning program (which is then applied toward tuition upon registration).\n\nSources:\n- https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/\n- https://www.bcit.ca/admission/tuition-fees/international-fees/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "What overall IELTS score does BCIT English Category 1 require?",
+    "How much is the BCIT commitment fee for international students?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 36446,
+   "n_context_sources": 7,
+   "n_chunks_kept": 13,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 73,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need BCIT English Category 1 IELTS requirements and international commitment fee details.",
+     "queries": [
+      "English Category 1 IELTS score requirement",
+      "international student commitment fee"
+     ],
+     "missing": [
+      "English Category 1 IELTS score requirement",
+      "international student commitment fee"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The exact IELTS score required specifically for BCIT English Category 1 is missing from current evidence.",
+     "queries": [
+      "BCIT English Category 1 IELTS requirement",
+      "BCIT Category 1 English Language Proficiency IELTS score"
+     ],
+     "missing": [
+      "BCIT English Category 1 IELTS score requirement"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "We need the minimum overall IELTS score for English Category 1, which was not in the previous results.",
+     "queries": [
+      "BCIT English Category 1 IELTS requirement",
+      "BCIT English Language Proficiency Category 1 IELTS"
+     ],
+     "missing": [
+      "English Category 1 IELTS requirement"
+     ],
+     "n_docs_seen": 12
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "We still need the specific IELTS overall score required for English Category 1.",
+     "queries": [
+      "BCIT English Category 1 IELTS requirement"
+     ],
+     "missing": [
+      "English Category 1 IELTS requirement"
+     ],
+     "n_docs_seen": 13
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency",
+    "https://www.bcit.ca/global-partnerships/pathway-program",
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/english-requirements-for-preparatory-programs",
+    "https://www.bcit.ca/programs/english-for-professional-and-academic-success-full-time-0130nobcit",
+    "https://www.bcit.ca/international-students/programs/tuition-fees",
+    "https://www.bcit.ca/admission/tuition-fees/international-fees",
+    "https://www.bcit.ca/programs/business-and-media-study-abroad-full-time-0330nobcit"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-05",
+   "category": "multipart",
+   "question": "Three quick questions: is peer tutoring free, can I opt out of the BCITSA health and dental plan, and what student residences are on the Burnaby campus?",
+   "follow_up": null,
+   "standalone_question": "Is BCIT peer tutoring free, can I opt out of the BCITSA health and dental plan, and what student residences are on the Burnaby campus?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5716,
+    "output_tokens": 222,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 352,
+    "rewrite_output_tokens": 92,
+    "graph_input_tokens": 2837,
+    "graph_output_tokens": 190,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.010178,
+   "timings": {
+    "rewrite_s": 1.263,
+    "retrieve_s": 35.769,
+    "rerank_s": 0.307,
+    "generate_s": 1.829,
+    "total_s": 41.836
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Yes, peer tutoring is free for all students. \n\nHere are the answers to your questions:\n\n- **Peer Tutoring:** Peer tutoring is free and available to all students. You can check the online schedule for up-to-date times, locations, and available program subjects.\n- **Health and Dental Plan Opt-Out:** Full-time, eligible students in technology, trades, or technical studies programs lasting 16 weeks or longer are automatically covered by the BCITSA Student Health and Dental Plan. If you already have comparable extended health and dental benefits, you can opt out within 30 days from the start of your program (once per 12 months). After this deadline, opt-outs cannot be processed.\n- **Burnaby Campus Residences:** The available documents do not contain information about student residences on the Burnaby campus. \n\nSources:\n- https://www.bcit.ca/learning-commons/peer-tutoring/\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "Is BCIT peer tutoring free",
+    "How to opt out of the BCITSA health and dental plan",
+    "BCIT Burnaby campus student residences"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21260,
+   "n_context_sources": 9,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for information on peer tutoring costs, health plan opt-out rules, and Burnaby campus student residences.",
+     "queries": [
+      "BCIT peer tutoring cost free",
+      "BCITSA health dental plan opt out",
+      "BCIT Burnaby campus student residences"
+     ],
+     "missing": [
+      "peer tutoring cost",
+      "BCITSA health and dental plan opt out",
+      "Burnaby campus student residences"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "Evidence is needed to confirm health plan opt-out details and Burnaby campus student residences.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/student-services/support-your-own-success/secrets-for-success",
+    "https://www.bcit.ca/learning-commons/peer-tutoring",
+    "https://www.bcit.ca/outlines/20253031487",
+    "https://www.bcit.ca/outlines/20243030487",
+    "https://www.bcit.ca/outlines/20261093051",
+    "https://www.bcit.ca/international-students/guides/academic-supports-policies-guide",
+    "https://www.bcitsa.ca/about-us/student-fees",
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcit.ca/about/visit/campuses-directions/burnaby"
+   ],
+   "url_hit_fraction": 0.6666666666666666,
+   "url_full_hit": false,
+   "urls_missed": [
+    "https://www.bcit.ca/student-services/student-life-housing/"
+   ],
+   "fact_recall": 0.6666666666666666,
+   "facts_missed": [
+    "tall timber"
+   ],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mp-06",
+   "category": "multipart",
+   "question": "Between COMP 2714 and COMP 4537, how many credits is each course and which one requires COMP 1712?",
+   "follow_up": null,
+   "standalone_question": "Between COMP 2714 and COMP 4537, how many credits is each course and which one requires COMP 1712?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6293,
+    "output_tokens": 301,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 350,
+    "rewrite_output_tokens": 121,
+    "graph_input_tokens": 2528,
+    "graph_output_tokens": 165,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.010112,
+   "timings": {
+    "rewrite_s": 1.41,
+    "retrieve_s": 2.533,
+    "rerank_s": 0.275,
+    "generate_s": 1.374,
+    "total_s": 8.279
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 2714 is worth 4.0 credits and requires COMP 1712, while COMP 4537 is worth 3.0 credits and requires COMP 1537 and COMP 3522. \n\n- **COMP 2714 (Relational Database Systems):** Worth 4 credits. Its prerequisite is COMP 1712.\n- **COMP 4537 (Internet Software Architecture):** Worth 3 credits. Its prerequisites are COMP 1537 and COMP 3522.\n- **COMP 1712 Prerequisite:** COMP 2714 requires COMP 1712, making COMP 2714 the course with that prerequisite.\n\nSources:\n- https://www.bcit.ca/outlines/20261077186/\n- https://www.bcit.ca/courses/relational-database-systems-comp-2714/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/outlines/20261088086/\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/",
+   "error": null,
+   "n_subqueries": 3,
+   "sub_queries": [
+    "How many credits is COMP 2714 and what are its prerequisites?",
+    "How many credits is COMP 4537 and what are its prerequisites?",
+    "Which course requires COMP 1712 as a prerequisite COMP 2714 or COMP 4537?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23262,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 40,
+   "n_scoped_candidates": 35,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need credit values for COMP 2714 and COMP 4537, and prerequisites for COMP 4537.",
+     "queries": [
+      "COMP 2714 course credits",
+      "COMP 4537 course credits prerequisites"
+     ],
+     "missing": [
+      "COMP 2714 credits",
+      "COMP 4537 credits",
+      "COMP 4537 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence provides the credit values for COMP 2714 and COMP 4537, as well as their prerequisites.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261077186",
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2714",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/outlines/20261088086",
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 5,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-01",
+   "category": "follow_up",
+   "question": "Tell me about the Computer Systems Technology diploma at BCIT.",
+   "follow_up": "What are its entrance requirements?",
+   "standalone_question": "What are the entrance requirements for the Computer Systems Technology diploma at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5839,
+    "output_tokens": 125,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 605,
+    "rewrite_output_tokens": 41,
+    "graph_input_tokens": 2587,
+    "graph_output_tokens": 114,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009025,
+   "timings": {
+    "rewrite_s": 1.163,
+    "retrieve_s": 36.355,
+    "rerank_s": 0.285,
+    "generate_s": 1.264,
+    "total_s": 41.814
+   },
+   "prior_turns": [
+    {
+     "question": "Tell me about the Computer Systems Technology diploma at BCIT.",
+     "usage": {
+      "input_tokens": 5433,
+      "output_tokens": 304,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 330,
+      "rewrite_output_tokens": 35,
+      "graph_input_tokens": 2052,
+      "graph_output_tokens": 117,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.008113,
+     "timings": {
+      "rewrite_s": 1.185,
+      "retrieve_s": 1.218,
+      "rerank_s": 0.182,
+      "generate_s": 1.754,
+      "total_s": 6.85
+     }
+    }
+   ],
+   "answer_excerpt": "The entrance requirements for the full-time Computer Systems Technology (CST) Diploma include:\n\n* **English Language Proficiency:** Category 2 – English Studies 12 (67%) or equivalent.\n* **Math:** One of Pre-Calculus 12 (67%) or another acceptable BC and Yukon course.\n\nApplicants must meet all entrance requirements and are accepted on a first-qualified basis as long as space remains.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the entrance requirements for the Computer Systems Technology diploma at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22005,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 31,
+   "n_scoped_candidates": 6,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The user is asking for entrance requirements for the Computer Systems Technology diploma program.",
+     "queries": [
+      "Computer Systems Technology diploma entrance requirements",
+      "CST diploma admission requirements BCIT"
+     ],
+     "missing": [
+      "Computer Systems Technology diploma entrance requirements"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence already fully outlines the CST diploma entrance requirements for English and Math.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-02",
+   "category": "follow_up",
+   "question": "What is COMP 1510 at BCIT?",
+   "follow_up": "How many credits is it worth?",
+   "standalone_question": "How many credits is COMP 1510 worth at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4531,
+    "output_tokens": 91,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 497,
+    "rewrite_output_tokens": 41,
+    "graph_input_tokens": 2447,
+    "graph_output_tokens": 115,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008183,
+   "timings": {
+    "rewrite_s": 6.122,
+    "retrieve_s": 1.101,
+    "rerank_s": 0.356,
+    "generate_s": 1.063,
+    "total_s": 11.19
+   },
+   "prior_turns": [
+    {
+     "question": "What is COMP 1510 at BCIT?",
+     "usage": {
+      "input_tokens": 3689,
+      "output_tokens": 212,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 330,
+      "rewrite_output_tokens": 49,
+      "graph_input_tokens": 1970,
+      "graph_output_tokens": 118,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.007349,
+     "timings": {
+      "rewrite_s": 1.093,
+      "retrieve_s": 2.071,
+      "rerank_s": 0.157,
+      "generate_s": 1.31,
+      "total_s": 46.333
+     }
+    }
+   ],
+   "answer_excerpt": "COMP 1510 is worth 6 credits.\n\n* **Credit Value:** The course provides 6.0 credits toward the Computer Systems Technology (CST) Diploma program.\n\nSources:\n- https://www.bcit.ca/outlines/20261048058/\n- https://www.bcit.ca/courses/programming-methods-comp-1510/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How many credits is COMP 1510 worth at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 15035,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 33,
+   "n_scoped_candidates": 8,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Follow-up question about COMP 1510 credits requires retrieval of official course documentation to cite.",
+     "queries": [
+      "BCIT COMP 1510 credits"
+     ],
+     "missing": [
+      "COMP 1510 credits"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence already specifies that COMP 1510 is worth 6 credits.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-03",
+   "category": "follow_up",
+   "question": "Tell me about the BCITSA Health and Dental Plan.",
+   "follow_up": "How many days do I have to opt out after my program starts?",
+   "standalone_question": "How many days do I have to opt out of the BCITSA Health and Dental Plan after my program starts?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5419,
+    "output_tokens": 159,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 549,
+    "rewrite_output_tokens": 71,
+    "graph_input_tokens": 2812,
+    "graph_output_tokens": 63,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.00908,
+   "timings": {
+    "rewrite_s": 31.4,
+    "retrieve_s": 2.277,
+    "rerank_s": 0.165,
+    "generate_s": 1.66,
+    "total_s": 37.838
+   },
+   "prior_turns": [
+    {
+     "question": "Tell me about the BCITSA Health and Dental Plan.",
+     "usage": {
+      "input_tokens": 6025,
+      "output_tokens": 294,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 330,
+      "rewrite_output_tokens": 49,
+      "graph_input_tokens": 2376,
+      "graph_output_tokens": 110,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.008804,
+     "timings": {
+      "rewrite_s": 1.2,
+      "retrieve_s": 1.948,
+      "rerank_s": 0.322,
+      "generate_s": 1.621,
+      "total_s": 7.145
+     }
+    }
+   ],
+   "answer_excerpt": "You have 30 days from the start of your program to opt out of the BCITSA Health & Dental Plan. \n\nKey details regarding the opt-out process include:\n- The opt-out window is valid once per 12 months.\n- If you already have comparable extended health and dental coverage, you are eligible to opt out.\n- The 30-day deadline also applies if you wish to add family members to your plan.\n- Missing this deadline means opt-outs and family add-ons cannot be processed.\n\nSources:\n- https://www.bcit.ca/admission/tuition-fees/full-time-studies/\n- https://www.bcitsa.ca/student-services/health-dental/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How many days do I have to opt out of the BCITSA Health and Dental Plan after my program starts?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 20054,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The conversation history already contains the complete answer regarding the 30-day opt-out deadline.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The conversation history and retrieved evidence already confirm students have 30 days to opt out.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/tuition-fees/full-time-studies",
+    "https://www.bcitsa.ca/student-services/health-dental",
+    "https://www.bcitsa.ca/student-services",
+    "https://www.bcit.ca/international-students/guides/family-members-guide",
+    "https://www.bcitsa.ca",
+    "https://www.bcit.ca/outlines/20251084913"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-04",
+   "category": "follow_up",
+   "question": "Does BCIT have student housing?",
+   "follow_up": "When did the newest residence open?",
+   "standalone_question": "When did the newest student residence at BCIT, Tall Timber Student Housing, open?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5470,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 466,
+    "rewrite_output_tokens": 39,
+    "graph_input_tokens": 2679,
+    "graph_output_tokens": 123,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009061,
+   "timings": {
+    "rewrite_s": 5.657,
+    "retrieve_s": 1.845,
+    "rerank_s": 0.174,
+    "generate_s": 1.397,
+    "total_s": 40.39
+   },
+   "prior_turns": [
+    {
+     "question": "Does BCIT have student housing?",
+     "usage": {
+      "input_tokens": 5620,
+      "output_tokens": 216,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 325,
+      "rewrite_output_tokens": 39,
+      "graph_input_tokens": 2411,
+      "graph_output_tokens": 113,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.00848,
+     "timings": {
+      "rewrite_s": 1.087,
+      "retrieve_s": 0.636,
+      "rerank_s": 0.248,
+      "generate_s": 2.691,
+      "total_s": 7.741
+     }
+    }
+   ],
+   "answer_excerpt": "BCIT’s newest residence, the 12-storey Tall Timber Student Housing building, officially opened in the summer of 2025 (with the grand opening occurring then, and the building opening in Fall 2025). \n\n* **Building Highlights:** The mass timber building features 469 beds, offering studio suites and private rooms with shared bathrooms, kitchens, and collaboration spaces.\n* **Priority Access:** Priority access to this residence is given to Indigenous students and former youth in care.\n\nSources:\n- https://www.bcit.ca/student-services/student-life-housing/\n- https://www.bcit.ca/about/leadership-vision/history/\n- https://www.bcit.ca/international-students/guides/housing-guide/\n- https://www.bcit.ca/about/leadership-vision/quick-facts/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "When did Tall Timber Student Housing open at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 21044,
+   "n_context_sources": 6,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 23,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check BCIT records for the opening date of the newest residence hall.",
+     "queries": [
+      "BCIT newest residence opening date",
+      "BCIT Tall Timber Student Housing opening date"
+     ],
+     "missing": [
+      "newest residence opening date"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence already states that the newest residence, Tall Timber Student Housing, opens in Fall 2025.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/student-services/student-life-housing",
+    "https://www.bcit.ca/about/leadership-vision/history",
+    "https://www.bcit.ca/international-students/guides/housing-guide",
+    "https://www.bcit.ca/about/leadership-vision/quick-facts",
+    "https://www.bcit.ca/international-students/guides/pre-arrival",
+    "https://www.bcit.ca/international-students"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-05",
+   "category": "follow_up",
+   "question": "Which English proficiency categories does BCIT use for admissions?",
+   "follow_up": "What TOEFL iBT score does Category 2 require?",
+   "standalone_question": "What TOEFL iBT score is required for BCIT English Language Proficiency Category 2?",
+   "finish_reason": "STOP",
+   "n_context_docs": 14,
+   "usage": {
+    "input_tokens": 9571,
+    "output_tokens": 135,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 520,
+    "rewrite_output_tokens": 56,
+    "graph_input_tokens": 4460,
+    "graph_output_tokens": 233,
+    "graph_calls": 3
+   },
+   "est_cost_usd": 0.014856,
+   "timings": {
+    "rewrite_s": 1.66,
+    "retrieve_s": 2.785,
+    "rerank_s": 0.431,
+    "generate_s": 1.133,
+    "total_s": 13.394
+   },
+   "prior_turns": [
+    {
+     "question": "Which English proficiency categories does BCIT use for admissions?",
+     "usage": {
+      "input_tokens": 10922,
+      "output_tokens": 205,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 329,
+      "rewrite_output_tokens": 33,
+      "graph_input_tokens": 4385,
+      "graph_output_tokens": 252,
+      "graph_calls": 3
+     },
+     "est_cost_usd": 0.015008,
+     "timings": {
+      "rewrite_s": 0.948,
+      "retrieve_s": 1.951,
+      "rerank_s": 0.344,
+      "generate_s": 1.487,
+      "total_s": 8.63
+     }
+    }
+   ],
+   "answer_excerpt": "For Category 2, the TOEFL iBT requirements depend on your test date:\n* **Prior to January 21, 2026:** An overall score of 86, with no section score less than 20.\n* **As of January 21, 2026:** An overall score of 4.5, with minimum section scores of 3.5 in Speaking, 3.5 in Writing, 3.5 in Reading, and 3.5 in Listening.\n\nSources:\n- https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT English Language Proficiency Category 2 TOEFL iBT score requirement"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 36859,
+   "n_context_sources": 7,
+   "n_chunks_kept": 14,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 2,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 50,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 1,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to check BCIT's English ELP requirements to find the TOEFL iBT score for Category 2.",
+     "queries": [
+      "BCIT English Language Proficiency Category 2 TOEFL iBT score"
+     ],
+     "missing": [
+      "Category 2 English proficiency TOEFL iBT score"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The exact TOEFL iBT score required specifically for Category 2 ELP is missing from current evidence.",
+     "queries": [
+      "BCIT English Language Proficiency Category 2 requirements TOEFL iBT"
+     ],
+     "missing": [
+      "Category 2 TOEFL iBT score requirement"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "answer",
+     "reason": "The previous search returned general Category 2 pages without specific TOEFL iBT cut-off scores.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 14
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency",
+    "https://www.bcit.ca/admission/entrance-requirements/english-language-proficiency/english-requirements-for-preparatory-programs",
+    "https://www.bcit.ca/programs/english-for-professional-and-academic-success-full-time-0130nobcit",
+    "https://www.bcit.ca/programs/interior-design-bachelor-of-interior-design-full-time-8830bid",
+    "https://www.bcit.ca/programs/applied-computer-science-human-computer-interface-option-bachelor-of-science-part-time-867dbsc",
+    "https://www.bcit.ca/global-partnerships/pathway-program",
+    "https://www.bcit.ca/programs/applied-computer-science-network-security-administration-option-bachelor-of-science-part-time-867ebsc"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "fu-06",
+   "category": "follow_up",
+   "question": "What is COMP 2714 Relational Database Systems?",
+   "follow_up": "Which course do I need to complete before taking it?",
+   "standalone_question": "Which course do I need to complete before taking COMP 2714 Relational Database Systems?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5982,
+    "output_tokens": 144,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 543,
+    "rewrite_output_tokens": 61,
+    "graph_input_tokens": 3198,
+    "graph_output_tokens": 73,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009781,
+   "timings": {
+    "rewrite_s": 1.157,
+    "retrieve_s": 1.098,
+    "rerank_s": 0.187,
+    "generate_s": 1.091,
+    "total_s": 5.699
+   },
+   "prior_turns": [
+    {
+     "question": "What is COMP 2714 Relational Database Systems?",
+     "usage": {
+      "input_tokens": 4421,
+      "output_tokens": 289,
+      "reasoning_tokens": 0,
+      "cache_read_tokens": 0,
+      "rewrite_input_tokens": 331,
+      "rewrite_output_tokens": 51,
+      "graph_input_tokens": 2107,
+      "graph_output_tokens": 121,
+      "graph_calls": 2
+     },
+     "est_cost_usd": 0.008006,
+     "timings": {
+      "rewrite_s": 1.479,
+      "retrieve_s": 35.934,
+      "rerank_s": 0.183,
+      "generate_s": 1.593,
+      "total_s": 41.829
+     }
+    }
+   ],
+   "answer_excerpt": "To take COMP 2714 (Relational Database Systems), you must first complete the prerequisite course **COMP 1712**.\n\n* **Prerequisite:** COMP 1712 must be successfully completed before registering for COMP 2714.\n\nSources:\n- https://www.bcit.ca/courses/relational-database-systems-comp-2714/\n- https://www.bcit.ca/outlines/20261077186/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for COMP 2714 Relational Database Systems?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 20895,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 32,
+   "n_scoped_candidates": 7,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The prerequisite for COMP 2714 (COMP 1712) is already stated in the provided conversation history.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence explicitly identifies COMP 1712 as the prerequisite for COMP 2714.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "expected_route": "retrieve",
+   "route_ok": true,
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2714",
+    "https://www.bcit.ca/outlines/20261077186",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/relational-database-design-and-sql-comp-1630",
+    "https://www.bcit.ca/courses/relational-database-1-comp-2712",
+    "https://www.bcit.ca/outlines/20262057596",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/courses/relational-database-2-comp-2713"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  }
+ ]
+}

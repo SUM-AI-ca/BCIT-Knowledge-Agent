@@ -1,0 +1,2562 @@
+{
+ "label": "v3_flash",
+ "timestamp": "2026-08-09T06:54:35.492693+00:00",
+ "golden_set": "golden_set_v3.jsonl",
+ "wall_time_s": 468.9,
+ "config_snapshot": {
+  "GEMINI_MODEL": "gemini-3.5-flash-lite",
+  "REWRITER_MODEL": "gemini-3.6-flash",
+  "JUDGE_MODEL": "gemini-3.6-flash",
+  "GEMINI_TEMPERATURE": 0.05,
+  "GEMINI_MAX_OUTPUT_TOKENS": 2048,
+  "GEMINI_THINKING_BUDGET": 0,
+  "MEMORY_WINDOW_K": 5,
+  "USE_HYBRID_SEARCH": true,
+  "HYBRID_ALPHA": 0.48,
+  "USE_RERANKING": true,
+  "RERANKER_CANDIDATES": 25,
+  "RERANKER_TOP_K": 10,
+  "RERANK_SCORE_THRESHOLD": 0.0,
+  "MIN_CONTEXT_CHUNKS": 3,
+  "CONTEXT_MODE": "chunks",
+  "NEIGHBOR_RADIUS": 2,
+  "CONTEXT_MAX_CHARS": 24000,
+  "MULTI_QUERY_ENABLED": true,
+  "MAX_SUB_QUERIES": 4,
+  "MQ_DENSE_K": 12,
+  "MQ_BM25_K": 12,
+  "MQ_CANDIDATES_PER_SUBQUERY": 15,
+  "MQ_POOL_CAP": 40,
+  "MQ_MIN_CHUNKS_PER_SUBQUERY": 2,
+  "RERANK_MODE": "pooled",
+  "REWRITE_MAX_OUTPUT_TOKENS": 512,
+  "REWRITE_THINKING_BUDGET": 0,
+  "HISTORY_MAX_ANSWER_CHARS": 1500,
+  "STRIP_SOURCES_FROM_HISTORY": true,
+  "RETRIEVAL_TOP_K": 10,
+  "RETRIEVAL_DENSE_K": 23,
+  "RETRIEVAL_BM25_K": 23,
+  "PG_COLLECTION": "bcit_docs_202606da",
+  "PRICE_GEN_INPUT_PER_M": 0.3,
+  "PRICE_GEN_OUTPUT_PER_M": 2.5,
+  "PRICE_REWRITE_INPUT_PER_M": 1.5,
+  "PRICE_REWRITE_OUTPUT_PER_M": 7.5,
+  "PRICE_RERANK_PER_CALL": 0.001,
+  "PRICE_EMBED_PER_QUERY": 1e-05,
+  "RRF_K": 60,
+  "MMR_LAMBDA": 0.87,
+  "RETRIEVAL_FETCH_K": 50,
+  "BM25_INDEX_AUG": true,
+  "RERANK_SKIP_CONSENSUS": 0.0,
+  "MQ_BM25_KEYWORDS": false,
+  "HYDE_MODE": "off",
+  "REWRITE_SKIP_SIMPLE": false,
+  "REWRITE_SKIP_MAX_WORDS": 12,
+  "SIGNATURE_DEMOTE": false,
+  "FANIN_RETAIN": false,
+  "PERSON_SCOPED_RETRIEVAL": true,
+  "USE_GRAPH": true,
+  "GRAPH_MODEL": "gemini-3.6-flash",
+  "GRAPH_MAX_HOPS": 3,
+  "GRAPH_DIGEST_CHARS": 400,
+  "GRAPH_HOP_TOP_K": 20,
+  "GRAPH_HOP_CONTEXT_MAX_CHARS": 48000,
+  "GRAPH_ROUTER_MODE": "node",
+  "PRICE_GRAPH_INPUT_PER_M": 1.5,
+  "PRICE_GRAPH_OUTPUT_PER_M": 7.5
+ },
+ "aggregate": {
+  "n_cases": 24,
+  "n_errors": 0,
+  "url_hit_rate": 0.9777777777777779,
+  "url_full_hit_rate": 0.9333333333333333,
+  "fact_recall": 0.9425925925925926,
+  "avoidance": 1.0,
+  "n_cases_with_forbidden": 0,
+  "citation_precision": 1.0,
+  "n_answers_without_citation": 6,
+  "input_tokens_mean": 5117.625,
+  "input_tokens_p50": 5820,
+  "input_tokens_with_rewrite_mean": 5369.625,
+  "output_tokens_mean": 152.95833333333334,
+  "reasoning_tokens_mean": 0.0,
+  "cache_read_tokens_mean": 0.0,
+  "est_cost_usd_mean": 0.008176666666666665,
+  "est_cost_usd_total": 0.19623999999999997,
+  "latency_p50_s": 9.74,
+  "latency_p95_s": 53.663,
+  "max_tokens_truncations": 0,
+  "decompose_fallbacks": 0,
+  "judge_faithfulness_mean": null,
+  "judge_completeness_mean": null,
+  "judge_flagged_cases": 0,
+  "judge_errors": 0,
+  "n_context_docs_mean": 8.708333333333334,
+  "rerank_skip_rate": 0.0,
+  "rewrite_skip_rate": 0.0,
+  "rerank_calls_mean": 0.9583333333333334,
+  "route_counts": {
+   "retrieve": 18,
+   "refuse": 3,
+   "direct": 3
+  },
+  "hop_rate": 0.125,
+  "graph_hops_mean": 0.20833333333333334,
+  "graph_calls_mean": 1.9583333333333333,
+  "graph_input_tokens_mean": 2438.625,
+  "graph_output_tokens_mean": 124.25,
+  "route_mismatches": 0,
+  "n_cases_with_expected_route": 0
+ },
+ "per_category": {
+  "chitchat": {
+   "n_cases": 3,
+   "n_errors": 0,
+   "url_hit_rate": null,
+   "url_full_hit_rate": null,
+   "fact_recall": null,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": null,
+   "n_answers_without_citation": 3,
+   "input_tokens_mean": 453.3333333333333,
+   "input_tokens_p50": 454,
+   "input_tokens_with_rewrite_mean": 453.3333333333333,
+   "output_tokens_mean": 26.666666666666668,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.0015663333333333334,
+   "est_cost_usd_total": 0.004699,
+   "latency_p50_s": 2.268,
+   "latency_p95_s": 2.614,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 0.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 0.0,
+   "route_counts": {
+    "direct": 3
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 1.0,
+   "graph_input_tokens_mean": 712.3333333333334,
+   "graph_output_tokens_mean": 38.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "exploratory": {
+   "n_cases": 2,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6279.5,
+   "input_tokens_p50": 6139,
+   "input_tokens_with_rewrite_mean": 6605.5,
+   "output_tokens_mean": 271.0,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.009193,
+   "est_cost_usd_total": 0.018386,
+   "latency_p50_s": 9.25,
+   "latency_p95_s": 9.74,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 2
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 2634.5,
+   "graph_output_tokens_mean": 117.5,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "multi_hop": {
+   "n_cases": 5,
+   "n_errors": 0,
+   "url_hit_rate": 0.9333333333333332,
+   "url_full_hit_rate": 0.8,
+   "fact_recall": 0.8333333333333333,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 8840.2,
+   "input_tokens_p50": 10630,
+   "input_tokens_with_rewrite_mean": 9182.4,
+   "output_tokens_mean": 261.0,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.0151332,
+   "est_cost_usd_total": 0.075666,
+   "latency_p50_s": 34.727,
+   "latency_p95_s": 87.072,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 15.8,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 2.0,
+   "route_counts": {
+    "retrieve": 5
+   },
+   "hop_rate": 0.6,
+   "graph_hops_mean": 1.0,
+   "graph_calls_mean": 3.0,
+   "graph_input_tokens_mean": 4612.6,
+   "graph_output_tokens_mean": 252.4,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "out_of_scope": {
+   "n_cases": 3,
+   "n_errors": 0,
+   "url_hit_rate": null,
+   "url_full_hit_rate": null,
+   "fact_recall": null,
+   "avoidance": 1.0,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": null,
+   "n_answers_without_citation": 3,
+   "input_tokens_mean": 460.0,
+   "input_tokens_p50": 460,
+   "input_tokens_with_rewrite_mean": 460.0,
+   "output_tokens_mean": 56.0,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.0015913333333333335,
+   "est_cost_usd_total": 0.0047740000000000005,
+   "latency_p50_s": 2.582,
+   "latency_p95_s": 2.592,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 0.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 0.0,
+   "route_counts": {
+    "refuse": 3
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 1.0,
+   "graph_input_tokens_mean": 719.0,
+   "graph_output_tokens_mean": 30.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "person_lookup": {
+   "n_cases": 3,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 0.9333333333333332,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 6742.333333333333,
+   "input_tokens_p50": 6646,
+   "input_tokens_with_rewrite_mean": 7071.333333333333,
+   "output_tokens_mean": 243.66666666666666,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.009493,
+   "est_cost_usd_total": 0.028478999999999997,
+   "latency_p50_s": 8.832,
+   "latency_p95_s": 12.39,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 3
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 2815.0,
+   "graph_output_tokens_mean": 104.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "scoped_fact": {
+   "n_cases": 5,
+   "n_errors": 0,
+   "url_hit_rate": 1.0,
+   "url_full_hit_rate": 1.0,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 5635.0,
+   "input_tokens_p50": 5679,
+   "input_tokens_with_rewrite_mean": 5976.0,
+   "output_tokens_mean": 102.6,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.0084038,
+   "est_cost_usd_total": 0.042019,
+   "latency_p50_s": 14.289,
+   "latency_p95_s": 45.006,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 5
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 2332.2,
+   "graph_output_tokens_mean": 124.8,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  },
+  "unanswerable": {
+   "n_cases": 3,
+   "n_errors": 0,
+   "url_hit_rate": null,
+   "url_full_hit_rate": null,
+   "fact_recall": 1.0,
+   "avoidance": null,
+   "n_cases_with_forbidden": 0,
+   "citation_precision": 1.0,
+   "n_answers_without_citation": 0,
+   "input_tokens_mean": 4973.666666666667,
+   "input_tokens_p50": 5622,
+   "input_tokens_with_rewrite_mean": 5304.666666666667,
+   "output_tokens_mean": 110.66666666666667,
+   "reasoning_tokens_mean": 0.0,
+   "cache_read_tokens_mean": 0.0,
+   "est_cost_usd_mean": 0.007405666666666667,
+   "est_cost_usd_total": 0.022217,
+   "latency_p50_s": 10.399,
+   "latency_p95_s": 13.733,
+   "max_tokens_truncations": 0,
+   "decompose_fallbacks": 0,
+   "judge_faithfulness_mean": null,
+   "judge_completeness_mean": null,
+   "judge_flagged_cases": 0,
+   "judge_errors": 0,
+   "n_context_docs_mean": 10.0,
+   "rerank_skip_rate": 0.0,
+   "rewrite_skip_rate": 0.0,
+   "rerank_calls_mean": 1.0,
+   "route_counts": {
+    "retrieve": 3
+   },
+   "hop_rate": 0.0,
+   "graph_hops_mean": 0.0,
+   "graph_calls_mean": 2.0,
+   "graph_input_tokens_mean": 1931.6666666666667,
+   "graph_output_tokens_mean": 115.0,
+   "route_mismatches": 0,
+   "n_cases_with_expected_route": 0
+  }
+ },
+ "cases": [
+  {
+   "id": "sf3-01",
+   "category": "scoped_fact",
+   "question": "In MATH 1310, what percentage of the final grade is the final exam worth?",
+   "follow_up": null,
+   "standalone_question": "In MATH 1310 at BCIT, what percentage of the final grade is the final exam worth?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6601,
+    "output_tokens": 96,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 48,
+    "graph_input_tokens": 2664,
+    "graph_output_tokens": 120,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008993,
+   "timings": {
+    "rewrite_s": 0.963,
+    "retrieve_s": 2.084,
+    "rerank_s": 3.54,
+    "generate_s": 2.059,
+    "total_s": 14.289
+   },
+   "prior_turns": [],
+   "answer_excerpt": "In MATH 1310, the final exam is worth 40% of the final grade.\n\n- The course evaluates students through worksheets (5%), quizzes (25%), a midterm (30%), and a comprehensive final exam (40%).\n- The minimum passing grade for the course is 50%.\n\nSources:\n- https://www.bcit.ca/outlines/20261089211/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "MATH 1310 final exam weight percentage of final grade"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23867,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 34,
+   "n_scoped_candidates": 9,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Search for the grading breakdown and final exam weight for MATH 1310.",
+     "queries": [
+      "MATH 1310 final exam weight percentage"
+     ],
+     "missing": [
+      "MATH 1310 final exam percentage"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence explicitly states that the Comprehensive Final Exam in MATH 1310 is worth 40%.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089211",
+    "https://www.bcit.ca/outlines/20261049852",
+    "https://www.bcit.ca/outlines/20262066092",
+    "https://www.bcit.ca/outlines/20252064557",
+    "https://www.bcit.ca/outlines/20253042233",
+    "https://www.bcit.ca/outlines/20261082788",
+    "https://www.bcit.ca/outlines/20253052098",
+    "https://www.bcit.ca/outlines/20262057039"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sf3-02",
+   "category": "scoped_fact",
+   "question": "How many total hours of instruction is COMP 2714, and over how many weeks does it run?",
+   "follow_up": null,
+   "standalone_question": "How many total hours of instruction is COMP 2714, and over how many weeks does it run?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4057,
+    "output_tokens": 82,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 341,
+    "rewrite_output_tokens": 55,
+    "graph_input_tokens": 1812,
+    "graph_output_tokens": 141,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007132,
+   "timings": {
+    "rewrite_s": 1.828,
+    "retrieve_s": 1.319,
+    "rerank_s": 0.175,
+    "generate_s": 1.0,
+    "total_s": 7.241
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 2714 consists of 60 total hours of instruction and runs over a period of 15 weeks.\n\n* **Total Hours:** 60 hours (at 4 hours per week)\n* **Duration:** 15 weeks\n\nSources:\n- https://www.bcit.ca/outlines/20261077186/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "COMP 2714 total hours of instruction",
+    "COMP 2714 course duration in weeks"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 13068,
+   "n_context_sources": 2,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 28,
+   "n_scoped_candidates": 8,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Instruction hours and week duration for COMP 2714 need to be retrieved from the BCIT corpus.",
+     "queries": [
+      "COMP 2714 course outline hours weeks"
+     ],
+     "missing": [
+      "COMP 2714 total hours of instruction",
+      "COMP 2714 course duration in weeks"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved course outline specifies that COMP 2714 consists of 60 total hours over 15 weeks.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261077186",
+    "https://www.bcit.ca/courses/relational-database-systems-comp-2714"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sf3-03",
+   "category": "scoped_fact",
+   "question": "What are the start and end dates for BCST 2282 in the January 2026 term?",
+   "follow_up": null,
+   "standalone_question": "What are the start and end dates for BCST 2282 in the January 2026 term?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5679,
+    "output_tokens": 129,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 343,
+    "rewrite_output_tokens": 75,
+    "graph_input_tokens": 2463,
+    "graph_output_tokens": 161,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009015,
+   "timings": {
+    "rewrite_s": 1.21,
+    "retrieve_s": 2.194,
+    "rerank_s": 5.757,
+    "generate_s": 5.266,
+    "total_s": 16.937
+   },
+   "prior_turns": [],
+   "answer_excerpt": "BCST 2282 in the January 2026 term starts on January 12, 2026, and ends on March 23, 2026.\n\n- **Start Date:** January 12, 2026\n- **End Date:** March 23, 2026\n- **Total Duration:** 10 weeks (45 hours total, averaging 4.5 hours per week)\n\nSources:\n- https://www.bcit.ca/outlines/20261087507/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the start and end dates for BCST 2282 in the January 2026 term?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 19855,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 33,
+   "n_scoped_candidates": 8,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check BCIT course schedules for BCST 2282 start and end dates in January 2026.",
+     "queries": [
+      "BCST 2282 January 2026 start end dates",
+      "BCST 2282 course schedule 2026"
+     ],
+     "missing": [
+      "BCST 2282 term dates January 2026"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence contains the start and end dates for BCST 2282 in January 2026.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261087507",
+    "https://www.bcit.ca/outlines/20261089712",
+    "https://www.bcit.ca/courses/advanced-video-editing-bcst-2282",
+    "https://www.bcit.ca/outlines/20261043423",
+    "https://www.bcit.ca/programs/video-production-and-editing-associate-certificate-part-time-6120acert"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sf3-04",
+   "category": "scoped_fact",
+   "question": "COMP 4537은 총 수업 시간이 몇 시간이고 몇 주 동안 진행되나요?",
+   "follow_up": null,
+   "standalone_question": "How many total course hours is COMP 4537 and how many weeks does it run for at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4951,
+    "output_tokens": 109,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 338,
+    "rewrite_output_tokens": 75,
+    "graph_input_tokens": 1978,
+    "graph_output_tokens": 99,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007547,
+   "timings": {
+    "rewrite_s": 2.074,
+    "retrieve_s": 1.902,
+    "rerank_s": 2.003,
+    "generate_s": 1.025,
+    "total_s": 9.998
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 4537 과정은 총 45시간의 수업으로 진행되며, 기간은 15주입니다.\n\n- 총 수업 시간: 45시간 (주당 3시간)\n- 총 진행 기간: 15주\n\nSources:\n- https://www.bcit.ca/outlines/20261088086/\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "COMP 4537 total course hours BCIT",
+    "COMP 4537 duration weeks BCIT"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 17855,
+   "n_context_sources": 3,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 25,
+   "n_scoped_candidates": 5,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The student is asking for the total course hours and duration in weeks for COMP 4537.",
+     "queries": [
+      "COMP 4537 course hours duration weeks"
+     ],
+     "missing": [
+      "COMP 4537 course hours and duration"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence explicitly provides the total hours (45) and duration in weeks (15) for COMP 4537.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261088086",
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537",
+    "https://www.bcit.ca/outlines/20262052455"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "sf3-05",
+   "category": "scoped_fact",
+   "question": "In ACIT 2515, what percentage of the grade is the midterm worth and what percentage is the final exam worth?",
+   "follow_up": null,
+   "standalone_question": "In ACIT 2515, what percentage of the grade is the midterm worth and what percentage is the final exam worth?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6887,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 345,
+    "rewrite_output_tokens": 81,
+    "graph_input_tokens": 2744,
+    "graph_output_tokens": 103,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009332,
+   "timings": {
+    "rewrite_s": 1.999,
+    "retrieve_s": 38.877,
+    "rerank_s": 0.183,
+    "generate_s": 1.211,
+    "total_s": 45.006
+   },
+   "prior_turns": [],
+   "answer_excerpt": "In ACIT 2515, the midterm exam is worth 23% of your final grade, and the final exam is worth 34%.\n\n- **Midterm Exam:** Contributes 23% toward your overall grade.\n- **Final Exam:** Contributes 34% toward your overall grade.\n\nSources:\n- https://www.bcit.ca/outlines/20261089213/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "ACIT 2515 midterm exam percentage grade weight",
+    "ACIT 2515 final exam percentage grade weight"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23362,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 23,
+   "n_scoped_candidates": 13,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "The grade breakdown for ACIT 2515 needs to be retrieved from the BCIT corpus.",
+     "queries": [
+      "ACIT 2515 midterm final exam weight grade breakdown"
+     ],
+     "missing": [
+      "ACIT 2515 grade breakdown"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The ACIT 2515 outline shows the midterm exam is worth 23% and the final exam is 34%.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/outlines/20251082953",
+    "https://www.bcit.ca/outlines/20261070250",
+    "https://www.bcit.ca/outlines/20261089594",
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/outlines/20262023773",
+    "https://www.bcit.ca/outlines/20261082788"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mh3-01",
+   "category": "multi_hop",
+   "question": "What are the prerequisites of COMP 4537's own prerequisites?",
+   "follow_up": null,
+   "standalone_question": "What are the prerequisites for the courses that are prerequisites to COMP 4537 at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 20,
+   "usage": {
+    "input_tokens": 11724,
+    "output_tokens": 233,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 334,
+    "rewrite_output_tokens": 73,
+    "graph_input_tokens": 7505,
+    "graph_output_tokens": 377,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.022243,
+   "timings": {
+    "rewrite_s": 1.366,
+    "retrieve_s": 4.838,
+    "rerank_s": 18.739,
+    "generate_s": 1.665,
+    "total_s": 34.727
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To take COMP 4537 (Internet Software Architecture), you must first complete its prerequisites, which are **COMP 1537** and **COMP 3522**. \n\nHere are the prerequisites for those specific prerequisite courses:\n\n*   **COMP 1537 (Web Development 1):** Has no prerequisites (no prerequisites are required for this course).\n*   **COMP 3522 (Object Oriented Programming 2):** Requires **COMP 2510** and either **COMP 2526** or **COMP 2522**.\n\nSources:\n- https://www.bcit.ca/outlines/20261088086/\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/\n- https://www.bcit.ca/outlines/20261087560/\n- https://www.bcit.ca/outlines/20261087231/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "COMP 4537 prerequisites BCIT",
+    "prerequisites for COMP 4537 prerequisite courses BCIT"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 47422,
+   "n_context_sources": 12,
+   "n_chunks_kept": 20,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 102,
+   "n_scoped_candidates": 30,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to find the direct prerequisites for COMP 4537 first.",
+     "queries": [
+      "COMP 4537 prerequisites"
+     ],
+     "missing": [
+      "COMP 4537 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "COMP 4537's prerequisites are COMP 1537 and COMP 3522, but their prerequisites are still missing.",
+     "queries": [
+      "COMP 1537 prerequisites BCIT",
+      "COMP 3522 prerequisites BCIT"
+     ],
+     "missing": [
+      "COMP 1537 prerequisites",
+      "COMP 3522 prerequisites"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "We need the prerequisites for COMP 2510, COMP 2526, and COMP 2522 to complete the full chain.",
+     "queries": [
+      "COMP 2510 prerequisites BCIT",
+      "COMP 2522 prerequisites BCIT",
+      "COMP 2526 prerequisites BCIT"
+     ],
+     "missing": [
+      "COMP 2510 prerequisites",
+      "COMP 2522 prerequisites",
+      "COMP 2526 prerequisites"
+     ],
+     "n_docs_seen": 18
+    },
+    {
+     "hop": 3,
+     "action": "answer",
+     "reason": "The prerequisites for COMP 4537's direct prerequisites (COMP 1537 and COMP 3522) are fully identified in the evidence.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 20
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261088086",
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537",
+    "https://www.bcit.ca/outlines/20262063473",
+    "https://www.bcit.ca/outlines/20262068044",
+    "https://www.bcit.ca/outlines/20253050629",
+    "https://www.bcit.ca/programs/web-and-mobile-application-development-associate-certificate-part-time-6465acert",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/outlines/20261087560",
+    "https://www.bcit.ca/courses/programming-fundamentals-part-3-object-design-comp-2601",
+    "https://www.bcit.ca/courses/introduction-to-procedural-programming-with-c-comp-2701",
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/outlines/20252064757"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mh3-02",
+   "category": "multi_hop",
+   "question": "I've completed ACIT 1515. Which BCIT courses list ACIT 1515 as a prerequisite?",
+   "follow_up": null,
+   "standalone_question": "Which BCIT courses list ACIT 1515 as a prerequisite?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6088,
+    "output_tokens": 328,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 346,
+    "rewrite_output_tokens": 57,
+    "graph_input_tokens": 2505,
+    "graph_output_tokens": 114,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009215,
+   "timings": {
+    "rewrite_s": 1.47,
+    "retrieve_s": 0.822,
+    "rerank_s": 2.089,
+    "generate_s": 1.566,
+    "total_s": 9.549
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Completing ACIT 1515 allows you to meet the prerequisite requirements for several BCIT courses, including object-oriented programming, projects, and web application development.\n\nHere are the courses that list ACIT 1515 as a prerequisite:\n- **ACIT 2515 (Object Oriented Programming):** Requires a minimum grade of 50% in ACIT 1515 (or 60% in COMP 1516).\n- **ACIT 2910 (Projects):** Requires ACIT 1515. Note that this course is specifically for students not doing Co-op after Term 2a.\n- **ACIT 2520 (Developing Web Applications):** Requires a minimum grade of 50% in ACIT 1515 along with 50% in ACIT 1620.\n\nSources\n- https://www.bcit.ca/outlines/20261089213/\n- https://www.bcit.ca/courses/projects-acit-2910/\n- https://www.bcit.ca/courses/object-oriented-programming-acit-2515/\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/\n- https://www.bcit.ca/courses/developing-web-applications-acit-2520/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Which BCIT courses list ACIT 1515 as a prerequisite?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22230,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 26,
+   "n_scoped_candidates": 1,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to search the BCIT course database for courses listing ACIT 1515 as a prerequisite.",
+     "queries": [
+      "ACIT 1515 prerequisite"
+     ],
+     "missing": [
+      "ACIT 1515 prerequisite course listings"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence sufficiently identifies the course requiring ACIT 1515 as a prerequisite based on available data.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261089204",
+    "https://www.bcit.ca/outlines/20261089213",
+    "https://www.bcit.ca/courses/projects-acit-2910",
+    "https://www.bcit.ca/courses/object-oriented-programming-acit-2515",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/courses/scripting-for-it-acit-1515",
+    "https://www.bcit.ca/courses/developing-web-applications-acit-2520"
+   ],
+   "url_hit_fraction": 0.6666666666666666,
+   "url_full_hit": false,
+   "urls_missed": [
+    "https://www.bcit.ca/outlines/20262067134/"
+   ],
+   "fact_recall": 0.6666666666666666,
+   "facts_missed": [
+    "comp 2501"
+   ],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 5,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mh3-03",
+   "category": "multi_hop",
+   "question": "I have only taken COMP 1510 so far. What else do I need before I can register for COMP 3522?",
+   "follow_up": null,
+   "standalone_question": "What prerequisites or requirements do I need to register for COMP 3522 if I have only completed COMP 1510?",
+   "finish_reason": "STOP",
+   "n_context_docs": 19,
+   "usage": {
+    "input_tokens": 10630,
+    "output_tokens": 287,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 348,
+    "rewrite_output_tokens": 68,
+    "graph_input_tokens": 4054,
+    "graph_output_tokens": 258,
+    "graph_calls": 3
+   },
+   "est_cost_usd": 0.014965,
+   "timings": {
+    "rewrite_s": 1.609,
+    "retrieve_s": 41.244,
+    "rerank_s": 3.657,
+    "generate_s": 1.555,
+    "total_s": 53.663
+   },
+   "prior_turns": [],
+   "answer_excerpt": "To register for COMP 3522, you need to complete additional prerequisite courses beyond COMP 1510.\n\n* **Prerequisites Required:** The prerequisite for COMP 3522 is **COMP 2510** and **COMP 2526** (or **COMP 2522**).\n* **Your Current Status:** Since you have only taken COMP 1510, you still need to complete COMP 2510 (Procedural Programming) and either COMP 2526 or COMP 2522 (Object Oriented Programming 1) before you are eligible to take COMP 3522. \n* **Next Steps:** COMP 1510 serves as the direct prerequisite to enter both COMP 2510 and COMP 2522. \n\nSources:\n- https://www.bcit.ca/outlines/20261087231/\n- https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522/\n- https://www.bcit.ca/courses/procedural-programming-comp-2510/\n- https://www.bcit.ca/courses/object-oriented-programming-1-comp-2522/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for COMP 3522 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 42916,
+   "n_context_sources": 9,
+   "n_chunks_kept": 19,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 2,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 89,
+   "n_scoped_candidates": 37,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 1,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check prerequisites for COMP 3522 to see what is required besides COMP 1510.",
+     "queries": [
+      "COMP 3522 prerequisites"
+     ],
+     "missing": [
+      "COMP 3522 prerequisites"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "We need to check the prerequisites for COMP 2510, COMP 2522, and COMP 2526.",
+     "queries": [
+      "COMP 2510 prerequisites BCIT",
+      "COMP 2522 prerequisites BCIT",
+      "COMP 2526 prerequisites BCIT"
+     ],
+     "missing": [
+      "Prerequisites for COMP 2510",
+      "Prerequisites for COMP 2522",
+      "Prerequisites for COMP 2526"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "answer",
+     "reason": "The retrieved evidence provides the prerequisites for COMP 3522 and their required prerequisites.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 19
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/applied-software-development-asd-associate-certificate-part-time-6958acert",
+    "https://www.bcit.ca/outlines/20261086143",
+    "https://www.bcit.ca/courses/procedural-programming-comp-2510",
+    "https://www.bcit.ca/courses/object-oriented-programming-1-comp-2522",
+    "https://www.bcit.ca/outlines/20262068044",
+    "https://www.bcit.ca/outlines/20262070548"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mh3-04",
+   "category": "multi_hop",
+   "question": "COMP 4537의 두 선수과목은 각각 몇 학점인가요?",
+   "follow_up": null,
+   "standalone_question": "How many credits is each of the two prerequisites for COMP 4537?",
+   "finish_reason": "STOP",
+   "n_context_docs": 20,
+   "usage": {
+    "input_tokens": 11235,
+    "output_tokens": 162,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 337,
+    "rewrite_output_tokens": 62,
+    "graph_input_tokens": 6967,
+    "graph_output_tokens": 380,
+    "graph_calls": 4
+   },
+   "est_cost_usd": 0.021056,
+   "timings": {
+    "rewrite_s": 1.308,
+    "retrieve_s": 5.853,
+    "rerank_s": 1.521,
+    "generate_s": 1.338,
+    "total_s": 18.453
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 4537의 선수과목은 **COMP 1537**과 **COMP 3522**이며, 각각의 학점 정보는 다음과 같습니다.\n\n* **COMP 1537 (Web Development 1):** 4.0학점\n* **COMP 3522:** 제공된 문서에 해당 과목의 학점 정보가 포함되어 있지 않습니다.\n\n자세한 과목 정보는 공식 BCIT 웹사이트에서 확인하실 수 있습니다.\n\nSources:\n- https://www.bcit.ca/courses/internet-software-architecture-comp-4537/\n- https://www.bcit.ca/courses/web-development-1-comp-1537/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the prerequisites for COMP 4537 and how many credits is each prerequisite course?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 45078,
+   "n_context_sources": 13,
+   "n_chunks_kept": 20,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 3,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 89,
+   "n_scoped_candidates": 25,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 2,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Identify the prerequisites for COMP 4537 and their respective credit values.",
+     "queries": [
+      "COMP 4537 prerequisites credits",
+      "COMP 4537 course outline"
+     ],
+     "missing": [
+      "COMP 4537 prerequisites and credit values"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "retrieve",
+     "reason": "The prerequisites COMP 1537 and COMP 3522 are identified, but their credit values are still missing.",
+     "queries": [
+      "COMP 1537 course credits",
+      "COMP 3522 course credits"
+     ],
+     "missing": [
+      "COMP 1537 credits",
+      "COMP 3522 credits"
+     ],
+     "n_docs_seen": 10
+    },
+    {
+     "hop": 2,
+     "action": "retrieve",
+     "reason": "Credits for COMP 1537 are known, but credit information for COMP 3522 is still needed.",
+     "queries": [
+      "COMP 3522 credits",
+      "COMP 3522 course outline"
+     ],
+     "missing": [
+      "COMP 3522 credits"
+     ],
+     "n_docs_seen": 17
+    },
+    {
+     "hop": 3,
+     "action": "retrieve",
+     "reason": "The credit value for COMP 3522 is still missing from the retrieved evidence.",
+     "queries": [
+      "COMP 3522 credits",
+      "COMP 3522 Object Oriented Programming 2"
+     ],
+     "missing": [
+      "COMP 3522 credits"
+     ],
+     "n_docs_seen": 20
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/internet-software-architecture-comp-4537",
+    "https://www.bcit.ca/outlines/20261088086",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/subdivision-planning-design-part-4-water-supply-and-sanitary-sewers-tsyh-4537",
+    "https://www.bcit.ca/courses/projects-2-comp-2800",
+    "https://www.bcit.ca/outlines/20261087560",
+    "https://www.bcit.ca/courses/web-development-1-comp-1537",
+    "https://www.bcit.ca/outlines/20253036361",
+    "https://www.bcit.ca/outlines/20261093032",
+    "https://www.bcit.ca/outlines/20253051065",
+    "https://www.bcit.ca/outlines/20261087231",
+    "https://www.bcit.ca/outlines/20261015509",
+    "https://www.bcit.ca/outlines/20261089233"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 0.5,
+   "facts_missed": [
+    "4 credits",
+    "5 credits"
+   ],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "mh3-05",
+   "category": "multi_hop",
+   "question": "Which BCIT courses require COMP 2522 as a prerequisite, and how many credits is COMP 2522 itself?",
+   "follow_up": null,
+   "standalone_question": "Which BCIT courses require COMP 2522 as a prerequisite, and how many credits is COMP 2522 itself?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 4524,
+    "output_tokens": 295,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 346,
+    "rewrite_output_tokens": 69,
+    "graph_input_tokens": 2032,
+    "graph_output_tokens": 133,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.008187,
+   "timings": {
+    "rewrite_s": 1.347,
+    "retrieve_s": 80.716,
+    "rerank_s": 0.182,
+    "generate_s": 1.366,
+    "total_s": 87.072
+   },
+   "prior_turns": [],
+   "answer_excerpt": "COMP 2522 is worth 4 credits, and it is a prerequisite for several courses in the Computer Systems Technology program.\n\n* **Credits for COMP 2522:** COMP 2522 (Object Oriented Programming 1) is a 4.0 credit course.\n* **Courses requiring COMP 2522:** \n  * COMP 3522 (Object Oriented Programming 2) - requires COMP 2510 and COMP 2526 or COMP 2522.\n  * COMP 3717 (Mobile Development with Android Technologies) - requires COMP 2522.\n  * COMP 3760 (Algorithm Analysis and Design) - requires COMP 2121, COMP 2510, and COMP 2522.\n\nSources:\n- https://www.bcit.ca/outlines/20261086143/\n- https://www.bcit.ca/courses/object-oriented-programming-1-comp-2522/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522/",
+   "error": null,
+   "n_subqueries": 2,
+   "sub_queries": [
+    "Which BCIT courses require COMP 2522 as a prerequisite?",
+    "How many credits is COMP 2522 at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 15633,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "fanout",
+   "n_candidates": 28,
+   "n_scoped_candidates": 10,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Need to check COMP 2522 course details to find its credit value and dependent courses.",
+     "queries": [
+      "COMP 2522 prerequisite for",
+      "COMP 2522 credits"
+     ],
+     "missing": [
+      "COMP 2522 prerequisites and credits"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence shows COMP 2522 is worth 4 credits and is required for COMP 3522.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261086143",
+    "https://www.bcit.ca/courses/object-oriented-programming-1-comp-2522",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/courses/object-oriented-programming-2-comp-3522"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "un3-01",
+   "category": "unanswerable",
+   "question": "What is the graduation rate of the Computer Systems Technology diploma?",
+   "follow_up": null,
+   "standalone_question": "What is the graduation rate of the Computer Systems Technology diploma at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5820,
+    "output_tokens": 129,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 37,
+    "graph_input_tokens": 2112,
+    "graph_output_tokens": 113,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007867,
+   "timings": {
+    "rewrite_s": 1.697,
+    "retrieve_s": 1.234,
+    "rerank_s": 0.472,
+    "generate_s": 1.222,
+    "total_s": 10.399
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The provided documents do not contain specific statistics regarding the graduation rate of the Computer Systems Technology diploma program. \n\nHowever, the materials do note that the program has an \"excellent job placement rate upon graduation\" and provide access to graduate employment outcomes through the BCIT student outcomes report, which summarizes findings from annual surveys administered by BC Stats.\n\nTo find more detailed statistics or further information, you can check the official BCIT website or review the BC Student Outcomes reports.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "graduation rate of the Computer Systems Technology diploma at BCIT"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23674,
+   "n_context_sources": 5,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 34,
+   "n_scoped_candidates": 9,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Initial search needed to check the corpus for Computer Systems Technology diploma graduation rate information.",
+     "queries": [
+      "Computer Systems Technology graduation rate",
+      "CST diploma graduation rate"
+     ],
+     "missing": [
+      "Computer Systems Technology diploma graduation rate"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved BCIT program pages do not contain graduation rate data for the CST diploma.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/programs/choosing-the-right-computing-diploma-program"
+   ],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "un3-02",
+   "category": "unanswerable",
+   "question": "How many students are in each COMP 1510 lab section?",
+   "follow_up": null,
+   "standalone_question": "How many students are in each COMP 1510 lab section at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 3479,
+    "output_tokens": 98,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 333,
+    "rewrite_output_tokens": 61,
+    "graph_input_tokens": 1702,
+    "graph_output_tokens": 120,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.006709,
+   "timings": {
+    "rewrite_s": 1.292,
+    "retrieve_s": 1.37,
+    "rerank_s": 2.104,
+    "generate_s": 0.973,
+    "total_s": 13.733
+   },
+   "prior_turns": [],
+   "answer_excerpt": "This specific information is not in the available documents. \n\nYou can check the official BCIT website or contact the School of Computing and Academic Studies directly for more details about lab section sizes for COMP 1510.\n\nSources:\n- https://www.bcit.ca/outlines/20261048058/\n- https://www.bcit.ca/courses/programming-methods-comp-1510/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "How many students are in each COMP 1510 lab section at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 10927,
+   "n_context_sources": 2,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 32,
+   "n_scoped_candidates": 7,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Information about COMP 1510 lab section class sizes needs to be retrieved from the BCIT corpus.",
+     "queries": [
+      "COMP 1510 lab section class size"
+     ],
+     "missing": [
+      "COMP 1510 lab section size"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The course outline evidence for COMP 1510 does not provide lab section class sizes.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261048058",
+    "https://www.bcit.ca/courses/programming-methods-comp-1510"
+   ],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 2,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "un3-03",
+   "category": "unanswerable",
+   "question": "What is the average starting salary for Computer Systems Technology graduates?",
+   "follow_up": null,
+   "standalone_question": "What is the average starting salary for Computer Systems Technology graduates at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 5622,
+    "output_tokens": 105,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 50,
+    "graph_input_tokens": 1981,
+    "graph_output_tokens": 112,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.007641,
+   "timings": {
+    "rewrite_s": 2.738,
+    "retrieve_s": 2.307,
+    "rerank_s": 0.178,
+    "generate_s": 1.123,
+    "total_s": 9.691
+   },
+   "prior_turns": [],
+   "answer_excerpt": "The available documents do not contain information regarding the average starting salary for Computer Systems Technology graduates. \n\nTo find graduate employment outcomes and related statistics, you can visit the BC Student Outcomes website mentioned in the graduate employment outcomes section of the BCIT website, or contact program advising at program_advising@bcit.ca for further guidance.\n\nSources:\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT Computer Systems Technology graduate average starting salary"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22674,
+   "n_context_sources": 4,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 35,
+   "n_scoped_candidates": 10,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching for salary statistics regarding Computer Systems Technology graduates.",
+     "queries": [
+      "Computer Systems Technology graduate average starting salary",
+      "CST graduate outcomes salary"
+     ],
+     "missing": [
+      "Computer Systems Technology graduate salary data"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieved evidence shows that salary data for CST graduates is not available in the BCIT program pages.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/programs/computer-systems-certificate-part-time-5500cert",
+    "https://www.bcit.ca/programs/computer-systems-diploma-part-time-5500pdiplt",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma"
+   ],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 1,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "os3-01",
+   "category": "out_of_scope",
+   "question": "What are the entrance requirements for UBC's computer science program?",
+   "follow_up": null,
+   "standalone_question": "What are the entrance requirements for UBC's computer science program?",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 462,
+    "output_tokens": 57,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 721,
+    "graph_output_tokens": 29,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.00159,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 1.364,
+    "total_s": 2.582
+   },
+   "prior_turns": [],
+   "answer_excerpt": "I can only help with BCIT topics, such as admission requirements for BCIT programs or information about BCIT courses. Since you are asking about another institution, I am unable to answer that question. Feel free to ask me about BCIT's computing and information technology programs instead!",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What are the entrance requirements for UBC's computer science program?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "refuse",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "refuse",
+     "reason": "The question asks about entrance requirements for UBC, which is outside the scope of BCIT academic advising.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": 1.0,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "os3-02",
+   "category": "out_of_scope",
+   "question": "Write me a Python function that reverses a linked list.",
+   "follow_up": null,
+   "standalone_question": "Write me a Python function that reverses a linked list.",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 460,
+    "output_tokens": 53,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 719,
+    "graph_output_tokens": 33,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.001606,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 0.823,
+    "total_s": 2.592
+   },
+   "prior_turns": [],
+   "answer_excerpt": "I can only help you with BCIT-related topics, such as information about BCIT programs, courses, admission requirements, and student services. I cannot provide general programming help or homework solutions. Feel free to ask me about any BCIT program or course instead!",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Write me a Python function that reverses a linked list."
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "refuse",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "refuse",
+     "reason": "The request asks for general Python coding assistance rather than information about BCIT.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "os3-03",
+   "category": "out_of_scope",
+   "question": "밴쿠버 오늘 날씨 어때?",
+   "follow_up": null,
+   "standalone_question": "밴쿠버 오늘 날씨 어때?",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 458,
+    "output_tokens": 58,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 717,
+    "graph_output_tokens": 28,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.001578,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 0.975,
+    "total_s": 2.424
+   },
+   "prior_turns": [],
+   "answer_excerpt": "저는 BCIT 관련 질문에만 도움을 드릴 수 있어서 날씨는 알려드릴 수 없습니다. 대신 BCIT의 다양한 프로그램, 입학 요건, 학비 등에 대해 기꺼이 안내해 드릴 수 있으니 궁금한 점이 있으시면 언제든 물어보세요!",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "밴쿠버 오늘 날씨 어때?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "refuse",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "refuse",
+     "reason": "The student is asking about the weather in Vancouver, which is unrelated to BCIT academic advising.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": 1.0,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "cc3-01",
+   "category": "chitchat",
+   "question": "hello",
+   "follow_up": null,
+   "standalone_question": "hello",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 450,
+    "output_tokens": 18,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 709,
+    "graph_output_tokens": 34,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.001509,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 0.832,
+    "total_s": 2.099
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Hello! Welcome to BCIT. How can I help you with your academic journey today?",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "hello"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "direct",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "answer",
+     "reason": "The user is greeting the chatbot, so no retrieval or BCIT lookup is needed.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "cc3-02",
+   "category": "chitchat",
+   "question": "What can you help me with?",
+   "follow_up": null,
+   "standalone_question": "What can you help me with?",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 456,
+    "output_tokens": 44,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 715,
+    "graph_output_tokens": 35,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.001592,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 1.428,
+    "total_s": 2.614
+   },
+   "prior_turns": [],
+   "answer_excerpt": "I can answer questions about BCIT programs, courses, admission requirements, tuition, campuses, and student services using official BCIT web pages. Feel free to ask about any specific program or course you are interested in exploring!",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What can you help me with?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "direct",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "answer",
+     "reason": "The student is asking about the capabilities of the chatbot, which can be answered without retrieval.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "cc3-03",
+   "category": "chitchat",
+   "question": "고마워요!",
+   "follow_up": null,
+   "standalone_question": "고마워요!",
+   "finish_reason": "STOP",
+   "n_context_docs": 0,
+   "usage": {
+    "input_tokens": 454,
+    "output_tokens": 18,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 0,
+    "rewrite_output_tokens": 0,
+    "graph_input_tokens": 713,
+    "graph_output_tokens": 45,
+    "graph_calls": 1
+   },
+   "est_cost_usd": 0.001598,
+   "timings": {
+    "rewrite_s": 0.0,
+    "retrieve_s": 0.0,
+    "rerank_s": 0.0,
+    "generate_s": 0.76,
+    "total_s": 2.268
+   },
+   "prior_turns": [],
+   "answer_excerpt": "천만에요! 도움이 필요하시면 언제든지 말씀해 주세요. 좋은 하루 보내세요!",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "고마워요!"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 0,
+   "n_context_sources": 0,
+   "n_chunks_kept": 0,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 0,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 0,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "direct",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "answer",
+     "reason": "The user is expressing gratitude in Korean, requiring a standard friendly response without retrieval.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 0
+    }
+   ],
+   "retrieved_urls": [],
+   "url_hit_fraction": null,
+   "url_full_hit": null,
+   "urls_missed": [],
+   "fact_recall": null,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 0,
+   "citation_precision": null
+  },
+  {
+   "id": "ex3-01",
+   "category": "exploratory",
+   "question": "which course can I learn how to use terraform?",
+   "follow_up": null,
+   "standalone_question": "Which BCIT course teaches how to use Terraform?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6139,
+    "output_tokens": 228,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 329,
+    "rewrite_output_tokens": 41,
+    "graph_input_tokens": 2745,
+    "graph_output_tokens": 112,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.00918,
+   "timings": {
+    "rewrite_s": 1.33,
+    "retrieve_s": 2.28,
+    "rerank_s": 0.195,
+    "generate_s": 2.071,
+    "total_s": 9.25
+   },
+   "prior_turns": [],
+   "answer_excerpt": "You can learn how to use Terraform in several BCIT courses, including COMP 4964 (DevOps Engineering) and ACIT 4640. \n\n* **COMP 4964 (DevOps Engineering):** Covers Terraform and Ansible in week 12, along with other cloud infrastructure and CI/CD tools.\n* **ACIT 4640:** Dedicated topics include Terraform HCL syntax, commands, modules, variables, and deploying images created with Packer across multiple weeks.\n* **Computer Systems Technology (CST) Diploma - Cloud Computing Option:** Also utilizes Terraform as an industry-standard infrastructure tool within its project-based cloud curriculum.\n\nSources:\n- https://www.bcit.ca/outlines/20253043982/\n- https://www.bcit.ca/outlines/20261089230/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "BCIT course teach Terraform"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23370,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching the BCIT corpus for courses that teach Terraform.",
+     "queries": [
+      "Terraform course",
+      "Terraform"
+     ],
+     "missing": [
+      "Terraform course"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The retrieval evidence identifies specific BCIT courses that cover Terraform, such as COMP 4964 and ACIT 4640.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20253043982",
+    "https://www.bcit.ca/outlines/20261089230",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/outlines/20253048175",
+    "https://www.bcit.ca/courses/deploying-cloud-services-cisa-4350",
+    "https://www.bcit.ca/courses/advanced-topics-in-it-infrastructure-acit-3495",
+    "https://www.bcit.ca/courses/devops-engineering-comp-4964",
+    "https://www.bcit.ca/courses/cloud-computing-acit-3640"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "ex3-02",
+   "category": "exploratory",
+   "question": "who is michal?",
+   "follow_up": null,
+   "standalone_question": "Who is Michal at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6420,
+    "output_tokens": 314,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 323,
+    "rewrite_output_tokens": 39,
+    "graph_input_tokens": 2524,
+    "graph_output_tokens": 123,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009206,
+   "timings": {
+    "rewrite_s": 1.248,
+    "retrieve_s": 1.877,
+    "rerank_s": 0.177,
+    "generate_s": 1.561,
+    "total_s": 9.74
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Michal Aibin is a faculty member at BCIT within the School of Computing and Academic Studies.\n\n* He serves as an instructor, research faculty member, and program head. \n* His teaching and research interests include drones (UAV/RPAS), computer vision, autonomous vehicles, artificial intelligence, machine learning, networking, and cloud computing.\n* Within the Computer Systems Technology (CST) Diploma program, he is listed as a research faculty member. He also teaches and coordinates various courses and practica across computing programs, such as ACIT 3900, ACIT 4900, ACIT 4980, and COMP 9130.\n\nSources:\n- https://www.bcit.ca/outlines/20261093125/\n- https://www.bcit.ca/outlines/20261093126/\n- https://www.bcit.ca/outlines/20261093032/\n- https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma/\n- https://www.bcit.ca/outlines/20261088350/\n- https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "Who is Michal at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23007,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 25,
+   "n_scoped_candidates": 0,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching the BCIT corpus to identify staff or faculty named Michal.",
+     "queries": [
+      "Michal",
+      "Michal BCIT"
+     ],
+     "missing": [
+      "Michal BCIT staff or faculty profile"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence sufficient details Michal Aibin as a BCIT research faculty member and instructor with contact details.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261093125",
+    "https://www.bcit.ca/outlines/20261093126",
+    "https://www.bcit.ca/outlines/20261093032",
+    "https://www.bcit.ca/programs/computer-systems-technology-diploma-full-time-5500dipma",
+    "https://www.bcit.ca/outlines/20261088350",
+    "https://www.bcit.ca/programs/computer-information-technology-diploma-full-time-5540dipma",
+    "https://www.bcit.ca/outlines/20261093033"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 6,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pl3-01",
+   "category": "person_lookup",
+   "question": "What courses does Victor Mendez teach at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What courses does Victor Mendez teach at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6646,
+    "output_tokens": 220,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 328,
+    "rewrite_output_tokens": 45,
+    "graph_input_tokens": 2665,
+    "graph_output_tokens": 106,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009176,
+   "timings": {
+    "rewrite_s": 1.431,
+    "retrieve_s": 0.983,
+    "rerank_s": 0.42,
+    "generate_s": 1.197,
+    "total_s": 6.955
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Victor Mendez teaches several courses at BCIT, primarily within the School of Energy and related to electrical engineering, industrial control systems, and cybersecurity. \n\nThe specific courses taught or overseen by Victor Mendez as listed in the available documents include:\n- **XINC 3110**: Industrial Control Systems (ICS) Design\n- **ELEX 4610**: Distributed Control and Safety Instrumented Systems for Industrial Network Cybersecurity\n- **XINC 3120**: Fieldbus Networks\n- **ELEX 7720**: Feedback Control\n\nSources:\n- https://www.bcit.ca/outlines/20252068447/\n- https://www.bcit.ca/outlines/20261088016/\n- https://www.bcit.ca/outlines/20252068448/\n- https://www.bcit.ca/outlines/20253037081/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What courses does Victor Mendez teach at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23817,
+   "n_context_sources": 7,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 35,
+   "n_scoped_candidates": 10,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Search for courses taught by instructor Victor Mendez at BCIT.",
+     "queries": [
+      "Victor Mendez courses BCIT",
+      "Victor Mendez instructor"
+     ],
+     "missing": [
+      "courses taught by Victor Mendez"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence provides multiple courses taught or instructed by Victor Mendez, fully answering the question.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20252068447",
+    "https://www.bcit.ca/outlines/20261088016",
+    "https://www.bcit.ca/outlines/20252068448",
+    "https://www.bcit.ca/outlines/20253037081",
+    "https://www.bcit.ca/programs/electrical-engineering-bachelor-of-engineering-full-time-8030beng",
+    "https://www.bcit.ca/outlines/20261087071",
+    "https://www.bcit.ca/outlines/20261084011"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 0.8,
+   "facts_missed": [
+    "elex 2610"
+   ],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 4,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pl3-02",
+   "category": "person_lookup",
+   "question": "What courses does Esti Jacobs teach at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What courses does Esti Jacobs teach at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 6246,
+    "output_tokens": 154,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 329,
+    "rewrite_output_tokens": 48,
+    "graph_input_tokens": 2869,
+    "graph_output_tokens": 108,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.009236,
+   "timings": {
+    "rewrite_s": 1.798,
+    "retrieve_s": 2.431,
+    "rerank_s": 0.172,
+    "generate_s": 1.14,
+    "total_s": 8.832
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Based on the available documents, Esti Jacobs is the instructor for the following courses at BCIT:\n\n* **BLDG 2305** (Construction Estimating 1)\n* **BLDT 2091** (Construction Estimating 2)\n* **BLDG 3305** (Construction Estimating 2)\n\nSources\n- https://www.bcit.ca/outlines/20261078904/\n- https://www.bcit.ca/outlines/20252056108/\n- https://www.bcit.ca/outlines/20253039218/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What courses does Esti Jacobs teach at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 22269,
+   "n_context_sources": 9,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 31,
+   "n_scoped_candidates": 6,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "I need to search the BCIT corpus to find courses taught by Esti Jacobs.",
+     "queries": [
+      "Esti Jacobs courses",
+      "Esti Jacobs instructor"
+     ],
+     "missing": [
+      "courses taught by Esti Jacobs"
+     ],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence already identifies the specific courses taught by Esti Jacobs.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/outlines/20261078904",
+    "https://www.bcit.ca/outlines/20252056108",
+    "https://www.bcit.ca/outlines/20253039218",
+    "https://www.bcit.ca/programs/architectural-and-building-technology-diploma-full-time-7140dipma",
+    "https://www.bcit.ca/outlines/20261093047",
+    "https://www.bcit.ca/outlines/20253030503",
+    "https://www.bcit.ca/outlines/20253044392",
+    "https://www.bcit.ca/outlines/20251078081",
+    "https://www.bcit.ca/outlines/20261012420"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 3,
+   "citation_precision": 1.0
+  },
+  {
+   "id": "pl3-03",
+   "category": "person_lookup",
+   "question": "What courses does Juan Azmitia teach at BCIT?",
+   "follow_up": null,
+   "standalone_question": "What courses does Juan Azmitia teach at BCIT?",
+   "finish_reason": "STOP",
+   "n_context_docs": 10,
+   "usage": {
+    "input_tokens": 7335,
+    "output_tokens": 357,
+    "reasoning_tokens": 0,
+    "cache_read_tokens": 0,
+    "rewrite_input_tokens": 330,
+    "rewrite_output_tokens": 49,
+    "graph_input_tokens": 2911,
+    "graph_output_tokens": 98,
+    "graph_calls": 2
+   },
+   "est_cost_usd": 0.010067,
+   "timings": {
+    "rewrite_s": 1.255,
+    "retrieve_s": 2.1,
+    "rerank_s": 4.126,
+    "generate_s": 1.485,
+    "total_s": 12.39
+   },
+   "prior_turns": [],
+   "answer_excerpt": "Juan Azmitia teaches the following courses at BCIT:\n\n- **Management Information Systems (FMGT 2701)**\n- **Intercultural and Interdisciplinary Communication in Creative Industries (CREA 7030)**\n- **Leading Global Teams (GLBL 9020)**\n- **Applied Data Analytics in Excel (BSYS 2000)** (specifically the Summer 2026 section running Jun 09 - Jul 07, CRN 69668)\n- **Business Information Systems 1-Microsoft 365 for Windows (BSYS 1001)**\n- **Cross-Cultural Management (BUSA 8100)**\n- **Accounting Information Systems (ACCG 5150)**\n\nSources:\n- https://www.bcit.ca/courses/management-information-systems-fmgt-2701/\n- https://www.bcit.ca/outlines/20253051779/\n- https://www.bcit.ca/outlines/20243048406/\n- https://www.bcit.ca/courses/applied-data-analytics-in-excel-bsys-2000/\n- https://www.bcit.ca/outlines/20262057987/\n- https://www.bcit.ca/outlines/20261091857/\n- https://www.bcit.ca/outlines/20253044206/",
+   "error": null,
+   "n_subqueries": 1,
+   "sub_queries": [
+    "What courses does Juan Azmitia teach at BCIT?"
+   ],
+   "decompose_fallback": false,
+   "context_mode": "chunks",
+   "context_chars": 23900,
+   "n_context_sources": 8,
+   "n_chunks_kept": 10,
+   "neighbor_misses": 0,
+   "n_rerank_calls": 1,
+   "rerank_skipped": false,
+   "pool_consensus": null,
+   "rewrite_skipped": false,
+   "retrieval_mode": "single",
+   "n_candidates": 44,
+   "n_scoped_candidates": 19,
+   "fanin_swaps": 0,
+   "route": "retrieve",
+   "graph_hops": 0,
+   "graph_trace": [
+    {
+     "hop": 0,
+     "action": "retrieve",
+     "reason": "Searching the BCIT corpus to identify courses taught by instructor Juan Azmitia.",
+     "queries": [
+      "Juan Azmitia courses",
+      "Juan Azmitia instructor"
+     ],
+     "missing": [],
+     "n_docs_seen": 0
+    },
+    {
+     "hop": 1,
+     "action": "answer",
+     "reason": "The evidence already lists multiple courses taught by Juan Azmitia, sufficient to fully answer the query.",
+     "queries": [],
+     "missing": [],
+     "n_docs_seen": 10
+    }
+   ],
+   "retrieved_urls": [
+    "https://www.bcit.ca/courses/management-information-systems-fmgt-2701",
+    "https://www.bcit.ca/outlines/20253051779",
+    "https://www.bcit.ca/outlines/20243048406",
+    "https://www.bcit.ca/courses/applied-data-analytics-in-excel-bsys-2000",
+    "https://www.bcit.ca/outlines/20262057987",
+    "https://www.bcit.ca/outlines/20261091857",
+    "https://www.bcit.ca/programs/operations-management-management-engineering-option-certificate-part-time-690bmcert",
+    "https://www.bcit.ca/outlines/20253044206"
+   ],
+   "url_hit_fraction": 1.0,
+   "url_full_hit": true,
+   "urls_missed": [],
+   "fact_recall": 1.0,
+   "facts_missed": [],
+   "avoidance": null,
+   "forbidden_present": [],
+   "n_cited": 7,
+   "citation_precision": 1.0
+  }
+ ]
+}

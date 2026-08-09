@@ -291,7 +291,8 @@ before/after table above it counts generation input only, which is why the same
 two runs read 44,322 → 5,884 there and 44,410 → 6,263 here. Row 5's
 generation-only figure is 5,526; row 6's is 6,118.
 
-⁴ Row 6 is the full 40-case v1 set (`eval/results/v1_lite2.json`) against the
+⁴ Row 6 is the full 40-case v1 set
+(`eval/benchmarks/202608_graph_controller/runs/v1_lite2.json`) against the
 same set on the same dependency stack with the controller off
 (`deps_v1.json`: 0.9667 / 0.9917 / 5,882 tok / $0.00404), so the delta is the
 graph and nothing else — the dependency upgrade was measured separately and
@@ -390,9 +391,9 @@ The complete live setup, with every value env-overridable for rollback:
 | Response cache | `RESPONSE_CACHE_ENABLED=true` | first-turn (no-history) questions key an in-process TTL/LRU on the normalized text (`RESPONSE_CACHE_MAX=1000`, `RESPONSE_CACHE_TTL_S=86400`); an exact repeat returns in <100 ms at $0. Exact-match only (no semantic similarity → never a wrong answer); follow-ups never cached; cleared on restart so it never outlives a corpus rebuild |
 
 Measured quality of exactly this configuration, on all four sets
-(`eval/results/{v1,v2,v3}_lite2.json`, `gr_lite2.json`), against the identical
-dependency stack with `USE_GRAPH=false`
-(`deps_v{1,2,3}.json`, `gr_base.json`):
+(`eval/benchmarks/202608_graph_controller/runs/{v1,v2,v3}_lite2.json`,
+`gr_lite2.json`), against the identical dependency stack with
+`USE_GRAPH=false` (`deps_v{1,2,3}.json`, `gr_base.json` in the same folder):
 
 | Metric | v1 (40) | v2 (25 incl. messy) | v3 (24 targeted) | rough (16 untidy) |
 |---|---|---|---|---|
