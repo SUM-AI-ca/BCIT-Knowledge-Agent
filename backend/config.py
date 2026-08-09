@@ -330,6 +330,58 @@ REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
 # cap; the eval sweep compares None (+4096 cap) for answer quality.
 GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
 
+# --- Controller graph (LangGraph) -------------------------------------------
+# One LLM node decides, each iteration, whether the BCIT corpus is needed at
+# all (route), whether what has been retrieved is enough (gate), and what to
+# fetch next (orchestration). It runs entirely BEFORE generation, so the
+# answer is still produced by a single uninterrupted llm.stream() call and
+# query_stream/_finalize_turn/server.py are untouched — the reason Self-RAG
+# was rejected in 202608_adaptive_rag_prep does not apply here.
+# Default OFF: with the flag off nothing imports langgraph and the turn takes
+# exactly today's path.
+USE_GRAPH = _env_bool("USE_GRAPH", False)
+# Controller model. The dominant cost variable in the whole design: the
+# reasoning tier is ~5x the lite tier per call, and the controller fires on
+# every turn. Both are measured on the same sets before adoption.
+GRAPH_MODEL = _env_str("GRAPH_MODEL", "gemini-3.6-flash")
+GRAPH_TEMPERATURE = _env_float("GRAPH_TEMPERATURE", 0.0)
+GRAPH_MAX_OUTPUT_TOKENS = _env_int("GRAPH_MAX_OUTPUT_TOKENS", 512)
+GRAPH_THINKING_BUDGET = _env_int("GRAPH_THINKING_BUDGET", 0)
+# Hard iteration cap, enforced in code regardless of what the controller asks
+# for. The deterministic prototype of this gate could not fire on a question
+# the corpus cannot answer (no relation in the index -> nothing to ask for);
+# an LLM gate has no such structural guarantee, so the cap plus the
+# concrete-entity requirement in graph.py are what keep `unanswerable` from
+# looping. 3 leaves room for prereq-of-prereq chains; observed use is 1.
+GRAPH_MAX_HOPS = _env_int("GRAPH_MAX_HOPS", 3)
+# Per-document budget for the evidence digest the controller reads instead of
+# the assembled context. Showing it the real context (~5.7k tokens) would cost
+# more per gate call than the entire query does today; the digest is ~1.6k at
+# this setting and is a better input for the judgement anyway — it is a
+# coverage question, not a reading-comprehension one.
+GRAPH_DIGEST_CHARS = _env_int("GRAPH_DIGEST_CHARS", 400)
+# Context budget on turns where the controller actually took a hop. Turns that
+# route straight through pay nothing extra.
+#
+# GRAPH_HOP_TOP_K without GRAPH_HOP_CONTEXT_MAX_CHARS would be a no-op:
+# measured on the 24-case v3 run, context_chars is already mean 20,944 /
+# p50 22,276 / max 23,900 against a 24,000 cap, so the assembler is dropping
+# neighbor expansion and trailing sources to fit. The char cap is the binding
+# constraint, not the chunk count — both have to move together.
+GRAPH_HOP_TOP_K = _env_int("GRAPH_HOP_TOP_K", 20)
+GRAPH_HOP_CONTEXT_MAX_CHARS = _env_int("GRAPH_HOP_CONTEXT_MAX_CHARS", 48000)
+# "node": the controller's first call is the router (an extra request).
+# "inline": the route decision rides on the rewriter's existing JSON call,
+# saving one request and ~0.5 s at the cost of sharing a prompt with a
+# differently-tuned task. Both are LLM routing; measured against each other.
+GRAPH_ROUTER_MODE = _env_str("GRAPH_ROUTER_MODE", "node")
+# Priced separately because the controller can run on a different model than
+# either generation or rewriting. Same rule as the pair above: these MUST move
+# with GRAPH_MODEL or the per-query cost shown to users quotes a model that
+# did not run. Defaults are gemini-3.6-flash list prices.
+PRICE_GRAPH_INPUT_PER_M = _env_float("PRICE_GRAPH_INPUT_PER_M", 1.50)
+PRICE_GRAPH_OUTPUT_PER_M = _env_float("PRICE_GRAPH_OUTPUT_PER_M", 7.50)
+
 # Response language. "match": answer in the language of the student's latest
 # question (retrieval + rewriter stay English — the corpus is English, and the
 # v2 eval showed the rewriter's translation is load-bearing); "en": always
@@ -499,6 +551,113 @@ if HYDE_MODE != "off":
         "\n   the question would plausibly contain. Name the concrete program or course.\n\nRules:",
         1,
     )
+
+# --- Controller graph prompts (USE_GRAPH) -----------------------------------
+# One schema serves all three jobs. On the first iteration the controller has
+# no evidence and the decision IS the route; on later iterations it sees the
+# digest and the decision IS the coverage gate. Same contract, different state.
+GRAPH_CONTROLLER_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "action": {"type": "STRING", "enum": ["answer", "refuse", "retrieve"]},
+        "reason": {"type": "STRING"},
+        "queries": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "missing": {"type": "ARRAY", "items": {"type": "STRING"}},
+    },
+    "required": ["action", "reason"],
+}
+
+# Rules 4 and 5 are the load-bearing ones. The deterministic version of this
+# gate could not fire on an unanswerable question because the entity index had
+# no relation to follow; this prompt has to earn that property instead, and
+# graph.py enforces it a second time by rejecting a `retrieve` whose `missing`
+# names nothing concrete.
+GRAPH_CONTROLLER_TEMPLATE = """You control retrieval for a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
+
+Decide the SINGLE next action. Return JSON with:
+1. "action": one of
+   - "retrieve" - the BCIT corpus is needed and something specific is still missing.
+   - "answer"   - respond now. Either no BCIT lookup was needed (greetings, thanks,
+                  questions about what you can do), or the evidence below already
+                  covers the question, or the corpus plainly does not contain it.
+   - "refuse"   - the question is outside BCIT's scope (other institutions, general
+                  programming help, weather, news, personal advice unrelated to BCIT).
+2. "reason": one short sentence.
+3. "queries": when action is "retrieve", 1 to 3 specific search queries. Each must
+   name a concrete course code, program, person, or topic. Never a pronoun.
+4. "missing": when action is "retrieve", the concrete things still unaccounted for
+   (e.g. "COMP 2510", "ACIT 2520 credits"). Leave empty otherwise.
+
+Rules:
+- Anything about BCIT programs, courses, admission, tuition, campuses, services,
+  policies, instructors or schedules needs "retrieve" on the first iteration.
+- Do NOT choose "retrieve" unless you can name what is missing. "more detail",
+  "additional information" and similar are not valid entries in "missing".
+- If the evidence shows the corpus simply does not hold the answer (enrolment
+  statistics, graduation rates, salary data, class sizes), choose "answer". The
+  answer will say the information is unavailable. Searching again will not
+  produce something the corpus does not contain.
+- A question answered in full by the evidence is "answer", even if more related
+  material could exist.
+- English only in this JSON, whatever language the student used.
+
+Student's question:
+{question}
+
+Conversation history:
+{chat_history}
+
+Retrieval evidence so far:
+{evidence}
+
+Iteration {hop} of at most {max_hops}."""
+
+# Generation prompt for turns the controller routed away from retrieval. It
+# carries the same scope policy and the same language rule as the RAG prompt —
+# "no retrieval" must not become "answer BCIT questions from memory", which is
+# what would quietly break the out_of_scope avoidance the eval holds at 1.000.
+# No Sources section: nothing was retrieved, so there is nothing to cite.
+GRAPH_DIRECT_TEMPLATE = """You are a BCIT (British Columbia Institute of Technology) academic advisor chatbot.
+
+This turn needs no document lookup. Reply directly.
+
+INSTRUCTIONS:
+
+1. LANGUAGE
+__LANGUAGE_RULE__
+
+2. WHAT TO DO
+   - For greetings, thanks, and small talk: reply warmly in one or two sentences.
+   - If asked what you can do: say you answer questions about BCIT programs,
+     courses, admission requirements, tuition, campuses and student services,
+     using official BCIT web pages. Keep it under four sentences.
+   - If the question is outside BCIT's scope (another institution, general
+     programming or homework help, weather, news, or anything unrelated to
+     BCIT): say briefly that you can only help with BCIT topics, then name one
+     or two BCIT things you could help with instead. Do not answer the
+     off-topic question, even partially, and do not refer the student to
+     another institution's website.
+
+3. NEVER INVENT BCIT FACTS
+   - No BCIT documents were retrieved for this turn, so you have no BCIT facts
+     available. Do not state any BCIT specific detail - no dates, tuition
+     figures, course codes, admission requirements, or URLs.
+   - If the student is in fact asking for such a detail, say you need to look
+     it up and invite them to ask directly about the program or course.
+
+4. FORMAT
+   - Plain prose, under 100 words. No headings, no bullet lists.
+   - Do not add a "Sources" section and do not mention documents or context.
+
+Conversation history:
+{chat_history}
+
+Student's question:
+{question}
+
+Answer:"""
+
+GRAPH_DIRECT_TEMPLATE = GRAPH_DIRECT_TEMPLATE.replace("__LANGUAGE_RULE__", _LANGUAGE_RULE)
 
 # Legacy query rewriting prompt (used when MULTI_QUERY_ENABLED=false)
 QUERY_REWRITE_TEMPLATE = """You are helping a BCIT academic advisor chatbot with retrieval.
