@@ -1381,10 +1381,11 @@ class BCITChatbot:
                 "question": question,
                 "chat_history": chat_history,
             })
-            context_stats = {"context_chars": len(_message_text(prompt_value.messages[-1]))
-                             if getattr(prompt_value, "messages", None) else 0,
-                             "n_chunks_kept": 0, "n_context_sources": 0,
-                             "neighbor_misses": 0}
+            # context_chars is 0, not the prompt length: no BCIT context was
+            # assembled, and reporting the prompt here would make a directly
+            # routed turn look like it had retrieved something.
+            context_stats = {"context_chars": 0, "n_chunks_kept": 0,
+                             "n_context_sources": 0, "neighbor_misses": 0}
         else:
             # Hop turns get the wider budget; single-pass turns are billed
             # exactly as they are today.

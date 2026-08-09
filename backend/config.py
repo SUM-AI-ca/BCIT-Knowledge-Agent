@@ -345,7 +345,11 @@ USE_GRAPH = _env_bool("USE_GRAPH", False)
 # every turn. Both are measured on the same sets before adoption.
 GRAPH_MODEL = _env_str("GRAPH_MODEL", "gemini-3.6-flash")
 GRAPH_TEMPERATURE = _env_float("GRAPH_TEMPERATURE", 0.0)
-GRAPH_MAX_OUTPUT_TOKENS = _env_int("GRAPH_MAX_OUTPUT_TOKENS", 512)
+# 512 truncated a hop-2 decision mid-JSON (unterminated string at char 1452),
+# which the parse then rejected and the graph fail-opened on. A controller that
+# silently stops controlling is the worst failure mode available to it, so the
+# cap has headroom and the prompt bounds `reason` explicitly.
+GRAPH_MAX_OUTPUT_TOKENS = _env_int("GRAPH_MAX_OUTPUT_TOKENS", 1024)
 GRAPH_THINKING_BUDGET = _env_int("GRAPH_THINKING_BUDGET", 0)
 # Hard iteration cap, enforced in code regardless of what the controller asks
 # for. The deterministic prototype of this gate could not fire on a question
@@ -582,21 +586,26 @@ Decide the SINGLE next action. Return JSON with:
                   covers the question, or the corpus plainly does not contain it.
    - "refuse"   - the question is outside BCIT's scope (other institutions, general
                   programming help, weather, news, personal advice unrelated to BCIT).
-2. "reason": one short sentence.
+2. "reason": ONE sentence, at most 20 words. Never a list.
 3. "queries": when action is "retrieve", 1 to 3 specific search queries. Each must
    name a concrete course code, program, person, or topic. Never a pronoun.
 4. "missing": when action is "retrieve", the concrete things still unaccounted for
    (e.g. "COMP 2510", "ACIT 2520 credits"). Leave empty otherwise.
 
 Rules:
-- Anything about BCIT programs, courses, admission, tuition, campuses, services,
-  policies, instructors or schedules needs "retrieve" on the first iteration.
+- ON ITERATION 0 THERE IS NO EVIDENCE YET. Every question about BCIT is
+  "retrieve" at this point - including ones the corpus may well not answer,
+  such as graduation rates, class sizes, failure rates or salary data. You
+  cannot know what the corpus holds without looking, and telling a student the
+  information is unavailable is only honest after a search has been run.
+  "answer" on iteration 0 is for greetings, thanks, and questions about what
+  you can do. "refuse" on iteration 0 is for questions that are not about BCIT
+  at all.
+- FROM ITERATION 1 ONWARD, if the evidence shows the corpus does not hold the
+  answer, choose "answer". The answer will say the information is unavailable.
+  Searching again will not produce something the corpus does not contain.
 - Do NOT choose "retrieve" unless you can name what is missing. "more detail",
   "additional information" and similar are not valid entries in "missing".
-- If the evidence shows the corpus simply does not hold the answer (enrolment
-  statistics, graduation rates, salary data, class sizes), choose "answer". The
-  answer will say the information is unavailable. Searching again will not
-  produce something the corpus does not contain.
 - A question answered in full by the evidence is "answer", even if more related
   material could exist.
 - English only in this JSON, whatever language the student used.

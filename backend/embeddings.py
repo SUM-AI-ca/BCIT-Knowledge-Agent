@@ -1,8 +1,22 @@
+import logging
+import random
+import time
 from typing import List
 
 import numpy as np
 from langchain_core.embeddings import Embeddings
 from langchain_google_vertexai import VertexAIEmbeddings
+
+logger = logging.getLogger(__name__)
+
+# One retrieval pass = one query embedding, and the controller graph turns a
+# hop turn into two or three passes. This project already sits at the
+# `online_prediction_requests_per_base_model` ceiling for gemini-embedding —
+# measured, repeatedly, while developing the graph — so the multiplier is the
+# difference between an occasional 429 and a user-visible 500. The client's own
+# tenacity retry gives up too early for a per-minute quota; these waits are
+# sized to outlast one refill window.
+_EMBED_RETRY_WAITS = (2.0, 8.0, 20.0, 40.0)
 
 
 class VertexGeminiEmbeddings(Embeddings):
@@ -34,11 +48,29 @@ class VertexGeminiEmbeddings(Embeddings):
         # used to be expressed as batch_size=1, which langchain-google-vertexai
         # 3.x dropped — its embed() now sends the whole list in one request, so
         # the limit has to be enforced here or a multi-text call 400s.
-        return self._client.embed(
-            [text],
-            embeddings_task_type=task_type,
-            dimensions=self.dimensions,
-        )[0]
+        last = None
+        for attempt, wait in enumerate((*_EMBED_RETRY_WAITS, None)):
+            try:
+                return self._client.embed(
+                    [text],
+                    embeddings_task_type=task_type,
+                    dimensions=self.dimensions,
+                )[0]
+            except Exception as exc:
+                # Only quota exhaustion is worth waiting out. A 400 (bad
+                # request) or 403 (auth) will fail identically after 70s of
+                # sleeping, and retrying it just delays the real error.
+                if "RESOURCE_EXHAUSTED" not in str(exc) and "429" not in str(exc):
+                    raise
+                last = exc
+                if wait is None:
+                    break
+                # Jitter so concurrent server threads do not resynchronise on
+                # the same refill boundary and re-exhaust the quota together.
+                time.sleep(wait + random.uniform(0, wait * 0.25))
+                logger.warning("embedding quota exhausted, retry %d after %.1fs",
+                               attempt + 1, wait)
+        raise last
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         vectors = [self._embed_one(t, "RETRIEVAL_DOCUMENT") for t in texts]

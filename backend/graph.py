@@ -21,6 +21,7 @@ and gets back a verdict; see `ControllerGraph.__init__`.
 """
 import json
 import logging
+import re
 from typing import Any, Callable, Dict, List, Optional, TypedDict
 
 from langchain_core.documents import Document
@@ -84,6 +85,21 @@ def is_concrete(missing: List[str]) -> bool:
     return False
 
 
+# Structured fields BCIT outlines state as "Label | value". They are where the
+# answers to the hop-shaped questions actually live (3,258 of 3,262 outlines
+# carry Prerequisite(s), 3,171 carry Course Credits), and they are one short
+# line each. Measured need: without them the controller re-requested COMP 1537
+# and COMP 3522 prerequisites on consecutive hops because the digest's
+# head-of-chunk excerpt did not happen to include the line that had arrived —
+# it kept searching for something it already had, and hit the cap.
+_FIELD_RE = re.compile(
+    r"^(Prerequisite\(s\)|Corequisite\(s\)|Course Credits|Course Level|Name|Credits)\s*\|\s*(.+)$",
+    re.M,
+)
+_MAX_DIGEST_SOURCES = 12
+_MAX_FIELDS_PER_SOURCE = 4
+
+
 def build_digest(docs: List[Document], sub_queries: List[str], max_chars: int = None) -> str:
     """Compact evidence summary for the controller.
 
@@ -110,19 +126,28 @@ def build_digest(docs: List[Document], sub_queries: List[str], max_chars: int = 
             "url": (md.get("url") or "").strip(),
             "chunks": 0,
             "head": "",
+            "fields": [],
         })
         entry["chunks"] += 1
         if not entry["head"]:
             entry["head"] = " ".join(doc.page_content.split())[:max_chars]
+        for label, value in _FIELD_RE.findall(doc.page_content):
+            field = f"{label} | {' '.join(value.split())[:160]}"
+            if field not in entry["fields"]:
+                entry["fields"].append(field)
 
     lines = []
-    for i, (source, entry) in enumerate(by_source.items(), 1):
+    shown = list(by_source.items())[:_MAX_DIGEST_SOURCES]
+    for i, (source, entry) in enumerate(shown, 1):
         label = entry["title"] or source.rsplit("/", 1)[-1]
         lines.append(f"[{i}] {label}" + (f" - {entry['url']}" if entry["url"] else ""))
+        for field in entry["fields"][:_MAX_FIELDS_PER_SOURCE]:
+            lines.append(f"    {field}")
         lines.append(f"    ({entry['chunks']} chunk(s)) {entry['head']}")
 
     header = (
         f"{len(docs)} chunks across {len(by_source)} BCIT pages"
+        + (f" (showing {len(shown)})" if len(shown) < len(by_source) else "")
         + (f"; sub-queries issued: {sub_queries}" if sub_queries else "")
     )
     return header + "\n" + "\n".join(lines)
