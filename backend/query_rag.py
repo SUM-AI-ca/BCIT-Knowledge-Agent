@@ -62,6 +62,11 @@ from config import (
     RANKING_CONFIG,
     RERANKER_CANDIDATES,
     RERANK_IDENTITY,
+    RERANK_TIMEOUT_S,
+    RERANK_ATTEMPTS,
+    RERANK_HEDGE_AFTER_S,
+    RERANK_HEDGE_WORKERS,
+    RERANK_HEDGE_ABANDON_S,
     RERANKER_TOP_K,
     MEMORY_WINDOW_K,
     PRICE_GEN_INPUT_PER_M,
@@ -527,6 +532,11 @@ class BCITChatbot:
                 location=RANKING_LOCATION,
                 ranking_config=RANKING_CONFIG,
                 identity=RERANK_IDENTITY,
+                timeout_s=RERANK_TIMEOUT_S,
+                attempts=RERANK_ATTEMPTS,
+                hedge_after_s=RERANK_HEDGE_AFTER_S,
+                hedge_workers=RERANK_HEDGE_WORKERS,
+                hedge_abandon_s=RERANK_HEDGE_ABANDON_S,
             )
             print("Reranker initialized")
         else:

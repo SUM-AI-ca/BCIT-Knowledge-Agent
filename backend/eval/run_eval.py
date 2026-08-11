@@ -48,6 +48,12 @@ SNAPSHOT_KEYS = [
     "GEMINI_MODEL", "REWRITER_MODEL", "JUDGE_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
     "GEMINI_THINKING_BUDGET", "MEMORY_WINDOW_K",
     "USE_HYBRID_SEARCH", "HYBRID_ALPHA", "USE_RERANKING",
+    # RERANKER_MODEL and RERANK_IDENTITY were both missing here, so every
+    # archived run is silent about which ranker produced it — including the
+    # 2026-08 round that adopted identity titles. A default-004 vs fast-004
+    # comparison is unreadable without them.
+    "RERANKER_MODEL", "RERANK_IDENTITY", "RERANK_TIMEOUT_S", "RERANK_ATTEMPTS",
+    "RERANK_HEDGE_AFTER_S",
     "RERANKER_CANDIDATES", "RERANKER_TOP_K", "RERANK_SCORE_THRESHOLD",
     "MIN_CONTEXT_CHUNKS", "CONTEXT_MODE", "NEIGHBOR_RADIUS",
     "CONTEXT_MAX_CHARS", "MULTI_QUERY_ENABLED", "MAX_SUB_QUERIES",

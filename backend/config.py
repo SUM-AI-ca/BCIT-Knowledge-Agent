@@ -247,9 +247,99 @@ MMR_LAMBDA = _env_float("MMR_LAMBDA", 0.87)
 HNSW_EF_SEARCH = 100  # pgvector default 40 would silently cap MMR fetch_k=50
 
 USE_RERANKING = _env_bool("USE_RERANKING", True)
-RERANKER_MODEL = "semantic-ranker-default-004"  # Vertex AI Ranking API
+# Vertex AI Ranking API. `semantic-ranker-fast-004` is the same 004 generation
+# (1024 tokens/record, so RERANK_IDENTITY's `title` still applies) and Google
+# advertises 3x lower latency for it, against `default-004` leading nDCG@5 on
+# BEIR. No absolute latency figures and no records-vs-latency scaling are
+# published for either, so whether the fast tier moves the tail measured below
+# is an open question — env-overridable so the golden sets can answer it
+# instead of a redeploy. Older tiers (`semantic-ranker-default-003`/`-002`)
+# take 512 tokens per record and would silently truncate our 1024-char
+# records.
+RERANKER_MODEL = _env_str("RERANKER_MODEL", "semantic-ranker-default-004")
+# Only `global` is documented for rankingConfigs — the us/eu multi-regions are
+# listed for Agent Search generally but the ranking path is not among them, so
+# this is not a latency lever, whatever the VM's region.
 RANKING_LOCATION = "global"
 RANKING_CONFIG = "default_ranking_config"
+# Deadline for one Ranking API call, and how many times to issue it. 0 / 1 is
+# today's behaviour: the GAPIC transport ships `default_timeout=None` for
+# `rank`, so the call currently has NO deadline at all and the graceful
+# degrade-to-retrieval-order path below it can only fire on an exception,
+# never on slowness.
+#
+# Measured on production LangSmith traces (real user traffic, not the eval
+# harness), 2026-08-09..11: vertex_rerank p50 0.136s — the cheapest stage in
+# the pipeline — against p90 8.19s, p95 27.8s, max 42.8s. The tail is one
+# window: 2026-08-09 05:17-06:32 PDT ran 36/36 calls at <=0.29s, while
+# 2026-08-10 17:45-18:10 PDT ran 6/6 at 6.6-30.1s. Server-side, and none of
+# ours:
+#   - other spans in the SAME request stayed normal (controller LLM 1.6s,
+#     rewriter 1.3s, BM25 0.52s, dense 0.47s, generation 2.79s, against a
+#     30.1s rerank) — so not VM contention;
+#   - slowness repeats WITHIN a request ([30.1, 12.7], [9.4, 6.6, 11.7]), so
+#     not a cold channel or a token refresh;
+#   - 3-hop turns on the fast day scored [0.108, 0.117, 0.137], same code and
+#     same call shape as the 3-hop turn that scored [9.4, 6.6, 11.7];
+#   - latency is flat against candidate count over 1,962 archived eval calls
+#     (25 records p50 0.191s, 40 records p50 0.209s), so pool size is a
+#     quality lever only — shrinking it buys no latency;
+#   - the API's published design target is under 100 ms, and the quota (500
+#     requests/min/project) is ~2,000x our rate and fails rather than delays.
+# No public incident covered the window; a project-scoped one would only show
+# in Personalized Service Health.
+#
+# So the fix is not to rerank less, it is to stop paying an unbounded wait for
+# it. At 2.5s the deadline sits 25x above the published target and ~18x above
+# the observed warm p95, and a second attempt usually lands on a healthy
+# backend; if both miss, `_select_from_pool` keeps its existing fallback and
+# the turn answers on fusion order. Bounds the damage at ~5s instead of 43s.
+# Note the trade: a fired deadline costs that turn its semantic ranking, which
+# RERANK_SKIP_CONSENSUS's comment already records as measurably lossy on
+# multi-page questions — which is why the retry exists rather than a bare
+# timeout. Note also that `n_rerank_calls` counts turns, not attempts, so a
+# retried turn may be billed twice while the cost line reports one call.
+RERANK_TIMEOUT_S = _env_float("RERANK_TIMEOUT_S", 0.0)
+RERANK_ATTEMPTS = _env_int("RERANK_ATTEMPTS", 1)
+
+# Hedged request: if the call has not answered within RERANK_HEDGE_AFTER_S,
+# issue an identical second one and take whichever lands first. 0 disables.
+#
+# This is the mitigation the deadline above cannot be: it never degrades a
+# turn's ranking. A deadline trades ranking quality for latency on every slow
+# call; a hedge just takes the faster of two identical answers.
+#
+# It works because the stall is substantially per-request, not a uniformly
+# slow service. Probed live during the 2026-08-11 degradation (synthetic
+# records, no corpus), 10 pairs of identical requests issued concurrently:
+#     single request    p50 2.367s   under 1s:  7/20   max 10.932s
+#     best-of-2         p50 0.615s   under 1s:  6/10   max  4.952s
+# i.e. ~3.8x on the median and ~2.2x on the worst case. It is a real
+# improvement, NOT a cure: 3 of the 10 pairs had both twins slow (faster leg
+# still 2.8-5.0s), so a degraded window stays degraded, just less. An earlier
+# 3-pair probe suggested a fast twin every time; 10 pairs did not hold that up.
+#
+# The same probing killed both alternatives, which is why this is the lever:
+# `semantic-ranker-fast-004` was no better under the degradation (p50 17.6s
+# against default's 10.3s, plus a ServiceUnavailable), and record count was
+# irrelevant live (5 -> 0.135s, 25 -> 8.733s, 40 -> 0.194s) — matching the
+# archive and ruling out any candidate-count remedy for good.
+#
+# Cost is bounded and demand-shaped: at 0.4s the trigger sits ~3x above the
+# measured warm p50 (0.136s), so healthy turns never hedge and never pay. A
+# degraded turn pays one extra billed query (~$0.001). At most two requests
+# are ever in flight — the hedge fires once, not per stall.
+RERANK_HEDGE_AFTER_S = _env_float("RERANK_HEDGE_AFTER_S", 0.0)
+# Threads for the hedge. Each concurrent turn can hold two, and a hung request
+# holds its thread until HEDGE_ABANDON_S releases it.
+RERANK_HEDGE_WORKERS = _env_int("RERANK_HEDGE_WORKERS", 8)
+# Hygiene, not policy: the deadline on BOTH hedged attempts, so a hung one
+# eventually gives its thread back instead of pinning it forever (the GAPIC
+# transport would otherwise wait without limit). Set far above anything
+# observed — the worst measured call was 30.1s — because by the time this
+# fires the winner has long since been returned and nothing about the answer
+# depends on it. It is not RERANK_TIMEOUT_S and does not degrade a turn.
+RERANK_HEDGE_ABANDON_S = _env_float("RERANK_HEDGE_ABANDON_S", 60.0)
 # Send each candidate's page identity (title + filename keywords + category)
 # in the Ranking API's `title` field. Without it the ranker scores raw chunk
 # text, so a boilerplate section is indistinguishable from the same section of

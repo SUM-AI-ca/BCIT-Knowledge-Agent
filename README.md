@@ -383,6 +383,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Person-scoped retrieval | `PERSON_SCOPED_RETRIEVAL=true`, `PERSON_SCOPED_K=2`, `PERSON_SCOPED_MAX_SOURCES=12` | instructor name → the sources that name them **as the instructor** (1,291 indexed from the outline `Instructor Details` table and the course page `### Instructor` heading). Approval signatures and program-page coordinator lists are excluded on purpose: they name the same people in a *different relation*, and they outnumber the instructor mentions 15:1, which is why "what does X teach" used to answer with the reviewing role. Breadth over depth (k is per source across many sources — the mirror of the course case, which is one entity over two sources). Adds +0.07 s to startup |
 | Rerank identity | `RERANK_IDENTITY=true` | page identity (title + filename keywords + category) rides in the Ranking API's `title` field. Without it the ranker scores identity-blind text and prefers a *sibling* course's identical section — it ranked COMP 4870's evaluation table 0.859 against 0.258 for the asked-about course's own chunks. Ships as a pair with the row above: **neither flag alone fixes anything the other does not** |
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
+| Rerank latency guard | `RERANK_HEDGE_AFTER_S=0.4` — set in the VM `.env`; the code default is `0` (off) | **hedged request**: if the Ranking API has not answered in 0.4 s, an identical second call is issued and whichever lands first is used. Unlike a deadline it cannot cost a turn its ranking — the loser is a duplicate answer, not a fallback — which is why the timeout stays off. The trigger sits ~3x above the warm p50 (0.136 s), so healthy turns never hedge and never pay; a hedged turn costs one extra billed query (~$0.001). Measured against the live API during the 2026-08-11 degradation, 10 concurrent pairs: single request p50 2.367 s / max 10.932 s → best-of-2 p50 **0.615 s** / max **4.952 s**. A mitigation, not a cure: 3 of the 10 pairs had *both* twins slow. See the Ranking API tail gotcha below |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
 | Generation | `GEMINI_MODEL` | `gemini-3.5-flash-lite`, temp 0.05, max 2048, thinking 0 |
 | Response language | `RESPONSE_LANGUAGE=match` | generation replies in the **student's** language while retrieval + rewrite stay English (the corpus is English; the rewriter's translation is load-bearing). Facts are translated from the English context, but program/course names, codes, URLs, and the literal "Sources" heading are kept as-is. `en` forces English (legacy) |
@@ -885,6 +886,32 @@ Environment quirks that cost time once — don't rediscover them:
   later tracing-on run was also fine). Production on GCE is unaffected.
   Run local smoke tests with `LANGSMITH_TRACING=false` first; only add
   tracing once the no-tracing path is green.
+- **The Ranking API has an undeclared tail, and none of the obvious knobs
+  touch it.** `vertex_rerank` normally runs at p50 **0.136 s** in production —
+  the cheapest stage in the pipeline, and inside Google's published sub-100 ms
+  design target. On 2026-08-10/11 every real-traffic call ran **6.6–30.1 s**
+  (7 of 7 over 75 minutes), turning a routine question into 23 s. Everything
+  ruled out, each by measurement rather than reasoning:
+  *not load* — the 16 s call carried the minimum 25-record pool, and a live
+  probe scored 5 records in 0.135 s, 25 in 8.733 s, 40 in 0.194 s;
+  *not the VM* — controller 1.30 s, rewriter 1.18 s, BM25 1.48 s, dense
+  0.85 s, generation 1.78 s in the **same request** as a 15.98 s rerank;
+  *not a cold channel or token refresh* — slowness repeats within one turn
+  (`[30.1, 12.7]`, `[9.4, 6.6, 11.7]`);
+  *not the model* — `semantic-ranker-fast-004`, which Google advertises at 3x
+  lower latency, measured **worse** under the degradation (p50 17.6 s against
+  default's 10.3 s, plus a `ServiceUnavailable`);
+  *not our code* — `reranker.py` last changed 2026-08-08, and 3-hop turns two
+  days earlier scored `[0.108, 0.117, 0.137]`.
+  It is per-request backend routing, which is why the hedge above is the
+  mitigation. Two things follow operationally. **Shrinking the candidate pool
+  is never the answer** — latency is flat against record count across 1,962
+  archived calls (25 → p50 0.191 s, 40 → p50 0.209 s), so it trades quality
+  for nothing. And **the public status dashboard will not tell you**: it read
+  "no broad severe incidents" throughout. Personalized Service Health is the
+  place to look (now enabled on the project); it does carry Vertex AI Search
+  events for us — 2026-06-17 and 2026-07-24 — so an empty window there is a
+  real negative, not a blind spot.
 - **A restarted Cloud SQL proxy must postdate ADC reauth.** The proxy caches
   credentials from launch: after `gcloud auth application-default login`,
   an already-running proxy keeps failing (`server closed the connection
@@ -909,7 +936,7 @@ Everything deployed/configured outside this repo, in one place:
 | Cloudflare | zone `bcitai.ca`: A `@` → 34.187.152.133 (proxied), Origin Rule port→8000, SSL Flexible |
 | LangSmith | project `bcit-chatbot` ([smith.langchain.com](https://smith.langchain.com)) — tracing on since 2026-06-10, enabled purely via env vars |
 | Secrets | `backend/.env` (`PG_CONNECTION`, `LANGSMITH_API_KEY`) — local + VM copies, never committed. Google Cloud access is ADC only (VM service account in production), so there is no Google Cloud key in this file |
-| Rollback assets | **Corpus/embeddings**: the `bcit_docs_202606` collection (identity-blind predecessor, ~2.1 GB of the 4.2 GB database). **Runtime**: `USE_GRAPH=false` in the VM `.env` disables the controller graph without a redeploy; `/opt/bcit-rag/backend/.venv-old` and local `backend/.venv310` are the pre-3.13 dependency sets. The retired FAISS artefacts and the 2024-09 corpus were deleted in the August 2026 cleanup — a corpus rollback now means a re-crawl |
+| Rollback assets | **Corpus/embeddings**: the `bcit_docs_202606` collection (identity-blind predecessor, ~2.1 GB of the 4.2 GB database). **Runtime**: `USE_GRAPH=false` in the VM `.env` disables the controller graph without a redeploy; `RERANK_HEDGE_AFTER_S` likewise — it is set to `0.4` in the VM `.env` only (the code default is `0`, i.e. off), so deleting the line restores the single-request path; `/opt/bcit-rag/backend/.venv-old` and local `backend/.venv310` are the pre-3.13 dependency sets. The retired FAISS artefacts and the 2024-09 corpus were deleted in the August 2026 cleanup — a corpus rollback now means a re-crawl |
 
 `www` CNAME added 2026-06-11 (`www` → `bcitai.ca`, proxied) — verified:
 `https://www.bcitai.ca/health` and `/chat` both 200 through the same Origin

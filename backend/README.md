@@ -10,7 +10,7 @@ runbooks live in the [repository README](../README.md).
 | `graph.py` | LangGraph controller (`USE_GRAPH`) — one LLM node serving route, coverage gate and orchestration, plus the two guards that must be code rather than prompt |
 | `session_memory.py` | Windowed conversation memory; replaces `langchain.memory`, removed in langchain 1.x. Window is k **turns**, not k messages |
 | `hybrid_retriever.py` | BM25 + pgvector with RRF fusion, entity-scoped arm |
-| `reranker.py` | Vertex AI Ranking API client |
+| `reranker.py` | Vertex AI Ranking API client, with the hedged-request guard (`RERANK_HEDGE_AFTER_S`) against the service's undeclared multi-second tail |
 | `embeddings.py` | Vertex AI embedding wrapper |
 | `config.py` | Every tunable, with the measurement that set it |
 | `response_cache.py` | First-turn exact-match answer cache |
