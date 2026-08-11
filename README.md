@@ -928,7 +928,7 @@ Everything deployed/configured outside this repo, in one place:
 | Thing | Value |
 |---|---|
 | Production URL | https://bcitai.ca (chat at `/chat`) |
-| GitHub | `SUM-AI-ca/bcit-RAG-chatbot` (private; moved from `jp-ml/`) |
+| GitHub | `SUM-AI-ca/BCIT-Knowledge-Agent` (private; renamed from `SUM-AI-ca/bcit-RAG-chatbot` with the August 2026 product rename, which itself moved from `jp-ml/`). GitHub still redirects the old path, so a stale `origin` keeps working and only warns — worth running `git remote set-url` anyway |
 | GCP project | `wine-agent-jh-2026` |
 | VM | `bcit-rag-vm`, us-west1-b, **e2-medium** (resized from e2-standard-2 2026-06-18), **34.187.152.133 (static, reservation `bcit-rag-ip`)**, firewall: tcp:8000 from **Cloudflare IPv4 ranges only** (rule `allow-bcit-chat`, tag `bcit-rag`, locked down 2026-06-12 — debug via `gcloud compute ssh` + `curl localhost:8000`, direct IP times out) |
 | Cloud SQL | `bcit-rag-pg` (us-west1), db `ragdb`, user `raguser`, pgvector |
