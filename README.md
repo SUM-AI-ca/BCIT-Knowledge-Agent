@@ -24,7 +24,7 @@ that architecture pushed back. See
 | Sparse retrieval | In-process BM25 (`rank_bm25`) |
 | Rank fusion | Reciprocal Rank Fusion (alpha 0.48, k=60) |
 | Reranker | Vertex AI Ranking API (`semantic-ranker-default-004`) |
-| LLM | `gemini-3.5-flash-lite` (generation) + `gemini-3.6-flash` (query rewriter) via LangChain `ChatVertexAI` |
+| LLM | `gemini-3.5-flash-lite` (generation) + `gemini-3.7-flash` (query rewriter) via LangChain `ChatGoogleGenerativeAI` (`vertexai=True`, ADC) |
 | Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
 | Hosting | GCE `e2-medium` VM + Cloudflare (DNS, TLS, port routing) |
@@ -45,8 +45,8 @@ that architecture pushed back. See
    evidence and the decision is the route, later iterations see the evidence
    digest and the decision is the gate.
 1. **Rewrite + decompose** — one schema-constrained JSON call per turn
-   (`REWRITER_MODEL=gemini-3.6-flash`, temperature 0, thinking 0, ~430
-   tokens) returns a standalone question (pronouns resolved from history)
+   (`REWRITER_MODEL=gemini-3.7-flash`, temperature 0, thinking `low`, ~430
+   visible tokens plus thinking) returns a standalone question (pronouns resolved from history)
    plus 1–4 self-contained sub-queries. The rewriter deliberately runs on a
    stronger model than generation: sub-query quality drives retrieval
    (benchmark: hit-rate 0.929 with a lite rewriter vs 0.963 with 3.5-flash). Single questions yield one sub-query;
@@ -119,7 +119,7 @@ that architecture pushed back. See
    [Implicit prompt caching](#implicit-prompt-caching-what-was-actually-observed);
    per-query cost is cut by the first-turn response cache instead),
    `{question_parts}` enumerating multipart sub-questions,
-   `max_output_tokens=2048` with `thinking_budget=0` (see gotchas — thinking
+   `max_output_tokens=2048` with `thinking_level="minimal"` (see gotchas — thinking
    counts against the cap).
 
 Answer language: retrieval and the rewrite always run in **English** (the
@@ -324,10 +324,21 @@ gotchas).
 > configuration. They are left as measured rather than restated for models that
 > never ran. The quality columns should carry over closely; the `$/query` column
 > does not — flash-lite output went $1.50 → $2.50/M while the rewriter went
-> $9.00 → $7.50/M. Only **row 5 is the shipping configuration**, measured on the
-> current pair with the corrected scorer. The cost shown live under each answer
+> $9.00 → $7.50/M. Row 5 was the shipping configuration when it was measured,
+> on that pair, with the corrected scorer. The cost shown live under each answer
 > is computed from `config.py`'s current prices and is accurate; rows 0-4 are
 > historical. Re-run `eval/run_eval.py --sleep 2 --retries 2` to refresh.
+>
+> **Every row on this table now predates the shipping configuration.** On
+> 2026-08-14 the rewriter moved `gemini-3.6-flash` → `gemini-3.7-flash` and the
+> chat layer moved `ChatVertexAI` → `ChatGoogleGenerativeAI`. Generation and the
+> controller did not move and stay on `gemini-3.5-flash-lite`, so the retrieval
+> columns are the least affected. Two things do move and are **not** carried
+> over here: the rewriter can no longer run with thinking off (3.7-flash's floor
+> is `low`), so every turn now pays rewriter thinking tokens at output rate; and
+> the rewriter's price is 3.7-flash's introductory $0.75/$3.75 per M, which
+> reverts to $1.50/$7.50 on 2027-01-01. No row below has been restated for that
+> pair — re-run the golden sets to get one that has.
 
 The v2 messy-query set (acronyms, typos, Korean — created in round 2) tells
 the second half of the story:
@@ -375,7 +386,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Controller graph | `USE_GRAPH=true`, `GRAPH_MODEL=gemini-3.5-flash-lite`, `GRAPH_MAX_HOPS=3`, `GRAPH_ROUTER_MODE=node` | one LangGraph node, one JSON contract, serving route + coverage gate + orchestration. Fires ~1.9 times per turn (2,552 in / 134 out tokens mean on v3). The lite tier is not a cost compromise: 3.6-flash bought v1 url 0.9917 vs 0.9750 for +133% cost and **lost** on rough phrasings (0.633 vs 0.733). Two guards live in code rather than the prompt — a hop needs a concretely-named `missing`, and the cap is enforced on the graph edge — because a prompt states a preference and only code states a requirement |
 | Evidence digest | `GRAPH_DIGEST_CHARS=400` | what the gate reads instead of the context: page identity plus the outline `Label \| value` fields (`Prerequisite(s)` on 3,258 of 3,262 outlines, `Course Credits` on 3,171). Without those lines the controller re-requested prerequisites it had already retrieved and hit the hop cap — the digest's head-of-chunk excerpt did not happen to contain the answering line |
 | Hop context budget | `GRAPH_HOP_TOP_K=20`, `GRAPH_HOP_CONTEXT_MAX_CHARS=48000` | applied only on turns that took a hop. The chunk count alone would be a **no-op**: measured `context_chars` is p50 22,276 / max 23,900 against the 24,000 cap, so the assembler is already dropping neighbor expansion to fit. The char cap is what binds |
-| Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.6-flash`, temp 0, JSON schema, thinking 0 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it) |
+| Rewrite + decompose | `REWRITER_MODEL` | `gemini-3.7-flash`, temp 0, JSON schema, thinking `low`, max 2048 — runs on **every** turn (`REWRITE_SKIP_SIMPLE=false`: the v2 eval showed raw acronym/typo/non-English queries collapse without it). `low` is 3.7-flash's floor, not a tuning choice: it has no thinking-off level, which is why the cap moved 512 → 2048 |
 | Embeddings | `PG_COLLECTION=bcit_docs_202606da` | `gemini-embedding-001`, 1536-dim MRL, corpus embedded as `"title (category). chunk"` — stored text untouched; shares `documents_202606.pkl` with BM25 (chunks byte-identical) |
 | Retrieval (per sub-query) | dense / sparse | pgvector HNSW MMR (λ 0.87, fetch 50) + in-process BM25, RRF α 0.48 / k 60 |
 | BM25 index | `BM25_INDEX_AUG=true` | vectorizer fit on `title + category + filename keywords + URL slug + text`; served documents untouched |
@@ -385,7 +396,7 @@ The complete live setup, with every value env-overridable for rollback:
 | Rerank | `RERANK_MODE=pooled`, `RERANK_SKIP_CONSENSUS=0.0` | one `semantic-ranker-default-004` call on **every** turn over the merged pool (≤100 records = 1 billed query); per-sub-query coverage quota ≥2. The round-2 consensus skip is retired: identity embeddings inflate arm agreement and fusion-only selection loses facts on multi-page questions |
 | Rerank latency guard | `RERANK_HEDGE_AFTER_S=0.4` — set in the VM `.env`; the code default is `0` (off) | **hedged request**: if the Ranking API has not answered in 0.4 s, an identical second call is issued and whichever lands first is used. Unlike a deadline it cannot cost a turn its ranking — the loser is a duplicate answer, not a fallback — which is why the timeout stays off. The trigger sits ~3x above the warm p50 (0.136 s), so healthy turns never hedge and never pay; a hedged turn costs one extra billed query (~$0.001). Measured against the live API during the 2026-08-11 degradation, 10 concurrent pairs: single request p50 2.367 s / max 10.932 s → best-of-2 p50 **0.615 s** / max **4.952 s**. A mitigation, not a cure: 3 of the 10 pairs had *both* twins slow. See the Ranking API tail gotcha below |
 | Context | `NEIGHBOR_RADIUS=2`, `CONTEXT_MAX_CHARS=24000` | small-to-big neighbor expansion from the in-process ordinal index, render-and-shrink cap |
-| Generation | `GEMINI_MODEL` | `gemini-3.5-flash-lite`, temp 0.05, max 2048, thinking 0 |
+| Generation | `GEMINI_MODEL` | `gemini-3.5-flash-lite`, temp 0.05, max 2048, thinking `minimal` (this model's own default, and the exact equivalent of the `thinking_budget=0` it ran at before 2026-08-14) |
 | Response language | `RESPONSE_LANGUAGE=match` | generation replies in the **student's** language while retrieval + rewrite stay English (the corpus is English; the rewriter's translation is load-bearing). Facts are translated from the English context, but program/course names, codes, URLs, and the literal "Sources" heading are kept as-is. `en` forces English (legacy) |
 | Memory | `MEMORY_WINDOW_K=5` | per-session window; history stores answers Sources-stripped, capped 1500 chars |
 | Server | `CHAT_TIMEOUT_S=90`, `WORKER_THREADS=4`, `MAX_MESSAGE_CHARS=2000` | request deadline → 504 (the timeout frees the request, not the uncancellable worker thread — the extra workers are the backstop), 4 IO-bound chat workers, input cap → 422 |
@@ -539,7 +550,7 @@ config, and had to be rerun in full.
 
 `--judge` adds `judge_faithfulness` / `judge_completeness` /
 `judge_unsupported_claims` per case and the corresponding means to the
-aggregate (`JUDGE_MODEL=gemini-3.6-flash`, schema-constrained JSON, graded
+aggregate (`JUDGE_MODEL=gemini-3.7-flash`, schema-constrained JSON, graded
 strictly against the retrieved passages). Substring fact recall stays the
 headline metric — the judge complements it by catching paraphrases the
 substring match misses and by flagging claims the context never contained.
@@ -717,7 +728,22 @@ A decision record for future development — each of these was deliberate:
    model-serving from the deployment surface (no weights to ship, no serving
    runtime to patch, no capacity planning per model swap) and made the
    `3.1-flash-lite → 3.5-flash-lite` and `3.5-flash → 3.6-flash` moves
-   configuration changes rather than migrations.
+   configuration changes rather than migrations. `3.6-flash → 3.7-flash`
+   (2026-08-14) was the first that was **not**, and the reason is worth
+   recording: 3.7-flash configures reasoning with a `thinking_level` enum
+   instead of `thinking_budget`, and `langchain-google-vertexai` 3.2.4 (the
+   latest release) has no such parameter — nor does the `aiplatform`
+   `ThinkingConfig` proto it builds `GenerationConfig` from. The model move
+   therefore forced the client move. `ChatVertexAI` was already deprecated
+   since 3.2.0 and is removed in 4.0.0, with `ChatGoogleGenerativeAI` named as
+   its replacement, so the migration was owed regardless; 3.7-flash only set
+   the date. See "Migrating the chat layer" below for what it cost.
+   Only the **chat** calls moved: `VertexAIEmbeddings` stays on
+   `langchain-google-vertexai` (that class is not deprecated), because the
+   embedding path is regional (`us-central1`, unlike chat's `global`), enforces
+   a one-instance-per-request limit this repo works around by hand, and any
+   change to it re-opens the corpus. Two Google packages in
+   `requirements.txt` is the deliberate outcome, not an oversight.
 2. **`gemini-embedding-001` at 1536-dim MRL truncation.** pgvector's HNSW index
    supports ≤ 2000 dims, so `gemini-embedding-001` (3072 native) is truncated to
    1536 via MRL. `gemini-embedding-2` (multimodal, GA 2026-04) was A/B-tested
@@ -767,8 +793,10 @@ A decision record for future development — each of these was deliberate:
     cost (`RERANK_MODE=per_subquery` exists as the comparison flag).
 14. **Decompose on every turn.** The old history-only rewrite skipped turn 1,
     missing first-turn multipart questions. The merged rewrite+decompose
-    call is ~430 tokens with thinking 0 — cheap enough to always run, and
-    single questions short-circuit back to full-width legacy retrieval.
+    call is ~430 visible tokens — cheap enough to always run, and
+    single questions short-circuit back to full-width legacy retrieval. It ran
+    at thinking 0 until 2026-08-14; on 3.7-flash the floor is `low`, so "cheap"
+    now carries a thinking charge that has not been re-measured.
 15. **Page identity has to be injected at all three ranking stages.** The
     corpus is templated, so a chunk's body is often not enough to tell which
     page it belongs to. Each stage needed the identity added separately and
@@ -785,7 +813,45 @@ A decision record for future development — each of these was deliberate:
 16. **Thinking off for generation.** This is an extraction-and-summarize
     workload over provided context: eval measured model-default thinking as
     strictly worse (recall 0.852 vs 0.877, p95 2.2×, ~900 thinking tokens
-    billed per query).
+    billed per query). Still true and still in force: generation runs on
+    `gemini-3.5-flash-lite` at `thinking_level="minimal"`, which is that
+    model's own default and the exact equivalent of the `thinking_budget=0`
+    this decision was measured at. The finding does **not** survive on
+    3.7-flash, which has no off setting — one reason generation did not move.
+
+### Migrating the chat layer (2026-08-14)
+
+`ChatVertexAI` → `ChatGoogleGenerativeAI(vertexai=True)`, and the rewriter and
+judge `gemini-3.6-flash` → `gemini-3.7-flash`. One change, not two: 3.7-flash
+takes a `thinking_level` enum instead of `thinking_budget`, and no release of
+`langchain-google-vertexai` exposes it. Generation and the controller stayed on
+`gemini-3.5-flash-lite`. Same Vertex endpoints, same ADC, no API key anywhere.
+
+What actually had to change, beyond the import:
+
+| | Before (`ChatVertexAI`) | After (`ChatGoogleGenerativeAI`) |
+|---|---|---|
+| Backend selection | implicit in the class | `vertexai=True` **explicitly**. Left off, the class infers a backend (env var → credentials → project → else the public Gemini Developer API), so a blank `GEMINI_PROJECT` would silently route off Vertex and away from the VM's service account |
+| Reasoning | `thinking_budget=0` | `thinking_level`: `minimal` for the two lite calls, `low` for the two 3.7-flash calls. In langchain-google-genai 4.3.x this field is really named `reasoning_effort` (LangChain's cross-provider name) and `thinking_level` is a pydantic **alias** kept because it is Gemini's own name. Both work as kwargs and both read the value back; this repo uses `thinking_level` to match Google's docs, so do not be alarmed when `model_fields` shows only `reasoning_effort` |
+| Structured output | `response_schema` in proto spelling (`"OBJECT"`/`"STRING"`/`"ARRAY"`) | the same schemas as **JSON Schema** (`"object"`/`"string"`/`"array"`); the class forwards them as the API's `response_json_schema` |
+| Streaming usage | one total, on the final chunk | a **delta per chunk** — see the gotcha; this is the one that fails silently |
+| Model kwarg | `model_name=` accepted (`eval/person_lookup.py`) | `model=` only |
+
+What did **not** change: `usage_metadata` keys (`input_tokens`, `output_tokens`,
+`output_token_details.reasoning`) and `response_metadata["finish_reason"]`
+(`STOP`/`MAX_TOKENS`) are identical, so the cost math and the truncation warning
+needed no edits beyond the streaming fold. `temperature` is kept and passed
+explicitly on every call even though Gemini 3 ignores it: the field is not
+nullable on this class and defaults to **1.0** if omitted, so dropping it would
+be the riskier edit, not the cleaner one.
+
+**The one real behavior change** is that the rewriter can no longer run with
+thinking off. 3.7-flash accepts only `low`/`medium`/`high`; `minimal` returns an
+error. Every turn now pays rewriter thinking tokens, billed at output rate and
+counted against `REWRITE_MAX_OUTPUT_TOKENS`, which is why that cap moved
+512 → 2048. The 2048 is deliberate headroom, **not** a measured figure — check
+`finish_reason` and the reasoning token count on a real run before tightening
+it. Nothing in `eval/benchmarks/` has been re-measured on this configuration.
 
 ---
 
@@ -863,12 +929,29 @@ Environment quirks that cost time once — don't rediscover them:
 - **Embedding throughput**: `gemini-embedding-001` takes one text per request;
   the build parallelizes across threads (~20 chunks/s sustained, 100k chunks
   ≈ 1.5 h, no quota errors at that rate).
+- **Streaming usage is a DELTA on `ChatGoogleGenerativeAI`, a total on
+  `ChatVertexAI`.** This is the trap of the 2026-08-14 client migration and it
+  fails silently. `ChatVertexAI` reported the whole turn's tokens once, on the
+  final stream chunk, so `query_stream` kept the last value it saw. The Gemini
+  API returns a running cumulative count on every chunk and
+  langchain-google-genai subtracts the previous one before handing it over, so
+  every chunk carries an increment and the final chunk holds only the last few
+  tokens. Keeping the last value would have under-reported every streamed
+  turn's cost by roughly the entire answer, in a number rendered under each
+  answer and written to `query_usage`. `query_stream` now folds the chunks with
+  `langchain_core.messages.ai.add_usage`, which also sums the nested
+  `output_token_details.reasoning` the cost math reads. The non-streaming path
+  is unaffected: there is one response and its usage is already the total.
 - **Thinking tokens count against `max_output_tokens`.** With the model
   default thinking budget and a 2048 cap, gemini-3.5-flash burned ~1,950
   tokens thinking and truncated every answer at ~80 visible tokens
   (`finish_reason=MAX_TOKENS`, Sources lost). Pair the cap with
-  `GEMINI_THINKING_BUDGET=0`, or raise the cap to ≥ 4096 if re-enabling
-  thinking. The `query_usage` log warns on MAX_TOKENS.
+  `GEMINI_THINKING_LEVEL=minimal`, or raise the cap to ≥ 4096 if re-enabling
+  thinking. The `query_usage` log warns on MAX_TOKENS. Since 2026-08-14 the
+  knob is a `thinking_level` enum (`minimal`/`low`/`medium`/`high`) rather than
+  a token budget, and **`minimal` is not available on 3.7-flash** — that is
+  exactly why `REWRITE_MAX_OUTPUT_TOKENS` had to move 512 → 2048 when the
+  rewriter moved to it.
 - **`RERANK_SCORE_THRESHOLD` undermines the multipart quota.** The threshold
   filter runs during context assembly — after pooled-rerank selection — so it
   strips exactly the lower-scored chunks the coverage quota swapped in
@@ -1174,7 +1257,10 @@ No authentication — the chatbot is public. Input is capped at
 The August 2026 dependency pass moved the whole stack to latest — langchain
 0.3.27 → **1.3.14**, langchain-core → 1.5.3, langchain-google-vertexai 2.1.2 →
 **3.2.4**, numpy 1.26.4 → **2.2.6**, protobuf → 6.33.6, fastapi/starlette/
-uvicorn, plus **langgraph 1.2.10** for the controller graph. Two things broke,
+uvicorn, plus **langgraph 1.2.10** for the controller graph. On 2026-08-14
+**langchain-google-genai 4.3.3** joined it for the chat layer (see "Migrating
+the chat layer"); langchain-google-vertexai stays at 3.2.4 for
+`VertexAIEmbeddings`. Two things broke,
 both silently rather than loudly, and both are worth knowing about:
 
 - `langchain.memory` does not exist in 1.x. Only three of its API points were

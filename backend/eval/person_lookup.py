@@ -108,13 +108,18 @@ ANSWER:
 
 
 def make_extractor():
-    from langchain_google_vertexai import ChatVertexAI
+    from langchain_google_genai import ChatGoogleGenerativeAI
     from config import JUDGE_MODEL, GEMINI_PROJECT, GEMINI_LOCATION
-    llm = ChatVertexAI(
-        model_name=JUDGE_MODEL, project=GEMINI_PROJECT, location=GEMINI_LOCATION,
-        temperature=0, max_output_tokens=1024,
+    # `model`, not `model_name`: ChatGoogleGenerativeAI has no model_name alias.
+    # JUDGE_MODEL is 3.7-flash, whose thinking floor is "low", and those tokens
+    # share max_output_tokens with the JSON body — hence the raised cap.
+    # EXTRACT_SCHEMA was already lowercase JSON Schema, so it needs no change.
+    llm = ChatGoogleGenerativeAI(
+        model=JUDGE_MODEL, project=GEMINI_PROJECT, location=GEMINI_LOCATION,
+        vertexai=True,
+        temperature=0, max_output_tokens=2048,
         response_mime_type="application/json", response_schema=EXTRACT_SCHEMA,
-        thinking_budget=0,
+        thinking_level="low",
     )
 
     def extract(person, answer):

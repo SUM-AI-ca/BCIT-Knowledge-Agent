@@ -46,7 +46,11 @@ RESULTS_DIR = EVAL_DIR / "results"
 # define (yet) are skipped, so this list can stay ahead of the code.
 SNAPSHOT_KEYS = [
     "GEMINI_MODEL", "REWRITER_MODEL", "JUDGE_MODEL", "GEMINI_TEMPERATURE", "GEMINI_MAX_OUTPUT_TOKENS",
-    "GEMINI_THINKING_BUDGET", "MEMORY_WINDOW_K",
+    # The *_THINKING_BUDGET names were replaced by *_THINKING_LEVEL on
+    # 2026-08-14 (3.7-flash configures reasoning with an enum). Both spellings
+    # are listed: the old ones are now skipped as undefined, which is exactly
+    # what keeps archived runs readable next to new ones.
+    "GEMINI_THINKING_BUDGET", "GEMINI_THINKING_LEVEL", "MEMORY_WINDOW_K",
     "USE_HYBRID_SEARCH", "HYBRID_ALPHA", "USE_RERANKING",
     # RERANKER_MODEL and RERANK_IDENTITY were both missing here, so every
     # archived run is silent about which ranker produced it — including the
@@ -59,7 +63,7 @@ SNAPSHOT_KEYS = [
     "CONTEXT_MAX_CHARS", "MULTI_QUERY_ENABLED", "MAX_SUB_QUERIES",
     "MQ_DENSE_K", "MQ_BM25_K", "MQ_CANDIDATES_PER_SUBQUERY", "MQ_POOL_CAP",
     "MQ_MIN_CHUNKS_PER_SUBQUERY", "RERANK_MODE",
-    "REWRITE_MAX_OUTPUT_TOKENS", "REWRITE_THINKING_BUDGET",
+    "REWRITE_MAX_OUTPUT_TOKENS", "REWRITE_THINKING_BUDGET", "REWRITE_THINKING_LEVEL",
     "HISTORY_MAX_ANSWER_CHARS", "STRIP_SOURCES_FROM_HISTORY",
     "RETRIEVAL_TOP_K", "RETRIEVAL_DENSE_K", "RETRIEVAL_BM25_K",
     "PG_COLLECTION",
@@ -211,13 +215,16 @@ def score_case(case, result):
 # metrics: fact_recall undercounts paraphrases, and nothing else measures
 # whether the answer invented claims the context never contained.
 
+# JSON Schema (lowercase types), not the uppercase proto spelling this used to
+# carry: ChatGoogleGenerativeAI forwards response_schema as the API's
+# `response_json_schema`. Fields and required list unchanged.
 JUDGE_SCHEMA = {
-    "type": "OBJECT",
+    "type": "object",
     "properties": {
-        "faithfulness": {"type": "NUMBER"},
-        "completeness": {"type": "NUMBER"},
-        "unsupported_claims": {"type": "ARRAY", "items": {"type": "STRING"}},
-        "notes": {"type": "STRING"},
+        "faithfulness": {"type": "number"},
+        "completeness": {"type": "number"},
+        "unsupported_claims": {"type": "array", "items": {"type": "string"}},
+        "notes": {"type": "string"},
     },
     "required": ["faithfulness", "completeness", "unsupported_claims"],
 }
@@ -284,14 +291,20 @@ def judge_case(judge_llm, question, result):
 
 
 def make_judge(config):
-    from langchain_google_vertexai import ChatVertexAI
-    return ChatVertexAI(
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    # JUDGE_MODEL is 3.7-flash, which has no thinking-off level; "low" is its
+    # floor. The 1024 cap now has to cover those thinking tokens as well as the
+    # JSON verdict, so judged runs are not directly comparable on cost with
+    # archived ones (the quality columns should carry over; the $ column does
+    # not). See eval/benchmarks/ for which runs predate 2026-08-14.
+    return ChatGoogleGenerativeAI(
         model=config.JUDGE_MODEL,
         project=config.GEMINI_PROJECT,
         location=config.GEMINI_LOCATION,
+        vertexai=True,
         temperature=0.0,
-        max_output_tokens=1024,
-        thinking_budget=0,
+        max_output_tokens=2048,
+        thinking_level="low",
         response_mime_type="application/json",
         response_schema=JUDGE_SCHEMA,
     )

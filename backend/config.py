@@ -36,6 +36,27 @@ def _env_opt_int(name, default):
         return None
     return int(raw)
 
+
+# Same None-means-omit contract as _env_opt_int, for the thinking_level enums:
+# None leaves the parameter off the request entirely, so the model applies its
+# own default. "default" is accepted as a spelling of that for readability in
+# eval sweeps (THINKING sweeps used to pass GEMINI_THINKING_BUDGET=none).
+#
+# The values here are passed to ChatGoogleGenerativeAI as `thinking_level`.
+# In langchain-google-genai 4.3.x that is a pydantic ALIAS: the field is really
+# named `reasoning_effort` (LangChain's cross-provider name) and `thinking_level`
+# is kept because it is Gemini's own name for the setting. Both work as
+# constructor kwargs and both read the value back, so `thinking_level` is used
+# throughout this repo to match Google's documentation. Do not be surprised when
+# `model_fields` shows `reasoning_effort` and no `thinking_level`.
+def _env_opt_str(name, default):
+    raw = os.getenv(name)
+    if raw in (None, ""):
+        return default
+    if raw.strip().lower() in ("none", "null", "default"):
+        return None
+    return raw.strip().lower()
+
 # Paths (env-overridable so a fresh corpus can be indexed side by side)
 DATA_DIR = Path(os.getenv("DATA_DIR", "./data"))
 # Versioned with PG_COLLECTION (blue-green): bcit_docs_202606 pairs with
@@ -70,12 +91,21 @@ PG_COLLECTION = os.getenv("PG_COLLECTION", "bcit_docs_202606da")
 # carries over — a lite generator paired with a full-size rewriter — not the
 # specific scores above, which were measured on the older pair and are left
 # as-is in eval/benchmarks/ rather than being restated for models never run.
+#
+# 2026-08-14: the rewriter and judge moved 3.6-flash -> 3.7-flash (GA
+# 2026-08-13), and the whole chat layer moved off ChatVertexAI onto
+# ChatGoogleGenerativeAI. The two changes are one change: 3.7-flash configures
+# reasoning with a thinking_level enum instead of thinking_budget, and
+# langchain-google-vertexai 3.2.4 (the latest release, and deprecated since
+# 3.2.0 in favour of ChatGoogleGenerativeAI) exposes no thinking_level at all.
+# See THINKING LEVELS below for what that costs. Generation and the controller
+# stay on 3.5-flash-lite; only the two full-size calls moved.
 GEMINI_MODEL = _env_str("GEMINI_MODEL", "gemini-3.5-flash-lite")
-REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.6-flash")
+REWRITER_MODEL = _env_str("REWRITER_MODEL", "gemini-3.7-flash")
 # Offline eval only (run_eval.py --judge): scores answer faithfulness and
 # completeness against the retrieved context. Same class as the rewriter —
 # judging is a reading task that lite models measurably do worse.
-JUDGE_MODEL = _env_str("JUDGE_MODEL", "gemini-3.6-flash")
+JUDGE_MODEL = _env_str("JUDGE_MODEL", "gemini-3.7-flash")
 GEMINI_PROJECT = "wine-agent-jh-2026"
 GEMINI_LOCATION = "global"
 GEMINI_TEMPERATURE = 0.05
@@ -121,10 +151,16 @@ RESPONSE_CACHE_TTL_S = _env_int("RESPONSE_CACHE_TTL_S", 86400)
 # number they produce is rendered under every answer, so a model swap without a
 # price swap quotes the user a figure for a model that did not run. The 2026-08
 # move to 3.5-flash-lite / 3.6-flash pushes generation up and rewriting down.
+#
+# CALENDAR ITEM: the rewriter figures below are 3.7-flash's INTRODUCTORY price,
+# which Google has published only through 2026-12-31. On 2027-01-01 it reverts
+# to 1.50 / 7.50 (the same numbers 3.6-flash carried, i.e. what these two lines
+# held before 2026-08-14). Put those values back then, or every answer will
+# quote roughly half what the turn actually cost.
 PRICE_GEN_INPUT_PER_M = _env_float("PRICE_GEN_INPUT_PER_M", 0.30)      # gemini-3.5-flash-lite
 PRICE_GEN_OUTPUT_PER_M = _env_float("PRICE_GEN_OUTPUT_PER_M", 2.50)
-PRICE_REWRITE_INPUT_PER_M = _env_float("PRICE_REWRITE_INPUT_PER_M", 1.50)   # gemini-3.6-flash
-PRICE_REWRITE_OUTPUT_PER_M = _env_float("PRICE_REWRITE_OUTPUT_PER_M", 7.50)
+PRICE_REWRITE_INPUT_PER_M = _env_float("PRICE_REWRITE_INPUT_PER_M", 0.75)   # gemini-3.7-flash (intro, to 2026-12-31)
+PRICE_REWRITE_OUTPUT_PER_M = _env_float("PRICE_REWRITE_OUTPUT_PER_M", 3.75)
 PRICE_RERANK_PER_CALL = _env_float("PRICE_RERANK_PER_CALL", 0.001)     # Ranking API $1/1k queries
 PRICE_EMBED_PER_QUERY = _env_float("PRICE_EMBED_PER_QUERY", 0.00001)   # $0.15/M x ~60 tokens
 
@@ -412,13 +448,27 @@ HYDE_MODE = _env_str("HYDE_MODE", "off")
 # rerank-skip consensus rate. Net saving when on is only ~$0.0002/query.
 REWRITE_SKIP_SIMPLE = _env_bool("REWRITE_SKIP_SIMPLE", False)
 REWRITE_SKIP_MAX_WORDS = _env_int("REWRITE_SKIP_MAX_WORDS", 12)
-REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 512)
-REWRITE_THINKING_BUDGET = _env_int("REWRITE_THINKING_BUDGET", 0)
+# Raised 512 -> 2048 on 2026-08-14, forced by the rewriter's move to
+# 3.7-flash. Thinking tokens count against max_output_tokens, and 3.7-flash
+# cannot be told not to think (see REWRITE_THINKING_LEVEL), so the old 512 cap
+# had no room left for the ~430-token JSON body once "low" thinking is charged
+# against it. 2048 is headroom chosen to make truncation impossible, NOT a
+# measured figure: log finish_reason and the reasoning token count on a real
+# run, then tighten it.
+REWRITE_MAX_OUTPUT_TOKENS = _env_int("REWRITE_MAX_OUTPUT_TOKENS", 2048)
+# "low" is the FLOOR on 3.7-flash, not a choice. 3.7-flash accepts only
+# low/medium/high and returns an error for "minimal", so the thinking-0 tuning
+# this call carried from 3.5-flash through 3.6-flash cannot be reproduced on
+# it. This is the one place the 2026-08-14 migration changes runtime behavior:
+# every turn now pays for some rewriter thinking, billed at output rate.
+REWRITE_THINKING_LEVEL = _env_str("REWRITE_THINKING_LEVEL", "low")
 # Thinking tokens are billed as output AND count against max_output_tokens —
 # with the model default (~2k thinking) a 2048 cap truncates every answer
-# (observed: finish=MAX_TOKENS with 80 visible tokens). 0 pairs with the 2048
-# cap; the eval sweep compares None (+4096 cap) for answer quality.
-GEMINI_THINKING_BUDGET = _env_opt_int("GEMINI_THINKING_BUDGET", 0)
+# (observed: finish=MAX_TOKENS with 80 visible tokens). "minimal" pairs with
+# the 2048 cap; the eval sweep compares None (model default, +4096 cap) for
+# answer quality. GEMINI_MODEL is 3.5-flash-lite, whose own default IS
+# "minimal", so this is exactly the thinking_budget=0 behavior it replaced.
+GEMINI_THINKING_LEVEL = _env_opt_str("GEMINI_THINKING_LEVEL", "minimal")
 
 # --- Controller graph (LangGraph) -------------------------------------------
 # One LLM node decides, each iteration, whether the BCIT corpus is needed at
@@ -463,7 +513,12 @@ GRAPH_TEMPERATURE = _env_float("GRAPH_TEMPERATURE", 0.0)
 # silently stops controlling is the worst failure mode available to it, so the
 # cap has headroom and the prompt bounds `reason` explicitly.
 GRAPH_MAX_OUTPUT_TOKENS = _env_int("GRAPH_MAX_OUTPUT_TOKENS", 1024)
-GRAPH_THINKING_BUDGET = _env_int("GRAPH_THINKING_BUDGET", 0)
+# "minimal" is the thinking_level spelling of the thinking_budget=0 this call
+# has always run at. GRAPH_MODEL stays on 3.5-flash-lite, which supports
+# "minimal" and in fact defaults to it, so the controller is untouched by the
+# 2026-08-14 model move. Keep it that way: the controller fires on every turn
+# and its per-call cost is the design's dominant cost variable.
+GRAPH_THINKING_LEVEL = _env_str("GRAPH_THINKING_LEVEL", "minimal")
 # Hard iteration cap, enforced in code regardless of what the controller asks
 # for. The deterministic prototype of this gate could not fire on a question
 # the corpus cannot answer (no relation in the index -> nothing to ask for);
@@ -616,11 +671,17 @@ RAG_PROMPT_TEMPLATE = RAG_PROMPT_TEMPLATE.replace("__LANGUAGE_RULE__", _LANGUAGE
 # Combined rewrite + decompose (one JSON call per turn, replaces the legacy
 # rewrite when MULTI_QUERY_ENABLED). The schema is enforced server-side via
 # response_schema; the prompt still spells out the rules for quality.
+# Schema dialect note (2026-08-14): these are JSON Schema (lowercase types),
+# not the uppercase proto spelling ("OBJECT"/"STRING"/"ARRAY") they carried
+# under ChatVertexAI. ChatGoogleGenerativeAI sends response_schema through as
+# the API's `response_json_schema` field, which is standard JSON Schema, so the
+# uppercase spelling is no longer valid input. Same constraint, other dialect:
+# the fields, nesting and required lists are unchanged.
 REWRITE_DECOMPOSE_SCHEMA = {
-    "type": "OBJECT",
+    "type": "object",
     "properties": {
-        "standalone_question": {"type": "STRING"},
-        "sub_queries": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "standalone_question": {"type": "string"},
+        "sub_queries": {"type": "array", "items": {"type": "string"}},
     },
     "required": ["standalone_question", "sub_queries"],
 }
@@ -651,7 +712,7 @@ Student's latest message:
 _extra_field_idx = 3
 if MQ_BM25_KEYWORDS:
     REWRITE_DECOMPOSE_SCHEMA["properties"]["bm25_keywords"] = {
-        "type": "ARRAY", "items": {"type": "STRING"},
+        "type": "array", "items": {"type": "string"},
     }
     REWRITE_DECOMPOSE_TEMPLATE = REWRITE_DECOMPOSE_TEMPLATE.replace(
         "\nRules:",
@@ -662,7 +723,7 @@ if MQ_BM25_KEYWORDS:
     )
     _extra_field_idx += 1
 if HYDE_MODE != "off":
-    REWRITE_DECOMPOSE_SCHEMA["properties"]["hyde_passage"] = {"type": "STRING"}
+    REWRITE_DECOMPOSE_SCHEMA["properties"]["hyde_passage"] = {"type": "string"}
     REWRITE_DECOMPOSE_TEMPLATE = REWRITE_DECOMPOSE_TEMPLATE.replace(
         "\nRules:",
         f'\n{_extra_field_idx}. "hyde_passage": one short factual sentence that a BCIT web page answering'
@@ -675,12 +736,12 @@ if HYDE_MODE != "off":
 # no evidence and the decision IS the route; on later iterations it sees the
 # digest and the decision IS the coverage gate. Same contract, different state.
 GRAPH_CONTROLLER_SCHEMA = {
-    "type": "OBJECT",
+    "type": "object",
     "properties": {
-        "action": {"type": "STRING", "enum": ["answer", "refuse", "retrieve"]},
-        "reason": {"type": "STRING"},
-        "queries": {"type": "ARRAY", "items": {"type": "STRING"}},
-        "missing": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "action": {"type": "string", "enum": ["answer", "refuse", "retrieve"]},
+        "reason": {"type": "string"},
+        "queries": {"type": "array", "items": {"type": "string"}},
+        "missing": {"type": "array", "items": {"type": "string"}},
     },
     "required": ["action", "reason"],
 }

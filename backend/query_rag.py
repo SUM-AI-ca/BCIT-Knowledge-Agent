@@ -13,10 +13,11 @@ from collections import Counter
 from typing import List, Optional, Set
 
 from langchain_postgres import PGVector
-from langchain_google_vertexai import ChatVertexAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from sqlalchemy import create_engine
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
+from langchain_core.messages.ai import add_usage
 from session_memory import SessionMemory
 
 try:
@@ -84,10 +85,10 @@ from config import (
     MULTI_QUERY_ENABLED,
     MAX_SUB_QUERIES,
     REWRITE_MAX_OUTPUT_TOKENS,
-    REWRITE_THINKING_BUDGET,
+    REWRITE_THINKING_LEVEL,
     REWRITE_DECOMPOSE_TEMPLATE,
     REWRITE_DECOMPOSE_SCHEMA,
-    GEMINI_THINKING_BUDGET,
+    GEMINI_THINKING_LEVEL,
     MQ_DENSE_K,
     MQ_BM25_K,
     MQ_CANDIDATES_PER_SUBQUERY,
@@ -97,7 +98,7 @@ from config import (
     GRAPH_MODEL,
     GRAPH_TEMPERATURE,
     GRAPH_MAX_OUTPUT_TOKENS,
-    GRAPH_THINKING_BUDGET,
+    GRAPH_THINKING_LEVEL,
     GRAPH_MAX_HOPS,
     GRAPH_HOP_TOP_K,
     GRAPH_HOP_CONTEXT_MAX_CHARS,
@@ -491,26 +492,36 @@ class BCITChatbot:
         return {"chunks": chunks_by_source, "ordinals": ordinals}
 
     def _initialize_llm(self):
+        # vertexai=True is explicit on purpose. ChatGoogleGenerativeAI picks its
+        # backend by inference when the flag is left off (env var, then
+        # credentials, then project, else the public Gemini Developer API), so a
+        # blank or mistyped project would silently route this app off Vertex and
+        # away from the VM's service-account ADC. Naming the backend removes the
+        # inference. No API key is set anywhere; auth stays ADC-only.
         llm_kwargs = dict(
             model=GEMINI_MODEL,
             project=GEMINI_PROJECT,
             location=GEMINI_LOCATION,
+            vertexai=True,
             temperature=GEMINI_TEMPERATURE,
             max_output_tokens=GEMINI_MAX_OUTPUT_TOKENS,
         )
-        if GEMINI_THINKING_BUDGET is not None:
-            llm_kwargs["thinking_budget"] = GEMINI_THINKING_BUDGET
-        self.llm = ChatVertexAI(**llm_kwargs)
+        if GEMINI_THINKING_LEVEL is not None:
+            llm_kwargs["thinking_level"] = GEMINI_THINKING_LEVEL
+        self.llm = ChatGoogleGenerativeAI(**llm_kwargs)
 
-        # Dedicated rewriter: deterministic, schema-constrained JSON, no
-        # thinking budget — a cheap fixed-shape call that runs every turn.
-        self.rewriter_llm = ChatVertexAI(
+        # Dedicated rewriter: deterministic, schema-constrained JSON, the lowest
+        # thinking the model allows — a cheap fixed-shape call that runs every
+        # turn. REWRITER_MODEL is 3.7-flash, whose floor is "low"; the
+        # thinking-off setting this call used to run at does not exist on it.
+        self.rewriter_llm = ChatGoogleGenerativeAI(
             model=REWRITER_MODEL,
             project=GEMINI_PROJECT,
             location=GEMINI_LOCATION,
+            vertexai=True,
             temperature=0.0,
             max_output_tokens=REWRITE_MAX_OUTPUT_TOKENS,
-            thinking_budget=REWRITE_THINKING_BUDGET,
+            thinking_level=REWRITE_THINKING_LEVEL,
             response_mime_type="application/json",
             response_schema=REWRITE_DECOMPOSE_SCHEMA,
         )
@@ -1249,15 +1260,18 @@ class BCITChatbot:
 
         self._controller_graph_cls = ControllerGraph
         # Same shape as the rewriter: deterministic, schema-constrained JSON,
-        # no thinking budget. It runs at least once on every turn, so its
-        # per-call cost is the design's dominant cost variable.
-        self.controller_llm = ChatVertexAI(
+        # minimal thinking. It runs at least once on every turn, so its
+        # per-call cost is the design's dominant cost variable — which is why
+        # GRAPH_MODEL stayed on the lite tier through the 2026-08-14 move and
+        # can still be told not to think at all.
+        self.controller_llm = ChatGoogleGenerativeAI(
             model=GRAPH_MODEL,
             project=GEMINI_PROJECT,
             location=GEMINI_LOCATION,
+            vertexai=True,
             temperature=GRAPH_TEMPERATURE,
             max_output_tokens=GRAPH_MAX_OUTPUT_TOKENS,
-            thinking_budget=GRAPH_THINKING_BUDGET,
+            thinking_level=GRAPH_THINKING_LEVEL,
             response_mime_type="application/json",
             response_schema=GRAPH_CONTROLLER_SCHEMA,
         )
@@ -1733,11 +1747,19 @@ class BCITChatbot:
             if text:
                 parts.append(text)
                 yield ("delta", text)
-            # Vertex reports usage/finish_reason on the final stream chunk;
-            # keep the last non-empty values seen (missing usage degrades to
-            # zero token counts, never a crash).
+            # Usage must be SUMMED, not overwritten. ChatVertexAI reported the
+            # whole turn's usage once, on the final chunk, so keeping the last
+            # value seen was correct for it. ChatGoogleGenerativeAI does the
+            # opposite: the Gemini API returns a running cumulative count on
+            # every chunk and the integration subtracts the previous one, so
+            # each chunk carries a DELTA and the final chunk holds only the last
+            # few tokens. Overwriting here would have under-reported every
+            # streamed turn's cost by roughly the whole answer. add_usage is
+            # langchain-core's reducer for these dicts and folds the nested
+            # input/output_token_details (where the reasoning count lives) too.
+            # Missing usage still degrades to zero counts, never a crash.
             if getattr(chunk, "usage_metadata", None):
-                usage = dict(chunk.usage_metadata)
+                usage = dict(add_usage(usage or None, chunk.usage_metadata))
             chunk_finish = str(
                 (getattr(chunk, "response_metadata", None) or {}).get("finish_reason", "")
             )
