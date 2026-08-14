@@ -25,10 +25,46 @@ that architecture pushed back. See
 | Rank fusion | Reciprocal Rank Fusion (alpha 0.48, k=60) |
 | Reranker | Vertex AI Ranking API (`semantic-ranker-default-004`) |
 | LLM | `gemini-3.5-flash-lite` (generation) + `gemini-3.7-flash` (query rewriter) via LangChain `ChatGoogleGenerativeAI` (`vertexai=True`, ADC) |
-| Backend | FastAPI + uvicorn (Python 3.10, managed via uv) |
+| Backend | FastAPI + uvicorn (Python 3.13, managed via uv) |
 | Frontend | React 19 + Vite 7 (no router — pathname-based pages) |
 | Hosting | GCE `e2-medium` VM + Cloudflare (DNS, TLS, port routing) |
 | Observability | LangSmith tracing (project `bcit-chatbot`) |
+
+---
+
+## Architecture
+
+![Architecture Diagram](graph.png)
+
+The diagram is generated from [`backend/draw_graph.py`](backend/draw_graph.py) —
+that file is the single place to edit when the architecture changes, and it
+writes both artifacts:
+
+```bash
+.venv/bin/python draw_graph.py   # → graph_mermaid.md + graph.png
+```
+
+Every number the diagram prints is a live default from `config.py`, and the
+script **re-reads config and refuses to write if any of them has moved**. A
+tuning change that is not reflected in the picture fails the build instead of
+shipping a diagram that quietly describes the previous configuration. The
+Mermaid source is kept alongside the PNG in `graph_mermaid.md`, so the diagram
+can be re-rendered or edited at [mermaid.live](https://mermaid.live) without
+re-running the script.
+
+Three things in it are easy to get wrong when reading the code:
+
+- **The rewriter runs *inside* the first retrieval**, not before the router. A
+  `direct` or `refuse` turn never pays for it, and that saving is most of what
+  the route buys.
+- **`answer` and `refuse` share one prompt.** Both skip retrieval and run
+  `direct_prompt`; only the logged `route` label differs. The scope policy lives
+  in that prompt, which is why skipping retrieval does not degrade into
+  answering BCIT questions from the model's own memory.
+- **The controller node is one node, called repeatedly.** Iteration 0 has no
+  evidence, so its decision is the route; later iterations see the evidence
+  digest, so the same call is the coverage gate. One prompt, one JSON contract,
+  three jobs.
 
 ---
 
@@ -1196,6 +1232,9 @@ backend/
   response_cache.py        First-turn exact-match answer cache (in-process TTL/LRU)
   crawl_bcit.py            Corpus crawler (sitemaps + outlines API)
   build_pgvector.py        Indexing job (resumable, collection-versioned)
+  draw_graph.py            Generates ../graph.png + ../graph_mermaid.md; asserts
+                           every number it prints against config.py and fails
+                           the build on drift
   deploy.sh                Deploy backend modules to the VM (see Production)
   drop_old_collection.sh   One-off: drop a retired collection via proxy
   eval/golden_set.jsonl    40-case eval set (facts verified against corpus)
@@ -1368,8 +1407,11 @@ shebang naming its build path — `#!/opt/bcit-rag/backend/.venv-new/bin/python`
 directory that no longer exists. systemd reports it as `Failed to execute
 .../uvicorn: No such file or directory` **even though uvicorn is installed**,
 and the unit crash-loops on `status=203/EXEC`. The venv is also built with
-**uv on Python 3.10**, not `python3 -m venv`: the VM's system python3 is 3.12
-with no `ensurepip`, and the pin is 3.10 regardless. The service
+**uv**, not `python3 -m venv`: the VM's system python3 has no `ensurepip`. The
+interpreter version is **not** hardcoded in the script — it is read from
+`backend/.python-version`, which `--deps` uploads alongside `requirements.txt`,
+so the VM and local venvs cannot drift. That file currently says **3.13**, and
+the 2026-08-14 deploy built on CPython 3.13.13. The service
 serves from the old venv the whole time. Rollback:
 
 ```bash
