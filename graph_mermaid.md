@@ -2,9 +2,9 @@
 config:
   flowchart:
     curve: basis
-    nodeSpacing: 40
-    rankSpacing: 55
-    padding: 12
+    nodeSpacing: 70
+    rankSpacing: 85
+    padding: 16
   themeVariables:
     fontSize: 15px
 ---
@@ -32,26 +32,27 @@ graph TD
     TMO -. "follow-up turns bypass the cache" .-> MEM
     MEM -. "chat_history" .-> CTRL
 
-    %% ── Controller graph · graph.py · USE_GRAPH=true ────────────────────
-    subgraph GRAPH ["Controller graph · LangGraph · one node, one JSON contract, ≤3 hops"]
-        CTRL["controller_llm · gemini-3.5-flash-lite<br/>temp 0 · thinking minimal · max 1,024 out<br/>schema-constrained JSON: action · reason · queries · missing"]
-        DEC{"iteration 0 → the decision IS the route<br/>iteration 1+ → the decision IS the coverage gate"}
-        CONC{"is_concrete(missing)<br/>a hop must name a course code,<br/>program or person — else answer"}
-        CTRL --> DEC
-        DEC -- "hop &gt; 0 · retrieve" --> CONC
-    end
+    %% ── Controller · graph.py · USE_GRAPH=true ──────────────────────────
+    %% One LLM node, then two guards that graph.py enforces in CODE rather
+    %% than asking of the prompt. That distinction is the whole reason the
+    %% gate can be trusted, so the drawing keeps the guards separate.
+    CTRL["controller_llm · graph.py · gemini-3.5-flash-lite<br/>temp 0 · thinking minimal · max 1,024 out<br/>schema-constrained JSON: action · reason · queries · missing<br/>———<br/>ONE node, called once per iteration:<br/>iteration 0 has no evidence → the decision IS the route<br/>iteration 1+ sees the digest → the decision IS the coverage gate"]
 
-    DIRECT["direct_prompt · no retrieval, no Sources<br/>ONE prompt serves both 'answer' and 'refuse' —<br/>only the logged route label differs. The scope policy<br/>lives here, so skipping retrieval never becomes<br/>'answer BCIT questions from memory'"]
-    DEC -- "answer · greetings, capability questions" --> DIRECT
-    DEC -- "refuse · outside BCIT scope" --> DIRECT
-    DEC -- "retrieve" --> RW
-    CONC -- "concrete · hop" --> HOP
-    CONC -- "vague · stop hopping" --> GEN
-    DIRECT --> GEN
+    CONC{"is_concrete(missing)<br/>enforced in graph.py, not in the prompt:<br/>a hop must name a course code, program<br/>or person — a vague 'missing' answers instead"}
+    CAP{"hop cap ≤ 3<br/>enforced on the graph edge"}
 
-    %% ── Rewrite + decompose · runs INSIDE the first retrieval ───────────
+    DIRECT["direct_prompt · no retrieval, no Sources<br/>ONE prompt serves both 'answer' and 'refuse';<br/>only the logged route label differs. The scope<br/>policy lives here, so skipping retrieval never<br/>becomes 'answer BCIT questions from memory'"]
     RW["Rewrite + decompose · gemini-3.7-flash<br/>temp 0 · thinking low · max 2,048 out<br/>schema-constrained JSON<br/>→ standalone question + 1–4 sub-queries<br/>direct/refuse turns never pay for it"]
     HOP["Hop retrieve · top_k 20<br/>context budget 48,000 chars<br/>digest 400 chars/source feeds the next gate"]
+
+    CTRL -- "answer / refuse" --> DIRECT
+    CTRL -- "retrieve · hop 0" --> RW
+    CTRL -- "retrieve · hop 1+" --> CONC
+    CONC -- "concrete" --> CAP
+    CONC -- "vague" --> GEN
+    CAP -- "under cap" --> HOP
+    CAP -- "at cap" --> GEN
+    DIRECT --> GEN
     RW --> FAN
     HOP --> FAN
 
@@ -123,7 +124,7 @@ graph TD
     classDef store fill:#e2e3e5,stroke:#383d41,color:#383d41
     classDef infra fill:#f8d7da,stroke:#721c24,color:#721c24
     classDef edge fill:#d1ecf1,stroke:#0c5460,color:#0c5460
-    class GV,TMO,CACHE,DEC,CONC,FAN gate
+    class GV,TMO,CACHE,CONC,CAP,FAN gate
     class HIT edge
     class CTRL,RW,GEN,DIRECT,EMB llm
     class DENSE,BM,ENT,PER,RRF,POOLM,RR,CTX,HOP retr
